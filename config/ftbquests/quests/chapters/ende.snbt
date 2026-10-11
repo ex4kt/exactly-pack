@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ende"
+	icon: { id: "minecraft:end_stone" }
+	id: "F383CFB030E3E572"
+	order_index: 13
+	quest_links: [ ]
+	title: "&5Das Ende"
+	quests: [
+		{
+			id: "321B1F27ADF0591F"
+			title: "Das Ende"
+			rewards: [{ id: "3006F573DDBE252F", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
+			tasks: [{ id: "9B1D3BF2E1386293", type: "dimension", dimension: "minecraft:the_end", icon: { id: "minecraft:end_stone" } }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["321B1F27ADF0591F"]
+			id: "A7D5304303CC5ADC"
+			title: "Der Enderdrache"
+			rewards: [{ id: "A89496C44D05F1F9", type: "xp_levels", xp_levels: 15 }]
+			tasks: [{ id: "036983CF7B61CBDD", type: "kill", entity: "minecraft:ender_dragon", value: 1L, icon: { id: "minecraft:dragon_head" } }]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

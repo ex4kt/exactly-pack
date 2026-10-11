@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	icon: { id: "minecraft:grass_block" }
+	id: "3B91D8641E159203"
+	order_index: 10
+	quest_links: [ ]
+	title: "&aOverworld"
+	quests: [
+		{
+			id: "B242D9A153407239"
+			title: "Eisen!"
+			rewards: [{ id: "C4391FE25183C077", type: "item", item: { id: "minecraft:bread", count: 12 } }]
+			tasks: [{ id: "7F626B6066B0614A", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B242D9A153407239"]
+			id: "4B737ADC349C885C"
+			title: "Diamanten"
+			rewards: [{ id: "E054A17804C42346", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "C5217662197581AF", type: "item", item: { id: "minecraft:diamond", count: 1 }, count: 5L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B737ADC349C885C"]
+			id: "696F74A495101ACA"
+			title: "Verzauberungstisch"
+			rewards: [{ id: "794BA2DAEA03920E", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
+			tasks: [{ id: "E430F326D0777894", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["696F74A495101ACA"]
+			id: "5629662047E90E8D"
+			title: "Der Creeper-Jaeger"
+			rewards: [{ id: "A8C9E8CC79242FCB", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "5073D90BDF69A008", type: "kill", entity: "minecraft:creeper", value: 5L, icon: { id: "minecraft:gunpowder" } }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5629662047E90E8D"]
+			id: "D89DB31013A29DB8"
+			title: "Der Waechter der Tiefe"
+			rewards: [{ id: "9881560D3BC47B9E", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
+			tasks: [{ id: "0827166D89EAB30E", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

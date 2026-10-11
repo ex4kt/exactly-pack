@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "grundlagen"
+	icon: { id: "minecraft:compass" }
+	id: "27AF029E4518988F"
+	order_index: 1
+	quest_links: [ ]
+	title: "&6Grundlagen"
+	quests: [
+		{
+			description: ["Schritt 1: Druecke M, um die Weltkarte (Xaeros) zu oeffnen.", "Schritt 2: Die Minikarte oben im Bild zeigt dir, wo du bist.", "Tipp: Auf der Karte kannst du Wegpunkte setzen."]
+			id: "FFBF3627AD5229B5"
+			title: "Karte oeffnen"
+			rewards: [{ id: "AD70B601151C9269", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1B8905CD6A6A07B0", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FFBF3627AD5229B5"]
+			description: ["Schritt 1: Halte den Mauszeiger im Inventar ueber ein Item.", "Schritt 2: Druecke R, um zu sehen, wie man es herstellt.", "Schritt 3: Druecke U, um zu sehen, wofuer man es braucht."]
+			id: "40EF884BF81B0279"
+			title: "Rezepte nachschlagen (JEI)"
+			rewards: [{ id: "EB8E9D7BA68A3F34", type: "item", item: { id: "minecraft:bread", count: 4 } }]
+			tasks: [{ id: "3B679BF3502503F2", type: "checkmark" }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40EF884BF81B0279"]
+			description: ["Waystones sind Wegpunkte zum Teleportieren.", "Schritt 1: Baue einen Waystone (siehe JEI).", "Schritt 2: Stelle ihn auf und klicke ihn mit Rechtsklick an. Damit ist er aktiviert.", "Schritt 3: Benutze spaeter einen anderen Waystone, um zu einem aktivierten zu reisen."]
+			id: "9A1B7402C064BEC8"
+			title: "Waystone bauen"
+			rewards: [{ id: "6EED97054AD334F5", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
+			tasks: [{ id: "3D64137EE4BB4B1D", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9A1B7402C064BEC8"]
+			description: ["Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Naehe.", "Du findest sie in Truhen oder kannst sie herstellen."]
+			id: "D0C06F57B00A4767"
+			title: "Warp-Schriftrolle"
+			rewards: [{ id: "5A4416ACD10664BA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CE12CA1A49042B7E", type: "item", item: { id: "waystones:warp_scroll", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D0C06F57B00A4767"]
+			description: ["Du kannst Kisten, Oefen und sogar kleine Tiere tragen.", "Schritt 1: Leere Haende (nichts in der Hand halten).", "Schritt 2: Schleichen (Shift) und Rechtsklick auf den Block oder das Tier.", "Schritt 3: Rechtsklick auf den Boden, um es wieder abzusetzen."]
+			id: "5C978FDFFC271000"
+			title: "Tragen mit Carry On"
+			rewards: [{ id: "3FD9FA36355B9A30", type: "item", item: { id: "minecraft:chest", count: 2 } }]
+			tasks: [{ id: "55E5AE1BD49F7B38", type: "checkmark" }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C978FDFFC271000"]
+			description: ["Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt fuer Ausfluege.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Die Haelfte der Spieler muss schlafen, damit die Nacht endet."]
+			id: "C9DF67395A0746D5"
+			title: "Schlafen mit Comforts"
+			rewards: [{ id: "D82761AA28248622", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E6FCC147987DCB41", type: "item", item: { id: "comforts:sleeping_bag_red", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C9DF67395A0746D5"]
+			description: ["Die Magnum-Fackel haelt Monster in einem grossen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Naehe spawnt."]
+			id: "AEEF440D3D09DD5A"
+			title: "Monsterfreie Zone"
+			rewards: [{ id: "03D17CACB594EFE3", type: "item", item: { id: "minecraft:torch", count: 16 } }]
+			tasks: [{ id: "0801B7B2B6063697", type: "item", item: { id: "magnumtorch:diamond_magnum_torch", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["AEEF440D3D09DD5A"]
+			description: ["Wenn du stirbst, entsteht an der Stelle ein Grab mit deinen Sachen.", "Schritt 1: Merke dir die Koordinaten aus der Todesnachricht.", "Schritt 2: Gehe hin und oeffne das Grab mit Rechtsklick."]
+			id: "F0DB961E802EF6A9"
+			title: "Dein Grab"
+			rewards: [{ id: "EA4480B4E356D64B", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "64C3B366C0CF146C", type: "checkmark" }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F0DB961E802EF6A9"]
+			description: ["Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren."]
+			id: "FDD311B890C869C7"
+			title: "Alles im Blick (Jade)"
+			rewards: [{ id: "ED53A9A68847D085", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "8DFF96CCD757FAB7", type: "checkmark" }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FDD311B890C869C7"]
+			description: ["Viele Mods haben eigene Tasten.", "Schritt 1: Druecke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein."]
+			id: "457492C4DF6411DC"
+			title: "Tastenbelegung suchen"
+			rewards: [{ id: "8E70101E296015ED", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B0744738E770B344", type: "checkmark" }]
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+}

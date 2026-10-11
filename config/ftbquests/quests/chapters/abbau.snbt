@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "abbau"
+	icon: { id: "minecraft:iron_axe" }
+	id: "137423B806D0C6E4"
+	order_index: 3
+	quest_links: [ ]
+	title: "&dAbbau und Verzauberung"
+	quests: [
+		{
+			description: ["Schlage mit der Axt Staemme ab. Mit einer Axt geht es schneller als mit der Hand.", "Du brauchst Holz fuer Werkbank, Werkzeuge und die ersten Bauten."]
+			id: "27A25D07F41AC58A"
+			title: "Holz sammeln"
+			rewards: [{ id: "6F1D4FE1370E25FB", type: "item", item: { id: "minecraft:stick", count: 16 } }]
+			tasks: [{ id: "685D5D38841FD5F7", type: "item", item: { id: "minecraft:oak_log", count: 1 }, count: 8L }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27A25D07F41AC58A"]
+			description: ["Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin."]
+			id: "C5E37457E9D1FD24"
+			title: "Der Verzauberungstisch"
+			rewards: [{ id: "7A6988E6939DD453", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
+			tasks: [{ id: "F9A399F39F329C9A", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C5E37457E9D1FD24"]
+			description: ["Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "Schritt 1: Verzaubere eine Spitzhacke am Tisch. Die Verzauberung kommt zufaellig vor.", "Schritt 2: Baue ein Erz ab. Die ganze Ader folgt.", "Ohne die Verzauberung geht es nicht."]
+			id: "B3EB5F57885911C2"
+			title: "Veinminer-Verzauberung"
+			rewards: [{ id: "E577E627A3A5F164", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "4503ACED0E34BC86", type: "checkmark" }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B3EB5F57885911C2"]
+			description: ["Easy Anvils macht den Amboss fairer: Kosten sind niedriger, Teile bleiben drin.", "Mit ihm kannst du Verzauberungen kombinieren."]
+			id: "553E786E133C0F71"
+			title: "Der Amboss"
+			rewards: [{ id: "A3F7DE5E389718EE", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "A0D3C5FBC99A4ABC", type: "item", item: { id: "minecraft:anvil", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["553E786E133C0F71"]
+			description: ["Mit Easy Disenchanting uebertraegst du Verzauberungen auf Buecher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus."]
+			id: "1CF97D4C06BFFC5C"
+			title: "Verzauberung uebertragen"
+			rewards: [{ id: "7DAB2E7BAE03C793", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7FABF4985CB5C830", type: "checkmark" }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CF97D4C06BFFC5C"]
+			description: ["Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick fuellt oder leert es."]
+			id: "CABA94C2D0A2C878"
+			title: "XP speichern"
+			rewards: [{ id: "5804D3C98E0035CD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "AA25F0D6A711301A", type: "checkmark" }]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

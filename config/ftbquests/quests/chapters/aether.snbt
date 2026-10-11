@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	icon: { id: "aether:blue_aercloud" }
+	id: "109E652ED40BDCAA"
+	order_index: 12
+	quest_links: [ ]
+	title: "&bDas Aether"
+	quests: [
+		{
+			id: "ACF608E0B739B996"
+			title: "Ins Aether"
+			rewards: [{ id: "9D64D6B082CAE393", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			tasks: [{ id: "135E7CE55A47EED7", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["ACF608E0B739B996"]
+			id: "E26E9A4D96AB7793"
+			title: "Der Sonnenspirit"
+			rewards: [{ id: "921A156A8465F461", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "D0874BF1419E5DEA", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

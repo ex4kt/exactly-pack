@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	icon: { id: "minecraft:netherrack" }
+	id: "D3BFE27813447454"
+	order_index: 11
+	quest_links: [ ]
+	title: "&cNether"
+	quests: [
+		{
+			id: "83A96A598446925C"
+			title: "Ins Nether"
+			rewards: [{ id: "02B161B08D9A57D1", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
+			tasks: [{ id: "9458C0993981BE4E", type: "dimension", dimension: "minecraft:the_nether", icon: { id: "minecraft:netherrack" } }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["83A96A598446925C"]
+			id: "F06FAE0114F65A41"
+			title: "Netherit"
+			rewards: [{ id: "BA81598784FE7F3C", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "A0D04B5AE10765D8", type: "item", item: { id: "minecraft:ancient_debris", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F06FAE0114F65A41"]
+			id: "A8B30F796F8940AF"
+			title: "Der Wither"
+			rewards: [{ id: "F1EBEBB0768FB63F", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
+			tasks: [{ id: "C77B0395D1241492", type: "kill", entity: "minecraft:wither", value: 1L, icon: { id: "minecraft:wither_skeleton_skull" } }]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+}

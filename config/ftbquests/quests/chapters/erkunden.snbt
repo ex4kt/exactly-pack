@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "erkunden"
+	icon: { id: "minecraft:iron_sword" }
+	id: "D11E04EC4C8C7835"
+	order_index: 7
+	quest_links: [ ]
+	title: "&aAusruestung und Erkunden"
+	quests: [
+		{
+			description: ["Waffen haben eigene Schwuenge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination."]
+			id: "72DD9080DD321FFB"
+			title: "Kaempfen mit Better Combat"
+			rewards: [{ id: "9243047470180DBC", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "BBC1653EAE4D66F9", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72DD9080DD321FFB"]
+			description: ["Ringe, Amulette und Umhaenge tragen sich in eigenen Slots.", "Schritt 1: Oeffne dein Inventar. Links siehst du Zubehoer-Slots.", "Schritt 2: Lege Zubehoer dort ein."]
+			id: "0746F86E82E83768"
+			title: "Zubehoer anlegen"
+			rewards: [{ id: "62369FA647A64BEC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "59C76E5DB5CF53EC", type: "checkmark" }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0746F86E82E83768"]
+			description: ["Artifacts sind besondere Gegenstaende. Man kann sie nicht craften.", "Du findest sie in Truhen, unterirdischen Lagern und bei Mimics (Truhen-Monster)."]
+			id: "43655F060B9DC92F"
+			title: "Artifacts finden"
+			rewards: [{ id: "241E9426F62E4F8F", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "387D973BD78A87F3", type: "item", item: { id: "artifacts:mimic_spawn_egg", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43655F060B9DC92F"]
+			description: ["Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen."]
+			id: "D1558BCFBF561FD6"
+			title: "Lootr: Eigene Truhen"
+			rewards: [{ id: "86409F2F51E3546E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7FBDB02EE89270DC", type: "checkmark" }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D1558BCFBF561FD6"]
+			description: ["Natures Compass zeigt dir, wo ein Biom ist.", "Waehle das Biom, drueck Suchen, folge dem Pfeil."]
+			id: "7ADD8A616E64E91E"
+			title: "Biome finden"
+			rewards: [{ id: "866DA868DC7A2F9A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E828C27113F1A0FE", type: "checkmark" }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7ADD8A616E64E91E"]
+			description: ["Dungeons Arise, Cataclysm, Yungs und mehr bauen viele Strukturen in die Welt.", "Nimm Brot und Fackeln mit und schau in jede Truhe."]
+			id: "FFB1110977A5A940"
+			title: "Dungeons entdecken"
+			rewards: [{ id: "2FBED9351ABFACE2", type: "item", item: { id: "minecraft:bread", count: 8 } }]
+			tasks: [{ id: "2B4FD505F2F6F145", type: "checkmark" }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FFB1110977A5A940"]
+			description: ["Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwaerts-Taste gibt Schub."]
+			id: "D261C462B4EA4701"
+			title: "Flugzeuge"
+			rewards: [{ id: "72833AC98ED390A2", type: "item", item: { id: "minecraft:coal", count: 16 } }]
+			tasks: [{ id: "95FEB00351E8908B", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D261C462B4EA4701"]
+			description: ["Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen."]
+			id: "D7724C55A461006D"
+			title: "Drachen"
+			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "3DCA2592E79CAAC1", type: "checkmark" }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D7724C55A461006D"]
+			description: ["Die Muskete ist eine Schusswaffe mit Pulver.", "Laden dauert, dafuer macht sie viel Schaden."]
+			id: "967C302A985C254F"
+			title: "Musketen"
+			rewards: [{ id: "1B1981D7ED1CFBF1", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
+			tasks: [{ id: "6C4C3E91864B1FED", type: "item", item: { id: "musketmod:musket", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["967C302A985C254F"]
+			description: ["Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen."]
+			id: "788222B0D067E42B"
+			title: "Trainingspuppe"
+			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E46D50D3660D72D9", type: "item", item: { id: "dummmmmmy:target_dummy", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+}

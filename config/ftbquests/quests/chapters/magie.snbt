@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magie"
+	icon: { id: "irons_spellbooks:inscription_table" }
+	id: "3E46E91435BD9E2A"
+	order_index: 6
+	quest_links: [ ]
+	title: "&5Magie"
+	quests: [
+		{
+			description: ["Mit Zauberbuechern wirkst du Zauber. Sie kosten Mana (blauer Balken).", "Mana stellt sich mit der Zeit wieder her."]
+			id: "69B8E529ADCE1C0C"
+			title: "Was ist Irons Spells?"
+			rewards: [{ id: "DF4BC3743DBCA2B7", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "56924BC301D78963", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69B8E529ADCE1C0C"]
+			description: ["Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl."]
+			id: "74F92B0E7F9003EB"
+			title: "Zauberbuch"
+			rewards: [{ id: "F903DE52E4E7008D", type: "item", item: { id: "minecraft:book", count: 2 } }]
+			tasks: [{ id: "BE8C89221001E281", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74F92B0E7F9003EB"]
+			description: ["Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein."]
+			id: "6A47524877044543"
+			title: "Inschriftentisch"
+			rewards: [{ id: "4AC1279C96D3AB20", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "56B90AB4C1AB2651", type: "item", item: { id: "irons_spellbooks:inscription_table", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A47524877044543"]
+			description: ["Die Tasten findest du unter Optionen, Steuerung (Suche nach Spell).", "Schritt 1: Zauber im Buch auswaehlen.", "Schritt 2: Zaubern mit der Wirken-Taste."]
+			id: "D1C3E4DA8D0FC187"
+			title: "Zauber waehlen und wirken"
+			rewards: [{ id: "ED2537BEDF0AC790", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "82B86F04EB7C4AF7", type: "checkmark" }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D1C3E4DA8D0FC187"]
+			description: ["Die Schmiede macht neue Schriftrollen aus Tinte, Papier und Fokus.", "Die Tinte bestimmt die Staerke, der Fokus die Schule."]
+			id: "F0777864F61BAC91"
+			title: "Schriftrollen-Schmiede"
+			rewards: [{ id: "664D8DC07DA7E676", type: "item", item: { id: "minecraft:paper", count: 8 } }]
+			tasks: [{ id: "E93FBDA59827FC8E", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F0777864F61BAC91"]
+			description: ["Arkane Essenz findest du in magischen Strukturen.", "Du brauchst sie fuer bessere Ausruestung."]
+			id: "B53F6AD2C9F814B5"
+			title: "Arkane Essenz"
+			rewards: [{ id: "62462C71D28E3273", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "27EA70C03DCB43E0", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B53F6AD2C9F814B5"]
+			description: ["Der Arkane Amboss ist die staerkste Werkbank.", "Hier levelst du Schriftrollen und verbesserst Ausruestung und Buecher."]
+			id: "E854ECB4A847320C"
+			title: "Arkanamboss"
+			rewards: [{ id: "EA0B2145FDD47ED0", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "0C48ED7694AB01B3", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

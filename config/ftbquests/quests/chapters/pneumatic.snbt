@@ -1,0 +1,101 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumatic"
+	icon: { id: "pneumaticcraft:air_compressor" }
+	id: "EE412C91B6CD22A1"
+	order_index: 5
+	quest_links: [ ]
+	title: "&3PneumaticCraft"
+	quests: [
+		{
+			description: ["PneumaticCraft hat ein eigenes Handbuch im Spiel (Patchouli).", "Suche im JEI-Menue nach dem Buch. Es erklaert jedes Gebaeude."]
+			id: "ECFEBED2B9C4C552"
+			title: "Handbuch im Spiel"
+			rewards: [{ id: "482679249EC0D2AB", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "8AE4211CBD63F371", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["ECFEBED2B9C4C552"]
+			description: ["Der Kompressor macht Druckluft, die Maschinen brauchen.", "Schritt 1: Baue einen Luftkompressor.", "Schritt 2: Fuelle ihn mit Brennstoff (z.B. Kohle)."]
+			id: "35E330BB43855AEB"
+			title: "Luftkompressor"
+			rewards: [{ id: "5E1AFAEF7AB341F8", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "5D10CED8BC611459", type: "item", item: { id: "pneumaticcraft:air_compressor", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35E330BB43855AEB"]
+			description: ["Druckrohre leiten die Luft von Block zu Block.", "Schritt 1: Baue Rohre.", "Schritt 2: Verbinde Kompressor und Maschinen."]
+			id: "F90E3C99E85A2CBA"
+			title: "Druckrohre"
+			rewards: [{ id: "93AE00BBF291294A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3AE11656B9BA2134", type: "item", item: { id: "pneumaticcraft:pressure_tube", count: 1 }, count: 8L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F90E3C99E85A2CBA"]
+			description: ["Das Manometer zeigt, wie hoch der Druck ist.", "Halte es in der Hand und klicke auf Rohre.", "Achtung: Zu hoher Druck laesst Rohre platzen."]
+			id: "B11CF4EE039757D1"
+			title: "Manometer"
+			rewards: [{ id: "76A16082E21FD331", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DDE6638F8BE6E3D6", type: "item", item: { id: "pneumaticcraft:manometer", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B11CF4EE039757D1"]
+			description: ["Mit dem Pneumatischen Schluessel drehst du Bloecke und baust Rohre ab.", "Er braucht Druckluft aus deinem Netz."]
+			id: "B05257F7C54AB198"
+			title: "Druckluft-Schluessel"
+			rewards: [{ id: "42ABF23D5C731825", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "51C42CE6BB6515CC", type: "item", item: { id: "pneumaticcraft:pneumatic_wrench", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B05257F7C54AB198"]
+			description: ["Die Druckkammer ist ein Mehrblock-Gebaeude.", "Schritt 1: Baue Waende, ein Ventil und Fenster aus Kammerteilen.", "Schritt 2: Verbinde das Ventil mit Druckluft."]
+			id: "7EA382CBB2DF2137"
+			title: "Druckkammer"
+			rewards: [{ id: "55AA9822DFE65A42", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7D0D694A846AA209", type: "item", item: { id: "pneumaticcraft:pressure_chamber_wall", count: 1 }, count: 8L }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EA382CBB2DF2137"]
+			description: ["Verdichtetes Eisen ist das wichtigste Metall.", "Schritt 1: Lege Eisenbarren in die Druckkammer.", "Schritt 2: Stelle genug Druck ein."]
+			id: "B3F179542A0AF33F"
+			title: "Verdichtetes Eisen"
+			rewards: [{ id: "BEECE7BFBE07AE5D", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
+			tasks: [{ id: "80E44F5BEF3BC933", type: "item", item: { id: "pneumaticcraft:ingot_iron_compressed", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B3F179542A0AF33F"]
+			description: ["Die besseren Rohre halten viel mehr Druck aus.", "Damit kannst du groessere Anlagen bauen."]
+			id: "A1F7D9884963904A"
+			title: "Fortgeschrittene Rohre"
+			rewards: [{ id: "CAA6C8404E96FE0F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "F4294B460FC94664", type: "item", item: { id: "pneumaticcraft:advanced_pressure_tube", count: 1 }, count: 4L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A1F7D9884963904A"]
+			description: ["Drohnen erledigen Arbeit fuer dich. Du programmierst sie.", "Du brauchst dafuer Programmierer und Ladestation."]
+			id: "1DF7270E950E21B7"
+			title: "Drohnen"
+			rewards: [{ id: "7BA04E17F1451E71", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "A5B869F097BEB2A4", type: "item", item: { id: "pneumaticcraft:programmer", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+}

@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	icon: { id: "create:cogwheel" }
+	id: "AC92F784DCF62215"
+	order_index: 4
+	quest_links: [ ]
+	title: "&6Create"
+	quests: [
+		{
+			description: ["Create baut Maschinen mit Drehkraft statt Strom.", "Halte im JEI-Menue W ueber einem Item, dann siehst du eine kurze Animation (Ponder), wie es funktioniert."]
+			id: "BDA0080F5CFE5B6E"
+			title: "Was ist Create?"
+			rewards: [{ id: "F2DC50A9F3927C56", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "D7F53D8D0CB63208", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BDA0080F5CFE5B6E"]
+			description: ["Das ist der erste Werkstoff.", "Schritt 1: Stelle eine Andesit-Legierung her (Andesit und Eisenstuecke)."]
+			id: "5D81E3B99FF6D10F"
+			title: "Andesit-Legierung"
+			rewards: [{ id: "651A92FCC66F3564", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "15558153B945745E", type: "item", item: { id: "create:andesite_alloy", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D81E3B99FF6D10F"]
+			description: ["Wellen und Zahnraeder uebertragen die Drehung.", "Schritt 1: Baue eine Welle.", "Schritt 2: Baue ein Zahnrad und stecke es daran."]
+			id: "6D4D897E15E1E83D"
+			title: "Welle und Zahnrad"
+			rewards: [{ id: "EBC1ABDE5882B605", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "745DCBFDDA1BC51B", type: "item", item: { id: "create:cogwheel", count: 1 }, count: 4L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D4D897E15E1E83D"]
+			description: ["Mit der Handkurbel kannst du erste Kraft selbst erzeugen.", "Rechtsklick halten, dreht die Welle."]
+			id: "ECC294D720618A23"
+			title: "Handkurbel"
+			rewards: [{ id: "4A08849B66733D27", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "30E3E71A53DF1307", type: "item", item: { id: "create:hand_crank", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["ECC294D720618A23"]
+			description: ["Das Wasserrad macht Kraft aus fliessendem Wasser.", "Schritt 1: Platziere es neben Wasser, das fliesst.", "Schritt 2: Verbinde es mit Wellen."]
+			id: "BF77786B6A0959A1"
+			title: "Wasserrad"
+			rewards: [{ id: "81D057CF72C8FD78", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
+			tasks: [{ id: "9B7B7EC791C6EED2", type: "item", item: { id: "create:water_wheel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BF77786B6A0959A1"]
+			description: ["Das Windmuehlenlager macht Kraft aus Wind.", "Baue Segel an das Lager. Mehr Segel, mehr Kraft."]
+			id: "B1704D620DB73666"
+			title: "Windmuehle"
+			rewards: [{ id: "85B1F112E844147C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1656C4F6D9E683D7", type: "item", item: { id: "create:windmill_bearing", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B1704D620DB73666"]
+			description: ["Mit der Presse machst du Bleche aus Barren.", "Schritt 1: Presse platzieren, Kraft anschliessen.", "Schritt 2: Barren darunter legen (Depot oder Foerderband)."]
+			id: "3B6E0C6651CF4429"
+			title: "Mechanische Presse"
+			rewards: [{ id: "44F9268042730A59", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "A3489764173B8563", type: "item", item: { id: "create:mechanical_press", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B6E0C6651CF4429"]
+			description: ["Die Muehle zermahlt Items. Brechrad macht es schneller.", "Gut fuer Erz: Brechrad bringt mehr Ausbeute."]
+			id: "555631ED957ADF8F"
+			title: "Muehle und Brecher"
+			rewards: [{ id: "200C4EA3A436F236", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "12C4E5E1F708E698", type: "item", item: { id: "create:crushing_wheel", count: 1 }, count: 2L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["555631ED957ADF8F"]
+			description: ["Der Mixer mischt Zutaten im Becken.", "Schritt 1: Becken auf den Boden, Mixer drueber.", "Schritt 2: Zutaten ins Becken werfen, Kraft anschliessen."]
+			id: "39593C0FB1A316DC"
+			title: "Mixer und Becken"
+			rewards: [{ id: "9F0FA943889A171C", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "1996915F6D9B502D", type: "item", item: { id: "create:mechanical_mixer", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39593C0FB1A316DC"]
+			description: ["Mit Foerderband und Schacht bewegst du Items.", "Das Band verbindest du mit zwei Rechtsklicks und einem Konnektor."]
+			id: "A21D1F31C85B4C86"
+			title: "Foerderband"
+			rewards: [{ id: "26D013B846D08BDF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3964C3F0A0574FEA", type: "item", item: { id: "create:belt_connector", count: 1 }, count: 4L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A21D1F31C85B4C86"]
+			description: ["Messing machst du im Becken aus Kupfer und Zink mit Hitze.", "Hitze kommt vom Blazebrenner (Blaze im Kaefig) unter dem Becken."]
+			id: "8CBAE85955B26AC3"
+			title: "Messing"
+			rewards: [{ id: "AF8BA1AFDD055F8F", type: "item", item: { id: "minecraft:gold_nugget", count: 8 } }]
+			tasks: [{ id: "CC7CAD15F0593DE9", type: "item", item: { id: "create:brass_ingot", count: 1 }, count: 2L }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["8CBAE85955B26AC3"]
+			description: ["Mit der Brille siehst du Kraftwerte.", "Der Schluessel dreht und baut Maschinen um."]
+			id: "7AFBDBE463CA65BE"
+			title: "Brille und Schluessel"
+			rewards: [{ id: "8458315A17ECDBF0", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "36A771044701E156", type: "item", item: { id: "create:goggles", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AFBDBE463CA65BE"]
+			description: ["Das ist das wichtigste Bauteil der Spaetphase.", "Du stellst es in einer Montagelinie her: Goldblech, Zahnraeder und Eisenstuecke werden nacheinander verarbeitet."]
+			id: "84B4A3D2C78C30B2"
+			title: "Praezisionsmechanismus"
+			rewards: [{ id: "79D1AFC1106F3379", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "856C2629F362091C", type: "item", item: { id: "create:precision_mechanism", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["84B4A3D2C78C30B2"]
+			description: ["Der Arm bewegt Items zwischen Maschinen, ganz automatisch.", "Stelle ihn mit Eingabe und Ausgabe ein."]
+			id: "B139DC8DE63ABA3F"
+			title: "Mechanischer Arm"
+			rewards: [{ id: "6243EE6995B2025B", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			tasks: [{ id: "7089B8412C90B2A8", type: "item", item: { id: "create:mechanical_arm", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+}
