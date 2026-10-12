@@ -342,11 +342,11 @@
 		}
 		{
 			dependencies: ["9D042B22333EE304"]
-			description: ["&6Was ist das?", "Der Blackstone-Kochtopf kocht mit Netherhitze und verarbeitet Zutaten des Nethers.", "", "&6So gehts", "Auf einen Herd stellen und wie den Kochtopf benutzen.", "", "&6Wofuer ist das wichtig?", "Fuer Nether-Rezepte, die besondere Hitze brauchen."]
+			description: ["&6Was ist das?", "Der Kochtopf auf dem Nether-Herd kocht die Gerichte des Nethers.", "", "&6So gehts", "Kochtopf auf den Nether-Herd stellen und Nether-Zutaten hineinlegen.", "", "&6Wofuer ist das wichtig?", "Fuer Nether-Rezepte, die besondere Hitze brauchen."]
 			id: "0CBF80C3F9C3353A"
 			title: "Nether-Kochtopf"
 			rewards: [{ id: "9243047470180DBC", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "BBC1653EAE4D66F9", type: "item", item: { id: "mynethersdelight:blackstone_cooking_pot", count: 1 }, count: 1L }]
+			tasks: [{ id: "BBC1653EAE4D66F9", type: "item", item: { id: "farmersdelight:cooking_pot", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 16.0d
 		}

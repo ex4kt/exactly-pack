@@ -658,10 +658,11 @@
 		{
 			dependencies: ["5FD4E49A062C9230"]
 			description: ["&6Was ist das?", "Ein Sharestone verbindet alle Sharestones gleicher Farbe. Perfekt fuer die Gruppe.", "", "&6So gehts", "Zwei Teilsteine derselben Farbe aufstellen.", "", "&6Wofuer ist das wichtig?", "Eigene Reisenetze, z.B. nur zwischen deinen Farmen."]
+			icon: { id: "waystones:purple_sharestone" }
 			id: "0A3B510FB0DE8C3A"
 			title: "Teilstein (Sharestone)"
 			rewards: [{ id: "8721312152B42146", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
-			tasks: [{ id: "A3EDE27FEB1CF2BB", type: "item", item: { id: "waystones:sharestone", count: 1 }, count: 1L }]
+			tasks: [{ id: "A3EDE27FEB1CF2BB", type: "checkmark" }]
 			x: 6.5d
 			y: 21.5d
 		}
@@ -678,10 +679,11 @@
 		{
 			dependencies: ["B779C4A7DCD0EF18"]
 			description: ["&6Was ist das?", "Ein Portstone teleportiert dich zu einem bekannten Waystone, ohne selbst einer zu sein.", "", "&6So gehts", "Aufstellen und Ziel waehlen.", "", "&6Wofuer ist das wichtig?", "Bequem fuer feste Reisepunkte."]
+			icon: { id: "waystones:purple_portstone" }
 			id: "1953A324EE9E6A13"
 			title: "Portstone"
 			rewards: [{ id: "692982D2B0F63E67", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "4FB6AD78F02DAD46", type: "item", item: { id: "waystones:portstone", count: 1 }, count: 1L }]
+			tasks: [{ id: "4FB6AD78F02DAD46", type: "checkmark" }]
 			x: 9.5d
 			y: 21.5d
 		}
