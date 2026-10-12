@@ -3,36 +3,169 @@
 	default_quest_shape: ""
 	filename: "nether"
 	icon: { id: "minecraft:netherrack" }
-	id: "D3BFE27813447454"
-	order_index: 11
+	id: "ABE6A2FE8AA4359D"
+	order_index: 10
 	quest_links: [ ]
 	title: "&cNether"
 	quests: [
 		{
-			id: "83A96A598446925C"
+			description: ["Baue ein Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Tranke und viel Nahrung mit."]
+			id: "624E4417A7EDE581"
 			title: "Ins Nether"
-			rewards: [{ id: "02B161B08D9A57D1", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
-			tasks: [{ id: "9458C0993981BE4E", type: "dimension", dimension: "minecraft:the_nether", icon: { id: "minecraft:netherrack" } }]
+			rewards: [{ id: "8BB6BF94DD6946E2", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
+			tasks: [{ id: "3F37F198A5284DD0", type: "dimension", dimension: "minecraft:the_nether", icon: { id: "minecraft:netherrack" } }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["83A96A598446925C"]
-			id: "F06FAE0114F65A41"
+			dependencies: ["624E4417A7EDE581"]
+			description: ["Antiker Schutt liegt tief im Nether. Mit Betten sprengst du ihn aus."]
+			id: "68C4D78868B9B7DE"
 			title: "Netherit"
-			rewards: [{ id: "BA81598784FE7F3C", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "A0D04B5AE10765D8", type: "item", item: { id: "minecraft:ancient_debris", count: 1 }, count: 4L }]
+			rewards: [{ id: "74F590745EA2A033", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "329786E6B67CB790", type: "item", item: { id: "minecraft:ancient_debris", count: 1 }, count: 4L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F06FAE0114F65A41"]
-			id: "A8B30F796F8940AF"
+			dependencies: ["68C4D78868B9B7DE"]
+			description: ["Der Wither entsteht aus Seelensand und drei Totenkoepfen."]
+			id: "4C309F7884CD8B53"
 			title: "Der Wither"
-			rewards: [{ id: "F1EBEBB0768FB63F", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
-			tasks: [{ id: "C77B0395D1241492", type: "kill", entity: "minecraft:wither", value: 1L, icon: { id: "minecraft:wither_skeleton_skull" } }]
+			rewards: [{ id: "35106893A529CBCB", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
+			tasks: [{ id: "7F424582D5A57D95", type: "kill", entity: "minecraft:wither", value: 1L, icon: { id: "minecraft:wither_skeleton_skull" } }]
 			x: 4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["4C309F7884CD8B53"]
+			description: ["Netherquarz findest du in Netherrack. Gut fuer Bauten und Redstone."]
+			id: "36DFDABF9C7B87B2"
+			title: "Quarz"
+			rewards: [{ id: "55E4E3CF617E3F62", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "244C37C1BD7462C7", type: "item", item: { id: "minecraft:quartz", count: 1 }, count: 16L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36DFDABF9C7B87B2"]
+			description: ["Blazes leben in Netherfestungen. Ihr Stab ist die Hitzequelle."]
+			id: "9F91177713C8AB0B"
+			title: "Blazestab"
+			rewards: [{ id: "8A36D7DF7552FEDC", type: "item", item: { id: "minecraft:blaze_powder", count: 8 } }]
+			tasks: [{ id: "8E338C1C905904C8", type: "item", item: { id: "minecraft:blaze_rod", count: 1 }, count: 8L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9F91177713C8AB0B"]
+			description: ["Ghasts schweben ueber der Lava. Erwidere ihre Feuerbaelle mit Schlaegen!"]
+			id: "37559E0A147D7BF0"
+			title: "Ghast-Traene"
+			rewards: [{ id: "4F59BF4103C37FCA", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "75B8F8E831BDE3E1", type: "item", item: { id: "minecraft:ghast_tear", count: 1 }, count: 2L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37559E0A147D7BF0"]
+			description: ["Der Braustand macht Traenke. Nimm Netherwarzen und Blazepulver."]
+			id: "9A38232CE6DAD25D"
+			title: "Brauen"
+			rewards: [{ id: "74D083170A7BCB14", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
+			tasks: [{ id: "382B9490BA2BC003", type: "item", item: { id: "minecraft:brewing_stand", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9A38232CE6DAD25D"]
+			description: ["Wither-Skelette bewachen Festungen. Ihre Totenkoepfe brauchst du fuer den Wither."]
+			id: "BC81269AEF0D09F5"
+			title: "Wither-Skelett"
+			rewards: [{ id: "38C22C2F7AAECE30", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "5095128055D0C94F", type: "kill", entity: "minecraft:wither_skeleton", value: 3L, icon: { id: "minecraft:wither_skeleton_skull" } }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["BC81269AEF0D09F5"]
+			description: ["Piglins tauschen Gold gegen Beute. Trage ein goldenes Item, damit sie dich in Ruhe lassen."]
+			id: "3CF0889F596216CE"
+			title: "Handeln mit Piglins"
+			rewards: [{ id: "5783FE28EAE68947", type: "item", item: { id: "minecraft:gold_nugget", count: 16 } }]
+			tasks: [{ id: "9E6B6B24BCA260A7", type: "item", item: { id: "minecraft:gold_ingot", count: 1 }, count: 16L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CF0889F596216CE"]
+			description: ["Der Piglin-Brute ist gefaehrlich. Bleib wachsam."]
+			id: "F92B2EE209A325B5"
+			title: "Schutz vor Piglins"
+			rewards: [{ id: "0284601ACDDCCBB2", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "1D7E299867651F96", type: "kill", entity: "minecraft:piglin_brute", value: 1L, icon: { id: "minecraft:golden_axe" } }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["F92B2EE209A325B5"]
+			description: ["Schmelze Antiken Schutt zu Schrott. Vier Schrott und vier Gold ergeben einen Barren."]
+			id: "7871355328C80698"
+			title: "Netherit-Barren"
+			rewards: [{ id: "08661011BD25CCBA", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "73199C4CEFC78C7E", type: "item", item: { id: "minecraft:netherite_ingot", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7871355328C80698"]
+			description: ["Ignis ist der Boss der Flammen. Rufe ihn mit seinem Altar."]
+			id: "21D67324ECFED6C0"
+			title: "Cataclysm: Ignis"
+			rewards: [{ id: "5EC455171FDB9FF2", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "B4EDE0D4DC563A1F", type: "kill", entity: "cataclysm:ignis", value: 1L, icon: { id: "minecraft:blaze_powder" } }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["21D67324ECFED6C0"]
+			description: ["Der Netherite Monstrosity lauert in den Lavahoehlen. Er ist extrem stark."]
+			id: "D1B8EBBA4F8A251A"
+			title: "Cataclysm: Netherit-Ungeheuer"
+			rewards: [{ id: "B20D075637CE21AE", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
+			tasks: [{ id: "41B3E900A184BBD1", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L, icon: { id: "minecraft:netherite_scrap" } }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["D1B8EBBA4F8A251A"]
+			description: ["Eternal Nether fuegt neue Orte und Gegner hinzu."]
+			id: "F10175D45226565C"
+			title: "Ewiger Nether"
+			rewards: [{ id: "1B06E12CC507D1D9", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "D211EE0BEC94DCB5", type: "checkmark" }]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F10175D45226565C"]
+			description: ["Wraither sind Geister im Ewigen Nether."]
+			id: "CBBFB0966317B828"
+			title: "Der Wraither"
+			rewards: [{ id: "B6C603FB0549E9ED", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "79789C3D14F3E186", type: "kill", entity: "eternalnether:wraither", value: 1L, icon: { id: "minecraft:soul_sand" } }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["CBBFB0966317B828"]
+			description: ["Ein Respawn-Anker setzt deinen Spawn im Nether. Du brauchst Glowstone zum Aufladen."]
+			id: "B4FC5B87372B844D"
+			title: "Respawn-Anker"
+			rewards: [{ id: "C9C746839C847AF8", type: "item", item: { id: "minecraft:glowstone", count: 8 } }]
+			tasks: [{ id: "FFC453C5834A2EEB", type: "item", item: { id: "minecraft:respawn_anchor", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 6.0d
 		}
 	]
 }

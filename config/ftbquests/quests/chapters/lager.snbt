@@ -3,109 +3,119 @@
 	default_quest_shape: ""
 	filename: "lager"
 	icon: { id: "minecraft:chest" }
-	id: "0D8C6AC6F72D9A53"
-	order_index: 2
+	id: "7DFC2423934B9950"
+	order_index: 3
 	quest_links: [ ]
 	title: "&bLager und Ordnung"
 	quests: [
 		{
 			description: ["Alles beginnt mit einer Kiste. Baue eine aus Holz und stelle sie zu Hause auf."]
-			id: "0DA8D2B7A95557D8"
+			id: "1D27CA69A0DAD2E1"
 			title: "Eine Kiste"
-			rewards: [{ id: "206FFC72C8F303A4", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
-			tasks: [{ id: "4A9AF60C1862B667", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
+			rewards: [{ id: "E28C7A533E06C908", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
+			tasks: [{ id: "66D058E9290E3E2B", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0DA8D2B7A95557D8"]
-			description: ["Mit Absolute Order legst du fest, was in welche Kiste gehoert.", "Schritt 1: Oeffne eine Kiste. Du siehst Bearbeiten-Knoepfe.", "Schritt 2: Ziehe Items aus deinem Inventar in den Filter der Kiste.", "Schritt 3: Klicke auf Einlagern (oder druecke die Taste dafuer). Dein Inventar wandert in die passenden Kisten.", "Mit Herausholen holst du alles Passende wieder raus."]
-			id: "225E7604C441AE82"
-			title: "Absolute Order: Einlagern"
-			rewards: [{ id: "FA58280737E66CBD", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "760673DC7DE7B63D", type: "checkmark" }]
+			dependencies: ["1D27CA69A0DAD2E1"]
+			description: ["Ein Fass fasst genauso viel wie eine Kiste, laesst sich aber unter Bloecken oeffnen."]
+			id: "E2B16B47903C5630"
+			title: "Fass"
+			rewards: [{ id: "FA44DBBC19C678C9", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "B54550440EC7022F", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["225E7604C441AE82"]
-			description: ["Client Sort und Inventory Profiles Next sortieren dein Inventar und Kisten.", "Suche in Optionen, Steuerung nach der Sortier-Taste, wenn du sie brauchst."]
-			id: "1F7E501B63D6E5FF"
+			dependencies: ["E2B16B47903C5630"]
+			description: ["Client Sort und Inventory Profiles Next sortieren dein Inventar und Kisten.", "Client Sort: Shift und mittlere Maustaste."]
+			id: "9F496DAF4A26ACB5"
 			title: "Inventar sortieren"
-			rewards: [{ id: "5146D11E6930575A", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "E1A46FFF3981D065", type: "checkmark" }]
+			rewards: [{ id: "B1715BA0A84B3DC8", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "973D9C5EE4B9ED20", type: "checkmark" }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1F7E501B63D6E5FF"]
+			dependencies: ["9F496DAF4A26ACB5"]
 			description: ["Du kannst mit Items aus Kisten in der Naehe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Bloecke).", "Schritt 2: Oeffne sie. Items aus den Kisten stehen zum Craften bereit."]
-			id: "1CF70F79C6B8D9CB"
+			id: "47A89CE68BEB6A34"
 			title: "Nearby Crafting"
-			rewards: [{ id: "080485FCFCDDBFAB", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "119ACE7FA6580E93", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
+			rewards: [{ id: "7CB61A4DD33079A0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "12E8F4525669F1D3", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1CF70F79C6B8D9CB"]
+			dependencies: ["47A89CE68BEB6A34"]
 			description: ["Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "Schritt 1: Baue ein Storage Terminal.", "Schritt 2: Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Schritt 3: Oeffne das Terminal und suche oben nach Items."]
-			id: "0246FE311A738A56"
+			id: "CD0DE4A07CCB8DCC"
 			title: "Tom Storage: Terminal"
-			rewards: [{ id: "F0FC612C1CA01A4A", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
-			tasks: [{ id: "3DFC6C96A4C6B8E8", type: "item", item: { id: "toms_storage:storage_terminal", count: 1 }, count: 1L }]
+			rewards: [{ id: "B1472577E0BB14BB", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "837BF907B4CE4108", type: "item", item: { id: "toms_storage:storage_terminal", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0246FE311A738A56"]
+			dependencies: ["CD0DE4A07CCB8DCC"]
 			description: ["Der Inventory Connector verbindet eine Kiste mit dem Netz.", "Das Inventory Cable zieht die Verbindung weiter."]
-			id: "55FEF0228D1E48DC"
+			id: "5E8DCA7C1E1BFE8A"
 			title: "Verbindungen"
-			rewards: [{ id: "E5DBFD52B2B9195F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "C952FCC4F9A39806", type: "item", item: { id: "toms_storage:inventory_connector", count: 1 }, count: 1L }]
-			x: 0.0d
+			rewards: [{ id: "2B5653D3B0CEE566", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C60CA24DB3BCE58B", type: "item", item: { id: "toms_storage:inventory_connector", count: 1 }, count: 1L }]
+			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["55FEF0228D1E48DC"]
+			dependencies: ["5E8DCA7C1E1BFE8A"]
 			description: ["Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten."]
-			id: "615C19F29D657312"
+			id: "6E9CBD7FD91D02DA"
 			title: "Crafting Terminal"
-			rewards: [{ id: "C31BD8BE427C1226", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "01A23B833BCC6E38", type: "item", item: { id: "toms_storage:crafting_terminal", count: 1 }, count: 1L }]
+			rewards: [{ id: "7F95F5599D0955F6", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "811E04E8D6BF9A99", type: "item", item: { id: "toms_storage:crafting_terminal", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E9CBD7FD91D02DA"]
+			description: ["Diese Kisten und Fass-Bloecke haben Upgrade-Plaetze.", "Du kannst sie mit Upgrades (z.B. Einsaugen, Sortieren) erweitern und farbig gestalten."]
+			id: "E268157264C03F19"
+			title: "Sophisticated Storage"
+			rewards: [{ id: "736EB073C8433437", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D44C3ABEDC8E7E90", type: "item", item: { id: "sophisticatedstorage:chest", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["E268157264C03F19"]
+			description: ["Ein Rucksack passt in dein Inventar und hat viele Plaetze.", "Schritt 1: Baue einen Rucksack.", "Schritt 2: Oeffne ihn mit der Taste B oder per Rechtsklick.", "Schritt 3: Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet)."]
+			id: "324A3F07780299CE"
+			title: "Rucksack"
+			rewards: [{ id: "3F22F1ADC00B57B8", type: "item", item: { id: "minecraft:leather", count: 4 } }]
+			tasks: [{ id: "64156C5D4A82C61B", type: "item", item: { id: "sophisticatedbackpacks:backpack", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["615C19F29D657312"]
-			description: ["Diese Kisten und Fass-Bloecke haben Upgrade-Plaetze.", "Du kannst sie mit Upgrades (z.B. Einsaugen, Sortieren) erweitern und farbig gestalten."]
-			id: "0428AEC0F1D1C4C9"
-			title: "Sophisticated Storage"
-			rewards: [{ id: "F2DE7A286BD13C10", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4A27EE32DA8318BC", type: "item", item: { id: "sophisticatedstorage:chest", count: 1 }, count: 1L }]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0428AEC0F1D1C4C9"]
-			description: ["Ein Rucksack passt in dein Inventar und hat viele Plaetze.", "Schritt 1: Baue einen Rucksack.", "Schritt 2: Oeffne ihn mit der Taste B oder per Rechtsklick.", "Schritt 3: Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet)."]
-			id: "DBC6595B5C42ACB5"
-			title: "Rucksack"
-			rewards: [{ id: "6BCE53F97A1301F0", type: "item", item: { id: "minecraft:leather", count: 4 } }]
-			tasks: [{ id: "958CCC9E0FE2F7DB", type: "item", item: { id: "sophisticatedbackpacks:backpack", count: 1 }, count: 1L }]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["DBC6595B5C42ACB5"]
+			dependencies: ["324A3F07780299CE"]
 			description: ["Die Nether-Truhe speichert pro Platz sehr viele Items eines Typs.", "Gut fuer Bruchstein, Erde und andere Massen."]
-			id: "CFEF552855C0CE65"
+			id: "06CD7081676716CE"
 			title: "Nether-Truhe"
-			rewards: [{ id: "D2A8F3B56E41A6DE", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "87AB0F039FE7CF8E", type: "item", item: { id: "netherchested:nether_chest", count: 1 }, count: 1L }]
-			x: 8.0d
+			rewards: [{ id: "79031085A495C97C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9072C4AAE9A17565", type: "item", item: { id: "netherchested:nether_chest", count: 1 }, count: 1L }]
+			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["06CD7081676716CE"]
+			description: ["Eine Shulkerkiste behaelt ihren Inhalt, wenn du sie abbaust. Der perfekte Koffer."]
+			id: "879DD26E1F09458C"
+			title: "Shulker-Kiste"
+			rewards: [{ id: "AB3C78688288B4E4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "FF9BEEEF57367956", type: "item", item: { id: "minecraft:shulker_box", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 }

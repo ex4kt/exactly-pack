@@ -3,109 +3,209 @@
 	default_quest_shape: ""
 	filename: "erkunden"
 	icon: { id: "minecraft:iron_sword" }
-	id: "D11E04EC4C8C7835"
-	order_index: 7
+	id: "D33309CF983C31D2"
+	order_index: 8
 	quest_links: [ ]
 	title: "&aAusruestung und Erkunden"
 	quests: [
 		{
 			description: ["Waffen haben eigene Schwuenge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination."]
-			id: "72DD9080DD321FFB"
+			id: "E0E5612EB7996E95"
 			title: "Kaempfen mit Better Combat"
-			rewards: [{ id: "9243047470180DBC", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "BBC1653EAE4D66F9", type: "checkmark" }]
+			rewards: [{ id: "00C563F45208EB03", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1028FC0C83379DA1", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["72DD9080DD321FFB"]
+			dependencies: ["E0E5612EB7996E95"]
 			description: ["Ringe, Amulette und Umhaenge tragen sich in eigenen Slots.", "Schritt 1: Oeffne dein Inventar. Links siehst du Zubehoer-Slots.", "Schritt 2: Lege Zubehoer dort ein."]
-			id: "0746F86E82E83768"
+			id: "EB8CA88DAE09D456"
 			title: "Zubehoer anlegen"
-			rewards: [{ id: "62369FA647A64BEC", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "59C76E5DB5CF53EC", type: "checkmark" }]
+			rewards: [{ id: "7680FBED1D2CB8DC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3F6B6388D62AB88D", type: "checkmark" }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0746F86E82E83768"]
+			dependencies: ["EB8CA88DAE09D456"]
 			description: ["Artifacts sind besondere Gegenstaende. Man kann sie nicht craften.", "Du findest sie in Truhen, unterirdischen Lagern und bei Mimics (Truhen-Monster)."]
-			id: "43655F060B9DC92F"
+			id: "5FB6AFEB1D51D4A2"
 			title: "Artifacts finden"
-			rewards: [{ id: "241E9426F62E4F8F", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
-			tasks: [{ id: "387D973BD78A87F3", type: "item", item: { id: "artifacts:mimic_spawn_egg", count: 1 }, count: 1L }]
+			rewards: [{ id: "93083F4809981CC4", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "203A6FBC738F159D", type: "item", item: { id: "artifacts:mimic_spawn_egg", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["43655F060B9DC92F"]
+			dependencies: ["5FB6AFEB1D51D4A2"]
 			description: ["Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen."]
-			id: "D1558BCFBF561FD6"
+			id: "C86384F580A71816"
 			title: "Lootr: Eigene Truhen"
-			rewards: [{ id: "86409F2F51E3546E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "7FBDB02EE89270DC", type: "checkmark" }]
+			rewards: [{ id: "35387593BB9D62AB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "957B5D67AB9B3EBC", type: "checkmark" }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D1558BCFBF561FD6"]
+			dependencies: ["C86384F580A71816"]
 			description: ["Natures Compass zeigt dir, wo ein Biom ist.", "Waehle das Biom, drueck Suchen, folge dem Pfeil."]
-			id: "7ADD8A616E64E91E"
+			id: "123623BFCDAD3606"
 			title: "Biome finden"
-			rewards: [{ id: "866DA868DC7A2F9A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E828C27113F1A0FE", type: "checkmark" }]
+			rewards: [{ id: "DD4C94C4C3F94817", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "636CDD7BD9D76941", type: "checkmark" }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7ADD8A616E64E91E"]
+			dependencies: ["123623BFCDAD3606"]
 			description: ["Dungeons Arise, Cataclysm, Yungs und mehr bauen viele Strukturen in die Welt.", "Nimm Brot und Fackeln mit und schau in jede Truhe."]
-			id: "FFB1110977A5A940"
+			id: "4DC4D1E1F6E946A8"
 			title: "Dungeons entdecken"
-			rewards: [{ id: "2FBED9351ABFACE2", type: "item", item: { id: "minecraft:bread", count: 8 } }]
-			tasks: [{ id: "2B4FD505F2F6F145", type: "checkmark" }]
+			rewards: [{ id: "67F8DE226209DE74", type: "item", item: { id: "minecraft:bread", count: 8 } }]
+			tasks: [{ id: "0D4F8FE6D7BE81C2", type: "checkmark" }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DC4D1E1F6E946A8"]
+			description: ["Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwaerts-Taste gibt Schub."]
+			id: "CEFA0309C76A9222"
+			title: "Flugzeuge"
+			rewards: [{ id: "7D2C8891A186F48F", type: "item", item: { id: "minecraft:coal", count: 16 } }]
+			tasks: [{ id: "8579559EFEE19ECB", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["CEFA0309C76A9222"]
+			description: ["Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen."]
+			id: "0333BC90427C42A6"
+			title: "Drachen"
+			rewards: [{ id: "6420BABFB5E3C2FA", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "F66293D1E19F0088", type: "checkmark" }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0333BC90427C42A6"]
+			description: ["Die Muskete ist eine Schusswaffe mit Pulver.", "Laden dauert, dafuer macht sie viel Schaden."]
+			id: "32156660C375A37D"
+			title: "Musketen"
+			rewards: [{ id: "900A1734A7644A5B", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
+			tasks: [{ id: "6F227913F0E6FA19", type: "item", item: { id: "musketmod:musket", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32156660C375A37D"]
+			description: ["Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen."]
+			id: "3B8136CF4F6DC44A"
+			title: "Trainingspuppe"
+			rewards: [{ id: "359B249EBD802CE5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2E80E51C3F0AC4F1", type: "item", item: { id: "dummmmmmy:target_dummy", count: 1 }, count: 1L }]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["FFB1110977A5A940"]
-			description: ["Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwaerts-Taste gibt Schub."]
-			id: "D261C462B4EA4701"
-			title: "Flugzeuge"
-			rewards: [{ id: "72833AC98ED390A2", type: "item", item: { id: "minecraft:coal", count: 16 } }]
-			tasks: [{ id: "95FEB00351E8908B", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
+			dependencies: ["3B8136CF4F6DC44A"]
+			description: ["Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten."]
+			id: "C0771DBAD2684351"
+			title: "Schild"
+			rewards: [{ id: "751F098D5A41D0A6", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "B34011A3F3627885", type: "item", item: { id: "minecraft:shield", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C0771DBAD2684351"]
+			description: ["Mit dem Bogen kaempfst du aus der Ferne."]
+			id: "A989992D5106F848"
+			title: "Bogen"
+			rewards: [{ id: "428CBF51A7B7C95E", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
+			tasks: [{ id: "0AF90EF2A6CFD673", type: "item", item: { id: "minecraft:bow", count: 1 }, count: 1L }]
 			x: 2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["D261C462B4EA4701"]
-			description: ["Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen."]
-			id: "D7724C55A461006D"
-			title: "Drachen"
-			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "3DCA2592E79CAAC1", type: "checkmark" }]
+			dependencies: ["A989992D5106F848"]
+			description: ["Pferde, Esel und Maultiere kannst du mit einem Sattel reiten."]
+			id: "ED99B0C6FE40F4B0"
+			title: "Ein Reittier"
+			rewards: [{ id: "21CB7DA05EE93751", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
+			tasks: [{ id: "902C9F586F49D9FE", type: "item", item: { id: "minecraft:saddle", count: 1 }, count: 1L }]
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["D7724C55A461006D"]
-			description: ["Die Muskete ist eine Schusswaffe mit Pulver.", "Laden dauert, dafuer macht sie viel Schaden."]
-			id: "967C302A985C254F"
-			title: "Musketen"
-			rewards: [{ id: "1B1981D7ED1CFBF1", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
-			tasks: [{ id: "6C4C3E91864B1FED", type: "item", item: { id: "musketmod:musket", count: 1 }, count: 1L }]
+			dependencies: ["ED99B0C6FE40F4B0"]
+			description: ["Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende."]
+			id: "A432CB13EA1FC5A4"
+			title: "Elytra"
+			rewards: [{ id: "7C5BDA6C516B0C4F", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
+			tasks: [{ id: "1E5D4B95C06CBB31", type: "item", item: { id: "minecraft:elytra", count: 1 }, count: 1L }]
 			x: 6.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["967C302A985C254F"]
-			description: ["Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen."]
-			id: "788222B0D067E42B"
-			title: "Trainingspuppe"
-			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E46D50D3660D72D9", type: "item", item: { id: "dummmmmmy:target_dummy", count: 1 }, count: 1L }]
+			dependencies: ["A432CB13EA1FC5A4"]
+			description: ["Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenuebersicht an."]
+			id: "DE96AB5AD19A42D1"
+			title: "Simply Swords"
+			rewards: [{ id: "AD162A3689724E4F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "938E31A776F77D59", type: "checkmark" }]
 			x: 8.0d
-			y: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["DE96AB5AD19A42D1"]
+			description: ["Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee."]
+			id: "5FCB52B2C5B1ECAA"
+			title: "Mowzies Mobs"
+			rewards: [{ id: "CC03BECFF169A829", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B73734D52E36AE58", type: "checkmark" }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FCB52B2C5B1ECAA"]
+			description: ["Die Frostmaw lebt in eisigen Hoehlen. Besiege sie und nimm den Eiskristall."]
+			id: "4020A46EF84A26EB"
+			title: "Die Frostmaw"
+			rewards: [{ id: "4F68D04DA371E3BA", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "2FBFAD65FB346DC9", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L, icon: { id: "mowziesmobs:ice_crystal" } }]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4020A46EF84A26EB"]
+			description: ["Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe."]
+			id: "C09C9FEB36A4F3B1"
+			title: "Der Eisenschmetterer"
+			rewards: [{ id: "5D5B19B1AE56557B", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "B94B35DE6B3FA882", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "mowziesmobs:wrought_axe" } }]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["C09C9FEB36A4F3B1"]
+			description: ["Umvuthi ist der Boss der Sonnenstaemme. Du brauchst starke Ausruestung."]
+			id: "7E64FD619DBCE006"
+			title: "Der Sonnenhaeuptling"
+			rewards: [{ id: "A5C0E081E214F691", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "098C805F1722D522", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E64FD619DBCE006"]
+			description: ["Viele neue Ruestungen. Sieh dir die Ruestungsuebersicht an."]
+			id: "705D2D1517D391FB"
+			title: "Immersive Armors"
+			rewards: [{ id: "C3C086D006E5F10A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "48E1FBA4759A7845", type: "checkmark" }]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 }

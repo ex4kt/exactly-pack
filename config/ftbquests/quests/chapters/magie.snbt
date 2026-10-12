@@ -3,79 +3,179 @@
 	default_quest_shape: ""
 	filename: "magie"
 	icon: { id: "irons_spellbooks:inscription_table" }
-	id: "3E46E91435BD9E2A"
-	order_index: 6
+	id: "4E2ADF01B2881B05"
+	order_index: 7
 	quest_links: [ ]
 	title: "&5Magie"
 	quests: [
 		{
 			description: ["Mit Zauberbuechern wirkst du Zauber. Sie kosten Mana (blauer Balken).", "Mana stellt sich mit der Zeit wieder her."]
-			id: "69B8E529ADCE1C0C"
+			id: "F2C8C165BECC3F48"
 			title: "Was ist Irons Spells?"
-			rewards: [{ id: "DF4BC3743DBCA2B7", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "56924BC301D78963", type: "checkmark" }]
+			rewards: [{ id: "036983CF7B61CBDD", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "3006F573DDBE252F", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["69B8E529ADCE1C0C"]
+			dependencies: ["F2C8C165BECC3F48"]
 			description: ["Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl."]
-			id: "74F92B0E7F9003EB"
+			id: "34FFE03044864763"
 			title: "Zauberbuch"
-			rewards: [{ id: "F903DE52E4E7008D", type: "item", item: { id: "minecraft:book", count: 2 } }]
-			tasks: [{ id: "BE8C89221001E281", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
+			rewards: [{ id: "F383CFB030E3E572", type: "item", item: { id: "minecraft:book", count: 2 } }]
+			tasks: [{ id: "A89496C44D05F1F9", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["74F92B0E7F9003EB"]
+			dependencies: ["34FFE03044864763"]
 			description: ["Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein."]
-			id: "6A47524877044543"
+			id: "F8571C0296574BEB"
 			title: "Inschriftentisch"
-			rewards: [{ id: "4AC1279C96D3AB20", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "56B90AB4C1AB2651", type: "item", item: { id: "irons_spellbooks:inscription_table", count: 1 }, count: 1L }]
+			rewards: [{ id: "BD282A1BC819896E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FD4ACD59615A3606", type: "item", item: { id: "irons_spellbooks:inscription_table", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A47524877044543"]
+			dependencies: ["F8571C0296574BEB"]
 			description: ["Die Tasten findest du unter Optionen, Steuerung (Suche nach Spell).", "Schritt 1: Zauber im Buch auswaehlen.", "Schritt 2: Zaubern mit der Wirken-Taste."]
-			id: "D1C3E4DA8D0FC187"
+			id: "63F207EFFC388F04"
 			title: "Zauber waehlen und wirken"
-			rewards: [{ id: "ED2537BEDF0AC790", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "82B86F04EB7C4AF7", type: "checkmark" }]
+			rewards: [{ id: "08802EF5C9E3CC1D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6D61D4C1DFCB91CD", type: "checkmark" }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D1C3E4DA8D0FC187"]
+			dependencies: ["63F207EFFC388F04"]
 			description: ["Die Schmiede macht neue Schriftrollen aus Tinte, Papier und Fokus.", "Die Tinte bestimmt die Staerke, der Fokus die Schule."]
-			id: "F0777864F61BAC91"
+			id: "89DBAC673C58ACC9"
 			title: "Schriftrollen-Schmiede"
-			rewards: [{ id: "664D8DC07DA7E676", type: "item", item: { id: "minecraft:paper", count: 8 } }]
-			tasks: [{ id: "E93FBDA59827FC8E", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
+			rewards: [{ id: "C48F06B7E1546941", type: "item", item: { id: "minecraft:paper", count: 8 } }]
+			tasks: [{ id: "B7350E8711A3D61B", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F0777864F61BAC91"]
+			dependencies: ["89DBAC673C58ACC9"]
 			description: ["Arkane Essenz findest du in magischen Strukturen.", "Du brauchst sie fuer bessere Ausruestung."]
-			id: "B53F6AD2C9F814B5"
+			id: "5D0184279585879A"
 			title: "Arkane Essenz"
-			rewards: [{ id: "62462C71D28E3273", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "27EA70C03DCB43E0", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
+			rewards: [{ id: "727831C5BB7F9407", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "EFF2D7C1F0F14B76", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D0184279585879A"]
+			description: ["Der Arkane Amboss ist die staerkste Werkbank.", "Hier levelst du Schriftrollen und verbesserst Ausruestung und Buecher."]
+			id: "50EAE31AC7E42652"
+			title: "Arkanamboss"
+			rewards: [{ id: "9EC32CDC3A710D8B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "C95E6ED477F06A32", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50EAE31AC7E42652"]
+			description: ["Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen."]
+			id: "093BEFC4751431EC"
+			title: "Tinte"
+			rewards: [{ id: "845A7C50B8AB7C49", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "074A6908421C1CE1", type: "item", item: { id: "irons_spellbooks:common_ink", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["093BEFC4751431EC"]
+			description: ["Das Eisen-Zauberbuch hat mehr Zauberplaetze als das aus Kupfer."]
+			id: "2A29D1B2B6405E43"
+			title: "Eisen-Zauberbuch"
+			rewards: [{ id: "C69B8D3324EDE518", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "E4FF59C0E3FFA1B7", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A29D1B2B6405E43"]
+			description: ["Mit dem Gold-Zauberbuch wirkst du staerkere Zauber."]
+			id: "055F4DB54A381C6B"
+			title: "Gold-Zauberbuch"
+			rewards: [{ id: "D3E128110CD0AF28", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "E7DCCEBF74C3D55A", type: "item", item: { id: "irons_spellbooks:gold_spell_book", count: 1 }, count: 1L }]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["B53F6AD2C9F814B5"]
-			description: ["Der Arkane Amboss ist die staerkste Werkbank.", "Hier levelst du Schriftrollen und verbesserst Ausruestung und Buecher."]
-			id: "E854ECB4A847320C"
-			title: "Arkanamboss"
-			rewards: [{ id: "EA0B2145FDD47ED0", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "0C48ED7694AB01B3", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
+			dependencies: ["055F4DB54A381C6B"]
+			description: ["Das Diamant-Zauberbuch ist ein grosses Upgrade fuer Zauberer."]
+			id: "92183B5FE008BBE8"
+			title: "Diamant-Zauberbuch"
+			rewards: [{ id: "E3FA6F655CC01A48", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "26133EADAA34006C", type: "item", item: { id: "irons_spellbooks:diamond_spell_book", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["92183B5FE008BBE8"]
+			description: ["Der Alchemiekessel mischt Zutaten zu Traenken und mehr."]
+			id: "0E4DCF75ED52D30E"
+			title: "Alchemie"
+			rewards: [{ id: "6126F822FCD62ACF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1317427E80675D00", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
 			x: 2.0d
-			y: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E4DCF75ED52D30E"]
+			description: ["Auf dem Podest legst du Zauberbuecher und Items zur Schau aus."]
+			id: "F863CCF40614D398"
+			title: "Podest"
+			rewards: [{ id: "CC908D891E7840CD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6B2DEE7CC1159E08", type: "item", item: { id: "irons_spellbooks:pedestal", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F863CCF40614D398"]
+			description: ["In Tuermen und Hoehlen leben boese Zauberer. Besiege einen Pyromancer."]
+			id: "CA7289EABC96631B"
+			title: "Zauberer jagen"
+			rewards: [{ id: "C5A60B6829B06F8B", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
+			tasks: [{ id: "4719B31795AE6C90", type: "kill", entity: "irons_spellbooks:pyromancer", value: 1L, icon: { id: "irons_spellbooks:fire_upgrade_orb" } }]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["CA7289EABC96631B"]
+			description: ["Der Kryomant beherrscht Eis. Er lebt in kalten Strukturen."]
+			id: "F1824AC3EFD6E37B"
+			title: "Der Kryomant"
+			rewards: [{ id: "46CE66D90972710A", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "4311D6D9A2633A35", type: "kill", entity: "irons_spellbooks:cryomancer", value: 1L, icon: { id: "irons_spellbooks:ice_upgrade_orb" } }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F1824AC3EFD6E37B"]
+			description: ["Der Necromancer ruft Skelette. Besiege ihn."]
+			id: "3C52BD66AC8039EC"
+			title: "Der Totenbeschwoerer"
+			rewards: [{ id: "56BF2A4E6813EA19", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "CF92A73581BE4357", type: "kill", entity: "irons_spellbooks:necromancer", value: 1L, icon: { id: "irons_spellbooks:evocation_upgrade_orb" } }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C52BD66AC8039EC"]
+			description: ["Der Tote Koenig ist ein starker Boss in den Katakomben. Bereite dich gut vor."]
+			id: "454BA732E348B8C7"
+			title: "Der Tote Koenig"
+			rewards: [{ id: "4FC15072AAB2606D", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			tasks: [{ id: "1C6310AC3665AE4D", type: "kill", entity: "irons_spellbooks:dead_king", value: 1L, icon: { id: "irons_spellbooks:legendary_ink" } }]
+			x: 6.0d
+			y: 6.0d
 		}
 	]
 }

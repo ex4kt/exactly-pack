@@ -3,149 +3,972 @@
 	default_quest_shape: ""
 	filename: "create"
 	icon: { id: "create:cogwheel" }
-	id: "AC92F784DCF62215"
-	order_index: 4
+	id: "C40C2702FD4027E5"
+	order_index: 5
 	quest_links: [ ]
 	title: "&6Create"
 	quests: [
 		{
-			description: ["Create baut Maschinen mit Drehkraft statt Strom.", "Halte im JEI-Menue W ueber einem Item, dann siehst du eine kurze Animation (Ponder), wie es funktioniert."]
-			id: "BDA0080F5CFE5B6E"
+			description: ["Create baut Maschinen mit Drehkraft statt Strom.", "Halte im JEI-Menue W ueber einem Item, dann siehst du eine kurze Animation (Ponder), wie es funktioniert.", "Dieses Kapitel fuehrt dich Schritt fuer Schritt durch die Zeitalter von Create."]
+			id: "62D9AB35C9B0E130"
 			title: "Was ist Create?"
-			rewards: [{ id: "F2DC50A9F3927C56", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "D7F53D8D0CB63208", type: "checkmark" }]
+			rewards: [{ id: "50252BF08DCFFE12", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "38B212068F050A7A", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["BDA0080F5CFE5B6E"]
-			description: ["Das ist der erste Werkstoff.", "Schritt 1: Stelle eine Andesit-Legierung her (Andesit und Eisenstuecke)."]
-			id: "5D81E3B99FF6D10F"
+			dependencies: ["62D9AB35C9B0E130"]
+			description: ["Das ist der erste Werkstoff.", "Stelle eine Andesit-Legierung her (Andesit und Eisenstuecke)."]
+			id: "2136183EE100F6CC"
 			title: "Andesit-Legierung"
-			rewards: [{ id: "651A92FCC66F3564", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
-			tasks: [{ id: "15558153B945745E", type: "item", item: { id: "create:andesite_alloy", count: 1 }, count: 4L }]
+			rewards: [{ id: "C6016B178BA46069", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "2B3D10BE29347BD4", type: "item", item: { id: "create:andesite_alloy", count: 1 }, count: 4L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5D81E3B99FF6D10F"]
-			description: ["Wellen und Zahnraeder uebertragen die Drehung.", "Schritt 1: Baue eine Welle.", "Schritt 2: Baue ein Zahnrad und stecke es daran."]
-			id: "6D4D897E15E1E83D"
+			dependencies: ["2136183EE100F6CC"]
+			description: ["Wellen und Zahnraeder uebertragen die Drehung.", "Baue eine Welle, dann ein Zahnrad, und stecke es daran."]
+			id: "970863DBD3AE8215"
 			title: "Welle und Zahnrad"
-			rewards: [{ id: "EBC1ABDE5882B605", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "745DCBFDDA1BC51B", type: "item", item: { id: "create:cogwheel", count: 1 }, count: 4L }]
+			rewards: [{ id: "F728D0B69C555672", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DE35699454287B8C", type: "item", item: { id: "create:cogwheel", count: 1 }, count: 4L }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D4D897E15E1E83D"]
-			description: ["Mit der Handkurbel kannst du erste Kraft selbst erzeugen.", "Rechtsklick halten, dreht die Welle."]
-			id: "ECC294D720618A23"
+			dependencies: ["970863DBD3AE8215"]
+			description: ["Mit der Handkurbel erzeugst du erste Kraft selbst.", "Rechtsklick halten dreht die Welle."]
+			id: "6F80AAFDFEA8A256"
 			title: "Handkurbel"
-			rewards: [{ id: "4A08849B66733D27", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "30E3E71A53DF1307", type: "item", item: { id: "create:hand_crank", count: 1 }, count: 1L }]
+			rewards: [{ id: "2E4FDEBD2CBA33EE", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "297988D3DBC2880C", type: "item", item: { id: "create:hand_crank", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["ECC294D720618A23"]
-			description: ["Das Wasserrad macht Kraft aus fliessendem Wasser.", "Schritt 1: Platziere es neben Wasser, das fliesst.", "Schritt 2: Verbinde es mit Wellen."]
-			id: "BF77786B6A0959A1"
+			dependencies: ["6F80AAFDFEA8A256"]
+			description: ["Das Wasserrad macht Kraft aus fliessendem Wasser.", "Platziere es neben Wasser, das fliesst, und verbinde es mit Wellen."]
+			id: "DF661B9E389ED46C"
 			title: "Wasserrad"
-			rewards: [{ id: "81D057CF72C8FD78", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
-			tasks: [{ id: "9B7B7EC791C6EED2", type: "item", item: { id: "create:water_wheel", count: 1 }, count: 1L }]
+			rewards: [{ id: "B9272744D96CD3FA", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
+			tasks: [{ id: "C05D4E369FB239E0", type: "item", item: { id: "create:water_wheel", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["BF77786B6A0959A1"]
+			dependencies: ["DF661B9E389ED46C"]
 			description: ["Das Windmuehlenlager macht Kraft aus Wind.", "Baue Segel an das Lager. Mehr Segel, mehr Kraft."]
-			id: "B1704D620DB73666"
+			id: "FA90DB2E7297950A"
 			title: "Windmuehle"
-			rewards: [{ id: "85B1F112E844147C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "1656C4F6D9E683D7", type: "item", item: { id: "create:windmill_bearing", count: 1 }, count: 1L }]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["B1704D620DB73666"]
-			description: ["Mit der Presse machst du Bleche aus Barren.", "Schritt 1: Presse platzieren, Kraft anschliessen.", "Schritt 2: Barren darunter legen (Depot oder Foerderband)."]
-			id: "3B6E0C6651CF4429"
-			title: "Mechanische Presse"
-			rewards: [{ id: "44F9268042730A59", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
-			tasks: [{ id: "A3489764173B8563", type: "item", item: { id: "create:mechanical_press", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3B6E0C6651CF4429"]
-			description: ["Die Muehle zermahlt Items. Brechrad macht es schneller.", "Gut fuer Erz: Brechrad bringt mehr Ausbeute."]
-			id: "555631ED957ADF8F"
-			title: "Muehle und Brecher"
-			rewards: [{ id: "200C4EA3A436F236", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "12C4E5E1F708E698", type: "item", item: { id: "create:crushing_wheel", count: 1 }, count: 2L }]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["555631ED957ADF8F"]
-			description: ["Der Mixer mischt Zutaten im Becken.", "Schritt 1: Becken auf den Boden, Mixer drueber.", "Schritt 2: Zutaten ins Becken werfen, Kraft anschliessen."]
-			id: "39593C0FB1A316DC"
-			title: "Mixer und Becken"
-			rewards: [{ id: "9F0FA943889A171C", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "1996915F6D9B502D", type: "item", item: { id: "create:mechanical_mixer", count: 1 }, count: 1L }]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["39593C0FB1A316DC"]
-			description: ["Mit Foerderband und Schacht bewegst du Items.", "Das Band verbindest du mit zwei Rechtsklicks und einem Konnektor."]
-			id: "A21D1F31C85B4C86"
-			title: "Foerderband"
-			rewards: [{ id: "26D013B846D08BDF", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3964C3F0A0574FEA", type: "item", item: { id: "create:belt_connector", count: 1 }, count: 4L }]
+			rewards: [{ id: "EBFA07B5C1FA7795", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CE582384AD6E2998", type: "item", item: { id: "create:windmill_bearing", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["A21D1F31C85B4C86"]
-			description: ["Messing machst du im Becken aus Kupfer und Zink mit Hitze.", "Hitze kommt vom Blazebrenner (Blaze im Kaefig) unter dem Becken."]
-			id: "8CBAE85955B26AC3"
-			title: "Messing"
-			rewards: [{ id: "AF8BA1AFDD055F8F", type: "item", item: { id: "minecraft:gold_nugget", count: 8 } }]
-			tasks: [{ id: "CC7CAD15F0593DE9", type: "item", item: { id: "create:brass_ingot", count: 1 }, count: 2L }]
+			dependencies: ["FA90DB2E7297950A"]
+			description: ["Grosse Zahnraeder uebersetzen Drehzahl in Kraft und umgekehrt."]
+			id: "D418BB4B59D1010A"
+			title: "Grosses Zahnrad"
+			rewards: [{ id: "0EE1449520C13DC3", type: "item", item: { id: "minecraft:oak_planks", count: 8 } }]
+			tasks: [{ id: "005445D80EC41614", type: "item", item: { id: "create:large_cogwheel", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["D418BB4B59D1010A"]
+			description: ["Das Getriebe leitet Drehkraft in alle Richtungen."]
+			id: "8D809582D8FF115E"
+			title: "Getriebe"
+			rewards: [{ id: "FBA9971B6F239B53", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "40E24448D6A1A735", type: "item", item: { id: "create:gearbox", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["8D809582D8FF115E"]
+			description: ["Die Kupplung schaltet Kraft ein und aus (mit Redstone)."]
+			id: "8F093D146DA3E0E5"
+			title: "Kupplung"
+			rewards: [{ id: "D62822ACE2B421E1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "29018FFB954DA8AB", type: "item", item: { id: "create:clutch", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["8F093D146DA3E0E5"]
+			description: ["Die Gangschaltung dreht die Richtung um."]
+			id: "2EFBCF18BEB3B4A3"
+			title: "Gangschaltung"
+			rewards: [{ id: "56639C00E4354B87", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "16E161DFBF03331E", type: "item", item: { id: "create:gearshift", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EFBCF18BEB3B4A3"]
+			description: ["Mit der Brille siehst du Kraftwerte. Der Schluessel dreht und baut Maschinen um."]
+			id: "4E91076AC4ABB54D"
+			title: "Brille und Schluessel"
+			rewards: [{ id: "0CFBAB846E32E8AF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "62C3984B83C3178A", type: "item", item: { id: "create:goggles", count: 1 }, count: 1L }]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["8CBAE85955B26AC3"]
-			description: ["Mit der Brille siehst du Kraftwerte.", "Der Schluessel dreht und baut Maschinen um."]
-			id: "7AFBDBE463CA65BE"
-			title: "Brille und Schluessel"
-			rewards: [{ id: "8458315A17ECDBF0", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "36A771044701E156", type: "item", item: { id: "create:goggles", count: 1 }, count: 1L }]
+			dependencies: ["4E91076AC4ABB54D"]
+			description: ["Der Schraubenschluessel dreht Bloecke, baut sie ab und bewegt sie."]
+			id: "99D22928E8D42E91"
+			title: "Schluessel (Wrench)"
+			rewards: [{ id: "B847CCDB98DB51D0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "78C17D4C2AA5FCF7", type: "item", item: { id: "create:wrench", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["7AFBDBE463CA65BE"]
-			description: ["Das ist das wichtigste Bauteil der Spaetphase.", "Du stellst es in einer Montagelinie her: Goldblech, Zahnraeder und Eisenstuecke werden nacheinander verarbeitet."]
-			id: "84B4A3D2C78C30B2"
-			title: "Praezisionsmechanismus"
-			rewards: [{ id: "79D1AFC1106F3379", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "856C2629F362091C", type: "item", item: { id: "create:precision_mechanism", count: 1 }, count: 1L }]
+			dependencies: ["99D22928E8D42E91"]
+			description: ["Die Muehle zermahlt Items ohne grosse Anlage."]
+			id: "36EF7D5B84F856C6"
+			title: "Muehle (Millstone)"
+			rewards: [{ id: "EB75333AB17F0861", type: "item", item: { id: "minecraft:wheat", count: 8 } }]
+			tasks: [{ id: "8DB8A73382901249", type: "item", item: { id: "create:millstone", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["84B4A3D2C78C30B2"]
-			description: ["Der Arm bewegt Items zwischen Maschinen, ganz automatisch.", "Stelle ihn mit Eingabe und Ausgabe ein."]
-			id: "B139DC8DE63ABA3F"
-			title: "Mechanischer Arm"
-			rewards: [{ id: "6243EE6995B2025B", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
-			tasks: [{ id: "7089B8412C90B2A8", type: "item", item: { id: "create:mechanical_arm", count: 1 }, count: 1L }]
+			dependencies: ["36EF7D5B84F856C6"]
+			description: ["Mit der Presse machst du Bleche aus Barren.", "Presse platzieren, Kraft anschliessen, Barren darunter legen (Depot oder Foerderband)."]
+			id: "AE92771AC028917D"
+			title: "Mechanische Presse"
+			rewards: [{ id: "33C9A7C490C9032F", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "DAD206C351F93D96", type: "item", item: { id: "create:mechanical_press", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["AE92771AC028917D"]
+			description: ["Das Depot haelt Items fuer Maschinen zur Bearbeitung."]
+			id: "B974645C42ADA938"
+			title: "Depot"
+			rewards: [{ id: "70BDCD75D89F9331", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C7265188F3F14A7E", type: "item", item: { id: "create:depot", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B974645C42ADA938"]
+			description: ["Brechraeder zerkleinern Erze mit mehr Ausbeute."]
+			id: "B694569C5436AC16"
+			title: "Brechrad"
+			rewards: [{ id: "9E2F853E0D9C88EB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FFDBA311B4A67B0F", type: "item", item: { id: "create:crushing_wheel", count: 1 }, count: 2L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B694569C5436AC16"]
+			description: ["Mit Foerderband und Schacht bewegst du Items.", "Das Band verbindest du mit zwei Rechtsklicks und einem Konnektor."]
+			id: "C1DCE7F68CD5C302"
+			title: "Foerderband"
+			rewards: [{ id: "896B1399BEAC9582", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0E24DC44EA1720D2", type: "item", item: { id: "create:belt_connector", count: 1 }, count: 4L }]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["C1DCE7F68CD5C302"]
+			description: ["Schaechte und Trichter fuehren Items zwischen Behaeltern und Maschinen."]
+			id: "DAC27384FAF21E17"
+			title: "Schacht und Trichter"
+			rewards: [{ id: "074F13AC488E27A9", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "5E698B2C9D1D3BC0", type: "item", item: { id: "create:chute", count: 1 }, count: 2L }]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["DAC27384FAF21E17"]
+			description: ["Das Geblaese blaest Items durch Feuer, Wasser oder Lava und behandelt sie so: backen, waschen, verkohlen."]
+			id: "1409C79373B89401"
+			title: "Geblaese"
+			rewards: [{ id: "1AC21901494033A2", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "1F23A39C7A132B60", type: "item", item: { id: "create:encased_fan", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["Der Blazebrenner heizt Becken. Du brauchst eine Blaze im Kaefig."]
+			id: "40900EE999C38D49"
+			title: "Blazebrenner"
+			rewards: [{ id: "28D7A887E0F0E993", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
+			tasks: [{ id: "37C3985CE78727A8", type: "item", item: { id: "create:blaze_burner", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40900EE999C38D49"]
+			description: ["Der Mixer mischt Zutaten im Becken. Mit Hitze entsteht Messing."]
+			id: "B547276608B470AB"
+			title: "Becken und Mixer"
+			rewards: [{ id: "FBDA637AF45894D5", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "FE0AF268404918FD", type: "item", item: { id: "create:mechanical_mixer", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["B547276608B470AB"]
+			description: ["Messing machst du im Becken aus Kupfer und Zink mit Hitze."]
+			id: "AEE1517267F3A5BA"
+			title: "Messing"
+			rewards: [{ id: "0213BECC75BADDFF", type: "item", item: { id: "minecraft:gold_nugget", count: 8 } }]
+			tasks: [{ id: "E4836F90142A4E66", type: "item", item: { id: "create:brass_ingot", count: 1 }, count: 2L }]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["AEE1517267F3A5BA"]
+			description: ["Aus Messing presst du Messingbleche. Sie sind das Material der Fortgeschrittenen."]
+			id: "F2D3F8ECA3F72918"
+			title: "Messingblech"
+			rewards: [{ id: "EE873A9F8BB04F34", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3EBC0C6F2D820D61", type: "item", item: { id: "create:brass_sheet", count: 1 }, count: 4L }]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["F2D3F8ECA3F72918"]
+			description: ["Der Deployer nutzt Items wie ein Spieler: platzieren, verbauen, anwenden."]
+			id: "E199E349D11B73BB"
+			title: "Deployer"
+			rewards: [{ id: "F9BE58C95B4405A2", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
+			tasks: [{ id: "53653A54C20E6AC9", type: "item", item: { id: "create:deployer", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["E199E349D11B73BB"]
+			description: ["Das ist das wichtigste Bauteil der Spaetphase.", "Auf ein Goldblech im Depot nacheinander Zahnraeder und Eisenstuecke per Deployer anwenden."]
+			id: "D15536B2F171200C"
+			title: "Praezisionsmechanismus"
+			rewards: [{ id: "F21A34ED6D075036", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "94CC70D494B09B9D", type: "item", item: { id: "create:precision_mechanism", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["D15536B2F171200C"]
+			description: ["Der Arm bewegt Items zwischen Maschinen, ganz automatisch.", "Stelle ihn mit Eingabe und Ausgabe ein."]
+			id: "6648C2BBD35E7356"
+			title: "Mechanischer Arm"
+			rewards: [{ id: "264E40E46F6906E8", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			tasks: [{ id: "7E41DF2EC741DBFA", type: "item", item: { id: "create:mechanical_arm", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6648C2BBD35E7356"]
+			description: ["Mehrere Crafter verbunden stellen jedes Rezept automatisch her."]
+			id: "74A04B57579CC26D"
+			title: "Mechanischer Crafter"
+			rewards: [{ id: "D54FC527FFBD89D5", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "049A67F0F2EC0D0A", type: "item", item: { id: "create:mechanical_crafter", count: 1 }, count: 3L }]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["74A04B57579CC26D"]
+			description: ["Der Bohrer baut Bloecke automatisch ab."]
+			id: "1440E3EA697F1DBC"
+			title: "Bohrer"
+			rewards: [{ id: "FBBB2FCB21A6B176", type: "item", item: { id: "minecraft:iron_ingot", count: 6 } }]
+			tasks: [{ id: "9C08253B64E11248", type: "item", item: { id: "create:mechanical_drill", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1440E3EA697F1DBC"]
+			description: ["Die Saege zerschneidet Staemme zu Brettern und faellt Baeume."]
+			id: "B09E6F7A1C258EFB"
+			title: "Saege"
+			rewards: [{ id: "A3ECD229F451ADF4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4934D7781887606D", type: "item", item: { id: "create:mechanical_saw", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["B09E6F7A1C258EFB"]
+			description: ["Der Ernter schneidet reife Pflanzen. Er laeuft auf Wagen oder Maschinen."]
+			id: "C8C2E5845FAB3668"
+			title: "Ernter"
+			rewards: [{ id: "BDC83A92694816E4", type: "item", item: { id: "minecraft:wheat_seeds", count: 16 } }]
+			tasks: [{ id: "C7C8F0B843996441", type: "item", item: { id: "create:mechanical_harvester", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["C8C2E5845FAB3668"]
+			description: ["Der Pflug bearbeitet Erde und pflanzt Samen."]
+			id: "CC1C8861D9F10927"
+			title: "Pflug"
+			rewards: [{ id: "F36D1712DA16C26E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "93AF3EEA768A993A", type: "item", item: { id: "create:mechanical_plough", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["CC1C8861D9F10927"]
+			description: ["Mechanisches Lager und Kolben bewegen ganze Konstruktionen. Mit Superkleber verbindest du Bloecke."]
+			id: "AC2808E675875C7A"
+			title: "Lager, Kolben und Superkleber"
+			rewards: [{ id: "698DF1322818C8D4", type: "item", item: { id: "minecraft:slime_ball", count: 4 } }]
+			tasks: [{ id: "4403A5ECE11D2F8C", type: "item", item: { id: "create:mechanical_bearing", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["AC2808E675875C7A"]
+			description: ["Die Seilwinde bewegt Konstruktionen nach oben und unten."]
+			id: "6A9BD2231B54663C"
+			title: "Seilwinde"
+			rewards: [{ id: "24F3A8E30E113506", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA548F0A59EF530E", type: "item", item: { id: "create:rope_pulley", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6A9BD2231B54663C"]
+			description: ["Mit Sequenziertem Getriebe schaltest du Drehungen in Schritten."]
+			id: "C2073D73EA430FC0"
+			title: "Kraftverteilung"
+			rewards: [{ id: "83678AA7C13ADE6F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "4CD7A3468E8624CE", type: "item", item: { id: "create:sequenced_gearshift", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			description: ["Mit Fluessigkeitstank und Rohren speicherst und leitest du Wasser, Lava und mehr."]
+			id: "24B6F6979E753901"
+			title: "Tank und Rohre"
+			rewards: [{ id: "2290F8E926B8F989", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "97A9584E09AC081C", type: "item", item: { id: "create:fluid_tank", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["24B6F6979E753901"]
+			description: ["Die mechanische Pumpe schiebt Fluessigkeit durch Rohre."]
+			id: "1BA2BF7826D2EE31"
+			title: "Pumpe"
+			rewards: [{ id: "078B5601917EDBE7", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "78CB928FE87EFE63", type: "item", item: { id: "create:mechanical_pump", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1BA2BF7826D2EE31"]
+			description: ["Der Ausguss giesst Fluessigkeit auf Items."]
+			id: "F421BDD689D462F4"
+			title: "Ausguss"
+			rewards: [{ id: "07781D417B18B922", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "0148B62FAA161F94", type: "item", item: { id: "create:spout", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["F421BDD689D462F4"]
+			description: ["Der Abfluss leert Behaelter und holt Fluessigkeit zurueck."]
+			id: "A3245942D239978B"
+			title: "Abfluss"
+			rewards: [{ id: "72E53652C30F4A40", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9FEE9E8A580A49F9", type: "item", item: { id: "create:item_drain", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["A3245942D239978B"]
+			description: ["Die Dampfmaschine macht aus Dampf (Becken mit Wasser und Hitze) viel Kraft."]
+			id: "B55F7E53E4922220"
+			title: "Dampfmaschine"
+			rewards: [{ id: "B808BCE3AB15D86A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "8FC11AA2FD28C9CD", type: "item", item: { id: "create:steam_engine", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["B55F7E53E4922220"]
+			description: ["Create-Schienen sind die Basis des Zugsystems."]
+			id: "688BCFC5FF3993C1"
+			title: "Schienen"
+			rewards: [{ id: "633C9B4C09659446", type: "item", item: { id: "minecraft:iron_nugget", count: 16 } }]
+			tasks: [{ id: "4025DE8C8C663C62", type: "item", item: { id: "create:track", count: 1 }, count: 8L }]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["688BCFC5FF3993C1"]
+			description: ["Der Bahnhof steuert Zuege. Stelle ihn neben die Schienen."]
+			id: "0290C0DBDE51020B"
+			title: "Bahnhof"
+			rewards: [{ id: "5EFA4919C5437233", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			tasks: [{ id: "784B770DF40E680D", type: "item", item: { id: "create:track_station", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0290C0DBDE51020B"]
+			description: ["Signale verhindern Zusammenstoesse auf einem Netz."]
+			id: "F321EDEB90F8AC9B"
+			title: "Zugsignal"
+			rewards: [{ id: "990A5A1D6BF13C5C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "7FFB8ABE26C5A558", type: "item", item: { id: "create:track_signal", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["F321EDEB90F8AC9B"]
+			description: ["Zugtueren sind schoen und verriegeln deinen Zug."]
+			id: "77208135BDDE9A5D"
+			title: "Zugtuer"
+			rewards: [{ id: "0CAE29DDD14DA9B6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0D76954A307DDCE6", type: "item", item: { id: "create:train_door", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["77208135BDDE9A5D"]
+			description: ["Mit Fahrplaenen sagst du Zuegen, wo sie hinfahren."]
+			id: "F8960B323E7C1401"
+			title: "Fahrplan"
+			rewards: [{ id: "D91727A7F987070A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "104DEFE44565330A", type: "item", item: { id: "create:schedule", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["F8960B323E7C1401"]
+			description: ["Sitze brauchst du fuer Zug und Konstruktionen."]
+			id: "4AA90F2E0D50F02E"
+			title: "Sitze"
+			rewards: [{ id: "19F074495DD4673C", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "50CC7070D69C3899", type: "item", item: { id: "create:red_seat", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4AA90F2E0D50F02E"]
+			description: ["Mit Schematic und Schematic-Kanone baust du ganze Gebaeude automatisch nach."]
+			id: "B28233AB3FCAA746"
+			title: "Montage-Kanone"
+			rewards: [{ id: "0E668F20C2692295", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "5C02733C119BDD37", type: "item", item: { id: "create:schematicannon", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["B28233AB3FCAA746"]
+			description: ["Der Item-Tresor ist ein riesiger Behaelter fuer Items."]
+			id: "CC9F0CDF5B536233"
+			title: "Tresor"
+			rewards: [{ id: "A6481D459F54C9AE", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "2C77772D63F6A8C8", type: "item", item: { id: "create:item_vault", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["CC9F0CDF5B536233"]
+			description: ["Der Packer verpackt Items zu Paketen, die ueber Frogports verschickt werden."]
+			id: "C91EBED0FE503839"
+			title: "Packer"
+			rewards: [{ id: "6EFCE14581D81E1C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "73816CF8B8F40B64", type: "item", item: { id: "create:packager", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["C91EBED0FE503839"]
+			description: ["Der Stock Ticker bestellt Items aus vernetzten Lagern. Das ist die Logistik von Create."]
+			id: "8F3262DF59C7E750"
+			title: "Lagerverwaltung"
+			rewards: [{ id: "91DDAD05E395F77D", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "90F6FA1D6BC9DF5E", type: "item", item: { id: "create:stock_ticker", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["8F3262DF59C7E750"]
+			description: ["Display Link und Display Board zeigen Werte und Texte an."]
+			id: "C8E156AEE9F26CCD"
+			title: "Anzeige"
+			rewards: [{ id: "CEFF032BF97C1CDE", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "62B0BF4BD2525B88", type: "item", item: { id: "create:display_link", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["C8E156AEE9F26CCD"]
+			description: ["Redstone Link schickt Signale kabellos zwischen Bloecken."]
+			id: "7CB6F0C9B2921628"
+			title: "Redstone-Verbindung"
+			rewards: [{ id: "A18088D3000278A1", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3E2A4429C1088E03", type: "item", item: { id: "create:redstone_link", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7CB6F0C9B2921628"]
+			description: ["Eine huebsche Uhr, die zur vollen Stunde einen Vogel zeigt."]
+			id: "943AA231453D2B88"
+			title: "Kuckucksuhr"
+			rewards: [{ id: "84103D6B1FA43024", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "46E69D37C52E3A31", type: "item", item: { id: "create:cuckoo_clock", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			description: ["Create Crafts and Additions bringt Strom: Motoren, Kabel, Akkus und Tesla-Spulen.", "Strom und Drehkraft lassen sich ineinander umwandeln."]
+			id: "DF01BE1CB453C7C8"
+			title: "Create Additions"
+			rewards: [{ id: "CF9379E603493F4C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7E31FAADD0325EF5", type: "checkmark" }]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["DF01BE1CB453C7C8"]
+			description: ["Elektrum ist der Werkstoff fuer Kabel und Elektronik."]
+			id: "67918124991ACF60"
+			title: "Elektrum"
+			rewards: [{ id: "F4736FDD0D1C509D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3E64621EA4329353", type: "item", item: { id: "createaddition:electrum_ingot", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["67918124991ACF60"]
+			description: ["Kupferdraht bringt Strom in Kabeln."]
+			id: "915250CA37F5DF5D"
+			title: "Kupferdraht"
+			rewards: [{ id: "D1AE705319490589", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "C7F77BEAEA926BDC", type: "item", item: { id: "createaddition:copper_wire", count: 1 }, count: 8L }]
+			x: 4.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["915250CA37F5DF5D"]
+			description: ["Der Elektromotor wandelt Strom in Drehkraft um."]
+			id: "8A7B27FBCB82C70C"
+			title: "Elektromotor"
+			rewards: [{ id: "04F46B5C1C5E7598", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A5523EB45C5B6A64", type: "item", item: { id: "createaddition:electric_motor", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["8A7B27FBCB82C70C"]
+			description: ["Der Alternator wandelt Drehkraft in Strom um."]
+			id: "E5AB2A35AEE12D7A"
+			title: "Alternator"
+			rewards: [{ id: "2F9C543EF9078CD0", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
+			tasks: [{ id: "2F815A8E668BAAD7", type: "item", item: { id: "createaddition:alternator", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["E5AB2A35AEE12D7A"]
+			description: ["Der Kondensator speichert Strom."]
+			id: "44118BD219698ADC"
+			title: "Kondensator"
+			rewards: [{ id: "EEB7CD3EC92CA069", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3C9614E5C0E02A17", type: "item", item: { id: "createaddition:capacitor", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["44118BD219698ADC"]
+			description: ["Mit dem Verbinder spannst du Stromkabel von Block zu Block."]
+			id: "726759AD71039D9E"
+			title: "Verbinder"
+			rewards: [{ id: "799915459BA722BB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "887D075D04F553C4", type: "item", item: { id: "createaddition:connector", count: 1 }, count: 4L }]
+			x: 6.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["726759AD71039D9E"]
+			description: ["Das Walzwerk presst Draehte aus Barren schneller."]
+			id: "4DE75E43789839D0"
+			title: "Walzwerk"
+			rewards: [{ id: "DE407C734235CDBE", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A57A34679E78DD89", type: "item", item: { id: "createaddition:rolling_mill", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["4DE75E43789839D0"]
+			description: ["Der modulare Akku speichert noch mehr Strom."]
+			id: "01AF6F5A9397AA93"
+			title: "Akku"
+			rewards: [{ id: "2093DA3DD35001AB", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "84B0B1132102EB7C", type: "item", item: { id: "createaddition:modular_accumulator", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["01AF6F5A9397AA93"]
+			description: ["Die Teslaspule schiesst Blitze und ladet Items."]
+			id: "075AC668E30C029D"
+			title: "Teslaspule"
+			rewards: [{ id: "A72B370E0D27C021", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "28F928DBD1E5C558", type: "item", item: { id: "createaddition:tesla_coil", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["075AC668E30C029D"]
+			description: ["Die portable Stromschnittstelle laedt Geraete und Waffen."]
+			id: "4037397483E14D8D"
+			title: "Stromschnittstelle"
+			rewards: [{ id: "ED68EE7B808465FC", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "7405CE993E6BCE08", type: "item", item: { id: "createaddition:portable_energy_interface", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["4037397483E14D8D"]
+			description: ["Aus Biomasse stellst du Brennstoff-Pellets fuer Blazebrenner her."]
+			id: "E58C424AB113F8A7"
+			title: "Biomasse"
+			rewards: [{ id: "CA9E9928D4DC653D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "EDE75FBBE9851522", type: "item", item: { id: "createaddition:biomass_pellet", count: 1 }, count: 8L }]
+			x: 2.0d
+			y: 29.0d
+		}
+		{
+			description: ["Create Connected bringt neue Bausteine fuer Maschinen und Zahnraeder."]
+			id: "9C3A6106F1287531"
+			title: "Create Connected"
+			rewards: [{ id: "E57BC035A5A02F48", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E9CE093E1BA551A2", type: "checkmark" }]
+			x: 0.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["9C3A6106F1287531"]
+			description: ["Der Copycat-Block uebernimmt das Aussehen jedes Blocks. Ideal fuer Verkleidungen."]
+			id: "B3EA9D92B8C18440"
+			title: "Kopierblock"
+			rewards: [{ id: "AAD0D70D674AE2C2", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "5B7783237ACEFD2B", type: "item", item: { id: "create_connected:copycat_block", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["B3EA9D92B8C18440"]
+			description: ["Das parallele Getriebe leitet Kraft nebeneinander durch."]
+			id: "9678AD6C52C3FB26"
+			title: "Paralleles Getriebe"
+			rewards: [{ id: "2F5824ADA910F754", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "62FAA2AA3342346D", type: "item", item: { id: "create_connected:parallel_gearbox", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["9678AD6C52C3FB26"]
+			description: ["Der Kreuzverbinder verbindet Wellen im 90-Grad-Winkel."]
+			id: "DF7C9FDC20EE5EDB"
+			title: "Kreuzverbinder"
+			rewards: [{ id: "167FD40272F119BC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DA8CD808F2CA3D92", type: "item", item: { id: "create_connected:cross_connector", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["DF7C9FDC20EE5EDB"]
+			description: ["Die Bremse stoppt Drehung ruckartig. Praktisch fuer Konstruktionen."]
+			id: "C1E1DB7DC157162F"
+			title: "Bremse"
+			rewards: [{ id: "FFE9F579A65A9E66", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E049C90AFD8F70AD", type: "item", item: { id: "create_connected:brake", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 32.0d
+		}
+		{
+			dependencies: ["C1E1DB7DC157162F"]
+			description: ["Die Zentrifugalkupplung rastet bei hoher Drehzahl ein."]
+			id: "6649C86A8B69F876"
+			title: "Zentrifugalkupplung"
+			rewards: [{ id: "8212A2C89BE53610", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "70B280685D0FC0B6", type: "item", item: { id: "create_connected:centrifugal_clutch", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["6649C86A8B69F876"]
+			description: ["Die Batterie speichert Drehkraft fuer spaeter."]
+			id: "517ED1828AF8A6BC"
+			title: "Kinetische Batterie"
+			rewards: [{ id: "AE26D4B4429D205F", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "6276474F963157DA", type: "item", item: { id: "create_connected:kinetic_battery", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["517ED1828AF8A6BC"]
+			description: ["Das Silo speichert riesige Mengen eines Items."]
+			id: "EE7FA3E4A4815EE4"
+			title: "Item-Silo"
+			rewards: [{ id: "D3B43A316312D7C9", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "CF998510D294EA32", type: "item", item: { id: "create_connected:item_silo", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["EE7FA3E4A4815EE4"]
+			description: ["Das Gefaess ist ein grosser Fluessigkeitsspeicher, wie ein Tank, aber flexibler."]
+			id: "AE1FF325D1128EF1"
+			title: "Fluessigkeitsgefaess"
+			rewards: [{ id: "F7FE40B2C7353F26", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "1456D315D18BB65A", type: "item", item: { id: "create_connected:fluid_vessel", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["AE1FF325D1128EF1"]
+			description: ["Der Kontrollchip ist ein Bauteil fuer fortgeschrittene Steuerungen."]
+			id: "09A007C1323987D9"
+			title: "Kontrollchip"
+			rewards: [{ id: "D7267E4083960B2D", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "503A4C4A25711760", type: "item", item: { id: "create_connected:control_chip", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["09A007C1323987D9"]
+			description: ["Sequenzierter Impulsgeber sendet Redstone-Signale nach einem Muster."]
+			id: "BBEC5BDAC2282BBC"
+			title: "Gesteuerter Impulsgeber"
+			rewards: [{ id: "028CCCF6C2213D96", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "E25B3B5235BF9904", type: "item", item: { id: "create_connected:sequenced_pulse_generator", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["BBEC5BDAC2282BBC"]
+			description: ["Fan-Katalysatoren bringen dem Geblaese neue Behandlungen bei: Faerben, Raeuchern, Frieren und mehr."]
+			id: "470B4E4210CC09D6"
+			title: "Fan-Katalysatoren"
+			rewards: [{ id: "255D35012EE083F5", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "393F2BC21F22247E", type: "item", item: { id: "create_connected:fan_freezing_catalyst", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 36.0d
+		}
+		{
+			description: ["Mehrere Mods bringen Baumaterial: Create Deco (Metall, Ziegel, Laufstege), Bits n Bobs (Stuehle, Lampen, Gitter), Rechiseled Create und mehr."]
+			id: "476CF3C5CF3D54E7"
+			title: "Deko mit Create"
+			rewards: [{ id: "B4FE8C3D81C3CB9D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "B4CF612566BCAC47", type: "checkmark" }]
+			x: 0.0d
+			y: 39.0d
+		}
+		{
+			description: ["Laufstege aus Metall sind perfekt fuer Fabriken."]
+			id: "7640625D7CB5E1A3"
+			title: "Laufsteg"
+			rewards: [{ id: "A75440CE1E654F8A", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "0D7D8770207CA376", type: "item", item: { id: "createdeco:andesite_catwalk", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 39.0d
+		}
+		{
+			description: ["Laufstege aus Messing sehen edler aus."]
+			id: "5C4B5ED1ABF4A6CC"
+			title: "Messing-Laufsteg"
+			rewards: [{ id: "9685659F08C901B3", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CDCC57F3CEB84635", type: "item", item: { id: "createdeco:brass_catwalk", count: 1 }, count: 4L }]
+			x: 4.0d
+			y: 39.0d
+		}
+		{
+			description: ["Gitter und Bleche aus Create Deco: Fenster, Zaeune, Tueren."]
+			id: "154A4CF21853877B"
+			title: "Gitter und Bleche"
+			rewards: [{ id: "B1CE63473CBCA62A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7D0C7B037275549A", type: "item", item: { id: "createdeco:andesite_bars", count: 1 }, count: 4L }]
+			x: 6.0d
+			y: 39.0d
+		}
+		{
+			description: ["Industrial Grating aus Bits n Bobs ist ein Boden mit Flair."]
+			id: "5079F228836A2030"
+			title: "Industrielles Gitter"
+			rewards: [{ id: "E1EF5DC3989BF481", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "281766DD55D3D4AC", type: "item", item: { id: "bits_n_bobs:industrial_grating", count: 1 }, count: 4L }]
+			x: 8.0d
+			y: 39.0d
+		}
+		{
+			description: ["Bits n Bobs bringt Stuehle in 16 Farben. Rechtsklick zum Sitzen."]
+			id: "FE39CFF9C2AC8A93"
+			title: "Stuhl"
+			rewards: [{ id: "1FD87345CDEDD2E1", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FC2C22343E90509F", type: "item", item: { id: "bits_n_bobs:red_chair", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 41.0d
+		}
+		{
+			description: ["Headlamp und Gluehbirne bringen Licht in die Halle."]
+			id: "44FAE3DE3C1065F0"
+			title: "Scheinwerfer"
+			rewards: [{ id: "F99F6F9C7D053571", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DC301E9CEAB74BE8", type: "item", item: { id: "bits_n_bobs:headlamp", count: 1 }, count: 2L }]
+			x: 2.0d
+			y: 41.0d
+		}
+		{
+			description: ["Nixie-Roehren zeigen Zahlen und Text. Gut fuer Anzeigetafeln."]
+			id: "55393EE50EDD86FE"
+			title: "Nixie-Roehre"
+			rewards: [{ id: "F5E39EBD2794E388", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F738C8E361AD7D10", type: "item", item: { id: "bits_n_bobs:large_nixie_tube", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 41.0d
+		}
+		{
+			description: ["Das gigantische Zahnrad ist riesig, aber toll zum Anschauen."]
+			id: "A26E181B155FDE36"
+			title: "Gigantisches Zahnrad"
+			rewards: [{ id: "BF6D6381C655FA42", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "297C75B6B6944B5A", type: "item", item: { id: "bits_n_bobs:gigantic_cogwheel", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 41.0d
+		}
+		{
+			description: ["Metalltraeger fuer Bruecken und Hallen."]
+			id: "39636F0659905F5D"
+			title: "Traeger (Girder)"
+			rewards: [{ id: "1E8EDA1F16F1F660", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "82AD658998824687", type: "item", item: { id: "create:metal_girder", count: 1 }, count: 4L }]
+			x: 8.0d
+			y: 41.0d
+		}
+		{
+			description: ["Create Kupfer-Fliesen (Shingles und Tiles) sehen toll aus an Daechern."]
+			id: "C353E0ED388E8E71"
+			title: "Kupfer-Fliesen"
+			rewards: [{ id: "DE30164E1ABF5693", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "17C217467C4EA5C6", type: "item", item: { id: "create:copper_shingles", count: 1 }, count: 4L }]
+			x: 0.0d
+			y: 43.0d
+		}
+		{
+			description: ["Create-Fenster aus Holz und Metall."]
+			id: "A6AFFB8B2F98E161"
+			title: "Fenster"
+			rewards: [{ id: "A94025EB3D16B410", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "181CA65AA170625C", type: "item", item: { id: "create:oak_window", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 43.0d
+		}
+		{
+			description: ["Hier siehst du die uebrigen Mods, die zu Create gehoeren."]
+			id: "F82A8072A80E62E6"
+			title: "Weitere Create-Mods"
+			rewards: [{ id: "5F5C290B959C5FF5", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "30C14FC68860F47E", type: "checkmark" }]
+			x: 0.0d
+			y: 46.0d
+		}
+		{
+			description: ["Der Slicer schneidet Items mit Messern automatisch, wie am Schneidebrett.", "Der Sprinkler giesst Felder mit Duenger."]
+			id: "176F56D1BA1F76E2"
+			title: "Slice and Dice"
+			rewards: [{ id: "620BF4D9F18E5009", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "06D6538ACD79FECE", type: "item", item: { id: "sliceanddice:slicer", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 46.0d
+		}
+		{
+			description: ["Der Sprinkler giesst Felder mit Duenger oder Wasser."]
+			id: "17EFBD9AE746B940"
+			title: "Sprinkler"
+			rewards: [{ id: "9B53E36C9364B94C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "90F871817B0516CA", type: "item", item: { id: "sliceanddice:sprinkler", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 46.0d
+		}
+		{
+			description: ["Das Create Jetpack gibt dir Flug mit Druckluft aus dem Tank auf dem Ruecken."]
+			id: "1267B6B9B1FEE8B4"
+			title: "Create Jetpack"
+			rewards: [{ id: "5D4AADA692E3B46D", type: "item", item: { id: "minecraft:firework_rocket", count: 8 } }]
+			tasks: [{ id: "CE0FF475AF444789", type: "item", item: { id: "create_jetpack:jetpack", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 46.0d
+		}
+		{
+			description: ["Mit Kupfer-Tauchhelm und -Schuhen bleibst du unter Wasser lange gesund. Du brauchst einen Druckluft-Tank (Backtank)."]
+			id: "AECF3EA4EB0E1651"
+			title: "Kupfer-Tauchausruestung"
+			rewards: [{ id: "BCFD5A1E495C54A5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "63926CB5309FF271", type: "item", item: { id: "create:copper_backtank", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 46.0d
+		}
+		{
+			description: ["Create Tools and Weapons bringt Werkzeug aus Create-Zahnraedern."]
+			id: "60D4F76BB53ADAB5"
+			title: "Gear-Werkzeug"
+			rewards: [{ id: "BD8E488B2ADC7F0F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "86D0E6281F6A4A77", type: "item", item: { id: "create_tools_n_weapons:gear_pickaxe", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 48.0d
+		}
+		{
+			description: ["Create Cobblestone: Der Generator macht Bruchstein und Basalt automatisch."]
+			id: "B0CDD5C2828F6D74"
+			title: "Mechanischer Generator"
+			rewards: [{ id: "2E18BB1FE2E48512", type: "item", item: { id: "minecraft:cobblestone", count: 16 } }]
+			tasks: [{ id: "63684724A6B6379A", type: "item", item: { id: "createcobblestone:mechanical_generator", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 48.0d
+		}
+		{
+			description: ["Create Ultimate Factory macht viele Rohstoffe erneuerbar: Tuff aus Bruchstein, Diamanten aus Kohle und mehr. Schaue die Rezepte in JEI an."]
+			id: "CE8DB642713EB063"
+			title: "Ultimate Factory"
+			rewards: [{ id: "0399D73A16929EC4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F7313E23A34DD28B", type: "checkmark" }]
+			x: 4.0d
+			y: 48.0d
+		}
+		{
+			description: ["Create Copper and Zinc bringt mehr Werkzeuge und Blockvarianten fuer diese Metalle."]
+			id: "0A20A8304BCDF74E"
+			title: "Kupfer und Zink"
+			rewards: [{ id: "A235C74739FC40AC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "597C3764BDD8732C", type: "checkmark" }]
+			x: 6.0d
+			y: 48.0d
+		}
+		{
+			description: ["In der Welt findest du Create-Bauten mit Beute: Lagerhallen, Ruinen und mehr."]
+			id: "DEDF2DA4C95C2E77"
+			title: "Create Structures"
+			rewards: [{ id: "4D86A78D4F9A7AFB", type: "item", item: { id: "minecraft:emerald", count: 2 } }]
+			tasks: [{ id: "6F83BB89C5D0AB2E", type: "checkmark" }]
+			x: 8.0d
+			y: 48.0d
+		}
+		{
+			description: ["Sophisticated Backpacks hat eine Create-Anbindung: Rucksack-Upgrades arbeiten mit Create-Maschinen zusammen."]
+			id: "B4FBA6A3A790A630"
+			title: "Rucksack mit Create"
+			rewards: [{ id: "6087842F7AFB2E11", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2017BE1EAA96A4D7", type: "checkmark" }]
+			x: 0.0d
+			y: 50.0d
 		}
 	]
 }

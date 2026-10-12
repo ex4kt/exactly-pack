@@ -3,62 +3,64 @@
 	default_quest_shape: ""
 	filename: "willkommen"
 	icon: { id: "minecraft:oak_sapling" }
-	id: "E36746B4C9F75EAA"
+	id: "B0744738E770B344"
 	order_index: 0
 	quest_links: [ ]
 	title: "&6Willkommen"
 	quests: [
 		{
-			description: ["Dies ist dein Questbuch. Links siehst du die Kapitel.", "Ein Kapitel nach dem anderen: Grundlagen, Lager, Abbau, Create und mehr.", "Klicke eine Quest an, um zu lesen, was zu tun ist. Haken setzt du selbst, Items werden automatisch erkannt.", "Kleine Mods stehen im Kapitel Kleine Mods in einer Uebersicht."]
-			id: "278E32062C9FAF17"
-			title: "Willkommen im Abenteuer-Pack"
-			rewards: [{ id: "A820587316280F3D", type: "item", item: { id: "minecraft:bread", count: 8 } }]
-			tasks: [{ id: "94FF04568688FEA9", type: "checkmark" }]
+			description: ["Dies ist dein Questbuch. Links siehst du die Kapitel.", "Ein Kapitel nach dem anderen: Grundlagen, Lager, Abbau, Create und mehr.", "Klicke eine Quest an, um zu lesen, was zu tun ist. Haken setzt du selbst, Items werden automatisch erkannt.", "Alle kleinen Mods stehen im Kapitel Grundlagen in einer Uebersicht."]
+			id: "1B8905CD6A6A07B0"
+			title: "Willkommen bei Exactly"
+			rewards: [{ id: "5A4416ACD10664BA", type: "item", item: { id: "minecraft:bread", count: 8 } }]
+			tasks: [{ id: "CE12CA1A49042B7E", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["278E32062C9FAF17"]
-			id: "E7AB03615C6036C2"
+			dependencies: ["1B8905CD6A6A07B0"]
+			description: ["Schlage mit der Hand oder einer Axt Staemme ab.", "Als Belohnung gibt es noch mehr Holz."]
+			id: "AD70B601151C9269"
 			title: "Holz sammeln"
-			rewards: [{ id: "26607880CBD91C59", type: "item", item: { id: "minecraft:torch", count: 16 } }]
-			tasks: [{ id: "CDAF7D0F632D3CF3", type: "item", item: { id: "minecraft:oak_log", count: 1 }, count: 8L }]
+			rewards: [{ id: "3FD9FA36355B9A30", type: "item", item: { id: "minecraft:oak_log", count: 16 } }]
+			tasks: [{ id: "55E5AE1BD49F7B38", type: "item", item: { id: "minecraft:oak_log", count: 1 }, count: 8L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E7AB03615C6036C2"]
-			id: "A5A071F5ECFF559A"
+			dependencies: ["AD70B601151C9269"]
+			description: ["Aus Brettern baust du eine Werkbank. Damit geht fast alles."]
+			id: "3B679BF3502503F2"
 			title: "Werkbank bauen"
-			rewards: [{ id: "6E6993634A3CF6DA", type: "item", item: { id: "minecraft:iron_pickaxe", count: 1 } }]
-			tasks: [{ id: "2BC13A1D83926AF4", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
+			rewards: [{ id: "D82761AA28248622", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
+			tasks: [{ id: "E6FCC147987DCB41", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A5A071F5ECFF559A"]
-			id: "7820DB2E0696CF3B"
+			dependencies: ["3B679BF3502503F2"]
+			id: "EB8E9D7BA68A3F34"
 			title: "Ein Bett fuer die Nacht"
-			rewards: [{ id: "C9335BFE48D975E2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E8B80EF75873E692", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
+			rewards: [{ id: "03D17CACB594EFE3", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0801B7B2B6063697", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["7820DB2E0696CF3B"]
-			id: "0654400C74C447C0"
+			dependencies: ["EB8E9D7BA68A3F34"]
+			id: "3D64137EE4BB4B1D"
 			title: "Kisten sind dein Freund"
-			rewards: [{ id: "00F52A429D471600", type: "item", item: { id: "minecraft:barrel", count: 2 } }]
-			tasks: [{ id: "5F4DE647EF40C25D", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
+			rewards: [{ id: "EA4480B4E356D64B", type: "item", item: { id: "minecraft:barrel", count: 2 } }]
+			tasks: [{ id: "64C3B366C0CF146C", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0654400C74C447C0"]
-			id: "3B9A3C5F2C00898E"
+			dependencies: ["3D64137EE4BB4B1D"]
+			id: "6EED97054AD334F5"
 			title: "Wegpunkt: Waystone"
-			rewards: [{ id: "3F8658FBA1412C68", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
-			tasks: [{ id: "A5EF2C355B467E12", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
+			rewards: [{ id: "ED53A9A68847D085", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
+			tasks: [{ id: "8DFF96CCD757FAB7", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
 			x: 10.0d
 			y: 0.0d
 		}

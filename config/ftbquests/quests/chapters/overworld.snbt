@@ -3,54 +3,208 @@
 	default_quest_shape: ""
 	filename: "overworld"
 	icon: { id: "minecraft:grass_block" }
-	id: "3B91D8641E159203"
-	order_index: 10
+	id: "85E11E0DE4481563"
+	order_index: 9
 	quest_links: [ ]
 	title: "&aOverworld"
 	quests: [
 		{
-			id: "B242D9A153407239"
+			description: ["Eisen findest du in Hoehlen und Bergen. Schmelze es im Ofen."]
+			id: "6E7AE60364E24710"
 			title: "Eisen!"
-			rewards: [{ id: "C4391FE25183C077", type: "item", item: { id: "minecraft:bread", count: 12 } }]
-			tasks: [{ id: "7F626B6066B0614A", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
+			rewards: [{ id: "DFFACD6D3639941F", type: "item", item: { id: "minecraft:bread", count: 12 } }]
+			tasks: [{ id: "64DFEDF9D0380377", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B242D9A153407239"]
-			id: "4B737ADC349C885C"
+			dependencies: ["6E7AE60364E24710"]
+			description: ["Diamanten liegen tief unter der Erde, ab Ebene -50. Du brauchst eine Eisenspitzhacke."]
+			id: "A9EF75FF0F2CD08E"
 			title: "Diamanten"
-			rewards: [{ id: "E054A17804C42346", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "C5217662197581AF", type: "item", item: { id: "minecraft:diamond", count: 1 }, count: 5L }]
+			rewards: [{ id: "0BE31258E0B895F8", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "AAC53FDF395F63F6", type: "item", item: { id: "minecraft:diamond", count: 1 }, count: 5L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4B737ADC349C885C"]
-			id: "696F74A495101ACA"
+			dependencies: ["A9EF75FF0F2CD08E"]
+			description: ["Mit Buechern und Lapis verzauberst du Ausruestung."]
+			id: "FD67A541FA76E397"
 			title: "Verzauberungstisch"
-			rewards: [{ id: "794BA2DAEA03920E", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
-			tasks: [{ id: "E430F326D0777894", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
+			rewards: [{ id: "7D8E6ED74473345E", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
+			tasks: [{ id: "E3E5624E20637670", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["696F74A495101ACA"]
-			id: "5629662047E90E8D"
+			dependencies: ["FD67A541FA76E397"]
+			description: ["Creeper explodieren. Halte Abstand und schlage zu."]
+			id: "051BF551F89F4366"
 			title: "Der Creeper-Jaeger"
-			rewards: [{ id: "A8C9E8CC79242FCB", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
-			tasks: [{ id: "5073D90BDF69A008", type: "kill", entity: "minecraft:creeper", value: 5L, icon: { id: "minecraft:gunpowder" } }]
+			rewards: [{ id: "8B1CC1205602B0AE", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "9C0259FE7F01B207", type: "kill", entity: "minecraft:creeper", value: 5L, icon: { id: "minecraft:gunpowder" } }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5629662047E90E8D"]
-			id: "D89DB31013A29DB8"
+			dependencies: ["051BF551F89F4366"]
+			description: ["Der Warden lebt in der Tiefen Dunkelheit. Sei leise und schleiche."]
+			id: "B0361A555DFDE81C"
 			title: "Der Waechter der Tiefe"
-			rewards: [{ id: "9881560D3BC47B9E", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
-			tasks: [{ id: "0827166D89EAB30E", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
+			rewards: [{ id: "3FB82918AFCE8C37", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
+			tasks: [{ id: "B89B65ADE966DCC2", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
 			x: 8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["B0361A555DFDE81C"]
+			description: ["Mit dem Schmiedetisch verbesserst du Ausruestung mit Ruestungsdesign und Netherit."]
+			id: "5AC7EDE98582B5DC"
+			title: "Schmiedetisch"
+			rewards: [{ id: "AEFB51B160168B41", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5263951303D2AB39", type: "item", item: { id: "minecraft:smithing_table", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AC7EDE98582B5DC"]
+			description: ["Dorfbewohner handeln mit dir. Suche ein Dorf und tausche gegen Smaragde."]
+			id: "40BD02660B525726"
+			title: "Ein Dorf besuchen"
+			rewards: [{ id: "C34AD82364C84AA5", type: "item", item: { id: "minecraft:bread", count: 8 } }]
+			tasks: [{ id: "6F1B588DE77EBFEE", type: "item", item: { id: "minecraft:emerald", count: 1 }, count: 10L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40BD02660B525726"]
+			description: ["Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock."]
+			id: "7C997E7E29DC22AF"
+			title: "Bienen"
+			rewards: [{ id: "22957A4EDD41C093", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FCCAA73151DDAC67", type: "item", item: { id: "minecraft:honey_bottle", count: 1 }, count: 2L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C997E7E29DC22AF"]
+			description: ["Mit der Angel fischt du Fische, Schaetze und Verzauberbuecher."]
+			id: "038DD3C245737B30"
+			title: "Angeln"
+			rewards: [{ id: "E56205D48EDD2255", type: "item", item: { id: "minecraft:cooked_salmon", count: 8 } }]
+			tasks: [{ id: "D2FE2345F24BA599", type: "item", item: { id: "minecraft:fishing_rod", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["038DD3C245737B30"]
+			description: ["Skelette schiessen aus der Ferne. Nutze Deckung."]
+			id: "21BEB3559DB7494D"
+			title: "Sieger ueber Skelette"
+			rewards: [{ id: "3B3697284B64572C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "8AF7D74FD4646838", type: "kill", entity: "minecraft:skeleton", value: 10L, icon: { id: "minecraft:bone" } }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["21BEB3559DB7494D"]
+			description: ["Pluenderer-Aussenposten sind gefaehrlich. Besiege einen Pluenderer."]
+			id: "1622F59406527466"
+			title: "Der Pluenderer"
+			rewards: [{ id: "A597FEB177211096", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			tasks: [{ id: "DF2052C6064BE9EF", type: "kill", entity: "minecraft:pillager", value: 5L, icon: { id: "minecraft:crossbow" } }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1622F59406527466"]
+			description: ["Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausruestung."]
+			id: "5DA07B4CE34074EA"
+			title: "Das Waldanwesen"
+			rewards: [{ id: "D790DBDE318DFB50", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			tasks: [{ id: "29775321EC52269B", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5DA07B4CE34074EA"]
+			description: ["Illager Invasion bringt neue Gegner. Besiege einen Invoker."]
+			id: "0911911C87E4E2E4"
+			title: "Der Illager-Magier"
+			rewards: [{ id: "E7497887B834B413", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "DE952797288299E1", type: "kill", entity: "illagerinvasion:invoker", value: 1L, icon: { id: "minecraft:totem_of_undying" } }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0911911C87E4E2E4"]
+			description: ["Cataclysm bringt grosse Bosse. Der Kobolediator lebt in der Wueste."]
+			id: "6527E366163C19CC"
+			title: "Cataclysm: Kobolediator"
+			rewards: [{ id: "27F76B94519935BD", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7554D386D2E42B5A", type: "kill", entity: "cataclysm:kobolediator", value: 1L, icon: { id: "minecraft:sand" } }]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6527E366163C19CC"]
+			description: ["In der Verfluchten Pyramide liegt der Ancient Remnant. Er ist ein harter Boss."]
+			id: "8A1D24D3BD8FDFEB"
+			title: "Cataclysm: Verfluchte Pyramide"
+			rewards: [{ id: "39145ADCC0FCAF28", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "64A33A3AEEC5A450", type: "kill", entity: "cataclysm:ancient_remnant", value: 1L, icon: { id: "minecraft:sandstone" } }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: ["Twilight Forest ist eine eigene Dimension. Wirf einen Diamanten in einen Teich mit Blumen drumherum.", "Dort beginnt ein langes Abenteuer mit vielen Bossen."]
+			id: "4F9126BC2BF2D5BF"
+			title: "Der Zwielichtwald"
+			rewards: [{ id: "C869378C7D72B7FF", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "61DD01683588F3A1", type: "dimension", dimension: "twilightforest:twilight_forest", icon: { id: "twilightforest:naga_scale" } }]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F9126BC2BF2D5BF"]
+			description: ["Die Naga ist der erste Boss des Waldes. Sie hat Schuppen als Beute."]
+			id: "A2C410228EB1B792"
+			title: "Naga"
+			rewards: [{ id: "6DF1895F816293CC", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "B3E96701390F14D8", type: "kill", entity: "twilightforest:naga", value: 1L, icon: { id: "twilightforest:naga_scale" } }]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["A2C410228EB1B792"]
+			description: ["Der Lich ist ein maechtiger Zauberer. Bereite dich auf Magie vor."]
+			id: "7871FB91E4A64A66"
+			title: "Lich"
+			rewards: [{ id: "0FBD7E62EF041D7F", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "59DB50A5846968A3", type: "kill", entity: "twilightforest:lich", value: 1L, icon: { id: "twilightforest:lich_trophy" } }]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7871FB91E4A64A66"]
+			description: ["Der Minoshroom bewacht ein Labyrinth."]
+			id: "295A2AA3C694BA1B"
+			title: "Minoshroom"
+			rewards: [{ id: "622A8F472AD5063A", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "C49872362A842B8F", type: "kill", entity: "twilightforest:minoshroom", value: 1L, icon: { id: "twilightforest:meef_stroganoff" } }]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["295A2AA3C694BA1B"]
+			description: ["Die Hydra hat viele Koepfe. Hau sie ab, sobald sie schlaeft."]
+			id: "2DA5D9FF8A5C6CDD"
+			title: "Hydra"
+			rewards: [{ id: "70EEBD6DF25C5D5C", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "C7C2F2CDC5AC5203", type: "kill", entity: "twilightforest:hydra", value: 1L, icon: { id: "twilightforest:hydra_chop" } }]
+			x: 8.0d
+			y: 7.0d
 		}
 	]
 }

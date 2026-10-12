@@ -1,0 +1,557 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kochen"
+	icon: { id: "minecraft:cooked_beef" }
+	id: "CF7F1116D1637673"
+	order_index: 2
+	quest_links: [ ]
+	title: "&eKochen"
+	quests: [
+		{
+			description: ["Farmers Delight bringt bessere Gerichte, Felder und Kochgeraete.", "Die naechsten Quests fuehren dich Schritt fuer Schritt durch die Kueche.", "Tipp: Mahlzeiten aus dem Kochtopf geben Effekte wie Nahrhaft und Gemuetlich (Lebensregeneration)."]
+			id: "6A04023D48E9532D"
+			title: "Kochen mit Farmers Delight"
+			rewards: [{ id: "664D8DC07DA7E676", type: "item", item: { id: "minecraft:bread", count: 4 } }]
+			tasks: [{ id: "E93FBDA59827FC8E", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A04023D48E9532D"]
+			description: ["Ein Messer ist das wichtigste Werkzeug. Damit schneidest du Zutaten, erntest Stroh und holst mehr aus Tieren."]
+			id: "B5118D50497C373F"
+			title: "Messer"
+			rewards: [{ id: "62462C71D28E3273", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "27EA70C03DCB43E0", type: "item", item: { id: "farmersdelight:iron_knife", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B5118D50497C373F"]
+			description: ["Auf dem Schneidebrett schneidest du Zutaten. Rechtsklick mit Messer, Axt oder Schaufel auf das Brett."]
+			id: "EF946351EB28CE2D"
+			title: "Schneidebrett"
+			rewards: [{ id: "EA0B2145FDD47ED0", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "0C48ED7694AB01B3", type: "item", item: { id: "farmersdelight:cutting_board", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EF946351EB28CE2D"]
+			description: ["Der Herd ist die beste Hitzequelle fuer Topf und Pfanne. Du kannst auch ein Lagerfeuer nehmen."]
+			id: "9AF11B4850F7A6AC"
+			title: "Herd"
+			rewards: [{ id: "74F92B0E7F9003EB", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "69B8E529ADCE1C0C", type: "item", item: { id: "farmersdelight:stove", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9AF11B4850F7A6AC"]
+			description: ["Im Kochtopf gart man Eintoepfe und Suppen. Stelle ihn auf den Herd und lege Zutaten plus Schuessel hinein."]
+			id: "4FB6AD78F02DAD46"
+			title: "Kochtopf"
+			rewards: [{ id: "D1C3E4DA8D0FC187", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6A47524877044543", type: "item", item: { id: "farmersdelight:cooking_pot", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FB6AD78F02DAD46"]
+			description: ["In der Pfanne brutzelt man Fleisch, Fisch und Eier direkt auf dem Herd."]
+			id: "692982D2B0F63E67"
+			title: "Pfanne"
+			rewards: [{ id: "B53F6AD2C9F814B5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F0777864F61BAC91", type: "item", item: { id: "farmersdelight:skillet", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["692982D2B0F63E67"]
+			description: ["Der Korb sammelt Items, die auf ihn fallen. Stelle ihn neben die Pfanne, dann landet das Essen automatisch darin."]
+			id: "064C3C3C271186D7"
+			title: "Korb"
+			rewards: [{ id: "3E46E91435BD9E2A", type: "item", item: { id: "minecraft:string", count: 4 } }]
+			tasks: [{ id: "E854ECB4A847320C", type: "item", item: { id: "farmersdelight:basket", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["064C3C3C271186D7"]
+			description: ["Kohl und Zwiebeln wachsen auf Feldern. Du findest Samen in der Wildnis."]
+			id: "B910314218B9D051"
+			title: "Kohl und Zwiebeln"
+			rewards: [{ id: "9243047470180DBC", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
+			tasks: [{ id: "BBC1653EAE4D66F9", type: "item", item: { id: "farmersdelight:cabbage", count: 1 }, count: 4L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["B910314218B9D051"]
+			description: ["Reis waechst im flachen Wasser. Du brauchst ihn fuer viele Gerichte."]
+			id: "9AC4972966600C94"
+			title: "Reis anbauen"
+			rewards: [{ id: "62369FA647A64BEC", type: "item", item: { id: "minecraft:bread", count: 4 } }]
+			tasks: [{ id: "59C76E5DB5CF53EC", type: "item", item: { id: "farmersdelight:rice", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9AC4972966600C94"]
+			description: ["Tomaten wachsen an Ranken. Du findest Samen in der Wildnis."]
+			id: "27AAD63E22BA19E1"
+			title: "Tomaten"
+			rewards: [{ id: "241E9426F62E4F8F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "387D973BD78A87F3", type: "item", item: { id: "farmersdelight:tomato", count: 1 }, count: 4L }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27AAD63E22BA19E1"]
+			description: ["Reiche Erde (Rich Soil) laesst Pflanzen schneller wachsen und breitet sich auf Pilzen aus. Stelle sie mit Kompost her."]
+			id: "108E99E367ADB315"
+			title: "Reiche Erde"
+			rewards: [{ id: "86409F2F51E3546E", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
+			tasks: [{ id: "7FBDB02EE89270DC", type: "item", item: { id: "farmersdelight:rich_soil", count: 1 }, count: 4L }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["108E99E367ADB315"]
+			description: ["Milchflaschen sind Zutat fuer Kakao und Suppen."]
+			id: "E6766B326E27C88C"
+			title: "Milchflaschen"
+			rewards: [{ id: "866DA868DC7A2F9A", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "E828C27113F1A0FE", type: "item", item: { id: "farmersdelight:milk_bottle", count: 1 }, count: 2L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["E6766B326E27C88C"]
+			description: ["Heisser Kakao ist ein schneller Start: Milch, Zucker, Kakao im Topf."]
+			id: "84FF3BA89635C63E"
+			title: "Heisser Kakao"
+			rewards: [{ id: "2FBED9351ABFACE2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2B4FD505F2F6F145", type: "item", item: { id: "farmersdelight:hot_cocoa", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["84FF3BA89635C63E"]
+			description: ["Stelle Rinder-Eintopf im Kochtopf her."]
+			id: "05CA28B6C57B677E"
+			title: "Ein warmes Gericht"
+			rewards: [{ id: "72833AC98ED390A2", type: "item", item: { id: "minecraft:golden_carrot", count: 4 } }]
+			tasks: [{ id: "95FEB00351E8908B", type: "item", item: { id: "farmersdelight:beef_stew", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05CA28B6C57B677E"]
+			description: ["Kuerbissuppe ist ein herzhafter Klassiker."]
+			id: "EE474213BFCF7E60"
+			title: "Kuerbissuppe"
+			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3DCA2592E79CAAC1", type: "item", item: { id: "farmersdelight:pumpkin_soup", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["EE474213BFCF7E60"]
+			description: ["Gebratener Reis sattmacht und ist schnell zu kochen."]
+			id: "A366BEA0882E3F12"
+			title: "Gebratener Reis"
+			rewards: [{ id: "1B1981D7ED1CFBF1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6C4C3E91864B1FED", type: "item", item: { id: "farmersdelight:fried_rice", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A366BEA0882E3F12"]
+			description: ["Ein sattes Gericht mit viel Saettigung. Nudeln machst du aus Teig am Schneidebrett."]
+			id: "F56E1CAE48E3BBFE"
+			title: "Nudeln mit Fleischbaellchen"
+			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E46D50D3660D72D9", type: "item", item: { id: "farmersdelight:pasta_with_meatballs", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["F56E1CAE48E3BBFE"]
+			description: ["Gemuese-Eintopf mit guten Effekten."]
+			id: "E703012034EBF3FC"
+			title: "Ratatouille"
+			rewards: [{ id: "0746F86E82E83768", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "72DD9080DD321FFB", type: "item", item: { id: "farmersdelight:ratatouille", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["E703012034EBF3FC"]
+			description: ["Fleischpatty und Brot ergeben einen Hamburger."]
+			id: "DA0278EE9813F74C"
+			title: "Hamburger"
+			rewards: [{ id: "D1558BCFBF561FD6", type: "item", item: { id: "minecraft:cooked_beef", count: 4 } }]
+			tasks: [{ id: "43655F060B9DC92F", type: "item", item: { id: "farmersdelight:hamburger", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["DA0278EE9813F74C"]
+			description: ["Ein ganzes Festmahl fuer die Gruppe, zum Beispiel der Haehnchenbraten oder der Schinken. Jeder darf sich bedienen."]
+			id: "930BEE2D26ADDEE1"
+			title: "Festmahl: Braten"
+			rewards: [{ id: "FFB1110977A5A940", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "7ADD8A616E64E91E", type: "item", item: { id: "farmersdelight:roast_chicken_block", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["930BEE2D26ADDEE1"]
+			description: ["Hirtenpastete ist ein Festmahl-Block aus Hackfleisch und Kartoffeln."]
+			id: "9251BC769197FF1C"
+			title: "Hirtenpastete"
+			rewards: [{ id: "D7724C55A461006D", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "D261C462B4EA4701", type: "item", item: { id: "farmersdelight:shepherds_pie_block", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["9251BC769197FF1C"]
+			description: ["Die Kuechenschraenke sind huebsch und lagern Items. Gut fuer die Kueche."]
+			id: "F12B33DE8201E11B"
+			title: "Schrank"
+			rewards: [{ id: "788222B0D067E42B", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "967C302A985C254F", type: "item", item: { id: "farmersdelight:oak_cabinet", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["F12B33DE8201E11B"]
+			description: ["Hundefutter fuettert Woelfe und heilt sie gut."]
+			id: "A09C131CC92C5AE2"
+			title: "Hundefutter"
+			rewards: [{ id: "F6A773B6A7E3AAC4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D11E04EC4C8C7835", type: "item", item: { id: "farmersdelight:dog_food", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A09C131CC92C5AE2"]
+			description: ["Autochefs Delight kocht mit Rezeptbuch fuer dich. Das ist praktisch, wenn viele Zutaten noetig sind."]
+			id: "4DDBB2E54798C577"
+			title: "Hilfe von Autochef"
+			rewards: [{ id: "C187AA395A395A2A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "59E146F2ABE5AF94", type: "checkmark" }]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			description: ["Die Mod erweitert Farmers Delight um Fermentation: Getraenke, Kaese, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach."]
+			id: "0EDE54BC06F9109D"
+			title: "Brewin and Chewin"
+			rewards: [{ id: "DA6824AB64B936DF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "036D921877DC56CB", type: "checkmark" }]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0EDE54BC06F9109D"]
+			description: ["Im Fass gaeren Fluessigkeiten und Zutaten. Es braucht Zeit und die richtige Temperatur."]
+			id: "4DD145F7248AA806"
+			title: "Das Fass (Keg)"
+			rewards: [{ id: "E7BB498B9B646750", type: "item", item: { id: "minecraft:barrel", count: 1 } }]
+			tasks: [{ id: "83468BAAFFF3C73F", type: "item", item: { id: "brewinandchewin:keg", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4DD145F7248AA806"]
+			description: ["Der Humpen (Tankard) ist das Trinkgefaess fuer Bier, Met und mehr."]
+			id: "2AC6DFDF11A53533"
+			title: "Humpen"
+			rewards: [{ id: "0CBBB2BEB8DD5537", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "9E321531FC9247EF", type: "item", item: { id: "brewinandchewin:tankard", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2AC6DFDF11A53533"]
+			description: ["Bier ist ein Klassiker. Weizen und Wasser gaeren im Fass."]
+			id: "DB4F863AF5C1C117"
+			title: "Bier"
+			rewards: [{ id: "C73AC957347986C9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9E9E31D849B70561", type: "item", item: { id: "brewinandchewin:beer", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["DB4F863AF5C1C117"]
+			description: ["Met aus Honig gibt Staerke und ist ein toller Trank fuer lange Reisen."]
+			id: "586642040DF2A94C"
+			title: "Met"
+			rewards: [{ id: "1B0D19B092BFA40E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "8195D0BFE37163E6", type: "item", item: { id: "brewinandchewin:mead", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["586642040DF2A94C"]
+			description: ["Aus Milch wird im Fass Kaese. Er reift mit der Zeit zu verschiedenen Sorten."]
+			id: "04CF41EB62772C30"
+			title: "Kaese"
+			rewards: [{ id: "607C5F7E58CB4B4A", type: "item", item: { id: "minecraft:bread", count: 4 } }]
+			tasks: [{ id: "C2FFC04CC4B9240F", type: "item", item: { id: "brewinandchewin:flaxen_cheese_wheel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["04CF41EB62772C30"]
+			description: ["Mit dem Fass legst du Gemuese ein: Kimchi, saure Gurken und mehr."]
+			id: "F3FAEDFAAFEB70F5"
+			title: "Eingelegtes"
+			rewards: [{ id: "1B89C38DB0934870", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "29434E90730DD2D4", type: "item", item: { id: "brewinandchewin:kimchi", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["F3FAEDFAAFEB70F5"]
+			description: ["Pizza ist ein toller Snack und gibt viel Saettigung."]
+			id: "0F084224ABF2B814"
+			title: "Pizza"
+			rewards: [{ id: "B8A92BDF078356CE", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F169FDB77651F913", type: "item", item: { id: "brewinandchewin:pizza", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0F084224ABF2B814"]
+			description: ["Das Heizfass (Heating Cask) sorgt fuer hohe Temperatur im Keller, das Eisfass fuer Kaelte. Manche Rezepte brauchen das."]
+			id: "AE3799E351452246"
+			title: "Waermebehaelter"
+			rewards: [{ id: "F57BEEE437884720", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "CFDCB3540125E6D1", type: "item", item: { id: "brewinandchewin:heating_cask", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["AE3799E351452246"]
+			description: ["Wodka und andere starke Getraenke brauchen Zeit und die richtige Kaelte."]
+			id: "2173BABD0A03DDE2"
+			title: "Schnaps"
+			rewards: [{ id: "974FF0FE1984ACF9", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A65FC4873681880A", type: "item", item: { id: "brewinandchewin:vodka", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2173BABD0A03DDE2"]
+			description: ["Das Fiery Fondue ist ein Festmahl am Tisch."]
+			id: "DA18D7B61C32ED27"
+			title: "Kaesefondue"
+			rewards: [{ id: "6EED231976E2C3D6", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "E2B71D5ADF885CBB", type: "item", item: { id: "brewinandchewin:fiery_fondue_pot", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			description: ["My Nethers Delight bringt Gerichte aus dem Nether.", "Du brauchst Zutaten von Hoglins, Striders und Ghasts."]
+			id: "79FA1E8F367F9A57"
+			title: "Nether-Kueche"
+			rewards: [{ id: "DDDBD26B020AF2EA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6F26C88B2A1F7784", type: "checkmark" }]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["79FA1E8F367F9A57"]
+			description: ["Der Netherherd braucht weder Kohle noch Holz, er brennt mit Netherrack-Glut."]
+			id: "22871B8A501E78F3"
+			title: "Nether-Herd"
+			rewards: [{ id: "E94E5184976A8ECF", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
+			tasks: [{ id: "222694FD53B82210", type: "item", item: { id: "mynethersdelight:nether_bricks_stove", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["22871B8A501E78F3"]
+			description: ["Der Blackstone-Kochtopf kocht mit Netherhitze und verarbeitet Zutaten des Nethers."]
+			id: "89C4E40E11570CD6"
+			title: "Nether-Kochtopf"
+			rewards: [{ id: "00C5DF41ADC2E457", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "C6C552B9EF5A7D9E", type: "item", item: { id: "mynethersdelight:blackstone_cooking_pot", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["89C4E40E11570CD6"]
+			description: ["Hoglins liefern Lenden und Wuerste. Sie sind die Basis vieler Gerichte."]
+			id: "7B0B4A5B0441C97A"
+			title: "Hoglin-Fleisch"
+			rewards: [{ id: "E797262C2BA759B9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6BCB5CBBEB05BDCB", type: "item", item: { id: "mynethersdelight:hoglin_loin", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7B0B4A5B0441C97A"]
+			description: ["Die Paprika waechst auf Netherboden und macht Gerichte scharf."]
+			id: "7460E19E196051A9"
+			title: "Scharfe Paprika"
+			rewards: [{ id: "0146BE408F9A1355", type: "item", item: { id: "minecraft:nether_wart", count: 4 } }]
+			tasks: [{ id: "AE3C1E845071EF6D", type: "item", item: { id: "mynethersdelight:bullet_pepper", count: 1 }, count: 4L }]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7460E19E196051A9"]
+			description: ["Scharfes Curry gibt kurzzeitig Feuerwiderstand."]
+			id: "3B7C83ED30390F17"
+			title: "Scharfes Curry"
+			rewards: [{ id: "5D6444EB93324E21", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "07BC909FE522F0E3", type: "item", item: { id: "mynethersdelight:spicy_curry", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3B7C83ED30390F17"]
+			description: ["Ein Burger mit Hoglin-Fleisch."]
+			id: "AA0C6D7611AA455E"
+			title: "Nether-Burger"
+			rewards: [{ id: "0654D10C8F25D6B0", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A217393F8475B218", type: "item", item: { id: "mynethersdelight:nether_burger", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["AA0C6D7611AA455E"]
+			description: ["Ghasta ist Nudelgericht mit Ghast-Teig. Selten und stark."]
+			id: "ABD12A1358CED0D1"
+			title: "Ghasta"
+			rewards: [{ id: "2B1E9E3915E36D21", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "217DE6FBA6B0C807", type: "item", item: { id: "mynethersdelight:ghasta", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 20.0d
+		}
+		{
+			description: ["Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Waechter."]
+			id: "8E6B1D3531B6839E"
+			title: "Meeresfruechte"
+			rewards: [{ id: "FB324C64DEB98B5C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "973AB39A69A75FF0", type: "checkmark" }]
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["8E6B1D3531B6839E"]
+			description: ["Tintenfisch am Schneidebrett zerlegen und im Topf garen."]
+			id: "A5F51F5F9C7D1981"
+			title: "Tintenfischringe"
+			rewards: [{ id: "5D4AAFCD0EDD8F2A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3A7455BE178F4B31", type: "item", item: { id: "oceansdelight:squid_rings", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["A5F51F5F9C7D1981"]
+			description: ["Kabeljau mit Fuellung, ein Klassiker der Kueche."]
+			id: "4826EADC88E1FBB1"
+			title: "Gefuellter Kabeljau"
+			rewards: [{ id: "A93A7A23DA368E62", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4D3B8ABA040D4701", type: "item", item: { id: "oceansdelight:stuffed_cod", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["4826EADC88E1FBB1"]
+			description: ["Ein leichter Salat aus dem Meer."]
+			id: "FD3808F897156549"
+			title: "Seegras-Salat"
+			rewards: [{ id: "DB2EC739AFDE7521", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5DB6879A2AA5FF89", type: "item", item: { id: "oceansdelight:seagrass_salad", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["FD3808F897156549"]
+			description: ["Seetang mit Honig, ein suesser Snack."]
+			id: "892F03F072D903FD"
+			title: "Honig-Seetang"
+			rewards: [{ id: "1A8CC75D92B89B3D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "EE86B992088D0D4E", type: "item", item: { id: "oceansdelight:honey_fried_kelp", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["892F03F072D903FD"]
+			description: ["Aus dem Waechter-Schwanz kocht man eine kraeftige Suppe."]
+			id: "05E3600C8AD78762"
+			title: "Waechtersuppe"
+			rewards: [{ id: "BFCDC5578AD9D085", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "886072D42FE3F68D", type: "item", item: { id: "oceansdelight:guardian_soup", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 25.0d
+		}
+		{
+			description: ["Enders Delight bringt Gerichte aus dem Ende.", "Du brauchst Chorusfrucht, Shulker und Endermiten."]
+			id: "35868B0CE30EA675"
+			title: "Gerichte aus dem Ende"
+			rewards: [{ id: "9EDAE6023E8C4461", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4B57737FC49C82D2", type: "checkmark" }]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["35868B0CE30EA675"]
+			description: ["Der Endstein-Herd brennt mit Endhitze."]
+			id: "7341702896665770"
+			title: "Ende-Herd"
+			rewards: [{ id: "DA0F2E7EA248BAA7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "69E410678D08B8F6", type: "item", item: { id: "endersdelight:endstone_stove", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["7341702896665770"]
+			description: ["Ein Kuchen aus Chorusfrucht. Teleportiert dich beim Essen nicht, macht aber satt."]
+			id: "CA5BB9554253F212"
+			title: "Chorus-Kuchen"
+			rewards: [{ id: "F1FA46F7209ECDBD", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E76F39188610586A", type: "item", item: { id: "endersdelight:chorus_pie", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["CA5BB9554253F212"]
+			description: ["Ein Eintopf aus Endermiten."]
+			id: "270424B22FC24966"
+			title: "Endermiten-Eintopf"
+			rewards: [{ id: "CA99B0378ED2F2CB", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "28942F33877CC682", type: "item", item: { id: "endersdelight:endermite_stew", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["270424B22FC24966"]
+			description: ["Gefuellte Shulker sind ein Festmahl."]
+			id: "B01F1CAEEFD4BF96"
+			title: "Shulker-Filet"
+			rewards: [{ id: "8721312152B42146", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A3EDE27FEB1CF2BB", type: "item", item: { id: "endersdelight:shulker_filet", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["B01F1CAEEFD4BF96"]
+			description: ["Nudeln mit Enderperle."]
+			id: "444E72D7F28BC30A"
+			title: "Perlen-Nudeln"
+			rewards: [{ id: "31970A781C7B63CC", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "BB188B3A2ABFF776", type: "item", item: { id: "endersdelight:pearl_pasta", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 30.0d
+		}
+	]
+}

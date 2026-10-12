@@ -3,27 +3,149 @@
 	default_quest_shape: ""
 	filename: "aether"
 	icon: { id: "aether:blue_aercloud" }
-	id: "109E652ED40BDCAA"
-	order_index: 12
+	id: "0A48C8AE9E6FD03C"
+	order_index: 11
 	quest_links: [ ]
 	title: "&bDas Aether"
 	quests: [
 		{
-			id: "ACF608E0B739B996"
+			description: ["Baue ein Portal aus Glowstone und entzuende es mit Wasser.", "Das Aether ist ein Reich in den Wolken. Pass auf, wo du hinfaellst!"]
+			id: "F0CCBCA91BC9F9F7"
 			title: "Ins Aether"
-			rewards: [{ id: "9D64D6B082CAE393", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
-			tasks: [{ id: "135E7CE55A47EED7", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
+			rewards: [{ id: "E4DFABD8504A144D", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			tasks: [{ id: "0AB1797033B4DDD1", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["ACF608E0B739B996"]
-			id: "E26E9A4D96AB7793"
+			dependencies: ["F0CCBCA91BC9F9F7"]
+			description: ["Der Sun Spirit ist der Boss des Aethers."]
+			id: "ACF34C46FE7C466A"
 			title: "Der Sonnenspirit"
-			rewards: [{ id: "921A156A8465F461", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "D0874BF1419E5DEA", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
+			rewards: [{ id: "C85F8924C2C74CFE", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "E5BE93614D376B0A", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["ACF34C46FE7C466A"]
+			description: ["Skyroot-Holz ist das erste Material des Aethers."]
+			id: "51905057884F8859"
+			title: "Skyroot"
+			rewards: [{ id: "F9D8F45426166EC7", type: "item", item: { id: "aether:skyroot_stick", count: 16 } }]
+			tasks: [{ id: "FE682F8BECBC8629", type: "item", item: { id: "aether:skyroot_log", count: 1 }, count: 8L }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51905057884F8859"]
+			description: ["Holystone ist der Stein des Aethers. Daraus entstehen Werkzeuge."]
+			id: "81C49E72B5CC5E5B"
+			title: "Holystone"
+			rewards: [{ id: "028BF7FA915BE14F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E478588D091BE6C6", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["81C49E72B5CC5E5B"]
+			description: ["Zanit ist ein Edelstein. Er macht Werkzeuge schneller."]
+			id: "414E0E2978AB85E6"
+			title: "Zanit"
+			rewards: [{ id: "AB6461864DF32CFE", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "03E3E9461075295C", type: "item", item: { id: "aether:zanite_gemstone", count: 1 }, count: 8L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["414E0E2978AB85E6"]
+			description: ["Ambrosium ist Brennstoff und Heilmittel."]
+			id: "9E42A216A64F391A"
+			title: "Ambrosium"
+			rewards: [{ id: "B912B09FB7E1A145", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "42BA7876D19EFA8F", type: "item", item: { id: "aether:ambrosium_shard", count: 1 }, count: 8L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["9E42A216A64F391A"]
+			description: ["Gravitit schwebt in der Luft. Daraus entsteht starke Ausruestung."]
+			id: "39A64789F2D04BA6"
+			title: "Gravitit"
+			rewards: [{ id: "4F79AC348CFF95CC", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "1900DB513F64797A", type: "item", item: { id: "aether:gravitite_ore", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39A64789F2D04BA6"]
+			description: ["Der Fallschirm rettet dich vor dem Sturz."]
+			id: "752792020D4A926D"
+			title: "Wolkenparachut"
+			rewards: [{ id: "04CB9AA45C71B67E", type: "item", item: { id: "minecraft:feather", count: 8 } }]
+			tasks: [{ id: "D4D6972040EB9471", type: "item", item: { id: "aether:cold_parachute", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["752792020D4A926D"]
+			description: ["Moas sind die Reittiere des Aethers. Sie koennen mehrfach springen."]
+			id: "6F8EB8225A37402E"
+			title: "Die Moa"
+			rewards: [{ id: "4DE58022A90CF04D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3A62C11DD65AD7A4", type: "checkmark" }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F8EB8225A37402E"]
+			description: ["Die Slider ist ein Boss und huetet den Bronzenen Dungeon."]
+			id: "BE8D6A1187572EFD"
+			title: "Der Slider"
+			rewards: [{ id: "23CE7252848315DC", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "808FD55E2FD3506E", type: "kill", entity: "aether:slider", value: 1L, icon: { id: "aether:bronze_dungeon_key" } }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["BE8D6A1187572EFD"]
+			description: ["Valkyrien bewachen den Silbernen Dungeon. Besiege eine Valkyrie."]
+			id: "BFA52CAE301FE9D0"
+			title: "Valkyrie"
+			rewards: [{ id: "219C4666A679C2DD", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "171DFB6F70293EDA", type: "kill", entity: "aether:valkyrie", value: 1L, icon: { id: "aether:valkyrie_lance" } }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["BFA52CAE301FE9D0"]
+			description: ["Die Valkyrie-Koenigin ist der Boss des Silbernen Dungeons."]
+			id: "B5EB987CE7533AF7"
+			title: "Valkyrie-Koenigin"
+			rewards: [{ id: "6E0FB18B0B284D24", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "111EE9F7CD77FCF9", type: "kill", entity: "aether:valkyrie_queen", value: 1L, icon: { id: "aether:silver_dungeon_key" } }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B5EB987CE7533AF7"]
+			description: ["Der Goldene Dungeon gehoert dem Sonnengeist. Du brauchst den goldenen Schluessel."]
+			id: "A6C55CBF49A6812F"
+			title: "Goldener Dungeon"
+			rewards: [{ id: "6D2E1D2086D3663F", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "2571CFB822F6EF7E", type: "item", item: { id: "aether:gold_dungeon_key", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A6C55CBF49A6812F"]
+			description: ["Der Phoenix-Bogen setzt Gegner in Brand."]
+			id: "94CDF4337E7B66B8"
+			title: "Phoenix-Bogen"
+			rewards: [{ id: "4326A4252786182B", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "A24A4DC727D811C0", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 4.0d
 		}
 	]
 }
