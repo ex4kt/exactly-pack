@@ -1,0 +1,664 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "z03_andesit"
+	icon: { id: "create:andesite_alloy" }
+	id: "A4E3531EFE840F6E"
+	order_index: 2
+	quest_links: [ ]
+	title: "&6III. Andesit-Zeitalter"
+	quests: [
+		{
+			dependencies: ["E52DE00BD427FFFA"]
+			description: ["&6Was ist das?", "Create baut Maschinen mit Drehkraft statt Strom.", "Halte im JEI-Menue W ueber einem Item, dann siehst du eine kurze Animation (Ponder), wie es funktioniert.", "Dieses Kapitel fuehrt dich Schritt fuer Schritt durch die Zeitalter von Create.", "", "&6So gehts", "Halte W ueber einem Create-Item, um eine Animation (Ponder) zu sehen, die genau zeigt, wie es geht.", "Folge den Quests der Reihe nach: Kraft erzeugen, weiterleiten, benutzen.", "", "&6Wofuer ist das wichtig?", "Mit Create automatisierst du Erzverarbeitung, Farmen, Kochen und baust sogar Zuege."]
+			id: "BB61BB2412A03AED"
+			title: "Was ist Create?"
+			rewards: [{ id: "B01F1CAEEFD4BF96", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "270424B22FC24966", type: "checkmark" }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BB61BB2412A03AED"]
+			description: ["&6Was ist das?", "Das ist der erste Werkstoff.", "Stelle eine Andesit-Legierung her (Andesit und Eisenstuecke).", "", "&6So gehts", "Andesit und Eisennugget (oder Zinknugget) in der Werkbank.", "Spaeter schneller im Mixer.", "", "&6Wofuer ist das wichtig?", "Fast jedes Create-Teil am Anfang braucht Andesit-Legierung. Sammle viel Andesit."]
+			id: "DBA79454DA43BA06"
+			title: "Andesit-Legierung"
+			rewards: [{ id: "CF7F1116D1637673", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "444E72D7F28BC30A", type: "item", item: { id: "create:andesite_alloy", count: 1 }, count: 4L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DBA79454DA43BA06"]
+			description: ["&6Was ist das?", "Wellen und Zahnraeder uebertragen die Drehung.", "Baue eine Welle, dann ein Zahnrad, und stecke es daran.", "", "&6So gehts", "Welle: Andesit-Legierung. Zahnrad: Welle und Holz.", "Zahnraeder greifen ineinander, Wellen verbinden gerade.", "", "&6Wofuer ist das wichtig?", "Damit bringst du Kraft von der Quelle zu jeder Maschine."]
+			id: "9ECA2D523DBC5073"
+			title: "Welle und Zahnrad"
+			rewards: [{ id: "E28C7A533E06C908", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "66D058E9290E3E2B", type: "item", item: { id: "create:cogwheel", count: 1 }, count: 4L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9ECA2D523DBC5073"]
+			description: ["&6Was ist das?", "Mit der Handkurbel erzeugst du erste Kraft selbst.", "Rechtsklick halten dreht die Welle.", "", "&6So gehts", "Aufstellen und Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Perfekt zum Testen. Fuer Dauerbetrieb brauchst du Wasserrad oder Windmuehle."]
+			id: "55A3471651407E87"
+			title: "Handkurbel"
+			rewards: [{ id: "FA44DBBC19C678C9", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "B54550440EC7022F", type: "item", item: { id: "create:hand_crank", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55A3471651407E87"]
+			description: ["&6Was ist das?", "Das Wasserrad macht Kraft aus fliessendem Wasser.", "Platziere es neben Wasser, das fliesst, und verbinde es mit Wellen.", "", "&6So gehts", "Wasserrad auf eine Welle setzen und Wasser darueber fliessen lassen.", "", "&6Wofuer ist das wichtig?", "Erste dauerhafte Kraftquelle. Mehrere Raeder hintereinander ergeben mehr Kraft."]
+			id: "1375D3BF673B89FD"
+			title: "Wasserrad"
+			rewards: [{ id: "B1715BA0A84B3DC8", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
+			tasks: [{ id: "973D9C5EE4B9ED20", type: "item", item: { id: "create:water_wheel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1375D3BF673B89FD"]
+			description: ["&6Was ist das?", "Das Windmuehlenlager macht Kraft aus Wind.", "Baue Segel an das Lager. Mehr Segel, mehr Kraft.", "", "&6So gehts", "Windmuehlenlager aufstellen, Segel daran mit Superkleber verbinden.", "Rechtsklick auf das Lager startet sie.", "", "&6Wofuer ist das wichtig?", "Mehr Segel ergeben mehr Kraft. Reicht fuer eine ganze Fabrik."]
+			id: "31E60C11D54094B5"
+			title: "Windmuehle"
+			rewards: [{ id: "7CB61A4DD33079A0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "12E8F4525669F1D3", type: "item", item: { id: "create:windmill_bearing", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E60C11D54094B5"]
+			description: ["&6Was ist das?", "Grosse Zahnraeder uebersetzen Drehzahl in Kraft und umgekehrt.", "", "&6So gehts", "Grosses und kleines Zahnrad diagonal verbinden.", "", "&6Wofuer ist das wichtig?", "Klein auf Gross halbiert, Gross auf Klein verdoppelt die Drehzahl."]
+			id: "54A182519ADC46EC"
+			title: "Grosses Zahnrad"
+			rewards: [{ id: "B1472577E0BB14BB", type: "item", item: { id: "minecraft:oak_planks", count: 8 } }]
+			tasks: [{ id: "837BF907B4CE4108", type: "item", item: { id: "create:large_cogwheel", count: 1 }, count: 2L }]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54A182519ADC46EC"]
+			description: ["&6Was ist das?", "Das Getriebe leitet Drehkraft in alle Richtungen.", "", "&6So gehts", "Zwischen Wellen setzen.", "", "&6Wofuer ist das wichtig?", "Kompakte Leitungen in alle Richtungen."]
+			id: "26D502652577EB61"
+			title: "Getriebe"
+			rewards: [{ id: "2B5653D3B0CEE566", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C60CA24DB3BCE58B", type: "item", item: { id: "create:gearbox", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26D502652577EB61"]
+			description: ["&6Was ist das?", "Die Kupplung schaltet Kraft ein und aus (mit Redstone).", "", "&6So gehts", "Zwischen Wellen setzen, Redstone-Signal trennt die Verbindung.", "", "&6Wofuer ist das wichtig?", "Maschinen an- und ausschalten."]
+			id: "CE64ED41BCC6F4D7"
+			title: "Kupplung"
+			rewards: [{ id: "7F95F5599D0955F6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "811E04E8D6BF9A99", type: "item", item: { id: "create:clutch", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CE64ED41BCC6F4D7"]
+			description: ["&6Was ist das?", "Die Gangschaltung dreht die Richtung um.", "", "&6So gehts", "In eine Welle einbauen, mit Hebel umschalten.", "", "&6Wofuer ist das wichtig?", "Wichtig fuer Aufzuege und Maschinen, die vor und zurueck sollen."]
+			id: "78D27542D5F3AD2D"
+			title: "Gangschaltung"
+			rewards: [{ id: "736EB073C8433437", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D44C3ABEDC8E7E90", type: "item", item: { id: "create:gearshift", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["DBA79454DA43BA06"]
+			description: ["&6Was ist das?", "Mit der Brille siehst du Kraftwerte. Der Schluessel dreht und baut Maschinen um.", "", "&6So gehts", "Brille aufsetzen und Maschinen ansehen.", "", "&6Wofuer ist das wichtig?", "So erkennst du, ob deine Kraft reicht. Rot bedeutet Ueberlastung."]
+			id: "3B0609E52BA4505D"
+			title: "Brille und Schluessel"
+			rewards: [{ id: "3F22F1ADC00B57B8", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "64156C5D4A82C61B", type: "item", item: { id: "create:goggles", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B0609E52BA4505D"]
+			description: ["&6Was ist das?", "Der Schraubenschluessel dreht Bloecke, baut sie ab und bewegt sie.", "", "&6So gehts", "Rechtsklick dreht Bloecke, Shift-Rechtsklick baut sie sofort ab.", "", "&6Wofuer ist das wichtig?", "Umbauen ohne Spitzhacke."]
+			id: "7006E4A79369D07E"
+			title: "Schluessel (Wrench)"
+			rewards: [{ id: "79031085A495C97C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9072C4AAE9A17565", type: "item", item: { id: "create:wrench", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["DBA79454DA43BA06"]
+			description: ["&6Was ist das?", "Gehaeuse umhuellen Wellen und Maschinen.", "", "&6So gehts", "Andesit-Legierung auf Holz anwenden (Rechtsklick).", "", "&6Wofuer ist das wichtig?", "Viele Create-Maschinen brauchen Gehaeuse."]
+			icon: { id: "create:andesite_casing" }
+			id: "9E23476D97FBB0DD"
+			title: "Andesit-Gehaeuse"
+			rewards: [{ id: "63B68F55DFF9B801", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6616455F30CA73D8", type: "item", item: { id: "create:andesite_casing", count: 1 }, count: 8L }]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["9E23476D97FBB0DD"]
+			description: ["&6Was ist das?", "Gehaeuse fuer Fluessigkeiten.", "", "&6So gehts", "Kupferbarren auf Holz anwenden.", "", "&6Wofuer ist das wichtig?", "Fuer Pumpen, Tanks und Abfluesse."]
+			icon: { id: "create:copper_casing" }
+			id: "F2B9DBFF08CC3481"
+			title: "Kupfergehaeuse"
+			rewards: [{ id: "BD6E7B371B955B4B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6EE9C7595C425619", type: "item", item: { id: "create:copper_casing", count: 1 }, count: 8L }]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1375D3BF673B89FD"]
+			description: ["&6Was ist das?", "Das grosse Wasserrad liefert viel mehr Kraft.", "", "&6So gehts", "Rezept in JEI, mit Wasser antreiben.", "", "&6Wofuer ist das wichtig?", "Reicht fuer eine ganze Fabrik."]
+			icon: { id: "create:large_water_wheel" }
+			id: "4CA6E28092D64FC8"
+			title: "Grosses Wasserrad"
+			rewards: [{ id: "AF0D7DDE0EA184A1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "895ECCF0CFD86580", type: "item", item: { id: "create:large_water_wheel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CA6E28092D64FC8"]
+			description: ["&6Was ist das?", "Tachometer und Belastungsmesser zeigen Drehzahl und Last.", "", "&6So gehts", "Rezept in JEI, in die Welle einbauen.", "", "&6Wofuer ist das wichtig?", "So siehst du, ob deine Kraft reicht."]
+			icon: { id: "create:stressometer" }
+			id: "69AB4E0DF33BAAA5"
+			title: "Messgeraete"
+			rewards: [{ id: "8B106639922AABD8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "53743AE5D1E79FBB", type: "item", item: { id: "create:stressometer", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["9ECA2D523DBC5073"]
+			description: ["&6Was ist das?", "Die Muehle zermahlt Items ohne grosse Anlage.", "", "&6So gehts", "Kraft anschliessen, Items oben hinein.", "", "&6Wofuer ist das wichtig?", "Mehl fuer Teig und Brot, Farben aus Blumen."]
+			id: "FD7F66ED9BFBE8A1"
+			title: "Muehle (Millstone)"
+			rewards: [{ id: "AB3C78688288B4E4", type: "item", item: { id: "minecraft:wheat", count: 8 } }]
+			tasks: [{ id: "FF9BEEEF57367956", type: "item", item: { id: "create:millstone", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["FD7F66ED9BFBE8A1"]
+			description: ["&6Was ist das?", "Mit der Presse machst du Bleche aus Barren.", "Presse platzieren, Kraft anschliessen, Barren darunter legen (Depot oder Foerderband).", "", "&6So gehts", "Ueber ein Depot oder Foerderband stellen und Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Bleche brauchst du fuer viele Create-Rezepte. Zusammen mit dem Becken wird sie zum Kompaktierer."]
+			id: "C46AADC6BC7BED6F"
+			title: "Mechanische Presse"
+			rewards: [{ id: "E2B16B47903C5630", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "1D27CA69A0DAD2E1", type: "item", item: { id: "create:mechanical_press", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["C46AADC6BC7BED6F"]
+			description: ["&6Was ist das?", "Ein Ablageplatz fuer ein Item, auf dem Maschinen arbeiten.", "", "&6So gehts", "Unter Presse oder Deployer stellen und Item drauflegen.", "", "&6Wofuer ist das wichtig?", "Der einfachste Arbeitsplatz fuer Pressen."]
+			id: "87768D2FAD19E5E6"
+			title: "Depot"
+			rewards: [{ id: "47A89CE68BEB6A34", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9F496DAF4A26ACB5", type: "item", item: { id: "create:depot", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["87768D2FAD19E5E6"]
+			description: ["&6Was ist das?", "Zwei Brechraeder zerkleinern Erze zu Brocken mit Bonus.", "", "&6So gehts", "Zwei Raeder nebeneinander, gegeneinander drehen lassen. Items oben hineinwerfen.", "", "&6Wofuer ist das wichtig?", "Mehr Barren pro Erz und Extra-Drops wie Zink oder Gold."]
+			id: "81F63FA21039F3EC"
+			title: "Brechrad"
+			rewards: [{ id: "5E8DCA7C1E1BFE8A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "CD0DE4A07CCB8DCC", type: "item", item: { id: "create:crushing_wheel", count: 1 }, count: 2L }]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["81F63FA21039F3EC"]
+			description: ["&6Was ist das?", "Mit Foerderband und Schacht bewegst du Items.", "Das Band verbindest du mit zwei Rechtsklicks und einem Konnektor.", "", "&6So gehts", "Mit dem Band-Item zwei Wellen verbinden.", "", "&6Wofuer ist das wichtig?", "Das Rueckgrat jeder Fabrik."]
+			id: "5F36139F26FDB276"
+			title: "Foerderband"
+			rewards: [{ id: "E268157264C03F19", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6E9CBD7FD91D02DA", type: "item", item: { id: "create:belt_connector", count: 1 }, count: 4L }]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5F36139F26FDB276"]
+			description: ["&6Was ist das?", "Schaechte und Trichter fuehren Items zwischen Behaeltern und Maschinen.", "", "&6So gehts", "Unter oder neben Kisten bauen.", "", "&6Wofuer ist das wichtig?", "Items von Band zu Kiste und zurueck."]
+			id: "D12DD0C8D5579807"
+			title: "Schacht und Trichter"
+			rewards: [{ id: "06CD7081676716CE", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "324A3F07780299CE", type: "item", item: { id: "create:chute", count: 1 }, count: 2L }]
+			x: 12.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["D12DD0C8D5579807"]
+			description: ["&6Was ist das?", "Das Geblaese blaest Items durch Feuer, Wasser oder Lava und behandelt sie so: backen, waschen, verkohlen.", "", "&6So gehts", "Mit Lava davor: Schmelzen. Mit Wasser: Waschen. Mit Feuer: Raeuchern. Mit Seelenfeuer: Aufloesen.", "", "&6Wofuer ist das wichtig?", "Massenverarbeitung ohne Oefen. Erzbrocken waschen gibt Bonus-Nuggets."]
+			id: "E44F27458F4CFD6E"
+			title: "Geblaese"
+			rewards: [{ id: "7DFC2423934B9950", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "879DD26E1F09458C", type: "item", item: { id: "create:encased_fan", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["C46AADC6BC7BED6F"]
+			description: ["&6Was ist das?", "Bleche presst die Mechanische Presse.", "", "&6So gehts", "Barren auf ein Depot unter die Presse legen.", "", "&6Wofuer ist das wichtig?", "Fuer Rohre, Tanks und viele Bauteile."]
+			icon: { id: "create:iron_sheet" }
+			id: "9CBD01E43A9CD259"
+			title: "Bleche"
+			rewards: [{ id: "B27FD69D08ECAC1C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "882A17580705A7CE", type: "item", item: { id: "create:iron_sheet", count: 1 }, count: 16L }]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["9CBD01E43A9CD259"]
+			description: ["&6Was ist das?", "Zink ist neben Kupfer das zweite Create-Metall.", "", "&6So gehts", "Zinkerz liegt tief unten. Schmelzen oder im Brechrad zerkleinern.", "", "&6Wofuer ist das wichtig?", "Ohne Zink kein Messing."]
+			icon: { id: "create:zinc_ingot" }
+			id: "68E6E846CD4EBF8F"
+			title: "Zink"
+			rewards: [{ id: "D6EE12ABA780D03A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA4943CFD10BA207", type: "item", item: { id: "create:zinc_ingot", count: 1 }, count: 16L }]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["68E6E846CD4EBF8F"]
+			description: ["&6Was ist das?", "Polierter Rosenquarz fuer Elektronik.", "", "&6So gehts", "Rosenquarz aus Quarz und Redstone, dann mit Schleifpapier polieren.", "", "&6Wofuer ist das wichtig?", "Fuer Elektronenroehren und Redstone-Bauteile."]
+			icon: { id: "create:polished_rose_quartz" }
+			id: "E7ECC26D6FB7E776"
+			title: "Rosenquarz"
+			rewards: [{ id: "BA5B94C1F5A988D4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E631F55615DA2403", type: "item", item: { id: "create:polished_rose_quartz", count: 1 }, count: 8L }]
+			x: 9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5F36139F26FDB276"]
+			description: ["&6Was ist das?", "Create-Trichter und Tunnel steuern Items auf Baendern.", "", "&6So gehts", "An Baender oder Kisten setzen.", "", "&6Wofuer ist das wichtig?", "Sortieren und verteilen ohne Chaos."]
+			icon: { id: "create:andesite_funnel" }
+			id: "9A67FF008513C094"
+			title: "Trichter und Tunnel"
+			rewards: [{ id: "A2FBBF0AB6EE1D87", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "35FF9CEBC0378B34", type: "item", item: { id: "create:andesite_funnel", count: 1 }, count: 8L }]
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["9A67FF008513C094"]
+			description: ["&6Was ist das?", "Der Auswerfer wirft Items in hohem Bogen.", "", "&6So gehts", "Ziel mit dem Schluessel einstellen.", "", "&6Wofuer ist das wichtig?", "Items ueber weite Strecken bewegen."]
+			icon: { id: "create:weighted_ejector" }
+			id: "19E638D4100EDC74"
+			title: "Auswerfer"
+			rewards: [{ id: "A6755E634543E0AE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4C40586D04169654", type: "item", item: { id: "create:weighted_ejector", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["E52DE00BD427FFFA"]
+			description: ["&6Was ist das?", "Create Connected bringt neue Bausteine fuer Maschinen und Zahnraeder.", "", "&6So gehts", "Folge den Quests in diesem Bereich.", "", "&6Wofuer ist das wichtig?", "Kompaktere und schlauere Fabriken."]
+			id: "6E41810E7D461305"
+			title: "Create Connected"
+			rewards: [{ id: "9C08253B64E11248", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D54FC527FFBD89D5", type: "checkmark" }]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6E41810E7D461305"]
+			description: ["&6Was ist das?", "Der Copycat-Block uebernimmt das Aussehen jedes Blocks. Ideal fuer Verkleidungen.", "", "&6So gehts", "Halte W ueber dem Item, dann zeigt dir Ponder eine Animation.", "", "&6Wofuer ist das wichtig?", "Spart Klickarbeit."]
+			id: "67549021D25EE13B"
+			title: "Kopierblock"
+			rewards: [{ id: "4934D7781887606D", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "FBBB2FCB21A6B176", type: "item", item: { id: "create_connected:copycat_block", count: 1 }, count: 4L }]
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["67549021D25EE13B"]
+			description: ["&6Was ist das?", "Das parallele Getriebe leitet Kraft nebeneinander durch.", "", "&6So gehts", "Zwischen Wellen bauen.", "", "&6Wofuer ist das wichtig?", "Kompakte Kraftleitungen."]
+			id: "DCDEB7B09FF6462E"
+			title: "Paralleles Getriebe"
+			rewards: [{ id: "C7C8F0B843996441", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A3ECD229F451ADF4", type: "item", item: { id: "create_connected:parallel_gearbox", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["DCDEB7B09FF6462E"]
+			description: ["&6Was ist das?", "Der Kreuzverbinder verbindet Wellen im 90-Grad-Winkel.", "", "&6So gehts", "Zwischen Wellen bauen.", "", "&6Wofuer ist das wichtig?", "Kraft in viele Richtungen."]
+			id: "FA7673B5B346B105"
+			title: "Kreuzverbinder"
+			rewards: [{ id: "93AF3EEA768A993A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BDC83A92694816E4", type: "item", item: { id: "create_connected:cross_connector", count: 1 }, count: 2L }]
+			x: 6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["FA7673B5B346B105"]
+			description: ["&6Was ist das?", "Die Bremse stoppt Drehung ruckartig. Praktisch fuer Konstruktionen.", "", "&6So gehts", "Mit Redstone ansteuern.", "", "&6Wofuer ist das wichtig?", "Maschinen sicher stoppen."]
+			id: "A98452AFB4AA1CD6"
+			title: "Bremse"
+			rewards: [{ id: "4403A5ECE11D2F8C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F36D1712DA16C26E", type: "item", item: { id: "create_connected:brake", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["A98452AFB4AA1CD6"]
+			description: ["&6Was ist das?", "Die Zentrifugalkupplung rastet bei hoher Drehzahl ein.", "", "&6So gehts", "Drehzahl einstellen.", "", "&6Wofuer ist das wichtig?", "Schutz vor Ueberlastung."]
+			id: "F6F4AD3A17373457"
+			title: "Zentrifugalkupplung"
+			rewards: [{ id: "FA548F0A59EF530E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "698DF1322818C8D4", type: "item", item: { id: "create_connected:centrifugal_clutch", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["F6F4AD3A17373457"]
+			description: ["&6Was ist das?", "Die Batterie speichert Drehkraft fuer spaeter.", "", "&6So gehts", "An Wellen anschliessen.", "", "&6Wofuer ist das wichtig?", "Kraft fuer spaeter."]
+			id: "F9CAEE9D08A2904F"
+			title: "Kinetische Batterie"
+			rewards: [{ id: "4CD7A3468E8624CE", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "24F3A8E30E113506", type: "item", item: { id: "create_connected:kinetic_battery", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["F9CAEE9D08A2904F"]
+			description: ["&6Was ist das?", "Das Silo speichert riesige Mengen eines Items.", "", "&6So gehts", "Mehrere zusammenbauen.", "", "&6Wofuer ist das wichtig?", "Massenlager fuer Fabriken."]
+			id: "6E742BBC5E3DF2C6"
+			title: "Item-Silo"
+			rewards: [{ id: "97A9584E09AC081C", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "83678AA7C13ADE6F", type: "item", item: { id: "create_connected:item_silo", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6E742BBC5E3DF2C6"]
+			description: ["&6Was ist das?", "Das Gefaess ist ein grosser Fluessigkeitsspeicher, wie ein Tank, aber flexibler.", "", "&6So gehts", "Mit Rohren verbinden.", "", "&6Wofuer ist das wichtig?", "Kleine Tanks auf wenig Platz."]
+			id: "F2B7F270D1312010"
+			title: "Fluessigkeitsgefaess"
+			rewards: [{ id: "78CB928FE87EFE63", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "2290F8E926B8F989", type: "item", item: { id: "create_connected:fluid_vessel", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["F2B7F270D1312010"]
+			description: ["&6Was ist das?", "Der Kontrollchip ist ein Bauteil fuer fortgeschrittene Steuerungen.", "", "&6So gehts", "Rezept mit R in JEI, Funktion mit W (Ponder) ansehen.", "", "&6Wofuer ist das wichtig?", "Fuer schlaue Zuege und Maschinen."]
+			id: "3315D053EF50BBED"
+			title: "Kontrollchip"
+			rewards: [{ id: "0148B62FAA161F94", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "078B5601917EDBE7", type: "item", item: { id: "create_connected:control_chip", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3315D053EF50BBED"]
+			description: ["&6Was ist das?", "Sequenzierter Impulsgeber sendet Redstone-Signale nach einem Muster.", "", "&6So gehts", "Zeit einstellen.", "", "&6Wofuer ist das wichtig?", "Regelmaessige Signale fuer Maschinen."]
+			id: "C3365DF4667089A4"
+			title: "Gesteuerter Impulsgeber"
+			rewards: [{ id: "9FEE9E8A580A49F9", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "07781D417B18B922", type: "item", item: { id: "create_connected:sequenced_pulse_generator", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["C3365DF4667089A4"]
+			description: ["&6Was ist das?", "Fan-Katalysatoren bringen dem Geblaese neue Behandlungen bei: Faerben, Raeuchern, Frieren und mehr.", "", "&6So gehts", "Katalysator vor das Geblaese setzen.", "", "&6Wofuer ist das wichtig?", "Mehr Verarbeitungsarten."]
+			id: "C2AB169ED780C752"
+			title: "Fan-Katalysatoren"
+			rewards: [{ id: "8FC11AA2FD28C9CD", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "72E53652C30F4A40", type: "item", item: { id: "create_connected:fan_freezing_catalyst", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["E52DE00BD427FFFA"]
+			description: ["&6Was ist das?", "Mehrere Mods bringen Baumaterial: Create Deco (Metall, Ziegel, Laufstege), Bits n Bobs (Stuehle, Lampen, Gitter), Rechiseled Create und mehr.", "", "&6So gehts", "Mit Create Deco und Bits n Bobs.", "", "&6Wofuer ist das wichtig?", "Fabriken schoen gestalten."]
+			id: "365EDBB53DE694B4"
+			title: "Deko mit Create"
+			rewards: [{ id: "4025DE8C8C663C62", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "B808BCE3AB15D86A", type: "checkmark" }]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["365EDBB53DE694B4"]
+			description: ["&6Was ist das?", "Laufstege aus Metall sind perfekt fuer Fabriken.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Industrielle Wege."]
+			id: "503802C5A59D4F7E"
+			title: "Laufsteg"
+			rewards: [{ id: "784B770DF40E680D", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "633C9B4C09659446", type: "item", item: { id: "createdeco:andesite_catwalk", count: 1 }, count: 4L }]
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["503802C5A59D4F7E"]
+			description: ["&6Was ist das?", "Gitter und Bleche aus Create Deco: Fenster, Zaeune, Tueren.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Industrie-Deko."]
+			id: "04D14B7164738248"
+			title: "Gitter und Bleche"
+			rewards: [{ id: "0D76954A307DDCE6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "990A5A1D6BF13C5C", type: "item", item: { id: "createdeco:andesite_bars", count: 1 }, count: 4L }]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["04D14B7164738248"]
+			description: ["&6Was ist das?", "Industrial Grating aus Bits n Bobs ist ein Boden mit Flair.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Industrie-Deko."]
+			id: "C3BC4D1090472D14"
+			title: "Industrielles Gitter"
+			rewards: [{ id: "104DEFE44565330A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0CAE29DDD14DA9B6", type: "item", item: { id: "bits_n_bobs:industrial_grating", count: 1 }, count: 4L }]
+			x: 6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["C3BC4D1090472D14"]
+			description: ["&6Was ist das?", "Bits n Bobs bringt Stuehle in 16 Farben. Rechtsklick zum Sitzen.", "", "&6So gehts", "Rechtsklick zum Hinsetzen.", "", "&6Wofuer ist das wichtig?", "Gemuetliche Pausen."]
+			id: "60647909911BB8D7"
+			title: "Stuhl"
+			rewards: [{ id: "50CC7070D69C3899", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "D91727A7F987070A", type: "item", item: { id: "bits_n_bobs:red_chair", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["60647909911BB8D7"]
+			description: ["&6Was ist das?", "Headlamp und Gluehbirne bringen Licht in die Halle.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Fabriken beleuchten."]
+			id: "00013B933C846FF9"
+			title: "Scheinwerfer"
+			rewards: [{ id: "5C02733C119BDD37", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "19F074495DD4673C", type: "item", item: { id: "bits_n_bobs:headlamp", count: 1 }, count: 2L }]
+			x: 9.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["00013B933C846FF9"]
+			description: ["&6Was ist das?", "Nixie-Roehren zeigen Zahlen und Text. Gut fuer Anzeigetafeln.", "", "&6So gehts", "Mit Namensschild oder Anzeige verbinden.", "", "&6Wofuer ist das wichtig?", "Schoene Anzeigen."]
+			id: "32D7C0032123B540"
+			title: "Nixie-Roehre"
+			rewards: [{ id: "2C77772D63F6A8C8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0E668F20C2692295", type: "item", item: { id: "bits_n_bobs:large_nixie_tube", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["32D7C0032123B540"]
+			description: ["&6Was ist das?", "Das gigantische Zahnrad ist riesig, aber toll zum Anschauen.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Eindrucksvolle Deko."]
+			id: "2D71D00A621A0C2A"
+			title: "Gigantisches Zahnrad"
+			rewards: [{ id: "73816CF8B8F40B64", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			tasks: [{ id: "A6481D459F54C9AE", type: "item", item: { id: "bits_n_bobs:gigantic_cogwheel", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2D71D00A621A0C2A"]
+			description: ["&6Was ist das?", "Metalltraeger fuer Bruecken und Hallen.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Bruecken und Hallen."]
+			id: "1888A5B0FDE2868D"
+			title: "Traeger (Girder)"
+			rewards: [{ id: "90F6FA1D6BC9DF5E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6EFCE14581D81E1C", type: "item", item: { id: "create:metal_girder", count: 1 }, count: 4L }]
+			x: 14.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["1888A5B0FDE2868D"]
+			description: ["&6Was ist das?", "Create Kupfer-Fliesen (Shingles und Tiles) sehen toll aus an Daechern.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Schoene Boeden."]
+			id: "87197EB32209E626"
+			title: "Kupfer-Fliesen"
+			rewards: [{ id: "62B0BF4BD2525B88", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "91DDAD05E395F77D", type: "item", item: { id: "create:copper_shingles", count: 1 }, count: 4L }]
+			x: 14.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["87197EB32209E626"]
+			description: ["&6Was ist das?", "Create-Fenster aus Holz und Metall.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Industrie-Fenster."]
+			id: "E812DC5C171F2E2F"
+			title: "Fenster"
+			rewards: [{ id: "3E2A4429C1088E03", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "CEFF032BF97C1CDE", type: "item", item: { id: "create:oak_window", count: 1 }, count: 4L }]
+			x: 12.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["E812DC5C171F2E2F"]
+			description: ["&6Was ist das?", "Stoneworks: Ziegel, Fliesen und Platten aus allen Steinsorten.", "", "&6So gehts", "Steinsaege oder Werkbank, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Schoene Fabriken und Mauern."]
+			icon: { id: "stoneworks:andesite_bricks" }
+			id: "A329B923C5684119"
+			title: "Steinbearbeitung"
+			rewards: [{ id: "094B622650B032FF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8C2C73E1C1B6EA14", type: "item", item: { id: "stoneworks:andesite_bricks", count: 1 }, count: 16L }]
+			x: 11.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["E52DE00BD427FFFA"]
+			description: ["&6Was ist das?", "Hier siehst du die uebrigen Mods, die zu Create gehoeren.", "", "&6So gehts", "Folge den Quests.", "", "&6Wofuer ist das wichtig?", "Jede bringt neue Moeglichkeiten."]
+			id: "A730550B1470DC13"
+			title: "Weitere Create-Mods"
+			rewards: [{ id: "46E69D37C52E3A31", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A18088D3000278A1", type: "checkmark" }]
+			x: 2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["A730550B1470DC13"]
+			description: ["&6Was ist das?", "Create Copper and Zinc bringt mehr Werkzeuge und Blockvarianten fuer diese Metalle.", "", "&6So gehts", "Zink findest du in Create-Erzadern, Kupfer ueberall.", "", "&6Wofuer ist das wichtig?", "Ohne beides kein Messing."]
+			id: "01FA39B55E675D70"
+			title: "Kupfer und Zink"
+			rewards: [{ id: "A57A34679E78DD89", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "799915459BA722BB", type: "checkmark" }]
+			x: 3.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["01FA39B55E675D70"]
+			description: ["&6Was ist das?", "Der Slicer schneidet Items mit Messern automatisch, wie am Schneidebrett.", "Der Sprinkler giesst Felder mit Duenger.", "", "&6So gehts", "Der Slicer schneidet Zutaten automatisch, der Sprinkler giesst Felder.", "", "&6Wofuer ist das wichtig?", "Automatische Kueche: Schneiden, Kochen, Verpacken."]
+			id: "674AB1A536761250"
+			title: "Slice and Dice"
+			rewards: [{ id: "7E31FAADD0325EF5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "84103D6B1FA43024", type: "item", item: { id: "sliceanddice:slicer", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["674AB1A536761250"]
+			description: ["&6Was ist das?", "Der Sprinkler giesst Felder mit Duenger oder Wasser.", "", "&6So gehts", "Wasser per Rohr anschliessen.", "", "&6Wofuer ist das wichtig?", "Schnellere Ernte."]
+			id: "42732661CDA6F864"
+			title: "Sprinkler"
+			rewards: [{ id: "3E64621EA4329353", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "CF9379E603493F4C", type: "item", item: { id: "sliceanddice:sprinkler", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["42732661CDA6F864"]
+			description: ["&6Was ist das?", "Mit Kupfer-Tauchhelm und -Schuhen bleibst du unter Wasser lange gesund. Du brauchst einen Druckluft-Tank (Backtank).", "", "&6So gehts", "Tank mit Luft fuellen.", "", "&6Wofuer ist das wichtig?", "Lange unter Wasser bleiben."]
+			id: "C7A5768E697D1543"
+			title: "Kupfer-Tauchausruestung"
+			rewards: [{ id: "A5523EB45C5B6A64", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "D1AE705319490589", type: "item", item: { id: "create:copper_backtank", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["C7A5768E697D1543"]
+			description: ["&6Was ist das?", "Create Tools and Weapons bringt Werkzeug aus Create-Zahnraedern.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Starke Werkzeuge mit Technik-Look."]
+			id: "853264EF13DD736B"
+			title: "Gear-Werkzeug"
+			rewards: [{ id: "2F815A8E668BAAD7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "04F46B5C1C5E7598", type: "item", item: { id: "create_tools_n_weapons:gear_pickaxe", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["853264EF13DD736B"]
+			description: ["&6Was ist das?", "Create Cobblestone: Der Generator macht Bruchstein und Basalt automatisch.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Alternative Kraftquelle."]
+			id: "039A708DA9C8F9F7"
+			title: "Mechanischer Generator"
+			rewards: [{ id: "3C9614E5C0E02A17", type: "item", item: { id: "minecraft:cobblestone", count: 16 } }]
+			tasks: [{ id: "2F9C543EF9078CD0", type: "item", item: { id: "createcobblestone:mechanical_generator", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["039A708DA9C8F9F7"]
+			description: ["&6Was ist das?", "Create Ultimate Factory macht viele Rohstoffe erneuerbar: Tuff aus Bruchstein, Diamanten aus Kohle und mehr. Schaue die Rezepte in JEI an.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Mehr Automatisierung."]
+			id: "96E953E88A448B73"
+			title: "Ultimate Factory"
+			rewards: [{ id: "887D075D04F553C4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "EEB7CD3EC92CA069", type: "checkmark" }]
+			x: 12.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["96E953E88A448B73"]
+			description: ["&6Was ist das?", "In der Welt findest du Create-Bauten mit Beute: Lagerhallen, Ruinen und mehr.", "", "&6So gehts", "Erkunden.", "", "&6Wofuer ist das wichtig?", "Beute und Ideen fuer deine Fabrik."]
+			id: "3BCEB9B8C58D7608"
+			title: "Create Structures"
+			rewards: [{ id: "84B0B1132102EB7C", type: "item", item: { id: "minecraft:emerald", count: 2 } }]
+			tasks: [{ id: "DE407C734235CDBE", type: "checkmark" }]
+			x: 14.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["3BCEB9B8C58D7608"]
+			description: ["&6Was ist das?", "Sophisticated Backpacks hat eine Create-Anbindung: Rucksack-Upgrades arbeiten mit Create-Maschinen zusammen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Technik fuer unterwegs."]
+			id: "36305C6C501DC44F"
+			title: "Rucksack mit Create"
+			rewards: [{ id: "28F928DBD1E5C558", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2093DA3DD35001AB", type: "checkmark" }]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["73C9FDCF839140CB"]
+			description: ["&6Was ist das?", "Das Andesit-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Kraft, Werkzeug, Gehaeuse, Mehr Kraft, Verarbeitung, Materialien, Item-Transport, Create Connected, Deko, Erweiterungen.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
+			icon: { id: "create:andesite_alloy" }
+			id: "E52DE00BD427FFFA"
+			title: "Beginn: Andesit-Zeitalter"
+			rewards: [{ id: "5E627E2F689858F1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "24109C246CC8DB23", type: "checkmark" }]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["78D27542D5F3AD2D", "E44F27458F4CFD6E"]
+			description: ["&6Was ist das?", "Hier beginnt das Diamant-Zeitalter. Es schaltet frei:", "Diamantwerkzeug und -ruestung, Verzauberungstisch, Apothic Enchanting und Diamanthaemmer.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
+			icon: { id: "minecraft:diamond" }
+			id: "1953C0BFA6CFB012"
+			title: "Zeitalter: Diamant-Zeitalter"
+			rewards: [{ id: "18BE1CC2A35E0604", type: "historystages:history_stage", stage: "diamantzeit", remove: false, individual: false }, { id: "FE20317BAEDB707C", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "AB1276E6509B8EB8", type: "checkmark" }]
+			x: 16.5d
+			y: 12.0d
+		}
+	]
+}

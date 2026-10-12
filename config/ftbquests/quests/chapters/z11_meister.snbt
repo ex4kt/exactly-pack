@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "z11_meister"
+	icon: { id: "minecraft:netherite_ingot" }
+	id: "244709AF9446ADAB"
+	order_index: 10
+	quest_links: [ ]
+	title: "&4XI. Meister-Zeitalter"
+	quests: [
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Antiker Schutt liegt tief im Nether. Mit Betten sprengst du ihn aus.", "", "&6So gehts", "Er liegt tief, um Ebene 15. Sprenge mit TNT oder Betten, er ist explosionsfest.", "Brauche eine Diamantspitzhacke.", "", "&6Wofuer ist das wichtig?", "Netherit ist die beste Vanilla-Ausruestung, brennt nicht und haelt sehr lange."]
+			id: "4A5C2B821E03D0DC"
+			title: "Netherit"
+			rewards: [{ id: "4DC4D1E1F6E946A8", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "123623BFCDAD3606", type: "item", item: { id: "minecraft:ancient_debris", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A5C2B821E03D0DC"]
+			description: ["&6Was ist das?", "Schmelze Antiken Schutt zu Schrott. Vier Schrott und vier Gold ergeben einen Barren.", "", "&6So gehts", "Antiker Schutt im Ofen zu Schrott. Vier Schrott und vier Gold.", "", "&6Wofuer ist das wichtig?", "Mit Vorlage im Schmiedetisch Diamant zu Netherit aufwerten."]
+			id: "A7C0D1F5383A123A"
+			title: "Netherit-Barren"
+			rewards: [{ id: "AAC53FDF395F63F6", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "DFFACD6D3639941F", type: "item", item: { id: "minecraft:netherite_ingot", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A7C0D1F5383A123A"]
+			description: ["&6Was ist das?", "Die Netherit-Spitzhacke ist die beste normale Spitzhacke. Verbessere Diamant am Schmiedetisch.", "", "&6So gehts", "Diamantspitzhacke, Netherit-Barren und Vorlage im Schmiedetisch.", "", "&6Wofuer ist das wichtig?", "Geht nicht in Lava kaputt und haelt sehr lange."]
+			id: "DBCEFCEB50404B23"
+			title: "Netherit-Spitzhacke"
+			rewards: [{ id: "35868B0CE30EA675", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "05E3600C8AD78762", type: "item", item: { id: "minecraft:netherite_pickaxe", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DBCEFCEB50404B23"]
+			description: ["&6Was ist das?", "Advanced Netherite verbessert Netherit mit Eisen, Gold, Smaragd oder Diamant. Jede Stufe hat eigene Vorteile.", "", "&6So gehts", "Im Schmiedetisch mit den passenden Barren.", "", "&6Wofuer ist das wichtig?", "Starke Boni, z.B. mehr Erze oder Schutz vor Piglins."]
+			id: "97578EF3AF8A8E1F"
+			title: "Advanced Netherite"
+			rewards: [{ id: "CA5BB9554253F212", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "7341702896665770", type: "item", item: { id: "advancednetherite:netherite_diamond_pickaxe", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A7C0D1F5383A123A"]
+			description: ["&6Was ist das?", "Die beste Vanilla-Ruestung.", "", "&6So gehts", "Diamantruestung am Schmiedetisch aufwerten.", "", "&6Wofuer ist das wichtig?", "Kein Rueckstoss, brennt nicht."]
+			icon: { id: "minecraft:netherite_chestplate" }
+			id: "A5514ECD91BDCE08"
+			title: "Netherit-Ruestung"
+			rewards: [{ id: "20144E31C0F7A6F9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DADBB66703685FD7", type: "item", item: { id: "minecraft:netherite_chestplate", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A5514ECD91BDCE08"]
+			description: ["&6Was ist das?", "Just Hammers: der staerkste Hammer.", "", "&6So gehts", "Am Schmiedetisch aufwerten.", "", "&6Wofuer ist das wichtig?", "Bricht alles in Sekunden."]
+			icon: { id: "justhammers:netherite_hammer" }
+			id: "6F09CC2EB94F3327"
+			title: "Netherit-Hammer"
+			rewards: [{ id: "FFB4F3CF7CEA6FD9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3264435EF559347E", type: "item", item: { id: "justhammers:netherite_hammer", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F09CC2EB94F3327"]
+			description: ["&6Was ist das?", "Baut riesige Bereiche auf einmal ab.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Fuer gigantische Bauprojekte."]
+			icon: { id: "justhammers:netherite_destructor_hammer" }
+			id: "F56F50EAB7E6326C"
+			title: "Zerstoerer-Hammer"
+			rewards: [{ id: "918BBA9F56C85B70", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4D52992EA34F8AE8", type: "item", item: { id: "justhammers:netherite_destructor_hammer", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenkoepfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schaedel.", "Kaempfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "", "&6Wofuer ist das wichtig?", "Er laesst den Netherstern fallen, daraus baust du ein Leuchtfeuer."]
+			id: "F038D73E365BACA5"
+			title: "Der Wither"
+			rewards: [{ id: "0333BC90427C42A6", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
+			tasks: [{ id: "CEFA0309C76A9222", type: "kill", entity: "minecraft:wither", value: 1L, icon: { id: "minecraft:wither_skeleton_skull" } }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F038D73E365BACA5"]
+			description: ["&6Was ist das?", "Der Wither laesst den Netherstern fallen.", "", "&6So gehts", "Wither besiegen.", "", "&6Wofuer ist das wichtig?", "Fuer das Leuchtfeuer."]
+			id: "E3D7812606E4DBB9"
+			title: "Netherstern"
+			rewards: [{ id: "29775321EC52269B", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "A597FEB177211096", type: "item", item: { id: "minecraft:nether_star", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["E3D7812606E4DBB9"]
+			description: ["&6Was ist das?", "Mit dem Netherstern baust du ein Leuchtfeuer. Es gibt starke Effekte in der Naehe.", "", "&6So gehts", "Auf eine Pyramide aus Metallbloecken setzen.", "", "&6Wofuer ist das wichtig?", "Eile II macht Abbauen sehr schnell."]
+			id: "28030AA827BEA30E"
+			title: "Leuchtfeuer"
+			rewards: [{ id: "DE952797288299E1", type: "item", item: { id: "minecraft:iron_block", count: 4 } }]
+			tasks: [{ id: "D790DBDE318DFB50", type: "item", item: { id: "minecraft:beacon", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Ignis ist der Boss der Flammen. Rufe ihn mit seinem Altar.", "", "&6So gehts", "Er wartet in einer brennenden Arena im Nether. Feuerresistenz ist Pflicht.", "", "&6Wofuer ist das wichtig?", "Ignitium fuer feuerfeste Ruestung und das Incinerator-Schwert."]
+			id: "D97F4E4DED779E17"
+			title: "Cataclysm: Ignis"
+			rewards: [{ id: "E3E5624E20637670", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "0BE31258E0B895F8", type: "kill", entity: "cataclysm:ignis", value: 1L, icon: { id: "minecraft:blaze_powder" } }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["D97F4E4DED779E17"]
+			description: ["&6Was ist das?", "Ignitium bekommst du von Ignis. Es macht feuerfeste Ruestung.", "", "&6So gehts", "Ignis besiegen.", "", "&6Wofuer ist das wichtig?", "Feuerfeste Ruestung."]
+			id: "BC82C754955063BD"
+			title: "Ignitium"
+			rewards: [{ id: "B3E96701390F14D8", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "C869378C7D72B7FF", type: "item", item: { id: "cataclysm:ignitium_ingot", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["BC82C754955063BD"]
+			description: ["&6Was ist das?", "Cataclysm: Das Schwert des Ignis setzt alles in Brand.", "", "&6So gehts", "Mit Ignitium herstellen.", "", "&6Wofuer ist das wichtig?", "Setzt Gegner in Brand."]
+			id: "6F743C43424223F3"
+			title: "Der Incinerator"
+			rewards: [{ id: "59DB50A5846968A3", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "6DF1895F816293CC", type: "item", item: { id: "cataclysm:the_incinerator", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F743C43424223F3"]
+			description: ["&6Was ist das?", "Der Netherite Monstrosity lauert in den Lavahoehlen. Er ist extrem stark.", "", "&6So gehts", "In der Seelenschmiede im Nether. Weiche den Lavakugeln aus.", "", "&6Wofuer ist das wichtig?", "Er laesst die Hoellen-Schmiede fallen."]
+			id: "633EAD26426F937A"
+			title: "Cataclysm: Netherit-Ungeheuer"
+			rewards: [{ id: "9C0259FE7F01B207", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
+			tasks: [{ id: "7D8E6ED74473345E", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L, icon: { id: "minecraft:netherite_scrap" } }]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["633EAD26426F937A"]
+			description: ["&6Was ist das?", "Cataclysm: Infernal Forge ist ein riesiger Hammer aus dem Monstrosity.", "", "&6So gehts", "Vom Netherit-Ungeheuer.", "", "&6Wofuer ist das wichtig?", "Sehr hoher Schaden."]
+			id: "2A097C3F75E92226"
+			title: "Hoellen-Schmiede"
+			rewards: [{ id: "C49872362A842B8F", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "0FBD7E62EF041D7F", type: "item", item: { id: "cataclysm:infernal_forge", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["BC82C754955063BD"]
+			description: ["&6Was ist das?", "Cataclysm: Ruestung aus Ignitium.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Feuerschutz und Staerke."]
+			icon: { id: "cataclysm:ignitium_chestplate" }
+			id: "61920C28D0F155A0"
+			title: "Ignitium-Ruestung"
+			rewards: [{ id: "434CFA49A0FA6EB9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3B0A6A74DD9420A6", type: "item", item: { id: "cataclysm:ignitium_chestplate", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61920C28D0F155A0"]
+			description: ["&6Was ist das?", "Cataclysm: Eine Laserwaffe vom Harbinger.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dauerfeuer gegen Bosse."]
+			icon: { id: "cataclysm:laser_gatling" }
+			id: "BA0725C9F475F941"
+			title: "Laser-Gatling"
+			rewards: [{ id: "C2AB87BC91D55C8A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1FB655AD10599704", type: "item", item: { id: "cataclysm:laser_gatling", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["BA0725C9F475F941"]
+			description: ["&6Was ist das?", "Cataclysm: Klauen vom Leviathan.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Zieht Gegner zu dir."]
+			icon: { id: "cataclysm:tidal_claws" }
+			id: "0F87A4A588C6C291"
+			title: "Gezeitenklauen"
+			rewards: [{ id: "6CA9215A3FC38584", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "81B99D7A073D79EF", type: "item", item: { id: "cataclysm:tidal_claws", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F87A4A588C6C291"]
+			description: ["&6Was ist das?", "Cataclysm: Eine Sense aus Seelen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Hoher Flaechenschaden."]
+			icon: { id: "cataclysm:soul_render" }
+			id: "AED72A405F3B5C83"
+			title: "Seelenreisser"
+			rewards: [{ id: "3DE92F76B05A132B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7A08B7AEB0B13E40", type: "item", item: { id: "cataclysm:soul_render", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Cataclysm bringt grosse Bosse. Der Kobolediator lebt in der Wueste.", "", "&6So gehts", "Der Kobolediator lebt in der Wueste. Weiche seinen Spruengen seitlich aus.", "", "&6Wofuer ist das wichtig?", "Cataclysm-Bosse lassen die staerksten Materialien des Packs fallen."]
+			id: "CE06C2560AF995DC"
+			title: "Cataclysm: Kobolediator"
+			rewards: [{ id: "055F4DB54A381C6B", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "2A29D1B2B6405E43", type: "kill", entity: "cataclysm:kobolediator", value: 1L, icon: { id: "minecraft:sand" } }]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["CE06C2560AF995DC"]
+			description: ["&6Was ist das?", "In der Verfluchten Pyramide liegt der Ancient Remnant. Er ist ein harter Boss.", "", "&6So gehts", "Bringe gute Ruestung, Essen und Heilung mit. Er ruft Sandstuerme und Kaefer.", "", "&6Wofuer ist das wichtig?", "Er laesst Antikes Metall fallen, Material fuer starke Cataclysm-Waffen."]
+			id: "B5A1BCF5B82A1E0B"
+			title: "Cataclysm: Verfluchte Pyramide"
+			rewards: [{ id: "0E4DCF75ED52D30E", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "92183B5FE008BBE8", type: "kill", entity: "cataclysm:ancient_remnant", value: 1L, icon: { id: "minecraft:sandstone" } }]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["B5A1BCF5B82A1E0B"]
+			description: ["&6Was ist das?", "Antikes Metall erhaeltst du vom Ancient Remnant.", "", "&6So gehts", "Den Boss in der Verfluchten Pyramide besiegen.", "", "&6Wofuer ist das wichtig?", "Fuer Cataclysm-Waffen."]
+			id: "08AE23588778BA70"
+			title: "Antikes Metall"
+			rewards: [{ id: "CC03BECFF169A829", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "B73734D52E36AE58", type: "item", item: { id: "cataclysm:ancient_metal_ingot", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["08AE23588778BA70"]
+			description: ["&6Was ist das?", "Der Harbinger wartet in der Alten Fabrik. Er schiesst Laser.", "", "&6So gehts", "Er schiesst Laser und Raketen. Bleib in Bewegung und nutze Deckung.", "", "&6Wofuer ist das wichtig?", "Das Mechanische Auge wird fuer starke Waffen gebraucht."]
+			id: "2600278FFBA40B51"
+			title: "Cataclysm: Harbinger"
+			rewards: [{ id: "7C5BDA6C516B0C4F", type: "xp_levels", xp_levels: 14 }]
+			tasks: [{ id: "1E5D4B95C06CBB31", type: "kill", entity: "cataclysm:the_harbinger", value: 1L, icon: { id: "cataclysm:mech_eye" } }]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2600278FFBA40B51"]
+			description: ["&6Was ist das?", "Maledictus lebt im Frostgefaengnis. Seine Beute ist Cursium.", "", "&6So gehts", "Er ist sehr schnell. Weiche aus und greife nach seinen Angriffen an.", "", "&6Wofuer ist das wichtig?", "Cursium fuer starke Ruestung."]
+			id: "A490AEA8029456A1"
+			title: "Cataclysm: Maledictus"
+			rewards: [{ id: "AD162A3689724E4F", type: "xp_levels", xp_levels: 14 }]
+			tasks: [{ id: "938E31A776F77D59", type: "kill", entity: "cataclysm:maledictus", value: 1L, icon: { id: "cataclysm:cursium_ingot" } }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A490AEA8029456A1"]
+			description: ["&6Was ist das?", "Cursium vom Maledictus macht starke Ruestung.", "", "&6So gehts", "Den Boss besiegen.", "", "&6Wofuer ist das wichtig?", "Cursium-Ruestung ist eine der besten."]
+			id: "028ADF99FBF6807C"
+			title: "Cursium"
+			rewards: [{ id: "4F68D04DA371E3BA", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "2FBFAD65FB346DC9", type: "item", item: { id: "cataclysm:cursium_ingot", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Der Korallen-Golem lebt in den Ozeanen.", "", "&6So gehts", "Im Ozean suchen.", "", "&6Wofuer ist das wichtig?", "Korallen-Brocken fuer Cataclysm-Rezepte."]
+			id: "15E61654C80FD4A8"
+			title: "Korallen-Golem"
+			rewards: [{ id: "5D5B19B1AE56557B", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "B94B35DE6B3FA882", type: "kill", entity: "cataclysm:coral_golem", value: 1L, icon: { id: "cataclysm:coral_chunk" } }]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["15E61654C80FD4A8"]
+			description: ["&6Was ist das?", "Die Amethyst-Krabbe lebt in Hoehlen mit Amethyst.", "", "&6So gehts", "In Hoehlen suchen.", "", "&6Wofuer ist das wichtig?", "Panzer fuer Cataclysm-Rezepte."]
+			id: "094E3A3AB01FE3FF"
+			title: "Amethyst-Krabbe"
+			rewards: [{ id: "A5C0E081E214F691", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "098C805F1722D522", type: "kill", entity: "cataclysm:amethyst_crab", value: 1L, icon: { id: "cataclysm:amethyst_crab_shell" } }]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["094E3A3AB01FE3FF"]
+			description: ["&6Was ist das?", "Cataclysm: Ruestung aus Cursium.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Eine der besten Ruestungen im Spiel."]
+			icon: { id: "cataclysm:cursium_chestplate" }
+			id: "AC2F83FAC4E5F9BB"
+			title: "Cursium-Ruestung"
+			rewards: [{ id: "0B54DC286706BDDE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8CA4C623760D853C", type: "item", item: { id: "cataclysm:cursium_chestplate", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Das Konduit gibt unter Wasser Atem und Sicht.", "", "&6So gehts", "Herz des Meeres und Nautilusschalen, mit Prismarin umbauen.", "", "&6Wofuer ist das wichtig?", "Unterwasserbasen werden sicher."]
+			icon: { id: "minecraft:conduit" }
+			id: "076FC99714B15558"
+			title: "Konduit"
+			rewards: [{ id: "D61561EA35C3CA9E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8B45F555CCACED7D", type: "item", item: { id: "minecraft:conduit", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["076FC99714B15558"]
+			description: ["&6Was ist das?", "Friends and Foes: Totem, das Doppelgaenger erzeugt.", "", "&6So gehts", "Vom Illusionisten.", "", "&6Wofuer ist das wichtig?", "Gegner greifen die falschen Ziele an."]
+			icon: { id: "friendsandfoes:totem_of_illusion" }
+			id: "90501AFC991EBEA1"
+			title: "Totem der Illusion"
+			rewards: [{ id: "EFAEA296DA198292", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B36C5883C2EEFD18", type: "item", item: { id: "friendsandfoes:totem_of_illusion", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Cataclysm: Der Ender Guardian lebt in der Void-Festung.", "", "&6So gehts", "In einer zerstoerten Zitadelle auf den Endinseln.", "", "&6Wofuer ist das wichtig?", "Enderit fuer starke Waffen."]
+			id: "45F7DF303BD48E57"
+			title: "Der Ender-Waechter"
+			rewards: [{ id: "1900DB513F64797A", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "B912B09FB7E1A145", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_rod" } }]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["45F7DF303BD48E57"]
+			description: ["&6Was ist das?", "Cataclysm: Enderit aus dem Ender-Waechter.", "", "&6So gehts", "Vom Ender-Waechter.", "", "&6Wofuer ist das wichtig?", "Starke Waffen."]
+			id: "E6BF4A9579627AB2"
+			title: "Enderit"
+			rewards: [{ id: "F0CCBCA91BC9F9F7", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "4326A4252786182B", type: "item", item: { id: "cataclysm:enderite_ingot", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["E6BF4A9579627AB2"]
+			description: ["&6Was ist das?", "Cataclysm: Der Void-Kern ist ein seltenes Bauteil fuer Endwaffen.", "", "&6So gehts", "Vom Ender-Waechter.", "", "&6Wofuer ist das wichtig?", "Endwaffen."]
+			id: "99CF6DB9C4D6DB4A"
+			title: "Void-Kern"
+			rewards: [{ id: "51905057884F8859", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "ACF34C46FE7C466A", type: "item", item: { id: "cataclysm:void_core", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["99CF6DB9C4D6DB4A"]
+			description: ["&6Was ist das?", "Cataclysm: Ein riesiges Schwert aus dem Ende.", "", "&6So gehts", "Mit Enderit herstellen.", "", "&6Wofuer ist das wichtig?", "Sehr hoher Schaden."]
+			id: "4A052AD9B9039188"
+			title: "Zweiender"
+			rewards: [{ id: "414E0E2978AB85E6", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "81C49E72B5CC5E5B", type: "item", item: { id: "cataclysm:zweiender", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4A052AD9B9039188"]
+			description: ["&6Was ist das?", "Der Ender Golem ist ein Gegner von Cataclysm.", "", "&6So gehts", "In den Endinseln suchen.", "", "&6Wofuer ist das wichtig?", "Material fuer Cataclysm."]
+			id: "FAAE1511A220D38C"
+			title: "Ender-Golem"
+			rewards: [{ id: "D4D6972040EB9471", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "4F79AC348CFF95CC", type: "kill", entity: "cataclysm:ender_golem", value: 1L, icon: { id: "minecraft:end_stone" } }]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["FAAE1511A220D38C"]
+			description: ["&6Was ist das?", "Cataclysm: Kaefer aus dem Ende.", "", "&6So gehts", "Im Ende suchen.", "", "&6Wofuer ist das wichtig?", "Chorusfrucht."]
+			id: "5BDDA6FEC33CD7FB"
+			title: "Endermaptera"
+			rewards: [{ id: "39A64789F2D04BA6", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "9E42A216A64F391A", type: "kill", entity: "cataclysm:endermaptera", value: 1L, icon: { id: "minecraft:chorus_fruit" } }]
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5BDDA6FEC33CD7FB"]
+			description: ["&6Was ist das?", "Der Leviathan lebt in den Meerestiefen. Er ist ein sehr harter Boss.", "", "&6So gehts", "In der Versunkenen Stadt im Ozean. Atmung und Wasseraffinitaet sind Pflicht.", "", "&6Wofuer ist das wichtig?", "Beute fuer die besten Waffen."]
+			id: "B562059F9EA08CC8"
+			title: "Der Leviathan"
+			rewards: [{ id: "808FD55E2FD3506E", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			tasks: [{ id: "4DE58022A90CF04D", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_crystals" } }]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6D36F5EF464FF5FD"]
+			description: ["&6Was ist das?", "Die Netherit-Magierruestung ist die staerkste Zauberer-Ruestung.", "", "&6So gehts", "Im Schmiedetisch aufwerten.", "", "&6Wofuer ist das wichtig?", "Starke Magier-Ruestung."]
+			id: "04EE3BD9BC1E1442"
+			title: "Netherit-Kampfmagier"
+			rewards: [{ id: "C353E0ED388E8E71", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 } }]
+			tasks: [{ id: "39636F0659905F5D", type: "item", item: { id: "irons_spellbooks:netherite_mage_chestplate", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["04EE3BD9BC1E1442"]
+			description: ["&6Was ist das?", "Das Netherit-Zauberbuch hat sehr viele Zauberplaetze.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viel Platz fuer Zauber."]
+			id: "2757C6BF2E4CBF60"
+			title: "Netherit-Zauberbuch"
+			rewards: [{ id: "F82A8072A80E62E6", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "A6AFFB8B2F98E161", type: "item", item: { id: "irons_spellbooks:netherite_spell_book", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2757C6BF2E4CBF60"]
+			description: ["&6Was ist das?", "Das Drachenhaut-Zauberbuch ist eines der besten Buecher. Du brauchst Drachenhaut vom Enderdrachen.", "", "&6So gehts", "Mit Drachenhaut herstellen.", "", "&6Wofuer ist das wichtig?", "Ultimative Magie."]
+			id: "6BC9918F7D743AE5"
+			title: "Drachenhaut-Zauberbuch"
+			rewards: [{ id: "17EFBD9AE746B940", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "176F56D1BA1F76E2", type: "item", item: { id: "irons_spellbooks:dragonskin_spell_book", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6BC9918F7D743AE5"]
+			description: ["&6Was ist das?", "Irons Spells: das beste Zauberbuch.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Platz fuer die meisten Zauber."]
+			icon: { id: "irons_spellbooks:legendary_spell_book" }
+			id: "A7E074BA8EB461DB"
+			title: "Legendaeres Zauberbuch"
+			rewards: [{ id: "BB0A6F282ACA10C7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FE5D863F1BD26465", type: "item", item: { id: "irons_spellbooks:legendary_spell_book", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["63CFE2CE7276DCB6"]
+			description: ["&6Was ist das?", "Das Meister-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Netherit, Netherit-Ausruestung, Der Wither, Cataclysm im Nether, Cataclysm-Ruestkammer, Cataclysm in der Oberwelt, Meeresschaetze, Cataclysm im Ende und Meer, Meister-Magie.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
+			icon: { id: "minecraft:netherite_ingot" }
+			id: "6D36F5EF464FF5FD"
+			title: "Beginn: Meister-Zeitalter"
+			rewards: [{ id: "B2771512FC819581", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8310F6261283E08E", type: "checkmark" }]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["97578EF3AF8A8E1F", "28030AA827BEA30E", "2A097C3F75E92226"]
+			description: ["&6Was ist das?", "Du hast alle Zeitalter gemeistert. Gratulation!", "", "&6So gehts", "Hol dir deine Belohnung.", "", "&6Wofuer ist das wichtig?", "Jetzt kannst du alles bauen, was das Pack zu bieten hat. Viel Spass!"]
+			icon: { id: "minecraft:nether_star" }
+			id: "51758B90F50FF7C7"
+			title: "Meister von Exactly"
+			rewards: [{ id: "FBE138DEED114BB0", type: "item", item: { id: "minecraft:nether_star", count: 1 } }]
+			tasks: [{ id: "0F131582010B5385", type: "checkmark" }]
+			x: 16.5d
+			y: 8.0d
+		}
+	]
+}

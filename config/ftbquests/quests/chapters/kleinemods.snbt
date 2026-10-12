@@ -1,0 +1,480 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "kleinemods"
+	icon: { id: "minecraft:book" }
+	id: "4462D623E69BC5A5"
+	order_index: 11
+	quest_links: [ ]
+	title: "&7Kleine Mods"
+	quests: [
+		{
+			description: ["&6Was ist das?", "Zeigt oben in der Mitte, welchen Block oder welches Tier du ansiehst.", "", "&6So gehts", "Einfach hinschauen.", "", "&6Wofuer ist das wichtig?", "Hilft beim Nachschlagen in JEI und zeigt den Fortschritt von Maschinen."]
+			id: "CAF38A47225346E5"
+			title: "Jade"
+			rewards: []
+			tasks: [{ id: "6BCE53F97A1301F0", type: "checkmark" }]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Zeigt Hunger- und Saettigungswerte beim Essen.", "", "&6So gehts", "Halte Essen in der Hand. Die Hungerleiste zeigt, wie viel es auffuellt.", "", "&6Wofuer ist das wichtig?", "Wer gut isst, heilt schneller. Waehle Gerichte mit hoher Saettigung."]
+			id: "6F81E1560F8E3640"
+			title: "AppleSkin"
+			rewards: []
+			tasks: [{ id: "87AB0F039FE7CF8E", type: "checkmark" }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Items mit der Maus schneller verteilen (Mausrad, Ziehen).", "", "&6So gehts", "Mit gedrueckter Maustaste ueber Plaetze ziehen verteilt Items. Mit dem Mausrad schiebst du Items zwischen Inventaren.", "", "&6Wofuer ist das wichtig?", "Spart viel Zeit beim Sortieren und Craften."]
+			id: "2659B7880C5D46B2"
+			title: "Mouse Tweaks"
+			rewards: []
+			tasks: [{ id: "D2A8F3B56E41A6DE", type: "checkmark" }]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Die Item-Liste mit allen Rezepten.", "", "&6So gehts", "R auf einem Item: Rezept. U: Wofuer man es braucht. Suche oben.", "", "&6Wofuer ist das wichtig?", "Das wichtigste Werkzeug im ganzen Modpack."]
+			id: "6FFA59CB4929154B"
+			title: "JEI"
+			rewards: []
+			tasks: [{ id: "0DA8D2B7A95557D8", type: "checkmark" }]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Pflanzen per Rechtsklick ernten.", "", "&6So gehts", "Rechtsklick auf reife Pflanzen. Sie wachsen neu.", "", "&6Wofuer ist das wichtig?", "Felder bleiben immer bepflanzt."]
+			id: "E41E149F7002C82A"
+			title: "Rechtsklick-Ernte"
+			rewards: []
+			tasks: [{ id: "225E7604C441AE82", type: "checkmark" }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Das Fadenkreuz zeigt an, ob du angreifen, abbauen oder benutzen kannst.", "", "&6So gehts", "Achte auf die Form des Fadenkreuzes.", "", "&6Wofuer ist das wichtig?", "Du siehst sofort, ob dein Schlag aufgeladen ist."]
+			id: "467369B89A524F6B"
+			title: "Dynamisches Fadenkreuz"
+			rewards: []
+			tasks: [{ id: "1F7E501B63D6E5FF", type: "checkmark" }]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Zeigt den Kopf des Spielers neben Chatnachrichten.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Man sieht schneller, wer etwas schreibt."]
+			id: "89EF5C1260349AEC"
+			title: "Chat Heads"
+			rewards: []
+			tasks: [{ id: "1CF70F79C6B8D9CB", type: "checkmark" }]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Eine uebersichtlichere Erfolgsliste (Taste L).", "", "&6So gehts", "Taste L oeffnen, Tabs oben wechseln.", "", "&6Wofuer ist das wichtig?", "Viele Mods (z.B. Farmers Delight) erklaeren sich ueber Erfolge."]
+			id: "784BD0458846F6A8"
+			title: "Bessere Erfolge"
+			rewards: []
+			tasks: [{ id: "0246FE311A738A56", type: "checkmark" }]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Suchleiste in den Tasten-Einstellungen.", "", "&6So gehts", "Optionen, Steuerung, Tastenbelegung, oben suchen.", "", "&6Wofuer ist das wichtig?", "Finde jede Taste in Sekunden."]
+			id: "A592A24754D667FE"
+			title: "Controlling"
+			rewards: []
+			tasks: [{ id: "55FEF0228D1E48DC", type: "checkmark" }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Blaetter verschwinden schnell, wenn der Baum weg ist.", "", "&6So gehts", "Baum faellen und warten.", "", "&6Wofuer ist das wichtig?", "Keine schwebenden Blaetter mehr, Setzlinge fallen direkt."]
+			id: "B8BBABD8497D8A3F"
+			title: "Leaves Be Gone"
+			rewards: []
+			tasks: [{ id: "615C19F29D657312", type: "checkmark" }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein fairer Amboss ohne Zu-teuer-Grenze.", "", "&6So gehts", "Amboss wie gewohnt benutzen.", "", "&6Wofuer ist das wichtig?", "Du kannst Ausruestung immer weiter reparieren und verbessern."]
+			id: "5B930C254D693EE0"
+			title: "Easy Anvils"
+			rewards: []
+			tasks: [{ id: "0428AEC0F1D1C4C9", type: "checkmark" }]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Items bleiben sichtbar auf der Werkbank liegen.", "", "&6So gehts", "Einfach Werkbank benutzen.", "", "&6Wofuer ist das wichtig?", "Sieht schoen aus und du verlierst nichts."]
+			id: "85B6BEDF81D0A6FA"
+			title: "Visual Workbench"
+			rewards: []
+			tasks: [{ id: "DBC6595B5C42ACB5", type: "checkmark" }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Waehle zwischen Rezepten mit gleichen Zutaten.", "", "&6So gehts", "Im Ergebnis-Feld erscheint ein Knopf, wenn es mehrere Ergebnisse gibt.", "", "&6Wofuer ist das wichtig?", "Wichtig bei vielen Mods, die die gleichen Zutaten nutzen."]
+			id: "1D0ADCEF657D4346"
+			title: "Polymorph"
+			rewards: []
+			tasks: [{ id: "CFEF552855C0CE65", type: "checkmark" }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Beim Tod entsteht ein Grab mit deinen Sachen.", "", "&6So gehts", "Koordinaten im Chat lesen und hingehen.", "", "&6Wofuer ist das wichtig?", "Du verlierst deine Ausruestung nicht."]
+			id: "A652FD37DAAFE1AE"
+			title: "Youre in Grave Danger"
+			rewards: []
+			tasks: [{ id: "0D8C6AC6F72D9A53", type: "checkmark" }]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Fackeln, die Monster in grossem Bereich fernhalten.", "", "&6So gehts", "Aufstellen, fertig.", "", "&6Wofuer ist das wichtig?", "Sichere Basis ohne tausend Fackeln."]
+			id: "DB75E33B7CF670A4"
+			title: "Magnum Torch"
+			rewards: []
+			tasks: [{ id: "685D5D38841FD5F7", type: "checkmark" }]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Das Saegewerk macht aus Holz Treppen, Stufen, Zaeune und mehr.", "", "&6So gehts", "Holz in das Saegewerk legen und das Ergebnis waehlen.", "", "&6Wofuer ist das wichtig?", "Mehr Ausbeute als in der Werkbank."]
+			id: "C7640DB499D31F05"
+			title: "Sawmill"
+			rewards: []
+			tasks: [{ id: "6F1D4FE1370E25FB", type: "checkmark" }]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Viele Deko-Varianten fuer Bloecke an der Werkbank.", "", "&6So gehts", "Baue eine der Chipped-Werkbaenke und lege einen Block hinein.", "", "&6Wofuer ist das wichtig?", "Tausende Varianten fuer schoenere Bauten."]
+			id: "B8F9CE8639A2EDFD"
+			title: "Chipped"
+			rewards: []
+			tasks: [{ id: "F9A399F39F329C9A", type: "checkmark" }]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Moebel: Stuehle, Tische, Betten, Regale.", "", "&6So gehts", "Rezepte in JEI. Viele gibt es in allen Holzarten.", "", "&6Wofuer ist das wichtig?", "Mach dein Zuhause gemuetlich."]
+			id: "0627B6D0F3C46F98"
+			title: "Handcrafted"
+			rewards: []
+			tasks: [{ id: "7A6988E6939DD453", type: "checkmark" }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Beute-Truhen sind fuer jeden Spieler einzeln.", "", "&6So gehts", "Einfach oeffnen.", "", "&6Wofuer ist das wichtig?", "Faire Beute fuer alle."]
+			id: "BAAE008DEF06386B"
+			title: "Lootr"
+			rewards: []
+			tasks: [{ id: "4503ACED0E34BC86", type: "checkmark" }]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Dorfbewohner bekommen Wachen, die Monster bekaempfen.", "", "&6So gehts", "Rechtsklick mit Waffe auf eine Wache gibt ihr Ausruestung.", "", "&6Wofuer ist das wichtig?", "Doerfer werden sicherer."]
+			id: "902BC894BEA823F3"
+			title: "Wachen im Dorf"
+			rewards: []
+			tasks: [{ id: "E577E627A3A5F164", type: "checkmark" }]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neue Tiere und Monster wie Kupfergolem, Glare oder Moobloom.", "", "&6So gehts", "In der Welt suchen. Rezepte fuer Golems in JEI.", "", "&6Wofuer ist das wichtig?", "Der Kupfergolem drueckt Kupferknoepfe fuer dich."]
+			id: "F17330CFD49C56D6"
+			title: "Friends and Foes"
+			rewards: []
+			tasks: [{ id: "A0D3C5FBC99A4ABC", type: "checkmark" }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neue Piglin-Arten im Nether.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute und mehr Gefahr."]
+			id: "D0B6DEC205326FBA"
+			title: "Piglin Proliferation"
+			rewards: []
+			tasks: [{ id: "A3F7DE5E389718EE", type: "checkmark" }]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neue Illager wie Invoker, Basher und Inquisitor.", "", "&6So gehts", "In Pluenderer-Aussenposten und Raids.", "", "&6Wofuer ist das wichtig?", "Starke Gegner mit guter Beute."]
+			id: "FC61128833D7FDE4"
+			title: "Illager Invasion"
+			rewards: []
+			tasks: [{ id: "7FABF4985CB5C830", type: "checkmark" }]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Tauscht automatisch mit Piglins.", "", "&6So gehts", "Gold hinein, Beute heraus.", "", "&6Wofuer ist das wichtig?", "Bequemer Weg zu Enderperlen und Obsidian."]
+			id: "14B18961543DDA9E"
+			title: "Bartering Station"
+			rewards: []
+			tasks: [{ id: "7DAB2E7BAE03C793", type: "checkmark" }]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Mit allen Dorfbewohnern gleichzeitig handeln.", "", "&6So gehts", "In einem Dorf aufstellen.", "", "&6Wofuer ist das wichtig?", "Spart Lauferei."]
+			id: "9EC9FB4B72290432"
+			title: "Trading Post"
+			rewards: []
+			tasks: [{ id: "AA25F0D6A711301A", type: "checkmark" }]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Buch, das Erfahrung speichert.", "", "&6So gehts", "Rechtsklick fuellt, Shift-Rechtsklick leert.", "", "&6Wofuer ist das wichtig?", "Spare Erfahrung fuer den Amboss."]
+			id: "6E01392665CDEBA9"
+			title: "XP Tome"
+			rewards: []
+			tasks: [{ id: "5804D3C98E0035CD", type: "checkmark" }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Speichert sehr viele Items pro Platz.", "", "&6So gehts", "Wie eine Kiste benutzen.", "", "&6Wofuer ist das wichtig?", "Ideal fuer Massenware."]
+			id: "9FE11555F0957C10"
+			title: "Nether-Truhe"
+			rewards: []
+			tasks: [{ id: "27A25D07F41AC58A", type: "checkmark" }]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Elytra und Brustplatte gleichzeitig tragen.", "", "&6So gehts", "Elytra in den extra Slot legen.", "", "&6Wofuer ist das wichtig?", "Fliegen ohne Schutz zu verlieren."]
+			id: "006F97AFB62AF7CC"
+			title: "Elytra Slot"
+			rewards: []
+			tasks: [{ id: "C5E37457E9D1FD24", type: "checkmark" }]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Fasst Erfahrungskugeln zusammen, das spart Leistung.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Weniger Lag bei Farmen."]
+			id: "780152119A23FCE9"
+			title: "Clumps"
+			rewards: []
+			tasks: [{ id: "B3EB5F57885911C2", type: "checkmark" }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Lieblingswelten oben festpinnen.", "", "&6So gehts", "Im Weltmenue auf den Stern klicken.", "", "&6Wofuer ist das wichtig?", "Deine Hauptwelt immer oben."]
+			id: "4BCD5B014E5A3A68"
+			title: "Cherished Worlds"
+			rewards: []
+			tasks: [{ id: "553E786E133C0F71", type: "checkmark" }]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Dorfbewohner haben Namen.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Leichter zu merken, wer welchen Handel hat."]
+			id: "3DEEC0BEF56E570F"
+			title: "Villager Names"
+			rewards: []
+			tasks: [{ id: "1CF97D4C06BFFC5C", type: "checkmark" }]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Kleine Bedrock-Funktionen auch in Java.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Bequemere Steuerung."]
+			id: "7963AF6C8EC7C7EE"
+			title: "Bedrockoid"
+			rewards: []
+			tasks: [{ id: "CABA94C2D0A2C878", type: "checkmark" }]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du siehst deine Items im Boot.", "", "&6So gehts", "Einfach Boot fahren.", "", "&6Wofuer ist das wichtig?", "Bessere Uebersicht."]
+			id: "4A02E0D40DE041CD"
+			title: "Boat View"
+			rewards: []
+			tasks: [{ id: "137423B806D0C6E4", type: "checkmark" }]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neu aufgenommene Items werden hervorgehoben.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Du findest neue Beute schneller."]
+			id: "E63942D4615E3427"
+			title: "Highlighter"
+			rewards: []
+			tasks: [{ id: "D7F53D8D0CB63208", type: "checkmark" }]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Tipps auf dem Ladebildschirm und bei Items.", "", "&6So gehts", "Lies die Tipps unten links.", "", "&6Wofuer ist das wichtig?", "Gute Erklaerungen fuer Neulinge."]
+			id: "68AB7D16B23D0676"
+			title: "Immersive Tips"
+			rewards: []
+			tasks: [{ id: "F2DC50A9F3927C56", type: "checkmark" }]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Kompass, der Biome findet.", "", "&6So gehts", "Rechtsklick, Biom waehlen, Suchen, dem Pfeil folgen.", "", "&6Wofuer ist das wichtig?", "Findet z.B. Pilzinseln oder Dschungel."]
+			id: "1F864491CCBCAF0C"
+			title: "Natures Compass"
+			rewards: []
+			tasks: [{ id: "15558153B945745E", type: "checkmark" }]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende.", "", "&6So gehts", "Siehe Kapitel Kochen.", "", "&6Wofuer ist das wichtig?", "Starke Mahlzeiten fuer das Endspiel."]
+			id: "B69C71505CE2F03F"
+			title: "Ender Delight"
+			rewards: []
+			tasks: [{ id: "651A92FCC66F3564", type: "checkmark" }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Mit dem Meissel verwandelst du Bloecke in Deko-Varianten.", "", "&6So gehts", "Meissel in der Hand, Bloecke hineinlegen, Variante waehlen.", "", "&6Wofuer ist das wichtig?", "Schoene Waende und Boeden."]
+			id: "AEC3BC32E8EB14BC"
+			title: "Rechiseled"
+			rewards: []
+			tasks: [{ id: "745DCBFDDA1BC51B", type: "checkmark" }]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Doppeltueren oeffnen sich zusammen.", "", "&6So gehts", "Zwei Tueren nebeneinander stellen.", "", "&6Wofuer ist das wichtig?", "Bequemer und schoener."]
+			id: "171ACBF09717672B"
+			title: "Doppeltueren"
+			rewards: []
+			tasks: [{ id: "EBC1ABDE5882B605", type: "checkmark" }]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Streichle Tiere mit Rechtsklick auf leerer Hand.", "", "&6So gehts", "Rechtsklick mit leerer Hand und Shift auf ein Tier.", "", "&6Wofuer ist das wichtig?", "Einfach nett."]
+			id: "8B2B2D0F26EE2AF0"
+			title: "PatPat"
+			rewards: []
+			tasks: [{ id: "30E3E71A53DF1307", type: "checkmark" }]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Inventar sortieren mit Shift und mittlerer Maustaste.", "", "&6So gehts", "Shift halten und mittlere Maustaste in einem Inventar druecken.", "", "&6Wofuer ist das wichtig?", "Schnelle Ordnung, besonders nach langen Abbau-Touren."]
+			id: "0117E82FFC94BBC7"
+			title: "Client Sort"
+			rewards: []
+			tasks: [{ id: "4A08849B66733D27", type: "checkmark" }]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Minikarte, Weltkarte und Wegpunkte.", "", "&6So gehts", "M Karte, N Wegpunkte.", "", "&6Wofuer ist das wichtig?", "Nie mehr verlaufen."]
+			id: "632520937276C1DE"
+			title: "Weltkarte (Xaeros)"
+			rewards: []
+			tasks: [{ id: "9B7B7EC791C6EED2", type: "checkmark" }]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Die Macaw-Mods bringen Moebel, Tueren, Falltueren, Daecher, Treppen und Gelaender, Bruecken und Lampen in allen Holzarten.", "", "&6So gehts", "Rezepte in JEI: suche mit @mcw.", "", "&6Wofuer ist das wichtig?", "Damit werden Haeuser und Basen viel schoener."]
+			id: "80745ACF93C63C36"
+			title: "Macaws Bauteile"
+			rewards: []
+			tasks: [{ id: "81D057CF72C8FD78", type: "checkmark" }]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Zeigt in JEI, auf welcher Hoehe Erze liegen und was in Dungeon-Truhen steckt.", "", "&6So gehts", "Druecke U auf einem Erz: Du siehst, auf welcher Hoehe es am haeufigsten liegt.", "Auch Dungeon-Truhen, Pflanzen und Handel der Dorfbewohner werden gezeigt.", "", "&6Wofuer ist das wichtig?", "So weisst du genau, wie tief du fuer Diamanten oder Zink graben musst."]
+			id: "A67F89E08D0C1C2D"
+			title: "Just Enough Resources"
+			rewards: []
+			tasks: [{ id: "1656C4F6D9E683D7", type: "checkmark" }]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Knoepfe am Crafting-Feld: Drehen, Verteilen, Leeren.", "", "&6So gehts", "Drehen, gleichmaessig verteilen oder das Feld leeren.", "", "&6Wofuer ist das wichtig?", "Spart viele Klicks beim Craften."]
+			id: "FBBA481C62CF330B"
+			title: "Crafting Tweaks"
+			rewards: []
+			tasks: [{ id: "85B1F112E844147C", type: "checkmark" }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Werkbank, Steinsaege, Schmiedetisch und mehr zum Mitnehmen.", "", "&6So gehts", "Herstellen und mit Rechtsklick in der Hand oeffnen.", "", "&6Wofuer ist das wichtig?", "Craften unterwegs, ohne etwas aufzustellen."]
+			id: "E1C69D6F27C890EC"
+			title: "Crafting on a Stick"
+			rewards: []
+			tasks: [{ id: "A3489764173B8563", type: "checkmark" }]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Vergleicht Ausruestung im Tooltip mit dem, was du traegst.", "", "&6So gehts", "Fahre ueber eine Waffe oder Ruestung und halte Shift.", "", "&6Wofuer ist das wichtig?", "Du siehst sofort, ob das neue Teil besser ist als dein aktuelles."]
+			id: "1E7809215A86CEC4"
+			title: "Equipment Compare"
+			rewards: []
+			tasks: [{ id: "44F9268042730A59", type: "checkmark" }]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Waffen und Werkzeuge aus der Hotbar werden am Koerper angezeigt.", "", "&6So gehts", "Taste V oeffnet die Einstellungen.", "", "&6Wofuer ist das wichtig?", "Sieht cool aus, besonders im Mehrspieler."]
+			id: "C5D00B314C7CC825"
+			title: "Weapon Master"
+			rewards: []
+			tasks: [{ id: "12C4E5E1F708E698", type: "checkmark" }]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du schlaegst durch Gras und Blumen hindurch.", "", "&6So gehts", "Einfach angreifen, das Gras bleibt stehen.", "", "&6Wofuer ist das wichtig?", "Kein versehentliches Abbauen im Kampf."]
+			id: "30D4B8A5EA0E5F23"
+			title: "Clean Swing"
+			rewards: []
+			tasks: [{ id: "200C4EA3A436F236", type: "checkmark" }]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neue Doerfer in vielen Biomen, Tuerme und Pluenderer-Aussenposten.", "", "&6So gehts", "Beim Erkunden findest du sie von selbst.", "", "&6Wofuer ist das wichtig?", "Mehr Handel und mehr Beute in der Welt."]
+			id: "A7B33EB5A633155C"
+			title: "Towns and Towers"
+			rewards: []
+			tasks: [{ id: "1996915F6D9B502D", type: "checkmark" }]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Viele kleine Bauten: Ruinen, Huetten, verlassene Lager.", "", "&6So gehts", "Beim Erkunden findest du sie von selbst.", "", "&6Wofuer ist das wichtig?", "Kleine Beutetruhen schon am Anfang."]
+			id: "822C0794A816B5C5"
+			title: "Structory"
+			rewards: []
+			tasks: [{ id: "9F0FA943889A171C", type: "checkmark" }]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Neue Tiere: Baeren, Rehe, Schlangen, Gluehwuermchen, Schmetterlinge, Alligatoren und mehr.", "", "&6So gehts", "Viele Tiere haben eigenes Verhalten. Baeren lieben Beeren, Schlangen sind giftig.", "", "&6Wofuer ist das wichtig?", "Mehr Leben in der Welt und neue Drops."]
+			id: "A414CF2548A54738"
+			title: "Naturalist"
+			rewards: []
+			tasks: [{ id: "3964C3F0A0574FEA", type: "checkmark" }]
+			x: 6.0d
+			y: 12.0d
+		}
+	]
+}

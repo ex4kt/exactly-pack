@@ -1,0 +1,1406 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "z02_eisenzeit"
+	icon: { id: "minecraft:iron_pickaxe" }
+	id: "80894C7C5EEBF2D9"
+	order_index: 1
+	quest_links: [ ]
+	title: "&fII. Eisenzeit"
+	quests: [
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen.", "", "&6So gehts", "Eisenerz schmelzen. Eisenspitzhacke: drei Eisenbarren, darunter die Steinspitzhacke und ein Stock.", "Fortschritt: Jede Stufe braucht das Werkzeug der vorherigen Stufe. Es ersetzt im Rezept den obersten Stock, direkt unter dem Kopf. JEI zeigt dir das genaue Rezept.", "", "&6Wofuer ist das wichtig?", "Erst mit einer Eisenspitzhacke kannst du Gold, Redstone und Diamanten abbauen."]
+			id: "06ABC2FF817AB74D"
+			title: "Eisenwerkzeuge"
+			rewards: [{ id: "F12B33DE8201E11B", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "9251BC769197FF1C", type: "item", item: { id: "minecraft:iron_pickaxe", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06ABC2FF817AB74D"]
+			description: ["&6Was ist das?", "Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten.", "", "&6So gehts", "Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Gegen Pfeile und Creeper."]
+			id: "0C6A9776F573027A"
+			title: "Schild"
+			rewards: [{ id: "CDAF7D0F632D3CF3", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "A820587316280F3D", type: "item", item: { id: "minecraft:shield", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C6A9776F573027A"]
+			description: ["&6Was ist das?", "Ein Messer ist das wichtigste Werkzeug. Damit schneidest du Zutaten, erntest Stroh und holst mehr aus Tieren.", "", "&6So gehts", "Baue ein Messer aus Eisen (oder Feuerstein, Gold, Diamant).", "Mit dem Messer erntest du Stroh von Gras und bekommst mehr Fleisch von Tieren.", "Fortschritt: Feuerstein-Messer, dann Eisen-Messer (braucht das Feuerstein-Messer), dann Diamant-Messer (braucht das Eisen-Messer).", "", "&6Wofuer ist das wichtig?", "Ohne Messer kannst du auf dem Schneidebrett kaum etwas schneiden. Stroh brauchst du fuer Leinwand und Reiche Erde."]
+			id: "730075A86BE3CD99"
+			title: "Messer"
+			rewards: [{ id: "36A771044701E156", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
+			tasks: [{ id: "AF8BA1AFDD055F8F", type: "item", item: { id: "farmersdelight:iron_knife", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["730075A86BE3CD99"]
+			description: ["&6Was ist das?", "Der Schmelzofen schmilzt Erze doppelt so schnell wie der normale Ofen.", "", "&6So gehts", "Ofen, fuenf Eisenbarren und drei glatter Stein.", "", "&6Wofuer ist das wichtig?", "Erze schneller verarbeiten. Spaeter uebernimmt Create das mit Brechrad und Geblaese."]
+			id: "3E7ABB28E4C6BBE5"
+			title: "Schmelzofen"
+			rewards: [{ id: "4DDBB2E54798C577", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A09C131CC92C5AE2", type: "item", item: { id: "minecraft:blast_furnace", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E7ABB28E4C6BBE5"]
+			description: ["&6Was ist das?", "Easy Anvils macht den Amboss fairer: Kosten sind niedriger, Teile bleiben drin.", "Mit ihm kannst du Verzauberungen kombinieren.", "", "&6So gehts", "Item links, Buch oder zweites Item rechts.", "Mit Easy Anvils gibt es keine Zu-teuer-Grenze.", "", "&6Wofuer ist das wichtig?", "So bekommst du genau die Verzauberungen, die du willst."]
+			id: "9C28745A2D3E9492"
+			title: "Der Amboss"
+			rewards: [{ id: "A366BEA0882E3F12", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "EE474213BFCF7E60", type: "item", item: { id: "minecraft:anvil", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06ABC2FF817AB74D"]
+			description: ["&6Was ist das?", "Just Hammers: Eisenhammer, baut 3x3 ab und haelt laenger.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Mit dem Verstaerkten Hammer und dem Aufprall-Hammer geht es noch groesser."]
+			icon: { id: "justhammers:iron_hammer" }
+			id: "CD02ADFB171393DA"
+			title: "Eisenhammer"
+			rewards: [{ id: "98238F0E1C0653FC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "34AAC71C65266530", type: "item", item: { id: "justhammers:iron_hammer", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["CD02ADFB171393DA"]
+			description: ["&6Was ist das?", "Ein Hammer mit mehr Haltbarkeit.", "", "&6So gehts", "Hammer und Verstaerkungskern im Rezept, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Haelt viel laenger beim grossen Abbau."]
+			icon: { id: "justhammers:iron_reinforced_hammer" }
+			id: "C8A0A11F8D8E83FA"
+			title: "Verstaerkter Hammer"
+			rewards: [{ id: "EB440EE44B906A73", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "79EDEB9A8DB10095", type: "item", item: { id: "justhammers:iron_reinforced_hammer", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["C8A0A11F8D8E83FA"]
+			description: ["&6Was ist das?", "Baut 5x5 Bloecke auf einmal ab.", "", "&6So gehts", "Hammer und Aufprallkern im Rezept, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Riesige Flaechen in Sekunden frei."]
+			icon: { id: "justhammers:iron_impact_hammer" }
+			id: "B9ADBCBCD66F220E"
+			title: "Aufprall-Hammer"
+			rewards: [{ id: "2B89EBC8A982194E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "55FC761EE7AB3EE0", type: "item", item: { id: "justhammers:iron_impact_hammer", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6A9776F573027A"]
+			description: ["&6Was ist das?", "Die erste starke Ruestung.", "", "&6So gehts", "Acht Eisenbarren fuer die Brustplatte, die anderen Teile nach JEI.", "", "&6Wofuer ist das wichtig?", "Viel mehr Schutz fuer Hoehlen und Dungeons."]
+			icon: { id: "minecraft:iron_chestplate" }
+			id: "F811A87BB09D403D"
+			title: "Eisenruestung"
+			rewards: [{ id: "D8DB1E4A972DDEC4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "58BA1CE7A6684315", type: "item", item: { id: "minecraft:iron_chestplate", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F811A87BB09D403D"]
+			description: ["&6Was ist das?", "Mit Eimern traegst du Wasser, Lava und Milch.", "", "&6So gehts", "Drei Eisenbarren in V-Form.", "", "&6Wofuer ist das wichtig?", "Wasser fuer Felder, Lava als Brennstoff, Milch gegen Gift."]
+			icon: { id: "minecraft:bucket" }
+			id: "867090F0CD34A1C6"
+			title: "Eimer"
+			rewards: [{ id: "8259C8D73009A0AB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3C5A33F5D1F74347", type: "item", item: { id: "minecraft:bucket", count: 1 }, count: 2L }]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["867090F0CD34A1C6"]
+			description: ["&6Was ist das?", "Schere fuer Wolle, Blaetter und Spinnweben.", "", "&6So gehts", "Zwei Eisenbarren schraeg.", "", "&6Wofuer ist das wichtig?", "Wolle ohne Schafe zu toeten, Blaetter als Deko."]
+			icon: { id: "minecraft:shears" }
+			id: "C9FF2D022E1A2E7C"
+			title: "Schere"
+			rewards: [{ id: "3A5A937BFE7326AC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A257E61987E0FD66", type: "item", item: { id: "minecraft:shears", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["C9FF2D022E1A2E7C"]
+			description: ["&6Was ist das?", "Feuerzeug aus Eisen und Feuerstein.", "", "&6So gehts", "Eisenbarren und Feuerstein.", "", "&6Wofuer ist das wichtig?", "Spaeter entzuendest du damit das Nether-Portal."]
+			icon: { id: "minecraft:flint_and_steel" }
+			id: "387CA05F814C5319"
+			title: "Feuerzeug"
+			rewards: [{ id: "AA60AF16A980FE72", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "73D2EC810B04AD86", type: "item", item: { id: "minecraft:flint_and_steel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["387CA05F814C5319"]
+			description: ["&6Was ist das?", "Der Kompass zeigt zum Weltspawn.", "", "&6So gehts", "Vier Eisenbarren um Redstone.", "", "&6Wofuer ist das wichtig?", "Zutat fuer Karten und den Bergungskompass."]
+			icon: { id: "minecraft:compass" }
+			id: "330A13BA55DAE4DE"
+			title: "Kompass"
+			rewards: [{ id: "50970A1726843812", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C18BF37614AE2201", type: "item", item: { id: "minecraft:compass", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06ABC2FF817AB74D"]
+			description: ["&6Was ist das?", "Unter Ebene 0 beginnt Tiefenschiefer. Hier sind Diamanten und Redstone haeufiger.", "", "&6So gehts", "Mit Spitzhacke abbauen, dauert laenger.", "", "&6Wofuer ist das wichtig?", "In dieser Tiefe liegen die meisten Diamanten."]
+			id: "5611A0BC4F6094DF"
+			title: "Tiefenschiefer"
+			rewards: [{ id: "89C4E40E11570CD6", type: "item", item: { id: "minecraft:torch", count: 32 } }]
+			tasks: [{ id: "22871B8A501E78F3", type: "item", item: { id: "minecraft:cobbled_deepslate", count: 1 }, count: 32L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5611A0BC4F6094DF"]
+			description: ["&6Was ist das?", "Redstone liegt tief unten. Du brauchst ihn fuer Maschinen und Schaltungen.", "", "&6So gehts", "Mit Eisenspitzhacke tief unten abbauen.", "", "&6Wofuer ist das wichtig?", "Schalter, Kolben, Maschinen. Viele Mod-Rezepte und Create brauchen Redstone."]
+			id: "D77EDDBFCD652B04"
+			title: "Redstone"
+			rewards: [{ id: "7460E19E196051A9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7B0B4A5B0441C97A", type: "item", item: { id: "minecraft:redstone", count: 1 }, count: 32L }]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["D77EDDBFCD652B04"]
+			description: ["&6Was ist das?", "Amethyst waechst in Amethystgeoden unter der Erde.", "", "&6So gehts", "Abgebrochene Kristalle aufsammeln.", "", "&6Wofuer ist das wichtig?", "Fernrohr, getoentes Glas und einige Mod-Rezepte."]
+			id: "456E1FF38461CB11"
+			title: "Amethyst"
+			rewards: [{ id: "2173BABD0A03DDE2", type: "item", item: { id: "minecraft:glass", count: 8 } }]
+			tasks: [{ id: "AE3799E351452246", type: "item", item: { id: "minecraft:amethyst_shard", count: 1 }, count: 8L }]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["456E1FF38461CB11"]
+			description: ["&6Was ist das?", "Smaragdsterz gibt es nur in Bergen. Damit handelst du mit Dorfbewohnern.", "", "&6So gehts", "Selten in Bergbiomen oder durch Handel.", "", "&6Wofuer ist das wichtig?", "Mit Smaragden kaufst du Verzauberungsbuecher und Ausruestung."]
+			id: "7EC7DE08B14CA598"
+			title: "Smaragd"
+			rewards: [{ id: "79FA1E8F367F9A57", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DA18D7B61C32ED27", type: "item", item: { id: "minecraft:emerald", count: 1 }, count: 4L }]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EC7DE08B14CA598"]
+			description: ["&6Was ist das?", "Diamanten liegen tief unter der Erde, ab Ebene -50. Du brauchst eine Eisenspitzhacke.", "", "&6So gehts", "Gehe tief hinunter, um Ebene minus 58. Mit Eisenspitzhacke abbauen.", "Glueck auf der Spitzhacke gibt mehr Diamanten pro Erz.", "", "&6Wofuer ist das wichtig?", "Diamantwerkzeug baut Obsidian ab, damit geht es in den Nether. Auch Verzauberungstisch und viele Mod-Rezepte brauchen Diamanten."]
+			id: "F2C3EEDE74697921"
+			title: "Diamanten"
+			rewards: [{ id: "D3E128110CD0AF28", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "E7DCCEBF74C3D55A", type: "item", item: { id: "minecraft:diamond", count: 1 }, count: 5L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["D77EDDBFCD652B04"]
+			description: ["&6Was ist das?", "Verstaerker verlaengern Redstone-Signale.", "", "&6So gehts", "Steine, Fackeln aus Redstone und Redstone.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer jede Redstone-Schaltung."]
+			icon: { id: "minecraft:repeater" }
+			id: "C4D4E9754D30A292"
+			title: "Komparator und Verstaerker"
+			rewards: [{ id: "469C639470BCFD64", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "95E432034C548A4B", type: "item", item: { id: "minecraft:repeater", count: 1 }, count: 4L }]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C4D4E9754D30A292"]
+			description: ["&6Was ist das?", "Kolben schieben Bloecke.", "", "&6So gehts", "Bretter, Bruchstein, Eisen und Redstone.", "", "&6Wofuer ist das wichtig?", "Tueren, Farmen und Maschinen."]
+			icon: { id: "minecraft:piston" }
+			id: "AD2AFD381EF98712"
+			title: "Kolben"
+			rewards: [{ id: "E96A75AF95740A4B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B44D90D09141B055", type: "item", item: { id: "minecraft:piston", count: 1 }, count: 4L }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["AD2AFD381EF98712"]
+			description: ["&6Was ist das?", "Der Beobachter merkt, wenn sich ein Block aendert.", "", "&6So gehts", "Bruchstein, Redstone und Quarz. Quarz gibt es erst im Nether, also spaeter nachholen.", "", "&6Wofuer ist das wichtig?", "Automatische Farmen fuer Zuckerrohr und Kuerbisse."]
+			icon: { id: "minecraft:observer" }
+			id: "F30574A6B6E0BD34"
+			title: "Beobachter"
+			rewards: [{ id: "125A8F869534890E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "845765523A4CEC9B", type: "item", item: { id: "minecraft:observer", count: 1 }, count: 2L }]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["F30574A6B6E0BD34"]
+			description: ["&6Was ist das?", "Eine Lampe, die mit Redstone an und aus geht.", "", "&6So gehts", "Glowstone und Redstone.", "", "&6Wofuer ist das wichtig?", "Schalter, Anzeigen und Deko."]
+			icon: { id: "minecraft:redstone_lamp" }
+			id: "A3E9782E143F9ECD"
+			title: "Redstone-Lampe"
+			rewards: [{ id: "BC2D5928BFD1109A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D997BDE8437D1E0D", type: "item", item: { id: "minecraft:redstone_lamp", count: 1 }, count: 4L }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A3E9782E143F9ECD"]
+			description: ["&6Was ist das?", "Trichter schieben Items in Kisten.", "", "&6So gehts", "Fuenf Eisenbarren um eine Kiste.", "", "&6Wofuer ist das wichtig?", "Erste Automatisierung: Oefen automatisch befuellen."]
+			icon: { id: "minecraft:hopper" }
+			id: "C11724A53BF8F2D3"
+			title: "Trichter"
+			rewards: [{ id: "96AE4F210088B339", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4E884D763FE65347", type: "item", item: { id: "minecraft:hopper", count: 1 }, count: 2L }]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["C11724A53BF8F2D3"]
+			description: ["&6Was ist das?", "Schienen und Loren fuer schnellen Transport.", "", "&6So gehts", "Eisen und Stoecke ergeben Schienen, Antriebsschienen brauchen Gold und Redstone.", "", "&6Wofuer ist das wichtig?", "Verbinde Basis und Mine. Spaeter kommen die Zuege von Create."]
+			icon: { id: "minecraft:rail" }
+			id: "BAE587A612321ACC"
+			title: "Loren und Schienen"
+			rewards: [{ id: "20BDE3D4C6834EA0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2794A8D89341CA2E", type: "item", item: { id: "minecraft:rail", count: 1 }, count: 32L }]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Mit der Leine fuehrst du Tiere.", "", "&6So gehts", "Faden und ein Schleimball.", "", "&6Wofuer ist das wichtig?", "Tiere zur Farm bringen."]
+			icon: { id: "minecraft:lead" }
+			id: "913ACB26895B99FE"
+			title: "Leine"
+			rewards: [{ id: "A2DB7D45CAD27337", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "AC3CFCA8CF883D00", type: "item", item: { id: "minecraft:lead", count: 1 }, count: 2L }]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["913ACB26895B99FE"]
+			description: ["&6Was ist das?", "Kerzen aus Honigwaben.", "", "&6So gehts", "Faden ueber einer Honigwabe.", "", "&6Wofuer ist das wichtig?", "Gemuetliches Licht, auch auf Kuchen."]
+			icon: { id: "minecraft:candle" }
+			id: "7F4FF7546A6F0849"
+			title: "Kerzen"
+			rewards: [{ id: "0A1DFBDD8EF5E718", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "51AB78C8C007B009", type: "item", item: { id: "minecraft:candle", count: 1 }, count: 8L }]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7F4FF7546A6F0849"]
+			description: ["&6Was ist das?", "More Villagers: neue Berufe fuer Dorfbewohner.", "", "&6So gehts", "Stelle einen Arbeitsblock wie den Holzbearbeitungstisch ins Dorf. Ein Dorfbewohner ohne Beruf nimmt ihn an.", "", "&6Wofuer ist das wichtig?", "Neue Handelsangebote mit Holz, Erzen und Pflanzen."]
+			icon: { id: "morevillagers:woodworking_table" }
+			id: "F2FEF37F77CF1FD7"
+			title: "Dorfberufe"
+			rewards: [{ id: "931C267A4D288794", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B121349265E7DDAB", type: "item", item: { id: "morevillagers:woodworking_table", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["F2FEF37F77CF1FD7"]
+			description: ["&6Was ist das?", "More Villagers: Der Bergmann handelt mit Erzen.", "", "&6So gehts", "Die Bergbau-Bank aufstellen.", "", "&6Wofuer ist das wichtig?", "Erze gegen Smaragde tauschen."]
+			icon: { id: "morevillagers:mining_bench" }
+			id: "24B25DD1BE315360"
+			title: "Bergmann im Dorf"
+			rewards: [{ id: "34BB556498D611AE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E7B9EE6C0E7AC6FB", type: "item", item: { id: "morevillagers:mining_bench", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["24B25DD1BE315360"]
+			description: ["&6Was ist das?", "More Villagers: Der Gaertner handelt mit Pflanzen.", "", "&6So gehts", "Den Gartentisch aufstellen.", "", "&6Wofuer ist das wichtig?", "Seltene Samen und Blumen kaufen."]
+			icon: { id: "morevillagers:gardening_table" }
+			id: "4CC791F37478A527"
+			title: "Gaertner im Dorf"
+			rewards: [{ id: "D743BDF917F51FAF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CA8510DAD5B3ECDE", type: "item", item: { id: "morevillagers:gardening_table", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Oh The Biomes We Have Gone: ueber 80 neue Biome mit eigenen Baeumen.", "", "&6So gehts", "Suche mit dem Naturkompass ein neues Biom, zum Beispiel eine Savanne mit Baobabs.", "", "&6Wofuer ist das wichtig?", "Neue Holzarten und Pflanzen fuer schoene Bauten."]
+			icon: { id: "biomeswevegone:baobab_log" }
+			id: "DECBC2314D20F5A4"
+			title: "Neue Biome"
+			rewards: [{ id: "44491904136C840D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3489A713C6C0B4DE", type: "item", item: { id: "biomeswevegone:baobab_log", count: 1 }, count: 8L }]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["DECBC2314D20F5A4"]
+			description: ["&6Was ist das?", "BWG: Ebenholz ist fast schwarz.", "", "&6So gehts", "In Ebenholz-Waeldern faellen.", "", "&6Wofuer ist das wichtig?", "Edles, dunkles Holz."]
+			icon: { id: "biomeswevegone:ebony_log" }
+			id: "1CA526E157A15466"
+			title: "Ebenholz"
+			rewards: [{ id: "31E09329337715A7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "60D8459732DDA7C6", type: "item", item: { id: "biomeswevegone:ebony_log", count: 1 }, count: 8L }]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1CA526E157A15466"]
+			description: ["&6Was ist das?", "BWG: Mahagoni aus dem Regenwald.", "", "&6So gehts", "Im Mahagoni-Regenwald faellen.", "", "&6Wofuer ist das wichtig?", "Warmes, rotes Holz."]
+			icon: { id: "biomeswevegone:mahogany_log" }
+			id: "CC466A328B2BFF42"
+			title: "Mahagoni"
+			rewards: [{ id: "7F876F32E440D26D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6FAB65AEBD6EC3AA", type: "item", item: { id: "biomeswevegone:mahogany_log", count: 1 }, count: 8L }]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["CC466A328B2BFF42"]
+			description: ["&6Was ist das?", "BWG: Leuchtende Baeume im verzauberten Wald.", "", "&6So gehts", "Den verzauberten Wald finden.", "", "&6Wofuer ist das wichtig?", "Magisches Holz fuer besondere Bauten."]
+			icon: { id: "biomeswevegone:blue_enchanted_log" }
+			id: "A36EBD470B6482B0"
+			title: "Verzauberter Wald"
+			rewards: [{ id: "9DF1D317C7D20A18", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "756AD0FE6F5CD3C0", type: "item", item: { id: "biomeswevegone:blue_enchanted_log", count: 1 }, count: 8L }]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["A36EBD470B6482B0"]
+			description: ["&6Was ist das?", "Wetland Whimsy: neue Suempfe mit Zypressen.", "", "&6So gehts", "Im Sumpf faellen.", "", "&6Wofuer ist das wichtig?", "Neues Holz und Sumpf-Abenteuer."]
+			icon: { id: "wetland_whimsy:bald_cypress_log" }
+			id: "6B4314E787C73225"
+			title: "Sumpfzypresse"
+			rewards: [{ id: "747025043EE53DEB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6867C0C60916965A", type: "item", item: { id: "wetland_whimsy:bald_cypress_log", count: 1 }, count: 8L }]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B4314E787C73225"]
+			description: ["&6Was ist das?", "Wetland Whimsy: Flusskrebse leben in Suempfen.", "", "&6So gehts", "Fangen und braten.", "", "&6Wofuer ist das wichtig?", "Zutat fuer Gumbo."]
+			icon: { id: "wetland_whimsy:cooked_crawfish" }
+			id: "3762E8AE7D5A3EA6"
+			title: "Flusskrebse"
+			rewards: [{ id: "22AB3061723D1723", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EC55C53909032AD5", type: "item", item: { id: "wetland_whimsy:cooked_crawfish", count: 1 }, count: 4L }]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3762E8AE7D5A3EA6"]
+			description: ["&6Was ist das?", "Ein Eintopf aus dem Sumpf.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend."]
+			icon: { id: "wetland_whimsy:gumbo" }
+			id: "F253B1154F531D3E"
+			title: "Gumbo"
+			rewards: [{ id: "1831228E63EA1579", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B57C0FD21EF84C28", type: "item", item: { id: "wetland_whimsy:gumbo", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["F253B1154F531D3E"]
+			description: ["&6Was ist das?", "Wetland Whimsy: Muenzen aus alten Ruinen.", "", "&6So gehts", "In Sumpf-Ruinen finden.", "", "&6Wofuer ist das wichtig?", "Wertvolle Tauschware."]
+			icon: { id: "wetland_whimsy:ancient_coin" }
+			id: "9010B92E15B3E339"
+			title: "Antike Muenzen"
+			rewards: [{ id: "FBC83109C96C121C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7D8C315247A50DDA", type: "item", item: { id: "wetland_whimsy:ancient_coin", count: 1 }, count: 4L }]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "Schritt 1: Baue ein Storage Terminal.", "Schritt 2: Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Schritt 3: Oeffne das Terminal und suche oben nach Items.", "", "&6So gehts", "Stelle das Terminal (Storage Terminal) neben eine Kiste oder verbinde es mit Kabeln.", "Oeffne es, suche oben nach Namen und nimm heraus, was du brauchst.", "", "&6Wofuer ist das wichtig?", "Statt zwanzig Kisten zu durchsuchen, hast du ein Suchfenster fuer alles. Das Herz deiner Basis."]
+			id: "D681DEA261DE27D9"
+			title: "Tom Storage: Terminal"
+			rewards: [{ id: "607C5F7E58CB4B4A", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "C2FFC04CC4B9240F", type: "item", item: { id: "toms_storage:storage_terminal", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["D681DEA261DE27D9"]
+			description: ["&6Was ist das?", "Der Inventory Connector verbindet eine Kiste mit dem Netz.", "Das Inventory Cable zieht die Verbindung weiter.", "", "&6So gehts", "Lege Kabel von Kiste zu Kiste und zum Terminal.", "Alle Kisten am Kabel erscheinen im Terminal.", "", "&6Wofuer ist das wichtig?", "So waechst dein Lager mit: Einfach neue Kisten ans Kabel haengen."]
+			id: "A712DAA506255D71"
+			title: "Verbindungen"
+			rewards: [{ id: "1B89C38DB0934870", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "29434E90730DD2D4", type: "item", item: { id: "toms_storage:inventory_connector", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["A712DAA506255D71"]
+			description: ["&6Was ist das?", "Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten.", "", "&6So gehts", "Wie das normale Terminal anschliessen.", "Craftest du etwas, holt es die Zutaten direkt aus dem Lager. Mit JEI klickst du ein Rezept einfach hinein.", "", "&6Wofuer ist das wichtig?", "Der bequemste Ort zum Craften im ganzen Pack."]
+			id: "BC6A511A5F9AB3B9"
+			title: "Crafting Terminal"
+			rewards: [{ id: "B8A92BDF078356CE", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "F169FDB77651F913", type: "item", item: { id: "toms_storage:crafting_terminal", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Ein Rucksack passt in dein Inventar und hat viele Plaetze.", "Schritt 1: Baue einen Rucksack.", "Schritt 2: Oeffne ihn mit der Taste B oder per Rechtsklick.", "Schritt 3: Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet).", "", "&6So gehts", "Herstellen und auf den Ruecken legen oder in der Hand halten.", "Taste B oeffnet ihn, auch wenn er auf dem Ruecken ist.", "Shift-Rechtsklick auf den Boden stellt ihn ab.", "", "&6Wofuer ist das wichtig?", "Der Rucksack ist dein bester Begleiter auf Abenteuern. In den naechsten Quests lernst du die wichtigsten Upgrades."]
+			id: "819711C2B216C5C9"
+			title: "Rucksack"
+			rewards: [{ id: "974FF0FE1984ACF9", type: "item", item: { id: "minecraft:leather", count: 4 } }]
+			tasks: [{ id: "A65FC4873681880A", type: "item", item: { id: "sophisticatedbackpacks:backpack", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["819711C2B216C5C9"]
+			description: ["&6Was ist das?", "Rucksaecke kannst du verbessern: Kupfer, Eisen, Gold, Diamant, Netherit. Jede Stufe hat mehr Plaetze und Upgrade-Slots.", "Lege den Rucksack mit Material in die Werkbank.", "", "&6So gehts", "Lege den Rucksack mit dem neuen Material in die Werkbank. Inhalt und Upgrades bleiben erhalten.", "", "&6Wofuer ist das wichtig?", "Jede Stufe bringt mehr Plaetze und mehr Upgrade-Slots."]
+			id: "9C26024957CD10AC"
+			title: "Rucksack-Stufen"
+			rewards: [{ id: "E94E5184976A8ECF", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "222694FD53B82210", type: "item", item: { id: "sophisticatedbackpacks:iron_backpack", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["9C26024957CD10AC"]
+			description: ["&6Was ist das?", "Das Pickup-Upgrade sammelt aufgehobene Items direkt in den Rucksack.", "", "&6So gehts", "Upgrade in einen Upgrade-Slot des Rucksacks legen.", "Mit Filter einstellen, was gesammelt wird, z.B. nur Erze.", "", "&6Wofuer ist das wichtig?", "Beim Abbauen landen Erze direkt im Rucksack, nicht im vollen Inventar."]
+			id: "A8D340FAF4F3FBD0"
+			title: "Einsammel-Upgrade"
+			rewards: [{ id: "00C5DF41ADC2E457", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C6C552B9EF5A7D9E", type: "item", item: { id: "sophisticatedbackpacks:pickup_upgrade", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["A8D340FAF4F3FBD0"]
+			description: ["&6Was ist das?", "Das Magnet-Upgrade zieht Items und Erfahrung in deiner Naehe an.", "", "&6So gehts", "Upgrade in den Rucksack legen.", "", "&6Wofuer ist das wichtig?", "Nie wieder Items im Lavasee oder hinter Monstern liegen lassen."]
+			id: "2F0F0595DF1A4F1B"
+			title: "Magnet-Upgrade"
+			rewards: [{ id: "E797262C2BA759B9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6BCB5CBBEB05BDCB", type: "item", item: { id: "sophisticatedbackpacks:magnet_upgrade", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2F0F0595DF1A4F1B"]
+			description: ["&6Was ist das?", "Das Stapel-Upgrade erhoeht, wie viele Items in einen Platz passen.", "", "&6So gehts", "Upgrade in den Rucksack legen. Hoehere Stufen verdoppeln mehrfach.", "", "&6Wofuer ist das wichtig?", "Aus einem kleinen Rucksack wird ein riesiges Lager."]
+			id: "85B38959D87C319A"
+			title: "Stapel-Upgrade"
+			rewards: [{ id: "0146BE408F9A1355", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "AE3C1E845071EF6D", type: "item", item: { id: "sophisticatedbackpacks:stack_upgrade_tier_1", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["85B38959D87C319A"]
+			description: ["&6Was ist das?", "Mit dem Crafting-Upgrade hast du immer eine Werkbank dabei.", "", "&6So gehts", "Upgrade einsetzen, dann erscheint ein Werkbank-Tab im Rucksack.", "", "&6Wofuer ist das wichtig?", "Unterwegs craften, ohne eine Werkbank aufzustellen."]
+			id: "9CA1FAB5F754F450"
+			title: "Werkbank im Rucksack"
+			rewards: [{ id: "5D6444EB93324E21", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "07BC909FE522F0E3", type: "item", item: { id: "sophisticatedbackpacks:crafting_upgrade", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["9CA1FAB5F754F450"]
+			description: ["&6Was ist das?", "Ein Ofen im Rucksack, der auch beim Laufen schmilzt.", "", "&6So gehts", "Upgrade einsetzen, Erz und Brennstoff hinein.", "", "&6Wofuer ist das wichtig?", "Rohes Erz wird unterwegs zu Barren, du sparst Zeit."]
+			id: "23B9F979A728EC1C"
+			title: "Ofen im Rucksack"
+			rewards: [{ id: "0654D10C8F25D6B0", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "A217393F8475B218", type: "item", item: { id: "sophisticatedbackpacks:smelting_upgrade", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["23B9F979A728EC1C"]
+			description: ["&6Was ist das?", "Das Refill-Upgrade fuellt deine Hotbar automatisch nach, z.B. Fackeln oder Bloecke.", "", "&6So gehts", "Upgrade einsetzen und die Items im Filter waehlen, z.B. Fackeln oder Essen.", "", "&6Wofuer ist das wichtig?", "Du hast nie wieder leere Fackeln mitten in der Hoehle."]
+			id: "56184FBD96403098"
+			title: "Nachfuellen"
+			rewards: [{ id: "2B1E9E3915E36D21", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "217DE6FBA6B0C807", type: "item", item: { id: "sophisticatedbackpacks:refill_upgrade", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["56184FBD96403098"]
+			description: ["&6Was ist das?", "Das Werkzeugtausch-Upgrade waehlt automatisch das richtige Werkzeug fuer den Block.", "", "&6So gehts", "Upgrade einsetzen, Werkzeuge in den Rucksack legen.", "", "&6Wofuer ist das wichtig?", "Spitzhacke, Axt, Schaufel wechseln sich von selbst."]
+			id: "269F5FBF41678363"
+			title: "Werkzeugtausch"
+			rewards: [{ id: "FB324C64DEB98B5C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "973AB39A69A75FF0", type: "item", item: { id: "sophisticatedbackpacks:tool_swapper_upgrade", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Diese Kisten und Fass-Bloecke haben Upgrade-Plaetze.", "Du kannst sie mit Upgrades (z.B. Einsaugen, Sortieren) erweitern und farbig gestalten.", "", "&6So gehts", "Baue eine Holzkiste aus Sophisticated Storage.", "Spaeter mit Stufen-Upgrades zu Kupfer, Eisen, Gold, Diamant, Netherit verbessern, ohne sie auszuraeumen.", "", "&6Wofuer ist das wichtig?", "Jede Stufe hat mehr Plaetze. Upgrades wie Sortieren, Einsammeln oder Kompression machen sie schlau."]
+			id: "59E93DB37E085659"
+			title: "Sophisticated Storage"
+			rewards: [{ id: "F57BEEE437884720", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CFDCB3540125E6D1", type: "item", item: { id: "sophisticatedstorage:chest", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["59E93DB37E085659"]
+			description: ["&6Was ist das?", "Sophisticated Storage Kisten lassen sich mit Stufen-Upgrades verbessern, ohne sie auszuraeumen.", "", "&6So gehts", "Mit Stufen-Upgrade aus einer Holzkiste machen.", "", "&6Wofuer ist das wichtig?", "Mehr Platz auf gleicher Flaeche."]
+			id: "D9572265A1328446"
+			title: "Eisenkiste"
+			rewards: [{ id: "A93A7A23DA368E62", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4D3B8ABA040D4701", type: "item", item: { id: "sophisticatedstorage:iron_chest", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["D9572265A1328446"]
+			description: ["&6Was ist das?", "Mit dem Stufen-Upgrade machst du aus einer Holzkiste eine Eisenkiste, mit Inhalt.", "", "&6So gehts", "Rechtsklick mit dem Upgrade auf die aufgestellte Kiste.", "", "&6Wofuer ist das wichtig?", "Kein Ausraeumen noetig, die Kiste waechst mit."]
+			id: "F1AA2045A677F2AD"
+			title: "Stufen-Upgrade"
+			rewards: [{ id: "DB2EC739AFDE7521", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5DB6879A2AA5FF89", type: "item", item: { id: "sophisticatedstorage:basic_to_iron_tier_upgrade", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["F1AA2045A677F2AD"]
+			description: ["&6Was ist das?", "Das begrenzte Fass (Limited Barrel) speichert viele Stapel weniger Item-Sorten. Gut fuer Massen.", "", "&6So gehts", "Rechtsklick mit einem Item legt es hinein, Linksklick nimmt heraus.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer Massenware wie Stein, Erde oder Weizen."]
+			id: "CC9EEF0328E298A3"
+			title: "Schubladen-Fass"
+			rewards: [{ id: "1A8CC75D92B89B3D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EE86B992088D0D4E", type: "item", item: { id: "sophisticatedstorage:limited_barrel_1", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["CC9EEF0328E298A3"]
+			description: ["&6Was ist das?", "Der Controller verbindet alle Sophisticated-Kisten in der Naehe. Items wandern automatisch in die passende Kiste.", "", "&6So gehts", "Controller aufstellen und Kisten direkt daneben oder mit Lager-Verbindungen anschliessen.", "", "&6Wofuer ist das wichtig?", "Ein Controller nimmt Items und verteilt sie auf die richtigen Kisten."]
+			id: "9A94CA7D5FCCAE67"
+			title: "Lager-Controller"
+			rewards: [{ id: "BFCDC5578AD9D085", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
+			tasks: [{ id: "886072D42FE3F68D", type: "item", item: { id: "sophisticatedstorage:controller", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["9A94CA7D5FCCAE67"]
+			description: ["&6Was ist das?", "Storage Link und Connector erweitern die Reichweite des Controllers.", "", "&6So gehts", "Zwischen Kisten und Controller setzen.", "", "&6Wofuer ist das wichtig?", "So wird dein Lager beliebig gross."]
+			id: "756BA580078912C2"
+			title: "Lager-Verbindung"
+			rewards: [{ id: "9EDAE6023E8C4461", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4B57737FC49C82D2", type: "item", item: { id: "sophisticatedstorage:storage_link", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["756BA580078912C2"]
+			description: ["&6Was ist das?", "Das Kompressions-Upgrade macht automatisch Bloecke aus Barren und Stuecken.", "", "&6So gehts", "In eine Sophisticated-Kiste einsetzen.", "", "&6Wofuer ist das wichtig?", "Spart enorm viel Platz bei Erzen."]
+			id: "B4E595115C9E2493"
+			title: "Kompressions-Upgrade"
+			rewards: [{ id: "DA0F2E7EA248BAA7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "69E410678D08B8F6", type: "item", item: { id: "sophisticatedstorage:compression_upgrade", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["B4E595115C9E2493"]
+			description: ["&6Was ist das?", "Mit Klebeband packst du eine volle Kiste ein und traegst sie mitsamt Inhalt weg.", "", "&6So gehts", "Rechtsklick auf eine Kiste, dann wird sie zum Item.", "", "&6Wofuer ist das wichtig?", "Umziehen ohne Ausraeumen."]
+			id: "26B32F8429342DB2"
+			title: "Klebeband"
+			rewards: [{ id: "F1FA46F7209ECDBD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E76F39188610586A", type: "item", item: { id: "sophisticatedstorage:packing_tape", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26B32F8429342DB2"]
+			description: ["&6Was ist das?", "Mit dem Pinsel faerbst du Kisten und Faesser ein.", "", "&6So gehts", "Farben in den Pinsel, dann Rechtsklick auf die Kiste.", "", "&6Wofuer ist das wichtig?", "Farbcodes helfen beim Sortieren: Rot fuer Erze, Gruen fuer Pflanzen."]
+			id: "3A0600E1446EB9DC"
+			title: "Pinsel"
+			rewards: [{ id: "CA99B0378ED2F2CB", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "28942F33877CC682", type: "item", item: { id: "sophisticatedstorage:paintbrush", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["3A0600E1446EB9DC"]
+			description: ["&6Was ist das?", "Die Nether-Truhe speichert pro Platz sehr viele Items eines Typs.", "Gut fuer Bruchstein, Erde und andere Massen.", "", "&6So gehts", "Wie eine Kiste benutzen.", "", "&6Wofuer ist das wichtig?", "Ideal fuer Massenware."]
+			id: "D47A68FCB9302CF7"
+			title: "Nether-Truhe"
+			rewards: [{ id: "6EED231976E2C3D6", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E2B71D5ADF885CBB", type: "item", item: { id: "netherchested:nether_chest", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Naehe.", "Du findest sie in Truhen oder kannst sie herstellen.", "", "&6So gehts", "Halte sie in der Hand und benutze sie (Rechtsklick).", "Waehle den Ziel-Waystone aus der Liste.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer Notfaelle in Dungeons oder wenn du dich verlaufen hast. Spaeter gibt es auch den Warpstein, der wiederverwendbar ist."]
+			id: "07B833318AFD8A88"
+			title: "Warp-Schriftrolle"
+			rewards: [{ id: "8E70101E296015ED", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B0744738E770B344", type: "item", item: { id: "waystones:warp_scroll", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["07B833318AFD8A88"]
+			description: ["&6Was ist das?", "Die Return Scroll bringt dich zum zuletzt benutzten Waystone zurueck.", "", "&6So gehts", "Benutzen, kurz warten.", "", "&6Wofuer ist das wichtig?", "Notausgang aus Dungeons."]
+			id: "C77E60BAA4A6DEE7"
+			title: "Rueckkehr-Schriftrolle"
+			rewards: [{ id: "31970A781C7B63CC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BB188B3A2ABFF776", type: "item", item: { id: "waystones:return_scroll", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["C77E60BAA4A6DEE7"]
+			description: ["&6Was ist das?", "Der Warpstein ist ein tragbarer Waystone. Er braucht Zeit zum Aufladen.", "", "&6So gehts", "Benutzen und Ziel waehlen. Er braucht danach eine Weile zum Aufladen.", "", "&6Wofuer ist das wichtig?", "Dein Teleporter fuer unterwegs."]
+			id: "5FD4E49A062C9230"
+			title: "Warpstein"
+			rewards: [{ id: "B5118D50497C373F", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
+			tasks: [{ id: "6A04023D48E9532D", type: "item", item: { id: "waystones:warp_stone", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5FD4E49A062C9230"]
+			description: ["&6Was ist das?", "Ein Sharestone verbindet alle Sharestones gleicher Farbe. Perfekt fuer die Gruppe.", "", "&6So gehts", "Zwei Teilsteine derselben Farbe aufstellen.", "", "&6Wofuer ist das wichtig?", "Eigene Reisenetze, z.B. nur zwischen deinen Farmen."]
+			id: "0A3B510FB0DE8C3A"
+			title: "Teilstein (Sharestone)"
+			rewards: [{ id: "8721312152B42146", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
+			tasks: [{ id: "A3EDE27FEB1CF2BB", type: "item", item: { id: "waystones:sharestone", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0A3B510FB0DE8C3A"]
+			description: ["&6Was ist das?", "Warp-Platten verbinden zwei Orte. Stelle dich darauf, um zu reisen.", "", "&6So gehts", "Zwei Platten aufstellen und mit einem Anhaenger verbinden.", "", "&6Wofuer ist das wichtig?", "Schnelle Verbindungen innerhalb grosser Basen."]
+			id: "B779C4A7DCD0EF18"
+			title: "Warp-Platte"
+			rewards: [{ id: "9AF11B4850F7A6AC", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "EF946351EB28CE2D", type: "item", item: { id: "waystones:warp_plate", count: 1 }, count: 2L }]
+			x: 8.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["B779C4A7DCD0EF18"]
+			description: ["&6Was ist das?", "Ein Portstone teleportiert dich zu einem bekannten Waystone, ohne selbst einer zu sein.", "", "&6So gehts", "Aufstellen und Ziel waehlen.", "", "&6Wofuer ist das wichtig?", "Bequem fuer feste Reisepunkte."]
+			id: "1953A324EE9E6A13"
+			title: "Portstone"
+			rewards: [{ id: "692982D2B0F63E67", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4FB6AD78F02DAD46", type: "item", item: { id: "waystones:portstone", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Reiche Erde (Rich Soil) laesst Pflanzen schneller wachsen und breitet sich auf Pilzen aus. Stelle sie mit Kompost her.", "", "&6So gehts", "Kompost aus Stroh, Erde und Pflanzenresten herstellen und verrotten lassen.", "Der Kompost wird mit der Zeit zu Reicher Erde.", "", "&6Wofuer ist das wichtig?", "Schnellere Felder und unendliche Pilze fuer Pilz-Gerichte."]
+			id: "2811AA4C0CD8301C"
+			title: "Reiche Erde"
+			rewards: [{ id: "84B4A3D2C78C30B2", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
+			tasks: [{ id: "7AFBDBE463CA65BE", type: "item", item: { id: "farmersdelight:rich_soil", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2811AA4C0CD8301C"]
+			description: ["&6Was ist das?", "Kuerbissuppe ist ein herzhafter Klassiker.", "", "&6So gehts", "Kuerbisscheiben (Schneidebrett), Milch und Gemuese in den Topf.", "", "&6Wofuer ist das wichtig?", "Gute Saettigung und Gemuetlich-Effekt."]
+			id: "E5DF70F753BEBC02"
+			title: "Kuerbissuppe"
+			rewards: [{ id: "93AE00BBF291294A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3AE11656B9BA2134", type: "item", item: { id: "farmersdelight:pumpkin_soup", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["E5DF70F753BEBC02"]
+			description: ["&6Was ist das?", "Gebratener Reis sattmacht und ist schnell zu kochen.", "", "&6So gehts", "Reis, Ei, Karotte und Zwiebel in den Topf.", "", "&6Wofuer ist das wichtig?", "Hohe Saettigung, ideal fuer Ausfluege."]
+			id: "B9D6D0D6593E690D"
+			title: "Gebratener Reis"
+			rewards: [{ id: "76A16082E21FD331", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DDE6638F8BE6E3D6", type: "item", item: { id: "farmersdelight:fried_rice", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["B9D6D0D6593E690D"]
+			description: ["&6Was ist das?", "Ein sattes Gericht mit viel Saettigung. Nudeln machst du aus Teig am Schneidebrett.", "", "&6So gehts", "Teig aus Weizen und Eiern, auf dem Schneidebrett zu Nudeln schneiden.", "Mit Hackfleisch und Tomatensauce im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Eines der staerksten Gerichte fuer lange Abenteuer."]
+			id: "CCF0D2C189B6E613"
+			title: "Nudeln mit Fleischbaellchen"
+			rewards: [{ id: "42ABF23D5C731825", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "51C42CE6BB6515CC", type: "item", item: { id: "farmersdelight:pasta_with_meatballs", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["CCF0D2C189B6E613"]
+			description: ["&6Was ist das?", "Gemuese-Eintopf mit guten Effekten.", "", "&6So gehts", "Tomate, Zwiebel, Rote Bete und Paprika in den Topf.", "", "&6Wofuer ist das wichtig?", "Gut fuer Vegetarier-Farmen ohne Tiere."]
+			id: "BACA2AEE869ED11B"
+			title: "Ratatouille"
+			rewards: [{ id: "55AA9822DFE65A42", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7D0D694A846AA209", type: "item", item: { id: "farmersdelight:ratatouille", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["BACA2AEE869ED11B"]
+			description: ["&6Was ist das?", "Fleischpatty und Brot ergeben einen Hamburger.", "", "&6So gehts", "Hackfleisch zu Patty braten, mit Brot, Kohl, Tomate und Zwiebel in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend, gut zum Mitnehmen."]
+			id: "3E1ECF59DCE3468F"
+			title: "Hamburger"
+			rewards: [{ id: "BEECE7BFBE07AE5D", type: "item", item: { id: "minecraft:cooked_beef", count: 4 } }]
+			tasks: [{ id: "80E44F5BEF3BC933", type: "item", item: { id: "farmersdelight:hamburger", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["3E1ECF59DCE3468F"]
+			description: ["&6Was ist das?", "Ein ganzes Festmahl fuer die Gruppe, zum Beispiel der Haehnchenbraten oder der Schinken. Jeder darf sich bedienen.", "", "&6So gehts", "Haehnchenbraten im Topf herstellen und aufstellen.", "Rechtsklick mit Schuessel nimmt eine Portion.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer die Gruppe: Ein Gericht fuer alle vor einem Bosskampf."]
+			id: "7F2BC6A2E1878E46"
+			title: "Festmahl: Braten"
+			rewards: [{ id: "CAA6C8404E96FE0F", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "F4294B460FC94664", type: "item", item: { id: "farmersdelight:roast_chicken_block", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7F2BC6A2E1878E46"]
+			description: ["&6Was ist das?", "Hirtenpastete ist ein Festmahl-Block aus Hackfleisch und Kartoffeln.", "", "&6So gehts", "Im Topf herstellen und aufstellen.", "", "&6Wofuer ist das wichtig?", "Viele Portionen fuer die Gruppe."]
+			id: "8F30426C53C6CA91"
+			title: "Hirtenpastete"
+			rewards: [{ id: "7BA04E17F1451E71", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A5B869F097BEB2A4", type: "item", item: { id: "farmersdelight:shepherds_pie_block", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["8F30426C53C6CA91"]
+			description: ["&6Was ist das?", "Die Kuechenschraenke sind huebsch und lagern Items. Gut fuer die Kueche.", "", "&6So gehts", "In allen Holzarten herstellbar.", "", "&6Wofuer ist das wichtig?", "Ordnung in der Kueche und schoene Deko."]
+			id: "EA6EF5FD3FFB7E0E"
+			title: "Schrank"
+			rewards: [{ id: "35E330BB43855AEB", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "ECFEBED2B9C4C552", type: "item", item: { id: "farmersdelight:oak_cabinet", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["EA6EF5FD3FFB7E0E"]
+			description: ["&6Was ist das?", "Hundefutter fuettert Woelfe und heilt sie gut.", "", "&6So gehts", "Im Topf herstellen und einem Wolf geben.", "", "&6Wofuer ist das wichtig?", "Heilt Woelfe voll und macht sie staerker. Gut fuer deine Begleiter."]
+			id: "87B437A486699353"
+			title: "Hundefutter"
+			rewards: [{ id: "B11CF4EE039757D1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F90E3C99E85A2CBA", type: "item", item: { id: "farmersdelight:dog_food", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["87B437A486699353"]
+			description: ["&6Was ist das?", "Autochefs Delight kocht mit Rezeptbuch fuer dich. Das ist praktisch, wenn viele Zutaten noetig sind.", "", "&6So gehts", "Stelle die Autochef-Geraete auf und gib ihnen ein Rezept.", "", "&6Wofuer ist das wichtig?", "Spart Klicks, wenn du viele Portionen fuer die Gruppe kochst."]
+			id: "769D856305D52B47"
+			title: "Hilfe von Autochef"
+			rewards: [{ id: "7EA382CBB2DF2137", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B05257F7C54AB198", type: "checkmark" }]
+			x: 12.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["2811AA4C0CD8301C"]
+			description: ["&6Was ist das?", "Die Mod erweitert Farmers Delight um Fermentation: Getraenke, Kaese, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach.", "", "&6So gehts", "Alles passiert im Fass (Keg). Erfolge (Taste L) zeigen dir die Schritte.", "", "&6Wofuer ist das wichtig?", "Getraenke geben starke Effekte wie Staerke oder Feuerresistenz, Kaese ist Zutat fuer viele Gerichte."]
+			id: "2EE4F5E60159E64F"
+			title: "Brewin and Chewin"
+			rewards: [{ id: "A1F7D9884963904A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B3F179542A0AF33F", type: "checkmark" }]
+			x: 2.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["2EE4F5E60159E64F"]
+			description: ["&6Was ist das?", "Im Fass gaeren Fluessigkeiten und Zutaten. Es braucht Zeit und die richtige Temperatur.", "", "&6So gehts", "Fass aufstellen, Fluessigkeit (z.B. Wasser) und Zutaten hineinlegen.", "Die Temperatur der Umgebung ist wichtig: Waerme oder Kaelte durch Bloecke in der Naehe.", "", "&6Wofuer ist das wichtig?", "Ohne Fass keine Getraenke und kein Kaese."]
+			id: "9C404362073DA41D"
+			title: "Das Fass (Keg)"
+			rewards: [{ id: "EE412C91B6CD22A1", type: "item", item: { id: "minecraft:barrel", count: 1 } }]
+			tasks: [{ id: "1DF7270E950E21B7", type: "item", item: { id: "brewinandchewin:keg", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["9C404362073DA41D"]
+			description: ["&6Was ist das?", "Der Humpen (Tankard) ist das Trinkgefaess fuer Bier, Met und mehr.", "", "&6So gehts", "In der Werkbank herstellen und ins Fass legen.", "", "&6Wofuer ist das wichtig?", "Jedes Getraenk wird in einen Humpen abgefuellt."]
+			id: "1F6A514282C7FD4A"
+			title: "Humpen"
+			rewards: [{ id: "DF4BC3743DBCA2B7", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "56924BC301D78963", type: "item", item: { id: "brewinandchewin:tankard", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["1F6A514282C7FD4A"]
+			description: ["&6Was ist das?", "Bier ist ein Klassiker. Weizen und Wasser gaeren im Fass.", "", "&6So gehts", "Weizen und Wasser im Fass gaeren lassen.", "", "&6Wofuer ist das wichtig?", "Gibt kurzzeitig mehr Widerstand gegen Rueckstoss."]
+			id: "1DC6642F8C3710BC"
+			title: "Bier"
+			rewards: [{ id: "F903DE52E4E7008D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "BE8C89221001E281", type: "item", item: { id: "brewinandchewin:beer", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["1DC6642F8C3710BC"]
+			description: ["&6Was ist das?", "Met aus Honig gibt Staerke und ist ein toller Trank fuer lange Reisen.", "", "&6So gehts", "Honig und Wasser im Fass.", "", "&6Wofuer ist das wichtig?", "Hilft bei langen Kaempfen."]
+			id: "F87FF9A782726F23"
+			title: "Met"
+			rewards: [{ id: "4AC1279C96D3AB20", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "56B90AB4C1AB2651", type: "item", item: { id: "brewinandchewin:mead", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["F87FF9A782726F23"]
+			description: ["&6Was ist das?", "Aus Milch wird im Fass Kaese. Er reift mit der Zeit zu verschiedenen Sorten.", "", "&6So gehts", "Milch im Fass zu unreifem Kaese, dann stehen lassen bis er reif ist.", "", "&6Wofuer ist das wichtig?", "Kaese brauchst du fuer Pizza, Fondue und viele Gerichte."]
+			id: "38CC7B6CC628EC08"
+			title: "Kaese"
+			rewards: [{ id: "ED2537BEDF0AC790", type: "item", item: { id: "minecraft:bread", count: 4 } }]
+			tasks: [{ id: "82B86F04EB7C4AF7", type: "item", item: { id: "brewinandchewin:flaxen_cheese_wheel", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["38CC7B6CC628EC08"]
+			description: ["&6Was ist das?", "Mit dem Fass legst du Gemuese ein: Kimchi, saure Gurken und mehr.", "", "&6So gehts", "Gemuese und Salz im Fass.", "", "&6Wofuer ist das wichtig?", "Lange haltbare Nahrung mit guten Effekten."]
+			id: "707755A835E4D089"
+			title: "Eingelegtes"
+			rewards: [{ id: "664D8DC07DA7E676", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E93FBDA59827FC8E", type: "item", item: { id: "brewinandchewin:kimchi", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["707755A835E4D089"]
+			description: ["&6Was ist das?", "Pizza ist ein toller Snack und gibt viel Saettigung.", "", "&6So gehts", "Teig, Tomatensauce, Kaese und Belag zusammensetzen.", "", "&6Wofuer ist das wichtig?", "Mehrere Stuecke fuer die ganze Gruppe."]
+			id: "A0483E442B29619B"
+			title: "Pizza"
+			rewards: [{ id: "62462C71D28E3273", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "27EA70C03DCB43E0", type: "item", item: { id: "brewinandchewin:pizza", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["A0483E442B29619B"]
+			description: ["&6Was ist das?", "Das Heizfass (Heating Cask) sorgt fuer hohe Temperatur im Keller, das Eisfass fuer Kaelte. Manche Rezepte brauchen das.", "", "&6So gehts", "Neben das Fass stellen.", "", "&6Wofuer ist das wichtig?", "Manche Getraenke gaeren nur warm oder nur kalt."]
+			id: "1EA67BDED492C1FC"
+			title: "Waermebehaelter"
+			rewards: [{ id: "EA0B2145FDD47ED0", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "0C48ED7694AB01B3", type: "item", item: { id: "brewinandchewin:heating_cask", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["1EA67BDED492C1FC"]
+			description: ["&6Was ist das?", "Wodka und andere starke Getraenke brauchen Zeit und die richtige Kaelte.", "", "&6So gehts", "Braucht Kaelte und lange Gaerzeit.", "", "&6Wofuer ist das wichtig?", "Sehr starke Effekte fuer Bosskaempfe."]
+			id: "E9EE8748B34A2111"
+			title: "Schnaps"
+			rewards: [{ id: "74F92B0E7F9003EB", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "69B8E529ADCE1C0C", type: "item", item: { id: "brewinandchewin:vodka", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["E9EE8748B34A2111"]
+			description: ["&6Was ist das?", "Das Fiery Fondue ist ein Festmahl am Tisch.", "", "&6So gehts", "Mit Kaese im Topf herstellen und aufstellen.", "", "&6Wofuer ist das wichtig?", "Gruppenessen mit guten Effekten."]
+			id: "B32E511F25BF4270"
+			title: "Kaesefondue"
+			rewards: [{ id: "D1C3E4DA8D0FC187", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "6A47524877044543", type: "item", item: { id: "brewinandchewin:fiery_fondue_pot", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 28.5d
+		}
+		{
+			dependencies: ["2811AA4C0CD8301C"]
+			description: ["&6Was ist das?", "Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Waechter.", "", "&6So gehts", "Fische, Tintenfische und Waechter fangen oder besiegen.", "", "&6Wofuer ist das wichtig?", "Gut fuer Inselbasen am Meer."]
+			id: "C6BD3B2A92B462CC"
+			title: "Meeresfruechte"
+			rewards: [{ id: "72833AC98ED390A2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "95FEB00351E8908B", type: "checkmark" }]
+			x: 2.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["C6BD3B2A92B462CC"]
+			description: ["&6Was ist das?", "Tintenfisch am Schneidebrett zerlegen und im Topf garen.", "", "&6So gehts", "Tentakel schneiden und braten.", "", "&6Wofuer ist das wichtig?", "Einfacher Snack aus dem Meer."]
+			id: "3869E07C7FB2C538"
+			title: "Tintenfischringe"
+			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3DCA2592E79CAAC1", type: "item", item: { id: "oceansdelight:squid_rings", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["3869E07C7FB2C538"]
+			description: ["&6Was ist das?", "Kabeljau mit Fuellung, ein Klassiker der Kueche.", "", "&6So gehts", "Im Topf oder Ofen herstellen.", "", "&6Wofuer ist das wichtig?", "Gutes Fischgericht."]
+			id: "B3EB63E008426D8F"
+			title: "Gefuellter Kabeljau"
+			rewards: [{ id: "1B1981D7ED1CFBF1", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6C4C3E91864B1FED", type: "item", item: { id: "oceansdelight:stuffed_cod", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["B3EB63E008426D8F"]
+			description: ["&6Was ist das?", "Ein leichter Salat aus dem Meer.", "", "&6So gehts", "Seegras sammeln und in der Werkbank mischen.", "", "&6Wofuer ist das wichtig?", "Schnelles Essen aus dem Meer."]
+			id: "9FCCCD2BFF53F0E4"
+			title: "Seegras-Salat"
+			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E46D50D3660D72D9", type: "item", item: { id: "oceansdelight:seagrass_salad", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["9FCCCD2BFF53F0E4"]
+			description: ["&6Was ist das?", "Seetang mit Honig, ein suesser Snack.", "", "&6So gehts", "In der Pfanne braten.", "", "&6Wofuer ist das wichtig?", "Suesser Snack."]
+			id: "F282405FA595B45A"
+			title: "Honig-Seetang"
+			rewards: [{ id: "0746F86E82E83768", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "72DD9080DD321FFB", type: "item", item: { id: "oceansdelight:honey_fried_kelp", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["F282405FA595B45A"]
+			description: ["&6Was ist das?", "Aus dem Waechter-Schwanz kocht man eine kraeftige Suppe.", "", "&6So gehts", "Waechter am Ozeanmonument besiegen, Schwanz im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Starkes Gericht als Belohnung fuer den Monument-Kampf."]
+			id: "6B8D86CE13C7DA1F"
+			title: "Waechtersuppe"
+			rewards: [{ id: "D1558BCFBF561FD6", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "43655F060B9DC92F", type: "item", item: { id: "oceansdelight:guardian_soup", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 30.5d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Ringe, Amulette und Umhaenge tragen sich in eigenen Slots.", "Schritt 1: Oeffne dein Inventar. Links siehst du Zubehoer-Slots.", "Schritt 2: Lege Zubehoer dort ein.", "", "&6So gehts", "Im Inventar oben den Zubehoer-Knopf.", "", "&6Wofuer ist das wichtig?", "Artifacts, Ringe und Magie-Items gehoeren hierher."]
+			id: "AF3456B99C263CFA"
+			title: "Zubehoer anlegen"
+			rewards: [{ id: "73D5E1CFFC603048", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B7B7CFA66A39F88E", type: "checkmark" }]
+			x: 2.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["AF3456B99C263CFA"]
+			description: ["&6Was ist das?", "Artifacts sind besondere Gegenstaende. Man kann sie nicht craften.", "Du findest sie in Truhen, unterirdischen Lagern und bei Mimics (Truhen-Monster).", "", "&6So gehts", "In Truhen in Hoehlen und Dungeons. Auch Mimics (lebende Truhen) haben welche.", "", "&6Wofuer ist das wichtig?", "Jedes Artefakt macht dich staerker oder schneller."]
+			id: "9AD370C859013D10"
+			title: "Artifacts finden"
+			rewards: [{ id: "62305E39AB709A26", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "03CC3EC638A8BDE5", type: "item", item: { id: "artifacts:mimic_spawn_egg", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["9AD370C859013D10"]
+			description: ["&6Was ist das?", "Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Einfach oeffnen.", "", "&6Wofuer ist das wichtig?", "Fair im Mehrspieler."]
+			id: "49BB01500F3B46A5"
+			title: "Lootr: Eigene Truhen"
+			rewards: [{ id: "D191C42102176CC8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5A9BCBB967267441", type: "checkmark" }]
+			x: 5.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["49BB01500F3B46A5"]
+			description: ["&6Was ist das?", "Dungeons Arise, Cataclysm, Yungs und mehr bauen viele Strukturen in die Welt.", "Nimm Brot und Fackeln mit und schau in jede Truhe.", "", "&6So gehts", "Erkunden und Beute sammeln.", "", "&6Wofuer ist das wichtig?", "Ausruestung, Artefakte und Bosse."]
+			id: "32D2DD893BEB596B"
+			title: "Dungeons entdecken"
+			rewards: [{ id: "0B0F9483A19C8003", type: "item", item: { id: "minecraft:bread", count: 8 } }]
+			tasks: [{ id: "AA0313CA7FA2A453", type: "checkmark" }]
+			x: 6.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["32D2DD893BEB596B"]
+			description: ["&6Was ist das?", "Dungeons Arise baut riesige Strukturen: Burgen, Tuerme, Schiffe. Finde eine und erkunde sie.", "", "&6So gehts", "Halte beim Reisen Ausschau nach grossen Bauten am Horizont oder auf der Karte.", "Nimm Fackeln, Essen, Bloecke und ein Bett mit, die Bauten sind gross und voller Gegner.", "Die beste Beute liegt meist ganz oben oder ganz unten.", "", "&6Wofuer ist das wichtig?", "Hier findest du Diamanten, verzauberte Ausruestung und Artefakte, bevor du dich an die grossen Bosse wagst."]
+			id: "B12913A85C38D03F"
+			title: "Dungeons Arise"
+			rewards: [{ id: "C3C086D006E5F10A", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
+			tasks: [{ id: "48E1FBA4759A7845", type: "checkmark" }]
+			x: 8.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["B12913A85C38D03F"]
+			description: ["&6Was ist das?", "Yungs Mods verbessern Minen, Dungeons, Festungen und Tempel. Erkunde eine Better Stronghold oder Better Mineshaft.", "", "&6So gehts", "Better Mineshafts findest du in Hoehlen, Better Strongholds mit Enderaugen.", "Achte auf Fallen in Wuestentempeln und Dschungeltempeln.", "", "&6Wofuer ist das wichtig?", "Die Festung (Stronghold) brauchst du fuer das Endportal. Minen haben Schienen, Kohle und Beute fuer den Anfang."]
+			id: "FBE10E3711853AA6"
+			title: "Yungs Bauten"
+			rewards: [{ id: "EB8CA88DAE09D456", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "E0E5612EB7996E95", type: "checkmark" }]
+			x: 9.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["FBE10E3711853AA6"]
+			description: ["&6Was ist das?", "Pluenderer-Aussenposten sind gefaehrlich. Besiege einen Pluenderer.", "", "&6So gehts", "Aussenposten erkennst du am grauen Turm. Toete den Anfuehrer mit Banner, dann bekommst du ein schlechtes Omen.", "", "&6Wofuer ist das wichtig?", "Ein Dorf-Ueberfall mit schlechtem Omen gibt den Totem der Unsterblichkeit und Smaragde."]
+			id: "8702404F75D090B2"
+			title: "Der Pluenderer"
+			rewards: [{ id: "63F207EFFC388F04", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			tasks: [{ id: "F8571C0296574BEB", type: "kill", entity: "minecraft:pillager", value: 5L, icon: { id: "minecraft:crossbow" } }]
+			x: 11.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["32D2DD893BEB596B"]
+			description: ["&6Was ist das?", "Underground Worlds: neue Tempel und Hoehlen, zum Beispiel Wuestenpyramiden, Dschungeltempel und Eishoehlen.", "", "&6So gehts", "Erkunde die Welt. Achte auf Treibsand in Wuestentempeln.", "", "&6Wofuer ist das wichtig?", "Dort warten eigene Waffen und Ruestungen."]
+			id: "7EBAB5BCEA8FB45B"
+			title: "Unterwelten"
+			rewards: [{ id: "BF8AC63EBF4A079D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "48E2D9A370DF925C", type: "checkmark" }]
+			x: 6.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["7EBAB5BCEA8FB45B"]
+			description: ["&6Was ist das?", "Underground Worlds: Ruestung aus Spinnenzaehnen.", "", "&6So gehts", "Spinnenzaehne sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Leichte Ruestung mit Spinnen-Faehigkeiten."]
+			icon: { id: "undergroundworlds:spider_chestplate" }
+			id: "2CF500BF7E9A12D1"
+			title: "Spinnenruestung"
+			rewards: [{ id: "13A27F3E507E502F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BCF6EA03D1CA0F0E", type: "item", item: { id: "undergroundworlds:spider_chestplate", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["2CF500BF7E9A12D1"]
+			description: ["&6Was ist das?", "Underground Worlds: Ein Schwert, das Gegner einfriert.", "", "&6So gehts", "In Eishoehlen finden oder herstellen.", "", "&6Wofuer ist das wichtig?", "Eingefrorene Gegner koennen nicht zurueckschlagen."]
+			icon: { id: "undergroundworlds:freezing_sword" }
+			id: "56D4E0A3C3398443"
+			title: "Frostschwert"
+			rewards: [{ id: "F68DD66B801E22EC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7F4D3FE0E5DA98DB", type: "item", item: { id: "undergroundworlds:freezing_sword", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 34.5d
+		}
+		{
+			dependencies: ["56D4E0A3C3398443"]
+			description: ["&6Was ist das?", "Underground Worlds: Beute aus dem Dschungeltempel.", "", "&6So gehts", "Den Dschungeltempel erkunden.", "", "&6Wofuer ist das wichtig?", "Eine starke Klinge fuer die Eisenzeit."]
+			icon: { id: "undergroundworlds:blade_of_the_jungle" }
+			id: "02ED16162C2DB0BC"
+			title: "Klinge des Dschungels"
+			rewards: [{ id: "2BFF75108842E0DB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FD30B3A14941294C", type: "item", item: { id: "undergroundworlds:blade_of_the_jungle", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 34.5d
+		}
+		{
+			dependencies: ["9AD370C859013D10"]
+			description: ["&6Was ist das?", "Artifacts: Der Glueckschal gibt dir Glueck beim Abbau.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Bessere Beute."]
+			id: "C69460C11B9CD272"
+			title: "Glueckschal"
+			rewards: [{ id: "E430F326D0777894", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E054A17804C42346", type: "item", item: { id: "artifacts:lucky_scarf", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["C69460C11B9CD272"]
+			description: ["&6Was ist das?", "Artifacts: Laufschuhe machen dich schneller beim Sprinten.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Schneller laufen."]
+			id: "A5AF400F4711DD7B"
+			title: "Laufschuhe"
+			rewards: [{ id: "5073D90BDF69A008", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "794BA2DAEA03920E", type: "item", item: { id: "artifacts:running_shoes", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["A5AF400F4711DD7B"]
+			description: ["&6Was ist das?", "Artifacts: Damit springst du doppelt.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Hoeher springen."]
+			id: "87C1BFCF5CB5C490"
+			title: "Wolke in der Flasche"
+			rewards: [{ id: "0827166D89EAB30E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A8C9E8CC79242FCB", type: "item", item: { id: "artifacts:cloud_in_a_bottle", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["87C1BFCF5CB5C490"]
+			description: ["&6Was ist das?", "Artifacts: Hoeher springen und kein Fallschaden bei kleinen Hoehen.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Kein Fallschaden."]
+			id: "50366C7C690FEB44"
+			title: "Hasenschuhe"
+			rewards: [{ id: "3B91D8641E159203", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9881560D3BC47B9E", type: "item", item: { id: "artifacts:bunny_hoppers", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["50366C7C690FEB44"]
+			description: ["&6Was ist das?", "Artifacts: Der Power Glove erhoeht deinen Schaden.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Staerker kaempfen."]
+			id: "3E45566A9BA84A3F"
+			title: "Kraft-Handschuh"
+			rewards: [{ id: "F06FAE0114F65A41", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "83A96A598446925C", type: "item", item: { id: "artifacts:power_glove", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["3E45566A9BA84A3F"]
+			description: ["&6Was ist das?", "Artifacts: Das Kristall-Herz gibt dir mehr Leben.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Ueberleben."]
+			id: "D1CDA15C00A2EC0A"
+			title: "Kristall-Herz"
+			rewards: [{ id: "9458C0993981BE4E", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A8B30F796F8940AF", type: "item", item: { id: "artifacts:crystal_heart", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["D1CDA15C00A2EC0A"]
+			description: ["&6Was ist das?", "Artifacts: Setzt Angreifer in Brand.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Gegenangriff."]
+			id: "871E04AF98CA1F7B"
+			title: "Flammen-Anhaenger"
+			rewards: [{ id: "A0D04B5AE10765D8", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "02B161B08D9A57D1", type: "item", item: { id: "artifacts:flame_pendant", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["871E04AF98CA1F7B"]
+			description: ["&6Was ist das?", "Artifacts: Der Regenschirm laesst dich langsam fallen und blockt.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Sicher landen."]
+			id: "602DE7918845B4BC"
+			title: "Regenschirm"
+			rewards: [{ id: "C77B0395D1241492", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "BA81598784FE7F3C", type: "item", item: { id: "artifacts:umbrella", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["602DE7918845B4BC"]
+			description: ["&6Was ist das?", "Artifacts: Zieht Items zu dir.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute."]
+			id: "A00D94F96D315AA1"
+			title: "Universal-Magnet"
+			rewards: [{ id: "D3BFE27813447454", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "F1EBEBB0768FB63F", type: "item", item: { id: "artifacts:universal_attractor", count: 1 }, count: 1L }]
+			x: 15.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["A00D94F96D315AA1"]
+			description: ["&6Was ist das?", "Artifacts: Schnorchel und Flossen fuer lange Tauchgaenge.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Besser tauchen."]
+			id: "8EBEA3B0DF57F435"
+			title: "Taucherbrille"
+			rewards: [{ id: "E26E9A4D96AB7793", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "ACF608E0B739B996", type: "item", item: { id: "artifacts:snorkel", count: 1 }, count: 1L }]
+			x: 15.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["8EBEA3B0DF57F435"]
+			description: ["&6Was ist das?", "Artifacts: Die Nachtsicht-Brille macht Hoehlen hell. Du findest sie in Truhen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Hoehlen ohne Fackeln erkunden."]
+			id: "CF01FA21186138CE"
+			title: "Nachtsicht-Brille"
+			rewards: [{ id: "AA0C6D7611AA455E", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "3B7C83ED30390F17", type: "item", item: { id: "artifacts:night_vision_goggles", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["CF01FA21186138CE"]
+			description: ["&6Was ist das?", "Artifacts: Die Grabeklauen lassen dich mit der Hand schneller graben.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Abbaugeschwindigkeit, auch per Hand."]
+			id: "D3DC8D174FF9F791"
+			title: "Grabeklauen"
+			rewards: [{ id: "8E6B1D3531B6839E", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "ABD12A1358CED0D1", type: "item", item: { id: "artifacts:digging_claws", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["D3DC8D174FF9F791"]
+			description: ["&6Was ist das?", "Artifacts: Erze werden beim Abbau direkt geschmolzen.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Spart den Ofen."]
+			id: "9D45A81ECAD1C9C5"
+			title: "Spitzhacken-Heizer"
+			rewards: [{ id: "4826EADC88E1FBB1", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A5F51F5F9C7D1981", type: "item", item: { id: "artifacts:pickaxe_heater", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["B6B6447408B8715B"]
+			description: ["&6Was ist das?", "Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenuebersicht an.", "", "&6So gehts", "Rezepte in JEI.", "Fortschritt: Die Eisen-Variante jeder Waffenart braucht ein Eisenschwert, die Diamant-Variante die Eisen-Variante derselben Art. Netherit und Runic wertest du am Schmiedetisch auf.", "", "&6Wofuer ist das wichtig?", "Viele Waffen mit besonderen Faehigkeiten."]
+			id: "37AB77CFE8C0A929"
+			title: "Simply Swords"
+			rewards: [{ id: "A5EF2C355B467E12", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "00F52A429D471600", type: "checkmark" }]
+			x: 2.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["37AB77CFE8C0A929"]
+			description: ["&6Was ist das?", "Die Muskete ist eine Schusswaffe mit Pulver.", "Laden dauert, dafuer macht sie viel Schaden.", "", "&6So gehts", "Muskete und Munition herstellen.", "", "&6Wofuer ist das wichtig?", "Starke Fernkampfwaffe."]
+			id: "F48637452E0E00AB"
+			title: "Musketen"
+			rewards: [{ id: "0654400C74C447C0", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
+			tasks: [{ id: "7820DB2E0696CF3B", type: "item", item: { id: "musketmod:musket", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["F48637452E0E00AB"]
+			description: ["&6Was ist das?", "Viele neue Ruestungen. Sieh dir die Ruestungsuebersicht an.", "", "&6So gehts", "Rezepte in JEI.", "", "&6Wofuer ist das wichtig?", "Ruestung mit Spezialfaehigkeiten."]
+			id: "2A58DEA11571B132"
+			title: "Immersive Armors"
+			rewards: [{ id: "C5217662197581AF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "C4391FE25183C077", type: "checkmark" }]
+			x: 5.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["37AB77CFE8C0A929"]
+			description: ["&6Was ist das?", "Minecraft Dungeons Waffen: Dolche, Sensen, Haemmer und mehr aus dem Spiel Minecraft Dungeons.", "", "&6So gehts", "Rezepte in JEI mit @minecraftdungeonsv3. Besondere Waffen findest du in Truhen.", "", "&6Wofuer ist das wichtig?", "Jede Waffe hat einen eigenen Stil."]
+			icon: { id: "minecraftdungeonsv3:dagger" }
+			id: "8328162B24997EED"
+			title: "Dungeons-Waffen"
+			rewards: [{ id: "C4B73F59C282E734", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "60BB5D0BB684259F", type: "item", item: { id: "minecraftdungeonsv3:dagger", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["8328162B24997EED"]
+			description: ["&6Was ist das?", "Ein verstaerktes Schwert aus Minecraft Dungeons.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden und Haltbarkeit als das normale Eisenschwert."]
+			icon: { id: "minecraftdungeonsv3:reinforced_iron_sword" }
+			id: "E1D039B0A74E0390"
+			title: "Verstaerktes Eisenschwert"
+			rewards: [{ id: "E5694677B1F25DD3", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B9A1D875A330CDE3", type: "item", item: { id: "minecraftdungeonsv3:reinforced_iron_sword", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["06ABC2FF817AB74D"]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "BD5CD2AB7A5841A2"
+			title: "Eisen-Langschwert"
+			rewards: [{ id: "7BE1C1583E7A2A1F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F96CB5B123F4BB5F", type: "item", item: { id: "weaponsexpanded:iron_longsword", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["BD5CD2AB7A5841A2"]
+			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "693932FE72D923BF"
+			title: "Eisen-Breitschwert"
+			rewards: [{ id: "CE1EED3D3E9DD1F7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F4C55CA75546EFBF", type: "item", item: { id: "weaponsexpanded:iron_broadsword", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["693932FE72D923BF"]
+			description: ["&6Was ist das?", "Weapons Expanded: Zweihaender mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "B8D9920B728943B9"
+			title: "Eisen-Grossschwert"
+			rewards: [{ id: "38D392120F172DA4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1F46EFAB06B6DE93", type: "item", item: { id: "weaponsexpanded:iron_greatsword", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["B8D9920B728943B9"]
+			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge fuer viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "D2770FC8E75B5094"
+			title: "Eisen-Katana"
+			rewards: [{ id: "46A53BEEE25FD393", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6C5EB40D45E71D04", type: "item", item: { id: "weaponsexpanded:iron_katana", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["D2770FC8E75B5094"]
+			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "F6DB30948721A6A4"
+			title: "Eisen-Kampfaxt"
+			rewards: [{ id: "EC2C251AE609E1F0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C7009A8E70F34913", type: "item", item: { id: "weaponsexpanded:iron_battleaxe", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["F6DB30948721A6A4"]
+			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "64CFB4FCC5B2C567"
+			title: "Eisen-Beil"
+			rewards: [{ id: "02000C076523AF06", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CAA9DFB9DBD2CB95", type: "item", item: { id: "weaponsexpanded:iron_hatchet", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["64CFB4FCC5B2C567"]
+			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlaegt Gegner zurueck.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "949E605C93E8DBD7"
+			title: "Eisen-Hammer"
+			rewards: [{ id: "CB8C1E0F9337D7EE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E7AE76E19E67EE3", type: "item", item: { id: "weaponsexpanded:iron_hammer", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["949E605C93E8DBD7"]
+			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flaechenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "D040398B71FD4772"
+			title: "Eisen-Kriegshammer"
+			rewards: [{ id: "7F6F6442E70B3F19", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B71D3F69C1F7D9F7", type: "item", item: { id: "weaponsexpanded:iron_warhammer", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["D040398B71FD4772"]
+			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "1B75CCE6EF5856F0"
+			title: "Eisen-Sense"
+			rewards: [{ id: "4BFE1F772FECEA5C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "AFB0C0FD4EF0F82F", type: "item", item: { id: "weaponsexpanded:iron_scythe", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["1B75CCE6EF5856F0"]
+			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			id: "734B053FCE640882"
+			title: "Eisen-Sichel"
+			rewards: [{ id: "5177F28B73ED22EA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F5CEEEA7F9A84426", type: "item", item: { id: "weaponsexpanded:iron_sickle", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["734B053FCE640882"]
+			description: ["&6Was ist das?", "Ein langer Bogen mit mehr Reichweite und Schaden als der normale Bogen.", "", "&6So gehts", "Stoecke, Faden und ein Eisenbarren. Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Ideal gegen fliegende Gegner und auf grosse Entfernung."]
+			id: "CB6248B12E133050"
+			title: "Langbogen"
+			rewards: [{ id: "A92BD4EEB03C6B58", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B0BAE81BCDFFF861", type: "item", item: { id: "weaponsexpanded:longbow", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 45.5d
+		}
+		{
+			dependencies: ["CB6248B12E133050"]
+			description: ["&6Was ist das?", "Weapons Expanded: Eine Armbrust, die mehrere Bolzen schnell hintereinander schiesst.", "", "&6So gehts", "Ketten, Eisen und ein Stolperdrahthaken. Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Viel Schaden in kurzer Zeit, perfekt gegen Gruppen."]
+			id: "1F502B2B779D5956"
+			title: "Kettenarmbrust"
+			rewards: [{ id: "F83C11272DFD4441", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F9A1063C82D70511", type: "item", item: { id: "weaponsexpanded:chain_crossbow", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 45.5d
+		}
+		{
+			dependencies: ["7D73691BB3992AB7"]
+			description: ["&6Was ist das?", "Das Eisenzeit hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Eisenwerkzeug, Haemmer, Eisen-Ausruestung, Tiefer graben, Redstone-Technik, Tiere und Dorf, Neue Biome, Toms Storage, Rucksack, Sophisticated Storage, Teleport, Kueche, Brauen und Gaeren, Meeresfruechte, Erkunden, Unterwelten, Artefakte, Waffen, Dungeons-Waffen, Waffenkammer.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
+			icon: { id: "minecraft:iron_pickaxe" }
+			id: "B6B6447408B8715B"
+			title: "Beginn: Eisenzeit"
+			rewards: [{ id: "A7A8CCAFCDF06216", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B3037B8BF23105EC", type: "checkmark" }]
+			x: 0.0d
+			y: 22.8d
+		}
+		{
+			dependencies: ["9C28745A2D3E9492", "F2C3EEDE74697921", "BC6A511A5F9AB3B9"]
+			description: ["&6Was ist das?", "Hier beginnt das Andesit-Zeitalter. Es schaltet frei:", "Create mit allen Erweiterungen: Wellen, Zahnraeder, Wasserrad, Presse, Brechrad und mehr.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
+			icon: { id: "create:andesite_alloy" }
+			id: "73C9FDCF839140CB"
+			title: "Zeitalter: Andesit-Zeitalter"
+			rewards: [{ id: "9AC04C04268E2076", type: "historystages:history_stage", stage: "andesitzeit", remove: false, individual: false }, { id: "BD4E644F3BF52F1A", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "863128009AACEEB9", type: "checkmark" }]
+			x: 18.0d
+			y: 22.8d
+		}
+	]
+}
