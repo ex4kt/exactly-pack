@@ -3,149 +3,248 @@
 	default_quest_shape: ""
 	filename: "ende"
 	icon: { id: "minecraft:end_stone" }
-	id: "24AF7A695A16070C"
+	id: "97EDC02C90F26984"
 	order_index: 12
 	quest_links: [ ]
 	title: "&5Das Ende"
 	quests: [
 		{
 			description: ["Stelle Enderperlen und Blazepulver zu Enderaugen zusammen. Damit findest du die Festung."]
-			id: "024E5B04280D7E2A"
+			id: "502C61E3409EAEDC"
 			title: "Augen des Enders"
-			rewards: [{ id: "E15ED9219D41D457", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
-			tasks: [{ id: "45AEE27528D7508D", type: "item", item: { id: "minecraft:ender_eye", count: 1 }, count: 12L }]
+			rewards: [{ id: "0E46BF74C4B17875", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
+			tasks: [{ id: "814B9C4EE4784C3C", type: "item", item: { id: "minecraft:ender_eye", count: 1 }, count: 12L }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["024E5B04280D7E2A"]
+			dependencies: ["502C61E3409EAEDC"]
 			description: ["Aktiviere das Portal in der Festung mit zwoelf Enderaugen."]
-			id: "ECE21B4B0E58B50A"
+			id: "CDCD4F0780344D96"
 			title: "Das Ende"
-			rewards: [{ id: "591CA4EA2840E68E", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
-			tasks: [{ id: "BB71CDAE2E64A399", type: "dimension", dimension: "minecraft:the_end", icon: { id: "minecraft:end_stone" } }]
+			rewards: [{ id: "115329C8A0F50375", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
+			tasks: [{ id: "CBB5328BAC71C459", type: "dimension", dimension: "minecraft:the_end", icon: { id: "minecraft:end_stone" } }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["ECE21B4B0E58B50A"]
+			dependencies: ["CDCD4F0780344D96"]
 			description: ["Zerstoere die Kristalle auf den Saeulen und besiege den Drachen."]
-			id: "6B8CC999AE04FCF3"
+			id: "E9F389ADB04C2583"
 			title: "Der Enderdrache"
-			rewards: [{ id: "4AB429C7CCE3890C", type: "xp_levels", xp_levels: 15 }]
-			tasks: [{ id: "26C9871077CE3E66", type: "kill", entity: "minecraft:ender_dragon", value: 1L, icon: { id: "minecraft:dragon_head" } }]
+			rewards: [{ id: "E1F53332F2B232A7", type: "xp_levels", xp_levels: 15 }]
+			tasks: [{ id: "D2C91E9D69BF8578", type: "kill", entity: "minecraft:ender_dragon", value: 1L, icon: { id: "minecraft:dragon_head" } }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6B8CC999AE04FCF3"]
+			dependencies: ["E9F389ADB04C2583"]
 			description: ["Schaue sie nicht an. Ein Kuerbis auf dem Kopf schuetzt dich."]
-			id: "D73ADB35E8D6689D"
+			id: "CA29B0150A35EAE7"
 			title: "Endermann"
-			rewards: [{ id: "2DC3A3B9A5DC8D8D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "67147F0E80537073", type: "kill", entity: "minecraft:enderman", value: 10L, icon: { id: "minecraft:ender_pearl" } }]
+			rewards: [{ id: "866F4129EA9E2693", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "414A7C8387D8EC04", type: "kill", entity: "minecraft:enderman", value: 10L, icon: { id: "minecraft:ender_pearl" } }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D73ADB35E8D6689D"]
+			dependencies: ["CA29B0150A35EAE7"]
 			description: ["Endstein ist der Boden dieser Dimension. Er brennt nicht und hat viele Verwendungen."]
-			id: "756B55E53483AFC4"
+			id: "7200E9323E24B343"
 			title: "Endstein"
-			rewards: [{ id: "5B1BDD12C892136A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "608BD2F49CC248FC", type: "item", item: { id: "minecraft:end_stone", count: 1 }, count: 16L }]
+			rewards: [{ id: "16ADCB23FABD2A01", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E3A60D018BCB6A32", type: "item", item: { id: "minecraft:end_stone", count: 1 }, count: 16L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["756B55E53483AFC4"]
+			dependencies: ["7200E9323E24B343"]
 			description: ["Chorusfrucht teleportiert dich beim Essen. Sie waechst auf den Ende-Inseln."]
-			id: "E2A326DA82E3B231"
+			id: "8F79AFBE893E54E1"
 			title: "Chorusfrucht"
-			rewards: [{ id: "517DCCF9E5F48D26", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 8 } }]
-			tasks: [{ id: "88D77B6FE79E7851", type: "item", item: { id: "minecraft:chorus_fruit", count: 1 }, count: 8L }]
+			rewards: [{ id: "77CCCC73177623FD", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 8 } }]
+			tasks: [{ id: "E9AA193A54794634", type: "item", item: { id: "minecraft:chorus_fruit", count: 1 }, count: 8L }]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["E2A326DA82E3B231"]
+			dependencies: ["8F79AFBE893E54E1"]
 			description: ["Endstaedte sind riesige Bauten mit Beute und Shulkern."]
-			id: "43C954D79E7830BE"
+			id: "1C505742606CDD9D"
 			title: "Endstadt"
-			rewards: [{ id: "28C0C9EB8382C171", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "61ACB74941C633B3", type: "kill", entity: "minecraft:shulker", value: 3L, icon: { id: "minecraft:shulker_shell" } }]
+			rewards: [{ id: "675BE451169A1D81", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "ABDC08182F7739E8", type: "kill", entity: "minecraft:shulker", value: 3L, icon: { id: "minecraft:shulker_shell" } }]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["43C954D79E7830BE"]
+			dependencies: ["1C505742606CDD9D"]
 			description: ["Aus Shulkerschalen baust du Shulkerkisten."]
-			id: "C973E6B18C337B90"
+			id: "50DF24C7727465CF"
 			title: "Shulkerschalen"
-			rewards: [{ id: "9B20119C2E38E2D2", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
-			tasks: [{ id: "4386E96ECD9A096B", type: "item", item: { id: "minecraft:shulker_shell", count: 1 }, count: 2L }]
+			rewards: [{ id: "9FFBD3F65CBAE765", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
+			tasks: [{ id: "59E9963E549C5FF8", type: "item", item: { id: "minecraft:shulker_shell", count: 1 }, count: 2L }]
 			x: 4.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["C973E6B18C337B90"]
+			dependencies: ["50DF24C7727465CF"]
 			description: ["In Endschiffen findest du die Elytra. Damit fliegst du frei."]
-			id: "16E622EA42A4E478"
+			id: "F12FD4E0A52A9E0B"
 			title: "Elytra"
-			rewards: [{ id: "DD81F6029B4F5EFA", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
-			tasks: [{ id: "AB10A4591D4E03BE", type: "item", item: { id: "minecraft:elytra", count: 1 }, count: 1L }]
+			rewards: [{ id: "6102DD31983CB9FE", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
+			tasks: [{ id: "651AA4FF3759A8C1", type: "item", item: { id: "minecraft:elytra", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["16E622EA42A4E478"]
+			dependencies: ["F12FD4E0A52A9E0B"]
 			description: ["Das Drachenei ist ein Souvenir. Es entsteht nach dem ersten Kampf."]
-			id: "6072B03E8B190A0D"
+			id: "06846FECFE8200C1"
 			title: "Drachenei"
-			rewards: [{ id: "34A19C23BE6F0533", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "0604850468E3DBCE", type: "item", item: { id: "minecraft:dragon_egg", count: 1 }, count: 1L }]
+			rewards: [{ id: "093D637910111249", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "E45FE5D40F76D6BD", type: "item", item: { id: "minecraft:dragon_egg", count: 1 }, count: 1L }]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["6072B03E8B190A0D"]
+			dependencies: ["06846FECFE8200C1"]
 			description: ["Cataclysm: Der Ender Guardian lebt in der Void-Festung."]
-			id: "467C14B9BCFCB623"
+			id: "36CBAAF12C4D22D9"
 			title: "Der Ender-Waechter"
-			rewards: [{ id: "F5C13E044D89F130", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "DAD93667C3A78C5E", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_rod" } }]
+			rewards: [{ id: "D6C2528ADCED3C2E", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "76B62C313C1E5D43", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_rod" } }]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["467C14B9BCFCB623"]
+			dependencies: ["36CBAAF12C4D22D9"]
 			description: ["Der Ender Golem ist ein Gegner von Cataclysm."]
-			id: "4BC637513FE714AA"
+			id: "1C40D78F36FFCB0A"
 			title: "Ender-Golem"
-			rewards: [{ id: "970B920F9945DC7A", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "4B53D3BCD3551BAE", type: "kill", entity: "cataclysm:ender_golem", value: 1L, icon: { id: "minecraft:end_stone" } }]
+			rewards: [{ id: "BD4A5145E186D5D7", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "BDF6A5A352A91834", type: "kill", entity: "cataclysm:ender_golem", value: 1L, icon: { id: "minecraft:end_stone" } }]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["4BC637513FE714AA"]
+			dependencies: ["1C40D78F36FFCB0A"]
 			description: ["Neue Gerichte aus dem Ende. Sieh im Kapitel Kochen nach."]
-			id: "1CF8DA615D7E0621"
+			id: "91621505672AB1AD"
 			title: "Enders Delight"
-			rewards: [{ id: "2A071872A5A4E5E0", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "F92D710CAF3F8B39", type: "checkmark" }]
+			rewards: [{ id: "8A1678999A88C35F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9328DD97C8D37F84", type: "checkmark" }]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["1CF8DA615D7E0621"]
+			dependencies: ["91621505672AB1AD"]
 			description: ["Der Leviathan lebt in den Meerestiefen. Er ist ein sehr harter Boss."]
-			id: "9D55DAAC16926486"
+			id: "0E13BB3BED84B047"
 			title: "Der Leviathan"
-			rewards: [{ id: "5B33C09710217CD5", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
-			tasks: [{ id: "BA578D777409F07E", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_crystals" } }]
+			rewards: [{ id: "94E337F1A9E340B8", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			tasks: [{ id: "43FE5B6E4CDC40DE", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_crystals" } }]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			description: ["Mit Enderkristallen kannst du den Drachen erneut beschwoeren."]
+			id: "C940BB7CBE965E41"
+			title: "Enderkristall"
+			rewards: [{ id: "D9F851BD3E3CD3A4", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "3DE40AEC331BBC59", type: "item", item: { id: "minecraft:end_crystal", count: 1 }, count: 4L }]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["C940BB7CBE965E41"]
+			description: ["Drachenatem sammelst du mit einer Glasflasche. Daraus entstehen Verweiltraenke."]
+			id: "C2ED9CEDEB44CCA6"
+			title: "Drachenatem"
+			rewards: [{ id: "456B0331110261E0", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "149718EF5100546D", type: "item", item: { id: "minecraft:dragon_breath", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["C2ED9CEDEB44CCA6"]
+			description: ["Endstaebe sind schoene Lampen."]
+			id: "2AD1D915658D1D50"
+			title: "Endstab"
+			rewards: [{ id: "8688DF3E18508C84", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8D963D74A0241B8F", type: "item", item: { id: "minecraft:end_rod", count: 1 }, count: 4L }]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AD1D915658D1D50"]
+			description: ["Purpurbloecke aus Chorusfrucht sind Baumaterial der Endstaedte."]
+			id: "867827EFB62073FE"
+			title: "Purpur"
+			rewards: [{ id: "809F9639AB4B86CE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2F77AFA6D10F0EF6", type: "item", item: { id: "minecraft:purpur_block", count: 1 }, count: 16L }]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["867827EFB62073FE"]
+			description: ["Cataclysm: Enderit aus dem Ender-Waechter."]
+			id: "434B0242196341B0"
+			title: "Enderit"
+			rewards: [{ id: "8F8729BBCEDFBFD7", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7D113048B2ABF3D2", type: "item", item: { id: "cataclysm:enderite_ingot", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["434B0242196341B0"]
+			description: ["Cataclysm: Der Void-Kern ist ein seltenes Bauteil fuer Endwaffen."]
+			id: "53B5513ABE6670E3"
+			title: "Void-Kern"
+			rewards: [{ id: "D128E4BE255535CC", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "5272DD27B136C7A6", type: "item", item: { id: "cataclysm:void_core", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["53B5513ABE6670E3"]
+			description: ["Cataclysm: Ein riesiges Schwert aus dem Ende."]
+			id: "699D8AF525791ABA"
+			title: "Zweiender"
+			rewards: [{ id: "371AC58069078D46", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "436CBA5BC0B154F4", type: "item", item: { id: "cataclysm:zweiender", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["699D8AF525791ABA"]
+			description: ["Cataclysm: Kaefer aus dem Ende."]
+			id: "A1B37992F9F2CDB0"
+			title: "Endermaptera"
+			rewards: [{ id: "602B320FA662AE3F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "47291DA3B6CE9A9E", type: "kill", entity: "cataclysm:endermaptera", value: 1L, icon: { id: "minecraft:chorus_fruit" } }]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["A1B37992F9F2CDB0"]
+			description: ["Yungs Better End Island macht den Drachenkampf schoener und haerter."]
+			id: "A3DA7D8A453FAA91"
+			title: "Bessere Endinsel"
+			rewards: [{ id: "F107B83262EB778D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B4CE2525CEE5996C", type: "checkmark" }]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["A3DA7D8A453FAA91"]
+			description: ["Better End Cities macht die Endstaedte groesser, mit mehr Beute."]
+			id: "2BB55ABC06EFBD94"
+			title: "Bessere Endstaedte"
+			rewards: [{ id: "F938DC421A7F77E5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3C34EBC0DCE54A60", type: "checkmark" }]
+			x: 0.0d
+			y: 9.0d
 		}
 	]
 }

@@ -3,149 +3,328 @@
 	default_quest_shape: ""
 	filename: "aether"
 	icon: { id: "aether:blue_aercloud" }
-	id: "0A48C8AE9E6FD03C"
+	id: "7FA564CA65E527F7"
 	order_index: 11
 	quest_links: [ ]
 	title: "&bDas Aether"
 	quests: [
 		{
 			description: ["Baue ein Portal aus Glowstone und entzuende es mit Wasser.", "Das Aether ist ein Reich in den Wolken. Pass auf, wo du hinfaellst!"]
-			id: "F0CCBCA91BC9F9F7"
+			id: "FE5D863F1BD26465"
 			title: "Ins Aether"
-			rewards: [{ id: "E4DFABD8504A144D", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
-			tasks: [{ id: "0AB1797033B4DDD1", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
+			rewards: [{ id: "E2810F9B9A17B846", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			tasks: [{ id: "738B7A818BEB0B16", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F0CCBCA91BC9F9F7"]
+			dependencies: ["FE5D863F1BD26465"]
 			description: ["Der Sun Spirit ist der Boss des Aethers."]
-			id: "ACF34C46FE7C466A"
+			id: "BB0A6F282ACA10C7"
 			title: "Der Sonnenspirit"
-			rewards: [{ id: "C85F8924C2C74CFE", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "E5BE93614D376B0A", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
+			rewards: [{ id: "F40AAC079D1D8150", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "23962D66CFBEC1F0", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["ACF34C46FE7C466A"]
+			dependencies: ["BB0A6F282ACA10C7"]
 			description: ["Skyroot-Holz ist das erste Material des Aethers."]
-			id: "51905057884F8859"
+			id: "E015868CAF861507"
 			title: "Skyroot"
-			rewards: [{ id: "F9D8F45426166EC7", type: "item", item: { id: "aether:skyroot_stick", count: 16 } }]
-			tasks: [{ id: "FE682F8BECBC8629", type: "item", item: { id: "aether:skyroot_log", count: 1 }, count: 8L }]
+			rewards: [{ id: "A0868AB631C4B9EB", type: "item", item: { id: "aether:skyroot_stick", count: 16 } }]
+			tasks: [{ id: "688C1B41B1514BE8", type: "item", item: { id: "aether:skyroot_log", count: 1 }, count: 8L }]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["51905057884F8859"]
+			dependencies: ["E015868CAF861507"]
 			description: ["Holystone ist der Stein des Aethers. Daraus entstehen Werkzeuge."]
-			id: "81C49E72B5CC5E5B"
+			id: "A0F6274FBCAEA8D0"
 			title: "Holystone"
-			rewards: [{ id: "028BF7FA915BE14F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E478588D091BE6C6", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
+			rewards: [{ id: "F9288E7CC28FEF52", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9B7483F30FE87F3E", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["81C49E72B5CC5E5B"]
+			dependencies: ["A0F6274FBCAEA8D0"]
 			description: ["Zanit ist ein Edelstein. Er macht Werkzeuge schneller."]
-			id: "414E0E2978AB85E6"
+			id: "F64621C434077C7C"
 			title: "Zanit"
-			rewards: [{ id: "AB6461864DF32CFE", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "03E3E9461075295C", type: "item", item: { id: "aether:zanite_gemstone", count: 1 }, count: 8L }]
+			rewards: [{ id: "EE51663A3B76AF51", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "39794AF61469C3F4", type: "item", item: { id: "aether:zanite_gemstone", count: 1 }, count: 8L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["414E0E2978AB85E6"]
+			dependencies: ["F64621C434077C7C"]
 			description: ["Ambrosium ist Brennstoff und Heilmittel."]
-			id: "9E42A216A64F391A"
+			id: "A5001546B29BC911"
 			title: "Ambrosium"
-			rewards: [{ id: "B912B09FB7E1A145", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "42BA7876D19EFA8F", type: "item", item: { id: "aether:ambrosium_shard", count: 1 }, count: 8L }]
+			rewards: [{ id: "241093BD6D6929C2", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9C5D79949C638EF9", type: "item", item: { id: "aether:ambrosium_shard", count: 1 }, count: 8L }]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["9E42A216A64F391A"]
+			dependencies: ["A5001546B29BC911"]
 			description: ["Gravitit schwebt in der Luft. Daraus entsteht starke Ausruestung."]
-			id: "39A64789F2D04BA6"
+			id: "176B1A484A2E7D8F"
 			title: "Gravitit"
-			rewards: [{ id: "4F79AC348CFF95CC", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "1900DB513F64797A", type: "item", item: { id: "aether:gravitite_ore", count: 1 }, count: 1L }]
+			rewards: [{ id: "BE36D575076A3020", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "F400E1D4408AFF14", type: "item", item: { id: "aether:gravitite_ore", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["39A64789F2D04BA6"]
+			dependencies: ["176B1A484A2E7D8F"]
 			description: ["Der Fallschirm rettet dich vor dem Sturz."]
-			id: "752792020D4A926D"
+			id: "5D458DF91DA07089"
 			title: "Wolkenparachut"
-			rewards: [{ id: "04CB9AA45C71B67E", type: "item", item: { id: "minecraft:feather", count: 8 } }]
-			tasks: [{ id: "D4D6972040EB9471", type: "item", item: { id: "aether:cold_parachute", count: 1 }, count: 1L }]
+			rewards: [{ id: "B1D3554ACAF6B313", type: "item", item: { id: "minecraft:feather", count: 8 } }]
+			tasks: [{ id: "0434EFB17CB8B1E7", type: "item", item: { id: "aether:cold_parachute", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["752792020D4A926D"]
+			dependencies: ["5D458DF91DA07089"]
 			description: ["Moas sind die Reittiere des Aethers. Sie koennen mehrfach springen."]
-			id: "6F8EB8225A37402E"
+			id: "2F5F5BBF07B636FE"
 			title: "Die Moa"
-			rewards: [{ id: "4DE58022A90CF04D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "3A62C11DD65AD7A4", type: "checkmark" }]
+			rewards: [{ id: "9FF12EAAF973F453", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E7ABBD6B32F19F9E", type: "checkmark" }]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["6F8EB8225A37402E"]
+			dependencies: ["2F5F5BBF07B636FE"]
 			description: ["Die Slider ist ein Boss und huetet den Bronzenen Dungeon."]
-			id: "BE8D6A1187572EFD"
+			id: "9A5E5C837C930314"
 			title: "Der Slider"
-			rewards: [{ id: "23CE7252848315DC", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "808FD55E2FD3506E", type: "kill", entity: "aether:slider", value: 1L, icon: { id: "aether:bronze_dungeon_key" } }]
+			rewards: [{ id: "10CB3F00CFB262BE", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "B79472BDB203630D", type: "kill", entity: "aether:slider", value: 1L, icon: { id: "aether:bronze_dungeon_key" } }]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["BE8D6A1187572EFD"]
+			dependencies: ["9A5E5C837C930314"]
 			description: ["Valkyrien bewachen den Silbernen Dungeon. Besiege eine Valkyrie."]
-			id: "BFA52CAE301FE9D0"
+			id: "29C878992440296B"
 			title: "Valkyrie"
-			rewards: [{ id: "219C4666A679C2DD", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "171DFB6F70293EDA", type: "kill", entity: "aether:valkyrie", value: 1L, icon: { id: "aether:valkyrie_lance" } }]
+			rewards: [{ id: "892F790B69877869", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "CB6254764160D74C", type: "kill", entity: "aether:valkyrie", value: 1L, icon: { id: "aether:valkyrie_lance" } }]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["BFA52CAE301FE9D0"]
+			dependencies: ["29C878992440296B"]
 			description: ["Die Valkyrie-Koenigin ist der Boss des Silbernen Dungeons."]
-			id: "B5EB987CE7533AF7"
+			id: "EB6DAA36618827FD"
 			title: "Valkyrie-Koenigin"
-			rewards: [{ id: "6E0FB18B0B284D24", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "111EE9F7CD77FCF9", type: "kill", entity: "aether:valkyrie_queen", value: 1L, icon: { id: "aether:silver_dungeon_key" } }]
+			rewards: [{ id: "BEADFC62BABCC0EC", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "716ACE8C86729034", type: "kill", entity: "aether:valkyrie_queen", value: 1L, icon: { id: "aether:silver_dungeon_key" } }]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["B5EB987CE7533AF7"]
+			dependencies: ["EB6DAA36618827FD"]
 			description: ["Der Goldene Dungeon gehoert dem Sonnengeist. Du brauchst den goldenen Schluessel."]
-			id: "A6C55CBF49A6812F"
+			id: "673997710BB1781E"
 			title: "Goldener Dungeon"
-			rewards: [{ id: "6D2E1D2086D3663F", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "2571CFB822F6EF7E", type: "item", item: { id: "aether:gold_dungeon_key", count: 1 }, count: 1L }]
+			rewards: [{ id: "63B9D99AB3F23CF8", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "BC9B09F916612D26", type: "item", item: { id: "aether:gold_dungeon_key", count: 1 }, count: 1L }]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["A6C55CBF49A6812F"]
+			dependencies: ["673997710BB1781E"]
 			description: ["Der Phoenix-Bogen setzt Gegner in Brand."]
-			id: "94CDF4337E7B66B8"
+			id: "6E54C3985515007A"
 			title: "Phoenix-Bogen"
-			rewards: [{ id: "4326A4252786182B", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "A24A4DC727D811C0", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
+			rewards: [{ id: "756955E23E0CAD64", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7B6C7742E1C9650D", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			description: ["Skyroot-Werkzeug bringt mehr Drops von Aether-Bloecken."]
+			id: "479A5C1745DEE2FE"
+			title: "Skyroot-Werkzeug"
+			rewards: [{ id: "31AD6521D4997771", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "6D9675EEF9ACCF45", type: "item", item: { id: "aether:skyroot_pickaxe", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["479A5C1745DEE2FE"]
+			description: ["Holystone-Werkzeug laesst manchmal Ambrosium fallen."]
+			id: "09242B03DA44510F"
+			title: "Holystone-Werkzeug"
+			rewards: [{ id: "9A9828E0A893C578", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B738B96267ABB253", type: "item", item: { id: "aether:holystone_pickaxe", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["09242B03DA44510F"]
+			description: ["Zanit-Werkzeug wird schneller, je mehr es abgenutzt ist."]
+			id: "41DFE689CEF65BA3"
+			title: "Zanit-Werkzeug"
+			rewards: [{ id: "E5FCDFF392D3F251", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1805CCA9B87EB76A", type: "item", item: { id: "aether:zanite_pickaxe", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["41DFE689CEF65BA3"]
+			description: ["Mit dem Altar verzauberst du Aether-Items mit Ambrosium."]
+			id: "6356E38976DB8D12"
+			title: "Altar"
+			rewards: [{ id: "2F475BA29DC9F6A9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F2A2107C0FC91F53", type: "item", item: { id: "aether:altar", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6356E38976DB8D12"]
+			description: ["Mit dem Gefrierer machst du Eis-Items und Eisanhaenger."]
+			id: "4EAD5FF90874B9D1"
+			title: "Gefrierer"
+			rewards: [{ id: "D900EEB477833ED9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "35E9C39ED2BD2529", type: "item", item: { id: "aether:freezer", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4EAD5FF90874B9D1"]
+			description: ["Im Bruetkasten bruetest du Moa-Eier aus."]
+			id: "00D1CA0083778D1F"
+			title: "Bruetkasten"
+			rewards: [{ id: "B2B569A49A15A5AF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "536B1B6E5592FCF3", type: "item", item: { id: "aether:incubator", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["00D1CA0083778D1F"]
+			description: ["Verzaubertes Gravitit macht Gravitit-Werkzeug und -Ruestung."]
+			id: "CD271DE74B55C4DE"
+			title: "Verzaubertes Gravitit"
+			rewards: [{ id: "8481283B8116A140", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "518FF68121A8584A", type: "item", item: { id: "aether:enchanted_gravitite", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["CD271DE74B55C4DE"]
+			description: ["Mit der Gravitit-Spitzhacke laesst du Bloecke schweben."]
+			id: "9CA7F06AD9417703"
+			title: "Gravitit-Spitzhacke"
+			rewards: [{ id: "56D5D9CCEC6D5170", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "B9DE4044AA34E1F0", type: "item", item: { id: "aether:gravitite_pickaxe", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["9CA7F06AD9417703"]
+			description: ["Im Aether traegst du Handschuhe im Zubehoer-Slot. Sie machen mehr Schaden."]
+			id: "787E750326D04B44"
+			title: "Handschuhe"
+			rewards: [{ id: "20144E31C0F7A6F9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DADBB66703685FD7", type: "item", item: { id: "aether:zanite_gloves", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["787E750326D04B44"]
+			description: ["Ringe und Anhaenger geben Boni, z.B. Eis-Anhaenger friert Wasser."]
+			id: "59EC29FC67A78DFC"
+			title: "Anhaenger und Ringe"
+			rewards: [{ id: "FFB4F3CF7CEA6FD9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3264435EF559347E", type: "item", item: { id: "aether:ice_pendant", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["59EC29FC67A78DFC"]
+			description: ["Die goldene Feder laesst dich langsam fallen. Perfekt fuer das Aether."]
+			id: "B2E3CF73B7592561"
+			title: "Goldene Feder"
+			rewards: [{ id: "918BBA9F56C85B70", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "4D52992EA34F8AE8", type: "item", item: { id: "aether:golden_feather", count: 1 }, count: 1L }]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["B2E3CF73B7592561"]
+			description: ["Der Wolkenstab ruft kleine Wolken, die fuer dich kaempfen."]
+			id: "40BE830D8B70B8A5"
+			title: "Wolkenstab"
+			rewards: [{ id: "D61561EA35C3CA9E", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "8B45F555CCACED7D", type: "item", item: { id: "aether:cloud_staff", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["40BE830D8B70B8A5"]
+			description: ["Valkyrie-Werkzeug und -Ruestung bekommst du im Silbernen Dungeon."]
+			id: "7151D0762B0B4690"
+			title: "Valkyrie-Ausruestung"
+			rewards: [{ id: "EFAEA296DA198292", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "B36C5883C2EEFD18", type: "item", item: { id: "aether:valkyrie_pickaxe", count: 1 }, count: 1L }]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7151D0762B0B4690"]
+			description: ["Die Phoenix-Ruestung schuetzt vor Feuer und Lava."]
+			id: "0838113720B08673"
+			title: "Phoenix-Ruestung"
+			rewards: [{ id: "434CFA49A0FA6EB9", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "3B0A6A74DD9420A6", type: "item", item: { id: "aether:phoenix_chestplate", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0838113720B08673"]
+			description: ["Die Neptun-Ruestung macht dich unter Wasser schnell."]
+			id: "C011054485BD2481"
+			title: "Neptun-Ruestung"
+			rewards: [{ id: "0B54DC286706BDDE", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "8CA4C623760D853C", type: "item", item: { id: "aether:neptune_chestplate", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["C011054485BD2481"]
+			description: ["Die Lebensscherbe gibt dir ein zusaetzliches Herz."]
+			id: "26025235DDEC57DB"
+			title: "Lebensscherbe"
+			rewards: [{ id: "C2AB87BC91D55C8A", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "1FB655AD10599704", type: "item", item: { id: "aether:life_shard", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["26025235DDEC57DB"]
+			description: ["Zephyrs sind Wolkenwesen, die dich wegblasen."]
+			id: "3DE4480A4FFC555D"
+			title: "Zephyr"
+			rewards: [{ id: "6CA9215A3FC38584", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "81B99D7A073D79EF", type: "kill", entity: "aether:zephyr", value: 1L, icon: { id: "aether:cold_aercloud" } }]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3DE4480A4FFC555D"]
+			description: ["Cockatrices sind giftige Voegel in der Nacht."]
+			id: "89E165EACC3367E1"
+			title: "Cockatrice"
+			rewards: [{ id: "3DE92F76B05A132B", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7A08B7AEB0B13E40", type: "kill", entity: "aether:cockatrice", value: 1L, icon: { id: "aether:poison_dart" } }]
+			x: 4.0d
+			y: 13.0d
 		}
 	]
 }
