@@ -23,7 +23,7 @@
 	#Maximum stack limit for entities
 	# Default: 10
 	# Range: > 1
-	maxEntityStackLimit = 10
+	maxEntityStackLimit = 1
 	#More complex Tile Entities slow down the player more
 	heavyTiles = true
 	#Allow all blocks to be picked up, not just Tile Entites. White/Blacklist will still be respected.
@@ -35,7 +35,7 @@
 	#Larger Entities slow down the player more
 	heavyEntities = true
 	#Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)
-	allowBabies = false
+	allowBabies = true
 	#Use Whitelist instead of Blacklist for Blocks
 	useWhitelistBlocks = false
 	#Use Whitelist instead of Blacklist for Entities

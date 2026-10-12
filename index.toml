@@ -13,12 +13,20 @@ file = "config/artifacts/general.toml"
 hash = "11ec7502602f587dd55515182c2382d1da44dd53905302321e00634af522e517"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "9463d31d6359727251a44f7bcb67d6bebb8054a6fd40a64c8bdf06e1cf7e2237"
+
+[[files]]
 file = "config/bettercombat/client.json5"
 hash = "9da472967307c8198c291cb3231d67d76f5cebc1e9f5b25bdf9274b70fe680e8"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "f1a44c3a2ce5e1ad667a885ca31495165d6ec9eb77d59c7a578af9719664874e"
+hash = "cab4b5b9634cd37cb820ac658ad8a592c3b04c891185ce08091a4b214934c366"
+
+[[files]]
+file = "config/cataclysm.toml"
+hash = "7d1f632b8630fed1d654d9828bdc8bc9a7c1adefc5abb97e5b34621d9d974421"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -33,8 +41,16 @@ file = "config/DistantHorizons.toml"
 hash = "fa6498d626a81ce1907fc968ca873476de45f7c39c104f36453e6c73b2f55073"
 
 [[files]]
+file = "config/euphoria_patcher.properties"
+hash = "56da2a4b5600895baae9a201a45756b0bd7cae788fa6ff622f6e0933cf7c8728"
+
+[[files]]
 file = "config/fancymenu/options.txt"
 hash = "e0186b5c2d3280c7bbc9c55112d31ceab33e8871346943932284e9f2d87797d6"
+
+[[files]]
+file = "config/fml.toml"
+hash = "07c546de707ca14a8e3e0f3ae2de289ba0e52f486af6f627d098ceb044b72173"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -117,12 +133,32 @@ file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "d2b1deff7f0a95a938e82de1162207a1c9eb713e9e0d67e516d5dae8caf87f28"
 
 [[files]]
+file = "config/iris.properties"
+hash = "429970dc029fae2ded603f6d01aef4d4f68c0ae8ff29c66dae5f89ed805c0e1b"
+
+[[files]]
+file = "config/lmft.json"
+hash = "2a2ee19297afe3fc512f5cbe639349847f3e7a74616f282d24a179a17f4559ed"
+
+[[files]]
 file = "config/lootr-common.toml"
 hash = "a84e4451c4ae950718e41c07f5c6fb93849878ea9c1b0e1ac29e2477207805cf"
 
 [[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "1c0e36f3124939575589c950dbdeed152cd3541e125562199aa6783af482aa50"
+
+[[files]]
+file = "config/NoChatReports/NCR-Encryption.json"
+hash = "545e1023486e9231ab8415bf1c25ee24f714746f575dc76666a1bf425db66a7d"
+
+[[files]]
+file = "config/packetfixer.properties"
+hash = "34e34667f6930acfade1d26775950a0d06c6c7ce5c6f55b3f06acd18f3b84e3f"
+
+[[files]]
 file = "config/paxi/datapacks/Abenteuer-Regeln.zip"
-hash = "b4be49eef927e6c5ea0ab94dc18d4d58a5df2724efa237d610c4182fa33f586f"
+hash = "31cfdfc4703e4b59ac53bc564f5ca81f0f93420386e4c627848fe5851afa6175"
 
 [[files]]
 file = "config/paxi/datapacks/Abenteuer-Weltgen.zip"
@@ -149,7 +185,7 @@ hash = "0b700959c52869a55c40f98d3485df0e9927006d1817b6aea7296c86ab4f7546"
 
 [[files]]
 file = "config/paxi/resourcepacks/Abenteuer-Pack.zip"
-hash = "f900401edf1b9d5b78aaf086c913daabce34209196fa29419c7fc85b7c184549"
+hash = "12fe595638db7292685f424a435dce0eaf5c7e9d4d2998ba0d02e92a4ff36fea"
 
 [[files]]
 file = "config/paxi/resourcepacks/armortrimscompat_1.0.pw.toml"
@@ -195,6 +231,26 @@ metafile = true
 file = "config/paxi/resourcepacks/waystones_1.21.1.pw.toml"
 hash = "d7ae6c2df4b6e7f93af29bb6b1ca5b7fba541d09263157cda9b15a6f25319aa8"
 metafile = true
+
+[[files]]
+file = "config/rightclickharvest.json5"
+hash = "22321e7d9653cedec7bccc331aa4bcdf318ae15d7a43474e86dcf5f69376bb32"
+
+[[files]]
+file = "config/sodiumdynamiclights-client.toml"
+hash = "dd5477a40c73cc0afef9ce712eeeda64c412aac364ae458578c8648da9c62004"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "988156ce2c9984354c578470945cb479e075bf6c027693ad1349aa142556d148"
+
+[[files]]
+file = "config/sparsestructures.json5"
+hash = "603f585bb17d9ffc212ebdf63e3e5b2b53cd47c63fe1d3182418351624ad8ca4"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "fb23d373fee6bf585a536538fd486552bc8b24906b4c197fcbe9cd65a4460112"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -450,6 +506,16 @@ hash = "7e9205e4ece2ae79c3f2ec7942ce5d6e035596a151f0875a416f9f28a29db075"
 metafile = true
 
 [[files]]
+file = "mods/chunksending-1.21-2.8.pw.toml"
+hash = "0f78a7af4b943afad59eb7bc97d87078bb7d1176dce3013034f2531291c41e3b"
+metafile = true
+
+[[files]]
+file = "mods/clientsort-neoforge-1.3.3-1.21.pw.toml"
+hash = "b7bf4d4b7c88e2c0f648734f5a778f32caa49105256e5bc50ba0a8be6df4ff9a"
+metafile = true
+
+[[files]]
 file = "mods/climaterivers-v21.1.1-1.21.1-neoforge.pw.toml"
 hash = "32c13c134c86e93d2a2dd0e112391a2ac72627bb81164828fd67d8b8aba770d0"
 metafile = true
@@ -477,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/configureddefaults-v21.1.3-1.21.1-neoforge.pw.toml"
 hash = "f108bed01cc76521ec0939017991ee0346b4b4b88e43c6afa493221ad2e75b08"
+metafile = true
+
+[[files]]
+file = "mods/connectivity-1.21.1-7.1.pw.toml"
+hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
 metafile = true
 
 [[files]]
@@ -605,6 +676,11 @@ hash = "107ff4fb1d429cbb66eb91ee8a3fa4030f6b17857cd826a6caf45670571f50da"
 metafile = true
 
 [[files]]
+file = "mods/cupboard-1.21-2.9.pw.toml"
+hash = "92d8711662b4e3fd42a57254571aca9f0b33a10bb7492a8fba59b22e78f688e6"
+metafile = true
+
+[[files]]
 file = "mods/cutthrough-v21.1.0-1.21.1-neoforge.pw.toml"
 hash = "ee0c5b90e159138c2b6860400aa5b79c7942ff6cd1c8cd0407ccb344adc4878f"
 metafile = true
@@ -642,6 +718,11 @@ metafile = true
 [[files]]
 file = "mods/distanthorizons-3.3.3-1.21.1-fabric-neoforge.pw.toml"
 hash = "24d114f56c42d0014aab61457a8481a2e95d725ce5ed982f4e5f56b090091861"
+metafile = true
+
+[[files]]
+file = "mods/distraction_free_recipes-neoforge-1.2.1-1.21.1.pw.toml"
+hash = "1a5934e4545e493906ac345d11a6543b13d14b93a53165ea7dbc28d5d40bd9a2"
 metafile = true
 
 [[files]]
@@ -790,6 +871,16 @@ hash = "7829629a9e60aa0b1920dcb7c88cb17ef3b188d6567ab2ffcc86dbd0d6fe6e2b"
 metafile = true
 
 [[files]]
+file = "mods/farsight-1.21-3.8.pw.toml"
+hash = "9fa8afef9d812722b150823e47ef204bc90a185ac6aa08bd77210cd3c3185e7f"
+metafile = true
+
+[[files]]
+file = "mods/fastasyncworldsave-1.21-2.4.pw.toml"
+hash = "ef6c4828606996b3c79c74cc4c131ce43c2fb5a4baab44638602370e010b0e9f"
+metafile = true
+
+[[files]]
 file = "mods/fast-ip-ping-v1.0.5-mc1.21.1-neoforge.pw.toml"
 hash = "b57d41bc50cbc9bbb789c4a5f308d42df77966c6855d8f6719e8f83e4ff5de89"
 metafile = true
@@ -907,6 +998,11 @@ metafile = true
 [[files]]
 file = "mods/golem_spawn_fix-1.0.2-neoforge-1.21.1.pw.toml"
 hash = "e5e8f0d9d57f3cae6619d59ae718bb4b1223f23baadf72b059db65f824ff3ee6"
+metafile = true
+
+[[files]]
+file = "mods/gpumemleakfix-1.21-1.8.pw.toml"
+hash = "72471ae43e5e2d976d380ada3c2d7159e1004685c7200c80eaa8f0caac787cb2"
 metafile = true
 
 [[files]]
@@ -1137,6 +1233,21 @@ metafile = true
 [[files]]
 file = "mods/logbegone-neoforge-1.21.1-1.0.3.pw.toml"
 hash = "33e7b64ebdcf26c3da5e836962967311a8930b9cf0ad51c6083e40bb9ca39a0c"
+metafile = true
+
+[[files]]
+file = "mods/lootintegration_wda-1.6.pw.toml"
+hash = "82cf6ff5bd83a39975280a1a791a8a233a246ba9f2edbe173dc243659e3bdb97"
+metafile = true
+
+[[files]]
+file = "mods/lootintegrations_formations-1.3.pw.toml"
+hash = "d2863187ee0abbafc018fe5dc12e8df405421f0454089bc863c5ca07c11126f9"
+metafile = true
+
+[[files]]
+file = "mods/lootintegrations-1.21.1-4.6.pw.toml"
+hash = "4891b6437ba99eec2ca6875149fd202832cd8bfeae01750f6bd82547321c77a7"
 metafile = true
 
 [[files]]
@@ -1440,6 +1551,11 @@ hash = "49cd45db9f98d80e245e8d237ee86061891b13a143be0b64fe7e6e85663b9042"
 metafile = true
 
 [[files]]
+file = "mods/recipeessentials-1.21-4.0.pw.toml"
+hash = "ecbc384114318570051d906332bb5c4841740240fc4722879761bf3aa6fa78af"
+metafile = true
+
+[[files]]
 file = "mods/redirected-neoforge-1.0.0-1.21.1.pw.toml"
 hash = "79663bdf0a3260a1104c4bdba5f63f3ed3fd76ddccf51bacf3c0fb2ea459fa92"
 metafile = true
@@ -1560,6 +1676,11 @@ hash = "85157bd2a53ddab782c4f5bca46fc4c732307894db6ecd7d1af0d6683873b684"
 metafile = true
 
 [[files]]
+file = "mods/smoothchunk-1.21-4.1.pw.toml"
+hash = "5f26d82bd0fec12f9330a077fe75fddb3c0a806aae4b8bb6ab8c762b529e75e4"
+metafile = true
+
+[[files]]
 file = "mods/smoothswapping-0.9.3.2-1.21.1-neoforge.pw.toml"
 hash = "402c3da6b86775d41f7ab1c814f00330e43c3107c9cc5060232321e7cf145a75"
 metafile = true
@@ -1677,6 +1798,11 @@ metafile = true
 [[files]]
 file = "mods/structure_layout_optimizer-neoforge-1.0.10.pw.toml"
 hash = "fde44dbb29caf7724a2854c37c7b115e20237c586efb66e299119d018b690b22"
+metafile = true
+
+[[files]]
+file = "mods/structureessentials-1.21.1-4.7.pw.toml"
+hash = "eeb9bc8706e5d85edc9ed38258e241a784e2adefdd1c00ad22f5ab781eb4168d"
 metafile = true
 
 [[files]]
@@ -1891,7 +2017,7 @@ metafile = true
 
 [[files]]
 file = "README_Abenteuer-Pack.txt"
-hash = "43b648a99e098c2f649419f1c1233fe06ce82864b607185ac5e721443717f8fa"
+hash = "23b3c1511d46cf4c67ae8233e0635b1257247e05ca225c2aa04c1df1a683495f"
 
 [[files]]
 file = "shaderpacks/complementaryreimagined_r5.5.1.pw.toml"
