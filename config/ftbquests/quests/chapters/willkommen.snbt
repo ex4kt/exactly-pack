@@ -9,7 +9,7 @@
 	title: "&6Willkommen"
 	quests: [
 		{
-			description: ["Dies ist dein Questbuch. Links siehst du die Kapitel.", "Ein Kapitel nach dem anderen: Grundlagen, Lager, Abbau, Create und mehr.", "Klicke eine Quest an, um zu lesen, was zu tun ist. Haken setzt du selbst, Items werden automatisch erkannt.", "Alle kleinen Mods stehen im Kapitel Grundlagen in einer Uebersicht."]
+			description: ["&6Was ist das?", "Dies ist dein Questbuch. Links siehst du die Kapitel.", "Ein Kapitel nach dem anderen: Grundlagen, Lager, Abbau, Create und mehr.", "Klicke eine Quest an, um zu lesen, was zu tun ist. Haken setzt du selbst, Items werden automatisch erkannt.", "Alle kleinen Mods stehen im Kapitel Grundlagen in einer Uebersicht.", "", "&6So gehts", "Klicke eine Quest an, um das Tutorial zu lesen.", "Items werden automatisch erkannt, sobald du sie im Inventar hast. Bei Quests mit Haken klickst du selbst auf den Haken.", "Belohnungen holst du mit einem Klick auf die Truhe unten in der Quest ab.", "", "&6Wofuer ist das wichtig?", "Fange mit Willkommen und Grundlagen an. Danach kannst du frei waehlen: Technik (Create, PneumaticCraft), Magie, Kochen oder Erkunden."]
 			id: "1B8905CD6A6A07B0"
 			title: "Willkommen bei Exactly"
 			rewards: [{ id: "5A4416ACD10664BA", type: "item", item: { id: "minecraft:bread", count: 8 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["1B8905CD6A6A07B0"]
-			description: ["Schlage mit der Hand oder einer Axt Staemme ab.", "Als Belohnung gibt es noch mehr Holz."]
+			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Staemmen werden Bretter, aus Brettern Stoecke, Werkbank und Werkzeug.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofuer ist das wichtig?", "Du brauchst Holz fuer fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und spaeter fuer Create-Wellen und Wasserraeder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus."]
 			id: "AD70B601151C9269"
 			title: "Holz sammeln"
 			rewards: [{ id: "3FD9FA36355B9A30", type: "item", item: { id: "minecraft:oak_log", count: 16 } }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["AD70B601151C9269"]
-			description: ["Aus Brettern baust du eine Werkbank. Damit geht fast alles."]
+			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "", "&6Wofuer ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Spaeter: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Naehe."]
 			id: "3B679BF3502503F2"
 			title: "Werkbank bauen"
 			rewards: [{ id: "D82761AA28248622", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
@@ -39,6 +39,7 @@
 		}
 		{
 			dependencies: ["3B679BF3502503F2"]
+			description: ["&6Was ist das?", "Ein Bett laesst dich die Nacht ueberspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) ueber drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Haelfte der Spieler schlafen.", "", "&6Wofuer ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
 			id: "EB8E9D7BA68A3F34"
 			title: "Ein Bett fuer die Nacht"
 			rewards: [{ id: "03D17CACB594EFE3", type: "xp_levels", xp_levels: 2 }]
@@ -48,6 +49,7 @@
 		}
 		{
 			dependencies: ["EB8E9D7BA68A3F34"]
+			description: ["&6Was ist das?", "Eine Kiste speichert 27 Stapel. Zwei nebeneinander werden eine Doppelkiste.", "", "&6So gehts", "Acht Bretter im Kreis in der Werkbank ergeben eine Kiste.", "Stelle sie auf und lege mit Shift-Klick Items hinein.", "", "&6Wofuer ist das wichtig?", "Ohne Ordnung wird es schnell chaotisch. Im Kapitel Lager und Ordnung lernst du, wie du aus Kisten ein ganzes Lagersystem machst."]
 			id: "3D64137EE4BB4B1D"
 			title: "Kisten sind dein Freund"
 			rewards: [{ id: "EA4480B4E356D64B", type: "item", item: { id: "minecraft:barrel", count: 2 } }]
@@ -57,6 +59,7 @@
 		}
 		{
 			dependencies: ["3D64137EE4BB4B1D"]
+			description: ["&6Was ist das?", "Ein Waystone ist ein Teleport-Punkt. Alle aktivierten Waystones sind miteinander verbunden.", "", "&6So gehts", "Baue einen Waystone (Rezept in JEI) und stelle ihn auf.", "Rechtsklick aktiviert ihn. Ab dann kannst du von jedem anderen Waystone dorthin reisen.", "In Doerfern stehen oft schon Waystones, die du nur aktivieren musst.", "", "&6Wofuer ist das wichtig?", "Die Welt ist riesig. Mit Waystones sparst du lange Wege zwischen Basis, Dorf, Nether-Portal und Dungeons."]
 			id: "6EED97054AD334F5"
 			title: "Wegpunkt: Waystone"
 			rewards: [{ id: "ED53A9A68847D085", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]

@@ -9,7 +9,7 @@
 	title: "&5Magie"
 	quests: [
 		{
-			description: ["Mit Zauberbuechern wirkst du Zauber. Sie kosten Mana (blauer Balken).", "Mana stellt sich mit der Zeit wieder her."]
+			description: ["&6Was ist das?", "Mit Zauberbuechern wirkst du Zauber. Sie kosten Mana (blauer Balken).", "Mana stellt sich mit der Zeit wieder her.", "", "&6So gehts", "Du findest Schriftrollen mit Zaubern in Dungeons oder stellst sie her.", "Zauber kommen in ein Zauberbuch, das du wie eine Waffe ausruestest.", "", "&6Wofuer ist das wichtig?", "Magie ist eine Alternative zu Schwert und Bogen. Heilen, Teleportieren, Feuerbaelle und Beschwoerungen."]
 			id: "9E42A216A64F391A"
 			title: "Was ist Irons Spells?"
 			rewards: [{ id: "8BB6BF94DD6946E2", type: "xp_levels", xp_levels: 1 }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["9E42A216A64F391A"]
-			description: ["Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl."]
+			description: ["&6Was ist das?", "Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl.", "", "&6So gehts", "Erstes Buch herstellen, in den Zauberbuch-Slot oder die Hand.", "", "&6Wofuer ist das wichtig?", "Bessere Buecher haben mehr Plaetze fuer Zauber."]
 			id: "39A64789F2D04BA6"
 			title: "Zauberbuch"
 			rewards: [{ id: "74F590745EA2A033", type: "item", item: { id: "minecraft:book", count: 2 } }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["39A64789F2D04BA6"]
-			description: ["Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein."]
+			description: ["&6Was ist das?", "Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein.", "", "&6So gehts", "Buch und Schriftrolle einlegen, Platz waehlen.", "", "&6Wofuer ist das wichtig?", "Ohne Inschriftentisch keine Zauber im Buch."]
 			id: "752792020D4A926D"
 			title: "Inschriftentisch"
 			rewards: [{ id: "35106893A529CBCB", type: "xp_levels", xp_levels: 3 }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["752792020D4A926D"]
-			description: ["Die Tasten findest du unter Optionen, Steuerung (Suche nach Spell).", "Schritt 1: Zauber im Buch auswaehlen.", "Schritt 2: Zaubern mit der Wirken-Taste."]
+			description: ["&6Was ist das?", "Die Tasten findest du unter Optionen, Steuerung (Suche nach Spell).", "Schritt 1: Zauber im Buch auswaehlen.", "Schritt 2: Zaubern mit der Wirken-Taste.", "", "&6So gehts", "Taste R (Standard) wirkt, mit Mausrad oder Zauber-Rad waehlst du.", "Mana unten zeigt, wie viel du noch hast.", "", "&6Wofuer ist das wichtig?", "Zauber kosten Mana, das sich langsam auffuellt."]
 			id: "6F8EB8225A37402E"
 			title: "Zauber waehlen und wirken"
 			rewards: [{ id: "55E4E3CF617E3F62", type: "xp_levels", xp_levels: 3 }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["6F8EB8225A37402E"]
-			description: ["Die Schmiede macht neue Schriftrollen aus Tinte, Papier und Fokus.", "Die Tinte bestimmt die Staerke, der Fokus die Schule."]
+			description: ["&6Was ist das?", "Die Schmiede macht neue Schriftrollen aus Tinte, Papier und Fokus.", "Die Tinte bestimmt die Staerke, der Fokus die Schule.", "", "&6So gehts", "Tinte, Papier und Schwerpunkt-Item hinein.", "", "&6Wofuer ist das wichtig?", "Waehle genau den Zauber, den du willst."]
 			id: "BE8D6A1187572EFD"
 			title: "Schriftrollen-Schmiede"
 			rewards: [{ id: "8A36D7DF7552FEDC", type: "item", item: { id: "minecraft:paper", count: 8 } }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["BE8D6A1187572EFD"]
-			description: ["Arkane Essenz findest du in magischen Strukturen.", "Du brauchst sie fuer bessere Ausruestung."]
+			description: ["&6Was ist das?", "Arkane Essenz findest du in magischen Strukturen.", "Du brauchst sie fuer bessere Ausruestung.", "", "&6So gehts", "Schriftrollen recyceln oder Lapis verarbeiten.", "", "&6Wofuer ist das wichtig?", "Fuer Upgrades und Ausruestung."]
 			id: "BFA52CAE301FE9D0"
 			title: "Arkane Essenz"
 			rewards: [{ id: "4F59BF4103C37FCA", type: "xp_levels", xp_levels: 4 }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["BFA52CAE301FE9D0"]
-			description: ["Der Arkane Amboss ist die staerkste Werkbank.", "Hier levelst du Schriftrollen und verbesserst Ausruestung und Buecher."]
+			description: ["&6Was ist das?", "Der Arkane Amboss ist die staerkste Werkbank.", "Hier levelst du Schriftrollen und verbesserst Ausruestung und Buecher.", "", "&6So gehts", "Item und Upgrade einlegen.", "", "&6Wofuer ist das wichtig?", "Zauber auf hoehere Stufen bringen."]
 			id: "B5EB987CE7533AF7"
 			title: "Arkanamboss"
 			rewards: [{ id: "74D083170A7BCB14", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["B5EB987CE7533AF7"]
-			description: ["Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen."]
+			description: ["&6Was ist das?", "Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen.", "", "&6So gehts", "In der Alchemie herstellen.", "", "&6Wofuer ist das wichtig?", "Hoehere Tinte ergibt staerkere Schriftrollen."]
 			id: "A6C55CBF49A6812F"
 			title: "Tinte"
 			rewards: [{ id: "38C22C2F7AAECE30", type: "xp_levels", xp_levels: 2 }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["A6C55CBF49A6812F"]
-			description: ["Das Eisen-Zauberbuch hat mehr Zauberplaetze als das aus Kupfer."]
+			description: ["&6Was ist das?", "Das Eisen-Zauberbuch hat mehr Zauberplaetze als das aus Kupfer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Mehr Platz fuer Zauber."]
 			id: "94CDF4337E7B66B8"
 			title: "Eisen-Zauberbuch"
 			rewards: [{ id: "5783FE28EAE68947", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["94CDF4337E7B66B8"]
-			description: ["Mit dem Gold-Zauberbuch wirkst du staerkere Zauber."]
+			description: ["&6Was ist das?", "Mit dem Gold-Zauberbuch wirkst du staerkere Zauber.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer mittlere Magier."]
 			id: "0A48C8AE9E6FD03C"
 			title: "Gold-Zauberbuch"
 			rewards: [{ id: "0284601ACDDCCBB2", type: "xp_levels", xp_levels: 4 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["0A48C8AE9E6FD03C"]
-			description: ["Das Diamant-Zauberbuch ist ein grosses Upgrade fuer Zauberer."]
+			description: ["&6Was ist das?", "Das Diamant-Zauberbuch ist ein grosses Upgrade fuer Zauberer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viele Zauber auf einmal."]
 			id: "45AEE27528D7508D"
 			title: "Diamant-Zauberbuch"
 			rewards: [{ id: "08661011BD25CCBA", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["45AEE27528D7508D"]
-			description: ["Der Alchemiekessel mischt Zutaten zu Traenken und mehr."]
+			description: ["&6Was ist das?", "Der Alchemiekessel mischt Zutaten zu Traenken und mehr.", "", "&6So gehts", "Wasser und Zutaten hinein, Hitze darunter.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer Tinte."]
 			id: "E15ED9219D41D457"
 			title: "Alchemie"
 			rewards: [{ id: "5EC455171FDB9FF2", type: "xp_levels", xp_levels: 3 }]
@@ -129,7 +129,7 @@
 		}
 		{
 			dependencies: ["E15ED9219D41D457"]
-			description: ["Auf dem Podest legst du Zauberbuecher und Items zur Schau aus."]
+			description: ["&6Was ist das?", "Auf dem Podest legst du Zauberbuecher und Items zur Schau aus.", "", "&6So gehts", "Item drauflegen.", "", "&6Wofuer ist das wichtig?", "Schoene Ausstellung."]
 			id: "BB71CDAE2E64A399"
 			title: "Podest"
 			rewards: [{ id: "B20D075637CE21AE", type: "xp_levels", xp_levels: 2 }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["BB71CDAE2E64A399"]
-			description: ["In Tuermen und Hoehlen leben boese Zauberer. Besiege einen Pyromancer."]
+			description: ["&6Was ist das?", "In Tuermen und Hoehlen leben boese Zauberer. Besiege einen Pyromancer.", "", "&6So gehts", "Magier-Tuerme und Zitadellen erkunden.", "", "&6Wofuer ist das wichtig?", "Seltene Schriftrollen und Ruestung."]
 			id: "591CA4EA2840E68E"
 			title: "Zauberer jagen"
 			rewards: [{ id: "1B06E12CC507D1D9", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["591CA4EA2840E68E"]
-			description: ["Der Kryomant beherrscht Eis. Er lebt in kalten Strukturen."]
+			description: ["&6Was ist das?", "Der Kryomant beherrscht Eis. Er lebt in kalten Strukturen.", "", "&6So gehts", "In verschneiten Gebieten.", "", "&6Wofuer ist das wichtig?", "Eis-Schriftrollen."]
 			id: "26C9871077CE3E66"
 			title: "Der Kryomant"
 			rewards: [{ id: "B6C603FB0549E9ED", type: "xp_levels", xp_levels: 6 }]
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["26C9871077CE3E66"]
-			description: ["Der Necromancer ruft Skelette. Besiege ihn."]
+			description: ["&6Was ist das?", "Der Necromancer ruft Skelette. Besiege ihn.", "", "&6So gehts", "In Dungeons.", "", "&6Wofuer ist das wichtig?", "Blut-Schriftrollen."]
 			id: "4AB429C7CCE3890C"
 			title: "Der Totenbeschwoerer"
 			rewards: [{ id: "C9C746839C847AF8", type: "xp_levels", xp_levels: 6 }]
@@ -169,7 +169,7 @@
 		}
 		{
 			dependencies: ["4AB429C7CCE3890C"]
-			description: ["Der Tote Koenig ist ein starker Boss in den Katakomben. Bereite dich gut vor."]
+			description: ["&6Was ist das?", "Der Tote Koenig ist ein starker Boss in den Katakomben. Bereite dich gut vor.", "", "&6So gehts", "In einer Katakombe.", "", "&6Wofuer ist das wichtig?", "Sehr gute Beute."]
 			id: "67147F0E80537073"
 			title: "Der Tote Koenig"
 			rewards: [{ id: "68C4D78868B9B7DE", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
@@ -178,7 +178,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["Runen sind das Herz der Zauberei-Ausruestung. Die leere Rune ist die Basis."]
+			description: ["&6Was ist das?", "Runen sind das Herz der Zauberei-Ausruestung. Die leere Rune ist die Basis.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer alle Element-Runen."]
 			id: "2DC3A3B9A5DC8D8D"
 			title: "Leere Rune"
 			rewards: [{ id: "36DFDABF9C7B87B2", type: "xp_levels", xp_levels: 2 }]
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["2DC3A3B9A5DC8D8D"]
-			description: ["Die Feuer-Rune verstaerkt Feuerzauber in Ausruestung."]
+			description: ["&6Was ist das?", "Die Feuer-Rune verstaerkt Feuerzauber in Ausruestung.", "", "&6So gehts", "Leere Rune mit Feuer-Zutaten.", "", "&6Wofuer ist das wichtig?", "Feuer-Ausruestung und Upgrades."]
 			id: "608BD2F49CC248FC"
 			title: "Feuer-Rune"
 			rewards: [{ id: "37559E0A147D7BF0", type: "xp_levels", xp_levels: 2 }]
@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["608BD2F49CC248FC"]
-			description: ["Die Eis-Rune verstaerkt Eiszauber."]
+			description: ["&6Was ist das?", "Die Eis-Rune verstaerkt Eiszauber.", "", "&6So gehts", "Leere Rune mit Eis-Zutaten.", "", "&6Wofuer ist das wichtig?", "Eis-Ausruestung."]
 			id: "5B1BDD12C892136A"
 			title: "Eis-Rune"
 			rewards: [{ id: "BC81269AEF0D09F5", type: "xp_levels", xp_levels: 2 }]
@@ -208,7 +208,7 @@
 		}
 		{
 			dependencies: ["5B1BDD12C892136A"]
-			description: ["Die Blitz-Rune verstaerkt Blitzzauber."]
+			description: ["&6Was ist das?", "Die Blitz-Rune verstaerkt Blitzzauber.", "", "&6So gehts", "Leere Rune mit Blitz-Zutaten.", "", "&6Wofuer ist das wichtig?", "Blitz-Ausruestung."]
 			id: "88D77B6FE79E7851"
 			title: "Blitz-Rune"
 			rewards: [{ id: "F92B2EE209A325B5", type: "xp_levels", xp_levels: 2 }]
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["88D77B6FE79E7851"]
-			description: ["Die heilige Rune verstaerkt Heilzauber."]
+			description: ["&6Was ist das?", "Die heilige Rune verstaerkt Heilzauber.", "", "&6So gehts", "Leere Rune mit heiligen Zutaten.", "", "&6Wofuer ist das wichtig?", "Heiler-Ausruestung."]
 			id: "517DCCF9E5F48D26"
 			title: "Heilige Rune"
 			rewards: [{ id: "21D67324ECFED6C0", type: "xp_levels", xp_levels: 2 }]
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["517DCCF9E5F48D26"]
-			description: ["Upgrade-Kugeln verbessern Ausruestung am Arkanen Amboss, z.B. mehr Mana oder Feuerkraft."]
+			description: ["&6Was ist das?", "Upgrade-Kugeln verbessern Ausruestung am Arkanen Amboss, z.B. mehr Mana oder Feuerkraft.", "", "&6So gehts", "Im Arkanamboss einsetzen.", "", "&6Wofuer ist das wichtig?", "Mehr Mana oder Zauberkraft."]
 			id: "61ACB74941C633B3"
 			title: "Upgrade-Kugel"
 			rewards: [{ id: "F10175D45226565C", type: "xp_levels", xp_levels: 3 }]
@@ -238,7 +238,7 @@
 		}
 		{
 			dependencies: ["61ACB74941C633B3"]
-			description: ["Der Mana-Ring gibt dir mehr Mana. Trage ihn im Ring-Slot."]
+			description: ["&6Was ist das?", "Der Mana-Ring gibt dir mehr Mana. Trage ihn im Ring-Slot.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Zauber hintereinander."]
 			id: "28C0C9EB8382C171"
 			title: "Mana-Ring"
 			rewards: [{ id: "B4FC5B87372B844D", type: "xp_levels", xp_levels: 3 }]
@@ -248,7 +248,7 @@
 		}
 		{
 			dependencies: ["28C0C9EB8382C171"]
-			description: ["Mit diesem Ring kannst du Zauber schneller wiederholen."]
+			description: ["&6Was ist das?", "Mit diesem Ring kannst du Zauber schneller wiederholen.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Oefter zaubern."]
 			id: "4386E96ECD9A096B"
 			title: "Abklingzeit-Ring"
 			rewards: [{ id: "0AB1797033B4DDD1", type: "xp_levels", xp_levels: 3 }]
@@ -258,7 +258,7 @@
 		}
 		{
 			dependencies: ["4386E96ECD9A096B"]
-			description: ["Mithril ist ein seltenes Erz tief unter der Erde. Es ist Material fuer starke Magie."]
+			description: ["&6Was ist das?", "Mithril ist ein seltenes Erz tief unter der Erde. Es ist Material fuer starke Magie.", "", "&6So gehts", "Tief unten finden.", "", "&6Wofuer ist das wichtig?", "Fuer starke Magie-Ausruestung."]
 			id: "9B20119C2E38E2D2"
 			title: "Mithril"
 			rewards: [{ id: "E5BE93614D376B0A", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["9B20119C2E38E2D2"]
-			description: ["Arkane Barren brauchst du fuer bessere Zauberbuecher und Staebe."]
+			description: ["&6Was ist das?", "Arkane Barren brauchst du fuer bessere Zauberbuecher und Staebe.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer Magier-Ausruestung."]
 			id: "AB10A4591D4E03BE"
 			title: "Arkaner Barren"
 			rewards: [{ id: "FE682F8BECBC8629", type: "xp_levels", xp_levels: 4 }]
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["AB10A4591D4E03BE"]
-			description: ["Magisches Tuch ist der Stoff fuer Zauberer-Ruestungen."]
+			description: ["&6Was ist das?", "Magisches Tuch ist der Stoff fuer Zauberer-Ruestungen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer Roben."]
 			id: "DD81F6029B4F5EFA"
 			title: "Magisches Tuch"
 			rewards: [{ id: "E478588D091BE6C6", type: "xp_levels", xp_levels: 3 }]
@@ -288,7 +288,7 @@
 		}
 		{
 			dependencies: ["DD81F6029B4F5EFA"]
-			description: ["Die Pyromant-Ruestung staerkt Feuerzauber."]
+			description: ["&6Was ist das?", "Die Pyromant-Ruestung staerkt Feuerzauber.", "", "&6So gehts", "Mit Feuer-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Feuerkraft."]
 			id: "0604850468E3DBCE"
 			title: "Pyromant-Ruestung"
 			rewards: [{ id: "03E3E9461075295C", type: "xp_levels", xp_levels: 4 }]
@@ -298,7 +298,7 @@
 		}
 		{
 			dependencies: ["0604850468E3DBCE"]
-			description: ["Die Kryomant-Ruestung staerkt Eiszauber."]
+			description: ["&6Was ist das?", "Die Kryomant-Ruestung staerkt Eiszauber.", "", "&6So gehts", "Mit Eis-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Eiskraft."]
 			id: "34A19C23BE6F0533"
 			title: "Kryomant-Ruestung"
 			rewards: [{ id: "42BA7876D19EFA8F", type: "xp_levels", xp_levels: 4 }]
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["34A19C23BE6F0533"]
-			description: ["Die Elektromant-Ruestung staerkt Blitzzauber."]
+			description: ["&6Was ist das?", "Die Elektromant-Ruestung staerkt Blitzzauber.", "", "&6So gehts", "Mit Blitz-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Blitzkraft."]
 			id: "DAD93667C3A78C5E"
 			title: "Elektromant-Ruestung"
 			rewards: [{ id: "1900DB513F64797A", type: "xp_levels", xp_levels: 4 }]
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["DAD93667C3A78C5E"]
-			description: ["Die Netherit-Magierruestung ist die staerkste Zauberer-Ruestung."]
+			description: ["&6Was ist das?", "Die Netherit-Magierruestung ist die staerkste Zauberer-Ruestung.", "", "&6So gehts", "Im Schmiedetisch aufwerten.", "", "&6Wofuer ist das wichtig?", "Starke Magier-Ruestung."]
 			id: "F5C13E044D89F130"
 			title: "Netherit-Kampfmagier"
 			rewards: [{ id: "D4D6972040EB9471", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 } }]
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["F5C13E044D89F130"]
-			description: ["Das Netherit-Zauberbuch hat sehr viele Zauberplaetze."]
+			description: ["&6Was ist das?", "Das Netherit-Zauberbuch hat sehr viele Zauberplaetze.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viel Platz fuer Zauber."]
 			id: "4B53D3BCD3551BAE"
 			title: "Netherit-Zauberbuch"
 			rewards: [{ id: "3A62C11DD65AD7A4", type: "xp_levels", xp_levels: 6 }]
@@ -338,7 +338,7 @@
 		}
 		{
 			dependencies: ["4B53D3BCD3551BAE"]
-			description: ["Das Drachenhaut-Zauberbuch ist eines der besten Buecher. Du brauchst Drachenhaut vom Enderdrachen."]
+			description: ["&6Was ist das?", "Das Drachenhaut-Zauberbuch ist eines der besten Buecher. Du brauchst Drachenhaut vom Enderdrachen.", "", "&6So gehts", "Mit Drachenhaut herstellen.", "", "&6Wofuer ist das wichtig?", "Ultimative Magie."]
 			id: "970B920F9945DC7A"
 			title: "Drachenhaut-Zauberbuch"
 			rewards: [{ id: "808FD55E2FD3506E", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -348,7 +348,7 @@
 		}
 		{
 			dependencies: ["970B920F9945DC7A"]
-			description: ["Staebe geben Zauberkraft und einen Nahkampfangriff. Der Graubart-Stab ist ein guter Start."]
+			description: ["&6Was ist das?", "Staebe geben Zauberkraft und einen Nahkampfangriff. Der Graubart-Stab ist ein guter Start.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Staerkere Zauber."]
 			id: "F92D710CAF3F8B39"
 			title: "Zauberstab"
 			rewards: [{ id: "171DFB6F70293EDA", type: "xp_levels", xp_levels: 4 }]
@@ -357,7 +357,7 @@
 			y: 15.0d
 		}
 		{
-			description: ["Kultisten beschwoeren Kreaturen. Sie leben in dunklen Strukturen."]
+			description: ["&6Was ist das?", "Kultisten beschwoeren Kreaturen. Sie leben in dunklen Strukturen.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofuer ist das wichtig?", "Beute fuer Magier."]
 			id: "2A071872A5A4E5E0"
 			title: "Kultisten"
 			rewards: [{ id: "111EE9F7CD77FCF9", type: "xp_levels", xp_levels: 5 }]
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["2A071872A5A4E5E0"]
-			description: ["Der Apotheker wirft Traenke. Besiege ihn."]
+			description: ["&6Was ist das?", "Der Apotheker wirft Traenke. Besiege ihn.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofuer ist das wichtig?", "Traenke und Zutaten."]
 			id: "BA578D777409F07E"
 			title: "Apotheker"
 			rewards: [{ id: "2571CFB822F6EF7E", type: "xp_levels", xp_levels: 5 }]
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["BA578D777409F07E"]
-			description: ["Der Archevoker ist ein maechtiger Illager-Magier."]
+			description: ["&6Was ist das?", "Der Archevoker ist ein maechtiger Illager-Magier.", "", "&6So gehts", "In Dungeons.", "", "&6Wofuer ist das wichtig?", "Seltene Beute."]
 			id: "5B33C09710217CD5"
 			title: "Der Erz-Beschwoerer"
 			rewards: [{ id: "A24A4DC727D811C0", type: "xp_levels", xp_levels: 8 }]
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["5B33C09710217CD5"]
-			description: ["Der Citadel Keeper bewacht die Zitadelle. Ein harter Gegner."]
+			description: ["&6Was ist das?", "Der Citadel Keeper bewacht die Zitadelle. Ein harter Gegner.", "", "&6So gehts", "Zitadelle erkunden.", "", "&6Wofuer ist das wichtig?", "Starke Beute."]
 			id: "024E5B04280D7E2A"
 			title: "Zitadellen-Waechter"
 			rewards: [{ id: "F0CCBCA91BC9F9F7", type: "xp_levels", xp_levels: 10 }]
@@ -397,7 +397,7 @@
 		}
 		{
 			dependencies: ["024E5B04280D7E2A"]
-			description: ["Der Feuerboss ist einer der staerksten Gegner von Irons Spells."]
+			description: ["&6Was ist das?", "Der Feuerboss ist einer der staerksten Gegner von Irons Spells.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Seltene Beute."]
 			id: "ECE21B4B0E58B50A"
 			title: "Feuerboss"
 			rewards: [{ id: "51905057884F8859", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
@@ -407,7 +407,7 @@
 		}
 		{
 			dependencies: ["ECE21B4B0E58B50A"]
-			description: ["Die Eisspinne lebt in ihrem Bau im Schnee. Ihre Eier sind wertvoll."]
+			description: ["&6Was ist das?", "Die Eisspinne lebt in ihrem Bau im Schnee. Ihre Eier sind wertvoll.", "", "&6So gehts", "In kalten Gebieten.", "", "&6Wofuer ist das wichtig?", "Eis-Beute."]
 			id: "6B8CC999AE04FCF3"
 			title: "Eisspinne"
 			rewards: [{ id: "414E0E2978AB85E6", type: "xp_levels", xp_levels: 8 }]

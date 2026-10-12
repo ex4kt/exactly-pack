@@ -9,7 +9,7 @@
 	title: "&aOverworld"
 	quests: [
 		{
-			description: ["Eisen findest du in Hoehlen und Bergen. Schmelze es im Ofen."]
+			description: ["&6Was ist das?", "Eisen findest du in Hoehlen und Bergen. Schmelze es im Ofen.", "", "&6So gehts", "Eisenerz findest du in Hoehlen und Bergen, viel davon um Ebene 16 und hoch in Bergen.", "Im Ofen zu Barren schmelzen. Mit Create zerkleinern bringt mehr Barren pro Erz.", "", "&6Wofuer ist das wichtig?", "Werkzeug, Ruestung, Eimer, Schienen, Andesit-Legierung, Kompressoren: Fast jede Mod braucht Eisen. Lege frueh einen Vorrat an."]
 			id: "AF0D7DDE0EA184A1"
 			title: "Eisen!"
 			rewards: [{ id: "79EDEB9A8DB10095", type: "item", item: { id: "minecraft:bread", count: 12 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["AF0D7DDE0EA184A1"]
-			description: ["Diamanten liegen tief unter der Erde, ab Ebene -50. Du brauchst eine Eisenspitzhacke."]
+			description: ["&6Was ist das?", "Diamanten liegen tief unter der Erde, ab Ebene -50. Du brauchst eine Eisenspitzhacke.", "", "&6So gehts", "Gehe tief hinunter, um Ebene minus 58. Mit Eisenspitzhacke abbauen.", "Glueck auf der Spitzhacke gibt mehr Diamanten pro Erz.", "", "&6Wofuer ist das wichtig?", "Diamantwerkzeug baut Obsidian ab, damit geht es in den Nether. Auch Verzauberungstisch und viele Mod-Rezepte brauchen Diamanten."]
 			id: "35FF9CEBC0378B34"
 			title: "Diamanten"
 			rewards: [{ id: "55FC761EE7AB3EE0", type: "xp_levels", xp_levels: 5 }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["35FF9CEBC0378B34"]
-			description: ["Mit Buechern und Lapis verzauberst du Ausruestung."]
+			description: ["&6Was ist das?", "Mit dem Verzauberungstisch verbesserst du Ausruestung.", "", "&6So gehts", "Diamanten, Obsidian und Buch. Buecherregale im Abstand von einem Block machen ihn staerker (maximal 15).", "Item hineinlegen, Lapis dazu, Verzauberung waehlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Schaerfe, Schutz und Haltbarkeit sind fuer jeden Bosskampf wichtig."]
 			id: "A2FBBF0AB6EE1D87"
 			title: "Verzauberungstisch"
 			rewards: [{ id: "58BA1CE7A6684315", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["A2FBBF0AB6EE1D87"]
-			description: ["Creeper explodieren. Halte Abstand und schlage zu."]
+			description: ["&6Was ist das?", "Creeper explodieren. Halte Abstand und schlage zu.", "", "&6So gehts", "Schlag zu und weiche sofort zurueck, bevor er zischt. Ein Schild blockt die Explosion.", "Mit Bogen oder Muskete aus der Ferne ist es am sichersten.", "", "&6Wofuer ist das wichtig?", "Schwarzpulver brauchst du fuer TNT, Feuerwerk (Elytra-Flug) und Munition."]
 			id: "4C40586D04169654"
 			title: "Der Creeper-Jaeger"
 			rewards: [{ id: "3C5A33F5D1F74347", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["4C40586D04169654"]
-			description: ["Der Warden lebt in der Tiefen Dunkelheit. Sei leise und schleiche."]
+			description: ["&6Was ist das?", "Der Warden ist blind, hoert aber jedes Geraeusch. Er ist staerker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Staedte). Schleiche und wirf Schneebaelle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausruestung und Heiltraenken.", "", "&6Wofuer ist das wichtig?", "Antike Staedte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Ruestungsdesigns."]
 			id: "A6755E634543E0AE"
 			title: "Der Waechter der Tiefe"
 			rewards: [{ id: "A257E61987E0FD66", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["A6755E634543E0AE"]
-			description: ["Mit dem Schmiedetisch verbesserst du Ausruestung mit Ruestungsdesign und Netherit."]
+			description: ["&6Was ist das?", "Mit dem Schmiedetisch verbesserst du Ausruestung mit Ruestungsdesign und Netherit.", "", "&6So gehts", "Vorlage, Ausruestung und Material einlegen.", "", "&6Wofuer ist das wichtig?", "Aus Diamant wird hier Netherit, Advanced Netherite und viele Mod-Ruestungen werden hier verbessert."]
 			id: "8C2C73E1C1B6EA14"
 			title: "Schmiedetisch"
 			rewards: [{ id: "73D2EC810B04AD86", type: "xp_levels", xp_levels: 2 }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["8C2C73E1C1B6EA14"]
-			description: ["Dorfbewohner handeln mit dir. Suche ein Dorf und tausche gegen Smaragde."]
+			description: ["&6Was ist das?", "Dorfbewohner handeln mit dir. Suche ein Dorf und tausche gegen Smaragde.", "", "&6So gehts", "Rede mit Dorfbewohnern mit Rechtsklick. Arbeitsbloecke geben ihnen einen Beruf.", "Smaragde verdienst du durch Verkaufen von Weizen, Papier oder Kohle.", "", "&6Wofuer ist das wichtig?", "Bibliothekare verkaufen Verzauberungsbuecher wie Reparatur. Ein gutes Dorf spart viele Stunden."]
 			id: "094B622650B032FF"
 			title: "Ein Dorf besuchen"
 			rewards: [{ id: "C18BF37614AE2201", type: "item", item: { id: "minecraft:bread", count: 8 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["094B622650B032FF"]
-			description: ["Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock."]
+			description: ["&6Was ist das?", "Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock.", "", "&6So gehts", "Mit Glasflasche am vollen Bienenstock Honig sammeln. Lagerfeuer darunter beruhigt die Bienen.", "Mit Schere bekommst du Honigwaben.", "", "&6Wofuer ist das wichtig?", "Honig fuer Met (Brewin), Kerzen aus Waben, Honig-Seetang und Create-Honig."]
 			id: "A3ED49D67593305A"
 			title: "Bienen"
 			rewards: [{ id: "4E884D763FE65347", type: "xp_levels", xp_levels: 3 }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["A3ED49D67593305A"]
-			description: ["Mit der Angel fischt du Fische, Schaetze und Verzauberbuecher."]
+			description: ["&6Was ist das?", "Mit der Angel fischt du Fische, Schaetze und Verzauberbuecher.", "", "&6So gehts", "Angel ins Wasser werfen, bei Blasen einziehen.", "Mit Glueck des Meeres und Koeder wird es besser.", "", "&6Wofuer ist das wichtig?", "Fisch fuer Oceans Delight und Sushi. Beim Angeln gibt es auch Reparatur-Buecher."]
 			id: "4F35CE769C767ED9"
 			title: "Angeln"
 			rewards: [{ id: "2794A8D89341CA2E", type: "item", item: { id: "minecraft:cooked_salmon", count: 8 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["4F35CE769C767ED9"]
-			description: ["Skelette schiessen aus der Ferne. Nutze Deckung."]
+			description: ["&6Was ist das?", "Skelette schiessen aus der Ferne. Nutze Deckung.", "", "&6So gehts", "Nutze Deckung, gehe nah ran oder blocke mit dem Schild.", "", "&6Wofuer ist das wichtig?", "Knochen ergeben Knochenmehl (Duenger) und Pfeile kannst du wiederverwenden."]
 			id: "2BBAC307BD308F25"
 			title: "Sieger ueber Skelette"
 			rewards: [{ id: "B44D90D09141B055", type: "xp_levels", xp_levels: 3 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["2BBAC307BD308F25"]
-			description: ["Pluenderer-Aussenposten sind gefaehrlich. Besiege einen Pluenderer."]
+			description: ["&6Was ist das?", "Pluenderer-Aussenposten sind gefaehrlich. Besiege einen Pluenderer.", "", "&6So gehts", "Aussenposten erkennst du am grauen Turm. Toete den Anfuehrer mit Banner, dann bekommst du ein schlechtes Omen.", "", "&6Wofuer ist das wichtig?", "Ein Dorf-Ueberfall mit schlechtem Omen gibt den Totem der Unsterblichkeit und Smaragde."]
 			id: "B1C4F93BB74827F9"
 			title: "Der Pluenderer"
 			rewards: [{ id: "845765523A4CEC9B", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["B1C4F93BB74827F9"]
-			description: ["Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausruestung."]
+			description: ["&6Was ist das?", "Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausruestung.", "", "&6So gehts", "Mit dem Natures Compass oder einer Forscherkarte vom Kartografen finden.", "Magier (Evoker) lassen den Totem der Unsterblichkeit fallen.", "", "&6Wofuer ist das wichtig?", "Der Totem rettet dich einmal vor dem Tod. Halte ihn in der zweiten Hand bei jedem Bosskampf."]
 			id: "70175AE0EB9EB6EA"
 			title: "Das Waldanwesen"
 			rewards: [{ id: "D997BDE8437D1E0D", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
@@ -129,7 +129,7 @@
 		}
 		{
 			dependencies: ["70175AE0EB9EB6EA"]
-			description: ["Illager Invasion bringt neue Gegner. Besiege einen Invoker."]
+			description: ["&6Was ist das?", "Illager Invasion bringt den Invoker, einen sehr starken Illager-Magier.", "", "&6So gehts", "Er erscheint in Ueberfaellen und eigenen Bauten. Halte Abstand von seinen Zaubern und greife zwischen den Zaubern an.", "", "&6Wofuer ist das wichtig?", "Gute Beute und Training fuer die grossen Bosse."]
 			id: "91A619988FF4F854"
 			title: "Der Illager-Magier"
 			rewards: [{ id: "95E432034C548A4B", type: "xp_levels", xp_levels: 8 }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["91A619988FF4F854"]
-			description: ["Cataclysm bringt grosse Bosse. Der Kobolediator lebt in der Wueste."]
+			description: ["&6Was ist das?", "Cataclysm bringt grosse Bosse. Der Kobolediator lebt in der Wueste.", "", "&6So gehts", "Der Kobolediator lebt in der Wueste. Weiche seinen Spruengen seitlich aus.", "", "&6Wofuer ist das wichtig?", "Cataclysm-Bosse lassen die staerksten Materialien des Packs fallen."]
 			id: "DA97DA003B53F405"
 			title: "Cataclysm: Kobolediator"
 			rewards: [{ id: "AC3CFCA8CF883D00", type: "xp_levels", xp_levels: 6 }]
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["DA97DA003B53F405"]
-			description: ["In der Verfluchten Pyramide liegt der Ancient Remnant. Er ist ein harter Boss."]
+			description: ["&6Was ist das?", "In der Verfluchten Pyramide liegt der Ancient Remnant. Er ist ein harter Boss.", "", "&6So gehts", "Bringe gute Ruestung, Essen und Heilung mit. Er ruft Sandstuerme und Kaefer.", "", "&6Wofuer ist das wichtig?", "Er laesst Antikes Metall fallen, Material fuer starke Cataclysm-Waffen."]
 			id: "9AE0C97E69F5B916"
 			title: "Cataclysm: Verfluchte Pyramide"
 			rewards: [{ id: "51AB78C8C007B009", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -158,7 +158,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Twilight Forest ist eine eigene Dimension. Wirf einen Diamanten in einen Teich mit Blumen drumherum.", "Dort beginnt ein langes Abenteuer mit vielen Bossen."]
+			description: ["&6Was ist das?", "Twilight Forest ist eine eigene Dimension. Wirf einen Diamanten in einen Teich mit Blumen drumherum.", "Dort beginnt ein langes Abenteuer mit vielen Bossen.", "", "&6So gehts", "Baue einen 2x2-Teich und stelle Blumen oder Gras ringsum. Wirf einen Diamanten hinein.", "Im Wald hilft die Magische Karte, Bosse zu finden.", "", "&6Wofuer ist das wichtig?", "Bosse muessen in der richtigen Reihenfolge besiegt werden, sonst blockieren Fluch-Effekte den Weg. Die Reihenfolge zeigen die naechsten Quests."]
 			id: "6500D6CE1A353583"
 			title: "Der Zwielichtwald"
 			rewards: [{ id: "B121349265E7DDAB", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["6500D6CE1A353583"]
-			description: ["Die Naga ist der erste Boss des Waldes. Sie hat Schuppen als Beute."]
+			description: ["&6Was ist das?", "Die Naga ist der erste Boss des Waldes. Sie hat Schuppen als Beute.", "", "&6So gehts", "Sie lebt in einem Hof aus Steinen. Weiche ihren Angriffen seitlich aus.", "", "&6Wofuer ist das wichtig?", "Naga-Schuppen ergeben Ruestung. Danach ist der Lich dran."]
 			id: "F9B594743A14BA59"
 			title: "Naga"
 			rewards: [{ id: "E7B9EE6C0E7AC6FB", type: "xp_levels", xp_levels: 8 }]
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["F9B594743A14BA59"]
-			description: ["Der Lich ist ein maechtiger Zauberer. Bereite dich auf Magie vor."]
+			description: ["&6Was ist das?", "Der Lich ist ein maechtiger Zauberer. Bereite dich auf Magie vor.", "", "&6So gehts", "Er hat Schilde, die du zuerst zerstoeren musst. Wirf seine Feuerbaelle zurueck.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich das Labyrinth mit dem Minoshroom."]
 			id: "AEDA4F82D0E261A0"
 			title: "Lich"
 			rewards: [{ id: "CA8510DAD5B3ECDE", type: "xp_levels", xp_levels: 10 }]
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["AEDA4F82D0E261A0"]
-			description: ["Der Minoshroom bewacht ein Labyrinth."]
+			description: ["&6Was ist das?", "Der Minoshroom bewacht ein Labyrinth im Sumpf.", "", "&6So gehts", "Feuerresistenz-Traenke helfen. Er rennt auf dich zu, weiche aus.", "", "&6Wofuer ist das wichtig?", "Er bringt Meef-Stroganoff und oeffnet den Weg zur Hydra."]
 			id: "0C61EBD1DCD25736"
 			title: "Minoshroom"
 			rewards: [{ id: "48E2D9A370DF925C", type: "xp_levels", xp_levels: 10 }]
@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["0C61EBD1DCD25736"]
-			description: ["Die Hydra hat viele Koepfe. Hau sie ab, sobald sie schlaeft."]
+			description: ["&6Was ist das?", "Die Hydra hat viele Koepfe. Hau sie ab, sobald sie schlaeft.", "", "&6So gehts", "Schlage die Koepfe, wenn sie den Mund oeffnen.", "", "&6Wofuer ist das wichtig?", "Hydra-Fleisch ist eines der besten Essen. Danach folgen Ritter und Ur-Ghast."]
 			id: "49A48EFF187865E1"
 			title: "Hydra"
 			rewards: [{ id: "BCF6EA03D1CA0F0E", type: "xp_levels", xp_levels: 12 }]
@@ -207,7 +207,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["Twilight Forest: Steeleaf waechst in der Wildnis. Daraus entsteht gruene Ausruestung."]
+			description: ["&6Was ist das?", "Twilight Forest: Steeleaf waechst in der Wildnis. Daraus entsteht gruene Ausruestung.", "", "&6So gehts", "Pflanzen in Hoehlen und Bloecke abbauen.", "", "&6Wofuer ist das wichtig?", "Gruene Ausruestung, besser als Eisen."]
 			id: "F04E43BF1BD715D5"
 			title: "Stahlblatt"
 			rewards: [{ id: "7F4D3FE0E5DA98DB", type: "xp_levels", xp_levels: 3 }]
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["F04E43BF1BD715D5"]
-			description: ["Twilight Forest: Ironwood aus Liveroot und Eisen. Gutes Werkzeugmaterial."]
+			description: ["&6Was ist das?", "Twilight Forest: Ironwood aus Liveroot und Eisen. Gutes Werkzeugmaterial.", "", "&6So gehts", "Herstellen und schmelzen.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge, die sich selbst reparieren."]
 			id: "C7DC6672D6F544B7"
 			title: "Eisenholz"
 			rewards: [{ id: "FD30B3A14941294C", type: "xp_levels", xp_levels: 3 }]
@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["C7DC6672D6F544B7"]
-			description: ["Die Magic Map zeigt die Bosse und Biome des Zwielichtwalds."]
+			description: ["&6Was ist das?", "Die Magic Map zeigt die Bosse und Biome des Zwielichtwalds.", "", "&6So gehts", "Rechtsklick zum Aktivieren.", "", "&6Wofuer ist das wichtig?", "Findet die naechsten Bosse."]
 			id: "DC243420DB3D17DC"
 			title: "Magische Karte"
 			rewards: [{ id: "60BB5D0BB684259F", type: "xp_levels", xp_levels: 2 }]
@@ -237,7 +237,7 @@
 		}
 		{
 			dependencies: ["DC243420DB3D17DC"]
-			description: ["Der Uncrafting Table zerlegt Items wieder in ihre Teile."]
+			description: ["&6Was ist das?", "Der Uncrafting Table zerlegt Items wieder in ihre Teile.", "", "&6So gehts", "Item einlegen und das Ergebnis nehmen.", "", "&6Wofuer ist das wichtig?", "Gut, um Verzauberungen zu entfernen oder Fehlcrafts zu retten."]
 			id: "B2CE71A9811D46BC"
 			title: "Entschoepfungstisch"
 			rewards: [{ id: "B9A1D875A330CDE3", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -247,7 +247,7 @@
 		}
 		{
 			dependencies: ["B2CE71A9811D46BC"]
-			description: ["Die Ritterphantome bewachen den Goblin-Festung-Turm."]
+			description: ["&6Was ist das?", "Die Ritterphantome bewachen den Goblin-Festung-Turm.", "", "&6So gehts", "Kaempfe in der Mitte. Sie fliegen und greifen nacheinander an.", "", "&6Wofuer ist das wichtig?", "Rittermetall fuer starke Ruestung."]
 			id: "F5A528185DEA2A16"
 			title: "Ritterphantome"
 			rewards: [{ id: "3489A713C6C0B4DE", type: "xp_levels", xp_levels: 10 }]
@@ -257,7 +257,7 @@
 		}
 		{
 			dependencies: ["F5A528185DEA2A16"]
-			description: ["Rittermetall ist ein starkes Material aus Ruestungsscherben."]
+			description: ["&6Was ist das?", "Rittermetall ist ein starkes Material aus Ruestungsscherben.", "", "&6So gehts", "Aus Ruestungsscherben schmelzen.", "", "&6Wofuer ist das wichtig?", "Ruestung mit hohem Schutz."]
 			id: "93A18DFB19C234C7"
 			title: "Rittermetall"
 			rewards: [{ id: "60D8459732DDA7C6", type: "xp_levels", xp_levels: 4 }]
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["93A18DFB19C234C7"]
-			description: ["Der Ur-Ghast herrscht im dunklen Turm."]
+			description: ["&6Was ist das?", "Der Ur-Ghast herrscht im Dunklen Turm.", "", "&6So gehts", "Zerstoere die Ghast-Fallen, um ihn zu schwaechen.", "", "&6Wofuer ist das wichtig?", "Seine Traenen machen Feuriges Eisen."]
 			id: "07EBC892038A3F7E"
 			title: "Ur-Ghast"
 			rewards: [{ id: "6FAB65AEBD6EC3AA", type: "xp_levels", xp_levels: 12 }]
@@ -277,7 +277,7 @@
 		}
 		{
 			dependencies: ["07EBC892038A3F7E"]
-			description: ["Fiery Ingot aus feurigem Blut. Sehr starkes Material."]
+			description: ["&6Was ist das?", "Fiery Ingot aus feurigem Blut. Sehr starkes Material.", "", "&6So gehts", "Feuriges Blut und Eisen.", "", "&6Wofuer ist das wichtig?", "Ruestung, die Gegner in Brand setzt."]
 			id: "0B40C9325E39CF50"
 			title: "Feuriges Eisen"
 			rewards: [{ id: "756AD0FE6F5CD3C0", type: "xp_levels", xp_levels: 5 }]
@@ -287,7 +287,7 @@
 		}
 		{
 			dependencies: ["0B40C9325E39CF50"]
-			description: ["Der Alpha-Yeti lebt in der Eishoehle der Schneewaelder."]
+			description: ["&6Was ist das?", "Der Alpha-Yeti lebt in der Eishoehle der Schneewaelder.", "", "&6So gehts", "Weiche den herabfallenden Eiszapfen aus.", "", "&6Wofuer ist das wichtig?", "Sein Fell macht warme Ruestung."]
 			id: "079AC59197144581"
 			title: "Alpha-Yeti"
 			rewards: [{ id: "6867C0C60916965A", type: "xp_levels", xp_levels: 12 }]
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["079AC59197144581"]
-			description: ["Die Schneekoenigin wartet im Eispalast."]
+			description: ["&6Was ist das?", "Die Schneekoenigin wartet im Eispalast.", "", "&6So gehts", "Zerstoere ihre Eisbloecke und greife an.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich der Weg weiter."]
 			id: "1D270BB74B6D4061"
 			title: "Schneekoenigin"
 			rewards: [{ id: "EC55C53909032AD5", type: "xp_levels", xp_levels: 14 }]
@@ -307,7 +307,7 @@
 		}
 		{
 			dependencies: ["1D270BB74B6D4061"]
-			description: ["Die Lamp of Cinders verbrennt Dornen und oeffnet den Weg zum Ende des Waldes."]
+			description: ["&6Was ist das?", "Die Lamp of Cinders verbrennt Dornen und oeffnet den Weg zum Ende des Waldes.", "", "&6So gehts", "Rechtsklick auf Dornen.", "", "&6Wofuer ist das wichtig?", "Oeffnet den Weg zum Ende des Waldes."]
 			id: "E89C5C2A23747EEF"
 			title: "Lampe der Asche"
 			rewards: [{ id: "B57C0FD21EF84C28", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -316,7 +316,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Der Harbinger wartet in der Alten Fabrik. Er schiesst Laser."]
+			description: ["&6Was ist das?", "Der Harbinger wartet in der Alten Fabrik. Er schiesst Laser.", "", "&6So gehts", "Er schiesst Laser und Raketen. Bleib in Bewegung und nutze Deckung.", "", "&6Wofuer ist das wichtig?", "Das Mechanische Auge wird fuer starke Waffen gebraucht."]
 			id: "627EDD05B260FBC8"
 			title: "Cataclysm: Harbinger"
 			rewards: [{ id: "7D8C315247A50DDA", type: "xp_levels", xp_levels: 14 }]
@@ -325,7 +325,7 @@
 			y: 17.0d
 		}
 		{
-			description: ["Maledictus lebt im Frostgefaengnis. Seine Beute ist Cursium."]
+			description: ["&6Was ist das?", "Maledictus lebt im Frostgefaengnis. Seine Beute ist Cursium.", "", "&6So gehts", "Er ist sehr schnell. Weiche aus und greife nach seinen Angriffen an.", "", "&6Wofuer ist das wichtig?", "Cursium fuer starke Ruestung."]
 			id: "006BBCB5B75D46F5"
 			title: "Cataclysm: Maledictus"
 			rewards: [{ id: "6616455F30CA73D8", type: "xp_levels", xp_levels: 14 }]
@@ -334,7 +334,7 @@
 			y: 17.0d
 		}
 		{
-			description: ["Antikes Metall erhaeltst du vom Ancient Remnant."]
+			description: ["&6Was ist das?", "Antikes Metall erhaeltst du vom Ancient Remnant.", "", "&6So gehts", "Den Boss in der Verfluchten Pyramide besiegen.", "", "&6Wofuer ist das wichtig?", "Fuer Cataclysm-Waffen."]
 			id: "D6729831840362B6"
 			title: "Antikes Metall"
 			rewards: [{ id: "6EE9C7595C425619", type: "xp_levels", xp_levels: 5 }]
@@ -343,7 +343,7 @@
 			y: 17.0d
 		}
 		{
-			description: ["Cursium vom Maledictus macht starke Ruestung."]
+			description: ["&6Was ist das?", "Cursium vom Maledictus macht starke Ruestung.", "", "&6So gehts", "Den Boss besiegen.", "", "&6Wofuer ist das wichtig?", "Cursium-Ruestung ist eine der besten."]
 			id: "6E37824A61358204"
 			title: "Cursium"
 			rewards: [{ id: "FA4943CFD10BA207", type: "xp_levels", xp_levels: 6 }]
@@ -352,7 +352,7 @@
 			y: 17.0d
 		}
 		{
-			description: ["Der Korallen-Golem lebt in den Ozeanen."]
+			description: ["&6Was ist das?", "Der Korallen-Golem lebt in den Ozeanen.", "", "&6So gehts", "Im Ozean suchen.", "", "&6Wofuer ist das wichtig?", "Korallen-Brocken fuer Cataclysm-Rezepte."]
 			id: "20383AE8C537B8E9"
 			title: "Korallen-Golem"
 			rewards: [{ id: "882A17580705A7CE", type: "xp_levels", xp_levels: 6 }]
@@ -361,7 +361,7 @@
 			y: 17.0d
 		}
 		{
-			description: ["Die Amethyst-Krabbe lebt in Hoehlen mit Amethyst."]
+			description: ["&6Was ist das?", "Die Amethyst-Krabbe lebt in Hoehlen mit Amethyst.", "", "&6So gehts", "In Hoehlen suchen.", "", "&6Wofuer ist das wichtig?", "Panzer fuer Cataclysm-Rezepte."]
 			id: "CE7627DB2CC75E85"
 			title: "Amethyst-Krabbe"
 			rewards: [{ id: "E631F55615DA2403", type: "xp_levels", xp_levels: 6 }]
@@ -370,7 +370,7 @@
 			y: 19.0d
 		}
 		{
-			description: ["Dungeons Arise baut riesige Strukturen: Burgen, Tuerme, Schiffe. Finde eine und erkunde sie."]
+			description: ["&6Was ist das?", "Dungeons Arise baut riesige Strukturen: Burgen, Tuerme, Schiffe. Finde eine und erkunde sie.", "", "&6So gehts", "Halte beim Reisen Ausschau nach grossen Bauten am Horizont oder auf der Karte.", "Nimm Fackeln, Essen, Bloecke und ein Bett mit, die Bauten sind gross und voller Gegner.", "Die beste Beute liegt meist ganz oben oder ganz unten.", "", "&6Wofuer ist das wichtig?", "Hier findest du Diamanten, verzauberte Ausruestung und Artefakte, bevor du dich an die grossen Bosse wagst."]
 			id: "4B05E22BFBB2ECED"
 			title: "Dungeons Arise"
 			rewards: [{ id: "53743AE5D1E79FBB", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -379,7 +379,7 @@
 			y: 19.0d
 		}
 		{
-			description: ["Yungs Mods verbessern Minen, Dungeons, Festungen und Tempel. Erkunde eine Better Stronghold oder Better Mineshaft."]
+			description: ["&6Was ist das?", "Yungs Mods verbessern Minen, Dungeons, Festungen und Tempel. Erkunde eine Better Stronghold oder Better Mineshaft.", "", "&6So gehts", "Better Mineshafts findest du in Hoehlen, Better Strongholds mit Enderaugen.", "Achte auf Fallen in Wuestentempeln und Dschungeltempeln.", "", "&6Wofuer ist das wichtig?", "Die Festung (Stronghold) brauchst du fuer das Endportal. Minen haben Schienen, Kohle und Beute fuer den Anfang."]
 			id: "3999BA1A3766E73E"
 			title: "Yungs Bauten"
 			rewards: [{ id: "895ECCF0CFD86580", type: "xp_levels", xp_levels: 4 }]

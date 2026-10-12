@@ -9,7 +9,7 @@
 	title: "&6Grundlagen"
 	quests: [
 		{
-			description: ["Schritt 1: Druecke M, um die Weltkarte (Xaeros) zu oeffnen.", "Schritt 2: Die Minikarte oben im Bild zeigt dir, wo du bist.", "Tipp: Auf der Karte kannst du Wegpunkte setzen (Taste N)."]
+			description: ["&6Was ist das?", "Schritt 1: Druecke M, um die Weltkarte (Xaeros) zu oeffnen.", "Schritt 2: Die Minikarte oben im Bild zeigt dir, wo du bist.", "Tipp: Auf der Karte kannst du Wegpunkte setzen (Taste N).", "", "&6So gehts", "Druecke M fuer die grosse Weltkarte.", "Mit N oeffnest du die Wegpunkt-Liste. Auf der Karte setzt du mit Rechtsklick einen Wegpunkt.", "Beim Tod wird automatisch ein Wegpunkt an der Todesstelle gesetzt.", "", "&6Wofuer ist das wichtig?", "Setze Wegpunkte fuer Basis, Doerfer und Dungeons. Ueber die Karte sicherst du spaeter auch deine Chunks (Open Parties and Claims)."]
 			id: "9F0FA943889A171C"
 			title: "Karte oeffnen"
 			rewards: [{ id: "FFBF3627AD5229B5", type: "xp_levels", xp_levels: 1 }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["9F0FA943889A171C"]
-			description: ["Schritt 1: Halte den Mauszeiger im Inventar ueber ein Item.", "Schritt 2: Druecke R, um zu sehen, wie man es herstellt.", "Schritt 3: Druecke U, um zu sehen, wofuer man es braucht."]
+			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar ueber ein Item.", "Schritt 2: Druecke R, um zu sehen, wie man es herstellt.", "Schritt 3: Druecke U, um zu sehen, wofuer man es braucht.", "", "&6So gehts", "Fahre mit der Maus ueber ein Item und druecke R: So stellst du es her.", "Druecke U: Wofuer man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofuer ist das wichtig?", "Bei ueber 400 Mods kennt niemand alle Rezepte. JEI ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W ausserdem eine Animation (Ponder)."]
 			id: "3964C3F0A0574FEA"
 			title: "Rezepte nachschlagen (JEI)"
 			rewards: [{ id: "9A1B7402C064BEC8", type: "item", item: { id: "minecraft:bread", count: 4 } }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["3964C3F0A0574FEA"]
-			description: ["Waystones sind Wegpunkte zum Teleportieren.", "Schritt 1: Baue einen Waystone (siehe JEI).", "Schritt 2: Stelle ihn auf und klicke ihn mit Rechtsklick an. Damit ist er aktiviert.", "Schritt 3: Benutze spaeter einen anderen Waystone, um zu einem aktivierten zu reisen."]
+			description: ["&6Was ist das?", "Waystones sind Wegpunkte zum Teleportieren.", "Schritt 1: Baue einen Waystone (siehe JEI).", "Schritt 2: Stelle ihn auf und klicke ihn mit Rechtsklick an. Damit ist er aktiviert.", "Schritt 3: Benutze spaeter einen anderen Waystone, um zu einem aktivierten zu reisen.", "", "&6So gehts", "Baue einen Waystone nach dem Rezept in JEI.", "Stelle ihn neben deine Basis und aktiviere ihn mit Rechtsklick.", "Du kannst ihn umbenennen, damit alle wissen, wohin er fuehrt.", "", "&6Wofuer ist das wichtig?", "Von jedem anderen Waystone kommst du jetzt nach Hause."]
 			id: "26D013B846D08BDF"
 			title: "Waystone bauen"
 			rewards: [{ id: "5C978FDFFC271000", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["26D013B846D08BDF"]
-			description: ["Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Naehe.", "Du findest sie in Truhen oder kannst sie herstellen."]
+			description: ["&6Was ist das?", "Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Naehe.", "Du findest sie in Truhen oder kannst sie herstellen.", "", "&6So gehts", "Halte sie in der Hand und benutze sie (Rechtsklick).", "Waehle den Ziel-Waystone aus der Liste.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer Notfaelle in Dungeons oder wenn du dich verlaufen hast. Spaeter gibt es auch den Warpstein, der wiederverwendbar ist."]
 			id: "CC7CAD15F0593DE9"
 			title: "Warp-Schriftrolle"
 			rewards: [{ id: "AEEF440D3D09DD5A", type: "xp_levels", xp_levels: 2 }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["CC7CAD15F0593DE9"]
-			description: ["Du kannst Kisten, Oefen und sogar ein Tier tragen.", "Schritt 1: Leere Haende (nichts in der Hand halten).", "Schritt 2: Schleichen (Shift) und Rechtsklick auf den Block oder das Tier.", "Schritt 3: Rechtsklick auf den Boden, um es wieder abzusetzen."]
+			description: ["&6Was ist das?", "Du kannst Kisten, Oefen und sogar ein Tier tragen.", "Schritt 1: Leere Haende (nichts in der Hand halten).", "Schritt 2: Schleichen (Shift) und Rechtsklick auf den Block oder das Tier.", "Schritt 3: Rechtsklick auf den Boden, um es wieder abzusetzen.", "", "&6So gehts", "Haende leer machen (nichts in der Hand).", "Shift halten und Rechtsklick auf Kiste, Ofen oder Tier.", "Rechtsklick auf den Boden setzt es wieder ab.", "", "&6Wofuer ist das wichtig?", "So ziehst du um, ohne Kisten auszuraeumen. Tiere bringst du so leicht zu deiner Farm. Babys sind erlaubt, es geht immer nur ein Tier."]
 			id: "AF8BA1AFDD055F8F"
 			title: "Tragen mit Carry On"
 			rewards: [{ id: "FDD311B890C869C7", type: "item", item: { id: "minecraft:chest", count: 2 } }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["AF8BA1AFDD055F8F"]
-			description: ["Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt fuer Ausfluege.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Die Haelfte der Spieler muss schlafen, damit die Nacht endet."]
+			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt fuer Ausfluege.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Die Haelfte der Spieler muss schlafen, damit die Nacht endet.", "", "&6So gehts", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofuer ist das wichtig?", "Auf langen Ausfluegen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
 			id: "36A771044701E156"
 			title: "Schlafen mit Comforts"
 			rewards: [{ id: "27AF029E4518988F", type: "xp_levels", xp_levels: 2 }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["36A771044701E156"]
-			description: ["Die Magnum-Fackel haelt Monster in einem grossen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Naehe spawnt."]
+			description: ["&6Was ist das?", "Die Magnum-Fackel haelt Monster in einem grossen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Naehe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept in JEI).", "Stelle sie mitten in deine Basis.", "", "&6Wofuer ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
 			id: "8458315A17ECDBF0"
 			title: "Monsterfreie Zone"
 			rewards: [{ id: "206FFC72C8F303A4", type: "item", item: { id: "minecraft:torch", count: 16 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["8458315A17ECDBF0"]
-			description: ["Wenn du stirbst, entsteht an der Stelle ein Grab mit deinen Sachen.", "Schritt 1: Merke dir die Koordinaten aus der Todesnachricht.", "Schritt 2: Gehe hin und oeffne das Grab mit Rechtsklick."]
+			description: ["&6Was ist das?", "Wenn du stirbst, entsteht an der Stelle ein Grab mit deinen Sachen.", "Schritt 1: Merke dir die Koordinaten aus der Todesnachricht.", "Schritt 2: Gehe hin und oeffne das Grab mit Rechtsklick.", "", "&6So gehts", "Lies die Todesnachricht im Chat, dort stehen die Koordinaten.", "Auf der Karte ist ein Wegpunkt gesetzt.", "Gehe hin und klicke das Grab mit Rechtsklick an.", "", "&6Wofuer ist das wichtig?", "Keine Panik beim Sterben. Hol deine Sachen aber zeitnah, bevor Monster dich am Grab erwischen."]
 			id: "856C2629F362091C"
 			title: "Dein Grab"
 			rewards: [{ id: "FA58280737E66CBD", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["856C2629F362091C"]
-			description: ["Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren."]
+			description: ["&6Was ist das?", "Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren.", "", "&6So gehts", "Schaue einfach einen Block oder ein Tier an.", "Bei Oefen und Maschinen siehst du den Fortschritt, bei Pflanzen das Wachstum.", "", "&6Wofuer ist das wichtig?", "So erkennst du sofort, aus welcher Mod etwas kommt, und kannst es in JEI nachschlagen."]
 			id: "79D1AFC1106F3379"
 			title: "Alles im Blick (Jade)"
 			rewards: [{ id: "5146D11E6930575A", type: "xp_levels", xp_levels: 1 }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["79D1AFC1106F3379"]
-			description: ["Viele Mods haben eigene Tasten.", "Schritt 1: Druecke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein."]
+			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Druecke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, M Karte, N Wegpunkte, R und U in JEI.", "", "&6Wofuer ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
 			id: "7089B8412C90B2A8"
 			title: "Tastenbelegung suchen"
 			rewards: [{ id: "080485FCFCDDBFAB", type: "xp_levels", xp_levels: 2 }]
@@ -108,7 +108,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Mit Open Parties and Claims schuetzt du dein Gebiet.", "Schritt 1: Oeffne die Weltkarte (M).", "Schritt 2: Waehle Chunks aus und beanspruche sie.", "Nur du und deine Gruppe duerft dort bauen."]
+			description: ["&6Was ist das?", "Mit Open Parties and Claims schuetzt du dein Gebiet.", "Schritt 1: Oeffne die Weltkarte (M).", "Schritt 2: Waehle Chunks aus und beanspruche sie.", "Nur du und deine Gruppe duerft dort bauen.", "", "&6So gehts", "Oeffne die Weltkarte mit M.", "Rechtsklick auf die Karte, dann Claim waehlen. Oder ziehe einen Bereich auf.", "Mit F8 oeffnest du das Menue von Open Parties and Claims.", "", "&6Wofuer ist das wichtig?", "Schuetzt deine Basis vor Explosionen, Griefing und Monstern, die Bloecke klauen."]
 			id: "6243EE6995B2025B"
 			title: "Chunks sichern"
 			rewards: [{ id: "F0FC612C1CA01A4A", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -118,7 +118,7 @@
 		}
 		{
 			dependencies: ["6243EE6995B2025B"]
-			description: ["Eine Gruppe (Party) teilt Schutz und Rechte.", "Schritt 1: Gib im Chat /oparties ein. Dort siehst du die Befehle.", "Schritt 2: Lade Freunde ein."]
+			description: ["&6Was ist das?", "Eine Gruppe (Party) teilt Schutz und Rechte.", "Schritt 1: Gib im Chat /oparties ein. Dort siehst du die Befehle.", "Schritt 2: Lade Freunde ein.", "", "&6So gehts", "Gib im Chat /openpac-parties create ein oder nutze das Menue mit F8.", "Lade deine Freunde ein, sie nehmen mit dem Befehl im Chat an.", "", "&6Wofuer ist das wichtig?", "Mit Gruppe koennt ihr gemeinsam in euren Claims bauen und eure Basis zusammen schuetzen."]
 			id: "BDA0080F5CFE5B6E"
 			title: "Gruppe gruenden"
 			rewards: [{ id: "E5DBFD52B2B9195F", type: "xp_levels", xp_levels: 2 }]
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["BDA0080F5CFE5B6E"]
-			description: ["Mit Ping Wheel zeigst du Freunden, wohin ihr geht.", "Standard ist die Maustaste Vorwaerts (Maus 5). Aenderbar in den Optionen."]
+			description: ["&6Was ist das?", "Mit Ping Wheel zeigst du Freunden, wohin ihr geht.", "Standard ist die Maustaste Vorwaerts (Maus 5). Aenderbar in den Optionen.", "", "&6So gehts", "Druecke die Ping-Taste (Standard: Maustaste 5), um auf das Ziel zu zeigen.", "Halte die Taste fuer das Rad mit verschiedenen Zeichen.", "", "&6Wofuer ist das wichtig?", "Super beim gemeinsamen Erkunden: Hier ist eine Kiste, dort ein Gegner."]
 			id: "5D81E3B99FF6D10F"
 			title: "Ping"
 			rewards: [{ id: "C31BD8BE427C1226", type: "xp_levels", xp_levels: 1 }]
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["5D81E3B99FF6D10F"]
-			description: ["Serene Seasons: Fruehling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag."]
+			description: ["&6Was ist das?", "Serene Seasons: Fruehling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Der Kalender zeigt die aktuelle Jahreszeit.", "In JEI siehst du beim Samen, wann er waechst.", "Im Gewaechshaus (Glas ueber den Feldern) wachsen Pflanzen auch ausserhalb der Saison.", "", "&6Wofuer ist das wichtig?", "Plane deine Felder: Im Winter waechst kaum etwas. Lege Vorraete an oder baue ein Gewaechshaus."]
 			id: "6D4D897E15E1E83D"
 			title: "Jahreszeiten"
 			rewards: [{ id: "F2DE7A286BD13C10", type: "xp_levels", xp_levels: 2 }]
@@ -148,7 +148,7 @@
 		}
 		{
 			dependencies: ["6D4D897E15E1E83D"]
-			description: ["Klicke reife Pflanzen mit Rechtsklick an. Sie werden geerntet und neu gepflanzt."]
+			description: ["&6Was ist das?", "Reife Pflanzen erntest du mit Rechtsklick. Sie werden dabei automatisch wieder eingepflanzt.", "", "&6So gehts", "Rechtsklick auf eine reife Pflanze, z.B. Weizen oder Kartoffeln.", "", "&6Wofuer ist das wichtig?", "Viel schneller als abbauen und neu pflanzen. Mit Hacke in der Hand erntest du mehrere Felder auf einmal."]
 			id: "ECC294D720618A23"
 			title: "Ernten mit Rechtsklick"
 			rewards: [{ id: "6BCE53F97A1301F0", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
@@ -158,7 +158,7 @@
 		}
 		{
 			dependencies: ["ECC294D720618A23"]
-			description: ["Mit dem Handelsposten handelst du mit allen Dorfbewohnern gleichzeitig.", "Die Piglin-Station tauscht fuer dich Gold gegen Beute."]
+			description: ["&6Was ist das?", "Der Handelsposten (Trading Post) zeigt die Angebote aller Dorfbewohner in der Naehe. Die Bartering Station tauscht automatisch mit Piglins.", "", "&6So gehts", "Stelle den Handelsposten in ein Dorf und oeffne ihn.", "Fuer Piglin-Tausch: Gold in die Bartering Station legen.", "", "&6Wofuer ist das wichtig?", "Mit Dorfbewohnern bekommst du Verzauberungsbuecher, Diamantausruestung und Nahrung. Smaragde sind die Waehrung."]
 			id: "BF77786B6A0959A1"
 			title: "Handeln"
 			rewards: [{ id: "D2A8F3B56E41A6DE", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["BF77786B6A0959A1"]
-			description: ["Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen."]
+			description: ["&6Was ist das?", "Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Oeffne eine Lootr-Truhe (sie hat einen besonderen Rand). Der Inhalt gehoert nur dir.", "", "&6Wofuer ist das wichtig?", "Ihr koennt gemeinsam Dungeons erkunden, ohne dass einer alles leer raeumt."]
 			id: "B1704D620DB73666"
 			title: "Beute teilen (Lootr)"
 			rewards: [{ id: "225E7604C441AE82", type: "xp_levels", xp_levels: 2 }]
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["B1704D620DB73666"]
-			description: ["Verbandszeug und Heiltraenke helfen auch deinen Freunden.", "Rechtsklick auf einen Mitspieler mit Verband heilt ihn."]
+			description: ["&6Was ist das?", "Verbandszeug und Heiltraenke helfen auch deinen Freunden.", "Rechtsklick auf einen Mitspieler mit Verband heilt ihn.", "", "&6So gehts", "Baue einen Verband und halte Rechtsklick, um dich zu heilen.", "Rechtsklick auf einen Mitspieler heilt ihn.", "", "&6Wofuer ist das wichtig?", "In schweren Kaempfen koennt ihr euch gegenseitig retten."]
 			id: "3B6E0C6651CF4429"
 			title: "Gemeinsam heilen"
 			rewards: [{ id: "1CF70F79C6B8D9CB", type: "xp_levels", xp_levels: 2 }]
@@ -187,7 +187,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["Zeigt, welchen Block du ansiehst."]
+			description: ["&6Was ist das?", "Zeigt oben in der Mitte, welchen Block oder welches Tier du ansiehst.", "", "&6So gehts", "Einfach hinschauen.", "", "&6Wofuer ist das wichtig?", "Hilft beim Nachschlagen in JEI und zeigt den Fortschritt von Maschinen."]
 			id: "555631ED957ADF8F"
 			title: "Jade"
 			rewards: []
@@ -196,7 +196,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Zeigt Hunger- und Saettigungswerte beim Essen."]
+			description: ["&6Was ist das?", "Zeigt Hunger- und Saettigungswerte beim Essen.", "", "&6So gehts", "Halte Essen in der Hand. Die Hungerleiste zeigt, wie viel es auffuellt.", "", "&6Wofuer ist das wichtig?", "Wer gut isst, heilt schneller. Waehle Gerichte mit hoher Saettigung."]
 			id: "39593C0FB1A316DC"
 			title: "AppleSkin"
 			rewards: []
@@ -205,7 +205,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Items mit der Maus schneller verteilen (Mausrad, Ziehen)."]
+			description: ["&6Was ist das?", "Items mit der Maus schneller verteilen (Mausrad, Ziehen).", "", "&6So gehts", "Mit gedrueckter Maustaste ueber Plaetze ziehen verteilt Items. Mit dem Mausrad schiebst du Items zwischen Inventaren.", "", "&6Wofuer ist das wichtig?", "Spart viel Zeit beim Sortieren und Craften."]
 			id: "A21D1F31C85B4C86"
 			title: "Mouse Tweaks"
 			rewards: []
@@ -214,7 +214,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Rezepte nachsehen mit R und U."]
+			description: ["&6Was ist das?", "Die Item-Liste mit allen Rezepten.", "", "&6So gehts", "R auf einem Item: Rezept. U: Wofuer man es braucht. Suche oben.", "", "&6Wofuer ist das wichtig?", "Das wichtigste Werkzeug im ganzen Modpack."]
 			id: "8CBAE85955B26AC3"
 			title: "JEI"
 			rewards: []
@@ -223,7 +223,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Pflanzen per Rechtsklick ernten."]
+			description: ["&6Was ist das?", "Pflanzen per Rechtsklick ernten.", "", "&6So gehts", "Rechtsklick auf reife Pflanzen. Sie wachsen neu.", "", "&6Wofuer ist das wichtig?", "Felder bleiben immer bepflanzt."]
 			id: "7AFBDBE463CA65BE"
 			title: "Rechtsklick-Ernte"
 			rewards: []
@@ -232,7 +232,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Das Fadenkreuz passt sich an, was du in der Hand hast."]
+			description: ["&6Was ist das?", "Das Fadenkreuz zeigt an, ob du angreifen, abbauen oder benutzen kannst.", "", "&6So gehts", "Achte auf die Form des Fadenkreuzes.", "", "&6Wofuer ist das wichtig?", "Du siehst sofort, ob dein Schlag aufgeladen ist."]
 			id: "84B4A3D2C78C30B2"
 			title: "Dynamisches Fadenkreuz"
 			rewards: []
@@ -241,7 +241,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Zeigt Koepfe der Spieler im Chat."]
+			description: ["&6Was ist das?", "Zeigt den Kopf des Spielers neben Chatnachrichten.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Man sieht schneller, wer etwas schreibt."]
 			id: "B139DC8DE63ABA3F"
 			title: "Chat Heads"
 			rewards: []
@@ -250,7 +250,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Uebersichtlichere Erfolgsliste."]
+			description: ["&6Was ist das?", "Eine uebersichtlichere Erfolgsliste (Taste L).", "", "&6So gehts", "Taste L oeffnen, Tabs oben wechseln.", "", "&6Wofuer ist das wichtig?", "Viele Mods (z.B. Farmers Delight) erklaeren sich ueber Erfolge."]
 			id: "AC92F784DCF62215"
 			title: "Bessere Erfolge"
 			rewards: []
@@ -259,7 +259,7 @@
 			y: 10.0d
 		}
 		{
-			description: ["Suchleiste in den Tasten-Einstellungen."]
+			description: ["&6Was ist das?", "Suchleiste in den Tasten-Einstellungen.", "", "&6So gehts", "Optionen, Steuerung, Tastenbelegung, oben suchen.", "", "&6Wofuer ist das wichtig?", "Finde jede Taste in Sekunden."]
 			id: "8AE4211CBD63F371"
 			title: "Controlling"
 			rewards: []
@@ -268,7 +268,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Blaetter verschwinden schnell, wenn der Baum weg ist."]
+			description: ["&6Was ist das?", "Blaetter verschwinden schnell, wenn der Baum weg ist.", "", "&6So gehts", "Baum faellen und warten.", "", "&6Wofuer ist das wichtig?", "Keine schwebenden Blaetter mehr, Setzlinge fallen direkt."]
 			id: "482679249EC0D2AB"
 			title: "Leaves Be Gone"
 			rewards: []
@@ -277,7 +277,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Fairer Amboss: kein Zu-teuer mehr."]
+			description: ["&6Was ist das?", "Ein fairer Amboss ohne Zu-teuer-Grenze.", "", "&6So gehts", "Amboss wie gewohnt benutzen.", "", "&6Wofuer ist das wichtig?", "Du kannst Ausruestung immer weiter reparieren und verbessern."]
 			id: "5D10CED8BC611459"
 			title: "Easy Anvils"
 			rewards: []
@@ -286,7 +286,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Der Verzauberungstisch behaelt deine Items."]
+			description: ["&6Was ist das?", "Der Verzauberungstisch behaelt Items und Lapis.", "", "&6So gehts", "Items im Tisch lassen, du kannst neu wuerfeln.", "", "&6Wofuer ist das wichtig?", "Weniger Lauferei beim Verzaubern."]
 			id: "5E1AFAEF7AB341F8"
 			title: "Easy Magic"
 			rewards: []
@@ -295,7 +295,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Items bleiben sichtbar in der Werkbank."]
+			description: ["&6Was ist das?", "Items bleiben sichtbar auf der Werkbank liegen.", "", "&6So gehts", "Einfach Werkbank benutzen.", "", "&6Wofuer ist das wichtig?", "Sieht schoen aus und du verlierst nichts."]
 			id: "3AE11656B9BA2134"
 			title: "Visual Workbench"
 			rewards: []
@@ -304,7 +304,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Waehle zwischen Rezepten mit gleichen Zutaten."]
+			description: ["&6Was ist das?", "Waehle zwischen Rezepten mit gleichen Zutaten.", "", "&6So gehts", "Im Ergebnis-Feld erscheint ein Knopf, wenn es mehrere Ergebnisse gibt.", "", "&6Wofuer ist das wichtig?", "Wichtig bei vielen Mods, die die gleichen Zutaten nutzen."]
 			id: "93AE00BBF291294A"
 			title: "Polymorph"
 			rewards: []
@@ -313,7 +313,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Beim Tod entsteht ein Grab mit deinen Sachen."]
+			description: ["&6Was ist das?", "Beim Tod entsteht ein Grab mit deinen Sachen.", "", "&6So gehts", "Koordinaten im Chat lesen und hingehen.", "", "&6Wofuer ist das wichtig?", "Du verlierst deine Ausruestung nicht."]
 			id: "DDE6638F8BE6E3D6"
 			title: "Youre in Grave Danger"
 			rewards: []
@@ -322,7 +322,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Fackel, die Monster in grossem Bereich fernhaelt."]
+			description: ["&6Was ist das?", "Fackeln, die Monster in grossem Bereich fernhalten.", "", "&6So gehts", "Aufstellen, fertig.", "", "&6Wofuer ist das wichtig?", "Sichere Basis ohne tausend Fackeln."]
 			id: "76A16082E21FD331"
 			title: "Magnum Torch"
 			rewards: []
@@ -331,7 +331,7 @@
 			y: 12.0d
 		}
 		{
-			description: ["Saegewerk macht aus einem Stamm viele Holzbloecke."]
+			description: ["&6Was ist das?", "Das Saegewerk macht aus Holz Treppen, Stufen, Zaeune und mehr.", "", "&6So gehts", "Holz in das Saegewerk legen und das Ergebnis waehlen.", "", "&6Wofuer ist das wichtig?", "Mehr Ausbeute als in der Werkbank."]
 			id: "51C42CE6BB6515CC"
 			title: "Sawmill"
 			rewards: []
@@ -340,7 +340,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Viele Deko-Varianten fuer Bloecke an der Werkbank."]
+			description: ["&6Was ist das?", "Viele Deko-Varianten fuer Bloecke an der Werkbank.", "", "&6So gehts", "Baue eine der Chipped-Werkbaenke und lege einen Block hinein.", "", "&6Wofuer ist das wichtig?", "Tausende Varianten fuer schoenere Bauten."]
 			id: "42ABF23D5C731825"
 			title: "Chipped"
 			rewards: []
@@ -349,7 +349,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Moebel fuer dein Zuhause."]
+			description: ["&6Was ist das?", "Moebel: Stuehle, Tische, Betten, Regale.", "", "&6So gehts", "Rezepte in JEI. Viele gibt es in allen Holzarten.", "", "&6Wofuer ist das wichtig?", "Mach dein Zuhause gemuetlich."]
 			id: "7D0D694A846AA209"
 			title: "Handcrafted"
 			rewards: []
@@ -358,7 +358,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Beute-Truhen sind fuer jeden Spieler einzeln."]
+			description: ["&6Was ist das?", "Beute-Truhen sind fuer jeden Spieler einzeln.", "", "&6So gehts", "Einfach oeffnen.", "", "&6Wofuer ist das wichtig?", "Faire Beute fuer alle."]
 			id: "55AA9822DFE65A42"
 			title: "Lootr"
 			rewards: []
@@ -367,7 +367,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Dorfbewohner bekommen Wachen, die sie beschuetzen."]
+			description: ["&6Was ist das?", "Dorfbewohner bekommen Wachen, die Monster bekaempfen.", "", "&6So gehts", "Rechtsklick mit Waffe auf eine Wache gibt ihr Ausruestung.", "", "&6Wofuer ist das wichtig?", "Doerfer werden sicherer."]
 			id: "80E44F5BEF3BC933"
 			title: "Wachen im Dorf"
 			rewards: []
@@ -376,7 +376,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Neue Tiere und Monster, zum Beispiel Kupfergolems."]
+			description: ["&6Was ist das?", "Neue Tiere und Monster wie Kupfergolem, Glare oder Moobloom.", "", "&6So gehts", "In der Welt suchen. Rezepte fuer Golems in JEI.", "", "&6Wofuer ist das wichtig?", "Der Kupfergolem drueckt Kupferknoepfe fuer dich."]
 			id: "BEECE7BFBE07AE5D"
 			title: "Friends and Foes"
 			rewards: []
@@ -385,7 +385,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Neue Piglin-Arten im Nether."]
+			description: ["&6Was ist das?", "Neue Piglin-Arten im Nether.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute und mehr Gefahr."]
 			id: "F4294B460FC94664"
 			title: "Piglin Proliferation"
 			rewards: []
@@ -394,7 +394,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Neue Illager-Gegner und Raids."]
+			description: ["&6Was ist das?", "Neue Illager wie Invoker, Basher und Inquisitor.", "", "&6So gehts", "In Pluenderer-Aussenposten und Raids.", "", "&6Wofuer ist das wichtig?", "Starke Gegner mit guter Beute."]
 			id: "CAA6C8404E96FE0F"
 			title: "Illager Invasion"
 			rewards: []
@@ -403,7 +403,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Piglin-Tausch vollautomatisch."]
+			description: ["&6Was ist das?", "Tauscht automatisch mit Piglins.", "", "&6So gehts", "Gold hinein, Beute heraus.", "", "&6Wofuer ist das wichtig?", "Bequemer Weg zu Enderperlen und Obsidian."]
 			id: "A5B869F097BEB2A4"
 			title: "Bartering Station"
 			rewards: []
@@ -412,7 +412,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Mit allen Dorfbewohnern gleichzeitig handeln."]
+			description: ["&6Was ist das?", "Mit allen Dorfbewohnern gleichzeitig handeln.", "", "&6So gehts", "In einem Dorf aufstellen.", "", "&6Wofuer ist das wichtig?", "Spart Lauferei."]
 			id: "7BA04E17F1451E71"
 			title: "Trading Post"
 			rewards: []
@@ -421,7 +421,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Buch, das Erfahrung speichert."]
+			description: ["&6Was ist das?", "Ein Buch, das Erfahrung speichert.", "", "&6So gehts", "Rechtsklick fuellt, Shift-Rechtsklick leert.", "", "&6Wofuer ist das wichtig?", "Spare Erfahrung fuer den Amboss."]
 			id: "ECFEBED2B9C4C552"
 			title: "XP Tome"
 			rewards: []
@@ -430,7 +430,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Speichert sehr viele Items pro Platz."]
+			description: ["&6Was ist das?", "Speichert sehr viele Items pro Platz.", "", "&6So gehts", "Wie eine Kiste benutzen.", "", "&6Wofuer ist das wichtig?", "Ideal fuer Massenware."]
 			id: "35E330BB43855AEB"
 			title: "Nether-Truhe"
 			rewards: []
@@ -439,7 +439,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Elytra und Brustplatte gleichzeitig tragen."]
+			description: ["&6Was ist das?", "Elytra und Brustplatte gleichzeitig tragen.", "", "&6So gehts", "Elytra in den extra Slot legen.", "", "&6Wofuer ist das wichtig?", "Fliegen ohne Schutz zu verlieren."]
 			id: "F90E3C99E85A2CBA"
 			title: "Elytra Slot"
 			rewards: []
@@ -448,7 +448,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Fasst Erfahrungskugeln zusammen, das spart Leistung."]
+			description: ["&6Was ist das?", "Fasst Erfahrungskugeln zusammen, das spart Leistung.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Weniger Lag bei Farmen."]
 			id: "B11CF4EE039757D1"
 			title: "Clumps"
 			rewards: []
@@ -457,7 +457,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Lieblingswelten oben festpinnen."]
+			description: ["&6Was ist das?", "Lieblingswelten oben festpinnen.", "", "&6So gehts", "Im Weltmenue auf den Stern klicken.", "", "&6Wofuer ist das wichtig?", "Deine Hauptwelt immer oben."]
 			id: "B05257F7C54AB198"
 			title: "Cherished Worlds"
 			rewards: []
@@ -466,7 +466,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Dorfbewohner haben Namen."]
+			description: ["&6Was ist das?", "Dorfbewohner haben Namen.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Leichter zu merken, wer welchen Handel hat."]
 			id: "7EA382CBB2DF2137"
 			title: "Villager Names"
 			rewards: []
@@ -475,7 +475,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Kleine Bedrock-Funktionen auch in Java."]
+			description: ["&6Was ist das?", "Kleine Bedrock-Funktionen auch in Java.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Bequemere Steuerung."]
 			id: "B3F179542A0AF33F"
 			title: "Bedrockoid"
 			rewards: []
@@ -484,7 +484,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Du siehst deine Items im Boot."]
+			description: ["&6Was ist das?", "Du siehst deine Items im Boot.", "", "&6So gehts", "Einfach Boot fahren.", "", "&6Wofuer ist das wichtig?", "Bessere Uebersicht."]
 			id: "A1F7D9884963904A"
 			title: "Boat View"
 			rewards: []
@@ -493,7 +493,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Neu aufgenommene Items werden hervorgehoben."]
+			description: ["&6Was ist das?", "Neu aufgenommene Items werden hervorgehoben.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Du findest neue Beute schneller."]
 			id: "1DF7270E950E21B7"
 			title: "Highlighter"
 			rewards: []
@@ -502,7 +502,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Tipps auf dem Ladebildschirm und bei Items."]
+			description: ["&6Was ist das?", "Tipps auf dem Ladebildschirm und bei Items.", "", "&6So gehts", "Lies die Tipps unten links.", "", "&6Wofuer ist das wichtig?", "Gute Erklaerungen fuer Neulinge."]
 			id: "EE412C91B6CD22A1"
 			title: "Immersive Tips"
 			rewards: []
@@ -511,7 +511,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Biom-Kompass."]
+			description: ["&6Was ist das?", "Ein Kompass, der Biome findet.", "", "&6So gehts", "Rechtsklick, Biom waehlen, Suchen, dem Pfeil folgen.", "", "&6Wofuer ist das wichtig?", "Findet z.B. Pilzinseln oder Dschungel."]
 			id: "56924BC301D78963"
 			title: "Natures Compass"
 			rewards: []
@@ -520,7 +520,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Neue Gerichte aus dem Ende."]
+			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende.", "", "&6So gehts", "Siehe Kapitel Kochen.", "", "&6Wofuer ist das wichtig?", "Starke Mahlzeiten fuer das Endspiel."]
 			id: "DF4BC3743DBCA2B7"
 			title: "Ender Delight"
 			rewards: []
@@ -529,7 +529,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Bloecke mit Meissel in Deko verwandeln."]
+			description: ["&6Was ist das?", "Mit dem Meissel verwandelst du Bloecke in Deko-Varianten.", "", "&6So gehts", "Meissel in der Hand, Bloecke hineinlegen, Variante waehlen.", "", "&6Wofuer ist das wichtig?", "Schoene Waende und Boeden."]
 			id: "BE8C89221001E281"
 			title: "Rechiseled"
 			rewards: []
@@ -538,7 +538,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Doppeltueren oeffnen sich zusammen."]
+			description: ["&6Was ist das?", "Doppeltueren oeffnen sich zusammen.", "", "&6So gehts", "Zwei Tueren nebeneinander stellen.", "", "&6Wofuer ist das wichtig?", "Bequemer und schoener."]
 			id: "F903DE52E4E7008D"
 			title: "Doppeltueren"
 			rewards: []
@@ -547,7 +547,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["Streichle Tiere mit Rechtsklick auf leerer Hand."]
+			description: ["&6Was ist das?", "Streichle Tiere mit Rechtsklick auf leerer Hand.", "", "&6So gehts", "Rechtsklick mit leerer Hand und Shift auf ein Tier.", "", "&6Wofuer ist das wichtig?", "Einfach nett."]
 			id: "56B90AB4C1AB2651"
 			title: "PatPat"
 			rewards: []
@@ -556,7 +556,7 @@
 			y: 20.0d
 		}
 		{
-			description: ["Inventar sortieren mit Shift und mittlerer Maustaste."]
+			description: ["&6Was ist das?", "Inventar sortieren mit Shift und mittlerer Maustaste.", "", "&6So gehts", "Shift halten und mittlere Maustaste in einem Inventar druecken.", "", "&6Wofuer ist das wichtig?", "Schnelle Ordnung, besonders nach langen Abbau-Touren."]
 			id: "4AC1279C96D3AB20"
 			title: "Client Sort"
 			rewards: []
@@ -565,7 +565,7 @@
 			y: 20.0d
 		}
 		{
-			description: ["Karte, Minikarte und Wegpunkte."]
+			description: ["&6Was ist das?", "Minikarte, Weltkarte und Wegpunkte.", "", "&6So gehts", "M Karte, N Wegpunkte.", "", "&6Wofuer ist das wichtig?", "Nie mehr verlaufen."]
 			id: "82B86F04EB7C4AF7"
 			title: "Weltkarte (Xaeros)"
 			rewards: []

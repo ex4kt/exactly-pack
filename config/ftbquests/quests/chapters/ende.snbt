@@ -9,7 +9,7 @@
 	title: "&5Das Ende"
 	quests: [
 		{
-			description: ["Stelle Enderperlen und Blazepulver zu Enderaugen zusammen. Damit findest du die Festung."]
+			description: ["&6Was ist das?", "Stelle Enderperlen und Blazepulver zu Enderaugen zusammen. Damit findest du die Festung.", "", "&6So gehts", "Enderperle und Blazepulver ergeben ein Enderauge.", "Wirf eines in die Luft, es fliegt in Richtung Festung. Folge ihm, bis es nach unten zeigt.", "", "&6Wofuer ist das wichtig?", "Ohne zwoelf Enderaugen kein Ende. Enderperlen bekommst du von Endermen oder Piglins."]
 			id: "502C61E3409EAEDC"
 			title: "Augen des Enders"
 			rewards: [{ id: "0E46BF74C4B17875", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["502C61E3409EAEDC"]
-			description: ["Aktiviere das Portal in der Festung mit zwoelf Enderaugen."]
+			description: ["&6Was ist das?", "Aktiviere das Portal in der Festung mit zwoelf Enderaugen.", "", "&6So gehts", "In der Festung das Portal mit den Augen fuellen und hineinspringen.", "Nimm Bloecke, Bogen, Wasser und Kuerbis mit.", "", "&6Wofuer ist das wichtig?", "Nach dem Drachen oeffnen sich die aeusseren Inseln mit Endstaedten und Elytren."]
 			id: "CDCD4F0780344D96"
 			title: "Das Ende"
 			rewards: [{ id: "115329C8A0F50375", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["CDCD4F0780344D96"]
-			description: ["Zerstoere die Kristalle auf den Saeulen und besiege den Drachen."]
+			description: ["&6Was ist das?", "Zerstoere die Kristalle auf den Saeulen und besiege den Drachen.", "", "&6So gehts", "Zerstoere zuerst die Kristalle auf den Saeulen, manche sind in Kaefigen.", "Greife an, wenn er auf dem Portal landet.", "", "&6Wofuer ist das wichtig?", "Nach dem Sieg erscheint ein Portal zu den aeusseren Inseln."]
 			id: "E9F389ADB04C2583"
 			title: "Der Enderdrache"
 			rewards: [{ id: "E1F53332F2B232A7", type: "xp_levels", xp_levels: 15 }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["E9F389ADB04C2583"]
-			description: ["Schaue sie nicht an. Ein Kuerbis auf dem Kopf schuetzt dich."]
+			description: ["&6Was ist das?", "Endermen teleportieren und werden wuetend, wenn du sie ansiehst.", "", "&6So gehts", "Kaempfe unter einem 2 Bloecke hohen Dach oder im Wasser.", "", "&6Wofuer ist das wichtig?", "Enderperlen fuer Enderaugen und Teleport."]
 			id: "CA29B0150A35EAE7"
 			title: "Endermann"
 			rewards: [{ id: "866F4129EA9E2693", type: "xp_levels", xp_levels: 3 }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["CA29B0150A35EAE7"]
-			description: ["Endstein ist der Boden dieser Dimension. Er brennt nicht und hat viele Verwendungen."]
+			description: ["&6Was ist das?", "Endstein ist der Boden dieser Dimension. Er brennt nicht und hat viele Verwendungen.", "", "&6So gehts", "Abbauen.", "", "&6Wofuer ist das wichtig?", "Endsteinziegel, Endstaebe und Ende-Herd."]
 			id: "7200E9323E24B343"
 			title: "Endstein"
 			rewards: [{ id: "16ADCB23FABD2A01", type: "xp_levels", xp_levels: 2 }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["7200E9323E24B343"]
-			description: ["Chorusfrucht teleportiert dich beim Essen. Sie waechst auf den Ende-Inseln."]
+			description: ["&6Was ist das?", "Chorusfrucht teleportiert dich beim Essen. Sie waechst auf den Ende-Inseln.", "", "&6So gehts", "Von Chorus-Pflanzen ernten.", "", "&6Wofuer ist das wichtig?", "Gebraten wird sie zu Purpur."]
 			id: "8F79AFBE893E54E1"
 			title: "Chorusfrucht"
 			rewards: [{ id: "77CCCC73177623FD", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 8 } }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["8F79AFBE893E54E1"]
-			description: ["Endstaedte sind riesige Bauten mit Beute und Shulkern."]
+			description: ["&6Was ist das?", "Endstaedte sind riesige Bauten mit Beute und Shulkern.", "", "&6So gehts", "Ueber das Portal hinter der Hauptinsel erreichst du die aeusseren Inseln.", "", "&6Wofuer ist das wichtig?", "Shulkerschalen und Elytren."]
 			id: "1C505742606CDD9D"
 			title: "Endstadt"
 			rewards: [{ id: "675BE451169A1D81", type: "xp_levels", xp_levels: 6 }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["1C505742606CDD9D"]
-			description: ["Aus Shulkerschalen baust du Shulkerkisten."]
+			description: ["&6Was ist das?", "Aus Shulkerschalen baust du Shulkerkisten.", "", "&6So gehts", "Shulker in Endstaedten besiegen.", "", "&6Wofuer ist das wichtig?", "Shulker-Kisten."]
 			id: "50DF24C7727465CF"
 			title: "Shulkerschalen"
 			rewards: [{ id: "9FFBD3F65CBAE765", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["50DF24C7727465CF"]
-			description: ["In Endschiffen findest du die Elytra. Damit fliegst du frei."]
+			description: ["&6Was ist das?", "In Endschiffen findest du die Elytra. Damit fliegst du frei.", "", "&6So gehts", "In Endschiffen in Endstaedten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofuer ist das wichtig?", "Das beste Reisemittel im Spiel."]
 			id: "F12FD4E0A52A9E0B"
 			title: "Elytra"
 			rewards: [{ id: "6102DD31983CB9FE", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["F12FD4E0A52A9E0B"]
-			description: ["Das Drachenei ist ein Souvenir. Es entsteht nach dem ersten Kampf."]
+			description: ["&6Was ist das?", "Das Drachenei ist ein Souvenir. Es entsteht nach dem ersten Kampf.", "", "&6So gehts", "Mit Kolben vom Portal schieben.", "", "&6Wofuer ist das wichtig?", "Ein Andenken an deinen Sieg."]
 			id: "06846FECFE8200C1"
 			title: "Drachenei"
 			rewards: [{ id: "093D637910111249", type: "xp_levels", xp_levels: 10 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["06846FECFE8200C1"]
-			description: ["Cataclysm: Der Ender Guardian lebt in der Void-Festung."]
+			description: ["&6Was ist das?", "Cataclysm: Der Ender Guardian lebt in der Void-Festung.", "", "&6So gehts", "In einer zerstoerten Zitadelle auf den Endinseln.", "", "&6Wofuer ist das wichtig?", "Enderit fuer starke Waffen."]
 			id: "36CBAAF12C4D22D9"
 			title: "Der Ender-Waechter"
 			rewards: [{ id: "D6C2528ADCED3C2E", type: "xp_levels", xp_levels: 12 }]
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["36CBAAF12C4D22D9"]
-			description: ["Der Ender Golem ist ein Gegner von Cataclysm."]
+			description: ["&6Was ist das?", "Der Ender Golem ist ein Gegner von Cataclysm.", "", "&6So gehts", "In den Endinseln suchen.", "", "&6Wofuer ist das wichtig?", "Material fuer Cataclysm."]
 			id: "1C40D78F36FFCB0A"
 			title: "Ender-Golem"
 			rewards: [{ id: "BD4A5145E186D5D7", type: "xp_levels", xp_levels: 8 }]
@@ -129,7 +129,7 @@
 		}
 		{
 			dependencies: ["1C40D78F36FFCB0A"]
-			description: ["Neue Gerichte aus dem Ende. Sieh im Kapitel Kochen nach."]
+			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende. Sieh im Kapitel Kochen nach.", "", "&6So gehts", "Siehe Kochen.", "", "&6Wofuer ist das wichtig?", "Starke Mahlzeiten."]
 			id: "91621505672AB1AD"
 			title: "Enders Delight"
 			rewards: [{ id: "8A1678999A88C35F", type: "xp_levels", xp_levels: 3 }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["91621505672AB1AD"]
-			description: ["Der Leviathan lebt in den Meerestiefen. Er ist ein sehr harter Boss."]
+			description: ["&6Was ist das?", "Der Leviathan lebt in den Meerestiefen. Er ist ein sehr harter Boss.", "", "&6So gehts", "In der Versunkenen Stadt im Ozean. Atmung und Wasseraffinitaet sind Pflicht.", "", "&6Wofuer ist das wichtig?", "Beute fuer die besten Waffen."]
 			id: "0E13BB3BED84B047"
 			title: "Der Leviathan"
 			rewards: [{ id: "94E337F1A9E340B8", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
@@ -148,7 +148,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Mit Enderkristallen kannst du den Drachen erneut beschwoeren."]
+			description: ["&6Was ist das?", "Mit Enderkristallen kannst du den Drachen erneut beschwoeren.", "", "&6So gehts", "Glas, Ghast-Traene und Enderauge.", "", "&6Wofuer ist das wichtig?", "Den Drachen neu beschwoeren."]
 			id: "C940BB7CBE965E41"
 			title: "Enderkristall"
 			rewards: [{ id: "D9F851BD3E3CD3A4", type: "xp_levels", xp_levels: 5 }]
@@ -158,7 +158,7 @@
 		}
 		{
 			dependencies: ["C940BB7CBE965E41"]
-			description: ["Drachenatem sammelst du mit einer Glasflasche. Daraus entstehen Verweiltraenke."]
+			description: ["&6Was ist das?", "Drachenatem sammelst du mit einer Glasflasche. Daraus entstehen Verweiltraenke.", "", "&6So gehts", "Mit Glasflasche in der Wolke sammeln.", "", "&6Wofuer ist das wichtig?", "Verweiltraenke."]
 			id: "C2ED9CEDEB44CCA6"
 			title: "Drachenatem"
 			rewards: [{ id: "456B0331110261E0", type: "xp_levels", xp_levels: 4 }]
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["C2ED9CEDEB44CCA6"]
-			description: ["Endstaebe sind schoene Lampen."]
+			description: ["&6Was ist das?", "Endstaebe sind schoene Lampen.", "", "&6So gehts", "Aus Blazestab und Chorusfrucht.", "", "&6Wofuer ist das wichtig?", "Deko-Licht."]
 			id: "2AD1D915658D1D50"
 			title: "Endstab"
 			rewards: [{ id: "8688DF3E18508C84", type: "xp_levels", xp_levels: 2 }]
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["2AD1D915658D1D50"]
-			description: ["Purpurbloecke aus Chorusfrucht sind Baumaterial der Endstaedte."]
+			description: ["&6Was ist das?", "Purpurbloecke aus Chorusfrucht sind Baumaterial der Endstaedte.", "", "&6So gehts", "Gebratene Chorusfrucht.", "", "&6Wofuer ist das wichtig?", "Schoene Bauten."]
 			id: "867827EFB62073FE"
 			title: "Purpur"
 			rewards: [{ id: "809F9639AB4B86CE", type: "xp_levels", xp_levels: 2 }]
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["867827EFB62073FE"]
-			description: ["Cataclysm: Enderit aus dem Ender-Waechter."]
+			description: ["&6Was ist das?", "Cataclysm: Enderit aus dem Ender-Waechter.", "", "&6So gehts", "Vom Ender-Waechter.", "", "&6Wofuer ist das wichtig?", "Starke Waffen."]
 			id: "434B0242196341B0"
 			title: "Enderit"
 			rewards: [{ id: "8F8729BBCEDFBFD7", type: "xp_levels", xp_levels: 6 }]
@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["434B0242196341B0"]
-			description: ["Cataclysm: Der Void-Kern ist ein seltenes Bauteil fuer Endwaffen."]
+			description: ["&6Was ist das?", "Cataclysm: Der Void-Kern ist ein seltenes Bauteil fuer Endwaffen.", "", "&6So gehts", "Vom Ender-Waechter.", "", "&6Wofuer ist das wichtig?", "Endwaffen."]
 			id: "53B5513ABE6670E3"
 			title: "Void-Kern"
 			rewards: [{ id: "D128E4BE255535CC", type: "xp_levels", xp_levels: 6 }]
@@ -208,7 +208,7 @@
 		}
 		{
 			dependencies: ["53B5513ABE6670E3"]
-			description: ["Cataclysm: Ein riesiges Schwert aus dem Ende."]
+			description: ["&6Was ist das?", "Cataclysm: Ein riesiges Schwert aus dem Ende.", "", "&6So gehts", "Mit Enderit herstellen.", "", "&6Wofuer ist das wichtig?", "Sehr hoher Schaden."]
 			id: "699D8AF525791ABA"
 			title: "Zweiender"
 			rewards: [{ id: "371AC58069078D46", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["699D8AF525791ABA"]
-			description: ["Cataclysm: Kaefer aus dem Ende."]
+			description: ["&6Was ist das?", "Cataclysm: Kaefer aus dem Ende.", "", "&6So gehts", "Im Ende suchen.", "", "&6Wofuer ist das wichtig?", "Chorusfrucht."]
 			id: "A1B37992F9F2CDB0"
 			title: "Endermaptera"
 			rewards: [{ id: "602B320FA662AE3F", type: "xp_levels", xp_levels: 4 }]
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["A1B37992F9F2CDB0"]
-			description: ["Yungs Better End Island macht den Drachenkampf schoener und haerter."]
+			description: ["&6Was ist das?", "YUNGs Better End Island verbessert die Hauptinsel und den Drachenkampf.", "", "&6So gehts", "Einfach ins Ende reisen.", "", "&6Wofuer ist das wichtig?", "Spannenderer Endkampf."]
 			id: "A3DA7D8A453FAA91"
 			title: "Bessere Endinsel"
 			rewards: [{ id: "F107B83262EB778D", type: "xp_levels", xp_levels: 3 }]
@@ -238,7 +238,7 @@
 		}
 		{
 			dependencies: ["A3DA7D8A453FAA91"]
-			description: ["Better End Cities macht die Endstaedte groesser, mit mehr Beute."]
+			description: ["&6Was ist das?", "Better End Cities macht die Endstaedte groesser, mit mehr Beute.", "", "&6So gehts", "Erkunden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute und mehr Shulker."]
 			id: "2BB55ABC06EFBD94"
 			title: "Bessere Endstaedte"
 			rewards: [{ id: "F938DC421A7F77E5", type: "xp_levels", xp_levels: 3 }]

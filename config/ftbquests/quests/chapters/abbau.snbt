@@ -9,7 +9,7 @@
 	title: "&dAbbau und Verzauberung"
 	quests: [
 		{
-			description: ["Schlage mit der Axt Staemme ab. Mit einer Axt geht es schneller als mit der Hand.", "Du brauchst Holz fuer Werkbank, Werkzeuge und die ersten Bauten."]
+			description: ["&6Was ist das?", "Schlage mit der Axt Staemme ab. Mit einer Axt geht es schneller als mit der Hand.", "Du brauchst Holz fuer Werkbank, Werkzeuge und die ersten Bauten.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofuer ist das wichtig?", "Du brauchst Holz fuer fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und spaeter fuer Create-Wellen und Wasserraeder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus."]
 			id: "72E53652C30F4A40"
 			title: "Holz sammeln"
 			rewards: [{ id: "FFDBA311B4A67B0F", type: "item", item: { id: "minecraft:stick", count: 16 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["72E53652C30F4A40"]
-			description: ["Kohle findest du in Hoehlen und an Berghaengen. Du brauchst sie fuer Fackeln und Oefen."]
+			description: ["&6Was ist das?", "Kohle findest du in Hoehlen und an Berghaengen. Du brauchst sie fuer Fackeln und Oefen.", "", "&6So gehts", "Mit einer Holz- oder Steinspitzhacke abbauen. Sie ist in fast jeder Felswand zu finden.", "", "&6Wofuer ist das wichtig?", "Fackeln, Oefen, Schmelzoefen. Spaeter auch Brennstoff fuer Blazebrenner und Dampfmaschinen."]
 			id: "8FC11AA2FD28C9CD"
 			title: "Kohle"
 			rewards: [{ id: "0E24DC44EA1720D2", type: "item", item: { id: "minecraft:torch", count: 16 } }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["8FC11AA2FD28C9CD"]
-			description: ["Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin."]
+			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Buecherregale im Abstand von einem Block darum herum machen die Verzauberungen staerker.", "Lapis und Erfahrung zahlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Glueck und Haltbarkeit machen dich viel schneller und sparen Material."]
 			id: "B808BCE3AB15D86A"
 			title: "Der Verzauberungstisch"
 			rewards: [{ id: "5E698B2C9D1D3BC0", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["B808BCE3AB15D86A"]
-			description: ["Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "Du bekommst als Belohnung ein Buch mit Veinminer. Verzaubere damit deine Spitzhacke am Amboss.", "Schritt 1: Lege Spitzhacke und Buch in den Amboss.", "Schritt 2: Baue ein Erz ab. Die ganze Ader folgt."]
+			description: ["&6Was ist das?", "Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "Du bekommst als Belohnung ein Buch mit Veinminer. Verzaubere damit deine Spitzhacke am Amboss.", "Schritt 1: Lege Spitzhacke und Buch in den Amboss.", "Schritt 2: Baue ein Erz ab. Die ganze Ader folgt.", "", "&6So gehts", "Lege das Buch (Belohnung dieser Quest) im Amboss auf deine Spitzhacke.", "Halte die Veinminer-Taste (Standard: Tilde/Grad) beim Abbauen gedrueckt.", "", "&6Wofuer ist das wichtig?", "Eine ganze Ader mit einem Schlag. Kostet etwas mehr Haltbarkeit, darum lohnt sich Haltbarkeit oder Reparatur."]
 			icon: { id: "minecraft:enchanted_book" }
 			id: "4025DE8C8C663C62"
 			title: "Veinminer-Verzauberung"
@@ -50,7 +50,7 @@
 		}
 		{
 			dependencies: ["4025DE8C8C663C62"]
-			description: ["Easy Anvils macht den Amboss fairer: Kosten sind niedriger, Teile bleiben drin.", "Mit ihm kannst du Verzauberungen kombinieren."]
+			description: ["&6Was ist das?", "Easy Anvils macht den Amboss fairer: Kosten sind niedriger, Teile bleiben drin.", "Mit ihm kannst du Verzauberungen kombinieren.", "", "&6So gehts", "Item links, Buch oder zweites Item rechts.", "Mit Easy Anvils gibt es keine Zu-teuer-Grenze.", "", "&6Wofuer ist das wichtig?", "So bekommst du genau die Verzauberungen, die du willst."]
 			id: "633C9B4C09659446"
 			title: "Der Amboss"
 			rewards: [{ id: "37C3985CE78727A8", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -60,7 +60,7 @@
 		}
 		{
 			dependencies: ["633C9B4C09659446"]
-			description: ["Mit Easy Disenchanting uebertraegst du Verzauberungen auf Buecher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus."]
+			description: ["&6Was ist das?", "Mit Easy Disenchanting uebertraegst du Verzauberungen auf Buecher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofuer ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
 			id: "784B770DF40E680D"
 			title: "Verzauberung uebertragen"
 			rewards: [{ id: "FE0AF268404918FD", type: "xp_levels", xp_levels: 3 }]
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["784B770DF40E680D"]
-			description: ["Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick fuellt oder leert es."]
+			description: ["&6Was ist das?", "Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick fuellt oder leert es.", "", "&6So gehts", "Rechtsklick fuellt, Shift-Rechtsklick holt sie zurueck.", "", "&6Wofuer ist das wichtig?", "Beim Tod verlierst du gespeicherte Erfahrung nicht. Spare fuer grosse Verzauberungen."]
 			id: "5EFA4919C5437233"
 			title: "XP speichern"
 			rewards: [{ id: "E4836F90142A4E66", type: "xp_levels", xp_levels: 2 }]
@@ -80,7 +80,7 @@
 		}
 		{
 			dependencies: ["5EFA4919C5437233"]
-			description: ["Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen."]
+			description: ["&6Was ist das?", "Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen.", "", "&6So gehts", "Eisenerz schmelzen, drei Barren fuer Spitzhacke oder Axt.", "", "&6Wofuer ist das wichtig?", "Erst mit einer Eisenspitzhacke kannst du Gold, Redstone und Diamanten abbauen."]
 			id: "7FFB8ABE26C5A558"
 			title: "Eisenwerkzeuge"
 			rewards: [{ id: "3EBC0C6F2D820D61", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -90,7 +90,7 @@
 		}
 		{
 			dependencies: ["7FFB8ABE26C5A558"]
-			description: ["Der Schmelzofen schmilzt Erze doppelt so schnell wie der normale Ofen."]
+			description: ["&6Was ist das?", "Der Schmelzofen schmilzt Erze doppelt so schnell wie der normale Ofen.", "", "&6So gehts", "Ofen, fuenf Eisenbarren und drei glatter Stein.", "", "&6Wofuer ist das wichtig?", "Erze schneller verarbeiten. Spaeter uebernimmt Create das mit Brechrad und Geblaese."]
 			id: "990A5A1D6BF13C5C"
 			title: "Schmelzofen"
 			rewards: [{ id: "53653A54C20E6AC9", type: "xp_levels", xp_levels: 3 }]
@@ -100,7 +100,7 @@
 		}
 		{
 			dependencies: ["990A5A1D6BF13C5C"]
-			description: ["Die Verzauberung Glueck bringt mehr Items aus Erzen.", "Verzaubere deine Spitzhacke damit, bevor du Diamanten abbaust."]
+			description: ["&6Was ist das?", "Die Verzauberung Glueck bringt mehr Items aus Erzen.", "Verzaubere deine Spitzhacke damit, bevor du Diamanten abbaust.", "", "&6So gehts", "Auf die Spitzhacke verzaubern.", "", "&6Wofuer ist das wichtig?", "Bis zu viermal so viele Diamanten. Fuer Eisen und Gold lieber die Create-Zerkleinerung nutzen."]
 			id: "0D76954A307DDCE6"
 			title: "Glueck (Fortune)"
 			rewards: [{ id: "94CC70D494B09B9D", type: "item", item: { id: "minecraft:lapis_lazuli", count: 8 } }]
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["0D76954A307DDCE6"]
-			description: ["Mit Seidenberuehrung bekommst du Bloecke selbst statt ihrer Drops, z.B. Erz oder Glas."]
+			description: ["&6Was ist das?", "Mit Seidenberuehrung bekommst du Bloecke selbst statt ihrer Drops, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofuer ist das wichtig?", "Fuer Glas, Eis, Bienennester und Erzbloecke zum spaeteren Glueck-Abbau."]
 			id: "0CAE29DDD14DA9B6"
 			title: "Seidenberuehrung"
 			rewards: [{ id: "7E41DF2EC741DBFA", type: "xp_levels", xp_levels: 3 }]
@@ -120,7 +120,7 @@
 		}
 		{
 			dependencies: ["0CAE29DDD14DA9B6"]
-			description: ["Diamant ist lange das Ziel. Stelle eine Spitzhacke aus Diamant her."]
+			description: ["&6Was ist das?", "Diamant ist lange das Ziel. Stelle eine Spitzhacke aus Diamant her.", "", "&6So gehts", "Diamanten tief unten finden, am besten um Ebene minus 58.", "", "&6Wofuer ist das wichtig?", "Diamantwerkzeug baut Obsidian ab. Damit kommst du in den Nether."]
 			id: "104DEFE44565330A"
 			title: "Diamant-Ausruestung"
 			rewards: [{ id: "049A67F0F2EC0D0A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -129,7 +129,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Obsidian brauchst du fuer Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab."]
+			description: ["&6Was ist das?", "Obsidian brauchst du fuer Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch fuer Verzauberungstisch und Enderkisten."]
 			id: "D91727A7F987070A"
 			title: "Obsidian"
 			rewards: [{ id: "9C08253B64E11248", type: "xp_levels", xp_levels: 3 }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["D91727A7F987070A"]
-			description: ["Amethyst waechst in Geoden tief unter der Erde."]
+			description: ["&6Was ist das?", "Amethyst waechst in Amethystgeoden unter der Erde.", "", "&6So gehts", "Abgebrochene Kristalle aufsammeln.", "", "&6Wofuer ist das wichtig?", "Fernrohr, getoentes Glas und einige Mod-Rezepte."]
 			id: "50CC7070D69C3899"
 			title: "Amethyst"
 			rewards: [{ id: "4934D7781887606D", type: "item", item: { id: "minecraft:glass", count: 8 } }]
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["50CC7070D69C3899"]
-			description: ["Smaragdsterz gibt es nur in Bergen. Damit handelst du mit Dorfbewohnern."]
+			description: ["&6Was ist das?", "Smaragdsterz gibt es nur in Bergen. Damit handelst du mit Dorfbewohnern.", "", "&6So gehts", "Selten in Bergbiomen oder durch Handel.", "", "&6Wofuer ist das wichtig?", "Mit Smaragden kaufst du Verzauberungsbuecher und Ausruestung."]
 			id: "19F074495DD4673C"
 			title: "Smaragd"
 			rewards: [{ id: "C7C8F0B843996441", type: "xp_levels", xp_levels: 3 }]
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["19F074495DD4673C"]
-			description: ["Unter Ebene 0 beginnt Tiefenschiefer. Hier sind Diamanten und Redstone haeufiger."]
+			description: ["&6Was ist das?", "Unter Ebene 0 beginnt Tiefenschiefer. Hier sind Diamanten und Redstone haeufiger.", "", "&6So gehts", "Mit Spitzhacke abbauen, dauert laenger.", "", "&6Wofuer ist das wichtig?", "In dieser Tiefe liegen die meisten Diamanten."]
 			id: "5C02733C119BDD37"
 			title: "Tiefenschiefer"
 			rewards: [{ id: "93AF3EEA768A993A", type: "item", item: { id: "minecraft:torch", count: 32 } }]
@@ -169,7 +169,7 @@
 		}
 		{
 			dependencies: ["5C02733C119BDD37"]
-			description: ["Redstone liegt tief unten. Du brauchst ihn fuer Maschinen und Schaltungen."]
+			description: ["&6Was ist das?", "Redstone liegt tief unten. Du brauchst ihn fuer Maschinen und Schaltungen.", "", "&6So gehts", "Mit Eisenspitzhacke tief unten abbauen.", "", "&6Wofuer ist das wichtig?", "Schalter, Kolben, Maschinen. Viele Mod-Rezepte und Create brauchen Redstone."]
 			id: "0E668F20C2692295"
 			title: "Redstone"
 			rewards: [{ id: "4403A5ECE11D2F8C", type: "xp_levels", xp_levels: 3 }]
@@ -179,7 +179,7 @@
 		}
 		{
 			dependencies: ["0E668F20C2692295"]
-			description: ["Artifacts: Die Nachtsicht-Brille macht Hoehlen hell. Du findest sie in Truhen."]
+			description: ["&6Was ist das?", "Artifacts: Die Nachtsicht-Brille macht Hoehlen hell. Du findest sie in Truhen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Hoehlen ohne Fackeln erkunden."]
 			id: "2C77772D63F6A8C8"
 			title: "Nachtsicht-Brille"
 			rewards: [{ id: "FA548F0A59EF530E", type: "xp_levels", xp_levels: 4 }]
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["2C77772D63F6A8C8"]
-			description: ["Artifacts: Die Grabeklauen lassen dich mit der Hand schneller graben."]
+			description: ["&6Was ist das?", "Artifacts: Die Grabeklauen lassen dich mit der Hand schneller graben.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Abbaugeschwindigkeit, auch per Hand."]
 			id: "A6481D459F54C9AE"
 			title: "Grabeklauen"
 			rewards: [{ id: "4CD7A3468E8624CE", type: "xp_levels", xp_levels: 4 }]
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["A6481D459F54C9AE"]
-			description: ["Artifacts: Erze werden beim Abbau direkt geschmolzen."]
+			description: ["&6Was ist das?", "Artifacts: Erze werden beim Abbau direkt geschmolzen.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Spart den Ofen."]
 			id: "73816CF8B8F40B64"
 			title: "Spitzhacken-Heizer"
 			rewards: [{ id: "97A9584E09AC081C", type: "xp_levels", xp_levels: 4 }]
@@ -209,7 +209,7 @@
 		}
 		{
 			dependencies: ["73816CF8B8F40B64"]
-			description: ["Mit der Verzauberung Reparatur (Mending) reparieren sich Werkzeuge durch Erfahrung. Du bekommst sie von Bibliothekaren oder aus Truhen."]
+			description: ["&6Was ist das?", "Mit der Verzauberung Reparatur (Mending) reparieren sich Werkzeuge durch Erfahrung. Du bekommst sie von Bibliothekaren oder aus Truhen.", "", "&6So gehts", "Mit Reparatur (Mending) verzaubern, dann repariert Erfahrung das Item.", "Oder im Amboss mit Material reparieren.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge musst du dann nie mehr neu machen."]
 			id: "6EFCE14581D81E1C"
 			title: "Reparieren"
 			rewards: [{ id: "78CB928FE87EFE63", type: "xp_levels", xp_levels: 4 }]
@@ -219,7 +219,7 @@
 		}
 		{
 			dependencies: ["6EFCE14581D81E1C"]
-			description: ["Die Netherit-Spitzhacke ist die beste normale Spitzhacke. Verbessere Diamant am Schmiedetisch."]
+			description: ["&6Was ist das?", "Die Netherit-Spitzhacke ist die beste normale Spitzhacke. Verbessere Diamant am Schmiedetisch.", "", "&6So gehts", "Diamantspitzhacke, Netherit-Barren und Vorlage im Schmiedetisch.", "", "&6Wofuer ist das wichtig?", "Geht nicht in Lava kaputt und haelt sehr lange."]
 			id: "90F6FA1D6BC9DF5E"
 			title: "Netherit-Spitzhacke"
 			rewards: [{ id: "0148B62FAA161F94", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["90F6FA1D6BC9DF5E"]
-			description: ["Advanced Netherite verbessert Netherit mit Eisen, Gold, Smaragd oder Diamant. Jede Stufe hat eigene Vorteile."]
+			description: ["&6Was ist das?", "Advanced Netherite verbessert Netherit mit Eisen, Gold, Smaragd oder Diamant. Jede Stufe hat eigene Vorteile.", "", "&6So gehts", "Im Schmiedetisch mit den passenden Barren.", "", "&6Wofuer ist das wichtig?", "Starke Boni, z.B. mehr Erze oder Schutz vor Piglins."]
 			id: "91DDAD05E395F77D"
 			title: "Advanced Netherite"
 			rewards: [{ id: "9FEE9E8A580A49F9", type: "xp_levels", xp_levels: 8 }]

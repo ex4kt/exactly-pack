@@ -9,7 +9,7 @@
 	title: "&bLager und Ordnung"
 	quests: [
 		{
-			description: ["Alles beginnt mit einer Kiste. Baue eine aus Holz und stelle sie zu Hause auf."]
+			description: ["&6Was ist das?", "Alles beginnt mit einer Kiste. Baue eine aus Holz und stelle sie zu Hause auf.", "", "&6So gehts", "Acht Bretter im Kreis. Zwei Kisten nebeneinander ergeben eine Doppelkiste mit 54 Plaetzen.", "Beschrifte Kisten mit einem Schild oder Item-Rahmen.", "", "&6Wofuer ist das wichtig?", "Sortiere frueh: Erze, Holz, Essen, Mob-Drops. Spaeter ersetzt du die Kisten durch ein Lagersystem, das alles automatisch findet."]
 			id: "37E511109F76875B"
 			title: "Eine Kiste"
 			rewards: [{ id: "E28C7A533E06C908", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["37E511109F76875B"]
-			description: ["Ein Fass fasst genauso viel wie eine Kiste, laesst sich aber unter Bloecken oeffnen."]
+			description: ["&6Was ist das?", "Ein Fass fasst genauso viel wie eine Kiste, laesst sich aber unter Bloecken oeffnen.", "", "&6So gehts", "Sechs Bretter und zwei Holzstufen.", "Du kannst Faesser direkt stapeln und in Waende einbauen.", "", "&6Wofuer ist das wichtig?", "Platzsparend fuer kleine Basen. Hopper und Trichter funktionieren wie bei Kisten."]
 			id: "D118FFCA6AB4CDE4"
 			title: "Fass"
 			rewards: [{ id: "FA44DBBC19C678C9", type: "xp_levels", xp_levels: 1 }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["D118FFCA6AB4CDE4"]
-			description: ["Client Sort und Inventory Profiles Next sortieren dein Inventar und Kisten.", "Client Sort: Shift und mittlere Maustaste."]
+			description: ["&6Was ist das?", "Client Sort und Inventory Profiles Next sortieren dein Inventar und Kisten.", "Client Sort: Shift und mittlere Maustaste.", "", "&6So gehts", "Oeffne eine Kiste. Rechts oben erscheinen kleine Knoepfe zum Sortieren.", "Mit Client Sort: Shift halten und mittlere Maustaste im Inventar.", "", "&6Wofuer ist das wichtig?", "Spart viel Zeit. Mit Profilen kannst du auch Ausruestungs-Sets schnell wechseln."]
 			id: "7C3CAF1D69D38273"
 			title: "Inventar sortieren"
 			rewards: [{ id: "B1715BA0A84B3DC8", type: "xp_levels", xp_levels: 1 }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["7C3CAF1D69D38273"]
-			description: ["Du kannst mit Items aus Kisten in der Naehe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Bloecke).", "Schritt 2: Oeffne sie. Items aus den Kisten stehen zum Craften bereit."]
+			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Naehe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Bloecke).", "Schritt 2: Oeffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und oeffne sie.", "JEI-Rezepte mit dem Plus-Knopf fuellen sich dann aus den Kisten.", "", "&6Wofuer ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt fuer eine Werkstatt."]
 			id: "89BB4044B4F65C3C"
 			title: "Nearby Crafting"
 			rewards: [{ id: "7CB61A4DD33079A0", type: "xp_levels", xp_levels: 2 }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["89BB4044B4F65C3C"]
-			description: ["Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "Schritt 1: Baue ein Storage Terminal.", "Schritt 2: Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Schritt 3: Oeffne das Terminal und suche oben nach Items."]
+			description: ["&6Was ist das?", "Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "Schritt 1: Baue ein Storage Terminal.", "Schritt 2: Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Schritt 3: Oeffne das Terminal und suche oben nach Items.", "", "&6So gehts", "Stelle das Terminal (Storage Terminal) neben eine Kiste oder verbinde es mit Kabeln.", "Oeffne es, suche oben nach Namen und nimm heraus, was du brauchst.", "", "&6Wofuer ist das wichtig?", "Statt zwanzig Kisten zu durchsuchen, hast du ein Suchfenster fuer alles. Das Herz deiner Basis."]
 			id: "03FC381EF4152814"
 			title: "Tom Storage: Terminal"
 			rewards: [{ id: "B1472577E0BB14BB", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["03FC381EF4152814"]
-			description: ["Der Inventory Connector verbindet eine Kiste mit dem Netz.", "Das Inventory Cable zieht die Verbindung weiter."]
+			description: ["&6Was ist das?", "Der Inventory Connector verbindet eine Kiste mit dem Netz.", "Das Inventory Cable zieht die Verbindung weiter.", "", "&6So gehts", "Lege Kabel von Kiste zu Kiste und zum Terminal.", "Alle Kisten am Kabel erscheinen im Terminal.", "", "&6Wofuer ist das wichtig?", "So waechst dein Lager mit: Einfach neue Kisten ans Kabel haengen."]
 			id: "38B212068F050A7A"
 			title: "Verbindungen"
 			rewards: [{ id: "2B5653D3B0CEE566", type: "xp_levels", xp_levels: 2 }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["38B212068F050A7A"]
-			description: ["Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten."]
+			description: ["&6Was ist das?", "Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten.", "", "&6So gehts", "Wie das normale Terminal anschliessen.", "Craftest du etwas, holt es die Zutaten direkt aus dem Lager. Mit JEI klickst du ein Rezept einfach hinein.", "", "&6Wofuer ist das wichtig?", "Der bequemste Ort zum Craften im ganzen Pack."]
 			id: "50252BF08DCFFE12"
 			title: "Crafting Terminal"
 			rewards: [{ id: "7F95F5599D0955F6", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["50252BF08DCFFE12"]
-			description: ["Diese Kisten und Fass-Bloecke haben Upgrade-Plaetze.", "Du kannst sie mit Upgrades (z.B. Einsaugen, Sortieren) erweitern und farbig gestalten."]
+			description: ["&6Was ist das?", "Diese Kisten und Fass-Bloecke haben Upgrade-Plaetze.", "Du kannst sie mit Upgrades (z.B. Einsaugen, Sortieren) erweitern und farbig gestalten.", "", "&6So gehts", "Baue eine Holzkiste aus Sophisticated Storage.", "Spaeter mit Stufen-Upgrades zu Kupfer, Eisen, Gold, Diamant, Netherit verbessern, ohne sie auszuraeumen.", "", "&6Wofuer ist das wichtig?", "Jede Stufe hat mehr Plaetze. Upgrades wie Sortieren, Einsammeln oder Kompression machen sie schlau."]
 			id: "2B3D10BE29347BD4"
 			title: "Sophisticated Storage"
 			rewards: [{ id: "736EB073C8433437", type: "xp_levels", xp_levels: 2 }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["2B3D10BE29347BD4"]
-			description: ["Ein Rucksack passt in dein Inventar und hat viele Plaetze.", "Schritt 1: Baue einen Rucksack.", "Schritt 2: Oeffne ihn mit der Taste B oder per Rechtsklick.", "Schritt 3: Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet)."]
+			description: ["&6Was ist das?", "Ein Rucksack passt in dein Inventar und hat viele Plaetze.", "Schritt 1: Baue einen Rucksack.", "Schritt 2: Oeffne ihn mit der Taste B oder per Rechtsklick.", "Schritt 3: Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet).", "", "&6So gehts", "Herstellen und auf den Ruecken legen oder in der Hand halten.", "Taste B oeffnet ihn, auch wenn er auf dem Ruecken ist.", "Shift-Rechtsklick auf den Boden stellt ihn ab.", "", "&6Wofuer ist das wichtig?", "Der Rucksack ist dein bester Begleiter auf Abenteuern. In den naechsten Quests lernst du die wichtigsten Upgrades."]
 			id: "C6016B178BA46069"
 			title: "Rucksack"
 			rewards: [{ id: "3F22F1ADC00B57B8", type: "item", item: { id: "minecraft:leather", count: 4 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["C6016B178BA46069"]
-			description: ["Die Nether-Truhe speichert pro Platz sehr viele Items eines Typs.", "Gut fuer Bruchstein, Erde und andere Massen."]
+			description: ["&6Was ist das?", "Die Nether-Truhe speichert pro Platz sehr viele Items eines Typs.", "Gut fuer Bruchstein, Erde und andere Massen.", "", "&6So gehts", "Wie eine Kiste benutzen.", "", "&6Wofuer ist das wichtig?", "Ideal fuer Massenware."]
 			id: "DE35699454287B8C"
 			title: "Nether-Truhe"
 			rewards: [{ id: "79031085A495C97C", type: "xp_levels", xp_levels: 3 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["DE35699454287B8C"]
-			description: ["Eine Shulkerkiste behaelt ihren Inhalt, wenn du sie abbaust. Der perfekte Koffer."]
+			description: ["&6Was ist das?", "Eine Shulkerkiste behaelt ihren Inhalt, wenn du sie abbaust. Der perfekte Koffer.", "", "&6So gehts", "Zwei Shulkerschalen aus Endstaedten und eine Kiste.", "", "&6Wofuer ist das wichtig?", "Ideal zum Umziehen und als Vorrat auf Reisen. Lass dich nicht im Ende von Shulkern fallen."]
 			id: "F728D0B69C555672"
 			title: "Shulker-Kiste"
 			rewards: [{ id: "AB3C78688288B4E4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -118,7 +118,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["Rucksaecke kannst du verbessern: Kupfer, Eisen, Gold, Diamant, Netherit. Jede Stufe hat mehr Plaetze und Upgrade-Slots.", "Lege den Rucksack mit Material in die Werkbank."]
+			description: ["&6Was ist das?", "Rucksaecke kannst du verbessern: Kupfer, Eisen, Gold, Diamant, Netherit. Jede Stufe hat mehr Plaetze und Upgrade-Slots.", "Lege den Rucksack mit Material in die Werkbank.", "", "&6So gehts", "Lege den Rucksack mit dem neuen Material in die Werkbank. Inhalt und Upgrades bleiben erhalten.", "", "&6Wofuer ist das wichtig?", "Jede Stufe bringt mehr Plaetze und mehr Upgrade-Slots."]
 			id: "297988D3DBC2880C"
 			title: "Rucksack-Stufen"
 			rewards: [{ id: "E2B16B47903C5630", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["297988D3DBC2880C"]
-			description: ["Das Pickup-Upgrade sammelt aufgehobene Items direkt in den Rucksack."]
+			description: ["&6Was ist das?", "Das Pickup-Upgrade sammelt aufgehobene Items direkt in den Rucksack.", "", "&6So gehts", "Upgrade in einen Upgrade-Slot des Rucksacks legen.", "Mit Filter einstellen, was gesammelt wird, z.B. nur Erze.", "", "&6Wofuer ist das wichtig?", "Beim Abbauen landen Erze direkt im Rucksack, nicht im vollen Inventar."]
 			id: "2E4FDEBD2CBA33EE"
 			title: "Einsammel-Upgrade"
 			rewards: [{ id: "47A89CE68BEB6A34", type: "xp_levels", xp_levels: 2 }]
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["2E4FDEBD2CBA33EE"]
-			description: ["Das Magnet-Upgrade zieht Items und Erfahrung in deiner Naehe an."]
+			description: ["&6Was ist das?", "Das Magnet-Upgrade zieht Items und Erfahrung in deiner Naehe an.", "", "&6So gehts", "Upgrade in den Rucksack legen.", "", "&6Wofuer ist das wichtig?", "Nie wieder Items im Lavasee oder hinter Monstern liegen lassen."]
 			id: "C05D4E369FB239E0"
 			title: "Magnet-Upgrade"
 			rewards: [{ id: "5E8DCA7C1E1BFE8A", type: "xp_levels", xp_levels: 3 }]
@@ -148,7 +148,7 @@
 		}
 		{
 			dependencies: ["C05D4E369FB239E0"]
-			description: ["Das Stapel-Upgrade erhoeht, wie viele Items in einen Platz passen."]
+			description: ["&6Was ist das?", "Das Stapel-Upgrade erhoeht, wie viele Items in einen Platz passen.", "", "&6So gehts", "Upgrade in den Rucksack legen. Hoehere Stufen verdoppeln mehrfach.", "", "&6Wofuer ist das wichtig?", "Aus einem kleinen Rucksack wird ein riesiges Lager."]
 			id: "B9272744D96CD3FA"
 			title: "Stapel-Upgrade"
 			rewards: [{ id: "E268157264C03F19", type: "xp_levels", xp_levels: 3 }]
@@ -158,7 +158,7 @@
 		}
 		{
 			dependencies: ["B9272744D96CD3FA"]
-			description: ["Mit dem Crafting-Upgrade hast du immer eine Werkbank dabei."]
+			description: ["&6Was ist das?", "Mit dem Crafting-Upgrade hast du immer eine Werkbank dabei.", "", "&6So gehts", "Upgrade einsetzen, dann erscheint ein Werkbank-Tab im Rucksack.", "", "&6Wofuer ist das wichtig?", "Unterwegs craften, ohne eine Werkbank aufzustellen."]
 			id: "CE582384AD6E2998"
 			title: "Werkbank im Rucksack"
 			rewards: [{ id: "06CD7081676716CE", type: "xp_levels", xp_levels: 2 }]
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["CE582384AD6E2998"]
-			description: ["Das Schmelz-Upgrade schmilzt Erze unterwegs."]
+			description: ["&6Was ist das?", "Ein Ofen im Rucksack, der auch beim Laufen schmilzt.", "", "&6So gehts", "Upgrade einsetzen, Erz und Brennstoff hinein.", "", "&6Wofuer ist das wichtig?", "Rohes Erz wird unterwegs zu Barren, du sparst Zeit."]
 			id: "EBFA07B5C1FA7795"
 			title: "Ofen im Rucksack"
 			rewards: [{ id: "7DFC2423934B9950", type: "item", item: { id: "minecraft:coal", count: 8 } }]
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["EBFA07B5C1FA7795"]
-			description: ["Das Refill-Upgrade fuellt deine Hotbar automatisch nach, z.B. Fackeln oder Bloecke."]
+			description: ["&6Was ist das?", "Das Refill-Upgrade fuellt deine Hotbar automatisch nach, z.B. Fackeln oder Bloecke.", "", "&6So gehts", "Upgrade einsetzen und die Items im Filter waehlen, z.B. Fackeln oder Essen.", "", "&6Wofuer ist das wichtig?", "Du hast nie wieder leere Fackeln mitten in der Hoehle."]
 			id: "005445D80EC41614"
 			title: "Nachfuellen"
 			rewards: [{ id: "FAF47FB45649EB57", type: "xp_levels", xp_levels: 2 }]
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["005445D80EC41614"]
-			description: ["Das Werkzeugtausch-Upgrade waehlt automatisch das richtige Werkzeug fuer den Block."]
+			description: ["&6Was ist das?", "Das Werkzeugtausch-Upgrade waehlt automatisch das richtige Werkzeug fuer den Block.", "", "&6So gehts", "Upgrade einsetzen, Werkzeuge in den Rucksack legen.", "", "&6Wofuer ist das wichtig?", "Spitzhacke, Axt, Schaufel wechseln sich von selbst."]
 			id: "0EE1449520C13DC3"
 			title: "Werkzeugtausch"
 			rewards: [{ id: "73CE919C75D997E4", type: "xp_levels", xp_levels: 3 }]
@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["0EE1449520C13DC3"]
-			description: ["Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plaetze."]
+			description: ["&6Was ist das?", "Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plaetze.", "", "&6So gehts", "Gold-Rucksack mit Diamanten aufwerten.", "", "&6Wofuer ist das wichtig?", "Viele Plaetze und Upgrade-Slots fuer lange Reisen."]
 			id: "40E24448D6A1A735"
 			title: "Diamant-Rucksack"
 			rewards: [{ id: "2A1AE6E861B683F4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -207,7 +207,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Sophisticated Storage Kisten lassen sich mit Stufen-Upgrades verbessern, ohne sie auszuraeumen."]
+			description: ["&6Was ist das?", "Sophisticated Storage Kisten lassen sich mit Stufen-Upgrades verbessern, ohne sie auszuraeumen.", "", "&6So gehts", "Mit Stufen-Upgrade aus einer Holzkiste machen.", "", "&6Wofuer ist das wichtig?", "Mehr Platz auf gleicher Flaeche."]
 			id: "FBA9971B6F239B53"
 			title: "Eisenkiste"
 			rewards: [{ id: "917E53515580EE1A", type: "xp_levels", xp_levels: 2 }]
@@ -217,7 +217,7 @@
 		}
 		{
 			dependencies: ["FBA9971B6F239B53"]
-			description: ["Mit dem Stufen-Upgrade machst du aus einer Holzkiste eine Eisenkiste, mit Inhalt."]
+			description: ["&6Was ist das?", "Mit dem Stufen-Upgrade machst du aus einer Holzkiste eine Eisenkiste, mit Inhalt.", "", "&6So gehts", "Rechtsklick mit dem Upgrade auf die aufgestellte Kiste.", "", "&6Wofuer ist das wichtig?", "Kein Ausraeumen noetig, die Kiste waechst mit."]
 			id: "29018FFB954DA8AB"
 			title: "Stufen-Upgrade"
 			rewards: [{ id: "7BD6B0FF3AF6C6F0", type: "xp_levels", xp_levels: 2 }]
@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["29018FFB954DA8AB"]
-			description: ["Das begrenzte Fass (Limited Barrel) speichert viele Stapel weniger Item-Sorten. Gut fuer Massen."]
+			description: ["&6Was ist das?", "Das begrenzte Fass (Limited Barrel) speichert viele Stapel weniger Item-Sorten. Gut fuer Massen.", "", "&6So gehts", "Rechtsklick mit einem Item legt es hinein, Linksklick nimmt heraus.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer Massenware wie Stein, Erde oder Weizen."]
 			id: "D62822ACE2B421E1"
 			title: "Schubladen-Fass"
 			rewards: [{ id: "45931AE54350891C", type: "xp_levels", xp_levels: 2 }]
@@ -237,7 +237,7 @@
 		}
 		{
 			dependencies: ["D62822ACE2B421E1"]
-			description: ["Der Controller verbindet alle Sophisticated-Kisten in der Naehe. Items wandern automatisch in die passende Kiste."]
+			description: ["&6Was ist das?", "Der Controller verbindet alle Sophisticated-Kisten in der Naehe. Items wandern automatisch in die passende Kiste.", "", "&6So gehts", "Controller aufstellen und Kisten direkt daneben oder mit Lager-Verbindungen anschliessen.", "", "&6Wofuer ist das wichtig?", "Ein Controller nimmt Items und verteilt sie auf die richtigen Kisten."]
 			id: "16E161DFBF03331E"
 			title: "Lager-Controller"
 			rewards: [{ id: "D416DBF5870EC398", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
@@ -247,7 +247,7 @@
 		}
 		{
 			dependencies: ["16E161DFBF03331E"]
-			description: ["Storage Link und Connector erweitern die Reichweite des Controllers."]
+			description: ["&6Was ist das?", "Storage Link und Connector erweitern die Reichweite des Controllers.", "", "&6So gehts", "Zwischen Kisten und Controller setzen.", "", "&6Wofuer ist das wichtig?", "So wird dein Lager beliebig gross."]
 			id: "56639C00E4354B87"
 			title: "Lager-Verbindung"
 			rewards: [{ id: "B9237BF9C755A2A3", type: "xp_levels", xp_levels: 2 }]
@@ -257,7 +257,7 @@
 		}
 		{
 			dependencies: ["56639C00E4354B87"]
-			description: ["Das Kompressions-Upgrade macht automatisch Bloecke aus Barren und Stuecken."]
+			description: ["&6Was ist das?", "Das Kompressions-Upgrade macht automatisch Bloecke aus Barren und Stuecken.", "", "&6So gehts", "In eine Sophisticated-Kiste einsetzen.", "", "&6Wofuer ist das wichtig?", "Spart enorm viel Platz bei Erzen."]
 			id: "62C3984B83C3178A"
 			title: "Kompressions-Upgrade"
 			rewards: [{ id: "7932050EE3F498F2", type: "xp_levels", xp_levels: 3 }]
@@ -267,7 +267,7 @@
 		}
 		{
 			dependencies: ["62C3984B83C3178A"]
-			description: ["Mit Klebeband packst du eine volle Kiste ein und traegst sie mitsamt Inhalt weg."]
+			description: ["&6Was ist das?", "Mit Klebeband packst du eine volle Kiste ein und traegst sie mitsamt Inhalt weg.", "", "&6So gehts", "Rechtsklick auf eine Kiste, dann wird sie zum Item.", "", "&6Wofuer ist das wichtig?", "Umziehen ohne Ausraeumen."]
 			id: "0CFBAB846E32E8AF"
 			title: "Klebeband"
 			rewards: [{ id: "7AE1E73BC97CCC5D", type: "xp_levels", xp_levels: 2 }]
@@ -277,7 +277,7 @@
 		}
 		{
 			dependencies: ["0CFBAB846E32E8AF"]
-			description: ["Mit dem Pinsel faerbst du Kisten und Faesser ein."]
+			description: ["&6Was ist das?", "Mit dem Pinsel faerbst du Kisten und Faesser ein.", "", "&6So gehts", "Farben in den Pinsel, dann Rechtsklick auf die Kiste.", "", "&6Wofuer ist das wichtig?", "Farbcodes helfen beim Sortieren: Rot fuer Erze, Gruen fuer Pflanzen."]
 			id: "78C17D4C2AA5FCF7"
 			title: "Pinsel"
 			rewards: [{ id: "9CCEAD4158CC194D", type: "xp_levels", xp_levels: 1 }]
@@ -286,7 +286,7 @@
 			y: 14.0d
 		}
 		{
-			description: ["Ein Sharestone verbindet alle Sharestones gleicher Farbe. Perfekt fuer die Gruppe."]
+			description: ["&6Was ist das?", "Ein Sharestone verbindet alle Sharestones gleicher Farbe. Perfekt fuer die Gruppe.", "", "&6So gehts", "Zwei Teilsteine derselben Farbe aufstellen.", "", "&6Wofuer ist das wichtig?", "Eigene Reisenetze, z.B. nur zwischen deinen Farmen."]
 			id: "B847CCDB98DB51D0"
 			title: "Teilstein (Sharestone)"
 			rewards: [{ id: "5F3FF73AAF0DB7C8", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
@@ -296,7 +296,7 @@
 		}
 		{
 			dependencies: ["B847CCDB98DB51D0"]
-			description: ["Die Return Scroll bringt dich zum zuletzt benutzten Waystone zurueck."]
+			description: ["&6Was ist das?", "Die Return Scroll bringt dich zum zuletzt benutzten Waystone zurueck.", "", "&6So gehts", "Benutzen, kurz warten.", "", "&6Wofuer ist das wichtig?", "Notausgang aus Dungeons."]
 			id: "8DB8A73382901249"
 			title: "Rueckkehr-Schriftrolle"
 			rewards: [{ id: "4F6264D7CD163F4E", type: "xp_levels", xp_levels: 2 }]
@@ -306,7 +306,7 @@
 		}
 		{
 			dependencies: ["8DB8A73382901249"]
-			description: ["Der Warpstein ist ein tragbarer Waystone. Er braucht Zeit zum Aufladen."]
+			description: ["&6Was ist das?", "Der Warpstein ist ein tragbarer Waystone. Er braucht Zeit zum Aufladen.", "", "&6So gehts", "Benutzen und Ziel waehlen. Er braucht danach eine Weile zum Aufladen.", "", "&6Wofuer ist das wichtig?", "Dein Teleporter fuer unterwegs."]
 			id: "EB75333AB17F0861"
 			title: "Warpstein"
 			rewards: [{ id: "B18B0A1AE7BB6C20", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
@@ -316,7 +316,7 @@
 		}
 		{
 			dependencies: ["EB75333AB17F0861"]
-			description: ["Warp-Platten verbinden zwei Orte. Stelle dich darauf, um zu reisen."]
+			description: ["&6Was ist das?", "Warp-Platten verbinden zwei Orte. Stelle dich darauf, um zu reisen.", "", "&6So gehts", "Zwei Platten aufstellen und mit einem Anhaenger verbinden.", "", "&6Wofuer ist das wichtig?", "Schnelle Verbindungen innerhalb grosser Basen."]
 			id: "DAD206C351F93D96"
 			title: "Warp-Platte"
 			rewards: [{ id: "1FA168E84241086E", type: "xp_levels", xp_levels: 3 }]
@@ -326,7 +326,7 @@
 		}
 		{
 			dependencies: ["DAD206C351F93D96"]
-			description: ["Ein Portstone teleportiert dich zu einem bekannten Waystone, ohne selbst einer zu sein."]
+			description: ["&6Was ist das?", "Ein Portstone teleportiert dich zu einem bekannten Waystone, ohne selbst einer zu sein.", "", "&6So gehts", "Aufstellen und Ziel waehlen.", "", "&6Wofuer ist das wichtig?", "Bequem fuer feste Reisepunkte."]
 			id: "33C9A7C490C9032F"
 			title: "Portstone"
 			rewards: [{ id: "F896209FAD59C583", type: "xp_levels", xp_levels: 3 }]

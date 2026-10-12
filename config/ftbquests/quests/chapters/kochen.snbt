@@ -9,7 +9,7 @@
 	title: "&eKochen"
 	quests: [
 		{
-			description: ["Farmers Delight bringt bessere Gerichte, Felder und Kochgeraete.", "Die naechsten Quests fuehren dich Schritt fuer Schritt durch die Kueche.", "Tipp: Mahlzeiten aus dem Kochtopf geben Effekte wie Nahrhaft und Gemuetlich (Lebensregeneration)."]
+			description: ["&6Was ist das?", "Farmers Delight bringt bessere Gerichte, Felder und Kochgeraete.", "Die naechsten Quests fuehren dich Schritt fuer Schritt durch die Kueche.", "Tipp: Mahlzeiten aus dem Kochtopf geben Effekte wie Nahrhaft und Gemuetlich (Lebensregeneration).", "", "&6So gehts", "Folge den Quests in diesem Kapitel: erst Werkzeug, dann Kochgeraete, dann Gerichte.", "", "&6Wofuer ist das wichtig?", "Mahlzeiten aus dem Kochtopf geben die Effekte Nahrhaft (kein Hunger) und Gemuetlich (Leben regeneriert). Das hilft enorm in Kaempfen und Dungeons."]
 			id: "6A04023D48E9532D"
 			title: "Kochen mit Farmers Delight"
 			rewards: [{ id: "664D8DC07DA7E676", type: "item", item: { id: "minecraft:bread", count: 4 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["6A04023D48E9532D"]
-			description: ["Ein Messer ist das wichtigste Werkzeug. Damit schneidest du Zutaten, erntest Stroh und holst mehr aus Tieren."]
+			description: ["&6Was ist das?", "Ein Messer ist das wichtigste Werkzeug. Damit schneidest du Zutaten, erntest Stroh und holst mehr aus Tieren.", "", "&6So gehts", "Baue ein Messer aus Eisen (oder Feuerstein, Gold, Diamant).", "Mit dem Messer erntest du Stroh von Gras und bekommst mehr Fleisch von Tieren.", "", "&6Wofuer ist das wichtig?", "Ohne Messer kannst du auf dem Schneidebrett kaum etwas schneiden. Stroh brauchst du fuer Leinwand und Reiche Erde."]
 			id: "B5118D50497C373F"
 			title: "Messer"
 			rewards: [{ id: "62462C71D28E3273", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["B5118D50497C373F"]
-			description: ["Auf dem Schneidebrett schneidest du Zutaten. Rechtsklick mit Messer, Axt oder Schaufel auf das Brett."]
+			description: ["&6Was ist das?", "Auf dem Schneidebrett schneidest du Zutaten. Rechtsklick mit Messer, Axt oder Schaufel auf das Brett.", "", "&6So gehts", "Stelle das Brett auf, lege mit Rechtsklick eine Zutat darauf.", "Rechtsklick mit Messer schneidet.", "In JEI siehst du alle Schneide-Rezepte.", "", "&6Wofuer ist das wichtig?", "Fast jedes Gericht braucht geschnittene Zutaten. Spaeter kann der Slicer aus Slice and Dice das automatisch machen."]
 			id: "EF946351EB28CE2D"
 			title: "Schneidebrett"
 			rewards: [{ id: "EA0B2145FDD47ED0", type: "xp_levels", xp_levels: 1 }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["EF946351EB28CE2D"]
-			description: ["Der Herd ist die beste Hitzequelle fuer Topf und Pfanne. Du kannst auch ein Lagerfeuer nehmen."]
+			description: ["&6Was ist das?", "Der Herd ist die beste Hitzequelle fuer Topf und Pfanne. Du kannst auch ein Lagerfeuer nehmen.", "", "&6So gehts", "Stelle den Herd auf und zuende ihn mit Feuerzeug an.", "Lege rohes Fleisch mit Rechtsklick auf den Herd, um es zu grillen.", "", "&6Wofuer ist das wichtig?", "Topf und Pfanne brauchen Hitze von unten. Der Herd ist sauberer als ein Lagerfeuer und haelt ewig."]
 			id: "9AF11B4850F7A6AC"
 			title: "Herd"
 			rewards: [{ id: "74F92B0E7F9003EB", type: "item", item: { id: "minecraft:coal", count: 8 } }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["9AF11B4850F7A6AC"]
-			description: ["Im Kochtopf gart man Eintoepfe und Suppen. Stelle ihn auf den Herd und lege Zutaten plus Schuessel hinein."]
+			description: ["&6Was ist das?", "Im Kochtopf gart man Eintoepfe und Suppen. Stelle ihn auf den Herd und lege Zutaten plus Schuessel hinein.", "", "&6So gehts", "Stelle den Topf auf den Herd.", "Lege bis zu sechs Zutaten und das Gefaess (meist Schuessel) hinein.", "Warte, bis das Gericht fertig ist, und nimm es heraus.", "", "&6Wofuer ist das wichtig?", "Topf-Gerichte geben die wichtigen Effekte. Mit Wasser im Topf brauchst du fuer Suppen kein Wasser extra."]
 			id: "4FB6AD78F02DAD46"
 			title: "Kochtopf"
 			rewards: [{ id: "D1C3E4DA8D0FC187", type: "xp_levels", xp_levels: 2 }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["4FB6AD78F02DAD46"]
-			description: ["In der Pfanne brutzelt man Fleisch, Fisch und Eier direkt auf dem Herd."]
+			description: ["&6Was ist das?", "In der Pfanne brutzelt man Fleisch, Fisch und Eier direkt auf dem Herd.", "", "&6So gehts", "Stelle sie auf den Herd und lege Zutaten mit Rechtsklick hinein.", "Du kannst sie auch in der Hand benutzen und damit zuschlagen.", "", "&6Wofuer ist das wichtig?", "Schneller als ein Ofen. Mit dem Korb daneben landet das Essen automatisch darin."]
 			id: "692982D2B0F63E67"
 			title: "Pfanne"
 			rewards: [{ id: "B53F6AD2C9F814B5", type: "xp_levels", xp_levels: 2 }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["692982D2B0F63E67"]
-			description: ["Der Korb sammelt Items, die auf ihn fallen. Stelle ihn neben die Pfanne, dann landet das Essen automatisch darin."]
+			description: ["&6Was ist das?", "Der Korb sammelt Items, die auf ihn fallen. Stelle ihn neben die Pfanne, dann landet das Essen automatisch darin.", "", "&6So gehts", "Stelle den Korb neben oder unter Pfanne und Herd.", "Richte ihn auf eine Kiste.", "", "&6Wofuer ist das wichtig?", "Erste kleine Automatisierung in der Kueche, auch fuer Farmen nuetzlich."]
 			id: "064C3C3C271186D7"
 			title: "Korb"
 			rewards: [{ id: "3E46E91435BD9E2A", type: "item", item: { id: "minecraft:string", count: 4 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["064C3C3C271186D7"]
-			description: ["Kohl und Zwiebeln wachsen auf Feldern. Du findest Samen in der Wildnis."]
+			description: ["&6Was ist das?", "Kohl und Zwiebeln wachsen auf Feldern. Du findest Samen in der Wildnis.", "", "&6So gehts", "Wilde Pflanzen findest du an Straenden und Wiesen. Baue sie ab, um Samen zu bekommen.", "Pflanze sie auf Ackerboden.", "", "&6Wofuer ist das wichtig?", "Fast alle Salate und Eintoepfe brauchen Gemuese. Lege frueh ein Feld an."]
 			id: "B910314218B9D051"
 			title: "Kohl und Zwiebeln"
 			rewards: [{ id: "9243047470180DBC", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["B910314218B9D051"]
-			description: ["Reis waechst im flachen Wasser. Du brauchst ihn fuer viele Gerichte."]
+			description: ["&6Was ist das?", "Reis waechst im flachen Wasser. Du brauchst ihn fuer viele Gerichte.", "", "&6So gehts", "Pflanze Reis in flaches Wasser (ein Block tief).", "Reife Rispen auf dem Schneidebrett zu Reis verarbeiten.", "", "&6Wofuer ist das wichtig?", "Reis brauchst du fuer Gebratenen Reis, Sushi und viele asiatische Gerichte."]
 			id: "9AC4972966600C94"
 			title: "Reis anbauen"
 			rewards: [{ id: "62369FA647A64BEC", type: "item", item: { id: "minecraft:bread", count: 4 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["9AC4972966600C94"]
-			description: ["Tomaten wachsen an Ranken. Du findest Samen in der Wildnis."]
+			description: ["&6Was ist das?", "Tomaten wachsen an Ranken und brauchen ein Seil oder Stange zum Klettern.", "", "&6So gehts", "Pflanze Tomatensamen und setze Seil darueber, damit sie hoch wachsen.", "", "&6Wofuer ist das wichtig?", "Tomaten brauchst du fuer Pasta-Sauce, Pizza und Ketchup."]
 			id: "27AAD63E22BA19E1"
 			title: "Tomaten"
 			rewards: [{ id: "241E9426F62E4F8F", type: "xp_levels", xp_levels: 2 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["27AAD63E22BA19E1"]
-			description: ["Reiche Erde (Rich Soil) laesst Pflanzen schneller wachsen und breitet sich auf Pilzen aus. Stelle sie mit Kompost her."]
+			description: ["&6Was ist das?", "Reiche Erde (Rich Soil) laesst Pflanzen schneller wachsen und breitet sich auf Pilzen aus. Stelle sie mit Kompost her.", "", "&6So gehts", "Kompost aus Stroh, Erde und Pflanzenresten herstellen und verrotten lassen.", "Der Kompost wird mit der Zeit zu Reicher Erde.", "", "&6Wofuer ist das wichtig?", "Schnellere Felder und unendliche Pilze fuer Pilz-Gerichte."]
 			id: "108E99E367ADB315"
 			title: "Reiche Erde"
 			rewards: [{ id: "86409F2F51E3546E", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["108E99E367ADB315"]
-			description: ["Milchflaschen sind Zutat fuer Kakao und Suppen."]
+			description: ["&6Was ist das?", "Milchflaschen sind Zutat fuer Kakao und Suppen.", "", "&6So gehts", "Ein Milcheimer und vier Glasflaschen ergeben vier Milchflaschen.", "", "&6Wofuer ist das wichtig?", "Viele Rezepte brauchen genau eine Portion Milch. Mit Flaschen verschwendest du nichts."]
 			id: "E6766B326E27C88C"
 			title: "Milchflaschen"
 			rewards: [{ id: "866DA868DC7A2F9A", type: "xp_levels", xp_levels: 1 }]
@@ -129,7 +129,7 @@
 		}
 		{
 			dependencies: ["E6766B326E27C88C"]
-			description: ["Heisser Kakao ist ein schneller Start: Milch, Zucker, Kakao im Topf."]
+			description: ["&6Was ist das?", "Heisser Kakao ist ein schneller Start: Milch, Zucker, Kakao im Topf.", "", "&6So gehts", "Milchflasche, Zucker und zwei Kakaobohnen in den Topf, Glasflasche als Gefaess.", "", "&6Wofuer ist das wichtig?", "Entfernt schlechte Effekte wie Schwaeche. Gut nach Kaempfen."]
 			id: "84FF3BA89635C63E"
 			title: "Heisser Kakao"
 			rewards: [{ id: "2FBED9351ABFACE2", type: "xp_levels", xp_levels: 2 }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["84FF3BA89635C63E"]
-			description: ["Stelle Rinder-Eintopf im Kochtopf her."]
+			description: ["&6Was ist das?", "Rinder-Eintopf ist ein klassisches Topf-Gericht.", "", "&6So gehts", "Rindfleisch, Karotte und Kartoffel in den Topf, Schuessel als Gefaess.", "", "&6Wofuer ist das wichtig?", "Gibt den Effekt Nahrhaft: Du wirst eine Weile nicht hungrig."]
 			id: "05CA28B6C57B677E"
 			title: "Ein warmes Gericht"
 			rewards: [{ id: "72833AC98ED390A2", type: "item", item: { id: "minecraft:golden_carrot", count: 4 } }]
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["05CA28B6C57B677E"]
-			description: ["Kuerbissuppe ist ein herzhafter Klassiker."]
+			description: ["&6Was ist das?", "Kuerbissuppe ist ein herzhafter Klassiker.", "", "&6So gehts", "Kuerbisscheiben (Schneidebrett), Milch und Gemuese in den Topf.", "", "&6Wofuer ist das wichtig?", "Gute Saettigung und Gemuetlich-Effekt."]
 			id: "EE474213BFCF7E60"
 			title: "Kuerbissuppe"
 			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 2 }]
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["EE474213BFCF7E60"]
-			description: ["Gebratener Reis sattmacht und ist schnell zu kochen."]
+			description: ["&6Was ist das?", "Gebratener Reis sattmacht und ist schnell zu kochen.", "", "&6So gehts", "Reis, Ei, Karotte und Zwiebel in den Topf.", "", "&6Wofuer ist das wichtig?", "Hohe Saettigung, ideal fuer Ausfluege."]
 			id: "A366BEA0882E3F12"
 			title: "Gebratener Reis"
 			rewards: [{ id: "1B1981D7ED1CFBF1", type: "xp_levels", xp_levels: 2 }]
@@ -169,7 +169,7 @@
 		}
 		{
 			dependencies: ["A366BEA0882E3F12"]
-			description: ["Ein sattes Gericht mit viel Saettigung. Nudeln machst du aus Teig am Schneidebrett."]
+			description: ["&6Was ist das?", "Ein sattes Gericht mit viel Saettigung. Nudeln machst du aus Teig am Schneidebrett.", "", "&6So gehts", "Teig aus Weizen und Eiern, auf dem Schneidebrett zu Nudeln schneiden.", "Mit Hackfleisch und Tomatensauce im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Eines der staerksten Gerichte fuer lange Abenteuer."]
 			id: "F56E1CAE48E3BBFE"
 			title: "Nudeln mit Fleischbaellchen"
 			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 3 }]
@@ -179,7 +179,7 @@
 		}
 		{
 			dependencies: ["F56E1CAE48E3BBFE"]
-			description: ["Gemuese-Eintopf mit guten Effekten."]
+			description: ["&6Was ist das?", "Gemuese-Eintopf mit guten Effekten.", "", "&6So gehts", "Tomate, Zwiebel, Rote Bete und Paprika in den Topf.", "", "&6Wofuer ist das wichtig?", "Gut fuer Vegetarier-Farmen ohne Tiere."]
 			id: "E703012034EBF3FC"
 			title: "Ratatouille"
 			rewards: [{ id: "0746F86E82E83768", type: "xp_levels", xp_levels: 3 }]
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["E703012034EBF3FC"]
-			description: ["Fleischpatty und Brot ergeben einen Hamburger."]
+			description: ["&6Was ist das?", "Fleischpatty und Brot ergeben einen Hamburger.", "", "&6So gehts", "Hackfleisch zu Patty braten, mit Brot, Kohl, Tomate und Zwiebel in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend, gut zum Mitnehmen."]
 			id: "DA0278EE9813F74C"
 			title: "Hamburger"
 			rewards: [{ id: "D1558BCFBF561FD6", type: "item", item: { id: "minecraft:cooked_beef", count: 4 } }]
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["DA0278EE9813F74C"]
-			description: ["Ein ganzes Festmahl fuer die Gruppe, zum Beispiel der Haehnchenbraten oder der Schinken. Jeder darf sich bedienen."]
+			description: ["&6Was ist das?", "Ein ganzes Festmahl fuer die Gruppe, zum Beispiel der Haehnchenbraten oder der Schinken. Jeder darf sich bedienen.", "", "&6So gehts", "Haehnchenbraten im Topf herstellen und aufstellen.", "Rechtsklick mit Schuessel nimmt eine Portion.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer die Gruppe: Ein Gericht fuer alle vor einem Bosskampf."]
 			id: "930BEE2D26ADDEE1"
 			title: "Festmahl: Braten"
 			rewards: [{ id: "FFB1110977A5A940", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -209,7 +209,7 @@
 		}
 		{
 			dependencies: ["930BEE2D26ADDEE1"]
-			description: ["Hirtenpastete ist ein Festmahl-Block aus Hackfleisch und Kartoffeln."]
+			description: ["&6Was ist das?", "Hirtenpastete ist ein Festmahl-Block aus Hackfleisch und Kartoffeln.", "", "&6So gehts", "Im Topf herstellen und aufstellen.", "", "&6Wofuer ist das wichtig?", "Viele Portionen fuer die Gruppe."]
 			id: "9251BC769197FF1C"
 			title: "Hirtenpastete"
 			rewards: [{ id: "D7724C55A461006D", type: "xp_levels", xp_levels: 4 }]
@@ -219,7 +219,7 @@
 		}
 		{
 			dependencies: ["9251BC769197FF1C"]
-			description: ["Die Kuechenschraenke sind huebsch und lagern Items. Gut fuer die Kueche."]
+			description: ["&6Was ist das?", "Die Kuechenschraenke sind huebsch und lagern Items. Gut fuer die Kueche.", "", "&6So gehts", "In allen Holzarten herstellbar.", "", "&6Wofuer ist das wichtig?", "Ordnung in der Kueche und schoene Deko."]
 			id: "F12B33DE8201E11B"
 			title: "Schrank"
 			rewards: [{ id: "788222B0D067E42B", type: "xp_levels", xp_levels: 1 }]
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["F12B33DE8201E11B"]
-			description: ["Hundefutter fuettert Woelfe und heilt sie gut."]
+			description: ["&6Was ist das?", "Hundefutter fuettert Woelfe und heilt sie gut.", "", "&6So gehts", "Im Topf herstellen und einem Wolf geben.", "", "&6Wofuer ist das wichtig?", "Heilt Woelfe voll und macht sie staerker. Gut fuer deine Begleiter."]
 			id: "A09C131CC92C5AE2"
 			title: "Hundefutter"
 			rewards: [{ id: "F6A773B6A7E3AAC4", type: "xp_levels", xp_levels: 2 }]
@@ -239,7 +239,7 @@
 		}
 		{
 			dependencies: ["A09C131CC92C5AE2"]
-			description: ["Autochefs Delight kocht mit Rezeptbuch fuer dich. Das ist praktisch, wenn viele Zutaten noetig sind."]
+			description: ["&6Was ist das?", "Autochefs Delight kocht mit Rezeptbuch fuer dich. Das ist praktisch, wenn viele Zutaten noetig sind.", "", "&6So gehts", "Stelle die Autochef-Geraete auf und gib ihnen ein Rezept.", "", "&6Wofuer ist das wichtig?", "Spart Klicks, wenn du viele Portionen fuer die Gruppe kochst."]
 			id: "4DDBB2E54798C577"
 			title: "Hilfe von Autochef"
 			rewards: [{ id: "C187AA395A395A2A", type: "xp_levels", xp_levels: 3 }]
@@ -248,7 +248,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["Die Mod erweitert Farmers Delight um Fermentation: Getraenke, Kaese, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach."]
+			description: ["&6Was ist das?", "Die Mod erweitert Farmers Delight um Fermentation: Getraenke, Kaese, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach.", "", "&6So gehts", "Alles passiert im Fass (Keg). Erfolge (Taste L) zeigen dir die Schritte.", "", "&6Wofuer ist das wichtig?", "Getraenke geben starke Effekte wie Staerke oder Feuerresistenz, Kaese ist Zutat fuer viele Gerichte."]
 			id: "0EDE54BC06F9109D"
 			title: "Brewin and Chewin"
 			rewards: [{ id: "DA6824AB64B936DF", type: "xp_levels", xp_levels: 2 }]
@@ -258,7 +258,7 @@
 		}
 		{
 			dependencies: ["0EDE54BC06F9109D"]
-			description: ["Im Fass gaeren Fluessigkeiten und Zutaten. Es braucht Zeit und die richtige Temperatur."]
+			description: ["&6Was ist das?", "Im Fass gaeren Fluessigkeiten und Zutaten. Es braucht Zeit und die richtige Temperatur.", "", "&6So gehts", "Fass aufstellen, Fluessigkeit (z.B. Wasser) und Zutaten hineinlegen.", "Die Temperatur der Umgebung ist wichtig: Waerme oder Kaelte durch Bloecke in der Naehe.", "", "&6Wofuer ist das wichtig?", "Ohne Fass keine Getraenke und kein Kaese."]
 			id: "4DD145F7248AA806"
 			title: "Das Fass (Keg)"
 			rewards: [{ id: "E7BB498B9B646750", type: "item", item: { id: "minecraft:barrel", count: 1 } }]
@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["4DD145F7248AA806"]
-			description: ["Der Humpen (Tankard) ist das Trinkgefaess fuer Bier, Met und mehr."]
+			description: ["&6Was ist das?", "Der Humpen (Tankard) ist das Trinkgefaess fuer Bier, Met und mehr.", "", "&6So gehts", "In der Werkbank herstellen und ins Fass legen.", "", "&6Wofuer ist das wichtig?", "Jedes Getraenk wird in einen Humpen abgefuellt."]
 			id: "2AC6DFDF11A53533"
 			title: "Humpen"
 			rewards: [{ id: "0CBBB2BEB8DD5537", type: "xp_levels", xp_levels: 1 }]
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["2AC6DFDF11A53533"]
-			description: ["Bier ist ein Klassiker. Weizen und Wasser gaeren im Fass."]
+			description: ["&6Was ist das?", "Bier ist ein Klassiker. Weizen und Wasser gaeren im Fass.", "", "&6So gehts", "Weizen und Wasser im Fass gaeren lassen.", "", "&6Wofuer ist das wichtig?", "Gibt kurzzeitig mehr Widerstand gegen Rueckstoss."]
 			id: "DB4F863AF5C1C117"
 			title: "Bier"
 			rewards: [{ id: "C73AC957347986C9", type: "xp_levels", xp_levels: 3 }]
@@ -288,7 +288,7 @@
 		}
 		{
 			dependencies: ["DB4F863AF5C1C117"]
-			description: ["Met aus Honig gibt Staerke und ist ein toller Trank fuer lange Reisen."]
+			description: ["&6Was ist das?", "Met aus Honig gibt Staerke und ist ein toller Trank fuer lange Reisen.", "", "&6So gehts", "Honig und Wasser im Fass.", "", "&6Wofuer ist das wichtig?", "Hilft bei langen Kaempfen."]
 			id: "586642040DF2A94C"
 			title: "Met"
 			rewards: [{ id: "1B0D19B092BFA40E", type: "xp_levels", xp_levels: 3 }]
@@ -298,7 +298,7 @@
 		}
 		{
 			dependencies: ["586642040DF2A94C"]
-			description: ["Aus Milch wird im Fass Kaese. Er reift mit der Zeit zu verschiedenen Sorten."]
+			description: ["&6Was ist das?", "Aus Milch wird im Fass Kaese. Er reift mit der Zeit zu verschiedenen Sorten.", "", "&6So gehts", "Milch im Fass zu unreifem Kaese, dann stehen lassen bis er reif ist.", "", "&6Wofuer ist das wichtig?", "Kaese brauchst du fuer Pizza, Fondue und viele Gerichte."]
 			id: "04CF41EB62772C30"
 			title: "Kaese"
 			rewards: [{ id: "607C5F7E58CB4B4A", type: "item", item: { id: "minecraft:bread", count: 4 } }]
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["04CF41EB62772C30"]
-			description: ["Mit dem Fass legst du Gemuese ein: Kimchi, saure Gurken und mehr."]
+			description: ["&6Was ist das?", "Mit dem Fass legst du Gemuese ein: Kimchi, saure Gurken und mehr.", "", "&6So gehts", "Gemuese und Salz im Fass.", "", "&6Wofuer ist das wichtig?", "Lange haltbare Nahrung mit guten Effekten."]
 			id: "F3FAEDFAAFEB70F5"
 			title: "Eingelegtes"
 			rewards: [{ id: "1B89C38DB0934870", type: "xp_levels", xp_levels: 2 }]
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["F3FAEDFAAFEB70F5"]
-			description: ["Pizza ist ein toller Snack und gibt viel Saettigung."]
+			description: ["&6Was ist das?", "Pizza ist ein toller Snack und gibt viel Saettigung.", "", "&6So gehts", "Teig, Tomatensauce, Kaese und Belag zusammensetzen.", "", "&6Wofuer ist das wichtig?", "Mehrere Stuecke fuer die ganze Gruppe."]
 			id: "0F084224ABF2B814"
 			title: "Pizza"
 			rewards: [{ id: "B8A92BDF078356CE", type: "xp_levels", xp_levels: 3 }]
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["0F084224ABF2B814"]
-			description: ["Das Heizfass (Heating Cask) sorgt fuer hohe Temperatur im Keller, das Eisfass fuer Kaelte. Manche Rezepte brauchen das."]
+			description: ["&6Was ist das?", "Das Heizfass (Heating Cask) sorgt fuer hohe Temperatur im Keller, das Eisfass fuer Kaelte. Manche Rezepte brauchen das.", "", "&6So gehts", "Neben das Fass stellen.", "", "&6Wofuer ist das wichtig?", "Manche Getraenke gaeren nur warm oder nur kalt."]
 			id: "AE3799E351452246"
 			title: "Waermebehaelter"
 			rewards: [{ id: "F57BEEE437884720", type: "item", item: { id: "minecraft:coal", count: 8 } }]
@@ -338,7 +338,7 @@
 		}
 		{
 			dependencies: ["AE3799E351452246"]
-			description: ["Wodka und andere starke Getraenke brauchen Zeit und die richtige Kaelte."]
+			description: ["&6Was ist das?", "Wodka und andere starke Getraenke brauchen Zeit und die richtige Kaelte.", "", "&6So gehts", "Braucht Kaelte und lange Gaerzeit.", "", "&6Wofuer ist das wichtig?", "Sehr starke Effekte fuer Bosskaempfe."]
 			id: "2173BABD0A03DDE2"
 			title: "Schnaps"
 			rewards: [{ id: "974FF0FE1984ACF9", type: "xp_levels", xp_levels: 4 }]
@@ -348,7 +348,7 @@
 		}
 		{
 			dependencies: ["2173BABD0A03DDE2"]
-			description: ["Das Fiery Fondue ist ein Festmahl am Tisch."]
+			description: ["&6Was ist das?", "Das Fiery Fondue ist ein Festmahl am Tisch.", "", "&6So gehts", "Mit Kaese im Topf herstellen und aufstellen.", "", "&6Wofuer ist das wichtig?", "Gruppenessen mit guten Effekten."]
 			id: "DA18D7B61C32ED27"
 			title: "Kaesefondue"
 			rewards: [{ id: "6EED231976E2C3D6", type: "xp_levels", xp_levels: 4 }]
@@ -357,7 +357,7 @@
 			y: 15.0d
 		}
 		{
-			description: ["My Nethers Delight bringt Gerichte aus dem Nether.", "Du brauchst Zutaten von Hoglins, Striders und Ghasts."]
+			description: ["&6Was ist das?", "My Nethers Delight bringt Gerichte aus dem Nether.", "Du brauchst Zutaten von Hoglins, Striders und Ghasts.", "", "&6So gehts", "Sammle Zutaten von Hoglins, Stridern und Ghasts.", "", "&6Wofuer ist das wichtig?", "Nether-Gerichte geben oft Feuerresistenz und Staerke."]
 			id: "79FA1E8F367F9A57"
 			title: "Nether-Kueche"
 			rewards: [{ id: "DDDBD26B020AF2EA", type: "xp_levels", xp_levels: 2 }]
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["79FA1E8F367F9A57"]
-			description: ["Der Netherherd braucht weder Kohle noch Holz, er brennt mit Netherrack-Glut."]
+			description: ["&6Was ist das?", "Der Netherherd braucht weder Kohle noch Holz, er brennt mit Netherrack-Glut.", "", "&6So gehts", "Herstellen und mit Feuer entzuenden.", "", "&6Wofuer ist das wichtig?", "Funktioniert wie der normale Herd und passt in Nether-Basen."]
 			id: "22871B8A501E78F3"
 			title: "Nether-Herd"
 			rewards: [{ id: "E94E5184976A8ECF", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["22871B8A501E78F3"]
-			description: ["Der Blackstone-Kochtopf kocht mit Netherhitze und verarbeitet Zutaten des Nethers."]
+			description: ["&6Was ist das?", "Der Blackstone-Kochtopf kocht mit Netherhitze und verarbeitet Zutaten des Nethers.", "", "&6So gehts", "Auf einen Herd stellen und wie den Kochtopf benutzen.", "", "&6Wofuer ist das wichtig?", "Fuer Nether-Rezepte, die besondere Hitze brauchen."]
 			id: "89C4E40E11570CD6"
 			title: "Nether-Kochtopf"
 			rewards: [{ id: "00C5DF41ADC2E457", type: "xp_levels", xp_levels: 3 }]
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["89C4E40E11570CD6"]
-			description: ["Hoglins liefern Lenden und Wuerste. Sie sind die Basis vieler Gerichte."]
+			description: ["&6Was ist das?", "Hoglins liefern Lenden und Wuerste. Sie sind die Basis vieler Gerichte.", "", "&6So gehts", "Hoglins im Karmesinwald jagen, Fleisch am Schneidebrett zerlegen.", "", "&6Wofuer ist das wichtig?", "Basis fuer Nether-Burger und Wuerstchen."]
 			id: "7B0B4A5B0441C97A"
 			title: "Hoglin-Fleisch"
 			rewards: [{ id: "E797262C2BA759B9", type: "xp_levels", xp_levels: 3 }]
@@ -397,7 +397,7 @@
 		}
 		{
 			dependencies: ["7B0B4A5B0441C97A"]
-			description: ["Die Paprika waechst auf Netherboden und macht Gerichte scharf."]
+			description: ["&6Was ist das?", "Die Paprika waechst auf Netherboden und macht Gerichte scharf.", "", "&6So gehts", "Auf Seelensand oder Netherboden anpflanzen.", "", "&6Wofuer ist das wichtig?", "Fuer Curry und scharfe Gerichte, die Feuerresistenz geben."]
 			id: "7460E19E196051A9"
 			title: "Scharfe Paprika"
 			rewards: [{ id: "0146BE408F9A1355", type: "item", item: { id: "minecraft:nether_wart", count: 4 } }]
@@ -407,7 +407,7 @@
 		}
 		{
 			dependencies: ["7460E19E196051A9"]
-			description: ["Scharfes Curry gibt kurzzeitig Feuerwiderstand."]
+			description: ["&6Was ist das?", "Scharfes Curry gibt kurzzeitig Feuerwiderstand.", "", "&6So gehts", "Im Kochtopf mit Paprika herstellen.", "", "&6Wofuer ist das wichtig?", "Gibt Feuerresistenz, perfekt vor Lava-Abenteuern."]
 			id: "3B7C83ED30390F17"
 			title: "Scharfes Curry"
 			rewards: [{ id: "5D6444EB93324E21", type: "xp_levels", xp_levels: 4 }]
@@ -417,7 +417,7 @@
 		}
 		{
 			dependencies: ["3B7C83ED30390F17"]
-			description: ["Ein Burger mit Hoglin-Fleisch."]
+			description: ["&6Was ist das?", "Ein Burger mit Hoglin-Fleisch.", "", "&6So gehts", "Wie den Hamburger herstellen.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend."]
 			id: "AA0C6D7611AA455E"
 			title: "Nether-Burger"
 			rewards: [{ id: "0654D10C8F25D6B0", type: "xp_levels", xp_levels: 4 }]
@@ -427,7 +427,7 @@
 		}
 		{
 			dependencies: ["AA0C6D7611AA455E"]
-			description: ["Ghasta ist Nudelgericht mit Ghast-Teig. Selten und stark."]
+			description: ["&6Was ist das?", "Ghasta ist Nudelgericht mit Ghast-Teig. Selten und stark.", "", "&6So gehts", "Ghast-Traenen und Mehl zu Teig, dann im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Eines der besten Nether-Gerichte."]
 			id: "ABD12A1358CED0D1"
 			title: "Ghasta"
 			rewards: [{ id: "2B1E9E3915E36D21", type: "xp_levels", xp_levels: 5 }]
@@ -436,7 +436,7 @@
 			y: 20.0d
 		}
 		{
-			description: ["Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Waechter."]
+			description: ["&6Was ist das?", "Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Waechter.", "", "&6So gehts", "Fische, Tintenfische und Waechter fangen oder besiegen.", "", "&6Wofuer ist das wichtig?", "Gut fuer Inselbasen am Meer."]
 			id: "8E6B1D3531B6839E"
 			title: "Meeresfruechte"
 			rewards: [{ id: "FB324C64DEB98B5C", type: "xp_levels", xp_levels: 2 }]
@@ -446,7 +446,7 @@
 		}
 		{
 			dependencies: ["8E6B1D3531B6839E"]
-			description: ["Tintenfisch am Schneidebrett zerlegen und im Topf garen."]
+			description: ["&6Was ist das?", "Tintenfisch am Schneidebrett zerlegen und im Topf garen.", "", "&6So gehts", "Tentakel schneiden und braten.", "", "&6Wofuer ist das wichtig?", "Einfacher Snack aus dem Meer."]
 			id: "A5F51F5F9C7D1981"
 			title: "Tintenfischringe"
 			rewards: [{ id: "5D4AAFCD0EDD8F2A", type: "xp_levels", xp_levels: 3 }]
@@ -456,7 +456,7 @@
 		}
 		{
 			dependencies: ["A5F51F5F9C7D1981"]
-			description: ["Kabeljau mit Fuellung, ein Klassiker der Kueche."]
+			description: ["&6Was ist das?", "Kabeljau mit Fuellung, ein Klassiker der Kueche.", "", "&6So gehts", "Im Topf oder Ofen herstellen.", "", "&6Wofuer ist das wichtig?", "Gutes Fischgericht."]
 			id: "4826EADC88E1FBB1"
 			title: "Gefuellter Kabeljau"
 			rewards: [{ id: "A93A7A23DA368E62", type: "xp_levels", xp_levels: 3 }]
@@ -466,7 +466,7 @@
 		}
 		{
 			dependencies: ["4826EADC88E1FBB1"]
-			description: ["Ein leichter Salat aus dem Meer."]
+			description: ["&6Was ist das?", "Ein leichter Salat aus dem Meer.", "", "&6So gehts", "Seegras sammeln und in der Werkbank mischen.", "", "&6Wofuer ist das wichtig?", "Schnelles Essen aus dem Meer."]
 			id: "FD3808F897156549"
 			title: "Seegras-Salat"
 			rewards: [{ id: "DB2EC739AFDE7521", type: "xp_levels", xp_levels: 3 }]
@@ -476,7 +476,7 @@
 		}
 		{
 			dependencies: ["FD3808F897156549"]
-			description: ["Seetang mit Honig, ein suesser Snack."]
+			description: ["&6Was ist das?", "Seetang mit Honig, ein suesser Snack.", "", "&6So gehts", "In der Pfanne braten.", "", "&6Wofuer ist das wichtig?", "Suesser Snack."]
 			id: "892F03F072D903FD"
 			title: "Honig-Seetang"
 			rewards: [{ id: "1A8CC75D92B89B3D", type: "xp_levels", xp_levels: 3 }]
@@ -486,7 +486,7 @@
 		}
 		{
 			dependencies: ["892F03F072D903FD"]
-			description: ["Aus dem Waechter-Schwanz kocht man eine kraeftige Suppe."]
+			description: ["&6Was ist das?", "Aus dem Waechter-Schwanz kocht man eine kraeftige Suppe.", "", "&6So gehts", "Waechter am Ozeanmonument besiegen, Schwanz im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Starkes Gericht als Belohnung fuer den Monument-Kampf."]
 			id: "05E3600C8AD78762"
 			title: "Waechtersuppe"
 			rewards: [{ id: "BFCDC5578AD9D085", type: "xp_levels", xp_levels: 5 }]
@@ -495,7 +495,7 @@
 			y: 25.0d
 		}
 		{
-			description: ["Enders Delight bringt Gerichte aus dem Ende.", "Du brauchst Chorusfrucht, Shulker und Endermiten."]
+			description: ["&6Was ist das?", "Enders Delight bringt Gerichte aus dem Ende.", "Du brauchst Chorusfrucht, Shulker und Endermiten.", "", "&6So gehts", "Zutaten im Ende sammeln.", "", "&6Wofuer ist das wichtig?", "Sehr starke Mahlzeiten fuer das Endspiel."]
 			id: "35868B0CE30EA675"
 			title: "Gerichte aus dem Ende"
 			rewards: [{ id: "9EDAE6023E8C4461", type: "xp_levels", xp_levels: 2 }]
@@ -505,7 +505,7 @@
 		}
 		{
 			dependencies: ["35868B0CE30EA675"]
-			description: ["Der Endstein-Herd brennt mit Endhitze."]
+			description: ["&6Was ist das?", "Der Endstein-Herd brennt mit Endhitze.", "", "&6So gehts", "Herstellen und entzuenden.", "", "&6Wofuer ist das wichtig?", "Fuer End-Rezepte."]
 			id: "7341702896665770"
 			title: "Ende-Herd"
 			rewards: [{ id: "DA0F2E7EA248BAA7", type: "xp_levels", xp_levels: 3 }]
@@ -515,7 +515,7 @@
 		}
 		{
 			dependencies: ["7341702896665770"]
-			description: ["Ein Kuchen aus Chorusfrucht. Teleportiert dich beim Essen nicht, macht aber satt."]
+			description: ["&6Was ist das?", "Ein Kuchen aus Chorusfrucht. Teleportiert dich beim Essen nicht, macht aber satt.", "", "&6So gehts", "Im Topf oder in der Werkbank herstellen.", "", "&6Wofuer ist das wichtig?", "Gute Saettigung im Ende."]
 			id: "CA5BB9554253F212"
 			title: "Chorus-Kuchen"
 			rewards: [{ id: "F1FA46F7209ECDBD", type: "xp_levels", xp_levels: 3 }]
@@ -525,7 +525,7 @@
 		}
 		{
 			dependencies: ["CA5BB9554253F212"]
-			description: ["Ein Eintopf aus Endermiten."]
+			description: ["&6Was ist das?", "Ein Eintopf aus Endermiten.", "", "&6So gehts", "Endermiten besiegen und kochen.", "", "&6Wofuer ist das wichtig?", "Ungewoehnlich, aber stark."]
 			id: "270424B22FC24966"
 			title: "Endermiten-Eintopf"
 			rewards: [{ id: "CA99B0378ED2F2CB", type: "xp_levels", xp_levels: 4 }]
@@ -535,7 +535,7 @@
 		}
 		{
 			dependencies: ["270424B22FC24966"]
-			description: ["Gefuellte Shulker sind ein Festmahl."]
+			description: ["&6Was ist das?", "Gefuellte Shulker sind ein Festmahl.", "", "&6So gehts", "Shulker in Endstaedten besiegen, Fleisch zubereiten.", "", "&6Wofuer ist das wichtig?", "Eines der besten Gerichte im Spiel."]
 			id: "B01F1CAEEFD4BF96"
 			title: "Shulker-Filet"
 			rewards: [{ id: "8721312152B42146", type: "xp_levels", xp_levels: 4 }]
@@ -545,7 +545,7 @@
 		}
 		{
 			dependencies: ["B01F1CAEEFD4BF96"]
-			description: ["Nudeln mit Enderperle."]
+			description: ["&6Was ist das?", "Nudeln mit Enderperle.", "", "&6So gehts", "Im Kochtopf herstellen.", "", "&6Wofuer ist das wichtig?", "Starkes End-Gericht."]
 			id: "444E72D7F28BC30A"
 			title: "Perlen-Nudeln"
 			rewards: [{ id: "31970A781C7B63CC", type: "xp_levels", xp_levels: 5 }]

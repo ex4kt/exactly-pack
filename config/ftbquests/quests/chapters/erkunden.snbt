@@ -9,7 +9,7 @@
 	title: "&aAusruestung und Erkunden"
 	quests: [
 		{
-			description: ["Waffen haben eigene Schwuenge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination."]
+			description: ["&6Was ist das?", "Waffen haben eigene Schwuenge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination.", "", "&6So gehts", "Halte die linke Maustaste fuer Kombos.", "Zweihaender treffen mehrere Gegner, zwei Einhandwaffen schlagen abwechselnd.", "", "&6Wofuer ist das wichtig?", "Die richtige Waffe fuer jede Situation."]
 			id: "F5CEEEA7F9A84426"
 			title: "Kaempfen mit Better Combat"
 			rewards: [{ id: "E2A326DA82E3B231", type: "xp_levels", xp_levels: 1 }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["F5CEEEA7F9A84426"]
-			description: ["Ringe, Amulette und Umhaenge tragen sich in eigenen Slots.", "Schritt 1: Oeffne dein Inventar. Links siehst du Zubehoer-Slots.", "Schritt 2: Lege Zubehoer dort ein."]
+			description: ["&6Was ist das?", "Ringe, Amulette und Umhaenge tragen sich in eigenen Slots.", "Schritt 1: Oeffne dein Inventar. Links siehst du Zubehoer-Slots.", "Schritt 2: Lege Zubehoer dort ein.", "", "&6So gehts", "Im Inventar oben den Zubehoer-Knopf.", "", "&6Wofuer ist das wichtig?", "Artifacts, Ringe und Magie-Items gehoeren hierher."]
 			id: "5177F28B73ED22EA"
 			title: "Zubehoer anlegen"
 			rewards: [{ id: "C973E6B18C337B90", type: "xp_levels", xp_levels: 2 }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["5177F28B73ED22EA"]
-			description: ["Artifacts sind besondere Gegenstaende. Man kann sie nicht craften.", "Du findest sie in Truhen, unterirdischen Lagern und bei Mimics (Truhen-Monster)."]
+			description: ["&6Was ist das?", "Artifacts sind besondere Gegenstaende. Man kann sie nicht craften.", "Du findest sie in Truhen, unterirdischen Lagern und bei Mimics (Truhen-Monster).", "", "&6So gehts", "In Truhen in Hoehlen und Dungeons. Auch Mimics (lebende Truhen) haben welche.", "", "&6Wofuer ist das wichtig?", "Jedes Artefakt macht dich staerker oder schneller."]
 			id: "820AC30518E84F3E"
 			title: "Artifacts finden"
 			rewards: [{ id: "6072B03E8B190A0D", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["820AC30518E84F3E"]
-			description: ["Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen."]
+			description: ["&6Was ist das?", "Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Einfach oeffnen.", "", "&6Wofuer ist das wichtig?", "Fair im Mehrspieler."]
 			id: "C87D3DDDD06B0D5D"
 			title: "Lootr: Eigene Truhen"
 			rewards: [{ id: "4BC637513FE714AA", type: "xp_levels", xp_levels: 2 }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["C87D3DDDD06B0D5D"]
-			description: ["Natures Compass zeigt dir, wo ein Biom ist.", "Waehle das Biom, drueck Suchen, folge dem Pfeil."]
+			description: ["&6Was ist das?", "Natures Compass zeigt dir, wo ein Biom ist.", "Waehle das Biom, drueck Suchen, folge dem Pfeil.", "", "&6So gehts", "Rechtsklick, Biom waehlen.", "", "&6Wofuer ist das wichtig?", "Bestimmte Biome haben besondere Ressourcen."]
 			id: "B0F1389102673078"
 			title: "Biome finden"
 			rewards: [{ id: "9D55DAAC16926486", type: "xp_levels", xp_levels: 2 }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["B0F1389102673078"]
-			description: ["Dungeons Arise, Cataclysm, Yungs und mehr bauen viele Strukturen in die Welt.", "Nimm Brot und Fackeln mit und schau in jede Truhe."]
+			description: ["&6Was ist das?", "Dungeons Arise, Cataclysm, Yungs und mehr bauen viele Strukturen in die Welt.", "Nimm Brot und Fackeln mit und schau in jede Truhe.", "", "&6So gehts", "Erkunden und Beute sammeln.", "", "&6Wofuer ist das wichtig?", "Ausruestung, Artefakte und Bosse."]
 			id: "0019A06A53CBD543"
 			title: "Dungeons entdecken"
 			rewards: [{ id: "CCD3F4D7236613A0", type: "item", item: { id: "minecraft:bread", count: 8 } }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["0019A06A53CBD543"]
-			description: ["Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwaerts-Taste gibt Schub."]
+			description: ["&6Was ist das?", "Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwaerts-Taste gibt Schub.", "", "&6So gehts", "Rumpf, Motor und Fluegel bauen.", "", "&6Wofuer ist das wichtig?", "Schnell reisen und Fracht transportieren."]
 			id: "31C3F2A3E6D1759D"
 			title: "Flugzeuge"
 			rewards: [{ id: "6D5A646D63C33081", type: "item", item: { id: "minecraft:coal", count: 16 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["31C3F2A3E6D1759D"]
-			description: ["Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen."]
+			description: ["&6Was ist das?", "Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Abenteuer in der Luft."]
 			id: "9DA0BB2BA4B0BE3A"
 			title: "Drachen"
 			rewards: [{ id: "7C03D0A0AE5876B6", type: "xp_levels", xp_levels: 4 }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["9DA0BB2BA4B0BE3A"]
-			description: ["Die Muskete ist eine Schusswaffe mit Pulver.", "Laden dauert, dafuer macht sie viel Schaden."]
+			description: ["&6Was ist das?", "Die Muskete ist eine Schusswaffe mit Pulver.", "Laden dauert, dafuer macht sie viel Schaden.", "", "&6So gehts", "Muskete und Munition herstellen.", "", "&6Wofuer ist das wichtig?", "Starke Fernkampfwaffe."]
 			id: "D242338D6EB42530"
 			title: "Musketen"
 			rewards: [{ id: "4DC7F43F615CE71B", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["D242338D6EB42530"]
-			description: ["Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen."]
+			description: ["&6Was ist das?", "Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen.", "", "&6So gehts", "Aufstellen und schlagen.", "", "&6Wofuer ist das wichtig?", "Teste deine Waffen."]
 			id: "9F1FA487F19B6970"
 			title: "Trainingspuppe"
 			rewards: [{ id: "5949A46FB31F7346", type: "xp_levels", xp_levels: 2 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["9F1FA487F19B6970"]
-			description: ["Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten."]
+			description: ["&6Was ist das?", "Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten.", "", "&6So gehts", "Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Gegen Pfeile und Creeper."]
 			id: "234417955DAD0D84"
 			title: "Schild"
 			rewards: [{ id: "8D64281E00956D39", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["234417955DAD0D84"]
-			description: ["Mit dem Bogen kaempfst du aus der Ferne."]
+			description: ["&6Was ist das?", "Mit dem Bogen kaempfst du aus der Ferne.", "", "&6So gehts", "Spannen und loslassen.", "", "&6Wofuer ist das wichtig?", "Gegen fliegende Gegner."]
 			id: "0A7CC3F8AC21AD6C"
 			title: "Bogen"
 			rewards: [{ id: "CC69CF32B7F1AD63", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
@@ -129,7 +129,7 @@
 		}
 		{
 			dependencies: ["0A7CC3F8AC21AD6C"]
-			description: ["Pferde, Esel und Maultiere kannst du mit einem Sattel reiten."]
+			description: ["&6Was ist das?", "Pferde, Esel und Maultiere kannst du mit einem Sattel reiten.", "", "&6So gehts", "Mit Sattel reiten.", "", "&6Wofuer ist das wichtig?", "Schneller reisen."]
 			id: "6B1E1FF16CADAA71"
 			title: "Ein Reittier"
 			rewards: [{ id: "F0996AD9C2F59478", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["6B1E1FF16CADAA71"]
-			description: ["Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende."]
+			description: ["&6Was ist das?", "Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende.", "", "&6So gehts", "In Endschiffen in Endstaedten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofuer ist das wichtig?", "Das beste Reisemittel im Spiel."]
 			id: "84AC1B3F4B9458B8"
 			title: "Elytra"
 			rewards: [{ id: "33194CD42F1AB364", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["84AC1B3F4B9458B8"]
-			description: ["Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenuebersicht an."]
+			description: ["&6Was ist das?", "Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenuebersicht an.", "", "&6So gehts", "Rezepte in JEI.", "", "&6Wofuer ist das wichtig?", "Viele Waffen mit besonderen Faehigkeiten."]
 			id: "6D65CA31B65081E0"
 			title: "Simply Swords"
 			rewards: [{ id: "0C162D43757C1051", type: "xp_levels", xp_levels: 3 }]
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["6D65CA31B65081E0"]
-			description: ["Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee."]
+			description: ["&6Was ist das?", "Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee.", "", "&6So gehts", "In der Welt suchen.", "", "&6Wofuer ist das wichtig?", "Einzigartige Beute."]
 			id: "50852ABB72955BCD"
 			title: "Mowzies Mobs"
 			rewards: [{ id: "6DAE2010163904A4", type: "xp_levels", xp_levels: 3 }]
@@ -169,7 +169,7 @@
 		}
 		{
 			dependencies: ["50852ABB72955BCD"]
-			description: ["Die Frostmaw lebt in eisigen Hoehlen. Besiege sie und nimm den Eiskristall."]
+			description: ["&6Was ist das?", "Die Frostmaw lebt in eisigen Hoehlen. Besiege sie und nimm den Eiskristall.", "", "&6So gehts", "In Schneebiomen.", "", "&6Wofuer ist das wichtig?", "Eis-Kristall."]
 			id: "027C325E190B5363"
 			title: "Die Frostmaw"
 			rewards: [{ id: "AB5457FFB8A73AAD", type: "xp_levels", xp_levels: 10 }]
@@ -179,7 +179,7 @@
 		}
 		{
 			dependencies: ["027C325E190B5363"]
-			description: ["Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe."]
+			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe.", "", "&6So gehts", "In Hoehlen.", "", "&6Wofuer ist das wichtig?", "Starke Axt."]
 			id: "C9F4F65B1BD90DB0"
 			title: "Der Eisenschmetterer"
 			rewards: [{ id: "A9F5E6EA40F42F5E", type: "xp_levels", xp_levels: 8 }]
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["C9F4F65B1BD90DB0"]
-			description: ["Umvuthi ist der Boss der Sonnenstaemme. Du brauchst starke Ausruestung."]
+			description: ["&6Was ist das?", "Umvuthi ist der Boss der Sonnenstaemme. Du brauchst starke Ausruestung.", "", "&6So gehts", "In Savannen.", "", "&6Wofuer ist das wichtig?", "Sonnenmaske."]
 			id: "970691C2B939A064"
 			title: "Der Sonnenhaeuptling"
 			rewards: [{ id: "F0C9B4E4200E0C77", type: "xp_levels", xp_levels: 12 }]
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["970691C2B939A064"]
-			description: ["Viele neue Ruestungen. Sieh dir die Ruestungsuebersicht an."]
+			description: ["&6Was ist das?", "Viele neue Ruestungen. Sieh dir die Ruestungsuebersicht an.", "", "&6So gehts", "Rezepte in JEI.", "", "&6Wofuer ist das wichtig?", "Ruestung mit Spezialfaehigkeiten."]
 			id: "B68CB8E9DBB85BE3"
 			title: "Immersive Armors"
 			rewards: [{ id: "D9413C377D4C7D9E", type: "xp_levels", xp_levels: 3 }]
@@ -208,7 +208,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["Artifacts: Der Glueckschal gibt dir Glueck beim Abbau."]
+			description: ["&6Was ist das?", "Artifacts: Der Glueckschal gibt dir Glueck beim Abbau.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Bessere Beute."]
 			id: "DF1D309BCC852C11"
 			title: "Glueckschal"
 			rewards: [{ id: "7F17763E38E5D0B0", type: "xp_levels", xp_levels: 3 }]
@@ -217,7 +217,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Artifacts: Laufschuhe machen dich schneller beim Sprinten."]
+			description: ["&6Was ist das?", "Artifacts: Laufschuhe machen dich schneller beim Sprinten.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Schneller laufen."]
 			id: "59E94F41969E64DF"
 			title: "Laufschuhe"
 			rewards: [{ id: "2B58C16D296ADE03", type: "xp_levels", xp_levels: 3 }]
@@ -226,7 +226,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Artifacts: Damit springst du doppelt."]
+			description: ["&6Was ist das?", "Artifacts: Damit springst du doppelt.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Hoeher springen."]
 			id: "B0BAE81BCDFFF861"
 			title: "Wolke in der Flasche"
 			rewards: [{ id: "A321A24A51F78327", type: "xp_levels", xp_levels: 3 }]
@@ -235,7 +235,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Artifacts: Hoeher springen und kein Fallschaden bei kleinen Hoehen."]
+			description: ["&6Was ist das?", "Artifacts: Hoeher springen und kein Fallschaden bei kleinen Hoehen.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Kein Fallschaden."]
 			id: "A92BD4EEB03C6B58"
 			title: "Hasenschuhe"
 			rewards: [{ id: "C0FABE8B6D7A9F0D", type: "xp_levels", xp_levels: 3 }]
@@ -244,7 +244,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Artifacts: Der Power Glove erhoeht deinen Schaden."]
+			description: ["&6Was ist das?", "Artifacts: Der Power Glove erhoeht deinen Schaden.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Staerker kaempfen."]
 			id: "F9A1063C82D70511"
 			title: "Kraft-Handschuh"
 			rewards: [{ id: "C7B748C71F1795F4", type: "xp_levels", xp_levels: 3 }]
@@ -253,7 +253,7 @@
 			y: 9.0d
 		}
 		{
-			description: ["Artifacts: Das Kristall-Herz gibt dir mehr Leben."]
+			description: ["&6Was ist das?", "Artifacts: Das Kristall-Herz gibt dir mehr Leben.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Ueberleben."]
 			id: "F83C11272DFD4441"
 			title: "Kristall-Herz"
 			rewards: [{ id: "38E24995C2CF38FD", type: "xp_levels", xp_levels: 4 }]
@@ -262,7 +262,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["Artifacts: Setzt Angreifer in Brand."]
+			description: ["&6Was ist das?", "Artifacts: Setzt Angreifer in Brand.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Gegenangriff."]
 			id: "86F6D504663A76D5"
 			title: "Flammen-Anhaenger"
 			rewards: [{ id: "F3417D03F8A8B938", type: "xp_levels", xp_levels: 3 }]
@@ -271,7 +271,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["Artifacts: Der Regenschirm laesst dich langsam fallen und blockt."]
+			description: ["&6Was ist das?", "Artifacts: Der Regenschirm laesst dich langsam fallen und blockt.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Sicher landen."]
 			id: "E2CE886E63F26573"
 			title: "Regenschirm"
 			rewards: [{ id: "B50F4D5C8D318B93", type: "xp_levels", xp_levels: 3 }]
@@ -280,7 +280,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["Artifacts: Zieht Items zu dir."]
+			description: ["&6Was ist das?", "Artifacts: Zieht Items zu dir.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute."]
 			id: "EBE95B3A7F6BD8FB"
 			title: "Universal-Magnet"
 			rewards: [{ id: "37C694394BEC9288", type: "xp_levels", xp_levels: 4 }]
@@ -289,7 +289,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["Artifacts: Schnorchel und Flossen fuer lange Tauchgaenge."]
+			description: ["&6Was ist das?", "Artifacts: Schnorchel und Flossen fuer lange Tauchgaenge.", "", "&6So gehts", "In Truhen finden.", "", "&6Wofuer ist das wichtig?", "Besser tauchen."]
 			id: "FAE2759001FA5ED1"
 			title: "Taucherbrille"
 			rewards: [{ id: "D0D0E2ABAC26118D", type: "xp_levels", xp_levels: 3 }]
@@ -298,7 +298,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["Immersive Aircraft: Jedes Flugzeug braucht Rumpf, Motor und Propeller."]
+			description: ["&6Was ist das?", "Immersive Aircraft: Jedes Flugzeug braucht Rumpf, Motor und Propeller.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Basis fuer alle Fluggeraete."]
 			id: "E0BB84F3F2782A0E"
 			title: "Rumpf und Motor"
 			rewards: [{ id: "75E8579D6499C8A6", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["E0BB84F3F2782A0E"]
-			description: ["Der Doppeldecker ist schnell und wendig."]
+			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Schnell reisen."]
 			id: "342C65B82E84B859"
 			title: "Doppeldecker"
 			rewards: [{ id: "15FC2F83B01B238F", type: "item", item: { id: "minecraft:coal", count: 16 } }]
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["342C65B82E84B859"]
-			description: ["Der Gyrodyne ist ein einfacher Hubschrauber mit Muskelkraft."]
+			description: ["&6Was ist das?", "Der Gyrodyne ist ein einfacher Hubschrauber mit Muskelkraft.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Langsam, aber einfach."]
 			id: "24DDC33BAB35D0E6"
 			title: "Gyrocopter"
 			rewards: [{ id: "D1769E46A1E8ADE0", type: "xp_levels", xp_levels: 4 }]
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["24DDC33BAB35D0E6"]
-			description: ["Der Quadrocopter ist klein und praktisch zum Bauen."]
+			description: ["&6Was ist das?", "Der Quadrocopter ist klein und praktisch zum Bauen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Stabiler Flug."]
 			id: "1161B0B85299BB86"
 			title: "Quadrocopter"
 			rewards: [{ id: "7BE1C1583E7A2A1F", type: "xp_levels", xp_levels: 4 }]
@@ -338,7 +338,7 @@
 		}
 		{
 			dependencies: ["1161B0B85299BB86"]
-			description: ["Das Fracht-Luftschiff traegt viele Kisten."]
+			description: ["&6Was ist das?", "Das Fracht-Luftschiff traegt viele Kisten.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viele Items transportieren."]
 			id: "DE6DC32F072A25B1"
 			title: "Fracht-Luftschiff"
 			rewards: [{ id: "CE1EED3D3E9DD1F7", type: "xp_levels", xp_levels: 5 }]
@@ -348,7 +348,7 @@
 		}
 		{
 			dependencies: ["DE6DC32F072A25B1"]
-			description: ["Das Warship ist ein fliegendes Schlachtschiff mit Kanonen."]
+			description: ["&6Was ist das?", "Das Warship ist ein fliegendes Schlachtschiff mit Kanonen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Gemeinsam fliegen und kaempfen."]
 			id: "023A23D19479A90F"
 			title: "Kriegsschiff"
 			rewards: [{ id: "38D392120F172DA4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -357,7 +357,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["Mowzies Mobs: Der Earthrend Gauntlet zieht dich an Gegner heran."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Der Earthrend Gauntlet zieht dich an Gegner heran.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Erdmagie."]
 			id: "3C8F909DF604E06F"
 			title: "Erdbrecher-Handschuh"
 			rewards: [{ id: "46A53BEEE25FD393", type: "xp_levels", xp_levels: 5 }]
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["3C8F909DF604E06F"]
-			description: ["Mowzies Mobs: Die Sol Visage vom Umvuthi schiesst Sonnenstrahlen."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Die Sol Visage vom Umvuthi schiesst Sonnenstrahlen.", "", "&6So gehts", "Vom Boss.", "", "&6Wofuer ist das wichtig?", "Sonnenkraft."]
 			id: "77997D490537B857"
 			title: "Sonnen-Maske"
 			rewards: [{ id: "EC2C251AE609E1F0", type: "xp_levels", xp_levels: 6 }]
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["77997D490537B857"]
-			description: ["Mowzies Mobs: Der Stab des Bildhauers formt Steinsaeulen."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Der Stab des Bildhauers formt Steinsaeulen.", "", "&6So gehts", "Vom Bildhauer.", "", "&6Wofuer ist das wichtig?", "Felsmagie."]
 			id: "7275DB7F85BB3939"
 			title: "Bildhauer-Stab"
 			rewards: [{ id: "02000C076523AF06", type: "xp_levels", xp_levels: 5 }]
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["7275DB7F85BB3939"]
-			description: ["Der Sculptor ist ein Boss in einem hohen Turm."]
+			description: ["&6Was ist das?", "Der Sculptor ist ein Boss in einem hohen Turm.", "", "&6So gehts", "In Bergen.", "", "&6Wofuer ist das wichtig?", "Bildhauer-Stab."]
 			id: "E81206758FE4D116"
 			title: "Der Bildhauer"
 			rewards: [{ id: "CB8C1E0F9337D7EE", type: "xp_levels", xp_levels: 12 }]
@@ -397,7 +397,7 @@
 		}
 		{
 			dependencies: ["E81206758FE4D116"]
-			description: ["Mowzies Mobs: Ruestung des Geomanten."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Ruestung des Geomanten.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Erdmagie."]
 			id: "18CB811CF9022856"
 			title: "Geomanten-Robe"
 			rewards: [{ id: "7F6F6442E70B3F19", type: "xp_levels", xp_levels: 4 }]
@@ -407,7 +407,7 @@
 		}
 		{
 			dependencies: ["18CB811CF9022856"]
-			description: ["Mowzies Mobs: Das Blasrohr verschiesst Giftpfeile."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschiesst Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Gift-Pfeile."]
 			id: "29926270B1CEC326"
 			title: "Blasrohr"
 			rewards: [{ id: "4BFE1F772FECEA5C", type: "xp_levels", xp_levels: 3 }]

@@ -9,7 +9,7 @@
 	title: "&cNether"
 	quests: [
 		{
-			description: ["Baue ein Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Tranke und viel Nahrung mit."]
+			description: ["&6Was ist das?", "Baue ein Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Tranke und viel Nahrung mit.", "", "&6So gehts", "Baue ein 4x5-Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Essen, Bloecke und Feuerresistenz mit. Betten explodieren im Nether.", "Setze sofort einen Waystone neben das Portal.", "", "&6Wofuer ist das wichtig?", "Nur im Nether gibt es Blazestaebe (fuer Blazebrenner und Enderaugen), Quarz, Netherit und Netherwarzen."]
 			id: "46D72BDF233E158D"
 			title: "Ins Nether"
 			rewards: [{ id: "7D609E6AFFDF3AE8", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
@@ -19,7 +19,7 @@
 		}
 		{
 			dependencies: ["46D72BDF233E158D"]
-			description: ["Antiker Schutt liegt tief im Nether. Mit Betten sprengst du ihn aus."]
+			description: ["&6Was ist das?", "Antiker Schutt liegt tief im Nether. Mit Betten sprengst du ihn aus.", "", "&6So gehts", "Er liegt tief, um Ebene 15. Sprenge mit TNT oder Betten, er ist explosionsfest.", "Brauche eine Diamantspitzhacke.", "", "&6Wofuer ist das wichtig?", "Netherit ist die beste Vanilla-Ausruestung, brennt nicht und haelt sehr lange."]
 			id: "267DBA36960293F8"
 			title: "Netherit"
 			rewards: [{ id: "FE0F4CCF8AC41B6F", type: "xp_levels", xp_levels: 5 }]
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["267DBA36960293F8"]
-			description: ["Der Wither entsteht aus Seelensand und drei Totenkoepfen."]
+			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenkoepfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schaedel.", "Kaempfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "", "&6Wofuer ist das wichtig?", "Er laesst den Netherstern fallen, daraus baust du ein Leuchtfeuer."]
 			id: "5350F1133DF65554"
 			title: "Der Wither"
 			rewards: [{ id: "2DF49F4E3888C5B7", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
@@ -39,7 +39,7 @@
 		}
 		{
 			dependencies: ["5350F1133DF65554"]
-			description: ["Netherquarz findest du in Netherrack. Gut fuer Bauten und Redstone."]
+			description: ["&6Was ist das?", "Netherquarz findest du in Netherrack. Gut fuer Bauten und Redstone.", "", "&6So gehts", "Abbauen, mit Glueck gibt es mehr.", "", "&6Wofuer ist das wichtig?", "Fuer Komparatoren, Beobachter, Create-Rosenquarz und schoene Bauten."]
 			id: "12F99CE937DBAB6F"
 			title: "Quarz"
 			rewards: [{ id: "6023B1585C7A4D3E", type: "xp_levels", xp_levels: 3 }]
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["12F99CE937DBAB6F"]
-			description: ["Blazes leben in Netherfestungen. Ihr Stab ist die Hitzequelle."]
+			description: ["&6Was ist das?", "Blazes leben in Netherfestungen. Ihr Stab ist die Hitzequelle.", "", "&6So gehts", "Festung finden (dunkle Netherziegel). Blazes am Spawner besiegen.", "Schneebaelle machen ihnen viel Schaden.", "", "&6Wofuer ist das wichtig?", "Blazepulver fuer Braustand und Enderaugen. Ein Blaze wird dein Blazebrenner fuer Create."]
 			id: "3B8E07D0549EBD14"
 			title: "Blazestab"
 			rewards: [{ id: "041B27C0126BA2DA", type: "item", item: { id: "minecraft:blaze_powder", count: 8 } }]
@@ -59,7 +59,7 @@
 		}
 		{
 			dependencies: ["3B8E07D0549EBD14"]
-			description: ["Ghasts schweben ueber der Lava. Erwidere ihre Feuerbaelle mit Schlaegen!"]
+			description: ["&6Was ist das?", "Ghasts schweben ueber der Lava. Erwidere ihre Feuerbaelle mit Schlaegen!", "", "&6So gehts", "Schlage ihre Feuerbaelle zurueck oder nutze den Bogen.", "", "&6Wofuer ist das wichtig?", "Fuer Regenerationstraenke und Endkristalle."]
 			id: "1B0646E95BD73598"
 			title: "Ghast-Traene"
 			rewards: [{ id: "D190C7B68CF7095F", type: "xp_levels", xp_levels: 4 }]
@@ -69,7 +69,7 @@
 		}
 		{
 			dependencies: ["1B0646E95BD73598"]
-			description: ["Der Braustand macht Traenke. Nimm Netherwarzen und Blazepulver."]
+			description: ["&6Was ist das?", "Der Braustand macht Traenke. Nimm Netherwarzen und Blazepulver.", "", "&6So gehts", "Blazestab fuer den Braustand, Blazepulver als Brennstoff.", "Wasserflaschen, Netherwarze, dann Effekt-Zutat.", "", "&6Wofuer ist das wichtig?", "Feuerresistenz, Staerke, Heilung und Nachtsicht retten dich in Bosskaempfen."]
 			id: "602AD74A4E3430E5"
 			title: "Brauen"
 			rewards: [{ id: "CAD98DE6261371E3", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["602AD74A4E3430E5"]
-			description: ["Wither-Skelette bewachen Festungen. Ihre Totenkoepfe brauchst du fuer den Wither."]
+			description: ["&6Was ist das?", "Wither-Skelette bewachen Festungen. Ihre Totenkoepfe brauchst du fuer den Wither.", "", "&6So gehts", "Mit gutem Schwert und Plaenderung (Looting) kaempfen.", "", "&6Wofuer ist das wichtig?", "Du brauchst drei Schaedel fuer den Wither."]
 			id: "69AEAFBDCF9496D0"
 			title: "Wither-Skelett"
 			rewards: [{ id: "0BA6BC6233263228", type: "xp_levels", xp_levels: 6 }]
@@ -89,7 +89,7 @@
 		}
 		{
 			dependencies: ["69AEAFBDCF9496D0"]
-			description: ["Piglins tauschen Gold gegen Beute. Trage ein goldenes Item, damit sie dich in Ruhe lassen."]
+			description: ["&6Was ist das?", "Piglins tauschen Gold gegen Beute. Trage ein goldenes Item, damit sie dich in Ruhe lassen.", "", "&6So gehts", "Trage ein goldenes Ruestungsteil, sonst greifen sie an.", "Wirf ihnen Goldbarren zu.", "", "&6Wofuer ist das wichtig?", "Enderperlen, Obsidian, Feuerresistenz-Traenke und mehr."]
 			id: "B07AA67976152A64"
 			title: "Handeln mit Piglins"
 			rewards: [{ id: "672C6870CC0FD857", type: "item", item: { id: "minecraft:gold_nugget", count: 16 } }]
@@ -99,7 +99,7 @@
 		}
 		{
 			dependencies: ["B07AA67976152A64"]
-			description: ["Der Piglin-Brute ist gefaehrlich. Bleib wachsam."]
+			description: ["&6Was ist das?", "Der Piglin-Brute ist gefaehrlich. Bleib wachsam.", "", "&6So gehts", "Sie leben in Bastionen. Kaempfe mit Schild.", "", "&6Wofuer ist das wichtig?", "Bastionen haben die Netheritvorlage."]
 			id: "D71AAAE755DDE01E"
 			title: "Schutz vor Piglins"
 			rewards: [{ id: "4A0BF61C425372E3", type: "xp_levels", xp_levels: 5 }]
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["D71AAAE755DDE01E"]
-			description: ["Schmelze Antiken Schutt zu Schrott. Vier Schrott und vier Gold ergeben einen Barren."]
+			description: ["&6Was ist das?", "Schmelze Antiken Schutt zu Schrott. Vier Schrott und vier Gold ergeben einen Barren.", "", "&6So gehts", "Antiker Schutt im Ofen zu Schrott. Vier Schrott und vier Gold.", "", "&6Wofuer ist das wichtig?", "Mit Vorlage im Schmiedetisch Diamant zu Netherit aufwerten."]
 			id: "038283BF2074D5A2"
 			title: "Netherit-Barren"
 			rewards: [{ id: "11A38976B9658817", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["038283BF2074D5A2"]
-			description: ["Ignis ist der Boss der Flammen. Rufe ihn mit seinem Altar."]
+			description: ["&6Was ist das?", "Ignis ist der Boss der Flammen. Rufe ihn mit seinem Altar.", "", "&6So gehts", "Er wartet in einer brennenden Arena im Nether. Feuerresistenz ist Pflicht.", "", "&6Wofuer ist das wichtig?", "Ignitium fuer feuerfeste Ruestung und das Incinerator-Schwert."]
 			id: "84714350205499B6"
 			title: "Cataclysm: Ignis"
 			rewards: [{ id: "E5167BB605E6C803", type: "xp_levels", xp_levels: 12 }]
@@ -129,7 +129,7 @@
 		}
 		{
 			dependencies: ["84714350205499B6"]
-			description: ["Der Netherite Monstrosity lauert in den Lavahoehlen. Er ist extrem stark."]
+			description: ["&6Was ist das?", "Der Netherite Monstrosity lauert in den Lavahoehlen. Er ist extrem stark.", "", "&6So gehts", "In der Seelenschmiede im Nether. Weiche den Lavakugeln aus.", "", "&6Wofuer ist das wichtig?", "Er laesst die Hoellen-Schmiede fallen."]
 			id: "534F13C9C2893A90"
 			title: "Cataclysm: Netherit-Ungeheuer"
 			rewards: [{ id: "A4726A03C05C1842", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["534F13C9C2893A90"]
-			description: ["Eternal Nether fuegt neue Orte und Gegner hinzu."]
+			description: ["&6Was ist das?", "Eternal Nether fuegt neue Orte und Gegner hinzu.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofuer ist das wichtig?", "Neue Materialien und Gegner."]
 			id: "BB599F9DE708E768"
 			title: "Ewiger Nether"
 			rewards: [{ id: "2CB81DDE959B72E9", type: "xp_levels", xp_levels: 4 }]
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["BB599F9DE708E768"]
-			description: ["Wraither sind Geister im Ewigen Nether."]
+			description: ["&6Was ist das?", "Wraither sind Geister im Ewigen Nether.", "", "&6So gehts", "In Seelensandtaelern.", "", "&6Wofuer ist das wichtig?", "Seelen-Zutaten."]
 			id: "50EA0A048D52ABD8"
 			title: "Der Wraither"
 			rewards: [{ id: "3795DB09EF09FB94", type: "xp_levels", xp_levels: 6 }]
@@ -159,7 +159,7 @@
 		}
 		{
 			dependencies: ["50EA0A048D52ABD8"]
-			description: ["Ein Respawn-Anker setzt deinen Spawn im Nether. Du brauchst Glowstone zum Aufladen."]
+			description: ["&6Was ist das?", "Ein Respawn-Anker setzt deinen Spawn im Nether. Du brauchst Glowstone zum Aufladen.", "", "&6So gehts", "Weinender Obsidian und Glowstone. Mit Glowstone aufladen.", "", "&6Wofuer ist das wichtig?", "Nach dem Tod im Nether wieder dort starten."]
 			id: "758D41D5971933B4"
 			title: "Respawn-Anker"
 			rewards: [{ id: "678088C93FE47921", type: "item", item: { id: "minecraft:glowstone", count: 8 } }]
@@ -168,7 +168,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["Magmawuerfel lassen Magma-Creme fallen. Gut fuer Feuerresistenz-Traenke."]
+			description: ["&6Was ist das?", "Magmawuerfel lassen Magma-Creme fallen. Gut fuer Feuerresistenz-Traenke.", "", "&6So gehts", "Besiegen oder Schleim und Blazepulver.", "", "&6Wofuer ist das wichtig?", "Feuerresistenz-Traenke."]
 			id: "CF42BE00B01BA722"
 			title: "Magma-Creme"
 			rewards: [{ id: "792738C9EFD11530", type: "xp_levels", xp_levels: 2 }]
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["CF42BE00B01BA722"]
-			description: ["Ein Feuerresistenz-Trank schuetzt dich vor Lava. Pflicht im Nether."]
+			description: ["&6Was ist das?", "Ein Feuerresistenz-Trank schuetzt dich vor Lava. Pflicht im Nether.", "", "&6So gehts", "Netherwarze und Magma-Creme in den Braustand.", "", "&6Wofuer ist das wichtig?", "Pflicht fuer Ignis, Netherit-Suche und Lava-Unfaelle."]
 			id: "A809E84439099714"
 			title: "Feuerresistenz"
 			rewards: [{ id: "88DD6BD3A8E91F27", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
@@ -188,7 +188,7 @@
 		}
 		{
 			dependencies: ["A809E84439099714"]
-			description: ["Weinenden Obsidian brauchst du fuer den Respawn-Anker."]
+			description: ["&6Was ist das?", "Weinenden Obsidian brauchst du fuer den Respawn-Anker.", "", "&6So gehts", "In Bastionen und Ruinen finden oder von Piglins.", "", "&6Wofuer ist das wichtig?", "Fuer den Respawn-Anker."]
 			id: "205B7AD85823F1B1"
 			title: "Weinender Obsidian"
 			rewards: [{ id: "6E98859BDC0DC577", type: "xp_levels", xp_levels: 3 }]
@@ -198,7 +198,7 @@
 		}
 		{
 			dependencies: ["205B7AD85823F1B1"]
-			description: ["Die Netherit-Aufwertung findest du in Bastionen. Du brauchst sie fuer Netherit-Ausruestung."]
+			description: ["&6Was ist das?", "Die Netherit-Aufwertung findest du in Bastionen. Du brauchst sie fuer Netherit-Ausruestung.", "", "&6So gehts", "In Bastionen. Mit Diamanten kopieren.", "", "&6Wofuer ist das wichtig?", "Ohne Vorlage kein Netherit."]
 			id: "4FEB2163A0F1D673"
 			title: "Netheritvorlage"
 			rewards: [{ id: "B92259E52087B2F4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -208,7 +208,7 @@
 		}
 		{
 			dependencies: ["4FEB2163A0F1D673"]
-			description: ["Der Wither laesst den Netherstern fallen."]
+			description: ["&6Was ist das?", "Der Wither laesst den Netherstern fallen.", "", "&6So gehts", "Wither besiegen.", "", "&6Wofuer ist das wichtig?", "Fuer das Leuchtfeuer."]
 			id: "FD9917A0A8456142"
 			title: "Netherstern"
 			rewards: [{ id: "D8133428E8DCA205", type: "xp_levels", xp_levels: 8 }]
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["FD9917A0A8456142"]
-			description: ["Mit dem Netherstern baust du ein Leuchtfeuer. Es gibt starke Effekte in der Naehe."]
+			description: ["&6Was ist das?", "Mit dem Netherstern baust du ein Leuchtfeuer. Es gibt starke Effekte in der Naehe.", "", "&6So gehts", "Auf eine Pyramide aus Metallbloecken setzen.", "", "&6Wofuer ist das wichtig?", "Eile II macht Abbauen sehr schnell."]
 			id: "DF5A85109217ABAE"
 			title: "Leuchtfeuer"
 			rewards: [{ id: "09931C0E649B0B92", type: "item", item: { id: "minecraft:iron_block", count: 4 } }]
@@ -228,7 +228,7 @@
 		}
 		{
 			dependencies: ["DF5A85109217ABAE"]
-			description: ["Piglin Proliferation bringt neue Piglins. Der Alchemist wirft Traenke."]
+			description: ["&6Was ist das?", "Piglin Proliferation bringt neue Piglins. Der Alchemist wirft Traenke.", "", "&6So gehts", "Im Nether finden.", "", "&6Wofuer ist das wichtig?", "Traenke als Beute."]
 			id: "1E42720C4E0AD0D9"
 			title: "Piglin-Alchemist"
 			rewards: [{ id: "47C08D44EACCE8E6", type: "xp_levels", xp_levels: 4 }]
@@ -238,7 +238,7 @@
 		}
 		{
 			dependencies: ["1E42720C4E0AD0D9"]
-			description: ["Eternal Nether: Ritter aus Wither-Skeletten bewachen verfallene Orte."]
+			description: ["&6Was ist das?", "Eternal Nether: Ritter aus Wither-Skeletten bewachen verfallene Orte.", "", "&6So gehts", "Mit Schild kaempfen.", "", "&6Wofuer ist das wichtig?", "Verdorrte Knochen."]
 			id: "CC3E1CB9B8FF535F"
 			title: "Wither-Skelett-Ritter"
 			rewards: [{ id: "5178F9A0633A118B", type: "xp_levels", xp_levels: 6 }]
@@ -248,7 +248,7 @@
 		}
 		{
 			dependencies: ["CC3E1CB9B8FF535F"]
-			description: ["Eternal Nether: Der Corpor lebt in den Seelensandtaelern."]
+			description: ["&6Was ist das?", "Eternal Nether: Der Corpor lebt in den Seelensandtaelern.", "", "&6So gehts", "In Seelensandtaelern.", "", "&6Wofuer ist das wichtig?", "Seelenstein."]
 			id: "D547C1ABE8695728"
 			title: "Corpor"
 			rewards: [{ id: "3F6C166B0A7CD51A", type: "xp_levels", xp_levels: 5 }]
@@ -258,7 +258,7 @@
 		}
 		{
 			dependencies: ["D547C1ABE8695728"]
-			description: ["Ignitium bekommst du von Ignis. Es macht feuerfeste Ruestung."]
+			description: ["&6Was ist das?", "Ignitium bekommst du von Ignis. Es macht feuerfeste Ruestung.", "", "&6So gehts", "Ignis besiegen.", "", "&6Wofuer ist das wichtig?", "Feuerfeste Ruestung."]
 			id: "58BE7CC42B7F2170"
 			title: "Ignitium"
 			rewards: [{ id: "9171BB9E44C48C52", type: "xp_levels", xp_levels: 6 }]
@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["58BE7CC42B7F2170"]
-			description: ["Cataclysm: Das Schwert des Ignis setzt alles in Brand."]
+			description: ["&6Was ist das?", "Cataclysm: Das Schwert des Ignis setzt alles in Brand.", "", "&6So gehts", "Mit Ignitium herstellen.", "", "&6Wofuer ist das wichtig?", "Setzt Gegner in Brand."]
 			id: "81D7C5CA28F96134"
 			title: "Der Incinerator"
 			rewards: [{ id: "862CD0FFAAA6E8CD", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["81D7C5CA28F96134"]
-			description: ["Cataclysm: Infernal Forge ist ein riesiger Hammer aus dem Monstrosity."]
+			description: ["&6Was ist das?", "Cataclysm: Infernal Forge ist ein riesiger Hammer aus dem Monstrosity.", "", "&6So gehts", "Vom Netherit-Ungeheuer.", "", "&6Wofuer ist das wichtig?", "Sehr hoher Schaden."]
 			id: "669D878190519B9D"
 			title: "Hoellen-Schmiede"
 			rewards: [{ id: "E1C19847A9F1F19A", type: "xp_levels", xp_levels: 8 }]
