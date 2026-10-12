@@ -1,0 +1,59 @@
+# Client-specific configuration for FTB Library
+
+{
+	colorselector: {
+		recents: [I; ]
+	}
+	sidebar: {
+		buttons: {
+			"ftbquests:quests": {
+				enabled: true
+				x: 0
+				y: 0
+			}
+			"ftbteams:my_team": {
+				enabled: true
+				x: 1
+				y: 0
+			}
+			"ftbteams:team_lives": {
+				enabled: true
+				x: 2
+				y: 0
+			}
+			"ftblibrary:config": {
+				enabled: true
+				x: 3
+				y: 0
+			}
+			"ftblibrary:toggle/gamemode": {
+				enabled: false
+				x: 0
+				y: 1
+			}
+			"ftblibrary:toggle/day": {
+				enabled: false
+				x: 1
+				y: 1
+			}
+			"ftblibrary:toggle/night": {
+				enabled: false
+				x: 2
+				y: 1
+			}
+			"ftblibrary:toggle/rain": {
+				enabled: false
+				x: 3
+				y: 1
+			}
+		}
+		enabled: true
+		position: "bottom_left"
+	}
+	tooltips: {
+		entity_modname: true
+		fluid_modname: true
+		image_modname: true
+		item_modname: false
+	}
+}
