@@ -3,15 +3,15 @@
 	default_quest_shape: ""
 	filename: "z07_magie"
 	icon: { id: "irons_spellbooks:iron_spell_book" }
-	id: "493D1FBB6ACC33DE"
+	id: "760DF08E063B1E50"
 	order_index: 6
 	quest_links: [ ]
 	title: "&dVII. Magie-Zeitalter"
 	quests: [
 		{
-			dependencies: ["F051EE6E15E3214B"]
+			dependencies: ["965D5BB3B2D57357"]
 			description: ["&6Was ist das?", "Mit Zauberbuechern wirkst du Zauber. Sie kosten Mana (blauer Balken).", "Mana stellt sich mit der Zeit wieder her.", "", "&6So gehts", "Du findest Schriftrollen mit Zaubern in Dungeons oder stellst sie her.", "Zauber kommen in ein Zauberbuch, das du wie eine Waffe ausruestest.", "", "&6Wofuer ist das wichtig?", "Magie ist eine Alternative zu Schwert und Bogen. Heilen, Teleportieren, Feuerbaelle und Beschwoerungen."]
-			id: "DB4BD54C29CDE543"
+			id: "1A9412A09F97208E"
 			title: "Was ist Irons Spells?"
 			rewards: [{ id: "D15536B2F171200C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "E199E349D11B73BB", type: "checkmark" }]
@@ -19,9 +19,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DB4BD54C29CDE543"]
+			dependencies: ["1A9412A09F97208E"]
 			description: ["&6Was ist das?", "Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl.", "", "&6So gehts", "Erstes Buch herstellen, in den Zauberbuch-Slot oder die Hand.", "", "&6Wofuer ist das wichtig?", "Bessere Buecher haben mehr Plaetze fuer Zauber."]
-			id: "57ECEE26D1794CC7"
+			id: "E6A2F4E716EF1082"
 			title: "Zauberbuch"
 			rewards: [{ id: "74A04B57579CC26D", type: "item", item: { id: "minecraft:book", count: 2 } }]
 			tasks: [{ id: "6648C2BBD35E7356", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
@@ -29,9 +29,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["57ECEE26D1794CC7"]
+			dependencies: ["E6A2F4E716EF1082"]
 			description: ["&6Was ist das?", "Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein.", "", "&6So gehts", "Buch und Schriftrolle einlegen, Platz waehlen.", "", "&6Wofuer ist das wichtig?", "Ohne Inschriftentisch keine Zauber im Buch."]
-			id: "CC9CC01AB8E5180C"
+			id: "D7EFF006C536141B"
 			title: "Inschriftentisch"
 			rewards: [{ id: "B09E6F7A1C258EFB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1440E3EA697F1DBC", type: "item", item: { id: "irons_spellbooks:inscription_table", count: 1 }, count: 1L }]
@@ -39,9 +39,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC9CC01AB8E5180C"]
+			dependencies: ["D7EFF006C536141B"]
 			description: ["&6Was ist das?", "Die Tasten findest du unter Optionen, Steuerung (Suche nach Spell).", "Schritt 1: Zauber im Buch auswaehlen.", "Schritt 2: Zaubern mit der Wirken-Taste.", "", "&6So gehts", "Taste R (Standard) wirkt, mit Mausrad oder Zauber-Rad waehlst du.", "Mana unten zeigt, wie viel du noch hast.", "", "&6Wofuer ist das wichtig?", "Zauber kosten Mana, das sich langsam auffuellt."]
-			id: "0BEB27DE8EEBEB86"
+			id: "9F70937DC12B3BE9"
 			title: "Zauber waehlen und wirken"
 			rewards: [{ id: "CC1C8861D9F10927", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "C8C2E5845FAB3668", type: "checkmark" }]
@@ -49,9 +49,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0BEB27DE8EEBEB86"]
+			dependencies: ["9F70937DC12B3BE9"]
 			description: ["&6Was ist das?", "Die Schmiede macht neue Schriftrollen aus Tinte, Papier und Fokus.", "Die Tinte bestimmt die Staerke, der Fokus die Schule.", "", "&6So gehts", "Tinte, Papier und Schwerpunkt-Item hinein.", "", "&6Wofuer ist das wichtig?", "Waehle genau den Zauber, den du willst."]
-			id: "D501C87454150D45"
+			id: "679A18FE536A076C"
 			title: "Schriftrollen-Schmiede"
 			rewards: [{ id: "6A9BD2231B54663C", type: "item", item: { id: "minecraft:paper", count: 8 } }]
 			tasks: [{ id: "AC2808E675875C7A", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
@@ -59,9 +59,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D501C87454150D45"]
+			dependencies: ["679A18FE536A076C"]
 			description: ["&6Was ist das?", "Arkane Essenz findest du in magischen Strukturen.", "Du brauchst sie fuer bessere Ausruestung.", "", "&6So gehts", "Schriftrollen recyceln oder Lapis verarbeiten.", "", "&6Wofuer ist das wichtig?", "Fuer Upgrades und Ausruestung."]
-			id: "0A88D145FA3D25C0"
+			id: "53528799012DD531"
 			title: "Arkane Essenz"
 			rewards: [{ id: "24B6F6979E753901", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "C2073D73EA430FC0", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
@@ -69,9 +69,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0A88D145FA3D25C0"]
+			dependencies: ["53528799012DD531"]
 			description: ["&6Was ist das?", "Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen.", "", "&6So gehts", "In der Alchemie herstellen.", "", "&6Wofuer ist das wichtig?", "Hoehere Tinte ergibt staerkere Schriftrollen."]
-			id: "088C7FF83A5E57EB"
+			id: "6AFAB69009B5DDD5"
 			title: "Tinte"
 			rewards: [{ id: "B55F7E53E4922220", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "A3245942D239978B", type: "item", item: { id: "irons_spellbooks:common_ink", count: 1 }, count: 1L }]
@@ -79,9 +79,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["088C7FF83A5E57EB"]
+			dependencies: ["6AFAB69009B5DDD5"]
 			description: ["&6Was ist das?", "Der Alchemiekessel mischt Zutaten zu Traenken und mehr.", "", "&6So gehts", "Wasser und Zutaten hinein, Hitze darunter.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer Tinte."]
-			id: "99B3208B0B12491F"
+			id: "B5505C0FE0A05100"
 			title: "Alchemie"
 			rewards: [{ id: "CC9F0CDF5B536233", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "B28233AB3FCAA746", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
@@ -89,9 +89,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["99B3208B0B12491F"]
+			dependencies: ["B5505C0FE0A05100"]
 			description: ["&6Was ist das?", "Der Arkane Amboss ist die staerkste Werkbank.", "Hier levelst du Schriftrollen und verbesserst Ausruestung und Buecher.", "", "&6So gehts", "Item und Upgrade einlegen.", "", "&6Wofuer ist das wichtig?", "Zauber auf hoehere Stufen bringen."]
-			id: "715757D1A042B6F7"
+			id: "05367B1F942FC3B3"
 			title: "Arkanamboss"
 			rewards: [{ id: "F421BDD689D462F4", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "1BA2BF7826D2EE31", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
@@ -99,9 +99,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["57ECEE26D1794CC7"]
+			dependencies: ["E6A2F4E716EF1082"]
 			description: ["&6Was ist das?", "Das Eisen-Zauberbuch hat mehr Zauberplaetze als das aus Kupfer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Mehr Platz fuer Zauber."]
-			id: "B839A9D00CCCDD3A"
+			id: "4D27F3BA90BAB9AE"
 			title: "Eisen-Zauberbuch"
 			rewards: [{ id: "0290C0DBDE51020B", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "688BCFC5FF3993C1", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
@@ -109,9 +109,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["B839A9D00CCCDD3A"]
+			dependencies: ["4D27F3BA90BAB9AE"]
 			description: ["&6Was ist das?", "Mit dem Gold-Zauberbuch wirkst du staerkere Zauber.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer mittlere Magier."]
-			id: "95642662CA81B509"
+			id: "8B58A7DF4660913B"
 			title: "Gold-Zauberbuch"
 			rewards: [{ id: "77208135BDDE9A5D", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "F321EDEB90F8AC9B", type: "item", item: { id: "irons_spellbooks:gold_spell_book", count: 1 }, count: 1L }]
@@ -119,9 +119,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["95642662CA81B509"]
+			dependencies: ["8B58A7DF4660913B"]
 			description: ["&6Was ist das?", "Das Diamant-Zauberbuch ist ein grosses Upgrade fuer Zauberer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viele Zauber auf einmal."]
-			id: "BA6C585E3579A03D"
+			id: "47C8F90D98C7063F"
 			title: "Diamant-Zauberbuch"
 			rewards: [{ id: "4AA90F2E0D50F02E", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "F8960B323E7C1401", type: "item", item: { id: "irons_spellbooks:diamond_spell_book", count: 1 }, count: 1L }]
@@ -129,9 +129,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["BA6C585E3579A03D"]
+			dependencies: ["47C8F90D98C7063F"]
 			description: ["&6Was ist das?", "Staebe geben Zauberkraft und einen Nahkampfangriff. Der Graubart-Stab ist ein guter Start.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Staerkere Zauber."]
-			id: "DA95FB5421D00C5B"
+			id: "9360D28CF238CB08"
 			title: "Zauberstab"
 			rewards: [{ id: "AECF3EA4EB0E1651", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "1267B6B9B1FEE8B4", type: "item", item: { id: "irons_spellbooks:graybeard_staff", count: 1 }, count: 1L }]
@@ -139,9 +139,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["DA95FB5421D00C5B"]
+			dependencies: ["9360D28CF238CB08"]
 			description: ["&6Was ist das?", "Auf dem Podest legst du Zauberbuecher und Items zur Schau aus.", "", "&6So gehts", "Item drauflegen.", "", "&6Wofuer ist das wichtig?", "Schoene Ausstellung."]
-			id: "B2137641070DFD7B"
+			id: "D064D2EFA8F1B5FD"
 			title: "Podest"
 			rewards: [{ id: "8F3262DF59C7E750", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "C91EBED0FE503839", type: "item", item: { id: "irons_spellbooks:pedestal", count: 1 }, count: 1L }]
@@ -149,9 +149,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0A88D145FA3D25C0"]
+			dependencies: ["53528799012DD531"]
 			description: ["&6Was ist das?", "Runen sind das Herz der Zauberei-Ausruestung. Die leere Rune ist die Basis.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer alle Element-Runen."]
-			id: "6B40BAAF41A4B5E7"
+			id: "3665A2D1EF8D670E"
 			title: "Leere Rune"
 			rewards: [{ id: "726759AD71039D9E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "44118BD219698ADC", type: "item", item: { id: "irons_spellbooks:blank_rune", count: 1 }, count: 1L }]
@@ -159,9 +159,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6B40BAAF41A4B5E7"]
+			dependencies: ["3665A2D1EF8D670E"]
 			description: ["&6Was ist das?", "Die Feuer-Rune verstaerkt Feuerzauber in Ausruestung.", "", "&6So gehts", "Leere Rune mit Feuer-Zutaten.", "", "&6Wofuer ist das wichtig?", "Feuer-Ausruestung und Upgrades."]
-			id: "0CD8F0566857B855"
+			id: "73AF0E2757653719"
 			title: "Feuer-Rune"
 			rewards: [{ id: "01AF6F5A9397AA93", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4DE75E43789839D0", type: "item", item: { id: "irons_spellbooks:fire_rune", count: 1 }, count: 1L }]
@@ -169,9 +169,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["0CD8F0566857B855"]
+			dependencies: ["73AF0E2757653719"]
 			description: ["&6Was ist das?", "Die Eis-Rune verstaerkt Eiszauber.", "", "&6So gehts", "Leere Rune mit Eis-Zutaten.", "", "&6Wofuer ist das wichtig?", "Eis-Ausruestung."]
-			id: "919574F181E5CF6B"
+			id: "35564ADA345E9193"
 			title: "Eis-Rune"
 			rewards: [{ id: "4037397483E14D8D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "075AC668E30C029D", type: "item", item: { id: "irons_spellbooks:ice_rune", count: 1 }, count: 1L }]
@@ -179,9 +179,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["919574F181E5CF6B"]
+			dependencies: ["35564ADA345E9193"]
 			description: ["&6Was ist das?", "Die Blitz-Rune verstaerkt Blitzzauber.", "", "&6So gehts", "Leere Rune mit Blitz-Zutaten.", "", "&6Wofuer ist das wichtig?", "Blitz-Ausruestung."]
-			id: "98C3FFC55D93424C"
+			id: "8197BFC44F03C8E7"
 			title: "Blitz-Rune"
 			rewards: [{ id: "9C3A6106F1287531", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "E58C424AB113F8A7", type: "item", item: { id: "irons_spellbooks:lightning_rune", count: 1 }, count: 1L }]
@@ -189,9 +189,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["98C3FFC55D93424C"]
+			dependencies: ["8197BFC44F03C8E7"]
 			description: ["&6Was ist das?", "Die heilige Rune verstaerkt Heilzauber.", "", "&6So gehts", "Leere Rune mit heiligen Zutaten.", "", "&6Wofuer ist das wichtig?", "Heiler-Ausruestung."]
-			id: "C5A9B8FBCBFE1097"
+			id: "DE901A9C5FCB83D3"
 			title: "Heilige Rune"
 			rewards: [{ id: "9678AD6C52C3FB26", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "B3EA9D92B8C18440", type: "item", item: { id: "irons_spellbooks:holy_rune", count: 1 }, count: 1L }]
@@ -199,9 +199,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["C5A9B8FBCBFE1097"]
+			dependencies: ["DE901A9C5FCB83D3"]
 			description: ["&6Was ist das?", "Upgrade-Kugeln verbessern Ausruestung am Arkanen Amboss, z.B. mehr Mana oder Feuerkraft.", "", "&6So gehts", "Im Arkanamboss einsetzen.", "", "&6Wofuer ist das wichtig?", "Mehr Mana oder Zauberkraft."]
-			id: "2AD2B15A530ABCC6"
+			id: "D2C2DAE39015A9EA"
 			title: "Upgrade-Kugel"
 			rewards: [{ id: "C1E1DB7DC157162F", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "DF7C9FDC20EE5EDB", type: "item", item: { id: "irons_spellbooks:upgrade_orb", count: 1 }, count: 1L }]
@@ -209,9 +209,9 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["715757D1A042B6F7"]
+			dependencies: ["05367B1F942FC3B3"]
 			description: ["&6Was ist das?", "Mithril ist ein seltenes Erz tief unter der Erde. Es ist Material fuer starke Magie.", "", "&6So gehts", "Tief unten finden.", "", "&6Wofuer ist das wichtig?", "Fuer starke Magie-Ausruestung."]
-			id: "C2974C018164FD44"
+			id: "6E0B791D7D1B20B0"
 			title: "Mithril"
 			rewards: [{ id: "BBEC5BDAC2282BBC", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
 			tasks: [{ id: "09A007C1323987D9", type: "item", item: { id: "irons_spellbooks:mithril_ingot", count: 1 }, count: 1L }]
@@ -219,9 +219,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["C2974C018164FD44"]
+			dependencies: ["6E0B791D7D1B20B0"]
 			description: ["&6Was ist das?", "Arkane Barren brauchst du fuer bessere Zauberbuecher und Staebe.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer Magier-Ausruestung."]
-			id: "320A411AF04785F0"
+			id: "1C59BB930661842B"
 			title: "Arkaner Barren"
 			rewards: [{ id: "476CF3C5CF3D54E7", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "470B4E4210CC09D6", type: "item", item: { id: "irons_spellbooks:arcane_ingot", count: 1 }, count: 1L }]
@@ -229,9 +229,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["320A411AF04785F0"]
+			dependencies: ["1C59BB930661842B"]
 			description: ["&6Was ist das?", "Magisches Tuch ist der Stoff fuer Zauberer-Ruestungen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer Roben."]
-			id: "E91F72259C99B0A7"
+			id: "025A31C40FB08208"
 			title: "Magisches Tuch"
 			rewards: [{ id: "5C4B5ED1ABF4A6CC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7640625D7CB5E1A3", type: "item", item: { id: "irons_spellbooks:magic_cloth", count: 1 }, count: 2L }]
@@ -239,9 +239,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["E91F72259C99B0A7"]
+			dependencies: ["025A31C40FB08208"]
 			description: ["&6Was ist das?", "Der Mana-Ring gibt dir mehr Mana. Trage ihn im Ring-Slot.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Zauber hintereinander."]
-			id: "FB69B21B1E738893"
+			id: "413D35EA4DB12042"
 			title: "Mana-Ring"
 			rewards: [{ id: "517ED1828AF8A6BC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6649C86A8B69F876", type: "item", item: { id: "irons_spellbooks:mana_ring", count: 1 }, count: 1L }]
@@ -249,9 +249,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["FB69B21B1E738893"]
+			dependencies: ["413D35EA4DB12042"]
 			description: ["&6Was ist das?", "Mit diesem Ring kannst du Zauber schneller wiederholen.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Oefter zaubern."]
-			id: "2556C5D10B0777FE"
+			id: "A6B0B1DF018C09BD"
 			title: "Abklingzeit-Ring"
 			rewards: [{ id: "AE1FF325D1128EF1", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "EE7FA3E4A4815EE4", type: "item", item: { id: "irons_spellbooks:cooldown_ring", count: 1 }, count: 1L }]
@@ -259,9 +259,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2556C5D10B0777FE"]
+			dependencies: ["A6B0B1DF018C09BD"]
 			description: ["&6Was ist das?", "Die Pyromant-Ruestung staerkt Feuerzauber.", "", "&6So gehts", "Mit Feuer-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Feuerkraft."]
-			id: "6C7CF65C76D8AED1"
+			id: "5EC7157B3A556B20"
 			title: "Pyromant-Ruestung"
 			rewards: [{ id: "5079F228836A2030", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "154A4CF21853877B", type: "item", item: { id: "irons_spellbooks:pyromancer_chestplate", count: 1 }, count: 1L }]
@@ -269,9 +269,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6C7CF65C76D8AED1"]
+			dependencies: ["5EC7157B3A556B20"]
 			description: ["&6Was ist das?", "Die Kryomant-Ruestung staerkt Eiszauber.", "", "&6So gehts", "Mit Eis-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Eiskraft."]
-			id: "3675A3BAD48F1939"
+			id: "A85170C243C2C2AB"
 			title: "Kryomant-Ruestung"
 			rewards: [{ id: "44FAE3DE3C1065F0", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "FE39CFF9C2AC8A93", type: "item", item: { id: "irons_spellbooks:cryomancer_chestplate", count: 1 }, count: 1L }]
@@ -279,9 +279,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3675A3BAD48F1939"]
+			dependencies: ["A85170C243C2C2AB"]
 			description: ["&6Was ist das?", "Die Elektromant-Ruestung staerkt Blitzzauber.", "", "&6So gehts", "Mit Blitz-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Blitzkraft."]
-			id: "F8DC0C4BF9E67561"
+			id: "2DB33D15EFD0C795"
 			title: "Elektromant-Ruestung"
 			rewards: [{ id: "A26E181B155FDE36", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "55393EE50EDD86FE", type: "item", item: { id: "irons_spellbooks:electromancer_chestplate", count: 1 }, count: 1L }]
@@ -289,10 +289,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["715757D1A042B6F7"]
+			dependencies: ["05367B1F942FC3B3"]
 			description: ["&6Was ist das?", "Irons Spells: Ein Rapier fuer Kampfmagier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Schnelle Waffe mit Zauberkraft."]
 			icon: { id: "irons_spellbooks:amethyst_rapier" }
-			id: "DF4109421DFAD5BE"
+			id: "E8273965293D85F0"
 			title: "Amethyst-Rapier"
 			rewards: [{ id: "7999CA78213C506A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "9171BB9E44C48C52", type: "item", item: { id: "irons_spellbooks:amethyst_rapier", count: 1 }, count: 1L }]
@@ -300,10 +300,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["DF4109421DFAD5BE"]
+			dependencies: ["E8273965293D85F0"]
 			description: ["&6Was ist das?", "Ein Flammenschwert der Kampfmagier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Starke Klinge mit Zauberkraft."]
 			icon: { id: "irons_spellbooks:keeper_flamberge" }
-			id: "239211072B615428"
+			id: "0A38FECC70382C6C"
 			title: "Flamberge"
 			rewards: [{ id: "FEEBC84F9FE97C83", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "862CD0FFAAA6E8CD", type: "item", item: { id: "irons_spellbooks:keeper_flamberge", count: 1 }, count: 1L }]
@@ -311,10 +311,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["239211072B615428"]
+			dependencies: ["0A38FECC70382C6C"]
 			description: ["&6Was ist das?", "Ein Schwert gegen Magier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Bricht gegnerische Zauber."]
 			icon: { id: "irons_spellbooks:magehunter" }
-			id: "E72152964AA3D9D9"
+			id: "A6330278761AA3C9"
 			title: "Magierjaeger"
 			rewards: [{ id: "50EA0A048D52ABD8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "BB599F9DE708E768", type: "item", item: { id: "irons_spellbooks:magehunter", count: 1 }, count: 1L }]
@@ -322,10 +322,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["E72152964AA3D9D9"]
+			dependencies: ["A6330278761AA3C9"]
 			description: ["&6Was ist das?", "Ein Stab fuer Eiszauber.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Staerkere Eiszauber."]
 			icon: { id: "irons_spellbooks:ice_staff" }
-			id: "E033C40CFDE432DC"
+			id: "FCF24060C5035D25"
 			title: "Eisstab"
 			rewards: [{ id: "46D72BDF233E158D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "E1C19847A9F1F19A", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
@@ -333,10 +333,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["E033C40CFDE432DC"]
+			dependencies: ["FCF24060C5035D25"]
 			description: ["&6Was ist das?", "Ein Stab fuer Blutmagie.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Staerkere Blutzauber."]
 			icon: { id: "irons_spellbooks:blood_staff" }
-			id: "A7C63990A3D66CA8"
+			id: "36311C0E3A18D224"
 			title: "Blutstab"
 			rewards: [{ id: "5350F1133DF65554", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "267DBA36960293F8", type: "item", item: { id: "irons_spellbooks:blood_staff", count: 1 }, count: 1L }]
@@ -344,10 +344,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["FB69B21B1E738893"]
+			dependencies: ["413D35EA4DB12042"]
 			description: ["&6Was ist das?", "Ringe, die vor Feuer, Frost oder Gift schuetzen.", "", "&6So gehts", "Rezepte in JEI, im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Perfekt gegen passende Bosse."]
 			icon: { id: "irons_spellbooks:fireward_ring" }
-			id: "EC351FB975283521"
+			id: "4A85C48A036B2429"
 			title: "Schutzringe"
 			rewards: [{ id: "3B8E07D0549EBD14", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "12F99CE937DBAB6F", type: "item", item: { id: "irons_spellbooks:fireward_ring", count: 1 }, count: 1L }]
@@ -355,10 +355,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["EC351FB975283521"]
+			dependencies: ["4A85C48A036B2429"]
 			description: ["&6Was ist das?", "Ein Amulett gegen Unterbrechung beim Zaubern.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Zauber werden nicht abgebrochen, wenn du getroffen wirst."]
 			icon: { id: "irons_spellbooks:concentration_amulet" }
-			id: "DD86D76462997962"
+			id: "3B73FA73C1F9FD2A"
 			title: "Konzentrations-Amulett"
 			rewards: [{ id: "602AD74A4E3430E5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1B0646E95BD73598", type: "item", item: { id: "irons_spellbooks:concentration_amulet", count: 1 }, count: 1L }]
@@ -366,10 +366,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["99B3208B0B12491F"]
+			dependencies: ["B5505C0FE0A05100"]
 			description: ["&6Was ist das?", "Grosser Heiltrank aus der Alchemie.", "", "&6So gehts", "Im Alchemie-Kessel brauen.", "", "&6Wofuer ist das wichtig?", "Rettet dich in Bosskaempfen."]
 			icon: { id: "irons_spellbooks:greater_healing_potion" }
-			id: "3666F7BBB2FE71D4"
+			id: "3BEB5C9EE91D54CF"
 			title: "Heiltrank (Magie)"
 			rewards: [{ id: "B07AA67976152A64", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69AEAFBDCF9496D0", type: "item", item: { id: "irons_spellbooks:greater_healing_potion", count: 1 }, count: 2L }]
@@ -377,10 +377,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["3666F7BBB2FE71D4"]
+			dependencies: ["3BEB5C9EE91D54CF"]
 			description: ["&6Was ist das?", "Ein Elixier, das Schaden verringert.", "", "&6So gehts", "Im Alchemie-Kessel brauen.", "", "&6Wofuer ist das wichtig?", "Mehr Schutz fuer kurze Zeit."]
 			icon: { id: "irons_spellbooks:oakskin_elixir" }
-			id: "0B9834B66EEE622D"
+			id: "7752AE4A249A5EB3"
 			title: "Eichenhaut-Elixier"
 			rewards: [{ id: "038283BF2074D5A2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "D71AAAE755DDE01E", type: "item", item: { id: "irons_spellbooks:oakskin_elixir", count: 1 }, count: 2L }]
@@ -388,10 +388,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["0B9834B66EEE622D"]
+			dependencies: ["7752AE4A249A5EB3"]
 			description: ["&6Was ist das?", "Ein feuriges Getraenk aus der Alchemie.", "", "&6So gehts", "Im Alchemie-Kessel brauen.", "", "&6Wofuer ist das wichtig?", "Feuerschutz und Mut."]
 			icon: { id: "irons_spellbooks:fire_ale" }
-			id: "FF4CFC252DAB77D5"
+			id: "1C765747185689E7"
 			title: "Feuerbier"
 			rewards: [{ id: "534F13C9C2893A90", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "84714350205499B6", type: "item", item: { id: "irons_spellbooks:fire_ale", count: 1 }, count: 1L }]
@@ -399,9 +399,9 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["F051EE6E15E3214B"]
+			dependencies: ["965D5BB3B2D57357"]
 			description: ["&6Was ist das?", "In Tuermen und Hoehlen leben boese Zauberer. Besiege einen Pyromancer.", "", "&6So gehts", "Magier-Tuerme und Zitadellen erkunden.", "", "&6Wofuer ist das wichtig?", "Seltene Schriftrollen und Ruestung."]
-			id: "549BFDFEBF019D58"
+			id: "5F1780F474913F9F"
 			title: "Zauberer jagen"
 			rewards: [{ id: "7CB6F0C9B2921628", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
 			tasks: [{ id: "C8E156AEE9F26CCD", type: "kill", entity: "irons_spellbooks:pyromancer", value: 1L, icon: { id: "irons_spellbooks:fire_upgrade_orb" } }]
@@ -409,9 +409,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["549BFDFEBF019D58"]
+			dependencies: ["5F1780F474913F9F"]
 			description: ["&6Was ist das?", "Der Kryomant beherrscht Eis. Er lebt in kalten Strukturen.", "", "&6So gehts", "In verschneiten Gebieten.", "", "&6Wofuer ist das wichtig?", "Eis-Schriftrollen."]
-			id: "F1F7C05394659FEE"
+			id: "EEC8C5903D029E18"
 			title: "Der Kryomant"
 			rewards: [{ id: "DF01BE1CB453C7C8", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "943AA231453D2B88", type: "kill", entity: "irons_spellbooks:cryomancer", value: 1L, icon: { id: "irons_spellbooks:ice_upgrade_orb" } }]
@@ -419,9 +419,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["F1F7C05394659FEE"]
+			dependencies: ["EEC8C5903D029E18"]
 			description: ["&6Was ist das?", "Der Necromancer ruft Skelette. Besiege ihn.", "", "&6So gehts", "In Dungeons.", "", "&6Wofuer ist das wichtig?", "Blut-Schriftrollen."]
-			id: "089197E1061FB1C5"
+			id: "6145C3A0D3F0E332"
 			title: "Der Totenbeschwoerer"
 			rewards: [{ id: "915250CA37F5DF5D", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "67918124991ACF60", type: "kill", entity: "irons_spellbooks:necromancer", value: 1L, icon: { id: "irons_spellbooks:evocation_upgrade_orb" } }]
@@ -429,9 +429,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["089197E1061FB1C5"]
+			dependencies: ["6145C3A0D3F0E332"]
 			description: ["&6Was ist das?", "Kultisten beschwoeren Kreaturen. Sie leben in dunklen Strukturen.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofuer ist das wichtig?", "Beute fuer Magier."]
-			id: "82B68594E52A695B"
+			id: "F57AD5AF614AFDB8"
 			title: "Kultisten"
 			rewards: [{ id: "B0CDD5C2828F6D74", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "60D4F76BB53ADAB5", type: "kill", entity: "irons_spellbooks:cultist", value: 1L, icon: { id: "irons_spellbooks:blood_rune" } }]
@@ -439,9 +439,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["82B68594E52A695B"]
+			dependencies: ["F57AD5AF614AFDB8"]
 			description: ["&6Was ist das?", "Der Apotheker wirft Traenke. Besiege ihn.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofuer ist das wichtig?", "Traenke und Zutaten."]
-			id: "010033F83D76F587"
+			id: "30A1A33A3BB96820"
 			title: "Apotheker"
 			rewards: [{ id: "0A20A8304BCDF74E", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "CE8DB642713EB063", type: "kill", entity: "irons_spellbooks:apothecarist", value: 1L, icon: { id: "minecraft:brewing_stand" } }]
@@ -449,9 +449,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["010033F83D76F587"]
+			dependencies: ["30A1A33A3BB96820"]
 			description: ["&6Was ist das?", "Der Archevoker ist ein maechtiger Illager-Magier.", "", "&6So gehts", "In Dungeons.", "", "&6Wofuer ist das wichtig?", "Seltene Beute."]
-			id: "81C6486BF53343B7"
+			id: "9E3466B064FBFF10"
 			title: "Der Erz-Beschwoerer"
 			rewards: [{ id: "B4FBA6A3A790A630", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "DEDF2DA4C95C2E77", type: "kill", entity: "irons_spellbooks:archevoker", value: 1L, icon: { id: "irons_spellbooks:evocation_rune" } }]
@@ -459,9 +459,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["81C6486BF53343B7"]
+			dependencies: ["9E3466B064FBFF10"]
 			description: ["&6Was ist das?", "Der Citadel Keeper bewacht die Zitadelle. Ein harter Gegner.", "", "&6So gehts", "Zitadelle erkunden.", "", "&6Wofuer ist das wichtig?", "Starke Beute."]
-			id: "06F91B15222AE358"
+			id: "76DD817B2C61A19D"
 			title: "Zitadellen-Waechter"
 			rewards: [{ id: "341A79464A4B3AA5", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "C40C2702FD4027E5", type: "kill", entity: "irons_spellbooks:citadel_keeper", value: 1L, icon: { id: "irons_spellbooks:arcane_essence" } }]
@@ -469,9 +469,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["06F91B15222AE358"]
+			dependencies: ["76DD817B2C61A19D"]
 			description: ["&6Was ist das?", "Die Eisspinne lebt in ihrem Bau im Schnee. Ihre Eier sind wertvoll.", "", "&6So gehts", "In kalten Gebieten.", "", "&6Wofuer ist das wichtig?", "Eis-Beute."]
-			id: "CA25CE67B50EFB3F"
+			id: "F401972C5AB547B3"
 			title: "Eisspinne"
 			rewards: [{ id: "912FD50CCCD33D2E", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "2EAD7078FD6AD63A", type: "kill", entity: "irons_spellbooks:ice_spider", value: 1L, icon: { id: "irons_spellbooks:ice_spider_egg" } }]
@@ -479,9 +479,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["CA25CE67B50EFB3F"]
+			dependencies: ["F401972C5AB547B3"]
 			description: ["&6Was ist das?", "Der Feuerboss ist einer der staerksten Gegner von Irons Spells.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Seltene Beute."]
-			id: "2F586E6CF7425BCB"
+			id: "AB10B4876719F955"
 			title: "Feuerboss"
 			rewards: [{ id: "94C559830A7825E5", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
 			tasks: [{ id: "55FDDB544DBD2A02", type: "kill", entity: "irons_spellbooks:fire_boss", value: 1L, icon: { id: "irons_spellbooks:cinder_essence" } }]
@@ -489,9 +489,9 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["2F586E6CF7425BCB"]
+			dependencies: ["AB10B4876719F955"]
 			description: ["&6Was ist das?", "Der Tote Koenig ist ein starker Boss in den Katakomben. Bereite dich gut vor.", "", "&6So gehts", "In einer Katakombe.", "", "&6Wofuer ist das wichtig?", "Sehr gute Beute."]
-			id: "0A6A15B1F7ECA356"
+			id: "B1BBFF60318D626A"
 			title: "Der Tote Koenig"
 			rewards: [{ id: "E5AB2A35AEE12D7A", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
 			tasks: [{ id: "8A7B27FBCB82C70C", type: "kill", entity: "irons_spellbooks:dead_king", value: 1L, icon: { id: "irons_spellbooks:legendary_ink" } }]
@@ -499,24 +499,24 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["5F39BE72760304BB"]
+			dependencies: ["EBB59C3822221381"]
 			description: ["&6Was ist das?", "Das Magie-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Grundlagen, Zauberbuecher, Runen, Magier-Ausruestung, Magie-Waffen, Schmuck, Elixiere, Magier jagen.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
 			icon: { id: "irons_spellbooks:iron_spell_book" }
-			id: "F051EE6E15E3214B"
+			id: "965D5BB3B2D57357"
 			title: "Beginn: Magie-Zeitalter"
-			rewards: [{ id: "4308F30E818770CF", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F385E7CC326ED401", type: "checkmark" }]
+			rewards: [{ id: "3DAA1F6F53E0A842", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FFEFA11373938513", type: "checkmark" }]
 			x: 0.0d
 			y: 7.8d
 		}
 		{
-			dependencies: ["715757D1A042B6F7", "0A6A15B1F7ECA356"]
+			dependencies: ["05367B1F942FC3B3", "B1BBFF60318D626A"]
 			description: ["&6Was ist das?", "Hier beginnt das Zeitalter der Welten. Es schaltet frei:", "Das Aether und der Zwielichtwald: Die Portale lassen dich jetzt durch.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "aether:golden_parachute" }
-			id: "E38EDC2E4554A42F"
+			id: "137FF82BB8A158CB"
 			title: "Zeitalter: Zeitalter der Welten"
-			rewards: [{ id: "1D323DE4886BF66B", type: "historystages:history_stage", stage: "himmelszeit", remove: false, individual: false }, { id: "5E3550244BA833DA", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "85E549EC448E0A1C", type: "checkmark" }]
+			rewards: [{ id: "178C2653F0F644AB", type: "historystages:history_stage", stage: "himmelszeit", remove: false, individual: false }, { id: "4D7083D0EC9DB8F0", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "5692C04A51CABA14", type: "checkmark" }]
 			x: 27.0d
 			y: 7.8d
 		}
