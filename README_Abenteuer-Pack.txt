@@ -1,2 +1,2 @@
-Raphis Abenteuer-Pack 2.0.78 - eigene Konfiguration, ohne Better-MC-Configs oder -Assets.
+Raphis Abenteuer-Pack 2.0.79 - eigene Konfiguration, ohne Better-MC-Configs oder -Assets.
 Mod-Configs werden beim ersten Start von den Mods selbst erzeugt.
