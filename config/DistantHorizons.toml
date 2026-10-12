@@ -873,15 +873,15 @@ _version = 5
 			#
 			# If enabled, a chat message will be displayed if Java doesn't have enough 
 			# memory allocated to run DH well.
-			showLowMemoryWarningOnStartup = true
+			showLowMemoryWarningOnStartup = false
 			#
 			# If enabled, a chat message will be displayed if DH detects 
 			# that any pooled objects have been garbage collected.
-			showPoolInsufficientMemoryWarning = true
+			showPoolInsufficientMemoryWarning = false
 			#
 			# If enabled, a chat message will be displayed if vanilla MC's 
 			# render distance is higher than the recommended amount.
-			showHighVanillaRenderDistanceWarning = true
+			showHighVanillaRenderDistanceWarning = false
 			#
 			# If enabled, a chat message will be displayed when a replay is started 
 			# giving some basic information about how DH will function.
@@ -893,7 +893,7 @@ _version = 5
 			#
 			# If enabled, a chat message will be displayed when DH has too many chunks 
 			# queued for updating.
-			showSlowWorldGenSettingWarnings = true
+			showSlowWorldGenSettingWarnings = false
 			#
 			# If enabled, a chat message will be displayed when a potentially problematic 
 			# mod is installed alongside DH.
@@ -907,7 +907,7 @@ _version = 5
 			# If enabled, a chat message will be displayed in chat if the garbage 
 			# collector Java is currently using is known 
 			# to cause frame stuttering and/or other issues.
-			showGarbageCollectorWarning = true
+			showGarbageCollectorWarning = false
 			#
 			# If enabled, a message will be logged if explicit garbage collection 
 			# is disabled. 
