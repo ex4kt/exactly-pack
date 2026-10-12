@@ -526,22 +526,22 @@
 		{
 			dependencies: ["5C8CCF0DBB609C98"]
 			description: ["&6Was ist das?", "Dragon Mounts: Mit der Pfeife rufst du deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dein Drache kommt, egal wo du bist."]
-			icon: { id: "dmr:dragon_whistle.red" }
+			icon: { id: "minecraft:goat_horn" }
 			id: "328BC10CCF6129FC"
 			title: "Drachenpfeife"
 			rewards: [{ id: "3999BA1A3766E73E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4B05E22BFBB2ECED", type: "item", item: { id: "dmr:dragon_whistle.red", count: 1 }, count: 1L }]
+			tasks: [{ id: "4B05E22BFBB2ECED", type: "checkmark" }]
 			x: 3.5d
 			y: 23.5d
 		}
 		{
 			dependencies: ["328BC10CCF6129FC"]
 			description: ["&6Was ist das?", "Dragon Mounts: Ruestung fuer deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dein Drache haelt mehr aus."]
-			icon: { id: "dmr:dragon_armor" }
+			icon: { id: "minecraft:diamond_horse_armor" }
 			id: "35D9C17C3DF9768D"
 			title: "Drachenruestung"
 			rewards: [{ id: "EE4B4FA99526CBC8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CE3079A9BC67CAC5", type: "item", item: { id: "dmr:dragon_armor", count: 1 }, count: 1L }]
+			tasks: [{ id: "CE3079A9BC67CAC5", type: "checkmark" }]
 			x: 5.0d
 			y: 23.5d
 		}
