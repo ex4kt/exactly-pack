@@ -3,492 +3,492 @@
 	default_quest_shape: ""
 	filename: "z09_druckluft"
 	icon: { id: "pneumaticcraft:air_compressor" }
-	id: "2600278FFBA40B51"
+	id: "CE06C2560AF995DC"
 	order_index: 8
 	quest_links: [ ]
 	title: "&3IX. Druckluft-Zeitalter"
 	quests: [
 		{
-			dependencies: ["35BD5341300C9F5F"]
+			dependencies: ["3ED2EEBB1CFA992F"]
 			description: ["&6Was ist das?", "PneumaticCraft hat ein eigenes Handbuch im Spiel (Patchouli).", "Suche im JEI-Menue nach dem Buch. Es erklaert jedes Gebaeude.", "", "&6So gehts", "Halte ein PneumaticCraft-Item und druecke I, oder baue das Handbuch.", "", "&6Wofuer ist das wichtig?", "Bei Druckluft-Technik gibt es viele Zahlen. Das Handbuch erklaert jede Maschine genau."]
-			id: "9522D88B5F0B5655"
+			id: "E1EAD2BD124C523A"
 			title: "Handbuch im Spiel"
-			rewards: [{ id: "7405CE993E6BCE08", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "A72B370E0D27C021", type: "checkmark" }]
+			rewards: [{ id: "28F928DBD1E5C558", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "2093DA3DD35001AB", type: "checkmark" }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9522D88B5F0B5655"]
+			dependencies: ["E1EAD2BD124C523A"]
 			description: ["&6Was ist das?", "Der Kompressor macht Druckluft, die Maschinen brauchen.", "Schritt 1: Baue einen Luftkompressor.", "Schritt 2: Fuelle ihn mit Brennstoff (z.B. Kohle).", "", "&6So gehts", "Aufstellen, Kohle oder Holz hineinlegen.", "Die Druckanzeige steigt. Bei zu viel Druck explodiert er, also immer Luft abnehmen.", "", "&6Wofuer ist das wichtig?", "Druckluft (bar) ist die Energie fuer alles in PneumaticCraft."]
-			id: "FC8076552A763F4A"
+			id: "86BA63BEA1C58C27"
 			title: "Luftkompressor"
-			rewards: [{ id: "EDE75FBBE9851522", type: "item", item: { id: "minecraft:coal", count: 8 } }]
-			tasks: [{ id: "ED68EE7B808465FC", type: "item", item: { id: "pneumaticcraft:air_compressor", count: 1 }, count: 1L }]
+			rewards: [{ id: "7405CE993E6BCE08", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "A72B370E0D27C021", type: "item", item: { id: "pneumaticcraft:air_compressor", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FC8076552A763F4A"]
+			dependencies: ["86BA63BEA1C58C27"]
 			description: ["&6Was ist das?", "Druckrohre leiten die Luft von Block zu Block.", "Schritt 1: Baue Rohre.", "Schritt 2: Verbinde Kompressor und Maschinen.", "", "&6So gehts", "Rohre zwischen Kompressor und Maschine legen.", "Mit dem Schluessel kannst du Seiten trennen.", "", "&6Wofuer ist das wichtig?", "Ein Kompressor kann viele Maschinen versorgen."]
-			id: "CDB39FABD07528BD"
+			id: "35BD5341300C9F5F"
 			title: "Druckrohre"
-			rewards: [{ id: "E9CE093E1BA551A2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CA9E9928D4DC653D", type: "item", item: { id: "pneumaticcraft:pressure_tube", count: 1 }, count: 8L }]
+			rewards: [{ id: "EDE75FBBE9851522", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "ED68EE7B808465FC", type: "item", item: { id: "pneumaticcraft:pressure_tube", count: 1 }, count: 8L }]
 			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35BD5341300C9F5F"]
+			description: ["&6Was ist das?", "Das Manometer zeigt, wie hoch der Druck ist.", "Halte es in der Hand und klicke auf Rohre.", "Achtung: Zu hoher Druck laesst Rohre platzen.", "", "&6So gehts", "Rechtsklick auf ein Rohr oder eine Maschine.", "", "&6Wofuer ist das wichtig?", "Rechtzeitig erkennen, bevor etwas explodiert."]
+			id: "9522D88B5F0B5655"
+			title: "Manometer"
+			rewards: [{ id: "E9CE093E1BA551A2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CA9E9928D4DC653D", type: "item", item: { id: "pneumaticcraft:manometer", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9522D88B5F0B5655"]
+			description: ["&6Was ist das?", "Mit dem Pneumatischen Schluessel drehst du Bloecke und baust Rohre ab.", "Er braucht Druckluft aus deinem Netz.", "", "&6So gehts", "Drehen und Rohrseiten schliessen.", "", "&6Wofuer ist das wichtig?", "Saubere Rohrnetze."]
+			id: "FC8076552A763F4A"
+			title: "Druckluft-Schluessel"
+			rewards: [{ id: "5B7783237ACEFD2B", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "E57BC035A5A02F48", type: "item", item: { id: "pneumaticcraft:pneumatic_wrench", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FC8076552A763F4A"]
+			description: ["&6Was ist das?", "Die Druckkammer ist ein Mehrblock-Gebaeude.", "Schritt 1: Baue Waende, ein Ventil und Fenster aus Kammerteilen.", "Schritt 2: Verbinde das Ventil mit Druckluft.", "", "&6So gehts", "Mindestens 3x3x3 aus Druckkammer-Waenden bauen, mit Ventil und Schnittstelle.", "Druckluft hinein, Items hinein.", "", "&6Wofuer ist das wichtig?", "Hier entsteht Verdichtetes Eisen, das Hauptmaterial von PneumaticCraft."]
+			id: "CDB39FABD07528BD"
+			title: "Druckkammer"
+			rewards: [{ id: "62FAA2AA3342346D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "AAD0D70D674AE2C2", type: "item", item: { id: "pneumaticcraft:pressure_chamber_wall", count: 1 }, count: 8L }]
+			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["CDB39FABD07528BD"]
-			description: ["&6Was ist das?", "Das Manometer zeigt, wie hoch der Druck ist.", "Halte es in der Hand und klicke auf Rohre.", "Achtung: Zu hoher Druck laesst Rohre platzen.", "", "&6So gehts", "Rechtsklick auf ein Rohr oder eine Maschine.", "", "&6Wofuer ist das wichtig?", "Rechtzeitig erkennen, bevor etwas explodiert."]
+			description: ["&6Was ist das?", "Verdichtetes Eisen ist das wichtigste Metall.", "Schritt 1: Lege Eisenbarren in die Druckkammer.", "Schritt 2: Stelle genug Druck ein.", "", "&6So gehts", "Eisenbarren in die Druckkammer oder mit TNT-Explosion verdichten.", "", "&6Wofuer ist das wichtig?", "Fast alle Maschinen brauchen es."]
 			id: "AACD65730D031186"
-			title: "Manometer"
-			rewards: [{ id: "5B7783237ACEFD2B", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E57BC035A5A02F48", type: "item", item: { id: "pneumaticcraft:manometer", count: 1 }, count: 1L }]
-			x: 6.5d
+			title: "Verdichtetes Eisen"
+			rewards: [{ id: "DA8CD808F2CA3D92", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
+			tasks: [{ id: "2F5824ADA910F754", type: "item", item: { id: "pneumaticcraft:ingot_iron_compressed", count: 1 }, count: 4L }]
+			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["AACD65730D031186"]
-			description: ["&6Was ist das?", "Mit dem Pneumatischen Schluessel drehst du Bloecke und baust Rohre ab.", "Er braucht Druckluft aus deinem Netz.", "", "&6So gehts", "Drehen und Rohrseiten schliessen.", "", "&6Wofuer ist das wichtig?", "Saubere Rohrnetze."]
+			description: ["&6Was ist das?", "Die besseren Rohre halten viel mehr Druck aus.", "Damit kannst du groessere Anlagen bauen.", "", "&6So gehts", "In der Druckkammer herstellen.", "", "&6Wofuer ist das wichtig?", "Fuer fortgeschrittene Maschinen mit mehr Druck."]
 			id: "A5F7A2C02D26EF29"
-			title: "Druckluft-Schluessel"
-			rewards: [{ id: "62FAA2AA3342346D", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "AAD0D70D674AE2C2", type: "item", item: { id: "pneumaticcraft:pneumatic_wrench", count: 1 }, count: 1L }]
-			x: 8.0d
+			title: "Fortgeschrittene Rohre"
+			rewards: [{ id: "E049C90AFD8F70AD", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "167FD40272F119BC", type: "item", item: { id: "pneumaticcraft:advanced_pressure_tube", count: 1 }, count: 4L }]
+			x: 12.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["A5F7A2C02D26EF29"]
-			description: ["&6Was ist das?", "Die Druckkammer ist ein Mehrblock-Gebaeude.", "Schritt 1: Baue Waende, ein Ventil und Fenster aus Kammerteilen.", "Schritt 2: Verbinde das Ventil mit Druckluft.", "", "&6So gehts", "Mindestens 3x3x3 aus Druckkammer-Waenden bauen, mit Ventil und Schnittstelle.", "Druckluft hinein, Items hinein.", "", "&6Wofuer ist das wichtig?", "Hier entsteht Verdichtetes Eisen, das Hauptmaterial von PneumaticCraft."]
-			id: "E9B83746582CF7AB"
-			title: "Druckkammer"
-			rewards: [{ id: "DA8CD808F2CA3D92", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "2F5824ADA910F754", type: "item", item: { id: "pneumaticcraft:pressure_chamber_wall", count: 1 }, count: 8L }]
-			x: 9.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["E9B83746582CF7AB"]
-			description: ["&6Was ist das?", "Verdichtetes Eisen ist das wichtigste Metall.", "Schritt 1: Lege Eisenbarren in die Druckkammer.", "Schritt 2: Stelle genug Druck ein.", "", "&6So gehts", "Eisenbarren in die Druckkammer oder mit TNT-Explosion verdichten.", "", "&6Wofuer ist das wichtig?", "Fast alle Maschinen brauchen es."]
-			id: "81BC8428EBB82151"
-			title: "Verdichtetes Eisen"
-			rewards: [{ id: "E049C90AFD8F70AD", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
-			tasks: [{ id: "167FD40272F119BC", type: "item", item: { id: "pneumaticcraft:ingot_iron_compressed", count: 1 }, count: 4L }]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["81BC8428EBB82151"]
-			description: ["&6Was ist das?", "Die besseren Rohre halten viel mehr Druck aus.", "Damit kannst du groessere Anlagen bauen.", "", "&6So gehts", "In der Druckkammer herstellen.", "", "&6Wofuer ist das wichtig?", "Fuer fortgeschrittene Maschinen mit mehr Druck."]
-			id: "A6476F231812FF0B"
-			title: "Fortgeschrittene Rohre"
-			rewards: [{ id: "70B280685D0FC0B6", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "FFE9F579A65A9E66", type: "item", item: { id: "pneumaticcraft:advanced_pressure_tube", count: 1 }, count: 4L }]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["A6476F231812FF0B"]
 			description: ["&6Was ist das?", "Die Ladestation fuellt Gegenstaende mit Druckluft.", "", "&6So gehts", "Item hineinlegen, Druckluft anschliessen.", "", "&6Wofuer ist das wichtig?", "Jedes pneumatische Werkzeug muss hier aufgeladen werden."]
-			id: "27EC460A72A7BB44"
+			id: "E9B83746582CF7AB"
 			title: "Ladestation"
-			rewards: [{ id: "1456D315D18BB65A", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "D3B43A316312D7C9", type: "item", item: { id: "pneumaticcraft:charging_station", count: 1 }, count: 1L }]
+			rewards: [{ id: "CF998510D294EA32", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "AE26D4B4429D205F", type: "item", item: { id: "pneumaticcraft:charging_station", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["27EC460A72A7BB44"]
+			dependencies: ["E9B83746582CF7AB"]
 			description: ["&6Was ist das?", "Luftkanister speichern Druckluft zum Mitnehmen. Laden an der Ladestation.", "", "&6So gehts", "An Rohre anschliessen.", "", "&6Wofuer ist das wichtig?", "Puffer fuer Druckspitzen."]
-			id: "31292358F7BF209E"
+			id: "81BC8428EBB82151"
 			title: "Druckluft-Behaelter"
-			rewards: [{ id: "CF998510D294EA32", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE26D4B4429D205F", type: "item", item: { id: "pneumaticcraft:air_canister", count: 1 }, count: 1L }]
+			rewards: [{ id: "6276474F963157DA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8212A2C89BE53610", type: "item", item: { id: "pneumaticcraft:air_canister", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["A6476F231812FF0B"]
+			dependencies: ["A5F7A2C02D26EF29"]
 			description: ["&6Was ist das?", "Tanks speichern Fluessigkeiten wie Oel oder Treibstoff.", "", "&6So gehts", "Aufstellen und mit Rohren verbinden.", "", "&6Wofuer ist das wichtig?", "Fuer Oel, Diesel und mehr."]
-			id: "B06A28C35AF34A75"
+			id: "A6476F231812FF0B"
 			title: "Tanks"
-			rewards: [{ id: "E25B3B5235BF9904", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D7267E4083960B2D", type: "item", item: { id: "pneumaticcraft:small_tank", count: 1 }, count: 1L }]
+			rewards: [{ id: "503A4C4A25711760", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F7FE40B2C7353F26", type: "item", item: { id: "pneumaticcraft:small_tank", count: 1 }, count: 1L }]
 			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["A6476F231812FF0B"]
+			description: ["&6Was ist das?", "Die Anlage verarbeitet Fluessigkeiten mit Hitze und Druck, z.B. zu Plastik.", "", "&6So gehts", "Halte das Item und druecke I, dann oeffnet sich die passende Seite im PNC-Handbuch.", "", "&6Wofuer ist das wichtig?", "Zwischenschritt fuer Plastik und Treibstoffe."]
+			id: "27EC460A72A7BB44"
+			title: "Thermopneumatische Anlage"
+			rewards: [{ id: "E25B3B5235BF9904", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
+			tasks: [{ id: "D7267E4083960B2D", type: "item", item: { id: "pneumaticcraft:thermopneumatic_processing_plant", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27EC460A72A7BB44"]
+			description: ["&6Was ist das?", "Die Raffinerie zerlegt Oel in Diesel, Kerosin und Benzin.", "", "&6So gehts", "Raffinerie-Controller und Ausgaenge stapeln, Hitze von unten.", "", "&6Wofuer ist das wichtig?", "Treibstoffe fuer starke Kompressoren und Plastik."]
+			id: "31292358F7BF209E"
+			title: "Raffinerie"
+			rewards: [{ id: "393F2BC21F22247E", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "028CCCF6C2213D96", type: "item", item: { id: "pneumaticcraft:refinery", count: 1 }, count: 1L }]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31292358F7BF209E"]
+			description: ["&6Was ist das?", "Plastik ist wichtig fuer Platinen und vieles mehr.", "", "&6So gehts", "Aus LPG in der Thermopneumatischen Anlage.", "", "&6Wofuer ist das wichtig?", "Fuer Platinen, Drohnen und Elektronik."]
+			id: "B06A28C35AF34A75"
+			title: "Plastik"
+			rewards: [{ id: "B4CF612566BCAC47", type: "item", item: { id: "minecraft:lime_dye", count: 8 } }]
+			tasks: [{ id: "255D35012EE083F5", type: "item", item: { id: "pneumaticcraft:plastic", count: 1 }, count: 8L }]
+			x: 17.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["B06A28C35AF34A75"]
-			description: ["&6Was ist das?", "Die Anlage verarbeitet Fluessigkeiten mit Hitze und Druck, z.B. zu Plastik.", "", "&6So gehts", "Halte das Item und druecke I, dann oeffnet sich die passende Seite im PNC-Handbuch.", "", "&6Wofuer ist das wichtig?", "Zwischenschritt fuer Plastik und Treibstoffe."]
+			description: ["&6Was ist das?", "Mit der UV-Lichtbox und Aetzsaeure machst du Platinen.", "", "&6So gehts", "Platine hineinlegen, Druckluft anschliessen.", "", "&6Wofuer ist das wichtig?", "Erster Schritt zur Platine."]
 			id: "4DEDD78F25CCB176"
-			title: "Thermopneumatische Anlage"
-			rewards: [{ id: "393F2BC21F22247E", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
-			tasks: [{ id: "028CCCF6C2213D96", type: "item", item: { id: "pneumaticcraft:thermopneumatic_processing_plant", count: 1 }, count: 1L }]
-			x: 14.0d
-			y: 3.5d
+			title: "UV-Lichtbox"
+			rewards: [{ id: "0D7D8770207CA376", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "B4FE8C3D81C3CB9D", type: "item", item: { id: "pneumaticcraft:uv_light_box", count: 1 }, count: 1L }]
+			x: 17.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4DEDD78F25CCB176"]
-			description: ["&6Was ist das?", "Die Raffinerie zerlegt Oel in Diesel, Kerosin und Benzin.", "", "&6So gehts", "Raffinerie-Controller und Ausgaenge stapeln, Hitze von unten.", "", "&6Wofuer ist das wichtig?", "Treibstoffe fuer starke Kompressoren und Plastik."]
+			description: ["&6Was ist das?", "Im Aetztank entstehen Platinen schneller als in der UV-Lichtbox.", "", "&6So gehts", "Aetzsaeure einfuellen.", "", "&6Wofuer ist das wichtig?", "Zweiter Schritt zur Platine."]
 			id: "9CCB592A4E373244"
-			title: "Raffinerie"
-			rewards: [{ id: "B4CF612566BCAC47", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "255D35012EE083F5", type: "item", item: { id: "pneumaticcraft:refinery", count: 1 }, count: 1L }]
-			x: 15.5d
-			y: 3.5d
+			title: "Aetztank"
+			rewards: [{ id: "CE0FF475AF444789", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "9B53E36C9364B94C", type: "item", item: { id: "pneumaticcraft:etching_tank", count: 1 }, count: 1L }]
+			x: 18.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["9CCB592A4E373244"]
-			description: ["&6Was ist das?", "Plastik ist wichtig fuer Platinen und vieles mehr.", "", "&6So gehts", "Aus LPG in der Thermopneumatischen Anlage.", "", "&6Wofuer ist das wichtig?", "Fuer Platinen, Drohnen und Elektronik."]
+			description: ["&6Was ist das?", "Eine bedruckte Platine ist das Herz vieler Upgrades.", "", "&6So gehts", "Belichten, aetzen, Teile per Montagelinie einsetzen.", "", "&6Wofuer ist das wichtig?", "Fuer Drohnen, Programmierer und Ruestung."]
 			id: "05B51B13768CB084"
-			title: "Plastik"
-			rewards: [{ id: "0D7D8770207CA376", type: "item", item: { id: "minecraft:lime_dye", count: 8 } }]
-			tasks: [{ id: "B4FE8C3D81C3CB9D", type: "item", item: { id: "pneumaticcraft:plastic", count: 1 }, count: 8L }]
-			x: 17.0d
-			y: 3.5d
+			title: "Platine"
+			rewards: [{ id: "CDCC57F3CEB84635", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
+			tasks: [{ id: "A75440CE1E654F8A", type: "item", item: { id: "pneumaticcraft:printed_circuit_board", count: 1 }, count: 1L }]
+			x: 20.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["05B51B13768CB084"]
-			description: ["&6Was ist das?", "Mit der UV-Lichtbox und Aetzsaeure machst du Platinen.", "", "&6So gehts", "Platine hineinlegen, Druckluft anschliessen.", "", "&6Wofuer ist das wichtig?", "Erster Schritt zur Platine."]
+			description: ["&6Was ist das?", "Die Montagelinie bohrt, laesert und baut Bauteile automatisch.", "", "&6So gehts", "Steuerung, Plattform, IO-Einheiten aufbauen.", "", "&6Wofuer ist das wichtig?", "Fuer fortgeschrittene Bauteile."]
 			id: "2997ECFAA38F40C0"
-			title: "UV-Lichtbox"
-			rewards: [{ id: "CDCC57F3CEB84635", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "A75440CE1E654F8A", type: "item", item: { id: "pneumaticcraft:uv_light_box", count: 1 }, count: 1L }]
-			x: 17.0d
+			title: "Montagelinie"
+			rewards: [{ id: "7D0C7B037275549A", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "9685659F08C901B3", type: "item", item: { id: "pneumaticcraft:assembly_controller", count: 1 }, count: 1L }]
+			x: 21.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2997ECFAA38F40C0"]
-			description: ["&6Was ist das?", "Im Aetztank entstehen Platinen schneller als in der UV-Lichtbox.", "", "&6So gehts", "Aetzsaeure einfuellen.", "", "&6Wofuer ist das wichtig?", "Zweiter Schritt zur Platine."]
+			description: ["&6Was ist das?", "Laser und Bohrer der Montagelinie bearbeiten Bauteile.", "", "&6So gehts", "In die Linie setzen.", "", "&6Wofuer ist das wichtig?", "Fuer Laser-Rezepte."]
 			id: "18C5514DB93E15E4"
-			title: "Aetztank"
+			title: "Montage-Laser"
 			rewards: [{ id: "63926CB5309FF271", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "5D4AADA692E3B46D", type: "item", item: { id: "pneumaticcraft:etching_tank", count: 1 }, count: 1L }]
-			x: 18.5d
+			tasks: [{ id: "5D4AADA692E3B46D", type: "item", item: { id: "pneumaticcraft:assembly_laser", count: 1 }, count: 1L }]
+			x: 23.0d
 			y: 5.5d
 		}
 		{
-			dependencies: ["18C5514DB93E15E4"]
-			description: ["&6Was ist das?", "Eine bedruckte Platine ist das Herz vieler Upgrades.", "", "&6So gehts", "Belichten, aetzen, Teile per Montagelinie einsetzen.", "", "&6Wofuer ist das wichtig?", "Fuer Drohnen, Programmierer und Ruestung."]
+			dependencies: ["2997ECFAA38F40C0"]
+			description: ["&6Was ist das?", "Bauteile fuer Platinen.", "", "&6So gehts", "In der Montagelinie herstellen.", "", "&6Wofuer ist das wichtig?", "Ohne sie keine fortgeschrittenen Platinen."]
+			icon: { id: "pneumaticcraft:transistor" }
 			id: "5F5A8C6451AE31E7"
-			title: "Platine"
-			rewards: [{ id: "7D0C7B037275549A", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
-			tasks: [{ id: "9685659F08C901B3", type: "item", item: { id: "pneumaticcraft:printed_circuit_board", count: 1 }, count: 1L }]
-			x: 20.0d
-			y: 5.5d
+			title: "Transistor und Kondensator"
+			rewards: [{ id: "63B9D99AB3F23CF8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BC9B09F916612D26", type: "item", item: { id: "pneumaticcraft:transistor", count: 1 }, count: 2L }]
+			x: 21.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5F5A8C6451AE31E7"]
-			description: ["&6Was ist das?", "Die Montagelinie bohrt, laesert und baut Bauteile automatisch.", "", "&6So gehts", "Steuerung, Plattform, IO-Einheiten aufbauen.", "", "&6Wofuer ist das wichtig?", "Fuer fortgeschrittene Bauteile."]
-			id: "A8B343F14CC48195"
-			title: "Montagelinie"
-			rewards: [{ id: "281766DD55D3D4AC", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "B1CE63473CBCA62A", type: "item", item: { id: "pneumaticcraft:assembly_controller", count: 1 }, count: 1L }]
-			x: 21.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["A8B343F14CC48195"]
-			description: ["&6Was ist das?", "Laser und Bohrer der Montagelinie bearbeiten Bauteile.", "", "&6So gehts", "In die Linie setzen.", "", "&6Wofuer ist das wichtig?", "Fuer Laser-Rezepte."]
-			id: "4495B17427F466A9"
-			title: "Montage-Laser"
-			rewards: [{ id: "86D0E6281F6A4A77", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "BCFD5A1E495C54A5", type: "item", item: { id: "pneumaticcraft:assembly_laser", count: 1 }, count: 1L }]
-			x: 23.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["A8B343F14CC48195"]
-			description: ["&6Was ist das?", "Bauteile fuer Platinen.", "", "&6So gehts", "In der Montagelinie herstellen.", "", "&6Wofuer ist das wichtig?", "Ohne sie keine fortgeschrittenen Platinen."]
-			icon: { id: "pneumaticcraft:transistor" }
-			id: "AC38ABF2F45B01B4"
-			title: "Transistor und Kondensator"
-			rewards: [{ id: "756955E23E0CAD64", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "7B6C7742E1C9650D", type: "item", item: { id: "pneumaticcraft:transistor", count: 1 }, count: 2L }]
-			x: 21.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["AC38ABF2F45B01B4"]
 			description: ["&6Was ist das?", "Ein fester Block, der Drohnen-Programme ausfuehrt.", "", "&6So gehts", "Programm einlegen und Luft anschliessen.", "", "&6Wofuer ist das wichtig?", "Drohnen-Arbeit ohne Drohne."]
 			icon: { id: "pneumaticcraft:programmable_controller" }
-			id: "759E89B8060C4AAD"
+			id: "A8B343F14CC48195"
 			title: "Programmierbarer Regler"
-			rewards: [{ id: "10CB3F00CFB262BE", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B79472BDB203630D", type: "item", item: { id: "pneumaticcraft:programmable_controller", count: 1 }, count: 1L }]
+			rewards: [{ id: "9FF12EAAF973F453", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E7ABBD6B32F19F9E", type: "item", item: { id: "pneumaticcraft:programmable_controller", count: 1 }, count: 1L }]
 			x: 23.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["E9B83746582CF7AB"]
+			dependencies: ["CDB39FABD07528BD"]
 			description: ["&6Was ist das?", "Das Ventil fuellt Luft in die Druckkammer.", "", "&6So gehts", "In eine Wand der Kammer setzen.", "", "&6Wofuer ist das wichtig?", "Ohne Ventil keine Druckkammer."]
 			icon: { id: "pneumaticcraft:pressure_chamber_valve" }
-			id: "13ACD1A94757CB41"
+			id: "4495B17427F466A9"
 			title: "Druckkammer-Ventil"
-			rewards: [{ id: "BE36D575076A3020", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F400E1D4408AFF14", type: "item", item: { id: "pneumaticcraft:pressure_chamber_valve", count: 1 }, count: 1L }]
+			rewards: [{ id: "241093BD6D6929C2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9C5D79949C638EF9", type: "item", item: { id: "pneumaticcraft:pressure_chamber_valve", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 9.5d
 		}
 		{
-			dependencies: ["13ACD1A94757CB41"]
+			dependencies: ["4495B17427F466A9"]
 			description: ["&6Was ist das?", "Upgrades machen Maschinen und Ausruestung besser.", "", "&6So gehts", "In Maschinen oder per Ladestation in Ausruestung einsetzen.", "", "&6Wofuer ist das wichtig?", "Schneller, groessere Reichweite, mehr Volumen."]
 			icon: { id: "pneumaticcraft:speed_upgrade" }
-			id: "CAC1DC000A73A3E5"
+			id: "AC38ABF2F45B01B4"
 			title: "Upgrades"
-			rewards: [{ id: "B1D3554ACAF6B313", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "0434EFB17CB8B1E7", type: "item", item: { id: "pneumaticcraft:speed_upgrade", count: 1 }, count: 2L }]
+			rewards: [{ id: "BE36D575076A3020", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F400E1D4408AFF14", type: "item", item: { id: "pneumaticcraft:speed_upgrade", count: 1 }, count: 2L }]
 			x: 11.0d
 			y: 9.5d
 		}
 		{
-			dependencies: ["CAC1DC000A73A3E5"]
+			dependencies: ["AC38ABF2F45B01B4"]
 			description: ["&6Was ist das?", "Mehr Speicher fuer Druckluft.", "", "&6So gehts", "In Ausruestung oder Maschinen einsetzen.", "", "&6Wofuer ist das wichtig?", "Laengere Laufzeit ohne Aufladen."]
 			icon: { id: "pneumaticcraft:volume_upgrade" }
-			id: "A8AC6F76A09144C5"
+			id: "759E89B8060C4AAD"
 			title: "Volumen-Upgrade"
-			rewards: [{ id: "9FF12EAAF973F453", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E7ABBD6B32F19F9E", type: "item", item: { id: "pneumaticcraft:volume_upgrade", count: 1 }, count: 2L }]
+			rewards: [{ id: "B1D3554ACAF6B313", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0434EFB17CB8B1E7", type: "item", item: { id: "pneumaticcraft:volume_upgrade", count: 1 }, count: 2L }]
 			x: 12.5d
 			y: 9.5d
 		}
 		{
-			dependencies: ["A8AC6F76A09144C5"]
+			dependencies: ["759E89B8060C4AAD"]
 			description: ["&6Was ist das?", "Ein Rahmen, der Kisten kuehlt oder heizt.", "", "&6So gehts", "Auf eine Kiste setzen, Hitze oder Kaelte daneben.", "", "&6Wofuer ist das wichtig?", "Kochen oder Gefrieren ohne Ofen."]
 			icon: { id: "pneumaticcraft:heat_frame" }
-			id: "2F09D80529B297E1"
+			id: "13ACD1A94757CB41"
 			title: "Hitzerahmen"
-			rewards: [{ id: "63B9D99AB3F23CF8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "BC9B09F916612D26", type: "item", item: { id: "pneumaticcraft:heat_frame", count: 1 }, count: 1L }]
+			rewards: [{ id: "BEADFC62BABCC0EC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "716ACE8C86729034", type: "item", item: { id: "pneumaticcraft:heat_frame", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 9.5d
 		}
 		{
-			dependencies: ["2F09D80529B297E1"]
+			dependencies: ["13ACD1A94757CB41"]
 			description: ["&6Was ist das?", "Schiesst Items weit durch die Luft.", "", "&6So gehts", "Ziel mit dem GPS-Werkzeug einstellen.", "", "&6Wofuer ist das wichtig?", "Transport ueber grosse Strecken."]
 			icon: { id: "pneumaticcraft:air_cannon" }
-			id: "80D317AD366D2FCC"
+			id: "CAC1DC000A73A3E5"
 			title: "Luftkanone"
-			rewards: [{ id: "892F790B69877869", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CB6254764160D74C", type: "item", item: { id: "pneumaticcraft:air_cannon", count: 1 }, count: 1L }]
+			rewards: [{ id: "10CB3F00CFB262BE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B79472BDB203630D", type: "item", item: { id: "pneumaticcraft:air_cannon", count: 1 }, count: 1L }]
 			x: 15.5d
 			y: 9.5d
 		}
 		{
-			dependencies: ["FC8076552A763F4A"]
+			dependencies: ["86BA63BEA1C58C27"]
 			description: ["&6Was ist das?", "Der fortgeschrittene Kompressor macht viel mehr Druck. Er wird heiss, kuehle ihn mit Kuehlkoerpern.", "", "&6So gehts", "Ersetze den Startkompressor.", "", "&6Wofuer ist das wichtig?", "Mehr Druck fuer mehr Maschinen."]
-			id: "D20B347174AD35D3"
+			id: "A8AC6F76A09144C5"
 			title: "Bessere Kompressoren"
-			rewards: [{ id: "17C217467C4EA5C6", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "1E8EDA1F16F1F660", type: "item", item: { id: "pneumaticcraft:advanced_air_compressor", count: 1 }, count: 1L }]
+			rewards: [{ id: "82AD658998824687", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "BF6D6381C655FA42", type: "item", item: { id: "pneumaticcraft:advanced_air_compressor", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 11.5d
 		}
 		{
-			dependencies: ["D20B347174AD35D3"]
+			dependencies: ["A8AC6F76A09144C5"]
 			description: ["&6Was ist das?", "Der Fluessigkeits-Kompressor verbrennt Treibstoff wie Diesel fuer Druckluft.", "", "&6So gehts", "Diesel oder Kerosin hineinpumpen.", "", "&6Wofuer ist das wichtig?", "Sehr effizient."]
-			id: "1884683A42672233"
+			id: "2F09D80529B297E1"
 			title: "Fluessigkeits-Kompressor"
-			rewards: [{ id: "181CA65AA170625C", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "DE30164E1ABF5693", type: "item", item: { id: "pneumaticcraft:liquid_compressor", count: 1 }, count: 1L }]
+			rewards: [{ id: "17C217467C4EA5C6", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "1E8EDA1F16F1F660", type: "item", item: { id: "pneumaticcraft:liquid_compressor", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 11.5d
 		}
 		{
-			dependencies: ["1884683A42672233"]
+			dependencies: ["2F09D80529B297E1"]
 			description: ["&6Was ist das?", "Der thermische Kompressor macht Druck aus Temperaturunterschieden, z.B. Lava und Eis.", "", "&6So gehts", "Heisse Seite und kalte Seite bauen.", "", "&6Wofuer ist das wichtig?", "Kein Brennstoff noetig."]
-			id: "CE4762E48CCDDD9E"
+			id: "80D317AD366D2FCC"
 			title: "Thermischer Kompressor"
-			rewards: [{ id: "30C14FC68860F47E", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "A94025EB3D16B410", type: "item", item: { id: "pneumaticcraft:thermal_compressor", count: 1 }, count: 1L }]
+			rewards: [{ id: "181CA65AA170625C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "DE30164E1ABF5693", type: "item", item: { id: "pneumaticcraft:thermal_compressor", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 11.5d
 		}
 		{
-			dependencies: ["CE4762E48CCDDD9E"]
+			dependencies: ["80D317AD366D2FCC"]
 			description: ["&6Was ist das?", "Der Solar-Kompressor macht Druckluft aus Sonnenlicht.", "", "&6So gehts", "Unter freien Himmel stellen.", "", "&6Wofuer ist das wichtig?", "Kostenlose Luft am Tag."]
-			id: "93B96865F670EFE4"
+			id: "D20B347174AD35D3"
 			title: "Solar-Kompressor"
-			rewards: [{ id: "06D6538ACD79FECE", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "5F5C290B959C5FF5", type: "item", item: { id: "pneumaticcraft:solar_compressor", count: 1 }, count: 1L }]
+			rewards: [{ id: "30C14FC68860F47E", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A94025EB3D16B410", type: "item", item: { id: "pneumaticcraft:solar_compressor", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 11.5d
 		}
 		{
-			dependencies: ["93B96865F670EFE4"]
+			dependencies: ["D20B347174AD35D3"]
 			description: ["&6Was ist das?", "Kuehlkoerper ziehen Hitze aus Maschinen. Wasser oder Eis daneben helfen.", "", "&6So gehts", "Neben heisse Maschinen stellen.", "", "&6Wofuer ist das wichtig?", "Gegen Ueberhitzung."]
-			id: "070405CFA4BAC6D7"
+			id: "1884683A42672233"
 			title: "Kuehlkoerper"
-			rewards: [{ id: "90F871817B0516CA", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "620BF4D9F18E5009", type: "item", item: { id: "pneumaticcraft:heat_sink", count: 1 }, count: 2L }]
+			rewards: [{ id: "06D6538ACD79FECE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5F5C290B959C5FF5", type: "item", item: { id: "pneumaticcraft:heat_sink", count: 1 }, count: 2L }]
 			x: 9.5d
 			y: 11.5d
 		}
 		{
-			dependencies: ["070405CFA4BAC6D7"]
+			dependencies: ["1884683A42672233"]
 			description: ["&6Was ist das?", "Das Wirbelrohr macht aus Druckluft eine warme und eine kalte Seite.", "", "&6So gehts", "Druckluft hinein.", "", "&6Wofuer ist das wichtig?", "Fuer Hitze ohne Feuer."]
-			id: "98EF79D48F80BE59"
+			id: "CE4762E48CCDDD9E"
 			title: "Wirbelrohr"
-			rewards: [{ id: "CE0FF475AF444789", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9B53E36C9364B94C", type: "item", item: { id: "pneumaticcraft:vortex_tube", count: 1 }, count: 1L }]
+			rewards: [{ id: "90F871817B0516CA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "620BF4D9F18E5009", type: "item", item: { id: "pneumaticcraft:vortex_tube", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 11.5d
 		}
 		{
-			dependencies: ["5F5A8C6451AE31E7"]
+			dependencies: ["05B51B13768CB084"]
 			description: ["&6Was ist das?", "Drohnen erledigen Arbeit fuer dich. Du programmierst sie.", "Du brauchst dafuer Programmierer und Ladestation.", "", "&6So gehts", "Mit dem Programmierer Bausteine zusammensetzen: Gebiet, Abbauen, Liefern.", "Drohne an der Ladestation aufladen.", "", "&6Wofuer ist das wichtig?", "Drohnen bauen ab, ernten, liefern und kaempfen fuer dich."]
-			id: "D7C5C4D36CF1CB88"
+			id: "93B96865F670EFE4"
 			title: "Drohnen"
-			rewards: [{ id: "6276474F963157DA", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "8212A2C89BE53610", type: "item", item: { id: "pneumaticcraft:programmer", count: 1 }, count: 1L }]
+			rewards: [{ id: "70B280685D0FC0B6", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "FFE9F579A65A9E66", type: "item", item: { id: "pneumaticcraft:programmer", count: 1 }, count: 1L }]
 			x: 20.0d
 			y: 13.5d
 		}
 		{
-			dependencies: ["D7C5C4D36CF1CB88"]
+			dependencies: ["93B96865F670EFE4"]
 			description: ["&6Was ist das?", "Die normale Drohne fuehrt dein Programm aus: abbauen, bauen, transportieren.", "", "&6So gehts", "Im Programmierer programmieren.", "", "&6Wofuer ist das wichtig?", "Automatische Arbeit."]
-			id: "8F651FD7ACC1DC3B"
+			id: "070405CFA4BAC6D7"
 			title: "Drohne"
-			rewards: [{ id: "63684724A6B6379A", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "BD8E488B2ADC7F0F", type: "item", item: { id: "pneumaticcraft:drone", count: 1 }, count: 1L }]
+			rewards: [{ id: "86D0E6281F6A4A77", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "BCFD5A1E495C54A5", type: "item", item: { id: "pneumaticcraft:drone", count: 1 }, count: 1L }]
 			x: 21.5d
 			y: 13.5d
 		}
 		{
-			dependencies: ["8F651FD7ACC1DC3B"]
+			dependencies: ["070405CFA4BAC6D7"]
 			description: ["&6Was ist das?", "Die Ernte-Drohne erntet Felder ohne Programm.", "", "&6So gehts", "Aufstellen, sie arbeitet von selbst.", "", "&6Wofuer ist das wichtig?", "Felder ohne Programmierung ernten."]
-			id: "F2C597A4AB8BAB7C"
+			id: "98EF79D48F80BE59"
 			title: "Ernte-Drohne"
-			rewards: [{ id: "F7313E23A34DD28B", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "2E18BB1FE2E48512", type: "item", item: { id: "pneumaticcraft:harvesting_drone", count: 1 }, count: 1L }]
+			rewards: [{ id: "63684724A6B6379A", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "BD8E488B2ADC7F0F", type: "item", item: { id: "pneumaticcraft:harvesting_drone", count: 1 }, count: 1L }]
 			x: 23.0d
 			y: 13.5d
 		}
 		{
-			dependencies: ["F2C597A4AB8BAB7C"]
+			dependencies: ["98EF79D48F80BE59"]
 			description: ["&6Was ist das?", "Die Wach-Drohne greift Monster in der Naehe an.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Schutz deiner Basis."]
-			id: "7F7B7F7EA5B08C5A"
+			id: "D7C5C4D36CF1CB88"
 			title: "Wach-Drohne"
-			rewards: [{ id: "597C3764BDD8732C", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "0399D73A16929EC4", type: "item", item: { id: "pneumaticcraft:guard_drone", count: 1 }, count: 1L }]
+			rewards: [{ id: "F7313E23A34DD28B", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "2E18BB1FE2E48512", type: "item", item: { id: "pneumaticcraft:guard_drone", count: 1 }, count: 1L }]
 			x: 24.5d
 			y: 13.5d
 		}
 		{
-			dependencies: ["7F7B7F7EA5B08C5A"]
+			dependencies: ["D7C5C4D36CF1CB88"]
 			description: ["&6Was ist das?", "Die Sammel-Drohne sammelt herumliegende Items ein.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Nichts liegt mehr herum."]
-			id: "832AF3E051A562CE"
+			id: "8F651FD7ACC1DC3B"
 			title: "Sammel-Drohne"
-			rewards: [{ id: "6F83BB89C5D0AB2E", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "A235C74739FC40AC", type: "item", item: { id: "pneumaticcraft:collector_drone", count: 1 }, count: 1L }]
+			rewards: [{ id: "597C3764BDD8732C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "0399D73A16929EC4", type: "item", item: { id: "pneumaticcraft:collector_drone", count: 1 }, count: 1L }]
 			x: 26.0d
 			y: 13.5d
 		}
 		{
-			dependencies: ["832AF3E051A562CE"]
+			dependencies: ["8F651FD7ACC1DC3B"]
 			description: ["&6Was ist das?", "Logistikrahmen und -drohnen bringen Items von A nach B ohne Foerderband.", "", "&6So gehts", "Logistik-Rahmen auf Kisten setzen.", "", "&6Wofuer ist das wichtig?", "Items automatisch verteilen."]
-			id: "4FAE484FAEB4CACE"
+			id: "F2C597A4AB8BAB7C"
 			title: "Logistik-Drohnen"
-			rewards: [{ id: "297C75B6B6944B5A", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "F5E39EBD2794E388", type: "item", item: { id: "pneumaticcraft:logistics_frame_requester", count: 1 }, count: 1L }]
+			rewards: [{ id: "F738C8E361AD7D10", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "F99F6F9C7D053571", type: "item", item: { id: "pneumaticcraft:logistics_frame_requester", count: 1 }, count: 1L }]
 			x: 27.5d
 			y: 13.5d
 		}
 		{
-			dependencies: ["4FAE484FAEB4CACE"]
+			dependencies: ["F2C597A4AB8BAB7C"]
 			description: ["&6Was ist das?", "Mit dem Amadron-Tablet handelst du mit Spielern und Haendlern.", "", "&6So gehts", "Tablet benutzen und bestellen. Drohnen liefern.", "", "&6Wofuer ist das wichtig?", "Tausche Items gegen andere Items."]
-			id: "5E269CD307654277"
+			id: "7F7B7F7EA5B08C5A"
 			title: "Amadron"
-			rewards: [{ id: "F738C8E361AD7D10", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
-			tasks: [{ id: "F99F6F9C7D053571", type: "item", item: { id: "pneumaticcraft:amadron_tablet", count: 1 }, count: 1L }]
+			rewards: [{ id: "DC301E9CEAB74BE8", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			tasks: [{ id: "1FD87345CDEDD2E1", type: "item", item: { id: "pneumaticcraft:amadron_tablet", count: 1 }, count: 1L }]
 			x: 29.0d
 			y: 13.5d
 		}
 		{
-			dependencies: ["5E269CD307654277"]
+			dependencies: ["7F7B7F7EA5B08C5A"]
 			description: ["&6Was ist das?", "Das GPS-Werkzeug speichert Koordinaten fuer Drohnenprogramme.", "", "&6So gehts", "Rechtsklick auf einen Block.", "", "&6Wofuer ist das wichtig?", "Fuer Drohnenprogramme."]
-			id: "8DB9276FF3F07A4B"
+			id: "832AF3E051A562CE"
 			title: "GPS-Werkzeug"
-			rewards: [{ id: "DF661B9E389ED46C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6F80AAFDFEA8A256", type: "item", item: { id: "pneumaticcraft:gps_tool", count: 1 }, count: 1L }]
+			rewards: [{ id: "970863DBD3AE8215", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2136183EE100F6CC", type: "item", item: { id: "pneumaticcraft:gps_tool", count: 1 }, count: 1L }]
 			x: 30.5d
 			y: 13.5d
 		}
 		{
-			dependencies: ["27EC460A72A7BB44"]
+			dependencies: ["E9B83746582CF7AB"]
 			description: ["&6Was ist das?", "Die Pneumatische Ruestung hat Upgrades: Nachtsicht, Sprung, Magnet und mehr.", "", "&6So gehts", "Herstellen, aufladen, Upgrades einbauen.", "", "&6Wofuer ist das wichtig?", "Zeigt Erze, Gegner und Informationen."]
-			id: "5C08F65816EC2EA8"
+			id: "4FAE484FAEB4CACE"
 			title: "Pneumatischer Helm"
-			rewards: [{ id: "FC2C22343E90509F", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "E1EF5DC3989BF481", type: "item", item: { id: "pneumaticcraft:pneumatic_helmet", count: 1 }, count: 1L }]
+			rewards: [{ id: "281766DD55D3D4AC", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "B1CE63473CBCA62A", type: "item", item: { id: "pneumaticcraft:pneumatic_helmet", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["5C08F65816EC2EA8"]
+			dependencies: ["4FAE484FAEB4CACE"]
 			description: ["&6Was ist das?", "Die Brustplatte speichert Luft fuer die anderen Ruestungsteile und bekommt Upgrades.", "", "&6So gehts", "Aufladen und Upgrades einbauen.", "", "&6Wofuer ist das wichtig?", "Schutz und Extras."]
-			id: "63CFE2CE7276DCB6"
+			id: "5E269CD307654277"
 			title: "Pneumatische Brustplatte"
-			rewards: [{ id: "8F093D146DA3E0E5", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "8D809582D8FF115E", type: "item", item: { id: "pneumaticcraft:pneumatic_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "D418BB4B59D1010A", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "FA90DB2E7297950A", type: "item", item: { id: "pneumaticcraft:pneumatic_chestplate", count: 1 }, count: 1L }]
 			x: 15.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["63CFE2CE7276DCB6"]
+			dependencies: ["5E269CD307654277"]
 			description: ["&6Was ist das?", "Mit Jet-Boots-Upgrades fliegst du mit Druckluft.", "", "&6So gehts", "Aufladen, Upgrades einbauen.", "", "&6Wofuer ist das wichtig?", "Kein Fallschaden, Sprungkraft."]
-			id: "2A082F72838B89D0"
+			id: "8DB9276FF3F07A4B"
 			title: "Pneumatische Stiefel"
-			rewards: [{ id: "4E91076AC4ABB54D", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "2EFBCF18BEB3B4A3", type: "item", item: { id: "pneumaticcraft:pneumatic_boots", count: 1 }, count: 1L }]
+			rewards: [{ id: "8F093D146DA3E0E5", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "8D809582D8FF115E", type: "item", item: { id: "pneumaticcraft:pneumatic_boots", count: 1 }, count: 1L }]
 			x: 17.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["2A082F72838B89D0"]
+			dependencies: ["8DB9276FF3F07A4B"]
 			description: ["&6Was ist das?", "Das Jet-Boots-Upgrade in den Stiefeln laesst dich fliegen.", "", "&6So gehts", "Jet-Boot-Upgrade in die Stiefel.", "", "&6Wofuer ist das wichtig?", "Fliegen ohne Elytra."]
-			id: "87A4D5C2F10DEEB4"
+			id: "5C08F65816EC2EA8"
 			title: "Jet-Boots"
-			rewards: [{ id: "36EF7D5B84F856C6", type: "item", item: { id: "minecraft:feather", count: 8 } }]
-			tasks: [{ id: "99D22928E8D42E91", type: "item", item: { id: "pneumaticcraft:jet_boots_upgrade_1", count: 1 }, count: 1L }]
+			rewards: [{ id: "4E91076AC4ABB54D", type: "item", item: { id: "minecraft:feather", count: 8 } }]
+			tasks: [{ id: "2EFBCF18BEB3B4A3", type: "item", item: { id: "pneumaticcraft:jet_boots_upgrade_1", count: 1 }, count: 1L }]
 			x: 18.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["87A4D5C2F10DEEB4"]
+			dependencies: ["5C08F65816EC2EA8"]
 			description: ["&6Was ist das?", "Der Jackhammer baut Gestein in Grossem Umfang ab. Mit Bohrern fuer verschiedene Stufen.", "", "&6So gehts", "Aufladen und abbauen. Mit Upgrades sehr stark.", "", "&6Wofuer ist das wichtig?", "Bricht Bloecke extrem schnell."]
-			id: "A897E167BA6BA06E"
+			id: "63CFE2CE7276DCB6"
 			title: "Presslufthammer"
-			rewards: [{ id: "503A4C4A25711760", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "F7FE40B2C7353F26", type: "item", item: { id: "pneumaticcraft:jackhammer", count: 1 }, count: 1L }]
+			rewards: [{ id: "1456D315D18BB65A", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "D3B43A316312D7C9", type: "item", item: { id: "pneumaticcraft:jackhammer", count: 1 }, count: 1L }]
 			x: 20.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["A897E167BA6BA06E"]
+			dependencies: ["63CFE2CE7276DCB6"]
 			description: ["&6Was ist das?", "Die Minigun feuert Munition mit Druckluft. Viel Schaden, hoher Verbrauch.", "", "&6So gehts", "Munition einlegen und aufladen.", "", "&6Wofuer ist das wichtig?", "Sehr stark gegen Monster."]
-			id: "56D5278DED80EA39"
+			id: "2A082F72838B89D0"
 			title: "Minigun"
-			rewards: [{ id: "DC301E9CEAB74BE8", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "1FD87345CDEDD2E1", type: "item", item: { id: "pneumaticcraft:minigun", count: 1 }, count: 1L }]
+			rewards: [{ id: "FC2C22343E90509F", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "E1EF5DC3989BF481", type: "item", item: { id: "pneumaticcraft:minigun", count: 1 }, count: 1L }]
 			x: 21.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["56D5278DED80EA39"]
+			dependencies: ["2A082F72838B89D0"]
 			description: ["&6Was ist das?", "Die Wirbelkanone schiesst Luftwirbel, die Gegner wegschleudern.", "", "&6So gehts", "Aufladen und schiessen.", "", "&6Wofuer ist das wichtig?", "Raeumt Blaetter und Gras."]
-			id: "8310F6261283E08E"
+			id: "87A4D5C2F10DEEB4"
 			title: "Wirbelkanone"
-			rewards: [{ id: "82AD658998824687", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "BF6D6381C655FA42", type: "item", item: { id: "pneumaticcraft:vortex_cannon", count: 1 }, count: 1L }]
+			rewards: [{ id: "297C75B6B6944B5A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "F5E39EBD2794E388", type: "item", item: { id: "pneumaticcraft:vortex_cannon", count: 1 }, count: 1L }]
 			x: 23.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["8310F6261283E08E"]
+			dependencies: ["87A4D5C2F10DEEB4"]
 			description: ["&6Was ist das?", "Verbandszeug und Heiltraenke helfen auch deinen Freunden.", "Rechtsklick auf einen Mitspieler mit Verband heilt ihn.", "", "&6So gehts", "Baue einen Verband und halte Rechtsklick, um dich zu heilen.", "Rechtsklick auf einen Mitspieler heilt ihn.", "", "&6Wofuer ist das wichtig?", "In schweren Kaempfen koennt ihr euch gegenseitig retten."]
-			id: "B2771512FC819581"
+			id: "A897E167BA6BA06E"
 			title: "Gemeinsam heilen"
 			rewards: [{ id: "958CCC9E0FE2F7DB", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "F2DE7A286BD13C10", type: "item", item: { id: "pneumaticcraft:bandage", count: 1 }, count: 1L }]
@@ -496,217 +496,217 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["B2771512FC819581"]
+			dependencies: ["A897E167BA6BA06E"]
 			description: ["&6Was ist das?", "Hose mit Lauf-Upgrades.", "", "&6So gehts", "Aufladen und Upgrades einbauen.", "", "&6Wofuer ist das wichtig?", "Schneller laufen."]
 			icon: { id: "pneumaticcraft:pneumatic_leggings" }
-			id: "6D36F5EF464FF5FD"
+			id: "56D5278DED80EA39"
 			title: "Pneumatische Hose"
-			rewards: [{ id: "BEADFC62BABCC0EC", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "716ACE8C86729034", type: "item", item: { id: "pneumaticcraft:pneumatic_leggings", count: 1 }, count: 1L }]
+			rewards: [{ id: "892F790B69877869", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CB6254764160D74C", type: "item", item: { id: "pneumaticcraft:pneumatic_leggings", count: 1 }, count: 1L }]
 			x: 26.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["E9B83746582CF7AB"]
+			dependencies: ["CDB39FABD07528BD"]
 			description: ["&6Was ist das?", "Mit Aufzugbasis und Rahmen baust du einen Aufzug mit Druckluft.", "", "&6So gehts", "Aufzugsbasis und Rahmen stapeln.", "", "&6Wofuer ist das wichtig?", "Schnell zwischen Stockwerken."]
-			id: "4A5C2B821E03D0DC"
+			id: "8310F6261283E08E"
 			title: "Aufzug"
-			rewards: [{ id: "62D9AB35C9B0E130", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "6087842F7AFB2E11", type: "item", item: { id: "pneumaticcraft:elevator_base", count: 1 }, count: 1L }]
+			rewards: [{ id: "2017BE1EAA96A4D7", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "4D86A78D4F9A7AFB", type: "item", item: { id: "pneumaticcraft:elevator_base", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 17.5d
 		}
 		{
-			dependencies: ["4A5C2B821E03D0DC"]
+			dependencies: ["8310F6261283E08E"]
 			description: ["&6Was ist das?", "Eine grosse Tuer, die mit Druckluft auf- und zugeht.", "", "&6So gehts", "Mit Tuerbasis aufstellen.", "", "&6Wofuer ist das wichtig?", "Oeffnet sich beim Naehern."]
-			id: "A7C0D1F5383A123A"
+			id: "B2771512FC819581"
 			title: "Pneumatische Tuer"
-			rewards: [{ id: "970863DBD3AE8215", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "2136183EE100F6CC", type: "item", item: { id: "pneumaticcraft:pneumatic_door", count: 1 }, count: 1L }]
+			rewards: [{ id: "62D9AB35C9B0E130", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6087842F7AFB2E11", type: "item", item: { id: "pneumaticcraft:pneumatic_door", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 17.5d
 		}
 		{
-			dependencies: ["A7C0D1F5383A123A"]
+			dependencies: ["B2771512FC819581"]
 			description: ["&6Was ist das?", "Mit der Fernbedienung steuerst du Redstone und Drohnen von weitem.", "", "&6So gehts", "Im Programmierer einrichten.", "", "&6Wofuer ist das wichtig?", "Tueren und Anlagen per Knopf."]
-			id: "DBCEFCEB50404B23"
+			id: "6D36F5EF464FF5FD"
 			title: "Fernbedienung"
-			rewards: [{ id: "D418BB4B59D1010A", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "FA90DB2E7297950A", type: "item", item: { id: "pneumaticcraft:remote", count: 1 }, count: 1L }]
+			rewards: [{ id: "DF661B9E389ED46C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6F80AAFDFEA8A256", type: "item", item: { id: "pneumaticcraft:remote", count: 1 }, count: 1L }]
 			x: 12.5d
 			y: 17.5d
 		}
 		{
-			dependencies: ["DBCEFCEB50404B23"]
+			dependencies: ["6D36F5EF464FF5FD"]
 			description: ["&6Was ist das?", "Der Sensor misst fast alles und gibt Redstone aus: Wetter, Spieler, Zeit.", "", "&6So gehts", "Sensor-Upgrade einsetzen.", "", "&6Wofuer ist das wichtig?", "Fuer Redstone-Schaltungen."]
-			id: "97578EF3AF8A8E1F"
+			id: "4A5C2B821E03D0DC"
 			title: "Universeller Sensor"
-			rewards: [{ id: "B974645C42ADA938", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "AE92771AC028917D", type: "item", item: { id: "pneumaticcraft:universal_sensor", count: 1 }, count: 1L }]
+			rewards: [{ id: "36EF7D5B84F856C6", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "99D22928E8D42E91", type: "item", item: { id: "pneumaticcraft:universal_sensor", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 17.5d
 		}
 		{
-			dependencies: ["97578EF3AF8A8E1F"]
+			dependencies: ["4A5C2B821E03D0DC"]
 			description: ["&6Was ist das?", "Das Aerial Interface verbindet deine Maschinen mit deinem Inventar.", "", "&6So gehts", "Neben eine Kiste stellen.", "", "&6Wofuer ist das wichtig?", "Automatisch aufladen."]
-			id: "A5514ECD91BDCE08"
+			id: "A7C0D1F5383A123A"
 			title: "Luftschnittstelle"
-			rewards: [{ id: "C1DCE7F68CD5C302", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "B694569C5436AC16", type: "item", item: { id: "pneumaticcraft:aerial_interface", count: 1 }, count: 1L }]
+			rewards: [{ id: "B974645C42ADA938", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "AE92771AC028917D", type: "item", item: { id: "pneumaticcraft:aerial_interface", count: 1 }, count: 1L }]
 			x: 15.5d
 			y: 17.5d
 		}
 		{
-			dependencies: ["A5514ECD91BDCE08"]
+			dependencies: ["A7C0D1F5383A123A"]
 			description: ["&6Was ist das?", "Ein Trichter, der in jede Richtung zieht und schiebt.", "", "&6So gehts", "Mit Schluessel ausrichten.", "", "&6Wofuer ist das wichtig?", "Flexibler als normale Trichter."]
-			id: "6F09CC2EB94F3327"
+			id: "DBCEFCEB50404B23"
 			title: "Omnidirektionaler Trichter"
-			rewards: [{ id: "1409C79373B89401", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DAC27384FAF21E17", type: "item", item: { id: "pneumaticcraft:omnidirectional_hopper", count: 1 }, count: 1L }]
+			rewards: [{ id: "C1DCE7F68CD5C302", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B694569C5436AC16", type: "item", item: { id: "pneumaticcraft:omnidirectional_hopper", count: 1 }, count: 1L }]
 			x: 17.0d
 			y: 17.5d
 		}
 		{
-			dependencies: ["6F09CC2EB94F3327"]
+			dependencies: ["DBCEFCEB50404B23"]
 			description: ["&6Was ist das?", "Die verstaerkte Kiste behaelt ihren Inhalt beim Abbau und ist explosionsfest.", "", "&6So gehts", "Aufstellen.", "", "&6Wofuer ist das wichtig?", "Behaelt den Inhalt beim Abbauen."]
-			id: "F56F50EAB7E6326C"
+			id: "97578EF3AF8A8E1F"
 			title: "Verstaerkte Kiste"
-			rewards: [{ id: "B547276608B470AB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "40900EE999C38D49", type: "item", item: { id: "pneumaticcraft:reinforced_chest", count: 1 }, count: 1L }]
+			rewards: [{ id: "1409C79373B89401", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DAC27384FAF21E17", type: "item", item: { id: "pneumaticcraft:reinforced_chest", count: 1 }, count: 1L }]
 			x: 18.5d
 			y: 17.5d
 		}
 		{
-			dependencies: ["F56F50EAB7E6326C"]
+			dependencies: ["97578EF3AF8A8E1F"]
 			description: ["&6Was ist das?", "Mit dem Spawner-Extraktor nimmst du einen Spawner mit.", "", "&6So gehts", "Auf einen Spawner setzen.", "", "&6Wofuer ist das wichtig?", "Spawner fuer eigene Farmen."]
-			id: "F038D73E365BACA5"
+			id: "A5514ECD91BDCE08"
 			title: "Spawner-Extraktor"
-			rewards: [{ id: "F2D3F8ECA3F72918", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "AEE1517267F3A5BA", type: "item", item: { id: "pneumaticcraft:spawner_extractor", count: 1 }, count: 1L }]
+			rewards: [{ id: "B547276608B470AB", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "40900EE999C38D49", type: "item", item: { id: "pneumaticcraft:spawner_extractor", count: 1 }, count: 1L }]
 			x: 20.0d
 			y: 17.5d
 		}
 		{
-			dependencies: ["F038D73E365BACA5"]
+			dependencies: ["A5514ECD91BDCE08"]
 			description: ["&6Was ist das?", "Das Sentry Turret verteidigt deine Basis mit Munition.", "", "&6So gehts", "Munition einlegen.", "", "&6Wofuer ist das wichtig?", "Sichert deine Basis."]
-			id: "E3D7812606E4DBB9"
+			id: "6F09CC2EB94F3327"
 			title: "Waechtergeschuetz"
-			rewards: [{ id: "2017BE1EAA96A4D7", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
-			tasks: [{ id: "4D86A78D4F9A7AFB", type: "item", item: { id: "pneumaticcraft:sentry_turret", count: 1 }, count: 1L }]
+			rewards: [{ id: "6F83BB89C5D0AB2E", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
+			tasks: [{ id: "A235C74739FC40AC", type: "item", item: { id: "pneumaticcraft:sentry_turret", count: 1 }, count: 1L }]
 			x: 21.5d
 			y: 17.5d
 		}
 		{
-			dependencies: ["35BD5341300C9F5F"]
+			dependencies: ["3ED2EEBB1CFA992F"]
 			description: ["&6Was ist das?", "Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwaerts-Taste gibt Schub.", "", "&6So gehts", "Rumpf, Motor und Fluegel bauen.", "", "&6Wofuer ist das wichtig?", "Schnell reisen und Fracht transportieren."]
-			id: "28030AA827BEA30E"
+			id: "F56F50EAB7E6326C"
 			title: "Flugzeuge"
-			rewards: [{ id: "278E32062C9FAF17", type: "item", item: { id: "minecraft:coal", count: 16 } }]
-			tasks: [{ id: "8F31CE5398017763", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
+			rewards: [{ id: "0B0F9483A19C8003", type: "item", item: { id: "minecraft:coal", count: 16 } }]
+			tasks: [{ id: "AA0313CA7FA2A453", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 19.5d
 		}
 		{
-			dependencies: ["28030AA827BEA30E"]
+			dependencies: ["F56F50EAB7E6326C"]
 			description: ["&6Was ist das?", "Immersive Aircraft: Jedes Flugzeug braucht Rumpf, Motor und Propeller.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Basis fuer alle Fluggeraete."]
-			id: "D97F4E4DED779E17"
+			id: "F038D73E365BACA5"
 			title: "Rumpf und Motor"
-			rewards: [{ id: "9D64D6B082CAE393", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
-			tasks: [{ id: "135E7CE55A47EED7", type: "item", item: { id: "immersive_aircraft:engine", count: 1 }, count: 1L }]
+			rewards: [{ id: "E26E9A4D96AB7793", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
+			tasks: [{ id: "ACF608E0B739B996", type: "item", item: { id: "immersive_aircraft:engine", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 19.5d
 		}
 		{
-			dependencies: ["D97F4E4DED779E17"]
+			dependencies: ["F038D73E365BACA5"]
 			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Schnell reisen."]
-			id: "BC82C754955063BD"
+			id: "E3D7812606E4DBB9"
 			title: "Doppeldecker"
-			rewards: [{ id: "921A156A8465F461", type: "item", item: { id: "minecraft:coal", count: 16 } }]
-			tasks: [{ id: "D0874BF1419E5DEA", type: "item", item: { id: "immersive_aircraft:biplane", count: 1 }, count: 1L }]
+			rewards: [{ id: "9D64D6B082CAE393", type: "item", item: { id: "minecraft:coal", count: 16 } }]
+			tasks: [{ id: "135E7CE55A47EED7", type: "item", item: { id: "immersive_aircraft:biplane", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 19.5d
 		}
 		{
-			dependencies: ["BC82C754955063BD"]
+			dependencies: ["E3D7812606E4DBB9"]
 			description: ["&6Was ist das?", "Der Gyrodyne ist ein einfacher Hubschrauber mit Muskelkraft.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Langsam, aber einfach."]
-			id: "6F743C43424223F3"
+			id: "28030AA827BEA30E"
 			title: "Gyrocopter"
-			rewards: [{ id: "321B1F27ADF0591F", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "109E652ED40BDCAA", type: "item", item: { id: "immersive_aircraft:gyrodyne", count: 1 }, count: 1L }]
+			rewards: [{ id: "921A156A8465F461", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "D0874BF1419E5DEA", type: "item", item: { id: "immersive_aircraft:gyrodyne", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 19.5d
 		}
 		{
-			dependencies: ["6F743C43424223F3"]
+			dependencies: ["28030AA827BEA30E"]
 			description: ["&6Was ist das?", "Der Quadrocopter ist klein und praktisch zum Bauen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Stabiler Flug."]
-			id: "633EAD26426F937A"
+			id: "D97F4E4DED779E17"
 			title: "Quadrocopter"
-			rewards: [{ id: "9B1D3BF2E1386293", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "A7D5304303CC5ADC", type: "item", item: { id: "immersive_aircraft:quadrocopter", count: 1 }, count: 1L }]
+			rewards: [{ id: "321B1F27ADF0591F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "109E652ED40BDCAA", type: "item", item: { id: "immersive_aircraft:quadrocopter", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 19.5d
 		}
 		{
-			dependencies: ["633EAD26426F937A"]
+			dependencies: ["D97F4E4DED779E17"]
 			description: ["&6Was ist das?", "Das Fracht-Luftschiff traegt viele Kisten.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viele Items transportieren."]
-			id: "2A097C3F75E92226"
+			id: "BC82C754955063BD"
 			title: "Fracht-Luftschiff"
-			rewards: [{ id: "036983CF7B61CBDD", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "3006F573DDBE252F", type: "item", item: { id: "immersive_aircraft:cargo_airship", count: 1 }, count: 1L }]
+			rewards: [{ id: "9B1D3BF2E1386293", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "A7D5304303CC5ADC", type: "item", item: { id: "immersive_aircraft:cargo_airship", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 19.5d
 		}
 		{
-			dependencies: ["2A097C3F75E92226"]
+			dependencies: ["BC82C754955063BD"]
 			description: ["&6Was ist das?", "Das Warship ist ein fliegendes Schlachtschiff mit Kanonen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Gemeinsam fliegen und kaempfen."]
-			id: "61920C28D0F155A0"
+			id: "6F743C43424223F3"
 			title: "Kriegsschiff"
-			rewards: [{ id: "F383CFB030E3E572", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "A89496C44D05F1F9", type: "item", item: { id: "immersive_aircraft:warship", count: 1 }, count: 1L }]
+			rewards: [{ id: "036983CF7B61CBDD", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "3006F573DDBE252F", type: "item", item: { id: "immersive_aircraft:warship", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 19.5d
 		}
 		{
-			dependencies: ["D97F4E4DED779E17"]
+			dependencies: ["F038D73E365BACA5"]
 			description: ["&6Was ist das?", "Immersive Aircraft: Der Propeller treibt Flugzeuge an.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Zutat fuer viele Fluggeraete."]
 			icon: { id: "immersive_aircraft:propeller" }
-			id: "BA0725C9F475F941"
+			id: "633EAD26426F937A"
 			title: "Propeller"
-			rewards: [{ id: "31AD6521D4997771", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6D9675EEF9ACCF45", type: "item", item: { id: "immersive_aircraft:propeller", count: 1 }, count: 1L }]
+			rewards: [{ id: "756955E23E0CAD64", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7B6C7742E1C9650D", type: "item", item: { id: "immersive_aircraft:propeller", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 21.5d
 		}
 		{
-			dependencies: ["BA0725C9F475F941"]
+			dependencies: ["633EAD26426F937A"]
 			description: ["&6Was ist das?", "Der Kessel ist der Motor fuer Dampfflugzeuge.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Zutat fuer groessere Fluggeraete."]
 			icon: { id: "immersive_aircraft:boiler" }
-			id: "0F87A4A588C6C291"
+			id: "2A097C3F75E92226"
 			title: "Kessel (Flugzeug)"
-			rewards: [{ id: "9A9828E0A893C578", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B738B96267ABB253", type: "item", item: { id: "immersive_aircraft:boiler", count: 1 }, count: 1L }]
+			rewards: [{ id: "31AD6521D4997771", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6D9675EEF9ACCF45", type: "item", item: { id: "immersive_aircraft:boiler", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 21.5d
 		}
 		{
-			dependencies: ["EA28EAEEB4C3AB3E"]
+			dependencies: ["372BFA74489C956D"]
 			description: ["&6Was ist das?", "Das Druckluft-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Druckluft, Oel, Elektronik, Bauteile, Upgrades, Kompressoren, Drohnen, Ausruestung, Basis, Flugzeuge, Flugzeugteile.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
 			icon: { id: "pneumaticcraft:air_compressor" }
-			id: "35BD5341300C9F5F"
+			id: "3ED2EEBB1CFA992F"
 			title: "Beginn: Druckluft-Zeitalter"
-			rewards: [{ id: "86BA63BEA1C58C27", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E1EAD2BD124C523A", type: "checkmark" }]
+			rewards: [{ id: "C5CE286B164AF3D1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "68D53AC2D68F9459", type: "checkmark" }]
 			x: 0.0d
 			y: 10.8d
 		}
 		{
-			dependencies: ["31292358F7BF209E", "05B51B13768CB084", "4495B17427F466A9"]
+			dependencies: ["81BC8428EBB82151", "B06A28C35AF34A75", "18C5514DB93E15E4"]
 			description: ["&6Was ist das?", "Hier beginnt das End-Zeitalter. Es schaltet frei:", "Das Ende: Das Endportal laesst dich jetzt durch.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:end_stone" }
-			id: "AED72A405F3B5C83"
+			id: "61920C28D0F155A0"
 			title: "Zeitalter: End-Zeitalter"
-			rewards: [{ id: "B5A1BCF5B82A1E0B", type: "historystages:history_stage", stage: "endzeit", remove: false, individual: false }, { id: "08AE23588778BA70", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "CE06C2560AF995DC", type: "checkmark" }]
+			rewards: [{ id: "0F87A4A588C6C291", type: "historystages:history_stage", stage: "endzeit", remove: false, individual: false }, { id: "AED72A405F3B5C83", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "BA0725C9F475F941", type: "checkmark" }]
 			x: 33.0d
 			y: 10.8d
 		}

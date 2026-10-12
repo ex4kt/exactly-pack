@@ -3,570 +3,625 @@
 	default_quest_shape: ""
 	filename: "arsenal_ruestung"
 	icon: { id: "minecraft:diamond_chestplate" }
-	id: "14470ACDF2CC62C5"
+	id: "AA51CF37AEF0D15C"
 	order_index: 17
 	quest_links: [ ]
 	title: "&9Ruestungen (Uebersicht)"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "minecraft:leather_chestplate" }
-			id: "21B1E3B27D94A512"
-			title: "Ruestung Leder"
-			rewards: []
-			tasks: [{ id: "61222B610F5D0E49", type: "checkmark" }]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["9B3DDD0EE119DD1A"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:chainmail_chestplate" }
-			id: "E307E3D045740589"
+			id: "A9FBD636393BCB3E"
 			title: "Ruestung Kette"
 			rewards: []
-			tasks: [{ id: "4ED945500A1A5C96", type: "checkmark" }]
+			tasks: [{ id: "17DF347F979C11EB", type: "checkmark" }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["A9FBD636393BCB3E"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:iron_chestplate" }
-			id: "078B02F4BC6E00EE"
+			id: "86FECA49486DD99B"
 			title: "Ruestung Eisen"
 			rewards: []
-			tasks: [{ id: "3D60EC805B78B91E", type: "checkmark" }]
-			x: 4.0d
+			tasks: [{ id: "BCD88162D9EB634B", type: "checkmark" }]
+			x: 3.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["86FECA49486DD99B"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:golden_chestplate" }
-			id: "73F992CF3BC9C612"
+			id: "21B1E3B27D94A512"
 			title: "Ruestung Gold"
 			rewards: []
-			tasks: [{ id: "45776B60B2189CB4", type: "checkmark" }]
-			x: 6.0d
+			tasks: [{ id: "61222B610F5D0E49", type: "checkmark" }]
+			x: 5.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["21B1E3B27D94A512"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:diamond_chestplate" }
-			id: "4042D52C4CB1CEF4"
+			id: "E307E3D045740589"
 			title: "Ruestung Diamant"
 			rewards: []
-			tasks: [{ id: "6FA284A85C39DD47", type: "checkmark" }]
+			tasks: [{ id: "4ED945500A1A5C96", type: "checkmark" }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E307E3D045740589"]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "minecraft:netherite_chestplate" }
+			id: "078B02F4BC6E00EE"
+			title: "Ruestung Netherit"
+			rewards: []
+			tasks: [{ id: "3D60EC805B78B91E", type: "checkmark" }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "minecraft:netherite_chestplate" }
-			id: "68DD6F0DB8855584"
-			title: "Ruestung Netherit"
-			rewards: []
-			tasks: [{ id: "83504208754CA069", type: "checkmark" }]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["86FECA49486DD99B"]
 			description: ["&6Was ist das?", "Nur der Helm. Unter Wasser atmen.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:turtle_helmet" }
-			id: "A4A0BC11034D6A34"
+			id: "73F992CF3BC9C612"
 			title: "Schildkroetenpanzer"
 			rewards: []
-			tasks: [{ id: "032CEF60BF197D2E", type: "checkmark" }]
-			x: 12.0d
-			y: 0.0d
+			tasks: [{ id: "45776B60B2189CB4", type: "checkmark" }]
+			x: 3.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["E307E3D045740589"]
 			description: ["&6Was ist das?", "Fluegel zum Gleiten. Mit Raketen fliegen.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:elytra" }
-			id: "B82394B50675DD6E"
+			id: "4042D52C4CB1CEF4"
 			title: "Elytra"
 			rewards: []
-			tasks: [{ id: "DAF67BF4E2B2FDD5", type: "checkmark" }]
-			x: 14.0d
-			y: 0.0d
+			tasks: [{ id: "6FA284A85C39DD47", type: "checkmark" }]
+			x: 6.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["078B02F4BC6E00EE"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_iron_chestplate" }
+			id: "68DD6F0DB8855584"
+			title: "Netherite Iron (Ruestung)"
+			rewards: []
+			tasks: [{ id: "6A8AA889C4550709", type: "checkmark" }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68DD6F0DB8855584"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_gold_chestplate" }
+			id: "A4A0BC11034D6A34"
+			title: "Netherite Gold (Ruestung)"
+			rewards: []
+			tasks: [{ id: "DAF67BF4E2B2FDD5", type: "checkmark" }]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A4A0BC11034D6A34"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_emerald_chestplate" }
+			id: "B82394B50675DD6E"
+			title: "Netherite Emerald (Ruestung)"
+			rewards: []
+			tasks: [{ id: "032CEF60BF197D2E", type: "checkmark" }]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["B82394B50675DD6E"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "advancednetherite:netherite_diamond_chestplate" }
 			id: "37774E8A6BC2B270"
 			title: "Netherite Diamond (Ruestung)"
 			rewards: []
-			tasks: [{ id: "6A8AA889C4550709", type: "checkmark" }]
-			x: 0.0d
-			y: 2.0d
+			tasks: [{ id: "83504208754CA069", type: "checkmark" }]
+			x: 12.5d
+			y: 6.0d
 		}
 		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "advancednetherite:netherite_emerald_chestplate" }
-			id: "439D34A684054C33"
-			title: "Netherite Emerald (Ruestung)"
-			rewards: []
-			tasks: [{ id: "25F01F243EEC340D", type: "checkmark" }]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "advancednetherite:netherite_gold_chestplate" }
-			id: "D59F3B0DF8CE789D"
-			title: "Netherite Gold (Ruestung)"
-			rewards: []
-			tasks: [{ id: "1C2C473425A26936", type: "checkmark" }]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "advancednetherite:netherite_iron_chestplate" }
-			id: "F60A38BFC0EFE35A"
-			title: "Netherite Iron (Ruestung)"
-			rewards: []
-			tasks: [{ id: "1109DD46837BAB58", type: "checkmark" }]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "aether:gravitite_chestplate" }
-			id: "795598D83CDA7CE0"
-			title: "Gravitite (Ruestung)"
-			rewards: []
-			tasks: [{ id: "3743434A2AEB5FE9", type: "checkmark" }]
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "aether:neptune_chestplate" }
-			id: "A25DC9F49922C0EC"
-			title: "Neptune (Ruestung)"
-			rewards: []
-			tasks: [{ id: "A7A246F48C4008A6", type: "checkmark" }]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "aether:obsidian_chestplate" }
-			id: "226E24479767B070"
-			title: "Obsidian (Ruestung)"
-			rewards: []
-			tasks: [{ id: "F2EE5F1DC572F808", type: "checkmark" }]
-			x: 12.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "aether:phoenix_chestplate" }
-			id: "1E4BD7DD91BF5AC3"
-			title: "Phoenix (Ruestung)"
-			rewards: []
-			tasks: [{ id: "5D12033D7FB8E4AA", type: "checkmark" }]
-			x: 14.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "aether:sentry_boots" }
-			id: "D18450D6EE352788"
-			title: "Sentry (Ruestung)"
-			rewards: []
-			tasks: [{ id: "07B31F3B5C5EEC5F", type: "checkmark" }]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "aether:valkyrie_chestplate" }
-			id: "110EB2EA5840841F"
-			title: "Valkyrie (Ruestung)"
-			rewards: []
-			tasks: [{ id: "BCB2675BE16649F8", type: "checkmark" }]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
+			dependencies: ["E307E3D045740589"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:zanite_chestplate" }
-			id: "B3A983A11EDF48A1"
+			id: "439D34A684054C33"
 			title: "Zanite (Ruestung)"
 			rewards: []
-			tasks: [{ id: "BD27DD65A6D4E5EB", type: "checkmark" }]
-			x: 4.0d
-			y: 4.0d
+			tasks: [{ id: "5D12033D7FB8E4AA", type: "checkmark" }]
+			x: 6.5d
+			y: 8.0d
 		}
 		{
+			dependencies: ["439D34A684054C33"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "aether:gravitite_chestplate" }
+			id: "D59F3B0DF8CE789D"
+			title: "Gravitite (Ruestung)"
+			rewards: []
+			tasks: [{ id: "25F01F243EEC340D", type: "checkmark" }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["D59F3B0DF8CE789D"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "aether:valkyrie_chestplate" }
+			id: "F60A38BFC0EFE35A"
+			title: "Valkyrie (Ruestung)"
+			rewards: []
+			tasks: [{ id: "F2EE5F1DC572F808", type: "checkmark" }]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["439D34A684054C33"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "aether:neptune_chestplate" }
+			id: "795598D83CDA7CE0"
+			title: "Neptune (Ruestung)"
+			rewards: []
+			tasks: [{ id: "1C2C473425A26936", type: "checkmark" }]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["795598D83CDA7CE0"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "aether:obsidian_chestplate" }
+			id: "A25DC9F49922C0EC"
+			title: "Obsidian (Ruestung)"
+			rewards: []
+			tasks: [{ id: "1109DD46837BAB58", type: "checkmark" }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["795598D83CDA7CE0"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "aether:phoenix_chestplate" }
+			id: "226E24479767B070"
+			title: "Phoenix (Ruestung)"
+			rewards: []
+			tasks: [{ id: "3743434A2AEB5FE9", type: "checkmark" }]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["795598D83CDA7CE0"]
+			description: ["&6Was ist das?", "Teile: Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "aether:sentry_boots" }
+			id: "1E4BD7DD91BF5AC3"
+			title: "Sentry (Ruestung)"
+			rewards: []
+			tasks: [{ id: "A7A246F48C4008A6", type: "checkmark" }]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["9B3DDD0EE119DD1A"]
 			description: ["&6Was ist das?", "Teile: Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Artifacts.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "artifacts:rooted_boots" }
-			id: "82D39E7A2DFCBCEA"
+			id: "D18450D6EE352788"
 			title: "Rooted (Ruestung)"
 			rewards: []
-			tasks: [{ id: "ACD287392F408D6C", type: "checkmark" }]
-			x: 6.0d
-			y: 4.0d
+			tasks: [{ id: "07B31F3B5C5EEC5F", type: "checkmark" }]
+			x: 2.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["078B02F4BC6E00EE"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "cataclysm:bone_reptile_chestplate" }
-			id: "C49FDF0E6FCD5F6C"
+			id: "110EB2EA5840841F"
 			title: "Bone Reptile (Ruestung)"
 			rewards: []
-			tasks: [{ id: "DC31AD2D6580A1D9", type: "checkmark" }]
+			tasks: [{ id: "BCB2675BE16649F8", type: "checkmark" }]
 			x: 8.0d
-			y: 4.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["110EB2EA5840841F"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "cataclysm:cursium_chestplate" }
-			id: "D3856D5CBF6B3D54"
+			id: "B3A983A11EDF48A1"
 			title: "Cursium (Ruestung)"
 			rewards: []
-			tasks: [{ id: "3BB8CCF3A85D96CC", type: "checkmark" }]
-			x: 10.0d
-			y: 4.0d
+			tasks: [{ id: "BD27DD65A6D4E5EB", type: "checkmark" }]
+			x: 9.5d
+			y: 14.0d
 		}
 		{
+			dependencies: ["110EB2EA5840841F"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "cataclysm:ignitium_chestplate" }
-			id: "F32FEB392EDA1A53"
+			id: "82D39E7A2DFCBCEA"
 			title: "Ignitium (Ruestung)"
 			rewards: []
-			tasks: [{ id: "F0611D0C9FC2E2F0", type: "checkmark" }]
-			x: 12.0d
-			y: 4.0d
+			tasks: [{ id: "ACD287392F408D6C", type: "checkmark" }]
+			x: 11.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["110EB2EA5840841F"]
 			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "cataclysm:ignitium_elytra_chestplate" }
-			id: "73F8483FED3E84B8"
+			id: "C49FDF0E6FCD5F6C"
 			title: "Ignitium Elytra (Ruestung)"
 			rewards: []
-			tasks: [{ id: "2ADD1E00CF61853F", type: "checkmark" }]
-			x: 14.0d
-			y: 4.0d
+			tasks: [{ id: "DC31AD2D6580A1D9", type: "checkmark" }]
+			x: 12.5d
+			y: 14.0d
 		}
 		{
+			dependencies: ["86FECA49486DD99B"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "create:cardboard_chestplate" }
-			id: "98D2D7D2FE270BB1"
+			id: "D3856D5CBF6B3D54"
 			title: "Cardboard (Ruestung)"
 			rewards: []
-			tasks: [{ id: "8B19BB75BFEC0C58", type: "checkmark" }]
-			x: 0.0d
-			y: 6.0d
+			tasks: [{ id: "3BB8CCF3A85D96CC", type: "checkmark" }]
+			x: 3.5d
+			y: 16.0d
 		}
 		{
+			dependencies: ["D3856D5CBF6B3D54"]
 			description: ["&6Was ist das?", "Teile: Helm, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "create:copper_diving_helmet" }
-			id: "9330ED07F201751D"
+			id: "F32FEB392EDA1A53"
 			title: "Copper Diving (Ruestung)"
 			rewards: []
-			tasks: [{ id: "94AE9FA0F5426F43", type: "checkmark" }]
-			x: 2.0d
-			y: 6.0d
+			tasks: [{ id: "F0611D0C9FC2E2F0", type: "checkmark" }]
+			x: 5.0d
+			y: 16.0d
 		}
 		{
+			dependencies: ["D3856D5CBF6B3D54"]
 			description: ["&6Was ist das?", "Teile: Helm, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "create:netherite_diving_helmet" }
-			id: "3409D3505C866BE3"
+			id: "73F8483FED3E84B8"
 			title: "Netherite Diving (Ruestung)"
 			rewards: []
-			tasks: [{ id: "BCA305563722F4FF", type: "checkmark" }]
-			x: 4.0d
-			y: 6.0d
+			tasks: [{ id: "2ADD1E00CF61853F", type: "checkmark" }]
+			x: 6.5d
+			y: 16.0d
 		}
 		{
+			dependencies: ["86FECA49486DD99B"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:bone_chestplate" }
-			id: "12441AAB862A6BAA"
+			id: "98D2D7D2FE270BB1"
 			title: "Bone (Ruestung)"
 			rewards: []
-			tasks: [{ id: "AD74A559019565EC", type: "checkmark" }]
-			x: 6.0d
-			y: 6.0d
+			tasks: [{ id: "8B19BB75BFEC0C58", type: "checkmark" }]
+			x: 3.5d
+			y: 18.0d
 		}
 		{
+			dependencies: ["98D2D7D2FE270BB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:divine_chestplate" }
-			id: "D44CA235D3A25904"
+			id: "9330ED07F201751D"
 			title: "Divine (Ruestung)"
 			rewards: []
-			tasks: [{ id: "BA042274E3B2D80B", type: "checkmark" }]
-			x: 8.0d
-			y: 6.0d
+			tasks: [{ id: "94AE9FA0F5426F43", type: "checkmark" }]
+			x: 5.0d
+			y: 18.0d
 		}
 		{
+			dependencies: ["98D2D7D2FE270BB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:heavy_chestplate" }
-			id: "4C050CC8A5171B99"
+			id: "3409D3505C866BE3"
 			title: "Heavy (Ruestung)"
 			rewards: []
-			tasks: [{ id: "55797F96612FB00D", type: "checkmark" }]
-			x: 10.0d
-			y: 6.0d
+			tasks: [{ id: "BCA305563722F4FF", type: "checkmark" }]
+			x: 6.5d
+			y: 18.0d
 		}
 		{
+			dependencies: ["98D2D7D2FE270BB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:prismarine_chestplate" }
-			id: "2E91729FFF7D076E"
+			id: "12441AAB862A6BAA"
 			title: "Prismarine (Ruestung)"
 			rewards: []
-			tasks: [{ id: "86753BC86356A3B8", type: "checkmark" }]
-			x: 12.0d
-			y: 6.0d
+			tasks: [{ id: "AD74A559019565EC", type: "checkmark" }]
+			x: 8.0d
+			y: 18.0d
 		}
 		{
+			dependencies: ["98D2D7D2FE270BB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:robe_chestplate" }
-			id: "5D69B5907B251C42"
+			id: "D44CA235D3A25904"
 			title: "Robe (Ruestung)"
+			rewards: []
+			tasks: [{ id: "BA042274E3B2D80B", type: "checkmark" }]
+			x: 9.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["98D2D7D2FE270BB1"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "immersive_armors:slime_chestplate" }
+			id: "4C050CC8A5171B99"
+			title: "Slime (Ruestung)"
+			rewards: []
+			tasks: [{ id: "55797F96612FB00D", type: "checkmark" }]
+			x: 11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["98D2D7D2FE270BB1"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "immersive_armors:steampunk_chestplate" }
+			id: "2E91729FFF7D076E"
+			title: "Steampunk (Ruestung)"
+			rewards: []
+			tasks: [{ id: "86753BC86356A3B8", type: "checkmark" }]
+			x: 12.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["98D2D7D2FE270BB1"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "immersive_armors:warrior_chestplate" }
+			id: "5D69B5907B251C42"
+			title: "Warrior (Ruestung)"
 			rewards: []
 			tasks: [{ id: "0EF1D54B1AD1F89E", type: "checkmark" }]
 			x: 14.0d
-			y: 6.0d
+			y: 18.0d
 		}
 		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "immersive_armors:slime_chestplate" }
-			id: "A0060FD130614F82"
-			title: "Slime (Ruestung)"
-			rewards: []
-			tasks: [{ id: "3D971B7A8F24A2C2", type: "checkmark" }]
-			x: 0.0d
-			y: 8.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "immersive_armors:steampunk_chestplate" }
-			id: "E31340EC48ABF3E2"
-			title: "Steampunk (Ruestung)"
-			rewards: []
-			tasks: [{ id: "59FC0E021C39EB8E", type: "checkmark" }]
-			x: 2.0d
-			y: 8.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "immersive_armors:warrior_chestplate" }
-			id: "A5307FD6045BF8B8"
-			title: "Warrior (Ruestung)"
-			rewards: []
-			tasks: [{ id: "A73CA375659E200F", type: "checkmark" }]
-			x: 4.0d
-			y: 8.0d
-		}
-		{
+			dependencies: ["98D2D7D2FE270BB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:wither_chestplate" }
-			id: "207DA0D92328511F"
+			id: "A0060FD130614F82"
 			title: "Wither (Ruestung)"
 			rewards: []
-			tasks: [{ id: "EAC68CD4D6647DBC", type: "checkmark" }]
-			x: 6.0d
-			y: 8.0d
+			tasks: [{ id: "3D971B7A8F24A2C2", type: "checkmark" }]
+			x: 15.5d
+			y: 18.0d
 		}
 		{
+			dependencies: ["98D2D7D2FE270BB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:wooden_chestplate" }
-			id: "236FC8AE5B30A3DC"
+			id: "E31340EC48ABF3E2"
 			title: "Wooden (Ruestung)"
 			rewards: []
-			tasks: [{ id: "7492EF812A6A51F0", type: "checkmark" }]
-			x: 8.0d
-			y: 8.0d
+			tasks: [{ id: "59FC0E021C39EB8E", type: "checkmark" }]
+			x: 3.5d
+			y: 19.5d
 		}
 		{
+			dependencies: ["E307E3D045740589"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:archevoker_chestplate" }
-			id: "C18FC08A89D4D51F"
+			id: "A5307FD6045BF8B8"
 			title: "Archevoker (Ruestung)"
 			rewards: []
-			tasks: [{ id: "B4B3F15D9FE3D2D9", type: "checkmark" }]
-			x: 10.0d
-			y: 8.0d
+			tasks: [{ id: "A73CA375659E200F", type: "checkmark" }]
+			x: 6.5d
+			y: 21.5d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:cryomancer_chestplate" }
-			id: "258B1CBA588ECDFF"
+			id: "207DA0D92328511F"
 			title: "Cryomancer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "AC7E6E0E1A4E63EB", type: "checkmark" }]
-			x: 12.0d
-			y: 8.0d
+			tasks: [{ id: "EAC68CD4D6647DBC", type: "checkmark" }]
+			x: 8.0d
+			y: 21.5d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:cultist_chestplate" }
-			id: "56B38221BC72A610"
+			id: "236FC8AE5B30A3DC"
 			title: "Cultist (Ruestung)"
+			rewards: []
+			tasks: [{ id: "7492EF812A6A51F0", type: "checkmark" }]
+			x: 9.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["A5307FD6045BF8B8"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:electromancer_chestplate" }
+			id: "C18FC08A89D4D51F"
+			title: "Electromancer (Ruestung)"
+			rewards: []
+			tasks: [{ id: "B4B3F15D9FE3D2D9", type: "checkmark" }]
+			x: 11.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["A5307FD6045BF8B8"]
+			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:infernal_sorcerer_chestplate" }
+			id: "258B1CBA588ECDFF"
+			title: "Infernal Sorcerer (Ruestung)"
+			rewards: []
+			tasks: [{ id: "AC7E6E0E1A4E63EB", type: "checkmark" }]
+			x: 12.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["A5307FD6045BF8B8"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:netherite_mage_chestplate" }
+			id: "56B38221BC72A610"
+			title: "Netherite Battlemage (Ruestung)"
 			rewards: []
 			tasks: [{ id: "759328D5FB8F053F", type: "checkmark" }]
 			x: 14.0d
-			y: 8.0d
+			y: 21.5d
 		}
 		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "irons_spellbooks:electromancer_chestplate" }
-			id: "A4D4A2B05EA489DA"
-			title: "Electromancer (Ruestung)"
-			rewards: []
-			tasks: [{ id: "CC09A19D3D14D676", type: "checkmark" }]
-			x: 0.0d
-			y: 10.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "irons_spellbooks:infernal_sorcerer_chestplate" }
-			id: "AEE79E602604480E"
-			title: "Infernal Sorcerer (Ruestung)"
-			rewards: []
-			tasks: [{ id: "03B89961E1EA51DC", type: "checkmark" }]
-			x: 2.0d
-			y: 10.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "irons_spellbooks:netherite_mage_chestplate" }
-			id: "77480A43AADA8E91"
-			title: "Netherite Battlemage (Ruestung)"
-			rewards: []
-			tasks: [{ id: "64193505BCF46978", type: "checkmark" }]
-			x: 4.0d
-			y: 10.0d
-		}
-		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:paladin_chestplate" }
-			id: "FC8B896CDC1316CD"
+			id: "A4D4A2B05EA489DA"
 			title: "Lightbringer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "42FD9B636EA92E72", type: "checkmark" }]
-			x: 6.0d
-			y: 10.0d
+			tasks: [{ id: "CC09A19D3D14D676", type: "checkmark" }]
+			x: 15.5d
+			y: 21.5d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:plagued_chestplate" }
-			id: "EBC054AF9ACF0C84"
+			id: "AEE79E602604480E"
 			title: "Plagued (Ruestung)"
+			rewards: []
+			tasks: [{ id: "03B89961E1EA51DC", type: "checkmark" }]
+			x: 17.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["A5307FD6045BF8B8"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:priest_chestplate" }
+			id: "77480A43AADA8E91"
+			title: "Priest (Ruestung)"
+			rewards: []
+			tasks: [{ id: "64193505BCF46978", type: "checkmark" }]
+			x: 18.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["A5307FD6045BF8B8"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:pumpkin_chestplate" }
+			id: "FC8B896CDC1316CD"
+			title: "Scarecrow (Ruestung)"
+			rewards: []
+			tasks: [{ id: "42FD9B636EA92E72", type: "checkmark" }]
+			x: 6.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["A5307FD6045BF8B8"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:pyromancer_chestplate" }
+			id: "EBC054AF9ACF0C84"
+			title: "Pyromancer (Ruestung)"
 			rewards: []
 			tasks: [{ id: "F5D84E3A26CC92A5", type: "checkmark" }]
 			x: 8.0d
-			y: 10.0d
+			y: 23.0d
 		}
 		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "irons_spellbooks:priest_chestplate" }
-			id: "DF58046D07A38024"
-			title: "Priest (Ruestung)"
-			rewards: []
-			tasks: [{ id: "A5631F2BEE34B72C", type: "checkmark" }]
-			x: 10.0d
-			y: 10.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "irons_spellbooks:pumpkin_chestplate" }
-			id: "E0BD18BA191ED7B1"
-			title: "Scarecrow (Ruestung)"
-			rewards: []
-			tasks: [{ id: "4D41BE45E4B3E993", type: "checkmark" }]
-			x: 12.0d
-			y: 10.0d
-		}
-		{
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
-			icon: { id: "irons_spellbooks:pyromancer_chestplate" }
-			id: "4D6213C95E0DA769"
-			title: "Pyromancer (Ruestung)"
-			rewards: []
-			tasks: [{ id: "44EC840022A5BFEA", type: "checkmark" }]
-			x: 14.0d
-			y: 10.0d
-		}
-		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:shadowwalker_chestplate" }
-			id: "88000B243A672709"
+			id: "DF58046D07A38024"
 			title: "Shadow-Walker (Ruestung)"
 			rewards: []
-			tasks: [{ id: "308CD89B114C4FD4", type: "checkmark" }]
-			x: 0.0d
-			y: 12.0d
+			tasks: [{ id: "A5631F2BEE34B72C", type: "checkmark" }]
+			x: 9.5d
+			y: 23.0d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:speed_boots" }
-			id: "C9FBAF3A32738E0A"
+			id: "E0BD18BA191ED7B1"
 			title: "Boots of Speed (Ruestung)"
 			rewards: []
-			tasks: [{ id: "4FF69540C4E93E9F", type: "checkmark" }]
-			x: 2.0d
-			y: 12.0d
+			tasks: [{ id: "4D41BE45E4B3E993", type: "checkmark" }]
+			x: 11.0d
+			y: 23.0d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:tarnished_helmet" }
-			id: "28646A08B1E6D57D"
+			id: "4D6213C95E0DA769"
 			title: "Tarnished Crown (Ruestung)"
 			rewards: []
-			tasks: [{ id: "60FD1D6BB2B603B3", type: "checkmark" }]
-			x: 4.0d
-			y: 12.0d
+			tasks: [{ id: "44EC840022A5BFEA", type: "checkmark" }]
+			x: 12.5d
+			y: 23.0d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:wandering_magician_chestplate" }
-			id: "E7107BE856DE3FC5"
+			id: "88000B243A672709"
 			title: "Wandering Magician (Ruestung)"
 			rewards: []
-			tasks: [{ id: "560CF81DB8F89082", type: "checkmark" }]
-			x: 6.0d
-			y: 12.0d
+			tasks: [{ id: "308CD89B114C4FD4", type: "checkmark" }]
+			x: 14.0d
+			y: 23.0d
 		}
 		{
+			dependencies: ["A5307FD6045BF8B8"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:wizard_chestplate" }
-			id: "AB491B2186090CCD"
+			id: "C9FBAF3A32738E0A"
 			title: "Wizard (Ruestung)"
 			rewards: []
-			tasks: [{ id: "7464FF3784B6ADF8", type: "checkmark" }]
-			x: 8.0d
-			y: 12.0d
+			tasks: [{ id: "4FF69540C4E93E9F", type: "checkmark" }]
+			x: 15.5d
+			y: 23.0d
 		}
 		{
+			dependencies: ["E307E3D045740589"]
 			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "mowziesmobs:wrought_helmet" }
-			id: "AA51CF37AEF0D15C"
+			id: "28646A08B1E6D57D"
 			title: "Wrought Helm (Ruestung)"
 			rewards: []
-			tasks: [{ id: "9B3DDD0EE119DD1A", type: "checkmark" }]
-			x: 10.0d
-			y: 12.0d
+			tasks: [{ id: "60FD1D6BB2B603B3", type: "checkmark" }]
+			x: 6.5d
+			y: 25.0d
 		}
 		{
+			dependencies: ["86FECA49486DD99B"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "pneumaticcraft:compressed_iron_chestplate" }
-			id: "49B11DB24F80A578"
+			id: "E7107BE856DE3FC5"
 			title: "Compressed Iron (Ruestung)"
 			rewards: []
-			tasks: [{ id: "A9FBD636393BCB3E", type: "checkmark" }]
-			x: 12.0d
-			y: 12.0d
+			tasks: [{ id: "560CF81DB8F89082", type: "checkmark" }]
+			x: 3.5d
+			y: 27.0d
 		}
 		{
+			dependencies: ["E7107BE856DE3FC5"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "pneumaticcraft:pneumatic_chestplate" }
-			id: "9F38AB8B8DF3B236"
+			id: "AB491B2186090CCD"
 			title: "Pneumatic (Ruestung)"
 			rewards: []
-			tasks: [{ id: "86FECA49486DD99B", type: "checkmark" }]
-			x: 14.0d
-			y: 12.0d
+			tasks: [{ id: "7464FF3784B6ADF8", type: "checkmark" }]
+			x: 5.0d
+			y: 27.0d
+		}
+		{
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "minecraft:leather_chestplate" }
+			id: "9B3DDD0EE119DD1A"
+			title: "Ruestung Leder"
+			rewards: []
+			tasks: [{ id: "58FF5AB6A2A862DE", type: "checkmark" }]
+			x: 0.0d
+			y: 13.5d
 		}
 	]
 }

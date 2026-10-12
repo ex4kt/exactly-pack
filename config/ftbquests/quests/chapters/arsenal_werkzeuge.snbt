@@ -3,230 +3,251 @@
 	default_quest_shape: ""
 	filename: "arsenal_werkzeuge"
 	icon: { id: "minecraft:diamond_pickaxe" }
-	id: "BCD88162D9EB634B"
+	id: "C8F9E0CAD30490AA"
 	order_index: 16
 	quest_links: [ ]
 	title: "&6Werkzeuge (Uebersicht)"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "minecraft:wooden_pickaxe" }
-			id: "E9DFACE4C93F8B72"
-			title: "Werkzeug-Set Holz"
-			rewards: []
-			tasks: [{ id: "7654E414D1757C7A", type: "checkmark" }]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["0EC84BEA5DC43552"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "minecraft:stone_pickaxe" }
-			id: "C06E9A589A96BD39"
+			id: "823F3C135523221B"
 			title: "Werkzeug-Set Stein"
 			rewards: []
-			tasks: [{ id: "034527547FCDBC80", type: "checkmark" }]
+			tasks: [{ id: "E0302A8CEF8A9901", type: "checkmark" }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["823F3C135523221B"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "minecraft:iron_pickaxe" }
-			id: "D959511168D4C90A"
+			id: "D4CADF886C030B89"
 			title: "Werkzeug-Set Eisen"
 			rewards: []
-			tasks: [{ id: "8A323C3BD77B13B7", type: "checkmark" }]
-			x: 4.0d
+			tasks: [{ id: "0FB4D99334EC4D6D", type: "checkmark" }]
+			x: 3.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["D4CADF886C030B89"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "minecraft:golden_pickaxe" }
-			id: "4E7F5A03345F278F"
+			id: "E9DFACE4C93F8B72"
 			title: "Werkzeug-Set Gold"
 			rewards: []
-			tasks: [{ id: "D3B081BF00CE8380", type: "checkmark" }]
-			x: 6.0d
+			tasks: [{ id: "7654E414D1757C7A", type: "checkmark" }]
+			x: 5.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["E9DFACE4C93F8B72"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "minecraft:diamond_pickaxe" }
-			id: "591F6ECAF470D1C0"
+			id: "C06E9A589A96BD39"
 			title: "Werkzeug-Set Diamant"
 			rewards: []
-			tasks: [{ id: "97DC9474097B0A33", type: "checkmark" }]
+			tasks: [{ id: "034527547FCDBC80", type: "checkmark" }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C06E9A589A96BD39"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "minecraft:netherite_pickaxe" }
+			id: "D959511168D4C90A"
+			title: "Werkzeug-Set Netherit"
+			rewards: []
+			tasks: [{ id: "8A323C3BD77B13B7", type: "checkmark" }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "minecraft:netherite_pickaxe" }
-			id: "AF2D53339150C1EF"
-			title: "Werkzeug-Set Netherit"
-			rewards: []
-			tasks: [{ id: "35081777F312F439", type: "checkmark" }]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["D959511168D4C90A"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_iron_pickaxe" }
-			id: "FEE270461DF02F62"
+			id: "4E7F5A03345F278F"
 			title: "Netherit-Iron-Set"
 			rewards: []
-			tasks: [{ id: "E62A6FE8C70F90E6", type: "checkmark" }]
-			x: 12.0d
-			y: 0.0d
+			tasks: [{ id: "D3B081BF00CE8380", type: "checkmark" }]
+			x: 8.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["4E7F5A03345F278F"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_gold_pickaxe" }
-			id: "84535A926E548BDE"
+			id: "591F6ECAF470D1C0"
 			title: "Netherit-Gold-Set"
 			rewards: []
-			tasks: [{ id: "D9B230F1F6D5244B", type: "checkmark" }]
-			x: 14.0d
-			y: 0.0d
+			tasks: [{ id: "97DC9474097B0A33", type: "checkmark" }]
+			x: 9.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["591F6ECAF470D1C0"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_emerald_pickaxe" }
-			id: "581E2999BCC83209"
+			id: "AF2D53339150C1EF"
 			title: "Netherit-Emerald-Set"
 			rewards: []
-			tasks: [{ id: "6EC978D467B968DF", type: "checkmark" }]
-			x: 0.0d
+			tasks: [{ id: "35081777F312F439", type: "checkmark" }]
+			x: 11.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["AF2D53339150C1EF"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_diamond_pickaxe" }
-			id: "B387BBA44CC8BFD5"
+			id: "FEE270461DF02F62"
 			title: "Netherit-Diamond-Set"
 			rewards: []
-			tasks: [{ id: "4B56906E70B01968", type: "checkmark" }]
-			x: 2.0d
+			tasks: [{ id: "E62A6FE8C70F90E6", type: "checkmark" }]
+			x: 12.5d
 			y: 2.0d
 		}
 		{
+			dependencies: ["C06E9A589A96BD39"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:skyroot_pickaxe" }
-			id: "F1AAE7FFBB89E1E3"
+			id: "84535A926E548BDE"
 			title: "Aether Skyroot-Set"
 			rewards: []
-			tasks: [{ id: "248B35E5B6CC45A6", type: "checkmark" }]
-			x: 4.0d
-			y: 2.0d
+			tasks: [{ id: "D9B230F1F6D5244B", type: "checkmark" }]
+			x: 6.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["84535A926E548BDE"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:holystone_pickaxe" }
-			id: "DC95352ADCA6D0EB"
+			id: "581E2999BCC83209"
 			title: "Aether Holystone-Set"
 			rewards: []
-			tasks: [{ id: "8E07FE268E27DD3D", type: "checkmark" }]
-			x: 6.0d
-			y: 2.0d
+			tasks: [{ id: "6EC978D467B968DF", type: "checkmark" }]
+			x: 8.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["581E2999BCC83209"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:zanite_pickaxe" }
-			id: "E68286B349CF2163"
+			id: "B387BBA44CC8BFD5"
 			title: "Aether Zanite-Set"
+			rewards: []
+			tasks: [{ id: "4B56906E70B01968", type: "checkmark" }]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B387BBA44CC8BFD5"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "aether:gravitite_pickaxe" }
+			id: "F1AAE7FFBB89E1E3"
+			title: "Aether Gravitite-Set"
+			rewards: []
+			tasks: [{ id: "248B35E5B6CC45A6", type: "checkmark" }]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["F1AAE7FFBB89E1E3"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "aether:valkyrie_pickaxe" }
+			id: "DC95352ADCA6D0EB"
+			title: "Aether Valkyrie-Set"
+			rewards: []
+			tasks: [{ id: "8E07FE268E27DD3D", type: "checkmark" }]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["D959511168D4C90A"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "cataclysm:black_steel_pickaxe" }
+			id: "E68286B349CF2163"
+			title: "Black-Steel-Set"
 			rewards: []
 			tasks: [{ id: "0362F1BFC0B24991", type: "checkmark" }]
 			x: 8.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "aether:gravitite_pickaxe" }
-			id: "D8AF572AE0C1D81A"
-			title: "Aether Gravitite-Set"
-			rewards: []
-			tasks: [{ id: "64728F842235277D", type: "checkmark" }]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "aether:valkyrie_pickaxe" }
-			id: "DCA88BB7061A927C"
-			title: "Aether Valkyrie-Set"
-			rewards: []
-			tasks: [{ id: "3EB0F87631AF202E", type: "checkmark" }]
-			x: 12.0d
-			y: 2.0d
-		}
-		{
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "cataclysm:black_steel_pickaxe" }
-			id: "66845F674E47996B"
-			title: "Black-Steel-Set"
-			rewards: []
-			tasks: [{ id: "41095051A2FDE6C5", type: "checkmark" }]
-			x: 14.0d
-			y: 2.0d
-		}
-		{
+			dependencies: ["D4CADF886C030B89"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke aus Create-Zahnraedern.", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "create_tools_n_weapons:gear_pickaxe" }
-			id: "72267DA2D3EE571B"
+			id: "D8AF572AE0C1D81A"
 			title: "Gear-Set"
 			rewards: []
-			tasks: [{ id: "8DF5E82DD0F75911", type: "checkmark" }]
-			x: 0.0d
-			y: 4.0d
+			tasks: [{ id: "64728F842235277D", type: "checkmark" }]
+			x: 3.5d
+			y: 8.0d
 		}
 		{
+			dependencies: ["D8AF572AE0C1D81A"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "create:wand_of_symmetry" }
+			id: "DCA88BB7061A927C"
+			title: "Wand Of Symmetry"
+			rewards: []
+			tasks: [{ id: "41095051A2FDE6C5", type: "checkmark" }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["E9DFACE4C93F8B72"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Artifacts.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "artifacts:pickaxe_heater" }
+			id: "66845F674E47996B"
+			title: "Pickaxe Heater"
+			rewards: []
+			tasks: [{ id: "8DF5E82DD0F75911", type: "checkmark" }]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["C06E9A589A96BD39"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "pneumaticcraft:jackhammer" }
-			id: "80B6FC4E623A73D6"
+			id: "72267DA2D3EE571B"
 			title: "Pneumatic Jackhammer"
+			rewards: []
+			tasks: [{ id: "3EB0F87631AF202E", type: "checkmark" }]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0EC84BEA5DC43552"]
+			description: ["&6Was ist das?", "Fuer Wolle, Blaetter und Spinnweben.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "minecraft:shears" }
+			id: "80B6FC4E623A73D6"
+			title: "Schere"
 			rewards: []
 			tasks: [{ id: "05116E829A5C8A8D", type: "checkmark" }]
 			x: 2.0d
-			y: 4.0d
+			y: 14.0d
 		}
 		{
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "create:wand_of_symmetry" }
-			id: "F6260158C662071C"
-			title: "Wand Of Symmetry"
-			rewards: []
-			tasks: [{ id: "45650CFBE3C51DC1", type: "checkmark" }]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Artifacts.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "artifacts:pickaxe_heater" }
-			id: "C8F9E0CAD30490AA"
-			title: "Pickaxe Heater"
-			rewards: []
-			tasks: [{ id: "0EC84BEA5DC43552", type: "checkmark" }]
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			description: ["&6Was ist das?", "Fuer Wolle, Blaetter und Spinnweben.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
-			icon: { id: "minecraft:shears" }
-			id: "58FF5AB6A2A862DE"
-			title: "Schere"
-			rewards: []
-			tasks: [{ id: "823F3C135523221B", type: "checkmark" }]
-			x: 8.0d
-			y: 4.0d
-		}
-		{
+			dependencies: ["80B6FC4E623A73D6"]
 			description: ["&6Was ist das?", "Fische und Schaetze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "minecraft:fishing_rod" }
-			id: "17DF347F979C11EB"
+			id: "F6260158C662071C"
 			title: "Angel"
 			rewards: []
-			tasks: [{ id: "D4CADF886C030B89", type: "checkmark" }]
-			x: 10.0d
-			y: 4.0d
+			tasks: [{ id: "45650CFBE3C51DC1", type: "checkmark" }]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "minecraft:wooden_pickaxe" }
+			id: "0EC84BEA5DC43552"
+			title: "Werkzeug-Set Holz"
+			rewards: []
+			tasks: [{ id: "F5E65F6041544DC2", type: "checkmark" }]
+			x: 0.0d
+			y: 7.0d
 		}
 	]
 }

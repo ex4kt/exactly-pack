@@ -3,664 +3,664 @@
 	default_quest_shape: ""
 	filename: "z08_welten"
 	icon: { id: "twilightforest:magic_map" }
-	id: "3ED2EEBB1CFA992F"
+	id: "5EFD029C34BA090D"
 	order_index: 7
 	quest_links: [ ]
 	title: "&aVIII. Zeitalter der Welten"
 	quests: [
 		{
-			dependencies: ["696A20D593371128"]
+			dependencies: ["760DF08E063B1E50"]
 			description: ["&6Was ist das?", "Twilight Forest ist eine eigene Dimension. Wirf einen Diamanten in einen Teich mit Blumen drumherum.", "Dort beginnt ein langes Abenteuer mit vielen Bossen.", "", "&6So gehts", "Baue einen 2x2-Teich und stelle Blumen oder Gras ringsum. Wirf einen Diamanten hinein.", "Im Wald hilft die Magische Karte, Bosse zu finden.", "", "&6Wofuer ist das wichtig?", "Bosse muessen in der richtigen Reihenfolge besiegt werden, sonst blockieren Fluch-Effekte den Weg. Die Reihenfolge zeigen die naechsten Quests."]
-			id: "FCA3F7C951992BD7"
+			id: "615E21CD98E6C777"
 			title: "Der Zwielichtwald"
-			rewards: [{ id: "CA7289EABC96631B", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "F863CCF40614D398", type: "dimension", dimension: "twilightforest:twilight_forest", icon: { id: "twilightforest:naga_scale" } }]
+			rewards: [{ id: "0E4DCF75ED52D30E", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "92183B5FE008BBE8", type: "dimension", dimension: "twilightforest:twilight_forest", icon: { id: "twilightforest:naga_scale" } }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FCA3F7C951992BD7"]
+			dependencies: ["615E21CD98E6C777"]
 			description: ["&6Was ist das?", "Die Magic Map zeigt die Bosse und Biome des Zwielichtwalds.", "", "&6So gehts", "Rechtsklick zum Aktivieren.", "", "&6Wofuer ist das wichtig?", "Findet die naechsten Bosse."]
-			id: "9E031D4009409422"
+			id: "1EFE3DB449F102E0"
 			title: "Magische Karte"
-			rewards: [{ id: "DD4C94C4C3F94817", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "636CDD7BD9D76941", type: "item", item: { id: "twilightforest:magic_map", count: 1 }, count: 1L }]
+			rewards: [{ id: "35387593BB9D62AB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "957B5D67AB9B3EBC", type: "item", item: { id: "twilightforest:magic_map", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9E031D4009409422"]
+			dependencies: ["1EFE3DB449F102E0"]
 			description: ["&6Was ist das?", "Die Naga ist der erste Boss des Waldes. Sie hat Schuppen als Beute.", "", "&6So gehts", "Sie lebt in einem Hof aus Steinen. Weiche ihren Angriffen seitlich aus.", "", "&6Wofuer ist das wichtig?", "Naga-Schuppen ergeben Ruestung. Danach ist der Lich dran."]
-			id: "76237B0ECD40643E"
+			id: "696A20D593371128"
 			title: "Naga"
-			rewards: [{ id: "3C52BD66AC8039EC", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "F1824AC3EFD6E37B", type: "kill", entity: "twilightforest:naga", value: 1L, icon: { id: "twilightforest:naga_scale" } }]
+			rewards: [{ id: "CA7289EABC96631B", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "F863CCF40614D398", type: "kill", entity: "twilightforest:naga", value: 1L, icon: { id: "twilightforest:naga_scale" } }]
 			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["696A20D593371128"]
+			description: ["&6Was ist das?", "Der Lich ist ein maechtiger Zauberer. Bereite dich auf Magie vor.", "", "&6So gehts", "Er hat Schilde, die du zuerst zerstoeren musst. Wirf seine Feuerbaelle zurueck.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich das Labyrinth mit dem Minoshroom."]
+			id: "FCA3F7C951992BD7"
+			title: "Lich"
+			rewards: [{ id: "3C52BD66AC8039EC", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "F1824AC3EFD6E37B", type: "kill", entity: "twilightforest:lich", value: 1L, icon: { id: "twilightforest:lich_trophy" } }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FCA3F7C951992BD7"]
+			description: ["&6Was ist das?", "Der Minoshroom bewacht ein Labyrinth im Sumpf.", "", "&6So gehts", "Feuerresistenz-Traenke helfen. Er rennt auf dich zu, weiche aus.", "", "&6Wofuer ist das wichtig?", "Er bringt Meef-Stroganoff und oeffnet den Weg zur Hydra."]
+			id: "9E031D4009409422"
+			title: "Minoshroom"
+			rewards: [{ id: "4E2ADF01B2881B05", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "454BA732E348B8C7", type: "kill", entity: "twilightforest:minoshroom", value: 1L, icon: { id: "twilightforest:meef_stroganoff" } }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9E031D4009409422"]
+			description: ["&6Was ist das?", "Die Hydra hat viele Koepfe. Hau sie ab, sobald sie schlaeft.", "", "&6So gehts", "Schlage die Koepfe, wenn sie den Mund oeffnen.", "", "&6Wofuer ist das wichtig?", "Hydra-Fleisch ist eines der besten Essen. Danach folgen Ritter und Ur-Ghast."]
+			id: "76237B0ECD40643E"
+			title: "Hydra"
+			rewards: [{ id: "00C563F45208EB03", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "1028FC0C83379DA1", type: "kill", entity: "twilightforest:hydra", value: 1L, icon: { id: "twilightforest:hydra_chop" } }]
+			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["76237B0ECD40643E"]
-			description: ["&6Was ist das?", "Der Lich ist ein maechtiger Zauberer. Bereite dich auf Magie vor.", "", "&6So gehts", "Er hat Schilde, die du zuerst zerstoeren musst. Wirf seine Feuerbaelle zurueck.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich das Labyrinth mit dem Minoshroom."]
+			description: ["&6Was ist das?", "Die Ritterphantome bewachen den Goblin-Festung-Turm.", "", "&6So gehts", "Kaempfe in der Mitte. Sie fliegen und greifen nacheinander an.", "", "&6Wofuer ist das wichtig?", "Rittermetall fuer starke Ruestung."]
 			id: "5CD31E7179253C01"
-			title: "Lich"
-			rewards: [{ id: "4E2ADF01B2881B05", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "454BA732E348B8C7", type: "kill", entity: "twilightforest:lich", value: 1L, icon: { id: "twilightforest:lich_trophy" } }]
-			x: 6.5d
+			title: "Ritterphantome"
+			rewards: [{ id: "67F8DE226209DE74", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "0D4F8FE6D7BE81C2", type: "kill", entity: "twilightforest:knight_phantom", value: 1L, icon: { id: "twilightforest:knightmetal_ingot" } }]
+			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5CD31E7179253C01"]
-			description: ["&6Was ist das?", "Der Minoshroom bewacht ein Labyrinth im Sumpf.", "", "&6So gehts", "Feuerresistenz-Traenke helfen. Er rennt auf dich zu, weiche aus.", "", "&6Wofuer ist das wichtig?", "Er bringt Meef-Stroganoff und oeffnet den Weg zur Hydra."]
+			description: ["&6Was ist das?", "Der Ur-Ghast herrscht im Dunklen Turm.", "", "&6So gehts", "Zerstoere die Ghast-Fallen, um ihn zu schwaechen.", "", "&6Wofuer ist das wichtig?", "Seine Traenen machen Feuriges Eisen."]
 			id: "F62B89FED16384AC"
-			title: "Minoshroom"
-			rewards: [{ id: "00C563F45208EB03", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "1028FC0C83379DA1", type: "kill", entity: "twilightforest:minoshroom", value: 1L, icon: { id: "twilightforest:meef_stroganoff" } }]
-			x: 8.0d
+			title: "Ur-Ghast"
+			rewards: [{ id: "6420BABFB5E3C2FA", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "F66293D1E19F0088", type: "kill", entity: "twilightforest:ur_ghast", value: 1L, icon: { id: "twilightforest:fiery_tears" } }]
+			x: 12.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["F62B89FED16384AC"]
-			description: ["&6Was ist das?", "Die Hydra hat viele Koepfe. Hau sie ab, sobald sie schlaeft.", "", "&6So gehts", "Schlage die Koepfe, wenn sie den Mund oeffnen.", "", "&6Wofuer ist das wichtig?", "Hydra-Fleisch ist eines der besten Essen. Danach folgen Ritter und Ur-Ghast."]
+			description: ["&6Was ist das?", "Der Alpha-Yeti lebt in der Eishoehle der Schneewaelder.", "", "&6So gehts", "Weiche den herabfallenden Eiszapfen aus.", "", "&6Wofuer ist das wichtig?", "Sein Fell macht warme Ruestung."]
 			id: "55AC6F18F0BE8BBF"
-			title: "Hydra"
-			rewards: [{ id: "7680FBED1D2CB8DC", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "3F6B6388D62AB88D", type: "kill", entity: "twilightforest:hydra", value: 1L, icon: { id: "twilightforest:hydra_chop" } }]
-			x: 9.5d
+			title: "Alpha-Yeti"
+			rewards: [{ id: "359B249EBD802CE5", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "2E80E51C3F0AC4F1", type: "kill", entity: "twilightforest:alpha_yeti", value: 1L, icon: { id: "twilightforest:alpha_yeti_fur" } }]
+			x: 14.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["55AC6F18F0BE8BBF"]
-			description: ["&6Was ist das?", "Die Ritterphantome bewachen den Goblin-Festung-Turm.", "", "&6So gehts", "Kaempfe in der Mitte. Sie fliegen und greifen nacheinander an.", "", "&6Wofuer ist das wichtig?", "Rittermetall fuer starke Ruestung."]
+			description: ["&6Was ist das?", "Die Schneekoenigin wartet im Eispalast.", "", "&6So gehts", "Zerstoere ihre Eisbloecke und greife an.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich der Weg weiter."]
 			id: "C21F186BCF5F7393"
-			title: "Ritterphantome"
-			rewards: [{ id: "7D2C8891A186F48F", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "8579559EFEE19ECB", type: "kill", entity: "twilightforest:knight_phantom", value: 1L, icon: { id: "twilightforest:knightmetal_ingot" } }]
-			x: 11.0d
-			y: 0.0d
+			title: "Schneekoenigin"
+			rewards: [{ id: "751F098D5A41D0A6", type: "xp_levels", xp_levels: 14 }]
+			tasks: [{ id: "B34011A3F3627885", type: "kill", entity: "twilightforest:snow_queen", value: 1L, icon: { id: "minecraft:snowball" } }]
+			x: 14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["C21F186BCF5F7393"]
-			description: ["&6Was ist das?", "Der Ur-Ghast herrscht im Dunklen Turm.", "", "&6So gehts", "Zerstoere die Ghast-Fallen, um ihn zu schwaechen.", "", "&6Wofuer ist das wichtig?", "Seine Traenen machen Feuriges Eisen."]
+			description: ["&6Was ist das?", "Die Lamp of Cinders verbrennt Dornen und oeffnet den Weg zum Ende des Waldes.", "", "&6So gehts", "Rechtsklick auf Dornen.", "", "&6Wofuer ist das wichtig?", "Oeffnet den Weg zum Ende des Waldes."]
 			id: "F60D13AF5AC8E152"
-			title: "Ur-Ghast"
-			rewards: [{ id: "900A1734A7644A5B", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "6F227913F0E6FA19", type: "kill", entity: "twilightforest:ur_ghast", value: 1L, icon: { id: "twilightforest:fiery_tears" } }]
+			title: "Lampe der Asche"
+			rewards: [{ id: "428CBF51A7B7C95E", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "0AF90EF2A6CFD673", type: "item", item: { id: "twilightforest:lamp_of_cinders", count: 1 }, count: 1L }]
 			x: 12.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["F60D13AF5AC8E152"]
-			description: ["&6Was ist das?", "Der Alpha-Yeti lebt in der Eishoehle der Schneewaelder.", "", "&6So gehts", "Weiche den herabfallenden Eiszapfen aus.", "", "&6Wofuer ist das wichtig?", "Sein Fell macht warme Ruestung."]
+			dependencies: ["615E21CD98E6C777"]
+			description: ["&6Was ist das?", "Twilight Forest: Steeleaf waechst in der Wildnis. Daraus entsteht gruene Ausruestung.", "", "&6So gehts", "Pflanzen in Hoehlen und Bloecke abbauen.", "", "&6Wofuer ist das wichtig?", "Gruene Ausruestung, besser als Eisen."]
 			id: "67762AADFE07910B"
-			title: "Alpha-Yeti"
-			rewards: [{ id: "751F098D5A41D0A6", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "B34011A3F3627885", type: "kill", entity: "twilightforest:alpha_yeti", value: 1L, icon: { id: "twilightforest:alpha_yeti_fur" } }]
-			x: 14.0d
-			y: 0.0d
+			title: "Stahlblatt"
+			rewards: [{ id: "7680FBED1D2CB8DC", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3F6B6388D62AB88D", type: "item", item: { id: "twilightforest:steeleaf_ingot", count: 1 }, count: 4L }]
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["67762AADFE07910B"]
-			description: ["&6Was ist das?", "Die Schneekoenigin wartet im Eispalast.", "", "&6So gehts", "Zerstoere ihre Eisbloecke und greife an.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich der Weg weiter."]
+			description: ["&6Was ist das?", "Twilight Forest: Ironwood aus Liveroot und Eisen. Gutes Werkzeugmaterial.", "", "&6So gehts", "Herstellen und schmelzen.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge, die sich selbst reparieren."]
 			id: "78F1BDE881A7BDDB"
-			title: "Schneekoenigin"
-			rewards: [{ id: "428CBF51A7B7C95E", type: "xp_levels", xp_levels: 14 }]
-			tasks: [{ id: "0AF90EF2A6CFD673", type: "kill", entity: "twilightforest:snow_queen", value: 1L, icon: { id: "minecraft:snowball" } }]
-			x: 14.0d
-			y: 1.5d
+			title: "Eisenholz"
+			rewards: [{ id: "93083F4809981CC4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "203A6FBC738F159D", type: "item", item: { id: "twilightforest:ironwood_ingot", count: 1 }, count: 4L }]
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["78F1BDE881A7BDDB"]
-			description: ["&6Was ist das?", "Die Lamp of Cinders verbrennt Dornen und oeffnet den Weg zum Ende des Waldes.", "", "&6So gehts", "Rechtsklick auf Dornen.", "", "&6Wofuer ist das wichtig?", "Oeffnet den Weg zum Ende des Waldes."]
+			description: ["&6Was ist das?", "Rittermetall ist ein starkes Material aus Ruestungsscherben.", "", "&6So gehts", "Aus Ruestungsscherben schmelzen.", "", "&6Wofuer ist das wichtig?", "Ruestung mit hohem Schutz."]
 			id: "9390C205C2E23363"
-			title: "Lampe der Asche"
-			rewards: [{ id: "21CB7DA05EE93751", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "902C9F586F49D9FE", type: "item", item: { id: "twilightforest:lamp_of_cinders", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 1.5d
+			title: "Rittermetall"
+			rewards: [{ id: "7D2C8891A186F48F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "8579559EFEE19ECB", type: "item", item: { id: "twilightforest:knightmetal_ingot", count: 1 }, count: 4L }]
+			x: 5.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["FCA3F7C951992BD7"]
-			description: ["&6Was ist das?", "Twilight Forest: Steeleaf waechst in der Wildnis. Daraus entsteht gruene Ausruestung.", "", "&6So gehts", "Pflanzen in Hoehlen und Bloecke abbauen.", "", "&6Wofuer ist das wichtig?", "Gruene Ausruestung, besser als Eisen."]
+			dependencies: ["9390C205C2E23363"]
+			description: ["&6Was ist das?", "Fiery Ingot aus feurigem Blut. Sehr starkes Material.", "", "&6So gehts", "Feuriges Blut und Eisen.", "", "&6Wofuer ist das wichtig?", "Ruestung, die Gegner in Brand setzt."]
 			id: "911513688EE1F212"
-			title: "Stahlblatt"
-			rewards: [{ id: "93083F4809981CC4", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "203A6FBC738F159D", type: "item", item: { id: "twilightforest:steeleaf_ingot", count: 1 }, count: 4L }]
-			x: 2.0d
+			title: "Feuriges Eisen"
+			rewards: [{ id: "900A1734A7644A5B", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "6F227913F0E6FA19", type: "item", item: { id: "twilightforest:fiery_ingot", count: 1 }, count: 2L }]
+			x: 6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["911513688EE1F212"]
-			description: ["&6Was ist das?", "Twilight Forest: Ironwood aus Liveroot und Eisen. Gutes Werkzeugmaterial.", "", "&6So gehts", "Herstellen und schmelzen.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge, die sich selbst reparieren."]
+			description: ["&6Was ist das?", "Der Uncrafting Table zerlegt Items wieder in ihre Teile.", "", "&6So gehts", "Item einlegen und das Ergebnis nehmen.", "", "&6Wofuer ist das wichtig?", "Gut, um Verzauberungen zu entfernen oder Fehlcrafts zu retten."]
 			id: "15E58FF47A58FB55"
-			title: "Eisenholz"
-			rewards: [{ id: "35387593BB9D62AB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "957B5D67AB9B3EBC", type: "item", item: { id: "twilightforest:ironwood_ingot", count: 1 }, count: 4L }]
-			x: 3.5d
+			title: "Entschoepfungstisch"
+			rewards: [{ id: "DD4C94C4C3F94817", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "636CDD7BD9D76941", type: "item", item: { id: "twilightforest:uncrafting_table", count: 1 }, count: 1L }]
+			x: 8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["15E58FF47A58FB55"]
-			description: ["&6Was ist das?", "Rittermetall ist ein starkes Material aus Ruestungsscherben.", "", "&6So gehts", "Aus Ruestungsscherben schmelzen.", "", "&6Wofuer ist das wichtig?", "Ruestung mit hohem Schutz."]
-			id: "B6EAB795C07D4F59"
-			title: "Rittermetall"
-			rewards: [{ id: "6420BABFB5E3C2FA", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "F66293D1E19F0088", type: "item", item: { id: "twilightforest:knightmetal_ingot", count: 1 }, count: 4L }]
-			x: 5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["B6EAB795C07D4F59"]
-			description: ["&6Was ist das?", "Fiery Ingot aus feurigem Blut. Sehr starkes Material.", "", "&6So gehts", "Feuriges Blut und Eisen.", "", "&6Wofuer ist das wichtig?", "Ruestung, die Gegner in Brand setzt."]
-			id: "0C1D40BA1DE7EE9D"
-			title: "Feuriges Eisen"
-			rewards: [{ id: "359B249EBD802CE5", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "2E80E51C3F0AC4F1", type: "item", item: { id: "twilightforest:fiery_ingot", count: 1 }, count: 2L }]
-			x: 6.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0C1D40BA1DE7EE9D"]
-			description: ["&6Was ist das?", "Der Uncrafting Table zerlegt Items wieder in ihre Teile.", "", "&6So gehts", "Item einlegen und das Ergebnis nehmen.", "", "&6Wofuer ist das wichtig?", "Gut, um Verzauberungen zu entfernen oder Fehlcrafts zu retten."]
-			id: "99594669C88771F8"
-			title: "Entschoepfungstisch"
-			rewards: [{ id: "67F8DE226209DE74", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "0D4F8FE6D7BE81C2", type: "item", item: { id: "twilightforest:uncrafting_table", count: 1 }, count: 1L }]
-			x: 8.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["99594669C88771F8"]
 			description: ["&6Was ist das?", "Ruestung aus Rittermetall.", "", "&6So gehts", "Rittermetall-Barren in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Eine der besten Ruestungen des Waldes."]
 			icon: { id: "twilightforest:knightmetal_chestplate" }
-			id: "4B73970BB48E917E"
+			id: "B6EAB795C07D4F59"
 			title: "Ritter-Ruestung"
-			rewards: [{ id: "1E42720C4E0AD0D9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DF5A85109217ABAE", type: "item", item: { id: "twilightforest:knightmetal_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "FD9917A0A8456142", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4FEB2163A0F1D673", type: "item", item: { id: "twilightforest:knightmetal_chestplate", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["9E031D4009409422"]
+			dependencies: ["1EFE3DB449F102E0"]
 			description: ["&6Was ist das?", "Ruestung aus Naga-Schuppen.", "", "&6So gehts", "Naga-Schuppen in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Sehr guter Schutz zu Beginn des Zwielichtwalds."]
 			icon: { id: "twilightforest:naga_chestplate" }
-			id: "7A3B9C5A571C732F"
+			id: "0C1D40BA1DE7EE9D"
 			title: "Naga-Ruestung"
-			rewards: [{ id: "CF42BE00B01BA722", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "758D41D5971933B4", type: "item", item: { id: "twilightforest:naga_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "50EA0A048D52ABD8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BB599F9DE708E768", type: "item", item: { id: "twilightforest:naga_chestplate", count: 1 }, count: 1L }]
 			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0C1D40BA1DE7EE9D"]
+			description: ["&6Was ist das?", "Der Lich laesst Zepter fallen: Lebensraub, Zombies, Schutz.", "", "&6So gehts", "Den Lich besiegen.", "", "&6Wofuer ist das wichtig?", "Magische Waffen fuer harte Kaempfe."]
+			icon: { id: "twilightforest:lifedrain_scepter" }
+			id: "99594669C88771F8"
+			title: "Lich-Zepter"
+			rewards: [{ id: "CF42BE00B01BA722", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "758D41D5971933B4", type: "item", item: { id: "twilightforest:lifedrain_scepter", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["99594669C88771F8"]
+			description: ["&6Was ist das?", "Eine Axt vom Minoshroom.", "", "&6So gehts", "Den Minoshroom besiegen.", "", "&6Wofuer ist das wichtig?", "Hoher Schaden beim Sprint-Angriff."]
+			icon: { id: "twilightforest:diamond_minotaur_axe" }
+			id: "4B73970BB48E917E"
+			title: "Minotaurus-Axt"
+			rewards: [{ id: "205B7AD85823F1B1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A809E84439099714", type: "item", item: { id: "twilightforest:diamond_minotaur_axe", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B73970BB48E917E"]
+			description: ["&6Was ist das?", "Ein Bogen, der Gegner verlangsamt.", "", "&6So gehts", "In Truhen der Eishoehle.", "", "&6Wofuer ist das wichtig?", "Gegner koennen nicht entkommen."]
+			icon: { id: "twilightforest:ice_bow" }
+			id: "7A3B9C5A571C732F"
+			title: "Eisbogen"
+			rewards: [{ id: "1E42720C4E0AD0D9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DF5A85109217ABAE", type: "item", item: { id: "twilightforest:ice_bow", count: 1 }, count: 1L }]
+			x: 8.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["7A3B9C5A571C732F"]
-			description: ["&6Was ist das?", "Der Lich laesst Zepter fallen: Lebensraub, Zombies, Schutz.", "", "&6So gehts", "Den Lich besiegen.", "", "&6Wofuer ist das wichtig?", "Magische Waffen fuer harte Kaempfe."]
-			icon: { id: "twilightforest:lifedrain_scepter" }
+			description: ["&6Was ist das?", "Schiesst drei Pfeile auf einmal.", "", "&6So gehts", "In Labyrinth-Truhen finden.", "", "&6Wofuer ist das wichtig?", "Dreifacher Schaden auf Entfernung."]
+			icon: { id: "twilightforest:triple_bow" }
 			id: "D52365429AD0E80A"
-			title: "Lich-Zepter"
-			rewards: [{ id: "205B7AD85823F1B1", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A809E84439099714", type: "item", item: { id: "twilightforest:lifedrain_scepter", count: 1 }, count: 1L }]
-			x: 5.0d
+			title: "Dreifachbogen"
+			rewards: [{ id: "D547C1ABE8695728", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CC3E1CB9B8FF535F", type: "item", item: { id: "twilightforest:triple_bow", count: 1 }, count: 1L }]
+			x: 9.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["D52365429AD0E80A"]
-			description: ["&6Was ist das?", "Eine Axt vom Minoshroom.", "", "&6So gehts", "Den Minoshroom besiegen.", "", "&6Wofuer ist das wichtig?", "Hoher Schaden beim Sprint-Angriff."]
-			icon: { id: "twilightforest:diamond_minotaur_axe" }
+			description: ["&6Was ist das?", "Eine Kugel an der Kette.", "", "&6So gehts", "Vom Ritterphantom.", "", "&6Wofuer ist das wichtig?", "Wirft und zieht zurueck, bricht sogar Bloecke."]
+			icon: { id: "twilightforest:block_and_chain" }
 			id: "1AFDE4E85DD15347"
-			title: "Minotaurus-Axt"
-			rewards: [{ id: "FD9917A0A8456142", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4FEB2163A0F1D673", type: "item", item: { id: "twilightforest:diamond_minotaur_axe", count: 1 }, count: 1L }]
-			x: 6.5d
+			title: "Block und Kette"
+			rewards: [{ id: "81D7C5CA28F96134", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "58BE7CC42B7F2170", type: "item", item: { id: "twilightforest:block_and_chain", count: 1 }, count: 1L }]
+			x: 11.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1AFDE4E85DD15347"]
-			description: ["&6Was ist das?", "Ein Bogen, der Gegner verlangsamt.", "", "&6So gehts", "In Truhen der Eishoehle.", "", "&6Wofuer ist das wichtig?", "Gegner koennen nicht entkommen."]
-			icon: { id: "twilightforest:ice_bow" }
+			description: ["&6Was ist das?", "Warme Ruestung aus Arktisfell.", "", "&6So gehts", "Arktisfell von Arktis-Fuechsen.", "", "&6Wofuer ist das wichtig?", "Gut gefaerbt und gut geschuetzt."]
+			icon: { id: "twilightforest:arctic_chestplate" }
 			id: "1803E382612FE5CD"
-			title: "Eisbogen"
-			rewards: [{ id: "D547C1ABE8695728", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CC3E1CB9B8FF535F", type: "item", item: { id: "twilightforest:ice_bow", count: 1 }, count: 1L }]
-			x: 8.0d
+			title: "Arktische Ruestung"
+			rewards: [{ id: "0504AACFB0BFC3D1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "669D878190519B9D", type: "item", item: { id: "twilightforest:arctic_chestplate", count: 1 }, count: 1L }]
+			x: 12.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1803E382612FE5CD"]
-			description: ["&6Was ist das?", "Schiesst drei Pfeile auf einmal.", "", "&6So gehts", "In Labyrinth-Truhen finden.", "", "&6Wofuer ist das wichtig?", "Dreifacher Schaden auf Entfernung."]
-			icon: { id: "twilightforest:triple_bow" }
-			id: "77BC451979D982C5"
-			title: "Dreifachbogen"
-			rewards: [{ id: "81D7C5CA28F96134", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "58BE7CC42B7F2170", type: "item", item: { id: "twilightforest:triple_bow", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["77BC451979D982C5"]
-			description: ["&6Was ist das?", "Eine Kugel an der Kette.", "", "&6So gehts", "Vom Ritterphantom.", "", "&6Wofuer ist das wichtig?", "Wirft und zieht zurueck, bricht sogar Bloecke."]
-			icon: { id: "twilightforest:block_and_chain" }
-			id: "66E57CCD2D7C1EA0"
-			title: "Block und Kette"
-			rewards: [{ id: "0504AACFB0BFC3D1", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "669D878190519B9D", type: "item", item: { id: "twilightforest:block_and_chain", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["66E57CCD2D7C1EA0"]
-			description: ["&6Was ist das?", "Warme Ruestung aus Arktisfell.", "", "&6So gehts", "Arktisfell von Arktis-Fuechsen.", "", "&6Wofuer ist das wichtig?", "Gut gefaerbt und gut geschuetzt."]
-			icon: { id: "twilightforest:arctic_chestplate" }
-			id: "1FAE873C77C46E93"
-			title: "Arktische Ruestung"
-			rewards: [{ id: "E2810F9B9A17B846", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "738B7A818BEB0B16", type: "item", item: { id: "twilightforest:arctic_chestplate", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["1FAE873C77C46E93"]
 			description: ["&6Was ist das?", "Bohnen, die bis zu den Wolken wachsen.", "", "&6So gehts", "Auf einem Riesenblock pflanzen.", "", "&6Wofuer ist das wichtig?", "Weg zu den Riesen in den Wolken."]
 			icon: { id: "twilightforest:magic_beans" }
-			id: "5C97666AADA6E478"
+			id: "77BC451979D982C5"
 			title: "Wunderbohnen"
-			rewards: [{ id: "F40AAC079D1D8150", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "23962D66CFBEC1F0", type: "item", item: { id: "twilightforest:magic_beans", count: 1 }, count: 1L }]
+			rewards: [{ id: "E2810F9B9A17B846", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "738B7A818BEB0B16", type: "item", item: { id: "twilightforest:magic_beans", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 5.5d
 		}
 		{
-			dependencies: ["696A20D593371128"]
+			dependencies: ["760DF08E063B1E50"]
 			description: ["&6Was ist das?", "Baue ein Portal aus Glowstone und entzuende es mit Wasser.", "Das Aether ist ein Reich in den Wolken. Pass auf, wo du hinfaellst!", "", "&6So gehts", "Baue ein Portal aus Glowstone (wie ein Nether-Portal) und giesse Wasser hinein.", "Vorsicht am Rand: Wer herunterfaellt, landet in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Das Aether hat drei Dungeons: Bronze (Slider), Silber (Valkyrie-Koenigin), Gold (Sonnengeist). Jeder bringt starke Ausruestung."]
-			id: "FC788DDF32E00773"
+			id: "66E57CCD2D7C1EA0"
 			title: "Ins Aether"
-			rewards: [{ id: "C7C2F2CDC5AC5203", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
-			tasks: [{ id: "622A8F472AD5063A", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
+			rewards: [{ id: "C49872362A842B8F", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			tasks: [{ id: "0FBD7E62EF041D7F", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
 			x: 2.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["FC788DDF32E00773"]
+			dependencies: ["66E57CCD2D7C1EA0"]
 			description: ["&6Was ist das?", "Skyroot-Holz ist das erste Material des Aethers.", "", "&6So gehts", "Wie normales Holz abbauen.", "", "&6Wofuer ist das wichtig?", "Skyroot-Werkzeug und -Eimer. Normale Werkzeuge sind im Aether schwaecher."]
-			id: "337552AA9F3ACCE2"
+			id: "1FAE873C77C46E93"
 			title: "Skyroot"
-			rewards: [{ id: "FD67A541FA76E397", type: "item", item: { id: "aether:skyroot_stick", count: 16 } }]
-			tasks: [{ id: "A9EF75FF0F2CD08E", type: "item", item: { id: "aether:skyroot_log", count: 1 }, count: 8L }]
+			rewards: [{ id: "6E7AE60364E24710", type: "item", item: { id: "aether:skyroot_stick", count: 16 } }]
+			tasks: [{ id: "70EEBD6DF25C5D5C", type: "item", item: { id: "aether:skyroot_log", count: 1 }, count: 8L }]
 			x: 3.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["337552AA9F3ACCE2"]
+			dependencies: ["1FAE873C77C46E93"]
 			description: ["&6Was ist das?", "Holystone ist der Stein des Aethers. Daraus entstehen Werkzeuge.", "", "&6So gehts", "Mit Skyroot-Spitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Holystone-Werkzeug und Ofen-Ersatz."]
-			id: "F35970B7FA448693"
+			id: "5C97666AADA6E478"
 			title: "Holystone"
-			rewards: [{ id: "B0361A555DFDE81C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "051BF551F89F4366", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
+			rewards: [{ id: "FD67A541FA76E397", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A9EF75FF0F2CD08E", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
 			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C97666AADA6E478"]
+			description: ["&6Was ist das?", "Zanit ist ein Edelstein. Er macht Werkzeuge schneller.", "", "&6So gehts", "Mit Holystone-Spitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zanit-Werkzeug und Handschuhe."]
+			id: "FC788DDF32E00773"
+			title: "Zanit"
+			rewards: [{ id: "B0361A555DFDE81C", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "051BF551F89F4366", type: "item", item: { id: "aether:zanite_gemstone", count: 1 }, count: 8L }]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["FC788DDF32E00773"]
+			description: ["&6Was ist das?", "Ambrosium ist Brennstoff und Heilmittel.", "", "&6So gehts", "Erz abbauen. Essen heilt ein bisschen.", "", "&6Wofuer ist das wichtig?", "Brennstoff fuer Altar und Gefrierer."]
+			id: "337552AA9F3ACCE2"
+			title: "Ambrosium"
+			rewards: [{ id: "40BD02660B525726", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5AC7EDE98582B5DC", type: "item", item: { id: "aether:ambrosium_shard", count: 1 }, count: 8L }]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["337552AA9F3ACCE2"]
+			description: ["&6Was ist das?", "Gravitit schwebt in der Luft. Daraus entsteht starke Ausruestung.", "", "&6So gehts", "Mit Zanit-Spitzhacke abbauen. Schnell einsammeln, bevor es wegfliegt.", "", "&6Wofuer ist das wichtig?", "Gravitit-Ausruestung laesst dich hoeher springen und Bloecke schweben."]
+			id: "F35970B7FA448693"
+			title: "Gravitit"
+			rewards: [{ id: "038DD3C245737B30", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "7C997E7E29DC22AF", type: "item", item: { id: "aether:gravitite_ore", count: 1 }, count: 1L }]
+			x: 9.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["F35970B7FA448693"]
-			description: ["&6Was ist das?", "Zanit ist ein Edelstein. Er macht Werkzeuge schneller.", "", "&6So gehts", "Mit Holystone-Spitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zanit-Werkzeug und Handschuhe."]
+			description: ["&6Was ist das?", "Die Slider ist ein Boss und huetet den Bronzenen Dungeon.", "", "&6So gehts", "Nur mit Spitzhacke verwundbar. Er rutscht schnell, weiche aus.", "", "&6Wofuer ist das wichtig?", "Bronze-Schluessel und erste starke Aether-Beute."]
 			id: "673AD22C2CF89227"
-			title: "Zanit"
-			rewards: [{ id: "40BD02660B525726", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "5AC7EDE98582B5DC", type: "item", item: { id: "aether:zanite_gemstone", count: 1 }, count: 8L }]
-			x: 6.5d
+			title: "Der Slider"
+			rewards: [{ id: "8A1D24D3BD8FDFEB", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "6527E366163C19CC", type: "kill", entity: "aether:slider", value: 1L, icon: { id: "aether:bronze_dungeon_key" } }]
+			x: 11.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["673AD22C2CF89227"]
-			description: ["&6Was ist das?", "Ambrosium ist Brennstoff und Heilmittel.", "", "&6So gehts", "Erz abbauen. Essen heilt ein bisschen.", "", "&6Wofuer ist das wichtig?", "Brennstoff fuer Altar und Gefrierer."]
+			description: ["&6Was ist das?", "Valkyrien bewachen den Silbernen Dungeon. Besiege eine Valkyrie.", "", "&6So gehts", "Mit gutem Schwert kaempfen.", "", "&6Wofuer ist das wichtig?", "Valkyrie-Lanze und Ehre."]
 			id: "3B0D1DB27F5BE513"
-			title: "Ambrosium"
-			rewards: [{ id: "038DD3C245737B30", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "7C997E7E29DC22AF", type: "item", item: { id: "aether:ambrosium_shard", count: 1 }, count: 8L }]
-			x: 8.0d
+			title: "Valkyrie"
+			rewards: [{ id: "A2C410228EB1B792", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "4F9126BC2BF2D5BF", type: "kill", entity: "aether:valkyrie", value: 1L, icon: { id: "aether:valkyrie_lance" } }]
+			x: 12.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["3B0D1DB27F5BE513"]
-			description: ["&6Was ist das?", "Gravitit schwebt in der Luft. Daraus entsteht starke Ausruestung.", "", "&6So gehts", "Mit Zanit-Spitzhacke abbauen. Schnell einsammeln, bevor es wegfliegt.", "", "&6Wofuer ist das wichtig?", "Gravitit-Ausruestung laesst dich hoeher springen und Bloecke schweben."]
+			description: ["&6Was ist das?", "Die Valkyrie-Koenigin ist der Boss des Silbernen Dungeons.", "", "&6So gehts", "Besiege alle Valkyrien, dann fordert sie dich heraus.", "", "&6Wofuer ist das wichtig?", "Silber-Schluessel und Valkyrie-Ausruestung."]
 			id: "6045835D096A13DD"
-			title: "Gravitit"
-			rewards: [{ id: "1622F59406527466", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "21BEB3559DB7494D", type: "item", item: { id: "aether:gravitite_ore", count: 1 }, count: 1L }]
-			x: 9.5d
+			title: "Valkyrie-Koenigin"
+			rewards: [{ id: "295A2AA3C694BA1B", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "7871FB91E4A64A66", type: "kill", entity: "aether:valkyrie_queen", value: 1L, icon: { id: "aether:silver_dungeon_key" } }]
+			x: 14.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["6045835D096A13DD"]
-			description: ["&6Was ist das?", "Die Slider ist ein Boss und huetet den Bronzenen Dungeon.", "", "&6So gehts", "Nur mit Spitzhacke verwundbar. Er rutscht schnell, weiche aus.", "", "&6Wofuer ist das wichtig?", "Bronze-Schluessel und erste starke Aether-Beute."]
+			description: ["&6Was ist das?", "Der Goldene Dungeon gehoert dem Sonnengeist. Du brauchst den goldenen Schluessel.", "", "&6So gehts", "Goldenen Schluessel finden.", "", "&6Wofuer ist das wichtig?", "Hier wartet der letzte Boss."]
 			id: "7D0D6C18B03DD7EC"
-			title: "Der Slider"
-			rewards: [{ id: "A2C410228EB1B792", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "4F9126BC2BF2D5BF", type: "kill", entity: "aether:slider", value: 1L, icon: { id: "aether:bronze_dungeon_key" } }]
-			x: 11.0d
-			y: 7.5d
+			title: "Goldener Dungeon"
+			rewards: [{ id: "85E11E0DE4481563", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "2DA5D9FF8A5C6CDD", type: "item", item: { id: "aether:gold_dungeon_key", count: 1 }, count: 1L }]
+			x: 14.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7D0D6C18B03DD7EC"]
-			description: ["&6Was ist das?", "Valkyrien bewachen den Silbernen Dungeon. Besiege eine Valkyrie.", "", "&6So gehts", "Mit gutem Schwert kaempfen.", "", "&6Wofuer ist das wichtig?", "Valkyrie-Lanze und Ehre."]
+			description: ["&6Was ist das?", "Der Sonnengeist ist der letzte Boss des Aethers.", "", "&6So gehts", "Er wohnt im Goldenen Dungeon. Feuerresistenz und Eis-Items helfen.", "", "&6Wofuer ist das wichtig?", "Danach ist das Aether befreit und du bekommst die beste Aether-Beute."]
 			id: "AC29EDEF62C86114"
-			title: "Valkyrie"
-			rewards: [{ id: "295A2AA3C694BA1B", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "7871FB91E4A64A66", type: "kill", entity: "aether:valkyrie", value: 1L, icon: { id: "aether:valkyrie_lance" } }]
+			title: "Der Sonnenspirit"
+			rewards: [{ id: "C7C2F2CDC5AC5203", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "622A8F472AD5063A", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
 			x: 12.5d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["AC29EDEF62C86114"]
-			description: ["&6Was ist das?", "Die Valkyrie-Koenigin ist der Boss des Silbernen Dungeons.", "", "&6So gehts", "Besiege alle Valkyrien, dann fordert sie dich heraus.", "", "&6Wofuer ist das wichtig?", "Silber-Schluessel und Valkyrie-Ausruestung."]
+			dependencies: ["1FAE873C77C46E93"]
+			description: ["&6Was ist das?", "Skyroot-Werkzeug bringt mehr Drops von Aether-Bloecken.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Doppelte Drops von Aether-Bloecken."]
 			id: "273054D9EB980709"
-			title: "Valkyrie-Koenigin"
-			rewards: [{ id: "85E11E0DE4481563", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "2DA5D9FF8A5C6CDD", type: "kill", entity: "aether:valkyrie_queen", value: 1L, icon: { id: "aether:silver_dungeon_key" } }]
-			x: 14.0d
-			y: 7.5d
+			title: "Skyroot-Werkzeug"
+			rewards: [{ id: "74F590745EA2A033", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "329786E6B67CB790", type: "item", item: { id: "aether:skyroot_pickaxe", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["273054D9EB980709"]
-			description: ["&6Was ist das?", "Der Goldene Dungeon gehoert dem Sonnengeist. Du brauchst den goldenen Schluessel.", "", "&6So gehts", "Goldenen Schluessel finden.", "", "&6Wofuer ist das wichtig?", "Hier wartet der letzte Boss."]
+			description: ["&6Was ist das?", "Holystone-Werkzeug laesst manchmal Ambrosium fallen.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Laesst manchmal Ambrosium fallen."]
 			id: "BAF504FAF1630929"
-			title: "Goldener Dungeon"
-			rewards: [{ id: "8BB6BF94DD6946E2", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "3F37F198A5284DD0", type: "item", item: { id: "aether:gold_dungeon_key", count: 1 }, count: 1L }]
-			x: 14.0d
-			y: 9.0d
+			title: "Holystone-Werkzeug"
+			rewards: [{ id: "35106893A529CBCB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7F424582D5A57D95", type: "item", item: { id: "aether:holystone_pickaxe", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["BAF504FAF1630929"]
-			description: ["&6Was ist das?", "Der Sonnengeist ist der letzte Boss des Aethers.", "", "&6So gehts", "Er wohnt im Goldenen Dungeon. Feuerresistenz und Eis-Items helfen.", "", "&6Wofuer ist das wichtig?", "Danach ist das Aether befreit und du bekommst die beste Aether-Beute."]
+			description: ["&6Was ist das?", "Zanit-Werkzeug wird schneller, je mehr es abgenutzt ist.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Wird schneller, je abgenutzter es ist."]
 			id: "EEA54D76F8B335FE"
-			title: "Der Sonnenspirit"
-			rewards: [{ id: "6E7AE60364E24710", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "70EEBD6DF25C5D5C", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
-			x: 12.5d
-			y: 9.0d
+			title: "Zanit-Werkzeug"
+			rewards: [{ id: "55E4E3CF617E3F62", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "244C37C1BD7462C7", type: "item", item: { id: "aether:zanite_pickaxe", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["337552AA9F3ACCE2"]
-			description: ["&6Was ist das?", "Skyroot-Werkzeug bringt mehr Drops von Aether-Bloecken.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Doppelte Drops von Aether-Bloecken."]
+			dependencies: ["EEA54D76F8B335FE"]
+			description: ["&6Was ist das?", "Mit dem Altar verzauberst du Aether-Items mit Ambrosium.", "", "&6So gehts", "Item und Ambrosium einlegen.", "", "&6Wofuer ist das wichtig?", "Verzaubertes Gravitit und Heilsteine."]
 			id: "12DC1C3E8913D995"
-			title: "Skyroot-Werkzeug"
-			rewards: [{ id: "35106893A529CBCB", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "7F424582D5A57D95", type: "item", item: { id: "aether:skyroot_pickaxe", count: 1 }, count: 1L }]
-			x: 3.5d
+			title: "Altar"
+			rewards: [{ id: "8A36D7DF7552FEDC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8E338C1C905904C8", type: "item", item: { id: "aether:altar", count: 1 }, count: 1L }]
+			x: 8.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["12DC1C3E8913D995"]
-			description: ["&6Was ist das?", "Holystone-Werkzeug laesst manchmal Ambrosium fallen.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Laesst manchmal Ambrosium fallen."]
+			description: ["&6Was ist das?", "Mit dem Gefrierer machst du Eis-Items und Eisanhaenger.", "", "&6So gehts", "Item und Brennstoff einlegen.", "", "&6Wofuer ist das wichtig?", "Eis-Anhaenger und Eis-Ringe."]
 			id: "90A1CB5D29579B69"
-			title: "Holystone-Werkzeug"
-			rewards: [{ id: "55E4E3CF617E3F62", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "244C37C1BD7462C7", type: "item", item: { id: "aether:holystone_pickaxe", count: 1 }, count: 1L }]
-			x: 5.0d
+			title: "Gefrierer"
+			rewards: [{ id: "4F59BF4103C37FCA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "75B8F8E831BDE3E1", type: "item", item: { id: "aether:freezer", count: 1 }, count: 1L }]
+			x: 9.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["90A1CB5D29579B69"]
-			description: ["&6Was ist das?", "Zanit-Werkzeug wird schneller, je mehr es abgenutzt ist.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Wird schneller, je abgenutzter es ist."]
+			description: ["&6Was ist das?", "Im Bruetkasten bruetest du Moa-Eier aus.", "", "&6So gehts", "Ei und Ambrosium-Fackel hinein.", "", "&6Wofuer ist das wichtig?", "Dein eigenes Reittier."]
 			id: "181DB572BCCAB385"
-			title: "Zanit-Werkzeug"
-			rewards: [{ id: "8A36D7DF7552FEDC", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "8E338C1C905904C8", type: "item", item: { id: "aether:zanite_pickaxe", count: 1 }, count: 1L }]
-			x: 6.5d
+			title: "Bruetkasten"
+			rewards: [{ id: "74D083170A7BCB14", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "382B9490BA2BC003", type: "item", item: { id: "aether:incubator", count: 1 }, count: 1L }]
+			x: 11.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["181DB572BCCAB385"]
-			description: ["&6Was ist das?", "Mit dem Altar verzauberst du Aether-Items mit Ambrosium.", "", "&6So gehts", "Item und Ambrosium einlegen.", "", "&6Wofuer ist das wichtig?", "Verzaubertes Gravitit und Heilsteine."]
+			description: ["&6Was ist das?", "Verzaubertes Gravitit macht Gravitit-Werkzeug und -Ruestung.", "", "&6So gehts", "Gravitit im Altar verzaubern.", "", "&6Wofuer ist das wichtig?", "Gravitit-Werkzeug und -Ruestung."]
 			id: "F5A3BD16DFA86C5C"
-			title: "Altar"
-			rewards: [{ id: "4F59BF4103C37FCA", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "75B8F8E831BDE3E1", type: "item", item: { id: "aether:altar", count: 1 }, count: 1L }]
-			x: 8.0d
+			title: "Verzaubertes Gravitit"
+			rewards: [{ id: "38C22C2F7AAECE30", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "5095128055D0C94F", type: "item", item: { id: "aether:enchanted_gravitite", count: 1 }, count: 2L }]
+			x: 12.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["F5A3BD16DFA86C5C"]
-			description: ["&6Was ist das?", "Mit dem Gefrierer machst du Eis-Items und Eisanhaenger.", "", "&6So gehts", "Item und Brennstoff einlegen.", "", "&6Wofuer ist das wichtig?", "Eis-Anhaenger und Eis-Ringe."]
-			id: "27257B938760EA1E"
-			title: "Gefrierer"
-			rewards: [{ id: "74D083170A7BCB14", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "382B9490BA2BC003", type: "item", item: { id: "aether:freezer", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["27257B938760EA1E"]
-			description: ["&6Was ist das?", "Im Bruetkasten bruetest du Moa-Eier aus.", "", "&6So gehts", "Ei und Ambrosium-Fackel hinein.", "", "&6Wofuer ist das wichtig?", "Dein eigenes Reittier."]
-			id: "007313E47BFBBFBE"
-			title: "Bruetkasten"
-			rewards: [{ id: "38C22C2F7AAECE30", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "5095128055D0C94F", type: "item", item: { id: "aether:incubator", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["007313E47BFBBFBE"]
-			description: ["&6Was ist das?", "Verzaubertes Gravitit macht Gravitit-Werkzeug und -Ruestung.", "", "&6So gehts", "Gravitit im Altar verzaubern.", "", "&6Wofuer ist das wichtig?", "Gravitit-Werkzeug und -Ruestung."]
-			id: "7F8313E3B6B36172"
-			title: "Verzaubertes Gravitit"
-			rewards: [{ id: "5783FE28EAE68947", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "9E6B6B24BCA260A7", type: "item", item: { id: "aether:enchanted_gravitite", count: 1 }, count: 2L }]
-			x: 12.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["7F8313E3B6B36172"]
 			description: ["&6Was ist das?", "Mit der Gravitit-Spitzhacke laesst du Bloecke schweben.", "", "&6So gehts", "Rechtsklick auf einen Block.", "", "&6Wofuer ist das wichtig?", "Baumhilfe und Spass."]
-			id: "EB8641BE9DECBE89"
+			id: "27257B938760EA1E"
 			title: "Gravitit-Spitzhacke"
-			rewards: [{ id: "0284601ACDDCCBB2", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "1D7E299867651F96", type: "item", item: { id: "aether:gravitite_pickaxe", count: 1 }, count: 1L }]
+			rewards: [{ id: "5783FE28EAE68947", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "9E6B6B24BCA260A7", type: "item", item: { id: "aether:gravitite_pickaxe", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 11.0d
 		}
 		{
-			dependencies: ["673AD22C2CF89227"]
+			dependencies: ["FC788DDF32E00773"]
 			description: ["&6Was ist das?", "Im Aether traegst du Handschuhe im Zubehoer-Slot. Sie machen mehr Schaden.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Faustschaden."]
-			id: "C78F2DCD147B8AD5"
+			id: "007313E47BFBBFBE"
 			title: "Handschuhe"
-			rewards: [{ id: "08661011BD25CCBA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "73199C4CEFC78C7E", type: "item", item: { id: "aether:zanite_gloves", count: 1 }, count: 1L }]
+			rewards: [{ id: "0284601ACDDCCBB2", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1D7E299867651F96", type: "item", item: { id: "aether:zanite_gloves", count: 1 }, count: 1L }]
 			x: 6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["007313E47BFBBFBE"]
+			description: ["&6Was ist das?", "Ringe und Anhaenger geben Boni, z.B. Eis-Anhaenger friert Wasser.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Eis-Anhaenger friert Wasser und Lava."]
+			id: "7F8313E3B6B36172"
+			title: "Anhaenger und Ringe"
+			rewards: [{ id: "08661011BD25CCBA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "73199C4CEFC78C7E", type: "item", item: { id: "aether:ice_pendant", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7F8313E3B6B36172"]
+			description: ["&6Was ist das?", "Die goldene Feder laesst dich langsam fallen. Perfekt fuer das Aether.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Sicher im Aether."]
+			id: "EB8641BE9DECBE89"
+			title: "Goldene Feder"
+			rewards: [{ id: "5EC455171FDB9FF2", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "B4EDE0D4DC563A1F", type: "item", item: { id: "aether:golden_feather", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["EB8641BE9DECBE89"]
+			description: ["&6Was ist das?", "Der Wolkenstab ruft kleine Wolken, die fuer dich kaempfen.", "", "&6So gehts", "Benutzen.", "", "&6Wofuer ist das wichtig?", "Unterstuetzung im Kampf."]
+			id: "C78F2DCD147B8AD5"
+			title: "Wolkenstab"
+			rewards: [{ id: "B20D075637CE21AE", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "41B3E900A184BBD1", type: "item", item: { id: "aether:cloud_staff", count: 1 }, count: 1L }]
+			x: 11.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["C78F2DCD147B8AD5"]
-			description: ["&6Was ist das?", "Ringe und Anhaenger geben Boni, z.B. Eis-Anhaenger friert Wasser.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Eis-Anhaenger friert Wasser und Lava."]
+			description: ["&6Was ist das?", "Valkyrie-Werkzeug und -Ruestung bekommst du im Silbernen Dungeon.", "", "&6So gehts", "Im Dungeon finden.", "", "&6Wofuer ist das wichtig?", "Mehr Reichweite und Flug."]
 			id: "3CDF75A549A4527D"
-			title: "Anhaenger und Ringe"
-			rewards: [{ id: "5EC455171FDB9FF2", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "B4EDE0D4DC563A1F", type: "item", item: { id: "aether:ice_pendant", count: 1 }, count: 1L }]
-			x: 8.0d
+			title: "Valkyrie-Ausruestung"
+			rewards: [{ id: "1B06E12CC507D1D9", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "D211EE0BEC94DCB5", type: "item", item: { id: "aether:valkyrie_pickaxe", count: 1 }, count: 1L }]
+			x: 12.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["3CDF75A549A4527D"]
-			description: ["&6Was ist das?", "Die goldene Feder laesst dich langsam fallen. Perfekt fuer das Aether.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Sicher im Aether."]
+			description: ["&6Was ist das?", "Der Phoenix-Bogen setzt Gegner in Brand.", "", "&6So gehts", "Im Dungeon finden.", "", "&6Wofuer ist das wichtig?", "Starker Fernkampf."]
 			id: "D17F8800EA40AF6E"
-			title: "Goldene Feder"
-			rewards: [{ id: "B20D075637CE21AE", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "41B3E900A184BBD1", type: "item", item: { id: "aether:golden_feather", count: 1 }, count: 1L }]
-			x: 9.5d
+			title: "Phoenix-Bogen"
+			rewards: [{ id: "8BB6BF94DD6946E2", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "3F37F198A5284DD0", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
+			x: 14.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["D17F8800EA40AF6E"]
-			description: ["&6Was ist das?", "Der Wolkenstab ruft kleine Wolken, die fuer dich kaempfen.", "", "&6So gehts", "Benutzen.", "", "&6Wofuer ist das wichtig?", "Unterstuetzung im Kampf."]
-			id: "F88E0926C2B8388F"
-			title: "Wolkenstab"
-			rewards: [{ id: "1B06E12CC507D1D9", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "D211EE0BEC94DCB5", type: "item", item: { id: "aether:cloud_staff", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["F88E0926C2B8388F"]
-			description: ["&6Was ist das?", "Valkyrie-Werkzeug und -Ruestung bekommst du im Silbernen Dungeon.", "", "&6So gehts", "Im Dungeon finden.", "", "&6Wofuer ist das wichtig?", "Mehr Reichweite und Flug."]
-			id: "CAD63EDBCD0C1AB4"
-			title: "Valkyrie-Ausruestung"
-			rewards: [{ id: "B6C603FB0549E9ED", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "79789C3D14F3E186", type: "item", item: { id: "aether:valkyrie_pickaxe", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["CAD63EDBCD0C1AB4"]
-			description: ["&6Was ist das?", "Der Phoenix-Bogen setzt Gegner in Brand.", "", "&6So gehts", "Im Dungeon finden.", "", "&6Wofuer ist das wichtig?", "Starker Fernkampf."]
-			id: "2B4D98C4F025D8D6"
-			title: "Phoenix-Bogen"
-			rewards: [{ id: "74F590745EA2A033", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "329786E6B67CB790", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
-			x: 14.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["2B4D98C4F025D8D6"]
 			description: ["&6Was ist das?", "Die Phoenix-Ruestung schuetzt vor Feuer und Lava.", "", "&6So gehts", "Im Goldenen Dungeon.", "", "&6Wofuer ist das wichtig?", "Schwimmen in Lava."]
-			id: "244F10A1AC238552"
+			id: "F88E0926C2B8388F"
 			title: "Phoenix-Ruestung"
-			rewards: [{ id: "C9C746839C847AF8", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "FFC453C5834A2EEB", type: "item", item: { id: "aether:phoenix_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "B6C603FB0549E9ED", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "79789C3D14F3E186", type: "item", item: { id: "aether:phoenix_chestplate", count: 1 }, count: 1L }]
 			x: 15.5d
 			y: 13.0d
 		}
 		{
-			dependencies: ["244F10A1AC238552"]
+			dependencies: ["F88E0926C2B8388F"]
 			description: ["&6Was ist das?", "Die Neptun-Ruestung macht dich unter Wasser schnell.", "", "&6So gehts", "Im Dungeon.", "", "&6Wofuer ist das wichtig?", "Schnell unter Wasser."]
-			id: "66574B53D962C7E3"
+			id: "CAD63EDBCD0C1AB4"
 			title: "Neptun-Ruestung"
-			rewards: [{ id: "68C4D78868B9B7DE", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "624E4417A7EDE581", type: "item", item: { id: "aether:neptune_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "C9C746839C847AF8", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "FFC453C5834A2EEB", type: "item", item: { id: "aether:neptune_chestplate", count: 1 }, count: 1L }]
 			x: 17.0d
 			y: 13.0d
 		}
 		{
-			dependencies: ["66574B53D962C7E3"]
+			dependencies: ["CAD63EDBCD0C1AB4"]
 			description: ["&6Was ist das?", "Die Lebensscherbe gibt dir ein zusaetzliches Herz.", "", "&6So gehts", "Benutzen.", "", "&6Wofuer ist das wichtig?", "Mehr Leben fuer immer."]
-			id: "0AAC6B32022C69CA"
+			id: "2B4D98C4F025D8D6"
 			title: "Lebensscherbe"
-			rewards: [{ id: "36DFDABF9C7B87B2", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "4C309F7884CD8B53", type: "item", item: { id: "aether:life_shard", count: 1 }, count: 1L }]
+			rewards: [{ id: "68C4D78868B9B7DE", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "624E4417A7EDE581", type: "item", item: { id: "aether:life_shard", count: 1 }, count: 1L }]
 			x: 18.5d
 			y: 13.0d
 		}
 		{
-			dependencies: ["6045835D096A13DD"]
+			dependencies: ["F35970B7FA448693"]
 			description: ["&6Was ist das?", "Ruestung aus Zanit.", "", "&6So gehts", "Zanit-Edelsteine in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Guter Schutz im Aether."]
 			icon: { id: "aether:zanite_chestplate" }
-			id: "BFE62517E0289853"
+			id: "244F10A1AC238552"
 			title: "Zanit-Ruestung"
-			rewards: [{ id: "A0868AB631C4B9EB", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "688C1B41B1514BE8", type: "item", item: { id: "aether:zanite_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "F40AAC079D1D8150", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "23962D66CFBEC1F0", type: "item", item: { id: "aether:zanite_chestplate", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 15.0d
 		}
 		{
-			dependencies: ["BFE62517E0289853"]
+			dependencies: ["244F10A1AC238552"]
 			description: ["&6Was ist das?", "Ruestung aus Gravitit.", "", "&6So gehts", "Verzaubertes Gravitit in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Mit dem ganzen Set springst du sehr hoch."]
 			icon: { id: "aether:gravitite_chestplate" }
-			id: "EF3DB9BB236188D4"
+			id: "66574B53D962C7E3"
 			title: "Gravitit-Ruestung"
-			rewards: [{ id: "F9288E7CC28FEF52", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9B7483F30FE87F3E", type: "item", item: { id: "aether:gravitite_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "A0868AB631C4B9EB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "688C1B41B1514BE8", type: "item", item: { id: "aether:gravitite_chestplate", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 15.0d
 		}
 		{
-			dependencies: ["EF3DB9BB236188D4"]
+			dependencies: ["66574B53D962C7E3"]
 			description: ["&6Was ist das?", "Ein Stein, der dich heilt.", "", "&6So gehts", "Holystone im Altar verzaubern.", "", "&6Wofuer ist das wichtig?", "Heilung ohne Essen."]
 			icon: { id: "aether:healing_stone" }
-			id: "DC7C871A82D59A88"
+			id: "0AAC6B32022C69CA"
 			title: "Heilstein"
-			rewards: [{ id: "EE51663A3B76AF51", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "39794AF61469C3F4", type: "item", item: { id: "aether:healing_stone", count: 1 }, count: 1L }]
+			rewards: [{ id: "F9288E7CC28FEF52", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9B7483F30FE87F3E", type: "item", item: { id: "aether:healing_stone", count: 1 }, count: 1L }]
 			x: 12.5d
 			y: 15.0d
 		}
 		{
-			dependencies: ["DC7C871A82D59A88"]
+			dependencies: ["0AAC6B32022C69CA"]
 			description: ["&6Was ist das?", "Seltene Schwerter aus Aether-Dungeons: Vampirklinge, Blitzschwert, Feuerschwert.", "", "&6So gehts", "In Dungeon-Truhen finden.", "", "&6Wofuer ist das wichtig?", "Besondere Faehigkeiten wie Lebensraub."]
 			icon: { id: "aether:vampire_blade" }
-			id: "DFE75EE2333EEFE6"
+			id: "BFE62517E0289853"
 			title: "Aether-Schwerter"
-			rewards: [{ id: "241093BD6D6929C2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9C5D79949C638EF9", type: "item", item: { id: "aether:vampire_blade", count: 1 }, count: 1L }]
+			rewards: [{ id: "EE51663A3B76AF51", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "39794AF61469C3F4", type: "item", item: { id: "aether:vampire_blade", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 15.0d
 		}
 		{
-			dependencies: ["FC788DDF32E00773"]
+			dependencies: ["66E57CCD2D7C1EA0"]
 			description: ["&6Was ist das?", "Der Fallschirm rettet dich vor dem Sturz.", "", "&6So gehts", "Benutzen, wenn du faellst.", "", "&6Wofuer ist das wichtig?", "Rettet dich vor dem Sturz."]
-			id: "3DBD09A6D848B618"
+			id: "EF3DB9BB236188D4"
 			title: "Wolkenparachut"
-			rewards: [{ id: "0911911C87E4E2E4", type: "item", item: { id: "minecraft:feather", count: 8 } }]
-			tasks: [{ id: "5DA07B4CE34074EA", type: "item", item: { id: "aether:cold_parachute", count: 1 }, count: 1L }]
+			rewards: [{ id: "1622F59406527466", type: "item", item: { id: "minecraft:feather", count: 8 } }]
+			tasks: [{ id: "21BEB3559DB7494D", type: "item", item: { id: "aether:cold_parachute", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 17.0d
 		}
 		{
-			dependencies: ["3DBD09A6D848B618"]
+			dependencies: ["EF3DB9BB236188D4"]
 			description: ["&6Was ist das?", "Moas sind die Reittiere des Aethers. Sie koennen mehrfach springen.", "", "&6So gehts", "Moa-Ei im Bruetkasten ausbrueten.", "", "&6Wofuer ist das wichtig?", "Moas springen hoch und gleiten."]
-			id: "AD49A6EFD48432B9"
+			id: "DC7C871A82D59A88"
 			title: "Die Moa"
-			rewards: [{ id: "8A1D24D3BD8FDFEB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "6527E366163C19CC", type: "checkmark" }]
+			rewards: [{ id: "0911911C87E4E2E4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5DA07B4CE34074EA", type: "checkmark" }]
 			x: 3.5d
 			y: 17.0d
 		}
 		{
-			dependencies: ["AD49A6EFD48432B9"]
+			dependencies: ["DC7C871A82D59A88"]
 			description: ["&6Was ist das?", "Protect Your Moa: Ruestung fuer deine Moa.", "", "&6So gehts", "Rezept in JEI, der Moa anlegen.", "", "&6Wofuer ist das wichtig?", "Deine Moa ueberlebt Kaempfe im Aether."]
 			icon: { id: "aether_protect_your_moa:zanite_moa_armor" }
-			id: "372BFA74489C956D"
+			id: "DFE75EE2333EEFE6"
 			title: "Moa-Ruestung"
-			rewards: [{ id: "ABDC08182F7739E8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "77CCCC73177623FD", type: "item", item: { id: "aether_protect_your_moa:zanite_moa_armor", count: 1 }, count: 1L }]
+			rewards: [{ id: "E9AA193A54794634", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "16ADCB23FABD2A01", type: "item", item: { id: "aether_protect_your_moa:zanite_moa_armor", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 17.0d
 		}
 		{
-			dependencies: ["372BFA74489C956D"]
+			dependencies: ["DFE75EE2333EEFE6"]
 			description: ["&6Was ist das?", "Zephyrs sind Wolkenwesen, die dich wegblasen.", "", "&6So gehts", "Mit Bogen kaempfen.", "", "&6Wofuer ist das wichtig?", "Kalte Wolken."]
-			id: "2B41B5BDFB0B052B"
+			id: "3DBD09A6D848B618"
 			title: "Zephyr"
-			rewards: [{ id: "37559E0A147D7BF0", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9F91177713C8AB0B", type: "kill", entity: "aether:zephyr", value: 1L, icon: { id: "aether:cold_aercloud" } }]
+			rewards: [{ id: "36DFDABF9C7B87B2", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4C309F7884CD8B53", type: "kill", entity: "aether:zephyr", value: 1L, icon: { id: "aether:cold_aercloud" } }]
 			x: 6.5d
 			y: 17.0d
 		}
 		{
-			dependencies: ["2B41B5BDFB0B052B"]
+			dependencies: ["3DBD09A6D848B618"]
 			description: ["&6Was ist das?", "Cockatrices sind giftige Voegel in der Nacht.", "", "&6So gehts", "Vorsichtig kaempfen.", "", "&6Wofuer ist das wichtig?", "Giftpfeile."]
-			id: "DB4445805042C157"
+			id: "AD49A6EFD48432B9"
 			title: "Cockatrice"
-			rewards: [{ id: "BC81269AEF0D09F5", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9A38232CE6DAD25D", type: "kill", entity: "aether:cockatrice", value: 1L, icon: { id: "aether:poison_dart" } }]
+			rewards: [{ id: "37559E0A147D7BF0", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9F91177713C8AB0B", type: "kill", entity: "aether:cockatrice", value: 1L, icon: { id: "aether:poison_dart" } }]
 			x: 8.0d
 			y: 17.0d
 		}
 		{
-			dependencies: ["137FF82BB8A158CB"]
+			dependencies: ["F401972C5AB547B3"]
 			description: ["&6Was ist das?", "Das Zeitalter der Welten hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Zwielichtwald, Zwielicht-Schmiede, Zwielicht-Beute, Aether, Aether-Werkstatt, Aether-Ausruestung, Aether-Schaetze, Aether-Leben.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
 			icon: { id: "twilightforest:magic_map" }
-			id: "696A20D593371128"
+			id: "760DF08E063B1E50"
 			title: "Beginn: Zeitalter der Welten"
-			rewards: [{ id: "1EFE3DB449F102E0", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "615E21CD98E6C777", type: "checkmark" }]
+			rewards: [{ id: "4D7083D0EC9DB8F0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "178C2653F0F644AB", type: "checkmark" }]
 			x: 0.0d
 			y: 8.5d
 		}
 		{
-			dependencies: ["9390C205C2E23363", "EEA54D76F8B335FE"]
+			dependencies: ["F60D13AF5AC8E152", "AC29EDEF62C86114"]
 			description: ["&6Was ist das?", "Hier beginnt das Druckluft-Zeitalter. Es schaltet frei:", "PneumaticCraft und die Flugzeuge von Immersive Aircraft.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "pneumaticcraft:air_compressor" }
-			id: "EA28EAEEB4C3AB3E"
+			id: "372BFA74489C956D"
 			title: "Zeitalter: Druckluft-Zeitalter"
-			rewards: [{ id: "68D53AC2D68F9459", type: "historystages:history_stage", stage: "druckluftzeit", remove: false, individual: false }, { id: "C5CE286B164AF3D1", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "5EFD029C34BA090D", type: "checkmark" }]
+			rewards: [{ id: "DB4445805042C157", type: "historystages:history_stage", stage: "druckluftzeit", remove: false, individual: false }, { id: "EA28EAEEB4C3AB3E", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "2B41B5BDFB0B052B", type: "checkmark" }]
 			x: 21.0d
 			y: 8.5d
 		}
