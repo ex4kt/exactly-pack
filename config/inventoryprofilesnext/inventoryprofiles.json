@@ -1,15 +1,19 @@
 {
     "ModSettings": {
-        "first_run": false
+        "first_run": false,
+        "enable_profiles": false
     },
     "GuiSettings": {
-        "continuous_crafting_saved_value": false
+        "continuous_crafting_saved_value": false,
+        "enable_profiles_ui": false
     },
     "AutoRefillSettings": {
         "visual_durability_notification": true,
         "type_visual_durability_notification": "HOTBAR",
         "audio_durability_notification": false,
         "audio_replace_success_notification": false,
-        "audio_replace_failed_notification": false
+        "audio_replace_failed_notification": false,
+        "auto_refill_enable_indicator_icons": false,
+        "auto_refill_enable_horbar_indicator_icons": false
     }
 }
