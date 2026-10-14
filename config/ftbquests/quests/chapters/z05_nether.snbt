@@ -19,6 +19,28 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["800501DF52A84BF3"]
+			description: ["&6Was ist das?", "Komparatoren messen Fuellstaende von Kisten und Oefen und vergleichen Signale.", "", "&6So gehts", "Quarz aus dem Nether, Redstone und Fackeln.", "", "&6Wofuer ist das wichtig?", "Aufbauend auf der Redstone-Technik der Eisenzeit."]
+			icon: { id: "minecraft:comparator" }
+			id: "B5C0A00000000001"
+			title: "Komparator"
+			rewards: [{ id: "B5C1A00000000001", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B5C2A00000000001", type: "item", item: { id: "minecraft:comparator", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["B5C0A00000000001"]
+			description: ["&6Was ist das?", "Der Beobachter gibt ein Signal, wenn sich ein Block vor ihm aendert. Perfekt fuer Farmen.", "", "&6So gehts", "Quarz aus dem Nether, Redstone und Fackeln.", "", "&6Wofuer ist das wichtig?", "Aufbauend auf der Redstone-Technik der Eisenzeit."]
+			icon: { id: "minecraft:observer" }
+			id: "B5C0A00000000002"
+			title: "Beobachter"
+			rewards: [{ id: "B5C1A00000000002", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B5C2A00000000002", type: "item", item: { id: "minecraft:observer", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
 			dependencies: ["CE5BD4F55EE63ED8"]
 			description: ["&6Was ist das?", "Netherquarz findest du in Netherrack. Gut fuer Bauten und Redstone.", "", "&6So gehts", "Abbauen, mit Glueck gibt es mehr.", "", "&6Wofuer ist das wichtig?", "Fuer Komparatoren, Beobachter, Create-Rosenquarz und schoene Bauten."]
 			id: "800501DF52A84BF3"
