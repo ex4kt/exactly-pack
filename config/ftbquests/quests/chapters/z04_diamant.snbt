@@ -964,5 +964,36 @@
 			x: 9.0d
 			y: 36.0d
 		}
+		{
+			dependencies: ["35D9C17C3DF9768D"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Der Skeleton Thrasher ist ein starker Mini-Boss aus Born in Chaos, der mit Knochen zuschlaegt.", "", "&6So gehts", "Diamantruestung, Schild, Heiltraenke. Er taucht nachts auf, achte auf die Warnung im Chat.", "", "&6Wofuer ist das wichtig?", "Mini-Boss der Diamantzeit."]
+			id: "355464D06A7878DB"
+			title: "Skelett-Drescher"
+			rewards: [{ id: "3FA5CE964A8512D8", type: "xp_levels", xp_levels: 6 }, { id: "01419DC89BD51632", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			tasks: [{ id: "4633A99AF144195F", type: "kill", entity: "born_in_chaos_v1:skeleton_thrasher", value: 1L, icon: { id: "minecraft:bone_block" } }]
+			x: 1.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["355464D06A7878DB"]
+			description: ["&6Was ist das?", "Die Mutter der Spinnen ruft Spinnenbrut zur Hilfe.", "", "&6So gehts", "Diamantruestung, Schwert mit Insektenvernichter oder Schaerfe, Heiltraenke. Raeume zuerst die Brut.", "", "&6Wofuer ist das wichtig?", "Boss der Hoehlen in der Diamantzeit."]
+			id: "17F142CF760D2E26"
+			title: "Spinnenmutter"
+			rewards: [{ id: "19530A0C2737BA78", type: "xp_levels", xp_levels: 8 }, { id: "22ABFBD005F6E7DC", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "509A58DF59AE3414", type: "kill", entity: "born_in_chaos_v1:mother_spider", value: 1L, icon: { id: "minecraft:spider_eye" } }]
+			x: 3.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["17F142CF760D2E26"]
+			description: ["&6Was ist das?", "Lord Pumpkinhead reitet auf seinem Pferd und fordert dich in der Nacht heraus.", "", "&6So gehts", "Diamantruestung, Schild, Bogen, Goldaepfel. Zuerst vom Pferd holen.", "", "&6Wofuer ist das wichtig?", "Hauptboss von Born in Chaos in der Diamantzeit."]
+			id: "67A7699F7FCE042E"
+			title: "Kuerbiskopf-Lord"
+			rewards: [{ id: "43927A089930E0EB", type: "xp_levels", xp_levels: 10 }, { id: "51A9AF82785ABE71", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
+			tasks: [{ id: "56E909CB297E4CCF", type: "kill", entity: "born_in_chaos_v1:lord_pumpkinhead", value: 1L, icon: { id: "minecraft:jack_o_lantern" } }]
+			x: 4.5d
+			y: 38.0d
+		}
 	]
 }
