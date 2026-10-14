@@ -15,7 +15,7 @@
 			title: "Diamant-Ausruestung"
 			rewards: [{ id: "04CF41EB62772C30", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "586642040DF2A94C", type: "item", item: { id: "minecraft:diamond_pickaxe", count: 1 }, count: 1L }]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -26,7 +26,7 @@
 			title: "Diamantschwert"
 			rewards: [{ id: "A5001546B29BC911", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "F64621C434077C7C", type: "item", item: { id: "minecraft:diamond_sword", count: 1 }, count: 1L }]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -37,7 +37,7 @@
 			title: "Diamantruestung"
 			rewards: [{ id: "B1C4F93BB74827F9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2BBAC307BD308F25", type: "item", item: { id: "minecraft:diamond_chestplate", count: 1 }, count: 1L }]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -47,18 +47,18 @@
 			title: "Schmiedetisch"
 			rewards: [{ id: "CC908D891E7840CD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B2DEE7CC1159E08", type: "item", item: { id: "minecraft:smithing_table", count: 1 }, count: 1L }]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2DEDA3D57FB89524"]
+			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plaetze.", "", "&6So gehts", "Gold-Rucksack mit Diamanten aufwerten.", "", "&6Wofuer ist das wichtig?", "Viele Plaetze und Upgrade-Slots fuer lange Reisen."]
 			id: "797F4B8218472B01"
 			title: "Diamant-Rucksack"
 			rewards: [{ id: "5D4AAFCD0EDD8F2A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "3A7455BE178F4B31", type: "item", item: { id: "sophisticatedbackpacks:diamond_backpack", count: 1 }, count: 1L }]
-			x: 8.0d
-			y: 0.0d
+			x: 4.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["797F4B8218472B01"]
@@ -67,8 +67,8 @@
 			title: "Monsterfreie Zone"
 			rewards: [{ id: "C9DF67395A0746D5", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "5C978FDFFC271000", type: "item", item: { id: "magnumtorch:diamond_magnum_torch", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 0.0d
+			x: 6.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
@@ -78,8 +78,8 @@
 			title: "Diamanthammer"
 			rewards: [{ id: "91A619988FF4F854", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "70175AE0EB9EB6EA", type: "item", item: { id: "justhammers:diamond_hammer", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["598824065CC1F63B"]
@@ -89,18 +89,18 @@
 			title: "Verstaerkte Diamant-Spitzhacke"
 			rewards: [{ id: "9AE0C97E69F5B916", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "DA97DA003B53F405", type: "item", item: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 22.0d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
+			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Buecherregale im Abstand von einem Block darum herum machen die Verzauberungen staerker.", "Lapis und Erfahrung zahlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Glueck und Haltbarkeit machen dich viel schneller und sparen Material."]
 			id: "EA1937E326ECAA34"
 			title: "Der Verzauberungstisch"
 			rewards: [{ id: "E6766B326E27C88C", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
 			tasks: [{ id: "108E99E367ADB315", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 4.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["EA1937E326ECAA34"]
@@ -110,8 +110,8 @@
 			title: "Apothic Enchanting"
 			rewards: [{ id: "59E9963E549C5FF8", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "675BE451169A1D81", type: "checkmark" }]
-			x: 3.5d
-			y: 4.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1DB3F417D7AE0137"]
@@ -120,8 +120,8 @@
 			title: "Verzauberung uebertragen"
 			rewards: [{ id: "E703012034EBF3FC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "F56E1CAE48E3BBFE", type: "checkmark" }]
-			x: 5.0d
-			y: 4.0d
+			x: 9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["79245A87CC32FE72"]
@@ -130,8 +130,8 @@
 			title: "XP speichern"
 			rewards: [{ id: "930BEE2D26ADDEE1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "DA0278EE9813F74C", type: "checkmark" }]
-			x: 6.5d
-			y: 4.0d
+			x: 10.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0FD6302A9ABCCF31"]
@@ -141,8 +141,8 @@
 			title: "Veinminer-Verzauberung"
 			rewards: [{ id: "05CA28B6C57B677E", type: "item", item: { id: "minecraft:enchanted_book", count: 1, components: { "minecraft:stored_enchantments": { levels: { "veinminer_enchantment:veinminer": 1 } } } } }]
 			tasks: [{ id: "84FF3BA89635C63E", type: "checkmark" }]
-			x: 8.0d
-			y: 4.0d
+			x: 12.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["37407FF743621E7E"]
@@ -151,8 +151,8 @@
 			title: "Glueck (Fortune)"
 			rewards: [{ id: "4DD145F7248AA806", type: "item", item: { id: "minecraft:lapis_lazuli", count: 8 } }]
 			tasks: [{ id: "0EDE54BC06F9109D", type: "checkmark" }]
-			x: 9.5d
-			y: 4.0d
+			x: 13.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["08E13C4778BBECAD"]
@@ -161,8 +161,8 @@
 			title: "Seidenberuehrung"
 			rewards: [{ id: "DB4F863AF5C1C117", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2AC6DFDF11A53533", type: "checkmark" }]
-			x: 11.0d
-			y: 4.0d
+			x: 15.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["91E8A6B0F51FAF9A"]
@@ -171,8 +171,8 @@
 			title: "Reparieren"
 			rewards: [{ id: "892F03F072D903FD", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "FD3808F897156549", type: "checkmark" }]
-			x: 12.5d
-			y: 4.0d
+			x: 16.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["EA1937E326ECAA34"]
@@ -182,8 +182,8 @@
 			title: "Buecherregale"
 			rewards: [{ id: "F9B594743A14BA59", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6500D6CE1A353583", type: "item", item: { id: "minecraft:bookshelf", count: 1 }, count: 15L }]
-			x: 2.0d
-			y: 6.0d
+			x: 7.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["999FFF49CD1EB4D7"]
@@ -193,8 +193,8 @@
 			title: "Regal-Vielfalt"
 			rewards: [{ id: "0C61EBD1DCD25736", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "AEDA4F82D0E261A0", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 6.0d
+			x: 9.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["F08205C7384CDCCB"]
@@ -204,8 +204,8 @@
 			title: "Bibliothek"
 			rewards: [{ id: "F04E43BF1BD715D5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "49A48EFF187865E1", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 6.0d
+			x: 10.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["D85069A372830FBE"]
@@ -215,28 +215,28 @@
 			title: "Schrott-Buch"
 			rewards: [{ id: "DC243420DB3D17DC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "C7DC6672D6F544B7", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 6.0d
+			x: 12.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
+			dependencies: ["1DB3F417D7AE0137"]
 			description: ["&6Was ist das?", "Obsidian brauchst du fuer Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch fuer Verzauberungstisch und Enderkisten."]
 			id: "1512FC1565ADD973"
 			title: "Obsidian"
 			rewards: [{ id: "0F084224ABF2B814", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "F3FAEDFAAFEB70F5", type: "item", item: { id: "minecraft:obsidian", count: 1 }, count: 10L }]
-			x: 2.0d
-			y: 8.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
+			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Der Warden ist blind, hoert aber jedes Geraeusch. Er ist staerker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Staedte). Schleiche und wirf Schneebaelle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausruestung und Heiltraenken.", "", "&6Wofuer ist das wichtig?", "Antike Staedte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Ruestungsdesigns."]
 			id: "C6CCB906F124D28F"
 			title: "Der Waechter der Tiefe"
 			rewards: [{ id: "6126F822FCD62ACF", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
 			tasks: [{ id: "1317427E80675D00", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
-			x: 2.0d
-			y: 10.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["C6CCB906F124D28F"]
@@ -245,8 +245,8 @@
 			title: "Das Waldanwesen"
 			rewards: [{ id: "63F207EFFC388F04", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "F8571C0296574BEB", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 10.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["671BE8F3FAC5BA64"]
@@ -255,8 +255,8 @@
 			title: "Der Illager-Magier"
 			rewards: [{ id: "5D0184279585879A", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "89DBAC673C58ACC9", type: "kill", entity: "illagerinvasion:invoker", value: 1L, icon: { id: "minecraft:totem_of_undying" } }]
-			x: 5.0d
-			y: 10.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["A8A3BF474A3DAD83"]
@@ -266,8 +266,8 @@
 			title: "Raid-Magier"
 			rewards: [{ id: "D2C91E9D69BF8578", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "115329C8A0F50375", type: "kill", entity: "raided:necromancer", value: 1L, icon: { id: "raided:necromancer_spawn_egg" } }]
-			x: 6.5d
-			y: 10.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["A8A3BF474A3DAD83"]
@@ -277,8 +277,8 @@
 			title: "Platin"
 			rewards: [{ id: "006BBCB5B75D46F5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "627EDD05B260FBC8", type: "item", item: { id: "illagerinvasion:platinum_sheet", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 12.0d
+			x: 13.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["AE94843629745192"]
@@ -288,19 +288,19 @@
 			title: "Verstaerkungstisch"
 			rewards: [{ id: "6E37824A61358204", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "D6729831840362B6", type: "item", item: { id: "illagerinvasion:imbuing_table", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 12.0d
+			x: 15.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
+			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Pruefungskammern sind unterirdische Kampfraeume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner fuer Schluessel.", "", "&6Wofuer ist das wichtig?", "Mit Schluesseln oeffnest du Tresore voller Beute."]
 			icon: { id: "minecraft:trial_key" }
 			id: "FE2B33B7603D40F5"
 			title: "Pruefungskammern"
 			rewards: [{ id: "F5A528185DEA2A16", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "B2CE71A9811D46BC", type: "item", item: { id: "minecraft:trial_key", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 14.0d
+			x: 6.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["FE2B33B7603D40F5"]
@@ -310,8 +310,8 @@
 			title: "Breeze-Rute"
 			rewards: [{ id: "07EBC892038A3F7E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "93A18DFB19C234C7", type: "item", item: { id: "minecraft:breeze_rod", count: 1 }, count: 4L }]
-			x: 3.5d
-			y: 14.0d
+			x: 7.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["E9E23A1A1A12703F"]
@@ -321,8 +321,8 @@
 			title: "Streitkolben"
 			rewards: [{ id: "079AC59197144581", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0B40C9325E39CF50", type: "item", item: { id: "minecraft:mace", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 14.0d
+			x: 9.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["EE47EDEFE093DFA2"]
@@ -332,18 +332,18 @@
 			title: "Echo-Splitter"
 			rewards: [{ id: "E89C5C2A23747EEF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1D270BB74B6D4061", type: "item", item: { id: "minecraft:echo_shard", count: 1 }, count: 4L }]
-			x: 6.5d
-			y: 14.0d
+			x: 10.5d
+			y: 16.0d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
+			dependencies: ["C6CCB906F124D28F"]
 			description: ["&6Was ist das?", "Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee.", "", "&6So gehts", "In der Welt suchen.", "", "&6Wofuer ist das wichtig?", "Einzigartige Beute."]
 			id: "C4F6C760BF420ED1"
 			title: "Mowzies Mobs"
 			rewards: [{ id: "A5EF2C355B467E12", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "00F52A429D471600", type: "checkmark" }]
-			x: 2.0d
-			y: 16.0d
+			x: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["C4F6C760BF420ED1"]
@@ -352,8 +352,8 @@
 			title: "Die Frostmaw"
 			rewards: [{ id: "E36746B4C9F75EAA", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "3F8658FBA1412C68", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L, icon: { id: "mowziesmobs:ice_crystal" } }]
-			x: 3.5d
-			y: 16.0d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["FEA0BAA58FA635D5"]
@@ -362,8 +362,8 @@
 			title: "Der Eisenschmetterer"
 			rewards: [{ id: "4B737ADC349C885C", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "B242D9A153407239", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "mowziesmobs:wrought_axe" } }]
-			x: 5.0d
-			y: 16.0d
+			x: 13.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1369046F14D5434E"]
@@ -372,8 +372,8 @@
 			title: "Der Sonnenhaeuptling"
 			rewards: [{ id: "5629662047E90E8D", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "696F74A495101ACA", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
-			x: 6.5d
-			y: 16.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["B893EFB19ADCD0D5"]
@@ -382,8 +382,8 @@
 			title: "Der Bildhauer"
 			rewards: [{ id: "C48F06B7E1546941", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "B7350E8711A3D61B", type: "kill", entity: "mowziesmobs:sculptor", value: 1L, icon: { id: "mowziesmobs:sculptor_staff" } }]
-			x: 8.0d
-			y: 16.0d
+			x: 16.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["C4F6C760BF420ED1"]
@@ -392,8 +392,8 @@
 			title: "Erdbrecher-Handschuh"
 			rewards: [{ id: "F383CFB030E3E572", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "A89496C44D05F1F9", type: "item", item: { id: "mowziesmobs:earthrend_gauntlet", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 18.0d
+			x: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["ABBAC96185F57A21"]
@@ -402,8 +402,8 @@
 			title: "Sonnen-Maske"
 			rewards: [{ id: "BD282A1BC819896E", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "FD4ACD59615A3606", type: "item", item: { id: "mowziesmobs:sol_visage", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 18.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["682527776DB20343"]
@@ -412,8 +412,8 @@
 			title: "Bildhauer-Stab"
 			rewards: [{ id: "08802EF5C9E3CC1D", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "6D61D4C1DFCB91CD", type: "item", item: { id: "mowziesmobs:sculptor_staff", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 18.0d
+			x: 13.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["971142888F424C4D"]
@@ -422,8 +422,8 @@
 			title: "Geomanten-Robe"
 			rewards: [{ id: "727831C5BB7F9407", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "EFF2D7C1F0F14B76", type: "item", item: { id: "mowziesmobs:geomancer_robe", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 18.0d
+			x: 15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["9D042B22333EE304"]
@@ -432,17 +432,17 @@
 			title: "Blasrohr"
 			rewards: [{ id: "9EC32CDC3A710D8B", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "C95E6ED477F06A32", type: "item", item: { id: "mowziesmobs:blowgun", count: 1 }, count: 1L }]
-			x: 8.0d
-			y: 18.0d
+			x: 16.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["B9C4F0B1BC7F2746"]
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			id: "9D92200E5ED0F9A4"
 			title: "Diamant-Langschwert"
 			rewards: [{ id: "5177F28B73ED22EA", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "F5CEEEA7F9A84426", type: "item", item: { id: "weaponsexpanded:diamond_longsword", count: 1 }, count: 1L }]
-			x: 3.5d
+			x: 3.0d
 			y: 20.0d
 		}
 		{
@@ -452,7 +452,7 @@
 			title: "Diamant-Breitschwert"
 			rewards: [{ id: "C87D3DDDD06B0D5D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "820AC30518E84F3E", type: "item", item: { id: "weaponsexpanded:diamond_broadsword", count: 1 }, count: 1L }]
-			x: 5.0d
+			x: 4.5d
 			y: 20.0d
 		}
 		{
@@ -462,7 +462,7 @@
 			title: "Diamant-Grossschwert"
 			rewards: [{ id: "0019A06A53CBD543", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "B0F1389102673078", type: "item", item: { id: "weaponsexpanded:diamond_greatsword", count: 1 }, count: 1L }]
-			x: 6.5d
+			x: 6.0d
 			y: 20.0d
 		}
 		{
@@ -472,7 +472,7 @@
 			title: "Diamant-Katana"
 			rewards: [{ id: "9DA0BB2BA4B0BE3A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "31C3F2A3E6D1759D", type: "item", item: { id: "weaponsexpanded:diamond_katana", count: 1 }, count: 1L }]
-			x: 8.0d
+			x: 7.5d
 			y: 20.0d
 		}
 		{
@@ -482,7 +482,7 @@
 			title: "Diamant-Kampfaxt"
 			rewards: [{ id: "9F1FA487F19B6970", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "D242338D6EB42530", type: "item", item: { id: "weaponsexpanded:diamond_battleaxe", count: 1 }, count: 1L }]
-			x: 9.5d
+			x: 9.0d
 			y: 20.0d
 		}
 		{
@@ -492,7 +492,7 @@
 			title: "Diamant-Beil"
 			rewards: [{ id: "0A7CC3F8AC21AD6C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "234417955DAD0D84", type: "item", item: { id: "weaponsexpanded:diamond_hatchet", count: 1 }, count: 1L }]
-			x: 11.0d
+			x: 10.5d
 			y: 20.0d
 		}
 		{
@@ -502,7 +502,7 @@
 			title: "Diamant-Hammer"
 			rewards: [{ id: "84AC1B3F4B9458B8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B1E1FF16CADAA71", type: "item", item: { id: "weaponsexpanded:diamond_hammer", count: 1 }, count: 1L }]
-			x: 12.5d
+			x: 12.0d
 			y: 20.0d
 		}
 		{
@@ -512,7 +512,7 @@
 			title: "Diamant-Kriegshammer"
 			rewards: [{ id: "50852ABB72955BCD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6D65CA31B65081E0", type: "item", item: { id: "weaponsexpanded:diamond_warhammer", count: 1 }, count: 1L }]
-			x: 14.0d
+			x: 13.5d
 			y: 20.0d
 		}
 		{
@@ -522,7 +522,7 @@
 			title: "Diamant-Sense"
 			rewards: [{ id: "C9F4F65B1BD90DB0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "027C325E190B5363", type: "item", item: { id: "weaponsexpanded:diamond_scythe", count: 1 }, count: 1L }]
-			x: 15.5d
+			x: 15.0d
 			y: 20.0d
 		}
 		{
@@ -532,8 +532,8 @@
 			title: "Diamant-Sichel"
 			rewards: [{ id: "B68CB8E9DBB85BE3", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "970691C2B939A064", type: "item", item: { id: "weaponsexpanded:diamond_sickle", count: 1 }, count: 1L }]
-			x: 15.5d
-			y: 21.5d
+			x: 16.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["8A11F755A8E07E5E"]
@@ -543,18 +543,18 @@
 			title: "Simply Swords: Diamant-Langschwert"
 			rewards: [{ id: "EB6DAA36618827FD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "29C878992440296B", type: "item", item: { id: "simplyswords:diamond_longsword", count: 1 }, count: 1L }]
-			x: 14.0d
-			y: 21.5d
+			x: 18.0d
+			y: 20.0d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
+			dependencies: ["671BE8F3FAC5BA64"]
 			description: ["&6Was ist das?", "Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Abenteuer in der Luft."]
 			id: "2095E2163EB75A2E"
 			title: "Drachen"
 			rewards: [{ id: "278E32062C9FAF17", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "8F31CE5398017763", type: "checkmark" }]
-			x: 2.0d
-			y: 23.5d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2095E2163EB75A2E"]
@@ -564,8 +564,8 @@
 			title: "Drachenpfeife"
 			rewards: [{ id: "CE7627DB2CC75E85", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "20383AE8C537B8E9", type: "checkmark" }]
-			x: 3.5d
-			y: 23.5d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["DA614125CC1D7967"]
@@ -575,8 +575,8 @@
 			title: "Drachenruestung"
 			rewards: [{ id: "3999BA1A3766E73E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4B05E22BFBB2ECED", type: "checkmark" }]
-			x: 5.0d
-			y: 23.5d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["AAA0386C2A7639D6"]
@@ -587,18 +587,18 @@
 			rewards: [{ id: "328BC10CCF6129FC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5C8CCF0DBB609C98", type: "checkmark" }]
 			x: 0.0d
-			y: 11.8d
+			y: 0.0d
 		}
 		{
-			dependencies: ["83C486B2B589DFAA", "2CB401D63D9F4388", "1512FC1565ADD973"]
+			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Hier beginnt das Nether-Zeitalter. Es schaltet frei:", "Der Nether: Das Portal laesst dich jetzt durch.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherrack" }
 			id: "F1E5CB71D49104EA"
 			title: "Zeitalter: Nether-Zeitalter"
 			rewards: [{ id: "DBD6B1AEBC806ECF", type: "historystages:history_stage", stage: "netherzeit", remove: false, individual: false }, { id: "F7E2AB9370B3E121", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "74C3CB9D99D5FCE5", type: "checkmark" }]
-			x: 18.0d
-			y: 11.8d
+			x: 12.0d
+			y: 0.0d
 		}
 	]
 }

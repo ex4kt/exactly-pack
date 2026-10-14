@@ -15,7 +15,7 @@
 			title: "Ins Nether"
 			rewards: [{ id: "EB8CA88DAE09D456", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
 			tasks: [{ id: "E0E5612EB7996E95", type: "dimension", dimension: "minecraft:the_nether", icon: { id: "minecraft:netherrack" } }]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -26,19 +26,8 @@
 			title: "Komparator"
 			rewards: [{ id: "1EAA47462D8A4792", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1A39E26CFAE8BD08", type: "item", item: { id: "minecraft:comparator", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5D4B6190977EACB5"]
-			description: ["&6Was ist das?", "Der Beobachter gibt ein Signal, wenn sich ein Block vor ihm aendert. Perfekt fuer Farmen.", "", "&6So gehts", "Quarz aus dem Nether, Redstone und Fackeln.", "", "&6Wofuer ist das wichtig?", "Aufbauend auf der Redstone-Technik der Eisenzeit."]
-			icon: { id: "minecraft:observer" }
-			id: "071982E3F281D12C"
-			title: "Beobachter"
-			rewards: [{ id: "5FA0168C2831D7D2", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "35D5FDC6E3871A9E", type: "item", item: { id: "minecraft:observer", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: -4.0d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["CE5BD4F55EE63ED8"]
@@ -47,7 +36,7 @@
 			title: "Quarz"
 			rewards: [{ id: "0333BC90427C42A6", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "CEFA0309C76A9222", type: "item", item: { id: "minecraft:quartz", count: 1 }, count: 16L }]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -57,7 +46,7 @@
 			title: "Weinender Obsidian"
 			rewards: [{ id: "D2FE2345F24BA599", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "22957A4EDD41C093", type: "item", item: { id: "minecraft:crying_obsidian", count: 1 }, count: 4L }]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -67,7 +56,7 @@
 			title: "Respawn-Anker"
 			rewards: [{ id: "5263951303D2AB39", type: "item", item: { id: "minecraft:glowstone", count: 8 } }]
 			tasks: [{ id: "3FB82918AFCE8C37", type: "item", item: { id: "minecraft:respawn_anchor", count: 1 }, count: 1L }]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -78,8 +67,8 @@
 			title: "Netherziegel"
 			rewards: [{ id: "EE4B4FA99526CBC8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "CE3079A9BC67CAC5", type: "item", item: { id: "minecraft:nether_bricks", count: 1 }, count: 32L }]
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["FBFDD832FC5F7F49"]
@@ -89,8 +78,8 @@
 			title: "Leuchtstein"
 			rewards: [{ id: "B080289D396163DF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7D609E6AFFDF3AE8", type: "item", item: { id: "minecraft:glowstone", count: 1 }, count: 16L }]
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["DF4967FC453EF6A9"]
@@ -100,8 +89,8 @@
 			title: "Seelenlaterne"
 			rewards: [{ id: "27AC72C281CAFD73", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2DF49F4E3888C5B7", type: "item", item: { id: "minecraft:soul_lantern", count: 1 }, count: 4L }]
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0FE0C8CB61875141"]
@@ -111,19 +100,19 @@
 			title: "Strider reiten"
 			rewards: [{ id: "D4D0A74F1DC839F6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6023B1585C7A4D3E", type: "item", item: { id: "minecraft:warped_fungus_on_a_stick", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 2.0d
+			x: 6.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["CE5BD4F55EE63ED8"]
+			dependencies: ["FBFDD832FC5F7F49"]
 			description: ["&6Was ist das?", "Netherwarzen sind die Basis aller Traenke.", "", "&6So gehts", "In Festungen finden und auf Seelensand pflanzen, auch in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Ohne Netherwarzen keine Traenke."]
 			icon: { id: "minecraft:nether_wart" }
 			id: "2CF713C42924F873"
 			title: "Netherwarzen anbauen"
 			rewards: [{ id: "7ABB3C5F39CF743B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "FE0F4CCF8AC41B6F", type: "item", item: { id: "minecraft:nether_wart", count: 1 }, count: 16L }]
-			x: 2.0d
-			y: 4.0d
+			x: 1.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2CF713C42924F873"]
@@ -133,8 +122,8 @@
 			title: "Seelensporen"
 			rewards: [{ id: "DD5B8DB8AEA6DDAE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "672C6870CC0FD857", type: "item", item: { id: "gardens_of_the_dead:soul_spore", count: 1 }, count: 8L }]
-			x: 3.5d
-			y: 4.0d
+			x: 3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["02C28F68B65A0461"]
@@ -144,19 +133,19 @@
 			title: "Faeulnisholz"
 			rewards: [{ id: "F7BAF3E8B918D13F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4A0BF61C425372E3", type: "item", item: { id: "gardens_of_the_dead:soulblight_stem", count: 1 }, count: 8L }]
-			x: 5.0d
-			y: 4.0d
+			x: 4.5d
+			y: 14.0d
 		}
 		{
-			dependencies: ["800501DF52A84BF3"]
+			dependencies: ["5D4B6190977EACB5"]
 			description: ["&6Was ist das?", "Apothic Enchanting: Hoellenregale aus Nether-Material sind viel staerker.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Hoehere Verzauberungsstufen."]
 			icon: { id: "apothic_enchanting:hellshelf" }
 			id: "B482800257BBE24E"
 			title: "Hoellenregal"
 			rewards: [{ id: "EECA079FC22E5D5C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "041B27C0126BA2DA", type: "item", item: { id: "apothic_enchanting:hellshelf", count: 1 }, count: 4L }]
-			x: 3.5d
-			y: 6.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["B482800257BBE24E"]
@@ -166,18 +155,18 @@
 			title: "Wildfire-Krone"
 			rewards: [{ id: "F76510F1B70648E2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "11A38976B9658817", type: "item", item: { id: "friendsandfoes:wildfire_crown", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 6.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["800501DF52A84BF3"]
+			dependencies: ["5D4B6190977EACB5"]
 			description: ["&6Was ist das?", "Der Beobachter merkt, wenn sich ein Block aendert.", "", "&6So gehts", "Bruchstein, Redstone und Netherquarz.", "", "&6Wofuer ist das wichtig?", "Automatische Farmen fuer Zuckerrohr und Kuerbisse."]
 			icon: { id: "minecraft:observer" }
 			id: "D2EBC49DE24A140D"
 			title: "Beobachter"
 			rewards: [{ id: "E96A75AF95740A4B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "B44D90D09141B055", type: "item", item: { id: "minecraft:observer", count: 1 }, count: 2L }]
-			x: 3.5d
+			x: 4.5d
 			y: 8.0d
 		}
 		{
@@ -188,7 +177,7 @@
 			title: "Redstone-Lampe"
 			rewards: [{ id: "125A8F869534890E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "845765523A4CEC9B", type: "item", item: { id: "minecraft:redstone_lamp", count: 1 }, count: 4L }]
-			x: 5.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -199,18 +188,18 @@
 			title: "Rosenquarz"
 			rewards: [{ id: "B27FD69D08ECAC1C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "882A17580705A7CE", type: "item", item: { id: "create:polished_rose_quartz", count: 1 }, count: 8L }]
-			x: 6.5d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["CE5BD4F55EE63ED8"]
+			dependencies: ["4A473A1B156AA71A"]
 			description: ["&6Was ist das?", "Blazes leben in Netherfestungen. Ihr Stab ist die Hitzequelle.", "", "&6So gehts", "Festung finden (dunkle Netherziegel). Blazes am Spawner besiegen.", "Schneebaelle machen ihnen viel Schaden.", "", "&6Wofuer ist das wichtig?", "Blazepulver fuer Braustand und Enderaugen. Ein Blaze wird dein Blazebrenner fuer Create."]
 			id: "E5BD8E3521775FFD"
 			title: "Blazestab"
 			rewards: [{ id: "3B8136CF4F6DC44A", type: "item", item: { id: "minecraft:blaze_powder", count: 8 } }]
 			tasks: [{ id: "32156660C375A37D", type: "item", item: { id: "minecraft:blaze_rod", count: 1 }, count: 8L }]
-			x: 2.0d
-			y: 10.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["E5BD8E3521775FFD"]
@@ -219,8 +208,8 @@
 			title: "Wither-Skelett"
 			rewards: [{ id: "5FCB52B2C5B1ECAA", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "DE96AB5AD19A42D1", type: "kill", entity: "minecraft:wither_skeleton", value: 3L, icon: { id: "minecraft:wither_skeleton_skull" } }]
-			x: 3.5d
-			y: 10.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C52749B77C05F3C"]
@@ -229,18 +218,18 @@
 			title: "Ghast-Traene"
 			rewards: [{ id: "A989992D5106F848", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "C0771DBAD2684351", type: "item", item: { id: "minecraft:ghast_tear", count: 1 }, count: 2L }]
-			x: 5.0d
-			y: 10.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["E5BD8E3521775FFD"]
+			dependencies: ["20B95EE6B7921A98"]
 			description: ["&6Was ist das?", "Der Braustand macht Traenke. Nimm Netherwarzen und Blazepulver.", "", "&6So gehts", "Blazestab fuer den Braustand, Blazepulver als Brennstoff.", "Wasserflaschen, Netherwarze, dann Effekt-Zutat.", "", "&6Wofuer ist das wichtig?", "Feuerresistenz, Staerke, Heilung und Nachtsicht retten dich in Bosskaempfen."]
 			id: "959D1F7AB05112F2"
 			title: "Brauen"
 			rewards: [{ id: "A432CB13EA1FC5A4", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
 			tasks: [{ id: "ED99B0C6FE40F4B0", type: "item", item: { id: "minecraft:brewing_stand", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 12.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["959D1F7AB05112F2"]
@@ -249,8 +238,8 @@
 			title: "Magma-Creme"
 			rewards: [{ id: "6F1B588DE77EBFEE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "AEFB51B160168B41", type: "item", item: { id: "minecraft:magma_cream", count: 1 }, count: 4L }]
-			x: 3.5d
-			y: 12.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["EB453677DF6FA69D"]
@@ -259,18 +248,18 @@
 			title: "Feuerresistenz"
 			rewards: [{ id: "FCCAA73151DDAC67", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
 			tasks: [{ id: "C34AD82364C84AA5", type: "checkmark" }]
-			x: 5.0d
-			y: 12.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["CE5BD4F55EE63ED8"]
+			dependencies: ["7605451401ADBB5A"]
 			description: ["&6Was ist das?", "Piglins tauschen Gold gegen Beute. Trage ein goldenes Item, damit sie dich in Ruhe lassen.", "", "&6So gehts", "Trage ein goldenes Ruestungsteil, sonst greifen sie an.", "Wirf ihnen Goldbarren zu.", "", "&6Wofuer ist das wichtig?", "Enderperlen, Obsidian, Feuerresistenz-Traenke und mehr."]
 			id: "86455343D2F188F4"
 			title: "Handeln mit Piglins"
 			rewards: [{ id: "C09C9FEB36A4F3B1", type: "item", item: { id: "minecraft:gold_nugget", count: 16 } }]
 			tasks: [{ id: "4020A46EF84A26EB", type: "item", item: { id: "minecraft:gold_ingot", count: 1 }, count: 16L }]
-			x: 2.0d
-			y: 14.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["86455343D2F188F4"]
@@ -279,8 +268,8 @@
 			title: "Schutz vor Piglins"
 			rewards: [{ id: "705D2D1517D391FB", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7E64FD619DBCE006", type: "kill", entity: "minecraft:piglin_brute", value: 1L, icon: { id: "minecraft:golden_axe" } }]
-			x: 3.5d
-			y: 14.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["673DCFD701C282E0"]
@@ -289,8 +278,8 @@
 			title: "Netheritvorlage"
 			rewards: [{ id: "8AF7D74FD4646838", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "E56205D48EDD2255", type: "item", item: { id: "minecraft:netherite_upgrade_smithing_template", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 14.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["AD74248AF32369A0"]
@@ -299,8 +288,8 @@
 			title: "Piglin-Alchemist"
 			rewards: [{ id: "DE952797288299E1", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "D790DBDE318DFB50", type: "kill", entity: "piglinproliferation:piglin_alchemist", value: 1L, icon: { id: "minecraft:potion" } }]
-			x: 6.5d
-			y: 14.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["18E2A6C89C5361AB"]
@@ -310,8 +299,8 @@
 			title: "Buckler"
 			rewards: [{ id: "F1A4D469A2F05EB4", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "D190C7B68CF7095F", type: "item", item: { id: "piglinproliferation:buckler", count: 1 }, count: 1L }]
-			x: 8.0d
-			y: 14.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4F6B0B22E9E8CA17"]
@@ -321,8 +310,8 @@
 			title: "Reisekompass"
 			rewards: [{ id: "C3E320E8AF597B0A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "CAD98DE6261371E3", type: "item", item: { id: "piglinproliferation:travelers_compass", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 14.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6C103B540EB5E43D"]
@@ -332,8 +321,8 @@
 			title: "Feuerring"
 			rewards: [{ id: "4C32F71CB5E974F7", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0BA6BC6233263228", type: "item", item: { id: "piglinproliferation:stone_fire_ring", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 14.0d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["87F72FF66C3173CF"]
@@ -343,18 +332,18 @@
 			title: "Tauschstation"
 			rewards: [{ id: "414A7C8387D8EC04", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "E1F53332F2B232A7", type: "item", item: { id: "barteringstation:bartering_station", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 14.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["CE5BD4F55EE63ED8"]
+			dependencies: ["4A473A1B156AA71A"]
 			description: ["&6Was ist das?", "Eternal Nether fuegt neue Orte und Gegner hinzu.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofuer ist das wichtig?", "Neue Materialien und Gegner."]
 			id: "5104B957CBA784CC"
 			title: "Ewiger Nether"
 			rewards: [{ id: "9C0259FE7F01B207", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "7D8E6ED74473345E", type: "checkmark" }]
-			x: 2.0d
-			y: 16.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5104B957CBA784CC"]
@@ -363,8 +352,8 @@
 			title: "Der Wraither"
 			rewards: [{ id: "B89B65ADE966DCC2", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "8B1CC1205602B0AE", type: "kill", entity: "eternalnether:wraither", value: 1L, icon: { id: "minecraft:soul_sand" } }]
-			x: 3.5d
-			y: 16.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2CA188CD06DF4D69"]
@@ -373,8 +362,8 @@
 			title: "Wither-Skelett-Ritter"
 			rewards: [{ id: "7554D386D2E42B5A", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "E7497887B834B413", type: "kill", entity: "eternalnether:wither_skeleton_knight", value: 1L, icon: { id: "eternalnether:withered_bone" } }]
-			x: 5.0d
-			y: 16.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["99B6374185D50005"]
@@ -383,18 +372,18 @@
 			title: "Corpor"
 			rewards: [{ id: "64A33A3AEEC5A450", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "27F76B94519935BD", type: "kill", entity: "eternalnether:corpor", value: 1L, icon: { id: "eternalnether:soul_stone" } }]
-			x: 6.5d
-			y: 16.0d
+			x: 10.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["CE5BD4F55EE63ED8"]
+			dependencies: ["E5BD8E3521775FFD"]
 			description: ["&6Was ist das?", "My Nethers Delight bringt Gerichte aus dem Nether.", "Du brauchst Zutaten von Hoglins, Striders und Ghasts.", "", "&6So gehts", "Sammle Zutaten von Hoglins, Stridern und Ghasts.", "", "&6Wofuer ist das wichtig?", "Nether-Gerichte geben oft Feuerresistenz und Staerke."]
 			id: "40DE859B7882B7D0"
 			title: "Nether-Kueche"
 			rewards: [{ id: "B53F6AD2C9F814B5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "F0777864F61BAC91", type: "checkmark" }]
-			x: 2.0d
-			y: 18.0d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["40DE859B7882B7D0"]
@@ -403,8 +392,8 @@
 			title: "Nether-Herd"
 			rewards: [{ id: "3E46E91435BD9E2A", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
 			tasks: [{ id: "E854ECB4A847320C", type: "item", item: { id: "mynethersdelight:nether_bricks_stove", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 18.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6786D2678E103F63"]
@@ -413,8 +402,8 @@
 			title: "Nether-Kochtopf"
 			rewards: [{ id: "9243047470180DBC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "BBC1653EAE4D66F9", type: "item", item: { id: "farmersdelight:cooking_pot", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 18.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2D0F22D044CA9E1C"]
@@ -423,8 +412,8 @@
 			title: "Hoglin-Fleisch"
 			rewards: [{ id: "62369FA647A64BEC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "59C76E5DB5CF53EC", type: "item", item: { id: "mynethersdelight:hoglin_loin", count: 1 }, count: 2L }]
-			x: 6.5d
-			y: 18.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["54E4CC12965A4988"]
@@ -433,8 +422,8 @@
 			title: "Scharfe Paprika"
 			rewards: [{ id: "241E9426F62E4F8F", type: "item", item: { id: "minecraft:nether_wart", count: 4 } }]
 			tasks: [{ id: "387D973BD78A87F3", type: "item", item: { id: "mynethersdelight:bullet_pepper", count: 1 }, count: 4L }]
-			x: 8.0d
-			y: 18.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["240D7DD3A8296CD9"]
@@ -443,8 +432,8 @@
 			title: "Scharfes Curry"
 			rewards: [{ id: "86409F2F51E3546E", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "7FBDB02EE89270DC", type: "item", item: { id: "mynethersdelight:spicy_curry", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 18.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["C4AE1165CD5BC2CB"]
@@ -453,8 +442,8 @@
 			title: "Nether-Burger"
 			rewards: [{ id: "866DA868DC7A2F9A", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "E828C27113F1A0FE", type: "item", item: { id: "mynethersdelight:nether_burger", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 18.0d
+			x: 16.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["C385E4586A94A8CD"]
@@ -463,8 +452,8 @@
 			title: "Ghasta"
 			rewards: [{ id: "2FBED9351ABFACE2", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "2B4FD505F2F6F145", type: "item", item: { id: "mynethersdelight:ghasta", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 18.0d
+			x: 18.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["F1E5CB71D49104EA"]
@@ -475,18 +464,18 @@
 			rewards: [{ id: "A7B2B787878D390E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "CE57ECB129FA5709", type: "checkmark" }]
 			x: 0.0d
-			y: 9.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4A473A1B156AA71A", "20B95EE6B7921A98", "D36056B380D59D49"]
+			dependencies: ["D36056B380D59D49"]
 			description: ["&6Was ist das?", "Hier beginnt das Messing-Zeitalter. Es schaltet frei:", "Messing, Mechanischer Arm, Crafter, Zuege, Blazebrenner, Create Additions, Hypertubes und ComputerCraft.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "create:brass_ingot" }
 			id: "C6C248A8F18682B3"
 			title: "Zeitalter: Messing-Zeitalter"
 			rewards: [{ id: "3183B981150D107B", type: "historystages:history_stage", stage: "messingzeit", remove: false, individual: false }, { id: "ED8EF73FA95C1663", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "18204CC3C7732B14", type: "checkmark" }]
-			x: 15.0d
-			y: 9.0d
+			x: 16.5d
+			y: 0.0d
 		}
 	]
 }

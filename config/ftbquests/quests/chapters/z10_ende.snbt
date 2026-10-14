@@ -15,7 +15,7 @@
 			title: "Augen des Enders"
 			rewards: [{ id: "BC81269AEF0D09F5", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
 			tasks: [{ id: "9A38232CE6DAD25D", type: "item", item: { id: "minecraft:ender_eye", count: 1 }, count: 12L }]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -25,7 +25,7 @@
 			title: "Das Ende"
 			rewards: [{ id: "F92B2EE209A325B5", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
 			tasks: [{ id: "3CF0889F596216CE", type: "dimension", dimension: "minecraft:the_end", icon: { id: "minecraft:end_stone" } }]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -35,7 +35,7 @@
 			title: "Endstein"
 			rewards: [{ id: "B4FC5B87372B844D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "CBBFB0966317B828", type: "item", item: { id: "minecraft:end_stone", count: 1 }, count: 16L }]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -45,7 +45,7 @@
 			title: "Der Enderdrache"
 			rewards: [{ id: "21D67324ECFED6C0", type: "xp_levels", xp_levels: 15 }]
 			tasks: [{ id: "7871355328C80698", type: "kill", entity: "minecraft:ender_dragon", value: 1L, icon: { id: "minecraft:dragon_head" } }]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -55,7 +55,7 @@
 			title: "Drachenei"
 			rewards: [{ id: "03E3E9461075295C", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "028BF7FA915BE14F", type: "item", item: { id: "minecraft:dragon_egg", count: 1 }, count: 1L }]
-			x: 8.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -66,8 +66,8 @@
 			title: "Endsteinziegel"
 			rewards: [{ id: "E5FCDFF392D3F251", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1805CCA9B87EB76A", type: "item", item: { id: "minecraft:end_stone_bricks", count: 1 }, count: 32L }]
-			x: 5.0d
-			y: 2.0d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["076FC99714B15558"]
@@ -77,8 +77,8 @@
 			title: "Enderkiste"
 			rewards: [{ id: "9A9828E0A893C578", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "B738B96267ABB253", type: "item", item: { id: "minecraft:ender_chest", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 2.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["90501AFC991EBEA1"]
@@ -88,8 +88,8 @@
 			title: "Chorusblume"
 			rewards: [{ id: "2F475BA29DC9F6A9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "F2A2107C0FC91F53", type: "item", item: { id: "minecraft:chorus_flower", count: 1 }, count: 4L }]
-			x: 8.0d
-			y: 2.0d
+			x: 7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["45F7DF303BD48E57"]
@@ -99,18 +99,18 @@
 			title: "Endregal"
 			rewards: [{ id: "8481283B8116A140", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "518FF68121A8584A", type: "item", item: { id: "apothic_enchanting:endshelf", count: 1 }, count: 4L }]
-			x: 9.5d
-			y: 2.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["094E3A3AB01FE3FF"]
+			dependencies: ["AC2F83FAC4E5F9BB"]
 			description: ["&6Was ist das?", "Endstaedte sind riesige Bauten mit Beute und Shulkern.", "", "&6So gehts", "Ueber das Portal hinter der Hauptinsel erreichst du die aeusseren Inseln.", "", "&6Wofuer ist das wichtig?", "Shulkerschalen und Elytren."]
 			id: "99CF6DB9C4D6DB4A"
 			title: "Endstadt"
 			rewards: [{ id: "E5BE93614D376B0A", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "E4DFABD8504A144D", type: "kill", entity: "minecraft:shulker", value: 3L, icon: { id: "minecraft:shulker_shell" } }]
-			x: 6.5d
-			y: 4.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["99CF6DB9C4D6DB4A"]
@@ -119,8 +119,8 @@
 			title: "Shulkerschalen"
 			rewards: [{ id: "FE682F8BECBC8629", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
 			tasks: [{ id: "C85F8924C2C74CFE", type: "item", item: { id: "minecraft:shulker_shell", count: 1 }, count: 2L }]
-			x: 8.0d
-			y: 4.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A052AD9B9039188"]
@@ -129,8 +129,8 @@
 			title: "Shulker-Kiste"
 			rewards: [{ id: "DDDBD26B020AF2EA", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "6F26C88B2A1F7784", type: "item", item: { id: "minecraft:shulker_box", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 4.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["FAAE1511A220D38C"]
@@ -139,8 +139,8 @@
 			title: "Elytra"
 			rewards: [{ id: "E8B80EF75873E692", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
 			tasks: [{ id: "6E6993634A3CF6DA", type: "item", item: { id: "minecraft:elytra", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 4.0d
+			x: 13.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5BDDA6FEC33CD7FB"]
@@ -149,8 +149,8 @@
 			title: "Bessere Endstaedte"
 			rewards: [{ id: "6F8EB8225A37402E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "752792020D4A926D", type: "checkmark" }]
-			x: 12.5d
-			y: 4.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5BDDA6FEC33CD7FB"]
@@ -160,8 +160,8 @@
 			title: "Feuerwerk"
 			rewards: [{ id: "D900EEB477833ED9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "35E9C39ED2BD2529", type: "item", item: { id: "minecraft:firework_rocket", count: 1 }, count: 32L }]
-			x: 11.0d
-			y: 6.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["04EE3BD9BC1E1442"]
@@ -171,8 +171,8 @@
 			title: "Drachenkopf"
 			rewards: [{ id: "B2B569A49A15A5AF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "536B1B6E5592FCF3", type: "item", item: { id: "minecraft:dragon_head", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 6.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["028ADF99FBF6807C"]
@@ -181,8 +181,8 @@
 			title: "Endermann"
 			rewards: [{ id: "F10175D45226565C", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "D1B8EBBA4F8A251A", type: "kill", entity: "minecraft:enderman", value: 10L, icon: { id: "minecraft:ender_pearl" } }]
-			x: 3.5d
-			y: 8.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6BC9918F7D743AE5"]
@@ -191,8 +191,8 @@
 			title: "Chorusfrucht"
 			rewards: [{ id: "0AB1797033B4DDD1", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 8 } }]
 			tasks: [{ id: "ABE6A2FE8AA4359D", type: "item", item: { id: "minecraft:chorus_fruit", count: 1 }, count: 8L }]
-			x: 5.0d
-			y: 8.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["A7E074BA8EB461DB"]
@@ -201,8 +201,8 @@
 			title: "Purpur"
 			rewards: [{ id: "2571CFB822F6EF7E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6E0FB18B0B284D24", type: "item", item: { id: "minecraft:purpur_block", count: 1 }, count: 16L }]
-			x: 6.5d
-			y: 8.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["51758B90F50FF7C7"]
@@ -211,8 +211,8 @@
 			title: "Endstab"
 			rewards: [{ id: "111EE9F7CD77FCF9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "219C4666A679C2DD", type: "item", item: { id: "minecraft:end_rod", count: 1 }, count: 4L }]
-			x: 8.0d
-			y: 8.0d
+			x: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0F131582010B5385"]
@@ -221,8 +221,8 @@
 			title: "Enderkristall"
 			rewards: [{ id: "808FD55E2FD3506E", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "4DE58022A90CF04D", type: "item", item: { id: "minecraft:end_crystal", count: 1 }, count: 4L }]
-			x: 9.5d
-			y: 8.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["FBE138DEED114BB0"]
@@ -231,8 +231,8 @@
 			title: "Drachenatem"
 			rewards: [{ id: "171DFB6F70293EDA", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "23CE7252848315DC", type: "item", item: { id: "minecraft:dragon_breath", count: 1 }, count: 4L }]
-			x: 11.0d
-			y: 8.0d
+			x: 10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["244709AF9446ADAB"]
@@ -241,8 +241,8 @@
 			title: "Bessere Endinsel"
 			rewards: [{ id: "39A64789F2D04BA6", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "9E42A216A64F391A", type: "checkmark" }]
-			x: 12.5d
-			y: 8.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["A7E074BA8EB461DB"]
@@ -251,8 +251,8 @@
 			title: "Enders Delight"
 			rewards: [{ id: "D4D6972040EB9471", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4F79AC348CFF95CC", type: "checkmark" }]
-			x: 5.0d
-			y: 10.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6F81E1560F8E3640"]
@@ -261,8 +261,8 @@
 			title: "Gerichte aus dem Ende"
 			rewards: [{ id: "FFB1110977A5A940", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7ADD8A616E64E91E", type: "checkmark" }]
-			x: 6.5d
-			y: 10.0d
+			x: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2659B7880C5D46B2"]
@@ -271,8 +271,8 @@
 			title: "Ende-Herd"
 			rewards: [{ id: "D7724C55A461006D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "D261C462B4EA4701", type: "item", item: { id: "endersdelight:endstone_stove", count: 1 }, count: 1L }]
-			x: 8.0d
-			y: 10.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6FFA59CB4929154B"]
@@ -281,8 +281,8 @@
 			title: "Chorus-Kuchen"
 			rewards: [{ id: "788222B0D067E42B", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "967C302A985C254F", type: "item", item: { id: "endersdelight:chorus_pie", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 10.0d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["E41E149F7002C82A"]
@@ -291,8 +291,8 @@
 			title: "Endermiten-Eintopf"
 			rewards: [{ id: "F6A773B6A7E3AAC4", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "D11E04EC4C8C7835", type: "item", item: { id: "endersdelight:endermite_stew", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 10.0d
+			x: 10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["467369B89A524F6B"]
@@ -301,8 +301,8 @@
 			title: "Shulker-Filet"
 			rewards: [{ id: "C187AA395A395A2A", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "59E146F2ABE5AF94", type: "item", item: { id: "endersdelight:shulker_filet", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 10.0d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["89EF5C1260349AEC"]
@@ -311,8 +311,8 @@
 			title: "Perlen-Nudeln"
 			rewards: [{ id: "DA6824AB64B936DF", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "036D921877DC56CB", type: "item", item: { id: "endersdelight:pearl_pasta", count: 1 }, count: 1L }]
-			x: 14.0d
-			y: 10.0d
+			x: 13.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["61920C28D0F155A0"]
@@ -323,10 +323,10 @@
 			rewards: [{ id: "08AE23588778BA70", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "B5A1BCF5B82A1E0B", type: "checkmark" }]
 			x: 0.0d
-			y: 5.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["AC2F83FAC4E5F9BB", "B562059F9EA08CC8"]
+			dependencies: ["B562059F9EA08CC8"]
 			description: ["&6Was ist das?", "Hier beginnt das Meister-Zeitalter. Es schaltet frei:", "Netherit-Ausruestung, Advanced Netherite, Netherit-Haemmer und die Netherit- und Runic-Waffen.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherite_ingot" }
 			id: "A592A24754D667FE"
@@ -334,7 +334,7 @@
 			rewards: [{ id: "5B930C254D693EE0", type: "historystages:history_stage", stage: "meisterzeit", remove: false, individual: false }, { id: "85B6BEDF81D0A6FA", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "B8BBABD8497D8A3F", type: "checkmark" }]
 			x: 16.5d
-			y: 5.0d
+			y: 0.0d
 		}
 	]
 }
