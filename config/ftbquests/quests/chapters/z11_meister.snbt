@@ -79,7 +79,7 @@
 			rewards: [{ id: "20144E31C0F7A6F9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "DADBB66703685FD7", type: "item", item: { id: "justhammers:netherite_hammer", count: 1 }, count: 1L }]
 			x: 6.0d
-			y: 12.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["FC61128833D7FDE4"]
@@ -90,7 +90,7 @@
 			rewards: [{ id: "FFB4F3CF7CEA6FD9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3264435EF559347E", type: "item", item: { id: "justhammers:netherite_destructor_hammer", count: 1 }, count: 1L }]
 			x: 7.5d
-			y: 12.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["14B18961543DDA9E"]
@@ -101,7 +101,7 @@
 			rewards: [{ id: "6E54C3985515007A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "673997710BB1781E", type: "item", item: { id: "simplyswords:netherite_longsword", count: 1 }, count: 1L }]
 			x: 9.0d
-			y: 12.0d
+			y: 24.0d
 		}
 		{
 			dependencies: ["D0B6DEC205326FBA"]
@@ -472,6 +472,380 @@
 			tasks: [{ id: "F4DFA270BFCCA926", type: "checkmark" }]
 			x: 22.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["D0B6DEC205326FBA"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:slumbering_lichblade" }
+			id: "3719AAFC58A14DD8"
+			title: "Slumbering Lichblade"
+			rewards: []
+			tasks: [{ id: "E097C5752B72B948", type: "checkmark" }]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3719AAFC58A14DD8"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:waking_lichblade" }
+			id: "4B072B9FA56A961E"
+			title: "Waking Lichblade"
+			rewards: []
+			tasks: [{ id: "E0A0C02B253EC876", type: "checkmark" }]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4B072B9FA56A961E"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:awakened_lichblade" }
+			id: "2EA39522BAD100ED"
+			title: "Awakened Lichblade"
+			rewards: []
+			tasks: [{ id: "C6B8655F0A4357D1", type: "checkmark" }]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2EA39522BAD100ED"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:harbinger" }
+			id: "6BF629EE8EB7E8FA"
+			title: "Harbinger"
+			rewards: []
+			tasks: [{ id: "4165EB18BA02CF6A", type: "checkmark" }]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6BF629EE8EB7E8FA"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:watcher_claymore" }
+			id: "FCADF7187B173984"
+			title: "The Watcher"
+			rewards: []
+			tasks: [{ id: "C8C0D612E2CD9EEA", type: "checkmark" }]
+			x: 15.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["FCADF7187B173984"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:the_devourer" }
+			id: "D660CF7576A3FA14"
+			title: "The Devourer"
+			rewards: []
+			tasks: [{ id: "FA91E30C4AEFE258", type: "checkmark" }]
+			x: 16.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["D660CF7576A3FA14"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:brimstone_claymore" }
+			id: "E6618DE539B547B7"
+			title: "Brimstone Claymore"
+			rewards: []
+			tasks: [{ id: "562A8354BF286BB2", type: "checkmark" }]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["E6618DE539B547B7"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:watching_warglaive" }
+			id: "AD9C26C081C2411F"
+			title: "Watching Warglaive"
+			rewards: []
+			tasks: [{ id: "D373C42C546E1759", type: "checkmark" }]
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["AD9C26C081C2411F"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "advancednetherite:netherite_iron_sword" }
+			id: "49048DD8BDAC2023"
+			title: "Netherite-Iron Sword"
+			rewards: []
+			tasks: [{ id: "4D12CBF7B8251274", type: "checkmark" }]
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["49048DD8BDAC2023"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "advancednetherite:netherite_gold_sword" }
+			id: "2C488889734B30B5"
+			title: "Netherite-Gold Sword"
+			rewards: []
+			tasks: [{ id: "C841D5FDEFA89203", type: "checkmark" }]
+			x: 22.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C488889734B30B5"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "advancednetherite:netherite_emerald_sword" }
+			id: "ED988165A304E87C"
+			title: "Netherite-Emerald Sword"
+			rewards: []
+			tasks: [{ id: "32A0625F6628ACAA", type: "checkmark" }]
+			x: 24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3719AAFC58A14DD8"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "advancednetherite:netherite_diamond_sword" }
+			id: "91C0049B06D4814A"
+			title: "Netherite-Diamond Sword"
+			rewards: []
+			tasks: [{ id: "200AE03FE34D07E8", type: "checkmark" }]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["91C0049B06D4814A"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "cataclysm:black_steel_sword" }
+			id: "15D479A15FE484AE"
+			title: "Black Steel Sword"
+			rewards: []
+			tasks: [{ id: "8E2F77E925B72632", type: "checkmark" }]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["15D479A15FE484AE"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "cataclysm:coral_spear" }
+			id: "F529A34F6BA0653C"
+			title: "Coral Spear"
+			rewards: []
+			tasks: [{ id: "89FCAB2B16794CD7", type: "checkmark" }]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["F529A34F6BA0653C"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "cataclysm:ancient_spear" }
+			id: "BE8FF267F30918C4"
+			title: "Ancient Spear"
+			rewards: []
+			tasks: [{ id: "028015739F0D4BBA", type: "checkmark" }]
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["91C0049B06D4814A"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "cataclysm:cursed_bow" }
+			id: "C8224A5A4D8141C8"
+			title: "Cursed Bow"
+			rewards: []
+			tasks: [{ id: "40681553EA22E8FF", type: "checkmark" }]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["C8224A5A4D8141C8"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "minecraft:netherite_pickaxe" }
+			id: "D959511168D4C90A"
+			title: "Werkzeug-Set Netherit"
+			rewards: []
+			tasks: [{ id: "8A323C3BD77B13B7", type: "checkmark" }]
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["D959511168D4C90A"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "advancednetherite:netherite_iron_pickaxe" }
+			id: "4E7F5A03345F278F"
+			title: "Netherit-Iron-Set"
+			rewards: []
+			tasks: [{ id: "D3B081BF00CE8380", type: "checkmark" }]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4E7F5A03345F278F"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "advancednetherite:netherite_gold_pickaxe" }
+			id: "591F6ECAF470D1C0"
+			title: "Netherit-Gold-Set"
+			rewards: []
+			tasks: [{ id: "97DC9474097B0A33", type: "checkmark" }]
+			x: 12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["591F6ECAF470D1C0"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "advancednetherite:netherite_emerald_pickaxe" }
+			id: "AF2D53339150C1EF"
+			title: "Netherit-Emerald-Set"
+			rewards: []
+			tasks: [{ id: "35081777F312F439", type: "checkmark" }]
+			x: 13.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["AF2D53339150C1EF"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstaerkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "advancednetherite:netherite_diamond_pickaxe" }
+			id: "FEE270461DF02F62"
+			title: "Netherit-Diamond-Set"
+			rewards: []
+			tasks: [{ id: "E62A6FE8C70F90E6", type: "checkmark" }]
+			x: 15.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["FEE270461DF02F62"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "cataclysm:black_steel_pickaxe" }
+			id: "E68286B349CF2163"
+			title: "Black-Steel-Set"
+			rewards: []
+			tasks: [{ id: "0362F1BFC0B24991", type: "checkmark" }]
+			x: 16.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["D959511168D4C90A"]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "minecraft:netherite_chestplate" }
+			id: "078B02F4BC6E00EE"
+			title: "Ruestung Netherit"
+			rewards: []
+			tasks: [{ id: "3D60EC805B78B91E", type: "checkmark" }]
+			x: 9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["078B02F4BC6E00EE"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_iron_chestplate" }
+			id: "68DD6F0DB8855584"
+			title: "Netherite Iron (Ruestung)"
+			rewards: []
+			tasks: [{ id: "6A8AA889C4550709", type: "checkmark" }]
+			x: 10.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["68DD6F0DB8855584"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_gold_chestplate" }
+			id: "A4A0BC11034D6A34"
+			title: "Netherite Gold (Ruestung)"
+			rewards: []
+			tasks: [{ id: "DAF67BF4E2B2FDD5", type: "checkmark" }]
+			x: 12.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["A4A0BC11034D6A34"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_emerald_chestplate" }
+			id: "B82394B50675DD6E"
+			title: "Netherite Emerald (Ruestung)"
+			rewards: []
+			tasks: [{ id: "032CEF60BF197D2E", type: "checkmark" }]
+			x: 13.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["B82394B50675DD6E"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "advancednetherite:netherite_diamond_chestplate" }
+			id: "37774E8A6BC2B270"
+			title: "Netherite Diamond (Ruestung)"
+			rewards: []
+			tasks: [{ id: "83504208754CA069", type: "checkmark" }]
+			x: 15.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["37774E8A6BC2B270"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "cataclysm:bone_reptile_chestplate" }
+			id: "110EB2EA5840841F"
+			title: "Bone Reptile (Ruestung)"
+			rewards: []
+			tasks: [{ id: "BCB2675BE16649F8", type: "checkmark" }]
+			x: 16.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["110EB2EA5840841F"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "cataclysm:cursium_chestplate" }
+			id: "B3A983A11EDF48A1"
+			title: "Cursium (Ruestung)"
+			rewards: []
+			tasks: [{ id: "BD27DD65A6D4E5EB", type: "checkmark" }]
+			x: 18.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["B3A983A11EDF48A1"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "cataclysm:ignitium_chestplate" }
+			id: "82D39E7A2DFCBCEA"
+			title: "Ignitium (Ruestung)"
+			rewards: []
+			tasks: [{ id: "ACD287392F408D6C", type: "checkmark" }]
+			x: 19.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["82D39E7A2DFCBCEA"]
+			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "cataclysm:ignitium_elytra_chestplate" }
+			id: "C49FDF0E6FCD5F6C"
+			title: "Ignitium Elytra (Ruestung)"
+			rewards: []
+			tasks: [{ id: "DC31AD2D6580A1D9", type: "checkmark" }]
+			x: 21.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["C49FDF0E6FCD5F6C"]
+			description: ["&6Was ist das?", "Teile: Helm, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "create:netherite_diving_helmet" }
+			id: "73F8483FED3E84B8"
+			title: "Netherite Diving (Ruestung)"
+			rewards: []
+			tasks: [{ id: "2ADD1E00CF61853F", type: "checkmark" }]
+			x: 22.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["73F8483FED3E84B8"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "immersive_armors:wither_chestplate" }
+			id: "A0060FD130614F82"
+			title: "Wither (Ruestung)"
+			rewards: []
+			tasks: [{ id: "3D971B7A8F24A2C2", type: "checkmark" }]
+			x: 24.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["078B02F4BC6E00EE"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "irons_spellbooks:netherite_mage_chestplate" }
+			id: "56B38221BC72A610"
+			title: "Netherite Battlemage (Ruestung)"
+			rewards: []
+			tasks: [{ id: "759328D5FB8F053F", type: "checkmark" }]
+			x: 9.0d
+			y: 22.0d
 		}
 	]
 }

@@ -79,7 +79,7 @@
 			rewards: [{ id: "91A619988FF4F854", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "70175AE0EB9EB6EA", type: "item", item: { id: "justhammers:diamond_hammer", count: 1 }, count: 1L }]
 			x: 1.5d
-			y: 22.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["598824065CC1F63B"]
@@ -90,7 +90,7 @@
 			rewards: [{ id: "9AE0C97E69F5B916", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "DA97DA003B53F405", type: "item", item: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe", count: 1 }, count: 1L }]
 			x: 3.0d
-			y: 22.0d
+			y: 32.0d
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
@@ -135,11 +135,11 @@
 		}
 		{
 			dependencies: ["0FD6302A9ABCCF31"]
-			description: ["&6Was ist das?", "Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "Du bekommst als Belohnung ein Buch mit Veinminer. Verzaubere damit deine Spitzhacke am Amboss.", "Schritt 1: Lege Spitzhacke und Buch in den Amboss.", "Schritt 2: Baue ein Erz ab. Die ganze Ader folgt.", "", "&6So gehts", "Lege das Buch (Belohnung dieser Quest) im Amboss auf deine Spitzhacke.", "Halte die Veinminer-Taste (Standard: Tilde/Grad) beim Abbauen gedrueckt.", "", "&6Wofuer ist das wichtig?", "Eine ganze Ader mit einem Schlag. Kostet etwas mehr Haltbarkeit, darum lohnt sich Haltbarkeit oder Reparatur."]
+			description: ["&6Was ist das?", "Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "", "&6So gehts", "Das Buch bekommst du nicht geschenkt. Du findest es am Verzauberungstisch (hohes Level), beim Bibliothekar im Dorf oder in Beutetruhen.", "Lege Spitzhacke und Buch in den Amboss. Halte beim Abbauen die Veinminer-Taste (Standard: Tilde/Grad) gedrueckt, dann folgt die ganze Ader.", "", "&6Wofuer ist das wichtig?", "Spart viel Zeit beim Erzabbau. Bestaetige die Quest, sobald du das Buch selbst besorgt hast."]
 			icon: { id: "minecraft:enchanted_book" }
 			id: "37407FF743621E7E"
 			title: "Veinminer-Verzauberung"
-			rewards: [{ id: "05CA28B6C57B677E", type: "item", item: { id: "minecraft:enchanted_book", count: 1, components: { "minecraft:stored_enchantments": { levels: { "veinminer_enchantment:veinminer": 1 } } } } }]
+			rewards: [{ id: "05CA28B6C57B677E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "84FF3BA89635C63E", type: "checkmark" }]
 			x: 12.0d
 			y: 12.0d
@@ -599,6 +599,281 @@
 			tasks: [{ id: "74C3CB9D99D5FCE5", type: "checkmark" }]
 			x: 12.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["B9C4F0B1BC7F2746"]
+			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "minecraft:trident" }
+			id: "CF509E2F02647FD9"
+			title: "Dreizack"
+			rewards: []
+			tasks: [{ id: "1BAE2F2BB8A5D68E", type: "checkmark" }]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["CF509E2F02647FD9"]
+			description: ["&6Was ist das?", "Macht mehr Schaden, je tiefer du faellst.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "minecraft:mace" }
+			id: "5086933097CF61B1"
+			title: "Streitkolben (Uebersicht)"
+			rewards: []
+			tasks: [{ id: "E8AFE54F88E0B107", type: "checkmark" }]
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5086933097CF61B1"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:sword_on_a_stick" }
+			id: "6FF42D7D5578B047"
+			title: "Sword on a Stick"
+			rewards: []
+			tasks: [{ id: "3AF69184E681C2F3", type: "checkmark" }]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6FF42D7D5578B047"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:bramblethorn" }
+			id: "79E59BD72EF2B2FA"
+			title: "Bramblethorn"
+			rewards: []
+			tasks: [{ id: "BD87B3F9CB55C75C", type: "checkmark" }]
+			x: 7.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["79E59BD72EF2B2FA"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:shadowsting" }
+			id: "C4371AA7D1E4343E"
+			title: "Shadowsting"
+			rewards: []
+			tasks: [{ id: "1A080BEDEE47299A", type: "checkmark" }]
+			x: 9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["C4371AA7D1E4343E"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:sunfire" }
+			id: "79D42AC833677EF7"
+			title: "Sunfire"
+			rewards: []
+			tasks: [{ id: "71C27E517D980DD6", type: "checkmark" }]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["79D42AC833677EF7"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:waxweaver" }
+			id: "B15204092D4B4C0E"
+			title: "Waxweaver"
+			rewards: []
+			tasks: [{ id: "BA05ED99798DA240", type: "checkmark" }]
+			x: 12.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["B15204092D4B4C0E"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:hiveheart" }
+			id: "E4493877BECCFE07"
+			title: "Hiveheart"
+			rewards: []
+			tasks: [{ id: "FF90AFF61F15D23C", type: "checkmark" }]
+			x: 13.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["E4493877BECCFE07"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:stars_edge" }
+			id: "C231149A46E06DA1"
+			title: "Star's Edge"
+			rewards: []
+			tasks: [{ id: "C15782FF08A69B5C", type: "checkmark" }]
+			x: 15.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["C231149A46E06DA1"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:wickpiercer" }
+			id: "90F730C29D727394"
+			title: "Wickpiercer"
+			rewards: []
+			tasks: [{ id: "3802561CAA4EB3B4", type: "checkmark" }]
+			x: 16.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["90F730C29D727394"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:gloampiercer" }
+			id: "CDF28ECAAA4CA61E"
+			title: "Gloampiercer"
+			rewards: []
+			tasks: [{ id: "6B08DC8C0AF249C5", type: "checkmark" }]
+			x: 18.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["CF509E2F02647FD9"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:chompolotl" }
+			id: "C52215EE11286996"
+			title: "Chomp'olotl"
+			rewards: []
+			tasks: [{ id: "AC20A3851551D354", type: "checkmark" }]
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["C52215EE11286996"]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "simplyswords:toxic_longsword" }
+			id: "9DAF399F4458DE9D"
+			title: "Longsword of the Plague"
+			rewards: []
+			tasks: [{ id: "7B12A36880B2813B", type: "checkmark" }]
+			x: 4.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["9DAF399F4458DE9D"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "mowziesmobs:wrought_axe" }
+			id: "862EAD7BD328D1DB"
+			title: "Axe of a Thousand Metals"
+			rewards: []
+			tasks: [{ id: "2A7DEFB921F4F438", type: "checkmark" }]
+			x: 6.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["862EAD7BD328D1DB"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "mowziesmobs:spear" }
+			id: "850857D20682CE53"
+			title: "Spear"
+			rewards: []
+			tasks: [{ id: "198935529B77DDC8", type: "checkmark" }]
+			x: 7.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["850857D20682CE53"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "mowziesmobs:naga_fang_dagger" }
+			id: "7FD822594DF4DC90"
+			title: "Naga Fang Dagger"
+			rewards: []
+			tasks: [{ id: "11CDB2486E7DB2A2", type: "checkmark" }]
+			x: 9.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7FD822594DF4DC90"]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			icon: { id: "mowziesmobs:sculptor_staff" }
+			id: "54FE5C1180E344FF"
+			title: "Geomancer Staff"
+			rewards: []
+			tasks: [{ id: "11925CBD554284C4", type: "checkmark" }]
+			x: 10.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["C52215EE11286996"]
+			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Ein starker Bogen fuer die mittleren Bosse."]
+			icon: { id: "archeries:diamond_bow" }
+			id: "1338FFE60935D51A"
+			title: "Diamantbogen"
+			rewards: [{ id: "3359E389B6C7E884", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5E2F6BCC4F5D17D4", type: "item", item: { id: "archeries:diamond_bow", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1338FFE60935D51A"]
+			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Starke Armbrust fuer die mittleren Bosse."]
+			icon: { id: "archeries:diamond_crossbow" }
+			id: "1B2144517BC5AC69"
+			title: "Diamantarmbrust"
+			rewards: [{ id: "7C68873F1C9EFD03", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7D8D32ED4F8068B2", type: "item", item: { id: "archeries:diamond_crossbow", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1B2144517BC5AC69"]
+			description: ["&6Was ist das?", "Der Diamantpfeil.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden pro Schuss."]
+			icon: { id: "archeries:diamond_arrow" }
+			id: "5DEB458F606EEFCD"
+			title: "Diamantpfeil"
+			rewards: [{ id: "7E8E765DEBE4DD7F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3C6FD864E548D480", type: "item", item: { id: "archeries:diamond_arrow", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1338FFE60935D51A"]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			icon: { id: "minecraft:diamond_pickaxe" }
+			id: "C06E9A589A96BD39"
+			title: "Werkzeug-Set Diamant"
+			rewards: []
+			tasks: [{ id: "034527547FCDBC80", type: "checkmark" }]
+			x: 3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["C06E9A589A96BD39"]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "minecraft:diamond_chestplate" }
+			id: "E307E3D045740589"
+			title: "Ruestung Diamant"
+			rewards: []
+			tasks: [{ id: "4ED945500A1A5C96", type: "checkmark" }]
+			x: 3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["E307E3D045740589"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "immersive_armors:divine_chestplate" }
+			id: "9330ED07F201751D"
+			title: "Divine (Ruestung)"
+			rewards: []
+			tasks: [{ id: "94AE9FA0F5426F43", type: "checkmark" }]
+			x: 4.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["9330ED07F201751D"]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "immersive_armors:prismarine_chestplate" }
+			id: "12441AAB862A6BAA"
+			title: "Prismarine (Ruestung)"
+			rewards: []
+			tasks: [{ id: "AD74A559019565EC", type: "checkmark" }]
+			x: 6.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["12441AAB862A6BAA"]
+			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			icon: { id: "mowziesmobs:wrought_helmet" }
+			id: "28646A08B1E6D57D"
+			title: "Wrought Helm (Ruestung)"
+			rewards: []
+			tasks: [{ id: "60FD1D6BB2B603B3", type: "checkmark" }]
+			x: 7.5d
+			y: 30.0d
 		}
 	]
 }
