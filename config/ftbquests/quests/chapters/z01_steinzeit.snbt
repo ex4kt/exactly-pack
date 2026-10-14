@@ -1249,5 +1249,86 @@
 			x: 25.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["32B584A362001F6A"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Mit der Schleuder verschiesst du Kiesel auf Distanz.", "", "&6So gehts", "Kiesel sammeln, Schleuder nach JEI herstellen. Rechtsklick halten zum Spannen.", "", "&6Wofuer ist das wichtig?", "Die erste Fernwaffe, noch vor dem Bogen."]
+			id: "5DE7F7A93248B56F"
+			title: "Schleuder"
+			rewards: [{ id: "52439A16D28A2676", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "33A71492BA32EC39", type: "item", item: { id: "slingshot:brown", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["5DE7F7A93248B56F"]
+			description: ["&6Was ist das?", "Munition fuer die Schleuder.", "", "&6So gehts", "Kiesel aus Kies und Stein herstellen, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Billig und ueberall zu finden."]
+			id: "00AB81F488EE8A13"
+			title: "Kiesel"
+			rewards: [{ id: "28C3E2EDD6E55C31", type: "item", item: { id: "slingshot:pebble", count: 16 } }]
+			tasks: [{ id: "724FDBB3BD24081F", type: "item", item: { id: "slingshot:pebble", count: 1 }, count: 8L }]
+			x: 3.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["00AB81F488EE8A13"]
+			description: ["&6Was ist das?", "Ein Speer zum Stechen und Werfen.", "", "&6So gehts", "Holz und Stoecke, siehe JEI. Mit Rechtsklick halten wirfst du ihn.", "", "&6Wofuer ist das wichtig?", "Einfache Nah- und Wurfwaffe der Steinzeit."]
+			id: "34190EAEB8246C4E"
+			title: "Holzspeer"
+			rewards: [{ id: "7299E9D1A6D60235", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "5EED3AABB31250CB", type: "item", item: { id: "weaponmod:spear.wood", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["34190EAEB8246C4E"]
+			description: ["&6Was ist das?", "Der Speer mit Steinspitze.", "", "&6So gehts", "Stein statt Holz am Speer, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden, haelt laenger."]
+			id: "0D930DEFF3503872"
+			title: "Steinspeer"
+			rewards: [{ id: "77C153CC5A945207", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "56883F27EFEC16EB", type: "item", item: { id: "weaponmod:spear.stone", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["0D930DEFF3503872"]
+			description: ["&6Was ist das?", "Ein Speer nur zum Werfen.", "", "&6So gehts", "Eisen und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gute Wurfwaffe gegen Gegner auf Abstand."]
+			id: "0BEAA9DA03DE0969"
+			title: "Wurfspiess"
+			rewards: [{ id: "7E7FDFF0C156F8E5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "64AB28E136CF3239", type: "item", item: { id: "weaponmod:javelin", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["0BEAA9DA03DE0969"]
+			description: ["&6Was ist das?", "Ein Bumerang aus Stein, der zurueckkehrt.", "", "&6So gehts", "Stein und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Trifft auf Distanz und kommt zurueck, wenn er verfehlt."]
+			id: "7173A54B117B67C1"
+			title: "Steinbumerang"
+			rewards: [{ id: "2BF9DE5CCB2C1AE4", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "532A88C3EAEFAA2C", type: "item", item: { id: "weaponmod:boomerang.stone", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 38.0d
+		}
+		{
+			dependencies: ["7173A54B117B67C1"]
+			description: ["&6Was ist das?", "Verschiesst Pfeile mit Effekten.", "", "&6So gehts", "Bambus und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Leise Waffe, mit Giftpfeilen stark gegen Gegner."]
+			id: "09FE331571782553"
+			title: "Blasrohr"
+			rewards: [{ id: "3C406F42BEAB6F68", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "43DBCFAC6BCCDBB5", type: "item", item: { id: "weaponmod:blowgun", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["09FE331571782553"]
+			description: ["&6Was ist das?", "Munition fuers Blasrohr.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofuer ist das wichtig?", "Es gibt Pfeile mit Hunger, Verlangsamung und Schaden."]
+			id: "3171073D28439490"
+			title: "Blasrohrpfeile"
+			rewards: [{ id: "0FF634804D066AED", type: "item", item: { id: "weaponmod:dart", count: 16 } }]
+			tasks: [{ id: "67590C18884FF308", type: "item", item: { id: "weaponmod:dart", count: 1 }, count: 8L }]
+			x: 12.0d
+			y: 38.0d
+		}
 	]
 }

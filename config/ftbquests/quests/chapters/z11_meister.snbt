@@ -849,5 +849,76 @@
 			x: 9.0d
 			y: 22.0d
 		}
+		{
+			dependencies: ["07BE262D9D78209B"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Das Netherite Monstrosity ist ein riesiger Lava-Boss in der Seelenschmiede.", "", "&6So gehts", "Netheritruestung mit Feuerschutz, Heiltraenke. Nur mit Vorbereitung.", "", "&6Wofuer ist das wichtig?", "Boss des Meister-Zeitalters."]
+			id: "6E96BA3EA980E587"
+			title: "Netherit-Monstrum"
+			rewards: [{ id: "5A06BC5CEB97967C", type: "xp_levels", xp_levels: 15 }, { id: "0013477F11552877", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			tasks: [{ id: "2B06246DBCA1A775", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L, icon: { id: "minecraft:netherite_ingot" } }]
+			x: 1.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6E96BA3EA980E587"]
+			description: ["&6Was ist das?", "Ignis ist ein feuriger Ritter mit riesigem Schwert.", "", "&6So gehts", "Netheritruestung mit Feuerschutz, Schild, Heiltraenke.", "", "&6Wofuer ist das wichtig?", "Boss des Meister-Zeitalters."]
+			id: "2CB92026A063DFF5"
+			title: "Ignis"
+			rewards: [{ id: "78CFDC5C18313B38", type: "xp_levels", xp_levels: 15 }, { id: "26EDC9B8CAB8ABFC", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			tasks: [{ id: "6901B543061907F6", type: "kill", entity: "cataclysm:ignis", value: 1L, icon: { id: "minecraft:blaze_rod" } }]
+			x: 3.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2CB92026A063DFF5"]
+			description: ["&6Was ist das?", "Der Leviathan wartet im versunkenen Reich im Ozean.", "", "&6So gehts", "Netheritruestung, Atmung unter Wasser, Heiltraenke.", "", "&6Wofuer ist das wichtig?", "Ozean-Boss des Meister-Zeitalters."]
+			id: "584C326C1BDDCA39"
+			title: "Leviathan"
+			rewards: [{ id: "60A3E8D87F12EB80", type: "xp_levels", xp_levels: 15 }, { id: "04817B03BFCB7D46", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			tasks: [{ id: "3B3CC5FAA26FD943", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_shard" } }]
+			x: 4.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["584C326C1BDDCA39"]
+			description: ["&6Was ist das?", "Der Ender Guardian bewacht sein Mausoleum.", "", "&6So gehts", "Netheritruestung, Schild, viel Heilung.", "", "&6Wofuer ist das wichtig?", "Boss des Meister-Zeitalters."]
+			id: "598ECA0C511D7BDE"
+			title: "Ender-Waechter"
+			rewards: [{ id: "0F75A04C29C24939", type: "xp_levels", xp_levels: 15 }, { id: "2E944B768DDD95DD", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			tasks: [{ id: "2FFC62D10F99DFC7", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_crystal" } }]
+			x: 6.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["598ECA0C511D7BDE"]
+			description: ["&6Was ist das?", "Der Harbinger ist ein riesiger Roboter mit Lasern.", "", "&6So gehts", "Netheritruestung, Schild, Heiltraenke.", "", "&6Wofuer ist das wichtig?", "Letzter Boss der Meisterschaft."]
+			id: "2B3CBED242A6B15E"
+			title: "Harbinger (Boss)"
+			rewards: [{ id: "36F41F64F7DAEFAF", type: "xp_levels", xp_levels: 20 }, { id: "4E9605793AB86927", type: "item", item: { id: "minecraft:netherite_scrap", count: 6 } }]
+			tasks: [{ id: "6C3445E0D082DD66", type: "kill", entity: "cataclysm:the_harbinger", value: 1L, icon: { id: "minecraft:beacon" } }]
+			x: 7.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["2B3CBED242A6B15E"]
+			description: ["&6Was ist das?", "Der Gauntlet ist ein riesiger Stein-Boss in den Hoehlen.", "", "&6So gehts", "Netheritruestung, Schild, Heiltraenke. Zerstoere seinen Kern.", "", "&6Wofuer ist das wichtig?", "Boss des Meister-Zeitalters."]
+			id: "68D7DD5270AC0F36"
+			title: "Gauntlet"
+			rewards: [{ id: "42C54CC2B608230D", type: "xp_levels", xp_levels: 15 }, { id: "36F02085563B49D5", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			tasks: [{ id: "3AF8786E18213695", type: "kill", entity: "bosses_of_mass_destruction:gauntlet", value: 1L, icon: { id: "minecraft:blackstone" } }]
+			x: 9.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["68D7DD5270AC0F36"]
+			description: ["&6Was ist das?", "Der Obsidilith ist ein riesiger Obsidian-Boss.", "", "&6So gehts", "Netheritruestung, Diamantspitzhacke, Heiltraenke. Zerstoere die Kristalle.", "", "&6Wofuer ist das wichtig?", "Boss des Meister-Zeitalters."]
+			id: "1EF42B80CF8766E1"
+			title: "Obsidilith"
+			rewards: [{ id: "39FFEFF49D220694", type: "xp_levels", xp_levels: 15 }, { id: "0A5912A44CFDC8C0", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			tasks: [{ id: "41B1E37A305DB862", type: "kill", entity: "bosses_of_mass_destruction:obsidilith", value: 1L, icon: { id: "minecraft:obsidian" } }]
+			x: 10.5d
+			y: 26.0d
+		}
 	]
 }

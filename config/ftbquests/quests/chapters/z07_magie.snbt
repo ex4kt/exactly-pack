@@ -887,5 +887,26 @@
 			x: 19.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["5C54807EC3EC2CDC"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Die Void Blossom ist eine riesige Pflanze in der Tiefe.", "", "&6So gehts", "Verzauberte Diamantruestung, Heiltraenke, Spruchbuch. Zerstoere die Ranken zuerst.", "", "&6Wofuer ist das wichtig?", "Erster Boss der Magiezeit."]
+			id: "449BF7C358F0A86C"
+			title: "Bluetenschreck"
+			rewards: [{ id: "33862D9390601465", type: "xp_levels", xp_levels: 10 }, { id: "462E44916F097851", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			tasks: [{ id: "1EA7D860FE61C624", type: "kill", entity: "bosses_of_mass_destruction:void_blossom", value: 1L, icon: { id: "minecraft:flowering_azalea" } }]
+			x: 1.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["449BF7C358F0A86C"]
+			description: ["&6Was ist das?", "Der Lich ist ein Magier mit Meteoren und Totenkopf-Beschwoerung.", "", "&6So gehts", "Verzauberte Diamantruestung, Feuerschutz, Heiltraenke. Zerstoere zuerst seine Kristalle.", "", "&6Wofuer ist das wichtig?", "Magie-Boss, der Zauberer-Fertigkeiten fordert."]
+			id: "54937D4D0780D58C"
+			title: "Lich"
+			rewards: [{ id: "21F8299FEEE3BD43", type: "xp_levels", xp_levels: 10 }, { id: "7316109A7525F144", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			tasks: [{ id: "01D3FC736ABBF0C5", type: "kill", entity: "bosses_of_mass_destruction:lich", value: 1L, icon: { id: "minecraft:soul_lantern" } }]
+			x: 3.0d
+			y: 26.0d
+		}
 	]
 }

@@ -882,5 +882,87 @@
 			x: 7.5d
 			y: 30.0d
 		}
+		{
+			dependencies: ["35D9C17C3DF9768D"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Ein Speer aus Diamant.", "", "&6So gehts", "Diamant und Stock, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Starker Wurfspeer der Diamantzeit."]
+			id: "6065747E97AF7361"
+			title: "Diamantspeer"
+			rewards: [{ id: "2A20CC8985979C74", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2A305CB5E787D919", type: "item", item: { id: "weaponmod:spear.diamond", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["6065747E97AF7361"]
+			description: ["&6Was ist das?", "Ein Bumerang aus Diamant.", "", "&6So gehts", "Diamant, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Hoher Schaden aus der Distanz."]
+			id: "41D2D2ADE474E548"
+			title: "Diamantbumerang"
+			rewards: [{ id: "7C759201B7B89887", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "400A40867F4671AA", type: "item", item: { id: "weaponmod:boomerang.diamond", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["35D9C17C3DF9768D"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut ist ein riesiger Eisengolem-Boss in seiner Kammer unter der Erde.", "", "&6So gehts", "Diamantruestung, ein Diamantschwert oder Axt, Heiltraenke und Goldaepfel. Weiche seinen Schlaegen aus.", "", "&6Wofuer ist das wichtig?", "Erster Boss der Diamantzeit."]
+			id: "42859D02779932CC"
+			title: "Eiserner Waechter"
+			rewards: [{ id: "00398B7575503487", type: "xp_levels", xp_levels: 8 }, { id: "0A61BB3422F2971B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "1AB20C0ACD75974B", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "minecraft:iron_block" } }]
+			x: 1.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["42859D02779932CC"]
+			description: ["&6Was ist das?", "Frostmaw, ein riesiger Eisbaer in verschneiten Gebieten.", "", "&6So gehts", "Diamantruestung, Feuerschutz-Traenke, Bogen. Er greift in Wellen an.", "", "&6Wofuer ist das wichtig?", "Boss fuer kalte Biome."]
+			id: "69102A9BDB2D4FFB"
+			title: "Frostmaul"
+			rewards: [{ id: "3C317595391E7867", type: "xp_levels", xp_levels: 8 }, { id: "694F058C593B4A90", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "04D92D22C354AB56", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L, icon: { id: "minecraft:snowball" } }]
+			x: 3.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["69102A9BDB2D4FFB"]
+			description: ["&6Was ist das?", "Umvuthi ist der Anfuehrer der Barakoa in ihren Doerfern.", "", "&6So gehts", "Diamantruestung, Schild, Heiltraenke. Seine Wachen greifen mit an.", "", "&6Wofuer ist das wichtig?", "Boss der Barakoa-Doerfer."]
+			id: "0985399D5D0017D5"
+			title: "Barako der Sonnenkoenig"
+			rewards: [{ id: "641AA2E6CEB40563", type: "xp_levels", xp_levels: 8 }, { id: "212DBAFA880D7423", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			tasks: [{ id: "223F9692BF560191", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
+			x: 4.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["0985399D5D0017D5"]
+			description: ["&6Was ist das?", "Ein riesiger Zombie, der Gegner wegschleudert.", "", "&6So gehts", "Diamantruestung, Schild. Halte Abstand und nutze den Bogen.", "", "&6Wofuer ist das wichtig?", "Starker Gegner der Diamantzeit."]
+			id: "2246934C01E48F4E"
+			title: "Mutant-Zombie"
+			rewards: [{ id: "33F4D7EC2D01BADB", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "66C4DCBA4316285D", type: "kill", entity: "mutantmonsters:mutant_zombie", value: 1L, icon: { id: "minecraft:rotten_flesh" } }]
+			x: 6.0d
+			y: 36.0d
+		}
+		{
+			dependencies: ["2246934C01E48F4E"]
+			description: ["&6Was ist das?", "Ein riesiges Skelett, das mehrere Pfeile gleichzeitig schiesst.", "", "&6So gehts", "Diamantruestung, Schild. Nahkampf, wenn es nah ist.", "", "&6Wofuer ist das wichtig?", "Fernkampf-Mutant der Diamantzeit."]
+			id: "3E6B4CD6BE2E683E"
+			title: "Mutant-Skelett"
+			rewards: [{ id: "1C4262B5AD9806FD", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "1D5B9C52DBBF2DD2", type: "kill", entity: "mutantmonsters:mutant_skeleton", value: 1L, icon: { id: "minecraft:bone" } }]
+			x: 7.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3E6B4CD6BE2E683E"]
+			description: ["&6Was ist das?", "Ein riesiger Creeper, der explodiert und Blitze ruft.", "", "&6So gehts", "Diamantruestung, Abstand halten und mit dem Bogen schiessen.", "", "&6Wofuer ist das wichtig?", "Gefaehrlicher Mutant, nutze Distanzwaffen."]
+			id: "7EDF045A11C92083"
+			title: "Mutant-Creeper"
+			rewards: [{ id: "2A9AD2222CCAFCDC", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "5F39299376A16D4E", type: "kill", entity: "mutantmonsters:mutant_creeper", value: 1L, icon: { id: "minecraft:gunpowder" } }]
+			x: 9.0d
+			y: 36.0d
+		}
 	]
 }

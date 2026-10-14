@@ -1550,5 +1550,36 @@
 			x: 18.0d
 			y: 28.0d
 		}
+		{
+			dependencies: ["3ED2EEBB1CFA992F"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Eine Kanone, die Kugeln verschiesst.", "", "&6So gehts", "Eisen, Holz und Schiesspulver, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Schwere Distanzwaffe, dazu Kanonenkugeln."]
+			id: "0B24A943B007519C"
+			title: "Kanone"
+			rewards: [{ id: "6BA02BB4A7130C2F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "3DB6A53B5A117CAE", type: "item", item: { id: "weaponmod:cannon", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["0B24A943B007519C"]
+			description: ["&6Was ist das?", "Munition fuer die Kanone.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofuer ist das wichtig?", "Zerstoert Bloecke und Gegner im Umkreis."]
+			id: "4E591B8970E6B6A8"
+			title: "Kanonenkugel"
+			rewards: [{ id: "7DCBCD0F6B5ACD8D", type: "item", item: { id: "weaponmod:cannonball", count: 8 } }]
+			tasks: [{ id: "0418338DD9A1233F", type: "item", item: { id: "weaponmod:cannonball", count: 1 }, count: 4L }]
+			x: 3.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["4E591B8970E6B6A8"]
+			description: ["&6Was ist das?", "Ein Moerser, der Granaten verschiesst.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofuer ist das wichtig?", "Beschuss aus der Ferne ueber Hindernisse."]
+			id: "3A4FB13620421DDF"
+			title: "Moerser"
+			rewards: [{ id: "43C5642D31D02F73", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "30724DAA82AF4089", type: "item", item: { id: "weaponmod:mortar", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 42.0d
+		}
 	]
 }

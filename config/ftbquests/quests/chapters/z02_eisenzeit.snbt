@@ -1973,5 +1973,107 @@
 			x: 31.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["56184FBD96403098"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Ein starker Wurfspeer aus Eisen.", "", "&6So gehts", "Eisenbarren und Stock, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Starke Distanzwaffe der Eisenzeit."]
+			id: "165DF3D555BAE046"
+			title: "Eisenspeer"
+			rewards: [{ id: "780BA919753B9BBD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "48099B9E4CC243B3", type: "item", item: { id: "weaponmod:spear.iron", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["165DF3D555BAE046"]
+			description: ["&6Was ist das?", "Ein Bumerang aus Eisen.", "", "&6So gehts", "Eisenbarren, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden, kehrt zurueck."]
+			id: "2F870CFD08AD3ECB"
+			title: "Eisenbumerang"
+			rewards: [{ id: "64963E59A8957582", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7AA3028C979418E5", type: "item", item: { id: "weaponmod:boomerang.iron", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["2F870CFD08AD3ECB"]
+			description: ["&6Was ist das?", "Eine zweite Armbrust, die Bolzen verschiesst.", "", "&6So gehts", "Eisen und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Durchschlagskraft gegen schwere Ruestung."]
+			id: "42B61A7A86E39648"
+			title: "Armbrust (Balkon)"
+			rewards: [{ id: "1E8519813D20E163", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2BF7FA503A525C3C", type: "item", item: { id: "weaponmod:crossbow", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["42B61A7A86E39648"]
+			description: ["&6Was ist das?", "Munition fuer die Armbrust.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofuer ist das wichtig?", "Bolzen kannst du wieder aufheben."]
+			id: "4446A67D6F447F27"
+			title: "Bolzen"
+			rewards: [{ id: "240BB2DB3E53FDA6", type: "item", item: { id: "weaponmod:bolt", count: 16 } }]
+			tasks: [{ id: "5D9FB328DE9CAEEA", type: "item", item: { id: "weaponmod:bolt", count: 1 }, count: 8L }]
+			x: 6.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["4446A67D6F447F27"]
+			description: ["&6Was ist das?", "Ein Sprengsatz zum Werfen.", "", "&6So gehts", "Schiesspulver und Papier, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Sprengt Hindernisse und trifft Gruppen."]
+			id: "55E7E0333C6ECF70"
+			title: "Dynamit"
+			rewards: [{ id: "0EC37BF894E6D311", type: "item", item: { id: "weaponmod:dynamite", count: 4 } }]
+			tasks: [{ id: "6CDC89B3B1EAA8A4", type: "item", item: { id: "weaponmod:dynamite", count: 1 }, count: 2L }]
+			x: 7.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["55E7E0333C6ECF70"]
+			description: ["&6Was ist das?", "Eine einfache Feuerwaffe.", "", "&6So gehts", "Eisen, Holz und Feuerstein, siehe JEI. Braucht Kugeln und Schiesspulver.", "", "&6Wofuer ist das wichtig?", "Fruehe Feuerwaffe auf dem Stand der Muskete."]
+			id: "3BBDC31F9E4B9D5B"
+			title: "Steinschlosspistole"
+			rewards: [{ id: "0D55D954EBDE7013", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3C1113A118263981", type: "item", item: { id: "weaponmod:flintlock", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["3BBDC31F9E4B9D5B"]
+			description: ["&6Was ist das?", "Kugeln fuer Muskete und Pistole.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofuer ist das wichtig?", "Ohne Munition schiesst keine Feuerwaffe."]
+			id: "67D9A31CC0B92592"
+			title: "Bleikugeln"
+			rewards: [{ id: "77FA7AEED9D64903", type: "item", item: { id: "weaponmod:bullet", count: 16 } }]
+			tasks: [{ id: "02BB90E01EF41E48", type: "item", item: { id: "weaponmod:bullet", count: 1 }, count: 8L }]
+			x: 10.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["56184FBD96403098"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Illager der Invasion tauchen in Villen und bei Raids auf. Der Prellbock (Basher) ist stark gepanzert.", "", "&6So gehts", "Eisenruestung, Schild, Heiltraenke. Kaempfe nicht allein.", "", "&6Wofuer ist das wichtig?", "Erster Test mit Eisenausruestung gegen die neuen Illager."]
+			id: "4F50EC07951BCC41"
+			title: "Illager-Bote"
+			rewards: [{ id: "4A4D46519F411554", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "044B3A4E6043B8B2", type: "kill", entity: "illagerinvasion:basher", value: 1L, icon: { id: "minecraft:iron_axe" } }]
+			x: 1.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["4F50EC07951BCC41"]
+			description: ["&6Was ist das?", "Ein starker Illager mit Axt, tritt in Villen auf.", "", "&6So gehts", "Eisenruestung, Schild, Goldaepfel. Greife ihn nicht von vorne an.", "", "&6Wofuer ist das wichtig?", "Beweis, dass du die Illager schaffst."]
+			id: "28B6BDF2A019421F"
+			title: "Inquisitor"
+			rewards: [{ id: "6F809CD3F69738CC", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			tasks: [{ id: "36ADF8C9BDC104CD", type: "kill", entity: "illagerinvasion:inquisitor", value: 1L, icon: { id: "minecraft:iron_sword" } }]
+			x: 3.0d
+			y: 50.0d
+		}
+		{
+			dependencies: ["28B6BDF2A019421F"]
+			description: ["&6Was ist das?", "Der Invoker beschwoert Geister und ist der Chef der Invasion.", "", "&6So gehts", "Eisenruestung oder besser, Bogen oder Armbrust, Heiltraenke. Er ist tief in Villen zu finden.", "", "&6Wofuer ist das wichtig?", "Erster Endgegner der Eisenzeit."]
+			id: "48AAAEAD232452C2"
+			title: "Invoker"
+			rewards: [{ id: "4B6746B8D9CC4639", type: "xp_levels", xp_levels: 6 }, { id: "3A67CC09330AF5EF", type: "item", item: { id: "minecraft:emerald", count: 8 } }]
+			tasks: [{ id: "7F61CB9697FF3594", type: "kill", entity: "illagerinvasion:invoker", value: 1L, icon: { id: "minecraft:totem_of_undying" } }]
+			x: 4.5d
+			y: 50.0d
+		}
 	]
 }

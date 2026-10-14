@@ -391,5 +391,16 @@
 			x: 10.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["2600278FFBA40B51"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Ein riesiger Enderman, der teleportiert und Bloecke schleudert.", "", "&6So gehts", "Diamantruestung oder besser, Wasser in Reichweite. Er ist langsam, aber stark.", "", "&6Wofuer ist das wichtig?", "Boss des End-Zeitalters."]
+			id: "254836852F56C403"
+			title: "Mutant-Enderman"
+			rewards: [{ id: "35BE9DDB95684F19", type: "xp_levels", xp_levels: 10 }, { id: "06B6478E0B94F95F", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			tasks: [{ id: "1DB56276F9D63E2A", type: "kill", entity: "mutantmonsters:mutant_enderman", value: 1L, icon: { id: "minecraft:ender_pearl" } }]
+			x: 1.5d
+			y: 14.0d
+		}
 	]
 }

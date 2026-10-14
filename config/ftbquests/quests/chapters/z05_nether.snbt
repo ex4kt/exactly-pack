@@ -711,5 +711,37 @@
 			x: 22.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["4FA1824F157108ED"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Ein Speer aus Netherit.", "", "&6So gehts", "Netherit-Barren und Stock, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Staerkster Wurfspeer."]
+			id: "5871CBEE9FF62295"
+			title: "Netheritspeer"
+			rewards: [{ id: "1425E39C1F8527C8", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "252FECF96B6AE792", type: "item", item: { id: "weaponmod:spear.netherite", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5871CBEE9FF62295"]
+			description: ["&6Was ist das?", "Ein Bumerang aus Netherit.", "", "&6So gehts", "Netherit-Barren, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Haelt Lava aus, hoher Schaden."]
+			id: "4D764567CD15BF49"
+			title: "Netheritbumerang"
+			rewards: [{ id: "6C109A0B2266352C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "2C12CF8F28829E67", type: "item", item: { id: "weaponmod:boomerang.netherite", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4FA1824F157108ED"]
+			hide_dependency_lines: true
+			description: ["&6Was ist das?", "Der Stalker lebt in der Otherside von Deeper and Darker und jagt dich im Dunkeln.", "", "&6So gehts", "Diamantruestung mit Verzauberungen, Nachtsicht, Heiltraenke. Laufe nicht blind in die Dunkelheit.", "", "&6Wofuer ist das wichtig?", "Gefaehrlicher Gegner im Tiefendunkel."]
+			id: "2DFCAF23C27F665D"
+			title: "Stalker"
+			rewards: [{ id: "07CF367BE8BCAD75", type: "xp_levels", xp_levels: 8 }, { id: "5873FFB67682D83D", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
+			tasks: [{ id: "655157835130A925", type: "kill", entity: "deeperdarker:stalker", value: 1L, icon: { id: "minecraft:sculk_catalyst" } }]
+			x: 1.5d
+			y: 24.0d
+		}
 	]
 }
