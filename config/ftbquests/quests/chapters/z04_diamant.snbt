@@ -22,20 +22,20 @@
 			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Das Hauptschwert der Diamantzeit.", "", "&6So gehts", "Zwei Diamanten, darunter das Eisenschwert statt des Stocks.", "", "&6Wofuer ist das wichtig?", "Pflicht fuer den Aufstieg. Grundlage aller Diamant-Spezialwaffen."]
 			icon: { id: "minecraft:diamond_sword" }
-			id: "B9C4F0B1BC7F2746"
+			id: "31E652570EB0BD57"
 			title: "Diamantschwert"
-			rewards: [{ id: "A5001546B29BC911", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F64621C434077C7C", type: "item", item: { id: "minecraft:diamond_sword", count: 1 }, count: 1L }]
+			rewards: [{ id: "1C17CABACDF8F913", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2E81412FFA9A8AB9", type: "item", item: { id: "minecraft:diamond_sword", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B9C4F0B1BC7F2746"]
+			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Starke Ruestung aus Diamant.", "", "&6So gehts", "Wie Eisenruestung, nur mit Diamanten.", "", "&6Wofuer ist das wichtig?", "Pflicht fuer den Nether und die ersten Bosse."]
 			icon: { id: "minecraft:diamond_chestplate" }
 			id: "69BF8973F8D01A34"
 			title: "Diamantruestung"
-			rewards: [{ id: "B1C4F93BB74827F9", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "74F8084D4491A135", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2BBAC307BD308F25", type: "item", item: { id: "minecraft:diamond_chestplate", count: 1 }, count: 1L }]
 			x: 4.5d
 			y: 0.0d
@@ -45,7 +45,7 @@
 			description: ["&6Was ist das?", "Mit dem Schmiedetisch verbesserst du Ausruestung mit Ruestungsdesign und Netherit.", "", "&6So gehts", "Vorlage, Ausruestung und Material einlegen.", "", "&6Wofuer ist das wichtig?", "Aus Diamant wird hier Netherit, Advanced Netherite und viele Mod-Ruestungen werden hier verbessert."]
 			id: "2DEDA3D57FB89524"
 			title: "Schmiedetisch"
-			rewards: [{ id: "CC908D891E7840CD", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5BF54DFA91207BCE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B2DEE7CC1159E08", type: "item", item: { id: "minecraft:smithing_table", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 0.0d
@@ -63,9 +63,9 @@
 		{
 			dependencies: ["797F4B8218472B01"]
 			description: ["&6Was ist das?", "Die Magnum-Fackel haelt Monster in einem grossen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Naehe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept in JEI).", "Stelle sie mitten in deine Basis.", "", "&6Wofuer ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
-			id: "83C486B2B589DFAA"
+			id: "2B4C71F6BF32A230"
 			title: "Monsterfreie Zone"
-			rewards: [{ id: "C9DF67395A0746D5", type: "item", item: { id: "minecraft:torch", count: 16 } }]
+			rewards: [{ id: "19E97F71F8105A8A", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "5C978FDFFC271000", type: "item", item: { id: "magnumtorch:diamond_magnum_torch", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 18.0d
@@ -76,7 +76,7 @@
 			icon: { id: "justhammers:diamond_hammer" }
 			id: "598824065CC1F63B"
 			title: "Diamanthammer"
-			rewards: [{ id: "91A619988FF4F854", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "50BB36B4CF8ECDFF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "70175AE0EB9EB6EA", type: "item", item: { id: "justhammers:diamond_hammer", count: 1 }, count: 1L }]
 			x: 1.5d
 			y: 32.0d
@@ -85,25 +85,25 @@
 			dependencies: ["598824065CC1F63B"]
 			description: ["&6Was ist das?", "Eine verstaerkte Spitzhacke aus Minecraft Dungeons.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Haltbarkeit fuer lange Bergbau-Touren."]
 			icon: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe" }
-			id: "EA068EB1D44F3E42"
+			id: "3001D0B57ED05F99"
 			title: "Verstaerkte Diamant-Spitzhacke"
-			rewards: [{ id: "9AE0C97E69F5B916", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DA97DA003B53F405", type: "item", item: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe", count: 1 }, count: 1L }]
+			rewards: [{ id: "66CC5C6021171209", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "57507A72DC39A771", type: "item", item: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 32.0d
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Buecherregale im Abstand von einem Block darum herum machen die Verzauberungen staerker.", "Lapis und Erfahrung zahlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Glueck und Haltbarkeit machen dich viel schneller und sparen Material."]
-			id: "EA1937E326ECAA34"
+			id: "2502CCD91E41AFC0"
 			title: "Der Verzauberungstisch"
-			rewards: [{ id: "E6766B326E27C88C", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
+			rewards: [{ id: "69B8EA263F9CBAB4", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
 			tasks: [{ id: "108E99E367ADB315", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["EA1937E326ECAA34"]
+			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Apothic Enchanting ersetzt das normale Verzaubern.", "Jedes Buecherregal hat Werte: Eterna (Staerke), Quanta (Zufall) und Arcana (Seltenheit).", "", "&6So gehts", "Stelle verschiedene Buecherregale um den Verzauberungstisch. Fahre mit der Maus ueber den Tisch, um die Werte zu sehen.", "Bessere Regale (z.B. aus Nether- oder End-Material) bringen hoehere Stufen.", "JEI zeigt alle besonderen Regale und Rezepte.", "", "&6Wofuer ist das wichtig?", "Mit guten Regalen bekommst du Verzauberungen ueber der normalen Hoechststufe. Das macht Werkzeuge und Ruestung fuer die Bosse stark."]
 			icon: { id: "minecraft:enchanted_book" }
 			id: "1DB3F417D7AE0137"
@@ -118,8 +118,8 @@
 			description: ["&6Was ist das?", "Mit Easy Disenchanting uebertraegst du Verzauberungen auf Buecher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofuer ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
 			id: "79245A87CC32FE72"
 			title: "Verzauberung uebertragen"
-			rewards: [{ id: "E703012034EBF3FC", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "F56E1CAE48E3BBFE", type: "checkmark" }]
+			rewards: [{ id: "6016C3A2CE568AF9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "753B1D909508CF15", type: "checkmark" }]
 			x: 9.0d
 			y: 12.0d
 		}
@@ -128,8 +128,8 @@
 			description: ["&6Was ist das?", "Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick fuellt oder leert es.", "", "&6So gehts", "Rechtsklick fuellt, Shift-Rechtsklick holt sie zurueck.", "", "&6Wofuer ist das wichtig?", "Beim Tod verlierst du gespeicherte Erfahrung nicht. Spare fuer grosse Verzauberungen."]
 			id: "0FD6302A9ABCCF31"
 			title: "XP speichern"
-			rewards: [{ id: "930BEE2D26ADDEE1", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DA0278EE9813F74C", type: "checkmark" }]
+			rewards: [{ id: "03686DE193C50947", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3A662C5170BCFE53", type: "checkmark" }]
 			x: 10.5d
 			y: 12.0d
 		}
@@ -140,7 +140,7 @@
 			id: "37407FF743621E7E"
 			title: "Veinminer-Verzauberung"
 			rewards: [{ id: "05CA28B6C57B677E", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "84FF3BA89635C63E", type: "checkmark" }]
+			tasks: [{ id: "089675ACCE9F3071", type: "checkmark" }]
 			x: 12.0d
 			y: 12.0d
 		}
@@ -157,64 +157,64 @@
 		{
 			dependencies: ["08E13C4778BBECAD"]
 			description: ["&6Was ist das?", "Mit Seidenberuehrung bekommst du Bloecke selbst statt ihrer Drops, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofuer ist das wichtig?", "Fuer Glas, Eis, Bienennester und Erzbloecke zum spaeteren Glueck-Abbau."]
-			id: "91E8A6B0F51FAF9A"
+			id: "188BE6C057D774EB"
 			title: "Seidenberuehrung"
-			rewards: [{ id: "DB4F863AF5C1C117", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "7503D49029A10950", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2AC6DFDF11A53533", type: "checkmark" }]
 			x: 15.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["91E8A6B0F51FAF9A"]
+			dependencies: ["188BE6C057D774EB"]
 			description: ["&6Was ist das?", "Mit der Verzauberung Reparatur (Mending) reparieren sich Werkzeuge durch Erfahrung. Du bekommst sie von Bibliothekaren oder aus Truhen.", "", "&6So gehts", "Mit Reparatur (Mending) verzaubern, dann repariert Erfahrung das Item.", "Oder im Amboss mit Material reparieren.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge musst du dann nie mehr neu machen."]
 			id: "2CB401D63D9F4388"
 			title: "Reparieren"
-			rewards: [{ id: "892F03F072D903FD", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "FD3808F897156549", type: "checkmark" }]
+			rewards: [{ id: "782AFEB88FB49A62", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "5A5DE05870933D6F", type: "checkmark" }]
 			x: 16.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["EA1937E326ECAA34"]
+			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Buecherregale machen den Verzauberungstisch staerker.", "", "&6So gehts", "Bretter und Buecher. Buecher aus Papier und Leder.", "", "&6Wofuer ist das wichtig?", "Mit Apothic Enchanting gibt es viele besondere Regale."]
 			icon: { id: "minecraft:bookshelf" }
-			id: "999FFF49CD1EB4D7"
+			id: "04B61412DE38FA60"
 			title: "Buecherregale"
-			rewards: [{ id: "F9B594743A14BA59", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "039AFD1CA1DEA8D1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6500D6CE1A353583", type: "item", item: { id: "minecraft:bookshelf", count: 1 }, count: 15L }]
 			x: 7.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["999FFF49CD1EB4D7"]
+			dependencies: ["04B61412DE38FA60"]
 			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofuer ist das wichtig?", "Jedes Regal veraendert die Werte am Tisch anders."]
 			icon: { id: "apothic_enchanting:beeshelf" }
-			id: "F08205C7384CDCCB"
+			id: "0A60B7540735FCD4"
 			title: "Regal-Vielfalt"
 			rewards: [{ id: "0C61EBD1DCD25736", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AEDA4F82D0E261A0", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
+			tasks: [{ id: "5CC802B71982B7E9", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["F08205C7384CDCCB"]
+			dependencies: ["0A60B7540735FCD4"]
 			description: ["&6Was ist das?", "Die Bibliothek speichert unendlich viele Verzauberungsbuecher.", "", "&6So gehts", "Rezept in JEI. Buecher hineinlegen, einzelne Verzauberungen wieder herausnehmen.", "", "&6Wofuer ist das wichtig?", "Ordnung fuer alle Buecher und gezieltes Verzaubern."]
 			icon: { id: "apothic_enchanting:library" }
-			id: "D85069A372830FBE"
+			id: "2ED40011201DDCD2"
 			title: "Bibliothek"
-			rewards: [{ id: "F04E43BF1BD715D5", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "66F67521F9C0C6AF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "49A48EFF187865E1", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["D85069A372830FBE"]
+			dependencies: ["2ED40011201DDCD2"]
 			description: ["&6Was ist das?", "Mit dem Schrott-Buch rettest du Verzauberungen von alten Items.", "", "&6So gehts", "Im Amboss mit einem verzauberten Item kombinieren.", "", "&6Wofuer ist das wichtig?", "Gute Verzauberungen gehen nie mehr verloren."]
 			icon: { id: "apothic_enchanting:scrap_tome" }
 			id: "0103A684D1C7A7B0"
 			title: "Schrott-Buch"
-			rewards: [{ id: "DC243420DB3D17DC", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "C7DC6672D6F544B7", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "1F4727007DAA87C5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4ED9F15F6C805FC5", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 14.0d
 		}
@@ -224,14 +224,14 @@
 			id: "1512FC1565ADD973"
 			title: "Obsidian"
 			rewards: [{ id: "0F084224ABF2B814", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "F3FAEDFAAFEB70F5", type: "item", item: { id: "minecraft:obsidian", count: 1 }, count: 10L }]
+			tasks: [{ id: "16D60564FC57B2DD", type: "item", item: { id: "minecraft:obsidian", count: 1 }, count: 10L }]
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Der Warden ist blind, hoert aber jedes Geraeusch. Er ist staerker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Staedte). Schleiche und wirf Schneebaelle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausruestung und Heiltraenken.", "", "&6Wofuer ist das wichtig?", "Antike Staedte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Ruestungsdesigns."]
-			id: "C6CCB906F124D28F"
+			id: "150D1F4AD2F8211C"
 			title: "Der Waechter der Tiefe"
 			rewards: [{ id: "6126F822FCD62ACF", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
 			tasks: [{ id: "1317427E80675D00", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
@@ -239,41 +239,41 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["C6CCB906F124D28F"]
+			dependencies: ["150D1F4AD2F8211C"]
 			description: ["&6Was ist das?", "Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausruestung.", "", "&6So gehts", "Mit dem Natures Compass oder einer Forscherkarte vom Kartografen finden.", "Magier (Evoker) lassen den Totem der Unsterblichkeit fallen.", "", "&6Wofuer ist das wichtig?", "Der Totem rettet dich einmal vor dem Tod. Halte ihn in der zweiten Hand bei jedem Bosskampf."]
 			id: "671BE8F3FAC5BA64"
 			title: "Das Waldanwesen"
 			rewards: [{ id: "63F207EFFC388F04", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
-			tasks: [{ id: "F8571C0296574BEB", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
+			tasks: [{ id: "1FFDCF5D84C3B5DB", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["671BE8F3FAC5BA64"]
 			description: ["&6Was ist das?", "Illager Invasion bringt den Invoker, einen sehr starken Illager-Magier.", "", "&6So gehts", "Er erscheint in Ueberfaellen und eigenen Bauten. Halte Abstand von seinen Zaubern und greife zwischen den Zaubern an.", "", "&6Wofuer ist das wichtig?", "Gute Beute und Training fuer die grossen Bosse."]
-			id: "A8A3BF474A3DAD83"
+			id: "5678565198FD7665"
 			title: "Der Illager-Magier"
 			rewards: [{ id: "5D0184279585879A", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "89DBAC673C58ACC9", type: "kill", entity: "illagerinvasion:invoker", value: 1L, icon: { id: "minecraft:totem_of_undying" } }]
+			tasks: [{ id: "1BF16845DEFAFD0F", type: "kill", entity: "illagerinvasion:invoker", value: 1L, icon: { id: "minecraft:totem_of_undying" } }]
 			x: 13.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["A8A3BF474A3DAD83"]
+			dependencies: ["5678565198FD7665"]
 			description: ["&6Was ist das?", "Raided: neue Raid-Gegner wie Necromancer, Incinerator und Inquisitor.", "", "&6So gehts", "Bei einem Raid oder Aussenposten besiegen.", "", "&6Wofuer ist das wichtig?", "Starke Gegner mit guter Beute."]
 			icon: { id: "raided:necromancer_spawn_egg" }
-			id: "CA767B5468C1CBB4"
+			id: "57EA3BA48156F517"
 			title: "Raid-Magier"
-			rewards: [{ id: "D2C91E9D69BF8578", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "4C5F7E552C112717", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "115329C8A0F50375", type: "kill", entity: "raided:necromancer", value: 1L, icon: { id: "raided:necromancer_spawn_egg" } }]
 			x: 15.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["A8A3BF474A3DAD83"]
+			dependencies: ["5678565198FD7665"]
 			description: ["&6Was ist das?", "Illager Invasion: Platin aus Illager-Burgen.", "", "&6So gehts", "Platinbrocken finden und verarbeiten.", "", "&6Wofuer ist das wichtig?", "Fuer den Verzauberungs-Tisch der Illager."]
 			icon: { id: "illagerinvasion:platinum_sheet" }
-			id: "AE94843629745192"
+			id: "000C90CEB11DB7E0"
 			title: "Platin"
 			rewards: [{ id: "006BBCB5B75D46F5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "627EDD05B260FBC8", type: "item", item: { id: "illagerinvasion:platinum_sheet", count: 1 }, count: 1L }]
@@ -281,13 +281,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["AE94843629745192"]
+			dependencies: ["000C90CEB11DB7E0"]
 			description: ["&6Was ist das?", "Illager Invasion: Der Tisch erhoeht Verzauberungen ueber die normale Grenze.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Noch staerkere Ausruestung."]
 			icon: { id: "illagerinvasion:imbuing_table" }
 			id: "298030CF36D333B8"
 			title: "Verstaerkungstisch"
 			rewards: [{ id: "6E37824A61358204", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D6729831840362B6", type: "item", item: { id: "illagerinvasion:imbuing_table", count: 1 }, count: 1L }]
+			tasks: [{ id: "3AA91CB6938F087C", type: "item", item: { id: "illagerinvasion:imbuing_table", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 4.0d
 		}
@@ -295,29 +295,29 @@
 			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Pruefungskammern sind unterirdische Kampfraeume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner fuer Schluessel.", "", "&6Wofuer ist das wichtig?", "Mit Schluesseln oeffnest du Tresore voller Beute."]
 			icon: { id: "minecraft:trial_key" }
-			id: "FE2B33B7603D40F5"
+			id: "56EB4F04FE6703CA"
 			title: "Pruefungskammern"
-			rewards: [{ id: "F5A528185DEA2A16", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B2CE71A9811D46BC", type: "item", item: { id: "minecraft:trial_key", count: 1 }, count: 1L }]
+			rewards: [{ id: "6D4958C4A15B4EC8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "76F13C18E393C3D5", type: "item", item: { id: "minecraft:trial_key", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 16.0d
 		}
 		{
-			dependencies: ["FE2B33B7603D40F5"]
+			dependencies: ["56EB4F04FE6703CA"]
 			description: ["&6Was ist das?", "Der Breeze ist ein Windwesen aus den Pruefungskammern.", "", "&6So gehts", "Besiege Breezes. Weiche ihren Windstoessen aus.", "", "&6Wofuer ist das wichtig?", "Fuer Windladungen und den Streitkolben."]
 			icon: { id: "minecraft:breeze_rod" }
-			id: "E9E23A1A1A12703F"
+			id: "42F98F559D0D3AAB"
 			title: "Breeze-Rute"
 			rewards: [{ id: "07EBC892038A3F7E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "93A18DFB19C234C7", type: "item", item: { id: "minecraft:breeze_rod", count: 1 }, count: 4L }]
+			tasks: [{ id: "336356CF852352F5", type: "item", item: { id: "minecraft:breeze_rod", count: 1 }, count: 4L }]
 			x: 7.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["E9E23A1A1A12703F"]
+			dependencies: ["42F98F559D0D3AAB"]
 			description: ["&6Was ist das?", "Der Streitkolben macht mehr Schaden, je tiefer du faellst.", "", "&6So gehts", "Schwerer Kern aus einem Tresor und eine Breeze-Rute.", "", "&6Wofuer ist das wichtig?", "Mit Windladung hochspringen und zuschlagen."]
 			icon: { id: "minecraft:mace" }
-			id: "EE47EDEFE093DFA2"
+			id: "4D07825894473270"
 			title: "Streitkolben"
 			rewards: [{ id: "079AC59197144581", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0B40C9325E39CF50", type: "item", item: { id: "minecraft:mace", count: 1 }, count: 1L }]
@@ -325,50 +325,50 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["EE47EDEFE093DFA2"]
+			dependencies: ["4D07825894473270"]
 			description: ["&6Was ist das?", "Echo-Splitter liegen in Antiken Staedten.", "", "&6So gehts", "Leise schleichen und Truhen pluendern.", "", "&6Wofuer ist das wichtig?", "Fuer den Bergungskompass, der zu deinem Tod zeigt."]
 			icon: { id: "minecraft:echo_shard" }
 			id: "77494855C8A929F6"
 			title: "Echo-Splitter"
-			rewards: [{ id: "E89C5C2A23747EEF", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "202FD86182863C7D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1D270BB74B6D4061", type: "item", item: { id: "minecraft:echo_shard", count: 1 }, count: 4L }]
 			x: 10.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["C6CCB906F124D28F"]
+			dependencies: ["150D1F4AD2F8211C"]
 			description: ["&6Was ist das?", "Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee.", "", "&6So gehts", "In der Welt suchen.", "", "&6Wofuer ist das wichtig?", "Einzigartige Beute."]
-			id: "C4F6C760BF420ED1"
+			id: "3749C4A14CCFBD1A"
 			title: "Mowzies Mobs"
-			rewards: [{ id: "A5EF2C355B467E12", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "33456B4702982F82", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "00F52A429D471600", type: "checkmark" }]
 			x: 10.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["C4F6C760BF420ED1"]
+			dependencies: ["3749C4A14CCFBD1A"]
 			description: ["&6Was ist das?", "Die Frostmaw lebt in eisigen Hoehlen. Besiege sie und nimm den Eiskristall.", "", "&6So gehts", "In Schneebiomen.", "", "&6Wofuer ist das wichtig?", "Eis-Kristall."]
-			id: "FEA0BAA58FA635D5"
+			id: "0B8CCEB9DB0BE858"
 			title: "Die Frostmaw"
-			rewards: [{ id: "E36746B4C9F75EAA", type: "xp_levels", xp_levels: 10 }]
+			rewards: [{ id: "43F345F1AAD570A9", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "3F8658FBA1412C68", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L, icon: { id: "mowziesmobs:ice_crystal" } }]
 			x: 12.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["FEA0BAA58FA635D5"]
+			dependencies: ["0B8CCEB9DB0BE858"]
 			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe.", "", "&6So gehts", "In Hoehlen.", "", "&6Wofuer ist das wichtig?", "Starke Axt."]
 			id: "1369046F14D5434E"
 			title: "Der Eisenschmetterer"
 			rewards: [{ id: "4B737ADC349C885C", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "B242D9A153407239", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "mowziesmobs:wrought_axe" } }]
+			tasks: [{ id: "55DEADE081083D6E", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "mowziesmobs:wrought_axe" } }]
 			x: 13.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1369046F14D5434E"]
 			description: ["&6Was ist das?", "Umvuthi ist der Boss der Sonnenstaemme. Du brauchst starke Ausruestung.", "", "&6So gehts", "In Savannen.", "", "&6Wofuer ist das wichtig?", "Sonnenmaske."]
-			id: "B893EFB19ADCD0D5"
+			id: "4580E8D9C3F5A821"
 			title: "Der Sonnenhaeuptling"
 			rewards: [{ id: "5629662047E90E8D", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "696F74A495101ACA", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
@@ -376,39 +376,39 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["B893EFB19ADCD0D5"]
+			dependencies: ["4580E8D9C3F5A821"]
 			description: ["&6Was ist das?", "Der Sculptor ist ein Boss in einem hohen Turm.", "", "&6So gehts", "In Bergen.", "", "&6Wofuer ist das wichtig?", "Bildhauer-Stab."]
 			id: "2F0C741B8BE7C505"
 			title: "Der Bildhauer"
-			rewards: [{ id: "C48F06B7E1546941", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "B7350E8711A3D61B", type: "kill", entity: "mowziesmobs:sculptor", value: 1L, icon: { id: "mowziesmobs:sculptor_staff" } }]
+			rewards: [{ id: "1C38C48823B3E1BE", type: "xp_levels", xp_levels: 12 }]
+			tasks: [{ id: "4FBEE5A6C03D6F80", type: "kill", entity: "mowziesmobs:sculptor", value: 1L, icon: { id: "mowziesmobs:sculptor_staff" } }]
 			x: 16.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["C4F6C760BF420ED1"]
+			dependencies: ["3749C4A14CCFBD1A"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Der Earthrend Gauntlet zieht dich an Gegner heran.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Erdmagie."]
-			id: "ABBAC96185F57A21"
+			id: "746765CD8906AF2D"
 			title: "Erdbrecher-Handschuh"
-			rewards: [{ id: "F383CFB030E3E572", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "A89496C44D05F1F9", type: "item", item: { id: "mowziesmobs:earthrend_gauntlet", count: 1 }, count: 1L }]
+			rewards: [{ id: "5872A977677D74E1", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "7BB98694FA83B2E2", type: "item", item: { id: "mowziesmobs:earthrend_gauntlet", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["ABBAC96185F57A21"]
+			dependencies: ["746765CD8906AF2D"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Die Sol Visage vom Umvuthi schiesst Sonnenstrahlen.", "", "&6So gehts", "Vom Boss.", "", "&6Wofuer ist das wichtig?", "Sonnenkraft."]
 			id: "682527776DB20343"
 			title: "Sonnen-Maske"
-			rewards: [{ id: "BD282A1BC819896E", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "FD4ACD59615A3606", type: "item", item: { id: "mowziesmobs:sol_visage", count: 1 }, count: 1L }]
+			rewards: [{ id: "59C7C0950595CE07", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7AF9886ACFC8B9E6", type: "item", item: { id: "mowziesmobs:sol_visage", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["682527776DB20343"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Der Stab des Bildhauers formt Steinsaeulen.", "", "&6So gehts", "Vom Bildhauer.", "", "&6Wofuer ist das wichtig?", "Felsmagie."]
-			id: "971142888F424C4D"
+			id: "12F17AD8F6A0FF6B"
 			title: "Bildhauer-Stab"
 			rewards: [{ id: "08802EF5C9E3CC1D", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "6D61D4C1DFCB91CD", type: "item", item: { id: "mowziesmobs:sculptor_staff", count: 1 }, count: 1L }]
@@ -416,79 +416,79 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["971142888F424C4D"]
+			dependencies: ["12F17AD8F6A0FF6B"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Ruestung des Geomanten.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Erdmagie."]
-			id: "9D042B22333EE304"
+			id: "70708B1B525BDA37"
 			title: "Geomanten-Robe"
 			rewards: [{ id: "727831C5BB7F9407", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "EFF2D7C1F0F14B76", type: "item", item: { id: "mowziesmobs:geomancer_robe", count: 1 }, count: 1L }]
+			tasks: [{ id: "6862FE03434EF4AE", type: "item", item: { id: "mowziesmobs:geomancer_robe", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["9D042B22333EE304"]
+			dependencies: ["70708B1B525BDA37"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschiesst Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Gift-Pfeile."]
 			id: "0CBF80C3F9C3353A"
 			title: "Blasrohr"
-			rewards: [{ id: "9EC32CDC3A710D8B", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "C95E6ED477F06A32", type: "item", item: { id: "mowziesmobs:blowgun", count: 1 }, count: 1L }]
+			rewards: [{ id: "5B36875581E561FD", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "678D49596E2F283E", type: "item", item: { id: "mowziesmobs:blowgun", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["B9C4F0B1BC7F2746"]
+			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "9D92200E5ED0F9A4"
+			id: "2033B010211045B7"
 			title: "Diamant-Langschwert"
 			rewards: [{ id: "5177F28B73ED22EA", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F5CEEEA7F9A84426", type: "item", item: { id: "weaponsexpanded:diamond_longsword", count: 1 }, count: 1L }]
+			tasks: [{ id: "292C0FD63DC95A3C", type: "item", item: { id: "weaponsexpanded:diamond_longsword", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["9D92200E5ED0F9A4"]
+			dependencies: ["2033B010211045B7"]
 			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "EF1705591D48EFFE"
+			id: "3C16417455BF901B"
 			title: "Diamant-Breitschwert"
-			rewards: [{ id: "C87D3DDDD06B0D5D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "820AC30518E84F3E", type: "item", item: { id: "weaponsexpanded:diamond_broadsword", count: 1 }, count: 1L }]
+			rewards: [{ id: "4312EB6EA8DE09D2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0953B6C65A9C5B61", type: "item", item: { id: "weaponsexpanded:diamond_broadsword", count: 1 }, count: 1L }]
 			x: 4.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["EF1705591D48EFFE"]
+			dependencies: ["3C16417455BF901B"]
 			description: ["&6Was ist das?", "Weapons Expanded: Zweihaender mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			id: "0950AD20BDAA2B45"
 			title: "Diamant-Grossschwert"
 			rewards: [{ id: "0019A06A53CBD543", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B0F1389102673078", type: "item", item: { id: "weaponsexpanded:diamond_greatsword", count: 1 }, count: 1L }]
+			tasks: [{ id: "747B67A6FB82DB2D", type: "item", item: { id: "weaponsexpanded:diamond_greatsword", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 20.0d
 		}
 		{
 			dependencies: ["0950AD20BDAA2B45"]
 			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge fuer viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "F8433BA38015B7F5"
+			id: "5C364D9ACC48B4FA"
 			title: "Diamant-Katana"
-			rewards: [{ id: "9DA0BB2BA4B0BE3A", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3EC9EDA90ACB0159", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "31C3F2A3E6D1759D", type: "item", item: { id: "weaponsexpanded:diamond_katana", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["F8433BA38015B7F5"]
+			dependencies: ["5C364D9ACC48B4FA"]
 			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "FF054990D1C2BA76"
+			id: "0F16990376D1A846"
 			title: "Diamant-Kampfaxt"
-			rewards: [{ id: "9F1FA487F19B6970", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D242338D6EB42530", type: "item", item: { id: "weaponsexpanded:diamond_battleaxe", count: 1 }, count: 1L }]
+			rewards: [{ id: "4853973F514BF5A6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "728625DD10491403", type: "item", item: { id: "weaponsexpanded:diamond_battleaxe", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["FF054990D1C2BA76"]
+			dependencies: ["0F16990376D1A846"]
 			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "8E96BBA5E18ACC43"
+			id: "32D6E55482ABC3AD"
 			title: "Diamant-Beil"
 			rewards: [{ id: "0A7CC3F8AC21AD6C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "234417955DAD0D84", type: "item", item: { id: "weaponsexpanded:diamond_hatchet", count: 1 }, count: 1L }]
@@ -496,19 +496,19 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["8E96BBA5E18ACC43"]
+			dependencies: ["32D6E55482ABC3AD"]
 			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlaegt Gegner zurueck.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "E4B2BE16E452E88D"
+			id: "6D207A38EA79BD24"
 			title: "Diamant-Hammer"
-			rewards: [{ id: "84AC1B3F4B9458B8", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "75315A514C658E63", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B1E1FF16CADAA71", type: "item", item: { id: "weaponsexpanded:diamond_hammer", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["E4B2BE16E452E88D"]
+			dependencies: ["6D207A38EA79BD24"]
 			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flaechenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "9BCCE8A34A720F31"
+			id: "5BEA137C19885E89"
 			title: "Diamant-Kriegshammer"
 			rewards: [{ id: "50852ABB72955BCD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6D65CA31B65081E0", type: "item", item: { id: "weaponsexpanded:diamond_warhammer", count: 1 }, count: 1L }]
@@ -516,32 +516,32 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["9BCCE8A34A720F31"]
+			dependencies: ["5BEA137C19885E89"]
 			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "D846F4BAD2865876"
+			id: "54263A8EF275AFD9"
 			title: "Diamant-Sense"
-			rewards: [{ id: "C9F4F65B1BD90DB0", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "62A174187B44ABD8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "027C325E190B5363", type: "item", item: { id: "weaponsexpanded:diamond_scythe", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["D846F4BAD2865876"]
+			dependencies: ["54263A8EF275AFD9"]
 			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
-			id: "8A11F755A8E07E5E"
+			id: "660CDF873CC0CCED"
 			title: "Diamant-Sichel"
-			rewards: [{ id: "B68CB8E9DBB85BE3", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "970691C2B939A064", type: "item", item: { id: "weaponsexpanded:diamond_sickle", count: 1 }, count: 1L }]
+			rewards: [{ id: "1BD8B12B4532BD92", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "79637E9B68C7A0BB", type: "item", item: { id: "weaponsexpanded:diamond_sickle", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["8A11F755A8E07E5E"]
+			dependencies: ["660CDF873CC0CCED"]
 			description: ["&6Was ist das?", "Das Langschwert aus Diamant.", "", "&6So gehts", "Rezept in JEI. Das Eisen-Langschwert gehoert ins Rezept.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden fuer die Bosse der Diamantzeit."]
 			icon: { id: "simplyswords:diamond_longsword" }
 			id: "044532E4F2FBF3DB"
 			title: "Simply Swords: Diamant-Langschwert"
-			rewards: [{ id: "EB6DAA36618827FD", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1B715E804439CD94", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "29C878992440296B", type: "item", item: { id: "simplyswords:diamond_longsword", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 20.0d
@@ -552,7 +552,7 @@
 			id: "2095E2163EB75A2E"
 			title: "Drachen"
 			rewards: [{ id: "278E32062C9FAF17", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "8F31CE5398017763", type: "checkmark" }]
+			tasks: [{ id: "1F532F5A3E218094", type: "checkmark" }]
 			x: 12.0d
 			y: 6.0d
 		}
@@ -560,18 +560,18 @@
 			dependencies: ["2095E2163EB75A2E"]
 			description: ["&6Was ist das?", "Dragon Mounts: Mit der Pfeife rufst du deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dein Drache kommt, egal wo du bist."]
 			icon: { id: "minecraft:goat_horn" }
-			id: "DA614125CC1D7967"
+			id: "03A558E7A3EF9D0A"
 			title: "Drachenpfeife"
-			rewards: [{ id: "CE7627DB2CC75E85", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "247A738C69510958", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "20383AE8C537B8E9", type: "checkmark" }]
 			x: 13.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["DA614125CC1D7967"]
+			dependencies: ["03A558E7A3EF9D0A"]
 			description: ["&6Was ist das?", "Dragon Mounts: Ruestung fuer deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dein Drache haelt mehr aus."]
 			icon: { id: "minecraft:diamond_horse_armor" }
-			id: "A2D64F0D3E2576E5"
+			id: "6DCE2C608F30263F"
 			title: "Drachenruestung"
 			rewards: [{ id: "3999BA1A3766E73E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4B05E22BFBB2ECED", type: "checkmark" }]
@@ -579,7 +579,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["AAA0386C2A7639D6"]
+			dependencies: ["3C2DB25445D76902"]
 			description: ["&6Was ist das?", "Das Diamant-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Ausruestung, Diamant-Werkzeug, Verzaubern, Bibliothek, Portal, Gefahren, Illager-Schaetze, Pruefungskammern, Mowzies Mobs, Mowzie-Beute, Waffenkammer, Drachen.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
 			icon: { id: "minecraft:diamond_pickaxe" }
 			id: "35D9C17C3DF9768D"
@@ -593,18 +593,18 @@
 			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Hier beginnt das Nether-Zeitalter. Es schaltet frei:", "Der Nether: Das Portal laesst dich jetzt durch.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherrack" }
-			id: "F1E5CB71D49104EA"
+			id: "3289CBE6B6A936DA"
 			title: "Zeitalter: Nether-Zeitalter"
-			rewards: [{ id: "DBD6B1AEBC806ECF", type: "historystages:history_stage", stage: "netherzeit", remove: false, individual: false }, { id: "F7E2AB9370B3E121", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "1D07F218025316AD", type: "historystages:history_stage", stage: "netherzeit", remove: false, individual: false }, { id: "7F584C90AB7C4D9A", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "74C3CB9D99D5FCE5", type: "checkmark" }]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B9C4F0B1BC7F2746"]
+			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:trident" }
-			id: "CF509E2F02647FD9"
+			id: "5DBD766E57EBAD5C"
 			title: "Dreizack"
 			rewards: []
 			tasks: [{ id: "1BAE2F2BB8A5D68E", type: "checkmark" }]
@@ -612,13 +612,13 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["CF509E2F02647FD9"]
+			dependencies: ["5DBD766E57EBAD5C"]
 			description: ["&6Was ist das?", "Macht mehr Schaden, je tiefer du faellst.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:mace" }
 			id: "5086933097CF61B1"
 			title: "Streitkolben (Uebersicht)"
 			rewards: []
-			tasks: [{ id: "E8AFE54F88E0B107", type: "checkmark" }]
+			tasks: [{ id: "023C02C9B277FA11", type: "checkmark" }]
 			x: 4.5d
 			y: 22.0d
 		}
@@ -640,7 +640,7 @@
 			id: "79E59BD72EF2B2FA"
 			title: "Bramblethorn"
 			rewards: []
-			tasks: [{ id: "BD87B3F9CB55C75C", type: "checkmark" }]
+			tasks: [{ id: "090462122469637A", type: "checkmark" }]
 			x: 7.5d
 			y: 22.0d
 		}
@@ -648,7 +648,7 @@
 			dependencies: ["79E59BD72EF2B2FA"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:shadowsting" }
-			id: "C4371AA7D1E4343E"
+			id: "3B0494D1532C6741"
 			title: "Shadowsting"
 			rewards: []
 			tasks: [{ id: "1A080BEDEE47299A", type: "checkmark" }]
@@ -656,7 +656,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["C4371AA7D1E4343E"]
+			dependencies: ["3B0494D1532C6741"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:sunfire" }
 			id: "79D42AC833677EF7"
@@ -670,40 +670,40 @@
 			dependencies: ["79D42AC833677EF7"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:waxweaver" }
-			id: "B15204092D4B4C0E"
+			id: "5BF2ACA4018B0585"
 			title: "Waxweaver"
 			rewards: []
-			tasks: [{ id: "BA05ED99798DA240", type: "checkmark" }]
+			tasks: [{ id: "146170C13BC1E1EC", type: "checkmark" }]
 			x: 12.0d
 			y: 22.0d
 		}
 		{
-			dependencies: ["B15204092D4B4C0E"]
+			dependencies: ["5BF2ACA4018B0585"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:hiveheart" }
-			id: "E4493877BECCFE07"
+			id: "054957A0438D7F48"
 			title: "Hiveheart"
 			rewards: []
-			tasks: [{ id: "FF90AFF61F15D23C", type: "checkmark" }]
+			tasks: [{ id: "544A19227AC4DC24", type: "checkmark" }]
 			x: 13.5d
 			y: 22.0d
 		}
 		{
-			dependencies: ["E4493877BECCFE07"]
+			dependencies: ["054957A0438D7F48"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stars_edge" }
-			id: "C231149A46E06DA1"
+			id: "2EBF10B876FFFC1E"
 			title: "Star's Edge"
 			rewards: []
-			tasks: [{ id: "C15782FF08A69B5C", type: "checkmark" }]
+			tasks: [{ id: "5B44A1C5519B978E", type: "checkmark" }]
 			x: 15.0d
 			y: 22.0d
 		}
 		{
-			dependencies: ["C231149A46E06DA1"]
+			dependencies: ["2EBF10B876FFFC1E"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wickpiercer" }
-			id: "90F730C29D727394"
+			id: "031BF1D67CD9E053"
 			title: "Wickpiercer"
 			rewards: []
 			tasks: [{ id: "3802561CAA4EB3B4", type: "checkmark" }]
@@ -711,10 +711,10 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["90F730C29D727394"]
+			dependencies: ["031BF1D67CD9E053"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:gloampiercer" }
-			id: "CDF28ECAAA4CA61E"
+			id: "73088E647EC47A82"
 			title: "Gloampiercer"
 			rewards: []
 			tasks: [{ id: "6B08DC8C0AF249C5", type: "checkmark" }]
@@ -722,21 +722,21 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["CF509E2F02647FD9"]
+			dependencies: ["5DBD766E57EBAD5C"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:chompolotl" }
-			id: "C52215EE11286996"
+			id: "6D4236478EE6630F"
 			title: "Chomp'olotl"
 			rewards: []
-			tasks: [{ id: "AC20A3851551D354", type: "checkmark" }]
+			tasks: [{ id: "2635CF15BBE3F7D1", type: "checkmark" }]
 			x: 3.0d
 			y: 24.0d
 		}
 		{
-			dependencies: ["C52215EE11286996"]
+			dependencies: ["6D4236478EE6630F"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:toxic_longsword" }
-			id: "9DAF399F4458DE9D"
+			id: "27404CB179E86D81"
 			title: "Longsword of the Plague"
 			rewards: []
 			tasks: [{ id: "7B12A36880B2813B", type: "checkmark" }]
@@ -744,10 +744,10 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["9DAF399F4458DE9D"]
+			dependencies: ["27404CB179E86D81"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:wrought_axe" }
-			id: "862EAD7BD328D1DB"
+			id: "768216066194A7D8"
 			title: "Axe of a Thousand Metals"
 			rewards: []
 			tasks: [{ id: "2A7DEFB921F4F438", type: "checkmark" }]
@@ -755,10 +755,10 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["862EAD7BD328D1DB"]
+			dependencies: ["768216066194A7D8"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:spear" }
-			id: "850857D20682CE53"
+			id: "0E7E6AE197DCAD0A"
 			title: "Spear"
 			rewards: []
 			tasks: [{ id: "198935529B77DDC8", type: "checkmark" }]
@@ -766,7 +766,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["850857D20682CE53"]
+			dependencies: ["0E7E6AE197DCAD0A"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:naga_fang_dagger" }
 			id: "7FD822594DF4DC90"
@@ -788,7 +788,7 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["C52215EE11286996"]
+			dependencies: ["6D4236478EE6630F"]
 			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Ein starker Bogen fuer die mittleren Bosse."]
 			icon: { id: "archeries:diamond_bow" }
 			id: "1338FFE60935D51A"
@@ -824,7 +824,7 @@
 			dependencies: ["1338FFE60935D51A"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "minecraft:diamond_pickaxe" }
-			id: "C06E9A589A96BD39"
+			id: "1136F86CA38A7C38"
 			title: "Werkzeug-Set Diamant"
 			rewards: []
 			tasks: [{ id: "034527547FCDBC80", type: "checkmark" }]
@@ -832,10 +832,10 @@
 			y: 28.0d
 		}
 		{
-			dependencies: ["C06E9A589A96BD39"]
+			dependencies: ["1136F86CA38A7C38"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "minecraft:diamond_chestplate" }
-			id: "E307E3D045740589"
+			id: "1AEBC6FD6A90E4B1"
 			title: "Ruestung Diamant"
 			rewards: []
 			tasks: [{ id: "4ED945500A1A5C96", type: "checkmark" }]
@@ -843,24 +843,24 @@
 			y: 30.0d
 		}
 		{
-			dependencies: ["E307E3D045740589"]
+			dependencies: ["1AEBC6FD6A90E4B1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:divine_chestplate" }
-			id: "9330ED07F201751D"
+			id: "4D83ED26672135F4"
 			title: "Divine (Ruestung)"
 			rewards: []
-			tasks: [{ id: "94AE9FA0F5426F43", type: "checkmark" }]
+			tasks: [{ id: "44DDD73D4C8B4C12", type: "checkmark" }]
 			x: 4.5d
 			y: 30.0d
 		}
 		{
-			dependencies: ["9330ED07F201751D"]
+			dependencies: ["4D83ED26672135F4"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:prismarine_chestplate" }
 			id: "12441AAB862A6BAA"
 			title: "Prismarine (Ruestung)"
 			rewards: []
-			tasks: [{ id: "AD74A559019565EC", type: "checkmark" }]
+			tasks: [{ id: "6246B8D72714D4E8", type: "checkmark" }]
 			x: 6.0d
 			y: 30.0d
 		}

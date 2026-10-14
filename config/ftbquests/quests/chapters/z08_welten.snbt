@@ -14,7 +14,7 @@
 			id: "615E21CD98E6C777"
 			title: "Der Zwielichtwald"
 			rewards: [{ id: "0E4DCF75ED52D30E", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "92183B5FE008BBE8", type: "dimension", dimension: "twilightforest:twilight_forest", icon: { id: "twilightforest:naga_scale" } }]
+			tasks: [{ id: "0D0DCCC83D45C02A", type: "dimension", dimension: "twilightforest:twilight_forest", icon: { id: "twilightforest:naga_scale" } }]
 			x: 1.5d
 			y: 0.0d
 		}
@@ -24,7 +24,7 @@
 			id: "1EFE3DB449F102E0"
 			title: "Magische Karte"
 			rewards: [{ id: "35387593BB9D62AB", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "957B5D67AB9B3EBC", type: "item", item: { id: "twilightforest:magic_map", count: 1 }, count: 1L }]
+			tasks: [{ id: "23430E55A624C218", type: "item", item: { id: "twilightforest:magic_map", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -33,25 +33,25 @@
 			description: ["&6Was ist das?", "Die Naga ist der erste Boss des Waldes. Sie hat Schuppen als Beute.", "", "&6So gehts", "Sie lebt in einem Hof aus Steinen. Weiche ihren Angriffen seitlich aus.", "", "&6Wofuer ist das wichtig?", "Naga-Schuppen ergeben Ruestung. Danach ist der Lich dran."]
 			id: "696A20D593371128"
 			title: "Naga"
-			rewards: [{ id: "CA7289EABC96631B", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "F863CCF40614D398", type: "kill", entity: "twilightforest:naga", value: 1L, icon: { id: "twilightforest:naga_scale" } }]
+			rewards: [{ id: "27AE84BC4AFB6611", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "51A4AA4B8C814B2B", type: "kill", entity: "twilightforest:naga", value: 1L, icon: { id: "twilightforest:naga_scale" } }]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["696A20D593371128"]
 			description: ["&6Was ist das?", "Der Lich ist ein maechtiger Zauberer. Bereite dich auf Magie vor.", "", "&6So gehts", "Er hat Schilde, die du zuerst zerstoeren musst. Wirf seine Feuerbaelle zurueck.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich das Labyrinth mit dem Minoshroom."]
-			id: "FCA3F7C951992BD7"
+			id: "5B16792C8C1E8D9B"
 			title: "Lich"
 			rewards: [{ id: "3C52BD66AC8039EC", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "F1824AC3EFD6E37B", type: "kill", entity: "twilightforest:lich", value: 1L, icon: { id: "twilightforest:lich_trophy" } }]
+			tasks: [{ id: "7DFD578DDD7A8EDC", type: "kill", entity: "twilightforest:lich", value: 1L, icon: { id: "twilightforest:lich_trophy" } }]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FCA3F7C951992BD7"]
+			dependencies: ["5B16792C8C1E8D9B"]
 			description: ["&6Was ist das?", "Der Minoshroom bewacht ein Labyrinth im Sumpf.", "", "&6So gehts", "Feuerresistenz-Traenke helfen. Er rennt auf dich zu, weiche aus.", "", "&6Wofuer ist das wichtig?", "Er bringt Meef-Stroganoff und oeffnet den Weg zur Hydra."]
-			id: "9E031D4009409422"
+			id: "342712AE7D324792"
 			title: "Minoshroom"
 			rewards: [{ id: "4E2ADF01B2881B05", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "454BA732E348B8C7", type: "kill", entity: "twilightforest:minoshroom", value: 1L, icon: { id: "twilightforest:meef_stroganoff" } }]
@@ -59,7 +59,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9E031D4009409422"]
+			dependencies: ["342712AE7D324792"]
 			description: ["&6Was ist das?", "Die Hydra hat viele Koepfe. Hau sie ab, sobald sie schlaeft.", "", "&6So gehts", "Schlage die Koepfe, wenn sie den Mund oeffnen.", "", "&6Wofuer ist das wichtig?", "Hydra-Fleisch ist eines der besten Essen. Danach folgen Ritter und Ur-Ghast."]
 			id: "76237B0ECD40643E"
 			title: "Hydra"
@@ -81,15 +81,15 @@
 		{
 			dependencies: ["5CD31E7179253C01"]
 			description: ["&6Was ist das?", "Der Ur-Ghast herrscht im Dunklen Turm.", "", "&6So gehts", "Zerstoere die Ghast-Fallen, um ihn zu schwaechen.", "", "&6Wofuer ist das wichtig?", "Seine Traenen machen Feuriges Eisen."]
-			id: "F62B89FED16384AC"
+			id: "66280F7D142AA7D1"
 			title: "Ur-Ghast"
 			rewards: [{ id: "6420BABFB5E3C2FA", type: "xp_levels", xp_levels: 12 }]
-			tasks: [{ id: "F66293D1E19F0088", type: "kill", entity: "twilightforest:ur_ghast", value: 1L, icon: { id: "twilightforest:fiery_tears" } }]
+			tasks: [{ id: "134C33F8915D11E9", type: "kill", entity: "twilightforest:ur_ghast", value: 1L, icon: { id: "twilightforest:fiery_tears" } }]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F62B89FED16384AC"]
+			dependencies: ["66280F7D142AA7D1"]
 			description: ["&6Was ist das?", "Der Alpha-Yeti lebt in der Eishoehle der Schneewaelder.", "", "&6So gehts", "Weiche den herabfallenden Eiszapfen aus.", "", "&6Wofuer ist das wichtig?", "Sein Fell macht warme Ruestung."]
 			id: "55AC6F18F0BE8BBF"
 			title: "Alpha-Yeti"
@@ -101,17 +101,17 @@
 		{
 			dependencies: ["55AC6F18F0BE8BBF"]
 			description: ["&6Was ist das?", "Die Schneekoenigin wartet im Eispalast.", "", "&6So gehts", "Zerstoere ihre Eisbloecke und greife an.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich der Weg weiter."]
-			id: "C21F186BCF5F7393"
+			id: "60C2E7BB2A1D95A3"
 			title: "Schneekoenigin"
 			rewards: [{ id: "751F098D5A41D0A6", type: "xp_levels", xp_levels: 14 }]
-			tasks: [{ id: "B34011A3F3627885", type: "kill", entity: "twilightforest:snow_queen", value: 1L, icon: { id: "minecraft:snowball" } }]
+			tasks: [{ id: "2B7D693A98935558", type: "kill", entity: "twilightforest:snow_queen", value: 1L, icon: { id: "minecraft:snowball" } }]
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["C21F186BCF5F7393"]
+			dependencies: ["60C2E7BB2A1D95A3"]
 			description: ["&6Was ist das?", "Die Lamp of Cinders verbrennt Dornen und oeffnet den Weg zum Ende des Waldes.", "", "&6So gehts", "Rechtsklick auf Dornen.", "", "&6Wofuer ist das wichtig?", "Oeffnet den Weg zum Ende des Waldes."]
-			id: "F60D13AF5AC8E152"
+			id: "57E41ABAF269D36E"
 			title: "Lampe der Asche"
 			rewards: [{ id: "428CBF51A7B7C95E", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "0AF90EF2A6CFD673", type: "item", item: { id: "twilightforest:lamp_of_cinders", count: 1 }, count: 1L }]
@@ -133,7 +133,7 @@
 			description: ["&6Was ist das?", "Twilight Forest: Ironwood aus Liveroot und Eisen. Gutes Werkzeugmaterial.", "", "&6So gehts", "Herstellen und schmelzen.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge, die sich selbst reparieren."]
 			id: "78F1BDE881A7BDDB"
 			title: "Eisenholz"
-			rewards: [{ id: "93083F4809981CC4", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "42C163CDBC7C5B5A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "203A6FBC738F159D", type: "item", item: { id: "twilightforest:ironwood_ingot", count: 1 }, count: 4L }]
 			x: 3.0d
 			y: 22.0d
@@ -141,29 +141,29 @@
 		{
 			dependencies: ["78F1BDE881A7BDDB"]
 			description: ["&6Was ist das?", "Rittermetall ist ein starkes Material aus Ruestungsscherben.", "", "&6So gehts", "Aus Ruestungsscherben schmelzen.", "", "&6Wofuer ist das wichtig?", "Ruestung mit hohem Schutz."]
-			id: "9390C205C2E23363"
+			id: "6EEC00A6E1AC59BF"
 			title: "Rittermetall"
 			rewards: [{ id: "7D2C8891A186F48F", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "8579559EFEE19ECB", type: "item", item: { id: "twilightforest:knightmetal_ingot", count: 1 }, count: 4L }]
+			tasks: [{ id: "53F8DFD0D35082BD", type: "item", item: { id: "twilightforest:knightmetal_ingot", count: 1 }, count: 4L }]
 			x: 4.5d
 			y: 22.0d
 		}
 		{
-			dependencies: ["9390C205C2E23363"]
+			dependencies: ["6EEC00A6E1AC59BF"]
 			description: ["&6Was ist das?", "Fiery Ingot aus feurigem Blut. Sehr starkes Material.", "", "&6So gehts", "Feuriges Blut und Eisen.", "", "&6Wofuer ist das wichtig?", "Ruestung, die Gegner in Brand setzt."]
-			id: "911513688EE1F212"
+			id: "524084D4A60223BB"
 			title: "Feuriges Eisen"
-			rewards: [{ id: "900A1734A7644A5B", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "642C50636947B718", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "6F227913F0E6FA19", type: "item", item: { id: "twilightforest:fiery_ingot", count: 1 }, count: 2L }]
 			x: 6.0d
 			y: 22.0d
 		}
 		{
-			dependencies: ["911513688EE1F212"]
+			dependencies: ["524084D4A60223BB"]
 			description: ["&6Was ist das?", "Der Uncrafting Table zerlegt Items wieder in ihre Teile.", "", "&6So gehts", "Item einlegen und das Ergebnis nehmen.", "", "&6Wofuer ist das wichtig?", "Gut, um Verzauberungen zu entfernen oder Fehlcrafts zu retten."]
 			id: "15E58FF47A58FB55"
 			title: "Entschoepfungstisch"
-			rewards: [{ id: "DD4C94C4C3F94817", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			rewards: [{ id: "37EE293AA97945E4", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
 			tasks: [{ id: "636CDD7BD9D76941", type: "item", item: { id: "twilightforest:uncrafting_table", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 22.0d
@@ -172,9 +172,9 @@
 			dependencies: ["15E58FF47A58FB55"]
 			description: ["&6Was ist das?", "Ruestung aus Rittermetall.", "", "&6So gehts", "Rittermetall-Barren in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Eine der besten Ruestungen des Waldes."]
 			icon: { id: "twilightforest:knightmetal_chestplate" }
-			id: "B6EAB795C07D4F59"
+			id: "04D5947E052F13DD"
 			title: "Ritter-Ruestung"
-			rewards: [{ id: "FD9917A0A8456142", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4831C98C4C596A70", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4FEB2163A0F1D673", type: "item", item: { id: "twilightforest:knightmetal_chestplate", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 22.0d
@@ -186,7 +186,7 @@
 			id: "0C1D40BA1DE7EE9D"
 			title: "Naga-Ruestung"
 			rewards: [{ id: "50EA0A048D52ABD8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "BB599F9DE708E768", type: "item", item: { id: "twilightforest:naga_chestplate", count: 1 }, count: 1L }]
+			tasks: [{ id: "22FDC73D6B4A865C", type: "item", item: { id: "twilightforest:naga_chestplate", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 20.0d
 		}
@@ -194,21 +194,21 @@
 			dependencies: ["0C1D40BA1DE7EE9D"]
 			description: ["&6Was ist das?", "Der Lich laesst Zepter fallen: Lebensraub, Zombies, Schutz.", "", "&6So gehts", "Den Lich besiegen.", "", "&6Wofuer ist das wichtig?", "Magische Waffen fuer harte Kaempfe."]
 			icon: { id: "twilightforest:lifedrain_scepter" }
-			id: "99594669C88771F8"
+			id: "71BE0AF6EB9F8A0C"
 			title: "Lich-Zepter"
-			rewards: [{ id: "CF42BE00B01BA722", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "078CF4AE67985E19", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "758D41D5971933B4", type: "item", item: { id: "twilightforest:lifedrain_scepter", count: 1 }, count: 1L }]
 			x: 4.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["99594669C88771F8"]
+			dependencies: ["71BE0AF6EB9F8A0C"]
 			description: ["&6Was ist das?", "Eine Axt vom Minoshroom.", "", "&6So gehts", "Den Minoshroom besiegen.", "", "&6Wofuer ist das wichtig?", "Hoher Schaden beim Sprint-Angriff."]
 			icon: { id: "twilightforest:diamond_minotaur_axe" }
 			id: "4B73970BB48E917E"
 			title: "Minotaurus-Axt"
 			rewards: [{ id: "205B7AD85823F1B1", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A809E84439099714", type: "item", item: { id: "twilightforest:diamond_minotaur_axe", count: 1 }, count: 1L }]
+			tasks: [{ id: "1717320C2CA7C3B7", type: "item", item: { id: "twilightforest:diamond_minotaur_axe", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 20.0d
 		}
@@ -219,7 +219,7 @@
 			id: "7A3B9C5A571C732F"
 			title: "Eisbogen"
 			rewards: [{ id: "1E42720C4E0AD0D9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DF5A85109217ABAE", type: "item", item: { id: "twilightforest:ice_bow", count: 1 }, count: 1L }]
+			tasks: [{ id: "456103882243E554", type: "item", item: { id: "twilightforest:ice_bow", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 20.0d
 		}
@@ -227,20 +227,20 @@
 			dependencies: ["7A3B9C5A571C732F"]
 			description: ["&6Was ist das?", "Schiesst drei Pfeile auf einmal.", "", "&6So gehts", "In Labyrinth-Truhen finden.", "", "&6Wofuer ist das wichtig?", "Dreifacher Schaden auf Entfernung."]
 			icon: { id: "twilightforest:triple_bow" }
-			id: "D52365429AD0E80A"
+			id: "1A49A70F1776BD5A"
 			title: "Dreifachbogen"
-			rewards: [{ id: "D547C1ABE8695728", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CC3E1CB9B8FF535F", type: "item", item: { id: "twilightforest:triple_bow", count: 1 }, count: 1L }]
+			rewards: [{ id: "20BE224E0314D532", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7B48DEE5526C2C07", type: "item", item: { id: "twilightforest:triple_bow", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["D52365429AD0E80A"]
+			dependencies: ["1A49A70F1776BD5A"]
 			description: ["&6Was ist das?", "Eine Kugel an der Kette.", "", "&6So gehts", "Vom Ritterphantom.", "", "&6Wofuer ist das wichtig?", "Wirft und zieht zurueck, bricht sogar Bloecke."]
 			icon: { id: "twilightforest:block_and_chain" }
 			id: "1AFDE4E85DD15347"
 			title: "Block und Kette"
-			rewards: [{ id: "81D7C5CA28F96134", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "0E1BACD8E5664BD2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "58BE7CC42B7F2170", type: "item", item: { id: "twilightforest:block_and_chain", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 20.0d
@@ -262,17 +262,17 @@
 			icon: { id: "twilightforest:magic_beans" }
 			id: "77BC451979D982C5"
 			title: "Wunderbohnen"
-			rewards: [{ id: "E2810F9B9A17B846", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5272113B62B77E47", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "738B7A818BEB0B16", type: "item", item: { id: "twilightforest:magic_beans", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["F60D13AF5AC8E152"]
+			dependencies: ["57E41ABAF269D36E"]
 			description: ["&6Was ist das?", "Baue ein Portal aus Glowstone und entzuende es mit Wasser.", "Das Aether ist ein Reich in den Wolken. Pass auf, wo du hinfaellst!", "", "&6So gehts", "Baue ein Portal aus Glowstone (wie ein Nether-Portal) und giesse Wasser hinein.", "Vorsicht am Rand: Wer herunterfaellt, landet in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Das Aether hat drei Dungeons: Bronze (Slider), Silber (Valkyrie-Koenigin), Gold (Sonnengeist). Jeder bringt starke Ausruestung."]
 			id: "66E57CCD2D7C1EA0"
 			title: "Ins Aether"
-			rewards: [{ id: "C49872362A842B8F", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			rewards: [{ id: "7DAB3E278D50F75F", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "0FBD7E62EF041D7F", type: "dimension", dimension: "aether:the_aether", icon: { id: "aether:blue_aercloud" } }]
 			x: 18.0d
 			y: 0.0d
@@ -292,23 +292,23 @@
 			description: ["&6Was ist das?", "Holystone ist der Stein des Aethers. Daraus entstehen Werkzeuge.", "", "&6So gehts", "Mit Skyroot-Spitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Holystone-Werkzeug und Ofen-Ersatz."]
 			id: "5C97666AADA6E478"
 			title: "Holystone"
-			rewards: [{ id: "FD67A541FA76E397", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A9EF75FF0F2CD08E", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
+			rewards: [{ id: "3C3BA04D5E93C157", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1BAC93C76709F009", type: "item", item: { id: "aether:holystone", count: 1 }, count: 16L }]
 			x: 21.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C97666AADA6E478"]
 			description: ["&6Was ist das?", "Zanit ist ein Edelstein. Er macht Werkzeuge schneller.", "", "&6So gehts", "Mit Holystone-Spitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zanit-Werkzeug und Handschuhe."]
-			id: "FC788DDF32E00773"
+			id: "4859C144C5EAE84A"
 			title: "Zanit"
-			rewards: [{ id: "B0361A555DFDE81C", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			rewards: [{ id: "0B1EDE75B90156E8", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "051BF551F89F4366", type: "item", item: { id: "aether:zanite_gemstone", count: 1 }, count: 8L }]
 			x: 22.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FC788DDF32E00773"]
+			dependencies: ["4859C144C5EAE84A"]
 			description: ["&6Was ist das?", "Ambrosium ist Brennstoff und Heilmittel.", "", "&6So gehts", "Erz abbauen. Essen heilt ein bisschen.", "", "&6Wofuer ist das wichtig?", "Brennstoff fuer Altar und Gefrierer."]
 			id: "337552AA9F3ACCE2"
 			title: "Ambrosium"
@@ -320,7 +320,7 @@
 		{
 			dependencies: ["337552AA9F3ACCE2"]
 			description: ["&6Was ist das?", "Gravitit schwebt in der Luft. Daraus entsteht starke Ausruestung.", "", "&6So gehts", "Mit Zanit-Spitzhacke abbauen. Schnell einsammeln, bevor es wegfliegt.", "", "&6Wofuer ist das wichtig?", "Gravitit-Ausruestung laesst dich hoeher springen und Bloecke schweben."]
-			id: "F35970B7FA448693"
+			id: "7579984EBD537BB6"
 			title: "Gravitit"
 			rewards: [{ id: "038DD3C245737B30", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "7C997E7E29DC22AF", type: "item", item: { id: "aether:gravitite_ore", count: 1 }, count: 1L }]
@@ -328,11 +328,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F35970B7FA448693"]
+			dependencies: ["7579984EBD537BB6"]
 			description: ["&6Was ist das?", "Die Slider ist ein Boss und huetet den Bronzenen Dungeon.", "", "&6So gehts", "Nur mit Spitzhacke verwundbar. Er rutscht schnell, weiche aus.", "", "&6Wofuer ist das wichtig?", "Bronze-Schluessel und erste starke Aether-Beute."]
 			id: "673AD22C2CF89227"
 			title: "Der Slider"
-			rewards: [{ id: "8A1D24D3BD8FDFEB", type: "xp_levels", xp_levels: 8 }]
+			rewards: [{ id: "4E52E25BA352F0A0", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "6527E366163C19CC", type: "kill", entity: "aether:slider", value: 1L, icon: { id: "aether:bronze_dungeon_key" } }]
 			x: 27.0d
 			y: 0.0d
@@ -342,7 +342,7 @@
 			description: ["&6Was ist das?", "Valkyrien bewachen den Silbernen Dungeon. Besiege eine Valkyrie.", "", "&6So gehts", "Mit gutem Schwert kaempfen.", "", "&6Wofuer ist das wichtig?", "Valkyrie-Lanze und Ehre."]
 			id: "3B0D1DB27F5BE513"
 			title: "Valkyrie"
-			rewards: [{ id: "A2C410228EB1B792", type: "xp_levels", xp_levels: 8 }]
+			rewards: [{ id: "6FE3580692C83D94", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "4F9126BC2BF2D5BF", type: "kill", entity: "aether:valkyrie", value: 1L, icon: { id: "aether:valkyrie_lance" } }]
 			x: 28.5d
 			y: 0.0d
@@ -362,7 +362,7 @@
 			description: ["&6Was ist das?", "Der Goldene Dungeon gehoert dem Sonnengeist. Du brauchst den goldenen Schluessel.", "", "&6So gehts", "Goldenen Schluessel finden.", "", "&6Wofuer ist das wichtig?", "Hier wartet der letzte Boss."]
 			id: "7D0D6C18B03DD7EC"
 			title: "Goldener Dungeon"
-			rewards: [{ id: "85E11E0DE4481563", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			rewards: [{ id: "4937CF75E4EAE0FD", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "2DA5D9FF8A5C6CDD", type: "item", item: { id: "aether:gold_dungeon_key", count: 1 }, count: 1L }]
 			x: 31.5d
 			y: 0.0d
@@ -370,9 +370,9 @@
 		{
 			dependencies: ["7D0D6C18B03DD7EC"]
 			description: ["&6Was ist das?", "Der Sonnengeist ist der letzte Boss des Aethers.", "", "&6So gehts", "Er wohnt im Goldenen Dungeon. Feuerresistenz und Eis-Items helfen.", "", "&6Wofuer ist das wichtig?", "Danach ist das Aether befreit und du bekommst die beste Aether-Beute."]
-			id: "AC29EDEF62C86114"
+			id: "39C29971247BFC95"
 			title: "Der Sonnenspirit"
-			rewards: [{ id: "C7C2F2CDC5AC5203", type: "xp_levels", xp_levels: 8 }]
+			rewards: [{ id: "2AD35E6ADD7759A9", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "622A8F472AD5063A", type: "kill", entity: "aether:sun_spirit", value: 1L, icon: { id: "aether:sun_spirit_spawn_egg" } }]
 			x: 33.0d
 			y: 0.0d
@@ -390,7 +390,7 @@
 		{
 			dependencies: ["273054D9EB980709"]
 			description: ["&6Was ist das?", "Holystone-Werkzeug laesst manchmal Ambrosium fallen.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Laesst manchmal Ambrosium fallen."]
-			id: "BAF504FAF1630929"
+			id: "6E26A58C85DB675E"
 			title: "Holystone-Werkzeug"
 			rewards: [{ id: "35106893A529CBCB", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7F424582D5A57D95", type: "item", item: { id: "aether:holystone_pickaxe", count: 1 }, count: 1L }]
@@ -398,9 +398,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["BAF504FAF1630929"]
+			dependencies: ["6E26A58C85DB675E"]
 			description: ["&6Was ist das?", "Zanit-Werkzeug wird schneller, je mehr es abgenutzt ist.", "", "&6So gehts", "Herstellen.", "", "&6Wofuer ist das wichtig?", "Wird schneller, je abgenutzter es ist."]
-			id: "EEA54D76F8B335FE"
+			id: "07F13B009A065054"
 			title: "Zanit-Werkzeug"
 			rewards: [{ id: "55E4E3CF617E3F62", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "244C37C1BD7462C7", type: "item", item: { id: "aether:zanite_pickaxe", count: 1 }, count: 1L }]
@@ -408,19 +408,19 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["EEA54D76F8B335FE"]
+			dependencies: ["07F13B009A065054"]
 			description: ["&6Was ist das?", "Mit dem Altar verzauberst du Aether-Items mit Ambrosium.", "", "&6So gehts", "Item und Ambrosium einlegen.", "", "&6Wofuer ist das wichtig?", "Verzaubertes Gravitit und Heilsteine."]
 			id: "12DC1C3E8913D995"
 			title: "Altar"
-			rewards: [{ id: "8A36D7DF7552FEDC", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "8E338C1C905904C8", type: "item", item: { id: "aether:altar", count: 1 }, count: 1L }]
+			rewards: [{ id: "7B809FD4BD6DDBAE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6D2539ACE37F8279", type: "item", item: { id: "aether:altar", count: 1 }, count: 1L }]
 			x: 24.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["12DC1C3E8913D995"]
 			description: ["&6Was ist das?", "Mit dem Gefrierer machst du Eis-Items und Eisanhaenger.", "", "&6So gehts", "Item und Brennstoff einlegen.", "", "&6Wofuer ist das wichtig?", "Eis-Anhaenger und Eis-Ringe."]
-			id: "90A1CB5D29579B69"
+			id: "356856BDB85DFFEF"
 			title: "Gefrierer"
 			rewards: [{ id: "4F59BF4103C37FCA", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "75B8F8E831BDE3E1", type: "item", item: { id: "aether:freezer", count: 1 }, count: 1L }]
@@ -428,7 +428,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["90A1CB5D29579B69"]
+			dependencies: ["356856BDB85DFFEF"]
 			description: ["&6Was ist das?", "Im Bruetkasten bruetest du Moa-Eier aus.", "", "&6So gehts", "Ei und Ambrosium-Fackel hinein.", "", "&6Wofuer ist das wichtig?", "Dein eigenes Reittier."]
 			id: "181DB572BCCAB385"
 			title: "Bruetkasten"
@@ -440,7 +440,7 @@
 		{
 			dependencies: ["181DB572BCCAB385"]
 			description: ["&6Was ist das?", "Verzaubertes Gravitit macht Gravitit-Werkzeug und -Ruestung.", "", "&6So gehts", "Gravitit im Altar verzaubern.", "", "&6Wofuer ist das wichtig?", "Gravitit-Werkzeug und -Ruestung."]
-			id: "F5A3BD16DFA86C5C"
+			id: "11137872100623CD"
 			title: "Verzaubertes Gravitit"
 			rewards: [{ id: "38C22C2F7AAECE30", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "5095128055D0C94F", type: "item", item: { id: "aether:enchanted_gravitite", count: 1 }, count: 2L }]
@@ -448,17 +448,17 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["F5A3BD16DFA86C5C"]
+			dependencies: ["11137872100623CD"]
 			description: ["&6Was ist das?", "Mit der Gravitit-Spitzhacke laesst du Bloecke schweben.", "", "&6So gehts", "Rechtsklick auf einen Block.", "", "&6Wofuer ist das wichtig?", "Baumhilfe und Spass."]
 			id: "27257B938760EA1E"
 			title: "Gravitit-Spitzhacke"
 			rewards: [{ id: "5783FE28EAE68947", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "9E6B6B24BCA260A7", type: "item", item: { id: "aether:gravitite_pickaxe", count: 1 }, count: 1L }]
+			tasks: [{ id: "464FE39D27E9B977", type: "item", item: { id: "aether:gravitite_pickaxe", count: 1 }, count: 1L }]
 			x: 30.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["FC788DDF32E00773"]
+			dependencies: ["4859C144C5EAE84A"]
 			description: ["&6Was ist das?", "Im Aether traegst du Handschuhe im Zubehoer-Slot. Sie machen mehr Schaden.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Faustschaden."]
 			id: "007313E47BFBBFBE"
 			title: "Handschuhe"
@@ -480,65 +480,65 @@
 		{
 			dependencies: ["7F8313E3B6B36172"]
 			description: ["&6Was ist das?", "Die goldene Feder laesst dich langsam fallen. Perfekt fuer das Aether.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Sicher im Aether."]
-			id: "EB8641BE9DECBE89"
+			id: "2180937F4C654854"
 			title: "Goldene Feder"
 			rewards: [{ id: "5EC455171FDB9FF2", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "B4EDE0D4DC563A1F", type: "item", item: { id: "aether:golden_feather", count: 1 }, count: 1L }]
+			tasks: [{ id: "09646D25EA49369D", type: "item", item: { id: "aether:golden_feather", count: 1 }, count: 1L }]
 			x: 25.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["EB8641BE9DECBE89"]
+			dependencies: ["2180937F4C654854"]
 			description: ["&6Was ist das?", "Der Wolkenstab ruft kleine Wolken, die fuer dich kaempfen.", "", "&6So gehts", "Benutzen.", "", "&6Wofuer ist das wichtig?", "Unterstuetzung im Kampf."]
-			id: "C78F2DCD147B8AD5"
+			id: "4A8825059A11DA0A"
 			title: "Wolkenstab"
-			rewards: [{ id: "B20D075637CE21AE", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "4B1DE5CB48DC1F25", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "41B3E900A184BBD1", type: "item", item: { id: "aether:cloud_staff", count: 1 }, count: 1L }]
 			x: 27.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["C78F2DCD147B8AD5"]
+			dependencies: ["4A8825059A11DA0A"]
 			description: ["&6Was ist das?", "Valkyrie-Werkzeug und -Ruestung bekommst du im Silbernen Dungeon.", "", "&6So gehts", "Im Dungeon finden.", "", "&6Wofuer ist das wichtig?", "Mehr Reichweite und Flug."]
 			id: "3CDF75A549A4527D"
 			title: "Valkyrie-Ausruestung"
 			rewards: [{ id: "1B06E12CC507D1D9", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "D211EE0BEC94DCB5", type: "item", item: { id: "aether:valkyrie_pickaxe", count: 1 }, count: 1L }]
+			tasks: [{ id: "470330C50F011304", type: "item", item: { id: "aether:valkyrie_pickaxe", count: 1 }, count: 1L }]
 			x: 28.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["3CDF75A549A4527D"]
 			description: ["&6Was ist das?", "Der Phoenix-Bogen setzt Gegner in Brand.", "", "&6So gehts", "Im Dungeon finden.", "", "&6Wofuer ist das wichtig?", "Starker Fernkampf."]
-			id: "D17F8800EA40AF6E"
+			id: "25F9FDCBA2BF8F0C"
 			title: "Phoenix-Bogen"
-			rewards: [{ id: "8BB6BF94DD6946E2", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "6BBFEB6D86F845F4", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "3F37F198A5284DD0", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
 			x: 30.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["D17F8800EA40AF6E"]
+			dependencies: ["25F9FDCBA2BF8F0C"]
 			description: ["&6Was ist das?", "Die Phoenix-Ruestung schuetzt vor Feuer und Lava.", "", "&6So gehts", "Im Goldenen Dungeon.", "", "&6Wofuer ist das wichtig?", "Schwimmen in Lava."]
-			id: "F88E0926C2B8388F"
+			id: "15D3C369D82F2B6B"
 			title: "Phoenix-Ruestung"
-			rewards: [{ id: "B6C603FB0549E9ED", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			rewards: [{ id: "7A40188056A48711", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "79789C3D14F3E186", type: "item", item: { id: "aether:phoenix_chestplate", count: 1 }, count: 1L }]
 			x: 31.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["F88E0926C2B8388F"]
+			dependencies: ["15D3C369D82F2B6B"]
 			description: ["&6Was ist das?", "Die Neptun-Ruestung macht dich unter Wasser schnell.", "", "&6So gehts", "Im Dungeon.", "", "&6Wofuer ist das wichtig?", "Schnell unter Wasser."]
-			id: "CAD63EDBCD0C1AB4"
+			id: "783DCD0978C249D4"
 			title: "Neptun-Ruestung"
-			rewards: [{ id: "C9C746839C847AF8", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "FFC453C5834A2EEB", type: "item", item: { id: "aether:neptune_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "2047DF4B29614E89", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "21D0A9BF7757DA7E", type: "item", item: { id: "aether:neptune_chestplate", count: 1 }, count: 1L }]
 			x: 33.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["CAD63EDBCD0C1AB4"]
+			dependencies: ["783DCD0978C249D4"]
 			description: ["&6Was ist das?", "Die Lebensscherbe gibt dir ein zusaetzliches Herz.", "", "&6So gehts", "Benutzen.", "", "&6Wofuer ist das wichtig?", "Mehr Leben fuer immer."]
 			id: "2B4D98C4F025D8D6"
 			title: "Lebensscherbe"
@@ -548,12 +548,12 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["F35970B7FA448693"]
+			dependencies: ["7579984EBD537BB6"]
 			description: ["&6Was ist das?", "Ruestung aus Zanit.", "", "&6So gehts", "Zanit-Edelsteine in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Guter Schutz im Aether."]
 			icon: { id: "aether:zanite_chestplate" }
 			id: "244F10A1AC238552"
 			title: "Zanit-Ruestung"
-			rewards: [{ id: "F40AAC079D1D8150", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "052EDD42B0518EEA", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "23962D66CFBEC1F0", type: "item", item: { id: "aether:zanite_chestplate", count: 1 }, count: 1L }]
 			x: 25.5d
 			y: 2.0d
@@ -564,7 +564,7 @@
 			icon: { id: "aether:gravitite_chestplate" }
 			id: "66574B53D962C7E3"
 			title: "Gravitit-Ruestung"
-			rewards: [{ id: "A0868AB631C4B9EB", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "02A460E398698AA4", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "688C1B41B1514BE8", type: "item", item: { id: "aether:gravitite_chestplate", count: 1 }, count: 1L }]
 			x: 27.0d
 			y: 2.0d
@@ -575,8 +575,8 @@
 			icon: { id: "aether:healing_stone" }
 			id: "0AAC6B32022C69CA"
 			title: "Heilstein"
-			rewards: [{ id: "F9288E7CC28FEF52", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9B7483F30FE87F3E", type: "item", item: { id: "aether:healing_stone", count: 1 }, count: 1L }]
+			rewards: [{ id: "0576427A9F5AB18C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "73EBE150D9640FA2", type: "item", item: { id: "aether:healing_stone", count: 1 }, count: 1L }]
 			x: 28.5d
 			y: 2.0d
 		}
@@ -584,9 +584,9 @@
 			dependencies: ["0AAC6B32022C69CA"]
 			description: ["&6Was ist das?", "Seltene Schwerter aus Aether-Dungeons: Vampirklinge, Blitzschwert, Feuerschwert.", "", "&6So gehts", "In Dungeon-Truhen finden.", "", "&6Wofuer ist das wichtig?", "Besondere Faehigkeiten wie Lebensraub."]
 			icon: { id: "aether:vampire_blade" }
-			id: "BFE62517E0289853"
+			id: "087FD8B517F89430"
 			title: "Aether-Schwerter"
-			rewards: [{ id: "EE51663A3B76AF51", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "08CD06DF9EB52353", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "39794AF61469C3F4", type: "item", item: { id: "aether:vampire_blade", count: 1 }, count: 1L }]
 			x: 30.0d
 			y: 2.0d
@@ -594,7 +594,7 @@
 		{
 			dependencies: ["66E57CCD2D7C1EA0"]
 			description: ["&6Was ist das?", "Der Fallschirm rettet dich vor dem Sturz.", "", "&6So gehts", "Benutzen, wenn du faellst.", "", "&6Wofuer ist das wichtig?", "Rettet dich vor dem Sturz."]
-			id: "EF3DB9BB236188D4"
+			id: "1F270EFEFADA46C7"
 			title: "Wolkenparachut"
 			rewards: [{ id: "1622F59406527466", type: "item", item: { id: "minecraft:feather", count: 8 } }]
 			tasks: [{ id: "21BEB3559DB7494D", type: "item", item: { id: "aether:cold_parachute", count: 1 }, count: 1L }]
@@ -602,9 +602,9 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["EF3DB9BB236188D4"]
+			dependencies: ["1F270EFEFADA46C7"]
 			description: ["&6Was ist das?", "Moas sind die Reittiere des Aethers. Sie koennen mehrfach springen.", "", "&6So gehts", "Moa-Ei im Bruetkasten ausbrueten.", "", "&6Wofuer ist das wichtig?", "Moas springen hoch und gleiten."]
-			id: "DC7C871A82D59A88"
+			id: "7CE916BF085F61A8"
 			title: "Die Moa"
 			rewards: [{ id: "0911911C87E4E2E4", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "5DA07B4CE34074EA", type: "checkmark" }]
@@ -612,18 +612,18 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["DC7C871A82D59A88"]
+			dependencies: ["7CE916BF085F61A8"]
 			description: ["&6Was ist das?", "Protect Your Moa: Ruestung fuer deine Moa.", "", "&6So gehts", "Rezept in JEI, der Moa anlegen.", "", "&6Wofuer ist das wichtig?", "Deine Moa ueberlebt Kaempfe im Aether."]
 			icon: { id: "aether_protect_your_moa:zanite_moa_armor" }
-			id: "DFE75EE2333EEFE6"
+			id: "36D1BBBBE1FD5ACA"
 			title: "Moa-Ruestung"
-			rewards: [{ id: "E9AA193A54794634", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "0F9B199DC3A45863", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "16ADCB23FABD2A01", type: "item", item: { id: "aether_protect_your_moa:zanite_moa_armor", count: 1 }, count: 1L }]
 			x: 21.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["DFE75EE2333EEFE6"]
+			dependencies: ["36D1BBBBE1FD5ACA"]
 			description: ["&6Was ist das?", "Zephyrs sind Wolkenwesen, die dich wegblasen.", "", "&6So gehts", "Mit Bogen kaempfen.", "", "&6Wofuer ist das wichtig?", "Kalte Wolken."]
 			id: "3DBD09A6D848B618"
 			title: "Zephyr"
@@ -635,15 +635,15 @@
 		{
 			dependencies: ["3DBD09A6D848B618"]
 			description: ["&6Was ist das?", "Cockatrices sind giftige Voegel in der Nacht.", "", "&6So gehts", "Vorsichtig kaempfen.", "", "&6Wofuer ist das wichtig?", "Giftpfeile."]
-			id: "AD49A6EFD48432B9"
+			id: "5BFDF8C4C58F2381"
 			title: "Cockatrice"
 			rewards: [{ id: "37559E0A147D7BF0", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9F91177713C8AB0B", type: "kill", entity: "aether:cockatrice", value: 1L, icon: { id: "aether:poison_dart" } }]
+			tasks: [{ id: "0BA1CCC2971C818E", type: "kill", entity: "aether:cockatrice", value: 1L, icon: { id: "aether:poison_dart" } }]
 			x: 24.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["F401972C5AB547B3"]
+			dependencies: ["388349920682B0BC"]
 			description: ["&6Was ist das?", "Das Zeitalter der Welten hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Zwielichtwald, Zwielicht-Schmiede, Zwielicht-Beute, Aether, Aether-Werkstatt, Aether-Ausruestung, Aether-Schaetze, Aether-Leben.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
 			icon: { id: "twilightforest:magic_map" }
 			id: "760DF08E063B1E50"
@@ -654,29 +654,29 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AC29EDEF62C86114"]
+			dependencies: ["39C29971247BFC95"]
 			description: ["&6Was ist das?", "Hier beginnt das Druckluft-Zeitalter. Es schaltet frei:", "PneumaticCraft und die Flugzeuge von Immersive Aircraft.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "pneumaticcraft:air_compressor" }
 			id: "372BFA74489C956D"
 			title: "Zeitalter: Druckluft-Zeitalter"
-			rewards: [{ id: "DB4445805042C157", type: "historystages:history_stage", stage: "druckluftzeit", remove: false, individual: false }, { id: "EA28EAEEB4C3AB3E", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "29297C7D3F5FB087", type: "historystages:history_stage", stage: "druckluftzeit", remove: false, individual: false }, { id: "51D27F3AF7F57957", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "2B41B5BDFB0B052B", type: "checkmark" }]
 			x: 34.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F60D13AF5AC8E152"]
+			dependencies: ["57E41ABAF269D36E"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:storms_edge" }
-			id: "9B86D51D61CC269E"
+			id: "3416371170E9C598"
 			title: "Storm's Edge"
 			rewards: []
-			tasks: [{ id: "B286DCFC1305DA3C", type: "checkmark" }]
+			tasks: [{ id: "2716FC7D627C53F7", type: "checkmark" }]
 			x: 16.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["9B86D51D61CC269E"]
+			dependencies: ["3416371170E9C598"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stormscale" }
 			id: "2D8DA4E3C83693AD"
@@ -690,7 +690,7 @@
 			dependencies: ["2D8DA4E3C83693AD"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:ionbound_stormscale" }
-			id: "CE3C7472519DF41A"
+			id: "3C68E2B7D12CEC69"
 			title: "Ionbound Stormscale"
 			rewards: []
 			tasks: [{ id: "56113D8EBE84B105", type: "checkmark" }]
@@ -698,21 +698,21 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["CE3C7472519DF41A"]
+			dependencies: ["3C68E2B7D12CEC69"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stormbringer" }
-			id: "849FF5B4D5942A33"
+			id: "0B0D6E90B305B48C"
 			title: "Stormbringer"
 			rewards: []
-			tasks: [{ id: "8E0B6CA6CE118E74", type: "checkmark" }]
+			tasks: [{ id: "7E970120A2FDCF0B", type: "checkmark" }]
 			x: 21.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["849FF5B4D5942A33"]
+			dependencies: ["0B0D6E90B305B48C"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:mjolnir" }
-			id: "E57F5D8BDC99D39C"
+			id: "09A402BDB43B7530"
 			title: "Mjolnir"
 			rewards: []
 			tasks: [{ id: "740119C75CC038A9", type: "checkmark" }]
@@ -720,7 +720,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["E57F5D8BDC99D39C"]
+			dependencies: ["09A402BDB43B7530"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:livyatan" }
 			id: "2620BB1461AA62C4"
@@ -734,7 +734,7 @@
 			dependencies: ["2620BB1461AA62C4"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:thunderbrand" }
-			id: "DB729A23B9D7321C"
+			id: "7274A6D8318B1184"
 			title: "Thunderbrand"
 			rewards: []
 			tasks: [{ id: "57F7ECA8A52E9BBB", type: "checkmark" }]
@@ -742,7 +742,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["DB729A23B9D7321C"]
+			dependencies: ["7274A6D8318B1184"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:whisperwind" }
 			id: "7EA417B355E3E385"
@@ -759,7 +759,7 @@
 			id: "4A2EE93B5084D720"
 			title: "Tempest"
 			rewards: []
-			tasks: [{ id: "A525117608CDE03C", type: "checkmark" }]
+			tasks: [{ id: "3879CAB047394610", type: "checkmark" }]
 			x: 28.5d
 			y: 10.0d
 		}
@@ -767,15 +767,15 @@
 			dependencies: ["4A2EE93B5084D720"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:ribboncleaver" }
-			id: "C8EC1B5393C768D3"
+			id: "5E2307E1CD8337B6"
 			title: "Ribboncleaver"
 			rewards: []
-			tasks: [{ id: "DE4616344A85FAE0", type: "checkmark" }]
+			tasks: [{ id: "4700B4DD84639C27", type: "checkmark" }]
 			x: 30.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["C8EC1B5393C768D3"]
+			dependencies: ["5E2307E1CD8337B6"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:riftmane" }
 			id: "73F0380B17A9C9F5"
@@ -786,24 +786,24 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["9B86D51D61CC269E"]
+			dependencies: ["3416371170E9C598"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:candy_cane_sword" }
-			id: "B2A2F114C6C37575"
+			id: "12C12D4C405B2521"
 			title: "Candy Cane Sword"
 			rewards: []
-			tasks: [{ id: "EB8212E1F91782C9", type: "checkmark" }]
+			tasks: [{ id: "28011ACE99314355", type: "checkmark" }]
 			x: 16.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["B2A2F114C6C37575"]
+			dependencies: ["12C12D4C405B2521"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:flaming_sword" }
 			id: "0EB6EE420971C7B3"
 			title: "Flaming Sword"
 			rewards: []
-			tasks: [{ id: "C6B3386294D5C870", type: "checkmark" }]
+			tasks: [{ id: "6476D7EB9002133B", type: "checkmark" }]
 			x: 18.0d
 			y: 12.0d
 		}
@@ -814,7 +814,7 @@
 			id: "26DA47D8C40CA992"
 			title: "Holy Sword"
 			rewards: []
-			tasks: [{ id: "B14D919A56432A42", type: "checkmark" }]
+			tasks: [{ id: "70C83B4E21154BA7", type: "checkmark" }]
 			x: 19.5d
 			y: 12.0d
 		}
@@ -822,18 +822,18 @@
 			dependencies: ["26DA47D8C40CA992"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:lightning_sword" }
-			id: "97156B0CD816AF74"
+			id: "78DA72FA1F49E736"
 			title: "Lightning Sword"
 			rewards: []
-			tasks: [{ id: "8C2AC266559C4847", type: "checkmark" }]
+			tasks: [{ id: "4BB366E27ECA157B", type: "checkmark" }]
 			x: 21.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["97156B0CD816AF74"]
+			dependencies: ["78DA72FA1F49E736"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:hammer_of_kingbdogz" }
-			id: "B9007D09129AD887"
+			id: "38D377BCD07563A7"
 			title: "Hammer of Kingbdogz"
 			rewards: []
 			tasks: [{ id: "21B6EF0AD0ED33FE", type: "checkmark" }]
@@ -841,7 +841,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["B9007D09129AD887"]
+			dependencies: ["38D377BCD07563A7"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:valkyrie_lance" }
 			id: "047556D751CC57ED"
@@ -855,7 +855,7 @@
 			dependencies: ["047556D751CC57ED"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:cloud_staff" }
-			id: "FA5572E4C9B6043A"
+			id: "3F95B9971ADDFF0B"
 			title: "Cloud Staff"
 			rewards: []
 			tasks: [{ id: "5AB9A406C2A07C20", type: "checkmark" }]
@@ -863,13 +863,13 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["FA5572E4C9B6043A"]
+			dependencies: ["3F95B9971ADDFF0B"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:nature_staff" }
 			id: "3CE177F8ABFD296E"
 			title: "Nature Staff"
 			rewards: []
-			tasks: [{ id: "A1C62EF2743EE852", type: "checkmark" }]
+			tasks: [{ id: "0044A8B6E27B3CFA", type: "checkmark" }]
 			x: 27.0d
 			y: 12.0d
 		}
@@ -880,26 +880,26 @@
 			id: "27CB195ADB4ED4C1"
 			title: "Shield of Repulsion"
 			rewards: []
-			tasks: [{ id: "B5ED1C2CCA4D2310", type: "checkmark" }]
+			tasks: [{ id: "3B297038099AA2D3", type: "checkmark" }]
 			x: 28.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["B2A2F114C6C37575"]
+			dependencies: ["12C12D4C405B2521"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:dawnquiver" }
-			id: "848486F140FAB14B"
+			id: "46916329845D0127"
 			title: "Dawnquiver"
 			rewards: []
-			tasks: [{ id: "FA0FBDB62B904A65", type: "checkmark" }]
+			tasks: [{ id: "2D5302EAD995489C", type: "checkmark" }]
 			x: 16.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["848486F140FAB14B"]
+			dependencies: ["46916329845D0127"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:phoenix_bow" }
-			id: "CB0088AC683316F5"
+			id: "7F47EA84595DAE5F"
 			title: "Phoenix Bow"
 			rewards: []
 			tasks: [{ id: "1D01FD48C7DC3822", type: "checkmark" }]
@@ -907,18 +907,18 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["848486F140FAB14B"]
+			dependencies: ["46916329845D0127"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:skyroot_pickaxe" }
-			id: "84535A926E548BDE"
+			id: "2B468677D68A25FA"
 			title: "Aether Skyroot-Set"
 			rewards: []
-			tasks: [{ id: "D9B230F1F6D5244B", type: "checkmark" }]
+			tasks: [{ id: "684B6E81E948E533", type: "checkmark" }]
 			x: 16.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["84535A926E548BDE"]
+			dependencies: ["2B468677D68A25FA"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:holystone_pickaxe" }
 			id: "581E2999BCC83209"
@@ -932,7 +932,7 @@
 			dependencies: ["581E2999BCC83209"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:zanite_pickaxe" }
-			id: "B387BBA44CC8BFD5"
+			id: "246B4B184049D1FD"
 			title: "Aether Zanite-Set"
 			rewards: []
 			tasks: [{ id: "4B56906E70B01968", type: "checkmark" }]
@@ -940,10 +940,10 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["B387BBA44CC8BFD5"]
+			dependencies: ["246B4B184049D1FD"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:gravitite_pickaxe" }
-			id: "F1AAE7FFBB89E1E3"
+			id: "52D377E0D3B472B9"
 			title: "Aether Gravitite-Set"
 			rewards: []
 			tasks: [{ id: "248B35E5B6CC45A6", type: "checkmark" }]
@@ -951,18 +951,18 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["F1AAE7FFBB89E1E3"]
+			dependencies: ["52D377E0D3B472B9"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
 			icon: { id: "aether:valkyrie_pickaxe" }
-			id: "DC95352ADCA6D0EB"
+			id: "78F60C90E6B45DD1"
 			title: "Aether Valkyrie-Set"
 			rewards: []
-			tasks: [{ id: "8E07FE268E27DD3D", type: "checkmark" }]
+			tasks: [{ id: "751230F7A978790D", type: "checkmark" }]
 			x: 22.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["84535A926E548BDE"]
+			dependencies: ["2B468677D68A25FA"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:zanite_chestplate" }
 			id: "439D34A684054C33"
@@ -976,7 +976,7 @@
 			dependencies: ["439D34A684054C33"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:gravitite_chestplate" }
-			id: "D59F3B0DF8CE789D"
+			id: "030F5D316769E207"
 			title: "Gravitite (Ruestung)"
 			rewards: []
 			tasks: [{ id: "25F01F243EEC340D", type: "checkmark" }]
@@ -984,18 +984,18 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["D59F3B0DF8CE789D"]
+			dependencies: ["030F5D316769E207"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:valkyrie_chestplate" }
-			id: "F60A38BFC0EFE35A"
+			id: "489B9610ABFF6CB1"
 			title: "Valkyrie (Ruestung)"
 			rewards: []
-			tasks: [{ id: "F2EE5F1DC572F808", type: "checkmark" }]
+			tasks: [{ id: "334B3BC34F757ED9", type: "checkmark" }]
 			x: 19.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["F60A38BFC0EFE35A"]
+			dependencies: ["489B9610ABFF6CB1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:neptune_chestplate" }
 			id: "795598D83CDA7CE0"
@@ -1009,7 +1009,7 @@
 			dependencies: ["795598D83CDA7CE0"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:obsidian_chestplate" }
-			id: "A25DC9F49922C0EC"
+			id: "4C3A69BD9900DE91"
 			title: "Obsidian (Ruestung)"
 			rewards: []
 			tasks: [{ id: "1109DD46837BAB58", type: "checkmark" }]
@@ -1017,7 +1017,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["A25DC9F49922C0EC"]
+			dependencies: ["4C3A69BD9900DE91"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "aether:phoenix_chestplate" }
 			id: "226E24479767B070"
@@ -1034,7 +1034,7 @@
 			id: "1E4BD7DD91BF5AC3"
 			title: "Sentry (Ruestung)"
 			rewards: []
-			tasks: [{ id: "A7A246F48C4008A6", type: "checkmark" }]
+			tasks: [{ id: "75B52229853A0970", type: "checkmark" }]
 			x: 25.5d
 			y: 18.0d
 		}

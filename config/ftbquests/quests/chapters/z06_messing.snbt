@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "z06_messing"
 	icon: { id: "create:brass_ingot" }
-	id: "9817B6C433FECCD5"
+	id: "301485824AE6D972"
 	order_index: 5
 	quest_links: [ ]
 	title: "&eVI. Messing-Zeitalter"
@@ -13,8 +13,8 @@
 			description: ["&6Was ist das?", "Der Blazebrenner heizt Becken. Du brauchst eine Blaze im Kaefig.", "", "&6So gehts", "Leeren Brenner auf einen Blaze im Nether klicken.", "Unter ein Becken stellen und mit Brennstoff fuettern.", "", "&6Wofuer ist das wichtig?", "Ohne Hitze kein Messing. Mit Blaze-Kuchen wird es superheiss."]
 			id: "130F33E0BDF1373A"
 			title: "Blazebrenner"
-			rewards: [{ id: "FAF47FB45649EB57", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
-			tasks: [{ id: "B292FE1DFDB8FFC0", type: "item", item: { id: "create:blaze_burner", count: 1 }, count: 1L }]
+			rewards: [{ id: "02E4922F1217C502", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
+			tasks: [{ id: "5C374AFDF0EB2024", type: "item", item: { id: "create:blaze_burner", count: 1 }, count: 1L }]
 			x: 1.5d
 			y: 0.0d
 		}
@@ -24,26 +24,26 @@
 			id: "5EAAFA8DBD065E8F"
 			title: "Becken und Mixer"
 			rewards: [{ id: "73CE919C75D997E4", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "90D2B5C9C2D48949", type: "item", item: { id: "create:mechanical_mixer", count: 1 }, count: 1L }]
+			tasks: [{ id: "281176B96323C21F", type: "item", item: { id: "create:mechanical_mixer", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5EAAFA8DBD065E8F"]
 			description: ["&6Was ist das?", "Messing machst du im Becken aus Kupfer und Zink mit Hitze.", "", "&6So gehts", "Kupfer und Zink im Becken mit beheiztem Mixer mischen.", "", "&6Wofuer ist das wichtig?", "Fuer Mechanische Arme, Crafter und fortgeschrittene Teile."]
-			id: "EAC42273ABA42FA5"
+			id: "6A62DADBFA2996A0"
 			title: "Messing"
 			rewards: [{ id: "2A1AE6E861B683F4", type: "item", item: { id: "minecraft:gold_nugget", count: 8 } }]
-			tasks: [{ id: "83EF294AD68527CB", type: "item", item: { id: "create:brass_ingot", count: 1 }, count: 2L }]
+			tasks: [{ id: "7E6109538E4B1341", type: "item", item: { id: "create:brass_ingot", count: 1 }, count: 2L }]
 			x: 4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["EAC42273ABA42FA5"]
+			dependencies: ["6A62DADBFA2996A0"]
 			description: ["&6Was ist das?", "Aus Messing presst du Messingbleche. Sie sind das Material der Fortgeschrittenen.", "", "&6So gehts", "Messingbarren unter die Presse.", "", "&6Wofuer ist das wichtig?", "Fuer Elektronik-Teile und Maschinen."]
 			id: "3FCFC846B34538AC"
 			title: "Messingblech"
-			rewards: [{ id: "917E53515580EE1A", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "0E901BDF5241992D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "39C4B47DE113849F", type: "item", item: { id: "create:brass_sheet", count: 1 }, count: 4L }]
 			x: 6.0d
 			y: 0.0d
@@ -55,7 +55,7 @@
 			id: "5F39BE72760304BB"
 			title: "Schokolade"
 			rewards: [{ id: "094B622650B032FF", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "8C2C73E1C1B6EA14", type: "item", item: { id: "create:bar_of_chocolate", count: 1 }, count: 4L }]
+			tasks: [{ id: "10A1423D60D304A4", type: "item", item: { id: "create:bar_of_chocolate", count: 1 }, count: 4L }]
 			x: 3.0d
 			y: 12.0d
 		}
@@ -66,18 +66,18 @@
 			id: "2A352835559FE101"
 			title: "Bautee"
 			rewards: [{ id: "4F35CE769C767ED9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A3ED49D67593305A", type: "item", item: { id: "create:builders_tea", count: 1 }, count: 2L }]
+			tasks: [{ id: "2B98ABC9EF91FEB8", type: "item", item: { id: "create:builders_tea", count: 1 }, count: 2L }]
 			x: 4.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["EAC42273ABA42FA5"]
+			dependencies: ["6A62DADBFA2996A0"]
 			description: ["&6Was ist das?", "Messing-Trichter mit Filter.", "", "&6So gehts", "Filter mit Rechtsklick einstellen.", "", "&6Wofuer ist das wichtig?", "Genaues Sortieren auf Baendern."]
 			icon: { id: "create:brass_funnel" }
 			id: "1DE2C1A489867156"
 			title: "Messing-Trichter"
-			rewards: [{ id: "8996BDE029709122", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E5167BB605E6C803", type: "item", item: { id: "create:brass_funnel", count: 1 }, count: 8L }]
+			rewards: [{ id: "37E35F07C56A8293", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3FB6C8905E3B5A20", type: "item", item: { id: "create:brass_funnel", count: 1 }, count: 8L }]
 			x: 4.5d
 			y: 8.0d
 		}
@@ -88,7 +88,7 @@
 			id: "7829549CCD454745"
 			title: "Smarte Rohre"
 			rewards: [{ id: "7CDAF871713E4ACE", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A4726A03C05C1842", type: "item", item: { id: "create:smart_fluid_pipe", count: 1 }, count: 4L }]
+			tasks: [{ id: "0DC83FABC61AC0FD", type: "item", item: { id: "create:smart_fluid_pipe", count: 1 }, count: 4L }]
 			x: 6.0d
 			y: 8.0d
 		}
@@ -107,7 +107,7 @@
 			dependencies: ["5E2258F10ED9FDE4"]
 			description: ["&6Was ist das?", "Ein Aufzug mit Stockwerken.", "", "&6So gehts", "Halte W ueber dem Item, dann zeigt dir Ponder eine Animation.", "", "&6Wofuer ist das wichtig?", "Bequem zwischen Etagen fahren."]
 			icon: { id: "create:elevator_pulley" }
-			id: "F385E7CC326ED401"
+			id: "0BEF58AB710DEE38"
 			title: "Aufzug (Create)"
 			rewards: [{ id: "2A901FAA99BC2877", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3795DB09EF09FB94", type: "item", item: { id: "create:elevator_pulley", count: 1 }, count: 1L }]
@@ -115,12 +115,12 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["F385E7CC326ED401"]
+			dependencies: ["0BEF58AB710DEE38"]
 			description: ["&6Was ist das?", "Ein Lager, das sich wie ein Uhrzeiger dreht.", "", "&6So gehts", "Halte W ueber dem Item, dann zeigt dir Ponder eine Animation.", "", "&6Wofuer ist das wichtig?", "Echte Uhren aus Bloecken."]
 			icon: { id: "create:clockwork_bearing" }
 			id: "4308F30E818770CF"
 			title: "Uhrwerk-Lager"
-			rewards: [{ id: "C62C8E03CEC30476", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "564C51242F77FD7E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "678088C93FE47921", type: "item", item: { id: "create:clockwork_bearing", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 8.0d
@@ -129,7 +129,7 @@
 			dependencies: ["4308F30E818770CF"]
 			description: ["&6Was ist das?", "Create Components and Additions: Getriebe und Kettenantriebe aus Messing.", "", "&6So gehts", "Rezepte in JEI.", "", "&6Wofuer ist das wichtig?", "Kompaktere Kraftverteilung."]
 			icon: { id: "create_ca:brass_gearbox" }
-			id: "F051EE6E15E3214B"
+			id: "2B77A4E3AD95C314"
 			title: "Messing-Getriebe"
 			rewards: [{ id: "7A0B6BE86449C98E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "792738C9EFD11530", type: "item", item: { id: "create_ca:brass_gearbox", count: 1 }, count: 1L }]
@@ -139,7 +139,7 @@
 		{
 			dependencies: ["3FCFC846B34538AC"]
 			description: ["&6Was ist das?", "Der Deployer nutzt Items wie ein Spieler: platzieren, verbauen, anwenden.", "", "&6So gehts", "Item in die Hand legen, Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Wichtig fuer Montage-Rezepte, z.B. Praezisionsmechanismus."]
-			id: "DB4BD54C29CDE543"
+			id: "1E28AAEED1B4799C"
 			title: "Deployer"
 			rewards: [{ id: "7BD6B0FF3AF6C6F0", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
 			tasks: [{ id: "6328B7FD33CD5A02", type: "item", item: { id: "create:deployer", count: 1 }, count: 1L }]
@@ -147,7 +147,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DB4BD54C29CDE543"]
+			dependencies: ["1E28AAEED1B4799C"]
 			description: ["&6Was ist das?", "Das ist das wichtigste Bauteil der Spaetphase.", "Auf ein Goldblech im Depot nacheinander Zahnraeder und Eisenstuecke per Deployer anwenden.", "", "&6So gehts", "Goldblech auf Band, dann abwechselnd Zahnraeder und Nuggets per Deployer.", "JEI zeigt die Reihenfolge.", "", "&6Wofuer ist das wichtig?", "Braucht man fuer Zuege, Mechanische Crafter und viele Maschinen."]
 			id: "57ECEE26D1794CC7"
 			title: "Praezisionsmechanismus"
@@ -159,27 +159,27 @@
 		{
 			dependencies: ["57ECEE26D1794CC7"]
 			description: ["&6Was ist das?", "Der Arm bewegt Items zwischen Maschinen, ganz automatisch.", "Stelle ihn mit Eingabe und Ausgabe ein.", "", "&6So gehts", "Arm in der Hand halten, Rechtsklick auf Quellen und Ziele, dann aufstellen.", "", "&6Wofuer ist das wichtig?", "Ersetzt viele Trichter und Baender."]
-			id: "CC9CC01AB8E5180C"
+			id: "22114057A1106DB9"
 			title: "Mechanischer Arm"
-			rewards: [{ id: "D416DBF5870EC398", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			rewards: [{ id: "3D85D110EC7136F6", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
 			tasks: [{ id: "4BCDDB067B505D7B", type: "item", item: { id: "create:mechanical_arm", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC9CC01AB8E5180C"]
+			dependencies: ["22114057A1106DB9"]
 			description: ["&6Was ist das?", "Mehrere Crafter verbunden stellen jedes Rezept automatisch her.", "", "&6So gehts", "Mehrere Crafter im Rechteck aufstellen und verbinden.", "", "&6Wofuer ist das wichtig?", "Fuer grosse Rezepte und Massenproduktion."]
 			id: "0BEB27DE8EEBEB86"
 			title: "Mechanischer Crafter"
-			rewards: [{ id: "B9237BF9C755A2A3", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "9ECBBED953C55D07", type: "item", item: { id: "create:mechanical_crafter", count: 1 }, count: 3L }]
+			rewards: [{ id: "045D1EEAE9686104", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "6AC48B581F89BE35", type: "item", item: { id: "create:mechanical_crafter", count: 1 }, count: 3L }]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["130F33E0BDF1373A"]
 			description: ["&6Was ist das?", "Der Bohrer baut Bloecke automatisch ab.", "", "&6So gehts", "Kraft anschliessen, auf einem Kolben bewegen fuer Tunnel.", "", "&6Wofuer ist das wichtig?", "Steingeneratoren und Tunnelbohrer."]
-			id: "D501C87454150D45"
+			id: "7DD5BB5616563C39"
 			title: "Bohrer"
 			rewards: [{ id: "7932050EE3F498F2", type: "item", item: { id: "minecraft:iron_ingot", count: 6 } }]
 			tasks: [{ id: "1C760B0F6719F90A", type: "item", item: { id: "create:mechanical_drill", count: 1 }, count: 1L }]
@@ -187,12 +187,12 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["D501C87454150D45"]
+			dependencies: ["7DD5BB5616563C39"]
 			description: ["&6Was ist das?", "Die Saege zerschneidet Staemme zu Brettern und faellt Baeume.", "", "&6So gehts", "Kraft anschliessen. Auf einem Band verarbeitet sie Stapel.", "", "&6Wofuer ist das wichtig?", "Holzfarm und viele Brettervarianten."]
 			id: "0A88D145FA3D25C0"
 			title: "Saege"
 			rewards: [{ id: "7AE1E73BC97CCC5D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9848696093D096A2", type: "item", item: { id: "create:mechanical_saw", count: 1 }, count: 1L }]
+			tasks: [{ id: "2DC7EEE61ACAB8F2", type: "item", item: { id: "create:mechanical_saw", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 14.0d
 		}
@@ -201,83 +201,83 @@
 			description: ["&6Was ist das?", "Der Ernter schneidet reife Pflanzen. Er laeuft auf Wagen oder Maschinen.", "", "&6So gehts", "An eine bewegte Konstruktion bauen.", "", "&6Wofuer ist das wichtig?", "Automatische Felder."]
 			id: "088C7FF83A5E57EB"
 			title: "Ernter"
-			rewards: [{ id: "9CCEAD4158CC194D", type: "item", item: { id: "minecraft:wheat_seeds", count: 16 } }]
-			tasks: [{ id: "8E06574E239C8048", type: "item", item: { id: "create:mechanical_harvester", count: 1 }, count: 1L }]
+			rewards: [{ id: "1802DC7A38463712", type: "item", item: { id: "minecraft:wheat_seeds", count: 16 } }]
+			tasks: [{ id: "53DDD8FAE0A17B59", type: "item", item: { id: "create:mechanical_harvester", count: 1 }, count: 1L }]
 			x: 4.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["088C7FF83A5E57EB"]
 			description: ["&6Was ist das?", "Der Pflug bearbeitet Erde und pflanzt Samen.", "", "&6So gehts", "An einen Zug oder Kolben bauen.", "", "&6Wofuer ist das wichtig?", "Grosse Felder automatisch."]
-			id: "99B3208B0B12491F"
+			id: "54B9F3499505678A"
 			title: "Pflug"
 			rewards: [{ id: "5F3FF73AAF0DB7C8", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "E07B53DF60EBE63C", type: "item", item: { id: "create:mechanical_plough", count: 1 }, count: 1L }]
+			tasks: [{ id: "3738044C0F7DCC43", type: "item", item: { id: "create:mechanical_plough", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["99B3208B0B12491F"]
+			dependencies: ["54B9F3499505678A"]
 			description: ["&6Was ist das?", "Mechanisches Lager und Kolben bewegen ganze Konstruktionen. Mit Superkleber verbindest du Bloecke.", "", "&6So gehts", "Superkleber verbindet Bloecke, die zusammen bewegt werden.", "", "&6Wofuer ist das wichtig?", "Tore, Aufzuege, Drehtueren, Farmen."]
 			id: "715757D1A042B6F7"
 			title: "Lager, Kolben und Superkleber"
 			rewards: [{ id: "4F6264D7CD163F4E", type: "item", item: { id: "minecraft:slime_ball", count: 4 } }]
-			tasks: [{ id: "ECE88835FC7AF83F", type: "item", item: { id: "create:mechanical_bearing", count: 1 }, count: 1L }]
+			tasks: [{ id: "260B26680A7FA153", type: "item", item: { id: "create:mechanical_bearing", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["715757D1A042B6F7"]
 			description: ["&6Was ist das?", "Die Seilwinde bewegt Konstruktionen nach oben und unten.", "", "&6So gehts", "Seilwinde aufstellen und Bloecke darunter kleben.", "", "&6Wofuer ist das wichtig?", "Aufzuege und Abbau-Maschinen."]
-			id: "B839A9D00CCCDD3A"
+			id: "22F71FBC8AE32558"
 			title: "Seilwinde"
-			rewards: [{ id: "B18B0A1AE7BB6C20", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "1F088721BB23F804", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "35C28B3DBDF2F9B1", type: "item", item: { id: "create:rope_pulley", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["B839A9D00CCCDD3A"]
+			dependencies: ["22F71FBC8AE32558"]
 			description: ["&6Was ist das?", "Jede Maschine braucht Belastung (Stress). Quellen liefern Kapazitaet.", "", "&6So gehts", "Mit der Brille sehen, wie viel genutzt wird.", "", "&6Wofuer ist das wichtig?", "Plane mehr Kraft, wenn die Fabrik waechst."]
-			id: "95642662CA81B509"
+			id: "6A8DE92C8A36A700"
 			title: "Kraftverteilung"
 			rewards: [{ id: "1FA168E84241086E", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "8869B078B9695B73", type: "item", item: { id: "create:sequenced_gearshift", count: 1 }, count: 1L }]
+			tasks: [{ id: "62BC61DD8C305CAB", type: "item", item: { id: "create:sequenced_gearshift", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["D501C87454150D45"]
+			dependencies: ["7DD5BB5616563C39"]
 			description: ["&6Was ist das?", "Mit Fluessigkeitstank und Rohren speicherst und leitest du Wasser, Lava und mehr.", "", "&6So gehts", "Tank aufstellen, mit Rohren verbinden.", "", "&6Wofuer ist das wichtig?", "Fuer Lava, Wasser, Honig und Schokolade."]
-			id: "BA6C585E3579A03D"
+			id: "2AD1E2F6CA4AD089"
 			title: "Tank und Rohre"
-			rewards: [{ id: "F896209FAD59C583", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AFA6216BAFF73852", type: "item", item: { id: "create:fluid_tank", count: 1 }, count: 1L }]
+			rewards: [{ id: "6DEC365617D11B75", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "11EA5CADE181B2AE", type: "item", item: { id: "create:fluid_tank", count: 1 }, count: 1L }]
 			x: 1.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["BA6C585E3579A03D"]
+			dependencies: ["2AD1E2F6CA4AD089"]
 			description: ["&6Was ist das?", "Die mechanische Pumpe schiebt Fluessigkeit durch Rohre.", "", "&6So gehts", "In ein Rohr einbauen und Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Ohne Pumpe fliesst nichts."]
-			id: "DA95FB5421D00C5B"
+			id: "78241309321CF90C"
 			title: "Pumpe"
-			rewards: [{ id: "D118FFCA6AB4CDE4", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
+			rewards: [{ id: "5588E12394985B88", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
 			tasks: [{ id: "37E511109F76875B", type: "item", item: { id: "create:mechanical_pump", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 20.0d
 		}
 		{
-			dependencies: ["DA95FB5421D00C5B"]
+			dependencies: ["78241309321CF90C"]
 			description: ["&6Was ist das?", "Fuellt Fluessigkeit in Items, z.B. Flaschen.", "", "&6So gehts", "Ueber ein Depot oder Band stellen.", "", "&6Wofuer ist das wichtig?", "Fuer Honigflaschen und Montage-Rezepte."]
-			id: "B2137641070DFD7B"
+			id: "3E80326171591E1E"
 			title: "Ausguss"
-			rewards: [{ id: "89BB4044B4F65C3C", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "3A896E9473497108", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7C3CAF1D69D38273", type: "item", item: { id: "create:spout", count: 1 }, count: 1L }]
 			x: 4.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["B2137641070DFD7B"]
+			dependencies: ["3E80326171591E1E"]
 			description: ["&6Was ist das?", "Der Abfluss leert Behaelter und holt Fluessigkeit zurueck.", "", "&6So gehts", "Items auf den Abfluss werfen.", "", "&6Wofuer ist das wichtig?", "Eimer und Flaschen automatisch leeren."]
 			id: "6B40BAAF41A4B5E7"
 			title: "Abfluss"
@@ -299,55 +299,55 @@
 		{
 			dependencies: ["57ECEE26D1794CC7"]
 			description: ["&6Was ist das?", "Create-Schienen sind die Basis des Zugsystems.", "", "&6So gehts", "Rechtsklick fuer Kurven und Rampen.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer dein Zugnetz."]
-			id: "919574F181E5CF6B"
+			id: "14C3FFBBFEC1223F"
 			title: "Schienen"
-			rewards: [{ id: "DE35699454287B8C", type: "item", item: { id: "minecraft:iron_nugget", count: 16 } }]
-			tasks: [{ id: "C6016B178BA46069", type: "item", item: { id: "create:track", count: 1 }, count: 8L }]
+			rewards: [{ id: "4AAA0DBD726A3CB6", type: "item", item: { id: "minecraft:iron_nugget", count: 16 } }]
+			tasks: [{ id: "1266679DAC1A3A01", type: "item", item: { id: "create:track", count: 1 }, count: 8L }]
 			x: 9.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["919574F181E5CF6B"]
+			dependencies: ["14C3FFBBFEC1223F"]
 			description: ["&6Was ist das?", "Der Bahnhof steuert Zuege. Stelle ihn neben die Schienen.", "", "&6So gehts", "Auf die Schiene stellen, Zug bauen, dann Montieren.", "", "&6Wofuer ist das wichtig?", "Ohne Bahnhof gibt es keinen Zug."]
-			id: "98C3FFC55D93424C"
+			id: "5A3D0C32B070EA01"
 			title: "Bahnhof"
 			rewards: [{ id: "297988D3DBC2880C", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
-			tasks: [{ id: "F728D0B69C555672", type: "item", item: { id: "create:track_station", count: 1 }, count: 1L }]
+			tasks: [{ id: "23DAFD1C80E09600", type: "item", item: { id: "create:track_station", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["98C3FFC55D93424C"]
+			dependencies: ["5A3D0C32B070EA01"]
 			description: ["&6Was ist das?", "Signale verhindern Zusammenstoesse auf einem Netz.", "", "&6So gehts", "An Schienen setzen.", "", "&6Wofuer ist das wichtig?", "Mehrere Zuege auf einem Netz."]
-			id: "C5A9B8FBCBFE1097"
+			id: "4500AB02F447CCE9"
 			title: "Zugsignal"
-			rewards: [{ id: "C05D4E369FB239E0", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "6DE8ED9C60677ED5", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "2E4FDEBD2CBA33EE", type: "item", item: { id: "create:track_signal", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["C5A9B8FBCBFE1097"]
+			dependencies: ["4500AB02F447CCE9"]
 			description: ["&6Was ist das?", "Zugtueren sind schoen und verriegeln deinen Zug.", "", "&6So gehts", "In die Zugwand einbauen.", "", "&6Wofuer ist das wichtig?", "Schoener und sicherer."]
 			id: "2AD2B15A530ABCC6"
 			title: "Zugtuer"
-			rewards: [{ id: "CE582384AD6E2998", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B9272744D96CD3FA", type: "item", item: { id: "create:train_door", count: 1 }, count: 1L }]
+			rewards: [{ id: "1B59333276C9D3E8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "36225B0E55912807", type: "item", item: { id: "create:train_door", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2AD2B15A530ABCC6"]
 			description: ["&6Was ist das?", "Mit Fahrplaenen sagst du Zuegen, wo sie hinfahren.", "", "&6So gehts", "Fahrplan schreiben und dem Zugfuehrer geben.", "", "&6Wofuer ist das wichtig?", "Automatische Transporte zwischen Basen."]
-			id: "C2974C018164FD44"
+			id: "15EEFE232CF048D6"
 			title: "Fahrplan"
 			rewards: [{ id: "005445D80EC41614", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "EBFA07B5C1FA7795", type: "item", item: { id: "create:schedule", count: 1 }, count: 1L }]
+			tasks: [{ id: "4F62E1D7B4A89E23", type: "item", item: { id: "create:schedule", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["C2974C018164FD44"]
+			dependencies: ["15EEFE232CF048D6"]
 			description: ["&6Was ist das?", "Sitze brauchst du fuer Zug und Konstruktionen.", "", "&6So gehts", "Auf den Zug setzen.", "", "&6Wofuer ist das wichtig?", "Ein Zugfuehrer braucht einen Sitz."]
 			id: "320A411AF04785F0"
 			title: "Sitze"
@@ -359,25 +359,25 @@
 		{
 			dependencies: ["3FCFC846B34538AC"]
 			description: ["&6Was ist das?", "Mit Schematic und Schematic-Kanone baust du ganze Gebaeude automatisch nach.", "", "&6So gehts", "Bauplan laden, Material bereitstellen.", "", "&6Wofuer ist das wichtig?", "Grosse Projekte automatisch bauen."]
-			id: "E91F72259C99B0A7"
+			id: "7C844C1C206CBA84"
 			title: "Montage-Kanone"
 			rewards: [{ id: "29018FFB954DA8AB", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "FBA9971B6F239B53", type: "item", item: { id: "create:schematicannon", count: 1 }, count: 1L }]
+			tasks: [{ id: "131579CB494797E6", type: "item", item: { id: "create:schematicannon", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["E91F72259C99B0A7"]
+			dependencies: ["7C844C1C206CBA84"]
 			description: ["&6Was ist das?", "Der Item-Tresor ist ein riesiger Behaelter fuer Items.", "", "&6So gehts", "Aufstellen und befuellen.", "", "&6Wofuer ist das wichtig?", "Fuer wertvolle Sachen."]
-			id: "FB69B21B1E738893"
+			id: "39C930AE15A46055"
 			title: "Tresor"
 			rewards: [{ id: "16E161DFBF03331E", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
-			tasks: [{ id: "D62822ACE2B421E1", type: "item", item: { id: "create:item_vault", count: 1 }, count: 1L }]
+			tasks: [{ id: "1CB2EC2CF690050C", type: "item", item: { id: "create:item_vault", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["FB69B21B1E738893"]
+			dependencies: ["39C930AE15A46055"]
 			description: ["&6Was ist das?", "Der Packer verpackt Items zu Paketen, die ueber Frogports verschickt werden.", "", "&6So gehts", "Neben eine Kiste stellen.", "", "&6Wofuer ist das wichtig?", "Fuer Logistik und Lieferungen."]
 			id: "2556C5D10B0777FE"
 			title: "Packer"
@@ -401,39 +401,39 @@
 			description: ["&6Was ist das?", "Display Link und Display Board zeigen Werte und Texte an.", "", "&6So gehts", "Anzeigetafel aufstellen und mit Quelle verbinden.", "", "&6Wofuer ist das wichtig?", "Fuellstaende und Zugzeiten anzeigen."]
 			id: "3675A3BAD48F1939"
 			title: "Anzeige"
-			rewards: [{ id: "8DB8A73382901249", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "B847CCDB98DB51D0", type: "item", item: { id: "create:display_link", count: 1 }, count: 1L }]
+			rewards: [{ id: "7F78C301435C54D9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3FC53988CACB97C3", type: "item", item: { id: "create:display_link", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["3675A3BAD48F1939"]
 			description: ["&6Was ist das?", "Redstone Link schickt Signale kabellos zwischen Bloecken.", "", "&6So gehts", "Zwei Verbindungen mit gleichen Items einstellen.", "", "&6Wofuer ist das wichtig?", "Maschinen aus der Ferne steuern."]
-			id: "F8DC0C4BF9E67561"
+			id: "10A70A96CF23B681"
 			title: "Redstone-Verbindung"
-			rewards: [{ id: "DAD206C351F93D96", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "EB75333AB17F0861", type: "item", item: { id: "create:redstone_link", count: 1 }, count: 2L }]
+			rewards: [{ id: "3AD202C7ACAE72D8", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4125D3B7CC969AA0", type: "item", item: { id: "create:redstone_link", count: 1 }, count: 2L }]
 			x: 13.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["F8DC0C4BF9E67561"]
+			dependencies: ["10A70A96CF23B681"]
 			description: ["&6Was ist das?", "Eine huebsche Uhr, die zur vollen Stunde einen Vogel zeigt.", "", "&6So gehts", "Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Schoene Deko und Zeitmesser."]
-			id: "DF4109421DFAD5BE"
+			id: "51B8EA34FF3BC40D"
 			title: "Kuckucksuhr"
-			rewards: [{ id: "C7265188F3F14A7E", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "69D5C18F3A4A195E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "33C9A7C490C9032F", type: "item", item: { id: "create:cuckoo_clock", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["DF4109421DFAD5BE"]
+			dependencies: ["51B8EA34FF3BC40D"]
 			description: ["&6Was ist das?", "Create Hypertubes: Roehren, durch die du mit hoher Geschwindigkeit reist.", "", "&6So gehts", "Baue die Roehren nach JEI und verbinde zwei Orte.", "Halte Schleichen, um unterwegs auszusteigen.", "Mit Weichen (Splitter) baust du Abzweigungen.", "", "&6Wofuer ist das wichtig?", "Ein Schnellnetz zwischen Basis, Farmen und Bahnhof. Spart viel Lauferei."]
 			icon: { id: "create:brass_casing" }
 			id: "239211072B615428"
 			title: "Hypertubes"
 			rewards: [{ id: "651AA4FF3759A8C1", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "9FFBD3F65CBAE765", type: "checkmark" }]
+			tasks: [{ id: "1D9AABEED4A7FFAC", type: "checkmark" }]
 			x: 16.5d
 			y: 6.0d
 		}
@@ -441,18 +441,18 @@
 			dependencies: ["239211072B615428"]
 			description: ["&6Was ist das?", "Der Eingang in ein Hypertube-Netz.", "", "&6So gehts", "An das Ende einer Roehre setzen und Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Einsteigen und losfliegen."]
 			icon: { id: "create_hypertube:hypertube_entrance" }
-			id: "E72152964AA3D9D9"
+			id: "2E40D819D4B781CB"
 			title: "Hypertube-Eingang"
-			rewards: [{ id: "BCC54C0CAA0F42D4", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "88DD6BD3A8E91F27", type: "item", item: { id: "create_hypertube:hypertube_entrance", count: 1 }, count: 1L }]
+			rewards: [{ id: "64ED2E3D780688A1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "734E048D77689F44", type: "item", item: { id: "create_hypertube:hypertube_entrance", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["E72152964AA3D9D9"]
+			dependencies: ["2E40D819D4B781CB"]
 			description: ["&6Was ist das?", "Beschleunigt dich in der Roehre.", "", "&6So gehts", "In die Roehre einbauen, braucht Drehkraft.", "", "&6Wofuer ist das wichtig?", "Lange Strecken in Sekunden."]
 			icon: { id: "create_hypertube:hypertube_accelerator" }
-			id: "E033C40CFDE432DC"
+			id: "0DAF1152D384C03B"
 			title: "Hypertube-Beschleuniger"
 			rewards: [{ id: "2DEFD39B803BBEE8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6E98859BDC0DC577", type: "item", item: { id: "create_hypertube:hypertube_accelerator", count: 1 }, count: 1L }]
@@ -463,29 +463,29 @@
 			dependencies: ["0A88D145FA3D25C0"]
 			description: ["&6Was ist das?", "ComputerCraft: Computer, die du in Lua programmierst.", "", "&6So gehts", "Rezept in JEI. Rechtsklick oeffnet die Konsole, help zeigt Befehle.", "", "&6Wofuer ist das wichtig?", "Automatisiere alles, was du dir ausdenken kannst."]
 			icon: { id: "computercraft:computer_normal" }
-			id: "A7C63990A3D66CA8"
+			id: "620D9031497FC76D"
 			title: "Computer"
 			rewards: [{ id: "38D74D734D071D0E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B92259E52087B2F4", type: "item", item: { id: "computercraft:computer_normal", count: 1 }, count: 1L }]
+			tasks: [{ id: "39A4253396CA0CA0", type: "item", item: { id: "computercraft:computer_normal", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["A7C63990A3D66CA8"]
+			dependencies: ["620D9031497FC76D"]
 			description: ["&6Was ist das?", "Monitore zeigen Text und Bilder an.", "", "&6So gehts", "Mehrere nebeneinander ergeben einen grossen Bildschirm.", "", "&6Wofuer ist das wichtig?", "Anzeigen fuer Lager, Strom und Zuege."]
 			icon: { id: "computercraft:monitor_normal" }
-			id: "EC351FB975283521"
+			id: "05A8489AEF890E02"
 			title: "Monitor"
 			rewards: [{ id: "0F82174E1ED89645", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D8133428E8DCA205", type: "item", item: { id: "computercraft:monitor_normal", count: 1 }, count: 4L }]
+			tasks: [{ id: "37490ED5ACB9EE5A", type: "item", item: { id: "computercraft:monitor_normal", count: 1 }, count: 4L }]
 			x: 4.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["EC351FB975283521"]
+			dependencies: ["05A8489AEF890E02"]
 			description: ["&6Was ist das?", "Computer reden per Funk miteinander.", "", "&6So gehts", "An einen Computer setzen.", "", "&6Wofuer ist das wichtig?", "Fernsteuerung ueber grosse Entfernungen."]
 			icon: { id: "computercraft:wireless_modem_normal" }
-			id: "DD86D76462997962"
+			id: "4E709F8893E85B36"
 			title: "Funkmodem"
 			rewards: [{ id: "4AAEF102C3FEAB7C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "47C08D44EACCE8E6", type: "item", item: { id: "computercraft:wireless_modem_normal", count: 1 }, count: 1L }]
@@ -493,12 +493,12 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["DD86D76462997962"]
+			dependencies: ["4E709F8893E85B36"]
 			description: ["&6Was ist das?", "Turtles sind kleine Roboter, die graben, bauen und farmen.", "", "&6So gehts", "Turtle mit Werkzeug ausruesten und ein Programm starten, zum Beispiel excavate.", "", "&6Wofuer ist das wichtig?", "Ein Roboter, der fuer dich Bergbau macht."]
 			icon: { id: "computercraft:turtle_normal" }
 			id: "3666F7BBB2FE71D4"
 			title: "Turtle"
-			rewards: [{ id: "DA724DD633157AE7", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "08DB4BBA8E4C3D79", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "09931C0E649B0B92", type: "item", item: { id: "computercraft:turtle_normal", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 18.0d
@@ -518,10 +518,10 @@
 			dependencies: ["0B9834B66EEE622D"]
 			description: ["&6Was ist das?", "Verbindet ComputerCraft mit Create-Redstone-Links.", "", "&6So gehts", "Neben einen Computer setzen, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Computer steuern Create-Maschinen kabellos."]
 			icon: { id: "ccredstonelinkbridge:redstone_link_bridge" }
-			id: "FF4CFC252DAB77D5"
+			id: "702277E7FD565925"
 			title: "Redstone-Link-Bruecke"
-			rewards: [{ id: "E3A60D018BCB6A32", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "866F4129EA9E2693", type: "item", item: { id: "ccredstonelinkbridge:redstone_link_bridge", count: 1 }, count: 1L }]
+			rewards: [{ id: "58ECA418BCE18CC1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "77B1CE46588BCEFE", type: "item", item: { id: "ccredstonelinkbridge:redstone_link_bridge", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 18.0d
 		}
@@ -530,7 +530,7 @@
 			description: ["&6Was ist das?", "Create Crafts and Additions bringt Strom: Motoren, Kabel, Akkus und Tesla-Spulen.", "Strom und Drehkraft lassen sich ineinander umwandeln.", "", "&6So gehts", "Folge den Quests: Kupferdraht, Motor, Alternator.", "", "&6Wofuer ist das wichtig?", "Strom ist einfacher zu verlegen als Wellen."]
 			id: "549BFDFEBF019D58"
 			title: "Create Additions"
-			rewards: [{ id: "FFDBA311B4A67B0F", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5E62DEA8DC356A66", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "70BDCD75D89F9331", type: "checkmark" }]
 			x: 4.5d
 			y: 16.0d
@@ -538,27 +538,27 @@
 		{
 			dependencies: ["549BFDFEBF019D58"]
 			description: ["&6Was ist das?", "Elektrum ist der Werkstoff fuer Kabel und Elektronik.", "", "&6So gehts", "Im Mixer herstellen.", "", "&6Wofuer ist das wichtig?", "Fuer Teslaspule und Elektronik."]
-			id: "F1F7C05394659FEE"
+			id: "6875E8F30DFC6C4B"
 			title: "Elektrum"
 			rewards: [{ id: "0E24DC44EA1720D2", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9E2F853E0D9C88EB", type: "item", item: { id: "createaddition:electrum_ingot", count: 1 }, count: 4L }]
+			tasks: [{ id: "4D60C4C605B87C1B", type: "item", item: { id: "createaddition:electrum_ingot", count: 1 }, count: 4L }]
 			x: 6.0d
 			y: 16.0d
 		}
 		{
-			dependencies: ["F1F7C05394659FEE"]
+			dependencies: ["6875E8F30DFC6C4B"]
 			description: ["&6Was ist das?", "Kupferdraht bringt Strom in Kabeln.", "", "&6So gehts", "Kupferbleche im Walzwerk.", "", "&6Wofuer ist das wichtig?", "Verbindet Strom-Maschinen."]
 			id: "089197E1061FB1C5"
 			title: "Kupferdraht"
 			rewards: [{ id: "5E698B2C9D1D3BC0", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
-			tasks: [{ id: "896B1399BEAC9582", type: "item", item: { id: "createaddition:copper_wire", count: 1 }, count: 8L }]
+			tasks: [{ id: "6CFD8698EEF44BB7", type: "item", item: { id: "createaddition:copper_wire", count: 1 }, count: 8L }]
 			x: 7.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["089197E1061FB1C5"]
 			description: ["&6Was ist das?", "Der Elektromotor wandelt Strom in Drehkraft um.", "", "&6So gehts", "Motor aufstellen und Strom anschliessen.", "", "&6Wofuer ist das wichtig?", "Kraft ohne Wasser oder Wind."]
-			id: "82B68594E52A695B"
+			id: "30C712FDB84B48D0"
 			title: "Elektromotor"
 			rewards: [{ id: "1F23A39C7A132B60", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "074F13AC488E27A9", type: "item", item: { id: "createaddition:electric_motor", count: 1 }, count: 1L }]
@@ -566,7 +566,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["82B68594E52A695B"]
+			dependencies: ["30C712FDB84B48D0"]
 			description: ["&6Was ist das?", "Der Alternator wandelt Drehkraft in Strom um.", "", "&6So gehts", "Mit Welle antreiben.", "", "&6Wofuer ist das wichtig?", "Strom aus deinen Wasserraedern."]
 			id: "010033F83D76F587"
 			title: "Alternator"
@@ -578,27 +578,27 @@
 		{
 			dependencies: ["010033F83D76F587"]
 			description: ["&6Was ist das?", "Der Kondensator speichert Strom.", "", "&6So gehts", "Mit Verbindern anschliessen.", "", "&6Wofuer ist das wichtig?", "Speichert Strom fuer Spitzen."]
-			id: "81C6486BF53343B7"
+			id: "5D32AD4573ACEC77"
 			title: "Kondensator"
-			rewards: [{ id: "FE0AF268404918FD", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "4DA1802439EBA1F1", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "28D7A887E0F0E993", type: "item", item: { id: "createaddition:capacitor", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 16.0d
 		}
 		{
-			dependencies: ["81C6486BF53343B7"]
+			dependencies: ["5D32AD4573ACEC77"]
 			description: ["&6Was ist das?", "Mit dem Verbinder spannst du Stromkabel von Block zu Block.", "", "&6So gehts", "Verbinder setzen und Kabel ziehen.", "", "&6Wofuer ist das wichtig?", "Lange Stromleitungen."]
 			id: "06F91B15222AE358"
 			title: "Verbinder"
-			rewards: [{ id: "E4836F90142A4E66", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "FBDA637AF45894D5", type: "item", item: { id: "createaddition:connector", count: 1 }, count: 4L }]
+			rewards: [{ id: "112B88902D49BE7C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4A85240543A8B21F", type: "item", item: { id: "createaddition:connector", count: 1 }, count: 4L }]
 			x: 13.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["06F91B15222AE358"]
 			description: ["&6Was ist das?", "Das Walzwerk presst Draehte aus Barren schneller.", "", "&6So gehts", "Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Draht und Stangen fuer Strom-Rezepte."]
-			id: "CA25CE67B50EFB3F"
+			id: "3E4801E7CF60E04B"
 			title: "Walzwerk"
 			rewards: [{ id: "3EBC0C6F2D820D61", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "0213BECC75BADDFF", type: "item", item: { id: "createaddition:rolling_mill", count: 1 }, count: 1L }]
@@ -606,12 +606,12 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["CA25CE67B50EFB3F"]
+			dependencies: ["3E4801E7CF60E04B"]
 			description: ["&6Was ist das?", "Der modulare Akku speichert noch mehr Strom.", "", "&6So gehts", "Mit Verbindern anschliessen.", "", "&6Wofuer ist das wichtig?", "Strom fuer die Nacht."]
 			id: "2F586E6CF7425BCB"
 			title: "Akku"
 			rewards: [{ id: "53653A54C20E6AC9", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "EE873A9F8BB04F34", type: "item", item: { id: "createaddition:modular_accumulator", count: 1 }, count: 1L }]
+			tasks: [{ id: "24257012840F76C9", type: "item", item: { id: "createaddition:modular_accumulator", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 16.0d
 		}
@@ -620,25 +620,25 @@
 			description: ["&6Was ist das?", "Die Teslaspule schiesst Blitze und ladet Items.", "", "&6So gehts", "Ueber ein Depot stellen.", "", "&6Wofuer ist das wichtig?", "Laedt Werkzeuge und Batterien."]
 			id: "0A6A15B1F7ECA356"
 			title: "Teslaspule"
-			rewards: [{ id: "94CC70D494B09B9D", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "F9BE58C95B4405A2", type: "item", item: { id: "createaddition:tesla_coil", count: 1 }, count: 1L }]
+			rewards: [{ id: "46C847178E9E341D", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "647244AA3517C33E", type: "item", item: { id: "createaddition:tesla_coil", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["0A6A15B1F7ECA356"]
 			description: ["&6Was ist das?", "Die portable Stromschnittstelle laedt Geraete und Waffen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Strom zu anderen Mods weiterleiten."]
-			id: "E38EDC2E4554A42F"
+			id: "4B17F8A206B3E575"
 			title: "Stromschnittstelle"
 			rewards: [{ id: "7E41DF2EC741DBFA", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "F21A34ED6D075036", type: "item", item: { id: "createaddition:portable_energy_interface", count: 1 }, count: 1L }]
+			tasks: [{ id: "6A563040900A3B20", type: "item", item: { id: "createaddition:portable_energy_interface", count: 1 }, count: 1L }]
 			x: 19.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["E38EDC2E4554A42F"]
+			dependencies: ["4B17F8A206B3E575"]
 			description: ["&6Was ist das?", "Aus Biomasse stellst du Brennstoff-Pellets fuer Blazebrenner her.", "", "&6So gehts", "Pflanzen in einen Mixer.", "", "&6Wofuer ist das wichtig?", "Erneuerbarer Brennstoff fuer Blazebrenner."]
-			id: "85E549EC448E0A1C"
+			id: "4224F2929FD382C0"
 			title: "Biomasse"
 			rewards: [{ id: "049A67F0F2EC0D0A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "264E40E46F6906E8", type: "item", item: { id: "createaddition:biomass_pellet", count: 1 }, count: 8L }]
@@ -660,18 +660,18 @@
 			description: ["&6Was ist das?", "Das Create Jetpack gibt dir Flug mit Druckluft aus dem Tank auf dem Ruecken.", "", "&6So gehts", "Mit dem Druckluft-Tank von Create fuellen.", "", "&6Wofuer ist das wichtig?", "Fliegen schon vor der Elytra."]
 			id: "5E3550244BA833DA"
 			title: "Create Jetpack"
-			rewards: [{ id: "C7F77BEAEA926BDC", type: "item", item: { id: "minecraft:firework_rocket", count: 8 } }]
-			tasks: [{ id: "F4736FDD0D1C509D", type: "item", item: { id: "create_jetpack:jetpack", count: 1 }, count: 1L }]
+			rewards: [{ id: "3AC03185D1E7AB32", type: "item", item: { id: "minecraft:firework_rocket", count: 8 } }]
+			tasks: [{ id: "198A3B3AAF5CFD33", type: "item", item: { id: "create_jetpack:jetpack", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["C6C248A8F18682B3"]
+			dependencies: ["1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Das Messing-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Messing, Create-Kueche, Feinsteuerung, Montage, Maschinen, Fluessigkeiten, Zuege, Logistik, Hypertube-Netz, Computer, Strom, Extras.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
 			icon: { id: "create:brass_ingot" }
 			id: "79C5111ED6A1E634"
 			title: "Beginn: Messing-Zeitalter"
-			rewards: [{ id: "FCCDDF0751ED832A", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "41B0D33798F023CD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0B54225CD8914B0A", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
@@ -682,30 +682,30 @@
 			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "493D1FBB6ACC33DE"
 			title: "Zeitalter: Magie-Zeitalter"
-			rewards: [{ id: "AC7629A528EB3511", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "EBB59C3822221381", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "DD916B70BEE83504", type: "checkmark" }]
+			rewards: [{ id: "67518A3284CE2E44", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "43A994423B86CDCB", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "430C001ECFAAA6E2", type: "checkmark" }]
 			x: 13.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CC9CC01AB8E5180C"]
+			dependencies: ["22114057A1106DB9"]
 			description: ["&6Was ist das?", "Teile: Helm, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "create:copper_diving_helmet" }
-			id: "F32FEB392EDA1A53"
+			id: "6A5C3D81E42B8620"
 			title: "Copper Diving (Ruestung)"
 			rewards: []
-			tasks: [{ id: "F0611D0C9FC2E2F0", type: "checkmark" }]
+			tasks: [{ id: "242161B7DC317E70", type: "checkmark" }]
 			x: 10.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["F32FEB392EDA1A53"]
+			dependencies: ["6A5C3D81E42B8620"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "immersive_armors:steampunk_chestplate" }
 			id: "2E91729FFF7D076E"
 			title: "Steampunk (Ruestung)"
 			rewards: []
-			tasks: [{ id: "86753BC86356A3B8", type: "checkmark" }]
+			tasks: [{ id: "26BD3419094064F8", type: "checkmark" }]
 			x: 12.0d
 			y: 2.0d
 		}

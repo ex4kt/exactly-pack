@@ -11,19 +11,19 @@
 		{
 			dependencies: ["2600278FFBA40B51"]
 			description: ["&6Was ist das?", "Stelle Enderperlen und Blazepulver zu Enderaugen zusammen. Damit findest du die Festung.", "", "&6So gehts", "Enderperle und Blazepulver ergeben ein Enderauge.", "Wirf eines in die Luft, es fliegt in Richtung Festung. Folge ihm, bis es nach unten zeigt.", "", "&6Wofuer ist das wichtig?", "Ohne zwoelf Enderaugen kein Ende. Enderperlen bekommst du von Endermen oder Piglins."]
-			id: "A490AEA8029456A1"
+			id: "5E7EC2AF62FB134D"
 			title: "Augen des Enders"
-			rewards: [{ id: "BC81269AEF0D09F5", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
-			tasks: [{ id: "9A38232CE6DAD25D", type: "item", item: { id: "minecraft:ender_eye", count: 1 }, count: 12L }]
+			rewards: [{ id: "1F28EAB434A05769", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
+			tasks: [{ id: "2706F89C06B7CACF", type: "item", item: { id: "minecraft:ender_eye", count: 1 }, count: 12L }]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A490AEA8029456A1"]
+			dependencies: ["5E7EC2AF62FB134D"]
 			description: ["&6Was ist das?", "Aktiviere das Portal in der Festung mit zwoelf Enderaugen.", "", "&6So gehts", "In der Festung das Portal mit den Augen fuellen und hineinspringen.", "Nimm Bloecke, Bogen, Wasser und Kuerbis mit.", "", "&6Wofuer ist das wichtig?", "Nach dem Drachen oeffnen sich die aeusseren Inseln mit Endstaedten und Elytren."]
 			id: "028ADF99FBF6807C"
 			title: "Das Ende"
-			rewards: [{ id: "F92B2EE209A325B5", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
+			rewards: [{ id: "52CF935ACF9E29CC", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
 			tasks: [{ id: "3CF0889F596216CE", type: "dimension", dimension: "minecraft:the_end", icon: { id: "minecraft:end_stone" } }]
 			x: 3.0d
 			y: 0.0d
@@ -33,8 +33,8 @@
 			description: ["&6Was ist das?", "Endstein ist der Boden dieser Dimension. Er brennt nicht und hat viele Verwendungen.", "", "&6So gehts", "Abbauen.", "", "&6Wofuer ist das wichtig?", "Endsteinziegel, Endstaebe und Ende-Herd."]
 			id: "15E61654C80FD4A8"
 			title: "Endstein"
-			rewards: [{ id: "B4FC5B87372B844D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CBBFB0966317B828", type: "item", item: { id: "minecraft:end_stone", count: 1 }, count: 16L }]
+			rewards: [{ id: "0C0571FF622F3E8F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "70F682F887A87123", type: "item", item: { id: "minecraft:end_stone", count: 1 }, count: 16L }]
 			x: 4.5d
 			y: 0.0d
 		}
@@ -51,7 +51,7 @@
 		{
 			dependencies: ["094E3A3AB01FE3FF"]
 			description: ["&6Was ist das?", "Das Drachenei ist ein Souvenir. Es entsteht nach dem ersten Kampf.", "", "&6So gehts", "Mit Kolben vom Portal schieben.", "", "&6Wofuer ist das wichtig?", "Ein Andenken an deinen Sieg."]
-			id: "AC2F83FAC4E5F9BB"
+			id: "6B5EC4CFDAFB5173"
 			title: "Drachenei"
 			rewards: [{ id: "03E3E9461075295C", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "028BF7FA915BE14F", type: "item", item: { id: "minecraft:dragon_egg", count: 1 }, count: 1L }]
@@ -64,7 +64,7 @@
 			icon: { id: "minecraft:end_stone_bricks" }
 			id: "076FC99714B15558"
 			title: "Endsteinziegel"
-			rewards: [{ id: "E5FCDFF392D3F251", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "11DB2324C083DBCD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1805CCA9B87EB76A", type: "item", item: { id: "minecraft:end_stone_bricks", count: 1 }, count: 32L }]
 			x: 4.5d
 			y: 8.0d
@@ -73,21 +73,21 @@
 			dependencies: ["076FC99714B15558"]
 			description: ["&6Was ist das?", "Eine Kiste, die ueberall denselben Inhalt hat.", "", "&6So gehts", "Obsidian und ein Enderauge.", "", "&6Wofuer ist das wichtig?", "Sicherer Speicher fuer unterwegs."]
 			icon: { id: "minecraft:ender_chest" }
-			id: "90501AFC991EBEA1"
+			id: "640BA76DC1967B64"
 			title: "Enderkiste"
-			rewards: [{ id: "9A9828E0A893C578", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B738B96267ABB253", type: "item", item: { id: "minecraft:ender_chest", count: 1 }, count: 1L }]
+			rewards: [{ id: "2F8B38FDAE9CF994", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "03FF0CB484C1D139", type: "item", item: { id: "minecraft:ender_chest", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["90501AFC991EBEA1"]
+			dependencies: ["640BA76DC1967B64"]
 			description: ["&6Was ist das?", "Die Bluete der Chorus-Pflanze.", "", "&6So gehts", "Mit Behutsamkeit oder von der Spitze abbauen. Auf Endstein pflanzen.", "", "&6Wofuer ist das wichtig?", "Eine eigene Chorus-Farm."]
 			icon: { id: "minecraft:chorus_flower" }
 			id: "45F7DF303BD48E57"
 			title: "Chorusblume"
 			rewards: [{ id: "2F475BA29DC9F6A9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F2A2107C0FC91F53", type: "item", item: { id: "minecraft:chorus_flower", count: 1 }, count: 4L }]
+			tasks: [{ id: "0AE6D2B3EB655785", type: "item", item: { id: "minecraft:chorus_flower", count: 1 }, count: 4L }]
 			x: 7.5d
 			y: 8.0d
 		}
@@ -95,49 +95,49 @@
 			dependencies: ["45F7DF303BD48E57"]
 			description: ["&6Was ist das?", "Apothic Enchanting: Regale aus End-Material.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Die staerksten Verzauberungen."]
 			icon: { id: "apothic_enchanting:endshelf" }
-			id: "E6BF4A9579627AB2"
+			id: "7CD89AF46ECCCCC0"
 			title: "Endregal"
-			rewards: [{ id: "8481283B8116A140", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3B8FCC2217B3D916", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "518FF68121A8584A", type: "item", item: { id: "apothic_enchanting:endshelf", count: 1 }, count: 4L }]
 			x: 9.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AC2F83FAC4E5F9BB"]
+			dependencies: ["6B5EC4CFDAFB5173"]
 			description: ["&6Was ist das?", "Endstaedte sind riesige Bauten mit Beute und Shulkern.", "", "&6So gehts", "Ueber das Portal hinter der Hauptinsel erreichst du die aeusseren Inseln.", "", "&6Wofuer ist das wichtig?", "Shulkerschalen und Elytren."]
-			id: "99CF6DB9C4D6DB4A"
+			id: "295A76E48CBFA8D5"
 			title: "Endstadt"
-			rewards: [{ id: "E5BE93614D376B0A", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "E4DFABD8504A144D", type: "kill", entity: "minecraft:shulker", value: 3L, icon: { id: "minecraft:shulker_shell" } }]
+			rewards: [{ id: "1695CC2291054EB9", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7ACFF6B573D34D5B", type: "kill", entity: "minecraft:shulker", value: 3L, icon: { id: "minecraft:shulker_shell" } }]
 			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["99CF6DB9C4D6DB4A"]
+			dependencies: ["295A76E48CBFA8D5"]
 			description: ["&6Was ist das?", "Aus Shulkerschalen baust du Shulkerkisten.", "", "&6So gehts", "Shulker in Endstaedten besiegen.", "", "&6Wofuer ist das wichtig?", "Shulker-Kisten."]
 			id: "4A052AD9B9039188"
 			title: "Shulkerschalen"
-			rewards: [{ id: "FE682F8BECBC8629", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
-			tasks: [{ id: "C85F8924C2C74CFE", type: "item", item: { id: "minecraft:shulker_shell", count: 1 }, count: 2L }]
+			rewards: [{ id: "339AE3A617CADC3D", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
+			tasks: [{ id: "43EB246DD1EAABFA", type: "item", item: { id: "minecraft:shulker_shell", count: 1 }, count: 2L }]
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4A052AD9B9039188"]
 			description: ["&6Was ist das?", "Eine Shulkerkiste behaelt ihren Inhalt, wenn du sie abbaust. Der perfekte Koffer.", "", "&6So gehts", "Zwei Shulkerschalen aus Endstaedten und eine Kiste.", "", "&6Wofuer ist das wichtig?", "Ideal zum Umziehen und als Vorrat auf Reisen. Lass dich nicht im Ende von Shulkern fallen."]
-			id: "FAAE1511A220D38C"
+			id: "5E60A7D94A2326A3"
 			title: "Shulker-Kiste"
-			rewards: [{ id: "DDDBD26B020AF2EA", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
+			rewards: [{ id: "440575B4A25A1C81", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "6F26C88B2A1F7784", type: "item", item: { id: "minecraft:shulker_box", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FAAE1511A220D38C"]
+			dependencies: ["5E60A7D94A2326A3"]
 			description: ["&6Was ist das?", "Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende.", "", "&6So gehts", "In Endschiffen in Endstaedten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofuer ist das wichtig?", "Das beste Reisemittel im Spiel."]
 			id: "5BDDA6FEC33CD7FB"
 			title: "Elytra"
-			rewards: [{ id: "E8B80EF75873E692", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
+			rewards: [{ id: "3BE9DEE41EF1B973", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
 			tasks: [{ id: "6E6993634A3CF6DA", type: "item", item: { id: "minecraft:elytra", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 0.0d
@@ -145,7 +145,7 @@
 		{
 			dependencies: ["5BDDA6FEC33CD7FB"]
 			description: ["&6Was ist das?", "Better End Cities macht die Endstaedte groesser, mit mehr Beute.", "", "&6So gehts", "Erkunden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute und mehr Shulker."]
-			id: "B562059F9EA08CC8"
+			id: "7DB4E4B2AC7C8E3C"
 			title: "Bessere Endstaedte"
 			rewards: [{ id: "6F8EB8225A37402E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "752792020D4A926D", type: "checkmark" }]
@@ -158,7 +158,7 @@
 			icon: { id: "minecraft:firework_rocket" }
 			id: "04EE3BD9BC1E1442"
 			title: "Feuerwerk"
-			rewards: [{ id: "D900EEB477833ED9", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4CFA9E77E14D06A9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "35E9C39ED2BD2529", type: "item", item: { id: "minecraft:firework_rocket", count: 1 }, count: 32L }]
 			x: 13.5d
 			y: 2.0d
@@ -169,7 +169,7 @@
 			icon: { id: "minecraft:dragon_head" }
 			id: "2757C6BF2E4CBF60"
 			title: "Drachenkopf"
-			rewards: [{ id: "B2B569A49A15A5AF", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "41349A9C64C87652", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "536B1B6E5592FCF3", type: "item", item: { id: "minecraft:dragon_head", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 2.0d
@@ -179,23 +179,23 @@
 			description: ["&6Was ist das?", "Endermen teleportieren und werden wuetend, wenn du sie ansiehst.", "", "&6So gehts", "Kaempfe unter einem 2 Bloecke hohen Dach oder im Wasser.", "", "&6Wofuer ist das wichtig?", "Enderperlen fuer Enderaugen und Teleport."]
 			id: "6BC9918F7D743AE5"
 			title: "Endermann"
-			rewards: [{ id: "F10175D45226565C", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D1B8EBBA4F8A251A", type: "kill", entity: "minecraft:enderman", value: 10L, icon: { id: "minecraft:ender_pearl" } }]
+			rewards: [{ id: "709F7E72B4FE0FE7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "47C31AE4A985EDA8", type: "kill", entity: "minecraft:enderman", value: 10L, icon: { id: "minecraft:ender_pearl" } }]
 			x: 3.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["6BC9918F7D743AE5"]
 			description: ["&6Was ist das?", "Chorusfrucht teleportiert dich beim Essen. Sie waechst auf den Ende-Inseln.", "", "&6So gehts", "Von Chorus-Pflanzen ernten.", "", "&6Wofuer ist das wichtig?", "Gebraten wird sie zu Purpur."]
-			id: "A7E074BA8EB461DB"
+			id: "42042464E70872A8"
 			title: "Chorusfrucht"
 			rewards: [{ id: "0AB1797033B4DDD1", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 8 } }]
-			tasks: [{ id: "ABE6A2FE8AA4359D", type: "item", item: { id: "minecraft:chorus_fruit", count: 1 }, count: 8L }]
+			tasks: [{ id: "6A4D2A8B6A921978", type: "item", item: { id: "minecraft:chorus_fruit", count: 1 }, count: 8L }]
 			x: 4.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["A7E074BA8EB461DB"]
+			dependencies: ["42042464E70872A8"]
 			description: ["&6Was ist das?", "Purpurbloecke aus Chorusfrucht sind Baumaterial der Endstaedte.", "", "&6So gehts", "Gebratene Chorusfrucht.", "", "&6Wofuer ist das wichtig?", "Schoene Bauten."]
 			id: "51758B90F50FF7C7"
 			title: "Purpur"
@@ -217,15 +217,15 @@
 		{
 			dependencies: ["0F131582010B5385"]
 			description: ["&6Was ist das?", "Mit Enderkristallen kannst du den Drachen erneut beschwoeren.", "", "&6So gehts", "Glas, Ghast-Traene und Enderauge.", "", "&6Wofuer ist das wichtig?", "Den Drachen neu beschwoeren."]
-			id: "FBE138DEED114BB0"
+			id: "45A55CC567172AB3"
 			title: "Enderkristall"
-			rewards: [{ id: "808FD55E2FD3506E", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "5CAC48F63703BB75", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "4DE58022A90CF04D", type: "item", item: { id: "minecraft:end_crystal", count: 1 }, count: 4L }]
 			x: 9.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["FBE138DEED114BB0"]
+			dependencies: ["45A55CC567172AB3"]
 			description: ["&6Was ist das?", "Drachenatem sammelst du mit einer Glasflasche. Daraus entstehen Verweiltraenke.", "", "&6So gehts", "Mit Glasflasche in der Wolke sammeln.", "", "&6Wofuer ist das wichtig?", "Verweiltraenke."]
 			id: "244709AF9446ADAB"
 			title: "Drachenatem"
@@ -237,19 +237,19 @@
 		{
 			dependencies: ["244709AF9446ADAB"]
 			description: ["&6Was ist das?", "YUNGs Better End Island verbessert die Hauptinsel und den Drachenkampf.", "", "&6So gehts", "Einfach ins Ende reisen.", "", "&6Wofuer ist das wichtig?", "Spannenderer Endkampf."]
-			id: "CAF38A47225346E5"
+			id: "70658F68A7FDD141"
 			title: "Bessere Endinsel"
 			rewards: [{ id: "39A64789F2D04BA6", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9E42A216A64F391A", type: "checkmark" }]
+			tasks: [{ id: "2B760E558AB7AE6E", type: "checkmark" }]
 			x: 12.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["A7E074BA8EB461DB"]
+			dependencies: ["42042464E70872A8"]
 			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende. Sieh im Kapitel Kochen nach.", "", "&6So gehts", "Siehe Kochen.", "", "&6Wofuer ist das wichtig?", "Starke Mahlzeiten."]
 			id: "6F81E1560F8E3640"
 			title: "Enders Delight"
-			rewards: [{ id: "D4D6972040EB9471", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "65FB4C779C8B22B2", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4F79AC348CFF95CC", type: "checkmark" }]
 			x: 4.5d
 			y: 12.0d
@@ -259,7 +259,7 @@
 			description: ["&6Was ist das?", "Enders Delight bringt Gerichte aus dem Ende.", "Du brauchst Chorusfrucht, Shulker und Endermiten.", "", "&6So gehts", "Zutaten im Ende sammeln.", "", "&6Wofuer ist das wichtig?", "Sehr starke Mahlzeiten fuer das Endspiel."]
 			id: "2659B7880C5D46B2"
 			title: "Gerichte aus dem Ende"
-			rewards: [{ id: "FFB1110977A5A940", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4C54A5F625C4C38E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7ADD8A616E64E91E", type: "checkmark" }]
 			x: 6.0d
 			y: 12.0d
@@ -269,47 +269,47 @@
 			description: ["&6Was ist das?", "Der Endstein-Herd brennt mit Endhitze.", "", "&6So gehts", "Herstellen und entzuenden.", "", "&6Wofuer ist das wichtig?", "Fuer End-Rezepte."]
 			id: "6FFA59CB4929154B"
 			title: "Ende-Herd"
-			rewards: [{ id: "D7724C55A461006D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D261C462B4EA4701", type: "item", item: { id: "endersdelight:endstone_stove", count: 1 }, count: 1L }]
+			rewards: [{ id: "7289FC4AFD9B0094", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "212719283057E794", type: "item", item: { id: "endersdelight:endstone_stove", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["6FFA59CB4929154B"]
 			description: ["&6Was ist das?", "Ein Kuchen aus Chorusfrucht. Teleportiert dich beim Essen nicht, macht aber satt.", "", "&6So gehts", "Im Topf oder in der Werkbank herstellen.", "", "&6Wofuer ist das wichtig?", "Gute Saettigung im Ende."]
-			id: "E41E149F7002C82A"
+			id: "27EE939B81A98F06"
 			title: "Chorus-Kuchen"
 			rewards: [{ id: "788222B0D067E42B", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "967C302A985C254F", type: "item", item: { id: "endersdelight:chorus_pie", count: 1 }, count: 1L }]
+			tasks: [{ id: "1FD967712A52CD00", type: "item", item: { id: "endersdelight:chorus_pie", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["E41E149F7002C82A"]
+			dependencies: ["27EE939B81A98F06"]
 			description: ["&6Was ist das?", "Ein Eintopf aus Endermiten.", "", "&6So gehts", "Endermiten besiegen und kochen.", "", "&6Wofuer ist das wichtig?", "Ungewoehnlich, aber stark."]
 			id: "467369B89A524F6B"
 			title: "Endermiten-Eintopf"
-			rewards: [{ id: "F6A773B6A7E3AAC4", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "D11E04EC4C8C7835", type: "item", item: { id: "endersdelight:endermite_stew", count: 1 }, count: 1L }]
+			rewards: [{ id: "0D0C0FC17870452C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "214251FBAB8D4A5D", type: "item", item: { id: "endersdelight:endermite_stew", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["467369B89A524F6B"]
 			description: ["&6Was ist das?", "Gefuellte Shulker sind ein Festmahl.", "", "&6So gehts", "Shulker in Endstaedten besiegen, Fleisch zubereiten.", "", "&6Wofuer ist das wichtig?", "Eines der besten Gerichte im Spiel."]
-			id: "89EF5C1260349AEC"
+			id: "704A2ED0C76A836F"
 			title: "Shulker-Filet"
-			rewards: [{ id: "C187AA395A395A2A", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "2BF4A28BB55586D8", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "59E146F2ABE5AF94", type: "item", item: { id: "endersdelight:shulker_filet", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["89EF5C1260349AEC"]
+			dependencies: ["704A2ED0C76A836F"]
 			description: ["&6Was ist das?", "Nudeln mit Enderperle.", "", "&6So gehts", "Im Kochtopf herstellen.", "", "&6Wofuer ist das wichtig?", "Starkes End-Gericht."]
 			id: "784BD0458846F6A8"
 			title: "Perlen-Nudeln"
-			rewards: [{ id: "DA6824AB64B936DF", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "2EA1CCDDF0ED6719", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "036D921877DC56CB", type: "item", item: { id: "endersdelight:pearl_pasta", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 12.0d
@@ -321,18 +321,18 @@
 			id: "2600278FFBA40B51"
 			title: "Beginn: End-Zeitalter"
 			rewards: [{ id: "08AE23588778BA70", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B5A1BCF5B82A1E0B", type: "checkmark" }]
+			tasks: [{ id: "0672309CE24966C2", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B562059F9EA08CC8"]
+			dependencies: ["7DB4E4B2AC7C8E3C"]
 			description: ["&6Was ist das?", "Hier beginnt das Meister-Zeitalter. Es schaltet frei:", "Netherit-Ausruestung, Advanced Netherite, Netherit-Haemmer und die Netherit- und Runic-Waffen.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherite_ingot" }
-			id: "A592A24754D667FE"
+			id: "4EA7B6B983C1C0EE"
 			title: "Zeitalter: Meister-Zeitalter"
-			rewards: [{ id: "5B930C254D693EE0", type: "historystages:history_stage", stage: "meisterzeit", remove: false, individual: false }, { id: "85B6BEDF81D0A6FA", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "B8BBABD8497D8A3F", type: "checkmark" }]
+			rewards: [{ id: "5B930C254D693EE0", type: "historystages:history_stage", stage: "meisterzeit", remove: false, individual: false }, { id: "751E857D2BD39CEF", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "548E8C86CC29AAE0", type: "checkmark" }]
 			x: 16.5d
 			y: 0.0d
 		}
@@ -343,7 +343,7 @@
 			id: "24DA6EBCF63E376A"
 			title: "Dreadwhisper"
 			rewards: []
-			tasks: [{ id: "8AF0C725B4D0188D", type: "checkmark" }]
+			tasks: [{ id: "28B4C9DDAC82ACFF", type: "checkmark" }]
 			x: 10.5d
 			y: 4.0d
 		}
@@ -351,18 +351,18 @@
 			dependencies: ["24DA6EBCF63E376A"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wraithfang" }
-			id: "D1890ADF42553327"
+			id: "541CF36C4D170CE0"
 			title: "Wraithfang"
 			rewards: []
-			tasks: [{ id: "AF655B74503CDD56", type: "checkmark" }]
+			tasks: [{ id: "759A3EF3A6D57174", type: "checkmark" }]
 			x: 12.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["D1890ADF42553327"]
+			dependencies: ["541CF36C4D170CE0"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wraithmaw" }
-			id: "993FEF0678436E28"
+			id: "1380674E74CAEE3E"
 			title: "Wraithmaw"
 			rewards: []
 			tasks: [{ id: "725874D0F3D3E04A", type: "checkmark" }]
@@ -370,13 +370,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["993FEF0678436E28"]
+			dependencies: ["1380674E74CAEE3E"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:bloodwake" }
-			id: "B64B5127E7C6E2AD"
+			id: "36D390C5A030D181"
 			title: "Bloodwake"
 			rewards: []
-			tasks: [{ id: "FDFF5443CAAE2432", type: "checkmark" }]
+			tasks: [{ id: "5FA74C2F925CA7D6", type: "checkmark" }]
 			x: 15.0d
 			y: 4.0d
 		}

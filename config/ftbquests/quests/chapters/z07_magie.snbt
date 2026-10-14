@@ -11,27 +11,27 @@
 		{
 			dependencies: ["5C54807EC3EC2CDC"]
 			description: ["&6Was ist das?", "Mit Zauberbuechern wirkst du Zauber. Sie kosten Mana (blauer Balken).", "Mana stellt sich mit der Zeit wieder her.", "", "&6So gehts", "Du findest Schriftrollen mit Zaubern in Dungeons oder stellst sie her.", "Zauber kommen in ein Zauberbuch, das du wie eine Waffe ausruestest.", "", "&6Wofuer ist das wichtig?", "Magie ist eine Alternative zu Schwert und Bogen. Heilen, Teleportieren, Feuerbaelle und Beschwoerungen."]
-			id: "FFEFA11373938513"
+			id: "46C833DCD22312A1"
 			title: "Was ist Irons Spells?"
-			rewards: [{ id: "F2D3F8ECA3F72918", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AEE1517267F3A5BA", type: "checkmark" }]
+			rewards: [{ id: "1B98146C6D62439E", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "4899F4480F2DB606", type: "checkmark" }]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FFEFA11373938513"]
+			dependencies: ["46C833DCD22312A1"]
 			description: ["&6Was ist das?", "Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl.", "", "&6So gehts", "Erstes Buch herstellen, in den Zauberbuch-Slot oder die Hand.", "", "&6Wofuer ist das wichtig?", "Bessere Buecher haben mehr Plaetze fuer Zauber."]
 			id: "3DAA1F6F53E0A842"
 			title: "Zauberbuch"
-			rewards: [{ id: "D15536B2F171200C", type: "item", item: { id: "minecraft:book", count: 2 } }]
-			tasks: [{ id: "E199E349D11B73BB", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
+			rewards: [{ id: "138D0773182C8F12", type: "item", item: { id: "minecraft:book", count: 2 } }]
+			tasks: [{ id: "7826C8029F5FAA7F", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3DAA1F6F53E0A842"]
 			description: ["&6Was ist das?", "Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein.", "", "&6So gehts", "Buch und Schriftrolle einlegen, Platz waehlen.", "", "&6Wofuer ist das wichtig?", "Ohne Inschriftentisch keine Zauber im Buch."]
-			id: "965D5BB3B2D57357"
+			id: "255A8186AF0DC2F0"
 			title: "Inschriftentisch"
 			rewards: [{ id: "74A04B57579CC26D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6648C2BBD35E7356", type: "item", item: { id: "irons_spellbooks:inscription_table", count: 1 }, count: 1L }]
@@ -39,11 +39,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["965D5BB3B2D57357"]
+			dependencies: ["255A8186AF0DC2F0"]
 			description: ["&6Was ist das?", "Die Tasten findest du unter Optionen, Steuerung (Suche nach Spell).", "Schritt 1: Zauber im Buch auswaehlen.", "Schritt 2: Zaubern mit der Wirken-Taste.", "", "&6So gehts", "Taste R (Standard) wirkt, mit Mausrad oder Zauber-Rad waehlst du.", "Mana unten zeigt, wie viel du noch hast.", "", "&6Wofuer ist das wichtig?", "Zauber kosten Mana, das sich langsam auffuellt."]
 			id: "1A9412A09F97208E"
 			title: "Zauber waehlen und wirken"
-			rewards: [{ id: "B09E6F7A1C258EFB", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "7AA1E9A611C37A6D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1440E3EA697F1DBC", type: "checkmark" }]
 			x: 6.0d
 			y: 0.0d
@@ -51,40 +51,40 @@
 		{
 			dependencies: ["1A9412A09F97208E"]
 			description: ["&6Was ist das?", "Die Schmiede macht neue Schriftrollen aus Tinte, Papier und Fokus.", "Die Tinte bestimmt die Staerke, der Fokus die Schule.", "", "&6So gehts", "Tinte, Papier und Schwerpunkt-Item hinein.", "", "&6Wofuer ist das wichtig?", "Waehle genau den Zauber, den du willst."]
-			id: "E6A2F4E716EF1082"
+			id: "658987F414C2C179"
 			title: "Schriftrollen-Schmiede"
-			rewards: [{ id: "CC1C8861D9F10927", type: "item", item: { id: "minecraft:paper", count: 8 } }]
-			tasks: [{ id: "C8C2E5845FAB3668", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
+			rewards: [{ id: "79D425193CFCF804", type: "item", item: { id: "minecraft:paper", count: 8 } }]
+			tasks: [{ id: "09C03C0727A4EC8E", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E6A2F4E716EF1082"]
+			dependencies: ["658987F414C2C179"]
 			description: ["&6Was ist das?", "Arkane Essenz findest du in magischen Strukturen.", "Du brauchst sie fuer bessere Ausruestung.", "", "&6So gehts", "Schriftrollen recyceln oder Lapis verarbeiten.", "", "&6Wofuer ist das wichtig?", "Fuer Upgrades und Ausruestung."]
-			id: "D7EFF006C536141B"
+			id: "76F11D27CBE5A57F"
 			title: "Arkane Essenz"
 			rewards: [{ id: "6A9BD2231B54663C", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "AC2808E675875C7A", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
+			tasks: [{ id: "759E5492CC14D944", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
 			x: 9.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D7EFF006C536141B"]
+			dependencies: ["76F11D27CBE5A57F"]
 			description: ["&6Was ist das?", "Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen.", "", "&6So gehts", "In der Alchemie herstellen.", "", "&6Wofuer ist das wichtig?", "Hoehere Tinte ergibt staerkere Schriftrollen."]
-			id: "9F70937DC12B3BE9"
+			id: "6418DDFDACD70044"
 			title: "Tinte"
-			rewards: [{ id: "F421BDD689D462F4", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "23AE727EFD3C42F8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1BA2BF7826D2EE31", type: "item", item: { id: "irons_spellbooks:common_ink", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9F70937DC12B3BE9"]
+			dependencies: ["6418DDFDACD70044"]
 			description: ["&6Was ist das?", "Der Alchemiekessel mischt Zutaten zu Traenken und mehr.", "", "&6So gehts", "Wasser und Zutaten hinein, Hitze darunter.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer Tinte."]
 			id: "679A18FE536A076C"
 			title: "Alchemie"
 			rewards: [{ id: "4AA90F2E0D50F02E", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "F8960B323E7C1401", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
+			tasks: [{ id: "33974683689E304E", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 0.0d
 		}
@@ -94,7 +94,7 @@
 			id: "53528799012DD531"
 			title: "Arkanamboss"
 			rewards: [{ id: "24B6F6979E753901", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "C2073D73EA430FC0", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
+			tasks: [{ id: "557777543DB39621", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 0.0d
 		}
@@ -103,15 +103,15 @@
 			description: ["&6Was ist das?", "Das Eisen-Zauberbuch hat mehr Zauberplaetze als das aus Kupfer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Mehr Platz fuer Zauber."]
 			id: "6AFAB69009B5DDD5"
 			title: "Eisen-Zauberbuch"
-			rewards: [{ id: "B55F7E53E4922220", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
-			tasks: [{ id: "A3245942D239978B", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
+			rewards: [{ id: "1118358A13D479D9", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
+			tasks: [{ id: "5298665FF75A6C9F", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
 			x: 3.0d
 			y: 24.0d
 		}
 		{
 			dependencies: ["6AFAB69009B5DDD5"]
 			description: ["&6Was ist das?", "Mit dem Gold-Zauberbuch wirkst du staerkere Zauber.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer mittlere Magier."]
-			id: "B5505C0FE0A05100"
+			id: "04EA69F3E607BC8C"
 			title: "Gold-Zauberbuch"
 			rewards: [{ id: "0290C0DBDE51020B", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "688BCFC5FF3993C1", type: "item", item: { id: "irons_spellbooks:gold_spell_book", count: 1 }, count: 1L }]
@@ -119,12 +119,12 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["B5505C0FE0A05100"]
+			dependencies: ["04EA69F3E607BC8C"]
 			description: ["&6Was ist das?", "Das Diamant-Zauberbuch ist ein grosses Upgrade fuer Zauberer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Viele Zauber auf einmal."]
 			id: "05367B1F942FC3B3"
 			title: "Diamant-Zauberbuch"
 			rewards: [{ id: "77208135BDDE9A5D", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "F321EDEB90F8AC9B", type: "item", item: { id: "irons_spellbooks:diamond_spell_book", count: 1 }, count: 1L }]
+			tasks: [{ id: "5CA9477189EA86EC", type: "item", item: { id: "irons_spellbooks:diamond_spell_book", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 24.0d
 		}
@@ -141,27 +141,27 @@
 		{
 			dependencies: ["4D27F3BA90BAB9AE"]
 			description: ["&6Was ist das?", "Auf dem Podest legst du Zauberbuecher und Items zur Schau aus.", "", "&6So gehts", "Item drauflegen.", "", "&6Wofuer ist das wichtig?", "Schoene Ausstellung."]
-			id: "8B58A7DF4660913B"
+			id: "60349274029CA910"
 			title: "Podest"
-			rewards: [{ id: "CC9F0CDF5B536233", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B28233AB3FCAA746", type: "item", item: { id: "irons_spellbooks:pedestal", count: 1 }, count: 1L }]
+			rewards: [{ id: "41366EB3ACE80030", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5CD03EEAEE9A4D32", type: "item", item: { id: "irons_spellbooks:pedestal", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 24.0d
 		}
 		{
-			dependencies: ["D7EFF006C536141B"]
+			dependencies: ["76F11D27CBE5A57F"]
 			description: ["&6Was ist das?", "Runen sind das Herz der Zauberei-Ausruestung. Die leere Rune ist die Basis.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer alle Element-Runen."]
 			id: "47C8F90D98C7063F"
 			title: "Leere Rune"
-			rewards: [{ id: "E5AB2A35AEE12D7A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "8A7B27FBCB82C70C", type: "item", item: { id: "irons_spellbooks:blank_rune", count: 1 }, count: 1L }]
+			rewards: [{ id: "774ED549EE6A0E37", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0572CBC96B2C7E8E", type: "item", item: { id: "irons_spellbooks:blank_rune", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 22.0d
 		}
 		{
 			dependencies: ["47C8F90D98C7063F"]
 			description: ["&6Was ist das?", "Die Feuer-Rune verstaerkt Feuerzauber in Ausruestung.", "", "&6So gehts", "Leere Rune mit Feuer-Zutaten.", "", "&6Wofuer ist das wichtig?", "Feuer-Ausruestung und Upgrades."]
-			id: "9360D28CF238CB08"
+			id: "27A6560E793C6D6E"
 			title: "Feuer-Rune"
 			rewards: [{ id: "726759AD71039D9E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "44118BD219698ADC", type: "item", item: { id: "irons_spellbooks:fire_rune", count: 1 }, count: 1L }]
@@ -169,9 +169,9 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["9360D28CF238CB08"]
+			dependencies: ["27A6560E793C6D6E"]
 			description: ["&6Was ist das?", "Die Eis-Rune verstaerkt Eiszauber.", "", "&6So gehts", "Leere Rune mit Eis-Zutaten.", "", "&6Wofuer ist das wichtig?", "Eis-Ausruestung."]
-			id: "D064D2EFA8F1B5FD"
+			id: "00B320CC04A9AACF"
 			title: "Eis-Rune"
 			rewards: [{ id: "01AF6F5A9397AA93", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4DE75E43789839D0", type: "item", item: { id: "irons_spellbooks:ice_rune", count: 1 }, count: 1L }]
@@ -179,7 +179,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["D064D2EFA8F1B5FD"]
+			dependencies: ["00B320CC04A9AACF"]
 			description: ["&6Was ist das?", "Die Blitz-Rune verstaerkt Blitzzauber.", "", "&6So gehts", "Leere Rune mit Blitz-Zutaten.", "", "&6Wofuer ist das wichtig?", "Blitz-Ausruestung."]
 			id: "3665A2D1EF8D670E"
 			title: "Blitz-Rune"
@@ -193,8 +193,8 @@
 			description: ["&6Was ist das?", "Die heilige Rune verstaerkt Heilzauber.", "", "&6So gehts", "Leere Rune mit heiligen Zutaten.", "", "&6Wofuer ist das wichtig?", "Heiler-Ausruestung."]
 			id: "73AF0E2757653719"
 			title: "Heilige Rune"
-			rewards: [{ id: "9C3A6106F1287531", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E58C424AB113F8A7", type: "item", item: { id: "irons_spellbooks:holy_rune", count: 1 }, count: 1L }]
+			rewards: [{ id: "519091670D4B5029", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "06E5A01D8E6107F5", type: "item", item: { id: "irons_spellbooks:holy_rune", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 22.0d
 		}
@@ -203,35 +203,35 @@
 			description: ["&6Was ist das?", "Upgrade-Kugeln verbessern Ausruestung am Arkanen Amboss, z.B. mehr Mana oder Feuerkraft.", "", "&6So gehts", "Im Arkanamboss einsetzen.", "", "&6Wofuer ist das wichtig?", "Mehr Mana oder Zauberkraft."]
 			id: "35564ADA345E9193"
 			title: "Upgrade-Kugel"
-			rewards: [{ id: "9678AD6C52C3FB26", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "B3EA9D92B8C18440", type: "item", item: { id: "irons_spellbooks:upgrade_orb", count: 1 }, count: 1L }]
+			rewards: [{ id: "6110CEB86A7CECD0", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3360ECABE6AD7C3E", type: "item", item: { id: "irons_spellbooks:upgrade_orb", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 22.0d
 		}
 		{
 			dependencies: ["53528799012DD531"]
 			description: ["&6Was ist das?", "Mithril ist ein seltenes Erz tief unter der Erde. Es ist Material fuer starke Magie.", "", "&6So gehts", "Tief unten finden.", "", "&6Wofuer ist das wichtig?", "Fuer starke Magie-Ausruestung."]
-			id: "8197BFC44F03C8E7"
+			id: "395921B21599ECB3"
 			title: "Mithril"
-			rewards: [{ id: "AE1FF325D1128EF1", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
-			tasks: [{ id: "EE7FA3E4A4815EE4", type: "item", item: { id: "irons_spellbooks:mithril_ingot", count: 1 }, count: 1L }]
+			rewards: [{ id: "756CCD46AE2C80D1", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			tasks: [{ id: "4622ADBD25A1BC97", type: "item", item: { id: "irons_spellbooks:mithril_ingot", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["8197BFC44F03C8E7"]
+			dependencies: ["395921B21599ECB3"]
 			description: ["&6Was ist das?", "Arkane Barren brauchst du fuer bessere Zauberbuecher und Staebe.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer Magier-Ausruestung."]
-			id: "DE901A9C5FCB83D3"
+			id: "73934CAE81D4F4EB"
 			title: "Arkaner Barren"
-			rewards: [{ id: "BBEC5BDAC2282BBC", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "264929C7235881BE", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "09A007C1323987D9", type: "item", item: { id: "irons_spellbooks:arcane_ingot", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["DE901A9C5FCB83D3"]
+			dependencies: ["73934CAE81D4F4EB"]
 			description: ["&6Was ist das?", "Magisches Tuch ist der Stoff fuer Zauberer-Ruestungen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R druecken, mit U siehst du, wofuer es gebraucht wird.", "", "&6Wofuer ist das wichtig?", "Fuer Roben."]
-			id: "D2C2DAE39015A9EA"
+			id: "10A65C4EBAFB7D34"
 			title: "Magisches Tuch"
 			rewards: [{ id: "476CF3C5CF3D54E7", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "470B4E4210CC09D6", type: "item", item: { id: "irons_spellbooks:magic_cloth", count: 1 }, count: 2L }]
@@ -239,12 +239,12 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["D2C2DAE39015A9EA"]
+			dependencies: ["10A65C4EBAFB7D34"]
 			description: ["&6Was ist das?", "Der Mana-Ring gibt dir mehr Mana. Trage ihn im Ring-Slot.", "", "&6So gehts", "Im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Mehr Zauber hintereinander."]
 			id: "6E0B791D7D1B20B0"
 			title: "Mana-Ring"
-			rewards: [{ id: "C1E1DB7DC157162F", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "DF7C9FDC20EE5EDB", type: "item", item: { id: "irons_spellbooks:mana_ring", count: 1 }, count: 1L }]
+			rewards: [{ id: "1CDC0C0002D7B5AF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "797A0F9736AC8985", type: "item", item: { id: "irons_spellbooks:mana_ring", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 14.0d
 		}
@@ -281,20 +281,20 @@
 		{
 			dependencies: ["413D35EA4DB12042"]
 			description: ["&6Was ist das?", "Die Elektromant-Ruestung staerkt Blitzzauber.", "", "&6So gehts", "Mit Blitz-Runen herstellen.", "", "&6Wofuer ist das wichtig?", "Mehr Blitzkraft."]
-			id: "A6B0B1DF018C09BD"
+			id: "66D56D42B04421CE"
 			title: "Elektromant-Ruestung"
 			rewards: [{ id: "44FAE3DE3C1065F0", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "FE39CFF9C2AC8A93", type: "item", item: { id: "irons_spellbooks:electromancer_chestplate", count: 1 }, count: 1L }]
+			tasks: [{ id: "04E96A10576006D4", type: "item", item: { id: "irons_spellbooks:electromancer_chestplate", count: 1 }, count: 1L }]
 			x: 24.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["8197BFC44F03C8E7"]
+			dependencies: ["395921B21599ECB3"]
 			description: ["&6Was ist das?", "Irons Spells: Ein Rapier fuer Kampfmagier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Schnelle Waffe mit Zauberkraft."]
 			icon: { id: "irons_spellbooks:amethyst_rapier" }
 			id: "5EC7157B3A556B20"
 			title: "Amethyst-Rapier"
-			rewards: [{ id: "B49FBAD594065520", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1327AFA414540535", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3F6C166B0A7CD51A", type: "item", item: { id: "irons_spellbooks:amethyst_rapier", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 18.0d
@@ -303,21 +303,21 @@
 			dependencies: ["5EC7157B3A556B20"]
 			description: ["&6Was ist das?", "Ein Flammenschwert der Kampfmagier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Starke Klinge mit Zauberkraft."]
 			icon: { id: "irons_spellbooks:keeper_flamberge" }
-			id: "A85170C243C2C2AB"
+			id: "2DB2A6831A4D901F"
 			title: "Flamberge"
 			rewards: [{ id: "7999CA78213C506A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9171BB9E44C48C52", type: "item", item: { id: "irons_spellbooks:keeper_flamberge", count: 1 }, count: 1L }]
+			tasks: [{ id: "4CC9DFED930E4DB4", type: "item", item: { id: "irons_spellbooks:keeper_flamberge", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["A85170C243C2C2AB"]
+			dependencies: ["2DB2A6831A4D901F"]
 			description: ["&6Was ist das?", "Ein Schwert gegen Magier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Bricht gegnerische Zauber."]
 			icon: { id: "irons_spellbooks:magehunter" }
 			id: "2DB33D15EFD0C795"
 			title: "Magierjaeger"
 			rewards: [{ id: "534F13C9C2893A90", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "84714350205499B6", type: "item", item: { id: "irons_spellbooks:magehunter", count: 1 }, count: 1L }]
+			tasks: [{ id: "5B4C63FE1A301035", type: "item", item: { id: "irons_spellbooks:magehunter", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 18.0d
 		}
@@ -325,21 +325,21 @@
 			dependencies: ["2DB33D15EFD0C795"]
 			description: ["&6Was ist das?", "Ein Stab fuer Eiszauber.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Staerkere Eiszauber."]
 			icon: { id: "irons_spellbooks:ice_staff" }
-			id: "E8273965293D85F0"
+			id: "4353EC408ED1FF04"
 			title: "Eisstab"
-			rewards: [{ id: "FEEBC84F9FE97C83", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "862CD0FFAAA6E8CD", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
+			rewards: [{ id: "0CD18FA29A2FBB12", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5A23EC5B1E17EBEB", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["E8273965293D85F0"]
+			dependencies: ["4353EC408ED1FF04"]
 			description: ["&6Was ist das?", "Ein Stab fuer Blutmagie.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Staerkere Blutzauber."]
 			icon: { id: "irons_spellbooks:blood_staff" }
 			id: "0A38FECC70382C6C"
 			title: "Blutstab"
 			rewards: [{ id: "46D72BDF233E158D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E1C19847A9F1F19A", type: "item", item: { id: "irons_spellbooks:blood_staff", count: 1 }, count: 1L }]
+			tasks: [{ id: "6EF02EDD2A25D9FC", type: "item", item: { id: "irons_spellbooks:blood_staff", count: 1 }, count: 1L }]
 			x: 19.5d
 			y: 18.0d
 		}
@@ -347,7 +347,7 @@
 			dependencies: ["6E0B791D7D1B20B0"]
 			description: ["&6Was ist das?", "Ringe, die vor Feuer, Frost oder Gift schuetzen.", "", "&6So gehts", "Rezepte in JEI, im Zubehoer-Slot tragen.", "", "&6Wofuer ist das wichtig?", "Perfekt gegen passende Bosse."]
 			icon: { id: "irons_spellbooks:fireward_ring" }
-			id: "A6330278761AA3C9"
+			id: "35BE3FFE6C551D0F"
 			title: "Schutzringe"
 			rewards: [{ id: "5350F1133DF65554", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "267DBA36960293F8", type: "item", item: { id: "irons_spellbooks:fireward_ring", count: 1 }, count: 1L }]
@@ -355,10 +355,10 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["A6330278761AA3C9"]
+			dependencies: ["35BE3FFE6C551D0F"]
 			description: ["&6Was ist das?", "Ein Amulett gegen Unterbrechung beim Zaubern.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Zauber werden nicht abgebrochen, wenn du getroffen wirst."]
 			icon: { id: "irons_spellbooks:concentration_amulet" }
-			id: "FCF24060C5035D25"
+			id: "0D3E201CB31572E4"
 			title: "Konzentrations-Amulett"
 			rewards: [{ id: "3B8E07D0549EBD14", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "12F99CE937DBAB6F", type: "item", item: { id: "irons_spellbooks:concentration_amulet", count: 1 }, count: 1L }]
@@ -382,7 +382,7 @@
 			icon: { id: "irons_spellbooks:oakskin_elixir" }
 			id: "4A85C48A036B2429"
 			title: "Eichenhaut-Elixier"
-			rewards: [{ id: "B07AA67976152A64", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6E8AE6AD8C8117A0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69AEAFBDCF9496D0", type: "item", item: { id: "irons_spellbooks:oakskin_elixir", count: 1 }, count: 2L }]
 			x: 13.5d
 			y: 20.0d
@@ -394,7 +394,7 @@
 			id: "3B73FA73C1F9FD2A"
 			title: "Feuerbier"
 			rewards: [{ id: "038283BF2074D5A2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D71AAAE755DDE01E", type: "item", item: { id: "irons_spellbooks:fire_ale", count: 1 }, count: 1L }]
+			tasks: [{ id: "644E55A26794348F", type: "item", item: { id: "irons_spellbooks:fire_ale", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 20.0d
 		}
@@ -403,8 +403,8 @@
 			description: ["&6Was ist das?", "In Tuermen und Hoehlen leben boese Zauberer. Besiege einen Pyromancer.", "", "&6So gehts", "Magier-Tuerme und Zitadellen erkunden.", "", "&6Wofuer ist das wichtig?", "Seltene Schriftrollen und Ruestung."]
 			id: "3BEB5C9EE91D54CF"
 			title: "Zauberer jagen"
-			rewards: [{ id: "8F3262DF59C7E750", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
-			tasks: [{ id: "C91EBED0FE503839", type: "kill", entity: "irons_spellbooks:pyromancer", value: 1L, icon: { id: "irons_spellbooks:fire_upgrade_orb" } }]
+			rewards: [{ id: "16468B41E572C384", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
+			tasks: [{ id: "4D18A49A6BB25B55", type: "kill", entity: "irons_spellbooks:pyromancer", value: 1L, icon: { id: "irons_spellbooks:fire_upgrade_orb" } }]
 			x: 15.0d
 			y: 0.0d
 		}
@@ -414,7 +414,7 @@
 			id: "7752AE4A249A5EB3"
 			title: "Der Kryomant"
 			rewards: [{ id: "7CB6F0C9B2921628", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "C8E156AEE9F26CCD", type: "kill", entity: "irons_spellbooks:cryomancer", value: 1L, icon: { id: "irons_spellbooks:ice_upgrade_orb" } }]
+			tasks: [{ id: "44901E7CD8B1496B", type: "kill", entity: "irons_spellbooks:cryomancer", value: 1L, icon: { id: "irons_spellbooks:ice_upgrade_orb" } }]
 			x: 16.5d
 			y: 0.0d
 		}
@@ -423,8 +423,8 @@
 			description: ["&6Was ist das?", "Der Necromancer ruft Skelette. Besiege ihn.", "", "&6So gehts", "In Dungeons.", "", "&6Wofuer ist das wichtig?", "Blut-Schriftrollen."]
 			id: "1C765747185689E7"
 			title: "Der Totenbeschwoerer"
-			rewards: [{ id: "DF01BE1CB453C7C8", type: "xp_levels", xp_levels: 6 }]
-			tasks: [{ id: "943AA231453D2B88", type: "kill", entity: "irons_spellbooks:necromancer", value: 1L, icon: { id: "irons_spellbooks:evocation_upgrade_orb" } }]
+			rewards: [{ id: "01CA078F49250E93", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7F820E0EB40E1930", type: "kill", entity: "irons_spellbooks:necromancer", value: 1L, icon: { id: "irons_spellbooks:evocation_upgrade_orb" } }]
 			x: 18.0d
 			y: 0.0d
 		}
@@ -433,7 +433,7 @@
 			description: ["&6Was ist das?", "Kultisten beschwoeren Kreaturen. Sie leben in dunklen Strukturen.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofuer ist das wichtig?", "Beute fuer Magier."]
 			id: "5F1780F474913F9F"
 			title: "Kultisten"
-			rewards: [{ id: "AECF3EA4EB0E1651", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "2DACDB000DFDEA4A", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "1267B6B9B1FEE8B4", type: "kill", entity: "irons_spellbooks:cultist", value: 1L, icon: { id: "irons_spellbooks:blood_rune" } }]
 			x: 18.0d
 			y: 2.0d
@@ -441,9 +441,9 @@
 		{
 			dependencies: ["5F1780F474913F9F"]
 			description: ["&6Was ist das?", "Der Apotheker wirft Traenke. Besiege ihn.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofuer ist das wichtig?", "Traenke und Zutaten."]
-			id: "EEC8C5903D029E18"
+			id: "5340EC175AEFCBE3"
 			title: "Apotheker"
-			rewards: [{ id: "B0CDD5C2828F6D74", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "681A94235C307224", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "60D4F76BB53ADAB5", type: "kill", entity: "irons_spellbooks:apothecarist", value: 1L, icon: { id: "minecraft:brewing_stand" } }]
 			x: 19.5d
 			y: 2.0d
@@ -454,26 +454,26 @@
 			id: "6145C3A0D3F0E332"
 			title: "Der Erz-Beschwoerer"
 			rewards: [{ id: "0A20A8304BCDF74E", type: "xp_levels", xp_levels: 8 }]
-			tasks: [{ id: "CE8DB642713EB063", type: "kill", entity: "irons_spellbooks:archevoker", value: 1L, icon: { id: "irons_spellbooks:evocation_rune" } }]
+			tasks: [{ id: "5588FBBC572B6D53", type: "kill", entity: "irons_spellbooks:archevoker", value: 1L, icon: { id: "irons_spellbooks:evocation_rune" } }]
 			x: 19.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["EEC8C5903D029E18"]
+			dependencies: ["5340EC175AEFCBE3"]
 			description: ["&6Was ist das?", "Der Citadel Keeper bewacht die Zitadelle. Ein harter Gegner.", "", "&6So gehts", "Zitadelle erkunden.", "", "&6Wofuer ist das wichtig?", "Starke Beute."]
-			id: "F57AD5AF614AFDB8"
+			id: "04EF5409B5EAB371"
 			title: "Zitadellen-Waechter"
-			rewards: [{ id: "B4FBA6A3A790A630", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "DEDF2DA4C95C2E77", type: "kill", entity: "irons_spellbooks:citadel_keeper", value: 1L, icon: { id: "irons_spellbooks:arcane_essence" } }]
+			rewards: [{ id: "474C0024744EA290", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "2CAC1FC9CED15FCB", type: "kill", entity: "irons_spellbooks:citadel_keeper", value: 1L, icon: { id: "irons_spellbooks:arcane_essence" } }]
 			x: 21.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["F57AD5AF614AFDB8"]
+			dependencies: ["04EF5409B5EAB371"]
 			description: ["&6Was ist das?", "Die Eisspinne lebt in ihrem Bau im Schnee. Ihre Eier sind wertvoll.", "", "&6So gehts", "In kalten Gebieten.", "", "&6Wofuer ist das wichtig?", "Eis-Beute."]
 			id: "30A1A33A3BB96820"
 			title: "Eisspinne"
-			rewards: [{ id: "94C559830A7825E5", type: "xp_levels", xp_levels: 8 }]
+			rewards: [{ id: "37B4E7660278B55E", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "55FDDB544DBD2A02", type: "kill", entity: "irons_spellbooks:ice_spider", value: 1L, icon: { id: "irons_spellbooks:ice_spider_egg" } }]
 			x: 22.5d
 			y: 2.0d
@@ -481,19 +481,19 @@
 		{
 			dependencies: ["6145C3A0D3F0E332"]
 			description: ["&6Was ist das?", "Der Feuerboss ist einer der staerksten Gegner von Irons Spells.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Seltene Beute."]
-			id: "9E3466B064FBFF10"
+			id: "34D1BD35BFBDF3D8"
 			title: "Feuerboss"
 			rewards: [{ id: "341A79464A4B3AA5", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
-			tasks: [{ id: "C40C2702FD4027E5", type: "kill", entity: "irons_spellbooks:fire_boss", value: 1L, icon: { id: "irons_spellbooks:cinder_essence" } }]
+			tasks: [{ id: "78468FD53B562EDC", type: "kill", entity: "irons_spellbooks:fire_boss", value: 1L, icon: { id: "irons_spellbooks:cinder_essence" } }]
 			x: 21.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9E3466B064FBFF10"]
+			dependencies: ["34D1BD35BFBDF3D8"]
 			description: ["&6Was ist das?", "Der Tote Koenig ist ein starker Boss in den Katakomben. Bereite dich gut vor.", "", "&6So gehts", "In einer Katakombe.", "", "&6Wofuer ist das wichtig?", "Sehr gute Beute."]
 			id: "76DD817B2C61A19D"
 			title: "Der Tote Koenig"
-			rewards: [{ id: "915250CA37F5DF5D", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			rewards: [{ id: "1DE8EEBB25F65E1A", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
 			tasks: [{ id: "67918124991ACF60", type: "kill", entity: "irons_spellbooks:dead_king", value: 1L, icon: { id: "irons_spellbooks:legendary_ink" } }]
 			x: 22.5d
 			y: 0.0d
@@ -504,8 +504,8 @@
 			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "5C54807EC3EC2CDC"
 			title: "Beginn: Magie-Zeitalter"
-			rewards: [{ id: "FD1B4957E625D4B6", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DCA8AABE8E4F774F", type: "checkmark" }]
+			rewards: [{ id: "65E37EB4245C9FB2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "706C72C41E79529B", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -513,10 +513,10 @@
 			dependencies: ["76DD817B2C61A19D"]
 			description: ["&6Was ist das?", "Hier beginnt das Zeitalter der Welten. Es schaltet frei:", "Das Aether und der Zwielichtwald: Die Portale lassen dich jetzt durch.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "aether:golden_parachute" }
-			id: "F401972C5AB547B3"
+			id: "388349920682B0BC"
 			title: "Zeitalter: Zeitalter der Welten"
-			rewards: [{ id: "B1BBFF60318D626A", type: "historystages:history_stage", stage: "himmelszeit", remove: false, individual: false }, { id: "137FF82BB8A158CB", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "AB10B4876719F955", type: "checkmark" }]
+			rewards: [{ id: "1C5EA4ED9B92E395", type: "historystages:history_stage", stage: "himmelszeit", remove: false, individual: false }, { id: "137FF82BB8A158CB", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "01A18DEFA71CDF83", type: "checkmark" }]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -524,15 +524,15 @@
 			dependencies: ["3BEB5C9EE91D54CF"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:frostfall" }
-			id: "D9A87253AF5B8679"
+			id: "3B9FB38CDC433B6A"
 			title: "Frostfall"
 			rewards: []
-			tasks: [{ id: "9ABDAC09CE33C790", type: "checkmark" }]
+			tasks: [{ id: "3C64A6B6A88B2154", type: "checkmark" }]
 			x: 15.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["D9A87253AF5B8679"]
+			dependencies: ["3B9FB38CDC433B6A"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:icewhisper" }
 			id: "33DB5FB8338E29E3"
@@ -546,15 +546,15 @@
 			dependencies: ["33DB5FB8338E29E3"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:arcanethyst" }
-			id: "9D8146D414BEAAFD"
+			id: "77ECB58A051E070A"
 			title: "Arcanethyst"
 			rewards: []
-			tasks: [{ id: "8CEE3E70181990C1", type: "checkmark" }]
+			tasks: [{ id: "12879F24D9676FDE", type: "checkmark" }]
 			x: 18.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["9D8146D414BEAAFD"]
+			dependencies: ["77ECB58A051E070A"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:magiscythe" }
 			id: "7928080382B90B6F"
@@ -571,7 +571,7 @@
 			id: "46F108B04EB2950F"
 			title: "Enigma"
 			rewards: []
-			tasks: [{ id: "B754AE597FBD5A8C", type: "checkmark" }]
+			tasks: [{ id: "5584DCF030C444D2", type: "checkmark" }]
 			x: 21.0d
 			y: 4.0d
 		}
@@ -590,7 +590,7 @@
 			dependencies: ["2F13775F44C5B609"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:magiblade" }
-			id: "9F5523AFE141DDA2"
+			id: "76E169059BF6DFEF"
 			title: "Magiblade"
 			rewards: []
 			tasks: [{ id: "605D41A6BBDAEB99", type: "checkmark" }]
@@ -598,13 +598,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["9F5523AFE141DDA2"]
+			dependencies: ["76E169059BF6DFEF"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:caelestis" }
 			id: "2B71938D1FCCC55D"
 			title: "Caelestis"
 			rewards: []
-			tasks: [{ id: "E4F0E511F02920C0", type: "checkmark" }]
+			tasks: [{ id: "790A34CA8C2F4595", type: "checkmark" }]
 			x: 25.5d
 			y: 4.0d
 		}
@@ -637,12 +637,12 @@
 			id: "321734CB12DEF7CB"
 			title: "Decrepit Scythe"
 			rewards: []
-			tasks: [{ id: "814E323932FBA4C4", type: "checkmark" }]
+			tasks: [{ id: "014A1D3CBB3C5F15", type: "checkmark" }]
 			x: 30.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["D9A87253AF5B8679"]
+			dependencies: ["3B9FB38CDC433B6A"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:staff_of_the_nines" }
 			id: "7CFC3BE5BDF534B9"
@@ -667,15 +667,15 @@
 			dependencies: ["243A3BB56D8015B9"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:pyrium_staff" }
-			id: "99FF29B74CC5467C"
+			id: "70A5F356858935CD"
 			title: "Pyrium Staff"
 			rewards: []
-			tasks: [{ id: "ABF7C8E1A1F5E3E8", type: "checkmark" }]
+			tasks: [{ id: "4EC184E9090A1E05", type: "checkmark" }]
 			x: 18.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["99FF29B74CC5467C"]
+			dependencies: ["70A5F356858935CD"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:graybeard_staff" }
 			id: "74CB427C0A563E46"
@@ -692,7 +692,7 @@
 			id: "25CA5B688B56F510"
 			title: "Ice Staff"
 			rewards: []
-			tasks: [{ id: "D05FC888670F73F2", type: "checkmark" }]
+			tasks: [{ id: "7483F68F088B002E", type: "checkmark" }]
 			x: 21.0d
 			y: 6.0d
 		}
@@ -703,7 +703,7 @@
 			id: "6B8C805612F83546"
 			title: "Hither-Thither Wand"
 			rewards: []
-			tasks: [{ id: "8289FA7974ABCE5E", type: "checkmark" }]
+			tasks: [{ id: "03748DD47396AE79", type: "checkmark" }]
 			x: 22.5d
 			y: 6.0d
 		}
@@ -711,7 +711,7 @@
 			dependencies: ["7CFC3BE5BDF534B9"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:autoloader_crossbow" }
-			id: "93893E3A1547C25F"
+			id: "18AB3E08F563181C"
 			title: "Autoloader Crossbow"
 			rewards: []
 			tasks: [{ id: "090DD45B8601CBB5", type: "checkmark" }]
@@ -719,24 +719,24 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["93893E3A1547C25F"]
+			dependencies: ["18AB3E08F563181C"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:archevoker_chestplate" }
-			id: "A5307FD6045BF8B8"
+			id: "1E9B6F21707452D3"
 			title: "Archevoker (Ruestung)"
 			rewards: []
-			tasks: [{ id: "A73CA375659E200F", type: "checkmark" }]
+			tasks: [{ id: "15302777B3797AD4", type: "checkmark" }]
 			x: 15.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["A5307FD6045BF8B8"]
+			dependencies: ["1E9B6F21707452D3"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:cryomancer_chestplate" }
 			id: "207DA0D92328511F"
 			title: "Cryomancer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "EAC68CD4D6647DBC", type: "checkmark" }]
+			tasks: [{ id: "57F6B6D07663C832", type: "checkmark" }]
 			x: 16.5d
 			y: 10.0d
 		}
@@ -755,21 +755,21 @@
 			dependencies: ["236FC8AE5B30A3DC"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:electromancer_chestplate" }
-			id: "C18FC08A89D4D51F"
+			id: "4DCEBDC0F7D23A5A"
 			title: "Electromancer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "B4B3F15D9FE3D2D9", type: "checkmark" }]
+			tasks: [{ id: "1FB8FA023E9EFAAB", type: "checkmark" }]
 			x: 19.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["C18FC08A89D4D51F"]
+			dependencies: ["4DCEBDC0F7D23A5A"]
 			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:infernal_sorcerer_chestplate" }
 			id: "258B1CBA588ECDFF"
 			title: "Infernal Sorcerer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "AC7E6E0E1A4E63EB", type: "checkmark" }]
+			tasks: [{ id: "2CE5EB83A54622BB", type: "checkmark" }]
 			x: 21.0d
 			y: 10.0d
 		}
@@ -777,18 +777,18 @@
 			dependencies: ["258B1CBA588ECDFF"]
 			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:paladin_chestplate" }
-			id: "A4D4A2B05EA489DA"
+			id: "520C2D0A7936644B"
 			title: "Lightbringer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "CC09A19D3D14D676", type: "checkmark" }]
+			tasks: [{ id: "7E57D4D22A358E2A", type: "checkmark" }]
 			x: 22.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["A4D4A2B05EA489DA"]
+			dependencies: ["520C2D0A7936644B"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:plagued_chestplate" }
-			id: "AEE79E602604480E"
+			id: "6780E987A341D788"
 			title: "Plagued (Ruestung)"
 			rewards: []
 			tasks: [{ id: "03B89961E1EA51DC", type: "checkmark" }]
@@ -796,7 +796,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["AEE79E602604480E"]
+			dependencies: ["6780E987A341D788"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:priest_chestplate" }
 			id: "77480A43AADA8E91"
@@ -810,7 +810,7 @@
 			dependencies: ["77480A43AADA8E91"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:pumpkin_chestplate" }
-			id: "FC8B896CDC1316CD"
+			id: "3E9E2612FF887FB6"
 			title: "Scarecrow (Ruestung)"
 			rewards: []
 			tasks: [{ id: "42FD9B636EA92E72", type: "checkmark" }]
@@ -818,32 +818,32 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["FC8B896CDC1316CD"]
+			dependencies: ["3E9E2612FF887FB6"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:pyromancer_chestplate" }
-			id: "EBC054AF9ACF0C84"
+			id: "234F59FE7E91FF44"
 			title: "Pyromancer (Ruestung)"
 			rewards: []
-			tasks: [{ id: "F5D84E3A26CC92A5", type: "checkmark" }]
+			tasks: [{ id: "7F8A597D14B96C52", type: "checkmark" }]
 			x: 28.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["EBC054AF9ACF0C84"]
+			dependencies: ["234F59FE7E91FF44"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:shadowwalker_chestplate" }
-			id: "DF58046D07A38024"
+			id: "66735D06DDDD79AA"
 			title: "Shadow-Walker (Ruestung)"
 			rewards: []
-			tasks: [{ id: "A5631F2BEE34B72C", type: "checkmark" }]
+			tasks: [{ id: "78F137C55EBD020C", type: "checkmark" }]
 			x: 30.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["A5307FD6045BF8B8"]
+			dependencies: ["1E9B6F21707452D3"]
 			description: ["&6Was ist das?", "Teile: Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:speed_boots" }
-			id: "E0BD18BA191ED7B1"
+			id: "353842698BE290FF"
 			title: "Boots of Speed (Ruestung)"
 			rewards: []
 			tasks: [{ id: "4D41BE45E4B3E993", type: "checkmark" }]
@@ -851,7 +851,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["E0BD18BA191ED7B1"]
+			dependencies: ["353842698BE290FF"]
 			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:tarnished_helmet" }
 			id: "4D6213C95E0DA769"
@@ -865,7 +865,7 @@
 			dependencies: ["4D6213C95E0DA769"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:wandering_magician_chestplate" }
-			id: "88000B243A672709"
+			id: "2F3EDE26ED94B10C"
 			title: "Wandering Magician (Ruestung)"
 			rewards: []
 			tasks: [{ id: "308CD89B114C4FD4", type: "checkmark" }]
@@ -873,10 +873,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["88000B243A672709"]
+			dependencies: ["2F3EDE26ED94B10C"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
 			icon: { id: "irons_spellbooks:wizard_chestplate" }
-			id: "C9FBAF3A32738E0A"
+			id: "53A2BFF010A1DA87"
 			title: "Wizard (Ruestung)"
 			rewards: []
 			tasks: [{ id: "4FF69540C4E93E9F", type: "checkmark" }]
