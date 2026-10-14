@@ -94,7 +94,7 @@
 			description: ["&6Was ist das?", "Bretter sind das wichtigste Baumaterial am Anfang.", "", "&6So gehts", "Ein Stamm in der Werkbank ergibt vier Bretter. Im Saegewerk bekommst du mehr Treppen und Stufen.", "", "&6Wofuer ist das wichtig?", "Kisten, Werkzeuge, Tueren, Boote und Betten brauchen Bretter."]
 			id: "94E337F1A9E340B8"
 			title: "Bretter"
-			rewards: [{ id: "0A48C8AE9E6FD03C", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "5DD111E360AC1F20", type: "item", item: { id: "minecraft:stick", count: 16 } }]
 			tasks: [{ id: "94CDF4337E7B66B8", type: "item", item: { id: "minecraft:oak_planks", count: 1 }, count: 64L }]
 			x: 4.5d
 			y: 0.0d
@@ -124,7 +124,7 @@
 			description: ["&6Was ist das?", "Die Holzspitzhacke ist das allererste Werkzeug.", "", "&6So gehts", "Drei Bretter oben, zwei Stoecke darunter.", "", "&6Wofuer ist das wichtig?", "Mit ihr baust du Stein ab. Behalte sie: Die Steinspitzhacke braucht sie im Rezept."]
 			id: "149718EF5100546D"
 			title: "Holzwerkzeug"
-			rewards: [{ id: "591CA4EA2840E68E", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "7F2046C5154ED497", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "BB71CDAE2E64A399", type: "item", item: { id: "minecraft:wooden_pickaxe", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 0.0d
@@ -303,7 +303,7 @@
 			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofuer ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es staendig."]
 			id: "F938DC421A7F77E5"
 			title: "Bruchstein"
-			rewards: [{ id: "DD81F6029B4F5EFA", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "661FB845F3358EED", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "AB10A4591D4E03BE", type: "item", item: { id: "minecraft:cobblestone", count: 1 }, count: 64L }]
 			x: 9.0d
 			y: 0.0d
@@ -314,7 +314,7 @@
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "502C61E3409EAEDC"
 			title: "Steinspitzhacke"
-			rewards: [{ id: "BB0A6F282ACA10C7", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "2DCD828A621B7DF1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "FE5D863F1BD26465", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 0.0d
@@ -324,7 +324,7 @@
 			description: ["&6Was ist das?", "Die Steinaxt faellt Baeume schneller und macht viel Schaden.", "", "&6So gehts", "Drei Bruchstein, zwei Stoecke, wie die Holzaxt. Die Holzaxt kommt dabei ins Rezept.", "", "&6Wofuer ist das wichtig?", "Holz faellt man oft. Eine gute Axt spart viel Zeit."]
 			id: "CDCD4F0780344D96"
 			title: "Steinaxt"
-			rewards: [{ id: "34A19C23BE6F0533", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "6362260526B29C9E", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "0604850468E3DBCE", type: "item", item: { id: "minecraft:stone_axe", count: 1 }, count: 1L }]
 			x: 9.0d
 			y: 24.0d
@@ -334,7 +334,7 @@
 			description: ["&6Was ist das?", "Ein Schwert aus Stein, deine erste richtige Waffe.", "", "&6So gehts", "Zwei Bruchstein uebereinander, darunter das Holzschwert statt des Stocks.", "", "&6Wofuer ist das wichtig?", "Mit Better Combat hat jede Waffenart eigene Kombos. Teste sie an der Trainingspuppe."]
 			id: "E9F389ADB04C2583"
 			title: "Steinschwert"
-			rewards: [{ id: "F5C13E044D89F130", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "0680E45709B74850", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "DAD93667C3A78C5E", type: "item", item: { id: "minecraft:stone_sword", count: 1 }, count: 1L }]
 			x: 10.5d
 			y: 24.0d
@@ -354,7 +354,7 @@
 			description: ["&6Was ist das?", "Holz im Ofen wird zu Holzkohle, ein Ersatz fuer Kohle.", "", "&6So gehts", "Staemme in den Ofen legen.", "", "&6Wofuer ist das wichtig?", "Wenn du keine Kohle findest, machst du Fackeln einfach aus Holzkohle."]
 			id: "7200E9323E24B343"
 			title: "Holzkohle"
-			rewards: [{ id: "2A071872A5A4E5E0", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "102F1D153DE903EC", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "F92D710CAF3F8B39", type: "item", item: { id: "minecraft:charcoal", count: 1 }, count: 8L }]
 			x: 12.0d
 			y: 22.0d
@@ -364,7 +364,7 @@
 			description: ["&6Was ist das?", "Kohle oder Holzkohle auf einem Stock ergibt vier Fackeln.", "", "&6So gehts", "Kohle oder Holzkohle ueber einem Stock ergibt vier Fackeln.", "", "&6Wofuer ist das wichtig?", "In dunklen Hoehlen spawnen Monster. Stelle ueberall Fackeln auf."]
 			id: "8F79AFBE893E54E1"
 			title: "Fackeln"
-			rewards: [{ id: "5B33C09710217CD5", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "4FDEF51E08D4666C", type: "item", item: { id: "minecraft:torch", count: 24 } }]
 			tasks: [{ id: "BA578D777409F07E", type: "item", item: { id: "minecraft:torch", count: 1 }, count: 32L }]
 			x: 13.5d
 			y: 0.0d
@@ -374,7 +374,7 @@
 			description: ["&6Was ist das?", "Glas entsteht aus Sand im Ofen.", "", "&6So gehts", "Sand am Strand oder in der Wueste sammeln und schmelzen.", "", "&6Wofuer ist das wichtig?", "Fenster, Glasflaschen fuer Honig und Traenke und spaeter Gewaechshaeuser."]
 			id: "1C505742606CDD9D"
 			title: "Glas"
-			rewards: [{ id: "ECE21B4B0E58B50A", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "5B37050A372D6427", type: "item", item: { id: "minecraft:glass_bottle", count: 4 } }]
 			tasks: [{ id: "024E5B04280D7E2A", type: "item", item: { id: "minecraft:glass", count: 1 }, count: 16L }]
 			x: 13.5d
 			y: 22.0d
@@ -384,7 +384,7 @@
 			description: ["&6Was ist das?", "Ton aus Fluessen wird im Ofen zu Ziegeln.", "", "&6So gehts", "Ton findest du in Fluessen und Seen. Tonklumpen im Ofen brennen.", "", "&6Wofuer ist das wichtig?", "Ziegel brauchst du fuer den Herd von Farmers Delight und fuer schoene Bauten."]
 			id: "50DF24C7727465CF"
 			title: "Ziegel"
-			rewards: [{ id: "D73ADB35E8D6689D", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7D50A3CC57B13155", type: "item", item: { id: "minecraft:clay_ball", count: 8 } }]
 			tasks: [{ id: "6B8CC999AE04FCF3", type: "item", item: { id: "minecraft:brick", count: 1 }, count: 16L }]
 			x: 15.0d
 			y: 22.0d
@@ -405,7 +405,7 @@
 			icon: { id: "justhammers:stone_hammer" }
 			id: "06846FECFE8200C1"
 			title: "Steinhammer"
-			rewards: [{ id: "F83C11272DFD4441", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7824F1481B51E2F8", type: "item", item: { id: "minecraft:cobblestone", count: 32 } }]
 			tasks: [{ id: "F9A1063C82D70511", type: "item", item: { id: "justhammers:stone_hammer", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 24.0d
@@ -416,7 +416,7 @@
 			icon: { id: "crafting_on_a_stick:crafting_table" }
 			id: "36CBAAF12C4D22D9"
 			title: "Werkbank zum Mitnehmen"
-			rewards: [{ id: "E2CE886E63F26573", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7942A1459196CF2E", type: "item", item: { id: "minecraft:crafting_table", count: 1 } }]
 			tasks: [{ id: "86F6D504663A76D5", type: "item", item: { id: "crafting_on_a_stick:crafting_table", count: 1 }, count: 1L }]
 			x: 13.5d
 			y: 24.0d
@@ -426,7 +426,7 @@
 			description: ["&6Was ist das?", "Mit der Hacke machst du aus Erde Ackerboden.", "", "&6So gehts", "Rechtsklick auf Erde oder Gras. Wasser in der Naehe haelt den Boden feucht.", "", "&6Wofuer ist das wichtig?", "Ohne Ackerboden keine Felder."]
 			id: "1C40D78F36FFCB0A"
 			title: "Steinhacke"
-			rewards: [{ id: "6072B03E8B190A0D", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "56360209B05F1683", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
 			tasks: [{ id: "16E622EA42A4E478", type: "item", item: { id: "minecraft:stone_hoe", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 0.0d
@@ -446,7 +446,7 @@
 			description: ["&6Was ist das?", "Drei Weizen nebeneinander ergeben ein Brot.", "", "&6So gehts", "Drei Weizen nebeneinander in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Ein Vorrat Brot rettet dich auf langen Ausfluegen."]
 			id: "0E13BB3BED84B047"
 			title: "Brot backen"
-			rewards: [{ id: "4BC637513FE714AA", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "0210EEE85CF34952", type: "item", item: { id: "minecraft:cooked_chicken", count: 4 } }]
 			tasks: [{ id: "467C14B9BCFCB623", type: "item", item: { id: "minecraft:bread", count: 1 }, count: 8L }]
 			x: 18.0d
 			y: 0.0d
@@ -456,7 +456,7 @@
 			description: ["&6Was ist das?", "Im Komposter werden Pflanzenreste zu Knochenmehl.", "", "&6So gehts", "Samen, Blaetter und Pflanzen hineinwerfen, bis er voll ist.", "", "&6Wofuer ist das wichtig?", "Knochenmehl laesst Pflanzen und Baeume sofort wachsen."]
 			id: "C940BB7CBE965E41"
 			title: "Komposter"
-			rewards: [{ id: "9D55DAAC16926486", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "16B6FC965CA98E25", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "1CF8DA615D7E0621", type: "item", item: { id: "minecraft:composter", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 16.0d
@@ -466,7 +466,7 @@
 			description: ["&6Was ist das?", "Ein Lagerfeuer gibt Licht, grillt Fleisch und beruhigt Bienen.", "", "&6So gehts", "Stoecke, Kohle und Staemme. Rohes Fleisch mit Rechtsklick darauflegen.", "", "&6Wofuer ist das wichtig?", "Von hier geht der Koch-Zweig ab: Farmers Delight wartet."]
 			id: "C2ED9CEDEB44CCA6"
 			title: "Lagerfeuer"
-			rewards: [{ id: "CCD3F4D7236613A0", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "421F879D3EA7BCB8", type: "item", item: { id: "minecraft:cooked_porkchop", count: 4 } }]
 			tasks: [{ id: "24AF7A695A16070C", type: "item", item: { id: "minecraft:campfire", count: 1 }, count: 1L }]
 			x: 19.5d
 			y: 0.0d
@@ -476,7 +476,7 @@
 			description: ["&6Was ist das?", "Rohes Fleisch auf dem Lagerfeuer oder im Ofen braten.", "", "&6So gehts", "Auf dem Lagerfeuer, im Ofen oder im Raeucherofen braten.", "", "&6Wofuer ist das wichtig?", "Gutes Essen fuellt die Saettigung, dann heilst du schneller."]
 			id: "2AD1D915658D1D50"
 			title: "Gebratenes Fleisch"
-			rewards: [{ id: "6D5A646D63C33081", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "10D3B99316208328", type: "item", item: { id: "minecraft:cooked_beef", count: 6 } }]
 			tasks: [{ id: "40CCC3AF6B0283CA", type: "item", item: { id: "minecraft:cooked_beef", count: 1 }, count: 8L }]
 			x: 19.5d
 			y: 12.0d
@@ -486,7 +486,7 @@
 			description: ["&6Was ist das?", "Der Raeucherofen brat Essen doppelt so schnell.", "", "&6So gehts", "Ein Ofen mit vier Staemmen drumherum.", "", "&6Wofuer ist das wichtig?", "Fuer grosse Mengen Fleisch, zum Beispiel nach einer Jagd."]
 			id: "867827EFB62073FE"
 			title: "Raeucherofen"
-			rewards: [{ id: "7C03D0A0AE5876B6", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "53C21DFD56538624", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "F01FA3F81ED34BFE", type: "item", item: { id: "minecraft:smoker", count: 1 }, count: 1L }]
 			x: 21.0d
 			y: 12.0d
@@ -517,7 +517,7 @@
 			icon: { id: "naturalist:capture_net" }
 			id: "699D8AF525791ABA"
 			title: "Fangnetz"
-			rewards: [{ id: "77997D490537B857", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5750C155C31E6C9F", type: "item", item: { id: "minecraft:string", count: 6 } }]
 			tasks: [{ id: "3C8F909DF604E06F", type: "item", item: { id: "naturalist:capture_net", count: 1 }, count: 1L }]
 			x: 22.5d
 			y: 12.0d
@@ -528,7 +528,7 @@
 			icon: { id: "naturalist:cooked_venison" }
 			id: "A1B37992F9F2CDB0"
 			title: "Wildfleisch"
-			rewards: [{ id: "E81206758FE4D116", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7D811896F8366FBD", type: "item", item: { id: "minecraft:cooked_porkchop", count: 6 } }]
 			tasks: [{ id: "7275DB7F85BB3939", type: "item", item: { id: "naturalist:cooked_venison", count: 1 }, count: 4L }]
 			x: 24.0d
 			y: 12.0d
@@ -558,7 +558,7 @@
 			description: ["&6Was ist das?", "Stroh bekommst du, wenn du Gras oder Weizen mit dem Messer erntest.", "", "&6So gehts", "Halte das Messer und baue hohes Gras ab.", "", "&6Wofuer ist das wichtig?", "Fuer Leinwand, Reiche Erde und Kompost."]
 			id: "97EDC02C90F26984"
 			title: "Stroh"
-			rewards: [{ id: "5949A46FB31F7346", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "63F51D6BFCAF93B0", type: "item", item: { id: "minecraft:hay_block", count: 2 } }]
 			tasks: [{ id: "270587DADD608287", type: "item", item: { id: "farmersdelight:straw", count: 1 }, count: 16L }]
 			x: 22.5d
 			y: 14.0d
@@ -578,7 +578,7 @@
 			description: ["&6Was ist das?", "Auf dem Schneidebrett schneidest du Zutaten. Rechtsklick mit Messer, Axt oder Schaufel auf das Brett.", "", "&6So gehts", "Stelle das Brett auf, lege mit Rechtsklick eine Zutat darauf.", "Rechtsklick mit Messer schneidet.", "In JEI siehst du alle Schneide-Rezepte.", "", "&6Wofuer ist das wichtig?", "Fast jedes Gericht braucht geschnittene Zutaten. Spaeter kann der Slicer aus Slice and Dice das automatisch machen."]
 			id: "CE52CB429FC5B957"
 			title: "Schneidebrett"
-			rewards: [{ id: "856C2629F362091C", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "3CC317B8F51CC44C", type: "item", item: { id: "minecraft:stick", count: 8 } }]
 			tasks: [{ id: "8458315A17ECDBF0", type: "item", item: { id: "farmersdelight:cutting_board", count: 1 }, count: 1L }]
 			x: 25.5d
 			y: 14.0d
@@ -598,7 +598,7 @@
 			description: ["&6Was ist das?", "Im Kochtopf gart man Eintoepfe und Suppen. Stelle ihn auf den Herd und lege Zutaten plus Schuessel hinein.", "", "&6So gehts", "Stelle den Topf auf den Herd.", "Lege bis zu sechs Zutaten und das Gefaess (meist Schuessel) hinein.", "Warte, bis das Gericht fertig ist, und nimm es heraus.", "", "&6Wofuer ist das wichtig?", "Topf-Gerichte geben die wichtigen Effekte. Mit Wasser im Topf brauchst du fuer Suppen kein Wasser extra."]
 			id: "085735849D72954E"
 			title: "Kochtopf"
-			rewards: [{ id: "BDA0080F5CFE5B6E", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "75011DBE68410A93", type: "item", item: { id: "minecraft:bowl", count: 4 } }]
 			tasks: [{ id: "6243EE6995B2025B", type: "item", item: { id: "farmersdelight:cooking_pot", count: 1 }, count: 1L }]
 			x: 28.5d
 			y: 14.0d
@@ -608,7 +608,7 @@
 			description: ["&6Was ist das?", "In der Pfanne brutzelt man Fleisch, Fisch und Eier direkt auf dem Herd.", "", "&6So gehts", "Stelle sie auf den Herd und lege Zutaten mit Rechtsklick hinein.", "Du kannst sie auch in der Hand benutzen und damit zuschlagen.", "", "&6Wofuer ist das wichtig?", "Schneller als ein Ofen. Mit dem Korb daneben landet das Essen automatisch darin."]
 			id: "B2269294C16E58B7"
 			title: "Pfanne"
-			rewards: [{ id: "6D4D897E15E1E83D", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "47E54D1D11501678", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "5D81E3B99FF6D10F", type: "item", item: { id: "farmersdelight:skillet", count: 1 }, count: 1L }]
 			x: 30.0d
 			y: 14.0d
@@ -628,7 +628,7 @@
 			description: ["&6Was ist das?", "Gemuese, Kartoffel und Schuessel im Kochtopf.", "", "&6So gehts", "Kochtopf auf den Herd, Gemuese und Kartoffel hinein, Schuessel dazu.", "", "&6Wofuer ist das wichtig?", "Topf-Gerichte geben Nahrhaft: Du wirst lange nicht hungrig."]
 			id: "A7F3F67DF0B2F9E0"
 			title: "Gemuesesuppe"
-			rewards: [{ id: "CC69CF32B7F1AD63", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "0849040CFD78E87B", type: "item", item: { id: "minecraft:baked_potato", count: 6 } }]
 			tasks: [{ id: "9F5BC8516788A419", type: "item", item: { id: "farmersdelight:vegetable_soup", count: 1 }, count: 2L }]
 			x: 33.0d
 			y: 14.0d
@@ -688,7 +688,7 @@
 			description: ["&6Was ist das?", "Tomaten wachsen an Ranken und brauchen ein Seil oder Stange zum Klettern.", "", "&6So gehts", "Pflanze Tomatensamen und setze Seil darueber, damit sie hoch wachsen.", "", "&6Wofuer ist das wichtig?", "Tomaten brauchst du fuer Pasta-Sauce, Pizza und Ketchup."]
 			id: "7D73691BB3992AB7"
 			title: "Tomaten"
-			rewards: [{ id: "8CBAE85955B26AC3", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "10427931146DE390", type: "item", item: { id: "minecraft:bread", count: 4 } }]
 			tasks: [{ id: "A21D1F31C85B4C86", type: "item", item: { id: "farmersdelight:tomato", count: 1 }, count: 4L }]
 			x: 19.5d
 			y: 18.0d
@@ -698,7 +698,7 @@
 			description: ["&6Was ist das?", "Kohl, Tomate und Rote Bete in der Schuessel.", "", "&6So gehts", "Kohl, Tomate und Rote Bete mit einer Schuessel in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Schnell gemacht und gesund. Gemuese aus dem Garten-Zweig."]
 			id: "477171C8016A0F75"
 			title: "Gemischter Salat"
-			rewards: [{ id: "F0996AD9C2F59478", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "03B534BB368554BB", type: "item", item: { id: "minecraft:carrot", count: 8 } }]
 			tasks: [{ id: "E08EDB8085EB083C", type: "item", item: { id: "farmersdelight:mixed_salad", count: 1 }, count: 2L }]
 			x: 21.0d
 			y: 18.0d
@@ -708,7 +708,7 @@
 			description: ["&6Was ist das?", "Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock.", "", "&6So gehts", "Mit Glasflasche am vollen Bienenstock Honig sammeln. Lagerfeuer darunter beruhigt die Bienen.", "Mit Schere bekommst du Honigwaben.", "", "&6Wofuer ist das wichtig?", "Honig fuer Met (Brewin), Kerzen aus Waben, Honig-Seetang und Create-Honig."]
 			id: "9F30F975D616A47F"
 			title: "Bienen"
-			rewards: [{ id: "46CE66D90972710A", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "7C6AB809DF5F95CD", type: "item", item: { id: "minecraft:honey_bottle", count: 2 } }]
 			tasks: [{ id: "4311D6D9A2633A35", type: "item", item: { id: "minecraft:honey_bottle", count: 1 }, count: 2L }]
 			x: 22.5d
 			y: 18.0d
@@ -728,7 +728,7 @@
 			description: ["&6Was ist das?", "Ein Bett laesst dich die Nacht ueberspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) ueber drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Haelfte der Spieler schlafen.", "", "&6Wofuer ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
 			id: "B3037B8BF23105EC"
 			title: "Ein Bett fuer die Nacht"
-			rewards: [{ id: "5A4416ACD10664BA", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "2CCB051DE9617BB1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "CE12CA1A49042B7E", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
 			x: 7.5d
 			y: 26.0d
@@ -758,7 +758,7 @@
 			description: ["&6Was ist das?", "Ein Fass fasst genauso viel wie eine Kiste, laesst sich aber unter Bloecken oeffnen.", "", "&6So gehts", "Sechs Bretter und zwei Holzstufen.", "Du kannst Faesser direkt stapeln und in Waende einbauen.", "", "&6Wofuer ist das wichtig?", "Platzsparend fuer kleine Basen. Hopper und Trichter funktionieren wie bei Kisten."]
 			id: "06ABC2FF817AB74D"
 			title: "Fass"
-			rewards: [{ id: "0CBBB2BEB8DD5537", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "4EEBAA08D1E81414", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "9E321531FC9247EF", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 26.0d
@@ -778,7 +778,7 @@
 			description: ["&6Was ist das?", "Tueren halten Zombies nicht immer ab, aber die meisten Monster.", "", "&6So gehts", "Sechs Bretter in zwei Spalten. Zwei nebeneinander oeffnen sich zusammen.", "", "&6Wofuer ist das wichtig?", "Halte Monster draussen. Achtung: Zombies koennen Holztueren auf Schwierigkeit Schwer einschlagen."]
 			id: "730075A86BE3CD99"
 			title: "Tueren"
-			rewards: [{ id: "33194CD42F1AB364", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "0F3DD15C543C628E", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "049AB3B146171822", type: "item", item: { id: "minecraft:oak_door", count: 1 }, count: 2L }]
 			x: 15.0d
 			y: 26.0d
@@ -788,7 +788,7 @@
 			description: ["&6Was ist das?", "Eine Laterne ist schoener als eine Fackel.", "", "&6So gehts", "Eine Fackel umgeben von Eisennuggets.", "", "&6Wofuer ist das wichtig?", "Haengend oder stehend, perfekt fuer Wege und Haeuser."]
 			id: "3E7ABB28E4C6BBE5"
 			title: "Laterne"
-			rewards: [{ id: "0C162D43757C1051", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "497243380C4F195D", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "E5ABF80C475F8584", type: "item", item: { id: "minecraft:lantern", count: 1 }, count: 4L }]
 			x: 16.5d
 			y: 26.0d
@@ -838,7 +838,7 @@
 			description: ["&6Was ist das?", "Mit dem Boot faehrst du ueber Fluesse und Meere.", "", "&6So gehts", "Fuenf Bretter in U-Form. Ins Wasser setzen und einsteigen.", "", "&6Wofuer ist das wichtig?", "Viel schneller als schwimmen, gut zum Erkunden von Kuesten."]
 			id: "F811A87BB09D403D"
 			title: "Boot"
-			rewards: [{ id: "6DAE2010163904A4", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "060D7BEF1DA1BB8C", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "FD9BD73B255C7DBC", type: "item", item: { id: "minecraft:oak_boat", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 20.0d
@@ -858,7 +858,7 @@
 			description: ["&6Was ist das?", "Der Naturkompass zeigt dir den Weg zu jedem Biom.", "", "&6So gehts", "Rechtsklick, Biom waehlen, Suchen. Dann dem Zeiger folgen.", "", "&6Wofuer ist das wichtig?", "Finde Wueste fuer Sand, Dschungel fuer Kakao oder ein Dorf-Biom."]
 			id: "C9FF2D022E1A2E7C"
 			title: "Naturkompass"
-			rewards: [{ id: "AB5457FFB8A73AAD", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "50106E3C3BE9B83C", type: "item", item: { id: "minecraft:map", count: 1 } }]
 			tasks: [{ id: "13FBCC69853C87C9", type: "item", item: { id: "naturescompass:naturescompass", count: 1 }, count: 1L }]
 			x: 19.5d
 			y: 20.0d
@@ -868,7 +868,7 @@
 			description: ["&6Was ist das?", "Natures Compass zeigt dir, wo ein Biom ist.", "Waehle das Biom, drueck Suchen, folge dem Pfeil.", "", "&6So gehts", "Rechtsklick, Biom waehlen.", "", "&6Wofuer ist das wichtig?", "Bestimmte Biome haben besondere Ressourcen."]
 			id: "387CA05F814C5319"
 			title: "Biome finden"
-			rewards: [{ id: "D191C42102176CC8", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "10CDCCE0974B0D75", type: "item", item: { id: "minecraft:paper", count: 6 } }]
 			tasks: [{ id: "5A9BCBB967267441", type: "checkmark" }]
 			x: 21.0d
 			y: 20.0d
@@ -1008,7 +1008,7 @@
 			description: ["&6Was ist das?", "Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen.", "", "&6So gehts", "Aufstellen und schlagen.", "", "&6Wofuer ist das wichtig?", "Teste deine Waffen."]
 			id: "7F4FF7546A6F0849"
 			title: "Trainingspuppe"
-			rewards: [{ id: "0654400C74C447C0", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "47ECCF76F82ABCB4", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "7820DB2E0696CF3B", type: "item", item: { id: "dummmmmmy:target_dummy", count: 1 }, count: 1L }]
 			x: 21.0d
 			y: 8.0d
@@ -1028,7 +1028,7 @@
 			description: ["&6Was ist das?", "Feuerstein, Stock und Feder ergeben Pfeile.", "", "&6So gehts", "Feuerstein, Stock und Feder untereinander ergeben vier Pfeile.", "", "&6Wofuer ist das wichtig?", "Gegen Creeper und Skelette ist Abstand Gold wert."]
 			id: "24B25DD1BE315360"
 			title: "Pfeile"
-			rewards: [{ id: "A9F5E6EA40F42F5E", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "526D5A8636CB1F5C", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "A0A4E00A615CC589", type: "item", item: { id: "minecraft:arrow", count: 1 }, count: 32L }]
 			x: 22.5d
 			y: 8.0d
@@ -1038,7 +1038,7 @@
 			description: ["&6Was ist das?", "Leder von Kuehen ergibt die erste Ruestung.", "", "&6So gehts", "Leder von Kuehen. Fuenf, acht, sieben oder vier Leder fuer die Teile.", "", "&6Wofuer ist das wichtig?", "Etwas Schutz fuer die ersten Naechte. In der Eisenzeit folgt Eisenruestung."]
 			id: "4CC791F37478A527"
 			title: "Lederruestung"
-			rewards: [{ id: "F0C9B4E4200E0C77", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "56D8C3FD39A6C1A1", type: "item", item: { id: "minecraft:leather", count: 8 } }]
 			tasks: [{ id: "B627C7B9ABD41326", type: "item", item: { id: "minecraft:leather_chestplate", count: 1 }, count: 1L }]
 			x: 24.0d
 			y: 0.0d
@@ -1058,7 +1058,7 @@
 			description: ["&6Was ist das?", "Skelette schiessen aus der Ferne. Nutze Deckung.", "", "&6So gehts", "Nutze Deckung, gehe nah ran oder blocke mit dem Schild.", "", "&6Wofuer ist das wichtig?", "Knochen ergeben Knochenmehl (Duenger) und Pfeile kannst du wiederverwenden."]
 			id: "1CA526E157A15466"
 			title: "Sieger ueber Skelette"
-			rewards: [{ id: "4FC15072AAB2606D", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "04AA9FAA6E6A5ECC", type: "item", item: { id: "minecraft:arrow", count: 32 } }]
 			tasks: [{ id: "1C6310AC3665AE4D", type: "kill", entity: "minecraft:skeleton", value: 10L, icon: { id: "minecraft:bone" } }]
 			x: 25.5d
 			y: 8.0d
@@ -1128,7 +1128,7 @@
 			description: ["&6Was ist das?", "Kupfer ist das haeufigste Metall in den Hoehlen.", "", "&6So gehts", "Kupfererz mit der Steinspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Kupfer brauchst du spaeter fuer Create, Blitzableiter und Fernrohre."]
 			id: "D681DEA261DE27D9"
 			title: "Rohkupfer"
-			rewards: [{ id: "D9413C377D4C7D9E", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "2243F483C0C95EF2", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
 			tasks: [{ id: "B70621C2E5B38990", type: "item", item: { id: "minecraft:raw_copper", count: 1 }, count: 16L }]
 			x: 27.0d
 			y: 0.0d
@@ -1138,7 +1138,7 @@
 			description: ["&6Was ist das?", "Rohkupfer im Ofen schmelzen.", "", "&6So gehts", "Rohkupfer in den Ofen.", "", "&6Wofuer ist das wichtig?", "Neun Barren ergeben einen Block. Kupferbloecke werden mit der Zeit gruen."]
 			id: "A712DAA506255D71"
 			title: "Kupferbarren"
-			rewards: [{ id: "7F17763E38E5D0B0", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3E3CD5D014670DB0", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
 			tasks: [{ id: "368A3C3D39A59BB8", type: "item", item: { id: "minecraft:copper_ingot", count: 1 }, count: 8L }]
 			x: 28.5d
 			y: 0.0d
@@ -1148,7 +1148,7 @@
 			description: ["&6Was ist das?", "Eisenerz hat beige Punkte. Mit der Steinspitzhacke abbauen.", "", "&6So gehts", "Mit der Steinspitzhacke abbauen. Viel Eisen liegt um Ebene 16 und hoch in Bergen.", "", "&6Wofuer ist das wichtig?", "Schmelze es im Ofen. Fuer die Eisenzeit brauchst du 16 Eisenbarren."]
 			id: "BC6A511A5F9AB3B9"
 			title: "Roheisen"
-			rewards: [{ id: "2B58C16D296ADE03", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "10FC83FA8BED6D11", type: "item", item: { id: "minecraft:iron_nugget", count: 12 } }]
 			tasks: [{ id: "CCF21ED066D91EEB", type: "item", item: { id: "minecraft:raw_iron", count: 1 }, count: 16L }]
 			x: 30.0d
 			y: 0.0d
@@ -1158,7 +1158,7 @@
 			description: ["&6Was ist das?", "Eisen findest du in Hoehlen und Bergen. Schmelze es im Ofen.", "", "&6So gehts", "Roheisen im Ofen schmelzen. Sammle mindestens 16 Barren.", "", "&6Wofuer ist das wichtig?", "Mit 16 Eisenbarren und den Pflicht-Zweigen schaltest du rechts die Eisenzeit frei."]
 			id: "819711C2B216C5C9"
 			title: "Eisen!"
-			rewards: [{ id: "845A7C50B8AB7C49", type: "item", item: { id: "minecraft:bread", count: 12 } }]
+			rewards: [{ id: "7289F77FC744A085", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
 			tasks: [{ id: "074A6908421C1CE1", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
 			x: 31.5d
 			y: 0.0d
@@ -1178,7 +1178,7 @@
 			icon: { id: "minecraft:iron_ingot" }
 			id: "9C26024957CD10AC"
 			title: "Zeitalter: Eisenzeit"
-			rewards: [{ id: "A8D340FAF4F3FBD0", type: "historystages:history_stage", stage: "eisenzeit", remove: false, individual: false }, { id: "2F0F0595DF1A4F1B", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "A8D340FAF4F3FBD0", type: "historystages:history_stage", stage: "eisenzeit", remove: false, individual: false }, { id: "2F0F0595DF1A4F1B", type: "xp_levels", xp_levels: 5 }, { id: "5E1A7E00C0FFEE01", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "6102DD31983CB9FE", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
 			x: 33.0d
 			y: 0.0d
