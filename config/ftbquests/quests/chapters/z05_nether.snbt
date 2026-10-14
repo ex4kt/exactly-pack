@@ -743,26 +743,5 @@
 			x: 1.5d
 			y: 24.0d
 		}
-		{
-			dependencies: ["4FA1824F157108ED"]
-			hide_dependency_lines: true
-			description: ["&6Was ist das?", "Der Nightmare Stalker verfolgt dich nachts und greift aus dem Dunkeln an.", "", "&6So gehts", "Diamantruestung mit Verzauberungen, Fackeln, Heiltraenke. Bleibe im Licht.", "", "&6Wofuer ist das wichtig?", "Verfolger-Boss des Nether-Zeitalters."]
-			id: "3372154DB07C13C0"
-			title: "Albtraum-Stalker"
-			rewards: [{ id: "41C99929854B0154", type: "xp_levels", xp_levels: 10 }, { id: "005E55400829B065", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
-			tasks: [{ id: "7C7E84493CFA0A15", type: "kill", entity: "born_in_chaos_v1:nightmare_stalker", value: 1L, icon: { id: "minecraft:soul_torch" } }]
-			x: 1.5d
-			y: 26.0d
-		}
-		{
-			dependencies: ["3372154DB07C13C0"]
-			description: ["&6Was ist das?", "Die Supreme Bonescaller beschwoert Skelette in Wellen.", "", "&6So gehts", "Diamantruestung, Schild, Flaechenschaden-Waffe, Heiltraenke.", "", "&6Wofuer ist das wichtig?", "Boss des Nether-Zeitalters."]
-			id: "1F55B9DA2F125AAD"
-			title: "Knochenruferin"
-			rewards: [{ id: "5AF0865086C0096C", type: "xp_levels", xp_levels: 10 }, { id: "1F3AFE71A1CDA9A4", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
-			tasks: [{ id: "13BD2E11E98215D1", type: "kill", entity: "born_in_chaos_v1:supreme_bonescaller", value: 1L, icon: { id: "minecraft:skeleton_skull" } }]
-			x: 3.0d
-			y: 26.0d
-		}
 	]
 }
