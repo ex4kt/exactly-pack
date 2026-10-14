@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fernkampf"
+	icon: { id: "minecraft:bow" }
+	id: "FA0000000000FFFF"
+	order_index: 14
+	quest_links: [ ]
+	title: "&aFernkampf"
+	quests: [
+		{
+			description: ["&6Was ist das?", "Boegen, Armbrueste und besondere Pfeile aus der Mod Archeries. Sie gibt es in Stufen von Kupfer bis Netherit.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Die Waffen schaltest du mit den Zeitaltern frei: Eisen-Stufen in der Eisenzeit, Diamant im Diamant-Zeitalter, Netherit im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Fuer Monster, die du nicht im Nahkampf angehen willst."]
+			icon: { id: "minecraft:bow" }
+			id: "FA10000000000001"
+			title: "Fernkampf"
+			rewards: []
+			tasks: [{ id: "FA20000000000001", type: "checkmark" }]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FA10000000000001"]
+			description: ["&6Was ist das?", "Der Eisenbogen, die erste Stufe der Archeries-Boegen.", "", "&6So gehts", "Rezept in JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Mehr Schaden als der normale Bogen."]
+			icon: { id: "archeries:iron_bow" }
+			id: "FA10000000000002"
+			title: "Eisenbogen"
+			rewards: [{ id: "FA30000000000002", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FA20000000000002", type: "item", item: { id: "archeries:iron_bow", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA10000000000002"]
+			description: ["&6Was ist das?", "Der Goldbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Eine weitere Stufe der Boegen."]
+			icon: { id: "archeries:golden_bow" }
+			id: "FA10000000000003"
+			title: "Goldbogen"
+			rewards: [{ id: "FA30000000000003", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FA20000000000003", type: "item", item: { id: "archeries:golden_bow", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA10000000000003"]
+			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Ein starker Bogen fuer die mittleren Bosse."]
+			icon: { id: "archeries:diamond_bow" }
+			id: "FA10000000000004"
+			title: "Diamantbogen"
+			rewards: [{ id: "FA30000000000004", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA20000000000004", type: "item", item: { id: "archeries:diamond_bow", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA10000000000004"]
+			description: ["&6Was ist das?", "Der Netheritbogen, die hoechste normale Stufe.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Fuer Nether, Ende und die Boss-Kaempfe."]
+			icon: { id: "archeries:netherite_bow" }
+			id: "FA10000000000005"
+			title: "Netheritbogen"
+			rewards: [{ id: "FA30000000000005", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA20000000000005", type: "item", item: { id: "archeries:netherite_bow", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA10000000000005"]
+			description: ["&6Was ist das?", "Der Geisterbogen, ein besonderer Bogen.", "", "&6So gehts", "Rezept und Besonderheit in JEI und im Tooltip nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer fortgeschrittene Fernkaempfer."]
+			icon: { id: "archeries:spectral_bow" }
+			id: "FA10000000000006"
+			title: "Geisterbogen"
+			rewards: [{ id: "FA30000000000006", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA20000000000006", type: "item", item: { id: "archeries:spectral_bow", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA10000000000006"]
+			description: ["&6Was ist das?", "Velocitas Eradico, ein seltener Bogen.", "", "&6So gehts", "Rezept und Besonderheit in JEI und im Tooltip nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer alle, die gern Sondergegenstaende sammeln."]
+			icon: { id: "archeries:velocitas_eradico_bow" }
+			id: "FA10000000000007"
+			title: "Velocitas Eradico"
+			rewards: [{ id: "FA30000000000007", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA20000000000007", type: "item", item: { id: "archeries:velocitas_eradico_bow", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FA10000000000001"]
+			description: ["&6Was ist das?", "Die Kupferarmbrust, die erste Stufe der Archeries-Armbrueste.", "", "&6So gehts", "Rezept in JEI nachschlagen. Kupfer bekommst du schon in der Steinzeit.", "", "&6Wofuer ist das wichtig?", "Eine Armbrust mit mehr Durchschlagskraft als der Bogen."]
+			icon: { id: "archeries:copper_crossbow" }
+			id: "FA10000000000008"
+			title: "Kupferarmbrust"
+			rewards: [{ id: "FA30000000000008", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FA20000000000008", type: "item", item: { id: "archeries:copper_crossbow", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FA10000000000008"]
+			description: ["&6Was ist das?", "Die Goldarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Eine weitere Stufe der Armbrueste."]
+			icon: { id: "archeries:golden_crossbow" }
+			id: "FA10000000000009"
+			title: "Goldarmbrust"
+			rewards: [{ id: "FA30000000000009", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FA20000000000009", type: "item", item: { id: "archeries:golden_crossbow", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FA10000000000009"]
+			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Starke Armbrust fuer die mittleren Bosse."]
+			icon: { id: "archeries:diamond_crossbow" }
+			id: "FA1000000000000A"
+			title: "Diamantarmbrust"
+			rewards: [{ id: "FA3000000000000A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA2000000000000A", type: "item", item: { id: "archeries:diamond_crossbow", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FA1000000000000A"]
+			description: ["&6Was ist das?", "Die Netheritarmbrust, die hoechste Stufe der Armbrueste.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Fuer Nether, Ende und die Boss-Kaempfe."]
+			icon: { id: "archeries:netherite_crossbow" }
+			id: "FA1000000000000B"
+			title: "Netheritarmbrust"
+			rewards: [{ id: "FA3000000000000B", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA2000000000000B", type: "item", item: { id: "archeries:netherite_crossbow", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["FA10000000000001"]
+			description: ["&6Was ist das?", "Der weiche Pfeil, ein besonderer Pfeil der Mod.", "", "&6So gehts", "Rezept und Besonderheit in JEI und im Tooltip nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein Pfeil fuer Sonderfaelle."]
+			icon: { id: "archeries:soft_arrow" }
+			id: "FA1000000000000C"
+			title: "Weicher Pfeil"
+			rewards: [{ id: "FA3000000000000C", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FA2000000000000C", type: "item", item: { id: "archeries:soft_arrow", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["FA1000000000000C"]
+			description: ["&6Was ist das?", "Der Kupferpfeil.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Pfeile in Stufen, passend zu Bogen und Armbrust."]
+			icon: { id: "archeries:copper_arrow" }
+			id: "FA1000000000000D"
+			title: "Kupferpfeil"
+			rewards: [{ id: "FA3000000000000D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "FA2000000000000D", type: "item", item: { id: "archeries:copper_arrow", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["FA1000000000000D"]
+			description: ["&6Was ist das?", "Der Diamantpfeil.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden pro Schuss."]
+			icon: { id: "archeries:diamond_arrow" }
+			id: "FA1000000000000E"
+			title: "Diamantpfeil"
+			rewards: [{ id: "FA3000000000000E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA2000000000000E", type: "item", item: { id: "archeries:diamond_arrow", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["FA1000000000000E"]
+			description: ["&6Was ist das?", "Der Netheritpfeil, die hoechste Pfeilstufe.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Der staerkste normale Pfeil."]
+			icon: { id: "archeries:netherite_arrow" }
+			id: "FA1000000000000F"
+			title: "Netheritpfeil"
+			rewards: [{ id: "FA3000000000000F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA2000000000000F", type: "item", item: { id: "archeries:netherite_arrow", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["FA1000000000000F"]
+			description: ["&6Was ist das?", "Der Leuchtspurpfeil markiert seine Flugbahn.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Du siehst, wohin du schiesst, und kannst Ziele besser verfolgen."]
+			icon: { id: "archeries:tracer_arrow" }
+			id: "FA10000000000010"
+			title: "Leuchtspurpfeil"
+			rewards: [{ id: "FA30000000000010", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA20000000000010", type: "item", item: { id: "archeries:tracer_arrow", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["FA10000000000010"]
+			description: ["&6Was ist das?", "Der Explosionspfeil explodiert beim Aufprall.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Mit Vorsicht benutzen: er kann Bloecke zerstoeren."]
+			icon: { id: "archeries:explosive_arrow" }
+			id: "FA10000000000011"
+			title: "Explosionspfeil"
+			rewards: [{ id: "FA30000000000011", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA20000000000011", type: "item", item: { id: "archeries:explosive_arrow", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["FA10000000000011"]
+			description: ["&6Was ist das?", "Der Echopfeil, ein besonderer Pfeil mit Sculk-Material.", "", "&6So gehts", "Rezept und Besonderheit in JEI und im Tooltip nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Ein Sonderpfeil fuer Sammler und fortgeschrittene Kaempfer."]
+			icon: { id: "archeries:echoing_arrow" }
+			id: "FA10000000000012"
+			title: "Echopfeil"
+			rewards: [{ id: "FA30000000000012", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "FA20000000000012", type: "item", item: { id: "archeries:echoing_arrow", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 4.0d
+		}
+	]
+}
