@@ -1,0 +1,473 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexsmobs"
+	icon: { id: "alexsmobs:animal_dictionary" }
+	id: "A5000000000FFFF0"
+	order_index: 18
+	quest_links: [ ]
+	title: "&2Alexs Mobs"
+	quests: [
+		{
+			description: ["&6Was ist das?", "Alexs Mobs bringt ueber 80 neue Tiere und Monster in die Oberwelt, den Nether und das Ende, mit eigenen Items.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Nimm das Tierbuch mit und erkunde verschiedene Biome.", "", "&6Wofuer ist das wichtig?", "Viele Tiere liefern einzigartige Ausruestung und Essen."]
+			icon: { id: "alexsmobs:animal_dictionary" }
+			id: "A510000000000001"
+			title: "Alexs Mobs"
+			rewards: []
+			tasks: [{ id: "A520000000000001", type: "checkmark" }]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A510000000000001"]
+			description: ["&6Was ist das?", "Das Tierbuch erklaert jedes Tier der Mod: Fundort, Verhalten und Beute.", "", "&6So gehts", "Rezept in JEI nachschlagen. Rechtsklick auf ein Tier zeigt dessen Seite.", "", "&6Wofuer ist das wichtig?", "Du weisst, wo du was findest."]
+			icon: { id: "alexsmobs:animal_dictionary" }
+			id: "A510000000000002"
+			title: "Tierbuch"
+			rewards: [{ id: "A530000000000002", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A520000000000002", type: "item", item: { id: "alexsmobs:animal_dictionary", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000002"]
+			description: ["&6Was ist das?", "Bananen wachsen an einer Palme und sind Futter fuer viele Tiere.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein einfacher Snack und Tierfutter."]
+			icon: { id: "alexsmobs:banana" }
+			id: "A510000000000003"
+			title: "Banane"
+			rewards: [{ id: "A530000000000003", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000003", type: "item", item: { id: "alexsmobs:banana", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000003"]
+			description: ["&6Was ist das?", "Ein Futterspender fuer Kolibris.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufhaengen.", "", "&6Wofuer ist das wichtig?", "Kolibris kommen zu deinem Garten."]
+			icon: { id: "alexsmobs:hummingbird_feeder" }
+			id: "A510000000000004"
+			title: "Kolibri-Futterspender"
+			rewards: [{ id: "A530000000000004", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000004", type: "item", item: { id: "alexsmobs:hummingbird_feeder", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000004"]
+			description: ["&6Was ist das?", "Gebratener Wels, ein Fisch aus Fluessen und Sumpf.", "", "&6So gehts", "Rohen Wels fangen und im Ofen braten.", "", "&6Wofuer ist das wichtig?", "Gutes Essen aus dem Wasser."]
+			icon: { id: "alexsmobs:cooked_catfish" }
+			id: "A510000000000005"
+			title: "Gebratener Wels"
+			rewards: [{ id: "A530000000000005", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000005", type: "item", item: { id: "alexsmobs:cooked_catfish", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000005"]
+			description: ["&6Was ist das?", "Gebratener Hummerschwanz.", "", "&6So gehts", "Hummer in Gewaessern fangen, Schwanz braten.", "", "&6Wofuer ist das wichtig?", "Sattes Essen aus dem Meer."]
+			icon: { id: "alexsmobs:cooked_lobster_tail" }
+			id: "A510000000000006"
+			title: "Hummerschwanz"
+			rewards: [{ id: "A530000000000006", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000006", type: "item", item: { id: "alexsmobs:cooked_lobster_tail", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000006"]
+			description: ["&6Was ist das?", "Gebratene Elchrippen.", "", "&6So gehts", "Elche in kalten Biomen jagen und das Fleisch braten.", "", "&6Wofuer ist das wichtig?", "Sehr sattes Fleisch."]
+			icon: { id: "alexsmobs:cooked_moose_ribs" }
+			id: "A510000000000007"
+			title: "Elchrippen"
+			rewards: [{ id: "A530000000000007", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000007", type: "item", item: { id: "alexsmobs:cooked_moose_ribs", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000007"]
+			description: ["&6Was ist das?", "Gebratenes Kaenguru-Fleisch.", "", "&6So gehts", "Kaengurus in Savannen und Wuesten jagen, Fleisch braten.", "", "&6Wofuer ist das wichtig?", "Zutat fuer den Kaenguru-Burger."]
+			icon: { id: "alexsmobs:cooked_kangaroo_meat" }
+			id: "A510000000000008"
+			title: "Kaenguru-Fleisch"
+			rewards: [{ id: "A530000000000008", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000008", type: "item", item: { id: "alexsmobs:cooked_kangaroo_meat", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000008"]
+			description: ["&6Was ist das?", "Ein Burger aus Kaenguru-Fleisch.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sattes Essen fuer unterwegs."]
+			icon: { id: "alexsmobs:kangaroo_burger" }
+			id: "A510000000000009"
+			title: "Kaenguru-Burger"
+			rewards: [{ id: "A530000000000009", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A520000000000009", type: "item", item: { id: "alexsmobs:kangaroo_burger", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A510000000000002"]
+			description: ["&6Was ist das?", "Gebratener Reis mit Garnelen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein starkes Gericht der Mod."]
+			icon: { id: "alexsmobs:shrimp_fried_rice" }
+			id: "A51000000000000A"
+			title: "Garnelen-Reis"
+			rewards: [{ id: "A53000000000000A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A52000000000000A", type: "item", item: { id: "alexsmobs:shrimp_fried_rice", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A51000000000000A"]
+			description: ["&6Was ist das?", "Eine Suppe nach Rezept der Affen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Besondere Suppe mit guten Werten."]
+			icon: { id: "alexsmobs:sopa_de_macaco" }
+			id: "A51000000000000B"
+			title: "Sopa de Macaco"
+			rewards: [{ id: "A53000000000000B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A52000000000000B", type: "item", item: { id: "alexsmobs:sopa_de_macaco", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A51000000000000B"]
+			description: ["&6Was ist das?", "Eintopf, der Mosquitos fernhaelt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Schutz vor den blutsaugenden Mosquitos."]
+			icon: { id: "alexsmobs:mosquito_repellent_stew" }
+			id: "A51000000000000C"
+			title: "Mosquito-Eintopf"
+			rewards: [{ id: "A53000000000000C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A52000000000000C", type: "item", item: { id: "alexsmobs:mosquito_repellent_stew", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A51000000000000C"]
+			description: ["&6Was ist das?", "Ein gekochtes Emu-Ei.", "", "&6So gehts", "Emu-Ei in den Ofen legen.", "", "&6Wofuer ist das wichtig?", "Einfaches, sattes Essen."]
+			icon: { id: "alexsmobs:boiled_emu_egg" }
+			id: "A51000000000000D"
+			title: "Gekochtes Emu-Ei"
+			rewards: [{ id: "A53000000000000D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A52000000000000D", type: "item", item: { id: "alexsmobs:boiled_emu_egg", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A510000000000002"]
+			description: ["&6Was ist das?", "Die Krokodil-Brustplatte aus Krokodil-Schuppen.", "", "&6So gehts", "Schuppen von Krokodilen sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Ruestung mit besonderen Faehigkeiten."]
+			icon: { id: "alexsmobs:crocodile_chestplate" }
+			id: "A51000000000000E"
+			title: "Krokodil-Brustplatte"
+			rewards: [{ id: "A53000000000000E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A52000000000000E", type: "item", item: { id: "alexsmobs:crocodile_chestplate", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A51000000000000E"]
+			description: ["&6Was ist das?", "Rennkuckuck-Stiefel machen dich schneller.", "", "&6So gehts", "Federn von Rennkuckucks sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Schnell laufen."]
+			icon: { id: "alexsmobs:roadrunner_boots" }
+			id: "A51000000000000F"
+			title: "Rennkuckuck-Stiefel"
+			rewards: [{ id: "A53000000000000F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A52000000000000F", type: "item", item: { id: "alexsmobs:roadrunner_boots", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A51000000000000F"]
+			description: ["&6Was ist das?", "Emu-Hosen aus Emu-Federn.", "", "&6So gehts", "Federn sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Leichte Ruestung mit Emu-Kraft."]
+			icon: { id: "alexsmobs:emu_leggings" }
+			id: "A510000000000010"
+			title: "Emu-Hosen"
+			rewards: [{ id: "A530000000000010", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000010", type: "item", item: { id: "alexsmobs:emu_leggings", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A510000000000010"]
+			description: ["&6Was ist das?", "Panzerwalzen-Brustplatte aus Schalen.", "", "&6So gehts", "Panzerwalzen jagen, Schalen sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Robuste Ruestung."]
+			icon: { id: "alexsmobs:rocky_chestplate" }
+			id: "A510000000000011"
+			title: "Panzer-Brustplatte"
+			rewards: [{ id: "A530000000000011", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000011", type: "item", item: { id: "alexsmobs:rocky_chestplate", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A510000000000011"]
+			description: ["&6Was ist das?", "Fliegende-Fisch-Stiefel.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Besondere Stiefel fuer Wasser und Luft."]
+			icon: { id: "alexsmobs:flying_fish_boots" }
+			id: "A510000000000012"
+			title: "Fliegender-Fisch-Stiefel"
+			rewards: [{ id: "A530000000000012", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000012", type: "item", item: { id: "alexsmobs:flying_fish_boots", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A510000000000012"]
+			description: ["&6Was ist das?", "Tausendfuessler-Hosen.", "", "&6So gehts", "Tausendfuessler jagen, Beine sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Ruestung mit Spezialeffekt."]
+			icon: { id: "alexsmobs:centipede_leggings" }
+			id: "A510000000000013"
+			title: "Tausendfuessler-Hosen"
+			rewards: [{ id: "A530000000000013", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000013", type: "item", item: { id: "alexsmobs:centipede_leggings", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A510000000000013"]
+			description: ["&6Was ist das?", "Das Elch-Geweih als Kopfbedeckung.", "", "&6So gehts", "Elche jagen, Geweih sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Ein Kopfschutz mit Effekt."]
+			icon: { id: "alexsmobs:moose_headgear" }
+			id: "A510000000000014"
+			title: "Elch-Geweih"
+			rewards: [{ id: "A530000000000014", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000014", type: "item", item: { id: "alexsmobs:moose_headgear", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A510000000000014"]
+			description: ["&6Was ist das?", "Der Frostschleicher-Helm.", "", "&6So gehts", "Frostschleicher in kalten Hoehlen jagen, Horn sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Ein besonderer Helm der Kaelte."]
+			icon: { id: "alexsmobs:froststalker_helmet" }
+			id: "A510000000000015"
+			title: "Frostschleicher-Helm"
+			rewards: [{ id: "A530000000000015", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000015", type: "item", item: { id: "alexsmobs:froststalker_helmet", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["A510000000000002"]
+			description: ["&6Was ist das?", "Ein Fedora-Hut, rein fuers Aussehen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer den Abenteurer-Look."]
+			icon: { id: "alexsmobs:fedora" }
+			id: "A510000000000016"
+			title: "Fedora"
+			rewards: [{ id: "A530000000000016", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000016", type: "item", item: { id: "alexsmobs:fedora", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A510000000000016"]
+			description: ["&6Was ist das?", "Ein Sombrero.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Dekorativer Hut."]
+			icon: { id: "alexsmobs:sombrero" }
+			id: "A510000000000017"
+			title: "Sombrero"
+			rewards: [{ id: "A530000000000017", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000017", type: "item", item: { id: "alexsmobs:sombrero", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A510000000000017"]
+			description: ["&6Was ist das?", "Die Grenzland-Muetze.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Dekorative Kopfbedeckung."]
+			icon: { id: "alexsmobs:frontier_cap" }
+			id: "A510000000000018"
+			title: "Grenzland-Muetze"
+			rewards: [{ id: "A530000000000018", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A520000000000018", type: "item", item: { id: "alexsmobs:frontier_cap", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A510000000000018"]
+			description: ["&6Was ist das?", "Der Straddler-Helm aus dem Nether.", "", "&6So gehts", "Straddlite sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Ein besonderer Helm aus dem Nether."]
+			icon: { id: "alexsmobs:straddle_helmet" }
+			id: "A510000000000019"
+			title: "Straddler-Helm"
+			rewards: [{ id: "A530000000000019", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000019", type: "item", item: { id: "alexsmobs:straddle_helmet", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A510000000000019"]
+			description: ["&6Was ist das?", "Der Heiligenschein, ein seltenes Kopf-Item.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein Sammlerstueck."]
+			icon: { id: "alexsmobs:halo" }
+			id: "A51000000000001A"
+			title: "Heiligenschein"
+			rewards: [{ id: "A53000000000001A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A52000000000001A", type: "item", item: { id: "alexsmobs:halo", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["A510000000000002"]
+			description: ["&6Was ist das?", "Mit dem Lianen-Lasso ziehst du dich zu Bloecken oder Gegnern.", "", "&6So gehts", "Rezept in JEI nachschlagen, Rechtsklick benutzen.", "", "&6Wofuer ist das wichtig?", "Schnelle Fortbewegung und Kampf aus der Ferne."]
+			icon: { id: "alexsmobs:vine_lasso" }
+			id: "A51000000000001B"
+			title: "Lianen-Lasso"
+			rewards: [{ id: "A53000000000001B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A52000000000001B", type: "item", item: { id: "alexsmobs:vine_lasso", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A51000000000001B"]
+			description: ["&6Was ist das?", "Der Falknerhandschuh, mit dem du Greifvoegel haeltst und losschickst.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Dein Vogel greift Gegner an."]
+			icon: { id: "alexsmobs:falconry_glove" }
+			id: "A51000000000001C"
+			title: "Falknerhandschuh"
+			rewards: [{ id: "A53000000000001C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A52000000000001C", type: "item", item: { id: "alexsmobs:falconry_glove", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A51000000000001C"]
+			description: ["&6Was ist das?", "Die Sehnen-Peitsche, eine Waffe mit Reichweite.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Schlaege aus mehreren Bloecken Entfernung."]
+			icon: { id: "alexsmobs:tendon_whip" }
+			id: "A51000000000001D"
+			title: "Sehnen-Peitsche"
+			rewards: [{ id: "A53000000000001D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A52000000000001D", type: "item", item: { id: "alexsmobs:tendon_whip", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A51000000000001D"]
+			description: ["&6Was ist das?", "Das Skelewag-Schwert aus dem Meer.", "", "&6So gehts", "Skelewag-Zaehne sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Eine besondere Waffe."]
+			icon: { id: "alexsmobs:skelewag_sword" }
+			id: "A51000000000001E"
+			title: "Skelewag-Schwert"
+			rewards: [{ id: "A53000000000001E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A52000000000001E", type: "item", item: { id: "alexsmobs:skelewag_sword", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A51000000000001E"]
+			description: ["&6Was ist das?", "Der Schild der Tiefe.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein Schild mit Spezialeffekt."]
+			icon: { id: "alexsmobs:shield_of_the_deep" }
+			id: "A51000000000001F"
+			title: "Schild der Tiefe"
+			rewards: [{ id: "A53000000000001F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A52000000000001F", type: "item", item: { id: "alexsmobs:shield_of_the_deep", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A51000000000001F"]
+			description: ["&6Was ist das?", "Der Tintenfisch-Enterhaken.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Schnell hinueberschwingen."]
+			icon: { id: "alexsmobs:squid_grapple" }
+			id: "A510000000000020"
+			title: "Tintenfisch-Haken"
+			rewards: [{ id: "A530000000000020", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000020", type: "item", item: { id: "alexsmobs:squid_grapple", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A510000000000020"]
+			description: ["&6Was ist das?", "Der Haemolymphen-Blaster.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Eine ungewoehnliche Fernkampfwaffe."]
+			icon: { id: "alexsmobs:hemolymph_blaster" }
+			id: "A510000000000021"
+			title: "Haemolymphen-Blaster"
+			rewards: [{ id: "A530000000000021", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000021", type: "item", item: { id: "alexsmobs:hemolymph_blaster", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A510000000000021"]
+			description: ["&6Was ist das?", "Die Geisterspitzhacke.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Spezielle Spitzhacke fuer besondere Zwecke."]
+			icon: { id: "alexsmobs:ghostly_pickaxe" }
+			id: "A510000000000022"
+			title: "Geisterspitzhacke"
+			rewards: [{ id: "A530000000000022", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000022", type: "item", item: { id: "alexsmobs:ghostly_pickaxe", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["A510000000000002"]
+			description: ["&6Was ist das?", "Das Straddleboard ist ein Brett zum Fahren ueber Lava.", "", "&6So gehts", "Straddlite sammeln, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Schnell ueber Lavaseen im Nether."]
+			icon: { id: "alexsmobs:straddleboard" }
+			id: "A510000000000023"
+			title: "Straddleboard"
+			rewards: [{ id: "A530000000000023", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000023", type: "item", item: { id: "alexsmobs:straddleboard", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000023"]
+			description: ["&6Was ist das?", "Die Dimensionsklinge, ein sehr seltenes Item aus dem Ende.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein Sammlerstueck aus dem Ende."]
+			icon: { id: "alexsmobs:dimensional_carver" }
+			id: "A510000000000024"
+			title: "Dimensions-Schneider"
+			rewards: [{ id: "A530000000000024", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "A520000000000024", type: "item", item: { id: "alexsmobs:dimensional_carver", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000024"]
+			description: ["&6Was ist das?", "Der Transmutationstisch tauscht Items gegen andere.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Seltene Items der Mod bekommst du hier."]
+			icon: { id: "alexsmobs:transmutation_table" }
+			id: "A510000000000025"
+			title: "Transmutationstisch"
+			rewards: [{ id: "A530000000000025", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000025", type: "item", item: { id: "alexsmobs:transmutation_table", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000025"]
+			description: ["&6Was ist das?", "Der Windmacher erzeugt einen Windstoss.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zum Wegschleudern oder fuer Spruenge."]
+			icon: { id: "alexsmobs:gustmaker" }
+			id: "A510000000000026"
+			title: "Windmacher"
+			rewards: [{ id: "A530000000000026", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "A520000000000026", type: "item", item: { id: "alexsmobs:gustmaker", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000026"]
+			description: ["&6Was ist das?", "Taschensand blendet Gegner.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zum Fliehen aus schwierigen Kaempfen."]
+			icon: { id: "alexsmobs:pocket_sand" }
+			id: "A510000000000027"
+			title: "Taschensand"
+			rewards: [{ id: "A530000000000027", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A520000000000027", type: "item", item: { id: "alexsmobs:pocket_sand", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000027"]
+			description: ["&6Was ist das?", "Das Wurm-Standbild, ein seltenes Item vom Leerenwurm.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zum Herbeirufen eines Bosses."]
+			icon: { id: "alexsmobs:void_worm_effigy" }
+			id: "A510000000000028"
+			title: "Leerenwurm-Standbild"
+			rewards: [{ id: "A530000000000028", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "A520000000000028", type: "item", item: { id: "alexsmobs:void_worm_effigy", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000028"]
+			description: ["&6Was ist das?", "Die Musikplatte Daze.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sammlerstueck."]
+			icon: { id: "alexsmobs:music_disc_daze" }
+			id: "A510000000000029"
+			title: "Platte: Daze"
+			rewards: []
+			tasks: [{ id: "A520000000000029", type: "item", item: { id: "alexsmobs:music_disc_daze", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["A510000000000029"]
+			description: ["&6Was ist das?", "Die Musikplatte Thime.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sammlerstueck."]
+			icon: { id: "alexsmobs:music_disc_thime" }
+			id: "A51000000000002A"
+			title: "Platte: Thime"
+			rewards: []
+			tasks: [{ id: "A52000000000002A", type: "item", item: { id: "alexsmobs:music_disc_thime", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 10.0d
+		}
+	]
+}
