@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "apothic"
 	icon: { id: "minecraft:enchanted_book" }
-	id: "AE0000000000FFFF"
+	id: "5F9FB94190625AE8"
 	order_index: 13
 	quest_links: [ ]
 	title: "&dVerzauberung (Apothic)"
@@ -12,692 +12,692 @@
 			dependencies: ["1DB3F417D7AE0137"]
 			description: ["&6Was ist das?", "Dieses Kapitel erklaert Apothic Enchanting Schritt fuer Schritt: Werte, Regale, Buecher und Maschinen.", "", "&6So gehts", "Gehe die Reihen von oben nach unten durch. Alle Quests hier sind freiwillig. Du musst nichts davon fertig haben.", "", "&6Wofuer ist das wichtig?", "Gute Verzauberungen machen Waffen und Ruestung fuer die Bosse viel staerker."]
 			icon: { id: "minecraft:enchanted_book" }
-			id: "AE10000000000001"
+			id: "7C303C5E4B7608E0"
 			title: "Verzauberung (Apothic)"
 			rewards: []
-			tasks: [{ id: "AE20000000000001", type: "checkmark" }]
+			tasks: [{ id: "038FAE9F61B4B2C9", type: "checkmark" }]
 			x: 0.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["AE10000000000001"]
+			dependencies: ["7C303C5E4B7608E0"]
 			description: ["&6Was ist das?", "Eterna ist die Staerke deines Verzauberungstischs. Sie bestimmt, wie hoch die Stufe der Verzauberung sein kann.", "", "&6So gehts", "Eterna kommt von den Regalen um den Tisch. Fahre mit der Maus ueber den Tisch, um den Wert zu sehen.", "", "&6Wofuer ist das wichtig?", "Ohne genug Eterna bleiben starke Verzauberungen unerreichbar."]
 			icon: { id: "minecraft:lapis_lazuli" }
-			id: "AE10000000000002"
+			id: "38115819797BA204"
 			title: "Eterna: Staerke"
-			rewards: [{ id: "AE30000000000002", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000002", type: "checkmark" }]
+			rewards: [{ id: "4708139E1946CA77", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "4123494EEFB7488A", type: "checkmark" }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE10000000000002"]
+			dependencies: ["38115819797BA204"]
 			description: ["&6Was ist das?", "Quanta bestimmt, wie stark die Stufe der Verzauberung schwanken kann, also wie viel Zufall im Spiel ist.", "", "&6So gehts", "Auch Quanta kommt von den Regalen. Im Tisch siehst du den Wert.", "", "&6Wofuer ist das wichtig?", "Mit gezielter Quanta kannst du Ergebnisse verlaesslicher oder mutiger machen."]
 			icon: { id: "minecraft:amethyst_shard" }
-			id: "AE10000000000003"
+			id: "5EA3EE051D0B69AB"
 			title: "Quanta: Zufall"
-			rewards: [{ id: "AE30000000000003", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000003", type: "checkmark" }]
+			rewards: [{ id: "1BD2D545C17C1331", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "609F4C49E90B735A", type: "checkmark" }]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE10000000000003"]
+			dependencies: ["5EA3EE051D0B69AB"]
 			description: ["&6Was ist das?", "Arcana bestimmt, wie viele und wie seltene Verzauberungen zusammen auf einem Gegenstand landen koennen.", "", "&6So gehts", "Arcana kommt ebenfalls von den Regalen. Mehr Arcana bedeutet mehr Verzauberungen auf einmal.", "", "&6Wofuer ist das wichtig?", "Fuer Gegenstaende mit vielen guten Verzauberungen gleichzeitig."]
 			icon: { id: "minecraft:ender_eye" }
-			id: "AE10000000000004"
+			id: "462876583536DBDA"
 			title: "Arcana: Vielfalt"
-			rewards: [{ id: "AE30000000000004", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000004", type: "checkmark" }]
+			rewards: [{ id: "01A2443DB401A6FA", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "4B2BCFDE1160A77A", type: "checkmark" }]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE10000000000004"]
+			dependencies: ["462876583536DBDA"]
 			description: ["&6Was ist das?", "Im Tisch siehst du Hinweise, welche Verzauberungen du ungefaehr bekommen wirst.", "", "&6So gehts", "Lege einen Gegenstand und Lapis in den Tisch und waehle eine der drei Stufen.", "", "&6Wofuer ist das wichtig?", "Du kannst vorher entscheiden, ob sich die Stufe lohnt."]
 			icon: { id: "minecraft:enchanting_table" }
-			id: "AE10000000000005"
+			id: "2E221E561B497347"
 			title: "Hinweise lesen"
-			rewards: [{ id: "AE30000000000005", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000005", type: "checkmark" }]
+			rewards: [{ id: "55045BC045E0A92C", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "6145C2D3C090D13F", type: "checkmark" }]
 			x: 6.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE10000000000005"]
+			dependencies: ["2E221E561B497347"]
 			description: ["&6Was ist das?", "Der Apothic-Verzauberungstisch ersetzt den normalen Tisch und zeigt alle neuen Werte.", "", "&6So gehts", "Rezept in JEI nachschlagen. Stelle ihn mitten in einen Kreis aus Regalen.", "", "&6Wofuer ist das wichtig?", "Er ist der Kern fuer alles in diesem Kapitel."]
 			icon: { id: "apothic_enchanting:apothic_enchanting_table" }
-			id: "AE10000000000006"
+			id: "35E95EE251B41A52"
 			title: "Apothic-Tisch"
-			rewards: [{ id: "AE30000000000006", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000006", type: "item", item: { id: "apothic_enchanting:apothic_enchanting_table", count: 1 }, count: 1L }]
+			rewards: [{ id: "096BA74A4F43F354", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "28E825BF931BFA9B", type: "item", item: { id: "apothic_enchanting:apothic_enchanting_table", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE10000000000006"]
+			dependencies: ["35E95EE251B41A52"]
 			description: ["&6Was ist das?", "Eine dekorative Variante des Verzauberungstischs im Raben-Stil.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Reine Optik fuer deine Verzauberungs-Ecke."]
 			icon: { id: "apothic_enchanting:raven_enchanting_table" }
-			id: "AE10000000000007"
+			id: "0C7E6CD5459BD241"
 			title: "Raben-Tisch"
-			rewards: [{ id: "AE30000000000007", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000007", type: "item", item: { id: "apothic_enchanting:raven_enchanting_table", count: 1 }, count: 1L }]
+			rewards: [{ id: "12323B68393E5BE1", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "796E2C5FBF4828AA", type: "item", item: { id: "apothic_enchanting:raven_enchanting_table", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE10000000000002"]
+			dependencies: ["38115819797BA204"]
 			description: ["&6Was ist das?", "Das einfache Buecherregal fuer den Anfang.", "", "&6So gehts", "Rezept in JEI nachschlagen. Stelle Regale in einem Ring um den Tisch, mit einem Block Luft dazwischen.", "", "&6Wofuer ist das wichtig?", "Der Einstieg in hoehere Stufen."]
 			icon: { id: "apothic_enchanting:basic_bookshelf" }
-			id: "AE10000000000008"
+			id: "1667C518C798C97F"
 			title: "Einfaches Regal"
-			rewards: [{ id: "AE30000000000008", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000008", type: "item", item: { id: "apothic_enchanting:basic_bookshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "433908BF6997684E", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1DA8DBC74995E579", type: "item", item: { id: "apothic_enchanting:basic_bookshelf", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE10000000000008"]
+			dependencies: ["1667C518C798C97F"]
 			description: ["&6Was ist das?", "Ein Regal aus Stein. Es bringt andere Werte als das einfache Regal.", "", "&6So gehts", "Rezept in JEI nachschlagen. Tooltip zeigt die Werte.", "", "&6Wofuer ist das wichtig?", "Du kannst die Werte deines Tischs fein abstimmen."]
 			icon: { id: "apothic_enchanting:stoneshelf" }
-			id: "AE10000000000009"
+			id: "5532E40A450FB92D"
 			title: "Steinregal"
-			rewards: [{ id: "AE30000000000009", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE20000000000009", type: "item", item: { id: "apothic_enchanting:stoneshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "7F11B43A49542F79", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "38626FE9199A17FB", type: "item", item: { id: "apothic_enchanting:stoneshelf", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE10000000000009"]
+			dependencies: ["5532E40A450FB92D"]
 			description: ["&6Was ist das?", "Das Bienenregal aus Waben.", "", "&6So gehts", "Rezept in JEI nachschlagen. Waben bekommst du von Bienenstoecken.", "", "&6Wofuer ist das wichtig?", "Ein Regal mit eigenen Werten und eigener Rolle am Tisch."]
 			icon: { id: "apothic_enchanting:beeshelf" }
-			id: "AE1000000000000A"
+			id: "1965170882D330EF"
 			title: "Bienenregal"
-			rewards: [{ id: "AE3000000000000A", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE2000000000000A", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "4347E8957CFF1DF0", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "33494CFB759FFBA2", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE1000000000000A"]
+			dependencies: ["1965170882D330EF"]
 			description: ["&6Was ist das?", "Das Melonenregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Noch eine Moeglichkeit, die Werte des Tischs zu mischen."]
 			icon: { id: "apothic_enchanting:melonshelf" }
-			id: "AE1000000000000B"
+			id: "441767F4CFFF1B9B"
 			title: "Melonenregal"
-			rewards: [{ id: "AE3000000000000B", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE2000000000000B", type: "item", item: { id: "apothic_enchanting:melonshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "204485828419C23B", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "5ED9DCAA4FAD2E5F", type: "item", item: { id: "apothic_enchanting:melonshelf", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE1000000000000B"]
+			dependencies: ["441767F4CFFF1B9B"]
 			description: ["&6Was ist das?", "Das Geodenregal aus Amethyst.", "", "&6So gehts", "Rezept in JEI nachschlagen. Amethyst findest du in Geoden unter der Erde.", "", "&6Wofuer ist das wichtig?", "Ein besonderes Regal fuer fortgeschrittene Tische."]
 			icon: { id: "apothic_enchanting:geode_shelf" }
-			id: "AE1000000000000C"
+			id: "4F34AB1011BDC8FB"
 			title: "Geodenregal"
-			rewards: [{ id: "AE3000000000000C", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE2000000000000C", type: "item", item: { id: "apothic_enchanting:geode_shelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "71440367E144297D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1C88F82DDA426CD1", type: "item", item: { id: "apothic_enchanting:geode_shelf", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE1000000000000C"]
+			dependencies: ["4F34AB1011BDC8FB"]
 			description: ["&6Was ist das?", "Das Sichtregal zeigt dir mehr Hinweise im Tisch.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Du siehst besser, was du bekommst, bevor du bezahlst."]
 			icon: { id: "apothic_enchanting:sightshelf" }
-			id: "AE1000000000000D"
+			id: "3F204AE700C2D1B7"
 			title: "Sichtregal"
-			rewards: [{ id: "AE3000000000000D", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE2000000000000D", type: "item", item: { id: "apothic_enchanting:sightshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "2B9D2E749E7DEF45", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "15E58F322DD6F6DD", type: "item", item: { id: "apothic_enchanting:sightshelf", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE1000000000000D"]
+			dependencies: ["3F204AE700C2D1B7"]
 			description: ["&6Was ist das?", "Die bessere Stufe des Sichtregals mit noch mehr Hinweisen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer alle, die genau planen wollen."]
 			icon: { id: "apothic_enchanting:sightshelf_t2" }
-			id: "AE1000000000000E"
+			id: "521CDB42E63083B1"
 			title: "Sichtregal II"
-			rewards: [{ id: "AE3000000000000E", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "AE2000000000000E", type: "item", item: { id: "apothic_enchanting:sightshelf_t2", count: 1 }, count: 1L }]
+			rewards: [{ id: "587E583E9936D519", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E731229AD700E8B", type: "item", item: { id: "apothic_enchanting:sightshelf_t2", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE1000000000000E"]
+			dependencies: ["521CDB42E63083B1"]
 			description: ["&6Was ist das?", "Das Schatzregal macht Schatz-Verzauberungen moeglich, die sonst nicht am Tisch erscheinen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zum Beispiel Reparatur oder Frostlaeufer direkt am Tisch."]
 			icon: { id: "apothic_enchanting:treasure_shelf" }
-			id: "AE1000000000000F"
+			id: "3C7CE0CE752DC69D"
 			title: "Schatzregal"
-			rewards: [{ id: "AE3000000000000F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000000F", type: "item", item: { id: "apothic_enchanting:treasure_shelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "10AE8487314D2658", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0CA82B6C72563C14", type: "item", item: { id: "apothic_enchanting:treasure_shelf", count: 1 }, count: 1L }]
 			x: 12.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE1000000000000F"]
+			dependencies: ["3C7CE0CE752DC69D"]
 			description: ["&6Was ist das?", "Das Filterregal grenzt ein, welche Verzauberungen angeboten werden.", "", "&6So gehts", "Rezept in JEI nachschlagen. Die Einstellung machst du am Regal selbst.", "", "&6Wofuer ist das wichtig?", "Du kannst unerwuenschte Verzauberungen aussortieren."]
 			icon: { id: "apothic_enchanting:filtering_shelf" }
-			id: "AE10000000000010"
+			id: "64D36AF98E8B4657"
 			title: "Filterregal"
-			rewards: [{ id: "AE30000000000010", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000010", type: "item", item: { id: "apothic_enchanting:filtering_shelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "0AEE5FB7CB43E8BD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5FA54FE58271D81D", type: "item", item: { id: "apothic_enchanting:filtering_shelf", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE10000000000008"]
+			dependencies: ["1667C518C798C97F"]
 			description: ["&6Was ist das?", "Das Hoellenregal ist das Regal aus dem Nether.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst Material aus dem Nether.", "", "&6Wofuer ist das wichtig?", "Der erste Schritt in die starken Nether-Regale."]
 			icon: { id: "apothic_enchanting:hellshelf" }
-			id: "AE10000000000011"
+			id: "6363FCC5B9BBC794"
 			title: "Hoellenregal"
-			rewards: [{ id: "AE30000000000011", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000011", type: "item", item: { id: "apothic_enchanting:hellshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "2285F098192198B8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "491C60F4596E7255", type: "item", item: { id: "apothic_enchanting:hellshelf", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["AE10000000000011"]
+			dependencies: ["6363FCC5B9BBC794"]
 			description: ["&6Was ist das?", "Das leuchtende Hoellenregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Eine Stufe ueber dem einfachen Hoellenregal."]
 			icon: { id: "apothic_enchanting:glowing_hellshelf" }
-			id: "AE10000000000012"
+			id: "0531F4DBC88AA10C"
 			title: "Leuchtendes Hoellenregal"
-			rewards: [{ id: "AE30000000000012", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000012", type: "item", item: { id: "apothic_enchanting:glowing_hellshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "61B8D01DA7DFF119", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "21F4C919C9FCC3AE", type: "item", item: { id: "apothic_enchanting:glowing_hellshelf", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["AE10000000000012"]
+			dependencies: ["0531F4DBC88AA10C"]
 			description: ["&6Was ist das?", "Das lodernde Hoellenregal mit Blaze-Material.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Staerkeres Regal fuer hohe Stufen."]
 			icon: { id: "apothic_enchanting:blazing_hellshelf" }
-			id: "AE10000000000013"
+			id: "22FFE23B518A7332"
 			title: "Lodernes Hoellenregal"
-			rewards: [{ id: "AE30000000000013", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000013", type: "item", item: { id: "apothic_enchanting:blazing_hellshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "379B72C838C58541", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6E087F4FE41BF5DF", type: "item", item: { id: "apothic_enchanting:blazing_hellshelf", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["AE10000000000013"]
+			dependencies: ["22FFE23B518A7332"]
 			description: ["&6Was ist das?", "Das erfuellte Hoellenregal, die hoechste Stufe der Nether-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Fuer dieses Regal brauchst du seltene Zutaten.", "", "&6Wofuer ist das wichtig?", "Fuer die staerksten Verzauberungen am Tisch."]
 			icon: { id: "apothic_enchanting:infused_hellshelf" }
-			id: "AE10000000000014"
+			id: "6D2FCC0F6ED488B9"
 			title: "Erfuelltes Hoellenregal"
-			rewards: [{ id: "AE30000000000014", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000014", type: "item", item: { id: "apothic_enchanting:infused_hellshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "2C4DEAEF4ED395B0", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "500407FAF0EA15A0", type: "item", item: { id: "apothic_enchanting:infused_hellshelf", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["AE10000000000011"]
+			dependencies: ["6363FCC5B9BBC794"]
 			description: ["&6Was ist das?", "Das Seeregal aus dem Meer.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst Material aus dem Ozean.", "", "&6Wofuer ist das wichtig?", "Der Einstieg in die Meer-Regale."]
 			icon: { id: "apothic_enchanting:seashelf" }
-			id: "AE10000000000015"
+			id: "68FDB4D7A0ED657E"
 			title: "Seeregal"
-			rewards: [{ id: "AE30000000000015", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000015", type: "item", item: { id: "apothic_enchanting:seashelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "0C2FF142D4D475D9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0A7F3561D353C6CC", type: "item", item: { id: "apothic_enchanting:seashelf", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["AE10000000000015"]
+			dependencies: ["68FDB4D7A0ED657E"]
 			description: ["&6Was ist das?", "Das Kristall-Seeregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Eine Stufe ueber dem Seeregal."]
 			icon: { id: "apothic_enchanting:crystal_seashelf" }
-			id: "AE10000000000016"
+			id: "0D8228D51E0C7568"
 			title: "Kristall-Seeregal"
-			rewards: [{ id: "AE30000000000016", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000016", type: "item", item: { id: "apothic_enchanting:crystal_seashelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "1BBA706D5EEF2F6F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4E6D8C8B274AABC7", type: "item", item: { id: "apothic_enchanting:crystal_seashelf", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["AE10000000000016"]
+			dependencies: ["0D8228D51E0C7568"]
 			description: ["&6Was ist das?", "Das Herz-Seeregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Staerkeres Meer-Regal fuer hohe Stufen."]
 			icon: { id: "apothic_enchanting:heart_seashelf" }
-			id: "AE10000000000017"
+			id: "340317C20F52532E"
 			title: "Herz-Seeregal"
-			rewards: [{ id: "AE30000000000017", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000017", type: "item", item: { id: "apothic_enchanting:heart_seashelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "71CCC3113B9F83B8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "46A192B6607743FB", type: "item", item: { id: "apothic_enchanting:heart_seashelf", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["AE10000000000017"]
+			dependencies: ["340317C20F52532E"]
 			description: ["&6Was ist das?", "Das erfuellte Seeregal, die hoechste Stufe der Meer-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer die staerksten Verzauberungen am Tisch."]
 			icon: { id: "apothic_enchanting:infused_seashelf" }
-			id: "AE10000000000018"
+			id: "7AD3F56EE2DA5961"
 			title: "Erfuelltes Seeregal"
-			rewards: [{ id: "AE30000000000018", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000018", type: "item", item: { id: "apothic_enchanting:infused_seashelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "0B7BDB3559BC6515", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2893D5E9F12255B0", type: "item", item: { id: "apothic_enchanting:infused_seashelf", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["AE10000000000015"]
+			dependencies: ["68FDB4D7A0ED657E"]
 			description: ["&6Was ist das?", "Das Tiefenregal aus dem Tiefendunkel.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst Material aus den Tiefen.", "", "&6Wofuer ist das wichtig?", "Der Einstieg in die Tiefen-Regale."]
 			icon: { id: "apothic_enchanting:deepshelf" }
-			id: "AE10000000000019"
+			id: "7B97A3921E241ADA"
 			title: "Tiefenregal"
-			rewards: [{ id: "AE30000000000019", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000019", type: "item", item: { id: "apothic_enchanting:deepshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "7601FA32DD48AF72", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "23997A5FE9AF5D34", type: "item", item: { id: "apothic_enchanting:deepshelf", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE10000000000019"]
+			dependencies: ["7B97A3921E241ADA"]
 			description: ["&6Was ist das?", "Das schlummernde Tiefenregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zwischenstufe auf dem Weg zu den besseren Tiefen-Regalen."]
 			icon: { id: "apothic_enchanting:dormant_deepshelf" }
-			id: "AE1000000000001A"
+			id: "7A1047AEC22FA40D"
 			title: "Schlummerndes Tiefenregal"
-			rewards: [{ id: "AE3000000000001A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000001A", type: "item", item: { id: "apothic_enchanting:dormant_deepshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "184F52B742584973", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7B8D901C79E3C6D8", type: "item", item: { id: "apothic_enchanting:dormant_deepshelf", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE1000000000001A"]
+			dependencies: ["7A1047AEC22FA40D"]
 			description: ["&6Was ist das?", "Das Echo-Tiefenregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Staerkere Stufe der Tiefen-Regale."]
 			icon: { id: "apothic_enchanting:echoing_deepshelf" }
-			id: "AE1000000000001B"
+			id: "554989649FACF4A2"
 			title: "Echo-Tiefenregal"
-			rewards: [{ id: "AE3000000000001B", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000001B", type: "item", item: { id: "apothic_enchanting:echoing_deepshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "46077272B0DA06CD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4BCF0DA585C2E298", type: "item", item: { id: "apothic_enchanting:echoing_deepshelf", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE1000000000001B"]
+			dependencies: ["554989649FACF4A2"]
 			description: ["&6Was ist das?", "Das seelenberuehrte Tiefenregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Hohe Stufe der Tiefen-Regale."]
 			icon: { id: "apothic_enchanting:soul_touched_deepshelf" }
-			id: "AE1000000000001C"
+			id: "77F16701FD710E9F"
 			title: "Seelenberuehrtes Tiefenregal"
-			rewards: [{ id: "AE3000000000001C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000001C", type: "item", item: { id: "apothic_enchanting:soul_touched_deepshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "581397B3A54B3AA0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "50E6C4E0352D0C3D", type: "item", item: { id: "apothic_enchanting:soul_touched_deepshelf", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE1000000000001C"]
+			dependencies: ["77F16701FD710E9F"]
 			description: ["&6Was ist das?", "Das erfuellte Tiefenregal, die hoechste Stufe der Tiefen-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Seltene Zutaten noetig.", "", "&6Wofuer ist das wichtig?", "Fuer die staerksten Verzauberungen am Tisch."]
 			icon: { id: "apothic_enchanting:infused_deepshelf" }
-			id: "AE1000000000001D"
+			id: "1068BF974B3CF68E"
 			title: "Erfuelltes Tiefenregal"
-			rewards: [{ id: "AE3000000000001D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE2000000000001D", type: "item", item: { id: "apothic_enchanting:infused_deepshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "3AFD309C6BEA75BA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "49F1829EA76FD76F", type: "item", item: { id: "apothic_enchanting:infused_deepshelf", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE1000000000001D"]
+			dependencies: ["1068BF974B3CF68E"]
 			description: ["&6Was ist das?", "Das Echo-Sculkregal.", "", "&6So gehts", "Rezept in JEI nachschlagen. Sculk findest du in der Tiefe.", "", "&6Wofuer ist das wichtig?", "Ein Zweig der Tiefen-Regale mit eigenen Werten."]
 			icon: { id: "apothic_enchanting:echoing_sculkshelf" }
-			id: "AE1000000000001E"
+			id: "6116A4F587B6ADD8"
 			title: "Echo-Sculkregal"
-			rewards: [{ id: "AE3000000000001E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000001E", type: "item", item: { id: "apothic_enchanting:echoing_sculkshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "61A3F946EF521DB4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "287785719624CC29", type: "item", item: { id: "apothic_enchanting:echoing_sculkshelf", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE1000000000001E"]
+			dependencies: ["6116A4F587B6ADD8"]
 			description: ["&6Was ist das?", "Das seelenberuehrte Sculkregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Die hoehere Stufe des Sculkregals."]
 			icon: { id: "apothic_enchanting:soul_touched_sculkshelf" }
-			id: "AE1000000000001F"
+			id: "35CCBFB9C4125450"
 			title: "Seelenberuehrtes Sculkregal"
-			rewards: [{ id: "AE3000000000001F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000001F", type: "item", item: { id: "apothic_enchanting:soul_touched_sculkshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "1ABD371E6B85673D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "58843B5C19DED7B3", type: "item", item: { id: "apothic_enchanting:soul_touched_sculkshelf", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE10000000000019"]
+			dependencies: ["7B97A3921E241ADA"]
 			description: ["&6Was ist das?", "Das Endregal aus dem Ende.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst Material aus dem Ende.", "", "&6Wofuer ist das wichtig?", "Der Einstieg in die End-Regale."]
 			icon: { id: "apothic_enchanting:endshelf" }
-			id: "AE10000000000020"
+			id: "6351B40A60D6F16F"
 			title: "Endregal"
-			rewards: [{ id: "AE30000000000020", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000020", type: "item", item: { id: "apothic_enchanting:endshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "5EB6FCBA542F1B45", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3C7F0EB37F643608", type: "item", item: { id: "apothic_enchanting:endshelf", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["AE10000000000020"]
+			dependencies: ["6351B40A60D6F16F"]
 			description: ["&6Was ist das?", "Das Perlen-Endregal.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst Enderperlen.", "", "&6Wofuer ist das wichtig?", "Eine Stufe ueber dem einfachen Endregal."]
 			icon: { id: "apothic_enchanting:pearl_endshelf" }
-			id: "AE10000000000021"
+			id: "091141786CC0FEFB"
 			title: "Perlen-Endregal"
-			rewards: [{ id: "AE30000000000021", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000021", type: "item", item: { id: "apothic_enchanting:pearl_endshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "638B42364263D275", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "77AF861C766F8EA4", type: "item", item: { id: "apothic_enchanting:pearl_endshelf", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["AE10000000000021"]
+			dependencies: ["091141786CC0FEFB"]
 			description: ["&6Was ist das?", "Das Drachen-Endregal.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Staerkere Stufe der End-Regale."]
 			icon: { id: "apothic_enchanting:draconic_endshelf" }
-			id: "AE10000000000022"
+			id: "6B7A3E221F2BC4CA"
 			title: "Drachen-Endregal"
-			rewards: [{ id: "AE30000000000022", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000022", type: "item", item: { id: "apothic_enchanting:draconic_endshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "15B2C651F4B982B1", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "78428166D12A626B", type: "item", item: { id: "apothic_enchanting:draconic_endshelf", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["AE10000000000022"]
+			dependencies: ["6B7A3E221F2BC4CA"]
 			description: ["&6Was ist das?", "Das erfuellte Endregal, die hoechste Stufe der End-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Seltene Zutaten noetig.", "", "&6Wofuer ist das wichtig?", "Fuer die allerstaerksten Verzauberungen am Tisch."]
 			icon: { id: "apothic_enchanting:infused_endshelf" }
-			id: "AE10000000000023"
+			id: "7E8A4C888E9CEA2A"
 			title: "Erfuelltes Endregal"
-			rewards: [{ id: "AE30000000000023", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "AE20000000000023", type: "item", item: { id: "apothic_enchanting:infused_endshelf", count: 1 }, count: 1L }]
+			rewards: [{ id: "5218A2FF7319E08C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "6ABC51607898C16F", type: "item", item: { id: "apothic_enchanting:infused_endshelf", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 10.0d
 		}
 		{
-			dependencies: ["AE10000000000020"]
+			dependencies: ["6351B40A60D6F16F"]
 			description: ["&6Was ist das?", "Die Bibliothek speichert Verzauberungen aus Buechern.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege Buecher hinein und hole einzelne Verzauberungen heraus.", "", "&6Wofuer ist das wichtig?", "Ordnung und die Moeglichkeit, gezielt zu verzaubern."]
 			icon: { id: "apothic_enchanting:library" }
-			id: "AE10000000000024"
+			id: "72640A4BABB2E83C"
 			title: "Bibliothek"
-			rewards: [{ id: "AE30000000000024", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000024", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
+			rewards: [{ id: "4DFDAF2D7657BA59", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3E6933586E97FED7", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["AE10000000000024"]
+			dependencies: ["72640A4BABB2E83C"]
 			description: ["&6Was ist das?", "Die Ender-Bibliothek ist die verbesserte Bibliothek und fasst noch mehr.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Mehr Platz fuer deine Verzauberungen."]
 			icon: { id: "apothic_enchanting:ender_library" }
-			id: "AE10000000000025"
+			id: "4237B339D3807FBE"
 			title: "Ender-Bibliothek"
-			rewards: [{ id: "AE30000000000025", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000025", type: "item", item: { id: "apothic_enchanting:ender_library", count: 1 }, count: 1L }]
+			rewards: [{ id: "6EB2F2551A9F2505", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3969D2B53F7D1EA4", type: "item", item: { id: "apothic_enchanting:ender_library", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["AE10000000000025"]
+			dependencies: ["4237B339D3807FBE"]
 			description: ["&6Was ist das?", "Der Schmiedetisch (Reforging Table) gibt Waffen und Ruestung zufaellige Werte-Raenge.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege ein Item hinein und bezahle mit den gezeigten Materialien.", "", "&6Wofuer ist das wichtig?", "Dein Ausruestung bekommt Zusatzwerte, die du sonst nicht haettest."]
 			icon: { id: "minecraft:smithing_table" }
-			id: "AE10000000000026"
+			id: "62DCFAEC7205B7CB"
 			title: "Schmiedetisch"
-			rewards: [{ id: "AE30000000000026", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000026", type: "checkmark" }]
+			rewards: [{ id: "19D152769776E0EE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "462D54E501C07388", type: "checkmark" }]
 			x: 5.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["AE10000000000026"]
+			dependencies: ["62DCFAEC7205B7CB"]
 			description: ["&6Was ist das?", "Der Zerlegetisch (Salvaging Table) zerlegt Ausruestung in ihre Materialien.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege ein Item hinein und nimm Teile davon zurueck.", "", "&6Wofuer ist das wichtig?", "Alte Ausruestung wird wieder zu Rohstoffen."]
 			icon: { id: "minecraft:grindstone" }
-			id: "AE10000000000027"
+			id: "4946E9BB2985FD9C"
 			title: "Zerlegetisch"
-			rewards: [{ id: "AE30000000000027", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000027", type: "checkmark" }]
+			rewards: [{ id: "5757F26E0B6CBFB3", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6BC98F0674A8C0D7", type: "checkmark" }]
 			x: 6.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["AE10000000000027"]
+			dependencies: ["4946E9BB2985FD9C"]
 			description: ["&6Was ist das?", "Der Prismatische Altar ist ein besonderer Block fuer fortgeschrittene Rezepte.", "", "&6So gehts", "Rezept und Verwendung in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer die seltenen Gegenstaende dieses Kapitels."]
 			icon: { id: "minecraft:amethyst_block" }
-			id: "AE10000000000028"
+			id: "491AE9EB8AE8710C"
 			title: "Prismatischer Altar"
-			rewards: [{ id: "AE30000000000028", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000028", type: "checkmark" }]
+			rewards: [{ id: "6E8B0FB88EAE02A6", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2FDB5CC446ED7A4D", type: "checkmark" }]
 			x: 8.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["AE10000000000024"]
+			dependencies: ["72640A4BABB2E83C"]
 			description: ["&6Was ist das?", "Das Schrott-Buch rettet Verzauberungen von alten Items.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einem verzauberten Item benutzen.", "", "&6Wofuer ist das wichtig?", "Gute Verzauberungen gehen nicht mehr verloren."]
 			icon: { id: "apothic_enchanting:scrap_tome" }
-			id: "AE10000000000029"
+			id: "20FDB2C382E9FCA9"
 			title: "Schrott-Buch"
-			rewards: [{ id: "AE30000000000029", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000029", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "08F95417E5AC745C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7FF1FAC4478E0807", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE10000000000029"]
+			dependencies: ["20FDB2C382E9FCA9"]
 			description: ["&6Was ist das?", "Die verbesserte Version des Schrott-Buchs.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Mehr Verzauberungen bleiben erhalten."]
 			icon: { id: "apothic_enchanting:improved_scrap_tome" }
-			id: "AE1000000000002A"
+			id: "540D98359C573640"
 			title: "Verbessertes Schrott-Buch"
-			rewards: [{ id: "AE3000000000002A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000002A", type: "item", item: { id: "apothic_enchanting:improved_scrap_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "4EB2686B6C2906BC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0169031A256C3069", type: "item", item: { id: "apothic_enchanting:improved_scrap_tome", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE1000000000002A"]
+			dependencies: ["540D98359C573640"]
 			description: ["&6Was ist das?", "Das Extraktions-Buch holt Verzauberungen aus einem Item heraus und macht sie zu Buechern.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss benutzen.", "", "&6Wofuer ist das wichtig?", "Du kannst Verzauberungen weitergeben und neu verteilen."]
 			icon: { id: "apothic_enchanting:extraction_tome" }
-			id: "AE1000000000002B"
+			id: "4FE4447B1D11B139"
 			title: "Extraktions-Buch"
-			rewards: [{ id: "AE3000000000002B", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE2000000000002B", type: "item", item: { id: "apothic_enchanting:extraction_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "26B0FB6EB7423549", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3BDEBDCED92563D3", type: "item", item: { id: "apothic_enchanting:extraction_tome", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE1000000000002B"]
+			dependencies: ["4FE4447B1D11B139"]
 			description: ["&6Was ist das?", "Das Waffen-Buch verzaubert Waffen mit einer Auswahl guter Verzauberungen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einer Waffe benutzen.", "", "&6Wofuer ist das wichtig?", "Schnelle Hilfe fuer gute Waffen."]
 			icon: { id: "apothic_enchanting:weapon_tome" }
-			id: "AE1000000000002C"
+			id: "204E49BA63DADB94"
 			title: "Waffen-Buch"
-			rewards: [{ id: "AE3000000000002C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000002C", type: "item", item: { id: "apothic_enchanting:weapon_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "527B9A4B882DC647", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "018831BBF6210668", type: "item", item: { id: "apothic_enchanting:weapon_tome", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE1000000000002C"]
+			dependencies: ["204E49BA63DADB94"]
 			description: ["&6Was ist das?", "Das Spitzhacken-Buch fuer Spitzhacken.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einer Spitzhacke benutzen.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeug-Verzauberungen ohne Tisch."]
 			icon: { id: "apothic_enchanting:pickaxe_tome" }
-			id: "AE1000000000002D"
+			id: "5CF8AEE33ED82E3C"
 			title: "Spitzhacken-Buch"
-			rewards: [{ id: "AE3000000000002D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000002D", type: "item", item: { id: "apothic_enchanting:pickaxe_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "7666CECC0422458A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "79D73030BACD9B0F", type: "item", item: { id: "apothic_enchanting:pickaxe_tome", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE1000000000002D"]
+			dependencies: ["5CF8AEE33ED82E3C"]
 			description: ["&6Was ist das?", "Das Helm-Buch fuer Helme.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einem Helm benutzen.", "", "&6Wofuer ist das wichtig?", "Passende Verzauberungen fuer den Kopf."]
 			icon: { id: "apothic_enchanting:helmet_tome" }
-			id: "AE1000000000002E"
+			id: "6881801C0A57F03B"
 			title: "Helm-Buch"
-			rewards: [{ id: "AE3000000000002E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000002E", type: "item", item: { id: "apothic_enchanting:helmet_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "3F3997806B8FE3C7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "28EB617E1AB4280F", type: "item", item: { id: "apothic_enchanting:helmet_tome", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE1000000000002E"]
+			dependencies: ["6881801C0A57F03B"]
 			description: ["&6Was ist das?", "Das Brustplatten-Buch fuer die Brustplatte.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einer Brustplatte benutzen.", "", "&6Wofuer ist das wichtig?", "Passende Verzauberungen fuer den Koerper."]
 			icon: { id: "apothic_enchanting:chestplate_tome" }
-			id: "AE1000000000002F"
+			id: "6581529FC20E1FCE"
 			title: "Brustplatten-Buch"
-			rewards: [{ id: "AE3000000000002F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE2000000000002F", type: "item", item: { id: "apothic_enchanting:chestplate_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "21957AFD8F3DCDAD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "40BD8D72E9DD3054", type: "item", item: { id: "apothic_enchanting:chestplate_tome", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE1000000000002F"]
+			dependencies: ["6581529FC20E1FCE"]
 			description: ["&6Was ist das?", "Das Hosen-Buch fuer Hosen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit Hosen benutzen.", "", "&6Wofuer ist das wichtig?", "Passende Verzauberungen fuer die Beine."]
 			icon: { id: "apothic_enchanting:leggings_tome" }
-			id: "AE10000000000030"
+			id: "45C6A8EA464B1C3F"
 			title: "Hosen-Buch"
-			rewards: [{ id: "AE30000000000030", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000030", type: "item", item: { id: "apothic_enchanting:leggings_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "53547BADC78DA17E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0E965A090CEE699D", type: "item", item: { id: "apothic_enchanting:leggings_tome", count: 1 }, count: 1L }]
 			x: 12.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["AE10000000000029"]
+			dependencies: ["20FDB2C382E9FCA9"]
 			description: ["&6Was ist das?", "Das Stiefel-Buch fuer Stiefel.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit Stiefeln benutzen.", "", "&6Wofuer ist das wichtig?", "Passende Verzauberungen fuer die Fuesse."]
 			icon: { id: "apothic_enchanting:boots_tome" }
-			id: "AE10000000000031"
+			id: "6AE1806DE6CD45E4"
 			title: "Stiefel-Buch"
-			rewards: [{ id: "AE30000000000031", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000031", type: "item", item: { id: "apothic_enchanting:boots_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "3DDB9DA8016AA712", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "52BA97303E305BD7", type: "item", item: { id: "apothic_enchanting:boots_tome", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 16.0d
 		}
 		{
-			dependencies: ["AE10000000000031"]
+			dependencies: ["6AE1806DE6CD45E4"]
 			description: ["&6Was ist das?", "Das Bogen-Buch fuer Boegen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einem Bogen benutzen.", "", "&6Wofuer ist das wichtig?", "Gut fuer Fernkaempfer."]
 			icon: { id: "apothic_enchanting:bow_tome" }
-			id: "AE10000000000032"
+			id: "4B28A00F7FC7D1E1"
 			title: "Bogen-Buch"
-			rewards: [{ id: "AE30000000000032", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000032", type: "item", item: { id: "apothic_enchanting:bow_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "2AF5F95A9AFAF0C0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7288CAE607186E76", type: "item", item: { id: "apothic_enchanting:bow_tome", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["AE10000000000032"]
+			dependencies: ["4B28A00F7FC7D1E1"]
 			description: ["&6Was ist das?", "Das Angel-Buch fuer Angeln.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einer Angel benutzen.", "", "&6Wofuer ist das wichtig?", "Bessere Beute beim Angeln."]
 			icon: { id: "apothic_enchanting:fishing_tome" }
-			id: "AE10000000000033"
+			id: "04AB06838BCB63EB"
 			title: "Angel-Buch"
-			rewards: [{ id: "AE30000000000033", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000033", type: "item", item: { id: "apothic_enchanting:fishing_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "031E060180466808", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1F892EBAD982A7BE", type: "item", item: { id: "apothic_enchanting:fishing_tome", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 16.0d
 		}
 		{
-			dependencies: ["AE10000000000033"]
+			dependencies: ["04AB06838BCB63EB"]
 			description: ["&6Was ist das?", "Das Allzweck-Buch fuer alle anderen Gegenstaende.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit dem Gegenstand benutzen.", "", "&6Wofuer ist das wichtig?", "Fuer Dinge, die zu keinem anderen Buch passen."]
 			icon: { id: "apothic_enchanting:other_tome" }
-			id: "AE10000000000034"
+			id: "7360A3E6E03812B9"
 			title: "Allzweck-Buch"
-			rewards: [{ id: "AE30000000000034", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000034", type: "item", item: { id: "apothic_enchanting:other_tome", count: 1 }, count: 1L }]
+			rewards: [{ id: "5666A09A541E9880", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2142E0968102918A", type: "item", item: { id: "apothic_enchanting:other_tome", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["AE10000000000031"]
+			dependencies: ["6AE1806DE6CD45E4"]
 			description: ["&6Was ist das?", "Die Waechter-Ranke droppt der Waechter in der Tiefe. Sie wird fuer starke Rezepte gebraucht.", "", "&6So gehts", "Besiege einen Waechter. Sei vorbereitet, er ist sehr stark.", "", "&6Wofuer ist das wichtig?", "Zutat fuer die besten Tiefen-Regale und Buecher."]
 			icon: { id: "apothic_enchanting:warden_tendril" }
-			id: "AE10000000000035"
+			id: "26B1A24FBC854432"
 			title: "Waechter-Ranke"
-			rewards: [{ id: "AE30000000000035", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "AE20000000000035", type: "item", item: { id: "apothic_enchanting:warden_tendril", count: 1 }, count: 1L }]
+			rewards: [{ id: "78F1CEFE43D24C8E", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "51369BC60F0292CA", type: "item", item: { id: "apothic_enchanting:warden_tendril", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE10000000000035"]
+			dependencies: ["26B1A24FBC854432"]
 			description: ["&6Was ist das?", "Erfuellter Atem ist eine seltene Zutat fuer die staerksten Regale.", "", "&6So gehts", "Fundort und Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ohne diese Zutat gibt es kein erfuelltes Endregal."]
 			icon: { id: "apothic_enchanting:infused_breath" }
-			id: "AE10000000000036"
+			id: "167B3931C03E27E7"
 			title: "Erfuellter Atem"
-			rewards: [{ id: "AE30000000000036", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "AE20000000000036", type: "item", item: { id: "apothic_enchanting:infused_breath", count: 1 }, count: 1L }]
+			rewards: [{ id: "0E5251080F313188", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "61615C71089958D9", type: "item", item: { id: "apothic_enchanting:infused_breath", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE10000000000036"]
+			dependencies: ["167B3931C03E27E7"]
 			description: ["&6Was ist das?", "Das Prismatische Netz ist eine seltene Zutat.", "", "&6So gehts", "Fundort und Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Wird fuer fortgeschrittene Rezepte gebraucht."]
 			icon: { id: "apothic_enchanting:prismatic_web" }
-			id: "AE10000000000037"
+			id: "0B4EC35910C4B2C8"
 			title: "Prismatisches Netz"
-			rewards: [{ id: "AE30000000000037", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000037", type: "item", item: { id: "apothic_enchanting:prismatic_web", count: 1 }, count: 1L }]
+			rewards: [{ id: "0F14C7582A531A8C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "55E3EFF7B981269D", type: "item", item: { id: "apothic_enchanting:prismatic_web", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE10000000000037"]
+			dependencies: ["0B4EC35910C4B2C8"]
 			description: ["&6Was ist das?", "Die schwache Ender-Leine.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Erster Schritt auf dem Weg zur besten Ender-Leine."]
 			icon: { id: "apothic_enchanting:flimsy_ender_lead" }
-			id: "AE10000000000038"
+			id: "6A0097E6901FB7FA"
 			title: "Schwache Ender-Leine"
-			rewards: [{ id: "AE30000000000038", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AE20000000000038", type: "item", item: { id: "apothic_enchanting:flimsy_ender_lead", count: 1 }, count: 1L }]
+			rewards: [{ id: "65F49C5F6A10147A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "27D0B3ABB80AEDD6", type: "item", item: { id: "apothic_enchanting:flimsy_ender_lead", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE10000000000038"]
+			dependencies: ["6A0097E6901FB7FA"]
 			description: ["&6Was ist das?", "Die Ender-Leine.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zwischenstufe der Ender-Leinen."]
 			icon: { id: "apothic_enchanting:ender_lead" }
-			id: "AE10000000000039"
+			id: "29FA8585B205B518"
 			title: "Ender-Leine"
-			rewards: [{ id: "AE30000000000039", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE20000000000039", type: "item", item: { id: "apothic_enchanting:ender_lead", count: 1 }, count: 1L }]
+			rewards: [{ id: "4ABF86A66202597D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1877047D74579E6D", type: "item", item: { id: "apothic_enchanting:ender_lead", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE10000000000039"]
+			dependencies: ["29FA8585B205B518"]
 			description: ["&6Was ist das?", "Die okkulte Ender-Leine, die beste Stufe.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer fortgeschrittene Spieler."]
 			icon: { id: "apothic_enchanting:occult_ender_lead" }
-			id: "AE1000000000003A"
+			id: "6F31FCB095F19B06"
 			title: "Okkulte Ender-Leine"
-			rewards: [{ id: "AE3000000000003A", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE2000000000003A", type: "item", item: { id: "apothic_enchanting:occult_ender_lead", count: 1 }, count: 1L }]
+			rewards: [{ id: "307132D0B06E5527", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "67574F8EDBC6B105", type: "item", item: { id: "apothic_enchanting:occult_ender_lead", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE1000000000003A"]
+			dependencies: ["6F31FCB095F19B06"]
 			description: ["&6Was ist das?", "Der inerte Dreizack ist eine Zutat und keine Waffe.", "", "&6So gehts", "Fundort und Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Wird fuer besondere Rezepte gebraucht."]
 			icon: { id: "apothic_enchanting:inert_trident" }
-			id: "AE1000000000003B"
+			id: "6D19C13181065142"
 			title: "Inerter Dreizack"
-			rewards: [{ id: "AE3000000000003B", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "AE2000000000003B", type: "item", item: { id: "apothic_enchanting:inert_trident", count: 1 }, count: 1L }]
+			rewards: [{ id: "1BAE230803D35341", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5C0BB9BB5B6E337F", type: "item", item: { id: "apothic_enchanting:inert_trident", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE1000000000003B"]
+			dependencies: ["6D19C13181065142"]
 			description: ["&6Was ist das?", "Die Musikplatte Arcana.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sammlerstueck zum Entspannen in der Verzauberungs-Ecke."]
 			icon: { id: "apothic_enchanting:music_disc_arcana" }
-			id: "AE1000000000003C"
+			id: "0F20DF0067E92E30"
 			title: "Platte: Arcana"
 			rewards: []
-			tasks: [{ id: "AE2000000000003C", type: "item", item: { id: "apothic_enchanting:music_disc_arcana", count: 1 }, count: 1L }]
+			tasks: [{ id: "4BBBE04DBEE010A0", type: "item", item: { id: "apothic_enchanting:music_disc_arcana", count: 1 }, count: 1L }]
 			x: 12.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE1000000000003C"]
+			dependencies: ["0F20DF0067E92E30"]
 			description: ["&6Was ist das?", "Die Musikplatte Eterna.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sammlerstueck."]
 			icon: { id: "apothic_enchanting:music_disc_eterna" }
-			id: "AE1000000000003D"
+			id: "5B01357741F80A1D"
 			title: "Platte: Eterna"
 			rewards: []
-			tasks: [{ id: "AE2000000000003D", type: "item", item: { id: "apothic_enchanting:music_disc_eterna", count: 1 }, count: 1L }]
+			tasks: [{ id: "482800A810073380", type: "item", item: { id: "apothic_enchanting:music_disc_eterna", count: 1 }, count: 1L }]
 			x: 14.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE1000000000003D"]
+			dependencies: ["5B01357741F80A1D"]
 			description: ["&6Was ist das?", "Die Musikplatte Quanta.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sammlerstueck."]
 			icon: { id: "apothic_enchanting:music_disc_quanta" }
-			id: "AE1000000000003E"
+			id: "22D70368C6A78B64"
 			title: "Platte: Quanta"
 			rewards: []
-			tasks: [{ id: "AE2000000000003E", type: "item", item: { id: "apothic_enchanting:music_disc_quanta", count: 1 }, count: 1L }]
+			tasks: [{ id: "765BB614A3CAF46B", type: "item", item: { id: "apothic_enchanting:music_disc_quanta", count: 1 }, count: 1L }]
 			x: 15.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["AE10000000000014", "AE10000000000018", "AE1000000000001D", "AE10000000000023"]
+			dependencies: ["6D2FCC0F6ED488B9", "7AD3F56EE2DA5961", "1068BF974B3CF68E", "7E8A4C888E9CEA2A"]
 			description: ["&6Was ist das?", "Du hast die hoechsten Regale jeder Art gebaut. Damit hast du alles in diesem Kapitel erreicht.", "", "&6So gehts", "Baue die vier erfuellten Regale (Hoelle, See, Tiefe, Ende) und stelle sie rund um einen Verzauberungstisch.", "", "&6Wofuer ist das wichtig?", "Dein Tisch kann jetzt die besten Verzauberungen anbieten."]
 			icon: { id: "minecraft:nether_star" }
-			id: "AE1000000000003F"
+			id: "658F0B247E4F0A85"
 			title: "Meister der Verzauberung"
-			rewards: [{ id: "AE3000000000003F", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "AE2000000000003F", type: "checkmark" }]
+			rewards: [{ id: "402517371BFC58CE", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "4D081AE71B24DBF9", type: "checkmark" }]
 			x: 17.0d
 			y: 9.0d
 		}
