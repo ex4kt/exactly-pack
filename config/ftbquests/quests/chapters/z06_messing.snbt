@@ -711,5 +711,159 @@
 			x: 12.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["79C5111ED6A1E634"]
+			description: ["&6Was ist das?", "Create: New Age erweitert Create um echte Elektrizitaet. Kupferdraht ist die Grundlage aller Stromteile.", "", "&6So gehts", "Rezept in JEI nachschlagen und herstellen.", "", "&6Wofuer ist das wichtig?", "Ohne Draht kein Generator und keine Verbindungen."]
+			icon: { id: "create_new_age:copper_wire" }
+			id: "72C6150EA283BB25"
+			title: "Kupferdraht (New Age)"
+			rewards: [{ id: "1DAFC9BE159693A5", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1BDBE380AF021131", type: "item", item: { id: "create_new_age:copper_wire", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["72C6150EA283BB25"]
+			description: ["&6Was ist das?", "Die Generatorspule wandelt Drehkraft in Strom um.", "", "&6So gehts", "Rezept in JEI nachschlagen. Sie braucht Magnete und Draht.", "", "&6Wofuer ist das wichtig?", "Sie ist das Herz jedes Generators."]
+			icon: { id: "create_new_age:generator_coil" }
+			id: "8904C6C0693B7792"
+			title: "Generatorspule"
+			rewards: [{ id: "19D4AED6BED7B1DF", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "F03E525DFCB9D495", type: "item", item: { id: "create_new_age:generator_coil", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["8904C6C0693B7792"]
+			description: ["&6Was ist das?", "Buersten leiten den Strom vom Rotor ab.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ohne Buersten liefert der Generator keinen Strom."]
+			icon: { id: "create_new_age:carbon_brushes" }
+			id: "91C68F57D314B312"
+			title: "Kohlebuersten"
+			rewards: [{ id: "1C8E57EB1A4CB601", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "DC02AC791C9B82F7", type: "item", item: { id: "create_new_age:carbon_brushes", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["91C68F57D314B312"]
+			description: ["&6Was ist das?", "Der Motor wandelt Strom zurueck in Drehkraft.", "", "&6So gehts", "Rezept in JEI nachschlagen und neben eine Create-Welle stellen.", "", "&6Wofuer ist das wichtig?", "So treibst du Maschinen ohne Wasserrad oder Windmuehle an."]
+			icon: { id: "create_new_age:basic_motor" }
+			id: "892D0BA1C8FCDA3E"
+			title: "Einfacher Motor"
+			rewards: [{ id: "E8E5DD5C9BCCAE96", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "D2BDAB661BBE4525", type: "item", item: { id: "create_new_age:basic_motor", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["892D0BA1C8FCDA3E"]
+			description: ["&6Was ist das?", "Der Verbinder leitet Strom ueber Distanz.", "", "&6So gehts", "Zwei Verbinder platzieren und mit dem Draht verknuepfen.", "", "&6Wofuer ist das wichtig?", "So bringst du Strom quer durch die Basis."]
+			icon: { id: "create_new_age:electrical_connector" }
+			id: "9BA470F71EDDDBE1"
+			title: "Stromverbinder"
+			rewards: [{ id: "92DBB7A673D314C0", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "BDEB9D28777BF8F9", type: "item", item: { id: "create_new_age:electrical_connector", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["9BA470F71EDDDBE1"]
+			description: ["&6Was ist das?", "Der Stirlingmotor erzeugt Drehkraft aus Hitze.", "", "&6So gehts", "Rezept in JEI nachschlagen und ueber eine Waermequelle stellen.", "", "&6Wofuer ist das wichtig?", "Eine stetige Kraftquelle ohne Wetter."]
+			icon: { id: "create_new_age:stirling_engine" }
+			id: "3512E34C28D2D9FE"
+			title: "Stirlingmotor"
+			rewards: [{ id: "D2A377509F3D7DD3", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "24D4EEFF0B4D8203", type: "item", item: { id: "create_new_age:stirling_engine", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3512E34C28D2D9FE"]
+			description: ["&6Was ist das?", "Eine elektrische Laterne fuer deine Wege.", "", "&6So gehts", "Rezept in JEI nachschlagen und an das Stromnetz haengen.", "", "&6Wofuer ist das wichtig?", "Dauerhaftes Licht ohne Fackeln."]
+			icon: { id: "create_new_age:street_light" }
+			id: "E066EA0F66A69901"
+			title: "Strassenlaterne"
+			rewards: [{ id: "1918E70FA4617BF6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D6DBDF9E3D6816BD", type: "item", item: { id: "create_new_age:street_light", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["79C5111ED6A1E634"]
+			description: ["&6Was ist das?", "Der Scanner zeigt, wo unter dir Rohoel liegt.", "", "&6So gehts", "Rezept in JEI nachschlagen und in der Hand ueber Chunks fahren.", "", "&6Wofuer ist das wichtig?", "Ohne Fundort keine Oelquelle."]
+			icon: { id: "createdieselgenerators:oil_scanner" }
+			id: "E37036D5B1F60137"
+			title: "Oelscanner"
+			rewards: [{ id: "B913FC8C68737A1B", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "87748BBD85B84266", type: "item", item: { id: "createdieselgenerators:oil_scanner", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["E37036D5B1F60137"]
+			description: ["&6Was ist das?", "Teil der Oelpumpe, die das Oel an die Oberflaeche holt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Das Oel ist der Treibstoff fuer alles Weitere."]
+			icon: { id: "createdieselgenerators:pumpjack_head" }
+			id: "27D4A9B29351113E"
+			title: "Foerderkopf"
+			rewards: [{ id: "74A8C126334EDE02", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "C5871684976B81D8", type: "item", item: { id: "createdieselgenerators:pumpjack_head", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["27D4A9B29351113E"]
+			description: ["&6Was ist das?", "Die Kurbel treibt den Pumpenkopf an.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Create-Drehkraft verbinden.", "", "&6Wofuer ist das wichtig?", "Sie bewegt die Pumpe auf und ab."]
+			icon: { id: "createdieselgenerators:pumpjack_crank" }
+			id: "478CE75DA77CE27C"
+			title: "Pumpenkurbel"
+			rewards: [{ id: "341B94C540D0AF9E", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "21A0965B048246AB", type: "item", item: { id: "createdieselgenerators:pumpjack_crank", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["478CE75DA77CE27C"]
+			description: ["&6Was ist das?", "Rohoel ist der Rohstoff, aus dem Diesel entsteht.", "", "&6So gehts", "Foerdere Oel mit der Pumpe und fuelle einen Eimer.", "", "&6Wofuer ist das wichtig?", "Ohne Rohoel gibt es keinen Diesel."]
+			icon: { id: "createdieselgenerators:crude_oil_bucket" }
+			id: "6631D94060D1CAE1"
+			title: "Rohoel"
+			rewards: [{ id: "DCAB15654E32153D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "9C636A8CF9161ADC", type: "item", item: { id: "createdieselgenerators:crude_oil_bucket", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6631D94060D1CAE1"]
+			description: ["&6Was ist das?", "Die Destillation trennt Rohoel in Diesel und Benzin.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Tanks bauen.", "", "&6Wofuer ist das wichtig?", "So gewinnst du nutzbaren Treibstoff."]
+			icon: { id: "createdieselgenerators:distillation_controller" }
+			id: "AC460943EC4FC25C"
+			title: "Destillation"
+			rewards: [{ id: "9F43986EFDBF8969", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "D04FB54C94A0B372", type: "item", item: { id: "createdieselgenerators:distillation_controller", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["AC460943EC4FC25C"]
+			description: ["&6Was ist das?", "Der Motor verbrennt Diesel und liefert starke Drehkraft.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Diesel versorgen.", "", "&6Wofuer ist das wichtig?", "Mehr Kraft auf kleinem Raum als jedes Wasserrad."]
+			icon: { id: "createdieselgenerators:diesel_engine" }
+			id: "500A0A344BD6F113"
+			title: "Dieselmotor"
+			rewards: [{ id: "48B4F673D9706396", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "B9F0AEE30DBD318B", type: "item", item: { id: "createdieselgenerators:diesel_engine", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["500A0A344BD6F113"]
+			description: ["&6Was ist das?", "Ein Eimer fertiger Diesel.", "", "&6So gehts", "Aus der Destillation abfuellen.", "", "&6Wofuer ist das wichtig?", "Der Treibstoff fuer deine Motoren."]
+			icon: { id: "createdieselgenerators:diesel_bucket" }
+			id: "1D4C3735B86316E6"
+			title: "Diesel"
+			rewards: [{ id: "07BEA35DBC2F9BAC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "32AE51F297043F03", type: "item", item: { id: "createdieselgenerators:diesel_bucket", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 26.0d
+		}
 	]
 }

@@ -547,5 +547,49 @@
 			x: 0.0d
 			y: 6.8d
 		}
+		{
+			dependencies: ["469AEC5C8CB306C2"]
+			description: ["&6Was ist das?", "BetterF3 zeigt den F3-Bildschirm uebersichtlich.", "", "&6So gehts", "F3 druecken.", "", "&6Wofuer ist das wichtig?", "Koordinaten und Werte auf einen Blick."]
+			icon: { id: "minecraft:spyglass" }
+			id: "B52D47D0A0C8390A"
+			title: "Besseres F3"
+			rewards: []
+			tasks: [{ id: "AC439F6514D0072E", type: "checkmark" }]
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["B52D47D0A0C8390A"]
+			description: ["&6Was ist das?", "Sounds ersetzt viele Spielgeraeusche durch bessere.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Mehr Atmosphaere."]
+			icon: { id: "minecraft:note_block" }
+			id: "3CD8EDA038A1A0D4"
+			title: "Neue Klaenge (Sounds)"
+			rewards: []
+			tasks: [{ id: "18C173E55ED403BB", type: "checkmark" }]
+			x: 3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3CD8EDA038A1A0D4"]
+			description: ["&6Was ist das?", "Fuegt Hintergrundgeraeusche der Natur hinzu.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofuer ist das wichtig?", "Waelder, Hoehlen und Meer klingen lebendig."]
+			icon: { id: "minecraft:jukebox" }
+			id: "58DB6795D4531174"
+			title: "Umgebungsklaenge (AmbientSounds)"
+			rewards: []
+			tasks: [{ id: "7A15A6D0A5687658", type: "checkmark" }]
+			x: 5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["58DB6795D4531174"]
+			description: ["&6Was ist das?", "Mit den Elytren kannst du rollen.", "", "&6So gehts", "Beim Fliegen die Rolltasten benutzen.", "", "&6Wofuer ist das wichtig?", "Wendigeres Fliegen."]
+			icon: { id: "minecraft:elytra" }
+			id: "EDC628DB6BEAD4FC"
+			title: "Fassrolle (Do a Barrel Roll)"
+			rewards: []
+			tasks: [{ id: "A6E809274462DFFD", type: "checkmark" }]
+			x: 6.5d
+			y: 17.0d
+		}
 	]
 }

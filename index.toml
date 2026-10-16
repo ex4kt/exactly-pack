@@ -26,11 +26,15 @@ hash = "27cdcd366e6a4e9adc1c84d8fc969f4760e4555de06d2ccd23369bcf4134d609"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "2317436d1e09d62196665c6733e7a69009eccda6fa126ab14aadd5ab4b5de86a"
+hash = "070e08039141fb949628719e56a110f57765eb077a267a0ba1144e879ea162ac"
 
 [[files]]
 file = "config/bedrockoid-config.toml"
 hash = "2172c7ec8764bc0c5cf890100cdef82165c3fec7deffe8ba45da584774f06f55"
+
+[[files]]
+file = "config/betterarcheology.jsonc"
+hash = "a397fb45481b907252422c15e61c99c2844a70fc571ebd8fd2f5246c2ad36a2b"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -94,7 +98,15 @@ hash = "f6596699eb5342184d30b64282f4b6941ebdc0425e46b738e3ee6809f09762d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kleinemods.snbt"
-hash = "b3c0d0d33df4aca57a78ada69157e8f3fd715ea12f3759b6e68a165b2d09bfbc"
+hash = "e1681b645daa8a807f9e68cd4c9b0b9daf05e8e5bfabdcdfc7761de2f48cd37f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/neuemods_abenteuer.snbt"
+hash = "f373404962a2bd666a2fb880f4355af27540adb8f36681d25c458201f145da8c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/neuemods_essen.snbt"
+hash = "e4b5e1e3138397ccae1b129cdab32c644036e26795827fbdfdaf9142c146b71b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z01_steinzeit.snbt"
@@ -118,7 +130,7 @@ hash = "fa063b1d80a242d3dc0af9a46cd6ef3ca09e07a9a213facd7647bf4850c29bce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z06_messing.snbt"
-hash = "e4aa052e4e46225d99fa00a6bbb74739a9bd506daa712dca24e823744fd481a6"
+hash = "ea4fe4c1fd622371ca92916f7c8092ac8fd2f73a9cdca721489d8232ba35c9c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z07_magie.snbt"
@@ -182,7 +194,7 @@ hash = "0252229a9e254b114ea33e9b5d20b800672186f9adc20faf736fc1c806d428c8"
 
 [[files]]
 file = "config/historystages/global/zeitalter/messingzeit.json"
-hash = "d27d9013989b2802928e1ded5a05db3306cce9eec026f1c0a067ef2a056aee8a"
+hash = "25c9379c2032b85325fea6f2ac3c05f39efe75c58c99efb8f634f16c1e3ec52a"
 
 [[files]]
 file = "config/historystages/global/zeitalter/netherzeit.json"
@@ -266,7 +278,7 @@ hash = "a95f20656b64b6535dbb5b59c7a6081e72dec4fbed106a09fe4405eba59f4fbf"
 
 [[files]]
 file = "config/paxi/datapacks/Abenteuer-Regeln.zip"
-hash = "d4e42dfb3991ab5546f8e102c0be090bde0ccbe21dcad8c83c3aef0ab1f139b2"
+hash = "cdd95e137e7b253e5608f91cb21887fb3ca89e3c276d76677f5883b0b2f2cfd6"
 
 [[files]]
 file = "config/paxi/datapacks/Abenteuer-Rezeptfixes.zip"
@@ -301,7 +313,7 @@ hash = "8d1c82197e6388f45cf158f69073f7081834cf70f7a8c9110ec398ea482421a9"
 
 [[files]]
 file = "config/paxi/resourcepacks/Abenteuer-Pack.zip"
-hash = "83f9ae97fd05e9147e6fa17482a4883e78ed90561f99cb24b388dbe760169e0e"
+hash = "8e77fa77d93aff6f018daa35eab389cfb9bcc10bdf306ab5601dda84d16c0b40"
 
 [[files]]
 file = "config/paxi/resourcepacks/armortrimscompat_1.0.pw.toml"
@@ -349,6 +361,10 @@ hash = "d7ae6c2df4b6e7f93af29bb6b1ca5b7fba541d09263157cda9b15a6f25319aa8"
 metafile = true
 
 [[files]]
+file = "config/quark-common.toml"
+hash = "0b4ee89f799af0b0b9ddcce24e91dd5958498838f2593e93de56f049c0474e10"
+
+[[files]]
 file = "config/rightclickharvest.json5"
 hash = "22321e7d9653cedec7bccc331aa4bcdf318ae15d7a43474e86dcf5f69376bb32"
 
@@ -392,6 +408,11 @@ hash = "5ca643ab9996a1f9c1130c8a898217cffb3d2b9210b93c85431c6067e8b9552d"
 file = "configureddefaults/options.txt"
 hash = "24dd73492d8ee560b5f21c15fde33dae9239c0daee5c71b0ae290ee43e0c0298"
 preserve = true
+
+[[files]]
+file = "mods/1.21.1-securitycraft-v1.10.2.1.pw.toml"
+hash = "4d0e6eea2a87d1b6093bc525ef38e75e29874f4fb727096ba58b2983ba1b83b1"
+metafile = true
 
 [[files]]
 file = "mods/accessories_cclayer-9.3.1-beta.28-1.21.1-neoforge.pw.toml"
@@ -471,6 +492,11 @@ metafile = true
 [[files]]
 file = "mods/alternate_current-mc1.21-1.9.0.pw.toml"
 hash = "2f930fb379e903ab3aca41677e3cfde0deee21a6c82a257bf4324a9d90bd81b0"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds_neoforge_v6.3.10_mc1.21.1.pw.toml"
+hash = "3a4f6b23e939519b514e345b53ba833f17fdaa289b6a09b3cc6788b48a642d18"
 metafile = true
 
 [[files]]
@@ -568,8 +594,18 @@ hash = "6301f09cdb5850b66f5a561956206241768439f8fac76cc9cd3dda55bf25e0f8"
 metafile = true
 
 [[files]]
+file = "mods/betterarcheology-neoforge-1.21.1-1.3.9.pw.toml"
+hash = "0175c128c4546515c55693cc0b5d73324335f8e5a67fcfb1bdf0aa208e7a8ce7"
+metafile = true
+
+[[files]]
 file = "mods/bettercombat-neoforge-2.4.0-1.21.1.pw.toml"
 hash = "9d385443570547c97fd55f5a302408f414f10f5c7c6afe9b8697264ab4ce54ab"
+metafile = true
+
+[[files]]
+file = "mods/betterf3-11.0.3-neoforge-1.21.1.pw.toml"
+hash = "e266de6fd90cc4dac27ad29773476cbea051521cebb8ad382f2fc592e24ea119"
 metafile = true
 
 [[files]]
@@ -640,6 +676,11 @@ metafile = true
 [[files]]
 file = "mods/cerulean-neoforge-1.0.0-1.21.1.pw.toml"
 hash = "e916f1430d9a78281725ec984bc1fb7f923914e093a47c659b50145a6cb9aff7"
+metafile = true
+
+[[files]]
+file = "mods/charmofundying-neoforge-9.1.0-1.21.1.pw.toml"
+hash = "38dae6a5410777fa774ab1665abbbf50250cb831bc1fba970331cf36e20e0d5e"
 metafile = true
 
 [[files]]
@@ -833,8 +874,18 @@ hash = "ea74742af75d6360898a997e93c160dc414e76c93b253110614bc30b341b5cfe"
 metafile = true
 
 [[files]]
+file = "mods/createdieselgenerators-1.21.1-1.3.15.pw.toml"
+hash = "2f26b2a1b8bdf8059284911964f50236d69c46f9104ecf6dc380bc977c1cd92d"
+metafile = true
+
+[[files]]
 file = "mods/createliquidfuel-3.0.0-1.21.1.pw.toml"
 hash = "2e30373aebce4ce1785189d791226a2b411e26ce74587f4d44fe1fbf3d89d83f"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age-1.2.0-neoforge-mc1.21.1.pw.toml"
+hash = "bcd1a73ccf7dd2439a2202265bd23bbd5acf8430839f25c0b93d33ea875943e6"
 metafile = true
 
 [[files]]
@@ -860,6 +911,11 @@ metafile = true
 [[files]]
 file = "mods/cristellib-neoforge-1.21.1-3.1.7.pw.toml"
 hash = "0485db2abba1ec9651e3a1f55b7f5cd82e8215f1f6b445c843030a3af15fdc7b"
+metafile = true
+
+[[files]]
+file = "mods/crittersandcompanions-neoforge-1.21.1-2.7.0.pw.toml"
+hash = "ec6a8d7126c7571f59a63f46e9fbda8eb9c1d97f799ddd9041e3c5c0755bc567"
 metafile = true
 
 [[files]]
@@ -914,6 +970,11 @@ hash = "8831961b05becba649b0076ba012a894beb777e91bc112594078d2dbb1386add"
 [[files]]
 file = "mods/dnt-ancient-city-overhaul-v2-neoforge.pw.toml"
 hash = "cd2925ced7e792a6833522925110bffef2b5c71eed3498c4db4909e34c9097f9"
+metafile = true
+
+[[files]]
+file = "mods/do_a_barrel_roll-neoforge-3.7.3-1.21.pw.toml"
+hash = "b95956fdabd45107c431c128a6946f928dc1066107b0f5f1c5dcd48051e5f4e6"
 metafile = true
 
 [[files]]
@@ -987,6 +1048,11 @@ hash = "2123b03f9d9d9e69f4ede4c3d578fa5fbdebcd444c9d3238e947d10678e5fdd0"
 metafile = true
 
 [[files]]
+file = "mods/endermanoverhaul-neoforge-1.21.1-2.0.3.pw.toml"
+hash = "94efe8fdfedc73f46a0ed11d0347eecb849a395cafd903925c3a14c151370028"
+metafile = true
+
+[[files]]
 file = "mods/endersdelight-neoforge-1.21.1-1.1.0.pw.toml"
 hash = "5a69753c471d00b502e4770abf57cdc66bcbe153474ce39017c5b55c2c2a799c"
 metafile = true
@@ -1024,6 +1090,11 @@ metafile = true
 [[files]]
 file = "mods/euphoriapatcher-1.6.4-r5.5.1-neoforge.pw.toml"
 hash = "41e28755bf02647abde1e8eca1a83fcc7b2359a944c7bb94243744cb843ca539"
+metafile = true
+
+[[files]]
+file = "mods/expandeddelight-0.1.4.pw.toml"
+hash = "437ed4d81d826e90c5566c95a5adf6a19ba8361e0519f67d22b89129de7df730"
 metafile = true
 
 [[files]]
@@ -1152,6 +1223,11 @@ hash = "822efe925b635fcbe346dcc3ed8cb7828a73877aa0e4fdc81e5509f3592af0d5"
 metafile = true
 
 [[files]]
+file = "mods/galosphere-1.21.1-1.5.5-neoforge.pw.toml"
+hash = "91b65c5c3934b45557b7db7e6fdcfb803052126de15c2816160ac6f5f934785d"
+metafile = true
+
+[[files]]
 file = "mods/gardens-of-the-dead-neoforge-5.0.1.pw.toml"
 hash = "38f9d3ec027b5809a47f52d0c251429ae3c1c3e6b40060cea2ed0da79e1f448a"
 metafile = true
@@ -1194,6 +1270,11 @@ metafile = true
 [[files]]
 file = "mods/handcrafted-neoforge-1.21.1-4.0.3.pw.toml"
 hash = "2fdaa71e34aa097f73c1733d5cd42618078c209bc17a6303171cf19060052fe6"
+metafile = true
+
+[[files]]
+file = "mods/hbs_foundation-neoforge-1.21.1-1.8.1.pw.toml"
+hash = "4898043642d595688533dba5a9bd4b90842e8d4a5fb61d871c0d05ffcf47fe40"
 metafile = true
 
 [[files]]
@@ -1249,6 +1330,11 @@ metafile = true
 [[files]]
 file = "mods/immersive_armors-1.7.6-1.21.1-neoforge.pw.toml"
 hash = "1f293da04442a54d1b0d3aa833e249d02efc9384176fd54ecd7e3d931c85f4f3"
+metafile = true
+
+[[files]]
+file = "mods/immersive_melodies-neoforge-0.8.0-1.21.1.pw.toml"
+hash = "be6288da37929e8602d7f7634b4f812a4c825a0cff6728ba53ff76367d3cb04a"
 metafile = true
 
 [[files]]
@@ -1309,6 +1395,11 @@ metafile = true
 [[files]]
 file = "mods/iris-neoforge-1.8.8-mc1.21.1.pw.toml"
 hash = "6d4783a21672c8f5c0dec0deb8002d70f0edafda18e30246a14a611b69ce0658"
+metafile = true
+
+[[files]]
+file = "mods/ironfurnaces-neoforge-1.21.1-4.3.2.pw.toml"
+hash = "53f81802d5215713a6d0a5a2537bd6312fd80c4cd0698ad149047bac8ba5628c"
 metafile = true
 
 [[files]]
@@ -1399,6 +1490,21 @@ metafile = true
 [[files]]
 file = "mods/leavesbegone-v21.1.0-1.21.1-neoforge.pw.toml"
 hash = "4873a628440a1e51a0d6d424d9953ffa54e6e74b1f63701271b75beafe2327fe"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-farm_and_charm-neoforge-1.1.29.pw.toml"
+hash = "4bff56877ca085db266bf1ae7ec15cfd4c8053cda603395e09847880223c116c"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-herbalbrews-neoforge-1.1.4.pw.toml"
+hash = "cf1863c4a5b978263a23a84fe4200ded053fc2895972b7b3c7dab8ff7fa69751"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-vinery-neoforge-1.5.6.pw.toml"
+hash = "682d89a99536403730dbac811c73cef74d2dc0c2ab141d56dd75abf1d3101425"
 metafile = true
 
 [[files]]
@@ -1782,6 +1888,11 @@ hash = "114e9b4669bff70501df372a19e20a0b49e264256b2fb868a9d69b11bb25d58d"
 metafile = true
 
 [[files]]
+file = "mods/quark-4.1-487.pw.toml"
+hash = "5c6aeb6bf777b42c54eb3735c8625f133956d58f572c1481ea5f84cc21113e72"
+metafile = true
+
+[[files]]
 file = "mods/raided-1.21.1-0.1.4.2.pw.toml"
 hash = "09b853e994d3f18ecab757346270153b13cc6a72a5d2a1e5dd872c28ead2866f"
 metafile = true
@@ -1864,6 +1975,11 @@ metafile = true
 [[files]]
 file = "mods/revampedwolf-1.21.1-13.0.0.pw.toml"
 hash = "8ffefc7965b87c37ec339dc67ddd9ffd1b22bac7bc59920376910a4209e3933f"
+metafile = true
+
+[[files]]
+file = "mods/ribbits-1.21.1-neoforge-4.1.6.pw.toml"
+hash = "6946e9c35809f7c73e8ade9bc6f8447a7f6c163e8d8df979ea5d03204e618304"
 metafile = true
 
 [[files]]
@@ -1952,6 +2068,11 @@ hash = "723b4dc56f57de7e89cc7b68b65e08e0b73319371803b625d359f85efb47f38e"
 metafile = true
 
 [[files]]
+file = "mods/smallships-neoforge-1.21.1-2.0.2.pw.toml"
+hash = "cc3b8a3c490b7d8a60004ed14763369e97d9c78e0752c15b03bc99f2240a6e50"
+metafile = true
+
+[[files]]
 file = "mods/smarterfarmers-1.21-2.2.2-neoforge.pw.toml"
 hash = "85157bd2a53ddab782c4f5bca46fc4c732307894db6ecd7d1af0d6683873b684"
 metafile = true
@@ -2034,6 +2155,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered-neoforge-1.21.1-1.4.12.pw.toml"
 hash = "1175ae38dbcc1fcf568ae1624492b13cb81f18fd2650df2f163b2f62f356f06c"
+metafile = true
+
+[[files]]
+file = "mods/sounds-2.4.22-lts-1.21.1-neoforge.pw.toml"
+hash = "a4ea37da9a9f227b0d11877aa3a2844cdd3c8048220129f6fa80b25c2807653a"
 metafile = true
 
 [[files]]
@@ -2154,6 +2280,11 @@ metafile = true
 [[files]]
 file = "mods/trek-b0.6.2.pw.toml"
 hash = "49c22b091881202cfa4f79a8dcff527a4ae3060dcc4787d93a73499d2859ebee"
+metafile = true
+
+[[files]]
+file = "mods/twigs-1.21.1-3.1.2.pw.toml"
+hash = "d0d63de73d32460f5f2aed928f6187f8764596257dbe907bb5f823f01eaa3555"
 metafile = true
 
 [[files]]
@@ -2332,8 +2463,13 @@ hash = "b3d082cf64c2c47c9938bd16f69da40a7ee765a2bd9bb3c661274d28ab0d6f92"
 metafile = true
 
 [[files]]
+file = "mods/zeta-1.1-40.pw.toml"
+hash = "e3122ba49870fa8a5fd9d2d5c2db5dd466372fc17b9b7dc84de519e87df94eba"
+metafile = true
+
+[[files]]
 file = "README_Abenteuer-Pack.txt"
-hash = "f6b58f13af8c1f8e291b7e2eb1110c33850ac19806bd3b5c884fc113b22e7fc3"
+hash = "9df78a6fa5d6d803b55b95195ebee3e1c1088988d3d193c574465e42895b3d6e"
 
 [[files]]
 file = "shaderpacks/bloop-1.7.0-cloud-fix-2.pw.toml"
