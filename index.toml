@@ -26,7 +26,7 @@ hash = "27cdcd366e6a4e9adc1c84d8fc969f4760e4555de06d2ccd23369bcf4134d609"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "72ea5e9e7f9f05529eebcf48ceb75a89025e7232557cf254469c2514d3b04556"
+hash = "ef70ec0c21f0187e6d5e2d6ef55d4b7049e9e221c4d8711547deb681c907b531"
 
 [[files]]
 file = "config/bedrockoid-config.toml"
@@ -117,6 +117,10 @@ file = "config/ftbquests/quests/chapters/neuemods_waffen.snbt"
 hash = "32ce7d8bd8f21c8561f88b11a464b237dfe485282629055de36422c6d19a338f"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/neuemods_wunden.snbt"
+hash = "4e11346c658c673d9d25c02b5688be1f508326518c743725a455a3643f1d7faa"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/z01_steinzeit.snbt"
 hash = "c13610e5dd35abeb2e7fd9b05396fc2dfa5f30c7fbb534a843bc109f09cd1e2e"
 
@@ -170,7 +174,7 @@ hash = "789c86c80f3816018afead39ae44d7ed62b1620c4bcaaddb2e833764a67703fc"
 
 [[files]]
 file = "config/historystages/global/zeitalter/andesitzeit.json"
-hash = "72c7a53066e7a1c4c9bc25a0bd889d0f2be51817cde1bcb5cb8c77260398a55e"
+hash = "e9a4c843cd841079ca109e886117f42eb9765c1c54c55cce28ce3b2c72ce3129"
 
 [[files]]
 file = "config/historystages/global/zeitalter/diamantzeit.json"
@@ -186,7 +190,7 @@ hash = "798767a9d8dfe1fcc8de0bc4d98ec65dfef06e52e10ce9a871a949c868b79b54"
 
 [[files]]
 file = "config/historystages/global/zeitalter/endzeit.json"
-hash = "d147e6988ed57944d162ac2c9e975c65b8f84619c62ee5da3e7f4228833d48b0"
+hash = "e8341034dc7e6f46e8d610c441c4b31c60e8fbfb09dee65fc3f852538fe84f0c"
 
 [[files]]
 file = "config/historystages/global/zeitalter/himmelszeit.json"
@@ -206,7 +210,7 @@ hash = "25c9379c2032b85325fea6f2ac3c05f39efe75c58c99efb8f634f16c1e3ec52a"
 
 [[files]]
 file = "config/historystages/global/zeitalter/netherzeit.json"
-hash = "1b9b45aebda922839393c5821be02e219a03adefe73796ddd322b6a8ac57647a"
+hash = "9c49f74fb20bb6549298b11939dd48f1e269da8645631d2160c6daa71ac880f9"
 
 [[files]]
 file = "config/historystages/settings/gameplay.toml"
@@ -286,7 +290,7 @@ hash = "a95f20656b64b6535dbb5b59c7a6081e72dec4fbed106a09fe4405eba59f4fbf"
 
 [[files]]
 file = "config/paxi/datapacks/Abenteuer-Regeln.zip"
-hash = "93e139df2bf5a651a94e74628786f783dfc5a607740f4773012c519184a1702c"
+hash = "0629cafd4d24820f4d4c0990bd3d5606283ac5794569591776475eb53ab148a1"
 
 [[files]]
 file = "config/paxi/datapacks/Abenteuer-Rezeptfixes.zip"
@@ -317,11 +321,11 @@ hash = "b3d81a12eca9d72b52f0b32f382f3ed8d299232501ffa4d9b651d42d023a3aff"
 
 [[files]]
 file = "config/paxi/resourcepacks/Abenteuer-Deutsch.zip"
-hash = "a1c85968ec4a43954bd38cbc1bf0cb09ffa0b668b2da8acaa5847888af7590df"
+hash = "fec931e37b95b1c6e7b8dc634609dc617fb8f6ee1860956205079aac28b5b225"
 
 [[files]]
 file = "config/paxi/resourcepacks/Abenteuer-Pack.zip"
-hash = "b83557ddf41062968a79ad626808bb5c4ccc4857f97ffa34e78e13b7b1863df8"
+hash = "54d2ef1d332312b5a6edb70b30e0f5bc8b47ccaae2a4ceb0c56dd2ec94a21447"
 
 [[files]]
 file = "config/paxi/resourcepacks/armortrimscompat_1.0.pw.toml"
@@ -634,11 +638,6 @@ metafile = true
 [[files]]
 file = "mods/blended-compat-1.1.1.pw.toml"
 hash = "ec411f48a0b339e3feb03dc8c678c335b7539b9d2f6d7d45416017076fca91bd"
-metafile = true
-
-[[files]]
-file = "mods/bloodyparticles-neoforge-1.21.1-4.0.0.pw.toml"
-hash = "d7b07c61c0aab01e85b11b394666688c9314b110fdf7387e354ea94f2724c35a"
 metafile = true
 
 [[files]]
@@ -1168,6 +1167,11 @@ metafile = true
 [[files]]
 file = "mods/feytweaks-1.21-1.2.8.pw.toml"
 hash = "90ee7aad32e26f3ee4bd1c273180243cafb13c87a776d58ce5cabaca8fdb3e6e"
+metafile = true
+
+[[files]]
+file = "mods/ffinjury-0.10.1-1.21.1-neoforge.pw.toml"
+hash = "9e801d9bb4da44c59bcb30b7142fa89020e8e43f9e6a4395802f74790ebf595d"
 metafile = true
 
 [[files]]
@@ -2506,7 +2510,7 @@ hash = "fb13604d4620bc1157812fc196cb96ff32f0b6256fed8b4c1c03f88fbeb3419c"
 
 [[files]]
 file = "README_Abenteuer-Pack.txt"
-hash = "072dd624227465867388d84844c911b040eb2f6d21eae38a62982a3ccc45ea41"
+hash = "49d8dd7492169691d0114c2d259842fcdf954fcb92b2bd8a0f5106835d18bba6"
 
 [[files]]
 file = "shaderpacks/bloop-1.7.0-cloud-fix-2.pw.toml"
