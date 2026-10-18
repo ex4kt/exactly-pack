@@ -1255,7 +1255,7 @@
 			id: "6F655800F3F2F44C"
 			title: "Musketen"
 			rewards: [{ id: "0D9570723DEA7643", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
-			tasks: [{ id: "1253662460F83016", type: "item", item: { id: "musketmod:musket", count: 1 }, count: 1L }]
+			tasks: [{ id: "1253662460F83016", type: "item", item: { id: "irons_artifice:musket", count: 1 }, count: 1L }]
 			x: 6.0d
 			y: 44.0d
 		}
@@ -1689,61 +1689,6 @@
 		}
 		{
 			dependencies: ["6629FC4CC3C6B6A9"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Musket Mod.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
-			icon: { id: "musketmod:musket" }
-			id: "26A0968DE48F57E9"
-			title: "Musket"
-			rewards: []
-			tasks: [{ id: "563D85DF5F34D766", type: "checkmark" }]
-			x: 18.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["26A0968DE48F57E9"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Musket Mod.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
-			icon: { id: "musketmod:musket_with_bayonet" }
-			id: "56E1E59D899FC92D"
-			title: "Musket with Bayonet"
-			rewards: []
-			tasks: [{ id: "146C39246E86D102", type: "checkmark" }]
-			x: 19.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["56E1E59D899FC92D"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Musket Mod.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
-			icon: { id: "musketmod:musket_with_scope" }
-			id: "3CAC786857DFC763"
-			title: "Scoped Musket"
-			rewards: []
-			tasks: [{ id: "2285FCAB4AD6970D", type: "checkmark" }]
-			x: 21.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["3CAC786857DFC763"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Musket Mod.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
-			icon: { id: "musketmod:blunderbuss" }
-			id: "70F75495B7B960C8"
-			title: "Blunderbuss"
-			rewards: []
-			tasks: [{ id: "2D860548501C877B", type: "checkmark" }]
-			x: 22.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["70F75495B7B960C8"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Musket Mod.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
-			icon: { id: "musketmod:pistol" }
-			id: "24A72571ACC57035"
-			title: "Flintlock Pistol"
-			rewards: []
-			tasks: [{ id: "4810698FCAA8C59D", type: "checkmark" }]
-			x: 24.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["24A72571ACC57035"]
 			description: ["&6Was ist das?", "Der Eisenbogen, die erste Stufe der Archeries-Boegen.", "", "&6So gehts", "Rezept in JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Mehr Schaden als der normale Bogen."]
 			icon: { id: "archeries:iron_bow" }
 			id: "031B5A86508C5201"

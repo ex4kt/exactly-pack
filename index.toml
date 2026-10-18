@@ -26,7 +26,7 @@ hash = "27cdcd366e6a4e9adc1c84d8fc969f4760e4555de06d2ccd23369bcf4134d609"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "916dee6e25ed9b341846f93c0314e603a9930259fe33de7e377baf0c676b6d2d"
+hash = "ce3db8d1e70fe9237925366a8448b30093e38432af18457f89ac31804648e110"
 
 [[files]]
 file = "config/bedrockoid-config.toml"
@@ -113,6 +113,10 @@ file = "config/ftbquests/quests/chapters/neuemods_schmuck.snbt"
 hash = "40825898f7e519e928e2060afc8fc82307aa1809b443134f09d18a6854e1965e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/neuemods_sonstiges.snbt"
+hash = "3a4a203044d1d658c82ec5b410af0c644de05f502e4c3aa03a465199543412f3"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/neuemods_waffen.snbt"
 hash = "32ce7d8bd8f21c8561f88b11a464b237dfe485282629055de36422c6d19a338f"
 
@@ -122,7 +126,7 @@ hash = "c13610e5dd35abeb2e7fd9b05396fc2dfa5f30c7fbb534a843bc109f09cd1e2e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z02_eisenzeit.snbt"
-hash = "d75aba2335ae2ca6bf03acc5ee670244c3888c8fba4736cd3fba87442a1f1bad"
+hash = "f03c2b3d18845e5f0ae6798eebe0f5373fede1d3b51158dd6e123435e3790b6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z03_andesit.snbt"
@@ -182,7 +186,7 @@ hash = "538c3080685c46b765eb8d9c1fed6e6c12e9fe6974bcd29616a1c1fd08282a10"
 
 [[files]]
 file = "config/historystages/global/zeitalter/eisenzeit.json"
-hash = "798767a9d8dfe1fcc8de0bc4d98ec65dfef06e52e10ce9a871a949c868b79b54"
+hash = "43701fd11dd0f9bf3946a824eee642e144276a1eb4cacdb0178d19ed798fea33"
 
 [[files]]
 file = "config/historystages/global/zeitalter/endzeit.json"
@@ -285,21 +289,21 @@ file = "config/patpat/patpat/patpat-client.json5"
 hash = "a95f20656b64b6535dbb5b59c7a6081e72dec4fbed106a09fe4405eba59f4fbf"
 
 [[files]]
-file = "config/paxi/datapacks/Abenteuer-Regeln.zip"
-hash = "cae81a3e85c43ca31b8a6568cca4f59783110d5bdc419d1c3067108cb4fd460d"
-
-[[files]]
-file = "config/paxi/datapacks/Abenteuer-Rezeptfixes.zip"
-hash = "82c0adf6b2f8dca1466fad1a0d92e71d71868e836effd96b7e259ae7ed6ce7b9"
-
-[[files]]
-file = "config/paxi/datapacks/Abenteuer-Weltgen.zip"
-hash = "abd9accd575948c28a65252cb4b4bcab9f63f293c7da658c270897f0477a2eac"
-
-[[files]]
 file = "config/paxi/datapacks/betterendcities-vanilla-1.21.pw.toml"
 hash = "cd2cb2d224f4e1e414b4704f9e15a4f6d5e1ac74febfcb46ff6c8d04d4cb4ff3"
 metafile = true
+
+[[files]]
+file = "config/paxi/datapacks/Exactly-Regeln.zip"
+hash = "fc77581407790cd46bd0090342186938625a11833807ecb71d3aa3cd68248b19"
+
+[[files]]
+file = "config/paxi/datapacks/Exactly-Rezeptfixes.zip"
+hash = "82c0adf6b2f8dca1466fad1a0d92e71d71868e836effd96b7e259ae7ed6ce7b9"
+
+[[files]]
+file = "config/paxi/datapacks/Exactly-Weltgen.zip"
+hash = "9f85cf89a079c5e14597d81839a70ea2cadad74df3a81d40be99998d64f00199"
 
 [[files]]
 file = "config/paxi/datapacks/farmer-s-delight-cutting-compat-1.0.pw.toml"
@@ -313,15 +317,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
-hash = "3a58c13b79a364400d3a833f0c72de512d76cbd1880011dcf12a3d73eb9e1dcb"
-
-[[files]]
-file = "config/paxi/resourcepacks/Abenteuer-Deutsch.zip"
-hash = "fec931e37b95b1c6e7b8dc634609dc617fb8f6ee1860956205079aac28b5b225"
-
-[[files]]
-file = "config/paxi/resourcepacks/Abenteuer-Pack.zip"
-hash = "ee2a23c6434b436b57530ec0f1cf065cda9ac54f04efabdfb8c07fa4361b4630"
+hash = "4eaedf201eff18791a9adb661104d1ad2c4254722bd7d2d95202b1da21501d01"
 
 [[files]]
 file = "config/paxi/resourcepacks/armortrimscompat_1.0.pw.toml"
@@ -350,6 +346,14 @@ hash = "76bc53cd020887e6eeb236ddc66f7c2f3d91683e7304741cecef2e72d2523ab5"
 file = "config/paxi/resourcepacks/enchantment-descriptions-compat-1.1.pw.toml"
 hash = "ee9155e733d91e8226a5528374f510b2e5c02dbebdff1668b2b3306ad9fe076b"
 metafile = true
+
+[[files]]
+file = "config/paxi/resourcepacks/Exactly-Deutsch.zip"
+hash = "985acb2c031976e8f99272bc38a2cb0fdb80511f52af9f0fb8495be82f1f71bd"
+
+[[files]]
+file = "config/paxi/resourcepacks/Exactly-Pack.zip"
+hash = "9fad10fcdd4a84f676e223a90019c6cc70151c32e374da45fe657e62114f43dc"
 
 [[files]]
 file = "config/paxi/resourcepacks/freshanimations_v1.10.4.pw.toml"
@@ -427,7 +431,7 @@ hash = "5ca643ab9996a1f9c1130c8a898217cffb3d2b9210b93c85431c6067e8b9552d"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "fb13604d4620bc1157812fc196cb96ff32f0b6256fed8b4c1c03f88fbeb3419c"
+hash = "9993b81d18091df28251501527207a694a41aedca716806b74b59baa1586f387"
 preserve = true
 
 [[files]]
@@ -725,11 +729,6 @@ hash = "eb50ce935fb39044c923e6537c0be06e9bbae1b9975e5ad1071cb3ea82eaf071"
 metafile = true
 
 [[files]]
-file = "mods/chunkactivitytracker-neoforge-1.0.1-1.21.1.pw.toml"
-hash = "7e9205e4ece2ae79c3f2ec7942ce5d6e035596a151f0875a416f9f28a29db075"
-metafile = true
-
-[[files]]
 file = "mods/chunksending-1.21-2.8.pw.toml"
 hash = "0f78a7af4b943afad59eb7bc97d87078bb7d1176dce3013034f2531291c41e3b"
 metafile = true
@@ -787,16 +786,6 @@ metafile = true
 [[files]]
 file = "mods/connectivity-1.21.1-7.1.pw.toml"
 hash = "6376e650ad6e514f6cc8d0a932a7b1ec5269a7a2baf9c119be085a4bdc086ac8"
-metafile = true
-
-[[files]]
-file = "mods/connector-2.0.0-beta.8-1.21.1-full.pw.toml"
-hash = "1760f6bfa8b6f231af63179e033707d7918d50a8fbf161c5ff723cd7126a1a7c"
-metafile = true
-
-[[files]]
-file = "mods/connectorextras-1.12.1-1.21.1.pw.toml"
-hash = "a653e729ef10fd42e1294952007f9adbdfdd89afd6e3236e3166bbeeecc265d4"
 metafile = true
 
 [[files]]
@@ -999,11 +988,6 @@ hash = "b95956fdabd45107c431c128a6946f928dc1066107b0f5f1c5dcd48051e5f4e6"
 metafile = true
 
 [[files]]
-file = "mods/does_it_tick-neoforge-1.1.4-1.21.1.pw.toml"
-hash = "6bfde9c5b0159ccb019b5547d6b3cc4f911407a684f94183029d138ba88b8033"
-metafile = true
-
-[[files]]
 file = "mods/doubledoors-1.21.1-7.0.pw.toml"
 hash = "fadeb454f60963234ab6763e73767281cada18b6ab6586b768c4763190aacfa6"
 metafile = true
@@ -1171,11 +1155,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore-7.0.2-neoforge.pw.toml"
 hash = "a1e05fb4ec0ed4c4debb2ce231223bc477a0975961fb662b4f57d21a66b4e57f"
-metafile = true
-
-[[files]]
-file = "mods/feytweaks-1.21-1.2.8.pw.toml"
-hash = "90ee7aad32e26f3ee4bd1c273180243cafb13c87a776d58ce5cabaca8fdb3e6e"
 metafile = true
 
 [[files]]
@@ -1664,11 +1643,6 @@ hash = "24fb973ce62bf3bec9882181138b64f804f378cf58c1ff2b684202fd0a5e0305"
 metafile = true
 
 [[files]]
-file = "mods/mixintracereforged-neoforge-1.0.0-1.21.1.pw.toml"
-hash = "e72826956c894ea9e876f9e4c24067d8af9b064d9fbc3ddde9d73398848f1cec"
-metafile = true
-
-[[files]]
 file = "mods/mns-1.0.8-1.21.pw.toml"
 hash = "8438fba6f43399d9e42a76c38d68151ff655404f4e43ad7900f8082cfaa034cb"
 metafile = true
@@ -1684,8 +1658,8 @@ hash = "e416fdd953dd9055f7001c550949277b3eaa1002b0099eee758ac6b1684e90cf"
 metafile = true
 
 [[files]]
-file = "mods/moremobvariants-fabric-1.21-1.3.1.1.pw.toml"
-hash = "80f2c4b26006d2c3d8229859c9212d16da1bf3fe490ee96332b627e31f315923"
+file = "mods/moreoffhandslots-neoforge-21.1.0.pw.toml"
+hash = "0bcd1602c37411221a0f9d5b13c0ff0c37a2a7b2c15a07e7be4e18ca13f522dd"
 metafile = true
 
 [[files]]
@@ -1711,11 +1685,6 @@ metafile = true
 [[files]]
 file = "mods/mru-1.0.41-1.21.1-neoforge.pw.toml"
 hash = "947ee0b985c28c485c79b0901a89d060791dce9089b63e90b8f0b2a7d390c6bd"
-metafile = true
-
-[[files]]
-file = "mods/musketmod-1.21.1-neoforge-1.5.4.pw.toml"
-hash = "20b3d25ad1c1c910a195977e489c7f548efd9ed5c3a845caf22fcfdbbac7cdb4"
 metafile = true
 
 [[files]]
@@ -1936,11 +1905,6 @@ metafile = true
 [[files]]
 file = "mods/randomenchantfix-neoforge-1.0.0-1.21.1.pw.toml"
 hash = "9ef99a7b349db3e7d652023964d3c9065964f794994ba99f5fb5c8090a4abb8a"
-metafile = true
-
-[[files]]
-file = "mods/reacharound-1.21-1.3.1.pw.toml"
-hash = "432970bbe43fcbdaeab0cf193845dbc8d2fe3abd7a1d4c27bfb2fd2e3c993d8c"
 metafile = true
 
 [[files]]
@@ -2515,11 +2479,11 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "fb13604d4620bc1157812fc196cb96ff32f0b6256fed8b4c1c03f88fbeb3419c"
+hash = "9993b81d18091df28251501527207a694a41aedca716806b74b59baa1586f387"
 
 [[files]]
-file = "README_Abenteuer-Pack.txt"
-hash = "22ff3e5981a0891660d802c7f6a5d2e0438b90c07c7d5a620d84b8e5d83634b5"
+file = "README_Exactly.txt"
+hash = "40cf150e53e84b4b937302d8c0de3663c558e62b1cb2396ce55764933fe23327"
 
 [[files]]
 file = "shaderpacks/bloop-1.7.0-cloud-fix-2.pw.toml"
