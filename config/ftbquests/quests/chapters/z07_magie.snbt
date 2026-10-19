@@ -908,5 +908,75 @@
 			x: 3.0d
 			y: 26.0d
 		}
+		{
+			dependencies: ["3DAA1F6F53E0A842"]
+			description: ["&6Was ist das?", "Ein einfaches Zauberbuch aus Kupfer.", "", "&6So gehts", "Zauberbuch und Kupferbarren am Inschriftentisch bzw. in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Fuer die ersten Zauber reicht es, spaeter lohnt sich ein besseres Buch."]
+			id: "DF09E5E23C77B3DE"
+			title: "Kupfer-Zauberbuch"
+			rewards: [{ id: "C8ED24DEC049ADD4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "ED5A4C399E1FF909", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76F11D27CBE5A57F"]
+			description: ["&6Was ist das?", "Ein seltenes magisches Erz.", "", "&6So gehts", "Baue es in tiefen Hoehlen ab, wo magische Energie spuerbar ist.", "", "&6Wofuer ist das wichtig?", "Daraus entstehen arkane Barren fuer starke Ausruestung."]
+			id: "E4A8830762EEACF0"
+			title: "Arkaner Schutt"
+			rewards: [{ id: "CA6F604E90584106", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B4A77EC66220DCCC", type: "item", item: { id: "irons_spellbooks:arcane_debris", count: 1 }, count: 2L }]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["679A18FE536A076C"]
+			description: ["&6Was ist das?", "Ein Kessel fuer Wasser, Farbe und Traenke.", "", "&6So gehts", "Sieben Eisenbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch fuer Pfeile mit Trankeffekt und Lederfaerben."]
+			id: "C855176C8A423D4D"
+			title: "Kessel"
+			rewards: [{ id: "94C87BC4CDAA15EA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "AF0C4A2825D10BBD", type: "item", item: { id: "minecraft:cauldron", count: 1 }, count: 1L }]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["679A18FE536A076C"]
+			description: ["&6Was ist das?", "Ein spezieller Kessel zum Mischen magischer Zutaten.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Damit stellst du magische Traenke und Tinte her."]
+			id: "0260DD94DCAA6BC6"
+			title: "Alchemistenkessel"
+			rewards: [{ id: "CAA34200B20BC3F4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CFD599AC64017A2A", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["679A18FE536A076C"]
+			description: ["&6Was ist das?", "Ein Feuerbecken fuer magische Rituale.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Dient als Licht und Quelle von Rauch fuer Zauber."]
+			id: "9894400F29C13534"
+			title: "Kohlenbecken"
+			rewards: [{ id: "2EA5B733000FD065", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7C28F4FF85DEBC17", type: "item", item: { id: "irons_spellbooks:brazier", count: 1 }, count: 1L }]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30A1A33A3BB96820"]
+			description: ["&6Was ist das?", "Ein gekochtes Ei der Eisspinne.", "", "&6So gehts", "Kocht das Ei der Eisspinne im Ofen.", "", "&6Wofuer ist das wichtig?", "Eine ungewoehnliche Mahlzeit mit magischer Wirkung."]
+			id: "D07B3C5796908B97"
+			title: "Eisspinnen-Ei"
+			rewards: [{ id: "5BEE7C2D51E13761", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "12DE6D3CA114D22D", type: "item", item: { id: "irons_spellbooks:cooked_ice_spider_egg", count: 1 }, count: 1L }]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["243A3BB56D8015B9"]
+			description: ["&6Was ist das?", "Eine Flasche mit Blut fuer Blutmagie.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Ein Material fuer Blutzauber und Rituale."]
+			id: "7D44C0D4226667BD"
+			title: "Blutflasche"
+			rewards: [{ id: "874841635152B5D6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9B586CD9169BE005", type: "item", item: { id: "irons_spellbooks:blood_vial", count: 1 }, count: 1L }]
+			x: 16.5d
+			y: 8.0d
+		}
 	]
 }

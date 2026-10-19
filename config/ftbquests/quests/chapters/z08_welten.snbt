@@ -1040,5 +1040,125 @@
 			x: 25.5d
 			y: 18.0d
 		}
+		{
+			dependencies: ["615E21CD98E6C777"]
+			description: ["&6Was ist das?", "Leuchtende Beeren aus dem Zwielichtwald.", "", "&6So gehts", "Suche in den Waeldern nach den hellen Beerenstraeuchern.", "", "&6Wofuer ist das wichtig?", "Eine natuerliche Lichtquelle fuer deinen Weg."]
+			id: "60E79D907C1E0EC8"
+			title: "Fackelbeeren"
+			rewards: [{ id: "6ECA97D9EC417778", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BCEB7A24603606B7", type: "item", item: { id: "twilightforest:torchberries", count: 1 }, count: 3L }]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1EFE3DB449F102E0"]
+			description: ["&6Was ist das?", "Misst die Erze in einem Chunk.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Zeigt dir, wo sich der Abbau lohnt."]
+			id: "BF656993AF0330E3"
+			title: "Erzmesser"
+			rewards: [{ id: "5678B6133A2F92F2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "401F8C780A65405E", type: "item", item: { id: "twilightforest:ore_meter", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["696A20D593371128"]
+			description: ["&6Was ist das?", "Schuppen der Naga aus dem Zwielichtwald.", "", "&6So gehts", "Besiege die Naga, sie laesst Schuppen fallen.", "", "&6Wofuer ist das wichtig?", "Material fuer starke Naga-Ruestung."]
+			id: "094EBC04AF376F17"
+			title: "Nagaschuppe"
+			rewards: [{ id: "46507D94FDEB9CCA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EBF2FDCBE81806EE", type: "item", item: { id: "twilightforest:naga_scale", count: 1 }, count: 4L }]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["342712AE7D324792"]
+			description: ["&6Was ist das?", "Ein deftiges Gericht aus dem Zwielichtwald.", "", "&6So gehts", "Besiege den Minoshroom und koche dann das Gericht. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Saettigt stark und heilt dich."]
+			id: "6BA3B8C7C224B6A9"
+			title: "Meef-Stroganoff"
+			rewards: [{ id: "2006C027D88DC360", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "97C420628D493382", type: "item", item: { id: "twilightforest:meef_stroganoff", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76237B0ECD40643E"]
+			description: ["&6Was ist das?", "Ein riesiges Stueck Fleisch von der Hydra.", "", "&6So gehts", "Besiege die Hydra und sammle die Keule.", "", "&6Wofuer ist das wichtig?", "Eine der besten Nahrungsquellen im Zwielichtwald."]
+			id: "492FEFA7AB006DAB"
+			title: "Hydra-Keule"
+			rewards: [{ id: "EBBC548FE18D1133", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "68C38C8B041867C8", type: "item", item: { id: "twilightforest:hydra_chop", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66280F7D142AA7D1"]
+			description: ["&6Was ist das?", "Traenen des Ur-Ghast.", "", "&6So gehts", "Besiege den Ur-Ghast im Turm.", "", "&6Wofuer ist das wichtig?", "Zutat fuer maechtige Gegenstaende im Zwielichtwald."]
+			id: "F8A3F3D9CA66DDE7"
+			title: "Feurige Traenen"
+			rewards: [{ id: "9AE70C824D1830D5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "74E403CBFB90A854", type: "item", item: { id: "twilightforest:fiery_tears", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55AC6F18F0BE8BBF"]
+			description: ["&6Was ist das?", "Dichtes Fell vom Alpha-Yeti.", "", "&6So gehts", "Besiege den Alpha-Yeti in der Eishoehle.", "", "&6Wofuer ist das wichtig?", "Daraus entsteht warme Arktische Ruestung."]
+			id: "E8B5261235A05E68"
+			title: "Arktisches Fell"
+			rewards: [{ id: "C3B01BF04ACEDFDC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "378C681E3EB78BB6", type: "item", item: { id: "twilightforest:arctic_fur", count: 1 }, count: 4L }]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66E57CCD2D7C1EA0"]
+			description: ["&6Was ist das?", "Ein Buch, das das Aether erklaert.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Hilft dir, die neuen Gegenstaende und Gefahren zu verstehen."]
+			id: "C73BC036F4D88D25"
+			title: "Buch der Lehren"
+			rewards: [{ id: "5ED735DDFBAB3E59", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C2011BE0C327B89B", type: "item", item: { id: "aether:book_of_lore", count: 1 }, count: 1L }]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66E57CCD2D7C1EA0"]
+			description: ["&6Was ist das?", "Beeren, die im Aether auf Straeuchern wachsen.", "", "&6So gehts", "Sammle sie im Aether von den Beerenstraeuchern.", "", "&6Wofuer ist das wichtig?", "Nahrung und Zutat fuer die Verzauberung zu Zauberbeeren."]
+			id: "E030B951B0A2366D"
+			title: "Blaubeere"
+			rewards: [{ id: "D3D6D67519B9F95B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "808A992658D8DBB6", type: "item", item: { id: "aether:blue_berry", count: 1 }, count: 6L }]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FAE873C77C46E93"]
+			description: ["&6Was ist das?", "Goldener Harz von goldenen Eichen.", "", "&6So gehts", "Faelle goldene Eichen im Aether.", "", "&6Wofuer ist das wichtig?", "Wird fuer Sticks und Werkzeuge gebraucht."]
+			id: "ED196F3B758806D0"
+			title: "Goldbernstein"
+			rewards: [{ id: "1DAEB71AE224AFA6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E01133357A6CFF38", type: "item", item: { id: "aether:golden_amber", count: 1 }, count: 4L }]
+			x: 21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C97666AADA6E478"]
+			description: ["&6Was ist das?", "Rutschiger Boden, auf dem man schnell gleitet.", "", "&6So gehts", "Baue ihn in den Inseln des Aethers ab.", "", "&6Wofuer ist das wichtig?", "Mit Quicksoil entstehen schnelle Wege und Glas."]
+			id: "8FB74F1791BB4DA8"
+			title: "Quicksoil"
+			rewards: [{ id: "1DF73006258A429E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3B62019E20CCC069", type: "item", item: { id: "aether:quicksoil", count: 1 }, count: 8L }]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["337552AA9F3ACCE2"]
+			description: ["&6Was ist das?", "Ein feuerfester, durchsichtiger Block.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Explosionssicherer Baustoff, hell und schoen."]
+			id: "2C36F5DCE1A40ADB"
+			title: "Aerogel"
+			rewards: [{ id: "D9352BF6C313C6A0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "AECC74F24B756836", type: "item", item: { id: "aether:aerogel", count: 1 }, count: 4L }]
+			x: 24.0d
+			y: 2.0d
+		}
 	]
 }
