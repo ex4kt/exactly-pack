@@ -1,0 +1,894 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersiveengineering"
+	icon: { id: "immersiveengineering:hammer" }
+	id: "1E00000000FFFF01"
+	order_index: 11
+	quest_links: [ ]
+	title: "&6Immersive Engineering"
+	quests: [
+		{
+			description: ["&6Was ist das?", "Immersive Engineering ist eine Industrie-Mod mit Draehten, Dampf-freien Maschinen, Strom und Waffen.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Das Handbuch erklaert alles.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Druckluft-Zeitalter."]
+			icon: { id: "immersiveengineering:hammer" }
+			id: "1E10000000000001"
+			title: "Immersive Engineering"
+			rewards: []
+			tasks: [{ id: "1E20000000000001", type: "checkmark" }]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Das Handbuch erklaert alle Maschinen und Rezepte.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Das Handbuch erklaert alle Maschinen mit Bildern. Rezepte findest du auch in JEI (R oder U ueber dem Item)."]
+			icon: { id: "immersiveengineering:manual" }
+			id: "1E10000000000002"
+			title: "Handbuch"
+			rewards: [{ id: "1E30000000000002", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000002", type: "item", item: { id: "immersiveengineering:manual", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Zum Bauen und Drehen von Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Mit dem Hammer setzt du Mehrblock-Maschinen zusammen und drehst Bloecke."]
+			icon: { id: "immersiveengineering:hammer" }
+			id: "1E10000000000003"
+			title: "Ingenieurshammer"
+			rewards: [{ id: "1E30000000000003", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000003", type: "item", item: { id: "immersiveengineering:hammer", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000003"]
+			description: ["&6Was ist das?", "Zum Schneiden von Draehten und Platten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Mit dem Drahtschneider stellst du in der Werkbank Draehte aus Barren her."]
+			icon: { id: "immersiveengineering:wirecutter" }
+			id: "1E10000000000004"
+			title: "Drahtschneider"
+			rewards: [{ id: "1E30000000000004", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000004", type: "item", item: { id: "immersiveengineering:wirecutter", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000004"]
+			description: ["&6Was ist das?", "Zum Einstellen von Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:screwdriver" }
+			id: "1E10000000000005"
+			title: "Schraubendreher"
+			rewards: [{ id: "1E30000000000005", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000005", type: "item", item: { id: "immersiveengineering:screwdriver", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000005"]
+			description: ["&6Was ist das?", "Misst Strom in Kabeln.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Das Voltmeter zeigt, wie viel Strom durch ein Kabel fliesst."]
+			icon: { id: "immersiveengineering:voltmeter" }
+			id: "1E10000000000006"
+			title: "Voltmeter"
+			rewards: [{ id: "1E30000000000006", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000006", type: "item", item: { id: "immersiveengineering:voltmeter", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000006"]
+			description: ["&6Was ist das?", "Hilft beim Planen grosser Bauten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:survey_tools" }
+			id: "1E10000000000007"
+			title: "Vermessungswerkzeug"
+			rewards: [{ id: "1E30000000000007", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000007", type: "item", item: { id: "immersiveengineering:survey_tools", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000007"]
+			description: ["&6Was ist das?", "Praktisch zum Mitnehmen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:toolbox" }
+			id: "1E10000000000008"
+			title: "Werkzeugkasten"
+			rewards: [{ id: "1E30000000000008", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000008", type: "item", item: { id: "immersiveengineering:toolbox", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000008"]
+			description: ["&6Was ist das?", "Fuer die Fertigung komplexer Teile.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:blueprint" }
+			id: "1E10000000000009"
+			title: "Bauplan"
+			rewards: [{ id: "1E30000000000009", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000009", type: "item", item: { id: "immersiveengineering:blueprint", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Macht aus Kohle Koks und Kreosot.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:coke_oven" }
+			id: "1E1000000000000A"
+			title: "Koksofen"
+			rewards: [{ id: "1E3000000000000A", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E2000000000000A", type: "item", item: { id: "immersiveengineering:coke_oven", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1000000000000A"]
+			description: ["&6Was ist das?", "Stellt Stahl aus Eisen und Koks her.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:blast_furnace" }
+			id: "1E1000000000000B"
+			title: "Hochofen"
+			rewards: [{ id: "1E3000000000000B", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E2000000000000B", type: "item", item: { id: "immersiveengineering:blast_furnace", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1000000000000B"]
+			description: ["&6Was ist das?", "Mischt Metalle zu Legierungen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:alloy_smelter" }
+			id: "1E1000000000000C"
+			title: "Legierungsofen"
+			rewards: [{ id: "1E3000000000000C", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E2000000000000C", type: "item", item: { id: "immersiveengineering:alloy_smelter", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1000000000000C"]
+			description: ["&6Was ist das?", "Zerkleinert Erze zu Staub.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:crusher" }
+			id: "1E1000000000000D"
+			title: "Brecher"
+			rewards: [{ id: "1E3000000000000D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E2000000000000D", type: "item", item: { id: "immersiveengineering:crusher", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1000000000000D"]
+			description: ["&6Was ist das?", "Presst Platten, Draehte und Zahnraeder.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:metal_press" }
+			id: "1E1000000000000E"
+			title: "Metallpresse"
+			rewards: [{ id: "1E3000000000000E", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E2000000000000E", type: "item", item: { id: "immersiveengineering:metal_press", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1000000000000E"]
+			description: ["&6Was ist das?", "Presst Fluessigkeiten aus Pflanzen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:squeezer" }
+			id: "1E1000000000000F"
+			title: "Presse"
+			rewards: [{ id: "1E3000000000000F", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E2000000000000F", type: "item", item: { id: "immersiveengineering:squeezer", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E1000000000000F"]
+			description: ["&6Was ist das?", "Macht Ethanol aus Pflanzen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:fermenter" }
+			id: "1E10000000000010"
+			title: "Fermenter"
+			rewards: [{ id: "1E30000000000010", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000010", type: "item", item: { id: "immersiveengineering:fermenter", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E10000000000010"]
+			description: ["&6Was ist das?", "Veredelt Fluessigkeiten zu Treibstoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:refinery" }
+			id: "1E10000000000011"
+			title: "Raffinerie"
+			rewards: [{ id: "1E30000000000011", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000011", type: "item", item: { id: "immersiveengineering:refinery", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Hartes Metall fuer Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_steel" }
+			id: "1E10000000000012"
+			title: "Stahlbarren"
+			rewards: [{ id: "1E30000000000012", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000012", type: "item", item: { id: "immersiveengineering:ingot_steel", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000012"]
+			description: ["&6Was ist das?", "Leichtes Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_aluminum" }
+			id: "1E10000000000013"
+			title: "Aluminiumbarren"
+			rewards: [{ id: "1E30000000000013", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000013", type: "item", item: { id: "immersiveengineering:ingot_aluminum", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000013"]
+			description: ["&6Was ist das?", "Schweres Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_lead" }
+			id: "1E10000000000014"
+			title: "Bleibarren"
+			rewards: [{ id: "1E30000000000014", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000014", type: "item", item: { id: "immersiveengineering:ingot_lead", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000014"]
+			description: ["&6Was ist das?", "Edles Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_silver" }
+			id: "1E10000000000015"
+			title: "Silberbarren"
+			rewards: [{ id: "1E30000000000015", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000015", type: "item", item: { id: "immersiveengineering:ingot_silver", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000015"]
+			description: ["&6Was ist das?", "Zutat fuer Konstantan.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_nickel" }
+			id: "1E10000000000016"
+			title: "Nickelbarren"
+			rewards: [{ id: "1E30000000000016", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000016", type: "item", item: { id: "immersiveengineering:ingot_nickel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000016"]
+			description: ["&6Was ist das?", "Legierung aus Kupfer und Nickel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_constantan" }
+			id: "1E10000000000017"
+			title: "Konstantanbarren"
+			rewards: [{ id: "1E30000000000017", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000017", type: "item", item: { id: "immersiveengineering:ingot_constantan", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000017"]
+			description: ["&6Was ist das?", "Legierung aus Gold und Silber.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_electrum" }
+			id: "1E10000000000018"
+			title: "Elektrumbarren"
+			rewards: [{ id: "1E30000000000018", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000018", type: "item", item: { id: "immersiveengineering:ingot_electrum", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000018"]
+			description: ["&6Was ist das?", "Radioaktives Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:ingot_uranium" }
+			id: "1E10000000000019"
+			title: "Uranbarren"
+			rewards: [{ id: "1E30000000000019", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1E20000000000019", type: "item", item: { id: "immersiveengineering:ingot_uranium", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Erzeugt Drehkraft aus Wind.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:windmill" }
+			id: "1E1000000000001A"
+			title: "Windmuehle"
+			rewards: [{ id: "1E3000000000001A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000001A", type: "item", item: { id: "immersiveengineering:windmill", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E1000000000001A"]
+			description: ["&6Was ist das?", "Erzeugt Drehkraft aus Wasser.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:watermill" }
+			id: "1E1000000000001B"
+			title: "Wassermuehle"
+			rewards: [{ id: "1E3000000000001B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000001B", type: "item", item: { id: "immersiveengineering:watermill", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E1000000000001B"]
+			description: ["&6Was ist das?", "Wandelt Drehkraft in Strom.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:dynamo" }
+			id: "1E1000000000001C"
+			title: "Dynamo"
+			rewards: [{ id: "1E3000000000001C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000001C", type: "item", item: { id: "immersiveengineering:dynamo", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E1000000000001C"]
+			description: ["&6Was ist das?", "Stromerzeugung per Brennstoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:generator" }
+			id: "1E1000000000001D"
+			title: "Generator"
+			rewards: [{ id: "1E3000000000001D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000001D", type: "item", item: { id: "immersiveengineering:generator", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E1000000000001D"]
+			description: ["&6Was ist das?", "Starke Stromquelle.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:diesel_generator" }
+			id: "1E1000000000001E"
+			title: "Dieselgenerator"
+			rewards: [{ id: "1E3000000000001E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000001E", type: "item", item: { id: "immersiveengineering:diesel_generator", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E1000000000001E"]
+			description: ["&6Was ist das?", "Strom aus Waerme.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:thermoelectric_generator" }
+			id: "1E1000000000001F"
+			title: "Thermogenerator"
+			rewards: [{ id: "1E3000000000001F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000001F", type: "item", item: { id: "immersiveengineering:thermoelectric_generator", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E1000000000001F"]
+			description: ["&6Was ist das?", "Speichert Niederspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:capacitor_lv" }
+			id: "1E10000000000020"
+			title: "Kondensator LV"
+			rewards: [{ id: "1E30000000000020", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000020", type: "item", item: { id: "immersiveengineering:capacitor_lv", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E10000000000020"]
+			description: ["&6Was ist das?", "Speichert Mittelspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:capacitor_mv" }
+			id: "1E10000000000021"
+			title: "Kondensator MV"
+			rewards: [{ id: "1E30000000000021", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000021", type: "item", item: { id: "immersiveengineering:capacitor_mv", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Niederspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:wirecoil_copper" }
+			id: "1E10000000000022"
+			title: "Kupferkabel"
+			rewards: [{ id: "1E30000000000022", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000022", type: "item", item: { id: "immersiveengineering:wirecoil_copper", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000022"]
+			description: ["&6Was ist das?", "Mittelspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:wirecoil_electrum" }
+			id: "1E10000000000023"
+			title: "Elektrumkabel"
+			rewards: [{ id: "1E30000000000023", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000023", type: "item", item: { id: "immersiveengineering:wirecoil_electrum", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000023"]
+			description: ["&6Was ist das?", "Hochspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:wirecoil_steel" }
+			id: "1E10000000000024"
+			title: "Stahlkabel"
+			rewards: [{ id: "1E30000000000024", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000024", type: "item", item: { id: "immersiveengineering:wirecoil_steel", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000024"]
+			description: ["&6Was ist das?", "Verbindet Niederspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:connector_lv" }
+			id: "1E10000000000025"
+			title: "Anschluss LV"
+			rewards: [{ id: "1E30000000000025", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000025", type: "item", item: { id: "immersiveengineering:connector_lv", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000025"]
+			description: ["&6Was ist das?", "Verbindet Mittelspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:connector_mv" }
+			id: "1E10000000000026"
+			title: "Anschluss MV"
+			rewards: [{ id: "1E30000000000026", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000026", type: "item", item: { id: "immersiveengineering:connector_mv", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000026"]
+			description: ["&6Was ist das?", "Verbindet Hochspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:connector_hv" }
+			id: "1E10000000000027"
+			title: "Anschluss HV"
+			rewards: [{ id: "1E30000000000027", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000027", type: "item", item: { id: "immersiveengineering:connector_hv", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000027"]
+			description: ["&6Was ist das?", "Wandelt Spannungsstufen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:transformer" }
+			id: "1E10000000000028"
+			title: "Transformator"
+			rewards: [{ id: "1E30000000000028", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000028", type: "item", item: { id: "immersiveengineering:transformer", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000028"]
+			description: ["&6Was ist das?", "Speichert Hochspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:capacitor_hv" }
+			id: "1E10000000000029"
+			title: "Kondensator HV"
+			rewards: [{ id: "1E30000000000029", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000029", type: "item", item: { id: "immersiveengineering:capacitor_hv", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Schuerft grosse Erzvorkommen ab.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:excavator" }
+			id: "1E1000000000002A"
+			title: "Bagger"
+			rewards: [{ id: "1E3000000000002A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000002A", type: "item", item: { id: "immersiveengineering:excavator", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1000000000002A"]
+			description: ["&6Was ist das?", "Teil des Baggers.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:bucket_wheel" }
+			id: "1E1000000000002B"
+			title: "Schaufelrad"
+			rewards: [{ id: "1E3000000000002B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000002B", type: "item", item: { id: "immersiveengineering:bucket_wheel", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1000000000002B"]
+			description: ["&6Was ist das?", "Baut Gegenstaende automatisch.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:assembler" }
+			id: "1E1000000000002C"
+			title: "Assembler"
+			rewards: [{ id: "1E3000000000002C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000002C", type: "item", item: { id: "immersiveengineering:assembler", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1000000000002C"]
+			description: ["&6Was ist das?", "Schmilzt Erze zu Barren, mit Schlacke.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:arc_furnace" }
+			id: "1E1000000000002D"
+			title: "Lichtbogenofen"
+			rewards: [{ id: "1E3000000000002D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000002D", type: "item", item: { id: "immersiveengineering:arc_furnace", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1000000000002D"]
+			description: ["&6Was ist das?", "Fuellt und entleert Behaelter.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:bottling_machine" }
+			id: "1E1000000000002E"
+			title: "Abfuellmaschine"
+			rewards: [{ id: "1E3000000000002E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000002E", type: "item", item: { id: "immersiveengineering:bottling_machine", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1000000000002E"]
+			description: ["&6Was ist das?", "Mischt Fluessigkeiten mit Feststoffen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:mixer" }
+			id: "1E1000000000002F"
+			title: "Mischer"
+			rewards: [{ id: "1E3000000000002F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000002F", type: "item", item: { id: "immersiveengineering:mixer", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E1000000000002F"]
+			description: ["&6Was ist das?", "Speichert viele Items.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:silo" }
+			id: "1E10000000000030"
+			title: "Silo"
+			rewards: [{ id: "1E30000000000030", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000030", type: "item", item: { id: "immersiveengineering:silo", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E10000000000030"]
+			description: ["&6Was ist das?", "Speichert Fluessigkeiten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:tank" }
+			id: "1E10000000000031"
+			title: "Tank"
+			rewards: [{ id: "1E30000000000031", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000031", type: "item", item: { id: "immersiveengineering:tank", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Fernkampfwaffe mit vielen Patronen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:revolver" }
+			id: "1E10000000000032"
+			title: "Revolver"
+			rewards: [{ id: "1E30000000000032", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000032", type: "item", item: { id: "immersiveengineering:revolver", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000032"]
+			description: ["&6Was ist das?", "Starke elektrische Fernwaffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:railgun" }
+			id: "1E10000000000033"
+			title: "Schienenkanone"
+			rewards: [{ id: "1E30000000000033", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000033", type: "item", item: { id: "immersiveengineering:railgun", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000033"]
+			description: ["&6Was ist das?", "Verspritzt Fluessigkeiten als Waffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:chemthrower" }
+			id: "1E10000000000034"
+			title: "Chemiewerfer"
+			rewards: [{ id: "1E30000000000034", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000034", type: "item", item: { id: "immersiveengineering:chemthrower", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000034"]
+			description: ["&6Was ist das?", "Elektrischer Abbauer.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:drill" }
+			id: "1E10000000000035"
+			title: "Bohrer"
+			rewards: [{ id: "1E30000000000035", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000035", type: "item", item: { id: "immersiveengineering:drill", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000035"]
+			description: ["&6Was ist das?", "Schwebe an Draehten entlang.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:skyhook" }
+			id: "1E10000000000036"
+			title: "Himmelshaken"
+			rewards: [{ id: "1E30000000000036", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000036", type: "item", item: { id: "immersiveengineering:skyhook", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000036"]
+			description: ["&6Was ist das?", "Traegt Energie am Koerper.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:powerpack" }
+			id: "1E10000000000037"
+			title: "Kraftpack"
+			rewards: [{ id: "1E30000000000037", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000037", type: "item", item: { id: "immersiveengineering:powerpack", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000037"]
+			description: ["&6Was ist das?", "Elektrisches Schneidwerkzeug.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:buzzsaw" }
+			id: "1E10000000000038"
+			title: "Kreissaege"
+			rewards: [{ id: "1E30000000000038", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000038", type: "item", item: { id: "immersiveengineering:buzzsaw", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000038"]
+			description: ["&6Was ist das?", "Zum Gleiten durch die Luft.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:glider" }
+			id: "1E10000000000039"
+			title: "Gleiter"
+			rewards: [{ id: "1E30000000000039", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000039", type: "item", item: { id: "immersiveengineering:glider", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Stabile Nahkampfwaffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:sword_steel" }
+			id: "1E1000000000003A"
+			title: "Stahlschwert"
+			rewards: [{ id: "1E3000000000003A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000003A", type: "item", item: { id: "immersiveengineering:sword_steel", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E1000000000003A"]
+			description: ["&6Was ist das?", "Starke Spitzhacke.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:pickaxe_steel" }
+			id: "1E1000000000003B"
+			title: "Stahlspitzhacke"
+			rewards: [{ id: "1E3000000000003B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000003B", type: "item", item: { id: "immersiveengineering:pickaxe_steel", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E1000000000003B"]
+			description: ["&6Was ist das?", "Fuer Holz und Kampf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:axe_steel" }
+			id: "1E1000000000003C"
+			title: "Stahlaxt"
+			rewards: [{ id: "1E3000000000003C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000003C", type: "item", item: { id: "immersiveengineering:axe_steel", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E1000000000003C"]
+			description: ["&6Was ist das?", "Zum Graben.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:shovel_steel" }
+			id: "1E1000000000003D"
+			title: "Stahlschaufel"
+			rewards: [{ id: "1E3000000000003D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000003D", type: "item", item: { id: "immersiveengineering:shovel_steel", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E1000000000003D"]
+			description: ["&6Was ist das?", "Zum Pfluegen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:hoe_steel" }
+			id: "1E1000000000003E"
+			title: "Stahlhacke"
+			rewards: [{ id: "1E3000000000003E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000003E", type: "item", item: { id: "immersiveengineering:hoe_steel", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E1000000000003E"]
+			description: ["&6Was ist das?", "Schuetzt den Kopf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:armor_steel_helmet" }
+			id: "1E1000000000003F"
+			title: "Stahlhelm"
+			rewards: [{ id: "1E3000000000003F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E2000000000003F", type: "item", item: { id: "immersiveengineering:armor_steel_helmet", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E1000000000003F"]
+			description: ["&6Was ist das?", "Schuetzt den Koerper.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:armor_steel_chestplate" }
+			id: "1E10000000000040"
+			title: "Stahlbrustplatte"
+			rewards: [{ id: "1E30000000000040", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000040", type: "item", item: { id: "immersiveengineering:armor_steel_chestplate", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E10000000000040"]
+			description: ["&6Was ist das?", "Schuetzen die Fuesse.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:armor_steel_boots" }
+			id: "1E10000000000041"
+			title: "Stahlstiefel"
+			rewards: [{ id: "1E30000000000041", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000041", type: "item", item: { id: "immersiveengineering:armor_steel_boots", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1E10000000000001"]
+			description: ["&6Was ist das?", "Wetterfestes Bauholz.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:treated_wood_horizontal" }
+			id: "1E10000000000042"
+			title: "Behandeltes Holz"
+			rewards: [{ id: "1E30000000000042", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000042", type: "item", item: { id: "immersiveengineering:treated_wood_horizontal", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000042"]
+			description: ["&6Was ist das?", "Zum Bauen in der Hoehe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:steel_scaffolding_standard" }
+			id: "1E10000000000043"
+			title: "Stahlgeruest"
+			rewards: [{ id: "1E30000000000043", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000043", type: "item", item: { id: "immersiveengineering:steel_scaffolding_standard", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000043"]
+			description: ["&6Was ist das?", "Laufsteg fuer Fabriken.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:steel_catwalk" }
+			id: "1E10000000000044"
+			title: "Stahlsteg"
+			rewards: [{ id: "1E30000000000044", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000044", type: "item", item: { id: "immersiveengineering:steel_catwalk", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000044"]
+			description: ["&6Was ist das?", "Stabiler Baustoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:concrete" }
+			id: "1E10000000000045"
+			title: "Beton"
+			rewards: [{ id: "1E30000000000045", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000045", type: "item", item: { id: "immersiveengineering:concrete", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000045"]
+			description: ["&6Was ist das?", "Baustoff aus Hanf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:hempcrete" }
+			id: "1E10000000000046"
+			title: "Hanfbeton"
+			rewards: [{ id: "1E30000000000046", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000046", type: "item", item: { id: "immersiveengineering:hempcrete", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000046"]
+			description: ["&6Was ist das?", "Blechverkleidung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:sheetmetal_steel" }
+			id: "1E10000000000047"
+			title: "Stahlblech"
+			rewards: [{ id: "1E30000000000047", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000047", type: "item", item: { id: "immersiveengineering:sheetmetal_steel", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000047"]
+			description: ["&6Was ist das?", "Industrielle Lampe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:cagelamp" }
+			id: "1E10000000000048"
+			title: "Kaefiglampe"
+			rewards: [{ id: "1E30000000000048", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000048", type: "item", item: { id: "immersiveengineering:cagelamp", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000048"]
+			description: ["&6Was ist das?", "Helles Licht fuer grosse Flaechen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			icon: { id: "immersiveengineering:floodlight" }
+			id: "1E10000000000049"
+			title: "Flutlicht"
+			rewards: [{ id: "1E30000000000049", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1E20000000000049", type: "item", item: { id: "immersiveengineering:floodlight", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Stellt Gegenstaende nach Bauplan automatisch her.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "3DA0DAAFCE1DD567"
+			title: "Werkbank-Automat"
+			rewards: [{ id: "D6CAE611508A8EF4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "06E8BCCEEE084D3E", type: "item", item: { id: "immersiveengineering:auto_workbench", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Ein Regal fuer deine Baupläne.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "18B6E0D80741423B"
+			title: "Bauplanregal"
+			rewards: [{ id: "72498FDD127265A5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7C34C5C35E8165BE", type: "item", item: { id: "immersiveengineering:blueprint_shelf", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Laedt Energiespeicher-Gegenstaende auf.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "FFB85FCEFAACFB0E"
+			title: "Ladestation"
+			rewards: [{ id: "AA591DEA6F964A86", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E805E5BA84A04812", type: "item", item: { id: "immersiveengineering:charging_station", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Schuetzt vor Blitzschaden.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "A04766DD29568FE9"
+			title: "Faraday-Brustplatte"
+			rewards: [{ id: "5C2D1AB785151213", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "44C2E04076FA67E7", type: "item", item: { id: "immersiveengineering:armor_faraday_chestplate", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Leichtes Geruest aus Aluminium.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "6367F3978A4E8894"
+			title: "Alu-Geruest"
+			rewards: [{ id: "1D1F8CD4E9A1954A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "ADA0A7E8F951823F", type: "item", item: { id: "immersiveengineering:alu_scaffolding_standard", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Macht den Hochofen schneller.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "3FF5EC2F83FA81F6"
+			title: "Hochofen-Vorwaermer"
+			rewards: [{ id: "AC30BA800ADFA302", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EB446B7F541D9BF7", type: "item", item: { id: "immersiveengineering:blastfurnace_preheater", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Eine schwebende Lichtquelle.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "D36DFF14395B91D0"
+			title: "Ballon"
+			rewards: [{ id: "BBA0B71C5372FC81", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9813FE555044B629", type: "item", item: { id: "immersiveengineering:balloon", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E10000000000002"]
+			description: ["&6Was ist das?", "Kugeln fuer den Revolver, die breit streuen.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Erweitert deine Industrie mit zusaetzlichen Bauteilen."]
+			id: "FFBD37EC01947EED"
+			title: "Schrotpatrone"
+			rewards: [{ id: "9D2B302ABF9C0AA9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EAEB270D037EC706", type: "item", item: { id: "immersiveengineering:bullet_buckshot", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: -2.0d
+		}
+	]
+}
