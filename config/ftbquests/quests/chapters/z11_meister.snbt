@@ -966,16 +966,6 @@
 		}
 		{
 			dependencies: ["6E01392665CDEBA9"]
-			description: ["&6Was ist das?", "Der Kopf eines Witherskeletts, selten.", "", "&6So gehts", "Besiege Witherskelette in der Netherfestung.", "", "&6Wofuer ist das wichtig?", "Du brauchst drei Schaedel, um den Wither zu beschwoeren."]
-			id: "E508FF4F7589DE17"
-			title: "Witherskelett-Schaedel"
-			rewards: [{ id: "8BCEC0F99AF81884", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CF0A5F722BCF0870", type: "item", item: { id: "minecraft:wither_skeleton_skull", count: 1 }, count: 3L }]
-			x: 10.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6E01392665CDEBA9"]
 			description: ["&6Was ist das?", "Eine dunkle Blume, die den Wither-Effekt gibt.", "", "&6So gehts", "Entsteht, wenn der Wither ein Wesen toetet.", "", "&6Wofuer ist das wichtig?", "Nur fuer Mutige: Dekoration mit Risiko."]
 			id: "B32F2BD125774304"
 			title: "Wither-Rose"
@@ -983,6 +973,105 @@
 			tasks: [{ id: "919D07C262534838", type: "item", item: { id: "minecraft:wither_rose", count: 1 }, count: 1L }]
 			x: 12.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["6E01392665CDEBA9"]
+			description: ["&6Was ist das?", "Der Wither ist ein Boss mit 300 Leben. Er fliegt, schiesst Totenkopf-Geschosse, die den Wither-Effekt (Schaden ueber Zeit) geben, und zerstoert Bloecke um sich.", "", "&6So gehts", "Diese Anleitung fuehrt dich in acht Schritten: Ausruestung, Heilung, Netherfestung, Schaedel, Seelensand, Kampfplatz, Aufbau, Kampf.", "Mach die Schritte von links nach rechts. Jeder Schritt gibt Erfahrung.", "", "&6Wofuer ist das wichtig?", "Der Wither liefert den Netherstern, ohne den es kein Leuchtfeuer gibt. Ohne Vorbereitung ist der Kampf sehr gefaehrlich."]
+			icon: { id: "minecraft:wither_skeleton_skull" }
+			id: "3FACB52F0FE5B297"
+			title: "Wither: Ueberblick"
+			rewards: [{ id: "5382FAF4314874F5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6E5AFAF34A3E9BF0", type: "checkmark" }]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FACB52F0FE5B297"]
+			description: ["&6Was ist das?", "Du brauchst die beste Ausruestung, die du hast.", "", "&6So gehts", "Trage Diamant- oder Netheritruestung mit Schutz IV. Nimm ein Schwert mit Schaerfe und einen Bogen mit Staerke mit.", "Verzaubere die Ruestung vorher am Verzauberungstisch oder kaufe Buecher bei Dorfbewohnern.", "", "&6Wofuer ist das wichtig?", "Der Wither macht auch durch Ruestung hindurch Schaden ueber Zeit. Mehr Schutz heisst mehr Zeit zum Zuruecktreten und Heilen."]
+			icon: { id: "minecraft:netherite_chestplate" }
+			id: "F7684AE48C961D33"
+			title: "Wither: Ruestung und Waffen"
+			rewards: [{ id: "DF7C29C69FAB008B", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "08AAC4330566ED73", type: "checkmark" }]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["F7684AE48C961D33"]
+			description: ["&6Was ist das?", "Gegen den Wither-Effekt und Treffer brauchst du Heilung.", "", "&6So gehts", "Stelle drei Goldene Aepfel her (acht Goldbarren um einen Apfel). Nimm zusaetzlich zwei Milcheimer mit.", "Milch (Eimer trinken) entfernt alle Effekte, auch den Wither-Effekt.", "", "&6Wofuer ist das wichtig?", "Im Kampf bleibt keine Zeit zum Kochen. Goldene Aepfel geben dir sofort Regeneration und Absorptionsherzen."]
+			icon: { id: "minecraft:golden_apple" }
+			id: "83B799B57B049D65"
+			title: "Wither: Heilung"
+			rewards: [{ id: "D152794B7B56073D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B5E6E2898475724C", type: "item", item: { id: "minecraft:golden_apple", count: 1 }, count: 3L }]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["83B799B57B049D65"]
+			description: ["&6Was ist das?", "Witherskelette leben nur in Netherfestungen.", "", "&6So gehts", "Gehe ins Nether und suche eine Netherfestung (dunkle Backstein-Bauten). Mit dem Naturkompass aus dem Pack kannst du nach ihr suchen lassen.", "Baue Bruecken ueber Lavaseen und nimm genug Bloecke und Feuerresistenz-Traenke mit.", "", "&6Wofuer ist das wichtig?", "Nur dort fallen die Witherskelett-Schaedel. Eine Festung ist voll von Blazes und Skeletten: Sei vorsichtig."]
+			icon: { id: "minecraft:nether_bricks" }
+			id: "9FD31A54BE45A96C"
+			title: "Wither: Netherfestung finden"
+			rewards: [{ id: "0C8B99C7EE289B99", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "25A8B886B39D53C3", type: "checkmark" }]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9FD31A54BE45A96C"]
+			description: ["&6Was ist das?", "Du brauchst drei Witherskelett-Schaedel.", "", "&6So gehts", "Besiege Witherskelette in der Festung. Der Schaedel ist ein seltener Drop (etwa 2,5 Prozent pro Kill), mit Pluenderung etwas haeufiger.", "Witherskelette sind gross und geben dir selbst den Wither-Effekt. Trinke danach Milch.", "", "&6Wofuer ist das wichtig?", "Die Schaedel sind die Koepfe des Withers. Ohne drei Stueck kannst du ihn nicht rufen."]
+			icon: { id: "minecraft:wither_skeleton_skull" }
+			id: "6660171B05E970DF"
+			title: "Wither: Schaedel sammeln"
+			rewards: [{ id: "F262672966BF31A7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DC329E479922BC5A", type: "item", item: { id: "minecraft:wither_skeleton_skull", count: 1 }, count: 3L }]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6660171B05E970DF"]
+			description: ["&6Was ist das?", "Der Koerper des Withers besteht aus vier Bloecken.", "", "&6So gehts", "Sammle vier Seelensand (oder Seelenerde) in den Seelensandtaelern im Nether.", "", "&6Wofuer ist das wichtig?", "Vier Bloecke in T-Form plus drei Schaedel rufen den Wither."]
+			icon: { id: "minecraft:soul_sand" }
+			id: "AB6AE8EEFDB6FFE5"
+			title: "Wither: Seelensand"
+			rewards: [{ id: "7AA757C7465DF6C5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "EC9E66CF125A30D4", type: "item", item: { id: "minecraft:soul_sand", count: 1 }, count: 4L }]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["AB6AE8EEFDB6FFE5"]
+			description: ["&6Was ist das?", "Der Wither zerstoert fast alle Bloecke. Waehle den Platz mit Bedacht.", "", "&6So gehts", "Grabe einen Gang tief unter der Erde in den Fels, mindestens vier Bloecke hoch und drei breit, mit Decke direkt ueber dir. So kann der Wither nicht ueber dich fliegen.", "Beleuchte den Raum. Lege dir Fluchtwege und eine Ecke fuer Heilung an. Baue nicht in der Naehe deiner Basis oder deiner Kisten.", "", "&6Wofuer ist das wichtig?", "Der Wither loest Explosionen aus: Dein Haus und deine Lager sind in Gefahr. Ein enger Gang schuetzt dich vor seinem Flug."]
+			icon: { id: "minecraft:deepslate_bricks" }
+			id: "37E9FE2F7A39F750"
+			title: "Wither: Kampfplatz"
+			rewards: [{ id: "01ADAD8BBB353648", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "8DEE2A07B8E294B5", type: "checkmark" }]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37E9FE2F7A39F750"]
+			description: ["&6Was ist das?", "Hier rufst du ihn.", "", "&6So gehts", "Stelle drei Seelensand in einer Reihe, dann einen Seelensand in die Mitte darunter (T-Form). Setze zuletzt drei Schaedel auf die obere Reihe.", "Der Wither blinkt blau und ist kurz unverwundbar, dann explodiert er. Gehe vorher mehrere Bloecke zurueck.", "", "&6Wofuer ist das wichtig?", "Wer zu nah steht, nimmt Explosionsschaden. Setze die Schaedel aus sicherer Entfernung."]
+			icon: { id: "minecraft:soul_sand" }
+			id: "F79763617195CDD8"
+			title: "Wither: Aufbau"
+			rewards: [{ id: "5DC969B26362A92C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "79FC1DDC88579A9C", type: "checkmark" }]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["F79763617195CDD8"]
+			description: ["&6Was ist das?", "Der Kampf: Besiege den Wither.", "", "&6So gehts", "Unter der Haelfte seiner Leben verliert er den Schutz gegen Pfeile und fliegt weg. Greife ihn aus der Naehe an und lass ihn nicht entkommen.", "Nutze Milch und Goldene Aepfel. Schlage zu und weiche zurueck, sobald du den Effekt bekommst.", "", "&6Wofuer ist das wichtig?", "Er laesst einen Netherstern fallen. Daraus baust du das Leuchtfeuer."]
+			icon: { id: "minecraft:nether_star" }
+			id: "6EA9343D7DA261CB"
+			title: "Wither besiegen"
+			rewards: [{ id: "8BB906150ACB8599", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "D946AF54D03EA3F1", type: "kill", entity: "minecraft:wither", value: 1L }]
+			x: 22.5d
+			y: -2.0d
 		}
 	]
 }

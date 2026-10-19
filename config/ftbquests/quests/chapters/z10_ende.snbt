@@ -456,5 +456,93 @@
 			x: 9.0d
 			y: 14.0d
 		}
+		{
+			dependencies: ["094E3A3AB01FE3FF"]
+			description: ["&6Was ist das?", "Der Enderdrache ist der Boss des Endes mit 200 Leben. Er fliegt, atmet Drachenatem und wird von zehn Endkristallen auf Obsidiansaeulen geheilt.", "", "&6So gehts", "Acht Schritte: Festung finden, Portal, Pfeile, Bloecke und Wasser, Kuerbis, Kristalle, Drache.", "", "&6Wofuer ist das wichtig?", "Mit dem Sieg bekommst du das Drachenei, Erfahrung und den Weg zu den Endstaedten."]
+			icon: { id: "minecraft:dragon_head" }
+			id: "DF133E9BFB41CD35"
+			title: "Drache: Ueberblick"
+			rewards: [{ id: "12801974D86C74D0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "86AD266DFCB63888", type: "checkmark" }]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["DF133E9BFB41CD35"]
+			description: ["&6Was ist das?", "Die Festung versteckt das Endportal.", "", "&6So gehts", "Wirf ein Enderauge: Es fliegt in die Richtung der Festung. Folge ihm. Wenn es nach unten faellt, grabe dort. Mit dem Naturkompass kannst du die Festung auch suchen.", "", "&6Wofuer ist das wichtig?", "Im Portalraum der Festung liegt der Rahmen zum Ende."]
+			icon: { id: "minecraft:ender_eye" }
+			id: "DFE9D1B2B83F4D2E"
+			title: "Drache: Festung finden"
+			rewards: [{ id: "0ED9C93390EF3355", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6D2AC54CE5F97CF7", type: "checkmark" }]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["DFE9D1B2B83F4D2E"]
+			description: ["&6Was ist das?", "Das Endportal hat zwoelf Rahmen.", "", "&6So gehts", "Setze in jeden leeren Rahmen ein Enderauge. Sind alle gefuellt, oeffnet sich das Portal. Manche Rahmen sind schon besetzt, plane aber bis zu zwoelf Augen ein.", "Lege vorher ein Bett oder einen Respawn-Punkt weit weg an.", "", "&6Wofuer ist das wichtig?", "Hinter dem Portal gibt es keinen Rueckweg, bis du den Drachen besiegt hast oder stirbst."]
+			icon: { id: "minecraft:end_portal_frame" }
+			id: "5BEE0068AE196052"
+			title: "Drache: Portal aktivieren"
+			rewards: [{ id: "AD4F2C5EEEFE2D5A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "67729EA2764B40DD", type: "checkmark" }]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5BEE0068AE196052"]
+			description: ["&6Was ist das?", "Gegen die Kristalle auf den hohen Saeulen brauchst du Fernkampf.", "", "&6So gehts", "Nimm einen Bogen (am besten mit Unendlichkeit) und viele Pfeile mit, mindestens 64.", "", "&6Wofuer ist das wichtig?", "Pfeile zerstoeren die Kristalle aus sicherer Entfernung."]
+			icon: { id: "minecraft:bow" }
+			id: "C2C0434EA9E19367"
+			title: "Drache: Bogen und Pfeile"
+			rewards: [{ id: "B8B8BD7A16CC590E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "080DE8400895D377", type: "item", item: { id: "minecraft:arrow", count: 1 }, count: 64L }]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["C2C0434EA9E19367"]
+			description: ["&6Was ist das?", "Endermen sind im Ende ueberall, die Inseln sind klein.", "", "&6So gehts", "Nimm mindestens 64 Bloecke zum Bruecken und einen Wassereimer mit. Wasser schadet Endermen, ein Block ueber dem Kopf schuetzt dich.", "", "&6Wofuer ist das wichtig?", "Bloecke zum Bruecken retten dich vor dem Fall in die Leere."]
+			icon: { id: "minecraft:water_bucket" }
+			id: "5A170150AAC1C908"
+			title: "Drache: Bloecke und Wasser"
+			rewards: [{ id: "D81A5F77A21A6E51", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DE5A2C4E15B78C0E", type: "item", item: { id: "minecraft:water_bucket", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A170150AAC1C908"]
+			description: ["&6Was ist das?", "Ein geschnitzter Kuerbis auf dem Kopf schuetzt vor Endermen.", "", "&6So gehts", "Schneide einen Kuerbis mit der Schere zu und setze ihn auf. Endermen werden nicht aggressiv, wenn du sie ansiehst. Du siehst durch den Kuerbis etwas weniger.", "", "&6Wofuer ist das wichtig?", "Ohne Kuerbis greifen dich viele Endermen gleichzeitig an, sobald du sie ansiehst."]
+			icon: { id: "minecraft:carved_pumpkin" }
+			id: "01307E2D144FD086"
+			title: "Drache: Kuerbis"
+			rewards: [{ id: "8DC0B8F2FED751CA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "031ACA52BB7900EF", type: "item", item: { id: "minecraft:carved_pumpkin", count: 1 }, count: 1L }]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01307E2D144FD086"]
+			description: ["&6Was ist das?", "Auf zehn Obsidiansaeulen stehen Endkristalle. Sie heilen den Drachen.", "", "&6So gehts", "Beschiesse sie mit dem Bogen. Manche sind mit Eisengittern geschuetzt: Baue eine Saeule hinauf und zerstoere das Gitter. Die Kristalle explodieren, bleibe weg.", "", "&6Wofuer ist das wichtig?", "Ohne Kristalle heilt sich der Drache nicht mehr. Erst dann kannst du ihn sicher besiegen."]
+			icon: { id: "minecraft:end_crystal" }
+			id: "AE02FEE6B37C4E80"
+			title: "Drache: Kristalle zerstoeren"
+			rewards: [{ id: "3FD9FB004FDA0527", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3E9C9C15DB387362", type: "kill", entity: "minecraft:end_crystal", value: 10L }]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["AE02FEE6B37C4E80"]
+			description: ["&6Was ist das?", "Der Kampf gegen den Drachen.", "", "&6So gehts", "Der Drache fliegt Kreise und landet manchmal am Portal in der Mitte. Dann schlaegst du mit dem Schwert zu. Meide den violetten Drachenatem am Boden.", "Bruecke immer mit einem Block Rand und nimm Heiltraenke mit.", "", "&6Wofuer ist das wichtig?", "Er laesst viel Erfahrung fallen und oeffnet das Portal nach Hause. In der Mitte erscheint das Drachenei."]
+			icon: { id: "minecraft:dragon_egg" }
+			id: "17E65FEB4CF8824D"
+			title: "Enderdrache besiegen"
+			rewards: [{ id: "C08B4FDFBE8AA737", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "AEA287883B1151AD", type: "kill", entity: "minecraft:ender_dragon", value: 1L }]
+			x: 16.5d
+			y: -2.0d
+		}
 	]
 }

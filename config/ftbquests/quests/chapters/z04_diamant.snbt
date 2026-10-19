@@ -1058,5 +1058,60 @@
 			x: 6.0d
 			y: -2.0d
 		}
+		{
+			dependencies: ["1512FC1565ADD973"]
+			description: ["&6Was ist das?", "Der Waechter (Warden) lebt in der Alten Stadt tief unter der Erde. Er hat 500 Leben, ist blind und hoert jede Erschuetterung.", "", "&6So gehts", "Diese Anleitung zeigt, wie du ihn meidest oder besiegst.", "", "&6Wofuer ist das wichtig?", "Wer ihn weckt, stirbt oft in wenigen Schlaegen. Gute Vorbereitung rettet dein Leben."]
+			icon: { id: "minecraft:sculk_shrieker" }
+			id: "CC819D2B72F31CEC"
+			title: "Waechter: Ueberblick"
+			rewards: [{ id: "4437E80A6FECED2F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EA6C52B216512200", type: "checkmark" }]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["CC819D2B72F31CEC"]
+			description: ["&6Was ist das?", "Die Alte Stadt liegt im Biom Tiefes Dunkel.", "", "&6So gehts", "Suche das Biom Tiefes Dunkel (mit dem Naturkompass) und grabe auf etwa Hoehe -51 nach unten, bis du Tiefenschiefer-Fliesen siehst.", "", "&6Wofuer ist das wichtig?", "Dort sind seltene Kisten mit Verzauberungen und der Waechter."]
+			icon: { id: "minecraft:deepslate_tiles" }
+			id: "BCC8C920E156ECD2"
+			title: "Waechter: Alte Stadt finden"
+			rewards: [{ id: "6CD7F218F867DE41", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "EEC5A20F0F7639AD", type: "checkmark" }]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["BCC8C920E156ECD2"]
+			description: ["&6Was ist das?", "Der Waechter hoert Geraeusche und Erschuetterungen.", "", "&6So gehts", "Halte Shift (schleichen), dann machst du keine Geraeusche. Wolle daempft Schwingungen: Lege sie auf den Boden, ueber den du laeufst.", "Sculk-Schreier rufen den Waechter. Loese sie nicht aus.", "", "&6Wofuer ist das wichtig?", "Wer leise bleibt, kann die Truhen in der Stadt leeren, ohne ihn zu wecken."]
+			icon: { id: "minecraft:white_wool" }
+			id: "8855D24A6E4A31F9"
+			title: "Waechter: Schleichen und Wolle"
+			rewards: [{ id: "2F5AC9A258869773", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "057DBA93E236E4D3", type: "item", item: { id: "minecraft:white_wool", count: 1 }, count: 32L }]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["8855D24A6E4A31F9"]
+			description: ["&6Was ist das?", "Ein Treffer des Waechters ist sehr hart.", "", "&6So gehts", "Nimm die beste Ruestung, viele Goldene Aepfel und gutes Essen mit. Wenn er dich anschaut, gehe in Deckung.", "", "&6Wofuer ist das wichtig?", "Er macht auch durch Ruestung grossen Schaden. Gute Ausruestung ist der Unterschied zwischen Leben und Tod."]
+			icon: { id: "minecraft:golden_apple" }
+			id: "9C4094B9D6762D0B"
+			title: "Waechter: Ruestung und Essen"
+			rewards: [{ id: "17EA35B8F96409AB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "47375AF48391FA26", type: "checkmark" }]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["9C4094B9D6762D0B"]
+			description: ["&6Was ist das?", "Besiege den Waechter, wenn du dich bereit fuehlst.", "", "&6So gehts", "Locke ihn mit einem Schneeball oder Pfeil weg, gehe in eine enge Nische, schlage zu und weiche zurueck. Er hat 500 Leben und greift mit Schall an.", "Du musst ihn nicht besiegen: Meide ihn und laufe weg, wenn er dich gehoert hat.", "", "&6Wofuer ist das wichtig?", "Er ist der staerkste Gegner der Oberwelt und gibt Erfahrung."]
+			icon: { id: "minecraft:echo_shard" }
+			id: "F0603E32C7B6435E"
+			title: "Waechter besiegen"
+			rewards: [{ id: "294CA603C4711BF6", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "02841697B2A71087", type: "kill", entity: "minecraft:warden", value: 1L }]
+			x: 16.5d
+			y: -2.0d
+		}
 	]
 }

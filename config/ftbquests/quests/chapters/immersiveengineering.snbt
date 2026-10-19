@@ -9,7 +9,7 @@
 	title: "&6Immersive Engineering"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Immersive Engineering ist eine Industrie-Mod mit Draehten, Dampf-freien Maschinen, Strom und Waffen.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Das Handbuch erklaert alles.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Druckluft-Zeitalter."]
+			description: ["&6Was ist das?", "Immersive Engineering ist eine Industrie-Mod mit Draehten, Dampf-freien Maschinen, Strom und Waffen.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Das Handbuch erklaert alles.", "", "&6Wofuer ist das wichtig?", "Von Anfang an freigeschaltet, ohne Zeitalter."]
 			icon: { id: "immersiveengineering:hammer" }
 			id: "1E10000000000001"
 			title: "Immersive Engineering"
@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Das Handbuch erklaert alle Maschinen und Rezepte.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Das Handbuch erklaert alle Maschinen mit Bildern. Rezepte findest du auch in JEI (R oder U ueber dem Item)."]
+			description: ["&6Was ist das?", "Das Handbuch erklaert alle Maschinen und Rezepte.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Das Handbuch erklaert alle Maschinen mit Bildern. Rezepte findest du auch in JEI (R oder U ueber dem Item)."]
 			icon: { id: "immersiveengineering:manual" }
 			id: "1E10000000000002"
 			title: "Handbuch"
@@ -31,7 +31,7 @@
 		}
 		{
 			dependencies: ["1E10000000000002"]
-			description: ["&6Was ist das?", "Zum Bauen und Drehen von Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Mit dem Hammer setzt du Mehrblock-Maschinen zusammen und drehst Bloecke."]
+			description: ["&6Was ist das?", "Zum Bauen und Drehen von Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Mit dem Hammer setzt du Mehrblock-Maschinen zusammen und drehst Bloecke."]
 			icon: { id: "immersiveengineering:hammer" }
 			id: "1E10000000000003"
 			title: "Ingenieurshammer"
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["1E10000000000003"]
-			description: ["&6Was ist das?", "Zum Schneiden von Draehten und Platten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Mit dem Drahtschneider stellst du in der Werkbank Draehte aus Barren her."]
+			description: ["&6Was ist das?", "Zum Schneiden von Draehten und Platten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Mit dem Drahtschneider stellst du in der Werkbank Draehte aus Barren her."]
 			icon: { id: "immersiveengineering:wirecutter" }
 			id: "1E10000000000004"
 			title: "Drahtschneider"
@@ -53,7 +53,7 @@
 		}
 		{
 			dependencies: ["1E10000000000004"]
-			description: ["&6Was ist das?", "Zum Einstellen von Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zum Einstellen von Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:screwdriver" }
 			id: "1E10000000000005"
 			title: "Schraubendreher"
@@ -64,7 +64,7 @@
 		}
 		{
 			dependencies: ["1E10000000000005"]
-			description: ["&6Was ist das?", "Misst Strom in Kabeln.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Das Voltmeter zeigt, wie viel Strom durch ein Kabel fliesst."]
+			description: ["&6Was ist das?", "Misst Strom in Kabeln.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig.", "", "&6Gut zu wissen", "Das Voltmeter zeigt, wie viel Strom durch ein Kabel fliesst."]
 			icon: { id: "immersiveengineering:voltmeter" }
 			id: "1E10000000000006"
 			title: "Voltmeter"
@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["1E10000000000006"]
-			description: ["&6Was ist das?", "Hilft beim Planen grosser Bauten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Hilft beim Planen grosser Bauten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:survey_tools" }
 			id: "1E10000000000007"
 			title: "Vermessungswerkzeug"
@@ -86,7 +86,7 @@
 		}
 		{
 			dependencies: ["1E10000000000007"]
-			description: ["&6Was ist das?", "Praktisch zum Mitnehmen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Praktisch zum Mitnehmen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:toolbox" }
 			id: "1E10000000000008"
 			title: "Werkzeugkasten"
@@ -97,7 +97,7 @@
 		}
 		{
 			dependencies: ["1E10000000000008"]
-			description: ["&6Was ist das?", "Fuer die Fertigung komplexer Teile.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Fuer die Fertigung komplexer Teile.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:blueprint" }
 			id: "1E10000000000009"
 			title: "Bauplan"
@@ -108,7 +108,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Macht aus Kohle Koks und Kreosot.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Macht aus Kohle Koks und Kreosot.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:coke_oven" }
 			id: "1E1000000000000A"
 			title: "Koksofen"
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["1E1000000000000A"]
-			description: ["&6Was ist das?", "Stellt Stahl aus Eisen und Koks her.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Stellt Stahl aus Eisen und Koks her.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:blast_furnace" }
 			id: "1E1000000000000B"
 			title: "Hochofen"
@@ -130,7 +130,7 @@
 		}
 		{
 			dependencies: ["1E1000000000000B"]
-			description: ["&6Was ist das?", "Mischt Metalle zu Legierungen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Mischt Metalle zu Legierungen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:alloy_smelter" }
 			id: "1E1000000000000C"
 			title: "Legierungsofen"
@@ -141,7 +141,7 @@
 		}
 		{
 			dependencies: ["1E1000000000000C"]
-			description: ["&6Was ist das?", "Zerkleinert Erze zu Staub.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zerkleinert Erze zu Staub.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:crusher" }
 			id: "1E1000000000000D"
 			title: "Brecher"
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["1E1000000000000D"]
-			description: ["&6Was ist das?", "Presst Platten, Draehte und Zahnraeder.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Presst Platten, Draehte und Zahnraeder.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:metal_press" }
 			id: "1E1000000000000E"
 			title: "Metallpresse"
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["1E1000000000000E"]
-			description: ["&6Was ist das?", "Presst Fluessigkeiten aus Pflanzen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Presst Fluessigkeiten aus Pflanzen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:squeezer" }
 			id: "1E1000000000000F"
 			title: "Presse"
@@ -174,7 +174,7 @@
 		}
 		{
 			dependencies: ["1E1000000000000F"]
-			description: ["&6Was ist das?", "Macht Ethanol aus Pflanzen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Macht Ethanol aus Pflanzen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:fermenter" }
 			id: "1E10000000000010"
 			title: "Fermenter"
@@ -185,7 +185,7 @@
 		}
 		{
 			dependencies: ["1E10000000000010"]
-			description: ["&6Was ist das?", "Veredelt Fluessigkeiten zu Treibstoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Veredelt Fluessigkeiten zu Treibstoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:refinery" }
 			id: "1E10000000000011"
 			title: "Raffinerie"
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Hartes Metall fuer Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Hartes Metall fuer Maschinen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_steel" }
 			id: "1E10000000000012"
 			title: "Stahlbarren"
@@ -207,7 +207,7 @@
 		}
 		{
 			dependencies: ["1E10000000000012"]
-			description: ["&6Was ist das?", "Leichtes Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Leichtes Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_aluminum" }
 			id: "1E10000000000013"
 			title: "Aluminiumbarren"
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["1E10000000000013"]
-			description: ["&6Was ist das?", "Schweres Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schweres Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_lead" }
 			id: "1E10000000000014"
 			title: "Bleibarren"
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["1E10000000000014"]
-			description: ["&6Was ist das?", "Edles Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Edles Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_silver" }
 			id: "1E10000000000015"
 			title: "Silberbarren"
@@ -240,7 +240,7 @@
 		}
 		{
 			dependencies: ["1E10000000000015"]
-			description: ["&6Was ist das?", "Zutat fuer Konstantan.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zutat fuer Konstantan.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_nickel" }
 			id: "1E10000000000016"
 			title: "Nickelbarren"
@@ -251,7 +251,7 @@
 		}
 		{
 			dependencies: ["1E10000000000016"]
-			description: ["&6Was ist das?", "Legierung aus Kupfer und Nickel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Legierung aus Kupfer und Nickel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_constantan" }
 			id: "1E10000000000017"
 			title: "Konstantanbarren"
@@ -262,7 +262,7 @@
 		}
 		{
 			dependencies: ["1E10000000000017"]
-			description: ["&6Was ist das?", "Legierung aus Gold und Silber.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Legierung aus Gold und Silber.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_electrum" }
 			id: "1E10000000000018"
 			title: "Elektrumbarren"
@@ -273,7 +273,7 @@
 		}
 		{
 			dependencies: ["1E10000000000018"]
-			description: ["&6Was ist das?", "Radioaktives Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Radioaktives Metall.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:ingot_uranium" }
 			id: "1E10000000000019"
 			title: "Uranbarren"
@@ -284,7 +284,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Erzeugt Drehkraft aus Wind.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Erzeugt Drehkraft aus Wind.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:windmill" }
 			id: "1E1000000000001A"
 			title: "Windmuehle"
@@ -295,7 +295,7 @@
 		}
 		{
 			dependencies: ["1E1000000000001A"]
-			description: ["&6Was ist das?", "Erzeugt Drehkraft aus Wasser.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Erzeugt Drehkraft aus Wasser.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:watermill" }
 			id: "1E1000000000001B"
 			title: "Wassermuehle"
@@ -306,7 +306,7 @@
 		}
 		{
 			dependencies: ["1E1000000000001B"]
-			description: ["&6Was ist das?", "Wandelt Drehkraft in Strom.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Wandelt Drehkraft in Strom.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:dynamo" }
 			id: "1E1000000000001C"
 			title: "Dynamo"
@@ -317,7 +317,7 @@
 		}
 		{
 			dependencies: ["1E1000000000001C"]
-			description: ["&6Was ist das?", "Stromerzeugung per Brennstoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Stromerzeugung per Brennstoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:generator" }
 			id: "1E1000000000001D"
 			title: "Generator"
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["1E1000000000001D"]
-			description: ["&6Was ist das?", "Starke Stromquelle.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Starke Stromquelle.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:diesel_generator" }
 			id: "1E1000000000001E"
 			title: "Dieselgenerator"
@@ -339,7 +339,7 @@
 		}
 		{
 			dependencies: ["1E1000000000001E"]
-			description: ["&6Was ist das?", "Strom aus Waerme.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Strom aus Waerme.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:thermoelectric_generator" }
 			id: "1E1000000000001F"
 			title: "Thermogenerator"
@@ -350,7 +350,7 @@
 		}
 		{
 			dependencies: ["1E1000000000001F"]
-			description: ["&6Was ist das?", "Speichert Niederspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Speichert Niederspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:capacitor_lv" }
 			id: "1E10000000000020"
 			title: "Kondensator LV"
@@ -361,7 +361,7 @@
 		}
 		{
 			dependencies: ["1E10000000000020"]
-			description: ["&6Was ist das?", "Speichert Mittelspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Speichert Mittelspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:capacitor_mv" }
 			id: "1E10000000000021"
 			title: "Kondensator MV"
@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Niederspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Niederspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:wirecoil_copper" }
 			id: "1E10000000000022"
 			title: "Kupferkabel"
@@ -383,7 +383,7 @@
 		}
 		{
 			dependencies: ["1E10000000000022"]
-			description: ["&6Was ist das?", "Mittelspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Mittelspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:wirecoil_electrum" }
 			id: "1E10000000000023"
 			title: "Elektrumkabel"
@@ -394,7 +394,7 @@
 		}
 		{
 			dependencies: ["1E10000000000023"]
-			description: ["&6Was ist das?", "Hochspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Hochspannungsleitung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:wirecoil_steel" }
 			id: "1E10000000000024"
 			title: "Stahlkabel"
@@ -405,7 +405,7 @@
 		}
 		{
 			dependencies: ["1E10000000000024"]
-			description: ["&6Was ist das?", "Verbindet Niederspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Verbindet Niederspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:connector_lv" }
 			id: "1E10000000000025"
 			title: "Anschluss LV"
@@ -416,7 +416,7 @@
 		}
 		{
 			dependencies: ["1E10000000000025"]
-			description: ["&6Was ist das?", "Verbindet Mittelspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Verbindet Mittelspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:connector_mv" }
 			id: "1E10000000000026"
 			title: "Anschluss MV"
@@ -427,7 +427,7 @@
 		}
 		{
 			dependencies: ["1E10000000000026"]
-			description: ["&6Was ist das?", "Verbindet Hochspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Verbindet Hochspannungskabel.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:connector_hv" }
 			id: "1E10000000000027"
 			title: "Anschluss HV"
@@ -438,7 +438,7 @@
 		}
 		{
 			dependencies: ["1E10000000000027"]
-			description: ["&6Was ist das?", "Wandelt Spannungsstufen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Wandelt Spannungsstufen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:transformer" }
 			id: "1E10000000000028"
 			title: "Transformator"
@@ -449,7 +449,7 @@
 		}
 		{
 			dependencies: ["1E10000000000028"]
-			description: ["&6Was ist das?", "Speichert Hochspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Speichert Hochspannung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:capacitor_hv" }
 			id: "1E10000000000029"
 			title: "Kondensator HV"
@@ -460,7 +460,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Schuerft grosse Erzvorkommen ab.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schuerft grosse Erzvorkommen ab.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:excavator" }
 			id: "1E1000000000002A"
 			title: "Bagger"
@@ -471,7 +471,7 @@
 		}
 		{
 			dependencies: ["1E1000000000002A"]
-			description: ["&6Was ist das?", "Teil des Baggers.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Teil des Baggers.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:bucket_wheel" }
 			id: "1E1000000000002B"
 			title: "Schaufelrad"
@@ -482,7 +482,7 @@
 		}
 		{
 			dependencies: ["1E1000000000002B"]
-			description: ["&6Was ist das?", "Baut Gegenstaende automatisch.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Baut Gegenstaende automatisch.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:assembler" }
 			id: "1E1000000000002C"
 			title: "Assembler"
@@ -493,7 +493,7 @@
 		}
 		{
 			dependencies: ["1E1000000000002C"]
-			description: ["&6Was ist das?", "Schmilzt Erze zu Barren, mit Schlacke.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schmilzt Erze zu Barren, mit Schlacke.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:arc_furnace" }
 			id: "1E1000000000002D"
 			title: "Lichtbogenofen"
@@ -504,7 +504,7 @@
 		}
 		{
 			dependencies: ["1E1000000000002D"]
-			description: ["&6Was ist das?", "Fuellt und entleert Behaelter.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Fuellt und entleert Behaelter.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:bottling_machine" }
 			id: "1E1000000000002E"
 			title: "Abfuellmaschine"
@@ -515,7 +515,7 @@
 		}
 		{
 			dependencies: ["1E1000000000002E"]
-			description: ["&6Was ist das?", "Mischt Fluessigkeiten mit Feststoffen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Mischt Fluessigkeiten mit Feststoffen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:mixer" }
 			id: "1E1000000000002F"
 			title: "Mischer"
@@ -526,7 +526,7 @@
 		}
 		{
 			dependencies: ["1E1000000000002F"]
-			description: ["&6Was ist das?", "Speichert viele Items.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Speichert viele Items.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:silo" }
 			id: "1E10000000000030"
 			title: "Silo"
@@ -537,7 +537,7 @@
 		}
 		{
 			dependencies: ["1E10000000000030"]
-			description: ["&6Was ist das?", "Speichert Fluessigkeiten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Speichert Fluessigkeiten.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:tank" }
 			id: "1E10000000000031"
 			title: "Tank"
@@ -548,7 +548,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Fernkampfwaffe mit vielen Patronen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Fernkampfwaffe mit vielen Patronen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:revolver" }
 			id: "1E10000000000032"
 			title: "Revolver"
@@ -559,7 +559,7 @@
 		}
 		{
 			dependencies: ["1E10000000000032"]
-			description: ["&6Was ist das?", "Starke elektrische Fernwaffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Starke elektrische Fernwaffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:railgun" }
 			id: "1E10000000000033"
 			title: "Schienenkanone"
@@ -570,7 +570,7 @@
 		}
 		{
 			dependencies: ["1E10000000000033"]
-			description: ["&6Was ist das?", "Verspritzt Fluessigkeiten als Waffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Verspritzt Fluessigkeiten als Waffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:chemthrower" }
 			id: "1E10000000000034"
 			title: "Chemiewerfer"
@@ -581,7 +581,7 @@
 		}
 		{
 			dependencies: ["1E10000000000034"]
-			description: ["&6Was ist das?", "Elektrischer Abbauer.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Elektrischer Abbauer.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:drill" }
 			id: "1E10000000000035"
 			title: "Bohrer"
@@ -592,7 +592,7 @@
 		}
 		{
 			dependencies: ["1E10000000000035"]
-			description: ["&6Was ist das?", "Schwebe an Draehten entlang.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schwebe an Draehten entlang.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:skyhook" }
 			id: "1E10000000000036"
 			title: "Himmelshaken"
@@ -603,7 +603,7 @@
 		}
 		{
 			dependencies: ["1E10000000000036"]
-			description: ["&6Was ist das?", "Traegt Energie am Koerper.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Traegt Energie am Koerper.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:powerpack" }
 			id: "1E10000000000037"
 			title: "Kraftpack"
@@ -614,7 +614,7 @@
 		}
 		{
 			dependencies: ["1E10000000000037"]
-			description: ["&6Was ist das?", "Elektrisches Schneidwerkzeug.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Elektrisches Schneidwerkzeug.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:buzzsaw" }
 			id: "1E10000000000038"
 			title: "Kreissaege"
@@ -625,7 +625,7 @@
 		}
 		{
 			dependencies: ["1E10000000000038"]
-			description: ["&6Was ist das?", "Zum Gleiten durch die Luft.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zum Gleiten durch die Luft.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:glider" }
 			id: "1E10000000000039"
 			title: "Gleiter"
@@ -636,7 +636,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Stabile Nahkampfwaffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Stabile Nahkampfwaffe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:sword_steel" }
 			id: "1E1000000000003A"
 			title: "Stahlschwert"
@@ -647,7 +647,7 @@
 		}
 		{
 			dependencies: ["1E1000000000003A"]
-			description: ["&6Was ist das?", "Starke Spitzhacke.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Starke Spitzhacke.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:pickaxe_steel" }
 			id: "1E1000000000003B"
 			title: "Stahlspitzhacke"
@@ -658,7 +658,7 @@
 		}
 		{
 			dependencies: ["1E1000000000003B"]
-			description: ["&6Was ist das?", "Fuer Holz und Kampf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Fuer Holz und Kampf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:axe_steel" }
 			id: "1E1000000000003C"
 			title: "Stahlaxt"
@@ -669,7 +669,7 @@
 		}
 		{
 			dependencies: ["1E1000000000003C"]
-			description: ["&6Was ist das?", "Zum Graben.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zum Graben.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:shovel_steel" }
 			id: "1E1000000000003D"
 			title: "Stahlschaufel"
@@ -680,7 +680,7 @@
 		}
 		{
 			dependencies: ["1E1000000000003D"]
-			description: ["&6Was ist das?", "Zum Pfluegen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zum Pfluegen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:hoe_steel" }
 			id: "1E1000000000003E"
 			title: "Stahlhacke"
@@ -691,7 +691,7 @@
 		}
 		{
 			dependencies: ["1E1000000000003E"]
-			description: ["&6Was ist das?", "Schuetzt den Kopf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schuetzt den Kopf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:armor_steel_helmet" }
 			id: "1E1000000000003F"
 			title: "Stahlhelm"
@@ -702,7 +702,7 @@
 		}
 		{
 			dependencies: ["1E1000000000003F"]
-			description: ["&6Was ist das?", "Schuetzt den Koerper.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schuetzt den Koerper.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:armor_steel_chestplate" }
 			id: "1E10000000000040"
 			title: "Stahlbrustplatte"
@@ -713,7 +713,7 @@
 		}
 		{
 			dependencies: ["1E10000000000040"]
-			description: ["&6Was ist das?", "Schuetzen die Fuesse.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Schuetzen die Fuesse.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:armor_steel_boots" }
 			id: "1E10000000000041"
 			title: "Stahlstiefel"
@@ -724,7 +724,7 @@
 		}
 		{
 			dependencies: ["1E10000000000001"]
-			description: ["&6Was ist das?", "Wetterfestes Bauholz.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Wetterfestes Bauholz.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:treated_wood_horizontal" }
 			id: "1E10000000000042"
 			title: "Behandeltes Holz"
@@ -735,7 +735,7 @@
 		}
 		{
 			dependencies: ["1E10000000000042"]
-			description: ["&6Was ist das?", "Zum Bauen in der Hoehe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Zum Bauen in der Hoehe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:steel_scaffolding_standard" }
 			id: "1E10000000000043"
 			title: "Stahlgeruest"
@@ -746,7 +746,7 @@
 		}
 		{
 			dependencies: ["1E10000000000043"]
-			description: ["&6Was ist das?", "Laufsteg fuer Fabriken.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Laufsteg fuer Fabriken.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:steel_catwalk" }
 			id: "1E10000000000044"
 			title: "Stahlsteg"
@@ -757,7 +757,7 @@
 		}
 		{
 			dependencies: ["1E10000000000044"]
-			description: ["&6Was ist das?", "Stabiler Baustoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Stabiler Baustoff.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:concrete" }
 			id: "1E10000000000045"
 			title: "Beton"
@@ -768,7 +768,7 @@
 		}
 		{
 			dependencies: ["1E10000000000045"]
-			description: ["&6Was ist das?", "Baustoff aus Hanf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Baustoff aus Hanf.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:hempcrete" }
 			id: "1E10000000000046"
 			title: "Hanfbeton"
@@ -779,7 +779,7 @@
 		}
 		{
 			dependencies: ["1E10000000000046"]
-			description: ["&6Was ist das?", "Blechverkleidung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Blechverkleidung.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:sheetmetal_steel" }
 			id: "1E10000000000047"
 			title: "Stahlblech"
@@ -790,7 +790,7 @@
 		}
 		{
 			dependencies: ["1E10000000000047"]
-			description: ["&6Was ist das?", "Industrielle Lampe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Industrielle Lampe.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:cagelamp" }
 			id: "1E10000000000048"
 			title: "Kaefiglampe"
@@ -801,7 +801,7 @@
 		}
 		{
 			dependencies: ["1E10000000000048"]
-			description: ["&6Was ist das?", "Helles Licht fuer grosse Flaechen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Druckluft-Technik, komplett freiwillig."]
+			description: ["&6Was ist das?", "Helles Licht fuer grosse Flaechen.", "", "&6So gehts", "Rezept im Handbuch oder in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Teil der Industrie-Technik, komplett freiwillig."]
 			icon: { id: "immersiveengineering:floodlight" }
 			id: "1E10000000000049"
 			title: "Flutlicht"
