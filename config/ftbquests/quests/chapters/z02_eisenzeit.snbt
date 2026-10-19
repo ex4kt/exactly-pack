@@ -176,27 +176,27 @@
 			title: "Redstone"
 			rewards: [{ id: "7460E19E196051A9", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7B0B4A5B0441C97A", type: "item", item: { id: "minecraft:redstone", count: 1 }, count: 32L }]
-			x: 12.0d
-			y: 0.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["47550C5A803AD9F8"]
+			dependencies: ["0A3B510FB0DE8C3A"]
 			description: ["&6Was ist das?", "Amethyst waechst in Amethystgeoden unter der Erde.", "", "&6So gehts", "Abgebrochene Kristalle aufsammeln.", "", "&6Wofuer ist das wichtig?", "Fernrohr, getoentes Glas und einige Mod-Rezepte."]
 			id: "1953A324EE9E6A13"
 			title: "Amethyst"
 			rewards: [{ id: "2173BABD0A03DDE2", type: "item", item: { id: "minecraft:glass", count: 8 } }]
 			tasks: [{ id: "49AE08F2160C3D3B", type: "item", item: { id: "minecraft:amethyst_shard", count: 1 }, count: 8L }]
-			x: 16.5d
-			y: 0.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1953A324EE9E6A13"]
+			dependencies: ["0A3B510FB0DE8C3A"]
 			description: ["&6Was ist das?", "Smaragdsterz gibt es nur in Bergen. Damit handelst du mit Dorfbewohnern.", "", "&6So gehts", "Selten in Bergbiomen oder durch Handel.", "", "&6Wofuer ist das wichtig?", "Mit Smaragden kaufst du Verzauberungsbuecher und Ausruestung."]
 			id: "2811AA4C0CD8301C"
 			title: "Smaragd"
 			rewards: [{ id: "79FA1E8F367F9A57", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7A4C429E2649E429", type: "item", item: { id: "minecraft:emerald", count: 1 }, count: 4L }]
-			x: 18.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -206,7 +206,7 @@
 			title: "Diamanten"
 			rewards: [{ id: "720555B0235897F3", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7E208ED0A3500985", type: "item", item: { id: "minecraft:diamond", count: 1 }, count: 5L }]
-			x: 19.5d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
@@ -217,8 +217,8 @@
 			title: "Verstaerker"
 			rewards: [{ id: "7473DA8E5E6B5CD0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5CF6BCFC9F2F1F4B", type: "item", item: { id: "minecraft:repeater", count: 1 }, count: 4L }]
-			x: 13.5d
-			y: 0.0d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["65F4000908053889"]
@@ -228,8 +228,8 @@
 			title: "Kolben"
 			rewards: [{ id: "20BDE3D4C6834EA0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2794A8D89341CA2E", type: "item", item: { id: "minecraft:piston", count: 1 }, count: 4L }]
-			x: 15.0d
-			y: 0.0d
+			x: 13.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["47550C5A803AD9F8"]
@@ -241,7 +241,7 @@
 			rewards: [{ id: "50970A1726843812", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "102D43EA7F2A86E4", type: "item", item: { id: "minecraft:hopper", count: 1 }, count: 2L }]
 			x: 15.0d
-			y: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["11180937BBFF4937"]
@@ -252,7 +252,7 @@
 			rewards: [{ id: "1ADF0CEC431AF9AE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4E884D763FE65347", type: "item", item: { id: "minecraft:rail", count: 1 }, count: 32L }]
 			x: 16.5d
-			y: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5AD7D87EDA092F1C"]
@@ -1481,13 +1481,13 @@
 		}
 		{
 			dependencies: ["3DF69134EC71DEA1"]
-			description: ["&6Was ist das?", "Hier beginnt das Andesit-Zeitalter. Es schaltet frei:", "Create mit allen Erweiterungen: Wellen, Zahnraeder, Wasserrad, Presse, Brechrad und mehr.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
-			icon: { id: "create:andesite_alloy" }
+			description: ["&6Was ist das?", "Hier beginnt das Diamant-Zeitalter. Es schaltet frei:", "Diamantwerkzeug und -ruestung, Verzauberungstisch, Apothic Enchanting und Diamanthaemmer.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
+			icon: { id: "minecraft:diamond" }
 			id: "32D7C0032123B540"
-			title: "Zeitalter: Andesit-Zeitalter"
-			rewards: [{ id: "1888A5B0FDE2868D", type: "historystages:history_stage", stage: "andesitzeit", remove: false, individual: false }, { id: "79DC8B483630D416", type: "xp_levels", xp_levels: 5 }]
+			title: "Zeitalter: Diamant-Zeitalter"
+			rewards: [{ id: "6A491A2F9597089E", type: "historystages:history_stage", stage: "diamantzeit", remove: false, individual: false }, { id: "79DC8B483630D416", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "2D71D00A621A0C2A", type: "checkmark" }]
-			x: 21.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{

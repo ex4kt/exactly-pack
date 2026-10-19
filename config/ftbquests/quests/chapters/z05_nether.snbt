@@ -6,7 +6,7 @@
 	id: "0337A78701EFCF1C"
 	order_index: 4
 	quest_links: [ ]
-	title: "&cV. Nether-Zeitalter"
+	title: "&cIV. Nether-Zeitalter"
 	quests: [
 		{
 			dependencies: ["4FA1824F157108ED"]
@@ -471,11 +471,11 @@
 		}
 		{
 			dependencies: ["26EF9FC45606EB04"]
-			description: ["&6Was ist das?", "Hier beginnt das Messing-Zeitalter. Es schaltet frei:", "Messing, Mechanischer Arm, Crafter, Zuege, Blazebrenner, Create Additions, Hypertubes und ComputerCraft.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
-			icon: { id: "create:brass_ingot" }
+			description: ["&6Was ist das?", "Hier beginnt das Magie-Zeitalter. Es schaltet frei:", "Irons Spells: Zauberbuecher, Schriftrollen, Runen und Magier-Ruestung.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
+			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "1F7C16EE6236AB7A"
-			title: "Zeitalter: Messing-Zeitalter"
-			rewards: [{ id: "3183B981150D107B", type: "historystages:history_stage", stage: "messingzeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }]
+			title: "Zeitalter: Magie-Zeitalter"
+			rewards: [{ id: "9A436BA3E27E22F2", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "18204CC3C7732B14", type: "checkmark" }]
 			x: 16.5d
 			y: 0.0d
