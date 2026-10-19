@@ -402,5 +402,55 @@
 			x: 1.5d
 			y: 14.0d
 		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Ein Stab, der kalt leuchtet.", "", "&6So gehts", "Blazestab und gepoppte Chorusfrucht in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Ein elegantes Licht fuer deine End-Basis."]
+			id: "04477D266F8FD6A2"
+			title: "Endstab-Licht"
+			rewards: [{ id: "F7F583AA0FC2C1AF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B8B34B5B316998AE", type: "item", item: { id: "minecraft:end_rod", count: 1 }, count: 4L }]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Splitter fuer die Kueche im Ende.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Wichtig fuer Gerichte aus dem Ende."]
+			id: "6BE77B686A997E64"
+			title: "Enderscherbe"
+			rewards: [{ id: "7DF721BFF7B7E60D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8BB03204334A65D5", type: "item", item: { id: "endersdelight:ender_shard", count: 1 }, count: 2L }]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Ein Gericht aus dem Ende.", "", "&6So gehts", "Am Ende-Herd nach Rezept kochen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Saettigt stark und gibt starke Effekte."]
+			id: "39367C7F38998D0D"
+			title: "Pommes mit Steak"
+			rewards: [{ id: "3805CCBEF0427B28", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "485B3F60C9B91F71", type: "item", item: { id: "endersdelight:steak_fries", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Kekse mit Endersplittern.", "", "&6So gehts", "Nach Rezept backen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Leichter Snack mit Wirkung."]
+			id: "32A640A48B548F44"
+			title: "Seltsame Kekse"
+			rewards: [{ id: "202E6F8C13298383", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CE65B91C5569DA18", type: "item", item: { id: "endersdelight:uncanny_cookies", count: 1 }, count: 4L }]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Ein Spiess mit End-Zutaten.", "", "&6So gehts", "Nach Rezept kochen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Gut fuer lange Ausfluege."]
+			id: "DB5587840F67B625"
+			title: "Knuspriger Spiess"
+			rewards: [{ id: "0FE81CA6A0AC2D09", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E8B532B5EB811954", type: "item", item: { id: "endersdelight:crispy_skewer", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 14.0d
+		}
 	]
 }

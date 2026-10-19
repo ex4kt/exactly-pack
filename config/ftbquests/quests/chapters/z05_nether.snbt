@@ -744,36 +744,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["AFF42712A33E4C8B"]
-			description: ["&6Was ist das?", "Fertiger Netherit.", "", "&6So gehts", "Vier Schrott und vier Gold in der Werkbank, Schrott vorher im Ofen schmelzen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Fuer Werkzeuge, Ruestung und den Kompass."]
-			id: "AF631072539AC5A6"
-			title: "Netheritbarren"
-			rewards: [{ id: "A6E211633F2050D2", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "7A7B2FB782A95104", type: "item", item: { id: "minecraft:netherite_ingot", count: 1 }, count: 1L }]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["AF631072539AC5A6"]
-			description: ["&6Was ist das?", "Die beste Spitzhacke im Spiel.", "", "&6So gehts", "Diamantspitzhacke und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Baut schneller ab und hat hohe Haltbarkeit."]
-			id: "506B220D8FD8FB5B"
-			title: "Netherit-Spitzhacke"
-			rewards: [{ id: "F32ED7BBF368E58F", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "06A174447399E2E6", type: "item", item: { id: "minecraft:netherite_pickaxe", count: 1 }, count: 1L }]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["AF631072539AC5A6"]
-			description: ["&6Was ist das?", "Ein Magnetstein, auf den Kompasse zeigen.", "", "&6So gehts", "Behauene Steinziegel und ein Netheritbarren. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit einem Leitstein-Kompass findest du immer nach Hause."]
-			id: "E90D09469C1A8B56"
-			title: "Leitstein"
-			rewards: [{ id: "689C2227008C569C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "957C31E997E7723A", type: "item", item: { id: "minecraft:lodestone", count: 1 }, count: 1L }]
-			x: 7.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["5A30A11F0748DB1B"]
 			description: ["&6Was ist das?", "Zermahlener Blazestab.", "", "&6So gehts", "Blazestaebe in der Werkbank zu Pulver machen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Brennstoff fuer Braustaender und Zutat fuer Enderaugen."]
 			id: "3B052BB24A4E70D0"
@@ -781,16 +751,6 @@
 			rewards: [{ id: "57B939FED9F0CD7B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "D9FE123F6652ACBC", type: "item", item: { id: "minecraft:blaze_powder", count: 1 }, count: 4L }]
 			x: 9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["3B052BB24A4E70D0"]
-			description: ["&6Was ist das?", "Zeigt dir den Weg zur Festung.", "", "&6So gehts", "Flammenpulver und Enderperle in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Brauchst du, um das End-Portal zu finden und zu aktivieren."]
-			id: "10ECFF2964B83C3F"
-			title: "Enderauge"
-			rewards: [{ id: "98DE849B56250C09", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "3B0CEA8008D36343", type: "item", item: { id: "minecraft:ender_eye", count: 1 }, count: 2L }]
-			x: 10.5d
 			y: -2.0d
 		}
 		{
@@ -811,6 +771,16 @@
 			rewards: [{ id: "97E302794DC01887", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2ABF7E203F68F98D", type: "item", item: { id: "minecraft:blackstone", count: 1 }, count: 16L }]
 			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["AFF42712A33E4C8B"]
+			description: ["&6Was ist das?", "Neun Goldbarren werden zu einem Block.", "", "&6So gehts", "Neun Goldbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Piglins lieben Gold, ein Block ist auch schoene Deko."]
+			id: "10CF38D7BBF7F5BC"
+			title: "Gold-Block"
+			rewards: [{ id: "6B16A0A56A005C78", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9C012AB6267DF1B0", type: "item", item: { id: "minecraft:gold_block", count: 1 }, count: 1L }]
+			x: 4.5d
 			y: -2.0d
 		}
 	]

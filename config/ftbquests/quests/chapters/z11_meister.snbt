@@ -920,5 +920,65 @@
 			x: 10.5d
 			y: 26.0d
 		}
+		{
+			dependencies: ["2B95538C66CBB21B"]
+			description: ["&6Was ist das?", "Das Rohmaterial fuer Netherit.", "", "&6So gehts", "Antiken Schutt im Ofen schmelzen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Vier Schrott und vier Gold ergeben einen Barren."]
+			id: "D0F53FD3EE35D63B"
+			title: "Netherit-Schrott"
+			rewards: [{ id: "C3C71043DFD1E899", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E804E0EF529BDC97", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 }, count: 4L }]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0627B6D0F3C46F98"]
+			description: ["&6Was ist das?", "Neun Netheritbarren als Block.", "", "&6So gehts", "Neun Barren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Explosionssicher, ein Zeichen von Reichtum."]
+			id: "6FC2C0E66B8A6ABF"
+			title: "Netheritblock"
+			rewards: [{ id: "9ACB0310605A5E0D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6499DB596D9A01B3", type: "item", item: { id: "minecraft:netherite_block", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1881FE15AC4DE4B3"]
+			description: ["&6Was ist das?", "Die beste Schaufel.", "", "&6So gehts", "Diamantschaufel und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Baut Erde und Sand blitzschnell ab."]
+			id: "C23C5DD2EA06C22F"
+			title: "Netherit-Schaufel"
+			rewards: [{ id: "890B6D9A9C7C6B7F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "87BB6010848EBCA8", type: "item", item: { id: "minecraft:netherite_shovel", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1881FE15AC4DE4B3"]
+			description: ["&6Was ist das?", "Die beste Hacke.", "", "&6So gehts", "Diamanthacke und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Fuer grosse Felder mit schneller Ernte."]
+			id: "96FF9257E9E0F5FC"
+			title: "Netherit-Hacke"
+			rewards: [{ id: "7913B66CA2FF03DF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4198DD27390E70C6", type: "item", item: { id: "minecraft:netherite_hoe", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E01392665CDEBA9"]
+			description: ["&6Was ist das?", "Der Kopf eines Witherskeletts, selten.", "", "&6So gehts", "Besiege Witherskelette in der Netherfestung.", "", "&6Wofuer ist das wichtig?", "Du brauchst drei Schaedel, um den Wither zu beschwoeren."]
+			id: "E508FF4F7589DE17"
+			title: "Witherskelett-Schaedel"
+			rewards: [{ id: "8BCEC0F99AF81884", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CF0A5F722BCF0870", type: "item", item: { id: "minecraft:wither_skeleton_skull", count: 1 }, count: 3L }]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E01392665CDEBA9"]
+			description: ["&6Was ist das?", "Eine dunkle Blume, die den Wither-Effekt gibt.", "", "&6So gehts", "Entsteht, wenn der Wither ein Wesen toetet.", "", "&6Wofuer ist das wichtig?", "Nur fuer Mutige: Dekoration mit Risiko."]
+			id: "B32F2BD125774304"
+			title: "Wither-Rose"
+			rewards: [{ id: "3808D52F8490A8DE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "919D07C262534838", type: "item", item: { id: "minecraft:wither_rose", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 2.0d
+		}
 	]
 }

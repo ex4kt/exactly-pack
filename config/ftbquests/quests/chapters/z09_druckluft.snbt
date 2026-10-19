@@ -1581,5 +1581,75 @@
 			x: 4.5d
 			y: 42.0d
 		}
+		{
+			dependencies: ["4B1CDA02C5F025E2"]
+			description: ["&6Was ist das?", "Neun verdichtete Eisenbarren als Block.", "", "&6So gehts", "Neun verdichtete Eisenbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Robuster Baustoff und Lager fuer das teure Metall."]
+			id: "02CF5C6F5EF591DE"
+			title: "Verdichtetes Eisen Block"
+			rewards: [{ id: "B848A80E2DE023C2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BF94D5AA28415A95", type: "item", item: { id: "pneumaticcraft:compressed_iron_block", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B1CDA02C5F025E2"]
+			description: ["&6Was ist das?", "Ein Zahnrad aus verdichtetem Eisen.", "", "&6So gehts", "Verdichtetes Eisen in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Wird fuer viele Maschinen gebraucht."]
+			id: "A337CD2BFDF20A98"
+			title: "Verdichtetes Zahnrad"
+			rewards: [{ id: "A2F993AB53175B5E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "861A96541A106FE8", type: "item", item: { id: "pneumaticcraft:compressed_iron_gear", count: 1 }, count: 2L }]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A0D6E72CF8686EC"]
+			description: ["&6Was ist das?", "Ein kleiner Behaelter fuer Druckluft.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Speichert Druck fuer mobile Geraete."]
+			id: "7465880303E0C221"
+			title: "Luftkanister"
+			rewards: [{ id: "D2EFCDC1566BD002", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4606B348784F3C26", type: "item", item: { id: "pneumaticcraft:air_canister", count: 1 }, count: 1L }]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31292358F7BF209E"]
+			description: ["&6Was ist das?", "Standardmunition fuer die Minigun.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Ohne Munition schiesst die Minigun nicht."]
+			id: "84422BAFB1C4C91A"
+			title: "Munition"
+			rewards: [{ id: "98593553704EECE2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "685A99E6B7556123", type: "item", item: { id: "pneumaticcraft:gun_ammo", count: 1 }, count: 8L }]
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DEDD78F25CCB176"]
+			description: ["&6Was ist das?", "Ein schneller Verband zur Heilung.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Einfache Heilung ohne Tranke."]
+			id: "CBBB0D82EC2838A0"
+			title: "Verband"
+			rewards: [{ id: "E8AD5D17EDA67D9A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C1725B8891496139", type: "item", item: { id: "pneumaticcraft:bandage", count: 1 }, count: 2L }]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F5A8C6451AE31E7"]
+			description: ["&6Was ist das?", "Die Platine fuer Transistoren und Regler.", "", "&6So gehts", "In der Druckkammer aus Platinen-Resten hergestellt, danach geaetzt. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Die Basis fuer alle elektronischen Bauteile."]
+			id: "F9E779F9224E8D77"
+			title: "Leere Platine"
+			rewards: [{ id: "0EF5292B98370A8A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EF54EB5159B13DBA", type: "item", item: { id: "pneumaticcraft:empty_pcb", count: 1 }, count: 1L }]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03E4F4EDF0D9C175"]
+			description: ["&6Was ist das?", "Das Geruest, in dem der Aufzug faehrt.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Verlaengert den Weg des Aufzugs nach oben."]
+			id: "47B5428E751C0493"
+			title: "Aufzugsgeruest"
+			rewards: [{ id: "054DE65B6C8A2DAE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3C9CAF7AE05BDABB", type: "item", item: { id: "pneumaticcraft:elevator_frame", count: 1 }, count: 4L }]
+			x: 12.0d
+			y: 36.0d
+		}
 	]
 }
