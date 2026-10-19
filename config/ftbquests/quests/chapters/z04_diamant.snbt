@@ -974,5 +974,85 @@
 			x: 9.0d
 			y: 36.0d
 		}
+		{
+			dependencies: ["63064054BBFD8FB1"]
+			description: ["&6Was ist das?", "Neun Diamanten werden zu einem Block.", "", "&6So gehts", "Neun Diamanten quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Schoene Deko und kompaktes Lager fuer deinen Schatz."]
+			id: "32FAAA7DA2F5723D"
+			title: "Diamantblock"
+			rewards: [{ id: "CB8CE8F8279127D9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8959BAC30332CD44", type: "item", item: { id: "minecraft:diamond_block", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69BF8973F8D01A34"]
+			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Hilfreich beim Erkunden und Spaehen."]
+			id: "DD4576E9FB33B743"
+			title: "Fernglas"
+			rewards: [{ id: "3FF082B1E6604489", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BD25D39404F6D3A1", type: "item", item: { id: "minecraft:spyglass", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2502CCD91E41AFC0"]
+			description: ["&6Was ist das?", "Das blaue Material fuer Verzauberungen.", "", "&6So gehts", "Baue Lapis-Erz tief unter der Erde ab.", "", "&6Wofuer ist das wichtig?", "Ohne Lapis keine Verzauberungen."]
+			id: "F271723A2A89DA65"
+			title: "Lapislazuli"
+			rewards: [{ id: "1615092D7BA629EC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "53B4DD20085FEB5F", type: "item", item: { id: "minecraft:lapis_lazuli", count: 1 }, count: 12L }]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2502CCD91E41AFC0"]
+			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurueck.", "", "&6So gehts", "Zwei Stoecke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
+			id: "25B9B3C3109D1578"
+			title: "Schleifstein"
+			rewards: [{ id: "47E4A9B48A6CA82A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DC96175161965371", type: "item", item: { id: "minecraft:grindstone", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63064054BBFD8FB1"]
+			description: ["&6Was ist das?", "Ein Apfel mit starker Heilwirkung.", "", "&6So gehts", "Acht Goldbarren um einen Apfel in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Rettet dich im Notfall vor dem Tod."]
+			id: "31A632BD8B609BCE"
+			title: "Goldener Apfel"
+			rewards: [{ id: "9C8C07C78000A722", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DE0E035061C0ABFA", type: "item", item: { id: "minecraft:golden_apple", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BF8973F8D01A34"]
+			description: ["&6Was ist das?", "Zeigt deine Ruestung im Haus.", "", "&6So gehts", "Stoecke und glatte Steinplatte. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch zum Wechseln der Ausruestung und fuer Deko."]
+			id: "0A340152DBA56AA6"
+			title: "Ruestungsstaender"
+			rewards: [{ id: "B4881BCDA77BAD09", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "672AB12E22F61754", type: "item", item: { id: "minecraft:armor_stand", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63064054BBFD8FB1"]
+			description: ["&6Was ist das?", "Rahmen halten Gegenstaende an der Wand.", "", "&6So gehts", "Stoecke und Leder in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Rahmen zeigst du Truheninhalte oder Sammlungen."]
+			id: "2B5A3C1A87D01853"
+			title: "Rahmen"
+			rewards: [{ id: "D8E0DCF1D42C7A51", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "57D76AEB55DEC6F0", type: "item", item: { id: "minecraft:item_frame", count: 1 }, count: 4L }]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2502CCD91E41AFC0"]
+			description: ["&6Was ist das?", "Amethystbloecke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Wunderschoen fuer Raeume und Verzauberungsecken."]
+			id: "F9C9F6DF1FFBBB12"
+			title: "Kristall-Deko"
+			rewards: [{ id: "417453F757FE5157", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0EE82F4BFA9B8740", type: "item", item: { id: "minecraft:amethyst_block", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: -2.0d
+		}
 	]
 }
