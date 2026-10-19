@@ -509,7 +509,7 @@
 			id: "5C54807EC3EC2CDC"
 			title: "Beginn: Magie-Zeitalter"
 			rewards: [{ id: "65E37EB4245C9FB2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "706C72C41E79529B", type: "checkmark" }]
+			tasks: [{ id: "706C72C41E79529B", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -520,7 +520,7 @@
 			id: "388349920682B0BC"
 			title: "Zeitalter: Zeitalter der Welten"
 			rewards: [{ id: "1C5EA4ED9B92E395", type: "historystages:history_stage", stage: "himmelszeit", remove: false, individual: false }, { id: "137FF82BB8A158CB", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "01A18DEFA71CDF83", type: "checkmark" }]
+			tasks: [{ id: "01A18DEFA71CDF83", type: "item", item: { id: "aether:golden_parachute", count: 1 }, count: 1L }]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -531,7 +531,7 @@
 			id: "3B9FB38CDC433B6A"
 			title: "Frostfall"
 			rewards: []
-			tasks: [{ id: "3C64A6B6A88B2154", type: "checkmark" }]
+			tasks: [{ id: "3C64A6B6A88B2154", type: "item", item: { id: "simplyswords:frostfall", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 4.0d
 		}
@@ -542,7 +542,7 @@
 			id: "33DB5FB8338E29E3"
 			title: "Icewhisper"
 			rewards: []
-			tasks: [{ id: "49C9BC3D8A208C80", type: "checkmark" }]
+			tasks: [{ id: "49C9BC3D8A208C80", type: "item", item: { id: "simplyswords:icewhisper", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 4.0d
 		}
@@ -553,7 +553,7 @@
 			id: "77ECB58A051E070A"
 			title: "Arcanethyst"
 			rewards: []
-			tasks: [{ id: "12879F24D9676FDE", type: "checkmark" }]
+			tasks: [{ id: "12879F24D9676FDE", type: "item", item: { id: "simplyswords:arcanethyst", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 4.0d
 		}
@@ -564,7 +564,7 @@
 			id: "7928080382B90B6F"
 			title: "Magiscythe"
 			rewards: []
-			tasks: [{ id: "50449A8F37040648", type: "checkmark" }]
+			tasks: [{ id: "50449A8F37040648", type: "item", item: { id: "simplyswords:magiscythe", count: 1 }, count: 1L }]
 			x: 19.5d
 			y: 4.0d
 		}
@@ -575,7 +575,7 @@
 			id: "46F108B04EB2950F"
 			title: "Enigma"
 			rewards: []
-			tasks: [{ id: "5584DCF030C444D2", type: "checkmark" }]
+			tasks: [{ id: "5584DCF030C444D2", type: "item", item: { id: "simplyswords:enigma", count: 1 }, count: 1L }]
 			x: 21.0d
 			y: 4.0d
 		}
@@ -586,7 +586,7 @@
 			id: "2F13775F44C5B609"
 			title: "Magispear"
 			rewards: []
-			tasks: [{ id: "507F7A7420B4D65C", type: "checkmark" }]
+			tasks: [{ id: "507F7A7420B4D65C", type: "item", item: { id: "simplyswords:magispear", count: 1 }, count: 1L }]
 			x: 22.5d
 			y: 4.0d
 		}
@@ -597,7 +597,7 @@
 			id: "76E169059BF6DFEF"
 			title: "Magiblade"
 			rewards: []
-			tasks: [{ id: "605D41A6BBDAEB99", type: "checkmark" }]
+			tasks: [{ id: "605D41A6BBDAEB99", type: "item", item: { id: "simplyswords:magiblade", count: 1 }, count: 1L }]
 			x: 24.0d
 			y: 4.0d
 		}
@@ -608,7 +608,7 @@
 			id: "2B71938D1FCCC55D"
 			title: "Caelestis"
 			rewards: []
-			tasks: [{ id: "790A34CA8C2F4595", type: "checkmark" }]
+			tasks: [{ id: "790A34CA8C2F4595", type: "item", item: { id: "simplyswords:caelestis", count: 1 }, count: 1L }]
 			x: 25.5d
 			y: 4.0d
 		}
@@ -619,7 +619,7 @@
 			id: "4DA864F90BA90C51"
 			title: "Amethyst Rapier"
 			rewards: []
-			tasks: [{ id: "50F17559A82FC845", type: "checkmark" }]
+			tasks: [{ id: "50F17559A82FC845", type: "item", item: { id: "irons_spellbooks:amethyst_rapier", count: 1 }, count: 1L }]
 			x: 27.0d
 			y: 4.0d
 		}
@@ -630,7 +630,7 @@
 			id: "3F81B8B7B847C53E"
 			title: "Claymore"
 			rewards: []
-			tasks: [{ id: "659C5BCC1CA0D55C", type: "checkmark" }]
+			tasks: [{ id: "659C5BCC1CA0D55C", type: "item", item: { id: "irons_spellbooks:claymore", count: 1 }, count: 1L }]
 			x: 28.5d
 			y: 4.0d
 		}
@@ -641,7 +641,7 @@
 			id: "321734CB12DEF7CB"
 			title: "Decrepit Scythe"
 			rewards: []
-			tasks: [{ id: "014A1D3CBB3C5F15", type: "checkmark" }]
+			tasks: [{ id: "014A1D3CBB3C5F15", type: "item", item: { id: "irons_spellbooks:decrepit_scythe", count: 1 }, count: 1L }]
 			x: 30.0d
 			y: 4.0d
 		}
@@ -652,7 +652,7 @@
 			id: "7CFC3BE5BDF534B9"
 			title: "Staff of the Nines"
 			rewards: []
-			tasks: [{ id: "25F27672FE4FABF5", type: "checkmark" }]
+			tasks: [{ id: "25F27672FE4FABF5", type: "item", item: { id: "irons_spellbooks:staff_of_the_nines", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 6.0d
 		}
@@ -663,7 +663,7 @@
 			id: "243A3BB56D8015B9"
 			title: "The Blood Staff"
 			rewards: []
-			tasks: [{ id: "158B079D67AB4A03", type: "checkmark" }]
+			tasks: [{ id: "158B079D67AB4A03", type: "item", item: { id: "irons_spellbooks:blood_staff", count: 1 }, count: 1L }]
 			x: 16.5d
 			y: 6.0d
 		}
@@ -674,7 +674,7 @@
 			id: "70A5F356858935CD"
 			title: "Pyrium Staff"
 			rewards: []
-			tasks: [{ id: "4EC184E9090A1E05", type: "checkmark" }]
+			tasks: [{ id: "4EC184E9090A1E05", type: "item", item: { id: "irons_spellbooks:pyrium_staff", count: 1 }, count: 1L }]
 			x: 18.0d
 			y: 6.0d
 		}
@@ -685,7 +685,7 @@
 			id: "74CB427C0A563E46"
 			title: "Graybeard Staff"
 			rewards: []
-			tasks: [{ id: "2AA5B04AC1C0BBE5", type: "checkmark" }]
+			tasks: [{ id: "2AA5B04AC1C0BBE5", type: "item", item: { id: "irons_spellbooks:graybeard_staff", count: 1 }, count: 1L }]
 			x: 19.5d
 			y: 6.0d
 		}
@@ -696,7 +696,7 @@
 			id: "25CA5B688B56F510"
 			title: "Ice Staff"
 			rewards: []
-			tasks: [{ id: "7483F68F088B002E", type: "checkmark" }]
+			tasks: [{ id: "7483F68F088B002E", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
 			x: 21.0d
 			y: 6.0d
 		}
@@ -707,7 +707,7 @@
 			id: "6B8C805612F83546"
 			title: "Hither-Thither Wand"
 			rewards: []
-			tasks: [{ id: "03748DD47396AE79", type: "checkmark" }]
+			tasks: [{ id: "03748DD47396AE79", type: "item", item: { id: "irons_spellbooks:hither_thither_wand", count: 1 }, count: 1L }]
 			x: 22.5d
 			y: 6.0d
 		}
@@ -718,7 +718,7 @@
 			id: "18AB3E08F563181C"
 			title: "Autoloader Crossbow"
 			rewards: []
-			tasks: [{ id: "090DD45B8601CBB5", type: "checkmark" }]
+			tasks: [{ id: "090DD45B8601CBB5", type: "item", item: { id: "irons_spellbooks:autoloader_crossbow", count: 1 }, count: 1L }]
 			x: 15.0d
 			y: 8.0d
 		}
