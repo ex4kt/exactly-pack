@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["5E7EC2AF62FB134D"]
-			description: ["&6Was ist das?", "Aktiviere das Portal in der Festung mit zwoelf Enderaugen.", "", "&6So gehts", "In der Festung das Portal mit den Augen fuellen und hineinspringen.", "Nimm Bloecke, Bogen, Wasser und Kuerbis mit.", "", "&6Wofuer ist das wichtig?", "Nach dem Drachen oeffnen sich die aeusseren Inseln mit Endstaedten und Elytren."]
+			description: ["&6Was ist das?", "Aktiviere das Portal in der Festung mit zwoelf Enderaugen.", "", "&6So gehts", "In der Festung das Portal mit den Augen fuellen und hineinspringen.", "Nimm Bloecke, Bogen, Wasser und Kuerbis mit.", "", "&6Wofuer ist das wichtig?", "Nach dem Drachen oeffnen sich die aeusseren Inseln mit Endstaedten und Elytren.", "", "&6Gut zu wissen", "Fuer das Portal in der Festung muessen alle zwoelf Rahmen ein Enderauge tragen. Nimm viele Bloecke zum Bruecken und einen Eimer Wasser gegen Endermen mit."]
 			id: "028ADF99FBF6807C"
 			title: "Das Ende"
 			rewards: [{ id: "52CF935ACF9E29CC", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["15E61654C80FD4A8"]
-			description: ["&6Was ist das?", "Zerstoere die Kristalle auf den Saeulen und besiege den Drachen.", "", "&6So gehts", "Zerstoere zuerst die Kristalle auf den Saeulen, manche sind in Kaefigen.", "Greife an, wenn er auf dem Portal landet.", "", "&6Wofuer ist das wichtig?", "Nach dem Sieg erscheint ein Portal zu den aeusseren Inseln."]
+			description: ["&6Was ist das?", "Zerstoere die Kristalle auf den Saeulen und besiege den Drachen.", "", "&6So gehts", "Zerstoere zuerst die Kristalle auf den Saeulen, manche sind in Kaefigen.", "Greife an, wenn er auf dem Portal landet.", "", "&6Wofuer ist das wichtig?", "Nach dem Sieg erscheint ein Portal zu den aeusseren Inseln.", "", "&6Gut zu wissen", "Zerstoere zuerst die Endkristalle auf den Saeulen, sonst heilt sich der Drache. Ein Bogen und Wasser fuer die Kristalle helfen sehr."]
 			id: "094E3A3AB01FE3FF"
 			title: "Der Enderdrache"
 			rewards: [{ id: "21D67324ECFED6C0", type: "xp_levels", xp_levels: 15 }]
@@ -134,7 +134,7 @@
 		}
 		{
 			dependencies: ["5E60A7D94A2326A3"]
-			description: ["&6Was ist das?", "Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende.", "", "&6So gehts", "In Endschiffen in Endstaedten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofuer ist das wichtig?", "Das beste Reisemittel im Spiel."]
+			description: ["&6Was ist das?", "Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende.", "", "&6So gehts", "In Endschiffen in Endstaedten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofuer ist das wichtig?", "Das beste Reisemittel im Spiel.", "", "&6Gut zu wissen", "Mit Feuerwerksraketen beschleunigst du im Flug. Die Elytra ersetzt die Brustplatte, nimm also beim Fliegen deinen Brustschutz ab."]
 			id: "5BDDA6FEC33CD7FB"
 			title: "Elytra"
 			rewards: [{ id: "3BE9DEE41EF1B973", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
@@ -322,6 +322,8 @@
 			title: "Beginn: End-Zeitalter"
 			rewards: [{ id: "08AE23588778BA70", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0672309CE24966C2", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -333,6 +335,8 @@
 			title: "Zeitalter: Meister-Zeitalter"
 			rewards: [{ id: "5B930C254D693EE0", type: "historystages:history_stage", stage: "meisterzeit", remove: false, individual: false }, { id: "751E857D2BD39CEF", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "548E8C86CC29AAE0", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 16.5d
 			y: 0.0d
 		}

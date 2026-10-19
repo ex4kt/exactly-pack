@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["56184FBD96403098"]
-			description: ["&6Was ist das?", "Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen.", "", "&6So gehts", "Eisenerz schmelzen. Eisenspitzhacke: drei Eisenbarren, darunter die Steinspitzhacke und ein Stock.", "Fortschritt: Jede Stufe braucht das Werkzeug der vorherigen Stufe. Es ersetzt im Rezept den obersten Stock, direkt unter dem Kopf. JEI zeigt dir das genaue Rezept.", "", "&6Wofuer ist das wichtig?", "Erst mit einer Eisenspitzhacke kannst du Gold, Redstone und Diamanten abbauen."]
+			description: ["&6Was ist das?", "Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen.", "", "&6So gehts", "Eisenerz schmelzen. Eisenspitzhacke: drei Eisenbarren, darunter die Steinspitzhacke und ein Stock.", "Fortschritt: Jede Stufe braucht das Werkzeug der vorherigen Stufe. Es ersetzt im Rezept den obersten Stock, direkt unter dem Kopf. JEI zeigt dir das genaue Rezept.", "", "&6Wofuer ist das wichtig?", "Erst mit einer Eisenspitzhacke kannst du Gold, Redstone und Diamanten abbauen.", "", "&6Gut zu wissen", "Eisen haelt rund doppelt so lange wie Stein (250 gegen 131 Nutzungen) und ist die Voraussetzung fuer Diamanten."]
 			id: "269F5FBF41678363"
 			title: "Eisenwerkzeuge"
 			rewards: [{ id: "523FC697668E6553", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["5AD7D87EDA092F1C"]
-			description: ["&6Was ist das?", "Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten.", "", "&6So gehts", "Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Gegen Pfeile und Creeper."]
+			description: ["&6Was ist das?", "Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten.", "", "&6So gehts", "Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Gegen Pfeile und Creeper.", "", "&6Gut zu wissen", "Ein Axthieb deaktiviert einen Schild fuer einige Sekunden. Halte den Schild also nicht dauernd hoch, wenn dich ein Gegner mit einer Axt angreift."]
 			id: "6077C06A96337BE4"
 			title: "Schild"
 			rewards: [{ id: "655029FFE9896069", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -62,7 +62,7 @@
 		}
 		{
 			dependencies: ["0437F056B93FD8D9"]
-			description: ["&6Was ist das?", "Easy Anvils macht den Amboss fairer: Kosten sind niedriger, Teile bleiben drin.", "Mit ihm kannst du Verzauberungen kombinieren.", "", "&6So gehts", "Item links, Buch oder zweites Item rechts.", "Mit Easy Anvils gibt es keine Zu-teuer-Grenze.", "", "&6Wofuer ist das wichtig?", "So bekommst du genau die Verzauberungen, die du willst."]
+			description: ["&6Was ist das?", "Easy Anvils macht den Amboss fairer: Kosten sind niedriger, Teile bleiben drin.", "Mit ihm kannst du Verzauberungen kombinieren.", "", "&6So gehts", "Item links, Buch oder zweites Item rechts.", "Mit Easy Anvils gibt es keine Zu-teuer-Grenze.", "", "&6Wofuer ist das wichtig?", "So bekommst du genau die Verzauberungen, die du willst.", "", "&6Gut zu wissen", "Zum Reparieren legst du zwei gleiche Werkzeuge oder das passende Material (z. B. Eisenbarren) in den Amboss. Umbenennen kostet nur ein Level."]
 			id: "756BA580078912C2"
 			title: "Der Amboss"
 			rewards: [{ id: "2678C222C70DAC42", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -150,7 +150,7 @@
 		}
 		{
 			dependencies: ["756BA580078912C2"]
-			description: ["&6Was ist das?", "Unter Ebene 0 beginnt Tiefenschiefer. Hier sind Diamanten und Redstone haeufiger.", "", "&6So gehts", "Mit Spitzhacke abbauen, dauert laenger.", "", "&6Wofuer ist das wichtig?", "In dieser Tiefe liegen die meisten Diamanten."]
+			description: ["&6Was ist das?", "Unter Ebene 0 beginnt Tiefenschiefer. Hier sind Diamanten und Redstone haeufiger.", "", "&6So gehts", "Mit Spitzhacke abbauen, dauert laenger.", "", "&6Wofuer ist das wichtig?", "In dieser Tiefe liegen die meisten Diamanten.", "", "&6Gut zu wissen", "Beleuchte tiefe Hoehlen gut: Lava ist unterhalb von Hoehe -54 sehr haeufig."]
 			id: "0A3B510FB0DE8C3A"
 			title: "Tiefenschiefer"
 			rewards: [{ id: "1E61D52CDB3776EF", type: "item", item: { id: "minecraft:torch", count: 32 } }]
@@ -160,7 +160,7 @@
 		}
 		{
 			dependencies: ["0A3B510FB0DE8C3A"]
-			description: ["&6Was ist das?", "Redstone liegt tief unten. Du brauchst ihn fuer Maschinen und Schaltungen.", "", "&6So gehts", "Mit Eisenspitzhacke tief unten abbauen.", "", "&6Wofuer ist das wichtig?", "Schalter, Kolben, Maschinen. Viele Mod-Rezepte und Create brauchen Redstone."]
+			description: ["&6Was ist das?", "Redstone liegt tief unten. Du brauchst ihn fuer Maschinen und Schaltungen.", "", "&6So gehts", "Mit Eisenspitzhacke tief unten abbauen.", "", "&6Wofuer ist das wichtig?", "Schalter, Kolben, Maschinen. Viele Mod-Rezepte und Create brauchen Redstone.", "", "&6Gut zu wissen", "Redstone-Erz gibt vier bis fuenf Staub. Mit Glueck auf der Spitzhacke bekommst du noch mehr."]
 			id: "75D7683D7097AA7F"
 			title: "Redstone"
 			rewards: [{ id: "7460E19E196051A9", type: "xp_levels", xp_levels: 3 }]
@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["2811AA4C0CD8301C"]
-			description: ["&6Was ist das?", "Diamanten liegen tief unter der Erde, ab Ebene -50. Du brauchst eine Eisenspitzhacke.", "", "&6So gehts", "Gehe tief hinunter, um Ebene minus 58. Mit Eisenspitzhacke abbauen.", "Glueck auf der Spitzhacke gibt mehr Diamanten pro Erz.", "", "&6Wofuer ist das wichtig?", "Diamantwerkzeug baut Obsidian ab, damit geht es in den Nether. Auch Verzauberungstisch und viele Mod-Rezepte brauchen Diamanten."]
+			description: ["&6Was ist das?", "Diamanten liegen tief unter der Erde, ab Ebene -50. Du brauchst eine Eisenspitzhacke.", "", "&6So gehts", "Gehe tief hinunter, um Ebene minus 58. Mit Eisenspitzhacke abbauen.", "Glueck auf der Spitzhacke gibt mehr Diamanten pro Erz.", "", "&6Wofuer ist das wichtig?", "Diamantwerkzeug baut Obsidian ab, damit geht es in den Nether. Auch Verzauberungstisch und viele Mod-Rezepte brauchen Diamanten.", "", "&6Gut zu wissen", "Die meisten Diamanten findest du kurz ueber dem Weltboden, etwa zwischen Hoehe -64 und -50. Eine Glueck-Spitzhacke bringt mehr Ausbeute."]
 			id: "3DF69134EC71DEA1"
 			title: "Diamanten"
 			rewards: [{ id: "720555B0235897F3", type: "xp_levels", xp_levels: 5 }]
@@ -200,7 +200,7 @@
 		}
 		{
 			dependencies: ["75D7683D7097AA7F"]
-			description: ["&6Was ist das?", "Verstaerker verlaengern Redstone-Signale.", "", "&6So gehts", "Steine, Fackeln aus Redstone und Redstone.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer jede Redstone-Schaltung."]
+			description: ["&6Was ist das?", "Verstaerker verlaengern Redstone-Signale.", "", "&6So gehts", "Steine, Fackeln aus Redstone und Redstone.", "", "&6Wofuer ist das wichtig?", "Grundlage fuer jede Redstone-Schaltung.", "", "&6Gut zu wissen", "Ein Redstone-Signal reicht 15 Bloecke weit. Der Verstaerker frischt es auf und verzoegert es einstellbar (Rechtsklick)."]
 			icon: { id: "minecraft:repeater" }
 			id: "65F4000908053889"
 			title: "Verstaerker"
@@ -211,7 +211,7 @@
 		}
 		{
 			dependencies: ["65F4000908053889"]
-			description: ["&6Was ist das?", "Kolben schieben Bloecke.", "", "&6So gehts", "Bretter, Bruchstein, Eisen und Redstone.", "", "&6Wofuer ist das wichtig?", "Tueren, Farmen und Maschinen."]
+			description: ["&6Was ist das?", "Kolben schieben Bloecke.", "", "&6So gehts", "Bretter, Bruchstein, Eisen und Redstone.", "", "&6Wofuer ist das wichtig?", "Tueren, Farmen und Maschinen.", "", "&6Gut zu wissen", "Ein Kolben schiebt bis zu 12 Bloecke. Mit einem Schleimball wird er klebrig und zieht Bloecke auch wieder zurueck."]
 			icon: { id: "minecraft:piston" }
 			id: "47550C5A803AD9F8"
 			title: "Kolben"
@@ -223,7 +223,7 @@
 		{
 			dependencies: ["47550C5A803AD9F8"]
 			hide_dependency_lines: true
-			description: ["&6Was ist das?", "Trichter schieben Items in Kisten.", "", "&6So gehts", "Fuenf Eisenbarren um eine Kiste.", "", "&6Wofuer ist das wichtig?", "Erste Automatisierung: Oefen automatisch befuellen."]
+			description: ["&6Was ist das?", "Trichter schieben Items in Kisten.", "", "&6So gehts", "Fuenf Eisenbarren um eine Kiste.", "", "&6Wofuer ist das wichtig?", "Erste Automatisierung: Oefen automatisch befuellen.", "", "&6Gut zu wissen", "Ein Trichter nimmt Gegenstaende von oben auf und schiebt sie in den Behaelter, auf den er zeigt. Ein Redstone-Signal haelt ihn an."]
 			icon: { id: "minecraft:hopper" }
 			id: "11180937BBFF4937"
 			title: "Trichter"
@@ -1365,6 +1365,8 @@
 			title: "Beginn: Eisenzeit"
 			rewards: [{ id: "23B9F979A728EC1C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1FC8213F7685196D", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1376,6 +1378,8 @@
 			title: "Zeitalter: Diamant-Zeitalter"
 			rewards: [{ id: "6A491A2F9597089E", type: "historystages:history_stage", stage: "diamantzeit", remove: false, individual: false }, { id: "79DC8B483630D416", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "2D71D00A621A0C2A", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 15.0d
 			y: 0.0d
 		}

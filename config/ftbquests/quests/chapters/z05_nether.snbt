@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["4FA1824F157108ED"]
-			description: ["&6Was ist das?", "Baue ein Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Tranke und viel Nahrung mit.", "", "&6So gehts", "Baue ein 4x5-Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Essen, Bloecke und Feuerresistenz mit. Betten explodieren im Nether.", "Setze sofort einen Waystone neben das Portal.", "", "&6Wofuer ist das wichtig?", "Nur im Nether gibt es Blazestaebe (fuer Blazebrenner und Enderaugen), Quarz, Netherit und Netherwarzen."]
+			description: ["&6Was ist das?", "Baue ein Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Tranke und viel Nahrung mit.", "", "&6So gehts", "Baue ein 4x5-Portal aus Obsidian und entzuende es mit Feuerzeug.", "Nimm Essen, Bloecke und Feuerresistenz mit. Betten explodieren im Nether.", "Setze sofort einen Waystone neben das Portal.", "", "&6Wofuer ist das wichtig?", "Nur im Nether gibt es Blazestaebe (fuer Blazebrenner und Enderaugen), Quarz, Netherit und Netherwarzen.", "", "&6Gut zu wissen", "Das Nether ist 8:1 skaliert: Ein Block im Nether entspricht acht Bloecken in der Oberwelt. So baust du kurze Reisewege zwischen weit entfernten Orten."]
 			id: "7D49D31EE0C23921"
 			title: "Ins Nether"
 			rewards: [{ id: "2C455C73DD9F2415", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
@@ -107,7 +107,7 @@
 		}
 		{
 			dependencies: ["0C984A35B9EEAC61"]
-			description: ["&6Was ist das?", "Netherwarzen sind die Basis aller Traenke.", "", "&6So gehts", "In Festungen finden und auf Seelensand pflanzen, auch in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Ohne Netherwarzen keine Traenke."]
+			description: ["&6Was ist das?", "Netherwarzen sind die Basis aller Traenke.", "", "&6So gehts", "In Festungen finden und auf Seelensand pflanzen, auch in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Ohne Netherwarzen keine Traenke.", "", "&6Gut zu wissen", "Netherwarzen wachsen nur auf Seelensand. Sie brauchen kein Wasser und kein Licht."]
 			icon: { id: "minecraft:nether_wart" }
 			id: "2CF713C42924F873"
 			title: "Netherwarzen anbauen"
@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["20B95EE6B7921A98"]
-			description: ["&6Was ist das?", "Der Braustand macht Traenke. Nimm Netherwarzen und Blazepulver.", "", "&6So gehts", "Blazestab fuer den Braustand, Blazepulver als Brennstoff.", "Wasserflaschen, Netherwarze, dann Effekt-Zutat.", "", "&6Wofuer ist das wichtig?", "Feuerresistenz, Staerke, Heilung und Nachtsicht retten dich in Bosskaempfen."]
+			description: ["&6Was ist das?", "Der Braustand macht Traenke. Nimm Netherwarzen und Blazepulver.", "", "&6So gehts", "Blazestab fuer den Braustand, Blazepulver als Brennstoff.", "Wasserflaschen, Netherwarze, dann Effekt-Zutat.", "", "&6Wofuer ist das wichtig?", "Feuerresistenz, Staerke, Heilung und Nachtsicht retten dich in Bosskaempfen.", "", "&6Gut zu wissen", "Der Braustaender braucht Blazepulver als Brennstoff. Eine Wasserflasche mit Netherwarze ergibt den Seltsamen Trank, die Basis fuer fast alle Traenke."]
 			id: "7EDCFECDB7D99606"
 			title: "Brauen"
 			rewards: [{ id: "03336DCC164AEFC5", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
@@ -456,6 +456,8 @@
 			title: "Beginn: Nether-Zeitalter"
 			rewards: [{ id: "4D9E7631DAD4A1D7", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3C5A8F4585739B13", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -467,6 +469,8 @@
 			title: "Zeitalter: Magie-Zeitalter"
 			rewards: [{ id: "9A436BA3E27E22F2", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "18204CC3C7732B14", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 16.5d
 			y: 0.0d
 		}

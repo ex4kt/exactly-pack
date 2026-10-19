@@ -106,7 +106,7 @@
 		}
 		{
 			dependencies: ["103D3053E09ACE15"]
-			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenkoepfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schaedel.", "Kaempfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "", "&6Wofuer ist das wichtig?", "Er laesst den Netherstern fallen, daraus baust du ein Leuchtfeuer."]
+			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenkoepfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schaedel.", "Kaempfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "", "&6Wofuer ist das wichtig?", "Er laesst den Netherstern fallen, daraus baust du ein Leuchtfeuer.", "", "&6Gut zu wissen", "Er entsteht aus vier Seelensand und drei Witherskelett-Schaedeln. Kaempfe in einem Raum mit Decke und sorge fuer genug Heilung, er hat 300 Leben."]
 			id: "6E01392665CDEBA9"
 			title: "Der Wither"
 			rewards: [{ id: "4DC4D1E1F6E946A8", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
@@ -126,7 +126,7 @@
 		}
 		{
 			dependencies: ["03D0118EABF00FE3"]
-			description: ["&6Was ist das?", "Mit dem Netherstern baust du ein Leuchtfeuer. Es gibt starke Effekte in der Naehe.", "", "&6So gehts", "Auf eine Pyramide aus Metallbloecken setzen.", "", "&6Wofuer ist das wichtig?", "Eile II macht Abbauen sehr schnell."]
+			description: ["&6Was ist das?", "Mit dem Netherstern baust du ein Leuchtfeuer. Es gibt starke Effekte in der Naehe.", "", "&6So gehts", "Auf eine Pyramide aus Metallbloecken setzen.", "", "&6Wofuer ist das wichtig?", "Eile II macht Abbauen sehr schnell.", "", "&6Gut zu wissen", "Ein Leuchtfeuer steht auf einer Pyramide aus Eisen-, Gold-, Smaragd-, Diamant- oder Netheritbloecken. Die kleinste Stufe braucht 9 Bloecke."]
 			id: "006F97AFB62AF7CC"
 			title: "Leuchtfeuer"
 			rewards: [{ id: "29775321EC52269B", type: "item", item: { id: "minecraft:iron_block", count: 4 } }]
@@ -460,6 +460,8 @@
 			title: "Beginn: Meister-Zeitalter"
 			rewards: [{ id: "34B91D905019D9FB", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "09735A6DF46D6CAB", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -471,6 +473,8 @@
 			title: "Meister von Exactly"
 			rewards: [{ id: "584EDC7C83D756A5", type: "item", item: { id: "minecraft:nether_star", count: 1 } }]
 			tasks: [{ id: "750FB9389F742288", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 22.5d
 			y: 0.0d
 		}

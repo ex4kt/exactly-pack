@@ -30,7 +30,7 @@
 		}
 		{
 			dependencies: ["42732661CDA6F864"]
-			description: ["&6Was ist das?", "Wellen und Zahnraeder uebertragen die Drehung.", "Baue eine Welle, dann ein Zahnrad, und stecke es daran.", "", "&6So gehts", "Welle: Andesit-Legierung. Zahnrad: Welle und Holz.", "Zahnraeder greifen ineinander, Wellen verbinden gerade.", "", "&6Wofuer ist das wichtig?", "Damit bringst du Kraft von der Quelle zu jeder Maschine."]
+			description: ["&6Was ist das?", "Wellen und Zahnraeder uebertragen die Drehung.", "Baue eine Welle, dann ein Zahnrad, und stecke es daran.", "", "&6So gehts", "Welle: Andesit-Legierung. Zahnrad: Welle und Holz.", "Zahnraeder greifen ineinander, Wellen verbinden gerade.", "", "&6Wofuer ist das wichtig?", "Damit bringst du Kraft von der Quelle zu jeder Maschine.", "", "&6Gut zu wissen", "Mit dem Schluessel baust du Create-Bloecke ab oder drehst sie, ohne sie zu zerstoeren. Grosse und kleine Zahnraeder aendern die Geschwindigkeit."]
 			id: "6DF28229B667A2EE"
 			title: "Welle und Zahnrad"
 			rewards: [{ id: "17D9E7587F3E6A2C", type: "xp_levels", xp_levels: 2 }]
@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["6DF28229B667A2EE"]
-			description: ["&6Was ist das?", "Mit der Handkurbel erzeugst du erste Kraft selbst.", "Rechtsklick halten dreht die Welle.", "", "&6So gehts", "Aufstellen und Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Perfekt zum Testen. Fuer Dauerbetrieb brauchst du Wasserrad oder Windmuehle."]
+			description: ["&6Was ist das?", "Mit der Handkurbel erzeugst du erste Kraft selbst.", "Rechtsklick halten dreht die Welle.", "", "&6So gehts", "Aufstellen und Rechtsklick halten.", "", "&6Wofuer ist das wichtig?", "Perfekt zum Testen. Fuer Dauerbetrieb brauchst du Wasserrad oder Windmuehle.", "", "&6Gut zu wissen", "Halte Rechtsklick, um zu kurbeln. Mit Shift drehst du in die Gegenrichtung. Die Handkurbel ist die erste Kraftquelle, bevor du Wasser- oder Windkraft hast."]
 			id: "489ADC0B60AB13A5"
 			title: "Handkurbel"
 			rewards: [{ id: "17E0CDE492A1F49B", type: "xp_levels", xp_levels: 1 }]
@@ -186,7 +186,7 @@
 		}
 		{
 			dependencies: ["3E86AA6370B6B05D"]
-			description: ["&6Was ist das?", "Mit der Presse machst du Bleche aus Barren.", "Presse platzieren, Kraft anschliessen, Barren darunter legen (Depot oder Foerderband).", "", "&6So gehts", "Ueber ein Depot oder Foerderband stellen und Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Bleche brauchst du fuer viele Create-Rezepte. Zusammen mit dem Becken wird sie zum Kompaktierer."]
+			description: ["&6Was ist das?", "Mit der Presse machst du Bleche aus Barren.", "Presse platzieren, Kraft anschliessen, Barren darunter legen (Depot oder Foerderband).", "", "&6So gehts", "Ueber ein Depot oder Foerderband stellen und Kraft anschliessen.", "", "&6Wofuer ist das wichtig?", "Bleche brauchst du fuer viele Create-Rezepte. Zusammen mit dem Becken wird sie zum Kompaktierer.", "", "&6Gut zu wissen", "Die Presse arbeitet auf einem Depot oder Foerderband unter ihr und presst zum Beispiel Barren zu Blechen."]
 			id: "38AF595D86D9B7CE"
 			title: "Mechanische Presse"
 			rewards: [{ id: "6D385C55F984D2EC", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
@@ -196,7 +196,7 @@
 		}
 		{
 			dependencies: ["38AF595D86D9B7CE"]
-			description: ["&6Was ist das?", "Ein Ablageplatz fuer ein Item, auf dem Maschinen arbeiten.", "", "&6So gehts", "Unter Presse oder Deployer stellen und Item drauflegen.", "", "&6Wofuer ist das wichtig?", "Der einfachste Arbeitsplatz fuer Pressen."]
+			description: ["&6Was ist das?", "Ein Ablageplatz fuer ein Item, auf dem Maschinen arbeiten.", "", "&6So gehts", "Unter Presse oder Deployer stellen und Item drauflegen.", "", "&6Wofuer ist das wichtig?", "Der einfachste Arbeitsplatz fuer Pressen.", "", "&6Gut zu wissen", "Ein Depot ist eine Ablage fuer einen Gegenstand. Maschinen wie die Presse bearbeiten darauf liegende Items."]
 			id: "511AB40D87A4293D"
 			title: "Depot"
 			rewards: [{ id: "47A89CE68BEB6A34", type: "xp_levels", xp_levels: 2 }]
@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["2F0645A576106C0B"]
-			description: ["&6Was ist das?", "Das Geblaese blaest Items durch Feuer, Wasser oder Lava und behandelt sie so: backen, waschen, verkohlen.", "", "&6So gehts", "Mit Lava davor: Schmelzen. Mit Wasser: Waschen. Mit Feuer: Raeuchern. Mit Seelenfeuer: Aufloesen.", "", "&6Wofuer ist das wichtig?", "Massenverarbeitung ohne Oefen. Erzbrocken waschen gibt Bonus-Nuggets."]
+			description: ["&6Was ist das?", "Das Geblaese blaest Items durch Feuer, Wasser oder Lava und behandelt sie so: backen, waschen, verkohlen.", "", "&6So gehts", "Mit Lava davor: Schmelzen. Mit Wasser: Waschen. Mit Feuer: Raeuchern. Mit Seelenfeuer: Aufloesen.", "", "&6Wofuer ist das wichtig?", "Massenverarbeitung ohne Oefen. Erzbrocken waschen gibt Bonus-Nuggets.", "", "&6Gut zu wissen", "Das Geblaese erzeugt Luftstrom. Hinter Feuer raeuchert es Dinge, hinter Lava schmilzt es, hinter Wasser waescht es, und es treibt Gegenstaende vor sich her."]
 			id: "494CAE31CD8BAFAC"
 			title: "Geblaese"
 			rewards: [{ id: "7DFC2423934B9950", type: "xp_levels", xp_levels: 4 }]
@@ -629,6 +629,8 @@
 			title: "Beginn: Create"
 			rewards: [{ id: "49F827E11E854D21", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5C992075264D8BD2", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}

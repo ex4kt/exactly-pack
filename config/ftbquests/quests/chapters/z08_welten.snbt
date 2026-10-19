@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["760DF08E063B1E50"]
-			description: ["&6Was ist das?", "Twilight Forest ist eine eigene Dimension. Wirf einen Diamanten in einen Teich mit Blumen drumherum.", "Dort beginnt ein langes Abenteuer mit vielen Bossen.", "", "&6So gehts", "Baue einen 2x2-Teich und stelle Blumen oder Gras ringsum. Wirf einen Diamanten hinein.", "Im Wald hilft die Magische Karte, Bosse zu finden.", "", "&6Wofuer ist das wichtig?", "Bosse muessen in der richtigen Reihenfolge besiegt werden, sonst blockieren Fluch-Effekte den Weg. Die Reihenfolge zeigen die naechsten Quests."]
+			description: ["&6Was ist das?", "Twilight Forest ist eine eigene Dimension. Wirf einen Diamanten in einen Teich mit Blumen drumherum.", "Dort beginnt ein langes Abenteuer mit vielen Bossen.", "", "&6So gehts", "Baue einen 2x2-Teich und stelle Blumen oder Gras ringsum. Wirf einen Diamanten hinein.", "Im Wald hilft die Magische Karte, Bosse zu finden.", "", "&6Wofuer ist das wichtig?", "Bosse muessen in der richtigen Reihenfolge besiegt werden, sonst blockieren Fluch-Effekte den Weg. Die Reihenfolge zeigen die naechsten Quests.", "", "&6Gut zu wissen", "Das Portal entsteht, wenn du einen Diamanten in einen kleinen Wasserteich wirfst, der von Pflanzen und Blumen umgeben ist."]
 			id: "615E21CD98E6C777"
 			title: "Der Zwielichtwald"
 			rewards: [{ id: "0E4DCF75ED52D30E", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -271,7 +271,7 @@
 		}
 		{
 			dependencies: ["57E41ABAF269D36E"]
-			description: ["&6Was ist das?", "Baue ein Portal aus Glowstone und entzuende es mit Wasser.", "Das Aether ist ein Reich in den Wolken. Pass auf, wo du hinfaellst!", "", "&6So gehts", "Baue ein Portal aus Glowstone (wie ein Nether-Portal) und giesse Wasser hinein.", "Vorsicht am Rand: Wer herunterfaellt, landet in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Das Aether hat drei Dungeons: Bronze (Slider), Silber (Valkyrie-Koenigin), Gold (Sonnengeist). Jeder bringt starke Ausruestung."]
+			description: ["&6Was ist das?", "Baue ein Portal aus Glowstone und entzuende es mit Wasser.", "Das Aether ist ein Reich in den Wolken. Pass auf, wo du hinfaellst!", "", "&6So gehts", "Baue ein Portal aus Glowstone (wie ein Nether-Portal) und giesse Wasser hinein.", "Vorsicht am Rand: Wer herunterfaellt, landet in der Oberwelt.", "", "&6Wofuer ist das wichtig?", "Das Aether hat drei Dungeons: Bronze (Slider), Silber (Valkyrie-Koenigin), Gold (Sonnengeist). Jeder bringt starke Ausruestung.", "", "&6Gut zu wissen", "Das Aether-Portal ist ein Rahmen aus Leuchtstein, gefuellt mit Wasser und mit Feuerzeug entzuendet."]
 			id: "66E57CCD2D7C1EA0"
 			title: "Ins Aether"
 			rewards: [{ id: "7DAB3E278D50F75F", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
@@ -652,6 +652,8 @@
 			title: "Beginn: Zeitalter der Welten"
 			rewards: [{ id: "4D7083D0EC9DB8F0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "178C2653F0F644AB", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -663,6 +665,8 @@
 			title: "Zeitalter: Druckluft-Zeitalter"
 			rewards: [{ id: "29297C7D3F5FB087", type: "historystages:history_stage", stage: "druckluftzeit", remove: false, individual: false }, { id: "51D27F3AF7F57957", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "2B41B5BDFB0B052B", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 34.5d
 			y: 0.0d
 		}

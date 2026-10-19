@@ -96,7 +96,7 @@
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
-			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Buecherregale im Abstand von einem Block darum herum machen die Verzauberungen staerker.", "Lapis und Erfahrung zahlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Glueck und Haltbarkeit machen dich viel schneller und sparen Material."]
+			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Buecherregale im Abstand von einem Block darum herum machen die Verzauberungen staerker.", "Lapis und Erfahrung zahlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Glueck und Haltbarkeit machen dich viel schneller und sparen Material.", "", "&6Gut zu wissen", "Mit 15 Buecherregalen im Abstand von einem Block rund um den Tisch erreichst du die hoechste Verzauberungsstufe (30). Lapislazuli ist der Preis jeder Verzauberung."]
 			id: "2502CCD91E41AFC0"
 			title: "Der Verzauberungstisch"
 			rewards: [{ id: "69B8EA263F9CBAB4", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["1DB3F417D7AE0137"]
-			description: ["&6Was ist das?", "Obsidian brauchst du fuer Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch fuer Verzauberungstisch und Enderkisten."]
+			description: ["&6Was ist das?", "Obsidian brauchst du fuer Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch fuer Verzauberungstisch und Enderkisten.", "", "&6Gut zu wissen", "Obsidian entsteht, wenn Wasser auf Lava trifft. Ein Nether-Portal braucht mindestens 10 Bloecke Obsidian (ein Rahmen von 4x5 ohne Ecken)."]
 			id: "1512FC1565ADD973"
 			title: "Obsidian"
 			rewards: [{ id: "0F084224ABF2B814", type: "xp_levels", xp_levels: 3 }]
@@ -602,6 +602,8 @@
 			title: "Beginn: Diamant-Zeitalter"
 			rewards: [{ id: "328BC10CCF6129FC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5C8CCF0DBB609C98", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -613,6 +615,8 @@
 			title: "Zeitalter: Nether-Zeitalter"
 			rewards: [{ id: "1D07F218025316AD", type: "historystages:history_stage", stage: "netherzeit", remove: false, individual: false }, { id: "7F584C90AB7C4D9A", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "74C3CB9D99D5FCE5", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 12.0d
 			y: 0.0d
 		}

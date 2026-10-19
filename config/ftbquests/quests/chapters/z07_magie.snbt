@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["46C833DCD22312A1"]
-			description: ["&6Was ist das?", "Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl.", "", "&6So gehts", "Erstes Buch herstellen, in den Zauberbuch-Slot oder die Hand.", "", "&6Wofuer ist das wichtig?", "Bessere Buecher haben mehr Plaetze fuer Zauber."]
+			description: ["&6Was ist das?", "Das Zauberbuch haelt deine Zauber.", "Schritt 1: Baue oder finde ein Zauberbuch.", "Schritt 2: Halte es in der Hand. So stehen die Zauber zur Auswahl.", "", "&6So gehts", "Erstes Buch herstellen, in den Zauberbuch-Slot oder die Hand.", "", "&6Wofuer ist das wichtig?", "Bessere Buecher haben mehr Plaetze fuer Zauber.", "", "&6Gut zu wissen", "Das Zauberbuch bestimmt, wie viele Zauber du gleichzeitig ausgeruestet haben kannst. Bessere Buecher haben mehr Plaetze."]
 			id: "3DAA1F6F53E0A842"
 			title: "Zauberbuch"
 			rewards: [{ id: "138D0773182C8F12", type: "item", item: { id: "minecraft:book", count: 2 } }]
@@ -30,7 +30,7 @@
 		}
 		{
 			dependencies: ["3DAA1F6F53E0A842"]
-			description: ["&6Was ist das?", "Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein.", "", "&6So gehts", "Buch und Schriftrolle einlegen, Platz waehlen.", "", "&6Wofuer ist das wichtig?", "Ohne Inschriftentisch keine Zauber im Buch."]
+			description: ["&6Was ist das?", "Mit dem Inschriftentisch legst du Schriftrollen ins Buch ein.", "Schritt 1: Baue den Tisch.", "Schritt 2: Lege Buch und Schriftrolle hinein und setze sie ein.", "", "&6So gehts", "Buch und Schriftrolle einlegen, Platz waehlen.", "", "&6Wofuer ist das wichtig?", "Ohne Inschriftentisch keine Zauber im Buch.", "", "&6Gut zu wissen", "Am Inschriftentisch uebertraegst du Zauber aus Schriftrollen in dein Zauberbuch."]
 			id: "255A8186AF0DC2F0"
 			title: "Inschriftentisch"
 			rewards: [{ id: "74A04B57579CC26D", type: "xp_levels", xp_levels: 3 }]
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["76F11D27CBE5A57F"]
-			description: ["&6Was ist das?", "Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen.", "", "&6So gehts", "In der Alchemie herstellen.", "", "&6Wofuer ist das wichtig?", "Hoehere Tinte ergibt staerkere Schriftrollen."]
+			description: ["&6Was ist das?", "Tinte braucht die Schriftrollen-Schmiede. Bessere Tinte macht staerkere Schriftrollen.", "", "&6So gehts", "In der Alchemie herstellen.", "", "&6Wofuer ist das wichtig?", "Hoehere Tinte ergibt staerkere Schriftrollen.", "", "&6Gut zu wissen", "Die Tinte bestimmt die Seltenheit des Zaubers, den du auf die Schriftrolle schreibst. Bessere Tinte erlaubt staerkere Zauber."]
 			id: "6418DDFDACD70044"
 			title: "Tinte"
 			rewards: [{ id: "23AE727EFD3C42F8", type: "xp_levels", xp_levels: 2 }]
@@ -510,6 +510,8 @@
 			title: "Beginn: Magie-Zeitalter"
 			rewards: [{ id: "65E37EB4245C9FB2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "706C72C41E79529B", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -521,6 +523,8 @@
 			title: "Zeitalter: Zeitalter der Welten"
 			rewards: [{ id: "1C5EA4ED9B92E395", type: "historystages:history_stage", stage: "himmelszeit", remove: false, individual: false }, { id: "137FF82BB8A158CB", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "01A18DEFA71CDF83", type: "item", item: { id: "aether:golden_parachute", count: 1 }, count: 1L }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 24.0d
 			y: 0.0d
 		}

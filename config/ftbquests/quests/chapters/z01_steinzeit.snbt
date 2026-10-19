@@ -62,7 +62,7 @@
 		}
 		{
 			dependencies: ["093D637910111249"]
-			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Staemmen werden Bretter, aus Brettern Stoecke, Werkbank und Werkzeug.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofuer ist das wichtig?", "Du brauchst Holz fuer fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und spaeter fuer Create-Wellen und Wasserraeder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus."]
+			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Staemmen werden Bretter, aus Brettern Stoecke, Werkbank und Werkzeug.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofuer ist das wichtig?", "Du brauchst Holz fuer fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und spaeter fuer Create-Wellen und Wasserraeder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus.", "", "&6Gut zu wissen", "Eine Axt faellt Baeume deutlich schneller als die Hand. Pflanze fuer jeden gefaellten Baum einen Setzling nach, dann waechst der Wald nach."]
 			id: "5EC7640BCBDF892E"
 			title: "Holz sammeln"
 			rewards: [{ id: "0D44A1C6F6BC6D14", type: "item", item: { id: "minecraft:oak_log", count: 16 } }]
@@ -93,7 +93,7 @@
 		}
 		{
 			dependencies: ["5EC7640BCBDF892E"]
-			description: ["&6Was ist das?", "Bretter sind das wichtigste Baumaterial am Anfang.", "", "&6So gehts", "Ein Stamm in der Werkbank ergibt vier Bretter. Im Saegewerk bekommst du mehr Treppen und Stufen.", "", "&6Wofuer ist das wichtig?", "Kisten, Werkzeuge, Tueren, Boote und Betten brauchen Bretter."]
+			description: ["&6Was ist das?", "Bretter sind das wichtigste Baumaterial am Anfang.", "", "&6So gehts", "Ein Stamm in der Werkbank ergibt vier Bretter. Im Saegewerk bekommst du mehr Treppen und Stufen.", "", "&6Wofuer ist das wichtig?", "Kisten, Werkzeuge, Tueren, Boote und Betten brauchen Bretter.", "", "&6Gut zu wissen", "Fast alle Rezepte akzeptieren jede Brettersorte, du musst also nicht auf die Holzart achten."]
 			id: "0E282EEACBC50CE7"
 			title: "Bretter"
 			rewards: [{ id: "5DD111E360AC1F20", type: "item", item: { id: "minecraft:stick", count: 16 } }]
@@ -114,7 +114,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "Fortschritt: Werkzeuge und Waffen baust du Stufe fuer Stufe. Holz, dann Stein, dann Eisen, dann Diamant. Jede Stufe braucht das Werkzeug der vorherigen im Rezept, also wirf alte Werkzeuge nicht weg.", "", "&6Wofuer ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Spaeter: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Naehe."]
+			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "Fortschritt: Werkzeuge und Waffen baust du Stufe fuer Stufe. Holz, dann Stein, dann Eisen, dann Diamant. Jede Stufe braucht das Werkzeug der vorherigen im Rezept, also wirf alte Werkzeuge nicht weg.", "", "&6Wofuer ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Spaeter: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Naehe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das gruene Rezeptbuch neben dem Raster legt die Zutaten fuer bekannte Rezepte automatisch aus."]
 			id: "0394F82571C6DE85"
 			title: "Werkbank bauen"
 			rewards: [{ id: "6EED97054AD334F5", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
@@ -124,7 +124,7 @@
 		}
 		{
 			dependencies: ["0394F82571C6DE85"]
-			description: ["&6Was ist das?", "Die Holzspitzhacke ist das allererste Werkzeug.", "", "&6So gehts", "Drei Bretter oben, zwei Stoecke darunter.", "", "&6Wofuer ist das wichtig?", "Mit ihr baust du Stein ab. Behalte sie: Die Steinspitzhacke braucht sie im Rezept."]
+			description: ["&6Was ist das?", "Die Holzspitzhacke ist das allererste Werkzeug.", "", "&6So gehts", "Drei Bretter oben, zwei Stoecke darunter.", "", "&6Wofuer ist das wichtig?", "Mit ihr baust du Stein ab. Behalte sie: Die Steinspitzhacke braucht sie im Rezept.", "", "&6Gut zu wissen", "Werkzeuge haben eine begrenzte Haltbarkeit. Holz haelt nur kurz, deshalb steigst du so schnell wie moeglich auf Stein um."]
 			id: "149718EF5100546D"
 			title: "Holzwerkzeug"
 			rewards: [{ id: "7F2046C5154ED497", type: "item", item: { id: "minecraft:apple", count: 4 } }]
@@ -304,7 +304,7 @@
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofuer ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es staendig."]
+			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofuer ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es staendig.", "", "&6Gut zu wissen", "Wenn du Stein abbaust, erhaeltst du Bruchstein. Mit einer Spitzhacke mit Seidenberuehrung bekommst du spaeter den glatten Stein selbst."]
 			id: "3D7458B224785A88"
 			title: "Bruchstein"
 			rewards: [{ id: "661FB845F3358EED", type: "item", item: { id: "minecraft:flint", count: 8 } }]
@@ -314,7 +314,7 @@
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Die Steinspitzhacke baut Eisen- und Kupfererz ab.", "", "&6So gehts", "Drei Bruchstein, darunter die Holzspitzhacke und ein Stock. Jede Stufe braucht das Werkzeug der vorherigen Stufe.", "", "&6Wofuer ist das wichtig?", "Ohne Steinspitzhacke kein Eisen und damit keine Eisenzeit."]
+			description: ["&6Was ist das?", "Die Steinspitzhacke baut Eisen- und Kupfererz ab.", "", "&6So gehts", "Drei Bruchstein, darunter die Holzspitzhacke und ein Stock. Jede Stufe braucht das Werkzeug der vorherigen Stufe.", "", "&6Wofuer ist das wichtig?", "Ohne Steinspitzhacke kein Eisen und damit keine Eisenzeit.", "", "&6Gut zu wissen", "Mit ihr baust du Kupfer- und Eisenerz ab. Diamanten brauchen mindestens eine Eisenspitzhacke."]
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "502C61E3409EAEDC"
 			title: "Steinspitzhacke"
@@ -346,7 +346,7 @@
 		}
 		{
 			dependencies: ["502C61E3409EAEDC"]
-			description: ["&6Was ist das?", "Im Ofen schmilzt du Erze und brennst Sand, Ton und Essen.", "", "&6So gehts", "Acht Bruchstein im Kreis. Oben das Material, unten Brennstoff wie Kohle oder Holz.", "", "&6Wofuer ist das wichtig?", "Ohne Ofen kein Eisen. Und ohne Eisen keine Eisenzeit."]
+			description: ["&6Was ist das?", "Im Ofen schmilzt du Erze und brennst Sand, Ton und Essen.", "", "&6So gehts", "Acht Bruchstein im Kreis. Oben das Material, unten Brennstoff wie Kohle oder Holz.", "", "&6Wofuer ist das wichtig?", "Ohne Ofen kein Eisen. Und ohne Eisen keine Eisenzeit.", "", "&6Gut zu wissen", "Brennstoffe: Kohle und Holzkohle schmelzen je 8 Gegenstaende, Bretter eineinhalb, ein Lavaeimer sogar 100. Die Gegenstaende kommen oben hinein, der Brennstoff unten."]
 			id: "5364C9419BE9A73B"
 			title: "Ofen"
 			rewards: [{ id: "78F74B84B9B40790", type: "item", item: { id: "minecraft:coal", count: 8 } }]
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["5364C9419BE9A73B"]
-			description: ["&6Was ist das?", "Kohle oder Holzkohle auf einem Stock ergibt vier Fackeln.", "", "&6So gehts", "Kohle oder Holzkohle ueber einem Stock ergibt vier Fackeln.", "", "&6Wofuer ist das wichtig?", "In dunklen Hoehlen spawnen Monster. Stelle ueberall Fackeln auf."]
+			description: ["&6Was ist das?", "Kohle oder Holzkohle auf einem Stock ergibt vier Fackeln.", "", "&6So gehts", "Kohle oder Holzkohle ueber einem Stock ergibt vier Fackeln.", "", "&6Wofuer ist das wichtig?", "In dunklen Hoehlen spawnen Monster. Stelle ueberall Fackeln auf.", "", "&6Gut zu wissen", "Fackeln geben viel Licht ab. Monster erscheinen im Dunkeln, also beleuchte Basis und Hoehlen. Seelenfackeln (aus dem Nether) leuchten blau."]
 			id: "04E3728EFBB0858D"
 			title: "Fackeln"
 			rewards: [{ id: "4FDEF51E08D4666C", type: "item", item: { id: "minecraft:torch", count: 24 } }]
@@ -439,7 +439,7 @@
 		}
 		{
 			dependencies: ["1C40D78F36FFCB0A"]
-			description: ["&6Was ist das?", "Samen bekommst du von Gras. Pflanze sie auf gehacktem Boden neben Wasser.", "", "&6So gehts", "Samen bekommst du von hohem Gras. Pflanze sie auf Ackerboden neben Wasser.", "Achte auf die Jahreszeit: Im Winter waechst kaum etwas.", "", "&6Wofuer ist das wichtig?", "Brot, Teig, Kuchen und Futter fuer Kuehe und Schafe."]
+			description: ["&6Was ist das?", "Samen bekommst du von Gras. Pflanze sie auf gehacktem Boden neben Wasser.", "", "&6So gehts", "Samen bekommst du von hohem Gras. Pflanze sie auf Ackerboden neben Wasser.", "Achte auf die Jahreszeit: Im Winter waechst kaum etwas.", "", "&6Wofuer ist das wichtig?", "Brot, Teig, Kuchen und Futter fuer Kuehe und Schafe.", "", "&6Gut zu wissen", "Ackerboden wird zu Erde, wenn du darauf springst. Wasser in vier Bloecken Umkreis haelt ihn feucht, Knochenmehl laesst die Pflanzen sofort wachsen."]
 			id: "38E431CDA13687D6"
 			title: "Weizen anbauen"
 			rewards: [{ id: "244B668FCA9C8B21", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
@@ -470,7 +470,7 @@
 		}
 		{
 			dependencies: ["0E13BB3BED84B047"]
-			description: ["&6Was ist das?", "Ein Lagerfeuer gibt Licht, grillt Fleisch und beruhigt Bienen.", "", "&6So gehts", "Stoecke, Kohle und Staemme. Rohes Fleisch mit Rechtsklick darauflegen.", "", "&6Wofuer ist das wichtig?", "Von hier geht der Koch-Zweig ab: Farmers Delight wartet."]
+			description: ["&6Was ist das?", "Ein Lagerfeuer gibt Licht, grillt Fleisch und beruhigt Bienen.", "", "&6So gehts", "Stoecke, Kohle und Staemme. Rohes Fleisch mit Rechtsklick darauflegen.", "", "&6Wofuer ist das wichtig?", "Von hier geht der Koch-Zweig ab: Farmers Delight wartet.", "", "&6Gut zu wissen", "Auf dem Lagerfeuer garen bis zu vier Speisen gleichzeitig, ganz ohne Brennstoff. Rohes Fleisch braucht dort etwa 30 Sekunden pro Stueck."]
 			id: "5A685565E72C4410"
 			title: "Lagerfeuer"
 			rewards: [{ id: "421F879D3EA7BCB8", type: "item", item: { id: "minecraft:cooked_porkchop", count: 4 } }]
@@ -965,7 +965,7 @@
 		}
 		{
 			dependencies: ["4CC791F37478A527"]
-			description: ["&6Was ist das?", "Kohle findest du in Hoehlen und an Berghaengen. Du brauchst sie fuer Fackeln und Oefen.", "", "&6So gehts", "Mit einer Holz- oder Steinspitzhacke abbauen. Sie ist in fast jeder Felswand zu finden.", "", "&6Wofuer ist das wichtig?", "Fackeln, Oefen, Schmelzoefen. Spaeter auch Brennstoff fuer Blazebrenner und Dampfmaschinen."]
+			description: ["&6Was ist das?", "Kohle findest du in Hoehlen und an Berghaengen. Du brauchst sie fuer Fackeln und Oefen.", "", "&6So gehts", "Mit einer Holz- oder Steinspitzhacke abbauen. Sie ist in fast jeder Felswand zu finden.", "", "&6Wofuer ist das wichtig?", "Fackeln, Oefen, Schmelzoefen. Spaeter auch Brennstoff fuer Blazebrenner und Dampfmaschinen.", "", "&6Gut zu wissen", "Holzkohle bekommst du auch, wenn du Staemme im Ofen brennst. Sie ist fuer Fackeln genauso gut wie Kohle."]
 			id: "60B557A4BAD57D69"
 			title: "Kohle"
 			rewards: [{ id: "27AAD63E22BA19E1", type: "item", item: { id: "minecraft:torch", count: 16 } }]
@@ -985,7 +985,7 @@
 		}
 		{
 			dependencies: ["00C24655867A56D6"]
-			description: ["&6Was ist das?", "Rohkupfer im Ofen schmelzen.", "", "&6So gehts", "Rohkupfer in den Ofen.", "", "&6Wofuer ist das wichtig?", "Neun Barren ergeben einen Block. Kupferbloecke werden mit der Zeit gruen."]
+			description: ["&6Was ist das?", "Rohkupfer im Ofen schmelzen.", "", "&6So gehts", "Rohkupfer in den Ofen.", "", "&6Wofuer ist das wichtig?", "Neun Barren ergeben einen Block. Kupferbloecke werden mit der Zeit gruen.", "", "&6Gut zu wissen", "Kupferbloecke oxidieren mit der Zeit. Mit Wachs (aus Honigwaben) bleibt der Block in seinem Zustand."]
 			id: "7530D2695E6CB2F2"
 			title: "Kupferbarren"
 			rewards: [{ id: "3E3CD5D014670DB0", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
@@ -995,7 +995,7 @@
 		}
 		{
 			dependencies: ["7530D2695E6CB2F2"]
-			description: ["&6Was ist das?", "Eisenerz hat beige Punkte. Mit der Steinspitzhacke abbauen.", "", "&6So gehts", "Mit der Steinspitzhacke abbauen. Viel Eisen liegt um Ebene 16 und hoch in Bergen.", "", "&6Wofuer ist das wichtig?", "Schmelze es im Ofen. Fuer die Eisenzeit brauchst du 16 Eisenbarren."]
+			description: ["&6Was ist das?", "Eisenerz hat beige Punkte. Mit der Steinspitzhacke abbauen.", "", "&6So gehts", "Mit der Steinspitzhacke abbauen. Viel Eisen liegt um Ebene 16 und hoch in Bergen.", "", "&6Wofuer ist das wichtig?", "Schmelze es im Ofen. Fuer die Eisenzeit brauchst du 16 Eisenbarren.", "", "&6Gut zu wissen", "Eisen liegt besonders oft in Hoehlen und Bergen. Roheisen musst du im Ofen schmelzen, bevor du es verwenden kannst."]
 			id: "3E8BC412CE4C06F1"
 			title: "Roheisen"
 			rewards: [{ id: "10FC83FA8BED6D11", type: "item", item: { id: "minecraft:iron_nugget", count: 12 } }]
@@ -1019,6 +1019,8 @@
 			title: "Willkommen bei Exactly"
 			rewards: [{ id: "020ACE76080D4E35", type: "item", item: { id: "minecraft:bread", count: 8 } }]
 			tasks: [{ id: "1B8905CD6A6A07B0", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1030,6 +1032,8 @@
 			title: "Zeitalter: Eisenzeit"
 			rewards: [{ id: "53F97DDED346654E", type: "historystages:history_stage", stage: "eisenzeit", remove: false, individual: false }, { id: "2F0F0595DF1A4F1B", type: "xp_levels", xp_levels: 5 }, { id: "5E1A7E00C0FFEE01", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "6102DD31983CB9FE", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
+			shape: "hexagon"
+			size: 1.5d
 			x: 33.0d
 			y: 0.0d
 		}
