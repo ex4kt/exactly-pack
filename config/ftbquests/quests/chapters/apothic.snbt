@@ -319,11 +319,11 @@
 		{
 			dependencies: ["77F16701FD710E9F"]
 			description: ["&6Was ist das?", "Das erfuellte Tiefenregal, die hoechste Stufe der Tiefen-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Seltene Zutaten noetig.", "", "&6Wofuer ist das wichtig?", "Fuer die staerksten Verzauberungen am Tisch."]
-			icon: { id: "apothic_enchanting:infused_deepshelf" }
+			icon: { id: "apothic_enchanting:echoing_deepshelf" }
 			id: "1068BF974B3CF68E"
 			title: "Erfuelltes Tiefenregal"
 			rewards: [{ id: "3AFD309C6BEA75BA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "49F1829EA76FD76F", type: "item", item: { id: "apothic_enchanting:infused_deepshelf", count: 1 }, count: 1L }]
+			tasks: [{ id: "49F1829EA76FD76F", type: "checkmark" }]
 			x: 8.0d
 			y: 8.0d
 		}
@@ -385,11 +385,11 @@
 		{
 			dependencies: ["6B7A3E221F2BC4CA"]
 			description: ["&6Was ist das?", "Das erfuellte Endregal, die hoechste Stufe der End-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Seltene Zutaten noetig.", "", "&6Wofuer ist das wichtig?", "Fuer die allerstaerksten Verzauberungen am Tisch."]
-			icon: { id: "apothic_enchanting:infused_endshelf" }
+			icon: { id: "apothic_enchanting:draconic_endshelf" }
 			id: "7E8A4C888E9CEA2A"
 			title: "Erfuelltes Endregal"
 			rewards: [{ id: "5218A2FF7319E08C", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "6ABC51607898C16F", type: "item", item: { id: "apothic_enchanting:infused_endshelf", count: 1 }, count: 1L }]
+			tasks: [{ id: "6ABC51607898C16F", type: "checkmark" }]
 			x: 6.5d
 			y: 10.0d
 		}

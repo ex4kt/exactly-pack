@@ -670,11 +670,11 @@
 		{
 			dependencies: ["385010F7E93CBF2F"]
 			description: ["&6Was ist das?", "Der Netheritpfeil, die hoechste Pfeilstufe.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Nether-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Der staerkste normale Pfeil."]
-			icon: { id: "archeries:netherite_arrow" }
+			icon: { id: "minecraft:arrow" }
 			id: "4322D9EDF11DB4B4"
 			title: "Netheritpfeil"
 			rewards: [{ id: "2EAF881C59E10FF0", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "3901CA0A671F766B", type: "item", item: { id: "archeries:netherite_arrow", count: 1 }, count: 1L }]
+			tasks: [{ id: "3901CA0A671F766B", type: "checkmark" }]
 			x: 18.0d
 			y: 6.0d
 		}

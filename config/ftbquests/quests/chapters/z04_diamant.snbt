@@ -829,11 +829,11 @@
 		{
 			dependencies: ["1B2144517BC5AC69"]
 			description: ["&6Was ist das?", "Der Diamantpfeil.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden pro Schuss."]
-			icon: { id: "archeries:diamond_arrow" }
+			icon: { id: "minecraft:arrow" }
 			id: "5DEB458F606EEFCD"
 			title: "Diamantpfeil"
 			rewards: [{ id: "7E8E765DEBE4DD7F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3C6FD864E548D480", type: "item", item: { id: "archeries:diamond_arrow", count: 1 }, count: 1L }]
+			tasks: [{ id: "3C6FD864E548D480", type: "checkmark" }]
 			x: 6.0d
 			y: 26.0d
 		}
