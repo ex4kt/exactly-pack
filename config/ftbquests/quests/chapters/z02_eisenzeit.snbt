@@ -52,17 +52,6 @@
 		}
 		{
 			dependencies: ["6077C06A96337BE4"]
-			hide_dependency_lines: true
-			description: ["&6Was ist das?", "Ein Messer ist das wichtigste Werkzeug. Damit schneidest du Zutaten, erntest Stroh und holst mehr aus Tieren.", "", "&6So gehts", "Baue ein Messer aus Eisen (oder Feuerstein, Gold, Diamant).", "Mit dem Messer erntest du Stroh von Gras und bekommst mehr Fleisch von Tieren.", "Fortschritt: Feuerstein-Messer, dann Eisen-Messer (braucht das Feuerstein-Messer), dann Diamant-Messer (braucht das Eisen-Messer).", "", "&6Wofuer ist das wichtig?", "Ohne Messer kannst du auf dem Schneidebrett kaum etwas schneiden. Stroh brauchst du fuer Leinwand und Reiche Erde."]
-			id: "04C8E4874DFC3753"
-			title: "Messer"
-			rewards: [{ id: "36A771044701E156", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
-			tasks: [{ id: "7C2B0122672B58FD", type: "item", item: { id: "farmersdelight:iron_knife", count: 1 }, count: 1L }]
-			x: 6.0d
-			y: 30.0d
-		}
-		{
-			dependencies: ["6077C06A96337BE4"]
 			description: ["&6Was ist das?", "Der Schmelzofen schmilzt Erze doppelt so schnell wie der normale Ofen.", "", "&6So gehts", "Ofen, fuenf Eisenbarren und drei glatter Stein.", "", "&6Wofuer ist das wichtig?", "Erze schneller verarbeiten. Spaeter uebernimmt Create das mit Brechrad und Geblaese."]
 			id: "0437F056B93FD8D9"
 			title: "Schmelzofen"
@@ -116,7 +105,7 @@
 			y: 46.0d
 		}
 		{
-			dependencies: ["04C8E4874DFC3753"]
+			dependencies: ["6077C06A96337BE4"]
 			description: ["&6Was ist das?", "Mit Eimern traegst du Wasser, Lava und Milch.", "", "&6So gehts", "Drei Eisenbarren in V-Form.", "", "&6Wofuer ist das wichtig?", "Wasser fuer Felder, Lava als Brennstoff, Milch gegen Gift."]
 			icon: { id: "minecraft:bucket" }
 			id: "46202DD190374BDB"
@@ -705,107 +694,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["04C8E4874DFC3753"]
-			description: ["&6Was ist das?", "Reiche Erde (Rich Soil) laesst Pflanzen schneller wachsen und breitet sich auf Pilzen aus. Stelle sie mit Kompost her.", "", "&6So gehts", "Kompost aus Stroh, Erde und Pflanzenresten herstellen und verrotten lassen.", "Der Kompost wird mit der Zeit zu Reicher Erde.", "", "&6Wofuer ist das wichtig?", "Schnellere Felder und unendliche Pilze fuer Pilz-Gerichte."]
-			id: "67F0670BEC9430FB"
-			title: "Reiche Erde"
-			rewards: [{ id: "041C24228BA136D7", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
-			tasks: [{ id: "7AFBDBE463CA65BE", type: "item", item: { id: "farmersdelight:rich_soil", count: 1 }, count: 4L }]
-			x: 6.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["67F0670BEC9430FB"]
-			description: ["&6Was ist das?", "Kuerbissuppe ist ein herzhafter Klassiker.", "", "&6So gehts", "Kuerbisscheiben (Schneidebrett), Milch und Gemuese in den Topf.", "", "&6Wofuer ist das wichtig?", "Gute Saettigung und Gemuetlich-Effekt."]
-			id: "7FA85AFA1F26A951"
-			title: "Kuerbissuppe"
-			rewards: [{ id: "560E1854D4092D45", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3AE11656B9BA2134", type: "item", item: { id: "farmersdelight:pumpkin_soup", count: 1 }, count: 1L }]
-			x: 7.5d
-			y: 32.0d
-		}
-		{
-			dependencies: ["7FA85AFA1F26A951"]
-			description: ["&6Was ist das?", "Gebratener Reis sattmacht und ist schnell zu kochen.", "", "&6So gehts", "Reis, Ei, Karotte und Zwiebel in den Topf.", "", "&6Wofuer ist das wichtig?", "Hohe Saettigung, ideal fuer Ausfluege."]
-			id: "2D8DC453EEEE8B3F"
-			title: "Gebratener Reis"
-			rewards: [{ id: "76A16082E21FD331", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "2E6537F28F3BE17E", type: "item", item: { id: "farmersdelight:fried_rice", count: 1 }, count: 1L }]
-			x: 9.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["2D8DC453EEEE8B3F"]
-			description: ["&6Was ist das?", "Ein sattes Gericht mit viel Saettigung. Nudeln machst du aus Teig am Schneidebrett.", "", "&6So gehts", "Teig aus Weizen und Eiern, auf dem Schneidebrett zu Nudeln schneiden.", "Mit Hackfleisch und Tomatensauce im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Eines der staerksten Gerichte fuer lange Abenteuer."]
-			id: "37AB77CFE8C0A929"
-			title: "Nudeln mit Fleischbaellchen"
-			rewards: [{ id: "42ABF23D5C731825", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "51C42CE6BB6515CC", type: "item", item: { id: "farmersdelight:pasta_with_meatballs", count: 1 }, count: 1L }]
-			x: 10.5d
-			y: 32.0d
-		}
-		{
-			dependencies: ["37AB77CFE8C0A929"]
-			description: ["&6Was ist das?", "Gemuese-Eintopf mit guten Effekten.", "", "&6So gehts", "Tomate, Zwiebel, Rote Bete und Paprika in den Topf.", "", "&6Wofuer ist das wichtig?", "Gut fuer Vegetarier-Farmen ohne Tiere."]
-			id: "2A29604854E7F84F"
-			title: "Ratatouille"
-			rewards: [{ id: "55AA9822DFE65A42", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "7D0D694A846AA209", type: "item", item: { id: "farmersdelight:ratatouille", count: 1 }, count: 1L }]
-			x: 12.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["2A29604854E7F84F"]
-			description: ["&6Was ist das?", "Fleischpatty und Brot ergeben einen Hamburger.", "", "&6So gehts", "Hackfleisch zu Patty braten, mit Brot, Kohl, Tomate und Zwiebel in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend, gut zum Mitnehmen."]
-			id: "2A58DEA11571B132"
-			title: "Hamburger"
-			rewards: [{ id: "24214568E3228EFE", type: "item", item: { id: "minecraft:cooked_beef", count: 4 } }]
-			tasks: [{ id: "79C099DA87319FEC", type: "item", item: { id: "farmersdelight:hamburger", count: 1 }, count: 1L }]
-			x: 13.5d
-			y: 32.0d
-		}
-		{
-			dependencies: ["2A58DEA11571B132"]
-			description: ["&6Was ist das?", "Ein ganzes Festmahl fuer die Gruppe, zum Beispiel der Haehnchenbraten oder der Schinken. Jeder darf sich bedienen.", "", "&6So gehts", "Haehnchenbraten im Topf herstellen und aufstellen.", "Rechtsklick mit Schuessel nimmt eine Portion.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer die Gruppe: Ein Gericht fuer alle vor einem Bosskampf."]
-			id: "267BD2D81EB6726A"
-			title: "Festmahl: Braten"
-			rewards: [{ id: "383E5314A0D49A00", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
-			tasks: [{ id: "21B8AF784857BF0B", type: "item", item: { id: "farmersdelight:roast_chicken_block", count: 1 }, count: 1L }]
-			x: 15.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["267BD2D81EB6726A"]
-			description: ["&6Was ist das?", "Hirtenpastete ist ein Festmahl-Block aus Hackfleisch und Kartoffeln.", "", "&6So gehts", "Im Topf herstellen und aufstellen.", "", "&6Wofuer ist das wichtig?", "Viele Portionen fuer die Gruppe."]
-			id: "05D98236E5D865F0"
-			title: "Hirtenpastete"
-			rewards: [{ id: "7BA04E17F1451E71", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "67807042D8A964F4", type: "item", item: { id: "farmersdelight:shepherds_pie_block", count: 1 }, count: 1L }]
-			x: 16.5d
-			y: 32.0d
-		}
-		{
-			dependencies: ["05D98236E5D865F0"]
-			description: ["&6Was ist das?", "Die Kuechenschraenke sind huebsch und lagern Items. Gut fuer die Kueche.", "", "&6So gehts", "In allen Holzarten herstellbar.", "", "&6Wofuer ist das wichtig?", "Ordnung in der Kueche und schoene Deko."]
-			id: "77E4F090E3CB5DB8"
-			title: "Schrank"
-			rewards: [{ id: "35E330BB43855AEB", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "69E6F79C9EF0F3A7", type: "item", item: { id: "farmersdelight:oak_cabinet", count: 1 }, count: 1L }]
-			x: 18.0d
-			y: 32.0d
-		}
-		{
-			dependencies: ["77E4F090E3CB5DB8"]
-			description: ["&6Was ist das?", "Hundefutter fuettert Woelfe und heilt sie gut.", "", "&6So gehts", "Im Topf herstellen und einem Wolf geben.", "", "&6Wofuer ist das wichtig?", "Heilt Woelfe voll und macht sie staerker. Gut fuer deine Begleiter."]
-			id: "693932FE72D923BF"
-			title: "Hundefutter"
-			rewards: [{ id: "50FCD1DF4D0BC7D6", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "59885C9D0D6E1997", type: "item", item: { id: "farmersdelight:dog_food", count: 1 }, count: 1L }]
-			x: 19.5d
-			y: 32.0d
-		}
-		{
-			dependencies: ["693932FE72D923BF"]
+			dependencies: ["6077C06A96337BE4"]
 			description: ["&6Was ist das?", "Autochefs Delight kocht mit Rezeptbuch fuer dich. Das ist praktisch, wenn viele Zutaten noetig sind.", "", "&6So gehts", "Stelle die Autochef-Geraete auf und gib ihnen ein Rezept.", "", "&6Wofuer ist das wichtig?", "Spart Klicks, wenn du viele Portionen fuer die Gruppe kochst."]
 			id: "5E5DF70D3901E8A6"
 			title: "Hilfe von Autochef"
@@ -815,7 +704,7 @@
 			y: 32.0d
 		}
 		{
-			dependencies: ["67F0670BEC9430FB"]
+			dependencies: ["6077C06A96337BE4"]
 			description: ["&6Was ist das?", "Die Mod erweitert Farmers Delight um Fermentation: Getraenke, Kaese, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach.", "", "&6So gehts", "Alles passiert im Fass (Keg). Erfolge (Taste L) zeigen dir die Schritte.", "", "&6Wofuer ist das wichtig?", "Getraenke geben starke Effekte wie Staerke oder Feuerresistenz, Kaese ist Zutat fuer viele Gerichte."]
 			id: "1064EAB812C16845"
 			title: "Brewin and Chewin"
@@ -925,7 +814,7 @@
 			y: 36.0d
 		}
 		{
-			dependencies: ["7FA85AFA1F26A951"]
+			dependencies: ["6077C06A96337BE4"]
 			description: ["&6Was ist das?", "Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Waechter.", "", "&6So gehts", "Fische, Tintenfische und Waechter fangen oder besiegen.", "", "&6Wofuer ist das wichtig?", "Gut fuer Inselbasen am Meer."]
 			id: "797F55EB9542C484"
 			title: "Meeresfruechte"
