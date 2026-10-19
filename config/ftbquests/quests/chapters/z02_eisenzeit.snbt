@@ -1921,5 +1921,125 @@
 			x: 4.5d
 			y: 50.0d
 		}
+		{
+			dependencies: ["5AD7D87EDA092F1C"]
+			description: ["&6Was ist das?", "Neun Eisenbarren werden zu einem Block.", "", "&6So gehts", "Neun Eisenbarren quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch zum Lagern und fuer Baumaterial."]
+			id: "B643660B3B94A0F8"
+			title: "Eisenblock"
+			rewards: [{ id: "4CC52905DB7A2B04", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B3AF9083B9E1D7C0", type: "item", item: { id: "minecraft:iron_block", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0437F056B93FD8D9"]
+			description: ["&6Was ist das?", "Der Hochofen schmilzt Erze doppelt so schnell.", "", "&6So gehts", "Ofen, Eisenbarren und glatten Stein in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Spart bei grossen Erzmengen viel Zeit."]
+			id: "80C2B92C59DFCCC2"
+			title: "Hochofen"
+			rewards: [{ id: "CCF9ED8A59328CD9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0865A14FAD3DC316", type: "item", item: { id: "minecraft:blast_furnace", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["756BA580078912C2"]
+			description: ["&6Was ist das?", "Am Schmiedetisch werden Werkzeuge aufgewertet.", "", "&6So gehts", "Bretter und Eisenbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Wird fuer Netherit-Upgrades und Ruestungsverzierungen gebraucht."]
+			id: "C566038ABBD2F1E8"
+			title: "Schmiedetisch"
+			rewards: [{ id: "D9C435655F611AF9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5DC70C28DA65F05D", type: "item", item: { id: "minecraft:smithing_table", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0437F056B93FD8D9"]
+			description: ["&6Was ist das?", "Gitterstaebe aus Eisen.", "", "&6So gehts", "Sechs Eisenbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Fuer Zellen, Fenster und Dekoration."]
+			id: "7E41D42443A85947"
+			title: "Eisengitter"
+			rewards: [{ id: "B3EF967993581762", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2321C1C989D105D0", type: "item", item: { id: "minecraft:iron_bars", count: 1 }, count: 8L }]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75D7683D7097AA7F"]
+			description: ["&6Was ist das?", "Eine Fackel, die Strom liefert.", "", "&6So gehts", "Redstone ueber einen Stock legen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Dauerhafte Stromquelle und Basis vieler Schaltungen."]
+			id: "E6400366F166AFE1"
+			title: "Redstone-Fackel"
+			rewards: [{ id: "D0E6B6B37E23639F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D21961EB74101FC0", type: "item", item: { id: "minecraft:redstone_torch", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65F4000908053889"]
+			description: ["&6Was ist das?", "Ein Schalter, der an- und ausgeht.", "", "&6So gehts", "Ein Stock ueber Bruchstein. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Ideal fuer Tueren und Maschinen."]
+			id: "43B510CA6486F640"
+			title: "Hebel"
+			rewards: [{ id: "1210DB136685776B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5BC51090B3A80A5C", type: "item", item: { id: "minecraft:lever", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47550C5A803AD9F8"]
+			description: ["&6Was ist das?", "Gibt ein Signal, wenn jemand darauf tritt.", "", "&6So gehts", "Zwei Stein nebeneinander in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Fuer Falltueren, Fallen und automatische Tueren."]
+			id: "0B5C7FA60D9861DE"
+			title: "Druckplatte"
+			rewards: [{ id: "E9C30A7C357C11C7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8BD1F56867381541", type: "item", item: { id: "minecraft:stone_pressure_plate", count: 1 }, count: 1L }]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47550C5A803AD9F8"]
+			description: ["&6Was ist das?", "Erkennt, wenn sich ein Block vor ihm veraendert.", "", "&6So gehts", "Redstone, Bruchstein und Quarz in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Perfekt fuer automatische Farmen."]
+			id: "B242D38BA6D137A5"
+			title: "Beobachter"
+			rewards: [{ id: "4B112670F4D7C9ED", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "DA7D8CE3CC3DA673", type: "item", item: { id: "minecraft:observer", count: 1 }, count: 1L }]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11180937BBFF4937"]
+			description: ["&6Was ist das?", "Wirft Gegenstaende aus, wenn er Strom bekommt.", "", "&6So gehts", "Bogen, Bruchstein und Redstone. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Nuetzlich fuer Fallen und automatisches Fuettern."]
+			id: "54A6075ECA1863F7"
+			title: "Spender"
+			rewards: [{ id: "9CD7C90E45FC4064", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C6D8ECB012DDE618", type: "item", item: { id: "minecraft:dispenser", count: 1 }, count: 1L }]
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54A6075ECA1863F7"]
+			description: ["&6Was ist das?", "Eine Lampe, die du per Strom schaltest.", "", "&6So gehts", "Glowstone und Redstone. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Schaltbare Beleuchtung fuer dein Haus."]
+			id: "BEFE4AEA2DD02DDA"
+			title: "Redstone-Lampe"
+			rewards: [{ id: "87167C60B1C83B70", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "43C04F0332E98806", type: "item", item: { id: "minecraft:redstone_lamp", count: 1 }, count: 1L }]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E1ECF59DCE3468F"]
+			description: ["&6Was ist das?", "Schienen, die Loren beschleunigen.", "", "&6So gehts", "Gold, Stoecke und Redstone in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Redstone-Strom machen sie lange Strecken schnell."]
+			id: "B69D959EE56C6222"
+			title: "Antriebsschiene"
+			rewards: [{ id: "31A3014A54BAA1E7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "AB994D8216FBF488", type: "item", item: { id: "minecraft:powered_rail", count: 1 }, count: 6L }]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65F4000908053889"]
+			description: ["&6Was ist das?", "Vergleicht und misst Signale, auch den Inhalt von Kisten.", "", "&6So gehts", "Redstone-Fackeln, Quarz und Stein. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Wichtig fuer Sortieranlagen und genaue Schaltungen."]
+			id: "C2B04650EB7CD268"
+			title: "Komparator"
+			rewards: [{ id: "8932EC6789EBF92D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "ACD15DD3167F67E3", type: "item", item: { id: "minecraft:comparator", count: 1 }, count: 1L }]
+			x: 19.5d
+			y: -4.0d
+		}
 	]
 }
