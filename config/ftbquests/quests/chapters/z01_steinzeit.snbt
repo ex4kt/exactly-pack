@@ -1169,5 +1169,105 @@
 			x: 12.0d
 			y: 38.0d
 		}
+		{
+			dependencies: ["0E282EEACBC50CE7"]
+			description: ["&6Was ist das?", "Ein Zaun haelt Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stoecke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Zaeunen baust du Weiden fuer Tiere."]
+			id: "ECF098B3124DC049"
+			title: "Zaun"
+			rewards: [{ id: "6F65EF2E6DECF530", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "384B4F56C4D4E68A", type: "item", item: { id: "minecraft:oak_fence", count: 1 }, count: 4L }]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["149718EF5100546D"]
+			description: ["&6Was ist das?", "Leitern bringen dich schnell nach oben und unten.", "", "&6So gehts", "Stoecke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Unverzichtbar im Bergwerk und beim Hausbau."]
+			id: "13E4634A0A85F1DE"
+			title: "Leiter"
+			rewards: [{ id: "FAE570CFD4A42794", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A59A9CDBD23465BD", type: "item", item: { id: "minecraft:ladder", count: 1 }, count: 8L }]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7458B224785A88"]
+			description: ["&6Was ist das?", "Feuerstein faellt manchmal beim Abbau von Kies.", "", "&6So gehts", "Baue Kies mit einer Schaufel ab.", "", "&6Wofuer ist das wichtig?", "Daraus entstehen Feuer-Anzuender und Pfeile."]
+			id: "C05D2CE3317F29B7"
+			title: "Feuerstein"
+			rewards: [{ id: "91437FB20977C74E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7134F7288C39FF45", type: "item", item: { id: "minecraft:flint", count: 1 }, count: 3L }]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7458B224785A88"]
+			description: ["&6Was ist das?", "Treppen aus Stein fuer dein Haus.", "", "&6So gehts", "Bruchstein in der Werkbank in Treppenform legen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Treppen und Platten wirken Haeuser abwechslungsreicher."]
+			id: "83690BCBB0730B16"
+			title: "Steintreppen"
+			rewards: [{ id: "73A2A1A442CA71C8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CA39873DBEDCA67D", type: "item", item: { id: "minecraft:cobblestone_stairs", count: 1 }, count: 6L }]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E431CDA13687D6"]
+			description: ["&6Was ist das?", "Zwei einfache Nahrungspflanzen.", "", "&6So gehts", "Finde sie bei Dorfbewohnern oder Zombies und pflanze sie auf Ackerboden.", "", "&6Wofuer ist das wichtig?", "Eine sichere Nahrungsquelle fuer den Alltag."]
+			id: "D7051178914E0697"
+			title: "Kartoffeln und Karotten"
+			rewards: [{ id: "B1D47D5EEED94F9D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6E11563AADD54FAF", type: "item", item: { id: "minecraft:carrot", count: 1 }, count: 4L }]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E431CDA13687D6"]
+			description: ["&6Was ist das?", "Kuerbisse wachsen aus Samen und liefern Kuerbiskuchen.", "", "&6So gehts", "Kuerbissamen in Ackerboden pflanzen und warten.", "", "&6Wofuer ist das wichtig?", "Wird spaeter fuer Kuerbiskuchen und Golems gebraucht."]
+			id: "FC9DD8958450E1BC"
+			title: "Kuerbis"
+			rewards: [{ id: "1064B04BEEA51B47", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C2A1A1E7ECFFFA95", type: "item", item: { id: "minecraft:pumpkin", count: 1 }, count: 2L }]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38E431CDA13687D6"]
+			description: ["&6Was ist das?", "Melonen wachsen aus Samen und geben Scheiben.", "", "&6So gehts", "Melonensamen auf Ackerboden pflanzen.", "", "&6Wofuer ist das wichtig?", "Schnelle Nahrung und Zutat fuer Tranke."]
+			id: "B4C5F23D5E69E969"
+			title: "Melone"
+			rewards: [{ id: "5C4579D251FCC102", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6B5F5D8593BC84B5", type: "item", item: { id: "minecraft:melon_slice", count: 1 }, count: 6L }]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38A3C7968505D99D"]
+			description: ["&6Was ist das?", "Knochen aus Skeletten werden zu Duenger.", "", "&6So gehts", "Knochen in der Werkbank zu Knochenmehl verarbeiten.", "", "&6Wofuer ist das wichtig?", "Beschleunigt das Wachstum von Pflanzen enorm."]
+			id: "129DD140CA64F351"
+			title: "Knochenmehl"
+			rewards: [{ id: "2A6AAE6A26D5E314", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3054906D97F05EFC", type: "item", item: { id: "minecraft:bone_meal", count: 1 }, count: 6L }]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E282EEACBC50CE7"]
+			description: ["&6Was ist das?", "Papier entsteht aus Zuckerrohr.", "", "&6So gehts", "Drei Zuckerrohr nebeneinander in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Brauchst du fuer Buecher, Karten und viele Rezepte."]
+			id: "AF7119EB435A4D0D"
+			title: "Papier"
+			rewards: [{ id: "08A70D88D69C64E4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "830D5BBB7A0CF322", type: "item", item: { id: "minecraft:paper", count: 1 }, count: 3L }]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E282EEACBC50CE7"]
+			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Hilft bei der Ordnung in grossen Lagern."]
+			id: "22DEBBAF902D4BA1"
+			title: "Schilder"
+			rewards: [{ id: "441B7533C996B730", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9326638A08027B4C", type: "item", item: { id: "minecraft:oak_sign", count: 1 }, count: 2L }]
+			x: 6.0d
+			y: -2.0d
+		}
 	]
 }
