@@ -10,7 +10,7 @@ indicatorStyle = "DEFAULT"
 ##- COLLAPSE: Cycle through empty slots, but consecutive empty slots are collapsed into one
 #
 #Allowed Values: SKIP, CYCLE, COLLAPSE
-emptySlotBehavior = "SKIP"
+emptySlotBehavior = "COLLAPSE"
 #Whether to render the offhand slots when empty items are in them. (will only take effect if emptySlotBehavior is not SKIP)
 renderEmptyOffhand = false
 ##- VANILLA: Default Minecraft behavior (scroll cycles hotbar slots)
