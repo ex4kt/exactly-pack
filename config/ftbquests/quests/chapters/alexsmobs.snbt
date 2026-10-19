@@ -469,5 +469,85 @@
 			x: 12.5d
 			y: 10.0d
 		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Fell vom Grizzlybaer.", "", "&6So gehts", "Besiege Grizzlybaeren in der Taiga.", "", "&6Wofuer ist das wichtig?", "Material fuer warme Ausruestung und Deko."]
+			id: "8CA133CDFAEB04A7"
+			title: "Baerenfell"
+			rewards: [{ id: "D63C37CAD6BB1A63", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2863B3F323D3750F", type: "item", item: { id: "alexsmobs:bear_fur", count: 1 }, count: 2L }]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Dichtes Fell vom Bison.", "", "&6So gehts", "Besiege Bisons in den Ebenen.", "", "&6Wofuer ist das wichtig?", "Ergibt Teppiche und Bloecke."]
+			id: "C9E84AB7ED1C287A"
+			title: "Bisonfell"
+			rewards: [{ id: "603D62BA6DA1E8A0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EABDE10C5BAE3DC0", type: "item", item: { id: "alexsmobs:bison_fur", count: 1 }, count: 2L }]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Federn vom Emu.", "", "&6So gehts", "Besiege Emus oder rupfe ihre Federn.", "", "&6Wofuer ist das wichtig?", "Wird fuer die Emu-Hose gebraucht."]
+			id: "66AFB5CF378EABAE"
+			title: "Emufeder"
+			rewards: [{ id: "5F433070CF8411CD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "202EB23317A329AF", type: "item", item: { id: "alexsmobs:emu_feather", count: 1 }, count: 2L }]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Schuppen des Krokodils.", "", "&6So gehts", "Besiege Krokodile an Flussufern.", "", "&6Wofuer ist das wichtig?", "Daraus entsteht die Krokodil-Brustplatte."]
+			id: "4C1F8456762223BE"
+			title: "Krokodilschuppe"
+			rewards: [{ id: "1C74ADC2C5D9D701", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "725FB2E25D6A0915", type: "item", item: { id: "alexsmobs:crocodile_scute", count: 1 }, count: 2L }]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Fluegel einer Kakerlake.", "", "&6So gehts", "Erlege Kakerlaken in der Wueste.", "", "&6Wofuer ist das wichtig?", "Zutat fuer fliegende Gegenstaende."]
+			id: "03DBEB778E3C5E37"
+			title: "Kakerlakenfluegel"
+			rewards: [{ id: "C63B9D2377E81535", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4F9A5F58B5E41C90", type: "item", item: { id: "alexsmobs:cockroach_wing", count: 1 }, count: 2L }]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Eine dehnbare Sehne.", "", "&6So gehts", "Besiege Kaenguru oder Krokodil.", "", "&6Wofuer ist das wichtig?", "Fuer Lasso und Peitsche."]
+			id: "3FAB5BCBE5831EA3"
+			title: "Elastische Sehne"
+			rewards: [{ id: "24640E664E7D448C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "07E3E2F19844479E", type: "item", item: { id: "alexsmobs:elastic_tendon", count: 1 }, count: 2L }]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Ein wertvolles Meeresprodukt.", "", "&6So gehts", "Besiege Pottwale im Meer.", "", "&6Wofuer ist das wichtig?", "Gefragt bei Haendlern und Rezepten."]
+			id: "5935BACE7D381F2C"
+			title: "Ambra"
+			rewards: [{ id: "F445AAE94CB3F793", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D989E9AC080AD7BC", type: "item", item: { id: "alexsmobs:ambergris", count: 1 }, count: 2L }]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF46E6242DA488"]
+			description: ["&6Was ist das?", "Kralle des Dropbears.", "", "&6So gehts", "Besiege einen Dropbear im Outback.", "", "&6Wofuer ist das wichtig?", "Stellt Waffen und Werkzeuge her."]
+			id: "83869D07F172BC4C"
+			title: "Dropbear-Kralle"
+			rewards: [{ id: "8AFDF142A7E39243", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "76E68C941F9BEFB0", type: "item", item: { id: "alexsmobs:dropbear_claw", count: 1 }, count: 2L }]
+			x: 12.5d
+			y: -2.0d
+		}
 	]
 }

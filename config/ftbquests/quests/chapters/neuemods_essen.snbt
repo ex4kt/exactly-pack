@@ -282,5 +282,65 @@
 			x: 9.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Butter aus Milch.", "", "&6So gehts", "Kochtopf oder Butterfass, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "3014FF6A36299A35"
+			title: "Butter"
+			rewards: [{ id: "836EC9065F5C1801", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1EDE0DAF0DB6763A", type: "item", item: { id: "farm_and_charm:butter", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Ein frischer Salat vom Hof.", "", "&6So gehts", "Schneidebrett und Schuessel, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "898F18D03ADAB23F"
+			title: "Bauernsalat"
+			rewards: [{ id: "1BA88B96B08ABD89", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A47FD93100AE5299", type: "item", item: { id: "farm_and_charm:farmer_salad", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Herzhafter Eintopf.", "", "&6So gehts", "Im Kochtopf kochen, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "9ACD03C16AAA2204"
+			title: "Gulasch"
+			rewards: [{ id: "DA5241FE842C948D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4BB54946FFE6CC26", type: "item", item: { id: "farm_and_charm:goulash", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Suppe aus Gerste.", "", "&6So gehts", "Im Kochtopf kochen, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "4BBF0C21FDA1D705"
+			title: "Gerstensuppe"
+			rewards: [{ id: "F825DCA40C09D7FC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "81924E12F44AA1DB", type: "item", item: { id: "farm_and_charm:barley_soup", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Duenger fuer schnelleres Wachstum.", "", "&6So gehts", "Kompost und Knochenmehl, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "4B504A85C40B8A37"
+			title: "Duenger"
+			rewards: [{ id: "D10BBE11B6174ABF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "04E8886CACDA380D", type: "item", item: { id: "farm_and_charm:fertilizer", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Futter fuer deine Huehner.", "", "&6So gehts", "Samen und Mehl, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "5E0A838F4DF1D2FE"
+			title: "Huehnerfutter"
+			rewards: [{ id: "097DBED68D61D7BE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "23EBAB832B5EF573", type: "item", item: { id: "farm_and_charm:chicken_feed", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 8.0d
+		}
 	]
 }
