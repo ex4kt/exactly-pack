@@ -31,17 +31,6 @@
 		}
 		{
 			dependencies: ["78DF46E6242DA488"]
-			description: ["&6Was ist das?", "Bananen wachsen an einer Palme und sind Futter fuer viele Tiere.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein einfacher Snack und Tierfutter."]
-			icon: { id: "alexsmobs:banana" }
-			id: "0E3497F162C2C89A"
-			title: "Banane"
-			rewards: [{ id: "68DD8F629707AA3F", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "1449DB2986A82B5C", type: "item", item: { id: "alexsmobs:banana", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0E3497F162C2C89A"]
 			description: ["&6Was ist das?", "Ein Futterspender fuer Kolibris.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufhaengen.", "", "&6Wofuer ist das wichtig?", "Kolibris kommen zu deinem Garten."]
 			icon: { id: "alexsmobs:hummingbird_feeder" }
 			id: "493BC56EB049A5C8"
@@ -50,105 +39,6 @@
 			tasks: [{ id: "42DDEE4F342073A3", type: "item", item: { id: "alexsmobs:hummingbird_feeder", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["493BC56EB049A5C8"]
-			description: ["&6Was ist das?", "Gebratener Wels, ein Fisch aus Fluessen und Sumpf.", "", "&6So gehts", "Rohen Wels fangen und im Ofen braten.", "", "&6Wofuer ist das wichtig?", "Gutes Essen aus dem Wasser."]
-			icon: { id: "alexsmobs:cooked_catfish" }
-			id: "6C736471B12E36DE"
-			title: "Gebratener Wels"
-			rewards: [{ id: "38223C27377AA636", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "5FBC21A468A6758B", type: "item", item: { id: "alexsmobs:cooked_catfish", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C736471B12E36DE"]
-			description: ["&6Was ist das?", "Gebratener Hummerschwanz.", "", "&6So gehts", "Hummer in Gewaessern fangen, Schwanz braten.", "", "&6Wofuer ist das wichtig?", "Sattes Essen aus dem Meer."]
-			icon: { id: "alexsmobs:cooked_lobster_tail" }
-			id: "57BEB24AF0A18705"
-			title: "Hummerschwanz"
-			rewards: [{ id: "5BE474AC807536CA", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "3BE54A9A3892AA3A", type: "item", item: { id: "alexsmobs:cooked_lobster_tail", count: 1 }, count: 1L }]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["57BEB24AF0A18705"]
-			description: ["&6Was ist das?", "Gebratene Elchrippen.", "", "&6So gehts", "Elche in kalten Biomen jagen und das Fleisch braten.", "", "&6Wofuer ist das wichtig?", "Sehr sattes Fleisch."]
-			icon: { id: "alexsmobs:cooked_moose_ribs" }
-			id: "4BFCEF4802E93F88"
-			title: "Elchrippen"
-			rewards: [{ id: "767151E06B878795", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "424037EA55DB333D", type: "item", item: { id: "alexsmobs:cooked_moose_ribs", count: 1 }, count: 1L }]
-			x: 9.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4BFCEF4802E93F88"]
-			description: ["&6Was ist das?", "Gebratenes Kaenguru-Fleisch.", "", "&6So gehts", "Kaengurus in Savannen und Wuesten jagen, Fleisch braten.", "", "&6Wofuer ist das wichtig?", "Zutat fuer den Kaenguru-Burger."]
-			icon: { id: "alexsmobs:cooked_kangaroo_meat" }
-			id: "69F8B7227C49BD6A"
-			title: "Kaenguru-Fleisch"
-			rewards: [{ id: "5C31F0F3EC3A9EE3", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "779BE139BCEB3003", type: "item", item: { id: "alexsmobs:cooked_kangaroo_meat", count: 1 }, count: 1L }]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["69F8B7227C49BD6A"]
-			description: ["&6Was ist das?", "Ein Burger aus Kaenguru-Fleisch.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sattes Essen fuer unterwegs."]
-			icon: { id: "alexsmobs:kangaroo_burger" }
-			id: "151CD266AC75EF2D"
-			title: "Kaenguru-Burger"
-			rewards: [{ id: "2F2B1F96D780B6F6", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4B76D0AF70233037", type: "item", item: { id: "alexsmobs:kangaroo_burger", count: 1 }, count: 1L }]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["78DF46E6242DA488"]
-			description: ["&6Was ist das?", "Gebratener Reis mit Garnelen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein starkes Gericht der Mod."]
-			icon: { id: "alexsmobs:shrimp_fried_rice" }
-			id: "6E9B0E0ADFD768E8"
-			title: "Garnelen-Reis"
-			rewards: [{ id: "2103A46DBBBBED48", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "7DC304E1960D6815", type: "item", item: { id: "alexsmobs:shrimp_fried_rice", count: 1 }, count: 1L }]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6E9B0E0ADFD768E8"]
-			description: ["&6Was ist das?", "Eine Suppe nach Rezept der Affen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Besondere Suppe mit guten Werten."]
-			icon: { id: "alexsmobs:sopa_de_macaco" }
-			id: "06689C84BC1B5449"
-			title: "Sopa de Macaco"
-			rewards: [{ id: "475360A53400A613", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6B25765D7287D890", type: "item", item: { id: "alexsmobs:sopa_de_macaco", count: 1 }, count: 1L }]
-			x: 3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["06689C84BC1B5449"]
-			description: ["&6Was ist das?", "Eintopf, der Mosquitos fernhaelt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Schutz vor den blutsaugenden Mosquitos."]
-			icon: { id: "alexsmobs:mosquito_repellent_stew" }
-			id: "1E164CAAA702210C"
-			title: "Mosquito-Eintopf"
-			rewards: [{ id: "3387643C1C3C61FE", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "65E31707D3D7CEE6", type: "item", item: { id: "alexsmobs:mosquito_repellent_stew", count: 1 }, count: 1L }]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1E164CAAA702210C"]
-			description: ["&6Was ist das?", "Ein gekochtes Emu-Ei.", "", "&6So gehts", "Emu-Ei in den Ofen legen.", "", "&6Wofuer ist das wichtig?", "Einfaches, sattes Essen."]
-			icon: { id: "alexsmobs:boiled_emu_egg" }
-			id: "22BAD06F0C06A14D"
-			title: "Gekochtes Emu-Ei"
-			rewards: [{ id: "09242A47D88C0A5D", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "62098F5C6F834B96", type: "item", item: { id: "alexsmobs:boiled_emu_egg", count: 1 }, count: 1L }]
-			x: 6.5d
-			y: 2.0d
 		}
 		{
 			dependencies: ["78DF46E6242DA488"]

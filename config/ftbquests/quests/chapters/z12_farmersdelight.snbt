@@ -550,5 +550,928 @@
 			x: 19.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Das Nether hat eigene Zutaten, aus denen du scharfe und nahrhafte Gerichte kochst, zum Beispiel Hoglin-Fleisch und Scharfe Paprika.", "", "&6So gehts", "Du brauchst dafuer den Nether-Herd und den Kochtopf. Das genaue Rezept jedes Gerichts zeigt dir JEI (R auf dem Item).", "Gute Zutaten findest du in Bastionen, Hoglin-Gehegen und Paprika-Plantagen im Nether.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "88D8F86010D0CC0D"
+			title: "Ueberblick: Nether-Kueche"
+			rewards: [{ id: "6E5A0B652C64DEEC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9066C26BF17E4C5C", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["88D8F86010D0CC0D"]
+			description: ["&6Was ist das?", "My Nethers Delight bringt Gerichte aus dem Nether.", "Du brauchst Zutaten von Hoglins, Striders und Ghasts.", "", "&6So gehts", "Sammle Zutaten von Hoglins, Stridern und Ghasts.", "", "&6Wofuer ist das wichtig?", "Nether-Gerichte geben oft Feuerresistenz und Staerke."]
+			id: "40DE859B7882B7D0"
+			title: "Nether-Kueche"
+			rewards: [{ id: "4C04C6D26FCC7985", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2058EC55F63803D5", type: "checkmark" }]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40DE859B7882B7D0"]
+			description: ["&6Was ist das?", "Der Netherherd braucht weder Kohle noch Holz, er brennt mit Netherrack-Glut.", "", "&6So gehts", "Herstellen und mit Feuer entzuenden.", "", "&6Wofuer ist das wichtig?", "Funktioniert wie der normale Herd und passt in Nether-Basen."]
+			id: "6786D2678E103F63"
+			title: "Nether-Herd"
+			rewards: [{ id: "3E46E91435BD9E2A", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
+			tasks: [{ id: "1503D8A08A2FFFD8", type: "item", item: { id: "mynethersdelight:nether_bricks_stove", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6786D2678E103F63"]
+			description: ["&6Was ist das?", "Hoglins liefern Lenden und Wuerste. Sie sind die Basis vieler Gerichte.", "", "&6So gehts", "Hoglins im Karmesinwald jagen, Fleisch am Schneidebrett zerlegen.", "", "&6Wofuer ist das wichtig?", "Basis fuer Nether-Burger und Wuerstchen."]
+			id: "54E4CC12965A4988"
+			title: "Hoglin-Fleisch"
+			rewards: [{ id: "62369FA647A64BEC", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "59C76E5DB5CF53EC", type: "item", item: { id: "mynethersdelight:hoglin_loin", count: 1 }, count: 2L }]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["54E4CC12965A4988"]
+			description: ["&6Was ist das?", "Die Paprika waechst auf Netherboden und macht Gerichte scharf.", "", "&6So gehts", "Auf Seelensand oder Netherboden anpflanzen.", "", "&6Wofuer ist das wichtig?", "Fuer Curry und scharfe Gerichte, die Feuerresistenz geben."]
+			id: "240D7DD3A8296CD9"
+			title: "Scharfe Paprika"
+			rewards: [{ id: "241E9426F62E4F8F", type: "item", item: { id: "minecraft:nether_wart", count: 4 } }]
+			tasks: [{ id: "387D973BD78A87F3", type: "item", item: { id: "mynethersdelight:bullet_pepper", count: 1 }, count: 4L }]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["240D7DD3A8296CD9"]
+			description: ["&6Was ist das?", "Scharfes Curry gibt kurzzeitig Feuerwiderstand.", "", "&6So gehts", "Im Kochtopf mit Paprika herstellen.", "", "&6Wofuer ist das wichtig?", "Gibt Feuerresistenz, perfekt vor Lava-Abenteuern."]
+			id: "7ACB323D65B54E2C"
+			title: "Scharfes Curry"
+			rewards: [{ id: "18E4F107B39E36C5", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "7FBDB02EE89270DC", type: "item", item: { id: "mynethersdelight:spicy_curry", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7ACB323D65B54E2C"]
+			description: ["&6Was ist das?", "Ein Burger mit Hoglin-Fleisch.", "", "&6So gehts", "Wie den Hamburger herstellen.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend."]
+			id: "3504A853910446E0"
+			title: "Nether-Burger"
+			rewards: [{ id: "1027AE4010C70C89", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "37E5B4950ACDC65A", type: "item", item: { id: "mynethersdelight:nether_burger", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3504A853910446E0"]
+			description: ["&6Was ist das?", "Ghasta ist Nudelgericht mit Ghast-Teig. Selten und stark.", "", "&6So gehts", "Ghast-Traenen und Mehl zu Teig, dann im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Eines der besten Nether-Gerichte."]
+			id: "14B493DCCAE043D2"
+			title: "Ghasta"
+			rewards: [{ id: "2FBED9351ABFACE2", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "2B4FD505F2F6F145", type: "item", item: { id: "mynethersdelight:ghasta", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Enders Delight fuegt Gerichte aus Zutaten des Endes hinzu: Chorusfrucht, Endermiten, Shulker und mehr.", "", "&6So gehts", "Du baust zuerst den Ende-Herd. Mit ihm und dem Kochtopf kochst du die Gerichte. Rezepte siehst du in JEI.", "Viele Gerichte geben starke Effekte. Beachte, dass einige Zutaten nur im Ende zu finden sind.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "40B08832AE0BBC78"
+			title: "Ueberblick: Ende-Kueche"
+			rewards: [{ id: "1A8E3E9B3CA059E3", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "25F7FA5569C0913A", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["40B08832AE0BBC78"]
+			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende. Sieh im Kapitel Kochen nach.", "", "&6So gehts", "Siehe Kochen.", "", "&6Wofuer ist das wichtig?", "Starke Mahlzeiten."]
+			id: "6F81E1560F8E3640"
+			title: "Enders Delight"
+			rewards: [{ id: "65FB4C779C8B22B2", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4F79AC348CFF95CC", type: "checkmark" }]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Enders Delight bringt Gerichte aus dem Ende.", "Du brauchst Chorusfrucht, Shulker und Endermiten.", "", "&6So gehts", "Zutaten im Ende sammeln.", "", "&6Wofuer ist das wichtig?", "Sehr starke Mahlzeiten fuer das Endspiel."]
+			id: "2659B7880C5D46B2"
+			title: "Gerichte aus dem Ende"
+			rewards: [{ id: "4C54A5F625C4C38E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7ADD8A616E64E91E", type: "checkmark" }]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2659B7880C5D46B2"]
+			description: ["&6Was ist das?", "Der Endstein-Herd brennt mit Endhitze.", "", "&6So gehts", "Herstellen und entzuenden.", "", "&6Wofuer ist das wichtig?", "Fuer End-Rezepte."]
+			id: "6FFA59CB4929154B"
+			title: "Ende-Herd"
+			rewards: [{ id: "7289FC4AFD9B0094", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "212719283057E794", type: "item", item: { id: "endersdelight:endstone_stove", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6FFA59CB4929154B"]
+			description: ["&6Was ist das?", "Ein Kuchen aus Chorusfrucht. Teleportiert dich beim Essen nicht, macht aber satt.", "", "&6So gehts", "Im Topf oder in der Werkbank herstellen.", "", "&6Wofuer ist das wichtig?", "Gute Saettigung im Ende."]
+			id: "27EE939B81A98F06"
+			title: "Chorus-Kuchen"
+			rewards: [{ id: "788222B0D067E42B", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1FD967712A52CD00", type: "item", item: { id: "endersdelight:chorus_pie", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["27EE939B81A98F06"]
+			description: ["&6Was ist das?", "Ein Eintopf aus Endermiten.", "", "&6So gehts", "Endermiten besiegen und kochen.", "", "&6Wofuer ist das wichtig?", "Ungewoehnlich, aber stark."]
+			id: "467369B89A524F6B"
+			title: "Endermiten-Eintopf"
+			rewards: [{ id: "0D0C0FC17870452C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "214251FBAB8D4A5D", type: "item", item: { id: "endersdelight:endermite_stew", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["467369B89A524F6B"]
+			description: ["&6Was ist das?", "Gefuellte Shulker sind ein Festmahl.", "", "&6So gehts", "Shulker in Endstaedten besiegen, Fleisch zubereiten.", "", "&6Wofuer ist das wichtig?", "Eines der besten Gerichte im Spiel."]
+			id: "704A2ED0C76A836F"
+			title: "Shulker-Filet"
+			rewards: [{ id: "2BF4A28BB55586D8", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "59E146F2ABE5AF94", type: "item", item: { id: "endersdelight:shulker_filet", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["704A2ED0C76A836F"]
+			description: ["&6Was ist das?", "Nudeln mit Enderperle.", "", "&6So gehts", "Im Kochtopf herstellen.", "", "&6Wofuer ist das wichtig?", "Starkes End-Gericht."]
+			id: "784BD0458846F6A8"
+			title: "Perlen-Nudeln"
+			rewards: [{ id: "2EA1CCDDF0ED6719", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "036D921877DC56CB", type: "item", item: { id: "endersdelight:pearl_pasta", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Splitter fuer die Kueche im Ende.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Wichtig fuer Gerichte aus dem Ende."]
+			id: "6BE77B686A997E64"
+			title: "Enderscherbe"
+			rewards: [{ id: "7DF721BFF7B7E60D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8BB03204334A65D5", type: "item", item: { id: "endersdelight:ender_shard", count: 1 }, count: 2L }]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Ein Gericht aus dem Ende.", "", "&6So gehts", "Am Ende-Herd nach Rezept kochen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Saettigt stark und gibt starke Effekte."]
+			id: "39367C7F38998D0D"
+			title: "Pommes mit Steak"
+			rewards: [{ id: "3805CCBEF0427B28", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "485B3F60C9B91F71", type: "item", item: { id: "endersdelight:steak_fries", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Kekse mit Endersplittern.", "", "&6So gehts", "Nach Rezept backen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Leichter Snack mit Wirkung."]
+			id: "32A640A48B548F44"
+			title: "Seltsame Kekse"
+			rewards: [{ id: "202E6F8C13298383", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "CE65B91C5569DA18", type: "item", item: { id: "endersdelight:uncanny_cookies", count: 1 }, count: 4L }]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6F81E1560F8E3640"]
+			description: ["&6Was ist das?", "Ein Spiess mit End-Zutaten.", "", "&6So gehts", "Nach Rezept kochen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Gut fuer lange Ausfluege."]
+			id: "DB5587840F67B625"
+			title: "Knuspriger Spiess"
+			rewards: [{ id: "0FE81CA6A0AC2D09", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "E8B532B5EB811954", type: "item", item: { id: "endersdelight:crispy_skewer", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Oceans Delight bringt Gerichte aus Meerestieren und Algen: Tintenfisch, Kabeljau, Seetang und mehr.", "", "&6So gehts", "Du fischst oder jagst die Zutaten im Meer, schneidest sie auf dem Schneidebrett und kochst sie im Kochtopf oder in der Pfanne.", "Gerichte aus dem Meer sind oft guenstig, aber nahrhaft: gut fuer Seefahrer.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "6BEEED572995BE64"
+			title: "Ueberblick: Meer und Fisch"
+			rewards: [{ id: "E14934ABADD26C83", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A3DB12784FA767AC", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6BEEED572995BE64"]
+			description: ["&6Was ist das?", "Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Waechter.", "", "&6So gehts", "Fische, Tintenfische und Waechter fangen oder besiegen.", "", "&6Wofuer ist das wichtig?", "Gut fuer Inselbasen am Meer."]
+			id: "797F55EB9542C484"
+			title: "Meeresfruechte"
+			rewards: [{ id: "72833AC98ED390A2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4EF4590A7D5DE50A", type: "checkmark" }]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["797F55EB9542C484"]
+			description: ["&6Was ist das?", "Tintenfisch am Schneidebrett zerlegen und im Topf garen.", "", "&6So gehts", "Tentakel schneiden und braten.", "", "&6Wofuer ist das wichtig?", "Einfacher Snack aus dem Meer."]
+			id: "142FA161B2D17AEA"
+			title: "Tintenfischringe"
+			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3DCA2592E79CAAC1", type: "item", item: { id: "oceansdelight:squid_rings", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["142FA161B2D17AEA"]
+			description: ["&6Was ist das?", "Kabeljau mit Fuellung, ein Klassiker der Kueche.", "", "&6So gehts", "Im Topf oder Ofen herstellen.", "", "&6Wofuer ist das wichtig?", "Gutes Fischgericht."]
+			id: "2276698111C6A771"
+			title: "Gefuellter Kabeljau"
+			rewards: [{ id: "1B1981D7ED1CFBF1", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6C4C3E91864B1FED", type: "item", item: { id: "oceansdelight:stuffed_cod", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2276698111C6A771"]
+			description: ["&6Was ist das?", "Ein leichter Salat aus dem Meer.", "", "&6So gehts", "Seegras sammeln und in der Werkbank mischen.", "", "&6Wofuer ist das wichtig?", "Schnelles Essen aus dem Meer."]
+			id: "24109C246CC8DB23"
+			title: "Seegras-Salat"
+			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "52BEF4AA40279CA2", type: "item", item: { id: "oceansdelight:seagrass_salad", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["24109C246CC8DB23"]
+			description: ["&6Was ist das?", "Seetang mit Honig, ein suesser Snack.", "", "&6So gehts", "In der Pfanne braten.", "", "&6Wofuer ist das wichtig?", "Suesser Snack."]
+			id: "5E627E2F689858F1"
+			title: "Honig-Seetang"
+			rewards: [{ id: "0746F86E82E83768", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "72DD9080DD321FFB", type: "item", item: { id: "oceansdelight:honey_fried_kelp", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5E627E2F689858F1"]
+			description: ["&6Was ist das?", "Aus dem Waechter-Schwanz kocht man eine kraeftige Suppe.", "", "&6So gehts", "Waechter am Ozeanmonument besiegen, Schwanz im Topf kochen.", "", "&6Wofuer ist das wichtig?", "Starkes Gericht als Belohnung fuer den Monument-Kampf."]
+			id: "77E67042E583CA8D"
+			title: "Waechtersuppe"
+			rewards: [{ id: "6FC6C9D251ECAFAF", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "43655F060B9DC92F", type: "item", item: { id: "oceansdelight:guardian_soup", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Brewin and Chewin erweitert die Kueche um Brauen, Gaeren und neue Gerichte: Bier, Met, Schnaps, Kaese und mehr.", "", "&6So gehts", "Das Fass (Keg) ist das Herz: Du fuellst es mit Zutaten und Wasser, nach einiger Zeit ist das Getraenk fertig. Ein Humpen nimmt es auf.", "Getraenke geben Effekte, aber zu viel kann auch schaden. Ein Waermebehaelter haelt Getraenke warm.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "B5C918048F738E4F"
+			title: "Ueberblick: Brauerei und Getraenke"
+			rewards: [{ id: "054B83E6434FBBCD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7D4C772CA206421D", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["B5C918048F738E4F"]
+			description: ["&6Was ist das?", "Die Mod erweitert Farmers Delight um Fermentation: Getraenke, Kaese, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach.", "", "&6So gehts", "Alles passiert im Fass (Keg). Erfolge (Taste L) zeigen dir die Schritte.", "", "&6Wofuer ist das wichtig?", "Getraenke geben starke Effekte wie Staerke oder Feuerresistenz, Kaese ist Zutat fuer viele Gerichte."]
+			id: "1064EAB812C16845"
+			title: "Brewin and Chewin"
+			rewards: [{ id: "2EB5CA9C365B0B91", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5822ED72065969C0", type: "checkmark" }]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1064EAB812C16845"]
+			description: ["&6Was ist das?", "Im Fass gaeren Fluessigkeiten und Zutaten. Es braucht Zeit und die richtige Temperatur.", "", "&6So gehts", "Fass aufstellen, Fluessigkeit (z.B. Wasser) und Zutaten hineinlegen.", "Die Temperatur der Umgebung ist wichtig: Waerme oder Kaelte durch Bloecke in der Naehe.", "", "&6Wofuer ist das wichtig?", "Ohne Fass keine Getraenke und kein Kaese."]
+			id: "54B70D1ED759F0EB"
+			title: "Das Fass (Keg)"
+			rewards: [{ id: "51CF10C9DFA9ECD0", type: "item", item: { id: "minecraft:barrel", count: 1 } }]
+			tasks: [{ id: "1DF7270E950E21B7", type: "item", item: { id: "brewinandchewin:keg", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["54B70D1ED759F0EB"]
+			description: ["&6Was ist das?", "Der Humpen (Tankard) ist das Trinkgefaess fuer Bier, Met und mehr.", "", "&6So gehts", "In der Werkbank herstellen und ins Fass legen.", "", "&6Wofuer ist das wichtig?", "Jedes Getraenk wird in einen Humpen abgefuellt."]
+			id: "64CFB4FCC5B2C567"
+			title: "Humpen"
+			rewards: [{ id: "42B442CDDCF7A618", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "56924BC301D78963", type: "item", item: { id: "brewinandchewin:tankard", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["64CFB4FCC5B2C567"]
+			description: ["&6Was ist das?", "Bier ist ein Klassiker. Weizen und Wasser gaeren im Fass.", "", "&6So gehts", "Weizen und Wasser im Fass gaeren lassen.", "", "&6Wofuer ist das wichtig?", "Gibt kurzzeitig mehr Widerstand gegen Rueckstoss."]
+			id: "156BB5F398B13376"
+			title: "Bier"
+			rewards: [{ id: "1DD686D9048EC9DA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "275931365BCC1BCF", type: "item", item: { id: "brewinandchewin:beer", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["156BB5F398B13376"]
+			description: ["&6Was ist das?", "Met aus Honig gibt Staerke und ist ein toller Trank fuer lange Reisen.", "", "&6So gehts", "Honig und Wasser im Fass.", "", "&6Wofuer ist das wichtig?", "Hilft bei langen Kaempfen."]
+			id: "1F5796A7469CB5D8"
+			title: "Met"
+			rewards: [{ id: "4AC1279C96D3AB20", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "56B90AB4C1AB2651", type: "item", item: { id: "brewinandchewin:mead", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1F5796A7469CB5D8"]
+			description: ["&6Was ist das?", "Aus Milch wird im Fass Kaese. Er reift mit der Zeit zu verschiedenen Sorten.", "", "&6So gehts", "Milch im Fass zu unreifem Kaese, dann stehen lassen bis er reif ist.", "", "&6Wofuer ist das wichtig?", "Kaese brauchst du fuer Pizza, Fondue und viele Gerichte."]
+			id: "1B75CCE6EF5856F0"
+			title: "Kaese"
+			rewards: [{ id: "68177E671C4CFB22", type: "item", item: { id: "minecraft:bread", count: 4 } }]
+			tasks: [{ id: "1F1AA82503A5AA2C", type: "item", item: { id: "brewinandchewin:flaxen_cheese_wheel", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1B75CCE6EF5856F0"]
+			description: ["&6Was ist das?", "Mit dem Fass legst du Gemuese ein: Kimchi, saure Gurken und mehr.", "", "&6So gehts", "Gemuese und Salz im Fass.", "", "&6Wofuer ist das wichtig?", "Lange haltbare Nahrung mit guten Effekten."]
+			id: "734B053FCE640882"
+			title: "Eingelegtes"
+			rewards: [{ id: "664D8DC07DA7E676", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "76580A0885C0DA87", type: "item", item: { id: "brewinandchewin:kimchi", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["734B053FCE640882"]
+			description: ["&6Was ist das?", "Pizza ist ein toller Snack und gibt viel Saettigung.", "", "&6So gehts", "Teig, Tomatensauce, Kaese und Belag zusammensetzen.", "", "&6Wofuer ist das wichtig?", "Mehrere Stuecke fuer die ganze Gruppe."]
+			id: "30B8CC2B3187AB62"
+			title: "Pizza"
+			rewards: [{ id: "62462C71D28E3273", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "27EA70C03DCB43E0", type: "item", item: { id: "brewinandchewin:pizza", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["30B8CC2B3187AB62"]
+			description: ["&6Was ist das?", "Das Heizfass (Heating Cask) sorgt fuer hohe Temperatur im Keller, das Eisfass fuer Kaelte. Manche Rezepte brauchen das.", "", "&6So gehts", "Neben das Fass stellen.", "", "&6Wofuer ist das wichtig?", "Manche Getraenke gaeren nur warm oder nur kalt."]
+			id: "1F502B2B779D5956"
+			title: "Waermebehaelter"
+			rewards: [{ id: "5060D2C32C627E78", type: "item", item: { id: "minecraft:coal", count: 8 } }]
+			tasks: [{ id: "0C48ED7694AB01B3", type: "item", item: { id: "brewinandchewin:heating_cask", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["1F502B2B779D5956"]
+			description: ["&6Was ist das?", "Wodka und andere starke Getraenke brauchen Zeit und die richtige Kaelte.", "", "&6So gehts", "Braucht Kaelte und lange Gaerzeit.", "", "&6Wofuer ist das wichtig?", "Sehr starke Effekte fuer Bosskaempfe."]
+			id: "73C9FDCF839140CB"
+			title: "Schnaps"
+			rewards: [{ id: "74F92B0E7F9003EB", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "69B8E529ADCE1C0C", type: "item", item: { id: "brewinandchewin:vodka", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["73C9FDCF839140CB"]
+			description: ["&6Was ist das?", "Das Fiery Fondue ist ein Festmahl am Tisch.", "", "&6So gehts", "Mit Kaese im Topf herstellen und aufstellen.", "", "&6Wofuer ist das wichtig?", "Gruppenessen mit guten Effekten."]
+			id: "0A000B3B2871AE51"
+			title: "Kaesefondue"
+			rewards: [{ id: "12A30C24726906BA", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "6A47524877044543", type: "item", item: { id: "brewinandchewin:fiery_fondue_pot", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Wetland Whimsy bringt Gerichte aus dem Sumpf: Flusskrebse und Gumbo sind die bekanntesten.", "", "&6So gehts", "Fange Flusskrebse im Sumpf, koche sie und bereite damit Gumbo zu. Rezepte siehst du in JEI.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "0E51EACA59F4E34B"
+			title: "Ueberblick: Sumpfkueche"
+			rewards: [{ id: "7486C94C6D614D7D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2ACC9EAA308166BC", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["0E51EACA59F4E34B"]
+			description: ["&6Was ist das?", "Wetland Whimsy: Flusskrebse leben in Suempfen.", "", "&6So gehts", "Fangen und braten.", "", "&6Wofuer ist das wichtig?", "Zutat fuer Gumbo."]
+			icon: { id: "wetland_whimsy:cooked_crawfish" }
+			id: "10DF49439BB64B41"
+			title: "Flusskrebse"
+			rewards: [{ id: "747025043EE53DEB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6867C0C60916965A", type: "item", item: { id: "wetland_whimsy:cooked_crawfish", count: 1 }, count: 4L }]
+			x: 1.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["10DF49439BB64B41"]
+			description: ["&6Was ist das?", "Ein Eintopf aus dem Sumpf.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Sehr satt machend."]
+			icon: { id: "wetland_whimsy:gumbo" }
+			id: "1EA67BDED492C1FC"
+			title: "Gumbo"
+			rewards: [{ id: "22AB3061723D1723", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5DD296348A40BB83", type: "item", item: { id: "wetland_whimsy:gumbo", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Alexs Mobs bringt neue Tiere und damit neue Zutaten: Wels, Hummer, Elch, Kaenguru, Emu und mehr.", "", "&6So gehts", "Jage die Tiere und brate oder koche ihr Fleisch. Mit Farmers Delight bekommst du daraus zusaetzliche Gerichte.", "Das Tierbuch im Kapitel Alexs Mobs erklaert, wo du die Tiere findest.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "CF153B778ABA70B8"
+			title: "Ueberblick: Tierische Gerichte"
+			rewards: [{ id: "FCE9A66ECA9A81B1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F9F626505B2EC84B", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["CF153B778ABA70B8"]
+			description: ["&6Was ist das?", "Bananen wachsen an einer Palme und sind Futter fuer viele Tiere.", "", "&6So gehts", "Fundort in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein einfacher Snack und Tierfutter."]
+			icon: { id: "alexsmobs:banana" }
+			id: "0E3497F162C2C89A"
+			title: "Banane"
+			rewards: [{ id: "68DD8F629707AA3F", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1449DB2986A82B5C", type: "item", item: { id: "alexsmobs:banana", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["CF153B778ABA70B8"]
+			description: ["&6Was ist das?", "Gebratener Wels, ein Fisch aus Fluessen und Sumpf.", "", "&6So gehts", "Rohen Wels fangen und im Ofen braten.", "", "&6Wofuer ist das wichtig?", "Gutes Essen aus dem Wasser."]
+			icon: { id: "alexsmobs:cooked_catfish" }
+			id: "6C736471B12E36DE"
+			title: "Gebratener Wels"
+			rewards: [{ id: "38223C27377AA636", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "5FBC21A468A6758B", type: "item", item: { id: "alexsmobs:cooked_catfish", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["6C736471B12E36DE"]
+			description: ["&6Was ist das?", "Gebratener Hummerschwanz.", "", "&6So gehts", "Hummer in Gewaessern fangen, Schwanz braten.", "", "&6Wofuer ist das wichtig?", "Sattes Essen aus dem Meer."]
+			icon: { id: "alexsmobs:cooked_lobster_tail" }
+			id: "57BEB24AF0A18705"
+			title: "Hummerschwanz"
+			rewards: [{ id: "5BE474AC807536CA", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "3BE54A9A3892AA3A", type: "item", item: { id: "alexsmobs:cooked_lobster_tail", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["57BEB24AF0A18705"]
+			description: ["&6Was ist das?", "Gebratene Elchrippen.", "", "&6So gehts", "Elche in kalten Biomen jagen und das Fleisch braten.", "", "&6Wofuer ist das wichtig?", "Sehr sattes Fleisch."]
+			icon: { id: "alexsmobs:cooked_moose_ribs" }
+			id: "4BFCEF4802E93F88"
+			title: "Elchrippen"
+			rewards: [{ id: "767151E06B878795", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "424037EA55DB333D", type: "item", item: { id: "alexsmobs:cooked_moose_ribs", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["4BFCEF4802E93F88"]
+			description: ["&6Was ist das?", "Gebratenes Kaenguru-Fleisch.", "", "&6So gehts", "Kaengurus in Savannen und Wuesten jagen, Fleisch braten.", "", "&6Wofuer ist das wichtig?", "Zutat fuer den Kaenguru-Burger."]
+			icon: { id: "alexsmobs:cooked_kangaroo_meat" }
+			id: "69F8B7227C49BD6A"
+			title: "Kaenguru-Fleisch"
+			rewards: [{ id: "5C31F0F3EC3A9EE3", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "779BE139BCEB3003", type: "item", item: { id: "alexsmobs:cooked_kangaroo_meat", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["69F8B7227C49BD6A"]
+			description: ["&6Was ist das?", "Ein Burger aus Kaenguru-Fleisch.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Sattes Essen fuer unterwegs."]
+			icon: { id: "alexsmobs:kangaroo_burger" }
+			id: "151CD266AC75EF2D"
+			title: "Kaenguru-Burger"
+			rewards: [{ id: "2F2B1F96D780B6F6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4B76D0AF70233037", type: "item", item: { id: "alexsmobs:kangaroo_burger", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["CF153B778ABA70B8"]
+			description: ["&6Was ist das?", "Gebratener Reis mit Garnelen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Ein starkes Gericht der Mod."]
+			icon: { id: "alexsmobs:shrimp_fried_rice" }
+			id: "6E9B0E0ADFD768E8"
+			title: "Garnelen-Reis"
+			rewards: [{ id: "2103A46DBBBBED48", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7DC304E1960D6815", type: "item", item: { id: "alexsmobs:shrimp_fried_rice", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 31.0d
+		}
+		{
+			dependencies: ["6E9B0E0ADFD768E8"]
+			description: ["&6Was ist das?", "Eine Suppe nach Rezept der Affen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Besondere Suppe mit guten Werten."]
+			icon: { id: "alexsmobs:sopa_de_macaco" }
+			id: "06689C84BC1B5449"
+			title: "Sopa de Macaco"
+			rewards: [{ id: "475360A53400A613", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6B25765D7287D890", type: "item", item: { id: "alexsmobs:sopa_de_macaco", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["06689C84BC1B5449"]
+			description: ["&6Was ist das?", "Eintopf, der Mosquitos fernhaelt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Schutz vor den blutsaugenden Mosquitos."]
+			icon: { id: "alexsmobs:mosquito_repellent_stew" }
+			id: "1E164CAAA702210C"
+			title: "Mosquito-Eintopf"
+			rewards: [{ id: "3387643C1C3C61FE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "65E31707D3D7CEE6", type: "item", item: { id: "alexsmobs:mosquito_repellent_stew", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 32.5d
+		}
+		{
+			dependencies: ["1E164CAAA702210C"]
+			description: ["&6Was ist das?", "Ein gekochtes Emu-Ei.", "", "&6So gehts", "Emu-Ei in den Ofen legen.", "", "&6Wofuer ist das wichtig?", "Einfaches, sattes Essen."]
+			icon: { id: "alexsmobs:boiled_emu_egg" }
+			id: "22BAD06F0C06A14D"
+			title: "Gekochtes Emu-Ei"
+			rewards: [{ id: "09242A47D88C0A5D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "62098F5C6F834B96", type: "item", item: { id: "alexsmobs:boiled_emu_egg", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 32.5d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Autochefs Delight kann Kochen automatisieren: Ein Koch-Gehilfe nimmt dir Handgriffe ab.", "", "&6So gehts", "Du richtest ihn mit Zutaten ein und er kocht nach Rezept. Siehe JEI fuer Rezept und Bedienung.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "C567399CF1BCF4EC"
+			title: "Ueberblick: Automatisch kochen"
+			rewards: [{ id: "1B3DF8F13D8FC888", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "D06345884AE83F61", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 36.5d
+		}
+		{
+			dependencies: ["C567399CF1BCF4EC"]
+			description: ["&6Was ist das?", "Autochefs Delight kocht mit Rezeptbuch fuer dich. Das ist praktisch, wenn viele Zutaten noetig sind.", "", "&6So gehts", "Stelle die Autochef-Geraete auf und gib ihnen ein Rezept.", "", "&6Wofuer ist das wichtig?", "Spart Klicks, wenn du viele Portionen fuer die Gruppe kochst."]
+			id: "5E5DF70D3901E8A6"
+			title: "Hilfe von Autochef"
+			rewards: [{ id: "7EA382CBB2DF2137", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5430FE295BFDA5C0", type: "checkmark" }]
+			x: 1.5d
+			y: 36.5d
+		}
+		{
+			dependencies: ["085735849D72954E"]
+			description: ["&6Was ist das?", "Hier steht alles zu Hof, Anbau und Hofkueche: Mistgabel, Kochtopf, Tomaten, Mais, Mehl, Fleischwolf, Backofen, Weinbau und mehr.", "", "&6So gehts", "Du baust Pflanzen an, mahlst Mehl und bereitest Mahlzeiten zu. Die Quests unten gehen in der Reihenfolge der Herstellung vor.", "Viele Rezepte haengen zusammen: Erst Zutaten, dann Gerichte. Schaue immer in JEI nach.", "", "&6Wofuer ist das wichtig?", "Alles rund ums Essen gehoert in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			id: "A0062036482854CD"
+			title: "Ueberblick: Hof und Farm"
+			rewards: [{ id: "D1343B00E5C76FBB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "86B65BA1927A7CE1", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["A0062036482854CD"]
+			description: ["&6Was ist das?", "Ein Kapitel fuer die Mods dieser Gruppe.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Jede Linie ist ein eigener Zweig, arbeite sie von links nach rechts ab.", "", "&6Wofuer ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
+			icon: { id: "farm_and_charm:cooking_pot" }
+			id: "DA326828CBB178D4"
+			title: "Essen und Trinken"
+			rewards: []
+			tasks: [{ id: "3073859541ACA844", type: "checkmark" }]
+			x: 1.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["DA326828CBB178D4"]
+			description: ["&6Was ist das?", "Farm and Charm bringt Landwirtschaft und Hausmannskost.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Das Werkzeug fuer Heu und Stroh."]
+			icon: { id: "farm_and_charm:pitchfork" }
+			id: "E546E0F6FCD20E73"
+			title: "Mistgabel"
+			rewards: [{ id: "68D0AE1FD81F6EC7", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "13A0A22F4D724385", type: "item", item: { id: "farm_and_charm:pitchfork", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["E546E0F6FCD20E73"]
+			description: ["&6Was ist das?", "Im Kochtopf entstehen Suppen und Eintoepfe.", "", "&6So gehts", "Auf eine Hitzequelle stellen und Zutaten einfuellen.", "", "&6Wofuer ist das wichtig?", "Warme Gerichte sind sehr saettigend."]
+			icon: { id: "farm_and_charm:cooking_pot" }
+			id: "BB0E8BCEA2060E3D"
+			title: "Kochtopf"
+			rewards: [{ id: "E1E07BA7C51867CD", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "09FFFBCCFFC5ADBE", type: "item", item: { id: "farm_and_charm:cooking_pot", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Tomaten wachsen auf Ackerland.", "", "&6So gehts", "Samen finden oder aus wilden Tomaten gewinnen.", "", "&6Wofuer ist das wichtig?", "Grundzutat vieler Gerichte."]
+			icon: { id: "farm_and_charm:tomato_seeds" }
+			id: "BF82C26E31E24969"
+			title: "Tomatensamen"
+			rewards: [{ id: "BC9925F5BCDC95AB", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "8D2B8E3C28095AF9", type: "item", item: { id: "farm_and_charm:tomato_seeds", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["BF82C26E31E24969"]
+			description: ["&6Was ist das?", "Zwiebeln geben Suppen Geschmack.", "", "&6So gehts", "Wilde Zwiebeln suchen und anbauen.", "", "&6Wofuer ist das wichtig?", "Fuer Zwiebelsuppe und Saucen."]
+			icon: { id: "farm_and_charm:onion" }
+			id: "2BFBD5860F57139F"
+			title: "Zwiebel"
+			rewards: [{ id: "0853C64397CFD8A1", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "8F4552AE6101AA65", type: "item", item: { id: "farm_and_charm:onion", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["2BFBD5860F57139F"]
+			description: ["&6Was ist das?", "Mais ist eine ertragreiche Pflanze.", "", "&6So gehts", "Auf Ackerland anbauen.", "", "&6Wofuer ist das wichtig?", "Fuer Brei, Fleischbeilagen und Tierfutter."]
+			icon: { id: "farm_and_charm:corn" }
+			id: "E5F0A4EF16CFD8DF"
+			title: "Mais"
+			rewards: [{ id: "BB5B6AA2CDE63757", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "C848CC9154E26248", type: "item", item: { id: "farm_and_charm:corn", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["E5F0A4EF16CFD8DF"]
+			description: ["&6Was ist das?", "Mehl entsteht aus Getreide.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer Teig und Brot."]
+			icon: { id: "farm_and_charm:flour" }
+			id: "5A2F5F332541B0E7"
+			title: "Mehl"
+			rewards: [{ id: "11CAED9303D5462D", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "9B14C8CDED62E2E6", type: "item", item: { id: "farm_and_charm:flour", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["5A2F5F332541B0E7"]
+			description: ["&6Was ist das?", "Der Wolf macht aus Fleisch Hack.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Hack ist die Basis fuer Pastetchen und Gulasch."]
+			icon: { id: "farm_and_charm:mincer" }
+			id: "3C983B9249E793FE"
+			title: "Fleischwolf"
+			rewards: [{ id: "2F93F23A0B1BB383", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "391414C5046CA22E", type: "item", item: { id: "farm_and_charm:mincer", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 40.5d
+		}
+		{
+			dependencies: ["3C983B9249E793FE"]
+			description: ["&6Was ist das?", "Im Bratofen gart Fleisch langsam.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Grosse Braten machen satt und gluecklich."]
+			icon: { id: "farm_and_charm:roaster" }
+			id: "665C9896AB48EFA4"
+			title: "Bratofen"
+			rewards: [{ id: "743D27757C6C60CC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "15D496A9D4103078", type: "item", item: { id: "farm_and_charm:roaster", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["DA326828CBB178D4"]
+			description: ["&6Was ist das?", "Vinery bringt Weinberge und Weinkeller.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Presse Obst zu Saft und Wein."]
+			icon: { id: "vinery:apple_press" }
+			id: "55F2D261E3BE01B9"
+			title: "Apfelpresse"
+			rewards: [{ id: "AB9F0605EF6B11F6", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A4CC9619DE8D03E8", type: "item", item: { id: "vinery:apple_press", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["55F2D261E3BE01B9"]
+			description: ["&6Was ist das?", "Trauben wachsen an einer Rebe.", "", "&6So gehts", "Samen pflanzen und Trauben ernten.", "", "&6Wofuer ist das wichtig?", "Rohstoff fuer Rotwein."]
+			icon: { id: "vinery:red_grape" }
+			id: "46EA5E842C3CED58"
+			title: "Rote Trauben"
+			rewards: [{ id: "A92A595438178120", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "4458EC10846D8FA8", type: "item", item: { id: "vinery:red_grape", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["46EA5E842C3CED58"]
+			description: ["&6Was ist das?", "Im Fass reift der Wein.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Saft befuellen.", "", "&6Wofuer ist das wichtig?", "Nur im Fass entsteht aus Saft echter Wein."]
+			icon: { id: "vinery:fermentation_barrel" }
+			id: "A8ECCC5A0D039055"
+			title: "Gaerfass"
+			rewards: [{ id: "D918586E99EAF25A", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "B90BDC277AC71036", type: "item", item: { id: "vinery:fermentation_barrel", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["A8ECCC5A0D039055"]
+			description: ["&6Was ist das?", "Fertiger Wein mit Effekten.", "", "&6So gehts", "Im Fass reifen lassen.", "", "&6Wofuer ist das wichtig?", "Gibt positive Trank-Effekte."]
+			icon: { id: "vinery:red_wine" }
+			id: "A9D2586BD9B4DE0C"
+			title: "Rotwein"
+			rewards: [{ id: "4CA550EA4CC3CDFC", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "70C2A4650CE1AAEE", type: "item", item: { id: "vinery:red_wine", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["A9D2586BD9B4DE0C"]
+			description: ["&6Was ist das?", "Ein Strohhut fuer den Winzer.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Gutes Aussehen bei der Ernte."]
+			icon: { id: "vinery:straw_hat" }
+			id: "FB1EE890E8060E3A"
+			title: "Strohhut"
+			rewards: [{ id: "6D03F9986AA14433", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "94FD6BBD2BA099B6", type: "item", item: { id: "vinery:straw_hat", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["DA326828CBB178D4"]
+			description: ["&6Was ist das?", "HerbalBrews bringt Tee und Kaffee.", "", "&6So gehts", "Rezept in JEI nachschlagen und auf eine Hitzequelle stellen.", "", "&6Wofuer ist das wichtig?", "Hier werden Aufguesse gekocht."]
+			icon: { id: "herbalbrews:tea_kettle" }
+			id: "8AB129A608EBCDB8"
+			title: "Teekessel"
+			rewards: [{ id: "CF87D436C52225D7", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "660209E2971AF9B2", type: "item", item: { id: "herbalbrews:tea_kettle", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["8AB129A608EBCDB8"]
+			description: ["&6Was ist das?", "Teeblaetter wachsen an der Teepflanze.", "", "&6So gehts", "Pflanze finden und Blaetter ernten.", "", "&6Wofuer ist das wichtig?", "Grundstoff vieler Tees."]
+			icon: { id: "herbalbrews:green_tea_leaf" }
+			id: "257F8CD1F4BF2009"
+			title: "Gruener Tee"
+			rewards: [{ id: "99D9B0317B8FA671", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "5CC55B774F8595E9", type: "item", item: { id: "herbalbrews:green_tea_leaf", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["257F8CD1F4BF2009"]
+			description: ["&6Was ist das?", "Ein Krug fuer Getraenke.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Zum Aufbewahren und Ausschenken."]
+			icon: { id: "herbalbrews:jug" }
+			id: "A930B90274739D79"
+			title: "Krug"
+			rewards: [{ id: "18711EA96A2B108A", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "4B20233FD9201961", type: "item", item: { id: "herbalbrews:jug", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["A930B90274739D79"]
+			description: ["&6Was ist das?", "Eine Trinkflasche fuer unterwegs.", "", "&6So gehts", "Rezept in JEI nachschlagen und fuellen.", "", "&6Wofuer ist das wichtig?", "Tee zum Mitnehmen."]
+			icon: { id: "herbalbrews:flask" }
+			id: "A756F0A00D75E0B2"
+			title: "Flasche"
+			rewards: [{ id: "98917F9F47470C7A", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "BB34247900E6998A", type: "item", item: { id: "herbalbrews:flask", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["A756F0A00D75E0B2"]
+			description: ["&6Was ist das?", "Der Herd kocht Aufguesse.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer grosse Mengen auf einmal."]
+			icon: { id: "herbalbrews:stove" }
+			id: "F3C9ACF59862DE98"
+			title: "Herd"
+			rewards: [{ id: "BDA5CB5F65DF115E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "EF642E236308E585", type: "item", item: { id: "herbalbrews:stove", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["DA326828CBB178D4"]
+			description: ["&6Was ist das?", "Expanded Delight erweitert Farmers Delight.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Frische Saefte aus Obst."]
+			icon: { id: "expandeddelight:juicer" }
+			id: "650BE46A80B13C58"
+			title: "Entsafter"
+			rewards: [{ id: "C98BBA8C576BF1FB", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "474FEC6A1794AB3A", type: "item", item: { id: "expandeddelight:juicer", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["650BE46A80B13C58"]
+			description: ["&6Was ist das?", "Salz wird aus Salzgestein gewonnen.", "", "&6So gehts", "Salzerz abbauen und zerstossen.", "", "&6Wofuer ist das wichtig?", "Wuerzt viele Gerichte."]
+			icon: { id: "expandeddelight:salt" }
+			id: "42DFDF1DB175D54E"
+			title: "Salz"
+			rewards: [{ id: "B66351092E074175", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "BF6DCE6857019997", type: "item", item: { id: "expandeddelight:salt", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["42DFDF1DB175D54E"]
+			description: ["&6Was ist das?", "Zimt wird vom Zimtbaum geschaelt.", "", "&6So gehts", "Zimtbaum finden und Rinde ernten.", "", "&6Wofuer ist das wichtig?", "Fuer Gebaeck und Apfelgerichte."]
+			icon: { id: "expandeddelight:cinnamon_stick" }
+			id: "D563A45461AB1E2B"
+			title: "Zimtstange"
+			rewards: [{ id: "8C0D8EBACE54F4B4", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "412D65C061328036", type: "item", item: { id: "expandeddelight:cinnamon_stick", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["D563A45461AB1E2B"]
+			description: ["&6Was ist das?", "Ein ganzer Kaese.", "", "&6So gehts", "Milch im Fass reifen lassen.", "", "&6Wofuer ist das wichtig?", "Fuer Sandwiches und Gratins."]
+			icon: { id: "expandeddelight:cheese_wheel" }
+			id: "079320AF59F1A258"
+			title: "Kaeserad"
+			rewards: [{ id: "70FDE5A637CCF691", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "A53677739C732362", type: "item", item: { id: "expandeddelight:cheese_wheel", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 43.5d
+		}
+		{
+			dependencies: ["079320AF59F1A258"]
+			description: ["&6Was ist das?", "Streichfett aus Erdnuessen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer Sandwiches und Kekse."]
+			icon: { id: "expandeddelight:peanut_butter" }
+			id: "4AAF6D15F3E8F30B"
+			title: "Erdnussbutter"
+			rewards: [{ id: "112F8ADBEEEE41F5", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "50DC08F82CF55391", type: "item", item: { id: "expandeddelight:peanut_butter", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 43.5d
+		}
+		{
+			dependencies: ["4AAF6D15F3E8F30B"]
+			description: ["&6Was ist das?", "Zum Zerstossen von Zutaten.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Fuer Salz und Gewuerze."]
+			icon: { id: "expandeddelight:crushing_mallet" }
+			id: "57B2AD73587ADB94"
+			title: "Quetschhammer"
+			rewards: [{ id: "7E91E20A85832A9C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "89BC25413105A6DA", type: "item", item: { id: "expandeddelight:crushing_mallet", count: 1 }, count: 1L }]
+			x: 1.5d
+			y: 45.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Butter aus Milch.", "", "&6So gehts", "Kochtopf oder Butterfass, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "3014FF6A36299A35"
+			title: "Butter"
+			rewards: [{ id: "836EC9065F5C1801", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1EDE0DAF0DB6763A", type: "item", item: { id: "farm_and_charm:butter", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Ein frischer Salat vom Hof.", "", "&6So gehts", "Schneidebrett und Schuessel, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "898F18D03ADAB23F"
+			title: "Bauernsalat"
+			rewards: [{ id: "1BA88B96B08ABD89", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A47FD93100AE5299", type: "item", item: { id: "farm_and_charm:farmer_salad", count: 1 }, count: 1L }]
+			x: 4.5d
+			y: 45.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Herzhafter Eintopf.", "", "&6So gehts", "Im Kochtopf kochen, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "9ACD03C16AAA2204"
+			title: "Gulasch"
+			rewards: [{ id: "DA5241FE842C948D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4BB54946FFE6CC26", type: "item", item: { id: "farm_and_charm:goulash", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Suppe aus Gerste.", "", "&6So gehts", "Im Kochtopf kochen, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "4BBF0C21FDA1D705"
+			title: "Gerstensuppe"
+			rewards: [{ id: "F825DCA40C09D7FC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "81924E12F44AA1DB", type: "item", item: { id: "farm_and_charm:barley_soup", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 45.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Duenger fuer schnelleres Wachstum.", "", "&6So gehts", "Kompost und Knochenmehl, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "4B504A85C40B8A37"
+			title: "Duenger"
+			rewards: [{ id: "D10BBE11B6174ABF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "04E8886CACDA380D", type: "item", item: { id: "farm_and_charm:fertilizer", count: 1 }, count: 1L }]
+			x: 9.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["BB0E8BCEA2060E3D"]
+			description: ["&6Was ist das?", "Futter fuer deine Huehner.", "", "&6So gehts", "Samen und Mehl, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gutes Essen oder Landwirtschaft fuer deine Hofwirtschaft."]
+			id: "5E0A838F4DF1D2FE"
+			title: "Huehnerfutter"
+			rewards: [{ id: "097DBED68D61D7BE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "23EBAB832B5EF573", type: "item", item: { id: "farm_and_charm:chicken_feed", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 45.0d
+		}
 	]
 }
