@@ -6,13 +6,13 @@
 	id: "08533A9A50F54139"
 	order_index: 34
 	quest_links: [ ]
-	title: "&dSchmuck und Zubehoer"
+	title: "&dSchmuck und Zubehör"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Ein Kapitel fuer Gurte, Ringe, Herzen und magischen Schmuck. Sie passen zu den Zeitaltern: bessere Stufen schaltest du spaeter frei.", "", "&6So gehts", "Alles hier ist freiwillig. Jede Linie ist ein Zweig, arbeite sie von links nach rechts ab.", "", "&6Wofuer ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
+			description: ["&6Was ist das?", "Ein Kapitel für Gurte, Ringe, Herzen und magischen Schmuck. Sie passen zu den Zeitaltern: bessere Stufen schaltest du später frei.", "", "&6So gehts", "Alles hier ist freiwillig. Jede Linie ist ein Zweig, arbeite sie von links nach rechts ab.", "", "&6Wofür ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
 			icon: { id: "travelertoolbelt:belt" }
 			id: "C5B9B217E0885C4D"
-			title: "Schmuck und Zubehoer"
+			title: "Schmuck und Zubehör"
 			rewards: []
 			tasks: [{ id: "C32513DE1621CA4D", type: "checkmark" }]
 			x: 0.0d
@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["C5B9B217E0885C4D"]
-			description: ["&6Was ist das?", "Der Traveler Tool Belt ist ein Gurt, an dem du Werkzeuge getrennt vom Inventar mitfuehrst.", "", "&6So gehts", "Rezept in JEI nachschlagen. Mit der Taste R oeffnest du das Auswahlrad.", "", "&6Wofuer ist das wichtig?", "Du wechselst mit einem Tastendruck zwischen Hacke, Axt, Schwert und mehr."]
+			description: ["&6Was ist das?", "Der Traveler Tool Belt ist ein Gurt, an dem du Werkzeuge getrennt vom Inventar mitführst.", "", "&6So gehts", "Rezept in JEI nachschlagen. Mit der Taste R öffnest du das Auswahlrad.", "", "&6Wofür ist das wichtig?", "Du wechselst mit einem Tastendruck zwischen Hacke, Axt, Schwert und mehr."]
 			icon: { id: "travelertoolbelt:belt" }
 			id: "8EB494C48CBC5A1D"
 			title: "Werkzeuggurt"
@@ -31,7 +31,7 @@
 		}
 		{
 			dependencies: ["8EB494C48CBC5A1D", "32D7C0032123B540"]
-			description: ["&6Was ist das?", "Eine bessere Stufe des Gurtes mit mehr Platz.", "", "&6So gehts", "Im Handwerkstisch mit Kupfer aufwerten, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Werkzeuge griffbereit. Von Anfang an frei."]
+			description: ["&6Was ist das?", "Eine bessere Stufe des Gurtes mit mehr Platz.", "", "&6So gehts", "Im Handwerkstisch mit Kupfer aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Werkzeuge griffbereit. Von Anfang an frei."]
 			icon: { id: "travelertoolbelt:copper_belt" }
 			id: "5119BFBD4C881403"
 			title: "Kupfergurt"
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["5119BFBD4C881403", "383D2644464FE272"]
-			description: ["&6Was ist das?", "Der Eisengurt hat noch mehr Platz.", "", "&6So gehts", "Im Handwerkstisch mit Eisen aufwerten, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet in der Eisenzeit."]
+			description: ["&6Was ist das?", "Der Eisengurt hat noch mehr Platz.", "", "&6So gehts", "Im Handwerkstisch mit Eisen aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet in der Eisenzeit."]
 			icon: { id: "travelertoolbelt:iron_belt" }
 			id: "00D61CB6B59E304F"
 			title: "Eisengurt"
@@ -53,7 +53,7 @@
 		}
 		{
 			dependencies: ["00D61CB6B59E304F", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Der Goldgurt ist die naechste Stufe.", "", "&6So gehts", "Im Handwerkstisch mit Gold aufwerten, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
+			description: ["&6Was ist das?", "Der Goldgurt ist die nächste Stufe.", "", "&6So gehts", "Im Handwerkstisch mit Gold aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "travelertoolbelt:gold_belt" }
 			id: "57CD98C65F1CE409"
 			title: "Goldgurt"
@@ -64,7 +64,7 @@
 		}
 		{
 			dependencies: ["57CD98C65F1CE409", "32D7C0032123B540"]
-			description: ["&6Was ist das?", "Der Diamantgurt fasst viel Werkzeug.", "", "&6So gehts", "Im Handwerkstisch mit Diamant aufwerten, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
+			description: ["&6Was ist das?", "Der Diamantgurt fasst viel Werkzeug.", "", "&6So gehts", "Im Handwerkstisch mit Diamant aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "travelertoolbelt:diamond_belt" }
 			id: "A027A6C2EE15C1A4"
 			title: "Diamantgurt"
@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["A027A6C2EE15C1A4", "4EA7B6B983C1C0EE"]
-			description: ["&6Was ist das?", "Die hoechste Stufe mit allen Plaetzen.", "", "&6So gehts", "Im Schmiedetisch mit Netherite aufwerten, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
+			description: ["&6Was ist das?", "Die höchste Stufe mit allen Plätzen.", "", "&6So gehts", "Im Schmiedetisch mit Netherite aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
 			icon: { id: "travelertoolbelt:netherite_belt" }
 			id: "171B7AC27318CD82"
 			title: "Netheritgurt"
@@ -86,7 +86,7 @@
 		}
 		{
 			dependencies: ["C5B9B217E0885C4D"]
-			description: ["&6Was ist das?", "Potion Rings Reforged bringt Ringe, die einen Trank-Effekt geben, solange du sie traegst.", "", "&6So gehts", "Der Grundring ist der Ausgangspunkt, Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Mit einem Ring hast du dauerhaft einen Effekt, ohne Traenke zu trinken."]
+			description: ["&6Was ist das?", "Potion Rings Reforged bringt Ringe, die einen Trank-Effekt geben, solange du sie trägst.", "", "&6So gehts", "Der Grundring ist der Ausgangspunkt, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mit einem Ring hast du dauerhaft einen Effekt, ohne Tränke zu trinken."]
 			icon: { id: "potionring:potion_ring" }
 			id: "EB1C230D3D063DA9"
 			title: "Trankring"
@@ -97,7 +97,7 @@
 		}
 		{
 			dependencies: ["EB1C230D3D063DA9", "383D2644464FE272"]
-			description: ["&6Was ist das?", "Ein Ring, der dich schneller macht.", "", "&6So gehts", "Rezept in JEI nachschlagen und im Accessoires-Menue anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet in der Eisenzeit."]
+			description: ["&6Was ist das?", "Ein Ring, der dich schneller macht.", "", "&6So gehts", "Rezept in JEI nachschlagen und im Accessoires-Menü anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet in der Eisenzeit."]
 			icon: { id: "potionring:ring_of_speed" }
 			id: "D846B457CB58CD1C"
 			title: "Ring der Geschwindigkeit"
@@ -108,7 +108,7 @@
 		}
 		{
 			dependencies: ["D846B457CB58CD1C", "32D7C0032123B540"]
-			description: ["&6Was ist das?", "Ein Ring, der gegen Feuer und Lava schuetzt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter. Hilfreich im Nether."]
+			description: ["&6Was ist das?", "Ein Ring, der gegen Feuer und Lava schützt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter. Hilfreich im Nether."]
 			icon: { id: "potionring:ring_of_fire_resistance" }
 			id: "F80EACE99047D970"
 			title: "Ring der Feuerresistenz"
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["F80EACE99047D970", "32D7C0032123B540"]
-			description: ["&6Was ist das?", "Ein Ring, der Leben regeneriert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
+			description: ["&6Was ist das?", "Ein Ring, der Leben regeneriert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "potionring:ring_of_regeneration" }
 			id: "740D6D5E8624A9F8"
 			title: "Ring der Regeneration"
@@ -130,7 +130,7 @@
 		}
 		{
 			dependencies: ["740D6D5E8624A9F8", "388349920682B0BC"]
-			description: ["&6Was ist das?", "Ein Ring, der dich schweben laesst.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Zeitalter der Welten."]
+			description: ["&6Was ist das?", "Ein Ring, der dich schweben lässt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Zeitalter der Welten."]
 			icon: { id: "potionring:ring_of_levitation" }
 			id: "E3A7A84A7BBA4E1B"
 			title: "Ring der Levitation"
@@ -141,7 +141,7 @@
 		}
 		{
 			dependencies: ["E3A7A84A7BBA4E1B", "1F7C16EE6236AB7A"]
-			description: ["&6Was ist das?", "Ein Ring, der deine Koerpergroesse veraendert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
+			description: ["&6Was ist das?", "Ein Ring, der deine Körpergröße verändert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "potionring:ring_of_growing" }
 			id: "187F6EB35CBE5F33"
 			title: "Ring des Wachsens"
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["C5B9B217E0885C4D", "383D2644464FE272"]
-			description: ["&6Was ist das?", "Baubley Heart Canisters bringt Herzen, die dein maximales Leben erhoehen. Rote Herzen lassen feindliche Kreaturen fallen.", "", "&6So gehts", "Feindliche Kreaturen besiegen, Herz aufsammeln.", "", "&6Wofuer ist das wichtig?", "Der Anfang jeder Herz-Stufe."]
+			description: ["&6Was ist das?", "Baubley Heart Canisters bringt Herzen, die dein maximales Leben erhöhen. Rote Herzen lassen feindliche Kreaturen fallen.", "", "&6So gehts", "Feindliche Kreaturen besiegen, Herz aufsammeln.", "", "&6Wofür ist das wichtig?", "Der Anfang jeder Herz-Stufe."]
 			icon: { id: "bhc:red_heart" }
 			id: "C82F07913289E8B9"
 			title: "Rotes Herz"
@@ -163,10 +163,10 @@
 		}
 		{
 			dependencies: ["C82F07913289E8B9", "383D2644464FE272"]
-			description: ["&6Was ist das?", "Aus Herzen entsteht ein Behaelter, den du benutzt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Dauerhaft mehr Leben. Freigeschaltet in der Eisenzeit."]
+			description: ["&6Was ist das?", "Aus Herzen entsteht ein Behälter, den du benutzt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Dauerhaft mehr Leben. Freigeschaltet in der Eisenzeit."]
 			icon: { id: "bhc:red_heart_canister" }
 			id: "B2EB5D246B746C63"
-			title: "Rotes Herz-Behaelter"
+			title: "Rotes Herz-Behälter"
 			rewards: [{ id: "47ACFEECD69C961D", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "4987EE866525FF43", type: "item", item: { id: "bhc:red_heart_canister", count: 1 }, count: 1L }]
 			x: 3.5d
@@ -174,10 +174,10 @@
 		}
 		{
 			dependencies: ["B2EB5D246B746C63", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Die naechste Stufe, aus Herzen von Bossen wie dem Wither.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Noch mehr Leben. Freigeschaltet im Nether-Zeitalter."]
+			description: ["&6Was ist das?", "Die nächste Stufe, aus Herzen von Bossen wie dem Wither.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Noch mehr Leben. Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "bhc:yellow_heart_canister" }
 			id: "86182F521C57552C"
-			title: "Gelbes Herz-Behaelter"
+			title: "Gelbes Herz-Behälter"
 			rewards: [{ id: "80B43DB20417281F", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "15ECD075FCD06EF8", type: "item", item: { id: "bhc:yellow_heart_canister", count: 1 }, count: 1L }]
 			x: 5.0d
@@ -185,7 +185,7 @@
 		}
 		{
 			dependencies: ["86182F521C57552C", "32D7C0032123B540"]
-			description: ["&6Was ist das?", "Das Amulett nimmt Herz-Behaelter auf.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
+			description: ["&6Was ist das?", "Das Amulett nimmt Herz-Behälter auf.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "bhc:heart_amulet" }
 			id: "42849D5773829726"
 			title: "Herz-Amulett"
@@ -196,10 +196,10 @@
 		}
 		{
 			dependencies: ["42849D5773829726", "61920C28D0F155A0"]
-			description: ["&6Was ist das?", "Aus den Herzen des Enderdrachen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im End-Zeitalter."]
+			description: ["&6Was ist das?", "Aus den Herzen des Enderdrachen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im End-Zeitalter."]
 			icon: { id: "bhc:green_heart_canister" }
 			id: "EE0786A4BB7EE189"
-			title: "Gruenes Herz-Behaelter"
+			title: "Grünes Herz-Behälter"
 			rewards: [{ id: "100504BA3D03AD4C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "C860443D694460B9", type: "item", item: { id: "bhc:green_heart_canister", count: 1 }, count: 1L }]
 			x: 8.0d
@@ -207,10 +207,10 @@
 		}
 		{
 			dependencies: ["EE0786A4BB7EE189", "4EA7B6B983C1C0EE"]
-			description: ["&6Was ist das?", "Die hoechste Stufe, aus Herzen von Waechtern.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
+			description: ["&6Was ist das?", "Die höchste Stufe, aus Herzen von Wächtern.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
 			icon: { id: "bhc:blue_heart_canister" }
 			id: "C2C4C28E28FE140A"
-			title: "Blaues Herz-Behaelter"
+			title: "Blaues Herz-Behälter"
 			rewards: [{ id: "BB9DCA2AB8505792", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "26634B13AAFFD3CA", type: "item", item: { id: "bhc:blue_heart_canister", count: 1 }, count: 1L }]
 			x: 9.5d
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["C5B9B217E0885C4D", "1F7C16EE6236AB7A"]
-			description: ["&6Was ist das?", "Die Kette verwandelt dich im Wasser in eine Meerjungfrau (Mermod).", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Du schwimmst und siehst unter Wasser besser. Freigeschaltet im Magie-Zeitalter."]
+			description: ["&6Was ist das?", "Die Kette verwandelt dich im Wasser in eine Meerjungfrau (Mermod).", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Du schwimmst und siehst unter Wasser besser. Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "mermod:sea_necklace" }
 			id: "27352E7ACC998CFA"
 			title: "Seekette"
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["27352E7ACC998CFA", "1F7C16EE6236AB7A"]
-			description: ["&6Was ist das?", "Trinkets and Baubles bringt magische Ringe und Steine.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Besondere Faehigkeiten, Details in JEI. Freigeschaltet im Magie-Zeitalter."]
+			description: ["&6Was ist das?", "Trinkets and Baubles bringt magische Ringe und Steine.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Besondere Fähigkeiten, Details in JEI. Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:elves_ring" }
 			id: "6CBF464813DFEC6A"
 			title: "Elfenring"
@@ -240,7 +240,7 @@
 		}
 		{
 			dependencies: ["6CBF464813DFEC6A", "1F7C16EE6236AB7A"]
-			description: ["&6Was ist das?", "Ein Ring mit Zwergen-Kraeften.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
+			description: ["&6Was ist das?", "Ein Ring mit Zwergen-Kräften.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:dwarves_ring" }
 			id: "C56D9DAA55D757F3"
 			title: "Zwergenring"
@@ -251,7 +251,7 @@
 		}
 		{
 			dependencies: ["C56D9DAA55D757F3", "1F7C16EE6236AB7A"]
-			description: ["&6Was ist das?", "Ein Stein, der dich leichter macht.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
+			description: ["&6Was ist das?", "Ein Stein, der dich leichter macht.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:weightless_stone" }
 			id: "FD4BDCFADB54ED34"
 			title: "Stein der Schwerelosigkeit"
@@ -262,7 +262,7 @@
 		}
 		{
 			dependencies: ["FD4BDCFADB54ED34", "1F7C16EE6236AB7A"]
-			description: ["&6Was ist das?", "Ein Stein, der Gegenstaende anzieht oder abstoesst.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofuer ist das wichtig?", "Praktisch zum Einsammeln von Beute. Freigeschaltet im Magie-Zeitalter."]
+			description: ["&6Was ist das?", "Ein Stein, der Gegenstände anzieht oder abstößt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Praktisch zum Einsammeln von Beute. Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:polarized_stone" }
 			id: "9F726051B4BBAAAE"
 			title: "Magnetstein"

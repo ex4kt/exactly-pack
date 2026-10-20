@@ -6,11 +6,11 @@
 	id: "1D0ADCEF657D4346"
 	order_index: 6
 	quest_links: [ ]
-	title: "&5VIII. End-Zeitalter"
+	title: "&5VII. End-Zeitalter"
 	quests: [
 		{
 			dependencies: ["2600278FFBA40B51"]
-			description: ["&6Was ist das?", "Stelle Enderperlen und Blazepulver zu Enderaugen zusammen. Damit findest du die Festung.", "", "&6So gehts", "Enderperle und Blazepulver ergeben ein Enderauge.", "Wirf eines in die Luft, es fliegt in Richtung Festung. Folge ihm, bis es nach unten zeigt.", "", "&6Wofuer ist das wichtig?", "Ohne zwoelf Enderaugen kein Ende. Enderperlen bekommst du von Endermen oder Piglins."]
+			description: ["&6Was ist das?", "Stelle Enderperlen und Blazepulver zu Enderaugen zusammen. Damit findest du die Festung.", "", "&6So gehts", "Enderperle und Blazepulver ergeben ein Enderauge.", "Wirf eines in die Luft, es fliegt in Richtung Festung. Folge ihm, bis es nach unten zeigt.", "", "&6Wofür ist das wichtig?", "Ohne zwölf Enderaugen kein Ende. Enderperlen bekommst du von Endermen oder Piglins."]
 			id: "5E7EC2AF62FB134D"
 			title: "Augen des Enders"
 			rewards: [{ id: "1F28EAB434A05769", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["5E7EC2AF62FB134D"]
-			description: ["&6Was ist das?", "Aktiviere das Portal in der Festung mit zwoelf Enderaugen.", "", "&6So gehts", "In der Festung das Portal mit den Augen fuellen und hineinspringen.", "Nimm Bloecke, Bogen, Wasser und Kuerbis mit.", "", "&6Wofuer ist das wichtig?", "Nach dem Drachen oeffnen sich die aeusseren Inseln mit Endstaedten und Elytren.", "", "&6Gut zu wissen", "Fuer das Portal in der Festung muessen alle zwoelf Rahmen ein Enderauge tragen. Nimm viele Bloecke zum Bruecken und einen Eimer Wasser gegen Endermen mit."]
+			description: ["&6Was ist das?", "Aktiviere das Portal in der Festung mit zwölf Enderaugen.", "", "&6So gehts", "In der Festung das Portal mit den Augen füllen und hineinspringen.", "Nimm Blöcke, Bogen, Wasser und Kürbis mit.", "", "&6Wofür ist das wichtig?", "Nach dem Drachen öffnen sich die äußeren Inseln mit Endstädten und Elytren.", "", "&6Gut zu wissen", "Für das Portal in der Festung müssen alle zwölf Rahmen ein Enderauge tragen. Nimm viele Blöcke zum Brücken und einen Eimer Wasser gegen Endermen mit."]
 			id: "028ADF99FBF6807C"
 			title: "Das Ende"
 			rewards: [{ id: "52CF935ACF9E29CC", type: "item", item: { id: "minecraft:ender_pearl", count: 4 } }]
@@ -30,7 +30,7 @@
 		}
 		{
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Endstein ist der Boden dieser Dimension. Er brennt nicht und hat viele Verwendungen.", "", "&6So gehts", "Abbauen.", "", "&6Wofuer ist das wichtig?", "Endsteinziegel, Endstaebe und Ende-Herd."]
+			description: ["&6Was ist das?", "Endstein ist der Boden dieser Dimension. Er brennt nicht und hat viele Verwendungen.", "", "&6So gehts", "Abbauen.", "", "&6Wofür ist das wichtig?", "Endsteinziegel, Endstäbe und Ende-Herd."]
 			id: "15E61654C80FD4A8"
 			title: "Endstein"
 			rewards: [{ id: "0C0571FF622F3E8F", type: "xp_levels", xp_levels: 2 }]
@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["15E61654C80FD4A8"]
-			description: ["&6Was ist das?", "Zerstoere die Kristalle auf den Saeulen und besiege den Drachen.", "", "&6So gehts", "Zerstoere zuerst die Kristalle auf den Saeulen, manche sind in Kaefigen.", "Greife an, wenn er auf dem Portal landet.", "", "&6Wofuer ist das wichtig?", "Nach dem Sieg erscheint ein Portal zu den aeusseren Inseln.", "", "&6Gut zu wissen", "Zerstoere zuerst die Endkristalle auf den Saeulen, sonst heilt sich der Drache. Ein Bogen und Wasser fuer die Kristalle helfen sehr."]
+			description: ["&6Was ist das?", "Zerstöre die Kristalle auf den Säulen und besiege den Drachen.", "", "&6So gehts", "Zerstöre zuerst die Kristalle auf den Säulen, manche sind in Käfigen.", "Greife an, wenn er auf dem Portal landet.", "", "&6Wofür ist das wichtig?", "Nach dem Sieg erscheint ein Portal zu den äußeren Inseln.", "", "&6Gut zu wissen", "Zerstöre zuerst die Endkristalle auf den Säulen, sonst heilt sich der Drache. Ein Bogen und Wasser für die Kristalle helfen sehr."]
 			id: "094E3A3AB01FE3FF"
 			title: "Der Enderdrache"
 			rewards: [{ id: "21D67324ECFED6C0", type: "xp_levels", xp_levels: 15 }]
@@ -50,7 +50,7 @@
 		}
 		{
 			dependencies: ["094E3A3AB01FE3FF"]
-			description: ["&6Was ist das?", "Das Drachenei ist ein Souvenir. Es entsteht nach dem ersten Kampf.", "", "&6So gehts", "Mit Kolben vom Portal schieben.", "", "&6Wofuer ist das wichtig?", "Ein Andenken an deinen Sieg."]
+			description: ["&6Was ist das?", "Das Drachenei ist ein Souvenir. Es entsteht nach dem ersten Kampf.", "", "&6So gehts", "Mit Kolben vom Portal schieben.", "", "&6Wofür ist das wichtig?", "Ein Andenken an deinen Sieg."]
 			id: "6B5EC4CFDAFB5173"
 			title: "Drachenei"
 			rewards: [{ id: "03E3E9461075295C", type: "xp_levels", xp_levels: 10 }]
@@ -59,8 +59,9 @@
 			y: 3.25d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["15E61654C80FD4A8"]
-			description: ["&6Was ist das?", "Edle Ziegel aus Endstein.", "", "&6So gehts", "Vier Endstein zusammen.", "", "&6Wofuer ist das wichtig?", "Schoene Bauten im Ende."]
+			description: ["&6Was ist das?", "Edle Ziegel aus Endstein.", "", "&6So gehts", "Vier Endstein zusammen.", "", "&6Wofür ist das wichtig?", "Schöne Bauten im Ende."]
 			icon: { id: "minecraft:end_stone_bricks" }
 			id: "076FC99714B15558"
 			title: "Endsteinziegel"
@@ -71,7 +72,7 @@
 		}
 		{
 			dependencies: ["076FC99714B15558"]
-			description: ["&6Was ist das?", "Eine Kiste, die ueberall denselben Inhalt hat.", "", "&6So gehts", "Obsidian und ein Enderauge.", "", "&6Wofuer ist das wichtig?", "Sicherer Speicher fuer unterwegs."]
+			description: ["&6Was ist das?", "Eine Kiste, die überall denselben Inhalt hat.", "", "&6So gehts", "Obsidian und ein Enderauge.", "", "&6Wofür ist das wichtig?", "Sicherer Speicher für unterwegs."]
 			icon: { id: "minecraft:ender_chest" }
 			id: "640BA76DC1967B64"
 			title: "Enderkiste"
@@ -82,7 +83,7 @@
 		}
 		{
 			dependencies: ["640BA76DC1967B64"]
-			description: ["&6Was ist das?", "Die Bluete der Chorus-Pflanze.", "", "&6So gehts", "Mit Behutsamkeit oder von der Spitze abbauen. Auf Endstein pflanzen.", "", "&6Wofuer ist das wichtig?", "Eine eigene Chorus-Farm."]
+			description: ["&6Was ist das?", "Die Blüte der Chorus-Pflanze.", "", "&6So gehts", "Mit Behutsamkeit oder von der Spitze abbauen. Auf Endstein pflanzen.", "", "&6Wofür ist das wichtig?", "Eine eigene Chorus-Farm."]
 			icon: { id: "minecraft:chorus_flower" }
 			id: "45F7DF303BD48E57"
 			title: "Chorusblume"
@@ -93,7 +94,7 @@
 		}
 		{
 			dependencies: ["45F7DF303BD48E57"]
-			description: ["&6Was ist das?", "Apothic Enchanting: Regale aus End-Material.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Die staerksten Verzauberungen."]
+			description: ["&6Was ist das?", "Apothic Enchanting: Regale aus End-Material.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Die stärksten Verzauberungen."]
 			icon: { id: "apothic_enchanting:endshelf" }
 			id: "7CD89AF46ECCCCC0"
 			title: "Endregal"
@@ -104,7 +105,7 @@
 		}
 		{
 			dependencies: ["6B5EC4CFDAFB5173"]
-			description: ["&6Was ist das?", "Endstaedte sind riesige Bauten mit Beute und Shulkern.", "", "&6So gehts", "Ueber das Portal hinter der Hauptinsel erreichst du die aeusseren Inseln.", "", "&6Wofuer ist das wichtig?", "Shulkerschalen und Elytren."]
+			description: ["&6Was ist das?", "Endstädte sind riesige Bauten mit Beute und Shulkern.", "", "&6So gehts", "Über das Portal hinter der Hauptinsel erreichst du die äußeren Inseln.", "", "&6Wofür ist das wichtig?", "Shulkerschalen und Elytren."]
 			id: "295A76E48CBFA8D5"
 			title: "Endstadt"
 			rewards: [{ id: "1695CC2291054EB9", type: "xp_levels", xp_levels: 6 }]
@@ -114,7 +115,7 @@
 		}
 		{
 			dependencies: ["295A76E48CBFA8D5"]
-			description: ["&6Was ist das?", "Aus Shulkerschalen baust du Shulkerkisten.", "", "&6So gehts", "Shulker in Endstaedten besiegen.", "", "&6Wofuer ist das wichtig?", "Shulker-Kisten."]
+			description: ["&6Was ist das?", "Aus Shulkerschalen baust du Shulkerkisten.", "", "&6So gehts", "Shulker in Endstädten besiegen.", "", "&6Wofür ist das wichtig?", "Shulker-Kisten."]
 			id: "4A052AD9B9039188"
 			title: "Shulkerschalen"
 			rewards: [{ id: "339AE3A617CADC3D", type: "item", item: { id: "minecraft:ender_chest", count: 1 } }]
@@ -124,7 +125,7 @@
 		}
 		{
 			dependencies: ["4A052AD9B9039188"]
-			description: ["&6Was ist das?", "Eine Shulkerkiste behaelt ihren Inhalt, wenn du sie abbaust. Der perfekte Koffer.", "", "&6So gehts", "Zwei Shulkerschalen aus Endstaedten und eine Kiste.", "", "&6Wofuer ist das wichtig?", "Ideal zum Umziehen und als Vorrat auf Reisen. Lass dich nicht im Ende von Shulkern fallen."]
+			description: ["&6Was ist das?", "Eine Shulkerkiste behält ihren Inhalt, wenn du sie abbaust. Der perfekte Koffer.", "", "&6So gehts", "Zwei Shulkerschalen aus Endstädten und eine Kiste.", "", "&6Wofür ist das wichtig?", "Ideal zum Umziehen und als Vorrat auf Reisen. Lass dich nicht im Ende von Shulkern fallen."]
 			id: "5E60A7D94A2326A3"
 			title: "Shulker-Kiste"
 			rewards: [{ id: "440575B4A25A1C81", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -134,7 +135,7 @@
 		}
 		{
 			dependencies: ["5E60A7D94A2326A3"]
-			description: ["&6Was ist das?", "Mit der Elytra gleitest du ueber die Welt. Du findest sie im Ende.", "", "&6So gehts", "In Endschiffen in Endstaedten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofuer ist das wichtig?", "Das beste Reisemittel im Spiel.", "", "&6Gut zu wissen", "Mit Feuerwerksraketen beschleunigst du im Flug. Die Elytra ersetzt die Brustplatte, nimm also beim Fliegen deinen Brustschutz ab."]
+			description: ["&6Was ist das?", "Mit der Elytra gleitest du über die Welt. Du findest sie im Ende.", "", "&6So gehts", "In Endschiffen in Endstädten finden. Mit Feuerwerk beschleunigen.", "", "&6Wofür ist das wichtig?", "Das beste Reisemittel im Spiel.", "", "&6Gut zu wissen", "Mit Feuerwerksraketen beschleunigst du im Flug. Die Elytra ersetzt die Brustplatte, nimm also beim Fliegen deinen Brustschutz ab."]
 			id: "5BDDA6FEC33CD7FB"
 			title: "Elytra"
 			rewards: [{ id: "3BE9DEE41EF1B973", type: "item", item: { id: "minecraft:firework_rocket", count: 16 } }]
@@ -144,9 +145,9 @@
 		}
 		{
 			dependencies: ["5BDDA6FEC33CD7FB"]
-			description: ["&6Was ist das?", "Better End Cities macht die Endstaedte groesser, mit mehr Beute.", "", "&6So gehts", "Erkunden.", "", "&6Wofuer ist das wichtig?", "Mehr Beute und mehr Shulker."]
+			description: ["&6Was ist das?", "Better End Cities macht die Endstädte größer, mit mehr Beute.", "", "&6So gehts", "Erkunden.", "", "&6Wofür ist das wichtig?", "Mehr Beute und mehr Shulker."]
 			id: "7DB4E4B2AC7C8E3C"
-			title: "Bessere Endstaedte"
+			title: "Bessere Endstädte"
 			rewards: [{ id: "6F8EB8225A37402E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "752792020D4A926D", type: "checkmark" }]
 			x: 18.00d
@@ -154,7 +155,7 @@
 		}
 		{
 			dependencies: ["5BDDA6FEC33CD7FB"]
-			description: ["&6Was ist das?", "Raketen treiben die Elytra an.", "", "&6So gehts", "Papier und Schwarzpulver.", "", "&6Wofuer ist das wichtig?", "Ohne Raketen ist die Elytra nur ein Gleiter."]
+			description: ["&6Was ist das?", "Raketen treiben die Elytra an.", "", "&6So gehts", "Papier und Schwarzpulver.", "", "&6Wofür ist das wichtig?", "Ohne Raketen ist die Elytra nur ein Gleiter."]
 			icon: { id: "minecraft:firework_rocket" }
 			id: "04EE3BD9BC1E1442"
 			title: "Feuerwerk"
@@ -165,18 +166,20 @@
 		}
 		{
 			dependencies: ["04EE3BD9BC1E1442"]
-			description: ["&6Was ist das?", "Der Kopf eines Enderdrachen.", "", "&6So gehts", "In Endschiffen an der Spitze.", "", "&6Wofuer ist das wichtig?", "Trophaee fuer deine Basis."]
+			description: ["&6Was ist das?", "Der Kopf eines Enderdrachen.", "", "&6So gehts", "In Endschiffen an der Spitze.", "", "&6Wofür ist das wichtig?", "Trophäe für deine Basis."]
 			icon: { id: "minecraft:dragon_head" }
+			hide_dependency_lines: true
 			id: "2757C6BF2E4CBF60"
 			title: "Drachenkopf"
 			rewards: [{ id: "41349A9C64C87652", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "536B1B6E5592FCF3", type: "item", item: { id: "minecraft:dragon_head", count: 1 }, count: 1L }]
-			x: 19.50d
-			y: 4.50d
+			x: 1.50d
+			y: 17.62d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Endermen teleportieren und werden wuetend, wenn du sie ansiehst.", "", "&6So gehts", "Kaempfe unter einem 2 Bloecke hohen Dach oder im Wasser.", "", "&6Wofuer ist das wichtig?", "Enderperlen fuer Enderaugen und Teleport."]
+			description: ["&6Was ist das?", "Endermen teleportieren und werden wütend, wenn du sie ansiehst.", "", "&6So gehts", "Kämpfe unter einem 2 Blöcke hohen Dach oder im Wasser.", "", "&6Wofür ist das wichtig?", "Enderperlen für Enderaugen und Teleport."]
 			id: "6BC9918F7D743AE5"
 			title: "Endermann"
 			rewards: [{ id: "709F7E72B4FE0FE7", type: "xp_levels", xp_levels: 3 }]
@@ -186,7 +189,7 @@
 		}
 		{
 			dependencies: ["6BC9918F7D743AE5"]
-			description: ["&6Was ist das?", "Chorusfrucht teleportiert dich beim Essen. Sie waechst auf den Ende-Inseln.", "", "&6So gehts", "Von Chorus-Pflanzen ernten.", "", "&6Wofuer ist das wichtig?", "Gebraten wird sie zu Purpur."]
+			description: ["&6Was ist das?", "Chorusfrucht teleportiert dich beim Essen. Sie wächst auf den Ende-Inseln.", "", "&6So gehts", "Von Chorus-Pflanzen ernten.", "", "&6Wofür ist das wichtig?", "Gebraten wird sie zu Purpur."]
 			id: "42042464E70872A8"
 			title: "Chorusfrucht"
 			rewards: [{ id: "0AB1797033B4DDD1", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 8 } }]
@@ -196,7 +199,7 @@
 		}
 		{
 			dependencies: ["42042464E70872A8"]
-			description: ["&6Was ist das?", "Purpurbloecke aus Chorusfrucht sind Baumaterial der Endstaedte.", "", "&6So gehts", "Gebratene Chorusfrucht.", "", "&6Wofuer ist das wichtig?", "Schoene Bauten."]
+			description: ["&6Was ist das?", "Purpurblöcke aus Chorusfrucht sind Baumaterial der Endstädte.", "", "&6So gehts", "Gebratene Chorusfrucht.", "", "&6Wofür ist das wichtig?", "Schöne Bauten."]
 			id: "51758B90F50FF7C7"
 			title: "Purpur"
 			rewards: [{ id: "2571CFB822F6EF7E", type: "xp_levels", xp_levels: 2 }]
@@ -206,7 +209,7 @@
 		}
 		{
 			dependencies: ["51758B90F50FF7C7"]
-			description: ["&6Was ist das?", "Endstaebe sind schoene Lampen.", "", "&6So gehts", "Aus Blazestab und Chorusfrucht.", "", "&6Wofuer ist das wichtig?", "Deko-Licht."]
+			description: ["&6Was ist das?", "Endstäbe sind schöne Lampen.", "", "&6So gehts", "Aus Blazestab und Chorusfrucht.", "", "&6Wofür ist das wichtig?", "Deko-Licht."]
 			id: "0F131582010B5385"
 			title: "Endstab"
 			rewards: [{ id: "111EE9F7CD77FCF9", type: "xp_levels", xp_levels: 2 }]
@@ -216,7 +219,7 @@
 		}
 		{
 			dependencies: ["0F131582010B5385"]
-			description: ["&6Was ist das?", "Mit Enderkristallen kannst du den Drachen erneut beschwoeren.", "", "&6So gehts", "Glas, Ghast-Traene und Enderauge.", "", "&6Wofuer ist das wichtig?", "Den Drachen neu beschwoeren."]
+			description: ["&6Was ist das?", "Mit Enderkristallen kannst du den Drachen erneut beschwören.", "", "&6So gehts", "Glas, Ghast-Träne und Enderauge.", "", "&6Wofür ist das wichtig?", "Den Drachen neu beschwören."]
 			id: "45A55CC567172AB3"
 			title: "Enderkristall"
 			rewards: [{ id: "5CAC48F63703BB75", type: "xp_levels", xp_levels: 5 }]
@@ -226,7 +229,7 @@
 		}
 		{
 			dependencies: ["45A55CC567172AB3"]
-			description: ["&6Was ist das?", "Drachenatem sammelst du mit einer Glasflasche. Daraus entstehen Verweiltraenke.", "", "&6So gehts", "Mit Glasflasche in der Wolke sammeln.", "", "&6Wofuer ist das wichtig?", "Verweiltraenke."]
+			description: ["&6Was ist das?", "Drachenatem sammelst du mit einer Glasflasche. Daraus entstehen Verweiltränke.", "", "&6So gehts", "Mit Glasflasche in der Wolke sammeln.", "", "&6Wofür ist das wichtig?", "Verweiltränke."]
 			id: "244709AF9446ADAB"
 			title: "Drachenatem"
 			rewards: [{ id: "171DFB6F70293EDA", type: "xp_levels", xp_levels: 4 }]
@@ -236,7 +239,7 @@
 		}
 		{
 			dependencies: ["244709AF9446ADAB"]
-			description: ["&6Was ist das?", "YUNGs Better End Island verbessert die Hauptinsel und den Drachenkampf.", "", "&6So gehts", "Einfach ins Ende reisen.", "", "&6Wofuer ist das wichtig?", "Spannenderer Endkampf."]
+			description: ["&6Was ist das?", "YUNGs Better End Island verbessert die Hauptinsel und den Drachenkampf.", "", "&6So gehts", "Einfach ins Ende reisen.", "", "&6Wofür ist das wichtig?", "Spannenderer Endkampf."]
 			id: "70658F68A7FDD141"
 			title: "Bessere Endinsel"
 			rewards: [{ id: "39A64789F2D04BA6", type: "xp_levels", xp_levels: 3 }]
@@ -246,7 +249,7 @@
 		}
 		{
 			dependencies: ["61920C28D0F155A0"]
-			description: ["&6Was ist das?", "Das End-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Der Weg ins Ende, End-Bau, Aeussere Inseln, Fliegen, End-Natur, End-Kueche.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
+			description: ["&6Was ist das?", "Das End-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Der Weg ins Ende, End-Bau, Äußere Inseln, Fliegen, End-Natur, End-Küche.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofür ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins nächste. Nebenzweige kannst du jederzeit später machen."]
 			icon: { id: "minecraft:end_stone" }
 			id: "2600278FFBA40B51"
 			title: "Beginn: End-Zeitalter"
@@ -259,20 +262,21 @@
 		}
 		{
 			dependencies: ["7DB4E4B2AC7C8E3C"]
-			description: ["&6Was ist das?", "Hier beginnt das Meister-Zeitalter. Es schaltet frei:", "Netherit-Ausruestung, Advanced Netherite, Netherit-Haemmer und die Netherit- und Runic-Waffen.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
+			description: ["&6Was ist das?", "Hier beginnt das Meister-Zeitalter. Es schaltet frei:", "Netherit-Ausrüstung, Advanced Netherite, Netherit-Hämmer und die Netherit- und Runic-Waffen.", "", "&6So gehts", "Schließe den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort für alle Spieler, auch für die, die gerade nicht online sind.", "", "&6Wofür ist das wichtig?", "Im nächsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus früheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherite_ingot" }
+			hide_dependency_lines: true
 			id: "4EA7B6B983C1C0EE"
 			title: "Zeitalter: Meister-Zeitalter"
 			rewards: [{ id: "5B930C254D693EE0", type: "historystages:history_stage", stage: "meisterzeit", remove: false, individual: false }, { id: "751E857D2BD39CEF", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "548E8C86CC29AAE0", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 19.50d
-			y: 3.25d
+			x: 1.50d
+			y: 15.75d
 		}
 		{
 			dependencies: ["4A052AD9B9039188"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:dreadwhisper" }
 			id: "24DA6EBCF63E376A"
 			title: "Dreadwhisper"
@@ -283,7 +287,7 @@
 		}
 		{
 			dependencies: ["24DA6EBCF63E376A"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wraithfang" }
 			id: "541CF36C4D170CE0"
 			title: "Wraithfang"
@@ -294,7 +298,7 @@
 		}
 		{
 			dependencies: ["541CF36C4D170CE0"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wraithmaw" }
 			id: "1380674E74CAEE3E"
 			title: "Wraithmaw"
@@ -305,18 +309,19 @@
 		}
 		{
 			dependencies: ["1380674E74CAEE3E"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:bloodwake" }
+			hide_dependency_lines: true
 			id: "36D390C5A030D181"
 			title: "Bloodwake"
 			rewards: []
 			tasks: [{ id: "5FA74C2F925CA7D6", type: "item", item: { id: "simplyswords:bloodwake", count: 1 }, count: 1L }]
-			x: 19.50d
-			y: 5.75d
+			x: 1.50d
+			y: 19.50d
 		}
 		{
 			dependencies: ["24DA6EBCF63E376A"]
-			description: ["&6Was ist das?", "Fluegel zum Gleiten. Mit Raketen fliegen.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			description: ["&6Was ist das?", "Flügel zum Gleiten. Mit Raketen fliegen.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "minecraft:elytra" }
 			id: "4042D52C4CB1CEF4"
 			title: "Elytra (Arsenal)"
@@ -326,8 +331,9 @@
 			y: 7.00d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["2600278FFBA40B51"]
-			description: ["&6Was ist das?", "Ein riesiger Enderman, der teleportiert und Bloecke schleudert.", "", "&6So gehts", "Diamantruestung oder besser, Wasser in Reichweite. Er ist langsam, aber stark.", "", "&6Wofuer ist das wichtig?", "Boss des End-Zeitalters."]
+			description: ["&6Was ist das?", "Ein riesiger Enderman, der teleportiert und Blöcke schleudert.", "", "&6So gehts", "Diamantrüstung oder besser, Wasser in Reichweite. Er ist langsam, aber stark.", "", "&6Wofür ist das wichtig?", "Boss des End-Zeitalters."]
 			id: "254836852F56C403"
 			title: "Mutant-Enderman"
 			rewards: [{ id: "35BE9DDB95684F19", type: "xp_levels", xp_levels: 10 }, { id: "06B6478E0B94F95F", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
@@ -336,8 +342,9 @@
 			y: 12.00d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Ein Stab, der kalt leuchtet.", "", "&6So gehts", "Blazestab und gepoppte Chorusfrucht in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Ein elegantes Licht fuer deine End-Basis."]
+			description: ["&6Was ist das?", "Ein Stab, der kalt leuchtet.", "", "&6So gehts", "Blazestab und gepoppte Chorusfrucht in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Ein elegantes Licht für deine End-Basis."]
 			id: "04477D266F8FD6A2"
 			title: "Endstab-Licht"
 			rewards: [{ id: "F7F583AA0FC2C1AF", type: "xp_levels", xp_levels: 2 }]
@@ -347,10 +354,10 @@
 		}
 		{
 			dependencies: ["094E3A3AB01FE3FF"]
-			description: ["&6Was ist das?", "Der Enderdrache ist der Boss des Endes mit 200 Leben. Er fliegt, atmet Drachenatem und wird von zehn Endkristallen auf Obsidiansaeulen geheilt.", "", "&6So gehts", "Acht Schritte: Festung finden, Portal, Pfeile, Bloecke und Wasser, Kuerbis, Kristalle, Drache.", "", "&6Wofuer ist das wichtig?", "Mit dem Sieg bekommst du das Drachenei, Erfahrung und den Weg zu den Endstaedten."]
+			description: ["&6Was ist das?", "Der Enderdrache ist der Boss des Endes mit 200 Leben. Er fliegt, atmet Drachenatem und wird von zehn Endkristallen auf Obsidiansäulen geheilt.", "", "&6So gehts", "Acht Schritte: Festung finden, Portal, Pfeile, Blöcke und Wasser, Kürbis, Kristalle, Drache.", "", "&6Wofür ist das wichtig?", "Mit dem Sieg bekommst du das Drachenei, Erfahrung und den Weg zu den Endstädten."]
 			icon: { id: "minecraft:dragon_head" }
 			id: "DF133E9BFB41CD35"
-			title: "Drache: Ueberblick"
+			title: "Drache: Überblick"
 			rewards: [{ id: "12801974D86C74D0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "86AD266DFCB63888", type: "checkmark" }]
 			x: 10.50d
@@ -358,7 +365,7 @@
 		}
 		{
 			dependencies: ["DF133E9BFB41CD35"]
-			description: ["&6Was ist das?", "Die Festung versteckt das Endportal.", "", "&6So gehts", "Wirf ein Enderauge: Es fliegt in die Richtung der Festung. Folge ihm. Wenn es nach unten faellt, grabe dort. Mit dem Naturkompass kannst du die Festung auch suchen.", "", "&6Wofuer ist das wichtig?", "Im Portalraum der Festung liegt der Rahmen zum Ende."]
+			description: ["&6Was ist das?", "Die Festung versteckt das Endportal.", "", "&6So gehts", "Wirf ein Enderauge: Es fliegt in die Richtung der Festung. Folge ihm. Wenn es nach unten fällt, grabe dort. Mit dem Naturkompass kannst du die Festung auch suchen.", "", "&6Wofür ist das wichtig?", "Im Portalraum der Festung liegt der Rahmen zum Ende."]
 			icon: { id: "minecraft:ender_eye" }
 			id: "DFE9D1B2B83F4D2E"
 			title: "Drache: Festung finden"
@@ -369,7 +376,7 @@
 		}
 		{
 			dependencies: ["DFE9D1B2B83F4D2E"]
-			description: ["&6Was ist das?", "Das Endportal hat zwoelf Rahmen.", "", "&6So gehts", "Setze in jeden leeren Rahmen ein Enderauge. Sind alle gefuellt, oeffnet sich das Portal. Manche Rahmen sind schon besetzt, plane aber bis zu zwoelf Augen ein.", "Lege vorher ein Bett oder einen Respawn-Punkt weit weg an.", "", "&6Wofuer ist das wichtig?", "Hinter dem Portal gibt es keinen Rueckweg, bis du den Drachen besiegt hast oder stirbst."]
+			description: ["&6Was ist das?", "Das Endportal hat zwölf Rahmen.", "", "&6So gehts", "Setze in jeden leeren Rahmen ein Enderauge. Sind alle gefüllt, öffnet sich das Portal. Manche Rahmen sind schon besetzt, plane aber bis zu zwölf Augen ein.", "Lege vorher ein Bett oder einen Respawn-Punkt weit weg an.", "", "&6Wofür ist das wichtig?", "Hinter dem Portal gibt es keinen Rückweg, bis du den Drachen besiegt hast oder stirbst."]
 			icon: { id: "minecraft:end_portal_frame" }
 			id: "5BEE0068AE196052"
 			title: "Drache: Portal aktivieren"
@@ -380,7 +387,7 @@
 		}
 		{
 			dependencies: ["5BEE0068AE196052"]
-			description: ["&6Was ist das?", "Gegen die Kristalle auf den hohen Saeulen brauchst du Fernkampf.", "", "&6So gehts", "Nimm einen Bogen (am besten mit Unendlichkeit) und viele Pfeile mit, mindestens 64.", "", "&6Wofuer ist das wichtig?", "Pfeile zerstoeren die Kristalle aus sicherer Entfernung."]
+			description: ["&6Was ist das?", "Gegen die Kristalle auf den hohen Säulen brauchst du Fernkampf.", "", "&6So gehts", "Nimm einen Bogen (am besten mit Unendlichkeit) und viele Pfeile mit, mindestens 64.", "", "&6Wofür ist das wichtig?", "Pfeile zerstören die Kristalle aus sicherer Entfernung."]
 			icon: { id: "minecraft:bow" }
 			id: "C2C0434EA9E19367"
 			title: "Drache: Bogen und Pfeile"
@@ -391,10 +398,10 @@
 		}
 		{
 			dependencies: ["C2C0434EA9E19367"]
-			description: ["&6Was ist das?", "Endermen sind im Ende ueberall, die Inseln sind klein.", "", "&6So gehts", "Nimm mindestens 64 Bloecke zum Bruecken und einen Wassereimer mit. Wasser schadet Endermen, ein Block ueber dem Kopf schuetzt dich.", "", "&6Wofuer ist das wichtig?", "Bloecke zum Bruecken retten dich vor dem Fall in die Leere."]
+			description: ["&6Was ist das?", "Endermen sind im Ende überall, die Inseln sind klein.", "", "&6So gehts", "Nimm mindestens 64 Blöcke zum Brücken und einen Wassereimer mit. Wasser schadet Endermen, ein Block über dem Kopf schützt dich.", "", "&6Wofür ist das wichtig?", "Blöcke zum Brücken retten dich vor dem Fall in die Leere."]
 			icon: { id: "minecraft:water_bucket" }
 			id: "5A170150AAC1C908"
-			title: "Drache: Bloecke und Wasser"
+			title: "Drache: Blöcke und Wasser"
 			rewards: [{ id: "D81A5F77A21A6E51", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "DE5A2C4E15B78C0E", type: "item", item: { id: "minecraft:water_bucket", count: 1 }, count: 1L }]
 			x: 16.50d
@@ -402,10 +409,10 @@
 		}
 		{
 			dependencies: ["5A170150AAC1C908"]
-			description: ["&6Was ist das?", "Ein geschnitzter Kuerbis auf dem Kopf schuetzt vor Endermen.", "", "&6So gehts", "Schneide einen Kuerbis mit der Schere zu und setze ihn auf. Endermen werden nicht aggressiv, wenn du sie ansiehst. Du siehst durch den Kuerbis etwas weniger.", "", "&6Wofuer ist das wichtig?", "Ohne Kuerbis greifen dich viele Endermen gleichzeitig an, sobald du sie ansiehst."]
+			description: ["&6Was ist das?", "Ein geschnitzter Kürbis auf dem Kopf schützt vor Endermen.", "", "&6So gehts", "Schneide einen Kürbis mit der Schere zu und setze ihn auf. Endermen werden nicht aggressiv, wenn du sie ansiehst. Du siehst durch den Kürbis etwas weniger.", "", "&6Wofür ist das wichtig?", "Ohne Kürbis greifen dich viele Endermen gleichzeitig an, sobald du sie ansiehst."]
 			icon: { id: "minecraft:carved_pumpkin" }
 			id: "01307E2D144FD086"
-			title: "Drache: Kuerbis"
+			title: "Drache: Kürbis"
 			rewards: [{ id: "8DC0B8F2FED751CA", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "031ACA52BB7900EF", type: "item", item: { id: "minecraft:carved_pumpkin", count: 1 }, count: 1L }]
 			x: 18.00d
@@ -413,29 +420,31 @@
 		}
 		{
 			dependencies: ["01307E2D144FD086"]
-			description: ["&6Was ist das?", "Auf zehn Obsidiansaeulen stehen Endkristalle. Sie heilen den Drachen.", "", "&6So gehts", "Beschiesse sie mit dem Bogen. Manche sind mit Eisengittern geschuetzt: Baue eine Saeule hinauf und zerstoere das Gitter. Die Kristalle explodieren, bleibe weg.", "", "&6Wofuer ist das wichtig?", "Ohne Kristalle heilt sich der Drache nicht mehr. Erst dann kannst du ihn sicher besiegen."]
+			description: ["&6Was ist das?", "Auf zehn Obsidiansäulen stehen Endkristalle. Sie heilen den Drachen.", "", "&6So gehts", "Beschieße sie mit dem Bogen. Manche sind mit Eisengittern geschuetzt: Baue eine Säule hinauf und zerstöre das Gitter. Die Kristalle explodieren, bleibe weg.", "", "&6Wofür ist das wichtig?", "Ohne Kristalle heilt sich der Drache nicht mehr. Erst dann kannst du ihn sicher besiegen."]
 			icon: { id: "minecraft:end_crystal" }
+			hide_dependency_lines: true
 			id: "AE02FEE6B37C4E80"
-			title: "Drache: Kristalle zerstoeren"
+			title: "Drache: Kristalle zerstören"
 			rewards: [{ id: "3FD9FB004FDA0527", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3E9C9C15DB387362", type: "kill", entity: "minecraft:end_crystal", value: 10L }]
-			x: 19.50d
-			y: 2.00d
+			x: 1.50d
+			y: 13.88d
 		}
 		{
 			dependencies: ["AE02FEE6B37C4E80"]
-			description: ["&6Was ist das?", "Der Kampf gegen den Drachen.", "", "&6So gehts", "Der Drache fliegt Kreise und landet manchmal am Portal in der Mitte. Dann schlaegst du mit dem Schwert zu. Meide den violetten Drachenatem am Boden.", "Bruecke immer mit einem Block Rand und nimm Heiltraenke mit.", "", "&6Wofuer ist das wichtig?", "Er laesst viel Erfahrung fallen und oeffnet das Portal nach Hause. In der Mitte erscheint das Drachenei."]
+			description: ["&6Was ist das?", "Der Kampf gegen den Drachen.", "", "&6So gehts", "Der Drache fliegt Kreise und landet manchmal am Portal in der Mitte. Dann schlägst du mit dem Schwert zu. Meide den violetten Drachenatem am Boden.", "Brücke immer mit einem Block Rand und nimm Heiltränke mit.", "", "&6Wofür ist das wichtig?", "Er lässt viel Erfahrung fallen und öffnet das Portal nach Hause. In der Mitte erscheint das Drachenei."]
 			icon: { id: "minecraft:dragon_egg" }
 			id: "17E65FEB4CF8824D"
 			title: "Enderdrache besiegen"
 			rewards: [{ id: "C08B4FDFBE8AA737", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "AEA287883B1151AD", type: "kill", entity: "minecraft:ender_dragon", value: 1L }]
-			x: 21.00d
-			y: 2.00d
+			x: 3.00d
+			y: 13.88d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Perlen von Endermen.", "", "&6So gehts", "Besiege Endermen (nachts oder im Ende). Mit Pluenderung mehr.", "", "&6Wofuer ist das wichtig?", "Perlen brauchst du fuer Enderaugen, Teleport und viele Rezepte."]
+			description: ["&6Was ist das?", "Perlen von Endermen.", "", "&6So gehts", "Besiege Endermen (nachts oder im Ende). Mit Plünderung mehr.", "", "&6Wofür ist das wichtig?", "Perlen brauchst du für Enderaugen, Teleport und viele Rezepte."]
 			id: "600EF35468037498"
 			title: "Enderperlen sammeln"
 			rewards: [{ id: "E90C11573F7EC079", type: "xp_levels", xp_levels: 2 }]
@@ -444,8 +453,9 @@
 			y: -6.75d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Im Ofen gebackene Chorusfrucht.", "", "&6So gehts", "Chorusfrucht im Ofen schmelzen.", "", "&6Wofuer ist das wichtig?", "Zutat fuer Endstaebe und Purpurbloecke."]
+			description: ["&6Was ist das?", "Im Ofen gebackene Chorusfrucht.", "", "&6So gehts", "Chorusfrucht im Ofen schmelzen.", "", "&6Wofür ist das wichtig?", "Zutat für Endstäbe und Purpurblöcke."]
 			id: "18D438EBB5E0B3F3"
 			title: "Gepoppte Chorusfrucht"
 			rewards: [{ id: "CCF2D6F3B188FC0F", type: "xp_levels", xp_levels: 2 }]
@@ -454,8 +464,9 @@
 			y: -5.50d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Treppen aus Purpurbloecken.", "", "&6So gehts", "Purpurbloecke in Treppenform in die Werkbank legen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Schoenes Baumaterial fuer deine End-Basis."]
+			description: ["&6Was ist das?", "Treppen aus Purpurblöcken.", "", "&6So gehts", "Purpurblöcke in Treppenform in die Werkbank legen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Schönes Baumaterial für deine End-Basis."]
 			id: "F660E821A0E162CA"
 			title: "Purpurtreppe"
 			rewards: [{ id: "4D6C7F2D6A1F67DF", type: "xp_levels", xp_levels: 2 }]
@@ -464,8 +475,9 @@
 			y: -4.25d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Treppen aus Endsteinziegeln.", "", "&6So gehts", "Endsteinziegel in Treppenform. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Helles Baumaterial, gut fuer Endstaedte."]
+			description: ["&6Was ist das?", "Treppen aus Endsteinziegeln.", "", "&6So gehts", "Endsteinziegel in Treppenform. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Helles Baumaterial, gut für Endstädte."]
 			id: "A4EEA51E6048F20C"
 			title: "Endstein-Treppen"
 			rewards: [{ id: "8C5BA1E5C3280D15", type: "xp_levels", xp_levels: 2 }]
@@ -474,8 +486,9 @@
 			y: -3.00d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Pfeile, die Gegner leuchten lassen.", "", "&6So gehts", "Leuchtsteinstaub und Pfeile in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Hilfreich im Ende, um Ziele zu sehen."]
+			description: ["&6Was ist das?", "Pfeile, die Gegner leuchten lassen.", "", "&6So gehts", "Leuchtsteinstaub und Pfeile in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich im Ende, um Ziele zu sehen."]
 			id: "A939AFF2911D5A3B"
 			title: "Spektralpfeile"
 			rewards: [{ id: "9C6B0E7BB4AB25CF", type: "xp_levels", xp_levels: 2 }]
@@ -485,7 +498,7 @@
 		}
 		{
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Rettet dich vor dem Tod.", "", "&6So gehts", "Gewinne ihn von Hexenmeistern in Waldanwesen oder aus Raids.", "", "&6Wofuer ist das wichtig?", "In der Haupthand oder Zweithand haltend rettet er dein Leben einmal."]
+			description: ["&6Was ist das?", "Rettet dich vor dem Tod.", "", "&6So gehts", "Gewinne ihn von Hexenmeistern in Waldanwesen oder aus Raids.", "", "&6Wofür ist das wichtig?", "In der Haupthand oder Zweithand haltend rettet er dein Leben einmal."]
 			id: "1C8FF45FB5B9E0C2"
 			title: "Totem der Unsterblichkeit"
 			rewards: [{ id: "584936C682AEFBD5", type: "xp_levels", xp_levels: 2 }]
@@ -495,7 +508,7 @@
 		}
 		{
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Ein Kristall, der explodiert.", "", "&6So gehts", "Glas, Enderauge und Ghast-Traene in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Er heilt den Drachen, kann aber selbst starke Explosionen ausloesen."]
+			description: ["&6Was ist das?", "Ein Kristall, der explodiert.", "", "&6So gehts", "Glas, Enderauge und Ghast-Träne in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Er heilt den Drachen, kann aber selbst starke Explosionen auslösen."]
 			id: "60223A11FB2C9DFF"
 			title: "Endkristall"
 			rewards: [{ id: "20B73E8B68768045", type: "xp_levels", xp_levels: 2 }]
@@ -504,10 +517,11 @@
 			y: 0.75d
 		}
 		{
+			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
-			description: ["&6Was ist das?", "Endstaedte stehen auf den ausseren Inseln des Endes. Sie haben Tuerme, Schiffe mit Elytra und Shulker.", "", "&6So gehts", "Reise durch die Endtore (Kiemen) in der Mitte des Endes zu den ausseren Inseln.", "", "&6Wofuer ist das wichtig?", "Dort gibt es Elytra, Shulkerschalen und starke Beute."]
+			description: ["&6Was ist das?", "Endstädte stehen auf den äußeren Inseln des Endes. Sie haben Türme, Schiffe mit Elytra und Shulker.", "", "&6So gehts", "Reise durch die Endtore (Kiemen) in der Mitte des Endes zu den äußeren Inseln.", "", "&6Wofür ist das wichtig?", "Dort gibt es Elytra, Shulkerschalen und starke Beute."]
 			id: "1631707162524544"
-			title: "Endstadt: Ueberblick"
+			title: "Endstadt: Überblick"
 			rewards: [{ id: "07161B53F75A02F6", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "42E8587A8EEEC88F", type: "checkmark" }]
 			x: 7.50d
@@ -515,7 +529,7 @@
 		}
 		{
 			dependencies: ["1631707162524544"]
-			description: ["&6Was ist das?", "Shulker sind Wesen in Muschelschalen, die dich schweben lassen.", "", "&6So gehts", "Besiege Shulker mit dem Schwert, wenn sie ihre Schale oeffnen. Nimm Schutz vor Schwebe-Effekt mit (Milch).", "", "&6Wofuer ist das wichtig?", "Sie lassen Shulkerschalen fallen fuer Shulkerkisten."]
+			description: ["&6Was ist das?", "Shulker sind Wesen in Muschelschalen, die dich schweben lassen.", "", "&6So gehts", "Besiege Shulker mit dem Schwert, wenn sie ihre Schale öffnen. Nimm Schutz vor Schwebe-Effekt mit (Milch).", "", "&6Wofür ist das wichtig?", "Sie lassen Shulkerschalen fallen für Shulkerkisten."]
 			id: "D297C054D943BB85"
 			title: "Endstadt: Shulker"
 			rewards: [{ id: "7536D6070F66D2E9", type: "xp_levels", xp_levels: 3 }]
@@ -525,7 +539,7 @@
 		}
 		{
 			dependencies: ["D297C054D943BB85"]
-			description: ["&6Was ist das?", "Manche Endstaedte haben ein Endschiff mit Elytra.", "", "&6So gehts", "Betrete das Schiff vorsichtig, Drachenkopf und Truhen sind dort. Brich die Truhe auf und nimm die Elytra aus dem Rahmen.", "", "&6Wofuer ist das wichtig?", "Die Elytra erlaubt dir zu gleiten und mit Raketen zu fliegen."]
+			description: ["&6Was ist das?", "Manche Endstädte haben ein Endschiff mit Elytra.", "", "&6So gehts", "Betrete das Schiff vorsichtig, Drachenkopf und Truhen sind dort. Brich die Truhe auf und nimm die Elytra aus dem Rahmen.", "", "&6Wofür ist das wichtig?", "Die Elytra erlaubt dir zu gleiten und mit Raketen zu fliegen."]
 			id: "1D7CA1A0A747FF18"
 			title: "Endstadt: Endschiff"
 			rewards: [{ id: "27374ABBCEBEF91D", type: "xp_levels", xp_levels: 3 }]

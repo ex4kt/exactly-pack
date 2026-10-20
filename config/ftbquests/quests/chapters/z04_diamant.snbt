@@ -10,9 +10,9 @@
 	quests: [
 		{
 			dependencies: ["35D9C17C3DF9768D"]
-			description: ["&6Was ist das?", "Diamant ist lange das Ziel. Stelle eine Spitzhacke aus Diamant her.", "", "&6So gehts", "Diamanten tief unten finden, am besten um Ebene minus 58.", "Fuer Diamantwerkzeug brauchst du das passende Eisenwerkzeug: Es kommt im Rezept an die Stelle des oberen Stocks.", "", "&6Wofuer ist das wichtig?", "Diamantwerkzeug baut Obsidian ab. Damit kommst du in den Nether."]
+			description: ["&6Was ist das?", "Diamant ist lange das Ziel. Stelle eine Spitzhacke aus Diamant her.", "", "&6So gehts", "Diamanten tief unten finden, am besten um Ebene minus 58.", "Für Diamantwerkzeug brauchst du das passende Eisenwerkzeug: Es kommt im Rezept an die Stelle des oberen Stocks.", "", "&6Wofür ist das wichtig?", "Diamantwerkzeug baut Obsidian ab. Damit kommst du in den Nether."]
 			id: "63064054BBFD8FB1"
-			title: "Diamant-Ausruestung"
+			title: "Diamant-Ausrüstung"
 			rewards: [{ id: "04CF41EB62772C30", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "586642040DF2A94C", type: "item", item: { id: "minecraft:diamond_pickaxe", count: 1 }, count: 1L }]
 			x: 3.00d
@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
-			description: ["&6Was ist das?", "Das Hauptschwert der Diamantzeit.", "", "&6So gehts", "Zwei Diamanten, darunter das Eisenschwert statt des Stocks.", "", "&6Wofuer ist das wichtig?", "Pflicht fuer den Aufstieg. Grundlage aller Diamant-Spezialwaffen."]
+			description: ["&6Was ist das?", "Das Hauptschwert der Diamantzeit.", "", "&6So gehts", "Zwei Diamanten, darunter das Eisenschwert statt des Stocks.", "", "&6Wofür ist das wichtig?", "Pflicht für den Aufstieg. Grundlage aller Diamant-Spezialwaffen."]
 			icon: { id: "minecraft:diamond_sword" }
 			id: "31E652570EB0BD57"
 			title: "Diamantschwert"
@@ -31,10 +31,10 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Starke Ruestung aus Diamant.", "", "&6So gehts", "Wie Eisenruestung, nur mit Diamanten.", "", "&6Wofuer ist das wichtig?", "Pflicht fuer den Nether und die ersten Bosse."]
+			description: ["&6Was ist das?", "Starke Rüstung aus Diamant.", "", "&6So gehts", "Wie Eisenrüstung, nur mit Diamanten.", "", "&6Wofür ist das wichtig?", "Pflicht für den Nether und die ersten Bosse."]
 			icon: { id: "minecraft:diamond_chestplate" }
 			id: "69BF8973F8D01A34"
-			title: "Diamantruestung"
+			title: "Diamantrüstung"
 			rewards: [{ id: "74F8084D4491A135", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2BBAC307BD308F25", type: "item", item: { id: "minecraft:diamond_chestplate", count: 1 }, count: 1L }]
 			x: 6.00d
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
-			description: ["&6Was ist das?", "Mit dem Schmiedetisch verbesserst du Ausruestung mit Ruestungsdesign und Netherit.", "", "&6So gehts", "Vorlage, Ausruestung und Material einlegen.", "", "&6Wofuer ist das wichtig?", "Aus Diamant wird hier Netherit, Advanced Netherite und viele Mod-Ruestungen werden hier verbessert."]
+			description: ["&6Was ist das?", "Mit dem Schmiedetisch verbesserst du Ausrüstung mit Rüstungsdesign und Netherit.", "", "&6So gehts", "Vorlage, Ausrüstung und Material einlegen.", "", "&6Wofür ist das wichtig?", "Aus Diamant wird hier Netherit, Advanced Netherite und viele Mod-Rüstungen werden hier verbessert."]
 			id: "2DEDA3D57FB89524"
 			title: "Schmiedetisch"
 			rewards: [{ id: "5BF54DFA91207BCE", type: "xp_levels", xp_levels: 2 }]
@@ -52,7 +52,7 @@
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
-			description: ["&6Was ist das?", "Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plaetze.", "", "&6So gehts", "Gold-Rucksack mit Diamanten aufwerten.", "", "&6Wofuer ist das wichtig?", "Viele Plaetze und Upgrade-Slots fuer lange Reisen."]
+			description: ["&6Was ist das?", "Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plätze.", "", "&6So gehts", "Gold-Rucksack mit Diamanten aufwerten.", "", "&6Wofür ist das wichtig?", "Viele Plätze und Upgrade-Slots für lange Reisen."]
 			hide_dependency_lines: true
 			id: "797F4B8218472B01"
 			title: "Diamant-Rucksack"
@@ -63,7 +63,7 @@
 		}
 		{
 			dependencies: ["797F4B8218472B01"]
-			description: ["&6Was ist das?", "Die Magnum-Fackel haelt Monster in einem grossen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Naehe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept in JEI).", "Stelle sie mitten in deine Basis.", "", "&6Wofuer ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
+			description: ["&6Was ist das?", "Die Magnum-Fackel hält Monster in einem großen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Nähe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept in JEI).", "Stelle sie mitten in deine Basis.", "", "&6Wofür ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
 			id: "2B4C71F6BF32A230"
 			title: "Monsterfreie Zone"
 			rewards: [{ id: "19E97F71F8105A8A", type: "item", item: { id: "minecraft:torch", count: 16 } }]
@@ -73,7 +73,7 @@
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
-			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
+			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
 			icon: { id: "justhammers:diamond_hammer" }
 			hide_dependency_lines: true
 			id: "598824065CC1F63B"
@@ -85,10 +85,10 @@
 		}
 		{
 			dependencies: ["598824065CC1F63B"]
-			description: ["&6Was ist das?", "Eine verstaerkte Spitzhacke aus Minecraft Dungeons.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Haltbarkeit fuer lange Bergbau-Touren."]
+			description: ["&6Was ist das?", "Eine verstärkte Spitzhacke aus Minecraft Dungeons.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Haltbarkeit für lange Bergbau-Touren."]
 			icon: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe" }
 			id: "3001D0B57ED05F99"
-			title: "Verstaerkte Diamant-Spitzhacke"
+			title: "Verstärkte Diamant-Spitzhacke"
 			rewards: [{ id: "66CC5C6021171209", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "57507A72DC39A771", type: "item", item: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe", count: 1 }, count: 1L }]
 			x: 3.00d
@@ -96,7 +96,7 @@
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
-			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schliessen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Buecherregale im Abstand von einem Block darum herum machen die Verzauberungen staerker.", "Lapis und Erfahrung zahlen.", "", "&6Wofuer ist das wichtig?", "Effizienz, Glueck und Haltbarkeit machen dich viel schneller und sparen Material.", "", "&6Gut zu wissen", "Mit 15 Buecherregalen im Abstand von einem Block rund um den Tisch erreichst du die hoechste Verzauberungsstufe (30). Lapislazuli ist der Preis jeder Verzauberung."]
+			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schließen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Bücherregale im Abstand von einem Block darum herum machen die Verzauberungen stärker.", "Lapis und Erfahrung zahlen.", "", "&6Wofür ist das wichtig?", "Effizienz, Glück und Haltbarkeit machen dich viel schneller und sparen Material.", "", "&6Gut zu wissen", "Mit 15 Bücherregalen im Abstand von einem Block rund um den Tisch erreichst du die höchste Verzauberungsstufe (30). Lapislazuli ist der Preis jeder Verzauberung."]
 			id: "2502CCD91E41AFC0"
 			title: "Der Verzauberungstisch"
 			rewards: [{ id: "69B8EA263F9CBAB4", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
@@ -106,7 +106,7 @@
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
-			description: ["&6Was ist das?", "Apothic Enchanting ersetzt das normale Verzaubern.", "Jedes Buecherregal hat Werte: Eterna (Staerke), Quanta (Zufall) und Arcana (Seltenheit).", "", "&6So gehts", "Stelle verschiedene Buecherregale um den Verzauberungstisch. Fahre mit der Maus ueber den Tisch, um die Werte zu sehen.", "Bessere Regale (z.B. aus Nether- oder End-Material) bringen hoehere Stufen.", "JEI zeigt alle besonderen Regale und Rezepte.", "", "&6Wofuer ist das wichtig?", "Mit guten Regalen bekommst du Verzauberungen ueber der normalen Hoechststufe. Das macht Werkzeuge und Ruestung fuer die Bosse stark."]
+			description: ["&6Was ist das?", "Apothic Enchanting ersetzt das normale Verzaubern.", "Jedes Bücherregal hat Werte: Eterna (Stärke), Quanta (Zufall) und Arcana (Seltenheit).", "", "&6So gehts", "Stelle verschiedene Bücherregale um den Verzauberungstisch. Fahre mit der Maus über den Tisch, um die Werte zu sehen.", "Bessere Regale (z.B. aus Nether- oder End-Material) bringen höhere Stufen.", "JEI zeigt alle besonderen Regale und Rezepte.", "", "&6Wofür ist das wichtig?", "Mit guten Regalen bekommst du Verzauberungen über der normalen Höchststufe. Das macht Werkzeuge und Rüstung für die Bosse stark."]
 			icon: { id: "minecraft:enchanted_book" }
 			id: "1DB3F417D7AE0137"
 			title: "Apothic Enchanting"
@@ -117,10 +117,10 @@
 		}
 		{
 			dependencies: ["1DB3F417D7AE0137"]
-			description: ["&6Was ist das?", "Mit Easy Disenchanting uebertraegst du Verzauberungen auf Buecher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofuer ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
+			description: ["&6Was ist das?", "Mit Easy Disenchanting überträgst du Verzauberungen auf Bücher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofür ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
 			hide_dependency_lines: true
 			id: "79245A87CC32FE72"
-			title: "Verzauberung uebertragen"
+			title: "Verzauberung übertragen"
 			rewards: [{ id: "6016C3A2CE568AF9", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "753B1D909508CF15", type: "checkmark" }]
 			x: 1.50d
@@ -128,7 +128,7 @@
 		}
 		{
 			dependencies: ["79245A87CC32FE72"]
-			description: ["&6Was ist das?", "Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick fuellt oder leert es.", "", "&6So gehts", "Rechtsklick fuellt, Shift-Rechtsklick holt sie zurueck.", "", "&6Wofuer ist das wichtig?", "Beim Tod verlierst du gespeicherte Erfahrung nicht. Spare fuer grosse Verzauberungen."]
+			description: ["&6Was ist das?", "Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick füllt oder leert es.", "", "&6So gehts", "Rechtsklick füllt, Shift-Rechtsklick holt sie zurück.", "", "&6Wofür ist das wichtig?", "Beim Tod verlierst du gespeicherte Erfahrung nicht. Spare für große Verzauberungen."]
 			id: "0FD6302A9ABCCF31"
 			title: "XP speichern"
 			rewards: [{ id: "03686DE193C50947", type: "xp_levels", xp_levels: 2 }]
@@ -138,7 +138,7 @@
 		}
 		{
 			dependencies: ["0FD6302A9ABCCF31"]
-			description: ["&6Was ist das?", "Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "", "&6So gehts", "Das Buch bekommst du nicht geschenkt. Du findest es am Verzauberungstisch (hohes Level), beim Bibliothekar im Dorf oder in Beutetruhen.", "Lege Spitzhacke und Buch in den Amboss. Halte beim Abbauen die Veinminer-Taste (Standard: Tilde/Grad) gedrueckt, dann folgt die ganze Ader.", "", "&6Wofuer ist das wichtig?", "Spart viel Zeit beim Erzabbau. Bestaetige die Quest, sobald du das Buch selbst besorgt hast."]
+			description: ["&6Was ist das?", "Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "", "&6So gehts", "Das Buch bekommst du nicht geschenkt. Du findest es am Verzauberungstisch (hohes Level), beim Bibliothekar im Dorf oder in Beutetruhen.", "Lege Spitzhacke und Buch in den Amboss. Halte beim Abbauen die Veinminer-Taste (Standard: Tilde/Grad) gedrückt, dann folgt die ganze Ader.", "", "&6Wofür ist das wichtig?", "Spart viel Zeit beim Erzabbau. Bestätige die Quest, sobald du das Buch selbst besorgt hast."]
 			icon: { id: "minecraft:enchanted_book" }
 			id: "37407FF743621E7E"
 			title: "Veinminer-Verzauberung"
@@ -149,9 +149,9 @@
 		}
 		{
 			dependencies: ["37407FF743621E7E"]
-			description: ["&6Was ist das?", "Die Verzauberung Glueck bringt mehr Items aus Erzen.", "Verzaubere deine Spitzhacke damit, bevor du Diamanten abbaust.", "", "&6So gehts", "Auf die Spitzhacke verzaubern.", "", "&6Wofuer ist das wichtig?", "Bis zu viermal so viele Diamanten. Fuer Eisen und Gold lieber die Create-Zerkleinerung nutzen."]
+			description: ["&6Was ist das?", "Die Verzauberung Glück bringt mehr Items aus Erzen.", "Verzaubere deine Spitzhacke damit, bevor du Diamanten abbaust.", "", "&6So gehts", "Auf die Spitzhacke verzaubern.", "", "&6Wofür ist das wichtig?", "Bis zu viermal so viele Diamanten. Für Eisen und Gold lieber die Create-Zerkleinerung nutzen."]
 			id: "08E13C4778BBECAD"
-			title: "Glueck (Fortune)"
+			title: "Glück (Fortune)"
 			rewards: [{ id: "4DD145F7248AA806", type: "item", item: { id: "minecraft:lapis_lazuli", count: 8 } }]
 			tasks: [{ id: "0EDE54BC06F9109D", type: "checkmark" }]
 			x: 6.00d
@@ -159,9 +159,9 @@
 		}
 		{
 			dependencies: ["08E13C4778BBECAD"]
-			description: ["&6Was ist das?", "Mit Seidenberuehrung bekommst du Bloecke selbst statt ihrer Drops, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofuer ist das wichtig?", "Fuer Glas, Eis, Bienennester und Erzbloecke zum spaeteren Glueck-Abbau."]
+			description: ["&6Was ist das?", "Mit Seidenberührung bekommst du Blöcke selbst statt ihrer Drops, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofür ist das wichtig?", "Für Glas, Eis, Bienennester und Erzblöcke zum späteren Glück-Abbau."]
 			id: "188BE6C057D774EB"
-			title: "Seidenberuehrung"
+			title: "Seidenberührung"
 			rewards: [{ id: "7503D49029A10950", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2AC6DFDF11A53533", type: "checkmark" }]
 			x: 7.50d
@@ -169,7 +169,7 @@
 		}
 		{
 			dependencies: ["188BE6C057D774EB"]
-			description: ["&6Was ist das?", "Mit der Verzauberung Reparatur (Mending) reparieren sich Werkzeuge durch Erfahrung. Du bekommst sie von Bibliothekaren oder aus Truhen.", "", "&6So gehts", "Mit Reparatur (Mending) verzaubern, dann repariert Erfahrung das Item.", "Oder im Amboss mit Material reparieren.", "", "&6Wofuer ist das wichtig?", "Gute Werkzeuge musst du dann nie mehr neu machen."]
+			description: ["&6Was ist das?", "Mit der Verzauberung Reparatur (Mending) reparieren sich Werkzeuge durch Erfahrung. Du bekommst sie von Bibliothekaren oder aus Truhen.", "", "&6So gehts", "Mit Reparatur (Mending) verzaubern, dann repariert Erfahrung das Item.", "Oder im Amboss mit Material reparieren.", "", "&6Wofür ist das wichtig?", "Gute Werkzeuge musst du dann nie mehr neu machen."]
 			id: "2CB401D63D9F4388"
 			title: "Reparieren"
 			rewards: [{ id: "782AFEB88FB49A62", type: "xp_levels", xp_levels: 4 }]
@@ -179,11 +179,11 @@
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
-			description: ["&6Was ist das?", "Buecherregale machen den Verzauberungstisch staerker.", "", "&6So gehts", "Bretter und Buecher. Buecher aus Papier und Leder.", "", "&6Wofuer ist das wichtig?", "Mit Apothic Enchanting gibt es viele besondere Regale."]
+			description: ["&6Was ist das?", "Bücherregale machen den Verzauberungstisch stärker.", "", "&6So gehts", "Bretter und Bücher. Bücher aus Papier und Leder.", "", "&6Wofür ist das wichtig?", "Mit Apothic Enchanting gibt es viele besondere Regale."]
 			icon: { id: "minecraft:bookshelf" }
 			hide_dependency_lines: true
 			id: "04B61412DE38FA60"
-			title: "Buecherregale"
+			title: "Bücherregale"
 			rewards: [{ id: "039AFD1CA1DEA8D1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6500D6CE1A353583", type: "item", item: { id: "minecraft:bookshelf", count: 1 }, count: 15L }]
 			x: 1.50d
@@ -191,7 +191,7 @@
 		}
 		{
 			dependencies: ["04B61412DE38FA60"]
-			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofuer ist das wichtig?", "Jedes Regal veraendert die Werte am Tisch anders."]
+			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofür ist das wichtig?", "Jedes Regal verändert die Werte am Tisch anders."]
 			icon: { id: "apothic_enchanting:beeshelf" }
 			id: "0A60B7540735FCD4"
 			title: "Regal-Vielfalt"
@@ -202,7 +202,7 @@
 		}
 		{
 			dependencies: ["0A60B7540735FCD4"]
-			description: ["&6Was ist das?", "Die Bibliothek speichert unendlich viele Verzauberungsbuecher.", "", "&6So gehts", "Rezept in JEI. Buecher hineinlegen, einzelne Verzauberungen wieder herausnehmen.", "", "&6Wofuer ist das wichtig?", "Ordnung fuer alle Buecher und gezieltes Verzaubern."]
+			description: ["&6Was ist das?", "Die Bibliothek speichert unendlich viele Verzauberungsbücher.", "", "&6So gehts", "Rezept in JEI. Bücher hineinlegen, einzelne Verzauberungen wieder herausnehmen.", "", "&6Wofür ist das wichtig?", "Ordnung für alle Bücher und gezieltes Verzaubern."]
 			icon: { id: "apothic_enchanting:library" }
 			id: "2ED40011201DDCD2"
 			title: "Bibliothek"
@@ -213,7 +213,7 @@
 		}
 		{
 			dependencies: ["2ED40011201DDCD2"]
-			description: ["&6Was ist das?", "Mit dem Schrott-Buch rettest du Verzauberungen von alten Items.", "", "&6So gehts", "Im Amboss mit einem verzauberten Item kombinieren.", "", "&6Wofuer ist das wichtig?", "Gute Verzauberungen gehen nie mehr verloren."]
+			description: ["&6Was ist das?", "Mit dem Schrott-Buch rettest du Verzauberungen von alten Items.", "", "&6So gehts", "Im Amboss mit einem verzauberten Item kombinieren.", "", "&6Wofür ist das wichtig?", "Gute Verzauberungen gehen nie mehr verloren."]
 			icon: { id: "apothic_enchanting:scrap_tome" }
 			id: "0103A684D1C7A7B0"
 			title: "Schrott-Buch"
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["1DB3F417D7AE0137"]
-			description: ["&6Was ist das?", "Obsidian brauchst du fuer Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch fuer Verzauberungstisch und Enderkisten.", "", "&6Gut zu wissen", "Obsidian entsteht, wenn Wasser auf Lava trifft. Ein Nether-Portal braucht mindestens 10 Bloecke Obsidian (ein Rahmen von 4x5 ohne Ecken)."]
+			description: ["&6Was ist das?", "Obsidian brauchst du für Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofür ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch für Verzauberungstisch und Enderkisten.", "", "&6Gut zu wissen", "Obsidian entsteht, wenn Wasser auf Lava trifft. Ein Nether-Portal braucht mindestens 10 Blöcke Obsidian (ein Rahmen von 4x5 ohne Ecken)."]
 			id: "1512FC1565ADD973"
 			title: "Obsidian"
 			rewards: [{ id: "0F084224ABF2B814", type: "xp_levels", xp_levels: 3 }]
@@ -234,10 +234,10 @@
 		}
 		{
 			dependencies: ["1512FC1565ADD973"]
-			description: ["&6Was ist das?", "Der Warden ist blind, hoert aber jedes Geraeusch. Er ist staerker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Staedte). Schleiche und wirf Schneebaelle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausruestung und Heiltraenken.", "", "&6Wofuer ist das wichtig?", "Antike Staedte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Ruestungsdesigns."]
+			description: ["&6Was ist das?", "Der Warden ist blind, hört aber jedes Geräusch. Er ist stärker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Städte). Schleiche und wirf Schneebälle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausrüstung und Heiltränken.", "", "&6Wofür ist das wichtig?", "Antike Städte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Rüstungsdesigns."]
 			hide_dependency_lines: true
 			id: "150D1F4AD2F8211C"
-			title: "Der Waechter der Tiefe"
+			title: "Der Wächter der Tiefe"
 			rewards: [{ id: "6126F822FCD62ACF", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
 			tasks: [{ id: "1317427E80675D00", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
 			x: 1.50d
@@ -245,7 +245,7 @@
 		}
 		{
 			dependencies: ["150D1F4AD2F8211C"]
-			description: ["&6Was ist das?", "Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausruestung.", "", "&6So gehts", "Mit dem Natures Compass oder einer Forscherkarte vom Kartografen finden.", "Magier (Evoker) lassen den Totem der Unsterblichkeit fallen.", "", "&6Wofuer ist das wichtig?", "Der Totem rettet dich einmal vor dem Tod. Halte ihn in der zweiten Hand bei jedem Bosskampf."]
+			description: ["&6Was ist das?", "Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausrüstung.", "", "&6So gehts", "Mit dem Natures Compass oder einer Forscherkarte vom Kartografen finden.", "Magier (Evoker) lassen den Totem der Unsterblichkeit fallen.", "", "&6Wofür ist das wichtig?", "Der Totem rettet dich einmal vor dem Tod. Halte ihn in der zweiten Hand bei jedem Bosskampf."]
 			id: "671BE8F3FAC5BA64"
 			title: "Das Waldanwesen"
 			rewards: [{ id: "63F207EFFC388F04", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
@@ -255,7 +255,7 @@
 		}
 		{
 			dependencies: ["671BE8F3FAC5BA64"]
-			description: ["&6Was ist das?", "Illager Invasion bringt den Invoker, einen sehr starken Illager-Magier.", "", "&6So gehts", "Er erscheint in Ueberfaellen und eigenen Bauten. Halte Abstand von seinen Zaubern und greife zwischen den Zaubern an.", "", "&6Wofuer ist das wichtig?", "Gute Beute und Training fuer die grossen Bosse."]
+			description: ["&6Was ist das?", "Illager Invasion bringt den Invoker, einen sehr starken Illager-Magier.", "", "&6So gehts", "Er erscheint in Überfällen und eigenen Bauten. Halte Abstand von seinen Zaubern und greife zwischen den Zaubern an.", "", "&6Wofür ist das wichtig?", "Gute Beute und Training für die großen Bosse."]
 			id: "5678565198FD7665"
 			title: "Der Illager-Magier"
 			rewards: [{ id: "5D0184279585879A", type: "xp_levels", xp_levels: 8 }]
@@ -265,7 +265,7 @@
 		}
 		{
 			dependencies: ["5678565198FD7665"]
-			description: ["&6Was ist das?", "Raided: neue Raid-Gegner wie Necromancer, Incinerator und Inquisitor.", "", "&6So gehts", "Bei einem Raid oder Aussenposten besiegen.", "", "&6Wofuer ist das wichtig?", "Starke Gegner mit guter Beute."]
+			description: ["&6Was ist das?", "Raided: neue Raid-Gegner wie Necromancer, Incinerator und Inquisitor.", "", "&6So gehts", "Bei einem Raid oder Außenposten besiegen.", "", "&6Wofür ist das wichtig?", "Starke Gegner mit guter Beute."]
 			icon: { id: "raided:necromancer_spawn_egg" }
 			id: "57EA3BA48156F517"
 			title: "Raid-Magier"
@@ -276,7 +276,7 @@
 		}
 		{
 			dependencies: ["5678565198FD7665"]
-			description: ["&6Was ist das?", "Illager Invasion: Platin aus Illager-Burgen.", "", "&6So gehts", "Platinbrocken finden und verarbeiten.", "", "&6Wofuer ist das wichtig?", "Fuer den Verzauberungs-Tisch der Illager."]
+			description: ["&6Was ist das?", "Illager Invasion: Platin aus Illager-Burgen.", "", "&6So gehts", "Platinbrocken finden und verarbeiten.", "", "&6Wofür ist das wichtig?", "Für den Verzauberungs-Tisch der Illager."]
 			icon: { id: "illagerinvasion:platinum_sheet" }
 			id: "000C90CEB11DB7E0"
 			title: "Platin"
@@ -287,10 +287,10 @@
 		}
 		{
 			dependencies: ["000C90CEB11DB7E0"]
-			description: ["&6Was ist das?", "Illager Invasion: Der Tisch erhoeht Verzauberungen ueber die normale Grenze.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Noch staerkere Ausruestung."]
+			description: ["&6Was ist das?", "Illager Invasion: Der Tisch erhöht Verzauberungen über die normale Grenze.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Noch stärkere Ausrüstung."]
 			icon: { id: "illagerinvasion:imbuing_table" }
 			id: "298030CF36D333B8"
-			title: "Verstaerkungstisch"
+			title: "Verstärkungstisch"
 			rewards: [{ id: "6E37824A61358204", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3AA91CB6938F087C", type: "item", item: { id: "illagerinvasion:imbuing_table", count: 1 }, count: 1L }]
 			x: 7.50d
@@ -298,11 +298,11 @@
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
-			description: ["&6Was ist das?", "Pruefungskammern sind unterirdische Kampfraeume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner fuer Schluessel.", "", "&6Wofuer ist das wichtig?", "Mit Schluesseln oeffnest du Tresore voller Beute."]
+			description: ["&6Was ist das?", "Prüfungskammern sind unterirdische Kampfräume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner für Schlüssel.", "", "&6Wofür ist das wichtig?", "Mit Schlüsseln öffnest du Tresore voller Beute."]
 			icon: { id: "minecraft:trial_key" }
 			hide_dependency_lines: true
 			id: "56EB4F04FE6703CA"
-			title: "Pruefungskammern"
+			title: "Prüfungskammern"
 			rewards: [{ id: "6D4958C4A15B4EC8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "76F13C18E393C3D5", type: "item", item: { id: "minecraft:trial_key", count: 1 }, count: 1L }]
 			x: 1.50d
@@ -310,7 +310,7 @@
 		}
 		{
 			dependencies: ["56EB4F04FE6703CA"]
-			description: ["&6Was ist das?", "Der Breeze ist ein Windwesen aus den Pruefungskammern.", "", "&6So gehts", "Besiege Breezes. Weiche ihren Windstoessen aus.", "", "&6Wofuer ist das wichtig?", "Fuer Windladungen und den Streitkolben."]
+			description: ["&6Was ist das?", "Der Breeze ist ein Windwesen aus den Prüfungskammern.", "", "&6So gehts", "Besiege Breezes. Weiche ihren Windstößen aus.", "", "&6Wofür ist das wichtig?", "Für Windladungen und den Streitkolben."]
 			icon: { id: "minecraft:breeze_rod" }
 			id: "42F98F559D0D3AAB"
 			title: "Breeze-Rute"
@@ -321,7 +321,7 @@
 		}
 		{
 			dependencies: ["42F98F559D0D3AAB"]
-			description: ["&6Was ist das?", "Der Streitkolben macht mehr Schaden, je tiefer du faellst.", "", "&6So gehts", "Schwerer Kern aus einem Tresor und eine Breeze-Rute.", "", "&6Wofuer ist das wichtig?", "Mit Windladung hochspringen und zuschlagen."]
+			description: ["&6Was ist das?", "Der Streitkolben macht mehr Schaden, je tiefer du fällst.", "", "&6So gehts", "Schwerer Kern aus einem Tresor und eine Breeze-Rute.", "", "&6Wofür ist das wichtig?", "Mit Windladung hochspringen und zuschlagen."]
 			icon: { id: "minecraft:mace" }
 			id: "4D07825894473270"
 			title: "Streitkolben"
@@ -332,7 +332,7 @@
 		}
 		{
 			dependencies: ["4D07825894473270"]
-			description: ["&6Was ist das?", "Echo-Splitter liegen in Antiken Staedten.", "", "&6So gehts", "Leise schleichen und Truhen pluendern.", "", "&6Wofuer ist das wichtig?", "Fuer den Bergungskompass, der zu deinem Tod zeigt."]
+			description: ["&6Was ist das?", "Echo-Splitter liegen in Antiken Städten.", "", "&6So gehts", "Leise schleichen und Truhen plündern.", "", "&6Wofür ist das wichtig?", "Für den Bergungskompass, der zu deinem Tod zeigt."]
 			icon: { id: "minecraft:echo_shard" }
 			id: "77494855C8A929F6"
 			title: "Echo-Splitter"
@@ -343,7 +343,7 @@
 		}
 		{
 			dependencies: ["150D1F4AD2F8211C"]
-			description: ["&6Was ist das?", "Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee.", "", "&6So gehts", "In der Welt suchen.", "", "&6Wofuer ist das wichtig?", "Einzigartige Beute."]
+			description: ["&6Was ist das?", "Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee.", "", "&6So gehts", "In der Welt suchen.", "", "&6Wofür ist das wichtig?", "Einzigartige Beute."]
 			id: "3749C4A14CCFBD1A"
 			title: "Mowzies Mobs"
 			rewards: [{ id: "33456B4702982F82", type: "xp_levels", xp_levels: 3 }]
@@ -353,7 +353,7 @@
 		}
 		{
 			dependencies: ["3749C4A14CCFBD1A"]
-			description: ["&6Was ist das?", "Die Frostmaw lebt in eisigen Hoehlen. Besiege sie und nimm den Eiskristall.", "", "&6So gehts", "In Schneebiomen.", "", "&6Wofuer ist das wichtig?", "Eis-Kristall."]
+			description: ["&6Was ist das?", "Die Frostmaw lebt in eisigen Höhlen. Besiege sie und nimm den Eiskristall.", "", "&6So gehts", "In Schneebiomen.", "", "&6Wofür ist das wichtig?", "Eis-Kristall."]
 			id: "0B8CCEB9DB0BE858"
 			title: "Die Frostmaw"
 			rewards: [{ id: "43F345F1AAD570A9", type: "xp_levels", xp_levels: 10 }]
@@ -363,7 +363,7 @@
 		}
 		{
 			dependencies: ["0B8CCEB9DB0BE858"]
-			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe.", "", "&6So gehts", "In Hoehlen.", "", "&6Wofuer ist das wichtig?", "Starke Axt."]
+			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe.", "", "&6So gehts", "In Höhlen.", "", "&6Wofür ist das wichtig?", "Starke Axt."]
 			id: "1369046F14D5434E"
 			title: "Der Eisenschmetterer"
 			rewards: [{ id: "4B737ADC349C885C", type: "xp_levels", xp_levels: 8 }]
@@ -373,9 +373,9 @@
 		}
 		{
 			dependencies: ["1369046F14D5434E"]
-			description: ["&6Was ist das?", "Umvuthi ist der Boss der Sonnenstaemme. Du brauchst starke Ausruestung.", "", "&6So gehts", "In Savannen.", "", "&6Wofuer ist das wichtig?", "Sonnenmaske."]
+			description: ["&6Was ist das?", "Umvuthi ist der Boss der Sonnenstämme. Du brauchst starke Ausrüstung.", "", "&6So gehts", "In Savannen.", "", "&6Wofür ist das wichtig?", "Sonnenmaske."]
 			id: "4580E8D9C3F5A821"
-			title: "Der Sonnenhaeuptling"
+			title: "Der Sonnenhäuptling"
 			rewards: [{ id: "5629662047E90E8D", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "696F74A495101ACA", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
 			x: 7.50d
@@ -383,7 +383,7 @@
 		}
 		{
 			dependencies: ["4580E8D9C3F5A821"]
-			description: ["&6Was ist das?", "Der Sculptor ist ein Boss in einem hohen Turm.", "", "&6So gehts", "In Bergen.", "", "&6Wofuer ist das wichtig?", "Bildhauer-Stab."]
+			description: ["&6Was ist das?", "Der Sculptor ist ein Boss in einem hohen Turm.", "", "&6So gehts", "In Bergen.", "", "&6Wofür ist das wichtig?", "Bildhauer-Stab."]
 			id: "2F0C741B8BE7C505"
 			title: "Der Bildhauer"
 			rewards: [{ id: "1C38C48823B3E1BE", type: "xp_levels", xp_levels: 12 }]
@@ -393,7 +393,7 @@
 		}
 		{
 			dependencies: ["3749C4A14CCFBD1A"]
-			description: ["&6Was ist das?", "Mowzies Mobs: Der Earthrend Gauntlet zieht dich an Gegner heran.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Erdmagie."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Der Earthrend Gauntlet zieht dich an Gegner heran.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Erdmagie."]
 			id: "746765CD8906AF2D"
 			title: "Erdbrecher-Handschuh"
 			rewards: [{ id: "5872A977677D74E1", type: "xp_levels", xp_levels: 5 }]
@@ -403,7 +403,7 @@
 		}
 		{
 			dependencies: ["746765CD8906AF2D"]
-			description: ["&6Was ist das?", "Mowzies Mobs: Die Sol Visage vom Umvuthi schiesst Sonnenstrahlen.", "", "&6So gehts", "Vom Boss.", "", "&6Wofuer ist das wichtig?", "Sonnenkraft."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Die Sol Visage vom Umvuthi schießt Sonnenstrahlen.", "", "&6So gehts", "Vom Boss.", "", "&6Wofür ist das wichtig?", "Sonnenkraft."]
 			id: "682527776DB20343"
 			title: "Sonnen-Maske"
 			rewards: [{ id: "59C7C0950595CE07", type: "xp_levels", xp_levels: 6 }]
@@ -413,7 +413,7 @@
 		}
 		{
 			dependencies: ["682527776DB20343"]
-			description: ["&6Was ist das?", "Mowzies Mobs: Der Stab des Bildhauers formt Steinsaeulen.", "", "&6So gehts", "Vom Bildhauer.", "", "&6Wofuer ist das wichtig?", "Felsmagie."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Der Stab des Bildhauers formt Steinsäulen.", "", "&6So gehts", "Vom Bildhauer.", "", "&6Wofür ist das wichtig?", "Felsmagie."]
 			id: "12F17AD8F6A0FF6B"
 			title: "Bildhauer-Stab"
 			rewards: [{ id: "08802EF5C9E3CC1D", type: "xp_levels", xp_levels: 5 }]
@@ -423,7 +423,7 @@
 		}
 		{
 			dependencies: ["12F17AD8F6A0FF6B"]
-			description: ["&6Was ist das?", "Mowzies Mobs: Ruestung des Geomanten.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Erdmagie."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Rüstung des Geomanten.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Erdmagie."]
 			id: "70708B1B525BDA37"
 			title: "Geomanten-Robe"
 			rewards: [{ id: "727831C5BB7F9407", type: "xp_levels", xp_levels: 4 }]
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["70708B1B525BDA37"]
-			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschiesst Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Gift-Pfeile."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschießt Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Gift-Pfeile."]
 			id: "0CBF80C3F9C3353A"
 			title: "Blasrohr"
 			rewards: [{ id: "5B36875581E561FD", type: "xp_levels", xp_levels: 3 }]
@@ -443,7 +443,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "2033B010211045B7"
@@ -455,7 +455,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "3C16417455BF901B"
@@ -467,11 +467,11 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihaender mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "0950AD20BDAA2B45"
-			title: "Diamant-Grossschwert"
+			title: "Diamant-Großschwert"
 			rewards: [{ id: "0019A06A53CBD543", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "747B67A6FB82DB2D", type: "item", item: { id: "weaponsexpanded:diamond_greatsword", count: 1 }, count: 1L }]
 			x: 4.50d
@@ -479,7 +479,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge fuer viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "5C364D9ACC48B4FA"
@@ -491,7 +491,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "0F16990376D1A846"
@@ -503,7 +503,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "32D6E55482ABC3AD"
@@ -515,7 +515,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlaegt Gegner zurueck.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "6D207A38EA79BD24"
@@ -527,7 +527,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flaechenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "5BEA137C19885E89"
@@ -539,7 +539,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "54263A8EF275AFD9"
@@ -551,7 +551,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			hide_dependency_lines: true
 			id: "660CDF873CC0CCED"
@@ -563,7 +563,7 @@
 		}
 		{
 			dependencies: ["660CDF873CC0CCED"]
-			description: ["&6Was ist das?", "Das Langschwert aus Diamant.", "", "&6So gehts", "Rezept in JEI. Das Eisen-Langschwert gehoert ins Rezept.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden fuer die Bosse der Diamantzeit."]
+			description: ["&6Was ist das?", "Das Langschwert aus Diamant.", "", "&6So gehts", "Rezept in JEI. Das Eisen-Langschwert gehört ins Rezept.", "", "&6Wofür ist das wichtig?", "Mehr Schaden für die Bosse der Diamantzeit."]
 			icon: { id: "simplyswords:diamond_longsword" }
 			id: "044532E4F2FBF3DB"
 			title: "Simply Swords: Diamant-Langschwert"
@@ -574,7 +574,7 @@
 		}
 		{
 			dependencies: ["671BE8F3FAC5BA64"]
-			description: ["&6Was ist das?", "Mit Dragon Mounts kannst du Drachen ausbruetten und reiten.", "Du findest Eier in der Welt. Bruete das Ei aus und fuettere den Drachen.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofuer ist das wichtig?", "Abenteuer in der Luft."]
+			description: ["&6Was ist das?", "Mit Dragon Mounts kannst du Drachen ausbrüten und reiten.", "Du findest Eier in der Welt. Brüte das Ei aus und füttere den Drachen.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Abenteuer in der Luft."]
 			id: "2095E2163EB75A2E"
 			title: "Drachen"
 			rewards: [{ id: "278E32062C9FAF17", type: "xp_levels", xp_levels: 4 }]
@@ -584,7 +584,7 @@
 		}
 		{
 			dependencies: ["2095E2163EB75A2E"]
-			description: ["&6Was ist das?", "Dragon Mounts: Mit der Pfeife rufst du deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dein Drache kommt, egal wo du bist."]
+			description: ["&6Was ist das?", "Dragon Mounts: Mit der Pfeife rufst du deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Dein Drache kommt, egal wo du bist."]
 			icon: { id: "minecraft:goat_horn" }
 			id: "03A558E7A3EF9D0A"
 			title: "Drachenpfeife"
@@ -595,10 +595,10 @@
 		}
 		{
 			dependencies: ["03A558E7A3EF9D0A"]
-			description: ["&6Was ist das?", "Dragon Mounts: Ruestung fuer deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofuer ist das wichtig?", "Dein Drache haelt mehr aus."]
+			description: ["&6Was ist das?", "Dragon Mounts: Rüstung für deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Dein Drache hält mehr aus."]
 			icon: { id: "minecraft:diamond_horse_armor" }
 			id: "6DCE2C608F30263F"
-			title: "Drachenruestung"
+			title: "Drachenrüstung"
 			rewards: [{ id: "3999BA1A3766E73E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4B05E22BFBB2ECED", type: "checkmark" }]
 			x: 7.50d
@@ -606,7 +606,7 @@
 		}
 		{
 			dependencies: ["32D7C0032123B540"]
-			description: ["&6Was ist das?", "Das Diamant-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Ausruestung, Diamant-Werkzeug, Verzaubern, Bibliothek, Portal, Gefahren, Illager-Schaetze, Pruefungskammern, Mowzies Mobs, Mowzie-Beute, Waffenkammer, Drachen.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofuer ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins naechste. Nebenzweige kannst du jederzeit spaeter machen."]
+			description: ["&6Was ist das?", "Das Diamant-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Ausrüstung, Diamant-Werkzeug, Verzaubern, Bibliothek, Portal, Gefahren, Illager-Schätze, Prüfungskammern, Mowzies Mobs, Mowzie-Beute, Waffenkammer, Drachen.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofür ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins nächste. Nebenzweige kannst du jederzeit später machen."]
 			icon: { id: "minecraft:diamond_pickaxe" }
 			id: "35D9C17C3DF9768D"
 			title: "Beginn: Diamant-Zeitalter"
@@ -619,7 +619,7 @@
 		}
 		{
 			dependencies: ["1512FC1565ADD973"]
-			description: ["&6Was ist das?", "Hier beginnt das Nether-Zeitalter. Es schaltet frei:", "Der Nether: Das Portal laesst dich jetzt durch.", "", "&6So gehts", "Schliesse den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort fuer alle Spieler, auch fuer die, die gerade nicht online sind.", "", "&6Wofuer ist das wichtig?", "Im naechsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus frueheren Zeitaltern kannst du jederzeit nachholen."]
+			description: ["&6Was ist das?", "Hier beginnt das Nether-Zeitalter. Es schaltet frei:", "Der Nether: Das Portal lässt dich jetzt durch.", "", "&6So gehts", "Schließe den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort für alle Spieler, auch für die, die gerade nicht online sind.", "", "&6Wofür ist das wichtig?", "Im nächsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus früheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherrack" }
 			id: "3289CBE6B6A936DA"
 			title: "Zeitalter: Nether-Zeitalter"
@@ -632,7 +632,7 @@
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
-			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:trident" }
 			hide_dependency_lines: true
 			id: "5DBD766E57EBAD5C"
@@ -644,7 +644,7 @@
 		}
 		{
 			dependencies: ["5DBD766E57EBAD5C"]
-			description: ["&6Was ist das?", "Macht mehr Schaden, je tiefer du faellst.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Macht mehr Schaden, je tiefer du fällst.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:mace" }
 			id: "5086933097CF61B1"
 			title: "Streitkolben (Arsenal)"
@@ -655,7 +655,7 @@
 		}
 		{
 			dependencies: ["5086933097CF61B1"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:sword_on_a_stick" }
 			id: "6FF42D7D5578B047"
 			title: "Sword on a Stick"
@@ -666,7 +666,7 @@
 		}
 		{
 			dependencies: ["6FF42D7D5578B047"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:bramblethorn" }
 			id: "79E59BD72EF2B2FA"
 			title: "Bramblethorn"
@@ -677,7 +677,7 @@
 		}
 		{
 			dependencies: ["79E59BD72EF2B2FA"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:shadowsting" }
 			id: "3B0494D1532C6741"
 			title: "Shadowsting"
@@ -688,7 +688,7 @@
 		}
 		{
 			dependencies: ["3B0494D1532C6741"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:sunfire" }
 			id: "79D42AC833677EF7"
 			title: "Sunfire"
@@ -699,7 +699,7 @@
 		}
 		{
 			dependencies: ["79D42AC833677EF7"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:waxweaver" }
 			id: "5BF2ACA4018B0585"
 			title: "Waxweaver"
@@ -710,7 +710,7 @@
 		}
 		{
 			dependencies: ["5BF2ACA4018B0585"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:hiveheart" }
 			id: "054957A0438D7F48"
 			title: "Hiveheart"
@@ -721,7 +721,7 @@
 		}
 		{
 			dependencies: ["054957A0438D7F48"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stars_edge" }
 			id: "2EBF10B876FFFC1E"
 			title: "Star's Edge"
@@ -732,7 +732,7 @@
 		}
 		{
 			dependencies: ["2EBF10B876FFFC1E"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wickpiercer" }
 			id: "031BF1D67CD9E053"
 			title: "Wickpiercer"
@@ -743,7 +743,7 @@
 		}
 		{
 			dependencies: ["031BF1D67CD9E053"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:gloampiercer" }
 			id: "73088E647EC47A82"
 			title: "Gloampiercer"
@@ -754,7 +754,7 @@
 		}
 		{
 			dependencies: ["5DBD766E57EBAD5C"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:chompolotl" }
 			id: "6D4236478EE6630F"
 			title: "Chomp'olotl"
@@ -765,7 +765,7 @@
 		}
 		{
 			dependencies: ["6D4236478EE6630F"]
-			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Faehigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:toxic_longsword" }
 			id: "27404CB179E86D81"
 			title: "Longsword of the Plague"
@@ -776,7 +776,7 @@
 		}
 		{
 			dependencies: ["27404CB179E86D81"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:wrought_axe" }
 			id: "768216066194A7D8"
 			title: "Axe of a Thousand Metals"
@@ -787,7 +787,7 @@
 		}
 		{
 			dependencies: ["768216066194A7D8"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:spear" }
 			id: "0E7E6AE197DCAD0A"
 			title: "Spear"
@@ -798,7 +798,7 @@
 		}
 		{
 			dependencies: ["0E7E6AE197DCAD0A"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:naga_fang_dagger" }
 			id: "7FD822594DF4DC90"
 			title: "Naga Fang Dagger"
@@ -809,7 +809,7 @@
 		}
 		{
 			dependencies: ["7FD822594DF4DC90"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:sculptor_staff" }
 			id: "54FE5C1180E344FF"
 			title: "Geomancer Staff"
@@ -820,7 +820,7 @@
 		}
 		{
 			dependencies: ["6D4236478EE6630F"]
-			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Ein starker Bogen fuer die mittleren Bosse."]
+			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Ein starker Bogen für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_bow" }
 			id: "1338FFE60935D51A"
 			title: "Diamantbogen"
@@ -831,7 +831,7 @@
 		}
 		{
 			dependencies: ["1338FFE60935D51A"]
-			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfuegbar im Diamant-Zeitalter.", "", "&6Wofuer ist das wichtig?", "Starke Armbrust fuer die mittleren Bosse."]
+			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Starke Armbrust für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_crossbow" }
 			id: "1B2144517BC5AC69"
 			title: "Diamantarmbrust"
@@ -842,7 +842,7 @@
 		}
 		{
 			dependencies: ["1B2144517BC5AC69"]
-			description: ["&6Was ist das?", "Der Diamantpfeil.", "", "&6So gehts", "Diesen Pfeil gibt es in unserer Archeries-Version nicht. Hake die Quest einfach ab.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden pro Schuss."]
+			description: ["&6Was ist das?", "Der Diamantpfeil.", "", "&6So gehts", "Diesen Pfeil gibt es in unserer Archeries-Version nicht. Hake die Quest einfach ab.", "", "&6Wofür ist das wichtig?", "Mehr Schaden pro Schuss."]
 			icon: { id: "minecraft:arrow" }
 			id: "5DEB458F606EEFCD"
 			title: "Diamantpfeil"
@@ -853,7 +853,7 @@
 		}
 		{
 			dependencies: ["1338FFE60935D51A"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:diamond_pickaxe" }
 			hide_dependency_lines: true
 			id: "1136F86CA38A7C38"
@@ -865,10 +865,10 @@
 		}
 		{
 			dependencies: ["1136F86CA38A7C38"]
-			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "minecraft:diamond_chestplate" }
 			id: "1AEBC6FD6A90E4B1"
-			title: "Ruestung Diamant"
+			title: "Rüstung Diamant"
 			rewards: []
 			tasks: [{ id: "4ED945500A1A5C96", type: "checkmark" }]
 			x: 3.00d
@@ -876,10 +876,10 @@
 		}
 		{
 			dependencies: ["1AEBC6FD6A90E4B1"]
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:divine_chestplate" }
 			id: "4D83ED26672135F4"
-			title: "Divine (Ruestung)"
+			title: "Divine (Rüstung)"
 			rewards: []
 			tasks: [{ id: "44DDD73D4C8B4C12", type: "checkmark" }]
 			x: 4.50d
@@ -887,10 +887,10 @@
 		}
 		{
 			dependencies: ["4D83ED26672135F4"]
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:prismarine_chestplate" }
 			id: "12441AAB862A6BAA"
-			title: "Prismarine (Ruestung)"
+			title: "Prismarine (Rüstung)"
 			rewards: []
 			tasks: [{ id: "6246B8D72714D4E8", type: "checkmark" }]
 			x: 6.00d
@@ -898,10 +898,10 @@
 		}
 		{
 			dependencies: ["12441AAB862A6BAA"]
-			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U druecken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "mowziesmobs:wrought_helmet" }
 			id: "28646A08B1E6D57D"
-			title: "Wrought Helm (Ruestung)"
+			title: "Wrought Helm (Rüstung)"
 			rewards: []
 			tasks: [{ id: "60FD1D6BB2B603B3", type: "checkmark" }]
 			x: 7.50d
@@ -909,7 +909,7 @@
 		}
 		{
 			dependencies: ["35D9C17C3DF9768D"]
-			description: ["&6Was ist das?", "Ein Speer aus Diamant.", "", "&6So gehts", "Diamant und Stock, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Starker Wurfspeer der Diamantzeit."]
+			description: ["&6Was ist das?", "Ein Speer aus Diamant.", "", "&6So gehts", "Diamant und Stock, siehe JEI.", "", "&6Wofür ist das wichtig?", "Starker Wurfspeer der Diamantzeit."]
 			hide_dependency_lines: true
 			id: "6065747E97AF7361"
 			title: "Diamantspeer"
@@ -920,7 +920,7 @@
 		}
 		{
 			dependencies: ["6065747E97AF7361"]
-			description: ["&6Was ist das?", "Ein Bumerang aus Diamant.", "", "&6So gehts", "Diamant, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Hoher Schaden aus der Distanz."]
+			description: ["&6Was ist das?", "Ein Bumerang aus Diamant.", "", "&6So gehts", "Diamant, siehe JEI.", "", "&6Wofür ist das wichtig?", "Hoher Schaden aus der Distanz."]
 			id: "41D2D2ADE474E548"
 			title: "Diamantbumerang"
 			rewards: [{ id: "7C759201B7B89887", type: "xp_levels", xp_levels: 3 }]
@@ -930,10 +930,10 @@
 		}
 		{
 			dependencies: ["35D9C17C3DF9768D"]
-			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut ist ein riesiger Eisengolem-Boss in seiner Kammer unter der Erde.", "", "&6So gehts", "Diamantruestung, ein Diamantschwert oder Axt, Heiltraenke und Goldaepfel. Weiche seinen Schlaegen aus.", "", "&6Wofuer ist das wichtig?", "Erster Boss der Diamantzeit."]
+			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut ist ein riesiger Eisengolem-Boss in seiner Kammer unter der Erde.", "", "&6So gehts", "Diamantrüstung, ein Diamantschwert oder Axt, Heiltränke und Goldäpfel. Weiche seinen Schlägen aus.", "", "&6Wofür ist das wichtig?", "Erster Boss der Diamantzeit."]
 			hide_dependency_lines: true
 			id: "42859D02779932CC"
-			title: "Eiserner Waechter"
+			title: "Eiserner Wächter"
 			rewards: [{ id: "00398B7575503487", type: "xp_levels", xp_levels: 8 }, { id: "0A61BB3422F2971B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "1AB20C0ACD75974B", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "minecraft:iron_block" } }]
 			x: 1.50d
@@ -941,7 +941,7 @@
 		}
 		{
 			dependencies: ["42859D02779932CC"]
-			description: ["&6Was ist das?", "Frostmaw, ein riesiger Eisbaer in verschneiten Gebieten.", "", "&6So gehts", "Diamantruestung, Feuerschutz-Traenke, Bogen. Er greift in Wellen an.", "", "&6Wofuer ist das wichtig?", "Boss fuer kalte Biome."]
+			description: ["&6Was ist das?", "Frostmaw, ein riesiger Eisbär in verschneiten Gebieten.", "", "&6So gehts", "Diamantrüstung, Feuerschutz-Tränke, Bogen. Er greift in Wellen an.", "", "&6Wofür ist das wichtig?", "Boss für kalte Biome."]
 			id: "69102A9BDB2D4FFB"
 			title: "Frostmaul"
 			rewards: [{ id: "3C317595391E7867", type: "xp_levels", xp_levels: 8 }, { id: "694F058C593B4A90", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -951,9 +951,9 @@
 		}
 		{
 			dependencies: ["69102A9BDB2D4FFB"]
-			description: ["&6Was ist das?", "Umvuthi ist der Anfuehrer der Barakoa in ihren Doerfern.", "", "&6So gehts", "Diamantruestung, Schild, Heiltraenke. Seine Wachen greifen mit an.", "", "&6Wofuer ist das wichtig?", "Boss der Barakoa-Doerfer."]
+			description: ["&6Was ist das?", "Umvuthi ist der Anführer der Barakoa in ihren Dörfern.", "", "&6So gehts", "Diamantrüstung, Schild, Heiltränke. Seine Wachen greifen mit an.", "", "&6Wofür ist das wichtig?", "Boss der Barakoa-Dörfer."]
 			id: "0985399D5D0017D5"
-			title: "Barako der Sonnenkoenig"
+			title: "Barako der Sonnenkönig"
 			rewards: [{ id: "641AA2E6CEB40563", type: "xp_levels", xp_levels: 8 }, { id: "212DBAFA880D7423", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "223F9692BF560191", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
 			x: 4.50d
@@ -961,7 +961,7 @@
 		}
 		{
 			dependencies: ["0985399D5D0017D5"]
-			description: ["&6Was ist das?", "Ein riesiger Zombie, der Gegner wegschleudert.", "", "&6So gehts", "Diamantruestung, Schild. Halte Abstand und nutze den Bogen.", "", "&6Wofuer ist das wichtig?", "Starker Gegner der Diamantzeit."]
+			description: ["&6Was ist das?", "Ein riesiger Zombie, der Gegner wegschleudert.", "", "&6So gehts", "Diamantrüstung, Schild. Halte Abstand und nutze den Bogen.", "", "&6Wofür ist das wichtig?", "Starker Gegner der Diamantzeit."]
 			id: "2246934C01E48F4E"
 			title: "Mutant-Zombie"
 			rewards: [{ id: "33F4D7EC2D01BADB", type: "xp_levels", xp_levels: 5 }]
@@ -971,7 +971,7 @@
 		}
 		{
 			dependencies: ["2246934C01E48F4E"]
-			description: ["&6Was ist das?", "Ein riesiges Skelett, das mehrere Pfeile gleichzeitig schiesst.", "", "&6So gehts", "Diamantruestung, Schild. Nahkampf, wenn es nah ist.", "", "&6Wofuer ist das wichtig?", "Fernkampf-Mutant der Diamantzeit."]
+			description: ["&6Was ist das?", "Ein riesiges Skelett, das mehrere Pfeile gleichzeitig schießt.", "", "&6So gehts", "Diamantrüstung, Schild. Nahkampf, wenn es nah ist.", "", "&6Wofür ist das wichtig?", "Fernkampf-Mutant der Diamantzeit."]
 			id: "3E6B4CD6BE2E683E"
 			title: "Mutant-Skelett"
 			rewards: [{ id: "1C4262B5AD9806FD", type: "xp_levels", xp_levels: 5 }]
@@ -981,7 +981,7 @@
 		}
 		{
 			dependencies: ["3E6B4CD6BE2E683E"]
-			description: ["&6Was ist das?", "Ein riesiger Creeper, der explodiert und Blitze ruft.", "", "&6So gehts", "Diamantruestung, Abstand halten und mit dem Bogen schiessen.", "", "&6Wofuer ist das wichtig?", "Gefaehrlicher Mutant, nutze Distanzwaffen."]
+			description: ["&6Was ist das?", "Ein riesiger Creeper, der explodiert und Blitze ruft.", "", "&6So gehts", "Diamantrüstung, Abstand halten und mit dem Bogen schießen.", "", "&6Wofür ist das wichtig?", "Gefährlicher Mutant, nutze Distanzwaffen."]
 			id: "7EDF045A11C92083"
 			title: "Mutant-Creeper"
 			rewards: [{ id: "2A9AD2222CCAFCDC", type: "xp_levels", xp_levels: 5 }]
@@ -991,7 +991,7 @@
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
-			description: ["&6Was ist das?", "Neun Diamanten werden zu einem Block.", "", "&6So gehts", "Neun Diamanten quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Schoene Deko und kompaktes Lager fuer deinen Schatz."]
+			description: ["&6Was ist das?", "Neun Diamanten werden zu einem Block.", "", "&6So gehts", "Neun Diamanten quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Schöne Deko und kompaktes Lager für deinen Schatz."]
 			hide_dependency_lines: true
 			id: "32FAAA7DA2F5723D"
 			title: "Diamantblock"
@@ -1002,7 +1002,7 @@
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
-			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Hilfreich beim Erkunden und Spaehen."]
+			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich beim Erkunden und Spähen."]
 			hide_dependency_lines: true
 			id: "DD4576E9FB33B743"
 			title: "Fernglas"
@@ -1013,7 +1013,7 @@
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
-			description: ["&6Was ist das?", "Das blaue Material fuer Verzauberungen.", "", "&6So gehts", "Baue Lapis-Erz tief unter der Erde ab.", "", "&6Wofuer ist das wichtig?", "Ohne Lapis keine Verzauberungen."]
+			description: ["&6Was ist das?", "Das blaue Material für Verzauberungen.", "", "&6So gehts", "Baue Lapis-Erz tief unter der Erde ab.", "", "&6Wofür ist das wichtig?", "Ohne Lapis keine Verzauberungen."]
 			hide_dependency_lines: true
 			id: "F271723A2A89DA65"
 			title: "Lapislazuli"
@@ -1024,7 +1024,7 @@
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
-			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurueck.", "", "&6So gehts", "Zwei Stoecke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
+			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurück.", "", "&6So gehts", "Zwei Stöcke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
 			hide_dependency_lines: true
 			id: "25B9B3C3109D1578"
 			title: "Schleifstein"
@@ -1035,7 +1035,7 @@
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
-			description: ["&6Was ist das?", "Ein Apfel mit starker Heilwirkung.", "", "&6So gehts", "Acht Goldbarren um einen Apfel in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Rettet dich im Notfall vor dem Tod."]
+			description: ["&6Was ist das?", "Ein Apfel mit starker Heilwirkung.", "", "&6So gehts", "Acht Goldbarren um einen Apfel in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Rettet dich im Notfall vor dem Tod."]
 			hide_dependency_lines: true
 			id: "31A632BD8B609BCE"
 			title: "Goldener Apfel"
@@ -1046,10 +1046,10 @@
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
-			description: ["&6Was ist das?", "Zeigt deine Ruestung im Haus.", "", "&6So gehts", "Stoecke und glatte Steinplatte. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch zum Wechseln der Ausruestung und fuer Deko."]
+			description: ["&6Was ist das?", "Zeigt deine Rüstung im Haus.", "", "&6So gehts", "Stöcke und glatte Steinplatte. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Wechseln der Ausrüstung und für Deko."]
 			hide_dependency_lines: true
 			id: "0A340152DBA56AA6"
-			title: "Ruestungsstaender"
+			title: "Rüstungsständer"
 			rewards: [{ id: "B4881BCDA77BAD09", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "672AB12E22F61754", type: "item", item: { id: "minecraft:armor_stand", count: 1 }, count: 1L }]
 			x: 4.50d
@@ -1057,7 +1057,7 @@
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
-			description: ["&6Was ist das?", "Rahmen halten Gegenstaende an der Wand.", "", "&6So gehts", "Stoecke und Leder in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Rahmen zeigst du Truheninhalte oder Sammlungen."]
+			description: ["&6Was ist das?", "Rahmen halten Gegenstände an der Wand.", "", "&6So gehts", "Stöcke und Leder in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Rahmen zeigst du Truheninhalte oder Sammlungen."]
 			hide_dependency_lines: true
 			id: "2B5A3C1A87D01853"
 			title: "Rahmen"
@@ -1068,7 +1068,7 @@
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
-			description: ["&6Was ist das?", "Amethystbloecke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Wunderschoen fuer Raeume und Verzauberungsecken."]
+			description: ["&6Was ist das?", "Amethystblöcke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Wunderschön für Räume und Verzauberungsecken."]
 			hide_dependency_lines: true
 			id: "F9C9F6DF1FFBBB12"
 			title: "Kristall-Deko"
@@ -1079,11 +1079,11 @@
 		}
 		{
 			dependencies: ["1512FC1565ADD973"]
-			description: ["&6Was ist das?", "Der Waechter (Warden) lebt in der Alten Stadt tief unter der Erde. Er hat 500 Leben, ist blind und hoert jede Erschuetterung.", "", "&6So gehts", "Diese Anleitung zeigt, wie du ihn meidest oder besiegst.", "", "&6Wofuer ist das wichtig?", "Wer ihn weckt, stirbt oft in wenigen Schlaegen. Gute Vorbereitung rettet dein Leben."]
+			description: ["&6Was ist das?", "Der Wächter (Warden) lebt in der Alten Stadt tief unter der Erde. Er hat 500 Leben, ist blind und hört jede Erschütterung.", "", "&6So gehts", "Diese Anleitung zeigt, wie du ihn meidest oder besiegst.", "", "&6Wofür ist das wichtig?", "Wer ihn weckt, stirbt oft in wenigen Schlägen. Gute Vorbereitung rettet dein Leben."]
 			icon: { id: "minecraft:sculk_shrieker" }
 			hide_dependency_lines: true
 			id: "CC819D2B72F31CEC"
-			title: "Waechter: Ueberblick"
+			title: "Waechter: Überblick"
 			rewards: [{ id: "4437E80A6FECED2F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "EA6C52B216512200", type: "checkmark" }]
 			x: 1.50d
@@ -1091,7 +1091,7 @@
 		}
 		{
 			dependencies: ["CC819D2B72F31CEC"]
-			description: ["&6Was ist das?", "Die Alte Stadt liegt im Biom Tiefes Dunkel.", "", "&6So gehts", "Suche das Biom Tiefes Dunkel (mit dem Naturkompass) und grabe auf etwa Hoehe -51 nach unten, bis du Tiefenschiefer-Fliesen siehst.", "", "&6Wofuer ist das wichtig?", "Dort sind seltene Kisten mit Verzauberungen und der Waechter."]
+			description: ["&6Was ist das?", "Die Alte Stadt liegt im Biom Tiefes Dunkel.", "", "&6So gehts", "Suche das Biom Tiefes Dunkel (mit dem Naturkompass) und grabe auf etwa Höhe -51 nach unten, bis du Tiefenschiefer-Fliesen siehst.", "", "&6Wofür ist das wichtig?", "Dort sind seltene Kisten mit Verzauberungen und der Wächter."]
 			icon: { id: "minecraft:deepslate_tiles" }
 			id: "BCC8C920E156ECD2"
 			title: "Waechter: Alte Stadt finden"
@@ -1102,7 +1102,7 @@
 		}
 		{
 			dependencies: ["BCC8C920E156ECD2"]
-			description: ["&6Was ist das?", "Der Waechter hoert Geraeusche und Erschuetterungen.", "", "&6So gehts", "Halte Shift (schleichen), dann machst du keine Geraeusche. Wolle daempft Schwingungen: Lege sie auf den Boden, ueber den du laeufst.", "Sculk-Schreier rufen den Waechter. Loese sie nicht aus.", "", "&6Wofuer ist das wichtig?", "Wer leise bleibt, kann die Truhen in der Stadt leeren, ohne ihn zu wecken."]
+			description: ["&6Was ist das?", "Der Wächter hört Geräusche und Erschütterungen.", "", "&6So gehts", "Halte Shift (schleichen), dann machst du keine Geräusche. Wolle dämpft Schwingungen: Lege sie auf den Boden, über den du läufst.", "Sculk-Schreier rufen den Wächter. Löse sie nicht aus.", "", "&6Wofür ist das wichtig?", "Wer leise bleibt, kann die Truhen in der Stadt leeren, ohne ihn zu wecken."]
 			icon: { id: "minecraft:white_wool" }
 			id: "8855D24A6E4A31F9"
 			title: "Waechter: Schleichen und Wolle"
@@ -1113,10 +1113,10 @@
 		}
 		{
 			dependencies: ["8855D24A6E4A31F9"]
-			description: ["&6Was ist das?", "Ein Treffer des Waechters ist sehr hart.", "", "&6So gehts", "Nimm die beste Ruestung, viele Goldene Aepfel und gutes Essen mit. Wenn er dich anschaut, gehe in Deckung.", "", "&6Wofuer ist das wichtig?", "Er macht auch durch Ruestung grossen Schaden. Gute Ausruestung ist der Unterschied zwischen Leben und Tod."]
+			description: ["&6Was ist das?", "Ein Treffer des Wächters ist sehr hart.", "", "&6So gehts", "Nimm die beste Rüstung, viele Goldene Äpfel und gutes Essen mit. Wenn er dich anschaut, gehe in Deckung.", "", "&6Wofür ist das wichtig?", "Er macht auch durch Rüstung großen Schaden. Gute Ausrüstung ist der Unterschied zwischen Leben und Tod."]
 			icon: { id: "minecraft:golden_apple" }
 			id: "9C4094B9D6762D0B"
-			title: "Waechter: Ruestung und Essen"
+			title: "Waechter: Rüstung und Essen"
 			rewards: [{ id: "17EA35B8F96409AB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "47375AF48391FA26", type: "checkmark" }]
 			x: 6.00d
@@ -1124,19 +1124,19 @@
 		}
 		{
 			dependencies: ["9C4094B9D6762D0B"]
-			description: ["&6Was ist das?", "Besiege den Waechter, wenn du dich bereit fuehlst.", "", "&6So gehts", "Locke ihn mit einem Schneeball oder Pfeil weg, gehe in eine enge Nische, schlage zu und weiche zurueck. Er hat 500 Leben und greift mit Schall an.", "Du musst ihn nicht besiegen: Meide ihn und laufe weg, wenn er dich gehoert hat.", "", "&6Wofuer ist das wichtig?", "Er ist der staerkste Gegner der Oberwelt und gibt Erfahrung."]
+			description: ["&6Was ist das?", "Besiege den Wächter, wenn du dich bereit fühlst.", "", "&6So gehts", "Locke ihn mit einem Schneeball oder Pfeil weg, gehe in eine enge Nische, schlage zu und weiche zurück. Er hat 500 Leben und greift mit Schall an.", "Du musst ihn nicht besiegen: Meide ihn und laufe weg, wenn er dich gehört hat.", "", "&6Wofür ist das wichtig?", "Er ist der stärkste Gegner der Oberwelt und gibt Erfahrung."]
 			icon: { id: "minecraft:echo_shard" }
 			id: "F0603E32C7B6435E"
-			title: "Waechter besiegen"
+			title: "Wächter besiegen"
 			rewards: [{ id: "294CA603C4711BF6", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "02841697B2A71087", type: "kill", entity: "minecraft:warden", value: 1L }]
 			x: 7.50d
 			y: 6.00d
 		}
 		{
-			description: ["&6Abschnitt", "Hauptpfad-Ergaenzungen"]
+			description: ["&6Abschnitt", "Hauptpfad-Ergänzungen"]
 			id: "5BB1DF812749D2B2"
-			title: "Hauptpfad-Ergaenzungen"
+			title: "Hauptpfad-Ergänzungen"
 			optional: true
 			tasks: [{ id: "710645D6BEE6A0DA", type: "checkmark" }]
 			shape: "hexagon"
@@ -1144,9 +1144,9 @@
 			y: 3.00d
 		}
 		{
-			description: ["&6Abschnitt", "Anleitung: Waechter der Tiefe"]
+			description: ["&6Abschnitt", "Anleitung: Wächter der Tiefe"]
 			id: "162104B5E0CE8A1F"
-			title: "Anleitung: Waechter der Tiefe"
+			title: "Anleitung: Wächter der Tiefe"
 			optional: true
 			tasks: [{ id: "642287495745FAF2", type: "checkmark" }]
 			shape: "hexagon"
@@ -1164,9 +1164,9 @@
 			y: 9.00d
 		}
 		{
-			description: ["&6Abschnitt", "Verzauberung und Buecher"]
+			description: ["&6Abschnitt", "Verzauberung und Bücher"]
 			id: "16500C5DE8B33013"
-			title: "Verzauberung und Buecher"
+			title: "Verzauberung und Bücher"
 			optional: true
 			tasks: [{ id: "F9DE17B2353D59D6", type: "checkmark" }]
 			shape: "hexagon"
@@ -1174,9 +1174,9 @@
 			y: 17.00d
 		}
 		{
-			description: ["&6Abschnitt", "Pruefungen und Rucksack"]
+			description: ["&6Abschnitt", "Prüfungen und Rucksack"]
 			id: "E557F3699F0ABE53"
-			title: "Pruefungen und Rucksack"
+			title: "Prüfungen und Rucksack"
 			optional: true
 			tasks: [{ id: "70F51C37BBF23F0B", type: "checkmark" }]
 			shape: "hexagon"
@@ -1194,9 +1194,9 @@
 			y: 25.50d
 		}
 		{
-			description: ["&6Abschnitt", "Diamant-Ausruestung"]
+			description: ["&6Abschnitt", "Diamant-Ausrüstung"]
 			id: "0BDD511953E2719F"
-			title: "Diamant-Ausruestung"
+			title: "Diamant-Ausrüstung"
 			optional: true
 			tasks: [{ id: "132CDD7FE0C17F06", type: "checkmark" }]
 			shape: "hexagon"

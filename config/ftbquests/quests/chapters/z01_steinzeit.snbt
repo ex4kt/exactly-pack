@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["32B584A362001F6A"]
-			description: ["&6Was ist das?", "Exactly hat acht Zeitalter: Stein, Eisen, Diamant, Nether, Magie, Welten, Ende und Meister. Create, Immersive Engineering, Pneumatik und Farmers Delight sind eigene Kapitel und von Anfang an frei.", "Alles, was zu einem spaeteren Zeitalter gehoert, ist noch gesperrt.", "", "&6So gehts", "JEI zeigt bei gesperrten Rezepten ein Schloss.", "Gesperrte Werkzeuge und Bloecke funktionieren nicht, gesperrte Dimensionen (Nether, Aether, Zwielichtwald, Ende) weisen dich am Portal ab.", "Fahre in JEI oder im Inventar ueber ein gesperrtes Item: Der Tooltip nennt das Zeitalter, das es freischaltet.", "", "&6Wofuer ist das wichtig?", "Am Ende jedes Kapitels steht eine Zeitalter-Quest. Wer sie abschliesst, schaltet das naechste Zeitalter fuer alle frei. Sprecht euch also ab!"]
+			description: ["&6Was ist das?", "Exactly hat acht Zeitalter: Stein, Eisen, Diamant, Nether, Magie, Welten, Ende und Meister. Create, Immersive Engineering, Pneumatik und Farmers Delight sind eigene Kapitel und von Anfang an frei.", "Alles, was zu einem späteren Zeitalter gehört, ist noch gesperrt.", "", "&6So gehts", "JEI zeigt bei gesperrten Rezepten ein Schloss.", "Gesperrte Werkzeuge und Blöcke funktionieren nicht, gesperrte Dimensionen (Nether, Aether, Zwielichtwald, Ende) weisen dich am Portal ab.", "Fahre in JEI oder im Inventar über ein gesperrtes Item: Der Tooltip nennt das Zeitalter, das es freischaltet.", "", "&6Wofür ist das wichtig?", "Am Ende jedes Kapitels steht eine Zeitalter-Quest. Wer sie abschließt, schaltet das nächste Zeitalter für alle frei. Sprecht euch also ab!"]
 			icon: { id: "minecraft:clock" }
 			id: "093D637910111249"
 			title: "Zeitalter verstehen"
@@ -21,48 +21,48 @@
 		}
 		{
 			dependencies: ["093D637910111249"]
-			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar ueber ein Item.", "Schritt 2: Druecke R, um zu sehen, wie man es herstellt.", "Schritt 3: Druecke U, um zu sehen, wofuer man es braucht.", "", "&6So gehts", "Fahre mit der Maus ueber ein Item und druecke R: So stellst du es her.", "Druecke U: Wofuer man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofuer ist das wichtig?", "Bei ueber 400 Mods kennt niemand alle Rezepte. JEI ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W ausserdem eine Animation (Ponder)."]
+			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar über ein Item.", "Schritt 2: Drücke R, um zu sehen, wie man es herstellt.", "Schritt 3: Drücke U, um zu sehen, wofür man es braucht.", "", "&6So gehts", "Fahre mit der Maus über ein Item und drücke R: So stellst du es her.", "Drücke U: Wofür man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofür ist das wichtig?", "Bei über 400 Mods kennt niemand alle Rezepte. JEI ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W außerdem eine Animation (Ponder)."]
 			hide_dependency_lines: true
 			id: "76B62C313C1E5D43"
 			title: "Rezepte nachschlagen (JEI)"
 			rewards: [{ id: "4E710640F0D99A73", type: "item", item: { id: "minecraft:bread", count: 4 } }]
 			tasks: [{ id: "64C3B366C0CF146C", type: "checkmark" }]
 			x: 1.50d
-			y: 54.50d
+			y: 60.12d
 		}
 		{
 			dependencies: ["76B62C313C1E5D43"]
-			description: ["&6Was ist das?", "Schritt 1: Druecke M, um die Weltkarte (Xaeros) zu oeffnen.", "Schritt 2: Die Minikarte oben im Bild zeigt dir, wo du bist.", "Tipp: Auf der Karte kannst du Wegpunkte setzen (Taste N).", "", "&6So gehts", "Druecke M fuer die grosse Weltkarte.", "Mit N oeffnest du die Wegpunkt-Liste. Auf der Karte setzt du mit Rechtsklick einen Wegpunkt.", "Beim Tod wird automatisch ein Wegpunkt an der Todesstelle gesetzt.", "", "&6Wofuer ist das wichtig?", "Setze Wegpunkte fuer Basis, Doerfer und Dungeons. Ueber die Karte sicherst du spaeter auch deine Chunks (Open Parties and Claims)."]
+			description: ["&6Was ist das?", "Schritt 1: Drücke M, um die Weltkarte (Xaeros) zu öffnen.", "Schritt 2: Die Minikarte oben im Bild zeigt dir, wo du bist.", "Tipp: Auf der Karte kannst du Wegpunkte setzen (Taste N).", "", "&6So gehts", "Drücke M für die große Weltkarte.", "Mit N öffnest du die Wegpunkt-Liste. Auf der Karte setzt du mit Rechtsklick einen Wegpunkt.", "Beim Tod wird automatisch ein Wegpunkt an der Todesstelle gesetzt.", "", "&6Wofür ist das wichtig?", "Setze Wegpunkte für Basis, Dörfer und Dungeons. Über die Karte sicherst du später auch deine Chunks (Open Parties and Claims)."]
 			id: "31AE3D3C9B7D83E7"
-			title: "Karte oeffnen"
+			title: "Karte öffnen"
 			rewards: [{ id: "03D17CACB594EFE3", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0801B7B2B6063697", type: "checkmark" }]
 			x: 3.00d
-			y: 54.50d
+			y: 60.12d
 		}
 		{
 			dependencies: ["31AE3D3C9B7D83E7"]
-			description: ["&6Was ist das?", "Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren.", "", "&6So gehts", "Schaue einfach einen Block oder ein Tier an.", "Bei Oefen und Maschinen siehst du den Fortschritt, bei Pflanzen das Wachstum.", "", "&6Wofuer ist das wichtig?", "So erkennst du sofort, aus welcher Mod etwas kommt, und kannst es in JEI nachschlagen."]
+			description: ["&6Was ist das?", "Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren.", "", "&6So gehts", "Schaue einfach einen Block oder ein Tier an.", "Bei Öfen und Maschinen siehst du den Fortschritt, bei Pflanzen das Wachstum.", "", "&6Wofür ist das wichtig?", "So erkennst du sofort, aus welcher Mod etwas kommt, und kannst es in JEI nachschlagen."]
 			id: "0B043FE1AA795723"
 			title: "Alles im Blick (Jade)"
 			rewards: [{ id: "457492C4DF6411DC", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "11A4F8DB7974D30D", type: "checkmark" }]
 			x: 4.50d
-			y: 54.50d
+			y: 60.12d
 		}
 		{
 			dependencies: ["0B043FE1AA795723"]
-			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Druecke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, M Karte, N Wegpunkte, R und U in JEI.", "", "&6Wofuer ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
+			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Drücke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, M Karte, N Wegpunkte, R und U in JEI.", "", "&6Wofür ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
 			id: "7E73FC1903ABEE32"
 			title: "Tastenbelegung suchen"
 			rewards: [{ id: "4A9AF60C1862B667", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "27AF029E4518988F", type: "checkmark" }]
 			x: 6.00d
-			y: 54.50d
+			y: 60.12d
 		}
 		{
 			dependencies: ["093D637910111249"]
-			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Staemmen werden Bretter, aus Brettern Stoecke, Werkbank und Werkzeug.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofuer ist das wichtig?", "Du brauchst Holz fuer fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und spaeter fuer Create-Wellen und Wasserraeder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus.", "", "&6Gut zu wissen", "Eine Axt faellt Baeume deutlich schneller als die Hand. Pflanze fuer jeden gefaellten Baum einen Setzling nach, dann waechst der Wald nach."]
+			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Stämmen werden Bretter, aus Brettern Stöcke, Werkbank und Werkzeug.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofür ist das wichtig?", "Du brauchst Holz für fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und später für Create-Wellen und Wasserräder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus.", "", "&6Gut zu wissen", "Eine Axt fällt Bäume deutlich schneller als die Hand. Pflanze für jeden gefällten Baum einen Setzling nach, dann wächst der Wald nach."]
 			id: "5EC7640BCBDF892E"
 			title: "Holz sammeln"
 			rewards: [{ id: "0D44A1C6F6BC6D14", type: "item", item: { id: "minecraft:oak_log", count: 16 } }]
@@ -72,28 +72,28 @@
 		}
 		{
 			dependencies: ["5EC7640BCBDF892E"]
-			description: ["&6Was ist das?", "Birken erkennst du an der weissen Rinde. Ihr Holz ist hell.", "", "&6So gehts", "Faelle Birken mit der Axt. Pflanze die Setzlinge wieder ein.", "", "&6Wofuer ist das wichtig?", "Verschiedene Holzarten bringen verschiedene Farben fuer Bretter, Moebel und Deko."]
+			description: ["&6Was ist das?", "Birken erkennst du an der weißen Rinde. Ihr Holz ist hell.", "", "&6So gehts", "Fälle Birken mit der Axt. Pflanze die Setzlinge wieder ein.", "", "&6Wofür ist das wichtig?", "Verschiedene Holzarten bringen verschiedene Farben für Bretter, Möbel und Deko."]
 			hide_dependency_lines: true
 			id: "60D48C13E2FD3E4E"
 			title: "Birkenholz"
 			rewards: [{ id: "4859E0D3BD407BB3", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "6E7A654E51D29D73", type: "item", item: { id: "minecraft:birch_log", count: 1 }, count: 16L }]
 			x: 1.50d
-			y: 50.25d
+			y: 55.88d
 		}
 		{
 			dependencies: ["60D48C13E2FD3E4E"]
-			description: ["&6Was ist das?", "Fichten wachsen in Taiga und Bergen. Grosse Fichten sind 2x2 Staemme dick.", "", "&6So gehts", "Faelle eine Fichte von unten nach oben. Blaetter verschwinden dank Leaves Be Gone schnell.", "", "&6Wofuer ist das wichtig?", "Fichtenholz ist dunkel und eignet sich fuer gemuetliche Huetten."]
+			description: ["&6Was ist das?", "Fichten wachsen in Taiga und Bergen. Große Fichten sind 2x2 Stämme dick.", "", "&6So gehts", "Fälle eine Fichte von unten nach oben. Blätter verschwinden dank Leaves Be Gone schnell.", "", "&6Wofür ist das wichtig?", "Fichtenholz ist dunkel und eignet sich für gemütliche Hütten."]
 			id: "43FE5B6E4CDC40DE"
 			title: "Fichtenholz"
 			rewards: [{ id: "3E925D96D5EB07CD", type: "item", item: { id: "minecraft:torch", count: 8 } }]
 			tasks: [{ id: "6F295C5E2E57D446", type: "item", item: { id: "minecraft:spruce_log", count: 1 }, count: 16L }]
 			x: 3.00d
-			y: 50.25d
+			y: 55.88d
 		}
 		{
 			dependencies: ["5EC7640BCBDF892E"]
-			description: ["&6Was ist das?", "Bretter sind das wichtigste Baumaterial am Anfang.", "", "&6So gehts", "Ein Stamm in der Werkbank ergibt vier Bretter. Im Saegewerk bekommst du mehr Treppen und Stufen.", "", "&6Wofuer ist das wichtig?", "Kisten, Werkzeuge, Tueren, Boote und Betten brauchen Bretter.", "", "&6Gut zu wissen", "Fast alle Rezepte akzeptieren jede Brettersorte, du musst also nicht auf die Holzart achten."]
+			description: ["&6Was ist das?", "Bretter sind das wichtigste Baumaterial am Anfang.", "", "&6So gehts", "Ein Stamm in der Werkbank ergibt vier Bretter. Im Sägewerk bekommst du mehr Treppen und Stufen.", "", "&6Wofür ist das wichtig?", "Kisten, Werkzeuge, Türen, Boote und Betten brauchen Bretter.", "", "&6Gut zu wissen", "Fast alle Rezepte akzeptieren jede Brettersorte, du musst also nicht auf die Holzart achten."]
 			id: "0E282EEACBC50CE7"
 			title: "Bretter"
 			rewards: [{ id: "5DD111E360AC1F20", type: "item", item: { id: "minecraft:stick", count: 16 } }]
@@ -103,18 +103,18 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Stoecke sind Griffe fuer Werkzeuge, Fackeln und vieles mehr.", "", "&6So gehts", "Zwei Bretter uebereinander in der Werkbank ergeben vier Stoecke.", "", "&6Wofuer ist das wichtig?", "Achtung Fortschritt: Bessere Werkzeuge brauchen spaeter statt eines Stocks das Werkzeug der vorherigen Stufe."]
+			description: ["&6Was ist das?", "Stöcke sind Griffe für Werkzeuge, Fackeln und vieles mehr.", "", "&6So gehts", "Zwei Bretter übereinander in der Werkbank ergeben vier Stöcke.", "", "&6Wofür ist das wichtig?", "Achtung Fortschritt: Bessere Werkzeuge brauchen später statt eines Stocks das Werkzeug der vorherigen Stufe."]
 			hide_dependency_lines: true
 			id: "3DE40AEC331BBC59"
-			title: "Stoecke"
+			title: "Stöcke"
 			rewards: [{ id: "6F12A1481B3EF6AF", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "45AEE27528D7508D", type: "item", item: { id: "minecraft:stick", count: 1 }, count: 32L }]
 			x: 1.50d
-			y: 51.50d
+			y: 57.12d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "Fortschritt: Werkzeuge und Waffen baust du Stufe fuer Stufe. Holz, dann Stein, dann Eisen, dann Diamant. Jede Stufe braucht das Werkzeug der vorherigen im Rezept, also wirf alte Werkzeuge nicht weg.", "", "&6Wofuer ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Spaeter: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Naehe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das gruene Rezeptbuch neben dem Raster legt die Zutaten fuer bekannte Rezepte automatisch aus."]
+			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "Fortschritt: Werkzeuge und Waffen baust du Stufe für Stufe. Holz, dann Stein, dann Eisen, dann Diamant. Jede Stufe braucht das Werkzeug der vorherigen im Rezept, also wirf alte Werkzeuge nicht weg.", "", "&6Wofür ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Spaeter: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Nähe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das grüne Rezeptbuch neben dem Raster legt die Zutaten für bekannte Rezepte automatisch aus."]
 			id: "0394F82571C6DE85"
 			title: "Werkbank bauen"
 			rewards: [{ id: "6EED97054AD334F5", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
@@ -124,7 +124,7 @@
 		}
 		{
 			dependencies: ["0394F82571C6DE85"]
-			description: ["&6Was ist das?", "Die Holzspitzhacke ist das allererste Werkzeug.", "", "&6So gehts", "Drei Bretter oben, zwei Stoecke darunter.", "", "&6Wofuer ist das wichtig?", "Mit ihr baust du Stein ab. Behalte sie: Die Steinspitzhacke braucht sie im Rezept.", "", "&6Gut zu wissen", "Werkzeuge haben eine begrenzte Haltbarkeit. Holz haelt nur kurz, deshalb steigst du so schnell wie moeglich auf Stein um."]
+			description: ["&6Was ist das?", "Die Holzspitzhacke ist das allererste Werkzeug.", "", "&6So gehts", "Drei Bretter oben, zwei Stöcke darunter.", "", "&6Wofür ist das wichtig?", "Mit ihr baust du Stein ab. Behalte sie: Die Steinspitzhacke braucht sie im Rezept.", "", "&6Gut zu wissen", "Werkzeuge haben eine begrenzte Haltbarkeit. Holz hält nur kurz, deshalb steigst du so schnell wie möglich auf Stein um."]
 			id: "149718EF5100546D"
 			title: "Holzwerkzeug"
 			rewards: [{ id: "7F2046C5154ED497", type: "item", item: { id: "minecraft:apple", count: 4 } }]
@@ -134,889 +134,891 @@
 		}
 		{
 			dependencies: ["43FE5B6E4CDC40DE"]
-			description: ["&6Was ist das?", "Setzlinge fallen aus Blaettern und wachsen zu neuen Baeumen.", "", "&6So gehts", "Pflanze sie auf Erde mit genug Licht und Platz. Knochenmehl laesst sie sofort wachsen.", "", "&6Wofuer ist das wichtig?", "Eine kleine Baumfarm bei der Basis spart lange Wege."]
+			description: ["&6Was ist das?", "Setzlinge fallen aus Blättern und wachsen zu neuen Bäumen.", "", "&6So gehts", "Pflanze sie auf Erde mit genug Licht und Platz. Knochenmehl lässt sie sofort wachsen.", "", "&6Wofür ist das wichtig?", "Eine kleine Baumfarm bei der Basis spart lange Wege."]
 			id: "456B0331110261E0"
 			title: "Setzlinge pflanzen"
 			rewards: [{ id: "4AB429C7CCE3890C", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "26C9871077CE3E66", type: "item", item: { id: "minecraft:oak_sapling", count: 1 }, count: 8L }]
 			x: 4.50d
-			y: 50.25d
+			y: 55.88d
 		}
 		{
 			dependencies: ["0394F82571C6DE85"]
-			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Naehe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Bloecke).", "Schritt 2: Oeffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und oeffne sie.", "JEI-Rezepte mit dem Plus-Knopf fuellen sich dann aus den Kisten.", "", "&6Wofuer ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt fuer eine Werkstatt."]
+			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Nähe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Blöcke).", "Schritt 2: Öffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und öffne sie.", "JEI-Rezepte mit dem Plus-Knopf füllen sich dann aus den Kisten.", "", "&6Wofür ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt für eine Werkstatt."]
 			hide_dependency_lines: true
 			id: "000FE9D86692D537"
 			title: "Nearby Crafting"
 			rewards: [{ id: "1B0D19B092BFA40E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77B1B94E331B5635", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["000FE9D86692D537"]
-			description: ["&6Was ist das?", "Das Saegewerk macht aus Holz Treppen, Stufen und Zaeune ohne Verschnitt.", "", "&6So gehts", "Lege Holz hinein und waehle das Ergebnis: Treppen, Stufen, Zaeune, Tueren.", "", "&6Wofuer ist das wichtig?", "Weniger Verschnitt als in der Werkbank, ideal fuer grosse Bauten."]
+			description: ["&6Was ist das?", "Das Sägewerk macht aus Holz Treppen, Stufen und Zäune ohne Verschnitt.", "", "&6So gehts", "Lege Holz hinein und wähle das Ergebnis: Treppen, Stufen, Zäune, Türen.", "", "&6Wofür ist das wichtig?", "Weniger Verschnitt als in der Werkbank, ideal für große Bauten."]
 			id: "5EA1722598CD6B3E"
-			title: "Saegewerk"
+			title: "Sägewerk"
 			rewards: [{ id: "2DC3A3B9A5DC8D8D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "67147F0E80537073", type: "item", item: { id: "sawmill:sawmill", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["5EA1722598CD6B3E"]
-			description: ["&6Was ist das?", "Chipped: Der Zimmermannstisch verwandelt Holz in viele Deko-Varianten.", "", "&6So gehts", "Lege Bretter oder Staemme hinein und waehle eine von vielen Varianten.", "", "&6Wofuer ist das wichtig?", "Hunderte Holzmuster fuer schoene Haeuser."]
+			description: ["&6Was ist das?", "Chipped: Der Zimmermannstisch verwandelt Holz in viele Deko-Varianten.", "", "&6So gehts", "Lege Bretter oder Stämme hinein und wähle eine von vielen Varianten.", "", "&6Wofür ist das wichtig?", "Hunderte Holzmuster für schöne Häuser."]
 			id: "2F77AFA6D10F0EF6"
 			title: "Zimmermannstisch"
 			rewards: [{ id: "5B1BDD12C892136A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "608BD2F49CC248FC", type: "item", item: { id: "chipped:carpenters_table", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["2F77AFA6D10F0EF6"]
-			description: ["&6Was ist das?", "Chipped: Der Steinmetztisch verwandelt Stein in viele Deko-Varianten.", "", "&6So gehts", "Lege Stein, Ziegel oder Bruchstein hinein und waehle eine Variante.", "", "&6Wofuer ist das wichtig?", "Mauern, Boeden und Saeulen mit Stil."]
+			description: ["&6Was ist das?", "Chipped: Der Steinmetztisch verwandelt Stein in viele Deko-Varianten.", "", "&6So gehts", "Lege Stein, Ziegel oder Bruchstein hinein und wähle eine Variante.", "", "&6Wofür ist das wichtig?", "Mauern, Böden und Säulen mit Stil."]
 			id: "657109AA19C09B7A"
 			title: "Steinmetztisch"
 			rewards: [{ id: "517DCCF9E5F48D26", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7FA0E9F0288946C0", type: "item", item: { id: "chipped:mason_table", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["657109AA19C09B7A"]
-			description: ["&6Was ist das?", "Rechiseled: Der Meissel verwandelt Bloecke in Muster, die sich zu grossen Flaechen verbinden.", "", "&6So gehts", "Rechtsklick mit dem Meissel oeffnet ein Fenster. Lege Bloecke hinein und waehle ein Muster.", "", "&6Wofuer ist das wichtig?", "Grosse Waende und Boeden sehen damit sehr edel aus."]
+			description: ["&6Was ist das?", "Rechiseled: Der Meißel verwandelt Blöcke in Muster, die sich zu großen Flächen verbinden.", "", "&6So gehts", "Rechtsklick mit dem Meißel öffnet ein Fenster. Lege Blöcke hinein und wähle ein Muster.", "", "&6Wofür ist das wichtig?", "Große Wände und Böden sehen damit sehr edel aus."]
 			id: "7D113048B2ABF3D2"
-			title: "Meissel"
+			title: "Meißel"
 			rewards: [{ id: "28C0C9EB8382C171", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "61ACB74941C633B3", type: "item", item: { id: "rechiseled:chisel", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["7D113048B2ABF3D2"]
-			description: ["&6Was ist das?", "Handcrafted bringt Moebel: Stuehle, Tische, Baenke, Regale, Schraenke.", "", "&6So gehts", "Rezepte in JEI mit @handcrafted. Mit dem Hammer kannst du Moebel umgestalten.", "", "&6Wofuer ist das wichtig?", "Ein gemuetliches Zuhause, auf Stuehlen kann man sogar sitzen."]
+			description: ["&6Was ist das?", "Handcrafted bringt Moebel: Stühle, Tische, Bänke, Regale, Schränke.", "", "&6So gehts", "Rezepte in JEI mit @handcrafted. Mit dem Hammer kannst du Möbel umgestalten.", "", "&6Wofür ist das wichtig?", "Ein gemütliches Zuhause, auf Stühlen kann man sogar sitzen."]
 			id: "626C7A1375EADFD2"
-			title: "Moebel bauen"
+			title: "Möbel bauen"
 			rewards: [{ id: "2F9B5A24F15E0971", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4386E96ECD9A096B", type: "item", item: { id: "handcrafted:oak_chair", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["626C7A1375EADFD2"]
-			description: ["&6Was ist das?", "Macaws Furniture: Stuehle, Tische, Schraenke, Kuechen und Betten.", "", "&6So gehts", "Rezepte in JEI mit @mcwfurnitures. Fast alles gibt es in allen Holzarten.", "", "&6Wofuer ist das wichtig?", "Ein richtig eingerichtetes Zuhause."]
+			description: ["&6Was ist das?", "Macaws Furniture: Stühle, Tische, Schränke, Küchen und Betten.", "", "&6So gehts", "Rezepte in JEI mit @mcwfurnitures. Fast alles gibt es in allen Holzarten.", "", "&6Wofür ist das wichtig?", "Ein richtig eingerichtetes Zuhause."]
 			icon: { id: "mcwfurnitures:oak_chair" }
 			id: "5272DD27B136C7A6"
-			title: "Macaw-Moebel"
+			title: "Macaw-Möbel"
 			rewards: [{ id: "626EEFCFD4853ED8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77DD99F4F57EB0C5", type: "item", item: { id: "mcwfurnitures:oak_chair", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["5272DD27B136C7A6"]
-			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastueren, japanische Tueren und mehr.", "", "&6So gehts", "Rezepte in JEI mit @mcwdoors.", "", "&6Wofuer ist das wichtig?", "Schoene Eingaenge fuer jedes Haus."]
+			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Rezepte in JEI mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
 			icon: { id: "mcwdoors:oak_barn_door" }
 			id: "5221BB44D526AC25"
-			title: "Macaw-Tueren"
+			title: "Macaw-Türen"
 			rewards: [{ id: "342C65B82E84B859", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "76F225590909CB3B", type: "item", item: { id: "mcwdoors:oak_barn_door", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["5221BB44D526AC25"]
-			description: ["&6Was ist das?", "Macaws Bridges: Bruecken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezepte in JEI mit @mcwbridges. Setze sie Stueck fuer Stueck ueber eine Schlucht.", "", "&6Wofuer ist das wichtig?", "Sichere Wege ueber Fluesse und Abgruende."]
+			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezepte in JEI mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
 			icon: { id: "mcwbridges:rope_oak_bridge" }
 			id: "436CBA5BC0B154F4"
-			title: "Seilbruecke"
+			title: "Seilbrücke"
 			rewards: [{ id: "1161B0B85299BB86", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "24DDC33BAB35D0E6", type: "item", item: { id: "mcwbridges:rope_oak_bridge", count: 1 }, count: 4L }]
 			x: 13.50d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["436CBA5BC0B154F4"]
-			description: ["&6Was ist das?", "Another Furniture: Stuehle, Baenke, Regale, Lampen, Vorhaenge und Sofas.", "", "&6So gehts", "Rezepte in JEI mit @another_furniture.", "", "&6Wofuer ist das wichtig?", "Noch mehr Auswahl fuer dein Zuhause."]
+			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Rezepte in JEI mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
 			icon: { id: "another_furniture:oak_chair" }
 			id: "371AC58069078D46"
-			title: "Gemuetliche Moebel"
+			title: "Gemütliche Möbel"
 			rewards: [{ id: "023A23D19479A90F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2F6E985C24BD0E38", type: "item", item: { id: "another_furniture:oak_chair", count: 1 }, count: 1L }]
 			x: 15.00d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["371AC58069078D46"]
-			description: ["&6Was ist das?", "Macaws Roofs: Daecher in vielen Formen.", "", "&6So gehts", "Rezepte in JEI mit @mcwroofs.", "", "&6Wofuer ist das wichtig?", "Echte Dachschraegen statt einfacher Treppen."]
+			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Rezepte in JEI mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
 			icon: { id: "mcwroofs:oak_roof" }
 			id: "47291DA3B6CE9A9E"
 			title: "Macaw-Dach"
 			rewards: [{ id: "09242B03DA44510F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "479A5C1745DEE2FE", type: "item", item: { id: "mcwroofs:oak_roof", count: 1 }, count: 8L }]
 			x: 16.50d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["47291DA3B6CE9A9E"]
-			description: ["&6Was ist das?", "Macaws Stairs: Treppen, Gelaender und Balkone.", "", "&6So gehts", "Rezepte in JEI mit @mcwstairs.", "", "&6Wofuer ist das wichtig?", "Schoene Aufgaenge und Balkone."]
+			description: ["&6Was ist das?", "Macaws Stairs: Treppen, Geländer und Balkone.", "", "&6So gehts", "Rezepte in JEI mit @mcwstairs.", "", "&6Wofür ist das wichtig?", "Schöne Aufgänge und Balkone."]
 			icon: { id: "mcwstairs:oak_bulk_stairs" }
 			id: "602B320FA662AE3F"
 			title: "Macaw-Treppe"
 			rewards: [{ id: "6356E38976DB8D12", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "41DFE689CEF65BA3", type: "item", item: { id: "mcwstairs:oak_bulk_stairs", count: 1 }, count: 4L }]
 			x: 18.00d
-			y: 47.25d
+			y: 51.00d
 		}
 		{
 			dependencies: ["602B320FA662AE3F"]
-			description: ["&6Was ist das?", "Macaws Trapdoors: Falltueren in vielen Mustern.", "", "&6So gehts", "Rezepte in JEI mit @mcwtrpdoors.", "", "&6Wofuer ist das wichtig?", "Fensterlaeden und Bodenklappen."]
+			description: ["&6Was ist das?", "Macaws Trapdoors: Falltüren in vielen Mustern.", "", "&6So gehts", "Rezepte in JEI mit @mcwtrpdoors.", "", "&6Wofür ist das wichtig?", "Fensterläden und Bodenklappen."]
 			icon: { id: "mcwtrpdoors:oak_barn_trapdoor" }
+			hide_dependency_lines: true
 			id: "5ED04CDD6E21EF46"
-			title: "Macaw-Falltuer"
+			title: "Macaw-Falltür"
 			rewards: [{ id: "00D1CA0083778D1F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4EAD5FF90874B9D1", type: "item", item: { id: "mcwtrpdoors:oak_barn_trapdoor", count: 1 }, count: 2L }]
-			x: 19.50d
-			y: 47.25d
+			x: 1.50d
+			y: 52.88d
 		}
 		{
 			dependencies: ["5ED04CDD6E21EF46"]
-			description: ["&6Was ist das?", "Macaws Lights: Laternen, Lampen und Kronleuchter.", "", "&6So gehts", "Rezepte in JEI mit @mcwlights.", "", "&6Wofuer ist das wichtig?", "Licht, das zum Haus passt."]
+			description: ["&6Was ist das?", "Macaws Lights: Laternen, Lampen und Kronleuchter.", "", "&6So gehts", "Rezepte in JEI mit @mcwlights.", "", "&6Wofür ist das wichtig?", "Licht, das zum Haus passt."]
 			icon: { id: "mcwlights:classic_street_lamp" }
 			id: "279DB5AE1CABABDD"
 			title: "Macaw-Lampe"
 			rewards: [{ id: "5B33C6D442E91C3B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "273CE48C0C3DFAE7", type: "item", item: { id: "mcwlights:classic_street_lamp", count: 1 }, count: 1L }]
-			x: 21.00d
-			y: 47.25d
+			x: 3.00d
+			y: 52.88d
 		}
 		{
 			dependencies: ["279DB5AE1CABABDD"]
-			description: ["&6Was ist das?", "Immersive Paintings: Bilder mit eigenen Motiven.", "", "&6So gehts", "Gemaelde aufhaengen und mit Rechtsklick ein Motiv waehlen oder ein eigenes Bild laden.", "", "&6Wofuer ist das wichtig?", "Persoenliche Deko fuer eure Basis."]
+			description: ["&6Was ist das?", "Immersive Paintings: Bilder mit eigenen Motiven.", "", "&6So gehts", "Gemälde aufhängen und mit Rechtsklick ein Motiv wählen oder ein eigenes Bild laden.", "", "&6Wofür ist das wichtig?", "Persönliche Deko für eure Basis."]
 			icon: { id: "immersive_paintings:painting" }
 			id: "3C34EBC0DCE54A60"
-			title: "Eigene Gemaelde"
+			title: "Eigene Gemälde"
 			rewards: [{ id: "59EC29FC67A78DFC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "787E750326D04B44", type: "item", item: { id: "immersive_paintings:painting", count: 1 }, count: 1L }]
-			x: 22.50d
-			y: 47.25d
+			x: 4.50d
+			y: 52.88d
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofuer ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es staendig.", "", "&6Gut zu wissen", "Wenn du Stein abbaust, erhaeltst du Bruchstein. Mit einer Spitzhacke mit Seidenberuehrung bekommst du spaeter den glatten Stein selbst."]
+			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofür ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es ständig.", "", "&6Gut zu wissen", "Wenn du Stein abbaust, erhältst du Bruchstein. Mit einer Spitzhacke mit Seidenberührung bekommst du später den glatten Stein selbst."]
 			id: "3D7458B224785A88"
 			title: "Bruchstein"
 			rewards: [{ id: "661FB845F3358EED", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "583605054C42B443", type: "item", item: { id: "minecraft:cobblestone", count: 1 }, count: 64L }]
 			x: 12.00d
-			y: 5.19d
+			y: 4.25d
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Die Steinspitzhacke baut Eisen- und Kupfererz ab.", "", "&6So gehts", "Drei Bruchstein, darunter die Holzspitzhacke und ein Stock. Jede Stufe braucht das Werkzeug der vorherigen Stufe.", "", "&6Wofuer ist das wichtig?", "Ohne Steinspitzhacke kein Eisen und damit keine Eisenzeit.", "", "&6Gut zu wissen", "Mit ihr baust du Kupfer- und Eisenerz ab. Diamanten brauchen mindestens eine Eisenspitzhacke."]
+			description: ["&6Was ist das?", "Die Steinspitzhacke baut Eisen- und Kupfererz ab.", "", "&6So gehts", "Drei Bruchstein, darunter die Holzspitzhacke und ein Stock. Jede Stufe braucht das Werkzeug der vorherigen Stufe.", "", "&6Wofür ist das wichtig?", "Ohne Steinspitzhacke kein Eisen und damit keine Eisenzeit.", "", "&6Gut zu wissen", "Mit ihr baust du Kupfer- und Eisenerz ab. Diamanten brauchen mindestens eine Eisenspitzhacke."]
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "502C61E3409EAEDC"
 			title: "Steinspitzhacke"
 			rewards: [{ id: "2DCD828A621B7DF1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "63A0A7C37633A071", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 7.38d
+			y: 5.50d
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Die Steinaxt faellt Baeume schneller und macht viel Schaden.", "", "&6So gehts", "Drei Bruchstein, zwei Stoecke, wie die Holzaxt. Die Holzaxt kommt dabei ins Rezept.", "", "&6Wofuer ist das wichtig?", "Holz faellt man oft. Eine gute Axt spart viel Zeit."]
+			description: ["&6Was ist das?", "Die Steinaxt fällt Bäume schneller und macht viel Schaden.", "", "&6So gehts", "Drei Bruchstein, zwei Stöcke, wie die Holzaxt. Die Holzaxt kommt dabei ins Rezept.", "", "&6Wofür ist das wichtig?", "Holz fällt man oft. Eine gute Axt spart viel Zeit."]
 			hide_dependency_lines: true
 			id: "5BD806E521C646C0"
 			title: "Steinaxt"
 			rewards: [{ id: "6362260526B29C9E", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "0604850468E3DBCE", type: "item", item: { id: "minecraft:stone_axe", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 43.00d
+			y: 46.75d
 		}
 		{
 			dependencies: ["5BD806E521C646C0"]
-			description: ["&6Was ist das?", "Ein Schwert aus Stein, deine erste richtige Waffe.", "", "&6So gehts", "Zwei Bruchstein uebereinander, darunter das Holzschwert statt des Stocks.", "", "&6Wofuer ist das wichtig?", "Mit Better Combat hat jede Waffenart eigene Kombos. Teste sie an der Trainingspuppe."]
+			description: ["&6Was ist das?", "Ein Schwert aus Stein, deine erste richtige Waffe.", "", "&6So gehts", "Zwei Bruchstein übereinander, darunter das Holzschwert statt des Stocks.", "", "&6Wofür ist das wichtig?", "Mit Better Combat hat jede Waffenart eigene Kombos. Teste sie an der Trainingspuppe."]
 			id: "3717959A07B50B2B"
 			title: "Steinschwert"
 			rewards: [{ id: "0680E45709B74850", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "363DB0E20936DE96", type: "item", item: { id: "minecraft:stone_sword", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 43.00d
+			y: 46.75d
 		}
 		{
 			dependencies: ["502C61E3409EAEDC"]
-			description: ["&6Was ist das?", "Im Ofen schmilzt du Erze und brennst Sand, Ton und Essen.", "", "&6So gehts", "Acht Bruchstein im Kreis. Oben das Material, unten Brennstoff wie Kohle oder Holz.", "", "&6Wofuer ist das wichtig?", "Ohne Ofen kein Eisen. Und ohne Eisen keine Eisenzeit.", "", "&6Gut zu wissen", "Brennstoffe: Kohle und Holzkohle schmelzen je 8 Gegenstaende, Bretter eineinhalb, ein Lavaeimer sogar 100. Die Gegenstaende kommen oben hinein, der Brennstoff unten."]
+			description: ["&6Was ist das?", "Im Ofen schmilzt du Erze und brennst Sand, Ton und Essen.", "", "&6So gehts", "Acht Bruchstein im Kreis. Oben das Material, unten Brennstoff wie Kohle oder Holz.", "", "&6Wofür ist das wichtig?", "Ohne Ofen kein Eisen. Und ohne Eisen keine Eisenzeit.", "", "&6Gut zu wissen", "Brennstoffe: Kohle und Holzkohle schmelzen je 8 Gegenstände, Bretter eineinhalb, ein Lavaeimer sogar 100. Die Gegenstände kommen oben hinein, der Brennstoff unten."]
 			id: "5364C9419BE9A73B"
 			title: "Ofen"
 			rewards: [{ id: "78F74B84B9B40790", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "4B53D3BCD3551BAE", type: "item", item: { id: "minecraft:furnace", count: 1 }, count: 1L }]
 			x: 15.00d
-			y: 7.38d
+			y: 5.50d
 		}
 		{
 			dependencies: ["5364C9419BE9A73B"]
-			description: ["&6Was ist das?", "Holz im Ofen wird zu Holzkohle, ein Ersatz fuer Kohle.", "", "&6So gehts", "Staemme in den Ofen legen.", "", "&6Wofuer ist das wichtig?", "Wenn du keine Kohle findest, machst du Fackeln einfach aus Holzkohle."]
+			description: ["&6Was ist das?", "Holz im Ofen wird zu Holzkohle, ein Ersatz für Kohle.", "", "&6So gehts", "Stämme in den Ofen legen.", "", "&6Wofür ist das wichtig?", "Wenn du keine Kohle findest, machst du Fackeln einfach aus Holzkohle."]
 			hide_dependency_lines: true
 			id: "7200E9323E24B343"
 			title: "Holzkohle"
 			rewards: [{ id: "102F1D153DE903EC", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "128F935437A8A369", type: "item", item: { id: "minecraft:charcoal", count: 1 }, count: 8L }]
 			x: 1.50d
-			y: 41.75d
+			y: 45.50d
 		}
 		{
 			dependencies: ["5364C9419BE9A73B"]
-			description: ["&6Was ist das?", "Kohle oder Holzkohle auf einem Stock ergibt vier Fackeln.", "", "&6So gehts", "Kohle oder Holzkohle ueber einem Stock ergibt vier Fackeln.", "", "&6Wofuer ist das wichtig?", "In dunklen Hoehlen spawnen Monster. Stelle ueberall Fackeln auf.", "", "&6Gut zu wissen", "Fackeln geben viel Licht ab. Monster erscheinen im Dunkeln, also beleuchte Basis und Hoehlen. Seelenfackeln (aus dem Nether) leuchten blau."]
+			description: ["&6Was ist das?", "Kohle oder Holzkohle auf einem Stock ergibt vier Fackeln.", "", "&6So gehts", "Kohle oder Holzkohle über einem Stock ergibt vier Fackeln.", "", "&6Wofür ist das wichtig?", "In dunklen Höhlen spawnen Monster. Stelle überall Fackeln auf.", "", "&6Gut zu wissen", "Fackeln geben viel Licht ab. Monster erscheinen im Dunkeln, also beleuchte Basis und Höhlen. Seelenfackeln (aus dem Nether) leuchten blau."]
 			id: "04E3728EFBB0858D"
 			title: "Fackeln"
 			rewards: [{ id: "4FDEF51E08D4666C", type: "item", item: { id: "minecraft:torch", count: 24 } }]
 			tasks: [{ id: "3D55A1E0D64AF151", type: "item", item: { id: "minecraft:torch", count: 1 }, count: 32L }]
 			x: 16.50d
-			y: 7.38d
+			y: 5.50d
 		}
 		{
 			dependencies: ["7200E9323E24B343"]
-			description: ["&6Was ist das?", "Glas entsteht aus Sand im Ofen.", "", "&6So gehts", "Sand am Strand oder in der Wueste sammeln und schmelzen.", "", "&6Wofuer ist das wichtig?", "Fenster, Glasflaschen fuer Honig und Traenke und spaeter Gewaechshaeuser."]
+			description: ["&6Was ist das?", "Glas entsteht aus Sand im Ofen.", "", "&6So gehts", "Sand am Strand oder in der Wüste sammeln und schmelzen.", "", "&6Wofür ist das wichtig?", "Fenster, Glasflaschen für Honig und Tränke und später Gewächshäuser."]
 			id: "1C505742606CDD9D"
 			title: "Glas"
 			rewards: [{ id: "5B37050A372D6427", type: "item", item: { id: "minecraft:glass_bottle", count: 4 } }]
 			tasks: [{ id: "024E5B04280D7E2A", type: "item", item: { id: "minecraft:glass", count: 1 }, count: 16L }]
 			x: 3.00d
-			y: 41.75d
+			y: 45.50d
 		}
 		{
 			dependencies: ["1C505742606CDD9D"]
-			description: ["&6Was ist das?", "Ton aus Fluessen wird im Ofen zu Ziegeln.", "", "&6So gehts", "Ton findest du in Fluessen und Seen. Tonklumpen im Ofen brennen.", "", "&6Wofuer ist das wichtig?", "Ziegel brauchst du fuer den Herd von Farmers Delight und fuer schoene Bauten."]
+			description: ["&6Was ist das?", "Ton aus Flüssen wird im Ofen zu Ziegeln.", "", "&6So gehts", "Ton findest du in Flüssen und Seen. Tonklumpen im Ofen brennen.", "", "&6Wofür ist das wichtig?", "Ziegel brauchst du für den Herd von Farmers Delight und für schöne Bauten."]
 			id: "50DF24C7727465CF"
 			title: "Ziegel"
 			rewards: [{ id: "7D50A3CC57B13155", type: "item", item: { id: "minecraft:clay_ball", count: 8 } }]
 			tasks: [{ id: "6B8CC999AE04FCF3", type: "item", item: { id: "minecraft:brick", count: 1 }, count: 16L }]
 			x: 4.50d
-			y: 41.75d
+			y: 45.50d
 		}
 		{
 			dependencies: ["50DF24C7727465CF"]
-			description: ["&6Was ist das?", "Glatter Stein ist zweimal geschmolzener Stein.", "", "&6So gehts", "Bruchstein zu Stein schmelzen, dann Stein noch einmal schmelzen.", "", "&6Wofuer ist das wichtig?", "Daraus baust du den Schmelzofen fuer die Eisenzeit."]
+			description: ["&6Was ist das?", "Glatter Stein ist zweimal geschmolzener Stein.", "", "&6So gehts", "Bruchstein zu Stein schmelzen, dann Stein noch einmal schmelzen.", "", "&6Wofür ist das wichtig?", "Daraus baust du den Schmelzofen für die Eisenzeit."]
 			id: "3F8899973218BFDD"
 			title: "Glatter Stein"
 			rewards: [{ id: "6F261AAD45D4B499", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "756B55E53483AFC4", type: "item", item: { id: "minecraft:smooth_stone", count: 1 }, count: 16L }]
 			x: 6.00d
-			y: 41.75d
+			y: 45.50d
 		}
 		{
 			dependencies: ["3717959A07B50B2B"]
-			description: ["&6Was ist das?", "Just Hammers: Der Hammer baut 3x3 Bloecke auf einmal ab.", "", "&6So gehts", "Rezept in JEI. Schaue beim Abbauen auf eine Wand, der Hammer nimmt das ganze Quadrat.", "", "&6Wofuer ist das wichtig?", "Tunnel und Abbauflaechen gehen viel schneller. Spaeter gibt es Eisen- und Diamanthammer."]
+			description: ["&6Was ist das?", "Just Hammers: Der Hammer baut 3x3 Blöcke auf einmal ab.", "", "&6So gehts", "Rezept in JEI. Schaue beim Abbauen auf eine Wand, der Hammer nimmt das ganze Quadrat.", "", "&6Wofür ist das wichtig?", "Tunnel und Abbauflächen gehen viel schneller. Später gibt es Eisen- und Diamanthammer."]
 			icon: { id: "justhammers:stone_hammer" }
 			id: "06846FECFE8200C1"
 			title: "Steinhammer"
 			rewards: [{ id: "7824F1481B51E2F8", type: "item", item: { id: "minecraft:cobblestone", count: 32 } }]
 			tasks: [{ id: "3783787E190BABF7", type: "item", item: { id: "justhammers:stone_hammer", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 43.00d
+			y: 46.75d
 		}
 		{
 			dependencies: ["06846FECFE8200C1"]
-			description: ["&6Was ist das?", "Crafting on a Stick: eine Werkbank in der Hand.", "", "&6So gehts", "Herstellen und mit Rechtsklick in der Hand oeffnen.", "", "&6Wofuer ist das wichtig?", "Unterwegs craften, ohne eine Werkbank aufzustellen."]
+			description: ["&6Was ist das?", "Crafting on a Stick: eine Werkbank in der Hand.", "", "&6So gehts", "Herstellen und mit Rechtsklick in der Hand öffnen.", "", "&6Wofür ist das wichtig?", "Unterwegs craften, ohne eine Werkbank aufzustellen."]
 			icon: { id: "crafting_on_a_stick:crafting_table" }
 			id: "36CBAAF12C4D22D9"
 			title: "Werkbank zum Mitnehmen"
 			rewards: [{ id: "7942A1459196CF2E", type: "item", item: { id: "minecraft:crafting_table", count: 1 } }]
 			tasks: [{ id: "1BA6E203B75F11D4", type: "item", item: { id: "crafting_on_a_stick:crafting_table", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 43.00d
+			y: 46.75d
 		}
 		{
 			dependencies: ["04E3728EFBB0858D"]
-			description: ["&6Was ist das?", "Mit der Hacke machst du aus Erde Ackerboden.", "", "&6So gehts", "Rechtsklick auf Erde oder Gras. Wasser in der Naehe haelt den Boden feucht.", "", "&6Wofuer ist das wichtig?", "Ohne Ackerboden keine Felder."]
+			description: ["&6Was ist das?", "Mit der Hacke machst du aus Erde Ackerboden.", "", "&6So gehts", "Rechtsklick auf Erde oder Gras. Wasser in der Nähe hält den Boden feucht.", "", "&6Wofür ist das wichtig?", "Ohne Ackerboden keine Felder."]
 			id: "1C40D78F36FFCB0A"
 			title: "Steinhacke"
 			rewards: [{ id: "56360209B05F1683", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
 			tasks: [{ id: "16E622EA42A4E478", type: "item", item: { id: "minecraft:stone_hoe", count: 1 }, count: 1L }]
 			x: 18.00d
-			y: 7.38d
+			y: 5.50d
 		}
 		{
 			dependencies: ["1C40D78F36FFCB0A"]
-			description: ["&6Was ist das?", "Samen bekommst du von Gras. Pflanze sie auf gehacktem Boden neben Wasser.", "", "&6So gehts", "Samen bekommst du von hohem Gras. Pflanze sie auf Ackerboden neben Wasser.", "Achte auf die Jahreszeit: Im Winter waechst kaum etwas.", "", "&6Wofuer ist das wichtig?", "Brot, Teig, Kuchen und Futter fuer Kuehe und Schafe.", "", "&6Gut zu wissen", "Ackerboden wird zu Erde, wenn du darauf springst. Wasser in vier Bloecken Umkreis haelt ihn feucht, Knochenmehl laesst die Pflanzen sofort wachsen."]
+			description: ["&6Was ist das?", "Samen bekommst du von Gras. Pflanze sie auf gehacktem Boden neben Wasser.", "", "&6So gehts", "Samen bekommst du von hohem Gras. Pflanze sie auf Ackerboden neben Wasser.", "Achte auf die Jahreszeit: Im Winter wächst kaum etwas.", "", "&6Wofür ist das wichtig?", "Brot, Teig, Kuchen und Futter für Kühe und Schafe.", "", "&6Gut zu wissen", "Ackerboden wird zu Erde, wenn du darauf springst. Wasser in vier Blöcken Umkreis hält ihn feucht, Knochenmehl lässt die Pflanzen sofort wachsen."]
+			hide_dependency_lines: true
 			id: "38E431CDA13687D6"
 			title: "Weizen anbauen"
 			rewards: [{ id: "244B668FCA9C8B21", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "43C954D79E7830BE", type: "item", item: { id: "minecraft:wheat", count: 1 }, count: 16L }]
-			x: 19.50d
-			y: 7.38d
+			x: 1.50d
+			y: 9.25d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Drei Weizen nebeneinander ergeben ein Brot.", "", "&6So gehts", "Drei Weizen nebeneinander in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Ein Vorrat Brot rettet dich auf langen Ausfluegen."]
+			description: ["&6Was ist das?", "Drei Weizen nebeneinander ergeben ein Brot.", "", "&6So gehts", "Drei Weizen nebeneinander in der Werkbank.", "", "&6Wofür ist das wichtig?", "Ein Vorrat Brot rettet dich auf langen Ausflügen."]
 			id: "0E13BB3BED84B047"
 			title: "Brot backen"
 			rewards: [{ id: "0210EEE85CF34952", type: "item", item: { id: "minecraft:cooked_chicken", count: 4 } }]
 			tasks: [{ id: "467C14B9BCFCB623", type: "item", item: { id: "minecraft:bread", count: 1 }, count: 8L }]
-			x: 22.50d
-			y: 9.25d
+			x: 4.50d
+			y: 11.12d
 		}
 		{
 			dependencies: ["0E13BB3BED84B047"]
-			description: ["&6Was ist das?", "Im Komposter werden Pflanzenreste zu Knochenmehl.", "", "&6So gehts", "Samen, Blaetter und Pflanzen hineinwerfen, bis er voll ist.", "", "&6Wofuer ist das wichtig?", "Knochenmehl laesst Pflanzen und Baeume sofort wachsen."]
+			description: ["&6Was ist das?", "Im Komposter werden Pflanzenreste zu Knochenmehl.", "", "&6So gehts", "Samen, Blätter und Pflanzen hineinwerfen, bis er voll ist.", "", "&6Wofür ist das wichtig?", "Knochenmehl lässt Pflanzen und Bäume sofort wachsen."]
 			hide_dependency_lines: true
 			id: "110D2FEA71919248"
 			title: "Komposter"
 			rewards: [{ id: "16B6FC965CA98E25", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "1CF8DA615D7E0621", type: "item", item: { id: "minecraft:composter", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 34.50d
+			y: 38.25d
 		}
 		{
 			dependencies: ["0E13BB3BED84B047"]
-			description: ["&6Was ist das?", "Ein Lagerfeuer gibt Licht, grillt Fleisch und beruhigt Bienen.", "", "&6So gehts", "Stoecke, Kohle und Staemme. Rohes Fleisch mit Rechtsklick darauflegen.", "", "&6Wofuer ist das wichtig?", "Von hier geht der Koch-Zweig ab: Farmers Delight wartet.", "", "&6Gut zu wissen", "Auf dem Lagerfeuer garen bis zu vier Speisen gleichzeitig, ganz ohne Brennstoff. Rohes Fleisch braucht dort etwa 30 Sekunden pro Stueck."]
+			description: ["&6Was ist das?", "Ein Lagerfeuer gibt Licht, grillt Fleisch und beruhigt Bienen.", "", "&6So gehts", "Stöcke, Kohle und Stämme. Rohes Fleisch mit Rechtsklick darauflegen.", "", "&6Wofür ist das wichtig?", "Von hier geht der Koch-Zweig ab: Farmers Delight wartet.", "", "&6Gut zu wissen", "Auf dem Lagerfeuer garen bis zu vier Speisen gleichzeitig, ganz ohne Brennstoff. Rohes Fleisch braucht dort etwa 30 Sekunden pro Stück."]
 			id: "5A685565E72C4410"
 			title: "Lagerfeuer"
 			rewards: [{ id: "421F879D3EA7BCB8", type: "item", item: { id: "minecraft:cooked_porkchop", count: 4 } }]
 			tasks: [{ id: "24AF7A695A16070C", type: "item", item: { id: "minecraft:campfire", count: 1 }, count: 1L }]
-			x: 24.00d
-			y: 9.25d
+			x: 6.00d
+			y: 11.12d
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
-			description: ["&6Was ist das?", "Rohes Fleisch auf dem Lagerfeuer oder im Ofen braten.", "", "&6So gehts", "Auf dem Lagerfeuer, im Ofen oder im Raeucherofen braten.", "", "&6Wofuer ist das wichtig?", "Gutes Essen fuellt die Saettigung, dann heilst du schneller."]
+			description: ["&6Was ist das?", "Rohes Fleisch auf dem Lagerfeuer oder im Ofen braten.", "", "&6So gehts", "Auf dem Lagerfeuer, im Ofen oder im Räucherofen braten.", "", "&6Wofür ist das wichtig?", "Gutes Essen füllt die Sättigung, dann heilst du schneller."]
 			hide_dependency_lines: true
 			id: "2AD1D915658D1D50"
 			title: "Gebratenes Fleisch"
 			rewards: [{ id: "10D3B99316208328", type: "item", item: { id: "minecraft:cooked_beef", count: 6 } }]
 			tasks: [{ id: "40CCC3AF6B0283CA", type: "item", item: { id: "minecraft:cooked_beef", count: 1 }, count: 8L }]
 			x: 1.50d
-			y: 31.50d
+			y: 35.25d
 		}
 		{
 			dependencies: ["2AD1D915658D1D50"]
-			description: ["&6Was ist das?", "Der Raeucherofen brat Essen doppelt so schnell.", "", "&6So gehts", "Ein Ofen mit vier Staemmen drumherum.", "", "&6Wofuer ist das wichtig?", "Fuer grosse Mengen Fleisch, zum Beispiel nach einer Jagd."]
+			description: ["&6Was ist das?", "Der Räucherofen brat Essen doppelt so schnell.", "", "&6So gehts", "Ein Ofen mit vier Stämmen drumherum.", "", "&6Wofür ist das wichtig?", "Für große Mengen Fleisch, zum Beispiel nach einer Jagd."]
 			id: "1FF6A1EC3F974044"
-			title: "Raeucherofen"
+			title: "Räucherofen"
 			rewards: [{ id: "53C21DFD56538624", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "31ABFA28F70821F4", type: "item", item: { id: "minecraft:smoker", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 31.50d
+			y: 35.25d
 		}
 		{
 			dependencies: ["110D2FEA71919248"]
-			description: ["&6Was ist das?", "Reife Pflanzen erntest du mit Rechtsklick. Sie werden dabei automatisch wieder eingepflanzt.", "", "&6So gehts", "Rechtsklick auf eine reife Pflanze, z.B. Weizen oder Kartoffeln.", "", "&6Wofuer ist das wichtig?", "Viel schneller als abbauen und neu pflanzen. Mit Hacke in der Hand erntest du mehrere Felder auf einmal."]
+			description: ["&6Was ist das?", "Reife Pflanzen erntest du mit Rechtsklick. Sie werden dabei automatisch wieder eingepflanzt.", "", "&6So gehts", "Rechtsklick auf eine reife Pflanze, z.B. Weizen oder Kartoffeln.", "", "&6Wofür ist das wichtig?", "Viel schneller als abbauen und neu pflanzen. Mit Hacke in der Hand erntest du mehrere Felder auf einmal."]
 			id: "434B0242196341B0"
 			title: "Ernten mit Rechtsklick"
 			rewards: [{ id: "59693D4513BE0537", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
 			tasks: [{ id: "36B7343A04693ADB", type: "checkmark" }]
 			x: 3.00d
-			y: 34.50d
+			y: 38.25d
 		}
 		{
 			dependencies: ["434B0242196341B0"]
-			description: ["&6Was ist das?", "Serene Seasons: Fruehling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Der Kalender zeigt die aktuelle Jahreszeit.", "In JEI siehst du beim Samen, wann er waechst.", "Im Gewaechshaus (Glas ueber den Feldern) wachsen Pflanzen auch ausserhalb der Saison.", "", "&6Wofuer ist das wichtig?", "Plane deine Felder: Im Winter waechst kaum etwas. Lege Vorraete an oder baue ein Gewaechshaus."]
+			description: ["&6Was ist das?", "Serene Seasons: Frühling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Der Kalender zeigt die aktuelle Jahreszeit.", "In JEI siehst du beim Samen, wann er wächst.", "Im Gewächshaus (Glas über den Feldern) wachsen Pflanzen auch außerhalb der Saison.", "", "&6Wofür ist das wichtig?", "Plane deine Felder: Im Winter wächst kaum etwas. Lege Vorräte an oder baue ein Gewächshaus."]
 			id: "53B5513ABE6670E3"
 			title: "Jahreszeiten"
 			rewards: [{ id: "3DFC6C96A4C6B8E8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "080485FCFCDDBFAB", type: "item", item: { id: "sereneseasons:calendar", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 34.50d
+			y: 38.25d
 		}
 		{
 			dependencies: ["1FF6A1EC3F974044"]
-			description: ["&6Was ist das?", "Naturalist: Mit dem Fangnetz faengst du kleine Tiere wie Schmetterlinge und Gluehwuermchen.", "", "&6So gehts", "Rechtsklick auf ein kleines Tier.", "", "&6Wofuer ist das wichtig?", "Schmetterlinge bestaeuben Pflanzen, Gluehwuermchen leuchten. Schoen fuer Gaerten."]
+			description: ["&6Was ist das?", "Naturalist: Mit dem Fangnetz fängst du kleine Tiere wie Schmetterlinge und Glühwürmchen.", "", "&6So gehts", "Rechtsklick auf ein kleines Tier.", "", "&6Wofür ist das wichtig?", "Schmetterlinge bestäuben Pflanzen, Glühwürmchen leuchten. Schön für Gärten."]
 			icon: { id: "naturalist:capture_net" }
 			id: "699D8AF525791ABA"
 			title: "Fangnetz"
 			rewards: [{ id: "5750C155C31E6C9F", type: "item", item: { id: "minecraft:string", count: 6 } }]
 			tasks: [{ id: "3C8F909DF604E06F", type: "item", item: { id: "naturalist:capture_net", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 31.50d
+			y: 35.25d
 		}
 		{
 			dependencies: ["699D8AF525791ABA"]
-			description: ["&6Was ist das?", "Naturalist: Rehe und Hirsche geben Wildfleisch.", "", "&6So gehts", "Jage Rehe im Wald und brate das Fleisch.", "", "&6Wofuer ist das wichtig?", "Gutes Essen, wenn keine Kuehe in der Naehe sind."]
+			description: ["&6Was ist das?", "Naturalist: Rehe und Hirsche geben Wildfleisch.", "", "&6So gehts", "Jage Rehe im Wald und brate das Fleisch.", "", "&6Wofür ist das wichtig?", "Gutes Essen, wenn keine Kühe in der Nähe sind."]
 			icon: { id: "naturalist:cooked_venison" }
 			id: "4436ED8674C5B9DB"
 			title: "Wildfleisch"
 			rewards: [{ id: "7D811896F8366FBD", type: "item", item: { id: "minecraft:cooked_porkchop", count: 6 } }]
 			tasks: [{ id: "7275DB7F85BB3939", type: "item", item: { id: "naturalist:cooked_venison", count: 1 }, count: 4L }]
 			x: 6.00d
-			y: 31.50d
+			y: 35.25d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock.", "", "&6So gehts", "Mit Glasflasche am vollen Bienenstock Honig sammeln. Lagerfeuer darunter beruhigt die Bienen.", "Mit Schere bekommst du Honigwaben.", "", "&6Wofuer ist das wichtig?", "Honig fuer Met (Brewin), Kerzen aus Waben, Honig-Seetang und Create-Honig."]
+			description: ["&6Was ist das?", "Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock.", "", "&6So gehts", "Mit Glasflasche am vollen Bienenstock Honig sammeln. Lagerfeuer darunter beruhigt die Bienen.", "Mit Schere bekommst du Honigwaben.", "", "&6Wofür ist das wichtig?", "Honig für Met (Brewin), Kerzen aus Waben, Honig-Seetang und Create-Honig."]
 			hide_dependency_lines: true
 			id: "3562C0A2C728CF90"
 			title: "Bienen"
 			rewards: [{ id: "7C6AB809DF5F95CD", type: "item", item: { id: "minecraft:honey_bottle", count: 2 } }]
 			tasks: [{ id: "4311D6D9A2633A35", type: "item", item: { id: "minecraft:honey_bottle", count: 1 }, count: 2L }]
 			x: 1.50d
-			y: 35.75d
+			y: 39.50d
 		}
 		{
 			dependencies: ["3562C0A2C728CF90"]
-			description: ["&6Was ist das?", "Mit der Angel fischt du Fische, Schaetze und Verzauberbuecher.", "", "&6So gehts", "Angel ins Wasser werfen, bei Blasen einziehen.", "Mit Glueck des Meeres und Koeder wird es besser.", "", "&6Wofuer ist das wichtig?", "Fisch fuer Oceans Delight und Sushi. Beim Angeln gibt es auch Reparatur-Buecher."]
+			description: ["&6Was ist das?", "Mit der Angel fischt du Fische, Schätze und Verzauberbücher.", "", "&6So gehts", "Angel ins Wasser werfen, bei Blasen einziehen.", "Mit Glück des Meeres und Köder wird es besser.", "", "&6Wofür ist das wichtig?", "Fisch für Oceans Delight und Sushi. Beim Angeln gibt es auch Reparatur-Bücher."]
 			id: "2E1856C760C14E1D"
 			title: "Angeln"
 			rewards: [{ id: "56BF2A4E6813EA19", type: "item", item: { id: "minecraft:cooked_salmon", count: 8 } }]
 			tasks: [{ id: "3216D6ECF81434B4", type: "item", item: { id: "minecraft:fishing_rod", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 35.75d
+			y: 39.50d
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Ein Bett laesst dich die Nacht ueberspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) ueber drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Haelfte der Spieler schlafen.", "", "&6Wofuer ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
+			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Hälfte der Spieler schlafen.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
 			hide_dependency_lines: true
 			id: "31E49D7CA0CDCF29"
-			title: "Ein Bett fuer die Nacht"
+			title: "Ein Bett für die Nacht"
 			rewards: [{ id: "2CCB051DE9617BB1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "08C0752D3456786D", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["31E49D7CA0CDCF29"]
-			description: ["&6Was ist das?", "Eine Kiste speichert 27 Stapel. Zwei nebeneinander werden eine Doppelkiste.", "", "&6So gehts", "Acht Bretter im Kreis in der Werkbank ergeben eine Kiste.", "Stelle sie auf und lege mit Shift-Klick Items hinein.", "", "&6Wofuer ist das wichtig?", "Ohne Ordnung wird es schnell chaotisch. Im Kapitel Lager und Ordnung lernst du, wie du aus Kisten ein ganzes Lagersystem machst."]
+			description: ["&6Was ist das?", "Eine Kiste speichert 27 Stapel. Zwei nebeneinander werden eine Doppelkiste.", "", "&6So gehts", "Acht Bretter im Kreis in der Werkbank ergeben eine Kiste.", "Stelle sie auf und lege mit Shift-Klick Items hinein.", "", "&6Wofür ist das wichtig?", "Ohne Ordnung wird es schnell chaotisch. Im Kapitel Lager und Ordnung lernst du, wie du aus Kisten ein ganzes Lagersystem machst."]
 			id: "69D520822E2F3373"
 			title: "Kisten sind dein Freund"
 			rewards: [{ id: "3FD9FA36355B9A30", type: "item", item: { id: "minecraft:barrel", count: 2 } }]
 			tasks: [{ id: "55E5AE1BD49F7B38", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["69D520822E2F3373"]
-			description: ["&6Was ist das?", "Alles beginnt mit einer Kiste. Baue eine aus Holz und stelle sie zu Hause auf.", "", "&6So gehts", "Acht Bretter im Kreis. Zwei Kisten nebeneinander ergeben eine Doppelkiste mit 54 Plaetzen.", "Beschrifte Kisten mit einem Schild oder Item-Rahmen.", "", "&6Wofuer ist das wichtig?", "Sortiere frueh: Erze, Holz, Essen, Mob-Drops. Spaeter ersetzt du die Kisten durch ein Lagersystem, das alles automatisch findet."]
+			description: ["&6Was ist das?", "Alles beginnt mit einer Kiste. Baue eine aus Holz und stelle sie zu Hause auf.", "", "&6So gehts", "Acht Bretter im Kreis. Zwei Kisten nebeneinander ergeben eine Doppelkiste mit 54 Plätzen.", "Beschrifte Kisten mit einem Schild oder Item-Rahmen.", "", "&6Wofür ist das wichtig?", "Sortiere frueh: Erze, Holz, Essen, Mob-Drops. Später ersetzt du die Kisten durch ein Lagersystem, das alles automatisch findet."]
 			id: "01E77D914BD88DA1"
 			title: "Eine Kiste"
 			rewards: [{ id: "30526571B5D635A2", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "2ECF0F2BE58A1FC9", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["01E77D914BD88DA1"]
-			description: ["&6Was ist das?", "Ein Fass fasst genauso viel wie eine Kiste, laesst sich aber unter Bloecken oeffnen.", "", "&6So gehts", "Sechs Bretter und zwei Holzstufen.", "Du kannst Faesser direkt stapeln und in Waende einbauen.", "", "&6Wofuer ist das wichtig?", "Platzsparend fuer kleine Basen. Hopper und Trichter funktionieren wie bei Kisten."]
+			description: ["&6Was ist das?", "Ein Fass fasst genauso viel wie eine Kiste, lässt sich aber unter Blöcken öffnen.", "", "&6So gehts", "Sechs Bretter und zwei Holzstufen.", "Du kannst Fässer direkt stapeln und in Wände einbauen.", "", "&6Wofür ist das wichtig?", "Platzsparend für kleine Basen. Hopper und Trichter funktionieren wie bei Kisten."]
 			id: "06ABC2FF817AB74D"
 			title: "Fass"
 			rewards: [{ id: "4EEBAA08D1E81414", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "61044A0ED56A5A5A", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["06ABC2FF817AB74D"]
-			description: ["&6Was ist das?", "Client Sort und Inventory Profiles Next sortieren dein Inventar und Kisten.", "Client Sort: Shift und mittlere Maustaste.", "", "&6So gehts", "Oeffne eine Kiste. Rechts oben erscheinen kleine Knoepfe zum Sortieren.", "Mit Client Sort: Shift halten und mittlere Maustaste im Inventar.", "", "&6Wofuer ist das wichtig?", "Spart viel Zeit. Mit Profilen kannst du auch Ausruestungs-Sets schnell wechseln."]
+			description: ["&6Was ist das?", "Client Sort und Inventory Profiles Next sortieren dein Inventar und Kisten.", "Client Sort: Shift und mittlere Maustaste.", "", "&6So gehts", "Öffne eine Kiste. Rechts oben erscheinen kleine Knöpfe zum Sortieren.", "Mit Client Sort: Shift halten und mittlere Maustaste im Inventar.", "", "&6Wofür ist das wichtig?", "Spart viel Zeit. Mit Profilen kannst du auch Ausrüstungs-Sets schnell wechseln."]
 			id: "0C6A9776F573027A"
 			title: "Inventar sortieren"
 			rewards: [{ id: "427D9B12C89E687E", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0979C3073BFEEA18", type: "checkmark" }]
 			x: 7.50d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["0C6A9776F573027A"]
-			description: ["&6Was ist das?", "Tueren halten Zombies nicht immer ab, aber die meisten Monster.", "", "&6So gehts", "Sechs Bretter in zwei Spalten. Zwei nebeneinander oeffnen sich zusammen.", "", "&6Wofuer ist das wichtig?", "Halte Monster draussen. Achtung: Zombies koennen Holztueren auf Schwierigkeit Schwer einschlagen."]
+			description: ["&6Was ist das?", "Türen halten Zombies nicht immer ab, aber die meisten Monster.", "", "&6So gehts", "Sechs Bretter in zwei Spalten. Zwei nebeneinander öffnen sich zusammen.", "", "&6Wofür ist das wichtig?", "Halte Monster draußen. Achtung: Zombies können Holztüren auf Schwierigkeit Schwer einschlagen."]
 			id: "730075A86BE3CD99"
-			title: "Tueren"
+			title: "Türen"
 			rewards: [{ id: "0F3DD15C543C628E", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "049AB3B146171822", type: "item", item: { id: "minecraft:oak_door", count: 1 }, count: 2L }]
 			x: 9.00d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["730075A86BE3CD99"]
-			description: ["&6Was ist das?", "Eine Laterne ist schoener als eine Fackel.", "", "&6So gehts", "Eine Fackel umgeben von Eisennuggets.", "", "&6Wofuer ist das wichtig?", "Haengend oder stehend, perfekt fuer Wege und Haeuser."]
+			description: ["&6Was ist das?", "Eine Laterne ist schöner als eine Fackel.", "", "&6So gehts", "Eine Fackel umgeben von Eisennuggets.", "", "&6Wofür ist das wichtig?", "Hängend oder stehend, perfekt für Wege und Häuser."]
 			id: "3E7ABB28E4C6BBE5"
 			title: "Laterne"
 			rewards: [{ id: "497243380C4F195D", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "4D278F7C7C1E24C5", type: "item", item: { id: "minecraft:lantern", count: 1 }, count: 4L }]
 			x: 10.50d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["3E7ABB28E4C6BBE5"]
-			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt fuer Ausfluege.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Die Haelfte der Spieler muss schlafen, damit die Nacht endet.", "", "&6So gehts", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofuer ist das wichtig?", "Auf langen Ausfluegen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
+			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt für Ausflüge.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Die Hälfte der Spieler muss schlafen, damit die Nacht endet.", "", "&6So gehts", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofür ist das wichtig?", "Auf langen Ausflügen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
 			id: "1799BD20B88CE4F4"
 			title: "Schlafen mit Comforts"
 			rewards: [{ id: "3563618D029E7D7A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1D44FC84F2D71FDA", type: "item", item: { id: "comforts:sleeping_bag_red", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["1799BD20B88CE4F4"]
-			description: ["&6Was ist das?", "Du kannst Kisten, Oefen und sogar ein Tier tragen.", "Schritt 1: Leere Haende (nichts in der Hand halten).", "Schritt 2: Schleichen (Shift) und Rechtsklick auf den Block oder das Tier.", "Schritt 3: Rechtsklick auf den Boden, um es wieder abzusetzen.", "", "&6So gehts", "Haende leer machen (nichts in der Hand).", "Shift halten und Rechtsklick auf Kiste, Ofen oder Tier.", "Rechtsklick auf den Boden setzt es wieder ab.", "", "&6Wofuer ist das wichtig?", "So ziehst du um, ohne Kisten auszuraeumen. Tiere bringst du so leicht zu deiner Farm. Babys sind erlaubt, es geht immer nur ein Tier."]
+			description: ["&6Was ist das?", "Du kannst Kisten, Öfen und sogar ein Tier tragen.", "Schritt 1: Leere Hände (nichts in der Hand halten).", "Schritt 2: Schleichen (Shift) und Rechtsklick auf den Block oder das Tier.", "Schritt 3: Rechtsklick auf den Boden, um es wieder abzusetzen.", "", "&6So gehts", "Hände leer machen (nichts in der Hand).", "Shift halten und Rechtsklick auf Kiste, Ofen oder Tier.", "Rechtsklick auf den Boden setzt es wieder ab.", "", "&6Wofür ist das wichtig?", "So ziehst du um, ohne Kisten auszuräumen. Tiere bringst du so leicht zu deiner Farm. Babys sind erlaubt, es geht immer nur ein Tier."]
 			id: "7F5E45D4BAEF89D0"
 			title: "Tragen mit Carry On"
 			rewards: [{ id: "40EF884BF81B0279", type: "item", item: { id: "minecraft:chest", count: 2 } }]
 			tasks: [{ id: "509D67D5318570CD", type: "checkmark" }]
 			x: 13.50d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			dependencies: ["04E3728EFBB0858D"]
-			description: ["&6Was ist das?", "Ein Waystone ist ein Teleport-Punkt. Alle aktivierten Waystones sind miteinander verbunden.", "", "&6So gehts", "Baue einen Waystone (Rezept in JEI) und stelle ihn auf.", "Rechtsklick aktiviert ihn. Ab dann kannst du von jedem anderen Waystone dorthin reisen.", "In Doerfern stehen oft schon Waystones, die du nur aktivieren musst.", "", "&6Wofuer ist das wichtig?", "Die Welt ist riesig. Mit Waystones sparst du lange Wege zwischen Basis, Dorf, Nether-Portal und Dungeons."]
+			description: ["&6Was ist das?", "Ein Waystone ist ein Teleport-Punkt. Alle aktivierten Waystones sind miteinander verbunden.", "", "&6So gehts", "Baue einen Waystone (Rezept in JEI) und stelle ihn auf.", "Rechtsklick aktiviert ihn. Ab dann kannst du von jedem anderen Waystone dorthin reisen.", "In Dörfern stehen oft schon Waystones, die du nur aktivieren musst.", "", "&6Wofür ist das wichtig?", "Die Welt ist riesig. Mit Waystones sparst du lange Wege zwischen Basis, Dorf, Nether-Portal und Dungeons."]
 			hide_dependency_lines: true
 			id: "7E5061B34C079EF7"
 			title: "Wegpunkt: Waystone"
 			rewards: [{ id: "1E42D2A795AE7EA7", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
 			tasks: [{ id: "70D950B7F8C853B2", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["7E5061B34C079EF7"]
-			description: ["&6Was ist das?", "Waystones sind Wegpunkte zum Teleportieren.", "Schritt 1: Baue einen Waystone (siehe JEI).", "Schritt 2: Stelle ihn auf und klicke ihn mit Rechtsklick an. Damit ist er aktiviert.", "Schritt 3: Benutze spaeter einen anderen Waystone, um zu einem aktivierten zu reisen.", "", "&6So gehts", "Baue einen Waystone nach dem Rezept in JEI.", "Stelle ihn neben deine Basis und aktiviere ihn mit Rechtsklick.", "Du kannst ihn umbenennen, damit alle wissen, wohin er fuehrt.", "", "&6Wofuer ist das wichtig?", "Von jedem anderen Waystone kommst du jetzt nach Hause."]
+			description: ["&6Was ist das?", "Waystones sind Wegpunkte zum Teleportieren.", "Schritt 1: Baue einen Waystone (siehe JEI).", "Schritt 2: Stelle ihn auf und klicke ihn mit Rechtsklick an. Damit ist er aktiviert.", "Schritt 3: Benutze später einen anderen Waystone, um zu einem aktivierten zu reisen.", "", "&6So gehts", "Baue einen Waystone nach dem Rezept in JEI.", "Stelle ihn neben deine Basis und aktiviere ihn mit Rechtsklick.", "Du kannst ihn umbenennen, damit alle wissen, wohin er führt.", "", "&6Wofür ist das wichtig?", "Von jedem anderen Waystone kommst du jetzt nach Hause."]
 			id: "388F48A83D3D7FF0"
 			title: "Waystone bauen"
 			rewards: [{ id: "01890E73651FF801", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
 			tasks: [{ id: "006693EB5B23EF99", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["388F48A83D3D7FF0"]
-			description: ["&6Was ist das?", "Mit dem Boot faehrst du ueber Fluesse und Meere.", "", "&6So gehts", "Fuenf Bretter in U-Form. Ins Wasser setzen und einsteigen.", "", "&6Wofuer ist das wichtig?", "Viel schneller als schwimmen, gut zum Erkunden von Kuesten."]
+			description: ["&6Was ist das?", "Mit dem Boot fährst du über Flüsse und Meere.", "", "&6So gehts", "Fünf Bretter in U-Form. Ins Wasser setzen und einsteigen.", "", "&6Wofür ist das wichtig?", "Viel schneller als schwimmen, gut zum Erkunden von Küsten."]
 			id: "31BE35B07AF6F13E"
 			title: "Boot"
 			rewards: [{ id: "060D7BEF1DA1BB8C", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "34ED2B1BBCCFCFEA", type: "item", item: { id: "minecraft:oak_boat", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["31BE35B07AF6F13E"]
-			description: ["&6Was ist das?", "Pferde, Esel und Maultiere kannst du mit einem Sattel reiten.", "", "&6So gehts", "Mit Sattel reiten.", "", "&6Wofuer ist das wichtig?", "Schneller reisen."]
+			description: ["&6Was ist das?", "Pferde, Esel und Maultiere kannst du mit einem Sattel reiten.", "", "&6So gehts", "Mit Sattel reiten.", "", "&6Wofür ist das wichtig?", "Schneller reisen."]
 			id: "3FACF635CBD0587E"
 			title: "Ein Reittier"
 			rewards: [{ id: "2BC13A1D83926AF4", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
 			tasks: [{ id: "26607880CBD91C59", type: "item", item: { id: "minecraft:saddle", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["3FACF635CBD0587E"]
-			description: ["&6Was ist das?", "Der Naturkompass zeigt dir den Weg zu jedem Biom.", "", "&6So gehts", "Rechtsklick, Biom waehlen, Suchen. Dann dem Zeiger folgen.", "", "&6Wofuer ist das wichtig?", "Finde Wueste fuer Sand, Dschungel fuer Kakao oder ein Dorf-Biom."]
+			description: ["&6Was ist das?", "Der Naturkompass zeigt dir den Weg zu jedem Biom.", "", "&6So gehts", "Rechtsklick, Biom wählen, Suchen. Dann dem Zeiger folgen.", "", "&6Wofür ist das wichtig?", "Finde Wüste für Sand, Dschungel für Kakao oder ein Dorf-Biom."]
 			id: "48ED10FFDEEA902E"
 			title: "Naturkompass"
 			rewards: [{ id: "50106E3C3BE9B83C", type: "item", item: { id: "minecraft:map", count: 1 } }]
 			tasks: [{ id: "13FBCC69853C87C9", type: "item", item: { id: "naturescompass:naturescompass", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["48ED10FFDEEA902E"]
-			description: ["&6Was ist das?", "Natures Compass zeigt dir, wo ein Biom ist.", "Waehle das Biom, drueck Suchen, folge dem Pfeil.", "", "&6So gehts", "Rechtsklick, Biom waehlen.", "", "&6Wofuer ist das wichtig?", "Bestimmte Biome haben besondere Ressourcen."]
+			description: ["&6Was ist das?", "Natures Compass zeigt dir, wo ein Biom ist.", "Wähle das Biom, drück Suchen, folge dem Pfeil.", "", "&6So gehts", "Rechtsklick, Biom wählen.", "", "&6Wofür ist das wichtig?", "Bestimmte Biome haben besondere Ressourcen."]
 			id: "387CA05F814C5319"
 			title: "Biome finden"
 			rewards: [{ id: "10CDCCE0974B0D75", type: "item", item: { id: "minecraft:paper", count: 6 } }]
 			tasks: [{ id: "5A9BCBB967267441", type: "checkmark" }]
 			x: 9.00d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["387CA05F814C5319"]
-			description: ["&6Was ist das?", "Dorfbewohner handeln mit dir. Suche ein Dorf und tausche gegen Smaragde.", "", "&6So gehts", "Rede mit Dorfbewohnern mit Rechtsklick. Arbeitsbloecke geben ihnen einen Beruf.", "Smaragde verdienst du durch Verkaufen von Weizen, Papier oder Kohle.", "", "&6Wofuer ist das wichtig?", "Bibliothekare verkaufen Verzauberungsbuecher wie Reparatur. Ein gutes Dorf spart viele Stunden."]
+			description: ["&6Was ist das?", "Dorfbewohner handeln mit dir. Suche ein Dorf und tausche gegen Smaragde.", "", "&6So gehts", "Rede mit Dorfbewohnern mit Rechtsklick. Arbeitsblöcke geben ihnen einen Beruf.", "Smaragde verdienst du durch Verkaufen von Weizen, Papier oder Kohle.", "", "&6Wofür ist das wichtig?", "Bibliothekare verkaufen Verzauberungsbücher wie Reparatur. Ein gutes Dorf spart viele Stunden."]
 			id: "330A13BA55DAE4DE"
 			title: "Ein Dorf besuchen"
 			rewards: [{ id: "43C39693CDA5E673", type: "item", item: { id: "minecraft:bread", count: 8 } }]
 			tasks: [{ id: "4719B31795AE6C90", type: "item", item: { id: "minecraft:emerald", count: 1 }, count: 10L }]
 			x: 10.50d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["330A13BA55DAE4DE"]
-			description: ["&6Was ist das?", "Der Handelsposten (Trading Post) zeigt die Angebote aller Dorfbewohner in der Naehe. Die Bartering Station tauscht automatisch mit Piglins.", "", "&6So gehts", "Stelle den Handelsposten in ein Dorf und oeffne ihn.", "Fuer Piglin-Tausch: Gold in die Bartering Station legen.", "", "&6Wofuer ist das wichtig?", "Mit Dorfbewohnern bekommst du Verzauberungsbuecher, Diamantausruestung und Nahrung. Smaragde sind die Waehrung."]
+			description: ["&6Was ist das?", "Der Handelsposten (Trading Post) zeigt die Angebote aller Dorfbewohner in der Nähe. Die Bartering Station tauscht automatisch mit Piglins.", "", "&6So gehts", "Stelle den Handelsposten in ein Dorf und öffne ihn.", "Für Piglin-Tausch: Gold in die Bartering Station legen.", "", "&6Wofür ist das wichtig?", "Mit Dorfbewohnern bekommst du Verzauberungsbücher, Diamantausrüstung und Nahrung. Smaragde sind die Währung."]
 			id: "5611A0BC4F6094DF"
 			title: "Handeln"
 			rewards: [{ id: "01A23B833BCC6E38", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
 			tasks: [{ id: "07ECC06439DCE729", type: "checkmark" }]
 			x: 12.00d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die naechste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7B7BD9E2CE14267D"
 			title: "Stein-Langschwert"
 			rewards: [{ id: "56EE8C09C32B780F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "45FA4774993CDE47", type: "item", item: { id: "weaponsexpanded:stone_longsword", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 19.00d
+			y: 22.75d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "456E1FF38461CB11"
 			title: "Stein-Breitschwert"
 			rewards: [{ id: "0E28426F9C1ECB04", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6AB751F94D6C0558", type: "item", item: { id: "weaponsexpanded:stone_broadsword", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 20.25d
+			y: 24.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihaender mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7EC7DE08B14CA598"
-			title: "Stein-Grossschwert"
+			title: "Stein-Großschwert"
 			rewards: [{ id: "3730335B3E18D7BC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6FC67CD12C0F5AB8", type: "item", item: { id: "weaponsexpanded:stone_greatsword", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 21.50d
+			y: 25.25d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge fuer viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "735D8E3285B2AA09"
 			title: "Stein-Katana"
 			rewards: [{ id: "38E24995C2CF38FD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69446A61D26EBD78", type: "item", item: { id: "weaponsexpanded:stone_katana", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 22.75d
+			y: 26.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "138E676E5DB8B364"
 			title: "Stein-Kampfaxt"
 			rewards: [{ id: "5B8F5FC6A6ED5F4F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0D4AB543EE42427D", type: "item", item: { id: "weaponsexpanded:stone_battleaxe", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 24.00d
+			y: 27.75d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3E5CB21B0C884120"
 			title: "Stein-Beil"
 			rewards: [{ id: "30F25BA91B2BAB88", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7A879D4049402C52", type: "item", item: { id: "weaponsexpanded:stone_hatchet", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 25.25d
+			y: 29.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlaegt Gegner zurueck.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "34EF91803174E0E8"
 			title: "Stein-Hammer"
 			rewards: [{ id: "37C694394BEC9288", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0E662FD1F3DE8002", type: "item", item: { id: "weaponsexpanded:stone_hammer", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 26.50d
+			y: 30.25d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flaechenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3BAC6AAD952DF514"
 			title: "Stein-Kriegshammer"
 			rewards: [{ id: "70AD33415798697D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "00045EFB7EF1F738", type: "item", item: { id: "weaponsexpanded:stone_warhammer", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 27.75d
+			y: 31.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3174F2FF37A0A643"
 			title: "Stein-Sense"
 			rewards: [{ id: "75E8579D6499C8A6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "71EF968DA6DE6720", type: "item", item: { id: "weaponsexpanded:stone_scythe", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 29.00d
+			y: 32.75d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehoert ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofuer ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3AB96FC6D59F8B69"
 			title: "Stein-Sichel"
 			rewards: [{ id: "15FC2F83B01B238F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "625A9B80388D4078", type: "item", item: { id: "weaponsexpanded:stone_sickle", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 30.25d
+			y: 34.00d
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
-			description: ["&6Was ist das?", "Waffen haben eigene Schwuenge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination.", "", "&6So gehts", "Halte die linke Maustaste fuer Kombos.", "Zweihaender treffen mehrere Gegner, zwei Einhandwaffen schlagen abwechselnd.", "", "&6Wofuer ist das wichtig?", "Die richtige Waffe fuer jede Situation."]
+			description: ["&6Was ist das?", "Waffen haben eigene Schwünge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination.", "", "&6So gehts", "Halte die linke Maustaste für Kombos.", "Zweihänder treffen mehrere Gegner, zwei Einhandwaffen schlagen abwechselnd.", "", "&6Wofür ist das wichtig?", "Die richtige Waffe für jede Situation."]
 			id: "38A3C7968505D99D"
-			title: "Kaempfen mit Better Combat"
+			title: "Kämpfen mit Better Combat"
 			rewards: [{ id: "646C278F84BC4206", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2EAD7078FD6AD63A", type: "checkmark" }]
-			x: 25.50d
-			y: 9.25d
+			x: 7.50d
+			y: 11.12d
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen.", "", "&6So gehts", "Aufstellen und schlagen.", "", "&6Wofuer ist das wichtig?", "Teste deine Waffen."]
+			description: ["&6Was ist das?", "Die Puppe zeigt dir, wie viel Schaden du machst.", "Perfekt, um Waffen zu testen.", "", "&6So gehts", "Aufstellen und schlagen.", "", "&6Wofür ist das wichtig?", "Teste deine Waffen."]
 			hide_dependency_lines: true
 			id: "7F4FF7546A6F0849"
 			title: "Trainingspuppe"
 			rewards: [{ id: "47ECCF76F82ABCB4", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "7820DB2E0696CF3B", type: "item", item: { id: "dummmmmmy:target_dummy", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 24.00d
+			y: 27.75d
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Mit dem Bogen kaempfst du aus der Ferne.", "", "&6So gehts", "Spannen und loslassen.", "", "&6Wofuer ist das wichtig?", "Gegen fliegende Gegner."]
+			description: ["&6Was ist das?", "Mit dem Bogen kämpfst du aus der Ferne.", "", "&6So gehts", "Spannen und loslassen.", "", "&6Wofür ist das wichtig?", "Gegen fliegende Gegner."]
 			id: "5EDD66726A8CB055"
 			title: "Bogen"
 			rewards: [{ id: "73F537DD7183AB72", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "69206D2A2B363C09", type: "item", item: { id: "minecraft:bow", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: 10.50d
+			x: 9.00d
+			y: 12.38d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
-			description: ["&6Was ist das?", "Feuerstein, Stock und Feder ergeben Pfeile.", "", "&6So gehts", "Feuerstein, Stock und Feder untereinander ergeben vier Pfeile.", "", "&6Wofuer ist das wichtig?", "Gegen Creeper und Skelette ist Abstand Gold wert."]
+			description: ["&6Was ist das?", "Feuerstein, Stock und Feder ergeben Pfeile.", "", "&6So gehts", "Feuerstein, Stock und Feder untereinander ergeben vier Pfeile.", "", "&6Wofür ist das wichtig?", "Gegen Creeper und Skelette ist Abstand Gold wert."]
 			id: "24B25DD1BE315360"
 			title: "Pfeile"
 			rewards: [{ id: "526D5A8636CB1F5C", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "26A5EC149F1AB6AF", type: "item", item: { id: "minecraft:arrow", count: 1 }, count: 32L }]
 			x: 4.50d
-			y: 17.75d
+			y: 21.50d
 		}
 		{
 			dependencies: ["5EDD66726A8CB055"]
-			description: ["&6Was ist das?", "Leder von Kuehen ergibt die erste Ruestung.", "", "&6So gehts", "Leder von Kuehen. Fuenf, acht, sieben oder vier Leder fuer die Teile.", "", "&6Wofuer ist das wichtig?", "Etwas Schutz fuer die ersten Naechte. In der Eisenzeit folgt Eisenruestung."]
+			description: ["&6Was ist das?", "Leder von Kühen ergibt die erste Rüstung.", "", "&6So gehts", "Leder von Kühen. Fünf, acht, sieben oder vier Leder für die Teile.", "", "&6Wofür ist das wichtig?", "Etwas Schutz für die ersten Nächte. In der Eisenzeit folgt Eisenrüstung."]
 			id: "4CC791F37478A527"
-			title: "Lederruestung"
+			title: "Lederrüstung"
 			rewards: [{ id: "56D8C3FD39A6C1A1", type: "item", item: { id: "minecraft:leather", count: 8 } }]
 			tasks: [{ id: "745B362AB99721F7", type: "item", item: { id: "minecraft:leather_chestplate", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: 10.50d
+			x: 10.50d
+			y: 12.38d
 		}
 		{
 			dependencies: ["24B25DD1BE315360"]
-			description: ["&6Was ist das?", "Creeper explodieren. Halte Abstand und schlage zu.", "", "&6So gehts", "Schlag zu und weiche sofort zurueck, bevor er zischt. Ein Schild blockt die Explosion.", "Mit Bogen oder Muskete aus der Ferne ist es am sichersten.", "", "&6Wofuer ist das wichtig?", "Schwarzpulver brauchst du fuer TNT, Feuerwerk (Elytra-Flug) und Munition."]
+			description: ["&6Was ist das?", "Creeper explodieren. Halte Abstand und schlage zu.", "", "&6So gehts", "Schlag zu und weiche sofort zurück, bevor er zischt. Ein Schild blockt die Explosion.", "Mit Bogen oder Muskete aus der Ferne ist es am sichersten.", "", "&6Wofür ist das wichtig?", "Schwarzpulver brauchst du für TNT, Feuerwerk (Elytra-Flug) und Munition."]
 			id: "0ABE13F2F0EF54DA"
-			title: "Der Creeper-Jaeger"
+			title: "Der Creeper-Jäger"
 			rewards: [{ id: "7318882164C57F16", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
 			tasks: [{ id: "26133EADAA34006C", type: "kill", entity: "minecraft:creeper", value: 5L, icon: { id: "minecraft:gunpowder" } }]
 			x: 6.00d
-			y: 17.75d
+			y: 21.50d
 		}
 		{
 			dependencies: ["0ABE13F2F0EF54DA"]
-			description: ["&6Was ist das?", "Skelette schiessen aus der Ferne. Nutze Deckung.", "", "&6So gehts", "Nutze Deckung, gehe nah ran oder blocke mit dem Schild.", "", "&6Wofuer ist das wichtig?", "Knochen ergeben Knochenmehl (Duenger) und Pfeile kannst du wiederverwenden."]
+			description: ["&6Was ist das?", "Skelette schießen aus der Ferne. Nutze Deckung.", "", "&6So gehts", "Nutze Deckung, gehe nah ran oder blocke mit dem Schild.", "", "&6Wofür ist das wichtig?", "Knochen ergeben Knochenmehl (Dünger) und Pfeile kannst du wiederverwenden."]
 			id: "1CA526E157A15466"
-			title: "Sieger ueber Skelette"
+			title: "Sieger über Skelette"
 			rewards: [{ id: "04AA9FAA6E6A5ECC", type: "item", item: { id: "minecraft:arrow", count: 32 } }]
 			tasks: [{ id: "1C6310AC3665AE4D", type: "kill", entity: "minecraft:skeleton", value: 10L, icon: { id: "minecraft:bone" } }]
 			x: 7.50d
-			y: 17.75d
+			y: 21.50d
 		}
 		{
 			dependencies: ["76B62C313C1E5D43"]
-			description: ["&6Was ist das?", "Eine Gruppe (Party) teilt Schutz und Rechte.", "Schritt 1: Gib im Chat /oparties ein. Dort siehst du die Befehle.", "Schritt 2: Lade Freunde ein.", "", "&6So gehts", "Gib im Chat /openpac-parties create ein oder nutze das Menue mit F8.", "Lade deine Freunde ein, sie nehmen mit dem Befehl im Chat an.", "", "&6Wofuer ist das wichtig?", "Mit Gruppe koennt ihr gemeinsam in euren Claims bauen und eure Basis zusammen schuetzen."]
+			description: ["&6Was ist das?", "Eine Gruppe (Party) teilt Schutz und Rechte.", "Schritt 1: Gib im Chat /oparties ein. Dort siehst du die Befehle.", "Schritt 2: Lade Freunde ein.", "", "&6So gehts", "Gib im Chat /openpac-parties create ein oder nutze das Menü mit F8.", "Lade deine Freunde ein, sie nehmen mit dem Befehl im Chat an.", "", "&6Wofür ist das wichtig?", "Mit Gruppe könnt ihr gemeinsam in euren Claims bauen und eure Basis zusammen schützen."]
 			id: "05A8F87077230637"
-			title: "Gruppe gruenden"
+			title: "Gruppe gründen"
 			rewards: [{ id: "3179A35CAD085AC1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "449C735BCC08F21C", type: "checkmark" }]
 			x: 3.00d
-			y: 55.75d
+			y: 61.38d
 		}
 		{
 			dependencies: ["05A8F87077230637"]
-			description: ["&6Was ist das?", "Mit Open Parties and Claims schuetzt du dein Gebiet.", "Schritt 1: Oeffne die Weltkarte (M).", "Schritt 2: Waehle Chunks aus und beanspruche sie.", "Nur du und deine Gruppe duerft dort bauen.", "", "&6So gehts", "Oeffne die Weltkarte mit M.", "Rechtsklick auf die Karte, dann Claim waehlen. Oder ziehe einen Bereich auf.", "Mit F8 oeffnest du das Menue von Open Parties and Claims.", "", "&6Wofuer ist das wichtig?", "Schuetzt deine Basis vor Explosionen, Griefing und Monstern, die Bloecke klauen."]
+			description: ["&6Was ist das?", "Mit Open Parties and Claims schützt du dein Gebiet.", "Schritt 1: Öffne die Weltkarte (M).", "Schritt 2: Wähle Chunks aus und beanspruche sie.", "Nur du und deine Gruppe dürft dort bauen.", "", "&6So gehts", "Öffne die Weltkarte mit M.", "Rechtsklick auf die Karte, dann Claim wählen. Oder ziehe einen Bereich auf.", "Mit F8 öffnest du das Menü von Open Parties and Claims.", "", "&6Wofür ist das wichtig?", "Schützt deine Basis vor Explosionen, Griefing und Monstern, die Blöcke klauen."]
 			id: "7D950ED7E0CB9950"
 			title: "Chunks sichern"
 			rewards: [{ id: "760673DC7DE7B63D", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "206FFC72C8F303A4", type: "checkmark" }]
 			x: 4.50d
-			y: 55.75d
+			y: 61.38d
 		}
 		{
 			dependencies: ["7D950ED7E0CB9950"]
-			description: ["&6Was ist das?", "Mit Ping Wheel zeigst du Freunden, wohin ihr geht.", "Standard ist die Maustaste Vorwaerts (Maus 5). Aenderbar in den Optionen.", "", "&6So gehts", "Druecke die Ping-Taste (Standard: Maustaste 5), um auf das Ziel zu zeigen.", "Halte die Taste fuer das Rad mit verschiedenen Zeichen.", "", "&6Wofuer ist das wichtig?", "Super beim gemeinsamen Erkunden: Hier ist eine Kiste, dort ein Gegner."]
+			description: ["&6Was ist das?", "Mit Ping Wheel zeigst du Freunden, wohin ihr geht.", "Standard ist die Maustaste Vorwärts (Maus 5). Änderbar in den Optionen.", "", "&6So gehts", "Drücke die Ping-Taste (Standard: Maustaste 5), um auf das Ziel zu zeigen.", "Halte die Taste für das Rad mit verschiedenen Zeichen.", "", "&6Wofür ist das wichtig?", "Super beim gemeinsamen Erkunden: Hier ist eine Kiste, dort ein Gegner."]
 			id: "6B4314E787C73225"
 			title: "Ping"
 			rewards: [{ id: "119ACE7FA6580E93", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5146D11E6930575A", type: "checkmark" }]
 			x: 6.00d
-			y: 55.75d
+			y: 61.38d
 		}
 		{
 			dependencies: ["6B4314E787C73225"]
-			description: ["&6Was ist das?", "Beute-Truhen sind fuer jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Oeffne eine Lootr-Truhe (sie hat einen besonderen Rand). Der Inhalt gehoert nur dir.", "", "&6Wofuer ist das wichtig?", "Ihr koennt gemeinsam Dungeons erkunden, ohne dass einer alles leer raeumt."]
+			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Öffne eine Lootr-Truhe (sie hat einen besonderen Rand). Der Inhalt gehört nur dir.", "", "&6Wofür ist das wichtig?", "Ihr könnt gemeinsam Dungeons erkunden, ohne dass einer alles leer räumt."]
 			id: "3762E8AE7D5A3EA6"
 			title: "Beute teilen (Lootr)"
 			rewards: [{ id: "4A27EE32DA8318BC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5DDBD34D49334BC6", type: "checkmark" }]
 			x: 7.50d
-			y: 55.75d
+			y: 61.38d
 		}
 		{
 			dependencies: ["3762E8AE7D5A3EA6"]
-			description: ["&6Was ist das?", "Wenn du stirbst, entsteht an der Stelle ein Grab mit deinen Sachen.", "Schritt 1: Merke dir die Koordinaten aus der Todesnachricht.", "Schritt 2: Gehe hin und oeffne das Grab mit Rechtsklick.", "", "&6So gehts", "Lies die Todesnachricht im Chat, dort stehen die Koordinaten.", "Auf der Karte ist ein Wegpunkt gesetzt.", "Gehe hin und klicke das Grab mit Rechtsklick an.", "", "&6Wofuer ist das wichtig?", "Keine Panik beim Sterben. Hol deine Sachen aber zeitnah, bevor Monster dich am Grab erwischen."]
+			description: ["&6Was ist das?", "Wenn du stirbst, entsteht an der Stelle ein Grab mit deinen Sachen.", "Schritt 1: Merke dir die Koordinaten aus der Todesnachricht.", "Schritt 2: Gehe hin und öffne das Grab mit Rechtsklick.", "", "&6So gehts", "Lies die Todesnachricht im Chat, dort stehen die Koordinaten.", "Auf der Karte ist ein Wegpunkt gesetzt.", "Gehe hin und klicke das Grab mit Rechtsklick an.", "", "&6Wofür ist das wichtig?", "Keine Panik beim Sterben. Hol deine Sachen aber zeitnah, bevor Monster dich am Grab erwischen."]
 			id: "4D55CE44664F75B9"
 			title: "Dein Grab"
 			rewards: [{ id: "080E7E6B6737F20B", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
 			tasks: [{ id: "431DF935F8DD49EF", type: "checkmark" }]
 			x: 9.00d
-			y: 55.75d
+			y: 61.38d
 		}
 		{
 			dependencies: ["4CC791F37478A527"]
-			description: ["&6Was ist das?", "Kohle findest du in Hoehlen und an Berghaengen. Du brauchst sie fuer Fackeln und Oefen.", "", "&6So gehts", "Mit einer Holz- oder Steinspitzhacke abbauen. Sie ist in fast jeder Felswand zu finden.", "", "&6Wofuer ist das wichtig?", "Fackeln, Oefen, Schmelzoefen. Spaeter auch Brennstoff fuer Blazebrenner und Dampfmaschinen.", "", "&6Gut zu wissen", "Holzkohle bekommst du auch, wenn du Staemme im Ofen brennst. Sie ist fuer Fackeln genauso gut wie Kohle."]
+			description: ["&6Was ist das?", "Kohle findest du in Höhlen und an Berghängen. Du brauchst sie für Fackeln und Öfen.", "", "&6So gehts", "Mit einer Holz- oder Steinspitzhacke abbauen. Sie ist in fast jeder Felswand zu finden.", "", "&6Wofür ist das wichtig?", "Fackeln, Öfen, Schmelzöfen. Später auch Brennstoff für Blazebrenner und Dampfmaschinen.", "", "&6Gut zu wissen", "Holzkohle bekommst du auch, wenn du Stämme im Ofen brennst. Sie ist für Fackeln genauso gut wie Kohle."]
 			id: "60B557A4BAD57D69"
 			title: "Kohle"
 			rewards: [{ id: "27AAD63E22BA19E1", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "42E16CF28F24A35E", type: "item", item: { id: "minecraft:coal", count: 1 }, count: 16L }]
-			x: 30.00d
-			y: 10.50d
+			x: 12.00d
+			y: 12.38d
 		}
 		{
 			dependencies: ["60B557A4BAD57D69"]
-			description: ["&6Was ist das?", "Kupfer ist das haeufigste Metall in den Hoehlen.", "", "&6So gehts", "Kupfererz mit der Steinspitzhacke abbauen.", "", "&6Wofuer ist das wichtig?", "Kupfer brauchst du spaeter fuer Create, Blitzableiter und Fernrohre."]
+			description: ["&6Was ist das?", "Kupfer ist das häufigste Metall in den Höhlen.", "", "&6So gehts", "Kupfererz mit der Steinspitzhacke abbauen.", "", "&6Wofür ist das wichtig?", "Kupfer brauchst du später für Create, Blitzableiter und Fernrohre."]
 			id: "00C24655867A56D6"
 			title: "Rohkupfer"
 			rewards: [{ id: "2243F483C0C95EF2", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
 			tasks: [{ id: "273B360D370CE882", type: "item", item: { id: "minecraft:raw_copper", count: 1 }, count: 16L }]
-			x: 31.50d
-			y: 10.50d
+			x: 13.50d
+			y: 12.38d
 		}
 		{
 			dependencies: ["00C24655867A56D6"]
-			description: ["&6Was ist das?", "Rohkupfer im Ofen schmelzen.", "", "&6So gehts", "Rohkupfer in den Ofen.", "", "&6Wofuer ist das wichtig?", "Neun Barren ergeben einen Block. Kupferbloecke werden mit der Zeit gruen.", "", "&6Gut zu wissen", "Kupferbloecke oxidieren mit der Zeit. Mit Wachs (aus Honigwaben) bleibt der Block in seinem Zustand."]
+			description: ["&6Was ist das?", "Rohkupfer im Ofen schmelzen.", "", "&6So gehts", "Rohkupfer in den Ofen.", "", "&6Wofür ist das wichtig?", "Neun Barren ergeben einen Block. Kupferblöcke werden mit der Zeit grün.", "", "&6Gut zu wissen", "Kupferblöcke oxidieren mit der Zeit. Mit Wachs (aus Honigwaben) bleibt der Block in seinem Zustand."]
 			id: "7530D2695E6CB2F2"
 			title: "Kupferbarren"
 			rewards: [{ id: "3E3CD5D014670DB0", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
 			tasks: [{ id: "368A3C3D39A59BB8", type: "item", item: { id: "minecraft:copper_ingot", count: 1 }, count: 8L }]
-			x: 33.00d
-			y: 10.50d
+			x: 15.00d
+			y: 12.38d
 		}
 		{
 			dependencies: ["7530D2695E6CB2F2"]
-			description: ["&6Was ist das?", "Eisenerz hat beige Punkte. Mit der Steinspitzhacke abbauen.", "", "&6So gehts", "Mit der Steinspitzhacke abbauen. Viel Eisen liegt um Ebene 16 und hoch in Bergen.", "", "&6Wofuer ist das wichtig?", "Schmelze es im Ofen. Fuer die Eisenzeit brauchst du 16 Eisenbarren.", "", "&6Gut zu wissen", "Eisen liegt besonders oft in Hoehlen und Bergen. Roheisen musst du im Ofen schmelzen, bevor du es verwenden kannst."]
+			description: ["&6Was ist das?", "Eisenerz hat beige Punkte. Mit der Steinspitzhacke abbauen.", "", "&6So gehts", "Mit der Steinspitzhacke abbauen. Viel Eisen liegt um Ebene 16 und hoch in Bergen.", "", "&6Wofür ist das wichtig?", "Schmelze es im Ofen. Für die Eisenzeit brauchst du 16 Eisenbarren.", "", "&6Gut zu wissen", "Eisen liegt besonders oft in Höhlen und Bergen. Roheisen musst du im Ofen schmelzen, bevor du es verwenden kannst."]
 			id: "3E8BC412CE4C06F1"
 			title: "Roheisen"
 			rewards: [{ id: "10FC83FA8BED6D11", type: "item", item: { id: "minecraft:iron_nugget", count: 12 } }]
 			tasks: [{ id: "5C1813D52026B033", type: "item", item: { id: "minecraft:raw_iron", count: 1 }, count: 16L }]
-			x: 34.50d
-			y: 10.50d
+			x: 16.50d
+			y: 12.38d
 		}
 		{
 			dependencies: ["3E8BC412CE4C06F1"]
-			description: ["&6Was ist das?", "Eisen findest du in Hoehlen und Bergen. Schmelze es im Ofen.", "", "&6So gehts", "Roheisen im Ofen schmelzen. Sammle mindestens 16 Barren.", "", "&6Wofuer ist das wichtig?", "Mit 16 Eisenbarren und den Pflicht-Zweigen schaltest du rechts die Eisenzeit frei."]
+			description: ["&6Was ist das?", "Eisen findest du in Höhlen und Bergen. Schmelze es im Ofen.", "", "&6So gehts", "Roheisen im Ofen schmelzen. Sammle mindestens 16 Barren.", "", "&6Wofür ist das wichtig?", "Mit 16 Eisenbarren und den Pflicht-Zweigen schaltest du rechts die Eisenzeit frei."]
 			id: "5A652BEF93A71F4D"
 			title: "Eisen!"
 			rewards: [{ id: "7289F77FC744A085", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
 			tasks: [{ id: "074A6908421C1CE1", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
-			x: 36.00d
-			y: 10.50d
+			x: 18.00d
+			y: 12.38d
 		}
 		{
-			description: ["&6Was ist das?", "Das ist dein Questbuch (Taste U). Exactly wird in Zeitaltern gespielt: von der Steinzeit bis zum Meister-Zeitalter.", "Jedes Zeitalter ist ein Baum: Von dieser Startquest gehen Zweige ab, zum Beispiel Holz, Stein, Nahrung, Kochen, Zuhause, Reisen und Bergbau.", "", "&6So gehts", "Waehle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Items werden automatisch erkannt. Bei Quests mit Haken klickst du selbst auf den Haken.", "Belohnungen holst du mit einem Klick auf die Truhe in der Quest ab.", "", "&6Wofuer ist das wichtig?", "Ganz rechts steht die Abschluss-Quest. Fuer die Eisenzeit brauchst du die Pflicht-Zweige und 16 Eisenbarren.", "Waffen, Werkzeuge, Ruestungen und Fernkampf findest du als eigene Reihen in jedem Zeitalter. Kleine Mods und Im Hintergrund sind immer offen."]
+			description: ["&6Was ist das?", "Das ist dein Questbuch (Taste U). Exactly wird in Zeitaltern gespielt: von der Steinzeit bis zum Meister-Zeitalter.", "Jedes Zeitalter ist ein Baum: Von dieser Startquest gehen Zweige ab, zum Beispiel Holz, Stein, Nahrung, Kochen, Zuhause, Reisen und Bergbau.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Items werden automatisch erkannt. Bei Quests mit Haken klickst du selbst auf den Haken.", "Belohnungen holst du mit einem Klick auf die Truhe in der Quest ab.", "", "&6Wofür ist das wichtig?", "Ganz rechts steht die Abschluss-Quest. Für die Eisenzeit brauchst du die Pflicht-Zweige und 16 Eisenbarren.", "Waffen, Werkzeuge, Rüstungen und Fernkampf findest du als eigene Reihen in jedem Zeitalter. Kleine Mods und Im Hintergrund sind immer offen."]
 			id: "32B584A362001F6A"
 			title: "Willkommen bei Exactly"
 			rewards: [{ id: "020ACE76080D4E35", type: "item", item: { id: "minecraft:bread", count: 8 } }]
@@ -1028,20 +1030,21 @@
 		}
 		{
 			dependencies: ["5A652BEF93A71F4D"]
-			description: ["&6Was ist das?", "Hier beginnt die Eisenzeit. Sie schaltet frei: Eisenwerkzeug und -ruestung, Schild, Schmelzofen, Amboss, Toms Storage und die Eisenwaffen von Simply Swords.", "", "&6So gehts", "Schliesse die Pflicht-Zweige ab: Holz, Stein, Nahrung, Kochen und Bergbau.", "Habe 16 Eisenbarren im Inventar und hol dir die Belohnung.", "Das gilt sofort fuer alle Spieler.", "", "&6Wofuer ist das wichtig?", "Danach oeffnet sich das Kapitel Eisenzeit."]
+			description: ["&6Was ist das?", "Hier beginnt die Eisenzeit. Sie schaltet frei: Eisenwerkzeug und -rüstung, Schild, Schmelzofen, Amboss, Toms Storage und die Eisenwaffen von Simply Swords.", "", "&6So gehts", "Schließe die Pflicht-Zweige ab: Holz, Stein, Nahrung, Kochen und Bergbau.", "Habe 16 Eisenbarren im Inventar und hol dir die Belohnung.", "Das gilt sofort für alle Spieler.", "", "&6Wofür ist das wichtig?", "Danach öffnet sich das Kapitel Eisenzeit."]
 			icon: { id: "minecraft:iron_ingot" }
+			hide_dependency_lines: true
 			id: "383D2644464FE272"
 			title: "Zeitalter: Eisenzeit"
 			rewards: [{ id: "53F97DDED346654E", type: "historystages:history_stage", stage: "eisenzeit", remove: false, individual: false }, { id: "2F0F0595DF1A4F1B", type: "xp_levels", xp_levels: 5 }, { id: "5E1A7E00C0FFEE01", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "6102DD31983CB9FE", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 37.50d
-			y: 10.50d
+			x: 1.50d
+			y: 14.25d
 		}
 		{
 			dependencies: ["60B557A4BAD57D69"]
-			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Staerke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe fuer Stufe. Die naechste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofuer ist das wichtig?", "Je staerker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schaerfe, Pluenderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Stärke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:bow" }
 			hide_dependency_lines: true
 			id: "55EF779DF279FBD5"
@@ -1049,136 +1052,136 @@
 			rewards: []
 			tasks: [{ id: "2D02434E53530AFD", type: "item", item: { id: "minecraft:bow", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 13.50d
+			y: 17.25d
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "04C68043BDC78DC0"
 			title: "Werkzeug-Set Stein"
 			rewards: []
 			tasks: [{ id: "5F7B71280C7901AE", type: "checkmark" }]
 			x: 3.00d
-			y: 13.50d
+			y: 17.25d
 		}
 		{
 			dependencies: ["04C68043BDC78DC0"]
-			description: ["&6Was ist das?", "Fische und Schaetze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Fische und Schätze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:fishing_rod" }
 			id: "45D11842B4FCB827"
 			title: "Angel"
 			rewards: []
 			tasks: [{ id: "45650CFBE3C51DC1", type: "checkmark" }]
 			x: 4.50d
-			y: 13.50d
+			y: 17.25d
 		}
 		{
 			dependencies: ["45D11842B4FCB827"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und koennen haertere Erze abbauen. Die naechste Stufe oeffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:wooden_pickaxe" }
 			id: "0EC84BEA5DC43552"
 			title: "Werkzeug-Set Holz"
 			rewards: []
 			tasks: [{ id: "71B65BAF6EA77673", type: "checkmark" }]
 			x: 6.00d
-			y: 13.50d
+			y: 17.25d
 		}
 		{
 			dependencies: ["04C68043BDC78DC0"]
-			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofuer ist das wichtig?", "Gute Ruestung ist die Voraussetzung fuer Bosse, Nether und Ende. Achte im Tooltip auf Ruestung und Haerte."]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "minecraft:leather_chestplate" }
 			id: "7199905A795ABFEE"
-			title: "Ruestung Leder"
+			title: "Rüstung Leder"
 			rewards: []
 			tasks: [{ id: "58FF5AB6A2A862DE", type: "checkmark" }]
 			x: 4.50d
-			y: 14.75d
+			y: 18.50d
 		}
 		{
 			dependencies: ["32B584A362001F6A"]
-			description: ["&6Was ist das?", "Mit der Schleuder verschiesst du Kiesel auf Distanz.", "", "&6So gehts", "Kiesel sammeln, Schleuder nach JEI herstellen. Rechtsklick halten zum Spannen.", "", "&6Wofuer ist das wichtig?", "Die erste Fernwaffe, noch vor dem Bogen."]
+			description: ["&6Was ist das?", "Mit der Schleuder verschießt du Kiesel auf Distanz.", "", "&6So gehts", "Kiesel sammeln, Schleuder nach JEI herstellen. Rechtsklick halten zum Spannen.", "", "&6Wofür ist das wichtig?", "Die erste Fernwaffe, noch vor dem Bogen."]
 			hide_dependency_lines: true
 			id: "5DE7F7A93248B56F"
 			title: "Schleuder"
 			rewards: [{ id: "52439A16D28A2676", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "33A71492BA32EC39", type: "item", item: { id: "slingshot:brown", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["5DE7F7A93248B56F"]
-			description: ["&6Was ist das?", "Munition fuer die Schleuder.", "", "&6So gehts", "Kiesel aus Kies und Stein herstellen, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Billig und ueberall zu finden."]
+			description: ["&6Was ist das?", "Munition für die Schleuder.", "", "&6So gehts", "Kiesel aus Kies und Stein herstellen, siehe JEI.", "", "&6Wofür ist das wichtig?", "Billig und überall zu finden."]
 			id: "00AB81F488EE8A13"
 			title: "Kiesel"
 			rewards: [{ id: "28C3E2EDD6E55C31", type: "item", item: { id: "slingshot:pebble", count: 16 } }]
 			tasks: [{ id: "724FDBB3BD24081F", type: "item", item: { id: "slingshot:pebble", count: 1 }, count: 8L }]
 			x: 3.00d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["00AB81F488EE8A13"]
-			description: ["&6Was ist das?", "Ein Speer zum Stechen und Werfen.", "", "&6So gehts", "Holz und Stoecke, siehe JEI. Mit Rechtsklick halten wirfst du ihn.", "", "&6Wofuer ist das wichtig?", "Einfache Nah- und Wurfwaffe der Steinzeit."]
+			description: ["&6Was ist das?", "Ein Speer zum Stechen und Werfen.", "", "&6So gehts", "Holz und Stöcke, siehe JEI. Mit Rechtsklick halten wirfst du ihn.", "", "&6Wofür ist das wichtig?", "Einfache Nah- und Wurfwaffe der Steinzeit."]
 			id: "34190EAEB8246C4E"
 			title: "Holzspeer"
 			rewards: [{ id: "7299E9D1A6D60235", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5EED3AABB31250CB", type: "item", item: { id: "weaponmod:spear.wood", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["34190EAEB8246C4E"]
-			description: ["&6Was ist das?", "Der Speer mit Steinspitze.", "", "&6So gehts", "Stein statt Holz am Speer, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Mehr Schaden, haelt laenger."]
+			description: ["&6Was ist das?", "Der Speer mit Steinspitze.", "", "&6So gehts", "Stein statt Holz am Speer, siehe JEI.", "", "&6Wofür ist das wichtig?", "Mehr Schaden, hält länger."]
 			id: "0D930DEFF3503872"
 			title: "Steinspeer"
 			rewards: [{ id: "77C153CC5A945207", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "56883F27EFEC16EB", type: "item", item: { id: "weaponmod:spear.stone", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["0D930DEFF3503872"]
-			description: ["&6Was ist das?", "Ein Speer nur zum Werfen.", "", "&6So gehts", "Eisen und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Gute Wurfwaffe gegen Gegner auf Abstand."]
+			description: ["&6Was ist das?", "Ein Speer nur zum Werfen.", "", "&6So gehts", "Eisen und Holz, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gute Wurfwaffe gegen Gegner auf Abstand."]
 			id: "0BEAA9DA03DE0969"
-			title: "Wurfspiess"
+			title: "Wurfspieß"
 			rewards: [{ id: "7E7FDFF0C156F8E5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "64AB28E136CF3239", type: "item", item: { id: "weaponmod:javelin", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["0BEAA9DA03DE0969"]
-			description: ["&6Was ist das?", "Ein Bumerang aus Stein, der zurueckkehrt.", "", "&6So gehts", "Stein und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Trifft auf Distanz und kommt zurueck, wenn er verfehlt."]
+			description: ["&6Was ist das?", "Ein Bumerang aus Stein, der zurückkehrt.", "", "&6So gehts", "Stein und Holz, siehe JEI.", "", "&6Wofür ist das wichtig?", "Trifft auf Distanz und kommt zurück, wenn er verfehlt."]
 			id: "7173A54B117B67C1"
 			title: "Steinbumerang"
 			rewards: [{ id: "2BF9DE5CCB2C1AE4", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "532A88C3EAEFAA2C", type: "item", item: { id: "weaponmod:boomerang.stone", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["7173A54B117B67C1"]
-			description: ["&6Was ist das?", "Verschiesst Pfeile mit Effekten.", "", "&6So gehts", "Bambus und Holz, siehe JEI.", "", "&6Wofuer ist das wichtig?", "Leise Waffe, mit Giftpfeilen stark gegen Gegner."]
+			description: ["&6Was ist das?", "Verschießt Pfeile mit Effekten.", "", "&6So gehts", "Bambus und Holz, siehe JEI.", "", "&6Wofür ist das wichtig?", "Leise Waffe, mit Giftpfeilen stark gegen Gegner."]
 			id: "09FE331571782553"
 			title: "Blasrohr"
 			rewards: [{ id: "3C406F42BEAB6F68", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "43DBCFAC6BCCDBB5", type: "item", item: { id: "weaponmod:blowgun", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["09FE331571782553"]
-			description: ["&6Was ist das?", "Munition fuers Blasrohr.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofuer ist das wichtig?", "Es gibt Pfeile mit Hunger, Verlangsamung und Schaden."]
+			description: ["&6Was ist das?", "Munition fürs Blasrohr.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofür ist das wichtig?", "Es gibt Pfeile mit Hunger, Verlangsamung und Schaden."]
 			id: "3171073D28439490"
 			title: "Blasrohrpfeile"
 			rewards: [{ id: "0FF634804D066AED", type: "item", item: { id: "weaponmod:dart", count: 16 } }]
 			tasks: [{ id: "67590C18884FF308", type: "item", item: { id: "weaponmod:dart", count: 1 }, count: 8L }]
 			x: 12.00d
-			y: 58.75d
+			y: 64.38d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Ein Zaun haelt Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stoecke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Zaeunen baust du Weiden fuer Tiere."]
+			description: ["&6Was ist das?", "Ein Zaun hält Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stöcke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Zäunen baust du Weiden für Tiere."]
 			id: "ECF098B3124DC049"
 			title: "Zaun"
 			rewards: [{ id: "6F65EF2E6DECF530", type: "xp_levels", xp_levels: 2 }]
@@ -1188,7 +1191,7 @@
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Leitern bringen dich schnell nach oben und unten.", "", "&6So gehts", "Stoecke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Unverzichtbar im Bergwerk und beim Hausbau."]
+			description: ["&6Was ist das?", "Leitern bringen dich schnell nach oben und unten.", "", "&6So gehts", "Stöcke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Unverzichtbar im Bergwerk und beim Hausbau."]
 			id: "13E4634A0A85F1DE"
 			title: "Leiter"
 			rewards: [{ id: "FAE570CFD4A42794", type: "xp_levels", xp_levels: 2 }]
@@ -1198,7 +1201,7 @@
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Feuerstein faellt manchmal beim Abbau von Kies.", "", "&6So gehts", "Baue Kies mit einer Schaufel ab.", "", "&6Wofuer ist das wichtig?", "Daraus entstehen Feuer-Anzuender und Pfeile."]
+			description: ["&6Was ist das?", "Feuerstein fällt manchmal beim Abbau von Kies.", "", "&6So gehts", "Baue Kies mit einer Schaufel ab.", "", "&6Wofür ist das wichtig?", "Daraus entstehen Feuer-Anzünder und Pfeile."]
 			id: "C05D2CE3317F29B7"
 			title: "Feuerstein"
 			rewards: [{ id: "91437FB20977C74E", type: "xp_levels", xp_levels: 2 }]
@@ -1208,7 +1211,7 @@
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Treppen aus Stein fuer dein Haus.", "", "&6So gehts", "Bruchstein in der Werkbank in Treppenform legen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Mit Treppen und Platten wirken Haeuser abwechslungsreicher."]
+			description: ["&6Was ist das?", "Treppen aus Stein für dein Haus.", "", "&6So gehts", "Bruchstein in der Werkbank in Treppenform legen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Treppen und Platten wirken Häuser abwechslungsreicher."]
 			id: "83690BCBB0730B16"
 			title: "Steintreppen"
 			rewards: [{ id: "73A2A1A442CA71C8", type: "xp_levels", xp_levels: 2 }]
@@ -1218,47 +1221,47 @@
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Zwei einfache Nahrungspflanzen.", "", "&6So gehts", "Finde sie bei Dorfbewohnern oder Zombies und pflanze sie auf Ackerboden.", "", "&6Wofuer ist das wichtig?", "Eine sichere Nahrungsquelle fuer den Alltag."]
+			description: ["&6Was ist das?", "Zwei einfache Nahrungspflanzen.", "", "&6So gehts", "Finde sie bei Dorfbewohnern oder Zombies und pflanze sie auf Ackerboden.", "", "&6Wofür ist das wichtig?", "Eine sichere Nahrungsquelle für den Alltag."]
 			id: "D7051178914E0697"
 			title: "Kartoffeln und Karotten"
 			rewards: [{ id: "B1D47D5EEED94F9D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6E11563AADD54FAF", type: "item", item: { id: "minecraft:carrot", count: 1 }, count: 4L }]
-			x: 22.50d
-			y: 5.50d
+			x: 4.50d
+			y: 7.38d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Kuerbisse wachsen aus Samen und liefern Kuerbiskuchen.", "", "&6So gehts", "Kuerbissamen in Ackerboden pflanzen und warten.", "", "&6Wofuer ist das wichtig?", "Wird spaeter fuer Kuerbiskuchen und Golems gebraucht."]
+			description: ["&6Was ist das?", "Kürbisse wachsen aus Samen und liefern Kürbiskuchen.", "", "&6So gehts", "Kürbissamen in Ackerboden pflanzen und warten.", "", "&6Wofür ist das wichtig?", "Wird später für Kürbiskuchen und Golems gebraucht."]
 			id: "FC9DD8958450E1BC"
-			title: "Kuerbis"
+			title: "Kürbis"
 			rewards: [{ id: "1064B04BEEA51B47", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "C2A1A1E7ECFFFA95", type: "item", item: { id: "minecraft:pumpkin", count: 1 }, count: 2L }]
-			x: 22.50d
-			y: 6.75d
+			x: 4.50d
+			y: 8.62d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Melonen wachsen aus Samen und geben Scheiben.", "", "&6So gehts", "Melonensamen auf Ackerboden pflanzen.", "", "&6Wofuer ist das wichtig?", "Schnelle Nahrung und Zutat fuer Tranke."]
+			description: ["&6Was ist das?", "Melonen wachsen aus Samen und geben Scheiben.", "", "&6So gehts", "Melonensamen auf Ackerboden pflanzen.", "", "&6Wofür ist das wichtig?", "Schnelle Nahrung und Zutat für Tranke."]
 			id: "B4C5F23D5E69E969"
 			title: "Melone"
 			rewards: [{ id: "5C4579D251FCC102", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B5F5D8593BC84B5", type: "item", item: { id: "minecraft:melon_slice", count: 1 }, count: 6L }]
-			x: 22.50d
-			y: 8.00d
+			x: 4.50d
+			y: 9.88d
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Knochen aus Skeletten werden zu Duenger.", "", "&6So gehts", "Knochen in der Werkbank zu Knochenmehl verarbeiten.", "", "&6Wofuer ist das wichtig?", "Beschleunigt das Wachstum von Pflanzen enorm."]
+			description: ["&6Was ist das?", "Knochen aus Skeletten werden zu Dünger.", "", "&6So gehts", "Knochen in der Werkbank zu Knochenmehl verarbeiten.", "", "&6Wofür ist das wichtig?", "Beschleunigt das Wachstum von Pflanzen enorm."]
 			id: "129DD140CA64F351"
 			title: "Knochenmehl"
 			rewards: [{ id: "2A6AAE6A26D5E314", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3054906D97F05EFC", type: "item", item: { id: "minecraft:bone_meal", count: 1 }, count: 6L }]
-			x: 27.00d
-			y: 9.25d
+			x: 9.00d
+			y: 11.12d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Papier entsteht aus Zuckerrohr.", "", "&6So gehts", "Drei Zuckerrohr nebeneinander in der Werkbank.", "", "&6Wofuer ist das wichtig?", "Brauchst du fuer Buecher, Karten und viele Rezepte."]
+			description: ["&6Was ist das?", "Papier entsteht aus Zuckerrohr.", "", "&6So gehts", "Drei Zuckerrohr nebeneinander in der Werkbank.", "", "&6Wofür ist das wichtig?", "Brauchst du für Bücher, Karten und viele Rezepte."]
 			id: "AF7119EB435A4D0D"
 			title: "Papier"
 			rewards: [{ id: "08A70D88D69C64E4", type: "xp_levels", xp_levels: 2 }]
@@ -1268,7 +1271,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Hilft bei der Ordnung in grossen Lagern."]
+			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilft bei der Ordnung in großen Lagern."]
 			id: "22DEBBAF902D4BA1"
 			title: "Schilder"
 			rewards: [{ id: "441B7533C996B730", type: "xp_levels", xp_levels: 2 }]
@@ -1284,7 +1287,7 @@
 			tasks: [{ id: "C8FA25BACBC831D2", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 13.50d
+			y: 17.25d
 		}
 		{
 			description: ["&6Abschnitt", "Kampf und Stein-Waffen"]
@@ -1294,7 +1297,7 @@
 			tasks: [{ id: "DBAE49B3B48C318D", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 17.75d
+			y: 21.50d
 		}
 		{
 			description: ["&6Abschnitt", "Landwirtschaft"]
@@ -1304,7 +1307,7 @@
 			tasks: [{ id: "5BF66CDE2545CB96", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 34.50d
+			y: 38.25d
 		}
 		{
 			description: ["&6Abschnitt", "Reisen und Dorf"]
@@ -1314,7 +1317,7 @@
 			tasks: [{ id: "F0DFCD618CA85F8F", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 38.75d
+			y: 42.50d
 		}
 		{
 			description: ["&6Abschnitt", "Steinwerkzeuge"]
@@ -1324,17 +1327,17 @@
 			tasks: [{ id: "77A486728ECCBA5B", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 41.75d
+			y: 45.50d
 		}
 		{
-			description: ["&6Abschnitt", "Haus und Moebel"]
+			description: ["&6Abschnitt", "Haus und Möbel"]
 			id: "971838FE79F94257"
-			title: "Haus und Moebel"
+			title: "Haus und Möbel"
 			optional: true
 			tasks: [{ id: "F2367389FDF891C5", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 46.00d
+			y: 49.75d
 		}
 		{
 			description: ["&6Abschnitt", "Holz und Pflanzen"]
@@ -1344,7 +1347,7 @@
 			tasks: [{ id: "232F6897926E6598", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 50.25d
+			y: 55.88d
 		}
 		{
 			description: ["&6Abschnitt", "Spielhilfen"]
@@ -1354,7 +1357,7 @@
 			tasks: [{ id: "AD5FA3D41D567000", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 54.50d
+			y: 60.12d
 		}
 		{
 			description: ["&6Abschnitt", "Fernwaffen der Steinzeit"]
@@ -1364,7 +1367,7 @@
 			tasks: [{ id: "9968B1673B337260", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 58.75d
+			y: 64.38d
 		}
 	]
 }

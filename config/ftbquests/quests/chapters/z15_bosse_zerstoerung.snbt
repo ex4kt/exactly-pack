@@ -6,13 +6,13 @@
 	id: "8BED5B6594A4D29C"
 	order_index: 21
 	quest_links: [ ]
-	title: "&cBosse der Zerstoerung"
+	title: "&cBosse der Zerstörung"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Bosses of Mass Destruction fuegt vier maechtige Bosse hinzu: Lich, Gauntlet, Void Blossom und Obsidilith. Jeder hat eine eigene Arena und eine eigene Beute.", "Die Anleitungen unten helfen dir, jeden Kampf zu bestehen.", "", "&6Wofuer ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
+			description: ["&6Was ist das?", "Bosses of Mass Destruction fügt vier mächtige Bosse hinzu: Lich, Gauntlet, Void Blossom und Obsidilith. Jeder hat eine eigene Arena und eine eigene Beute.", "Die Anleitungen unten helfen dir, jeden Kampf zu bestehen.", "", "&6Wofür ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
 			icon: { id: "bosses_of_mass_destruction:soul_star" }
 			id: "FF8B2A6AAB74FE57"
-			title: "&cBosse der Zerstoerung"
+			title: "&cBosse der Zerstörung"
 			rewards: [{ id: "8C53765F4EC0A954", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "66EEBC578F4ECB4F", type: "checkmark" }]
 			shape: "hexagon"
@@ -22,7 +22,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Die Bosse sind schwerer als Vanilla-Bosse. Gute Ruestung, Heilung und viel Platz zum Ausweichen sind Pflicht.", "", "&6So gehts", "Nimm Goldene Aepfel, einen Schild, Bogen und Bloecke zum Bauen mit. Lerne die Angriffsmuster, bevor du kaempfst."]
+			description: ["&6Was ist das?", "Die Bosse sind schwerer als Vanilla-Bosse. Gute Rüstung, Heilung und viel Platz zum Ausweichen sind Pflicht.", "", "&6So gehts", "Nimm Goldene Äpfel, einen Schild, Bogen und Blöcke zum Bauen mit. Lerne die Angriffsmuster, bevor du kämpfst."]
 			id: "B2C55523807C7E30"
 			title: "Boss: Vorbereitung"
 			rewards: [{ id: "CE0D8D877A98B9AC", type: "xp_levels", xp_levels: 3 }]
@@ -32,7 +32,7 @@
 		}
 		{
 			dependencies: ["B2C55523807C7E30"]
-			description: ["&6Was ist das?", "Der Lich ruft Geister und beschwoert Waffen. Er laesst den Seelenstern fallen.", "", "&6So gehts", "Weiche den Geschossen aus, besiege die Geister schnell und schlage dann zu. Nutze Fernkampf."]
+			description: ["&6Was ist das?", "Der Lich ruft Geister und beschwört Waffen. Er lässt den Seelenstern fallen.", "", "&6So gehts", "Weiche den Geschossen aus, besiege die Geister schnell und schlage dann zu. Nutze Fernkampf."]
 			id: "33D918086EDD77D8"
 			title: "Boss: Lich"
 			rewards: [{ id: "D4F398EE4B5C1A95", type: "xp_levels", xp_levels: 3 }]
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["33D918086EDD77D8"]
-			description: ["&6Was ist das?", "Der Gauntlet ist ein schwebender Handschuh mit starken Schlaegen. Er laesst das Brennende Auge fallen.", "", "&6So gehts", "Halte Abstand, weiche den Raketen aus und greife an, wenn er schwach ist."]
+			description: ["&6Was ist das?", "Der Gauntlet ist ein schwebender Handschuh mit starken Schlägen. Er lässt das Brennende Auge fallen.", "", "&6So gehts", "Halte Abstand, weiche den Raketen aus und greife an, wenn er schwach ist."]
 			id: "265C28EA0879D955"
 			title: "Boss: Gauntlet"
 			rewards: [{ id: "E1CD7BE8A7D83351", type: "xp_levels", xp_levels: 3 }]
@@ -52,7 +52,7 @@
 		}
 		{
 			dependencies: ["265C28EA0879D955"]
-			description: ["&6Was ist das?", "Die Void Blossom waechst in der Tiefe und wirft Dornen. Sie laesst den Void-Dorn fallen.", "", "&6So gehts", "Zerstoere zuerst ihre Ranken, dann den Kern. Heile dich zwischen den Phasen."]
+			description: ["&6Was ist das?", "Die Void Blossom wächst in der Tiefe und wirft Dornen. Sie lässt den Void-Dorn fallen.", "", "&6So gehts", "Zerstöre zuerst ihre Ranken, dann den Kern. Heile dich zwischen den Phasen."]
 			id: "CDB54088754E64F4"
 			title: "Boss: Void Blossom"
 			rewards: [{ id: "ED4D19B885DC0A68", type: "xp_levels", xp_levels: 3 }]
@@ -62,7 +62,7 @@
 		}
 		{
 			dependencies: ["CDB54088754E64F4"]
-			description: ["&6Was ist das?", "Der Obsidilith ist ein Koloss mit Runen. Er laesst das Obsidianherz fallen.", "", "&6So gehts", "Zerstoere die Runen nacheinander und weiche seinen Angriffen aus. Sei geduldig."]
+			description: ["&6Was ist das?", "Der Obsidilith ist ein Koloss mit Runen. Er lässt das Obsidianherz fallen.", "", "&6So gehts", "Zerstöre die Runen nacheinander und weiche seinen Angriffen aus. Sei geduldig."]
 			id: "33288E16EBE80FA9"
 			title: "Boss: Obsidilith"
 			rewards: [{ id: "B1515FFF42969A50", type: "xp_levels", xp_levels: 3 }]
@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Beute des Lichs.", "", "&6So gehts", "Besiege den Lich.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Beute des Lichs.", "", "&6So gehts", "Besiege den Lich.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "C446AB8C82E26123"
 			title: "Seelenstern"
 			rewards: [{ id: "7F45B096D3801B73", type: "xp_levels", xp_levels: 3 }]
@@ -82,7 +82,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Beute des Gauntlets.", "", "&6So gehts", "Besiege den Gauntlet.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Beute des Gauntlets.", "", "&6So gehts", "Besiege den Gauntlet.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "A9F5307C8ECE78B0"
 			title: "Brennendes Auge"
 			rewards: [{ id: "089B5123E842997D", type: "xp_levels", xp_levels: 3 }]
@@ -92,7 +92,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Beute der Void Blossom.", "", "&6So gehts", "Besiege die Void Blossom.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Beute der Void Blossom.", "", "&6So gehts", "Besiege die Void Blossom.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "7528EA79511070A7"
 			title: "Void-Dorn"
 			rewards: [{ id: "CFD8C364EAB42BD6", type: "xp_levels", xp_levels: 3 }]
@@ -102,7 +102,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Beute des Obsidiliths.", "", "&6So gehts", "Besiege den Obsidilith.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Beute des Obsidiliths.", "", "&6So gehts", "Besiege den Obsidilith.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "B76DC0C3B07822DB"
 			title: "Obsidianherz"
 			rewards: [{ id: "F6540600C8FB4456", type: "xp_levels", xp_levels: 3 }]
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Ein starker Speer.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein starker Speer.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "EC0643B173F29C6A"
 			title: "Erdtauch-Speer"
 			rewards: [{ id: "2EDC49C1F71BD135", type: "xp_levels", xp_levels: 3 }]
@@ -122,7 +122,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Eine seltene Frucht, die Leben schenkt.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine seltene Frucht, die Leben schenkt.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "BA5C875CD7AA2208"
 			title: "Kristallfrucht"
 			rewards: [{ id: "F0ACDEBE7AA95416", type: "xp_levels", xp_levels: 3 }]
@@ -132,7 +132,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Ein seltenes Material.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein seltenes Material.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "E73C49EA44371FF3"
 			title: "Uralte Anima"
 			rewards: [{ id: "5EC0C2607F9880A6", type: "xp_levels", xp_levels: 3 }]
@@ -142,7 +142,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Ein seltenes Material aus dem Nether.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein seltenes Material aus dem Nether.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "DB4C9492BF5F85E2"
 			title: "Schwefelnektar"
 			rewards: [{ id: "2577C324694BAAD6", type: "xp_levels", xp_levels: 3 }]
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["FF8B2A6AAB74FE57"]
-			description: ["&6Was ist das?", "Ein Block, der Mobs fernhaelt.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein Block, der Mobs fernhält.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "17985D060397A31D"
 			title: "Mob-Schutz"
 			rewards: [{ id: "7383D496000E05D0", type: "xp_levels", xp_levels: 3 }]

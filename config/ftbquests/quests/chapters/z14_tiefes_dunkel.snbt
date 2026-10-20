@@ -9,7 +9,7 @@
 	title: "&3Tiefes Dunkel"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Deeper Darker erweitert das Tiefe Dunkel: Es gibt eine eigene Dimension (Otherside) mit Gloomslate, neuen Gegnern und starkem Resonarium-Werkzeug.", "Hier steht Schritt fuer Schritt, wie du dorthin kommst und was du mitnehmen kannst.", "", "&6Wofuer ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
+			description: ["&6Was ist das?", "Deeper Darker erweitert das Tiefe Dunkel: Es gibt eine eigene Dimension (Otherside) mit Gloomslate, neuen Gegnern und starkem Resonarium-Werkzeug.", "Hier steht Schritt für Schritt, wie du dorthin kommst und was du mitnehmen kannst.", "", "&6Wofür ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
 			icon: { id: "deeperdarker:resonarium" }
 			id: "F38B2FFC80A4DF5A"
 			title: "&3Tiefes Dunkel"
@@ -22,7 +22,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Das Tiefe Dunkel ist sehr gefaehrlich (Waechter!). Nimm Heilung, gute Ruestung, Wolle und Bloecke mit. Schleichen vermeidet Geraeusche.", "", "&6So gehts", "Lies zuerst die Anleitung zum Waechter im Diamant-Kapitel. Bereite Essen, Goldene Aepfel und Fernkampf vor."]
+			description: ["&6Was ist das?", "Das Tiefe Dunkel ist sehr gefährlich (Wächter!). Nimm Heilung, gute Rüstung, Wolle und Blöcke mit. Schleichen vermeidet Geräusche.", "", "&6So gehts", "Lies zuerst die Anleitung zum Wächter im Diamant-Kapitel. Bereite Essen, Goldene Äpfel und Fernkampf vor."]
 			id: "E255ACCB1A466884"
 			title: "Tiefes Dunkel: Vorbereitung"
 			rewards: [{ id: "E512148239292D22", type: "xp_levels", xp_levels: 3 }]
@@ -32,7 +32,7 @@
 		}
 		{
 			dependencies: ["E255ACCB1A466884"]
-			description: ["&6Was ist das?", "Ein Portal fuehrt in die Dimension Otherside.", "", "&6So gehts", "Das Portal braucht einen Rahmen und das Herz der Tiefe. Rezept und Aufbau zeigt JEI und das Handbuch des Mods."]
+			description: ["&6Was ist das?", "Ein Portal führt in die Dimension Otherside.", "", "&6So gehts", "Das Portal braucht einen Rahmen und das Herz der Tiefe. Rezept und Aufbau zeigt JEI und das Handbuch des Mods."]
 			id: "6BAD6BE28E7AA6E9"
 			title: "Tiefes Dunkel: Portal zur Otherside"
 			rewards: [{ id: "9293DE8FC88B2875", type: "xp_levels", xp_levels: 3 }]
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["6BAD6BE28E7AA6E9"]
-			description: ["&6Was ist das?", "Resonarium ist das neue Erz fuer Waffen und Ruestung.", "", "&6So gehts", "Baue es in der Otherside ab. Eine Schmiedevorlage und der Schmiedetisch verbessern Diamantwerkzeug zu Resonarium."]
+			description: ["&6Was ist das?", "Resonarium ist das neue Erz für Waffen und Rüstung.", "", "&6So gehts", "Baue es in der Otherside ab. Eine Schmiedevorlage und der Schmiedetisch verbessern Diamantwerkzeug zu Resonarium."]
 			id: "C6CD75E9BB049A79"
 			title: "Tiefes Dunkel: Resonarium"
 			rewards: [{ id: "7DABE929C4A334BF", type: "xp_levels", xp_levels: 3 }]
@@ -52,7 +52,7 @@
 		}
 		{
 			dependencies: ["C6CD75E9BB049A79"]
-			description: ["&6Was ist das?", "In der Otherside leben neue Gegner, die auf Geraeusche reagieren.", "", "&6So gehts", "Schleiche, nutze Wolle und beleuchte den Weg. Die Gegner lassen Beute fallen, die du fuer Waffen und Tranke brauchst."]
+			description: ["&6Was ist das?", "In der Otherside leben neue Gegner, die auf Geräusche reagieren.", "", "&6So gehts", "Schleiche, nutze Wolle und beleuchte den Weg. Die Gegner lassen Beute fallen, die du für Waffen und Tranke brauchst."]
 			id: "70EB9A0A96263AE6"
 			title: "Tiefes Dunkel: Gefahren"
 			rewards: [{ id: "00A61F933D6C51E3", type: "xp_levels", xp_levels: 3 }]
@@ -62,7 +62,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Ein seltenes Herz, das das Portal zur Otherside oeffnet.", "", "&6So gehts", "Finde es in den Truhen der Alten Staedte.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein seltenes Herz, das das Portal zur Otherside öffnet.", "", "&6So gehts", "Finde es in den Truhen der Alten Städte.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "498893101C593AF5"
 			title: "Herz der Tiefe"
 			rewards: [{ id: "1919E93AD11745AD", type: "xp_levels", xp_levels: 3 }]
@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Das Erz der Otherside.", "", "&6So gehts", "Baue Resonarium-Erz in der Otherside ab.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Das Erz der Otherside.", "", "&6So gehts", "Baue Resonarium-Erz in der Otherside ab.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "E4163207D0944996"
 			title: "Resonarium"
 			rewards: [{ id: "7D836E77AF67D461", type: "xp_levels", xp_levels: 3 }]
@@ -82,7 +82,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Ein starkes Schwert aus Resonarium.", "", "&6So gehts", "Schmiede es am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein starkes Schwert aus Resonarium.", "", "&6So gehts", "Schmiede es am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "65B00A2D35D14880"
 			title: "Resonarium-Schwert"
 			rewards: [{ id: "59001AC9406329BC", type: "xp_levels", xp_levels: 3 }]
@@ -92,7 +92,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine starke Spitzhacke.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine starke Spitzhacke.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "5B4C8012EDE7BD0C"
 			title: "Resonarium-Spitzhacke"
 			rewards: [{ id: "60581CCACE1D62E0", type: "xp_levels", xp_levels: 3 }]
@@ -102,7 +102,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine starke Axt.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine starke Axt.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "A341738C837A7935"
 			title: "Resonarium-Axt"
 			rewards: [{ id: "B91DDDD91389B372", type: "xp_levels", xp_levels: 3 }]
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine starke Schaufel.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine starke Schaufel.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "89BE9C1C8EB5140F"
 			title: "Resonarium-Schaufel"
 			rewards: [{ id: "49A047DC4AC87FC0", type: "xp_levels", xp_levels: 3 }]
@@ -122,7 +122,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine starke Hacke.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine starke Hacke.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "A51149BBE060A724"
 			title: "Resonarium-Hacke"
 			rewards: [{ id: "B766FF10B437BDB5", type: "xp_levels", xp_levels: 3 }]
@@ -132,7 +132,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Ein starker Helm.", "", "&6So gehts", "Schmiede ihn am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein starker Helm.", "", "&6So gehts", "Schmiede ihn am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "D9090B8906555096"
 			title: "Resonarium-Helm"
 			rewards: [{ id: "5E6C9992B5FB12E0", type: "xp_levels", xp_levels: 3 }]
@@ -142,7 +142,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine starke Brustplatte.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine starke Brustplatte.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "173714726C167229"
 			title: "Resonarium-Brustplatte"
 			rewards: [{ id: "E41686CD66160227", type: "xp_levels", xp_levels: 3 }]
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine starke Hose.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine starke Hose.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "DE0279E17F9AC098"
 			title: "Resonarium-Hose"
 			rewards: [{ id: "6CE9DA661DCF884C", type: "xp_levels", xp_levels: 3 }]
@@ -162,7 +162,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Starke Stiefel.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Starke Stiefel.", "", "&6So gehts", "Schmiede sie am Schmiedetisch.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "DDE3A361C0099EBA"
 			title: "Resonarium-Stiefel"
 			rewards: [{ id: "E01C683E99A46DF0", type: "xp_levels", xp_levels: 3 }]
@@ -172,7 +172,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Die Vorlage fuer Resonarium-Aufwertungen.", "", "&6So gehts", "Finde sie in Truhen der Alten Stadt.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Die Vorlage für Resonarium-Aufwertungen.", "", "&6So gehts", "Finde sie in Truhen der Alten Stadt.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "864FA3F3EAB06E9B"
 			title: "Resonarium-Schmiedevorlage"
 			rewards: [{ id: "D82FB0F1423674A6", type: "xp_levels", xp_levels: 3 }]
@@ -182,7 +182,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Knochen der Otherside-Gegner.", "", "&6So gehts", "Besiege Skelette der Otherside.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Knochen der Otherside-Gegner.", "", "&6So gehts", "Besiege Skelette der Otherside.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "FB759E0FED1D9D16"
 			title: "Sculk-Knochen"
 			rewards: [{ id: "8350A73F7AAC319F", type: "xp_levels", xp_levels: 3 }]
@@ -192,7 +192,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Der Stein der Otherside.", "", "&6So gehts", "Baue ihn in der Otherside ab.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Der Stein der Otherside.", "", "&6So gehts", "Baue ihn in der Otherside ab.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "93550840067F0CFC"
 			title: "Dunkelschiefer"
 			rewards: [{ id: "C40D31B5397A7623", type: "xp_levels", xp_levels: 3 }]
@@ -202,9 +202,9 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine Frucht aus der Otherside.", "", "&6So gehts", "Finde sie an Pflanzen in der Otherside.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine Frucht aus der Otherside.", "", "&6So gehts", "Finde sie an Pflanzen in der Otherside.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "F675299B0C83E786"
-			title: "Bluetenbeeren"
+			title: "Blütenbeeren"
 			rewards: [{ id: "85F184E0B464C554", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "D1711CBD2106119E", type: "item", item: { id: "deeperdarker:bloom_berries", count: 1 }, count: 4L }]
 			x: 4.50d
@@ -212,7 +212,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Eine Mahlzeit aus Otherside-Fisch.", "", "&6So gehts", "Fange Anglerfische und brate sie im Ofen.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Eine Mahlzeit aus Otherside-Fisch.", "", "&6So gehts", "Fange Anglerfische und brate sie im Ofen.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "B7A1774F1A42721E"
 			title: "Gebratener Anglerfisch"
 			rewards: [{ id: "6DEDC86A9F4FB02B", type: "xp_levels", xp_levels: 3 }]
@@ -222,7 +222,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Ein leuchtendes Gel.", "", "&6So gehts", "Erhalte es von bestimmten Otherside-Wesen.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein leuchtendes Gel.", "", "&6So gehts", "Erhalte es von bestimmten Otherside-Wesen.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "E261E34A7B6BC3C6"
 			title: "Leuchtgel"
 			rewards: [{ id: "D98145593A9AFA39", type: "xp_levels", xp_levels: 3 }]
@@ -232,7 +232,7 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Ein Boot aus Echo-Holz.", "", "&6So gehts", "Stelle es aus Echo-Planken her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein Boot aus Echo-Holz.", "", "&6So gehts", "Stelle es aus Echo-Planken her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "B3618E1CA06D7A69"
 			title: "Echo-Boot"
 			rewards: [{ id: "AC9F21DF74F09AF5", type: "xp_levels", xp_levels: 3 }]
@@ -242,9 +242,9 @@
 		}
 		{
 			dependencies: ["F38B2FFC80A4DF5A"]
-			description: ["&6Was ist das?", "Ein verstaerkter Splitter fuer das Portal.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofuer ist das wichtig?", "Freiwillig, unabhaengig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Ein verstärkter Splitter für das Portal.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "F5A9CA5FEDF165DA"
-			title: "Verstaerkter Echo-Splitter"
+			title: "Verstärkter Echo-Splitter"
 			rewards: [{ id: "FA97002CFCBAD167", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "B6EAFFF5782AFE6B", type: "item", item: { id: "deeperdarker:reinforced_echo_shard", count: 1 }, count: 1L }]
 			x: 4.50d
