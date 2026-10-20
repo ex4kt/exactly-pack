@@ -434,5 +434,105 @@
 			x: 16.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Perlen von Endermen.", "", "&6So gehts", "Besiege Endermen (nachts oder im Ende). Mit Pluenderung mehr.", "", "&6Wofuer ist das wichtig?", "Perlen brauchst du fuer Enderaugen, Teleport und viele Rezepte."]
+			id: "600EF35468037498"
+			title: "Enderperlen sammeln"
+			rewards: [{ id: "E90C11573F7EC079", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1849E4E7C239FEBB", type: "item", item: { id: "minecraft:ender_pearl", count: 1 }, count: 16L }]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Im Ofen gebackene Chorusfrucht.", "", "&6So gehts", "Chorusfrucht im Ofen schmelzen.", "", "&6Wofuer ist das wichtig?", "Zutat fuer Endstaebe und Purpurbloecke."]
+			id: "18D438EBB5E0B3F3"
+			title: "Gepoppte Chorusfrucht"
+			rewards: [{ id: "CCF2D6F3B188FC0F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "513047372AA6A6D0", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 1 }, count: 4L }]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Treppen aus Purpurbloecken.", "", "&6So gehts", "Purpurbloecke in Treppenform in die Werkbank legen. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Schoenes Baumaterial fuer deine End-Basis."]
+			id: "F660E821A0E162CA"
+			title: "Purpurtreppe"
+			rewards: [{ id: "4D6C7F2D6A1F67DF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3BE59E8FE8D7EAEE", type: "item", item: { id: "minecraft:purpur_stairs", count: 1 }, count: 6L }]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Treppen aus Endsteinziegeln.", "", "&6So gehts", "Endsteinziegel in Treppenform. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Helles Baumaterial, gut fuer Endstaedte."]
+			id: "A4EEA51E6048F20C"
+			title: "Endstein-Treppen"
+			rewards: [{ id: "8C5BA1E5C3280D15", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1F6248DA331720CE", type: "item", item: { id: "minecraft:end_stone_brick_stairs", count: 1 }, count: 6L }]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Pfeile, die Gegner leuchten lassen.", "", "&6So gehts", "Leuchtsteinstaub und Pfeile in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Hilfreich im Ende, um Ziele zu sehen."]
+			id: "A939AFF2911D5A3B"
+			title: "Spektralpfeile"
+			rewards: [{ id: "9C6B0E7BB4AB25CF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9ACA6F449431CB2D", type: "item", item: { id: "minecraft:spectral_arrow", count: 1 }, count: 8L }]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Rettet dich vor dem Tod.", "", "&6So gehts", "Gewinne ihn von Hexenmeistern in Waldanwesen oder aus Raids.", "", "&6Wofuer ist das wichtig?", "In der Haupthand oder Zweithand haltend rettet er dein Leben einmal."]
+			id: "1C8FF45FB5B9E0C2"
+			title: "Totem der Unsterblichkeit"
+			rewards: [{ id: "584936C682AEFBD5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "09320807FB7F7A94", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Ein Kristall, der explodiert.", "", "&6So gehts", "Glas, Enderauge und Ghast-Traene in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Er heilt den Drachen, kann aber selbst starke Explosionen ausloesen."]
+			id: "60223A11FB2C9DFF"
+			title: "Endkristall"
+			rewards: [{ id: "20B73E8B68768045", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6E4B481B36F37DCD", type: "item", item: { id: "minecraft:end_crystal", count: 1 }, count: 1L }]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["028ADF99FBF6807C"]
+			description: ["&6Was ist das?", "Endstaedte stehen auf den ausseren Inseln des Endes. Sie haben Tuerme, Schiffe mit Elytra und Shulker.", "", "&6So gehts", "Reise durch die Endtore (Kiemen) in der Mitte des Endes zu den ausseren Inseln.", "", "&6Wofuer ist das wichtig?", "Dort gibt es Elytra, Shulkerschalen und starke Beute."]
+			id: "1631707162524544"
+			title: "Endstadt: Ueberblick"
+			rewards: [{ id: "07161B53F75A02F6", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "42E8587A8EEEC88F", type: "checkmark" }]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1631707162524544"]
+			description: ["&6Was ist das?", "Shulker sind Wesen in Muschelschalen, die dich schweben lassen.", "", "&6So gehts", "Besiege Shulker mit dem Schwert, wenn sie ihre Schale oeffnen. Nimm Schutz vor Schwebe-Effekt mit (Milch).", "", "&6Wofuer ist das wichtig?", "Sie lassen Shulkerschalen fallen fuer Shulkerkisten."]
+			id: "D297C054D943BB85"
+			title: "Endstadt: Shulker"
+			rewards: [{ id: "7536D6070F66D2E9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "84225D796D31743C", type: "checkmark" }]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["D297C054D943BB85"]
+			description: ["&6Was ist das?", "Manche Endstaedte haben ein Endschiff mit Elytra.", "", "&6So gehts", "Betrete das Schiff vorsichtig, Drachenkopf und Truhen sind dort. Brich die Truhe auf und nimm die Elytra aus dem Rahmen.", "", "&6Wofuer ist das wichtig?", "Die Elytra erlaubt dir zu gleiten und mit Raketen zu fliegen."]
+			id: "1D7CA1A0A747FF18"
+			title: "Endstadt: Endschiff"
+			rewards: [{ id: "27374ABBCEBEF91D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7DFFC340BE8D1D7C", type: "checkmark" }]
+			x: 7.5d
+			y: -8.0d
+		}
 	]
 }
