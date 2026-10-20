@@ -1473,5 +1473,127 @@
 			x: 10.5d
 			y: 45.0d
 		}
+		{
+			dependencies: ["5C658D7AF84D36C8"]
+			description: ["&6Was ist das?", "Mit dem Mod AstikorCarts Redux ziehst du Pflug, Saemaschine, Maehbinder und Wagen mit einem Pferd. So bewirtschaftest du grosse Felder schnell.", "", "&6So gehts", "Die folgenden Quests gehen Schritt fuer Schritt: Pferd, Sattel, Rad, Pflug, Saemaschine, Maehbinder, Wagen. Die Taste R haengt Geraet und Tier an oder ab (Taste in den Optionen aenderbar).", "", "&6Wofuer ist das wichtig?", "Mit den Geraeten sparst du viel Handarbeit auf grossen Feldern."]
+			id: "217BAECEAB45BAF2"
+			title: "Ueberblick: Pferde und Felder"
+			rewards: [{ id: "230F2D17D4471357", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B22BA717C65BAED1", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["217BAECEAB45BAF2"]
+			description: ["&6Was ist das?", "Ein gezaehmtes Pferd zieht deine Geraete.", "", "&6So gehts", "Suche ein wildes Pferd in der Ebene. Setze dich mehrmals mit leerer Hand drauf, bis es dich akzeptiert. Danach legst du einen Sattel auf.", "", "&6Wofuer ist das wichtig?", "Ohne Zugtier bewegt sich kein Geraet."]
+			id: "37B465D11C6E11F7"
+			title: "Pferd zaehmen"
+			rewards: [{ id: "7891A774D792A484", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "BE919C30198013EF", type: "checkmark" }]
+			x: 1.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["37B465D11C6E11F7"]
+			description: ["&6Was ist das?", "Ein Sattel ist noetig, um das Pferd zu steuern.", "", "&6So gehts", "Finde ihn in Truhen von Dungeons oder kaufe ihn bei Dorfbewohnern. Ein Sattel laesst sich nicht herstellen.", "", "&6Wofuer ist das wichtig?", "Du kannst das Pferd erst steuern, wenn es einen Sattel traegt."]
+			id: "EC45BB83A4A8177B"
+			title: "Sattel"
+			rewards: [{ id: "7EED9DEDC45A87A5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "522B1F4DE0A07E11", type: "item", item: { id: "minecraft:saddle", count: 1 }, count: 1L }]
+			x: 3.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["EC45BB83A4A8177B"]
+			description: ["&6Was ist das?", "Raeder sind die Grundlage aller Wagen und Geraete.", "", "&6So gehts", "Stelle Raeder aus Holz in der Werkbank her. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Jedes Geraet braucht zwei Raeder."]
+			id: "E73C93B0FBC8C760"
+			title: "Wagenrad"
+			rewards: [{ id: "E6A49B0AE221A43E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B5A084B3A6099203", type: "item", item: { id: "astikorcartsredux:wheel", count: 1 }, count: 2L }]
+			x: 4.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["E73C93B0FBC8C760"]
+			description: ["&6Was ist das?", "Der Pflug braucht passende Werkzeuge: Hacke zum Umgraben, Schaufel fuer Wege und Axt zum Entrinden.", "", "&6So gehts", "Baue eine Hacke, am besten aus Eisen. Schaufel und Axt sind optional.", "", "&6Wofuer ist das wichtig?", "Ohne Werkzeug arbeitet der Pflug nicht."]
+			id: "24F8F66E9BD25CAA"
+			title: "Pflugwerkzeuge"
+			rewards: [{ id: "BF2D1A49EF29341C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F0DF591DA8139F32", type: "item", item: { id: "minecraft:iron_hoe", count: 1 }, count: 1L }]
+			x: 6.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["24F8F66E9BD25CAA"]
+			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er graebt Erde um, macht Wege und entrindet Staemme.", "", "&6So gehts", "Stelle ihn in der Werkbank her (Holz und Raeder). Das Rezept zeigt dir JEI: Item anklicken und R druecken. Lege die Werkzeuge in die Pflug-Plaetze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofuer ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
+			id: "D8CED7AFC774E39A"
+			title: "Pflug"
+			rewards: [{ id: "D8627B72E329B581", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "05CC4EB077EDD9ED", type: "item", item: { id: "astikorcartsredux:oak_plow", count: 1 }, count: 1L }]
+			x: 7.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["D8CED7AFC774E39A"]
+			description: ["&6Was ist das?", "So spannst du den Pflug an.", "", "&6So gehts", "Stelle den Pflug hinter das Pferd. Druecke R in der Naehe, dann verbindest du Pferd und Pflug. Reite los. Mit Sprint aenderst du das Tempo.", "", "&6Wofuer ist das wichtig?", "Merke dir: Nicht zu schnell fahren, sonst werden Streifen uebersprungen."]
+			id: "5416282EB7088819"
+			title: "Pflug benutzen"
+			rewards: [{ id: "C56ACC53E1836E38", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "25F962886FE3AAAC", type: "checkmark" }]
+			x: 9.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["5416282EB7088819"]
+			description: ["&6Was ist das?", "Die Saemaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Stelle sie her. Das Rezept zeigt dir JEI: Item anklicken und R druecken. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofuer ist das wichtig?", "Du saest dein Feld mit einem Rutsch."]
+			id: "ED8D33AD4EE3AC1A"
+			title: "Saemaschine"
+			rewards: [{ id: "99E838FBF8757017", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F017520437677214", type: "item", item: { id: "astikorcartsredux:oak_seed_drill", count: 1 }, count: 1L }]
+			x: 10.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["ED8D33AD4EE3AC1A"]
+			description: ["&6Was ist das?", "Der Maehbinder erntet reifes Getreide, waehrend du auf ihm sitzt.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R druecken. Haenge ihn ans Pferd und setze dich auf den Sitz.", "", "&6Wofuer ist das wichtig?", "Du erntest breite Streifen ohne Einzelarbeit."]
+			id: "47B66AAEA7EBE338"
+			title: "Maehbinder"
+			rewards: [{ id: "43C07FEF7EC02544", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "334034D0F65C18EE", type: "item", item: { id: "astikorcartsredux:oak_reaper", count: 1 }, count: 1L }]
+			x: 12.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["47B66AAEA7EBE338"]
+			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R druecken.", "", "&6Wofuer ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
+			id: "01ED0EF6AE8F064E"
+			title: "Handwagen"
+			rewards: [{ id: "1DDB59E4D185DC6A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9707C5D8FCCE81CE", type: "item", item: { id: "astikorcartsredux:oak_hand_cart", count: 1 }, count: 1L }]
+			x: 13.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["01ED0EF6AE8F064E"]
+			description: ["&6Was ist das?", "Ein grosser Wagen fuer 54 Stapel mit einem Sitz.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R druecken. Mit Shift und Rechtsklick oeffnest du das Lager.", "", "&6Wofuer ist das wichtig?", "Dein mobiles Lager auf Reisen."]
+			id: "DF415518BBA80BAA"
+			title: "Versorgungswagen"
+			rewards: [{ id: "04DB7CFA9A1760C4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FE227F877ACC075C", type: "item", item: { id: "astikorcartsredux:oak_supply_cart", count: 1 }, count: 1L }]
+			x: 15.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["DF415518BBA80BAA"]
+			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze fuer Tiere oder Spieler.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R druecken. Er laesst sich mit einem Banner schmuecken.", "", "&6Wofuer ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
+			id: "9F3745C5788A0E34"
+			title: "Tierwagen"
+			rewards: [{ id: "B0D9CB437AA020CD", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2AE88CE073EA7702", type: "item", item: { id: "astikorcartsredux:oak_animal_cart", count: 1 }, count: 1L }]
+			x: 16.5d
+			y: 48.0d
+		}
 	]
 }
