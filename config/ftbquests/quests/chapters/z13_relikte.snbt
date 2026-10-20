@@ -1,0 +1,690 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "z13_relikte"
+	icon: { id: "artifacts:umbrella" }
+	id: "3E7CC67336B7DDFD"
+	order_index: 12
+	quest_links: [ ]
+	title: "&dRelikte"
+	quests: [
+		{
+			description: ["&6Was ist das?", "Relikte sind besondere Ausruestungsgegenstaende, die du leveln kannst. Du traegst sie in Accessoire-Plaetzen (Ring, Halskette, Guertel, Ruecken usw.).", "Jedes Relikt hat Faehigkeiten, die mit seinem Rang staerker werden. Schau dir die Beschreibung im Tooltip an (Shift gedrueckt halten).", "", "&6So gehts", "Alle Quests in diesem Kapitel sind freiwillig und voneinander unabhaengig: Du kannst jedes Relikt in beliebiger Reihenfolge holen.", "Relikte findest du in Truhen, bei Gegnern und teils durch Craften. Das Rezept siehst du in JEI.", "Relikte sammeln beim Benutzen Erfahrung und steigen im Rang auf. Das Handbuch im Spiel erklaert den Rest.", "", "&6Wofuer ist das wichtig?", "Relikte machen dich stark, ohne dass du ein Zeitalter brauchst. Jede Quest gibt dir eine Belohnung."]
+			icon: { id: "artifacts:umbrella" }
+			id: "D96CAE4541A32C91"
+			title: "Relikte"
+			rewards: [{ id: "B73805B9835FD531", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "752E35061CBE0672", type: "checkmark" }]
+			shape: "hexagon"
+			size: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Bremst deinen Fall und blockt als Schild bis zu mehrere Treffer.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Gleiten und Schildblock. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "D5E7F9F3206F10C9"
+			title: "Regenschirm"
+			rewards: [{ id: "533D36BB6ACC9143", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DB9579DD229E2536", type: "item", item: { id: "artifacts:umbrella", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Erlaubt Atmen unter Wasser in geringer Tiefe.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Tauchen ohne Luftnot. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "FA3A92760762A2A0"
+			title: "Schnorchel"
+			rewards: [{ id: "DB5A7771CF6FD52B", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5382C5829DA60136", type: "item", item: { id: "artifacts:snorkel", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Beschleunigt das Trinken von Traenken und Getraenken.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Schneller Schluck. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "13706BF6D3925AC0"
+			title: "Trinkhelm (Plastik)"
+			rewards: [{ id: "EFCDBB724F52981F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "D66F6FB43D8896B3", type: "item", item: { id: "artifacts:plastic_drinking_hat", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Wie der Plastik-Trinkhelm: Getraenke schneller trinken.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Schneller Schluck. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "172BC1E7C94E5488"
+			title: "Spass-Trinkhelm"
+			rewards: [{ id: "965F817DAB59E171", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "37691C1BD207F659", type: "item", item: { id: "artifacts:novelty_drinking_hat", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Erhoeht die Sicht im Dunkeln und gibt Bonusschaden in der Nacht.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Sicht im Dunkeln. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "92C0CE9EBF57B50D"
+			title: "Nachtsicht-Brille"
+			rewards: [{ id: "345B83D2067038DF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "59DD36CE5CBE398E", type: "item", item: { id: "artifacts:night_vision_goggles", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Staerkt dein Reittier und zaehmt Tiere sofort.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Reiten. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "AB84C5B19D65ACD4"
+			title: "Cowboyhut"
+			rewards: [{ id: "3EDF08554731E8D5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1D53999C387C7C76", type: "item", item: { id: "artifacts:cowboy_hat", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Senkt Handelspreise, Eisengolems beschuetzen dich.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Handeln. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "AE7AC94A4A520570"
+			title: "Dorfbewohner-Hut"
+			rewards: [{ id: "C14111F9E4D3607D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E889478E99B73F13", type: "item", item: { id: "artifacts:villager_hat", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Mehr und bessere Fangergebnisse beim Angeln.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Angeln. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "93BD497384E730A5"
+			title: "Anglerhut"
+			rewards: [{ id: "A2F17E1B1225998F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5B42947C8028C131", type: "item", item: { id: "artifacts:anglers_hat", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			description: ["&6Was ist das?", "Gibt beim Erzabbau zusaetzliche Glueckstufen.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Bergbau. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "403CC55D0637B05F"
+			title: "Glueckschal"
+			rewards: [{ id: "62CE2961A7D04B03", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "543C6496C561E414", type: "item", item: { id: "artifacts:lucky_scarf", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du kannst deine Groesse veraendern, kleiner heisst schwerer zu treffen.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Groesse aendern. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "83100E929CE607B7"
+			title: "Schrumpf-Charm"
+			rewards: [{ id: "3F69416683F04B16", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "ED69A37B87923186", type: "item", item: { id: "artifacts:charm_of_shrinking", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du kannst eine Weile unbeschadet in Lava bleiben.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Lava-Schutz. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5B6607D59E54FFCB"
+			title: "Obsidian-Schaedel"
+			rewards: [{ id: "4C1149878AAC378F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "40A0EAE5FE8CC07A", type: "item", item: { id: "artifacts:obsidian_skull", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Gibt beim Toeten von Mobs zusaetzliche Pluenderung.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Beute. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "DC1BB6D14D7573D8"
+			title: "Abergl. Hut"
+			rewards: [{ id: "F353F28414353A42", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "51841FB1493ACC07", type: "item", item: { id: "artifacts:superstitious_hat", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Wer still steht, wird unsichtbar.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Verschwinden. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "51483FD997BE7FDC"
+			title: "Unsichtbarkeits-Schal"
+			rewards: [{ id: "3207C56EE9733686", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5C6F1EAC66525A6A", type: "item", item: { id: "artifacts:scarf_of_invisibility", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Verlaengert die Unverwundbarkeit nach einem Treffer, stark gegen Untote.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Heiliger Schutz. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "B933877C703AEC18"
+			title: "Kreuz-Halskette"
+			rewards: [{ id: "30D0E45A5CBB5960", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "75FA93E9B9168649", type: "item", item: { id: "artifacts:cross_necklace", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Macht dich schneller, wenn viele Mobs dich verfolgen.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Fluchtreflex. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "7DAEDD835EEE581D"
+			title: "Panik-Halskette"
+			rewards: [{ id: "2C36084E5436775F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DDA4690FF60F5E98", type: "item", item: { id: "artifacts:panic_necklace", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Entlaedt Blitzfunken auf Angreifer.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Elektrische Kette. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "F24D4F296AA14B30"
+			title: "Schock-Anhaenger"
+			rewards: [{ id: "E3871BF84A4EC674", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6F609A8C87B5EBA3", type: "item", item: { id: "artifacts:shock_pendant", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			description: ["&6Was ist das?", "Setzt Angreifer in Brand.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Vergeltungsflamme. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "2B63F9BBA90CC842"
+			title: "Flammen-Anhaenger"
+			rewards: [{ id: "148FF7C8AFFB2C78", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "89F432CA199F2A49", type: "item", item: { id: "artifacts:flame_pendant", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Wirft einen Teil des Schadens als Gift zurueck.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Giftige Dornen. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "3FEDB778D23282AE"
+			title: "Dornen-Anhaenger"
+			rewards: [{ id: "907B53B9866DD368", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "92C704D9C75D53F9", type: "item", item: { id: "artifacts:thorn_pendant", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Unter Wasser fuellt sich dein Luftvorrat auf dem Grund.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Tauchen. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "152EEA603EEE2942"
+			title: "Versinken-Charm"
+			rewards: [{ id: "E0C06FBD1C5AF508", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B0484B74DD3E01CF", type: "item", item: { id: "artifacts:charm_of_sinking", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Verkuerzt negative Effekte und schuetzt vor Wiederholung.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Schutz vor Effekten. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "23B3D125CD53E95D"
+			title: "Gegengift-Gefaess"
+			rewards: [{ id: "37A8AE038D0BBF2A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E5BD90E4AA0CF0FF", type: "item", item: { id: "artifacts:antidote_vessel", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Zieht Gegenstaende (und auf Wunsch Erfahrung) heran oder stoesst sie ab.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Einsammeln. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "EE4623C32D429B10"
+			title: "Universal-Magnet"
+			rewards: [{ id: "6542FAEB2ED88553", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FBD8DAF20C672BDB", type: "item", item: { id: "artifacts:universal_attractor", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Erhoeht deine maximale Gesundheit zeitweise.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Mehr Leben. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "480E7B734B5EA4C1"
+			title: "Kristall-Herz"
+			rewards: [{ id: "73DDF3CEE3855323", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F336245446795B72", type: "item", item: { id: "artifacts:crystal_heart", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Erlaubt zusaetzliche Spruenge in der Luft.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Doppelsprung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "FCE10DED4F433593"
+			title: "Wolke in der Flasche"
+			rewards: [{ id: "FFE7C8994D11BB7B", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "92D35D94BD970646", type: "item", item: { id: "artifacts:cloud_in_a_bottle", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du schwebst nach einem Doppelsprung kurz in der Luft.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Schweben. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "08114078D231116B"
+			title: "Helium-Flamingo"
+			rewards: [{ id: "268183EBA6811D37", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B07E4EE830F63603", type: "item", item: { id: "artifacts:helium_flamingo", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			description: ["&6Was ist das?", "Beim Rennen baust du Tempo auf.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Beschleunigung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "8C23E53BCE3C5B43"
+			title: "Laufschuhe"
+			rewards: [{ id: "762B5F373AB30A68", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "C277066467858028", type: "item", item: { id: "artifacts:running_shoes", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Schneller auf Schnee, Pulverschnee traegt dich.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Schneelaeufer. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "EF99516C6C5A6571"
+			title: "Schneeschuhe"
+			rewards: [{ id: "667E0B87DA24DDDE", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "831F2C9D0DD08D9D", type: "item", item: { id: "artifacts:snowshoes", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Weniger Rueckstoss, Wandrutschen moeglich.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Standhaftigkeit. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "CB406F1A689D976C"
+			title: "Standfeste Spikes"
+			rewards: [{ id: "6BACF5326D75990E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "664B32AD0955A2D9", type: "item", item: { id: "artifacts:steadfast_spikes", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Schneller schwimmen.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Schnelles Schwimmen. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "E722E08F35658EB8"
+			title: "Flossen"
+			rewards: [{ id: "F987022B060202CE", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "DCF33A760913296B", type: "item", item: { id: "artifacts:flippers", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Verwandeln Gras unter dir in Nahrung.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Wurzelnahrung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "57B226283AF9DEE0"
+			title: "Wurzelstiefel"
+			rewards: [{ id: "448BFC9DE08215C5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F61F26717525CD00", type: "item", item: { id: "artifacts:rooted_boots", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du laeufst ueber Wasser.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Wasserlauf. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "CA834DB60E16D130"
+			title: "Wasserlaeufer"
+			rewards: [{ id: "1E08E6E32BA79441", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "D6F8C26EBB02800D", type: "item", item: { id: "artifacts:aqua_dashers", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du laeufst beim Schleichen ueber Lava.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Lavaschritt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "373C7A439A23C266"
+			title: "Schreiter-Schuhe"
+			rewards: [{ id: "2D71ECEFD63753ED", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "03C540B30AE8C172", type: "item", item: { id: "artifacts:strider_shoes", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Stoesst Gegner weg und kann Gaswolken hinterlassen.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Gasstoss. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "322893658C3BA971"
+			title: "Furzkissen"
+			rewards: [{ id: "8E57968AEF4D1FCB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1ABDF892BF9BBFF9", type: "item", item: { id: "artifacts:whoopee_cushion", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			description: ["&6Was ist das?", "Du heilst dich mit einem Teil deines Schadens.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Bluttrinker. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "C2C36B1F9DFC54BC"
+			title: "Vampir-Handschuh"
+			rewards: [{ id: "50D8D1D5912ECC35", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B50F98816714E064", type: "item", item: { id: "artifacts:vampiric_glove", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Mehr Erfahrung fuer erlegte Gegner.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Erfahrung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "F503637FC193D430"
+			title: "Goldener Haken"
+			rewards: [{ id: "4252FCD7D008D371", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "61B50B456A32B50B", type: "item", item: { id: "artifacts:golden_hook", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Je satter du bist, desto schneller baust du ab.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Hungriger Bohrer. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "759C819A82B58DD0"
+			title: "Zwiebelring"
+			rewards: [{ id: "54758E64F4DB9EC3", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "54B9E7496487C0D1", type: "item", item: { id: "artifacts:onion_ring", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Baust Bloecke schneller ab, auch ohne Werkzeug.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Graeber. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "962BEACC87C2E72D"
+			title: "Grabeklauen"
+			rewards: [{ id: "6F774E59A83CBB3E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FDDA9367499850C2", type: "item", item: { id: "artifacts:digging_claws", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Jeder Nte Angriff ist ein Kraftschlag.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Kraftschlag. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "4A77B47C8ADB5BB6"
+			title: "Kraft-Handschuh"
+			rewards: [{ id: "2133F2FFC7C4BF91", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2D5C424B8EBC0B45", type: "item", item: { id: "artifacts:power_glove", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Gibt Gegnern den Wither-Effekt.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Verwelken. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "61AE10DC5349BC83"
+			title: "Verwelktes Armband"
+			rewards: [{ id: "F76F809F148E0916", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "338C295319FBB7C7", type: "item", item: { id: "artifacts:withered_bracelet", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Enderperlen werden nicht verbraucht.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Teleport. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "893F819F628B6EF4"
+			title: "Warp-Antrieb"
+			rewards: [{ id: "F3DFFF66995C25C9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1D54B19E9E5B0397", type: "item", item: { id: "artifacts:warp_drive", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Creeper und Phantome meiden dich, neun Leben.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Katzenaura. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "3D3588B1458438D6"
+			title: "Katzenpantoffeln"
+			rewards: [{ id: "6CA25347F3E871F8", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "442FB8D75F4BF9D7", type: "item", item: { id: "artifacts:kitty_slippers", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			description: ["&6Was ist das?", "Hoher Sprung beim Halten der Sprungtaste.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Hasensprung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "870D7DA68AC9586A"
+			title: "Hasenhopser"
+			rewards: [{ id: "36B70877B98EC225", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "68FB83B7DCC3A161", type: "item", item: { id: "artifacts:bunny_hoppers", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Schnellere Angriffe in Serie.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Raubtierrausch. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5377C9666226625B"
+			title: "Raubtierklauen"
+			rewards: [{ id: "42A338BE731F43B2", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "75F9452808F52E5E", type: "item", item: { id: "artifacts:feral_claws", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Mehr Reichweite fuer Angriffe und Bloecke.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Kolbenimpuls. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "4396896EC9ACC520"
+			title: "Taschenkolben"
+			rewards: [{ id: "BEA35D2808010DD7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2DB8E02603307B21", type: "item", item: { id: "artifacts:pocket_piston", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Angriffe setzen Gegner in Brand.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Sengende Flamme. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "D438691777869ED3"
+			title: "Feuer-Handschuh"
+			rewards: [{ id: "D1A53738C0B4CCA4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "8F2625E7662D41DE", type: "item", item: { id: "artifacts:fire_gauntlet", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Schmilzt Erz direkt beim Abbau.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Thermische Verarbeitung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "D6CEBB5A6DFB6236"
+			title: "Spitzhacken-Heizer"
+			rewards: [{ id: "5207A7AC6C78DF8A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5F949DC88C94FF4B", type: "item", item: { id: "artifacts:pickaxe_heater", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Rettet dich bei toedlichem Schaden per Teleport.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Notrettung. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "77B1976D561CEA89"
+			title: "Chorus-Totem"
+			rewards: [{ id: "F220B7305CC1F540", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "C2E40EC91F5EB7BC", type: "item", item: { id: "artifacts:chorus_totem", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Eine Mahlzeit, die sich selbst erneuert.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Endlose Mahlzeit. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "815CA3601F6E607D"
+			title: "Ewiges Rindfleisch"
+			rewards: [{ id: "412EE84CDDA739C8", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "FA3B6676E33CA346", type: "item", item: { id: "artifacts:everlasting_beef", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Eine Mahlzeit, die sich selbst erneuert.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Endlose Mahlzeit. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "2703F01309D08E81"
+			title: "Ewiges Steak"
+			rewards: [{ id: "E3CA491A3268F165", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5D55847D612A6E16", type: "item", item: { id: "artifacts:eternal_steak", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt fuer Koeche.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "9B86AF0CC1B40A76"
+			title: "Kochmuetze"
+			rewards: [{ id: "2E75C772E5E86A5A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3F57E30615ED7416", type: "item", item: { id: "relics:chef_hat", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt mit Endermagie.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "239DABB8355C22D3"
+			title: "Chorus-Stab"
+			rewards: [{ id: "7EE5579128429551", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "518542B6D95FFF39", type: "item", item: { id: "relics:chorus_staff", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt, das mit der Zeit spielt.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "8F3A8299C38DCA4B"
+			title: "Zeitklumpen"
+			rewards: [{ id: "A7C3EA10E19ACEF6", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3A199FBF2702CC99", type: "item", item: { id: "relics:clot_of_time", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Eine Mahlzeit als Relikt.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "564AD90748DB5025"
+			title: "Gebratene Fleischkugel"
+			rewards: [{ id: "37AA369A124DB0BF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "F32622542616AC29", type: "item", item: { id: "relics:cooked_meatball", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt-Stiefel aus geschliffenem Glas.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "EE5DE4E4CF0CC097"
+			title: "Glasstiefel"
+			rewards: [{ id: "AE02853945EDBC11", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "83D4DC794D08828A", type: "item", item: { id: "relics:cut_glass_boot", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt rund um Erfahrung.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5D9AE60852AAA342"
+			title: "Erfahrungsverteiler"
+			rewards: [{ id: "5BC2E4A8487DD85C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "49A99E65E48988BF", type: "item", item: { id: "relics:experience_disperser", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Mantel, der dich geisterhaft macht.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "3134CDB9884A4E22"
+			title: "Geistermantel"
+			rewards: [{ id: "E01F94859319526D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E573BBFA685FF9FF", type: "item", item: { id: "relics:ghostly_mantle", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Mantel mit seltsamen Effekten.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "B3352C4D1B265C44"
+			title: "Glitch-Mantel"
+			rewards: [{ id: "91D0D08EED4FCE5D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6F0168BF47594DD3", type: "item", item: { id: "relics:glitchy_mantle", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt fuer Glueck und Gold.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "3B3B9E4E002A25AA"
+			title: "Goldzahn"
+			rewards: [{ id: "30F0F6B59B0FCA06", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "98196FFE3F3FFE18", type: "item", item: { id: "relics:golden_tooth", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Guertel fuer Jaeger.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "F614B24A8571C179"
+			title: "Jagdguertel"
+			rewards: [{ id: "2644FF9B84E6F67C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2C6B8ADB0C718939", type: "item", item: { id: "relics:hunting_belt", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Eine Kette aus dem Meer.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "89B2E43F99295B98"
+			title: "Quallen-Halskette"
+			rewards: [{ id: "F312B3C7ED31E31A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "32636435B4CD969E", type: "item", item: { id: "relics:jellyfish_necklace", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Guertel, der Bewegung nutzt.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "6C63E2673030C766"
+			title: "Kinetischer Guertel"
+			rewards: [{ id: "F228F2E45B712420", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2F447782E8CC9BB4", type: "item", item: { id: "relics:kinetic_belt", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Mantel aus Blaettern.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "21BDAEAF3E939A7E"
+			title: "Blaettermantel"
+			rewards: [{ id: "B388D88143AE897A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "0CDA9D0613C70538", type: "item", item: { id: "relics:leafy_mantle", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Mantel fuer die Nacht.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "25B879339DB54109"
+			title: "Mitternachtsmantel"
+			rewards: [{ id: "25BDAABAB2D7BDCA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4E79F13725432260", type: "item", item: { id: "relics:midnight_mantle", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt fuer deine Haustiere.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5158C4D520428031"
+			title: "Tierknochen"
+			rewards: [{ id: "55B9B93D7B9A5ADA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "E1F8F99A4DAE871D", type: "item", item: { id: "relics:pet_bone", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Relikt mit Phantomkraft.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5AAF7A0925B385AD"
+			title: "Phantomblock"
+			rewards: [{ id: "9F15EA8FB814DABD", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "63497BF1CDBFA69C", type: "item", item: { id: "relics:phantom_block", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 14.0d
+		}
+		{
+			description: ["&6Was ist das?", "Piglins sind friedlich zu dir.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "104627CEDC37E1A5"
+			title: "Piglin-Maske"
+			rewards: [{ id: "785A62BC2211C0A5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B17D815E300B6936", type: "item", item: { id: "relics:piglin_mask", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Rohe Zutat fuer das Relikt-Essen.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "D183A71B7F26AF01"
+			title: "Rohe Fleischkugel"
+			rewards: [{ id: "FFD727434BD24743", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "28482B94F5386D18", type: "item", item: { id: "relics:raw_meatball", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Reflektiert einen Teil des Schadens.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5CF514493806C5EB"
+			title: "Spiegel-Halskette"
+			rewards: [{ id: "977637AFABA6641E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "B8087F1377C70ED8", type: "item", item: { id: "relics:reflective_necklace", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Gibt Erfahrung fuer Relikte.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "64C08EB9181B47B6"
+			title: "Relikt-Erfahrungsflasche"
+			rewards: [{ id: "CB3C9251E88948FC", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "9E268C6C189B9042", type: "item", item: { id: "relics:relic_experience_bottle", count: 1 }, count: 1L }]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ruft dein Reittier.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "440FE537C5A2D860"
+			title: "Reiter-Floete"
+			rewards: [{ id: "9E15AB09BCAF10C1", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "BDF9D7C32A488260", type: "item", item: { id: "relics:rider_flute", count: 1 }, count: 1L }]
+			x: 8.0d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein maechtiger Ring mit Preis.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "11B81DE0E71A8426"
+			title: "Ring der sieben Todsuenden"
+			rewards: [{ id: "7A0FB99F275DCF73", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4B454F015A1ED256", type: "item", item: { id: "relics:ring_of_the_seven_deadly_sins", count: 1 }, count: 1L }]
+			x: 9.5d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein schneller Schuh.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "096AA5FC34F459CA"
+			title: "Rollschuh"
+			rewards: [{ id: "A6136E144CBDE95A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "16C1848DE3A54136", type: "item", item: { id: "relics:roller_skate", count: 1 }, count: 1L }]
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Schild, der zurueckschlaegt.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "5BEBB5D07D8A4737"
+			title: "Vergeltungsschild"
+			rewards: [{ id: "501E7EDB82A64F13", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5AF1F6CAB31EC373", type: "item", item: { id: "relics:shield_of_retaliation", count: 1 }, count: 1L }]
+			x: 12.5d
+			y: 16.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein riskantes Relikt.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "D1CDBDC4C62335B8"
+			title: "Kugel der Selbstaufopferung"
+			rewards: [{ id: "27B7CCACF3DF0482", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7F2AC62A3B58A03D", type: "item", item: { id: "relics:sphere_of_self_sacrifice", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			description: ["&6Was ist das?", "Ein Stiefel mit extra Sprungkraft.", "", "&6So gehts", "Hole dir das Relikt: Rezept und Fundorte siehst du in JEI (R auf dem Item). Du traegst es in einem passenden Accessoire-Platz.", "", "&6Wofuer ist das wichtig?", "Faehigkeit: Relikt. Freiwillig und unabhaengig von allen anderen Quests."]
+			id: "55158329F794FBE3"
+			title: "Federstiefel"
+			rewards: [{ id: "B26C931A70029407", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "30226DCB73091CC6", type: "item", item: { id: "relics:springy_boot", count: 1 }, count: 1L }]
+			x: 3.5d
+			y: 18.0d
+		}
+	]
+}
