@@ -79,8 +79,8 @@
 			title: "Netherit-Hammer"
 			rewards: [{ id: "20144E31C0F7A6F9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0C7BDBE946BB171B", type: "item", item: { id: "justhammers:netherite_hammer", count: 1 }, count: 1L }]
-			x: 6.0d
-			y: 24.0d
+			x: 1.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["1EF49B8760E50068"]
@@ -90,8 +90,8 @@
 			title: "Zerstoerer-Hammer"
 			rewards: [{ id: "227D60797BCEF99C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3264435EF559347E", type: "item", item: { id: "justhammers:netherite_destructor_hammer", count: 1 }, count: 1L }]
-			x: 7.5d
-			y: 24.0d
+			x: 3.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["14B18961543DDA9E"]
@@ -101,8 +101,8 @@
 			title: "Simply Swords: Netherit-Langschwert"
 			rewards: [{ id: "6E54C3985515007A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "673997710BB1781E", type: "item", item: { id: "simplyswords:netherite_longsword", count: 1 }, count: 1L }]
-			x: 9.0d
-			y: 24.0d
+			x: 4.5d
+			y: 30.0d
 		}
 		{
 			dependencies: ["103D3053E09ACE15"]
@@ -192,8 +192,8 @@
 			title: "Ignitium-Ruestung"
 			rewards: [{ id: "33F5A8D63054F1C8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5C92C8655DF4744C", type: "item", item: { id: "cataclysm:ignitium_chestplate", count: 1 }, count: 1L }]
-			x: 16.5d
-			y: 6.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1780C0D0A5746F73"]
@@ -203,8 +203,8 @@
 			title: "Laser-Gatling"
 			rewards: [{ id: "0B54DC286706BDDE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "56475581AF3630A6", type: "item", item: { id: "cataclysm:laser_gatling", count: 1 }, count: 1L }]
-			x: 18.0d
-			y: 6.0d
+			x: 1.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["68AB7D16B23D0676"]
@@ -214,8 +214,8 @@
 			title: "Gezeitenklauen"
 			rewards: [{ id: "72B86686F3F20F51", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1FB655AD10599704", type: "item", item: { id: "cataclysm:tidal_claws", count: 1 }, count: 1L }]
-			x: 19.5d
-			y: 6.0d
+			x: 3.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1F864491CCBCAF0C"]
@@ -225,8 +225,8 @@
 			title: "Seelenreisser"
 			rewards: [{ id: "6CA9215A3FC38584", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "280A89632FE1AF36", type: "item", item: { id: "cataclysm:soul_render", count: 1 }, count: 1L }]
-			x: 21.0d
-			y: 6.0d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["780152119A23FCE9"]
@@ -235,8 +235,8 @@
 			title: "Cataclysm: Kobolediator"
 			rewards: [{ id: "093BEFC4751431EC", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "50EAE31AC7E42652", type: "kill", entity: "cataclysm:kobolediator", value: 1L, icon: { id: "minecraft:sand" } }]
-			x: 15.0d
-			y: 8.0d
+			x: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1C588DAD6DB23882"]
@@ -245,8 +245,8 @@
 			title: "Cataclysm: Verfluchte Pyramide"
 			rewards: [{ id: "055F4DB54A381C6B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "2A29D1B2B6405E43", type: "kill", entity: "cataclysm:ancient_remnant", value: 1L, icon: { id: "minecraft:sandstone" } }]
-			x: 16.5d
-			y: 8.0d
+			x: 7.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["171ACBF09717672B"]
@@ -255,8 +255,8 @@
 			title: "Antikes Metall"
 			rewards: [{ id: "6C42CB7562886EA8", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7487DDC8FC32F5B0", type: "item", item: { id: "cataclysm:ancient_metal_ingot", count: 1 }, count: 1L }]
-			x: 18.0d
-			y: 8.0d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["3F8056687CC98678"]
@@ -265,8 +265,8 @@
 			title: "Cataclysm: Harbinger"
 			rewards: [{ id: "21CB7DA05EE93751", type: "xp_levels", xp_levels: 14 }]
 			tasks: [{ id: "3DF6E189003A0FD1", type: "kill", entity: "cataclysm:the_harbinger", value: 1L, icon: { id: "cataclysm:mech_eye" } }]
-			x: 19.5d
-			y: 8.0d
+			x: 10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0117E82FFC94BBC7"]
@@ -275,8 +275,8 @@
 			title: "Cataclysm: Maledictus"
 			rewards: [{ id: "7C5BDA6C516B0C4F", type: "xp_levels", xp_levels: 14 }]
 			tasks: [{ id: "1E5D4B95C06CBB31", type: "kill", entity: "cataclysm:maledictus", value: 1L, icon: { id: "cataclysm:cursium_ingot" } }]
-			x: 21.0d
-			y: 8.0d
+			x: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["632520937276C1DE"]
@@ -285,8 +285,8 @@
 			title: "Cursium"
 			rewards: [{ id: "46B296004928AE4C", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "6C51137559BD2E13", type: "item", item: { id: "cataclysm:cursium_ingot", count: 1 }, count: 1L }]
-			x: 22.5d
-			y: 8.0d
+			x: 1.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["12691D9AF22A663B"]
@@ -295,8 +295,8 @@
 			title: "Korallen-Golem"
 			rewards: [{ id: "4F68D04DA371E3BA", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "2FBFAD65FB346DC9", type: "kill", entity: "cataclysm:coral_golem", value: 1L, icon: { id: "cataclysm:coral_chunk" } }]
-			x: 24.0d
-			y: 8.0d
+			x: 3.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7DFF058717D1BD39"]
@@ -305,8 +305,8 @@
 			title: "Amethyst-Krabbe"
 			rewards: [{ id: "5D5B19B1AE56557B", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "6A170EA349BD1D02", type: "kill", entity: "cataclysm:amethyst_crab", value: 1L, icon: { id: "cataclysm:amethyst_crab_shell" } }]
-			x: 25.5d
-			y: 8.0d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["43E50A0EB3F3D296"]
@@ -316,8 +316,8 @@
 			title: "Cursium-Ruestung"
 			rewards: [{ id: "434CFA49A0FA6EB9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3B0A6A74DD9420A6", type: "item", item: { id: "cataclysm:cursium_chestplate", count: 1 }, count: 1L }]
-			x: 27.0d
-			y: 8.0d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["03D0118EABF00FE3"]
@@ -327,8 +327,8 @@
 			title: "Konduit"
 			rewards: [{ id: "71F216B06820CAE0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4D52992EA34F8AE8", type: "item", item: { id: "minecraft:conduit", count: 1 }, count: 1L }]
-			x: 12.0d
-			y: 10.0d
+			x: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1E7809215A86CEC4"]
@@ -338,8 +338,8 @@
 			title: "Totem der Illusion"
 			rewards: [{ id: "49D1E70097ABC8AA", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "44C4A9652EFE4AFC", type: "item", item: { id: "friendsandfoes:totem_of_illusion", count: 1 }, count: 1L }]
-			x: 13.5d
-			y: 10.0d
+			x: 9.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["3DEEC0BEF56E570F"]
@@ -348,8 +348,8 @@
 			title: "Der Ender-Waechter"
 			rewards: [{ id: "42BA7876D19EFA8F", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "35C06F51BE7E7C02", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_rod" } }]
-			x: 18.0d
-			y: 4.0d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["30D4B8A5EA0E5F23"]
@@ -358,8 +358,8 @@
 			title: "Enderit"
 			rewards: [{ id: "7066DDA5FDD4C9D5", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "6D2E1D2086D3663F", type: "item", item: { id: "cataclysm:enderite_ingot", count: 1 }, count: 1L }]
-			x: 19.5d
-			y: 4.0d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5E470834EC412470"]
@@ -368,8 +368,8 @@
 			title: "Void-Kern"
 			rewards: [{ id: "7C76A83CF1D203D3", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "4326A4252786182B", type: "item", item: { id: "cataclysm:void_core", count: 1 }, count: 1L }]
-			x: 21.0d
-			y: 4.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1F664F2ED1A63BEA"]
@@ -378,8 +378,8 @@
 			title: "Khopesh"
 			rewards: [{ id: "51905057884F8859", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "48EB1B5DA17F9521", type: "item", item: { id: "cataclysm:khopesh", count: 1 }, count: 1L }]
-			x: 22.5d
-			y: 4.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4D2F431D03C150D6"]
@@ -388,8 +388,8 @@
 			title: "Ender-Golem"
 			rewards: [{ id: "1900DB513F64797A", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "1C5E7E70A1412F5C", type: "kill", entity: "cataclysm:ender_golem", value: 1L, icon: { id: "minecraft:end_stone" } }]
-			x: 24.0d
-			y: 4.0d
+			x: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4462D623E69BC5A5"]
@@ -398,8 +398,8 @@
 			title: "Endermaptera"
 			rewards: [{ id: "414E0E2978AB85E6", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "2A162AE6D1F9A39D", type: "kill", entity: "cataclysm:endermaptera", value: 1L, icon: { id: "minecraft:chorus_fruit" } }]
-			x: 25.5d
-			y: 4.0d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["67AF610D0A62F9FC"]
@@ -408,8 +408,8 @@
 			title: "Der Leviathan"
 			rewards: [{ id: "3A62C11DD65AD7A4", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
 			tasks: [{ id: "04CB9AA45C71B67E", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_crystals" } }]
-			x: 27.0d
-			y: 4.0d
+			x: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4A02E0D40DE041CD"]
@@ -418,8 +418,8 @@
 			title: "Netherit-Kampfmagier"
 			rewards: [{ id: "019D92543C173ABF", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 } }]
 			tasks: [{ id: "55393EE50EDD86FE", type: "item", item: { id: "irons_spellbooks:netherite_mage_chestplate", count: 1 }, count: 1L }]
-			x: 21.0d
-			y: 2.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["24B832267B02EB45"]
@@ -428,8 +428,8 @@
 			title: "Netherit-Zauberbuch"
 			rewards: [{ id: "2CE8E6674FB7EF61", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "39636F0659905F5D", type: "item", item: { id: "irons_spellbooks:netherite_spell_book", count: 1 }, count: 1L }]
-			x: 22.5d
-			y: 2.0d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6663337064B5A928"]
@@ -438,8 +438,8 @@
 			title: "Drachenhaut-Zauberbuch"
 			rewards: [{ id: "686E084EFB67B93C", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "4E47BEBF09570FAC", type: "item", item: { id: "irons_spellbooks:dragonskin_spell_book", count: 1 }, count: 1L }]
-			x: 24.0d
-			y: 2.0d
+			x: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["57A98A3D4E207747"]
@@ -449,8 +449,8 @@
 			title: "Legendaeres Zauberbuch"
 			rewards: [{ id: "3DE92F76B05A132B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7A08B7AEB0B13E40", type: "item", item: { id: "irons_spellbooks:legendary_spell_book", count: 1 }, count: 1L }]
-			x: 25.5d
-			y: 2.0d
+			x: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4EA7B6B983C1C0EE"]
@@ -487,8 +487,8 @@
 			title: "Slumbering Lichblade"
 			rewards: []
 			tasks: [{ id: "7A6D2974D3DC5787", type: "item", item: { id: "simplyswords:slumbering_lichblade", count: 1 }, count: 1L }]
-			x: 9.0d
-			y: 12.0d
+			x: 1.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["3719AAFC58A14DD8"]
@@ -498,8 +498,8 @@
 			title: "Waking Lichblade"
 			rewards: []
 			tasks: [{ id: "3B1E19DAA8F6FA62", type: "item", item: { id: "simplyswords:waking_lichblade", count: 1 }, count: 1L }]
-			x: 10.5d
-			y: 12.0d
+			x: 3.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4B072B9FA56A961E"]
@@ -509,8 +509,8 @@
 			title: "Awakened Lichblade"
 			rewards: []
 			tasks: [{ id: "101C83CABE1942D9", type: "item", item: { id: "simplyswords:awakened_lichblade", count: 1 }, count: 1L }]
-			x: 12.0d
-			y: 12.0d
+			x: 4.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2EA39522BAD100ED"]
@@ -520,8 +520,8 @@
 			title: "Harbinger"
 			rewards: []
 			tasks: [{ id: "4165EB18BA02CF6A", type: "item", item: { id: "simplyswords:harbinger", count: 1 }, count: 1L }]
-			x: 13.5d
-			y: 12.0d
+			x: 6.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6BF629EE8EB7E8FA"]
@@ -531,8 +531,8 @@
 			title: "The Watcher"
 			rewards: []
 			tasks: [{ id: "22DAF93C7EB2B38F", type: "item", item: { id: "simplyswords:watcher_claymore", count: 1 }, count: 1L }]
-			x: 15.0d
-			y: 12.0d
+			x: 7.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2FBAD2C6F124D29B"]
@@ -542,8 +542,8 @@
 			title: "The Devourer"
 			rewards: []
 			tasks: [{ id: "7CC1181D8FFD954A", type: "item", item: { id: "simplyswords:the_devourer", count: 1 }, count: 1L }]
-			x: 16.5d
-			y: 12.0d
+			x: 9.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["1E771E11D7152C00"]
@@ -553,8 +553,8 @@
 			title: "Brimstone Claymore"
 			rewards: []
 			tasks: [{ id: "562A8354BF286BB2", type: "item", item: { id: "simplyswords:brimstone_claymore", count: 1 }, count: 1L }]
-			x: 18.0d
-			y: 12.0d
+			x: 10.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4BCB69C9E786AD0C"]
@@ -564,8 +564,8 @@
 			title: "Watching Warglaive"
 			rewards: []
 			tasks: [{ id: "646C5714BCEA262B", type: "item", item: { id: "simplyswords:watching_warglaive", count: 1 }, count: 1L }]
-			x: 19.5d
-			y: 12.0d
+			x: 12.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["51FC0953FD8F6234"]
@@ -575,8 +575,8 @@
 			title: "Netherite-Iron Sword"
 			rewards: []
 			tasks: [{ id: "4D12CBF7B8251274", type: "item", item: { id: "advancednetherite:netherite_iron_sword", count: 1 }, count: 1L }]
-			x: 21.0d
-			y: 12.0d
+			x: 1.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["49048DD8BDAC2023"]
@@ -586,8 +586,8 @@
 			title: "Netherite-Gold Sword"
 			rewards: []
 			tasks: [{ id: "6552FB7633192901", type: "item", item: { id: "advancednetherite:netherite_gold_sword", count: 1 }, count: 1L }]
-			x: 22.5d
-			y: 12.0d
+			x: 3.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["2C488889734B30B5"]
@@ -597,8 +597,8 @@
 			title: "Netherite-Emerald Sword"
 			rewards: []
 			tasks: [{ id: "32A0625F6628ACAA", type: "item", item: { id: "advancednetherite:netherite_emerald_sword", count: 1 }, count: 1L }]
-			x: 24.0d
-			y: 12.0d
+			x: 4.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["3719AAFC58A14DD8"]
@@ -608,8 +608,8 @@
 			title: "Netherite-Diamond Sword"
 			rewards: []
 			tasks: [{ id: "200AE03FE34D07E8", type: "item", item: { id: "advancednetherite:netherite_diamond_sword", count: 1 }, count: 1L }]
-			x: 9.0d
-			y: 14.0d
+			x: 6.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6DD8A369596D64B3"]
@@ -619,8 +619,8 @@
 			title: "Black Steel Sword"
 			rewards: []
 			tasks: [{ id: "77AFC4F181AC7EC0", type: "item", item: { id: "cataclysm:black_steel_sword", count: 1 }, count: 1L }]
-			x: 10.5d
-			y: 14.0d
+			x: 7.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["15D479A15FE484AE"]
@@ -630,8 +630,8 @@
 			title: "Coral Spear"
 			rewards: []
 			tasks: [{ id: "1382F28073A207F2", type: "item", item: { id: "cataclysm:coral_spear", count: 1 }, count: 1L }]
-			x: 12.0d
-			y: 14.0d
+			x: 9.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["365A06B06AFD48F8"]
@@ -641,8 +641,8 @@
 			title: "Ancient Spear"
 			rewards: []
 			tasks: [{ id: "028015739F0D4BBA", type: "item", item: { id: "cataclysm:ancient_spear", count: 1 }, count: 1L }]
-			x: 13.5d
-			y: 14.0d
+			x: 10.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["6DD8A369596D64B3"]
@@ -652,8 +652,8 @@
 			title: "Cursed Bow"
 			rewards: []
 			tasks: [{ id: "40681553EA22E8FF", type: "item", item: { id: "cataclysm:cursed_bow", count: 1 }, count: 1L }]
-			x: 9.0d
-			y: 16.0d
+			x: 12.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["09028E38B09C7954"]
@@ -663,8 +663,8 @@
 			title: "Werkzeug-Set Netherit"
 			rewards: []
 			tasks: [{ id: "52273EFF1947A991", type: "checkmark" }]
-			x: 9.0d
-			y: 18.0d
+			x: 1.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["2A044A33576EB449"]
@@ -674,8 +674,8 @@
 			title: "Netherit-Iron-Set"
 			rewards: []
 			tasks: [{ id: "790B148956B804D0", type: "checkmark" }]
-			x: 10.5d
-			y: 18.0d
+			x: 3.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["4E7F5A03345F278F"]
@@ -685,8 +685,8 @@
 			title: "Netherit-Gold-Set"
 			rewards: []
 			tasks: [{ id: "461071BE3F3A97A1", type: "checkmark" }]
-			x: 12.0d
-			y: 18.0d
+			x: 4.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["591F6ECAF470D1C0"]
@@ -696,8 +696,8 @@
 			title: "Netherit-Emerald-Set"
 			rewards: []
 			tasks: [{ id: "35081777F312F439", type: "checkmark" }]
-			x: 13.5d
-			y: 18.0d
+			x: 6.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["64DF87B9BD191ECD"]
@@ -707,8 +707,8 @@
 			title: "Netherit-Diamond-Set"
 			rewards: []
 			tasks: [{ id: "3A72D49448610865", type: "checkmark" }]
-			x: 15.0d
-			y: 18.0d
+			x: 7.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["1F4697D2311127DE"]
@@ -718,8 +718,8 @@
 			title: "Black-Steel-Set"
 			rewards: []
 			tasks: [{ id: "0362F1BFC0B24991", type: "checkmark" }]
-			x: 16.5d
-			y: 18.0d
+			x: 9.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["2A044A33576EB449"]
@@ -729,8 +729,8 @@
 			title: "Ruestung Netherit"
 			rewards: []
 			tasks: [{ id: "3D60EC805B78B91E", type: "checkmark" }]
-			x: 9.0d
-			y: 20.0d
+			x: 1.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["078B02F4BC6E00EE"]
@@ -740,8 +740,8 @@
 			title: "Netherite Iron (Ruestung)"
 			rewards: []
 			tasks: [{ id: "6A8AA889C4550709", type: "checkmark" }]
-			x: 10.5d
-			y: 20.0d
+			x: 3.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["68DD6F0DB8855584"]
@@ -751,8 +751,8 @@
 			title: "Netherite Gold (Ruestung)"
 			rewards: []
 			tasks: [{ id: "3608079043C6A22F", type: "checkmark" }]
-			x: 12.0d
-			y: 20.0d
+			x: 4.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["601EFFD97F0A11D2"]
@@ -762,8 +762,8 @@
 			title: "Netherite Emerald (Ruestung)"
 			rewards: []
 			tasks: [{ id: "032CEF60BF197D2E", type: "checkmark" }]
-			x: 13.5d
-			y: 20.0d
+			x: 6.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["435C33AB612DDEF8"]
@@ -773,8 +773,8 @@
 			title: "Netherite Diamond (Ruestung)"
 			rewards: []
 			tasks: [{ id: "3386A0A1ACC97369", type: "checkmark" }]
-			x: 15.0d
-			y: 20.0d
+			x: 7.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["37774E8A6BC2B270"]
@@ -784,8 +784,8 @@
 			title: "Bone Reptile (Ruestung)"
 			rewards: []
 			tasks: [{ id: "1E8B90A2E946A73F", type: "checkmark" }]
-			x: 16.5d
-			y: 20.0d
+			x: 9.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["110EB2EA5840841F"]
@@ -795,8 +795,8 @@
 			title: "Cursium (Ruestung)"
 			rewards: []
 			tasks: [{ id: "381285A373A6F571", type: "checkmark" }]
-			x: 18.0d
-			y: 20.0d
+			x: 10.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["0DAA726631FD7966"]
@@ -806,8 +806,8 @@
 			title: "Ignitium (Ruestung)"
 			rewards: []
 			tasks: [{ id: "0EED3B51A4763CEC", type: "checkmark" }]
-			x: 19.5d
-			y: 20.0d
+			x: 12.0d
+			y: 25.0d
 		}
 		{
 			dependencies: ["63DF3F4DD571D571"]
@@ -817,8 +817,8 @@
 			title: "Ignitium Elytra (Ruestung)"
 			rewards: []
 			tasks: [{ id: "47198AB34EEFDE2C", type: "checkmark" }]
-			x: 21.0d
-			y: 20.0d
+			x: 1.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["402C77127F7AE32E"]
@@ -828,8 +828,8 @@
 			title: "Netherite Diving (Ruestung)"
 			rewards: []
 			tasks: [{ id: "2ADD1E00CF61853F", type: "checkmark" }]
-			x: 22.5d
-			y: 20.0d
+			x: 3.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["73F8483FED3E84B8"]
@@ -839,8 +839,8 @@
 			title: "Wither (Ruestung)"
 			rewards: []
 			tasks: [{ id: "3D971B7A8F24A2C2", type: "checkmark" }]
-			x: 24.0d
-			y: 20.0d
+			x: 4.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["078B02F4BC6E00EE"]
@@ -850,8 +850,8 @@
 			title: "Netherite Battlemage (Ruestung)"
 			rewards: []
 			tasks: [{ id: "759328D5FB8F053F", type: "checkmark" }]
-			x: 9.0d
-			y: 22.0d
+			x: 6.0d
+			y: 26.5d
 		}
 		{
 			dependencies: ["07BE262D9D78209B"]
@@ -862,7 +862,7 @@
 			rewards: [{ id: "5A06BC5CEB97967C", type: "xp_levels", xp_levels: 15 }, { id: "0013477F11552877", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
 			tasks: [{ id: "2B06246DBCA1A775", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L, icon: { id: "minecraft:netherite_ingot" } }]
 			x: 1.5d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["6E96BA3EA980E587"]
@@ -872,7 +872,7 @@
 			rewards: [{ id: "78CFDC5C18313B38", type: "xp_levels", xp_levels: 15 }, { id: "26EDC9B8CAB8ABFC", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
 			tasks: [{ id: "6901B543061907F6", type: "kill", entity: "cataclysm:ignis", value: 1L, icon: { id: "minecraft:blaze_rod" } }]
 			x: 3.0d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["2CB92026A063DFF5"]
@@ -882,7 +882,7 @@
 			rewards: [{ id: "60A3E8D87F12EB80", type: "xp_levels", xp_levels: 15 }, { id: "04817B03BFCB7D46", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
 			tasks: [{ id: "3B3CC5FAA26FD943", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_shard" } }]
 			x: 4.5d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["584C326C1BDDCA39"]
@@ -892,7 +892,7 @@
 			rewards: [{ id: "0F75A04C29C24939", type: "xp_levels", xp_levels: 15 }, { id: "2E944B768DDD95DD", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
 			tasks: [{ id: "2FFC62D10F99DFC7", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_crystal" } }]
 			x: 6.0d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["598ECA0C511D7BDE"]
@@ -902,7 +902,7 @@
 			rewards: [{ id: "36F41F64F7DAEFAF", type: "xp_levels", xp_levels: 20 }, { id: "4E9605793AB86927", type: "item", item: { id: "minecraft:netherite_scrap", count: 6 } }]
 			tasks: [{ id: "6C3445E0D082DD66", type: "kill", entity: "cataclysm:the_harbinger", value: 1L, icon: { id: "minecraft:beacon" } }]
 			x: 7.5d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["2B3CBED242A6B15E"]
@@ -912,7 +912,7 @@
 			rewards: [{ id: "42C54CC2B608230D", type: "xp_levels", xp_levels: 15 }, { id: "36F02085563B49D5", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
 			tasks: [{ id: "3AF8786E18213695", type: "kill", entity: "bosses_of_mass_destruction:gauntlet", value: 1L, icon: { id: "minecraft:blackstone" } }]
 			x: 9.0d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["68D7DD5270AC0F36"]
@@ -922,7 +922,7 @@
 			rewards: [{ id: "39FFEFF49D220694", type: "xp_levels", xp_levels: 15 }, { id: "0A5912A44CFDC8C0", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
 			tasks: [{ id: "41B1E37A305DB862", type: "kill", entity: "bosses_of_mass_destruction:obsidilith", value: 1L, icon: { id: "minecraft:obsidian" } }]
 			x: 10.5d
-			y: 26.0d
+			y: 33.5d
 		}
 		{
 			dependencies: ["2B95538C66CBB21B"]
@@ -932,7 +932,7 @@
 			rewards: [{ id: "C3C71043DFD1E899", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "E804E0EF529BDC97", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 }, count: 4L }]
 			x: 1.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0627B6D0F3C46F98"]
@@ -942,7 +942,7 @@
 			rewards: [{ id: "9ACB0310605A5E0D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6499DB596D9A01B3", type: "item", item: { id: "minecraft:netherite_block", count: 1 }, count: 1L }]
 			x: 3.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1881FE15AC4DE4B3"]
@@ -952,7 +952,7 @@
 			rewards: [{ id: "890B6D9A9C7C6B7F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "87BB6010848EBCA8", type: "item", item: { id: "minecraft:netherite_shovel", count: 1 }, count: 1L }]
 			x: 4.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1881FE15AC4DE4B3"]
@@ -962,7 +962,7 @@
 			rewards: [{ id: "7913B66CA2FF03DF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4198DD27390E70C6", type: "item", item: { id: "minecraft:netherite_hoe", count: 1 }, count: 1L }]
 			x: 6.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6E01392665CDEBA9"]
@@ -971,8 +971,8 @@
 			title: "Wither-Rose"
 			rewards: [{ id: "3808D52F8490A8DE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "919D07C262534838", type: "item", item: { id: "minecraft:wither_rose", count: 1 }, count: 1L }]
-			x: 12.0d
-			y: 2.0d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6E01392665CDEBA9"]
@@ -1072,6 +1072,86 @@
 			tasks: [{ id: "D946AF54D03EA3F1", type: "kill", entity: "minecraft:wither", value: 1L }]
 			x: 22.5d
 			y: -2.0d
+		}
+		{
+			description: ["&6Abschnitt", "Netherit-Zutaten"]
+			id: "F33C0E0D6A633443"
+			title: "Netherit-Zutaten"
+			optional: true
+			tasks: [{ id: "D43ABD7D1A8D0540", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["&6Abschnitt", "Zauberbuecher"]
+			id: "58A8D15D4CCBF80A"
+			title: "Zauberbuecher"
+			optional: true
+			tasks: [{ id: "D717ECE74A8F9E8D", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: ["&6Abschnitt", "Cataclysm-Bosse und Ausruestung"]
+			id: "63C8984D01633D2B"
+			title: "Cataclysm-Bosse und Ausruestung"
+			optional: true
+			tasks: [{ id: "64A95BF6D7C6962C", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			description: ["&6Abschnitt", "Schwerter und Speere"]
+			id: "55BE5763A6243E0C"
+			title: "Schwerter und Speere"
+			optional: true
+			tasks: [{ id: "0B257875D3D00FF4", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			description: ["&6Abschnitt", "Werkzeug-Sets"]
+			id: "21DF6B6AB2D737F7"
+			title: "Werkzeug-Sets"
+			optional: true
+			tasks: [{ id: "8252529D28B5B115", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			description: ["&6Abschnitt", "Ruestungen"]
+			id: "B546DD46021B209D"
+			title: "Ruestungen"
+			optional: true
+			tasks: [{ id: "71A6E87DDDCF5DDA", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			description: ["&6Abschnitt", "Haemmer"]
+			id: "6906E982C7CE32AE"
+			title: "Haemmer"
+			optional: true
+			tasks: [{ id: "DDC8F502019B3DCA", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			description: ["&6Abschnitt", "Boss-Beschwoerung"]
+			id: "522FC73A3C82A787"
+			title: "Boss-Beschwoerung"
+			optional: true
+			tasks: [{ id: "DF3F673A54A62ACC", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.0d
+			y: 33.5d
 		}
 	]
 }

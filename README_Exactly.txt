@@ -1,2 +1,2 @@
-Exactly 2.0.210 - eigene Konfiguration, ohne Better-MC-Configs oder -Assets.
+Exactly 2.0.211 - eigene Konfiguration, ohne Better-MC-Configs oder -Assets.
 Mod-Configs werden beim ersten Start von den Mods selbst erzeugt.
