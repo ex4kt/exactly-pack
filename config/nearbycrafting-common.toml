@@ -1,0 +1,19 @@
+#DEFAULT scans a cube around the crafter. CONNECTED only uses containers connected to the crafting table.
+#Allowed Values: DEFAULT, CONNECTED
+mode = "DEFAULT"
+#Allows players to reach nearby item containers and use their contents for crafting.
+craftingPlayerCanReach = true
+#Radius (in blocks) which players can reach item containers.
+# Default: 8
+# Range: 0 ~ 50
+craftingPlayerReach = 50
+#Allows crafting tables to reach nearby item containers and use their contents for crafting.
+craftingTableCanReach = true
+#Radius (in blocks) which crafting tables can reach item containers.
+# Default: 8
+# Range: 0 ~ 50
+craftingTableReach = 50
+#How many containers away from the crafting table are used in connected mode.
+# Default: 10
+# Range: 1 ~ 50
+craftingTableDepth = 10
