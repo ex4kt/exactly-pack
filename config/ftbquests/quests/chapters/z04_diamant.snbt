@@ -1213,5 +1213,286 @@
 			x: 0.00d
 			y: 40.25d
 		}
+		{
+			description: ["&6Abschnitt", "Flugzeuge"]
+			id: "171D357888417322"
+			title: "Flugzeuge"
+			optional: true
+			tasks: [{ id: "2C3DC3C33E4C9C26", type: "checkmark" }]
+			shape: "hexagon"
+			x: 0.00d
+			y: 43.00d
+		}
+		{
+			dependencies: ["35D9C17C3DF9768D"]
+			description: ["&6Was ist das?", "Der Rumpf ist der Grundbaustein jedes Fluggeräts.", "", "&6So gehts", "6 Stämme und 3 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ohne Rumpf kein Flugzeug.", "", "&6Gut zu wissen", "Alle Fluggeräte von Immersive Aircraft werden ab dem Diamant-Zeitalter freigeschaltet."]
+			hide_dependency_lines: true
+			id: "4DD0DA067A995253"
+			title: "Rumpf"
+			rewards: [{ id: "155697BCF001BE9F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "320E41D54A9BD752", type: "item", item: { id: "immersive_aircraft:hull", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 43.00d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Der Heizkessel erzeugt Dampf für den Motor.", "", "&6So gehts", "7 Kupferbarren und ein Ofen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für den Motor."]
+			id: "2D278F5CE8389E57"
+			title: "Heizkessel"
+			rewards: [{ id: "20389750EFCFF3D8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2A6E7B6196B80BB9", type: "item", item: { id: "immersive_aircraft:boiler", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 43.00d
+		}
+		{
+			dependencies: ["2D278F5CE8389E57"]
+			description: ["&6Was ist das?", "Der Motor treibt Propeller und Rotoren an. Er verbrennt Kohle oder anderen Brennstoff.", "", "&6So gehts", "Heizkessel, Hochofen, 2 Kolben und 3 Bruchstein.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Jedes motorisierte Fluggerät braucht ihn."]
+			id: "629820D5D701A03F"
+			title: "Motor"
+			rewards: [{ id: "7AB0B8A74BCD3F04", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "164E87A77811A203", type: "item", item: { id: "immersive_aircraft:engine", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 43.00d
+		}
+		{
+			dependencies: ["629820D5D701A03F"]
+			description: ["&6Was ist das?", "Der Propeller erzeugt den Schub.", "", "&6So gehts", "5 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Doppeldecker, Flugschrauber und Quadrokopter."]
+			id: "68831BD6C238738E"
+			title: "Propeller"
+			rewards: [{ id: "1AD4530F8089C13F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3E553C94FDDCC539", type: "item", item: { id: "immersive_aircraft:propeller", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 43.00d
+		}
+		{
+			dependencies: ["629820D5D701A03F"]
+			description: ["&6Was ist das?", "Segel aus Stoff für Flügel und Ballone.", "", "&6So gehts", "6 weiße Teppiche und 3 Fäden.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Flugschrauber und Luftschiffe."]
+			id: "5BD5E8A787C56E8D"
+			title: "Segel"
+			rewards: [{ id: "7FDC5BC8E1C7A0D2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "69A1744473299B00", type: "item", item: { id: "immersive_aircraft:sail", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 43.00d
+		}
+		{
+			dependencies: ["68831BD6C238738E"]
+			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig. Er braucht Anlauf zum Starten.", "", "&6So gehts", "3 Rümpfe, Motor und Propeller. Hinsetzen, mit W Schub geben, Brennstoff ins Flugzeug-Inventar.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Schnell über weite Strecken reisen."]
+			id: "5861EFEFC54087AB"
+			title: "Doppeldecker"
+			rewards: [{ id: "5650796A8AC4CB40", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "262DB0094419ABD0", type: "item", item: { id: "immersive_aircraft:biplane", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 43.00d
+		}
+		{
+			dependencies: ["5861EFEFC54087AB", "5BD5E8A787C56E8D"]
+			description: ["&6Was ist das?", "Der Flugschrauber fliegt ohne Motor: Du trittst selbst in die Pedale.", "", "&6So gehts", "2 Segel, 2 Rümpfe und ein Propeller.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Günstig fliegen, ganz ohne Brennstoff."]
+			id: "19F7BD664987FE6B"
+			title: "Flugschrauber"
+			rewards: [{ id: "4842EDB5C729AF4C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "2FBA6DA8313B6AEE", type: "item", item: { id: "immersive_aircraft:gyrodyne", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 43.00d
+		}
+		{
+			dependencies: ["19F7BD664987FE6B"]
+			description: ["&6Was ist das?", "Der Quadrokopter schwebt auf der Stelle.", "", "&6So gehts", "4 Propeller, 4 Bambus und ein Motor.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ideal zum Bauen in der Höhe."]
+			id: "53059BA58120D4DB"
+			title: "Quadrokopter"
+			rewards: [{ id: "68E80C151815D731", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "2E981CF2DEE11475", type: "item", item: { id: "immersive_aircraft:quadrocopter", count: 1 }, count: 1L }]
+			x: 12.00d
+			y: 43.00d
+		}
+		{
+			dependencies: ["53059BA58120D4DB"]
+			description: ["&6Was ist das?", "Das Luftschiff ist langsam, aber sehr stabil.", "", "&6So gehts", "6 Segel, 2 Rümpfe und ein Motor.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemütlich reisen, mit Platz für Mitfahrer."]
+			id: "61734ED79D594739"
+			title: "Luftschiff"
+			rewards: [{ id: "422A95C67B3CE64E", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "3CB27D22E7853C28", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
+			x: 13.50d
+			y: 43.00d
+		}
+		{
+			dependencies: ["61734ED79D594739"]
+			description: ["&6Was ist das?", "Das Frachtluftschiff hat viel Stauraum.", "", "&6So gehts", "Luftschiff, Rumpf und 4 Truhen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Viele Items auf einmal transportieren."]
+			id: "17DD55DAD7727688"
+			title: "Frachtluftschiff"
+			rewards: [{ id: "3891873A3B3A3A45", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "596C3D426E5EF53E", type: "item", item: { id: "immersive_aircraft:cargo_airship", count: 1 }, count: 1L }]
+			x: 15.00d
+			y: 43.00d
+		}
+		{
+			dependencies: ["17DD55DAD7727688", "7453ACABF193E9DA"]
+			description: ["&6Was ist das?", "Das Kriegsschiff ist ein fliegendes Schlachtschiff mit Platz für Waffen.", "", "&6So gehts", "Frachtluftschiff, 3 Rümpfe, 2 Motoren, 2 Segel und Industriegetriebe.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemeinsam fliegen und kämpfen."]
+			id: "530C81D0E1B95D89"
+			title: "Kriegsschiff"
+			rewards: [{ id: "779FDD86832870E9", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "759570CA98CFB284", type: "item", item: { id: "immersive_aircraft:warship", count: 1 }, count: 1L }]
+			x: 16.50d
+			y: 43.00d
+		}
+		{
+			dependencies: ["68831BD6C238738E"]
+			description: ["&6Was ist das?", "Ein stärkerer Propeller als Verbesserung.", "", "&6So gehts", "Propeller und 4 Kupferbarren. Ins Verbesserungsfeld des Fluggeräts legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Schub und Tempo."]
+			id: "135CC50AA6135F03"
+			title: "Verbesserter Propeller"
+			rewards: [{ id: "2926193150E664AB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "68986B678099102A", type: "item", item: { id: "immersive_aircraft:enhanced_propeller", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 44.50d
+		}
+		{
+			dependencies: ["2D278F5CE8389E57"]
+			description: ["&6Was ist das?", "Ein besserer Kessel als Verbesserung.", "", "&6So gehts", "Heizkessel, Hochofen und 7 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Der Motor leistet mehr."]
+			id: "2BED4230D2E4397B"
+			title: "Stahlkessel"
+			rewards: [{ id: "4B0B4432346C6897", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "16800D6BE01F13B3", type: "item", item: { id: "immersive_aircraft:steel_boiler", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 44.50d
+		}
+		{
+			dependencies: ["629820D5D701A03F"]
+			description: ["&6Was ist das?", "Ein sparsamer Motor als Verbesserung.", "", "&6So gehts", "Motor, 3 Goldbarren, 3 Ziegel und 2 Schleimbälle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Verbraucht weniger Brennstoff."]
+			id: "18F8D9791B875395"
+			title: "Öko-Motor"
+			rewards: [{ id: "225E1E2F574A62C4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6B515B8F4491AB4C", type: "item", item: { id: "immersive_aircraft:eco_engine", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 44.50d
+		}
+		{
+			dependencies: ["18F8D9791B875395"]
+			description: ["&6Was ist das?", "Der stärkste Motor als Verbesserung.", "", "&6So gehts", "Motor, Netheritbarren, 2 Lohenruten, 2 Magmacreme und 3 Netherziegel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Höchste Leistung (braucht Netherit)."]
+			id: "44B342909FEC9D2A"
+			title: "Nether-Motor"
+			rewards: [{ id: "74F50668F1CCA605", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "5BF2E7C3CBF633C9", type: "item", item: { id: "immersive_aircraft:nether_engine", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 44.50d
+		}
+		{
+			dependencies: ["629820D5D701A03F"]
+			description: ["&6Was ist das?", "Stabilere Leitungen als Verbesserung.", "", "&6So gehts", "3 Kupferbarren und 2 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Das Fluggerät hält mehr aus."]
+			id: "7FF0FD5E388482AF"
+			title: "Robuste Rohre"
+			rewards: [{ id: "5FC3FAD339E8D6B7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3576647B7FC617AF", type: "item", item: { id: "immersive_aircraft:sturdy_pipes", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 44.50d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Eine Panzerung für den Rumpf als Verbesserung.", "", "&6So gehts", "3 Rümpfe und 6 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Lebenspunkte für dein Fluggerät."]
+			id: "2FC024DADBC88EE4"
+			title: "Rumpfverstärkung"
+			rewards: [{ id: "4E2BFDD3072AD338", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "76A40D8D809B2CC3", type: "item", item: { id: "immersive_aircraft:hull_reinforcement", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 44.50d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Ein besseres Fahrwerk als Verbesserung.", "", "&6So gehts", "3 Eisenbarren und 4 Kohle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Sanftere Landungen, weniger Schaden."]
+			id: "6CB1775D5D70DE5F"
+			title: "Verbessertes Fahrwerk"
+			rewards: [{ id: "4977858A9AC35937", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "71D3210F9F769FF8", type: "item", item: { id: "immersive_aircraft:improved_landing_gear", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 44.50d
+		}
+		{
+			dependencies: ["629820D5D701A03F"]
+			description: ["&6Was ist das?", "Ein Getriebe für schwere Technik.", "", "&6So gehts", "3 Eisenbarren, 3 Kupferbarren und ein Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für Drehrohrkanone und Kriegsschiff."]
+			id: "7453ACABF193E9DA"
+			title: "Industriegetriebe"
+			rewards: [{ id: "78B59896352509AF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4CB315EE9219FC9F", type: "item", item: { id: "immersive_aircraft:industrial_gears", count: 1 }, count: 1L }]
+			x: 12.00d
+			y: 44.50d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Eine Armbrust zum Anbauen an Fluggeräte.", "", "&6So gehts", "Armbrust, Stolperdrahthaken und ein Stamm. Ins Waffenfeld legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die erste Bordwaffe."]
+			id: "1107A08D0F125370"
+			title: "Schwere Armbrust"
+			rewards: [{ id: "7554C97A7A393FB5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3731E190D6B1FE7A", type: "item", item: { id: "immersive_aircraft:heavy_crossbow", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 46.00d
+		}
+		{
+			dependencies: ["7453ACABF193E9DA"]
+			description: ["&6Was ist das?", "Eine schnell feuernde Bordkanone.", "", "&6So gehts", "Spender, Industriegetriebe und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Starke Bordwaffe gegen Gegner."]
+			id: "156A83D7C318BB8B"
+			title: "Drehrohrkanone"
+			rewards: [{ id: "2A882EBB45289631", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "7C1449FF2F7DA0BF", type: "item", item: { id: "immersive_aircraft:rotary_cannon", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 46.00d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Wirft TNT aus dem Fluggerät ab.", "", "&6So gehts", "4 Eisenbarren und TNT.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Bomben aus der Luft."]
+			id: "701304620ED45239"
+			title: "Bombenbucht"
+			rewards: [{ id: "484237331FBFF87C", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "218932BF110E128A", type: "item", item: { id: "immersive_aircraft:bomb_bay", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 46.00d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Ein Fernrohr zum Anbauen.", "", "&6So gehts", "Fernrohr und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Weit sehen während des Flugs."]
+			id: "3AD58E528F7E5BAA"
+			title: "Teleskop"
+			rewards: [{ id: "753FCFFD4417158B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "76AE8EF3A5F8141D", type: "item", item: { id: "immersive_aircraft:telescope", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 46.00d
+		}
+		{
+			dependencies: ["4DD0DA067A995253"]
+			description: ["&6Was ist das?", "Zeigt Lage und Richtung des Fluggeräts.", "", "&6So gehts", "2 Komparatoren und ein Kompass.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Leichter gerade fliegen."]
+			id: "65A540A139645DF1"
+			title: "Gyroskop"
+			rewards: [{ id: "100393BDD6860D6C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3E6F8EACB6CF872F", type: "item", item: { id: "immersive_aircraft:gyroscope", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 46.00d
+		}
+		{
+			dependencies: ["65A540A139645DF1"]
+			description: ["&6Was ist das?", "Ein Gyroskop mit zusätzlichen Anzeigen.", "", "&6So gehts", "Gyroskop, 3 Uhren, Notenblock und Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Fluginfos auf einen Blick."]
+			id: "29F6CCB1832D677C"
+			title: "Erweitertes Gyroskop"
+			rewards: [{ id: "4F4ADA2B62035BB1", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5EC66553E92BC442", type: "item", item: { id: "immersive_aircraft:gyroscope_dials", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 46.00d
+		}
+		{
+			dependencies: ["29F6CCB1832D677C"]
+			description: ["&6Was ist das?", "Blendet die Fluginfos direkt im Bild ein.", "", "&6So gehts", "Gyroskop, Redstone-Lampe, Glasscheibe, Notenblock, Hebel, 2 Goldbarren und 2 Goldklumpen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die beste Anzeige beim Fliegen."]
+			id: "364E57CC371568BD"
+			title: "Elektronisches Gyroskop"
+			rewards: [{ id: "2A6C4AC57E0EE763", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "387569081A192BAE", type: "item", item: { id: "immersive_aircraft:gyroscope_hud", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 46.00d
+		}
+		{
+			dependencies: ["5861EFEFC54087AB"]
+			description: ["&6Was ist das?", "Ein leichtes Flugzeug aus Bambus.", "", "&6So gehts", "2 Doppeldecker, Rumpf, Motor und 5 Bambusblöcke.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ein weiteres Flugzeug für deine Sammlung."]
+			id: "5D87104B136F5709"
+			title: "Bambus-Trichter"
+			rewards: [{ id: "2ED3E17A8CE14E34", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "31B47D7109A2564C", type: "item", item: { id: "immersive_aircraft:bamboo_hopper", count: 1 }, count: 1L }]
+			x: 12.00d
+			y: 46.00d
+		}
 	]
 }

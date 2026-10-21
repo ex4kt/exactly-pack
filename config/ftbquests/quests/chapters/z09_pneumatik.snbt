@@ -604,99 +604,6 @@
 			y: 18.88d
 		}
 		{
-			dependencies: ["1ADDD6C9F3C1DE3C"]
-			description: ["&6Was ist das?", "Mit Immersive Aircraft fliegst du durch die Luft.", "Schritt 1: Baue einen Rumpf und einen Motor.", "Schritt 2: Setze dich hinein, Vorwärts-Taste gibt Schub.", "", "&6So gehts", "Rumpf, Motor und Flügel bauen.", "", "&6Wofür ist das wichtig?", "Schnell reisen und Fracht transportieren."]
-			hide_dependency_lines: true
-			id: "2288096374D43CE7"
-			title: "Flugzeuge"
-			rewards: [{ id: "0B0F9483A19C8003", type: "item", item: { id: "minecraft:coal", count: 16 } }]
-			tasks: [{ id: "6B32C99AE634C133", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 24.38d
-		}
-		{
-			dependencies: ["2288096374D43CE7"]
-			description: ["&6Was ist das?", "Immersive Aircraft: Jedes Flugzeug braucht Rumpf, Motor und Propeller.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Basis für alle Fluggeräte."]
-			id: "481A40CFA4252CA1"
-			title: "Rumpf und Motor"
-			rewards: [{ id: "253A49E85DB9B13A", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
-			tasks: [{ id: "5806227E1514ADE4", type: "item", item: { id: "immersive_aircraft:engine", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 24.38d
-		}
-		{
-			dependencies: ["481A40CFA4252CA1"]
-			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Schnell reisen."]
-			id: "34E7C3DABDEE4D99"
-			title: "Doppeldecker"
-			rewards: [{ id: "4DDF3D155BF5627F", type: "item", item: { id: "minecraft:coal", count: 16 } }]
-			tasks: [{ id: "135E7CE55A47EED7", type: "item", item: { id: "immersive_aircraft:biplane", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 24.38d
-		}
-		{
-			dependencies: ["34E7C3DABDEE4D99"]
-			description: ["&6Was ist das?", "Der Gyrodyne ist ein einfacher Hubschrauber mit Muskelkraft.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Langsam, aber einfach."]
-			id: "28030AA827BEA30E"
-			title: "Gyrocopter"
-			rewards: [{ id: "2347DBC7F90539D1", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "46B3674703EA2A16", type: "item", item: { id: "immersive_aircraft:gyrodyne", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 24.38d
-		}
-		{
-			dependencies: ["28030AA827BEA30E"]
-			description: ["&6Was ist das?", "Der Quadrocopter ist klein und praktisch zum Bauen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Stabiler Flug."]
-			id: "16E963430E767EC6"
-			title: "Quadrocopter"
-			rewards: [{ id: "321B1F27ADF0591F", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "109E652ED40BDCAA", type: "item", item: { id: "immersive_aircraft:quadrocopter", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 24.38d
-		}
-		{
-			dependencies: ["16E963430E767EC6"]
-			description: ["&6Was ist das?", "Das Fracht-Luftschiff trägt viele Kisten.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Viele Items transportieren."]
-			id: "20BB6CFBED37709A"
-			title: "Fracht-Luftschiff"
-			rewards: [{ id: "0344CF7F4DB03CB8", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "2C969EE93EDD6917", type: "item", item: { id: "immersive_aircraft:cargo_airship", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 24.38d
-		}
-		{
-			dependencies: ["20BB6CFBED37709A"]
-			description: ["&6Was ist das?", "Das Warship ist ein fliegendes Schlachtschiff mit Kanonen.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemeinsam fliegen und kämpfen."]
-			id: "6F743C43424223F3"
-			title: "Kriegsschiff"
-			rewards: [{ id: "036983CF7B61CBDD", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
-			tasks: [{ id: "3006F573DDBE252F", type: "item", item: { id: "immersive_aircraft:warship", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 24.38d
-		}
-		{
-			dependencies: ["481A40CFA4252CA1"]
-			description: ["&6Was ist das?", "Immersive Aircraft: Der Propeller treibt Flugzeuge an.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Zutat für viele Fluggeräte."]
-			icon: { id: "immersive_aircraft:propeller" }
-			id: "633EAD26426F937A"
-			title: "Propeller"
-			rewards: [{ id: "756955E23E0CAD64", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "7B6C7742E1C9650D", type: "item", item: { id: "immersive_aircraft:propeller", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 25.62d
-		}
-		{
-			dependencies: ["633EAD26426F937A"]
-			description: ["&6Was ist das?", "Der Kessel ist der Motor für Dampfflugzeuge.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Zutat für größere Fluggeräte."]
-			icon: { id: "immersive_aircraft:boiler" }
-			id: "2A097C3F75E92226"
-			title: "Kessel (Flugzeug)"
-			rewards: [{ id: "31AD6521D4997771", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6D9675EEF9ACCF45", type: "item", item: { id: "immersive_aircraft:boiler", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 25.62d
-		}
-		{
 			description: ["&6Was ist das?", "PneumaticCraft ist Technik mit Druckluft: Kompressoren, Rohre, Drohnen und Maschinen. Dieses Kapitel ist von Anfang an frei, ohne Zeitalter.", "Zweige: Druckluft, Öl, Elektronik, Bauteile, Upgrades, Kompressoren, Drohnen, Ausrüstung, Basis, Flugzeuge, Flugzeugteile.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Das Handbuch im Spiel erklärt jede Maschine.", "", "&6Wofür ist das wichtig?", "Druckluft treibt Drohnen, Werkzeuge und Rüstungen an. Alles hier ist freiwillig und jederzeit nachholbar."]
 			icon: { id: "pneumaticcraft:air_compressor" }
 			id: "3ED2EEBB1CFA992F"
@@ -710,18 +617,6 @@
 		}
 		{
 			dependencies: ["180C3D47022C0326"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Aircraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
-			icon: { id: "immersive_aircraft:heavy_crossbow" }
-			hide_dependency_lines: true
-			id: "61B3E2D6352AAB0F"
-			title: "Heavy Crossbow"
-			rewards: []
-			tasks: [{ id: "5BC0AD6616D9DF19", type: "item", item: { id: "immersive_aircraft:heavy_crossbow", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 13.38d
-		}
-		{
-			dependencies: ["61B3E2D6352AAB0F"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "pneumaticcraft:jackhammer" }
 			id: "72267DA2D3EE571B"
