@@ -1407,53 +1407,53 @@
 			dependencies: ["72C6150EA283BB25"]
 			description: ["&6Was ist das?", "Die Generatorspule wandelt Drehkraft in Strom um.", "", "&6So gehts", "Rezept in JEI nachschlagen. Sie braucht Magnete und Draht.", "", "&6Wofür ist das wichtig?", "Sie ist das Herz jedes Generators."]
 			icon: { id: "create_new_age:generator_coil" }
-			id: "8904C6C0693B7792"
+			id: "537047B0D9B08E86"
 			title: "Generatorspule"
 			rewards: [{ id: "19D4AED6BED7B1DF", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "F03E525DFCB9D495", type: "item", item: { id: "create_new_age:generator_coil", count: 1 }, count: 1L }]
+			tasks: [{ id: "6B9C760B40663313", type: "item", item: { id: "create_new_age:generator_coil", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 52.75d
 		}
 		{
-			dependencies: ["8904C6C0693B7792"]
+			dependencies: ["537047B0D9B08E86"]
 			description: ["&6Was ist das?", "Bürsten leiten den Strom vom Rotor ab.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Ohne Bürsten liefert der Generator keinen Strom."]
 			icon: { id: "create_new_age:carbon_brushes" }
-			id: "91C68F57D314B312"
+			id: "32C4380E2DA37B34"
 			title: "Kohlebürsten"
 			rewards: [{ id: "1C8E57EB1A4CB601", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "DC02AC791C9B82F7", type: "item", item: { id: "create_new_age:carbon_brushes", count: 1 }, count: 1L }]
+			tasks: [{ id: "110E92DDEE5CACEF", type: "item", item: { id: "create_new_age:carbon_brushes", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 52.75d
 		}
 		{
-			dependencies: ["91C68F57D314B312"]
+			dependencies: ["32C4380E2DA37B34"]
 			description: ["&6Was ist das?", "Der Motor wandelt Strom zurück in Drehkraft.", "", "&6So gehts", "Rezept in JEI nachschlagen und neben eine Create-Welle stellen.", "", "&6Wofür ist das wichtig?", "So treibst du Maschinen ohne Wasserrad oder Windmühle an."]
 			icon: { id: "create_new_age:basic_motor" }
-			id: "892D0BA1C8FCDA3E"
+			id: "787DC8EA414981C9"
 			title: "Einfacher Motor"
-			rewards: [{ id: "E8E5DD5C9BCCAE96", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "D2BDAB661BBE4525", type: "item", item: { id: "create_new_age:basic_motor", count: 1 }, count: 1L }]
+			rewards: [{ id: "6FF40A477954B254", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "2D78E232FAC7720B", type: "item", item: { id: "create_new_age:basic_motor", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 52.75d
 		}
 		{
-			dependencies: ["892D0BA1C8FCDA3E"]
+			dependencies: ["787DC8EA414981C9"]
 			description: ["&6Was ist das?", "Der Verbinder leitet Strom über Distanz.", "", "&6So gehts", "Zwei Verbinder platzieren und mit dem Draht verknüpfen.", "", "&6Wofür ist das wichtig?", "So bringst du Strom quer durch die Basis."]
 			icon: { id: "create_new_age:electrical_connector" }
-			id: "9BA470F71EDDDBE1"
+			id: "7307C82B97B2EC83"
 			title: "Stromverbinder"
-			rewards: [{ id: "92DBB7A673D314C0", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "BDEB9D28777BF8F9", type: "item", item: { id: "create_new_age:electrical_connector", count: 1 }, count: 1L }]
+			rewards: [{ id: "1DDA7B95178664CA", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "7D449F8C90206BE2", type: "item", item: { id: "create_new_age:electrical_connector", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 52.75d
 		}
 		{
-			dependencies: ["9BA470F71EDDDBE1"]
+			dependencies: ["7307C82B97B2EC83"]
 			description: ["&6Was ist das?", "Der Stirlingmotor erzeugt Drehkraft aus Hitze.", "", "&6So gehts", "Rezept in JEI nachschlagen und über eine Wärmequelle stellen.", "", "&6Wofür ist das wichtig?", "Eine stetige Kraftquelle ohne Wetter."]
 			icon: { id: "create_new_age:stirling_engine" }
 			id: "3512E34C28D2D9FE"
 			title: "Stirlingmotor"
-			rewards: [{ id: "D2A377509F3D7DD3", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "77112324AAF494B2", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "24D4EEFF0B4D8203", type: "item", item: { id: "create_new_age:stirling_engine", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 52.75d
@@ -1462,10 +1462,10 @@
 			dependencies: ["3512E34C28D2D9FE"]
 			description: ["&6Was ist das?", "Eine elektrische Laterne für deine Wege.", "", "&6So gehts", "Rezept in JEI nachschlagen und an das Stromnetz hängen.", "", "&6Wofür ist das wichtig?", "Dauerhaftes Licht ohne Fackeln."]
 			icon: { id: "create_new_age:street_light" }
-			id: "E066EA0F66A69901"
+			id: "190827C1081CC46A"
 			title: "Straßenlaterne"
 			rewards: [{ id: "1918E70FA4617BF6", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D6DBDF9E3D6816BD", type: "item", item: { id: "create_new_age:street_light", count: 1 }, count: 1L }]
+			tasks: [{ id: "1BB0FCF064E98B70", type: "item", item: { id: "create_new_age:street_light", count: 1 }, count: 1L }]
 			x: 10.50d
 			y: 52.75d
 		}
@@ -1474,21 +1474,21 @@
 			description: ["&6Was ist das?", "Der Scanner zeigt, wo unter dir Rohöl liegt.", "", "&6So gehts", "Rezept in JEI nachschlagen und in der Hand über Chunks fahren.", "", "&6Wofür ist das wichtig?", "Ohne Fundort keine Ölquelle."]
 			icon: { id: "createdieselgenerators:oil_scanner" }
 			hide_dependency_lines: true
-			id: "E37036D5B1F60137"
+			id: "68239A4265A716D8"
 			title: "Ölscanner"
-			rewards: [{ id: "B913FC8C68737A1B", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "87748BBD85B84266", type: "item", item: { id: "createdieselgenerators:oil_scanner", count: 1 }, count: 1L }]
+			rewards: [{ id: "4B3A6B376BF6799B", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "5B21EBD622E5D5A8", type: "item", item: { id: "createdieselgenerators:oil_scanner", count: 1 }, count: 1L }]
 			x: 1.50d
 			y: 55.75d
 		}
 		{
-			dependencies: ["E37036D5B1F60137"]
+			dependencies: ["68239A4265A716D8"]
 			description: ["&6Was ist das?", "Teil der Ölpumpe, die das Öl an die Oberfläche holt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Das Öl ist der Treibstoff für alles Weitere."]
 			icon: { id: "createdieselgenerators:pumpjack_head" }
 			id: "27D4A9B29351113E"
 			title: "Förderkopf"
 			rewards: [{ id: "74A8C126334EDE02", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C5871684976B81D8", type: "item", item: { id: "createdieselgenerators:pumpjack_head", count: 1 }, count: 1L }]
+			tasks: [{ id: "4C574D2D98FEA14E", type: "item", item: { id: "createdieselgenerators:pumpjack_head", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 55.75d
 		}
@@ -1509,8 +1509,8 @@
 			icon: { id: "createdieselgenerators:crude_oil_bucket" }
 			id: "6631D94060D1CAE1"
 			title: "Rohöl"
-			rewards: [{ id: "DCAB15654E32153D", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "9C636A8CF9161ADC", type: "item", item: { id: "createdieselgenerators:crude_oil_bucket", count: 1 }, count: 1L }]
+			rewards: [{ id: "58A87B8E52600760", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "6E1439FBD620C73A", type: "item", item: { id: "createdieselgenerators:crude_oil_bucket", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 55.75d
 		}
@@ -1518,21 +1518,21 @@
 			dependencies: ["6631D94060D1CAE1"]
 			description: ["&6Was ist das?", "Die Destillation trennt Rohöl in Diesel und Benzin.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Tanks bauen.", "", "&6Wofür ist das wichtig?", "So gewinnst du nutzbaren Treibstoff."]
 			icon: { id: "createdieselgenerators:distillation_controller" }
-			id: "AC460943EC4FC25C"
+			id: "4C61D09A99C24FE9"
 			title: "Destillation"
-			rewards: [{ id: "9F43986EFDBF8969", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "D04FB54C94A0B372", type: "item", item: { id: "createdieselgenerators:distillation_controller", count: 1 }, count: 1L }]
+			rewards: [{ id: "32CFA60E3524EC94", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "3AF5F1864564E3AD", type: "item", item: { id: "createdieselgenerators:distillation_controller", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 55.75d
 		}
 		{
-			dependencies: ["AC460943EC4FC25C"]
+			dependencies: ["4C61D09A99C24FE9"]
 			description: ["&6Was ist das?", "Der Motor verbrennt Diesel und liefert starke Drehkraft.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Diesel versorgen.", "", "&6Wofür ist das wichtig?", "Mehr Kraft auf kleinem Raum als jedes Wasserrad."]
 			icon: { id: "createdieselgenerators:diesel_engine" }
 			id: "500A0A344BD6F113"
 			title: "Dieselmotor"
 			rewards: [{ id: "48B4F673D9706396", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "B9F0AEE30DBD318B", type: "item", item: { id: "createdieselgenerators:diesel_engine", count: 1 }, count: 1L }]
+			tasks: [{ id: "1A5F7E9237786EB6", type: "item", item: { id: "createdieselgenerators:diesel_engine", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 55.75d
 		}
@@ -1549,7 +1549,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Ausrüstung und Rohre"]
-			id: "87729998B463B0F7"
+			id: "734080D5DB50FC77"
 			title: "Ausrüstung und Rohre"
 			optional: true
 			tasks: [{ id: "3FAFD6C020EAF864", type: "checkmark" }]
@@ -1559,10 +1559,10 @@
 		}
 		{
 			description: ["&6Abschnitt", "Erweiterungen und Deko"]
-			id: "99320A1FAAFB1A72"
+			id: "4EA0A5B13AC9DDBE"
 			title: "Erweiterungen und Deko"
 			optional: true
-			tasks: [{ id: "93AD57541DBA86DC", type: "checkmark" }]
+			tasks: [{ id: "5CEBC9C635E4DF83", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 9.75d
@@ -1572,7 +1572,7 @@
 			id: "182C4C6D2B12D400"
 			title: "Kraft und Getriebe"
 			optional: true
-			tasks: [{ id: "D9A83A161CE3B910", type: "checkmark" }]
+			tasks: [{ id: "1DBD66470FA11121", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 15.25d
@@ -1582,7 +1582,7 @@
 			id: "25A30BBB0A2726F4"
 			title: "Create Connected"
 			optional: true
-			tasks: [{ id: "BEE4826C853D913A", type: "checkmark" }]
+			tasks: [{ id: "33E7925F1164D05A", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 19.50d
@@ -1602,14 +1602,14 @@
 			id: "3B1E90D27BCCBD83"
 			title: "Messing und Technik"
 			optional: true
-			tasks: [{ id: "919E164BC100E954", type: "checkmark" }]
+			tasks: [{ id: "0D6CA6D2F0A05527", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 26.75d
 		}
 		{
 			description: ["&6Abschnitt", "Züge"]
-			id: "D05215194078B418"
+			id: "457F350D6A8BA567"
 			title: "Züge"
 			optional: true
 			tasks: [{ id: "70262B9DB8F3CB13", type: "checkmark" }]
@@ -1622,7 +1622,7 @@
 			id: "488D4978FD95B6FC"
 			title: "Lager und Hypertubes"
 			optional: true
-			tasks: [{ id: "FF23A2DE0CDBB300", type: "checkmark" }]
+			tasks: [{ id: "6962554D19C99357", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 34.00d
@@ -1632,14 +1632,14 @@
 			id: "6115471899930F07"
 			title: "Kleine Extras"
 			optional: true
-			tasks: [{ id: "A46623B3ED85EEF8", type: "checkmark" }]
+			tasks: [{ id: "7AA010C50A9B08C0", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 39.50d
 		}
 		{
 			description: ["&6Abschnitt", "Bewegte Konstruktionen"]
-			id: "CBD22CF83EA58542"
+			id: "7D72461056D64D87"
 			title: "Bewegte Konstruktionen"
 			optional: true
 			tasks: [{ id: "0A38A49DB58EBD30", type: "checkmark" }]
@@ -1649,7 +1649,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Create Additions"]
-			id: "A2550CD4BB19373E"
+			id: "454C12A06D1ED9E1"
 			title: "Create Additions"
 			optional: true
 			tasks: [{ id: "68124F85840525E9", type: "checkmark" }]
@@ -1669,10 +1669,10 @@
 		}
 		{
 			description: ["&6Abschnitt", "Create New Age"]
-			id: "B25774E9BDC3BAF3"
+			id: "2A387C8C57120E88"
 			title: "Create New Age"
 			optional: true
-			tasks: [{ id: "D7792A2B2254E30C", type: "checkmark" }]
+			tasks: [{ id: "4BBB4587F1B45109", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 52.75d

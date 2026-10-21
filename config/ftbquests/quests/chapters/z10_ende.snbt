@@ -347,8 +347,8 @@
 			description: ["&6Was ist das?", "Ein Stab, der kalt leuchtet.", "", "&6So gehts", "Blazestab und gepoppte Chorusfrucht in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Ein elegantes Licht für deine End-Basis."]
 			id: "04477D266F8FD6A2"
 			title: "Endstab-Licht"
-			rewards: [{ id: "F7F583AA0FC2C1AF", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B8B34B5B316998AE", type: "item", item: { id: "minecraft:end_rod", count: 1 }, count: 4L }]
+			rewards: [{ id: "2C8502877ECD0A77", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "71B583EC42F11829", type: "item", item: { id: "minecraft:end_rod", count: 1 }, count: 4L }]
 			x: 7.50d
 			y: 9.50d
 		}
@@ -356,18 +356,18 @@
 			dependencies: ["094E3A3AB01FE3FF"]
 			description: ["&6Was ist das?", "Der Enderdrache ist der Boss des Endes mit 200 Leben. Er fliegt, atmet Drachenatem und wird von zehn Endkristallen auf Obsidiansäulen geheilt.", "", "&6So gehts", "Acht Schritte: Festung finden, Portal, Pfeile, Blöcke und Wasser, Kürbis, Kristalle, Drache.", "", "&6Wofür ist das wichtig?", "Mit dem Sieg bekommst du das Drachenei, Erfahrung und den Weg zu den Endstädten."]
 			icon: { id: "minecraft:dragon_head" }
-			id: "DF133E9BFB41CD35"
+			id: "5851A927F1582ED0"
 			title: "Drache: Überblick"
 			rewards: [{ id: "12801974D86C74D0", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "86AD266DFCB63888", type: "checkmark" }]
+			tasks: [{ id: "29E85CD34CE3D782", type: "checkmark" }]
 			x: 10.50d
 			y: 2.00d
 		}
 		{
-			dependencies: ["DF133E9BFB41CD35"]
+			dependencies: ["5851A927F1582ED0"]
 			description: ["&6Was ist das?", "Die Festung versteckt das Endportal.", "", "&6So gehts", "Wirf ein Enderauge: Es fliegt in die Richtung der Festung. Folge ihm. Wenn es nach unten fällt, grabe dort. Mit dem Naturkompass kannst du die Festung auch suchen.", "", "&6Wofür ist das wichtig?", "Im Portalraum der Festung liegt der Rahmen zum Ende."]
 			icon: { id: "minecraft:ender_eye" }
-			id: "DFE9D1B2B83F4D2E"
+			id: "2F8796DBD31DD473"
 			title: "Drache: Festung finden"
 			rewards: [{ id: "0ED9C93390EF3355", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6D2AC54CE5F97CF7", type: "checkmark" }]
@@ -375,12 +375,12 @@
 			y: 2.00d
 		}
 		{
-			dependencies: ["DFE9D1B2B83F4D2E"]
+			dependencies: ["2F8796DBD31DD473"]
 			description: ["&6Was ist das?", "Das Endportal hat zwölf Rahmen.", "", "&6So gehts", "Setze in jeden leeren Rahmen ein Enderauge. Sind alle gefüllt, öffnet sich das Portal. Manche Rahmen sind schon besetzt, plane aber bis zu zwölf Augen ein.", "Lege vorher ein Bett oder einen Respawn-Punkt weit weg an.", "", "&6Wofür ist das wichtig?", "Hinter dem Portal gibt es keinen Rückweg, bis du den Drachen besiegt hast oder stirbst."]
 			icon: { id: "minecraft:end_portal_frame" }
 			id: "5BEE0068AE196052"
 			title: "Drache: Portal aktivieren"
-			rewards: [{ id: "AD4F2C5EEEFE2D5A", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "2F20D2D5C46DFFDB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "67729EA2764B40DD", type: "checkmark" }]
 			x: 13.50d
 			y: 2.00d
@@ -389,21 +389,21 @@
 			dependencies: ["5BEE0068AE196052"]
 			description: ["&6Was ist das?", "Gegen die Kristalle auf den hohen Säulen brauchst du Fernkampf.", "", "&6So gehts", "Nimm einen Bogen (am besten mit Unendlichkeit) und viele Pfeile mit, mindestens 64.", "", "&6Wofür ist das wichtig?", "Pfeile zerstören die Kristalle aus sicherer Entfernung."]
 			icon: { id: "minecraft:bow" }
-			id: "C2C0434EA9E19367"
+			id: "088031A171F3189A"
 			title: "Drache: Bogen und Pfeile"
-			rewards: [{ id: "B8B8BD7A16CC590E", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "564DACE380B8BFFF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "080DE8400895D377", type: "item", item: { id: "minecraft:arrow", count: 1 }, count: 64L }]
 			x: 15.00d
 			y: 2.00d
 		}
 		{
-			dependencies: ["C2C0434EA9E19367"]
+			dependencies: ["088031A171F3189A"]
 			description: ["&6Was ist das?", "Endermen sind im Ende überall, die Inseln sind klein.", "", "&6So gehts", "Nimm mindestens 64 Blöcke zum Brücken und einen Wassereimer mit. Wasser schadet Endermen, ein Block über dem Kopf schützt dich.", "", "&6Wofür ist das wichtig?", "Blöcke zum Brücken retten dich vor dem Fall in die Leere."]
 			icon: { id: "minecraft:water_bucket" }
 			id: "5A170150AAC1C908"
 			title: "Drache: Blöcke und Wasser"
-			rewards: [{ id: "D81A5F77A21A6E51", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "DE5A2C4E15B78C0E", type: "item", item: { id: "minecraft:water_bucket", count: 1 }, count: 1L }]
+			rewards: [{ id: "7769274C27472A4E", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "59F8DF6F31D840A6", type: "item", item: { id: "minecraft:water_bucket", count: 1 }, count: 1L }]
 			x: 16.50d
 			y: 2.00d
 		}
@@ -413,7 +413,7 @@
 			icon: { id: "minecraft:carved_pumpkin" }
 			id: "01307E2D144FD086"
 			title: "Drache: Kürbis"
-			rewards: [{ id: "8DC0B8F2FED751CA", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "02E93938D99FCA74", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "031ACA52BB7900EF", type: "item", item: { id: "minecraft:carved_pumpkin", count: 1 }, count: 1L }]
 			x: 18.00d
 			y: 2.00d
@@ -423,7 +423,7 @@
 			description: ["&6Was ist das?", "Auf zehn Obsidiansäulen stehen Endkristalle. Sie heilen den Drachen.", "", "&6So gehts", "Beschieße sie mit dem Bogen. Manche sind mit Eisengittern geschuetzt: Baue eine Säule hinauf und zerstöre das Gitter. Die Kristalle explodieren, bleibe weg.", "", "&6Wofür ist das wichtig?", "Ohne Kristalle heilt sich der Drache nicht mehr. Erst dann kannst du ihn sicher besiegen."]
 			icon: { id: "minecraft:end_crystal" }
 			hide_dependency_lines: true
-			id: "AE02FEE6B37C4E80"
+			id: "633911B6F7E3DCF6"
 			title: "Drache: Kristalle zerstören"
 			rewards: [{ id: "3FD9FB004FDA0527", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3E9C9C15DB387362", type: "kill", entity: "minecraft:end_crystal", value: 10L }]
@@ -431,13 +431,13 @@
 			y: 13.88d
 		}
 		{
-			dependencies: ["AE02FEE6B37C4E80"]
+			dependencies: ["633911B6F7E3DCF6"]
 			description: ["&6Was ist das?", "Der Kampf gegen den Drachen.", "", "&6So gehts", "Der Drache fliegt Kreise und landet manchmal am Portal in der Mitte. Dann schlägst du mit dem Schwert zu. Meide den violetten Drachenatem am Boden.", "Brücke immer mit einem Block Rand und nimm Heiltränke mit.", "", "&6Wofür ist das wichtig?", "Er lässt viel Erfahrung fallen und öffnet das Portal nach Hause. In der Mitte erscheint das Drachenei."]
 			icon: { id: "minecraft:dragon_egg" }
 			id: "17E65FEB4CF8824D"
 			title: "Enderdrache besiegen"
-			rewards: [{ id: "C08B4FDFBE8AA737", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "AEA287883B1151AD", type: "kill", entity: "minecraft:ender_dragon", value: 1L }]
+			rewards: [{ id: "3E08433BA443AE7A", type: "xp_levels", xp_levels: 10 }]
+			tasks: [{ id: "5490AB5D7DCC6EAF", type: "kill", entity: "minecraft:ender_dragon", value: 1L }]
 			x: 3.00d
 			y: 13.88d
 		}
@@ -447,7 +447,7 @@
 			description: ["&6Was ist das?", "Perlen von Endermen.", "", "&6So gehts", "Besiege Endermen (nachts oder im Ende). Mit Plünderung mehr.", "", "&6Wofür ist das wichtig?", "Perlen brauchst du für Enderaugen, Teleport und viele Rezepte."]
 			id: "600EF35468037498"
 			title: "Enderperlen sammeln"
-			rewards: [{ id: "E90C11573F7EC079", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3FDBB51E96158845", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1849E4E7C239FEBB", type: "item", item: { id: "minecraft:ender_pearl", count: 1 }, count: 16L }]
 			x: 7.50d
 			y: -6.75d
@@ -458,7 +458,7 @@
 			description: ["&6Was ist das?", "Im Ofen gebackene Chorusfrucht.", "", "&6So gehts", "Chorusfrucht im Ofen schmelzen.", "", "&6Wofür ist das wichtig?", "Zutat für Endstäbe und Purpurblöcke."]
 			id: "18D438EBB5E0B3F3"
 			title: "Gepoppte Chorusfrucht"
-			rewards: [{ id: "CCF2D6F3B188FC0F", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "28DEE6A9D9C59E82", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "513047372AA6A6D0", type: "item", item: { id: "minecraft:popped_chorus_fruit", count: 1 }, count: 4L }]
 			x: 7.50d
 			y: -5.50d
@@ -467,7 +467,7 @@
 			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
 			description: ["&6Was ist das?", "Treppen aus Purpurblöcken.", "", "&6So gehts", "Purpurblöcke in Treppenform in die Werkbank legen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Schönes Baumaterial für deine End-Basis."]
-			id: "F660E821A0E162CA"
+			id: "2FDBAAE38D14A9FF"
 			title: "Purpurtreppe"
 			rewards: [{ id: "4D6C7F2D6A1F67DF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3BE59E8FE8D7EAEE", type: "item", item: { id: "minecraft:purpur_stairs", count: 1 }, count: 6L }]
@@ -478,9 +478,9 @@
 			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
 			description: ["&6Was ist das?", "Treppen aus Endsteinziegeln.", "", "&6So gehts", "Endsteinziegel in Treppenform. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Helles Baumaterial, gut für Endstädte."]
-			id: "A4EEA51E6048F20C"
+			id: "4EA26BDE1174B4CF"
 			title: "Endstein-Treppen"
-			rewards: [{ id: "8C5BA1E5C3280D15", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7C590EA7AD4AC9E5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1F6248DA331720CE", type: "item", item: { id: "minecraft:end_stone_brick_stairs", count: 1 }, count: 6L }]
 			x: 7.50d
 			y: -3.00d
@@ -489,10 +489,10 @@
 			hide_dependency_lines: true
 			dependencies: ["028ADF99FBF6807C"]
 			description: ["&6Was ist das?", "Pfeile, die Gegner leuchten lassen.", "", "&6So gehts", "Leuchtsteinstaub und Pfeile in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich im Ende, um Ziele zu sehen."]
-			id: "A939AFF2911D5A3B"
+			id: "41CC03D79B8717CB"
 			title: "Spektralpfeile"
-			rewards: [{ id: "9C6B0E7BB4AB25CF", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9ACA6F449431CB2D", type: "item", item: { id: "minecraft:spectral_arrow", count: 1 }, count: 8L }]
+			rewards: [{ id: "022E3994031AD96A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "16531586858280B6", type: "item", item: { id: "minecraft:spectral_arrow", count: 1 }, count: 8L }]
 			x: 7.50d
 			y: -1.75d
 		}
@@ -530,15 +530,15 @@
 		{
 			dependencies: ["1631707162524544"]
 			description: ["&6Was ist das?", "Shulker sind Wesen in Muschelschalen, die dich schweben lassen.", "", "&6So gehts", "Besiege Shulker mit dem Schwert, wenn sie ihre Schale öffnen. Nimm Schutz vor Schwebe-Effekt mit (Milch).", "", "&6Wofür ist das wichtig?", "Sie lassen Shulkerschalen fallen für Shulkerkisten."]
-			id: "D297C054D943BB85"
+			id: "1F998E2F8FAF5D5A"
 			title: "Endstadt: Shulker"
 			rewards: [{ id: "7536D6070F66D2E9", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "84225D796D31743C", type: "checkmark" }]
+			tasks: [{ id: "159778E24623A8AE", type: "checkmark" }]
 			x: 9.00d
 			y: -8.00d
 		}
 		{
-			dependencies: ["D297C054D943BB85"]
+			dependencies: ["1F998E2F8FAF5D5A"]
 			description: ["&6Was ist das?", "Manche Endstädte haben ein Endschiff mit Elytra.", "", "&6So gehts", "Betrete das Schiff vorsichtig, Drachenkopf und Truhen sind dort. Brich die Truhe auf und nimm die Elytra aus dem Rahmen.", "", "&6Wofür ist das wichtig?", "Die Elytra erlaubt dir zu gleiten und mit Raketen zu fliegen."]
 			id: "1D7CA1A0A747FF18"
 			title: "Endstadt: Endschiff"

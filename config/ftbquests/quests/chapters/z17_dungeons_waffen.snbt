@@ -11,7 +11,7 @@
 		{
 			description: ["&6Was ist das?", "Hier findest du die Waffen aus Minecraft Dungeons sowie die Dungeon-Schlüssel von Dungeons and Taverns.", "Waffen findest du in Truhen und bei Bossen, Schlüssel öffnen besondere Räume in Bauwerken.", "", "&6Wofür ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
 			icon: { id: "minecraftdungeonsv3:great_hammer" }
-			id: "AECB9E6853E81536"
+			id: "64707A59A0CE9DDE"
 			title: "&6Dungeons-Waffen und Schlüssel"
 			rewards: [{ id: "733C66764DBD6E02", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "79DCBC8182A8C712", type: "checkmark" }]
@@ -21,29 +21,29 @@
 			y: 12.50d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Waffen aus Dungeons sind stark, aber teils selten.", "", "&6So gehts", "Erkunde Dungeons, Tempel und Festungen. Brich Truhen auf und nimm die Schlüssel mit."]
 			id: "7F60B9FA1F124A78"
 			title: "Dungeons: Tipps"
 			rewards: [{ id: "7771F894F2E36355", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "E9F914845377899A", type: "checkmark" }]
+			tasks: [{ id: "01581B82D043B2FE", type: "checkmark" }]
 			x: 4.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein großes Schwert.", "", "&6So gehts", "Finde es in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "2BB53283CE107503"
 			title: "Claymore"
-			rewards: [{ id: "975CEF7A27655F91", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9E5CF6E992559248", type: "item", item: { id: "minecraftdungeonsv3:claymore", count: 1 }, count: 1L }]
+			rewards: [{ id: "0BD66C6C88EE6133", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "43B7C19C51D92A41", type: "item", item: { id: "minecraftdungeonsv3:claymore", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 1.25d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein schneller Säbel.", "", "&6So gehts", "Finde es in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "9F93693F6F00E7C4"
+			id: "290DF8A9E63AF623"
 			title: "Entermesser"
 			rewards: [{ id: "75750C2B561F8BFE", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "34FD02F6850567C2", type: "item", item: { id: "minecraftdungeonsv3:cutlass", count: 1 }, count: 1L }]
@@ -51,19 +51,19 @@
 			y: 2.50d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein schneller Dolch.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "B5FC684AADB21095"
+			id: "7BEDD4FD2348A532"
 			title: "Dolch"
-			rewards: [{ id: "8C1F638711CB4EA7", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "2E5DD402441576DF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3BBB492B9924EB8B", type: "item", item: { id: "minecraftdungeonsv3:dagger", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 3.75d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Eine schwere Axt.", "", "&6So gehts", "Finde sie in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "A5B0E526320BE3F8"
+			id: "22570DBE7B94AC78"
 			title: "Doppelaxt"
 			rewards: [{ id: "2C6193CCEBE48123", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "08BE3B07662F286B", type: "item", item: { id: "minecraftdungeonsv3:double_axe", count: 1 }, count: 1L }]
@@ -71,49 +71,49 @@
 			y: 5.00d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein schwerer Hammer.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "EE532F038B75D02A"
+			id: "0061AD4B7398E235"
 			title: "Großer Hammer"
 			rewards: [{ id: "0C56037FD6C769CB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "A5F274190B94A014", type: "item", item: { id: "minecraftdungeonsv3:great_hammer", count: 1 }, count: 1L }]
+			tasks: [{ id: "24AA17872BD07B69", type: "item", item: { id: "minecraftdungeonsv3:great_hammer", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 6.25d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein wuchtiger Streitkolben.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "A40EECB5C134A79B"
+			id: "3F613FB08E7BB92D"
 			title: "Streitkolben"
 			rewards: [{ id: "7BDCFD55304374B3", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "DE3B7DD373AA881E", type: "item", item: { id: "minecraftdungeonsv3:mace", count: 1 }, count: 1L }]
+			tasks: [{ id: "1BB3DC51A6B42BAE", type: "item", item: { id: "minecraftdungeonsv3:mace", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 7.50d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Eine schnelle Sichel.", "", "&6So gehts", "Finde sie in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "053D82CBE0B89BCB"
 			title: "Sichel"
-			rewards: [{ id: "A5497863210F4DE3", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "ADBAFED0B600860C", type: "item", item: { id: "minecraftdungeonsv3:sickle", count: 1 }, count: 1L }]
+			rewards: [{ id: "50BB42E0111AFB83", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5F0190AEBA3AEE54", type: "item", item: { id: "minecraftdungeonsv3:sickle", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 8.75d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein langer Stab.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "E1F66C3AC9108F89"
+			id: "5827FA96B0F4D610"
 			title: "Kampfstab"
-			rewards: [{ id: "E50588A5845074A1", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "16994B2730781ECF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "37FE43EB87A9EC13", type: "item", item: { id: "minecraftdungeonsv3:battlestaff", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 10.00d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Eine Axt mit Feuerkraft.", "", "&6So gehts", "Finde sie in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "A945E7BB290F5D0F"
+			id: "045187161D2E3EFA"
 			title: "Feuerbrand-Axt"
 			rewards: [{ id: "2F9E09C9D828F123", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2341BBBEF4E2EA68", type: "item", item: { id: "minecraftdungeonsv3:firebrand_axe", count: 1 }, count: 1L }]
@@ -121,17 +121,17 @@
 			y: 11.25d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein besonderer Hammer.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "887367376CE4048F"
+			id: "469CD469540F5EA6"
 			title: "Hammer der Schwerkraft"
-			rewards: [{ id: "DE3842616A01977B", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "0B7F9768E98C59B8", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "45D6AC4263D52B10", type: "item", item: { id: "minecraftdungeonsv3:great_hammer_of_gravity", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 12.50d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Anker als Waffe.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "2FEC42754E0E8896"
 			title: "Anker"
@@ -141,37 +141,37 @@
 			y: 13.75d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Dolch mit Frost.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "FFCE69737F62DF26"
+			id: "1168FD30D86FD297"
 			title: "Frostzähne"
-			rewards: [{ id: "D0A3727DC7BE5613", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "1764C07B9318657F", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "76C3266043710BAF", type: "item", item: { id: "minecraftdungeonsv3:fangs_of_frost_dagger", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 15.00d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein besonderer Streitkolben.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "2D4D666177BB3654"
 			title: "Sonnengnade-Streitkolben"
-			rewards: [{ id: "84F325515366ECE2", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "5689E8E3BC8B0979", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "49A4C2226A6DC402", type: "item", item: { id: "minecraftdungeonsv3:suns_grace_mace", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 16.25d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein besonderer Tisch aus dem Turm.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "86F9FA211EBF3DEB"
+			id: "01852BCD408CDF27"
 			title: "Turm-Tisch"
-			rewards: [{ id: "8652AB69CBEE23B0", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "2B2A8B698D45C24D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "71D02F517B67CFA6", type: "item", item: { id: "minecraftdungeonsv3:tower_table", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 17.50d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Schlüssel für die Zitadelle.", "", "&6So gehts", "Finde ihn in Dungeons and Taverns. Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "18357AEBD0EF5C36"
 			title: "Zitadellen-Schlüssel"
@@ -181,7 +181,7 @@
 			y: 18.75d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Schlüssel für die Netherfestung.", "", "&6So gehts", "Finde ihn in der Netherfestung.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "17D6AF8FF423F8BE"
 			title: "Netherfestungs-Schlüssel"
@@ -191,42 +191,42 @@
 			y: 20.00d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Schlüssel für die Endburg.", "", "&6So gehts", "Finde ihn im Ende.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "8B890FEC6872D96B"
+			id: "745FAC05CAC802A8"
 			title: "Endburg-Schlüssel"
-			rewards: [{ id: "D563D56DC887417C", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "609E03B7CA27E0F2", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "5497DB67A54B3B83", type: "checkmark" }]
 			x: 4.50d
 			y: 21.25d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Schlüssel für das Endschiff.", "", "&6So gehts", "Finde ihn im Ende.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "2EB52387AB9F4430"
 			title: "Endschiff-Schlüssel"
 			rewards: [{ id: "06F594CFF6111CF2", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D8AE93FBD978673A", type: "checkmark" }]
+			tasks: [{ id: "3364772CE0338096", type: "checkmark" }]
 			x: 4.50d
 			y: 22.50d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Schlüssel für den Piglin-Turm.", "", "&6So gehts", "Finde ihn im Nether.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "5A091FD628215DB0"
 			title: "Piglin-Donjon-Schlüssel"
-			rewards: [{ id: "AFE987C18FDF6614", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D8B6DD5B5A1967D0", type: "checkmark" }]
+			rewards: [{ id: "7432E410B1E82143", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "58D1AEDA6B08D657", type: "checkmark" }]
 			x: 4.50d
 			y: 23.75d
 		}
 		{
-			dependencies: ["AECB9E6853E81536"]
+			dependencies: ["64707A59A0CE9DDE"]
 			description: ["&6Was ist das?", "Ein Schlüssel für einen Schrein.", "", "&6So gehts", "Finde ihn in Schreinen.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "376F536489D33078"
 			title: "Schrein-Schlüssel"
-			rewards: [{ id: "9EEBBA4E1C14DF92", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "CAB39A0792845DAE", type: "checkmark" }]
+			rewards: [{ id: "3E648D7D2CE46525", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "391E0A0B8EBDD6FC", type: "checkmark" }]
 			x: 4.50d
 			y: 25.00d
 		}

@@ -1613,10 +1613,10 @@
 			dependencies: ["5AD7D87EDA092F1C"]
 			description: ["&6Was ist das?", "Neun Eisenbarren werden zu einem Block.", "", "&6So gehts", "Neun Eisenbarren quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Lagern und für Baumaterial."]
 			hide_dependency_lines: true
-			id: "B643660B3B94A0F8"
+			id: "0A1C4349D4FA11BD"
 			title: "Eisenblock"
 			rewards: [{ id: "4CC52905DB7A2B04", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B3AF9083B9E1D7C0", type: "item", item: { id: "minecraft:iron_block", count: 1 }, count: 1L }]
+			tasks: [{ id: "592234E059392FA6", type: "item", item: { id: "minecraft:iron_block", count: 1 }, count: 1L }]
 			x: 1.50d
 			y: 13.50d
 		}
@@ -1624,9 +1624,9 @@
 			dependencies: ["0437F056B93FD8D9"]
 			description: ["&6Was ist das?", "Der Hochofen schmilzt Erze doppelt so schnell.", "", "&6So gehts", "Ofen, Eisenbarren und glatten Stein in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Spart bei großen Erzmengen viel Zeit."]
 			hide_dependency_lines: true
-			id: "80C2B92C59DFCCC2"
+			id: "1220F8092EE4B733"
 			title: "Hochofen"
-			rewards: [{ id: "CCF9ED8A59328CD9", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4E639C37C1F1A406", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0865A14FAD3DC316", type: "item", item: { id: "minecraft:blast_furnace", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 13.50d
@@ -1637,7 +1637,7 @@
 			hide_dependency_lines: true
 			id: "7E41D42443A85947"
 			title: "Eisengitter"
-			rewards: [{ id: "B3EF967993581762", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "459DEF6DF965AD2F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2321C1C989D105D0", type: "item", item: { id: "minecraft:iron_bars", count: 1 }, count: 8L }]
 			x: 4.50d
 			y: 13.50d
@@ -1645,10 +1645,10 @@
 		{
 			dependencies: ["75D7683D7097AA7F"]
 			description: ["&6Was ist das?", "Eine Fackel, die Strom liefert.", "", "&6So gehts", "Redstone über einen Stock legen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Dauerhafte Stromquelle und Basis vieler Schaltungen."]
-			id: "E6400366F166AFE1"
+			id: "3B2C7FC17618D056"
 			title: "Redstone-Fackel"
-			rewards: [{ id: "D0E6B6B37E23639F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D21961EB74101FC0", type: "item", item: { id: "minecraft:redstone_torch", count: 1 }, count: 1L }]
+			rewards: [{ id: "1AC4C09FC9C878CD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4A7D1CF88FC64D74", type: "item", item: { id: "minecraft:redstone_torch", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 4.25d
 		}
@@ -1667,8 +1667,8 @@
 			description: ["&6Was ist das?", "Gibt ein Signal, wenn jemand darauf tritt.", "", "&6So gehts", "Zwei Stein nebeneinander in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Für Falltüren, Fallen und automatische Türen."]
 			id: "0B5C7FA60D9861DE"
 			title: "Druckplatte"
-			rewards: [{ id: "E9C30A7C357C11C7", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "8BD1F56867381541", type: "item", item: { id: "minecraft:stone_pressure_plate", count: 1 }, count: 1L }]
+			rewards: [{ id: "3AF3CA76A81AB8FF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "13E147F8D4A7C661", type: "item", item: { id: "minecraft:stone_pressure_plate", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 6.75d
 		}
@@ -1677,18 +1677,18 @@
 			description: ["&6Was ist das?", "Wirft Gegenstände aus, wenn er Strom bekommt.", "", "&6So gehts", "Bogen, Bruchstein und Redstone. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Nützlich für Fallen und automatisches Füttern."]
 			id: "54A6075ECA1863F7"
 			title: "Spender"
-			rewards: [{ id: "9CD7C90E45FC4064", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "C6D8ECB012DDE618", type: "item", item: { id: "minecraft:dispenser", count: 1 }, count: 1L }]
+			rewards: [{ id: "28248FC55A1E5666", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3882718F91FE9850", type: "item", item: { id: "minecraft:dispenser", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 8.00d
 		}
 		{
 			dependencies: ["3E1ECF59DCE3468F"]
 			description: ["&6Was ist das?", "Schienen, die Loren beschleunigen.", "", "&6So gehts", "Gold, Stöcke und Redstone in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Redstone-Strom machen sie lange Strecken schnell."]
-			id: "B69D959EE56C6222"
+			id: "40D67A0CB7079CE7"
 			title: "Antriebsschiene"
 			rewards: [{ id: "31A3014A54BAA1E7", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "AB994D8216FBF488", type: "item", item: { id: "minecraft:powered_rail", count: 1 }, count: 6L }]
+			tasks: [{ id: "2B5377FB9601CE56", type: "item", item: { id: "minecraft:powered_rail", count: 1 }, count: 6L }]
 			x: 9.00d
 			y: 9.25d
 		}
@@ -1698,7 +1698,7 @@
 			id: "63630CA978151DC1"
 			title: "Redstone-Block"
 			rewards: [{ id: "244C456C66BD2E43", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A2820C031D338BAA", type: "item", item: { id: "minecraft:redstone_block", count: 1 }, count: 1L }]
+			tasks: [{ id: "2A4FACB8B956F01B", type: "item", item: { id: "minecraft:redstone_block", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 3.00d
 		}
@@ -1707,8 +1707,8 @@
 			description: ["&6Was ist das?", "Spielt je nach Untergrund verschiedene Töne.", "", "&6So gehts", "Bretter und Redstone in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Strom baust du eigene Melodien."]
 			id: "04227A067E0FC49C"
 			title: "Notenblock"
-			rewards: [{ id: "888352CB848179B2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "E3FEC2990BAE44ED", type: "item", item: { id: "minecraft:note_block", count: 1 }, count: 1L }]
+			rewards: [{ id: "352A016FA9186FFF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "59E8F024667C2818", type: "item", item: { id: "minecraft:note_block", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 5.50d
 		}
@@ -1716,26 +1716,26 @@
 			dependencies: ["0437F056B93FD8D9"]
 			description: ["&6Was ist das?", "Ein Fass fasst Vorräte platzsparend.", "", "&6So gehts", "Bretter und Holzplatten in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch neben dem Ofen als Lager."]
 			hide_dependency_lines: true
-			id: "CD9CCC0EC960974A"
+			id: "03185179B2908973"
 			title: "Lagerfass"
 			rewards: [{ id: "2613673C97332E8A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F20B382AA3E0C510", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
+			tasks: [{ id: "1253F8CA15B5C772", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 13.50d
 		}
 		{
 			dependencies: ["0B5C7FA60D9861DE"]
 			description: ["&6Was ist das?", "Gibt Signal, wenn ein Pfeil trifft.", "", "&6So gehts", "Redstone und Heu in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Ideal für Zielscheiben und Fallen."]
-			id: "D79552C8B506151C"
+			id: "6E563307341EC5F2"
 			title: "Zielblock"
-			rewards: [{ id: "CDA09BAC191583AB", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "210226F9F33062F0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4786D639E95C4BE1", type: "item", item: { id: "minecraft:target", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 6.75d
 		}
 		{
 			description: ["&6Abschnitt", "Redstone"]
-			id: "99F9825EC4A6775D"
+			id: "588ACD3EE1C99447"
 			title: "Redstone"
 			optional: true
 			tasks: [{ id: "665FFC426A6AA8AA", type: "checkmark" }]
@@ -1748,14 +1748,14 @@
 			id: "51BD8805351DA6E9"
 			title: "Werkzeug und Ausbau"
 			optional: true
-			tasks: [{ id: "C5B7E7E1DEB172BD", type: "checkmark" }]
+			tasks: [{ id: "605192C5EAB07065", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 12.25d
 		}
 		{
 			description: ["&6Abschnitt", "Arsenal Waffen und Rüstung"]
-			id: "C8321B1819746A42"
+			id: "5823885926B54EA5"
 			title: "Arsenal Waffen und Rüstung"
 			optional: true
 			tasks: [{ id: "4FB146A3AB7C6797", type: "checkmark" }]
@@ -1765,7 +1765,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Dungeons und Erkundung"]
-			id: "F3DA41348EA1ECB2"
+			id: "5AE540F38397F31C"
 			title: "Dungeons und Erkundung"
 			optional: true
 			tasks: [{ id: "38D1789215E0EF01", type: "checkmark" }]
@@ -1778,7 +1778,7 @@
 			id: "31E8C90EB81DE455"
 			title: "Reisen und Waypoints"
 			optional: true
-			tasks: [{ id: "9D4C145A42C9A6A6", type: "checkmark" }]
+			tasks: [{ id: "16FE4EEACA065B60", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 30.62d
@@ -1788,7 +1788,7 @@
 			id: "4987C18126DDC53B"
 			title: "Lager und Kisten"
 			optional: true
-			tasks: [{ id: "A400B4DA83929923", type: "checkmark" }]
+			tasks: [{ id: "158B55B3E3DF7DF7", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 33.62d
@@ -1808,7 +1808,7 @@
 			id: "0AFCE31BE33FB530"
 			title: "Dorf und Biome"
 			optional: true
-			tasks: [{ id: "87300766E2E5F395", type: "checkmark" }]
+			tasks: [{ id: "52B33758DC510187", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 40.88d
@@ -1818,7 +1818,7 @@
 			id: "654719D02E16F370"
 			title: "Eisen-Waffen"
 			optional: true
-			tasks: [{ id: "DE69B800ADD861EA", type: "checkmark" }]
+			tasks: [{ id: "65669721A74B2773", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 45.12d

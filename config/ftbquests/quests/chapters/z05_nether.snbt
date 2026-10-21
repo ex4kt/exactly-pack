@@ -399,7 +399,7 @@
 			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "1F7C16EE6236AB7A"
 			title: "Zeitalter: Magie-Zeitalter"
-			rewards: [{ id: "9A436BA3E27E22F2", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "7FE158C50661DC5B", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "18204CC3C7732B14", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
@@ -674,9 +674,9 @@
 		{
 			dependencies: ["7D49D31EE0C23921"]
 			description: ["&6Was ist das?", "Das seltenste Erz im Nether.", "", "&6So gehts", "Suche tief im Nether (Höhe etwa 15) und baue es mit Diamantspitzhacke ab.", "", "&6Wofür ist das wichtig?", "Daraus wird Netherit, das stärkste Material."]
-			id: "AFF42712A33E4C8B"
+			id: "7D56DF07A0B48379"
 			title: "Antiker Schutt"
-			rewards: [{ id: "DF37C65E8CE1554B", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "042FC70F9685CAAB", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7212F8CE6FB2F3E7", type: "item", item: { id: "minecraft:ancient_debris", count: 1 }, count: 2L }]
 			x: 4.50d
 			y: -0.75d
@@ -687,7 +687,7 @@
 			id: "3B052BB24A4E70D0"
 			title: "Flammenpulver"
 			rewards: [{ id: "57B939FED9F0CD7B", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "D9FE123F6652ACBC", type: "item", item: { id: "minecraft:blaze_powder", count: 1 }, count: 4L }]
+			tasks: [{ id: "644FE81C2A0CE19D", type: "item", item: { id: "minecraft:blaze_powder", count: 1 }, count: 4L }]
 			x: 10.50d
 			y: 0.50d
 		}
@@ -697,7 +697,7 @@
 			id: "5B9792077BA4CE89"
 			title: "Magmablock"
 			rewards: [{ id: "38EBE89B56056A5E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "EAE966D6905723CA", type: "item", item: { id: "minecraft:magma_block", count: 1 }, count: 4L }]
+			tasks: [{ id: "4CD6AC3EA0A89CBA", type: "item", item: { id: "minecraft:magma_block", count: 1 }, count: 4L }]
 			x: 16.50d
 			y: 1.75d
 		}
@@ -706,24 +706,24 @@
 			description: ["&6Was ist das?", "Dunkler Stein, der im Nether vorkommt.", "", "&6So gehts", "Baue ihn in den Basaltdeltas und Bastionen ab.", "", "&6Wofür ist das wichtig?", "Tolles Baumaterial mit düsterem Look."]
 			id: "5FD4F6A3C2E90492"
 			title: "Schwarzstein"
-			rewards: [{ id: "97E302794DC01887", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "592B1FC4CADA8804", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2ABF7E203F68F98D", type: "item", item: { id: "minecraft:blackstone", count: 1 }, count: 16L }]
 			x: 4.50d
 			y: -2.00d
 		}
 		{
-			dependencies: ["AFF42712A33E4C8B"]
+			dependencies: ["7D56DF07A0B48379"]
 			description: ["&6Was ist das?", "Neun Goldbarren werden zu einem Block.", "", "&6So gehts", "Neun Goldbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Piglins lieben Gold, ein Block ist auch schöne Deko."]
 			id: "10CF38D7BBF7F5BC"
 			title: "Gold-Block"
 			rewards: [{ id: "6B16A0A56A005C78", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9C012AB6267DF1B0", type: "item", item: { id: "minecraft:gold_block", count: 1 }, count: 1L }]
+			tasks: [{ id: "633FDC6AF6827CD2", type: "item", item: { id: "minecraft:gold_block", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: -0.75d
 		}
 		{
 			description: ["&6Abschnitt", "Nether-Waffen und Schilde"]
-			id: "DEFB89CE629C7908"
+			id: "3BBF239DD7C73C68"
 			title: "Nether-Waffen und Schilde"
 			optional: true
 			tasks: [{ id: "0458A0D2C1D5EEB6", type: "checkmark" }]
@@ -733,7 +733,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Bogen und Armbrüste"]
-			id: "E4C79572308F549D"
+			id: "72D3D7D342F78C64"
 			title: "Bogen und Armbrüste"
 			optional: true
 			tasks: [{ id: "6E74423489FD7784", type: "checkmark" }]
@@ -743,7 +743,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Nether-Bosse"]
-			id: "DB855F9AD9FA4A49"
+			id: "22AE9A9292EA7AF1"
 			title: "Nether-Bosse"
 			optional: true
 			tasks: [{ id: "05806EC76B7D91ED", type: "checkmark" }]
@@ -753,7 +753,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Piglins und Handel"]
-			id: "F9806B33196F7566"
+			id: "1A59D0677F781616"
 			title: "Piglins und Handel"
 			optional: true
 			tasks: [{ id: "09CCF854ED7E3E8D", type: "checkmark" }]
@@ -763,7 +763,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Technik"]
-			id: "919CBC97ACA7A3BC"
+			id: "2F86D9D9077911AB"
 			title: "Technik"
 			optional: true
 			tasks: [{ id: "2EF3FB108FA00CBA", type: "checkmark" }]
@@ -773,7 +773,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Bau und Anbau"]
-			id: "BE127314860DFE3C"
+			id: "12123553CC9A046F"
 			title: "Bau und Anbau"
 			optional: true
 			tasks: [{ id: "69EF91ECBDA129FC", type: "checkmark" }]
@@ -783,10 +783,10 @@
 		}
 		{
 			description: ["&6Abschnitt", "Netherit-Waffen"]
-			id: "FE1B1A58DCB8E2D7"
+			id: "68D28BD292EDDB4C"
 			title: "Netherit-Waffen"
 			optional: true
-			tasks: [{ id: "A05411DF2ACF79F2", type: "checkmark" }]
+			tasks: [{ id: "42E935002B0DCC9A", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 27.75d

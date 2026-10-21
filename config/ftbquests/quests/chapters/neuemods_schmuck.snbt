@@ -11,18 +11,18 @@
 		{
 			description: ["&6Was ist das?", "Ein Kapitel für Gurte, Ringe, Herzen und magischen Schmuck. Sie passen zu den Zeitaltern: bessere Stufen schaltest du später frei.", "", "&6So gehts", "Alles hier ist freiwillig. Jede Linie ist ein Zweig, arbeite sie von links nach rechts ab.", "", "&6Wofür ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
 			icon: { id: "travelertoolbelt:belt" }
-			id: "C5B9B217E0885C4D"
+			id: "461CAEDC1E79718C"
 			title: "Schmuck und Zubehör"
 			rewards: []
-			tasks: [{ id: "C32513DE1621CA4D", type: "checkmark" }]
+			tasks: [{ id: "60B48D81CC583CC1", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["C5B9B217E0885C4D"]
+			dependencies: ["461CAEDC1E79718C"]
 			description: ["&6Was ist das?", "Der Traveler Tool Belt ist ein Gurt, an dem du Werkzeuge getrennt vom Inventar mitführst.", "", "&6So gehts", "Rezept in JEI nachschlagen. Mit der Taste R öffnest du das Auswahlrad.", "", "&6Wofür ist das wichtig?", "Du wechselst mit einem Tastendruck zwischen Hacke, Axt, Schwert und mehr."]
 			icon: { id: "travelertoolbelt:belt" }
-			id: "8EB494C48CBC5A1D"
+			id: "32DC1D3AC5759026"
 			title: "Werkzeuggurt"
 			rewards: [{ id: "1580A8D72BCE79BF", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "4B66D76835AC1102", type: "item", item: { id: "travelertoolbelt:belt", count: 1 }, count: 1L }]
@@ -30,13 +30,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["8EB494C48CBC5A1D", "32D7C0032123B540"]
+			dependencies: ["32DC1D3AC5759026", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Eine bessere Stufe des Gurtes mit mehr Platz.", "", "&6So gehts", "Im Handwerkstisch mit Kupfer aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Werkzeuge griffbereit. Von Anfang an frei."]
 			icon: { id: "travelertoolbelt:copper_belt" }
 			id: "5119BFBD4C881403"
 			title: "Kupfergurt"
 			rewards: [{ id: "11F4F277BEF317F4", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "92C5139010C9F7CC", type: "item", item: { id: "travelertoolbelt:copper_belt", count: 1 }, count: 1L }]
+			tasks: [{ id: "6271E33B8FC62ADC", type: "item", item: { id: "travelertoolbelt:copper_belt", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 0.0d
 		}
@@ -46,7 +46,7 @@
 			icon: { id: "travelertoolbelt:iron_belt" }
 			id: "00D61CB6B59E304F"
 			title: "Eisengurt"
-			rewards: [{ id: "D641812DFCF130C1", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "5CABD8D4451A7969", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1199882FDF50B161", type: "item", item: { id: "travelertoolbelt:iron_belt", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 0.0d
@@ -66,40 +66,40 @@
 			dependencies: ["57CD98C65F1CE409", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Der Diamantgurt fasst viel Werkzeug.", "", "&6So gehts", "Im Handwerkstisch mit Diamant aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "travelertoolbelt:diamond_belt" }
-			id: "A027A6C2EE15C1A4"
+			id: "73B6D112677CFBB8"
 			title: "Diamantgurt"
 			rewards: [{ id: "4C66517DFA0A28CD", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "DAE8DA9D8F3A4CA3", type: "item", item: { id: "travelertoolbelt:diamond_belt", count: 1 }, count: 1L }]
+			tasks: [{ id: "62963E82662CA72E", type: "item", item: { id: "travelertoolbelt:diamond_belt", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A027A6C2EE15C1A4", "4EA7B6B983C1C0EE"]
+			dependencies: ["73B6D112677CFBB8", "4EA7B6B983C1C0EE"]
 			description: ["&6Was ist das?", "Die höchste Stufe mit allen Plätzen.", "", "&6So gehts", "Im Schmiedetisch mit Netherite aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
 			icon: { id: "travelertoolbelt:netherite_belt" }
 			id: "171B7AC27318CD82"
 			title: "Netheritgurt"
 			rewards: [{ id: "34623CFEE927ACB3", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "CD2DFB87F987AB97", type: "item", item: { id: "travelertoolbelt:netherite_belt", count: 1 }, count: 1L }]
+			tasks: [{ id: "4F03699B5461B285", type: "item", item: { id: "travelertoolbelt:netherite_belt", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["C5B9B217E0885C4D"]
+			dependencies: ["461CAEDC1E79718C"]
 			description: ["&6Was ist das?", "Potion Rings Reforged bringt Ringe, die einen Trank-Effekt geben, solange du sie trägst.", "", "&6So gehts", "Der Grundring ist der Ausgangspunkt, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mit einem Ring hast du dauerhaft einen Effekt, ohne Tränke zu trinken."]
 			icon: { id: "potionring:potion_ring" }
-			id: "EB1C230D3D063DA9"
+			id: "6968676EF43A092C"
 			title: "Trankring"
-			rewards: [{ id: "B21E2D154FF619ED", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "289E4C6CA6FB2999", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5E31D4C9EF685054", type: "item", item: { id: "potionring:potion_ring", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["EB1C230D3D063DA9", "383D2644464FE272"]
+			dependencies: ["6968676EF43A092C", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Ein Ring, der dich schneller macht.", "", "&6So gehts", "Rezept in JEI nachschlagen und im Accessoires-Menü anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet in der Eisenzeit."]
 			icon: { id: "potionring:ring_of_speed" }
-			id: "D846B457CB58CD1C"
+			id: "40908822AC7080CD"
 			title: "Ring der Geschwindigkeit"
 			rewards: [{ id: "463B40833EE84B59", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "306F416619724A27", type: "item", item: { id: "potionring:ring_of_speed", count: 1 }, count: 1L }]
@@ -107,24 +107,24 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["D846B457CB58CD1C", "32D7C0032123B540"]
+			dependencies: ["40908822AC7080CD", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Ein Ring, der gegen Feuer und Lava schützt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter. Hilfreich im Nether."]
 			icon: { id: "potionring:ring_of_fire_resistance" }
-			id: "F80EACE99047D970"
+			id: "06326E9F4DA7ADC0"
 			title: "Ring der Feuerresistenz"
-			rewards: [{ id: "BA142AB1A1FA96A4", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "0186F1C27341050C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "4EE92D4A72D127E3", type: "item", item: { id: "potionring:ring_of_fire_resistance", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["F80EACE99047D970", "32D7C0032123B540"]
+			dependencies: ["06326E9F4DA7ADC0", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Ein Ring, der Leben regeneriert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "potionring:ring_of_regeneration" }
 			id: "740D6D5E8624A9F8"
 			title: "Ring der Regeneration"
 			rewards: [{ id: "41ACC0B01BF84D38", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C1718CF8E1A31758", type: "item", item: { id: "potionring:ring_of_regeneration", count: 1 }, count: 1L }]
+			tasks: [{ id: "179EED864A543F43", type: "item", item: { id: "potionring:ring_of_regeneration", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 2.0d
 		}
@@ -132,40 +132,40 @@
 			dependencies: ["740D6D5E8624A9F8", "388349920682B0BC"]
 			description: ["&6Was ist das?", "Ein Ring, der dich schweben lässt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Zeitalter der Welten."]
 			icon: { id: "potionring:ring_of_levitation" }
-			id: "E3A7A84A7BBA4E1B"
+			id: "7A0BAEB83556C5A4"
 			title: "Ring der Levitation"
-			rewards: [{ id: "AF71759D3283C53D", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "0035AB7FBF767E71", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "51000942F93D5686", type: "item", item: { id: "potionring:ring_of_levitation", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["E3A7A84A7BBA4E1B", "1F7C16EE6236AB7A"]
+			dependencies: ["7A0BAEB83556C5A4", "1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Ein Ring, der deine Körpergröße verändert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "potionring:ring_of_growing" }
 			id: "187F6EB35CBE5F33"
 			title: "Ring des Wachsens"
 			rewards: [{ id: "1216DFFBB04952FE", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "DC3C9DF9265C4846", type: "item", item: { id: "potionring:ring_of_growing", count: 1 }, count: 1L }]
+			tasks: [{ id: "4312CF3433C502A9", type: "item", item: { id: "potionring:ring_of_growing", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["C5B9B217E0885C4D", "383D2644464FE272"]
+			dependencies: ["461CAEDC1E79718C", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Baubley Heart Canisters bringt Herzen, die dein maximales Leben erhöhen. Rote Herzen lassen feindliche Kreaturen fallen.", "", "&6So gehts", "Feindliche Kreaturen besiegen, Herz aufsammeln.", "", "&6Wofür ist das wichtig?", "Der Anfang jeder Herz-Stufe."]
 			icon: { id: "bhc:red_heart" }
-			id: "C82F07913289E8B9"
+			id: "52FE96A51038C24D"
 			title: "Rotes Herz"
-			rewards: [{ id: "A43681CA49799B23", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "92D3093888736692", type: "item", item: { id: "bhc:red_heart", count: 1 }, count: 1L }]
+			rewards: [{ id: "1E47D1A869102518", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "1DBD536ACA52C390", type: "item", item: { id: "bhc:red_heart", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["C82F07913289E8B9", "383D2644464FE272"]
+			dependencies: ["52FE96A51038C24D", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Aus Herzen entsteht ein Behälter, den du benutzt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Dauerhaft mehr Leben. Freigeschaltet in der Eisenzeit."]
 			icon: { id: "bhc:red_heart_canister" }
-			id: "B2EB5D246B746C63"
+			id: "3FA1DF778AB73210"
 			title: "Rotes Herz-Behälter"
 			rewards: [{ id: "47ACFEECD69C961D", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "4987EE866525FF43", type: "item", item: { id: "bhc:red_heart_canister", count: 1 }, count: 1L }]
@@ -173,24 +173,24 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["B2EB5D246B746C63", "3289CBE6B6A936DA"]
+			dependencies: ["3FA1DF778AB73210", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Die nächste Stufe, aus Herzen von Bossen wie dem Wither.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Noch mehr Leben. Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "bhc:yellow_heart_canister" }
-			id: "86182F521C57552C"
+			id: "33E76E874C68EA7F"
 			title: "Gelbes Herz-Behälter"
-			rewards: [{ id: "80B43DB20417281F", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "14D6F274E2BBB972", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "15ECD075FCD06EF8", type: "item", item: { id: "bhc:yellow_heart_canister", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["86182F521C57552C", "32D7C0032123B540"]
+			dependencies: ["33E76E874C68EA7F", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Das Amulett nimmt Herz-Behälter auf.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "bhc:heart_amulet" }
 			id: "42849D5773829726"
 			title: "Herz-Amulett"
 			rewards: [{ id: "39E5C1D257BF1F1E", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "F4F32E43E2613D95", type: "item", item: { id: "bhc:heart_amulet", count: 1 }, count: 1L }]
+			tasks: [{ id: "602C3CCA83B93DDB", type: "item", item: { id: "bhc:heart_amulet", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 4.0d
 		}
@@ -198,32 +198,32 @@
 			dependencies: ["42849D5773829726", "61920C28D0F155A0"]
 			description: ["&6Was ist das?", "Aus den Herzen des Enderdrachen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im End-Zeitalter."]
 			icon: { id: "bhc:green_heart_canister" }
-			id: "EE0786A4BB7EE189"
+			id: "68C45B3916138001"
 			title: "Grünes Herz-Behälter"
 			rewards: [{ id: "100504BA3D03AD4C", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C860443D694460B9", type: "item", item: { id: "bhc:green_heart_canister", count: 1 }, count: 1L }]
+			tasks: [{ id: "0C7BD975E7E67E5F", type: "item", item: { id: "bhc:green_heart_canister", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["EE0786A4BB7EE189", "4EA7B6B983C1C0EE"]
+			dependencies: ["68C45B3916138001", "4EA7B6B983C1C0EE"]
 			description: ["&6Was ist das?", "Die höchste Stufe, aus Herzen von Wächtern.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
 			icon: { id: "bhc:blue_heart_canister" }
-			id: "C2C4C28E28FE140A"
+			id: "4B27813F7C427B89"
 			title: "Blaues Herz-Behälter"
-			rewards: [{ id: "BB9DCA2AB8505792", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1C2A3085AC571A5B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "26634B13AAFFD3CA", type: "item", item: { id: "bhc:blue_heart_canister", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["C5B9B217E0885C4D", "1F7C16EE6236AB7A"]
+			dependencies: ["461CAEDC1E79718C", "1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Die Kette verwandelt dich im Wasser in eine Meerjungfrau (Mermod).", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Du schwimmst und siehst unter Wasser besser. Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "mermod:sea_necklace" }
 			id: "27352E7ACC998CFA"
 			title: "Seekette"
-			rewards: [{ id: "C776587A3851240C", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "90E6A0E49D61213F", type: "item", item: { id: "mermod:sea_necklace", count: 1 }, count: 1L }]
+			rewards: [{ id: "3D02F3890798C161", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "18FBD05386DFD192", type: "item", item: { id: "mermod:sea_necklace", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -233,7 +233,7 @@
 			icon: { id: "trinketsandbaubles:elves_ring" }
 			id: "6CBF464813DFEC6A"
 			title: "Elfenring"
-			rewards: [{ id: "A6F90B40BD812A48", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "36914CF7C3FB80A7", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "429DCC59E50098C8", type: "item", item: { id: "trinketsandbaubles:elves_ring", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 6.0d
@@ -242,7 +242,7 @@
 			dependencies: ["6CBF464813DFEC6A", "1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Ein Ring mit Zwergen-Kräften.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:dwarves_ring" }
-			id: "C56D9DAA55D757F3"
+			id: "0DB727820709BFD7"
 			title: "Zwergenring"
 			rewards: [{ id: "437952BC1C4FF6E0", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2173D89CFC7AE0BA", type: "item", item: { id: "trinketsandbaubles:dwarves_ring", count: 1 }, count: 1L }]
@@ -250,24 +250,24 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["C56D9DAA55D757F3", "1F7C16EE6236AB7A"]
+			dependencies: ["0DB727820709BFD7", "1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Ein Stein, der dich leichter macht.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:weightless_stone" }
-			id: "FD4BDCFADB54ED34"
+			id: "2D6EB82D94B4FA6D"
 			title: "Stein der Schwerelosigkeit"
 			rewards: [{ id: "7F581D208EA46CA7", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "FDBB14F6C6DC882E", type: "item", item: { id: "trinketsandbaubles:weightless_stone", count: 1 }, count: 1L }]
+			tasks: [{ id: "7F70CD5589251D54", type: "item", item: { id: "trinketsandbaubles:weightless_stone", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["FD4BDCFADB54ED34", "1F7C16EE6236AB7A"]
+			dependencies: ["2D6EB82D94B4FA6D", "1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Ein Stein, der Gegenstände anzieht oder abstößt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Praktisch zum Einsammeln von Beute. Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "trinketsandbaubles:polarized_stone" }
-			id: "9F726051B4BBAAAE"
+			id: "1D0F42FF042B6C1F"
 			title: "Magnetstein"
-			rewards: [{ id: "C232F5604F70E0E8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "80A5EDE4D522FE1D", type: "item", item: { id: "trinketsandbaubles:polarized_stone", count: 1 }, count: 1L }]
+			rewards: [{ id: "3F60FF672313F011", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6D3B3E7B038DF667", type: "item", item: { id: "trinketsandbaubles:polarized_stone", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 6.0d
 		}

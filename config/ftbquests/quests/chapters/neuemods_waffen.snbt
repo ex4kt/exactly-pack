@@ -14,7 +14,7 @@
 			id: "4DDCE2A848B64EE7"
 			title: "Schusswaffen"
 			rewards: []
-			tasks: [{ id: "92112A16E0A3E604", type: "checkmark" }]
+			tasks: [{ id: "205E8B02DD7D9BE8", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -24,7 +24,7 @@
 			icon: { id: "irons_artifice:blackpowder" }
 			id: "15748EA251FBD62B"
 			title: "Schwarzpulver"
-			rewards: [{ id: "965A21A30D51FE03", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "4F8424B46A5F3839", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "109B5D115D196CE4", type: "item", item: { id: "irons_artifice:blackpowder", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 0.0d
@@ -33,32 +33,32 @@
 			dependencies: ["15748EA251FBD62B", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Mechanische Bauteile sind das Herz jeder Waffe.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Aus ihnen entstehen Muskete und Donnerbüchse."]
 			icon: { id: "irons_artifice:simple_mechanical_components" }
-			id: "BFC492E31E950EAC"
+			id: "26E0A47D1F24DA78"
 			title: "Einfache Bauteile"
-			rewards: [{ id: "BBA05FB218CB88C9", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "646615A40B83B369", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "10F8B90DA43B85AF", type: "item", item: { id: "irons_artifice:simple_mechanical_components", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["BFC492E31E950EAC", "383D2644464FE272"]
+			dependencies: ["26E0A47D1F24DA78", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Die nächste Stufe der Bauteile.", "", "&6So gehts", "Einfache Bauteile mit Eisen, Ketten und Redstone verbinden.", "", "&6Wofür ist das wichtig?", "Für Revolver und Uhrwerk-Bauteile."]
 			icon: { id: "irons_artifice:mechanical_components" }
-			id: "D5FF659682FCEEA4"
+			id: "07243CA43776E5DE"
 			title: "Mechanische Bauteile"
 			rewards: [{ id: "491CB53F3F4BF62F", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "839B72DFA579F6DA", type: "item", item: { id: "irons_artifice:mechanical_components", count: 1 }, count: 1L }]
+			tasks: [{ id: "6D2ED13B3D7C1A70", type: "item", item: { id: "irons_artifice:mechanical_components", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D5FF659682FCEEA4", "3289CBE6B6A936DA"]
+			dependencies: ["07243CA43776E5DE", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Die feinsten Bauteile, mit Gold gefertigt.", "", "&6So gehts", "Mechanische Bauteile mit Gold und Redstone kombinieren.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter. Nötig für Arkebuse und Uhrwerk-Gewehr."]
 			icon: { id: "irons_artifice:clockwork_components" }
-			id: "C01134D682F39ADF"
+			id: "616E553175523C4E"
 			title: "Uhrwerk-Bauteile"
 			rewards: [{ id: "43C5766BE4E6D9A9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B040DA459E525BAA", type: "item", item: { id: "irons_artifice:clockwork_components", count: 1 }, count: 1L }]
+			tasks: [{ id: "461790A783667A9B", type: "item", item: { id: "irons_artifice:clockwork_components", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 0.0d
 		}
@@ -68,7 +68,7 @@
 			icon: { id: "irons_artifice:flintlock" }
 			id: "544B72A302A4853A"
 			title: "Steinschlosspistole"
-			rewards: [{ id: "AD8329367D016B35", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "53944785876E01D7", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5462BF23125BE216", type: "item", item: { id: "irons_artifice:flintlock", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 2.0d
@@ -80,7 +80,7 @@
 			id: "5737614F7F609207"
 			title: "Muskete"
 			rewards: [{ id: "2652E1F91B474C08", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "D14EA3BD8A091FAB", type: "item", item: { id: "irons_artifice:musket", count: 1 }, count: 1L }]
+			tasks: [{ id: "782AD7F236C0D8B6", type: "item", item: { id: "irons_artifice:musket", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 2.0d
 		}
@@ -88,53 +88,53 @@
 			dependencies: ["5737614F7F609207", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Eine Schrotflinte aus alter Zeit.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Stark auf kurze Distanz."]
 			icon: { id: "irons_artifice:blunderbuss" }
-			id: "CCAFBE323B1DDF12"
+			id: "5BC91A09D8983D16"
 			title: "Donnerbüchse"
-			rewards: [{ id: "B8545D794EB9CF6A", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "0467A649CAE6A5AC", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "083ABD4A124B39D4", type: "item", item: { id: "irons_artifice:blunderbuss", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["CCAFBE323B1DDF12", "3289CBE6B6A936DA"]
+			dependencies: ["5BC91A09D8983D16", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Ein Revolver mit mehreren Kammern.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Schnell nachladbar. Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "irons_artifice:blackpowder_revolver" }
-			id: "E6B1BE8DD42682C3"
+			id: "4C43C3A73F4C800C"
 			title: "Revolver"
-			rewards: [{ id: "EA11EBEC82958B98", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "ACFA857B70AAC237", type: "item", item: { id: "irons_artifice:blackpowder_revolver", count: 1 }, count: 1L }]
+			rewards: [{ id: "48ED354B9C4F1542", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "0C99FA53B02D7453", type: "item", item: { id: "irons_artifice:blackpowder_revolver", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["E6B1BE8DD42682C3", "3289CBE6B6A936DA"]
+			dependencies: ["4C43C3A73F4C800C", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Der klassische Sechsschüsser.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Sechs Schuss, ohne Pulver im Rezept."]
 			icon: { id: "irons_artifice:six_shooter" }
-			id: "AD9E737AD3E13FB9"
+			id: "4FCEC771EE791BA6"
 			title: "Sechsschüsser"
 			rewards: [{ id: "1A4B226D64C6AA14", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "ED6C32BA0B26FA9E", type: "item", item: { id: "irons_artifice:six_shooter", count: 1 }, count: 1L }]
+			tasks: [{ id: "5C58BD749EEF2A61", type: "item", item: { id: "irons_artifice:six_shooter", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AD9E737AD3E13FB9", "3289CBE6B6A936DA"]
+			dependencies: ["4FCEC771EE791BA6", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Eine schwere Waffe mit Uhrwerk.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Viel Schaden, langsam. Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "irons_artifice:arquebus" }
-			id: "8DC8C8679BEA5B79"
+			id: "12334266F199E4EA"
 			title: "Arkebuse"
 			rewards: [{ id: "21E8FD25FAB548D0", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C95C3F1135EF50CB", type: "item", item: { id: "irons_artifice:arquebus", count: 1 }, count: 1L }]
+			tasks: [{ id: "46BC6780CDF4776F", type: "item", item: { id: "irons_artifice:arquebus", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["8DC8C8679BEA5B79", "4EA7B6B983C1C0EE"]
+			dependencies: ["12334266F199E4EA", "4EA7B6B983C1C0EE"]
 			description: ["&6Was ist das?", "Das beste Gewehr, mit Netherite gebaut.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
 			icon: { id: "irons_artifice:clockwork_rifle" }
-			id: "843D0B7812EFA79A"
+			id: "3DC6B70A021C8DCC"
 			title: "Uhrwerk-Gewehr"
-			rewards: [{ id: "875E74E7B2202DB0", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "745646531263096F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1DE5EE3FBE5B75AE", type: "item", item: { id: "irons_artifice:clockwork_rifle", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 2.0d
@@ -143,20 +143,20 @@
 			dependencies: ["4DDCE2A848B64EE7", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Die Munition für alle Waffen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Ohne Kugeln schießt nichts."]
 			icon: { id: "irons_artifice:bullet" }
-			id: "8DFCB2A4A2B359D3"
+			id: "2C5335820FC2AC2F"
 			title: "Kugel"
-			rewards: [{ id: "A6700AD05ABD7F5D", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "9CF41B3B166B5867", type: "item", item: { id: "irons_artifice:bullet", count: 1 }, count: 1L }]
+			rewards: [{ id: "7B4A3404915DD0D9", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "4C2D670723E0DF65", type: "item", item: { id: "irons_artifice:bullet", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["8DFCB2A4A2B359D3", "383D2644464FE272"]
+			dependencies: ["2C5335820FC2AC2F", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Eine Kiste, die Kugeln aufbewahrt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Hält dich mit Munition versorgt."]
 			icon: { id: "irons_artifice:bullet_box" }
 			id: "4D61EE1103471B0F"
 			title: "Kugelkiste"
-			rewards: [{ id: "FD57B8871BCC7D23", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "2599919BA262A1F5", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "68D89E6DA0EB4CA1", type: "item", item: { id: "irons_artifice:bullet_box", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 4.0d
@@ -167,8 +167,8 @@
 			icon: { id: "irons_artifice:scope_attachment_modifier" }
 			id: "0E832FE75965C19A"
 			title: "Zielfernrohr"
-			rewards: [{ id: "E28577203C2848FD", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "A6715E852485D38D", type: "item", item: { id: "irons_artifice:scope_attachment_modifier", count: 1 }, count: 1L }]
+			rewards: [{ id: "6B621D5C40E08C57", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "7B9EAF9B69CFF02C", type: "item", item: { id: "irons_artifice:scope_attachment_modifier", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 4.0d
 		}
@@ -176,21 +176,21 @@
 			dependencies: ["0E832FE75965C19A", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Der Dämpfer macht Schüsse leiser.", "", "&6So gehts", "Wie das Zielfernrohr anwenden.", "", "&6Wofür ist das wichtig?", "Gut zum Anschleichen."]
 			icon: { id: "irons_artifice:suppressor_attachment_modifier" }
-			id: "B1F68EDF330E7A1B"
+			id: "12056E8FC2FF952F"
 			title: "Schalldämpfer"
-			rewards: [{ id: "A1D28772FB89E3E7", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "CDF07ACAAE194465", type: "item", item: { id: "irons_artifice:suppressor_attachment_modifier", count: 1 }, count: 1L }]
+			rewards: [{ id: "1A7015AB73FED3BC", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "7F60F897F1518900", type: "item", item: { id: "irons_artifice:suppressor_attachment_modifier", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["B1F68EDF330E7A1B", "32D7C0032123B540"]
+			dependencies: ["12056E8FC2FF952F", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Die Kugel setzt Ziele in Brand.", "", "&6So gehts", "Wie das Zielfernrohr anwenden.", "", "&6Wofür ist das wichtig?", "Stark gegen Gegner, die kein Feuer vertragen."]
 			icon: { id: "irons_artifice:incendiary_tip_modifier" }
 			id: "5B5D545656464E31"
 			title: "Brandspitze"
-			rewards: [{ id: "9998BFB6C1638BED", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "BE202804854F2D90", type: "item", item: { id: "irons_artifice:incendiary_tip_modifier", count: 1 }, count: 1L }]
+			rewards: [{ id: "0EE637CE12D9DCF6", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "23E7FB14A7D06F96", type: "item", item: { id: "irons_artifice:incendiary_tip_modifier", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 4.0d
 		}
@@ -198,21 +198,21 @@
 			dependencies: ["4DDCE2A848B64EE7", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Der Hut lädt deine Waffe nach einem Kill sofort nach.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufsetzen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "irons_artifice:cowboy_hat" }
-			id: "E6A9D6FB952EE96A"
+			id: "030CCE7A520E113E"
 			title: "Cowboyhut"
 			rewards: [{ id: "5C2089A7DAD905D4", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "99ED34F42228E9AF", type: "item", item: { id: "irons_artifice:cowboy_hat", count: 1 }, count: 1L }]
+			tasks: [{ id: "7A5834534438D7A7", type: "item", item: { id: "irons_artifice:cowboy_hat", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["E6A9D6FB952EE96A", "3289CBE6B6A936DA"]
+			dependencies: ["030CCE7A520E113E", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Der erste Schuss aus vollem Magazin macht mehr Schaden.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufsetzen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "irons_artifice:tricorne" }
 			id: "11D76550837502E5"
 			title: "Dreispitz"
 			rewards: [{ id: "23939DA872D0EA76", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "95C2A32D0F96C5B0", type: "item", item: { id: "irons_artifice:tricorne", count: 1 }, count: 1L }]
+			tasks: [{ id: "171283DD35B8A287", type: "item", item: { id: "irons_artifice:tricorne", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 6.0d
 		}

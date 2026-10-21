@@ -14,7 +14,7 @@
 			id: "757575AA84F88284"
 			title: "Abenteuer und Natur"
 			rewards: []
-			tasks: [{ id: "CC2B7ADDB05F4126", type: "checkmark" }]
+			tasks: [{ id: "087922CBB62B600B", type: "checkmark" }]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -33,15 +33,15 @@
 			dependencies: ["7507C9D2E0F549C7"]
 			description: ["&6Was ist das?", "Hier wertest du Funde aus.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Aus Scherben werden Artefakte."]
 			icon: { id: "betterarcheology:archeology_table" }
-			id: "D6257435B93383E0"
+			id: "4F5C5C128E16862D"
 			title: "Archäologietisch"
 			rewards: [{ id: "6FA911E13EF7C5CB", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "B5188DDB9110864A", type: "item", item: { id: "betterarcheology:archeology_table", count: 1 }, count: 1L }]
+			tasks: [{ id: "78B3C294209567AF", type: "item", item: { id: "betterarcheology:archeology_table", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D6257435B93383E0"]
+			dependencies: ["4F5C5C128E16862D"]
 			description: ["&6Was ist das?", "Scherben liegen in Ruinen unter dem Sand.", "", "&6So gehts", "Verdächtige Blöcke bürsten.", "", "&6Wofür ist das wichtig?", "Sie sind die Basis für Artefakte."]
 			icon: { id: "betterarcheology:artifact_shards" }
 			id: "724ABAC14246161E"
@@ -55,7 +55,7 @@
 			dependencies: ["724ABAC14246161E"]
 			description: ["&6Was ist das?", "Ein seltenes Fossil.", "", "&6So gehts", "In Fossilienerde graben.", "", "&6Wofür ist das wichtig?", "Ein schönes Ausstellungsstück."]
 			icon: { id: "betterarcheology:creeper_fossil" }
-			id: "D44B1597072E46DD"
+			id: "7E71C5555F96B223"
 			title: "Creeper-Fossil"
 			rewards: [{ id: "0AF5AD531F828CD4", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "72E9970A10BCB268", type: "item", item: { id: "betterarcheology:creeper_fossil", count: 1 }, count: 1L }]
@@ -77,7 +77,7 @@
 			dependencies: ["5BE8FF10AE69C5A7"]
 			description: ["&6Was ist das?", "Ein neues Metall.", "", "&6So gehts", "Palladiumerz abbauen und schmelzen.", "", "&6Wofür ist das wichtig?", "Für Werkzeuge und Bauteile."]
 			icon: { id: "galosphere:palladium_ingot" }
-			id: "FAD6D7BB51B1A602"
+			id: "24996576DD254CA9"
 			title: "Palladium"
 			rewards: [{ id: "1313E3790AD49E4D", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0C2F454D4F69EEB8", type: "item", item: { id: "galosphere:palladium_ingot", count: 1 }, count: 1L }]
@@ -85,24 +85,24 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["FAD6D7BB51B1A602"]
+			dependencies: ["24996576DD254CA9"]
 			description: ["&6Was ist das?", "Salzkristalle in den Höhlen.", "", "&6So gehts", "Rosa Salzcluster abbauen.", "", "&6Wofür ist das wichtig?", "Für Deko und Salzfleisch."]
 			icon: { id: "galosphere:pink_salt_shard" }
-			id: "F791747F4B4947D5"
+			id: "1B7AF18C5CBABD7D"
 			title: "Rosa Salz"
-			rewards: [{ id: "8C95FE7381410CF0", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "464B0A8A219D14FA", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "7C462D39DC372A4A", type: "item", item: { id: "galosphere:pink_salt_shard", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["F791747F4B4947D5"]
+			dependencies: ["1B7AF18C5CBABD7D"]
 			description: ["&6Was ist das?", "Ein Beutel für Erze.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Mehr Platz beim Höhlen."]
 			icon: { id: "galosphere:mining_pouch" }
 			id: "2D90DA462D9D8865"
 			title: "Bergbaubeutel"
 			rewards: [{ id: "19FD1BF61F29FD53", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "EBF105EB18B7CD1F", type: "item", item: { id: "galosphere:mining_pouch", count: 1 }, count: 1L }]
+			tasks: [{ id: "64043D8BD99F61A6", type: "item", item: { id: "galosphere:mining_pouch", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 2.0d
 		}
@@ -121,10 +121,10 @@
 			dependencies: ["54F844CD61C34428"]
 			description: ["&6Was ist das?", "Haltbares Fleisch.", "", "&6So gehts", "Mit Salz herstellen.", "", "&6Wofür ist das wichtig?", "Proviant für lange Höhlentouren."]
 			icon: { id: "galosphere:salted_jerky" }
-			id: "EE79A411FAB1E916"
+			id: "510BEDE2337D2EB8"
 			title: "Pökelfleisch"
-			rewards: [{ id: "F4DE21F45EF87339", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F8C7A70F9AAA9607", type: "item", item: { id: "galosphere:salted_jerky", count: 1 }, count: 1L }]
+			rewards: [{ id: "2F11A63B8D39C663", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "38320B06F2953886", type: "item", item: { id: "galosphere:salted_jerky", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 2.0d
 		}
@@ -134,8 +134,8 @@
 			icon: { id: "endermanoverhaul:enderman_tooth" }
 			id: "69FEA1FEAD24D2B0"
 			title: "Endermanzahn"
-			rewards: [{ id: "82ED6A1313DCCC41", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "98DCC05A020265BB", type: "item", item: { id: "endermanoverhaul:enderman_tooth", count: 1 }, count: 1L }]
+			rewards: [{ id: "121968EF959DF6DC", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "277CF1E564039685", type: "item", item: { id: "endermanoverhaul:enderman_tooth", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 4.0d
 		}
@@ -168,7 +168,7 @@
 			id: "5FF37E1DA8940479"
 			title: "Verderbte Klinge"
 			rewards: [{ id: "636443F7C08C1093", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B7CE8EC12998228B", type: "item", item: { id: "endermanoverhaul:corrupted_blade", count: 1 }, count: 1L }]
+			tasks: [{ id: "21D46021703C852A", type: "item", item: { id: "endermanoverhaul:corrupted_blade", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 4.0d
 		}
@@ -179,7 +179,7 @@
 			id: "0F82D70F1204DE4F"
 			title: "Seide"
 			rewards: [{ id: "0C3F5362EADB2B64", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "BEEFE392B2D233F6", type: "item", item: { id: "crittersandcompanions:silk", count: 1 }, count: 1L }]
+			tasks: [{ id: "7900950EDC739B2E", type: "item", item: { id: "crittersandcompanions:silk", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -187,7 +187,7 @@
 			dependencies: ["0F82D70F1204DE4F"]
 			description: ["&6Was ist das?", "Ein Haken zum Schwingen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Schnell über Schluchten."]
 			icon: { id: "crittersandcompanions:grappling_hook" }
-			id: "D40C21F8BD170755"
+			id: "1A82E8C869BE28D5"
 			title: "Enterhaken"
 			rewards: [{ id: "1500D3D8D9CB4557", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "458345E83E2DEBD9", type: "item", item: { id: "crittersandcompanions:grappling_hook", count: 1 }, count: 1L }]
@@ -195,7 +195,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["D40C21F8BD170755"]
+			dependencies: ["1A82E8C869BE28D5"]
 			description: ["&6Was ist das?", "Bunte Fische für den Teich.", "", "&6So gehts", "Im Wasser angeln.", "", "&6Wofür ist das wichtig?", "Hübsche Deko für den Garten."]
 			icon: { id: "crittersandcompanions:koi_fish" }
 			id: "2AE7C1A6591ECD65"
@@ -209,21 +209,21 @@
 			dependencies: ["2AE7C1A6591ECD65"]
 			description: ["&6Was ist das?", "Schmuck aus Perlen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Ein Geschenk an Tiere."]
 			icon: { id: "crittersandcompanions:pearl_necklace_1" }
-			id: "AAB3A8255BD8BD03"
+			id: "3E43DE2FE32BCF67"
 			title: "Perlenkette"
 			rewards: [{ id: "3C7C02E708886529", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C5DF7A9D60356403", type: "item", item: { id: "crittersandcompanions:pearl_necklace_1", count: 1 }, count: 1L }]
+			tasks: [{ id: "354EEB3ED90C1491", type: "item", item: { id: "crittersandcompanions:pearl_necklace_1", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["AAB3A8255BD8BD03"]
+			dependencies: ["3E43DE2FE32BCF67"]
 			description: ["&6Was ist das?", "Ribbits sind musikalische Frosch-Völker im Sumpf.", "", "&6So gehts", "Sumpfdorf finden.", "", "&6Wofür ist das wichtig?", "Eine schöne Deko-Pflanze."]
 			icon: { id: "ribbits:giant_lilypad" }
 			id: "66A0158B79523BD1"
 			title: "Schwimmblatt"
 			rewards: [{ id: "7C3788F905891F90", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "B0A22CA2E2ABCB77", type: "item", item: { id: "ribbits:giant_lilypad", count: 1 }, count: 1L }]
+			tasks: [{ id: "119D28069E4EDCC6", type: "item", item: { id: "ribbits:giant_lilypad", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 6.0d
 		}
@@ -231,7 +231,7 @@
 			dependencies: ["66A0158B79523BD1"]
 			description: ["&6Was ist das?", "Licht aus dem Sumpf.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Gemütliche Beleuchtung."]
 			icon: { id: "ribbits:swamp_lantern" }
-			id: "D315F8AF06CDE4A6"
+			id: "3C73C7F545366204"
 			title: "Sumpflaterne"
 			rewards: [{ id: "5CFBFD83C5837615", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4F79F19D3B8B3648", type: "item", item: { id: "ribbits:swamp_lantern", count: 1 }, count: 1L }]
@@ -244,7 +244,7 @@
 			icon: { id: "immersive_melodies:lute" }
 			id: "048085630CDB3F03"
 			title: "Laute"
-			rewards: [{ id: "D545041931F05848", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "7AAAD193F00B25AA", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2D36695A54E8A18A", type: "item", item: { id: "immersive_melodies:lute", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 8.0d
@@ -256,7 +256,7 @@
 			id: "5F0586672A61143B"
 			title: "Flöte"
 			rewards: [{ id: "0DBB3F694B1780F0", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "CF6F63E46217924A", type: "item", item: { id: "immersive_melodies:flute", count: 1 }, count: 1L }]
+			tasks: [{ id: "1D34FD801C02E19A", type: "item", item: { id: "immersive_melodies:flute", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 8.0d
 		}
@@ -264,18 +264,18 @@
 			dependencies: ["5F0586672A61143B"]
 			description: ["&6Was ist das?", "Ein Klavier für die Basis.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Für das Heimkino."]
 			icon: { id: "immersive_melodies:piano" }
-			id: "D24ED092CA2F6656"
+			id: "7BB86908B8FDA97C"
 			title: "Klavier"
-			rewards: [{ id: "B3195766CC9AF676", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "7DAA5D64874F55FF", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "7E2574741F843EA6", type: "item", item: { id: "immersive_melodies:piano", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["D24ED092CA2F6656"]
+			dependencies: ["7BB86908B8FDA97C"]
 			description: ["&6Was ist das?", "Iron Furnaces bringt schnellere Öfen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Spart Zeit beim Schmelzen."]
 			icon: { id: "ironfurnaces:iron_furnace" }
-			id: "B18F39DDD70CCD96"
+			id: "7D54B9C6D786787D"
 			title: "Eisenofen"
 			rewards: [{ id: "142C8825B0A0FAD8", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "209BDB28A238520C", type: "item", item: { id: "ironfurnaces:iron_furnace", count: 1 }, count: 1L }]
@@ -283,24 +283,24 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["B18F39DDD70CCD96"]
+			dependencies: ["7D54B9C6D786787D"]
 			description: ["&6Was ist das?", "Ein weiterer Ofen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Mehr Tempo."]
 			icon: { id: "ironfurnaces:copper_furnace" }
-			id: "C952A13D56699227"
+			id: "45DA4A5A5F17BAF4"
 			title: "Kupferofen"
-			rewards: [{ id: "BEE65F1A7AFF6828", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "5FFC896AD4FD035D", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "001311D757FFC2FB", type: "item", item: { id: "ironfurnaces:copper_furnace", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["C952A13D56699227"]
+			dependencies: ["45DA4A5A5F17BAF4"]
 			description: ["&6Was ist das?", "Ein schneller Ofen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Für große Mengen."]
 			icon: { id: "ironfurnaces:gold_furnace" }
 			id: "774C231BED95860A"
 			title: "Goldofen"
-			rewards: [{ id: "BFB05C45A7B00E95", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "83DAF8BD4085E29A", type: "item", item: { id: "ironfurnaces:gold_furnace", count: 1 }, count: 1L }]
+			rewards: [{ id: "7476B486F4A20BDD", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "2539B8426A8BE317", type: "item", item: { id: "ironfurnaces:gold_furnace", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 8.0d
 		}
@@ -310,7 +310,7 @@
 			icon: { id: "ironfurnaces:diamond_furnace" }
 			id: "1CFB625693C50E8F"
 			title: "Diamantofen"
-			rewards: [{ id: "F62E79B476E41670", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "502A6AE1F7E454C1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "658566B88041756E", type: "item", item: { id: "ironfurnaces:diamond_furnace", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 8.0d
@@ -332,8 +332,8 @@
 			icon: { id: "smallships:dockyard" }
 			id: "343F4F8987505D61"
 			title: "Werft"
-			rewards: [{ id: "A690A6F9D9A4180A", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "A6C3AB9695D4CFB1", type: "item", item: { id: "smallships:dockyard", count: 1 }, count: 1L }]
+			rewards: [{ id: "6FCA34ED89636140", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "3C771D6C6DD2844B", type: "item", item: { id: "smallships:dockyard", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 10.0d
 		}
@@ -341,21 +341,21 @@
 			dependencies: ["343F4F8987505D61"]
 			description: ["&6Was ist das?", "Ein Handelsschiff.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Viel Platz für Fracht."]
 			icon: { id: "smallships:oak_cog" }
-			id: "C7748555B1C08507"
+			id: "39AF0526F72845B7"
 			title: "Kogge"
-			rewards: [{ id: "92ED4CC007B00E78", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "F31E66445AF5C0B4", type: "item", item: { id: "smallships:oak_cog", count: 1 }, count: 1L }]
+			rewards: [{ id: "5090E99CB15F4ACD", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "173C4610772BF4CE", type: "item", item: { id: "smallships:oak_cog", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["C7748555B1C08507"]
+			dependencies: ["39AF0526F72845B7"]
 			description: ["&6Was ist das?", "Eine Schiffskanone.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufs Schiff bauen.", "", "&6Wofür ist das wichtig?", "Für Seegefechte."]
 			icon: { id: "smallships:cannon" }
 			id: "2A358EC9061C7FFC"
 			title: "Kanone"
 			rewards: [{ id: "1B86065632C497D5", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C187827953D68845", type: "item", item: { id: "smallships:cannon", count: 1 }, count: 1L }]
+			tasks: [{ id: "00EC233644FA8788", type: "item", item: { id: "smallships:cannon", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 10.0d
 		}
@@ -363,10 +363,10 @@
 			dependencies: ["2A358EC9061C7FFC"]
 			description: ["&6Was ist das?", "Munition für die Kanone.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Ohne Kugeln schießt nichts."]
 			icon: { id: "smallships:cannon_ball" }
-			id: "EEA8FA0FF2B2753D"
+			id: "3285CAADDEC9CF9D"
 			title: "Kanonenkugel"
 			rewards: [{ id: "33B232D7AE9DB379", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F60B42E21F867DFA", type: "item", item: { id: "smallships:cannon_ball", count: 1 }, count: 1L }]
+			tasks: [{ id: "31ABB4C6FCA21CFD", type: "item", item: { id: "smallships:cannon_ball", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 10.0d
 		}
@@ -374,21 +374,21 @@
 			dependencies: ["757575AA84F88284"]
 			description: ["&6Was ist das?", "SecurityCraft sichert deine Basis.", "", "&6So gehts", "Rezept in JEI nachschlagen und an eine Tür setzen.", "", "&6Wofür ist das wichtig?", "Nur wer den Code kennt, kommt rein."]
 			icon: { id: "securitycraft:keypad" }
-			id: "D3D4FFE569E088E4"
+			id: "513FD658FA035393"
 			title: "Tastenfeld"
-			rewards: [{ id: "A6657527DE26AF0E", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "8DDD766A9277620C", type: "item", item: { id: "securitycraft:keypad", count: 1 }, count: 1L }]
+			rewards: [{ id: "65DEBDA9616318BA", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "5B44F2C6373B2DBF", type: "item", item: { id: "securitycraft:keypad", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["D3D4FFE569E088E4"]
+			dependencies: ["513FD658FA035393"]
 			description: ["&6Was ist das?", "Für Einbrecher nicht abbaubar.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Sichert deine Wände."]
 			icon: { id: "securitycraft:reinforced_stone" }
 			id: "7105F587795182D8"
 			title: "Verstärkter Stein"
-			rewards: [{ id: "F1ADBADA4C96C50B", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "C25F2FA693B293A3", type: "item", item: { id: "securitycraft:reinforced_stone", count: 1 }, count: 1L }]
+			rewards: [{ id: "79CD915A3E306FA6", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "7A1CECF028DA4D93", type: "item", item: { id: "securitycraft:reinforced_stone", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 12.0d
 		}
@@ -398,7 +398,7 @@
 			icon: { id: "securitycraft:universal_block_reinforcer_lvl1" }
 			id: "571D801486D79F2C"
 			title: "Block-Verstärker"
-			rewards: [{ id: "CF1FD7F4279C7BB8", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "6965C8C92C8DA11F", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "73A77E0EF94FA244", type: "item", item: { id: "securitycraft:universal_block_reinforcer_lvl1", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 12.0d
@@ -407,29 +407,29 @@
 			dependencies: ["571D801486D79F2C"]
 			description: ["&6Was ist das?", "Zeigt Kamerabilder.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Du siehst, wer kommt."]
 			icon: { id: "securitycraft:camera_monitor" }
-			id: "B35E6755CBEECC06"
+			id: "134FDA0F66063F0C"
 			title: "Überwachungsmonitor"
-			rewards: [{ id: "A00D2D2F280E41A0", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "8D5027482CA29BCC", type: "item", item: { id: "securitycraft:camera_monitor", count: 1 }, count: 1L }]
+			rewards: [{ id: "51AA3F96F2562AD6", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "64F6347752F2B6D5", type: "item", item: { id: "securitycraft:camera_monitor", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 12.0d
 		}
 		{
-			dependencies: ["B35E6755CBEECC06"]
+			dependencies: ["134FDA0F66063F0C"]
 			description: ["&6Was ist das?", "Ein automatischer Wachposten.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Schießt auf Eindringlinge."]
 			icon: { id: "securitycraft:sentry" }
-			id: "F1FB761140D5EBC2"
+			id: "4EFF46EFC83D499D"
 			title: "Wachturm"
 			rewards: [{ id: "4672615ABD913480", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "91ACB88A7A5B82CC", type: "item", item: { id: "securitycraft:sentry", count: 1 }, count: 1L }]
+			tasks: [{ id: "162DED0563529194", type: "item", item: { id: "securitycraft:sentry", count: 1 }, count: 1L }]
 			x: 8.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["F1FB761140D5EBC2"]
+			dependencies: ["4EFF46EFC83D499D"]
 			description: ["&6Was ist das?", "Ein Laserstrahl zwischen zwei Blöcken.", "", "&6So gehts", "Zwei Blöcke setzen.", "", "&6Wofür ist das wichtig?", "Löst bei Berührung Alarm aus."]
 			icon: { id: "securitycraft:laser_block" }
-			id: "DECAF6C2E97A295A"
+			id: "0F115DF8E950E040"
 			title: "Laserblock"
 			rewards: [{ id: "68F32742C834A139", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "629C19DD67F463A7", type: "item", item: { id: "securitycraft:laser_block", count: 1 }, count: 1L }]
@@ -440,21 +440,21 @@
 			dependencies: ["757575AA84F88284"]
 			description: ["&6Was ist das?", "Twigs bringt Blöcke und kleine Dinge.", "", "&6So gehts", "In Wäldern sammeln.", "", "&6Wofür ist das wichtig?", "Zum Bauen und Basteln."]
 			icon: { id: "twigs:twig" }
-			id: "DD5DFD0DE9439CA2"
+			id: "4CD076D84A8926DF"
 			title: "Zweig"
-			rewards: [{ id: "E18CE91DD59F3AB2", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "A44F5D675FA0586D", type: "item", item: { id: "twigs:twig", count: 1 }, count: 1L }]
+			rewards: [{ id: "62F1CC110EA10D76", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "3B4258BBED808C47", type: "item", item: { id: "twigs:twig", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["DD5DFD0DE9439CA2"]
+			dependencies: ["4CD076D84A8926DF"]
 			description: ["&6Was ist das?", "Kiesel liegen am Boden.", "", "&6So gehts", "Aufheben.", "", "&6Wofür ist das wichtig?", "Für Pfade und Deko."]
 			icon: { id: "twigs:pebble" }
 			id: "03A6B0BB3F11AF8B"
 			title: "Kieselstein"
-			rewards: [{ id: "FA872A68C842DB74", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "9A77E8C2ADC423C6", type: "item", item: { id: "twigs:pebble", count: 1 }, count: 1L }]
+			rewards: [{ id: "19E5DB07B80CEBA0", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "347EE0B0FFCE7991", type: "item", item: { id: "twigs:pebble", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 14.0d
 		}
@@ -462,29 +462,29 @@
 			dependencies: ["03A6B0BB3F11AF8B"]
 			description: ["&6Was ist das?", "Stimmungsvolles Licht.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Hängt sich gut ans Haus."]
 			icon: { id: "twigs:paper_lantern" }
-			id: "C34665C48BC6FA33"
+			id: "7F8C78B015867DD2"
 			title: "Papierlaterne"
-			rewards: [{ id: "D51A74D0C53263C0", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "9FF48EE99AD8BC23", type: "item", item: { id: "twigs:paper_lantern", count: 1 }, count: 1L }]
+			rewards: [{ id: "5E529D21E4CDDBA1", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "56683408CA024156", type: "item", item: { id: "twigs:paper_lantern", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 14.0d
 		}
 		{
-			dependencies: ["C34665C48BC6FA33"]
+			dependencies: ["7F8C78B015867DD2"]
 			description: ["&6Was ist das?", "Quark bringt viele kleine Verbesserungen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Mehr Platz im Inventar."]
 			icon: { id: "quark:backpack" }
-			id: "9CB46AA3654EEE6D"
+			id: "587F041D9B118A1B"
 			title: "Rucksack"
 			rewards: [{ id: "2D38C8D1537A994B", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "8E73E81685843891", type: "item", item: { id: "quark:backpack", count: 1 }, count: 1L }]
+			tasks: [{ id: "012F7D9EBE875699", type: "item", item: { id: "quark:backpack", count: 1 }, count: 1L }]
 			x: 6.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["9CB46AA3654EEE6D"]
+			dependencies: ["587F041D9B118A1B"]
 			description: ["&6Was ist das?", "Ein Bumerang, der abbaut.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Baut aus der Ferne ab."]
 			icon: { id: "quark:pickarang" }
-			id: "9B0F108D451A791A"
+			id: "0A3504D224E65CB8"
 			title: "Pickarang"
 			rewards: [{ id: "44C8B8FA33B3E1FB", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "09B7EC05FD813D23", type: "item", item: { id: "quark:pickarang", count: 1 }, count: 1L }]
@@ -492,24 +492,24 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["9B0F108D451A791A"]
+			dependencies: ["0A3504D224E65CB8"]
 			description: ["&6Was ist das?", "Setzt zufällige Blöcke aus der Schnellleiste.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Macht Bauen lebendiger."]
 			icon: { id: "quark:trowel" }
-			id: "D029166FD4882545"
+			id: "48B19734D6AF03C8"
 			title: "Kelle"
-			rewards: [{ id: "CCB19FD50935A580", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "1BD7D65FB0BD3B43", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "12261059721D5602", type: "item", item: { id: "quark:trowel", count: 1 }, count: 1L }]
 			x: 9.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["D029166FD4882545"]
+			dependencies: ["48B19734D6AF03C8"]
 			description: ["&6Was ist das?", "Eine Kiste für viele gleiche Items.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Lager für Massenware."]
 			icon: { id: "quark:crate" }
 			id: "6D0D92E2E6B4A3FD"
 			title: "Kiste mit Inhalt"
 			rewards: [{ id: "4140AD7CE49426CF", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "F2A05DD699F83374", type: "item", item: { id: "quark:crate", count: 1 }, count: 1L }]
+			tasks: [{ id: "220EDEB8151B018C", type: "item", item: { id: "quark:crate", count: 1 }, count: 1L }]
 			x: 11.0d
 			y: 14.0d
 		}
@@ -520,7 +520,7 @@
 			id: "6C81791E335AFA98"
 			title: "Totem der Unsterblichkeit"
 			rewards: [{ id: "3F751FEFDA542093", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B498CD2C5228E0C2", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
+			tasks: [{ id: "6BB43A8E699A623F", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
 			x: 12.5d
 			y: 14.0d
 		}

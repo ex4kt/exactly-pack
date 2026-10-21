@@ -706,8 +706,8 @@
 			description: ["&6Was ist das?", "Apothic Enchanting baut den Verzauberungstisch stark aus. Mit Regalen steuerst du, was du verzauberst und wie stark.", "", "&6So gehts", "Diese Anleitung führt dich in kleinen Schritten: Tisch, Regale, die drei Werte (Eterna, Quanta, Arcana), erste Verzauberung, Bibliothek.", "", "&6Wofür ist das wichtig?", "Mit gutem Aufbau bekommst du viel stärkere Verzauberungen als im normalen Spiel."]
 			id: "4CB07467E3856DE3"
 			title: "Verzauberung: Überblick"
-			rewards: [{ id: "EA9BC809531B21EF", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D4F1AB0502C27DDC", type: "checkmark" }]
+			rewards: [{ id: "79B54E29085FD548", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "360C1BEDFEB12BF3", type: "checkmark" }]
 			x: 2.0d
 			y: -3.0d
 		}
@@ -717,47 +717,47 @@
 			id: "5D15724A898B5ABF"
 			title: "Verzauberung: Tisch bauen"
 			rewards: [{ id: "08144D7623D60F5B", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "9080360CAD1DF497", type: "item", item: { id: "apothic_enchanting:apothic_enchanting_table", count: 1 }, count: 1L }]
+			tasks: [{ id: "0AE144EEF31DB98E", type: "item", item: { id: "apothic_enchanting:apothic_enchanting_table", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5D15724A898B5ABF"]
 			description: ["&6Was ist das?", "Regale um den Tisch geben ihm Kraft.", "", "&6So gehts", "Stelle Regale in einem Ring um den Tisch, jeweils mit einem Block Abstand (also mit Luft dazwischen). Einfache Regale sind der Anfang.", "", "&6Wofür ist das wichtig?", "Mehr Regale heißt mehr Eterna und damit höhere Verzauberungsstufen."]
-			id: "9DB06D8483924018"
+			id: "0F6726590BA97C2E"
 			title: "Verzauberung: Erste Regale"
 			rewards: [{ id: "7D87C696A4FEB92D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "94E28D56DB8CAC00", type: "item", item: { id: "apothic_enchanting:basic_bookshelf", count: 1 }, count: 8L }]
+			tasks: [{ id: "1D25A169EAA64FAE", type: "item", item: { id: "apothic_enchanting:basic_bookshelf", count: 1 }, count: 8L }]
 			x: 5.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["9DB06D8483924018"]
+			dependencies: ["0F6726590BA97C2E"]
 			description: ["&6Was ist das?", "Eterna ist die Staerke: Sie bestimmt, wie hoch die Stufe deiner Verzauberung werden kann.", "", "&6So gehts", "Schaue im Tisch auf die Anzeige. Steinregale und bessere Regale erhöhen Eterna. Die Quests unten zeigen, welches Regal was gibt.", "", "&6Wofür ist das wichtig?", "Für hohe Stufen brauchst du viel Eterna."]
 			id: "552BD35F16BFD31E"
 			title: "Verzauberung: Eterna"
-			rewards: [{ id: "EAE1E2272B0F667D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "92D9BACDB2251B6A", type: "checkmark" }]
+			rewards: [{ id: "6C8AFA6D057571FB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "446F880CB5B97EE4", type: "checkmark" }]
 			x: 6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["552BD35F16BFD31E"]
 			description: ["&6Was ist das?", "Quanta ist der Zufall: Sie bestimmt, wie stark die angebotenen Verzauberungen schwanken.", "", "&6So gehts", "Manche Regale (zum Beispiel Bienen- und Melonenregal) verändern Quanta. Ein hoher Wert macht Ergebnisse unberechenbar, aber oft mächtiger.", "", "&6Wofür ist das wichtig?", "Mit Quanta bekommst du seltene Glückstreffer."]
-			id: "DCF1C6222E1E0E6B"
+			id: "7953D1415A72E055"
 			title: "Verzauberung: Quanta"
 			rewards: [{ id: "5C9CF8C22671D9C3", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "B738C5FCD2ADED55", type: "checkmark" }]
+			tasks: [{ id: "63513A3B40E36EBE", type: "checkmark" }]
 			x: 8.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["DCF1C6222E1E0E6B"]
+			dependencies: ["7953D1415A72E055"]
 			description: ["&6Was ist das?", "Arcana ist die Vielfalt: Sie bestimmt, welche Arten von Verzauberungen angeboten werden.", "", "&6So gehts", "Höhere Arcana schaltet seltene Verzauberungen frei. Arcana kommt aus besonderen Regalen (z. B. Nether-, See-, Tiefen- und Endregale).", "", "&6Wofür ist das wichtig?", "Für die besten Verzauberungen brauchst du hohe Arcana."]
 			id: "452670B269C91C4A"
 			title: "Verzauberung: Arcana"
 			rewards: [{ id: "0CF207610BECE9DB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "EABF2AF0E7377C90", type: "checkmark" }]
+			tasks: [{ id: "2DA4FD616DA36E0B", type: "checkmark" }]
 			x: 9.5d
 			y: -3.0d
 		}
@@ -766,7 +766,7 @@
 			description: ["&6Was ist das?", "Im Tisch siehst du Hinweise, welche Verzauberungen möglich sind.", "", "&6So gehts", "Bewege die Maus über die Stufen im Tisch. Du siehst eine Verzauberung als Tipp. Ändere Regale, bis die gewünschte erscheint.", "", "&6Wofür ist das wichtig?", "So planst du gezielt, statt nur zu raten."]
 			id: "1422043FBDAD21A1"
 			title: "Verzauberung: Hinweise"
-			rewards: [{ id: "D9919FE303BDB2B8", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "4ABBC584ADA28FB2", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "79A4DB3BFA308A64", type: "checkmark" }]
 			x: 11.0d
 			y: -3.0d
@@ -784,7 +784,7 @@
 		{
 			dependencies: ["3F10C459B21AE233"]
 			description: ["&6Was ist das?", "Die Bibliothek speichert Verzauberungsbücher.", "", "&6So gehts", "Baue die Bibliothek. Stelle sie in die Nähe des Tisches. Bei höheren Stufen speichert sie Bücher und erlaubt höhere Verzauberungsstufen.", "", "&6Wofür ist das wichtig?", "Sie ist der nächste große Schritt nach den Regalen."]
-			id: "81FF9322F5E95416"
+			id: "721982F4EBAA4D9D"
 			title: "Verzauberung: Bibliothek"
 			rewards: [{ id: "41D4AAC9B0B8C39B", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "453D33319CD9E50E", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
@@ -792,9 +792,9 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["81FF9322F5E95416"]
+			dependencies: ["721982F4EBAA4D9D"]
 			description: ["&6Was ist das?", "Apothic bringt Werkbänke zum Zerlegen und Schmieden mit.", "", "&6So gehts", "Mit dem Zerlegetisch zerlegst du Verzauberungen und bekommst Material zurück. Der Schmiedetisch kombiniert Verzauberungen.", "Die Quests unten zeigen die Bücher (Tomes) dazu.", "", "&6Wofür ist das wichtig?", "Du verlierst keine guten Verzauberungen mehr, wenn du sie neu verteilen willst."]
-			id: "8F8B0C5AD8751E7E"
+			id: "0A26FD4B5EDFE2B6"
 			title: "Verzauberung: Zerlegen und Schmieden"
 			rewards: [{ id: "1A8522C71E12D566", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "43EA3408B151FA6A", type: "checkmark" }]
@@ -813,10 +813,10 @@
 		}
 		{
 			description: ["&6Abschnitt", "Nether-Regale"]
-			id: "BF33514A84DDB255"
+			id: "2552E18BAAB22091"
 			title: "Nether-Regale"
 			optional: true
-			tasks: [{ id: "A2E54C5658127F0B", type: "checkmark" }]
+			tasks: [{ id: "1F57F3C962CF35D8", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.0d
 			y: 8.0d
@@ -826,14 +826,14 @@
 			id: "444C587EDF473F45"
 			title: "See-Regale"
 			optional: true
-			tasks: [{ id: "9F0035455E928DCD", type: "checkmark" }]
+			tasks: [{ id: "3167B9D314ABA950", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.0d
 			y: 11.5d
 		}
 		{
 			description: ["&6Abschnitt", "Tiefen-Regale"]
-			id: "AE8816D4B00A4457"
+			id: "381851517221C7F0"
 			title: "Tiefen-Regale"
 			optional: true
 			tasks: [{ id: "68C6A659AFE37E26", type: "checkmark" }]
@@ -843,7 +843,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "End-Regale"]
-			id: "A4271EDEF11F09D8"
+			id: "1A57CC7AAF495DA4"
 			title: "End-Regale"
 			optional: true
 			tasks: [{ id: "1CEB8512706BB0AE", type: "checkmark" }]
@@ -856,14 +856,14 @@
 			id: "590061EE59757283"
 			title: "Bibliothek und Werkbänke"
 			optional: true
-			tasks: [{ id: "B39C37C2C2770515", type: "checkmark" }]
+			tasks: [{ id: "12625068B8282D91", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.0d
 			y: 22.0d
 		}
 		{
 			description: ["&6Abschnitt", "Bücher (Tomes)"]
-			id: "DFF543C4A5A0A5E3"
+			id: "03E97BE9506024F1"
 			title: "Bücher (Tomes)"
 			optional: true
 			tasks: [{ id: "3655C77BC8166EF8", type: "checkmark" }]
@@ -873,7 +873,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Spezial-Gegenstände"]
-			id: "DECB88D0F96055F3"
+			id: "2B60C0850A3F61D2"
 			title: "Spezial-Gegenstände"
 			optional: true
 			tasks: [{ id: "2F02552362F6C23F", type: "checkmark" }]

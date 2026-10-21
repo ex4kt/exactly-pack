@@ -11,21 +11,21 @@
 		{
 			description: ["&6Was ist das?", "Mutant Monsters macht Standardgegner zu riesigen Bossen: Mutant-Zombie, -Skelett, -Creeper und -Enderman. Sie lassen Teile fallen, aus denen du Waffen und Rüstung baust.", "Die Kämpfe sind hart, die Beute lohnt sich.", "", "&6Wofür ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
 			icon: { id: "mutantmonsters:hulk_hammer" }
-			id: "9C31B9301543C8EF"
+			id: "7DEB593550DD1B73"
 			title: "&2Mutanten"
 			rewards: [{ id: "32E4034CCB348CEA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D61B5E08EEA33D4E", type: "checkmark" }]
+			tasks: [{ id: "2DD427C3F666151A", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
 			x: 1.50d
 			y: 6.25d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Mutanten haben viel mehr Leben und schlagen sehr hart.", "", "&6So gehts", "Bringe die beste Rüstung, Heilung und Fernkampf mit. Kämpfe nie in engen Räumen."]
 			id: "0B6EC6F39EFEBFDA"
 			title: "Mutanten: Vorbereitung"
-			rewards: [{ id: "8BE40E7FC07991D4", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "7824F2607AB381BB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1EEDFCFC3F724926", type: "checkmark" }]
 			x: 4.50d
 			y: 0.00d
@@ -33,7 +33,7 @@
 		{
 			dependencies: ["0B6EC6F39EFEBFDA"]
 			description: ["&6Was ist das?", "Mutanten entstehen durch einen Bau, ähnlich wie der Wither, oder erscheinen in der Welt.", "", "&6So gehts", "Schaue im JEI oder im Handbuch des Mods nach, welche Blöcke zum Beschwören nötig sind."]
-			id: "C1F6192BAB215122"
+			id: "01D3D2F3308445D6"
 			title: "Mutanten: Wie rufst du sie?"
 			rewards: [{ id: "5B74C718A2AA216A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "44BECDCEF4D475EC", type: "checkmark" }]
@@ -41,47 +41,47 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Ein riesiger Hammer.", "", "&6So gehts", "Stelle ihn aus Mutantenteilen her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "AA220078503DC86B"
+			id: "4B35A45F04A1BC99"
 			title: "Hulk-Hammer"
-			rewards: [{ id: "93043FCA9543C6C3", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "6C27AF29C0A4F083", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "01504585279E6933", type: "item", item: { id: "mutantmonsters:hulk_hammer", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 1.25d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Splitter vom Mutant-Creeper.", "", "&6So gehts", "Besiege den Mutant-Creeper.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "DC56DC87F32EFA03"
+			id: "2BFD584FBA5F20A1"
 			title: "Creeper-Splitter"
-			rewards: [{ id: "B093E3B47DF2FC58", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "ED1BA5C8C4FFC64E", type: "item", item: { id: "mutantmonsters:creeper_shard", count: 1 }, count: 4L }]
+			rewards: [{ id: "73C6517F62528AFA", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "4D0C56030A8D77E5", type: "item", item: { id: "mutantmonsters:creeper_shard", count: 1 }, count: 4L }]
 			x: 4.50d
 			y: 2.50d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Die Hand des Mutant-Endermans.", "", "&6So gehts", "Besiege den Mutant-Enderman.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "8BB9C91222867C53"
+			id: "0BCA9C2AA6A3537B"
 			title: "Enderseelen-Hand"
 			rewards: [{ id: "791572D53911C9B0", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "F000E394B870E4E1", type: "item", item: { id: "mutantmonsters:endersoul_hand", count: 1 }, count: 1L }]
+			tasks: [{ id: "623AFA212A7BD73C", type: "item", item: { id: "mutantmonsters:endersoul_hand", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 3.75d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Ein Gegenstand, der Creeper-Diener verfolgt.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "991F77C9F551ABFD"
+			id: "4AF262B1A7AA8100"
 			title: "Creeper-Diener-Tracker"
-			rewards: [{ id: "B14AB8E9E0412118", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "0440C43A2BE1B4DF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "219763C59682E074", type: "item", item: { id: "mutantmonsters:creeper_minion_tracker", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 5.00d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Der Schädel des Mutant-Skeletts.", "", "&6So gehts", "Besiege das Mutant-Skelett.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "6AF38F6C159D6A38"
 			title: "Mutant-Skelett-Schädel"
@@ -91,52 +91,52 @@
 			y: 6.25d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Rippe des Mutant-Skeletts.", "", "&6So gehts", "Besiege das Mutant-Skelett.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "C84C1884C88F63D6"
+			id: "0D1FAA5F99A586FB"
 			title: "Mutant-Skelett-Rippe"
-			rewards: [{ id: "96060250EA3E7F73", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "03D8F6220D4B002D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "22A60B44EF5FD31C", type: "item", item: { id: "mutantmonsters:mutant_skeleton_rib", count: 1 }, count: 2L }]
 			x: 4.50d
 			y: 7.50d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Glied des Mutant-Skeletts.", "", "&6So gehts", "Besiege das Mutant-Skelett.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "63F1BBBC697B65CB"
 			title: "Mutant-Skelett-Glied"
 			rewards: [{ id: "2606799CCED8C284", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "81F8C04A4E564CBF", type: "item", item: { id: "mutantmonsters:mutant_skeleton_limb", count: 1 }, count: 2L }]
+			tasks: [{ id: "459E47C605BE68DC", type: "item", item: { id: "mutantmonsters:mutant_skeleton_limb", count: 1 }, count: 2L }]
 			x: 4.50d
 			y: 8.75d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Brustplatte aus Mutantenteilen.", "", "&6So gehts", "Stelle sie nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "6041F10E325ABDEC"
 			title: "Mutant-Skelett-Brustplatte"
-			rewards: [{ id: "F57585CE039E257A", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "CE9182088520BF0C", type: "item", item: { id: "mutantmonsters:mutant_skeleton_chestplate", count: 1 }, count: 1L }]
+			rewards: [{ id: "7BDB42817212D304", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "3CECA9A0650D00AB", type: "item", item: { id: "mutantmonsters:mutant_skeleton_chestplate", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 10.00d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Hose aus Mutantenteilen.", "", "&6So gehts", "Stelle sie nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "12CC86E3E344F1C3"
 			title: "Mutant-Skelett-Hose"
-			rewards: [{ id: "D573E7BB0D26EFA0", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "4F2EB44637356B4E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "63AC4F141B2B980E", type: "item", item: { id: "mutantmonsters:mutant_skeleton_leggings", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 11.25d
 		}
 		{
-			dependencies: ["9C31B9301543C8EF"]
+			dependencies: ["7DEB593550DD1B73"]
 			description: ["&6Was ist das?", "Stiefel aus Mutantenteilen.", "", "&6So gehts", "Stelle sie nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			id: "EF3E41445A789B32"
+			id: "3F85DA57784CEB0A"
 			title: "Mutant-Skelett-Stiefel"
-			rewards: [{ id: "F1F02F49C50029AB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "A5721C6A58D62944", type: "item", item: { id: "mutantmonsters:mutant_skeleton_boots", count: 1 }, count: 1L }]
+			rewards: [{ id: "409EE302EE3B52DF", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6CC46B444F546629", type: "item", item: { id: "mutantmonsters:mutant_skeleton_boots", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 12.50d
 		}

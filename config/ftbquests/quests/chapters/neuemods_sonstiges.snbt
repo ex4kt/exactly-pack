@@ -11,7 +11,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Kapitel für kleine Mods, die bisher keinen Eintrag hatten: Lootr, Grabsteine, XP-Tome, Amendments, Toil and Trouble, Rechiseled Create, Dorfwachen, Relikte und mehr Zweithand-Slots.", "", "&6So gehts", "Alles hier ist freiwillig. Hake einfach ab, was dich interessiert.", "", "&6Wofür ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
 			icon: { id: "lootr:lootr_chest" }
-			id: "E8C1ED9AD85FF70C"
+			id: "1F9A49EA0F75944D"
 			title: "Weitere Mods"
 			rewards: []
 			tasks: [{ id: "691762801BA2AE57", type: "checkmark" }]
@@ -19,51 +19,51 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["E8C1ED9AD85FF70C"]
+			dependencies: ["1F9A49EA0F75944D"]
 			description: ["&6Was ist das?", "Lootr macht Beutekisten für jeden Spieler einzeln. Jeder bekommt seinen eigenen Inhalt.", "", "&6So gehts", "Kisten in Dungeons und Ruinen öffnen. Du kannst auch eine eigene Lootr-Kiste aufstellen.", "", "&6Wofür ist das wichtig?", "Niemand kann dir etwas wegschnappen, und du musst nicht um Beute streiten."]
 			icon: { id: "lootr:lootr_chest" }
-			id: "D0BB68AA1026B925"
+			id: "44D814032212D60D"
 			title: "Lootr-Kiste"
-			rewards: [{ id: "A063F2F1D5BBA26C", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "E96DAF5A8A0D4B00", type: "item", item: { id: "lootr:lootr_chest", count: 1 }, count: 1L }]
+			rewards: [{ id: "3F2E0EC6A4AA6DF5", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "09BC573007554091", type: "item", item: { id: "lootr:lootr_chest", count: 1 }, count: 1L }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D0BB68AA1026B925"]
+			dependencies: ["44D814032212D60D"]
 			description: ["&6Was ist das?", "Stirbst du, entsteht an der Stelle ein Grab mit deinen Sachen.", "", "&6So gehts", "Mit dem Grabschlüssel öffnest du es. Lauf nach dem Tod einfach zurück zum Grab.", "", "&6Wofür ist das wichtig?", "So gehen Ausrüstung und Items beim Sterben nicht verloren."]
 			icon: { id: "yigd:grave" }
-			id: "961C900FA4F05E4C"
+			id: "36922ABADCA5CB7E"
 			title: "Grabstein"
-			rewards: [{ id: "D22880FA4D1BCF41", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "D6BD3D44D8706DD2", type: "item", item: { id: "yigd:grave", count: 1 }, count: 1L }]
+			rewards: [{ id: "1B4DA0CAA63A8B61", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "6680E82469F8D568", type: "item", item: { id: "yigd:grave", count: 1 }, count: 1L }]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["961C900FA4F05E4C"]
+			dependencies: ["36922ABADCA5CB7E"]
 			description: ["&6Was ist das?", "Der XP-Tome speichert Erfahrung in einem Buch.", "", "&6So gehts", "Rezept in JEI nachschlagen (R auf dem Item). Rechtsklick nimmt oder gibt Erfahrung.", "", "&6Wofür ist das wichtig?", "Praktisch, um Level zu sichern oder an Mitspieler weiterzugeben."]
 			icon: { id: "xpbook:xp_tome" }
-			id: "D5120B2BA75FF40D"
+			id: "29CE7F9BFAEE2522"
 			title: "XP-Tome"
 			rewards: [{ id: "618092AFCDB9758D", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "DE1CF89A3E03F04D", type: "item", item: { id: "xpbook:xp_tome", count: 1 }, count: 1L }]
+			tasks: [{ id: "2F69590B22D0ED91", type: "item", item: { id: "xpbook:xp_tome", count: 1 }, count: 1L }]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D5120B2BA75FF40D"]
+			dependencies: ["29CE7F9BFAEE2522"]
 			description: ["&6Was ist das?", "Mit More Offhand Slots hast du mehr als einen Zweithand-Platz.", "", "&6So gehts", "Wechsle mit den Maustasten 4 und 5 oder dem Mausrad zwischen den Zweithand-Slots. Die Einstellungen stehen im Menü Steuerung.", "", "&6Wofür ist das wichtig?", "Schild, Fackel und Essen sind gleichzeitig griffbereit."]
 			icon: { id: "minecraft:shield" }
-			id: "ED27550E589E6B1D"
+			id: "0DE7AAC88236E6A3"
 			title: "Mehr Zweithand-Slots"
 			rewards: [{ id: "5BCCCF4A0FFD6730", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "CD2550B9061B4D89", type: "checkmark" }]
+			tasks: [{ id: "2B4038831E1A20D8", type: "checkmark" }]
 			x: 6.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E8C1ED9AD85FF70C"]
+			dependencies: ["1F9A49EA0F75944D"]
 			description: ["&6Was ist das?", "Amendments bringt viele kleine Verbesserungen für Blöcke und Items. Mit der Farbflasche färbst du Dinge ein.", "", "&6So gehts", "Rezept in JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Dazu gibt es Teppichtreppen, Wandlaternen und Werkzeughaken."]
 			icon: { id: "amendments:dye_bottle" }
 			id: "3417D166F55B83C8"
@@ -88,7 +88,7 @@
 			dependencies: ["66F4EA00E688E922"]
 			description: ["&6Was ist das?", "Rechiseled Create erweitert den Meißelblock um Create-Varianten, vor allem Fenster und Verkleidungen.", "", "&6So gehts", "Den Meißel nehmen und Create-Blöcke damit verwandeln, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Schöne Fabriken ohne Stress."]
 			icon: { id: "create:andesite_casing" }
-			id: "8281DB3781318334"
+			id: "0E159B2AE67E7DA6"
 			title: "Rechiseled Create"
 			rewards: [{ id: "1A04FD0CDDA5F593", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "41B52F05A07A5EBE", type: "checkmark" }]
@@ -96,18 +96,18 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["8281DB3781318334"]
+			dependencies: ["0E159B2AE67E7DA6"]
 			description: ["&6Was ist das?", "Guard Villagers gibt Dorfbewohnern Wachen, die sie beschützen.", "", "&6So gehts", "Im Dorf mit einer Waffe in der Hand in der Nähe von Wachen bleiben. Sie greifen Monster an.", "", "&6Wofür ist das wichtig?", "Dein Dorf überlebt auch Überfälle."]
 			icon: { id: "minecraft:iron_helmet" }
-			id: "F1FA71EB248AF132"
+			id: "7AB425038CF877A6"
 			title: "Dorfwachen"
 			rewards: [{ id: "74BBCC55FA88F7EC", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "8EB8C2F966A58A1B", type: "checkmark" }]
+			tasks: [{ id: "5EFA1486275BB2E8", type: "checkmark" }]
 			x: 6.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["E8C1ED9AD85FF70C"]
+			dependencies: ["1F9A49EA0F75944D"]
 			description: ["&6Was ist das?", "Relics bringt mächtige magische Gegenstände für Ring-, Gürtel- und Stiefel-Slots mit eigenen Fähigkeiten.", "", "&6So gehts", "Relikte findest du in Truhen, bei Gegnern und in Dungeons. Rezept und Fundort in JEI.", "", "&6Wofür ist das wichtig?", "Sie geben besondere Kräfte, aber nur mit Bedacht einsetzen."]
 			icon: { id: "relics:springy_boot" }
 			id: "0726A869BF61CE84"
