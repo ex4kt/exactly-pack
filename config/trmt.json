@@ -1,0 +1,87 @@
+{
+  "erosion": {
+    "grassEnabled": true,
+    "dirtEnabled": true,
+    "sandEnabled": true,
+    "leavesEnabled": false,
+    "vegetationEnabled": true
+  },
+  "deErosion": {
+    "grassEnabled": true,
+    "dirtEnabled": true,
+    "sandEnabled": true
+  },
+  "erosionMultipliers": {
+    "player": 0.5,
+    "mounted": 3.0,
+    "leash": 2.0
+  },
+  "erosionThresholds": {
+    "grass": {
+      "min": 8.0,
+      "max": 16.0
+    },
+    "dirt": {
+      "min": 30.0,
+      "max": 50.0
+    },
+    "coarseDirt": {
+      "min": 80.0,
+      "max": 140.0
+    },
+    "sand": {
+      "min": 4.0,
+      "max": 8.0
+    },
+    "leaves": {
+      "dropChance": 0.0,
+      "min": 2.0,
+      "max": 3.0
+    },
+    "vegetation": {
+      "dropChance": 0.0,
+      "min": 2.0,
+      "max": 3.0
+    }
+  },
+  "erodableVegetation": [
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:dandelion",
+    "minecraft:poppy",
+    "minecraft:blue_orchid",
+    "minecraft:allium",
+    "minecraft:azure_bluet",
+    "minecraft:red_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:white_tulip",
+    "minecraft:pink_tulip",
+    "minecraft:oxeye_daisy",
+    "minecraft:cornflower",
+    "minecraft:lily_of_the_valley",
+    "minecraft:sunflower",
+    "minecraft:lilac",
+    "minecraft:rose_bush",
+    "minecraft:peony"
+  ],
+  "deErosionTimeoutDays": {
+    "grass": {
+      "stage1": 8.0,
+      "stage2": 8.0,
+      "stage3": 8.0,
+      "stage4": 8.0,
+      "stage5": 8.0
+    },
+    "dirt": {
+      "erodedDirt": 30.0,
+      "erodedCoarseDirt": 60.0
+    },
+    "sand": {
+      "stage1": 1.0,
+      "stage2": 2.0,
+      "stage3": 3.0,
+      "stage4": 4.0,
+      "stage5": 4.0
+    }
+  }
+}
