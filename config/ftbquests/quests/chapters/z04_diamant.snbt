@@ -1265,7 +1265,7 @@
 			y: 43.00d
 		}
 		{
-			dependencies: ["629820D5D701A03F"]
+			dependencies: ["68831BD6C238738E"]
 			description: ["&6Was ist das?", "Segel aus Stoff für Flügel und Ballone.", "", "&6So gehts", "6 weiße Teppiche und 3 Fäden.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Flugschrauber und Luftschiffe."]
 			id: "5BD5E8A787C56E8D"
 			title: "Segel"
@@ -1275,7 +1275,7 @@
 			y: 43.00d
 		}
 		{
-			dependencies: ["68831BD6C238738E"]
+			dependencies: ["5BD5E8A787C56E8D"]
 			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig. Er braucht Anlauf zum Starten.", "", "&6So gehts", "3 Rümpfe, Motor und Propeller. Hinsetzen, mit W Schub geben, Brennstoff ins Flugzeug-Inventar.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Schnell über weite Strecken reisen."]
 			id: "5861EFEFC54087AB"
 			title: "Doppeldecker"
@@ -1285,7 +1285,7 @@
 			y: 43.00d
 		}
 		{
-			dependencies: ["5861EFEFC54087AB", "5BD5E8A787C56E8D"]
+			dependencies: ["5861EFEFC54087AB"]
 			description: ["&6Was ist das?", "Der Flugschrauber fliegt ohne Motor: Du trittst selbst in die Pedale.", "", "&6So gehts", "2 Segel, 2 Rümpfe und ein Propeller.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Günstig fliegen, ganz ohne Brennstoff."]
 			id: "19F7BD664987FE6B"
 			title: "Flugschrauber"
@@ -1325,7 +1325,7 @@
 			y: 43.00d
 		}
 		{
-			dependencies: ["17DD55DAD7727688", "7453ACABF193E9DA"]
+			dependencies: ["17DD55DAD7727688"]
 			description: ["&6Was ist das?", "Das Kriegsschiff ist ein fliegendes Schlachtschiff mit Platz für Waffen.", "", "&6So gehts", "Frachtluftschiff, 3 Rümpfe, 2 Motoren, 2 Segel und Industriegetriebe.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemeinsam fliegen und kämpfen."]
 			id: "530C81D0E1B95D89"
 			title: "Kriegsschiff"
@@ -1335,33 +1335,33 @@
 			y: 43.00d
 		}
 		{
-			dependencies: ["68831BD6C238738E"]
+			dependencies: ["44B342909FEC9D2A"]
 			description: ["&6Was ist das?", "Ein stärkerer Propeller als Verbesserung.", "", "&6So gehts", "Propeller und 4 Kupferbarren. Ins Verbesserungsfeld des Fluggeräts legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Schub und Tempo."]
 			id: "135CC50AA6135F03"
 			title: "Verbesserter Propeller"
 			rewards: [{ id: "2926193150E664AB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "68986B678099102A", type: "item", item: { id: "immersive_aircraft:enhanced_propeller", count: 1 }, count: 1L }]
-			x: 1.50d
+			x: 10.50d
 			y: 44.50d
 		}
 		{
-			dependencies: ["2D278F5CE8389E57"]
+			dependencies: ["7FF0FD5E388482AF"]
 			description: ["&6Was ist das?", "Ein besserer Kessel als Verbesserung.", "", "&6So gehts", "Heizkessel, Hochofen und 7 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Der Motor leistet mehr."]
 			id: "2BED4230D2E4397B"
 			title: "Stahlkessel"
 			rewards: [{ id: "4B0B4432346C6897", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "16800D6BE01F13B3", type: "item", item: { id: "immersive_aircraft:steel_boiler", count: 1 }, count: 1L }]
-			x: 3.00d
+			x: 6.00d
 			y: 44.50d
 		}
 		{
-			dependencies: ["629820D5D701A03F"]
+			dependencies: ["2BED4230D2E4397B"]
 			description: ["&6Was ist das?", "Ein sparsamer Motor als Verbesserung.", "", "&6So gehts", "Motor, 3 Goldbarren, 3 Ziegel und 2 Schleimbälle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Verbraucht weniger Brennstoff."]
 			id: "18F8D9791B875395"
 			title: "Öko-Motor"
 			rewards: [{ id: "225E1E2F574A62C4", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6B515B8F4491AB4C", type: "item", item: { id: "immersive_aircraft:eco_engine", count: 1 }, count: 1L }]
-			x: 4.50d
+			x: 7.50d
 			y: 44.50d
 		}
 		{
@@ -1371,17 +1371,17 @@
 			title: "Nether-Motor"
 			rewards: [{ id: "74F50668F1CCA605", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "5BF2E7C3CBF633C9", type: "item", item: { id: "immersive_aircraft:nether_engine", count: 1 }, count: 1L }]
-			x: 6.00d
+			x: 9.00d
 			y: 44.50d
 		}
 		{
-			dependencies: ["629820D5D701A03F"]
+			dependencies: ["6CB1775D5D70DE5F"]
 			description: ["&6Was ist das?", "Stabilere Leitungen als Verbesserung.", "", "&6So gehts", "3 Kupferbarren und 2 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Das Fluggerät hält mehr aus."]
 			id: "7FF0FD5E388482AF"
 			title: "Robuste Rohre"
 			rewards: [{ id: "5FC3FAD339E8D6B7", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3576647B7FC617AF", type: "item", item: { id: "immersive_aircraft:sturdy_pipes", count: 1 }, count: 1L }]
-			x: 7.50d
+			x: 4.50d
 			y: 44.50d
 		}
 		{
@@ -1391,21 +1391,21 @@
 			title: "Rumpfverstärkung"
 			rewards: [{ id: "4E2BFDD3072AD338", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "76A40D8D809B2CC3", type: "item", item: { id: "immersive_aircraft:hull_reinforcement", count: 1 }, count: 1L }]
-			x: 9.00d
+			x: 1.50d
 			y: 44.50d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
+			dependencies: ["2FC024DADBC88EE4"]
 			description: ["&6Was ist das?", "Ein besseres Fahrwerk als Verbesserung.", "", "&6So gehts", "3 Eisenbarren und 4 Kohle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Sanftere Landungen, weniger Schaden."]
 			id: "6CB1775D5D70DE5F"
 			title: "Verbessertes Fahrwerk"
 			rewards: [{ id: "4977858A9AC35937", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "71D3210F9F769FF8", type: "item", item: { id: "immersive_aircraft:improved_landing_gear", count: 1 }, count: 1L }]
-			x: 10.50d
+			x: 3.00d
 			y: 44.50d
 		}
 		{
-			dependencies: ["629820D5D701A03F"]
+			dependencies: ["135CC50AA6135F03"]
 			description: ["&6Was ist das?", "Ein Getriebe für schwere Technik.", "", "&6So gehts", "3 Eisenbarren, 3 Kupferbarren und ein Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für Drehrohrkanone und Kriegsschiff."]
 			id: "7453ACABF193E9DA"
 			title: "Industriegetriebe"
@@ -1415,7 +1415,7 @@
 			y: 44.50d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
+			dependencies: ["2FC024DADBC88EE4"]
 			description: ["&6Was ist das?", "Eine Armbrust zum Anbauen an Fluggeräte.", "", "&6So gehts", "Armbrust, Stolperdrahthaken und ein Stamm. Ins Waffenfeld legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die erste Bordwaffe."]
 			id: "1107A08D0F125370"
 			title: "Schwere Armbrust"
@@ -1425,7 +1425,7 @@
 			y: 46.00d
 		}
 		{
-			dependencies: ["7453ACABF193E9DA"]
+			dependencies: ["1107A08D0F125370"]
 			description: ["&6Was ist das?", "Eine schnell feuernde Bordkanone.", "", "&6So gehts", "Spender, Industriegetriebe und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Starke Bordwaffe gegen Gegner."]
 			id: "156A83D7C318BB8B"
 			title: "Drehrohrkanone"
@@ -1435,7 +1435,7 @@
 			y: 46.00d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
+			dependencies: ["156A83D7C318BB8B"]
 			description: ["&6Was ist das?", "Wirft TNT aus dem Fluggerät ab.", "", "&6So gehts", "4 Eisenbarren und TNT.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Bomben aus der Luft."]
 			id: "701304620ED45239"
 			title: "Bombenbucht"
@@ -1445,7 +1445,7 @@
 			y: 46.00d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
+			dependencies: ["701304620ED45239"]
 			description: ["&6Was ist das?", "Ein Fernrohr zum Anbauen.", "", "&6So gehts", "Fernrohr und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Weit sehen während des Flugs."]
 			id: "3AD58E528F7E5BAA"
 			title: "Teleskop"
@@ -1455,7 +1455,7 @@
 			y: 46.00d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
+			dependencies: ["3AD58E528F7E5BAA"]
 			description: ["&6Was ist das?", "Zeigt Lage und Richtung des Fluggeräts.", "", "&6So gehts", "2 Komparatoren und ein Kompass.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Leichter gerade fliegen."]
 			id: "65A540A139645DF1"
 			title: "Gyroskop"
@@ -1485,7 +1485,7 @@
 			y: 46.00d
 		}
 		{
-			dependencies: ["5861EFEFC54087AB"]
+			dependencies: ["364E57CC371568BD"]
 			description: ["&6Was ist das?", "Ein leichtes Flugzeug aus Bambus.", "", "&6So gehts", "2 Doppeldecker, Rumpf, Motor und 5 Bambusblöcke.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ein weiteres Flugzeug für deine Sammlung."]
 			id: "5D87104B136F5709"
 			title: "Bambus-Trichter"
