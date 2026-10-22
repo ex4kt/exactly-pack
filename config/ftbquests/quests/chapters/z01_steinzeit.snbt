@@ -1120,66 +1120,6 @@
 			y: 64.38d
 		}
 		{
-			dependencies: ["00AB81F488EE8A13"]
-			description: ["&6Was ist das?", "Ein Speer zum Stechen und Werfen.", "", "&6So gehts", "Holz und Stöcke, siehe JEI. Mit Rechtsklick halten wirfst du ihn.", "", "&6Wofür ist das wichtig?", "Einfache Nah- und Wurfwaffe der Steinzeit."]
-			id: "34190EAEB8246C4E"
-			title: "Holzspeer"
-			rewards: [{ id: "7299E9D1A6D60235", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "5EED3AABB31250CB", type: "item", item: { id: "weaponmod:spear.wood", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 64.38d
-		}
-		{
-			dependencies: ["34190EAEB8246C4E"]
-			description: ["&6Was ist das?", "Der Speer mit Steinspitze.", "", "&6So gehts", "Stein statt Holz am Speer, siehe JEI.", "", "&6Wofür ist das wichtig?", "Mehr Schaden, hält länger."]
-			id: "0D930DEFF3503872"
-			title: "Steinspeer"
-			rewards: [{ id: "77C153CC5A945207", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "56883F27EFEC16EB", type: "item", item: { id: "weaponmod:spear.stone", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 64.38d
-		}
-		{
-			dependencies: ["0D930DEFF3503872"]
-			description: ["&6Was ist das?", "Ein Speer nur zum Werfen.", "", "&6So gehts", "Eisen und Holz, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gute Wurfwaffe gegen Gegner auf Abstand."]
-			id: "0BEAA9DA03DE0969"
-			title: "Wurfspieß"
-			rewards: [{ id: "7E7FDFF0C156F8E5", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "64AB28E136CF3239", type: "item", item: { id: "weaponmod:javelin", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 64.38d
-		}
-		{
-			dependencies: ["0BEAA9DA03DE0969"]
-			description: ["&6Was ist das?", "Ein Bumerang aus Stein, der zurückkehrt.", "", "&6So gehts", "Stein und Holz, siehe JEI.", "", "&6Wofür ist das wichtig?", "Trifft auf Distanz und kommt zurück, wenn er verfehlt."]
-			id: "7173A54B117B67C1"
-			title: "Steinbumerang"
-			rewards: [{ id: "2BF9DE5CCB2C1AE4", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "532A88C3EAEFAA2C", type: "item", item: { id: "weaponmod:boomerang.stone", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 64.38d
-		}
-		{
-			dependencies: ["7173A54B117B67C1"]
-			description: ["&6Was ist das?", "Verschießt Pfeile mit Effekten.", "", "&6So gehts", "Bambus und Holz, siehe JEI.", "", "&6Wofür ist das wichtig?", "Leise Waffe, mit Giftpfeilen stark gegen Gegner."]
-			id: "09FE331571782553"
-			title: "Blasrohr"
-			rewards: [{ id: "3C406F42BEAB6F68", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "43DBCFAC6BCCDBB5", type: "item", item: { id: "weaponmod:blowgun", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 64.38d
-		}
-		{
-			dependencies: ["09FE331571782553"]
-			description: ["&6Was ist das?", "Munition fürs Blasrohr.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofür ist das wichtig?", "Es gibt Pfeile mit Hunger, Verlangsamung und Schaden."]
-			id: "3171073D28439490"
-			title: "Blasrohrpfeile"
-			rewards: [{ id: "0FF634804D066AED", type: "item", item: { id: "weaponmod:dart", count: 16 } }]
-			tasks: [{ id: "67590C18884FF308", type: "item", item: { id: "weaponmod:dart", count: 1 }, count: 8L }]
-			x: 12.00d
-			y: 64.38d
-		}
-		{
 			dependencies: ["0E282EEACBC50CE7"]
 			description: ["&6Was ist das?", "Ein Zaun hält Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stöcke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Zäunen baust du Weiden für Tiere."]
 			id: "52C4CA6F70F42119"

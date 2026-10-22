@@ -649,37 +649,6 @@
 			y: 13.38d
 		}
 		{
-			dependencies: ["3ED2EEBB1CFA992F"]
-			description: ["&6Was ist das?", "Eine Kanone, die Kugeln verschießt.", "", "&6So gehts", "Eisen, Holz und Schießpulver, siehe JEI.", "", "&6Wofür ist das wichtig?", "Schwere Distanzwaffe, dazu Kanonenkugeln."]
-			hide_dependency_lines: true
-			id: "0B24A943B007519C"
-			title: "Kanone"
-			rewards: [{ id: "6BA02BB4A7130C2F", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "3DB6A53B5A117CAE", type: "item", item: { id: "weaponmod:cannon", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 26.88d
-		}
-		{
-			dependencies: ["0B24A943B007519C"]
-			description: ["&6Was ist das?", "Munition für die Kanone.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofür ist das wichtig?", "Zerstört Blöcke und Gegner im Umkreis."]
-			id: "4E591B8970E6B6A8"
-			title: "Kanonenkugel"
-			rewards: [{ id: "7DCBCD0F6B5ACD8D", type: "item", item: { id: "weaponmod:cannonball", count: 8 } }]
-			tasks: [{ id: "0418338DD9A1233F", type: "item", item: { id: "weaponmod:cannonball", count: 1 }, count: 4L }]
-			x: 3.00d
-			y: 26.88d
-		}
-		{
-			dependencies: ["4E591B8970E6B6A8"]
-			description: ["&6Was ist das?", "Ein Mörser, der Granaten verschießt.", "", "&6So gehts", "Siehe JEI.", "", "&6Wofür ist das wichtig?", "Beschuss aus der Ferne über Hindernisse."]
-			id: "3A4FB13620421DDF"
-			title: "Mörser"
-			rewards: [{ id: "43C5642D31D02F73", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "30724DAA82AF4089", type: "item", item: { id: "weaponmod:mortar", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 26.88d
-		}
-		{
 			dependencies: ["4B1CDA02C5F025E2"]
 			description: ["&6Was ist das?", "Neun verdichtete Eisenbarren als Block.", "", "&6So gehts", "Neun verdichtete Eisenbarren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Robuster Baustoff und Lager für das teure Metall."]
 			hide_dependency_lines: true
