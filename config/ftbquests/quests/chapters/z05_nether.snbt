@@ -770,5 +770,18 @@
 			x: 0.00d
 			y: 27.75d
 		}
+		{
+			dependencies: ["7D49D31EE0C23921"]
+			description: ["&6Was ist das?", "Friends' Wine: Ein Wein, der dich und alle Umstehenden hüpfen lässt. Dazu gibt es Puppen und eine Fernbedienung.", "", "&6So gehts", "Handle bei einem erwachsenen, grün gekleideten Nichtsnutz-Dorfbewohner: 16 Weizen und 1 Glasflasche ergeben den Wein.", "", "&6Wofür ist das wichtig?", "Reiner Spaß: Die Puppe spielt Musik, alle in der Nähe hüpfen im Takt."]
+			icon: { id: "friendswine:wine" }
+			hide_dependency_lines: true
+			id: "886B7B0D2C69B98B"
+			title: "Friends' Wine"
+			optional: true
+			rewards: [{ id: "1C04EC49197D8BA1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "08847A89B0848763", type: "item", item: { id: "friendswine:wine", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 29.50d
+		}
 	]
 }
