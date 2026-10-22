@@ -685,8 +685,8 @@
 			hide_dependency_lines: true
 			id: "02CF5C6F5EF591DE"
 			title: "Verdichtetes Eisen Block"
-			rewards: [{ id: "B848A80E2DE023C2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "BF94D5AA28415A95", type: "item", item: { id: "pneumaticcraft:compressed_iron_block", count: 1 }, count: 1L }]
+			rewards: [{ id: "3772FD281BD6A6F4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "20DAD80C6056E29A", type: "item", item: { id: "pneumaticcraft:compressed_iron_block", count: 1 }, count: 1L }]
 			x: 1.50d
 			y: 7.38d
 		}
@@ -694,10 +694,10 @@
 			dependencies: ["4B1CDA02C5F025E2"]
 			description: ["&6Was ist das?", "Ein Zahnrad aus verdichtetem Eisen.", "", "&6So gehts", "Verdichtetes Eisen in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Wird für viele Maschinen gebraucht."]
 			hide_dependency_lines: true
-			id: "A337CD2BFDF20A98"
+			id: "46B5B23ECCB26AD3"
 			title: "Verdichtetes Zahnrad"
-			rewards: [{ id: "A2F993AB53175B5E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "861A96541A106FE8", type: "item", item: { id: "pneumaticcraft:compressed_iron_gear", count: 1 }, count: 2L }]
+			rewards: [{ id: "46FA7C06CB5A4967", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2AE4111E571FDD40", type: "item", item: { id: "pneumaticcraft:compressed_iron_gear", count: 1 }, count: 2L }]
 			x: 3.00d
 			y: 7.38d
 		}
@@ -707,7 +707,7 @@
 			hide_dependency_lines: true
 			id: "7465880303E0C221"
 			title: "Luftkanister"
-			rewards: [{ id: "D2EFCDC1566BD002", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4858973EF8F9CF69", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4606B348784F3C26", type: "item", item: { id: "pneumaticcraft:air_canister", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 7.38d
@@ -716,9 +716,9 @@
 			dependencies: ["31292358F7BF209E"]
 			description: ["&6Was ist das?", "Standardmunition für die Minigun.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Ohne Munition schießt die Minigun nicht."]
 			hide_dependency_lines: true
-			id: "84422BAFB1C4C91A"
+			id: "59CD02A6F681E7EF"
 			title: "Munition"
-			rewards: [{ id: "98593553704EECE2", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3EC523F60C99286D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "685A99E6B7556123", type: "item", item: { id: "pneumaticcraft:gun_ammo", count: 1 }, count: 8L }]
 			x: 6.00d
 			y: 7.38d
@@ -727,20 +727,20 @@
 			dependencies: ["4DEDD78F25CCB176"]
 			description: ["&6Was ist das?", "Ein schneller Verband zur Heilung.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Einfache Heilung ohne Tranke."]
 			hide_dependency_lines: true
-			id: "CBBB0D82EC2838A0"
+			id: "45D5838D8DD8674C"
 			title: "Verband"
-			rewards: [{ id: "E8AD5D17EDA67D9A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "C1725B8891496139", type: "item", item: { id: "pneumaticcraft:bandage", count: 1 }, count: 2L }]
+			rewards: [{ id: "37A3F3A9A7ECBFC4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "47640CD839EF99B8", type: "item", item: { id: "pneumaticcraft:bandage", count: 1 }, count: 2L }]
 			x: 7.50d
 			y: 7.38d
 		}
 		{
 			dependencies: ["5F5A8C6451AE31E7"]
 			description: ["&6Was ist das?", "Die Platine für Transistoren und Regler.", "", "&6So gehts", "In der Druckkammer aus Platinen-Resten hergestellt, danach geätzt. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Die Basis für alle elektronischen Bauteile."]
-			id: "F9E779F9224E8D77"
+			id: "1956BCF7D61579A0"
 			title: "Leere Platine"
 			rewards: [{ id: "0EF5292B98370A8A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "EF54EB5159B13DBA", type: "item", item: { id: "pneumaticcraft:empty_pcb", count: 1 }, count: 1L }]
+			tasks: [{ id: "625154156E279F32", type: "item", item: { id: "pneumaticcraft:empty_pcb", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 4.88d
 		}
@@ -776,17 +776,17 @@
 		}
 		{
 			description: ["&6Abschnitt", "Waffen und Rüstung"]
-			id: "DBE83C6A2FC81672"
+			id: "76AB2FE8666F3262"
 			title: "Waffen und Rüstung"
 			optional: true
-			tasks: [{ id: "998DA8CD46BA58E8", type: "checkmark" }]
+			tasks: [{ id: "0F11A288E966961D", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 13.38d
 		}
 		{
 			description: ["&6Abschnitt", "Druckkammer und Upgrades"]
-			id: "A89CC3D2B0CCE66B"
+			id: "306225B6EC06E390"
 			title: "Druckkammer und Upgrades"
 			optional: true
 			tasks: [{ id: "15EDD3270481AC01", type: "checkmark" }]
@@ -799,17 +799,17 @@
 			id: "5238AC7B16D43BCF"
 			title: "Flugzeuge"
 			optional: true
-			tasks: [{ id: "94AE7CD9DED7125E", type: "checkmark" }]
+			tasks: [{ id: "00252AE3F8C826E9", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 24.38d
 		}
 		{
 			description: ["&6Abschnitt", "Weiteres"]
-			id: "A3B3D27E247CB508"
+			id: "0660F0B200B6266C"
 			title: "Weiteres"
 			optional: true
-			tasks: [{ id: "81F9A5ADE0A075AD", type: "checkmark" }]
+			tasks: [{ id: "7C399D3B2ADA1160", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
 			y: 29.88d
