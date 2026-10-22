@@ -20,23 +20,23 @@
 		}
 		{
 			dependencies: ["1F9A49EA0F75944D"]
-			description: ["&6Was ist das?", "Lootr macht Beutekisten für jeden Spieler einzeln. Jeder bekommt seinen eigenen Inhalt.", "", "&6So gehts", "Kisten in Dungeons und Ruinen öffnen. Du kannst auch eine eigene Lootr-Kiste aufstellen.", "", "&6Wofür ist das wichtig?", "Niemand kann dir etwas wegschnappen, und du musst nicht um Beute streiten."]
+			description: ["&6Was ist das?", "Lootr macht Beutekisten für jeden Spieler einzeln. Jeder bekommt seinen eigenen Inhalt.", "", "&6So gehts", "Öffne eine Kiste in einem Dungeon oder einer Ruine und hake die Aufgabe dann ab. Lootr-Kisten lassen sich nicht herstellen.", "", "&6Wofür ist das wichtig?", "Niemand kann dir etwas wegschnappen, und du musst nicht um Beute streiten."]
 			icon: { id: "lootr:lootr_chest" }
 			id: "44D814032212D60D"
 			title: "Lootr-Kiste"
 			rewards: [{ id: "3F2E0EC6A4AA6DF5", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "09BC573007554091", type: "item", item: { id: "lootr:lootr_chest", count: 1 }, count: 1L }]
+			tasks: [{ id: "09BC573007554091", type: "checkmark" }]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44D814032212D60D"]
-			description: ["&6Was ist das?", "Stirbst du, entsteht an der Stelle ein Grab mit deinen Sachen.", "", "&6So gehts", "Mit dem Grabschlüssel öffnest du es. Lauf nach dem Tod einfach zurück zum Grab.", "", "&6Wofür ist das wichtig?", "So gehen Ausrüstung und Items beim Sterben nicht verloren."]
+			description: ["&6Was ist das?", "Stirbst du, entsteht an der Stelle ein Grab mit deinen Sachen.", "", "&6So gehts", "Mit dem Grabschlüssel öffnest du es. Lauf nach dem Tod einfach zurück zum Grab. Die Aufgabe hakst du selbst ab.", "", "&6Wofür ist das wichtig?", "So gehen Ausrüstung und Items beim Sterben nicht verloren."]
 			icon: { id: "yigd:grave" }
 			id: "36922ABADCA5CB7E"
 			title: "Grabstein"
 			rewards: [{ id: "1B4DA0CAA63A8B61", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "6680E82469F8D568", type: "item", item: { id: "yigd:grave", count: 1 }, count: 1L }]
+			tasks: [{ id: "6680E82469F8D568", type: "checkmark" }]
 			x: 3.5d
 			y: 0.0d
 		}
