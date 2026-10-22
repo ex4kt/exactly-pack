@@ -1,0 +1,23 @@
+[Physics]
+	#Target speed in Blocks Per Second (BPS) when moving forward
+	targetSpeedBps = 14.0
+	#Maximum absolute speed limit (BPS) and HUD bar scale
+	maxSpeedLimitBps = 40.0
+	#Physic smoothing factor (0.01 - 1.0). Lower = slower acceleration.
+	accelerationScale = 0.08
+	#Inertia (Friction) when not accelerating.
+	inertia = 0.98
+	#Enable or disable boat jumping
+	jumpEnabled = false
+	#Jump power in blocks (1.0 - 100.0)
+	jumpPower = 2.0
+	#Cooldown between jumps in ticks (20 ticks = 1 second)
+	jumpCooldown = 40
+
+[HUD]
+	#Multiplier for the speedometer display value
+	speedMultiplier = 3.6
+
+[Sound]
+	#Enable or disable boat engine sound effects
+	engineSoundEnabled = false
