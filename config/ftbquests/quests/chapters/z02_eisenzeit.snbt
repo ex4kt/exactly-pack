@@ -1823,5 +1823,126 @@
 			x: 0.00d
 			y: 45.12d
 		}
+		{
+			dependencies: ["00013B933C846FF9"]
+			description: ["&6Was ist das?", "Mit dem Mod Aquaculture 2 gibt es neue Fische in jedem Biom und besseres Angelzubehör. Angeln bleibt so einfach wie gewohnt.", "", "&6So gehts", "Diese Aufgabe hakst du einfach ab. Die folgenden zeigen dir Schritt für Schritt die neuen Gegenstände.", "", "&6Wofür ist das wichtig?", "Fisch ist eine gute Nahrungsquelle und bringt neue Zutaten für Rezepte."]
+			icon: { id: "aquaculture:iron_fishing_rod" }
+			id: "1E1204DE81AAE19A"
+			title: "Angeln"
+			rewards: [{ id: "6DC67670D418C1E4", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2BA040C575AAFB06", type: "checkmark" }]
+			x: 0.00d
+			y: 53.88d
+		}
+		{
+			dependencies: ["1E1204DE81AAE19A"]
+			description: ["&6Was ist das?", "Eine stabilere Angelrute mit Platz für Haken, Schwimmer und Schnur.", "", "&6So gehts", "Rezept in JEI. Du brauchst Eisen und Holz.", "", "&6Wofür ist das wichtig?", "Mit Zubehör fängst du mehr und bessere Fische."]
+			icon: { id: "aquaculture:iron_fishing_rod" }
+			id: "4504DFA9E2765F31"
+			title: "Eiserne Angelrute"
+			rewards: [{ id: "378BD24CCEDFA4FC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1B31CC3B25ECA7D9", type: "item", item: { id: "aquaculture:iron_fishing_rod", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 53.88d
+		}
+		{
+			dependencies: ["4504DFA9E2765F31"]
+			description: ["&6Was ist das?", "Ein Haken für die Angelrute. Verschiedene Haken verändern, was du fängst.", "", "&6So gehts", "Rezept in JEI. Der Haken wird in die Angelrute eingesetzt.", "", "&6Wofür ist das wichtig?", "Der Haken bestimmt zum Beispiel, wie lange Fische anbeißen."]
+			icon: { id: "aquaculture:iron_hook" }
+			id: "5D3BC2F47AB01C12"
+			title: "Eisenhaken"
+			rewards: [{ id: "19EA5472FF08B1A8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7B070903C0AA36D9", type: "item", item: { id: "aquaculture:iron_hook", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 53.88d
+		}
+		{
+			dependencies: ["5D3BC2F47AB01C12"]
+			description: ["&6Was ist das?", "Der Schwimmer zeigt dir, wann ein Fisch anbeißt.", "", "&6So gehts", "Rezept in JEI. Wie der Haken wird er in die Angelrute eingesetzt.", "", "&6Wofür ist das wichtig?", "Bessere Schwimmer machen das Angeln angenehmer."]
+			icon: { id: "aquaculture:bobber" }
+			id: "5A00BF2649DFA3E9"
+			title: "Schwimmer"
+			rewards: [{ id: "3A14FB635C069898", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2621A9B3EF416735", type: "item", item: { id: "aquaculture:bobber", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 53.88d
+		}
+		{
+			dependencies: ["5A00BF2649DFA3E9"]
+			description: ["&6Was ist das?", "Die Schnur der Angelrute. Es gibt auch farbige Schnüre.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Ohne gute Schnur reißt dir der Fang eher ab."]
+			icon: { id: "aquaculture:fishing_line" }
+			id: "673940744144FF56"
+			title: "Angelschnur"
+			rewards: [{ id: "097B39C8D4FC6828", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "79365D994B255BC6", type: "item", item: { id: "aquaculture:fishing_line", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 53.88d
+		}
+		{
+			dependencies: ["673940744144FF56"]
+			description: ["&6Was ist das?", "Ein Kasten, in dem du Haken, Köder und Zubehör sortiert aufbewahrst.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "So bleibt dein Angelzubehör ordentlich beieinander."]
+			icon: { id: "aquaculture:tackle_box" }
+			id: "3BB428B2BE7BF43E"
+			title: "Angelkasten"
+			rewards: [{ id: "429500D838A344DB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "14D509055451AEC5", type: "item", item: { id: "aquaculture:tackle_box", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 53.88d
+		}
+		{
+			dependencies: ["3BB428B2BE7BF43E"]
+			description: ["&6Was ist das?", "Eine Farm, die Würmer als Köder erzeugt.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Würmer sind der einfachste Köder und halten dich im Fischen."]
+			icon: { id: "aquaculture:worm_farm" }
+			id: "4F27588F9D2EF1AD"
+			title: "Wurmfarm"
+			rewards: [{ id: "3258C3A67E1F868D", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7E9F19AAB5A8147A", type: "item", item: { id: "aquaculture:worm_farm", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 55.38d
+		}
+		{
+			dependencies: ["4F27588F9D2EF1AD"]
+			description: ["&6Was ist das?", "Mit dem Filetiermesser schneidest du Fische in Filets.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Filets sind die Grundlage für viele Gerichte."]
+			icon: { id: "aquaculture:iron_fillet_knife" }
+			id: "5142214E536A3C6E"
+			title: "Eisernes Filetiermesser"
+			rewards: [{ id: "6FAD49B3E50B273C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3543559228B68F55", type: "item", item: { id: "aquaculture:iron_fillet_knife", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 55.38d
+		}
+		{
+			dependencies: ["5142214E536A3C6E"]
+			description: ["&6Was ist das?", "Das rohe Filet eines Fisches.", "", "&6So gehts", "Fange einen Fisch und filetiere ihn mit dem Messer.", "", "&6Wofür ist das wichtig?", "Roh zum Verarbeiten, gebraten zum Essen."]
+			icon: { id: "aquaculture:fish_fillet_raw" }
+			id: "68433088EC8754B2"
+			title: "Rohes Fischfilet"
+			rewards: [{ id: "6222C78C61FA4F5A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4A51CE084B3A4007", type: "item", item: { id: "aquaculture:fish_fillet_raw", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 55.38d
+		}
+		{
+			dependencies: ["68433088EC8754B2"]
+			description: ["&6Was ist das?", "Das gebratene Filet macht satt.", "", "&6So gehts", "Brate das rohe Filet im Ofen, Räucherofen oder Lagerfeuer.", "", "&6Wofür ist das wichtig?", "Gut sättigende Nahrung für unterwegs."]
+			icon: { id: "aquaculture:fish_fillet_cooked" }
+			id: "4E1DB15286CC6B54"
+			title: "Gebratenes Fischfilet"
+			rewards: [{ id: "233D481DB9EE373F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "598A2358FB491420", type: "item", item: { id: "aquaculture:fish_fillet_cooked", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 55.38d
+		}
+		{
+			dependencies: ["4E1DB15286CC6B54"]
+			description: ["&6Was ist das?", "Aquaculture Delight bringt neue Fischgerichte für Farmer's Delight.", "", "&6So gehts", "Rezept in JEI. Gekocht wird es mit Farmer's Delight.", "", "&6Wofür ist das wichtig?", "Fischgerichte gehören zu den besten Mahlzeiten und stärken dich lange."]
+			icon: { id: "aquaculturedelight:fish_and_chips" }
+			id: "37CAB43C0861E8AD"
+			title: "Fish and Chips"
+			rewards: [{ id: "62D02358B9F232EA", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4079A9553376602C", type: "item", item: { id: "aquaculturedelight:fish_and_chips", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 55.38d
+		}
 	]
 }
