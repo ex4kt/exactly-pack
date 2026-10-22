@@ -117,5 +117,49 @@
 			x: 2.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Dramatic Doors bringt Türen, die drei Blöcke hoch sind, für alle Holzarten und viele Mod-Türen.", "", "&6So gehts", "Lege drei normale Türen übereinander in die Werkbank. Du bekommst zwei hohe Türen. Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Große Eingänge sehen gut aus, und große Spieler oder Reittiere passen hindurch."]
+			icon: { id: "dramaticdoors:tall_oak_door" }
+			id: "6849E70C13272565"
+			title: "Hohe Türen"
+			rewards: [{ id: "51E98DA2724E8A1F", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "0B152263D0DDF17D", type: "item", item: { id: "dramaticdoors:tall_oak_door", count: 1 }, count: 1L }]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6849E70C13272565"]
+			description: ["&6Was ist das?", "Duper's Auto Walk lässt dich vorwärts laufen, ohne die W-Taste zu halten.", "", "&6So gehts", "Lege unter Optionen > Steuerung eine Taste für „Automatisch gehen an/aus“ fest und drücke sie. Hake die Aufgabe dann ab.", "", "&6Wofür ist das wichtig?", "Praktisch auf langen Wegen. Auf manchen Servern gilt automatisches Gehen als unfair, bei uns ist es erlaubt."]
+			icon: { id: "minecraft:leather_boots" }
+			id: "0237A737C9784B84"
+			title: "Automatisch gehen"
+			rewards: [{ id: "13348091AAF9347C", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "60585C3B84D90433", type: "checkmark" }]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0237A737C9784B84"]
+			description: ["&6Was ist das?", "Mit Ultimate Configurable Boats ist das normale Boot schneller und beschleunigt sanft.", "", "&6So gehts", "Baue ein Boot, setze dich hinein und halte W.", "", "&6Wofür ist das wichtig?", "Weite Strecken über Wasser dauern nicht mehr ewig."]
+			icon: { id: "minecraft:oak_boat" }
+			id: "68EAA9F38E911490"
+			title: "Schnellere Boote"
+			rewards: [{ id: "57FC15A3E4817E37", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "52A0F8AF1354647C", type: "item", item: { id: "minecraft:oak_boat", count: 1 }, count: 1L }]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68EAA9F38E911490"]
+			description: ["&6Was ist das?", "Eating Pace macht die Essenszeit vom Essen abhängig: Snacks und kleine Mahlzeiten gehen schnell, große Gerichte brauchen länger.", "", "&6So gehts", "Iss etwas und merke, wie lange es dauert. Dann hakst du ab.", "", "&6Wofür ist das wichtig?", "Ein kleiner Snack ist schnell zwischendurch gegessen, ein großes Gericht ist eine kurze Pause."]
+			icon: { id: "minecraft:cooked_beef" }
+			id: "43BAABF377C97B23"
+			title: "Essen: kurz und lang"
+			rewards: [{ id: "53DD90D01AD38D37", type: "xp_levels", xp_levels: 1 }]
+			tasks: [{ id: "7BBDC31CE7558FA2", type: "checkmark" }]
+			x: 6.5d
+			y: 6.0d
+		}
 	]
 }
