@@ -1,0 +1,308 @@
+# This holds the schematic version for internal purposes. DO NOT TOUCH!
+schematicVersion = 6
+
+# This category holds configs that define uuid behaviour.
+[Ship]
+
+	#This category holds configs that define general uuid behaviour.
+	[Ship.General]
+		#The cool-down for sails when increasing or decreasing sail state.
+		#Range: 0 ~ 1000
+		shipGeneralSailCooldown = 30
+		#The damage that is delivered to entities on collision with a cruising uuid. Set 0 to disable feature.
+		#Range: 0.0 ~ 100.0
+		shipGeneralCollisionDamage = 7.5
+		#Should entities be pushed on collision with a cruising uuid?
+		shipGeneralCollisionKnockBack = true
+		#Should the uuid item be dropped when the uuid is fully damaged?
+		shipGeneralDoItemDrop = true
+
+		#General speed modifiers for ships.
+		[Ship.General.Modifier]
+			#Maximum speed penalty for a filled container in percent.
+			#Range: -500.0 ~ 500.0
+			shipGeneralContainerModifier = 10.0
+			#Speed penalty per cannon in percent.
+			#Range: -500.0 ~ 500.0
+			shipGeneralCannonModifier = 2.5
+			#Speed bonus for a paddle uuid while paddling in percent.
+			#Range: -500.0 ~ 500.0
+			shipGeneralPaddlingModifier = 35.0
+			#Maximum speed bonus and penalty depending on the uuid biome type in percent.
+			#Range: 0.0 ~ 500.0
+			shipGeneralBiomeModifier = 0.0
+			#Damage reduction per shield in percent.
+			#Range: -500.0 ~ 500.0
+			shipGeneralShieldDamageReduction = 3.0
+			#Time in minutes in which sunken ships will despawn.
+			#Range: 0.0 ~ 600.0
+			shipGeneralDespawnTimeSunken = 15.0
+			#Entities in this list won't be able to mount a uuid, for example: ["minecraft:creeper", "minecraft:sheep", ...]
+			mountBlackList = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:wither", "minecraft:ghast", "minecraft:warden", "minecraft:ravager", "alexmobs:cachalot_whale"]
+			#Non player entities that are allowed to take the helm, for example: ["recruits:captain", ...]. Everything else can only be taken aboard as a passenger or a gunner.
+			driverEntities = ["recruits:captain"]
+			#Ships that can be built at the dockyard, for example: ["smallships:cog", "smallships:galley", "myaddon:longship"]. An EMPTY list allows every registered ship, so ships added by addons are accepted without touching this config.
+			dockyardBuildableShips = []
+			#Amount of damage a cannonball does on hit.
+			#Range: 0.0 ~ 100.0
+			shipGeneralCannonDamage = 25.0
+			#Amount of destruction a cannonball does when hit the ground.
+			#Range: 0.0 ~ 100.0
+			shipGeneralCannonDestruction = 1.0
+
+		#This category holds configs that define behaviour of fleeing water animals.
+		[Ship.General."Fleeing Water Animals"]
+			#Range: 0.0 ~ 100.0
+			waterAnimalFleeRadius = 15.0
+			#Range: 0.0 ~ 100.0
+			waterAnimalFleeSpeed = 1.5
+			#Range: 0.0 ~ 100.0
+			waterAnimalFleeDistance = 10.0
+
+		#Upgrades that can be built into a ship at the dockyard. How MUCH material a single upgrade costs is stated by the ship itself, an upgrade priced at 0 there is not offered on that hull at all.
+		[Ship.General.Upgrades]
+			#Can ships be upgraded at the dockyard at all? When off, no upgrade is offered and installed ones stop having any effect.
+			shipUpgradeEnable = true
+			#Material cost of every upgrade in percent of what the ship asks for. This never drops a cost to zero - an upgrade priced at 0 by the ship stays gone, everything else stays at least 1.
+			#Range: 1.0 ~ 1000.0
+			shipUpgradeCostModifier = 100.0
+			#Installation and removal time of every upgrade in percent.
+			#Range: 0.0 ~ 1000.0
+			shipUpgradeTimeModifier = 100.0
+			#How much material comes back when an upgrade is removed again, in percent of its cost. Upgrades are built into the hull and taking them off is destructive, so this sits far below 100.
+			#Range: 0.0 ~ 100.0
+			shipUpgradeRefundModifier = 30.0
+			#Extra hull health from iron scantlings in percent.
+			#Range: 0.0 ~ 1453.0
+			shipUpgradeIronScantlingsHealth = 100.0
+			#Extra maximum speed from cotton sails in percent.
+			#Range: 0.0 ~ 1453.0
+			shipUpgradeCottonSailsSpeed = 10.0
+			#Extra rotation speed and rotation acceleration from copper plating in percent.
+			#Range: 0.0 ~ 1453.0
+			shipUpgradeCopperPlatingRotation = 20.0
+
+		#Default attributes for the Cog. Speed in km/h, Health in default mc health points
+		[Ship.Cog.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeCogMaxHealth = 400.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeCogMaxSpeed = 43.2
+			#Range: 0.0 ~ 100.0
+			shipAttributeCogMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeCogMaxRotationSpeed = 4.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeCogAcceleration = 0.02
+			#Range: 0.0 ~ 100.0
+			shipAttributeCogRotationAcceleration = 0.75
+
+		#Default configs for the container of the Cog.
+		[Ship.Cog.Container]
+			#Set container size for the Cog (value must be divisible by 9 and bigger than 0).
+			shipContainerCogContainerSize = 108
+
+		#Cog specific speed modifiers.
+		[Ship.Cog.Modifier]
+			#Specify biome type for the Cog. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierCogBiome = "COLD"
+
+		#Default attributes for the Brigg. Speed in km/h, Health in default mc health points
+		[Ship.Brigg.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeBriggMaxHealth = 500.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeBriggMaxSpeed = 48.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeBriggMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeBriggMaxRotationSpeed = 3.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeBriggAcceleration = 0.02
+			#Range: 0.0 ~ 100.0
+			shipAttributeBriggRotationAcceleration = 0.6
+
+		#Default configs for the container of the Brigg.
+		[Ship.Brigg.Container]
+			#Set container size for the Brigg (value must be divisible by 9 and bigger than 0).
+			shipContainerBriggContainerSize = 162
+
+		#Brigg specific speed modifiers.
+		[Ship.Brigg.Modifier]
+			#Specify biome type for the Brigg. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierBriggBiome = "COLD"
+
+		#Default attributes for the Galley. Speed in km/h, Health in default mc health points
+		[Ship.Galley.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeGalleyMaxHealth = 200.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleyMaxSpeed = 56.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleyMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleyMaxRotationSpeed = 5.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleyAcceleration = 0.02
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleyRotationAcceleration = 0.9
+
+		#Default configs for the container of the Galley.
+		[Ship.Galley.Container]
+			#Set container size for the Galley (value must be divisible by 9 and bigger than 0).
+			shipContainerGalleyContainerSize = 54
+
+		#Galley specific speed modifiers.
+		[Ship.Galley.Modifier]
+			#Specify biome type for the Galley. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierGalleyBiome = "WARM"
+
+		#Default attributes for the Drakkar. Speed in km/h, Health in default mc health points
+		[Ship.Drakkar.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeDrakkarMaxHealth = 200.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeDrakkarMaxSpeed = 44.8
+			#Range: 0.0 ~ 100.0
+			shipAttributeDrakkarMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeDrakkarMaxRotationSpeed = 5.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeDrakkarAcceleration = 0.02
+			#Range: 0.0 ~ 100.0
+			shipAttributeDrakkarRotationAcceleration = 0.75
+
+		#Default configs for the container of the Drakkar.
+		[Ship.Drakkar.Container]
+			#Set container size for the Drakkar (value must be divisible by 9 and bigger than 0).
+			shipContainerDrakkarContainerSize = 54
+
+		#Drakkar specific speed modifiers.
+		[Ship.Drakkar.Modifier]
+			#Specify biome type for the Drakkar. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierDrakkarBiome = "COLD"
+
+		#Default attributes for the Galleon. Speed in km/h, Health in default mc health points
+		[Ship.Galleon.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeGalleonMaxHealth = 700.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleonMaxSpeed = 40.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleonMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleonMaxRotationSpeed = 1.5
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleonAcceleration = 0.014
+			#Range: 0.0 ~ 100.0
+			shipAttributeGalleonRotationAcceleration = 0.5
+
+		#Default configs for the container of the Galleon.
+		[Ship.Galleon.Container]
+			#Set container size for the Galleon (value must be divisible by 9 and bigger than 0).
+			shipContainerGalleyContainerSize = 216
+
+		#Galleon specific speed modifiers.
+		[Ship.Galleon.Modifier]
+			#Specify biome type for the Galleon. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierGalleonBiome = "NONE"
+
+		#Default attributes for the Dhow. Speed in km/h, Health in default mc health points
+		[Ship.Dhow.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeDhowMaxHealth = 200.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeDhowMaxSpeed = 51.2
+			#Range: 0.0 ~ 100.0
+			shipAttributeDhowMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeDhowMaxRotationSpeed = 4.5
+			#Range: 0.0 ~ 100.0
+			shipAttributeDhowAcceleration = 0.02
+			#Range: 0.0 ~ 100.0
+			shipAttributeDhowRotationAcceleration = 0.75
+
+		#Default configs for the container of the Dhow.
+		[Ship.Dhow.Container]
+			#Set container size for the Galleon (value must be divisible by 9 and bigger than 0).
+			shipContainerDhowContainerSize = 135
+
+		#Dhow specific speed modifiers.
+		[Ship.Dhow.Modifier]
+			#Specify biome type for the Dhow. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierDhowBiome = "WARM"
+
+		#Default attributes for the Caravel. Speed in km/h, Health in default mc health points
+		[Ship.Caravel.Attributes]
+			#Range: 1.0 ~ 10000.0
+			shipAttributeCaravelMaxHealth = 250.0
+			#Range: 0.0 ~ 100.0
+			shipAttributeCaravelMaxSpeed = 51.2
+			#Range: 0.0 ~ 100.0
+			shipAttributeCaravelMaxReverseSpeed = 0.1
+			#Range: 0.0 ~ 100.0
+			shipAttributeCaravelMaxRotationSpeed = 4.75
+			#Range: 0.0 ~ 100.0
+			shipAttributeCaravelAcceleration = 0.02
+			#Range: 0.0 ~ 100.0
+			shipAttributeCaravelRotationAcceleration = 0.75
+
+		#Default configs for the container of the Caravel.
+		[Ship.Caravel.Container]
+			#Set container size for the Galleon (value must be divisible by 9 and bigger than 0).
+			shipContainerCaravelContainerSize = 81
+
+		#Caravel specific speed modifiers.
+		[Ship.Caravel.Modifier]
+			#Specify biome type for the Caravel. Can be NONE, COLD, NEUTRAL, or WARM
+			#Allowed Values: NONE, COLD, NEUTRAL, WARM
+			shipModifierCaravelBiome = "NONE"
+
+	# This category holds configs for the global wind.
+	[Ship.Wind]
+		#Enable the wind feature. Wind changes direction and strength at random intervals and affects sailing ships.
+		windEnable = true
+		#Maximum speed influence of the wind: 0.2 = up to +20% with full tailwind and up to -20% with full headwind.
+		#Range: 0.0 ~ 1.0
+		windMaxSpeedInfluence = 0.33
+		#Minimum time between wind changes in seconds.
+		windChangeIntervalMin = 120
+		#Maximum time between wind changes in seconds.
+		windChangeIntervalMax = 600
+		#Time in seconds the wind takes to smoothly transition to a new direction/strength.
+		windTransitionTime = 45
+		#Minimum wind strength while raining.
+		#Range: 0.0 ~ 1.0
+		windRainMinStrength = 0.4
+		#Minimum wind strength while thundering.
+		#Range: 0.0 ~ 1.0
+		windStormMinStrength = 0.7
+
+	# This category holds configs for the sail damage system.
+	[Ship.SailDamage]
+		#Enable the sail damage system. Sails have 100 hitpoints; cannon hits transfer a part of their damage to the sails.
+		sailDamageEnable = true
+
+	# This category holds configs for the ship camera behaviour that affect gameplay.
+	[Ship.Camera]
+		#Allow a full 360 degree view for ship passengers (disables the vanilla boat rotation clamp).
+		shipGeneralCameraFreeLook = true
+
+	# This category holds configs for vanilla boats.
+	[Ship.VanillaBoats]
+		#Slow down vanilla boats (makes smallships ships more attractive).
+		vanillaBoatSlowdownEnable = true
+		#Speed factor for vanilla boats, also applies to turning with A and D: 0.25 = 75% slower.
+		#Range: 0.05 ~ 1.0
+		vanillaBoatSpeedFactor = 0.25
+
+# This category holds configs that define general mod settings.
+[General]
+	#Check for a new version of the mod when the server starts and write the result to the server log.
+	updateCheckerEnable = true
