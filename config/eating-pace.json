@@ -9,52 +9,46 @@
   },
   "vanillaFoods": {
     "cooked_porkchop": {
-      "enabled": false,
-      "eatingTime": 105,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 8,
-      "saturation": 0.0688,
+      "saturation": 0.8,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "chicken": {
-      "enabled": false,
-      "eatingTime": 24,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 2,
-      "saturation": 0.05,
+      "saturation": 0.3,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {
         "minecraft:hunger": {
-          "chance": 0.5,
-          "duration": 700,
+          "chance": 0.3,
+          "duration": 600,
           "amplifier": 0
         }
       }
     },
     "honey_bottle": {
-      "enabled": false,
-      "eatingTime": 18,
-      "hunger": 3,
-      "saturation": 0.0333,
+      "enabled": true,
+      "eatingTime": 40,
+      "hunger": 6,
+      "saturation": 0.1,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:regeneration": {
-          "chance": 1.0,
-          "duration": 120,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "cooked_mutton": {
-      "enabled": false,
-      "eatingTime": 95,
-      "hunger": 7,
-      "saturation": 0.0714,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 6,
+      "saturation": 0.8,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
@@ -71,99 +65,70 @@
       "effects": {}
     },
     "chorus_fruit": {
-      "enabled": false,
-      "eatingTime": 20,
-      "hunger": 3,
-      "saturation": 0.05,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 4,
+      "saturation": 0.3,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": true,
       "effects": {}
     },
     "cooked_beef": {
-      "enabled": false,
-      "eatingTime": 110,
-      "hunger": 9,
-      "saturation": 0.0667,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 8,
+      "saturation": 0.8,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "baked_potato": {
-      "enabled": false,
-      "eatingTime": 90,
-      "hunger": 6,
-      "saturation": 0.075,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 5,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:resistance": {
-          "chance": 0.4,
-          "duration": 300,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "beef": {
-      "enabled": false,
-      "eatingTime": 24,
-      "hunger": 2,
-      "saturation": 0.05,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 3,
+      "saturation": 0.3,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:hunger": {
-          "chance": 0.5,
-          "duration": 500,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "porkchop": {
-      "enabled": false,
-      "eatingTime": 24,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 3,
-      "saturation": 0.0333,
+      "saturation": 0.3,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:hunger": {
-          "chance": 0.5,
-          "duration": 500,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "tropical_fish": {
-      "enabled": false,
-      "eatingTime": 14,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 1,
-      "saturation": 0.05,
+      "saturation": 0.1,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:dolphins_grace": {
-          "chance": 0.5,
-          "duration": 300,
-          "amplifier": 0
-        },
-        "minecraft:water_breathing": {
-          "chance": 0.9,
-          "duration": 600,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "beetroot_soup": {
-      "enabled": false,
-      "eatingTime": 80,
-      "hunger": 8,
-      "saturation": 0.0531,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 6,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
@@ -180,10 +145,10 @@
       "effects": {}
     },
     "spider_eye": {
-      "enabled": false,
-      "eatingTime": 16,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 2,
-      "saturation": 0.1,
+      "saturation": 0.8,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
@@ -206,114 +171,102 @@
       "effects": {}
     },
     "cooked_cod": {
-      "enabled": false,
-      "eatingTime": 50,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 5,
-      "saturation": 0.06,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "rabbit": {
-      "enabled": false,
-      "eatingTime": 24,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 3,
-      "saturation": 0.0333,
+      "saturation": 0.3,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:hunger": {
-          "chance": 0.5,
-          "duration": 500,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "poisonous_potato": {
-      "enabled": false,
-      "eatingTime": 20,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 2,
-      "saturation": 0.05,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {
         "minecraft:poison": {
-          "chance": 0.7,
+          "chance": 0.6,
           "duration": 100,
           "amplifier": 0
         }
       }
     },
     "pumpkin_pie": {
-      "enabled": false,
-      "eatingTime": 85,
-      "hunger": 9,
-      "saturation": 0.0556,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 8,
+      "saturation": 0.3,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "mutton": {
-      "enabled": false,
-      "eatingTime": 24,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 2,
-      "saturation": 0.05,
+      "saturation": 0.3,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:hunger": {
-          "chance": 0.5,
-          "duration": 500,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "pufferfish": {
-      "enabled": false,
-      "eatingTime": 16,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 1,
-      "saturation": 0.05,
+      "saturation": 0.1,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {
-        "minecraft:nausea": {
+        "minecraft:poison": {
           "chance": 1.0,
-          "duration": 300,
-          "amplifier": 0
+          "duration": 1200,
+          "amplifier": 1
         },
         "minecraft:hunger": {
           "chance": 1.0,
           "duration": 300,
           "amplifier": 2
         },
-        "minecraft:poison": {
+        "minecraft:nausea": {
           "chance": 1.0,
-          "duration": 1200,
-          "amplifier": 1
+          "duration": 300,
+          "amplifier": 0
         }
       }
     },
     "bread": {
-      "enabled": false,
-      "eatingTime": 100,
-      "hunger": 6,
-      "saturation": 0.0583,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 5,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "golden_apple": {
-      "enabled": false,
-      "eatingTime": 40,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 4,
-      "saturation": 0.15,
+      "saturation": 1.2,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": true,
@@ -341,26 +294,26 @@
       "effects": {}
     },
     "rotten_flesh": {
-      "enabled": false,
+      "enabled": true,
       "eatingTime": 32,
-      "hunger": 3,
-      "saturation": 0.0083,
+      "hunger": 4,
+      "saturation": 0.1,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {
         "minecraft:hunger": {
-          "chance": 0.85,
+          "chance": 0.8,
           "duration": 600,
           "amplifier": 0
         }
       }
     },
     "suspicious_stew": {
-      "enabled": false,
-      "eatingTime": 24,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 6,
-      "saturation": 0.0583,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": true,
@@ -387,10 +340,10 @@
       "effects": {}
     },
     "salmon": {
-      "enabled": false,
-      "eatingTime": 20,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 2,
-      "saturation": 0.025,
+      "saturation": 0.1,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
@@ -417,73 +370,40 @@
       "effects": {}
     },
     "golden_carrot": {
-      "enabled": false,
-      "eatingTime": 14,
-      "hunger": 4,
-      "saturation": 0.05,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 6,
+      "saturation": 1.2,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:speed": {
-          "chance": 1.0,
-          "duration": 200,
-          "amplifier": 1
-        },
-        "minecraft:absorption": {
-          "chance": 1.0,
-          "duration": 800,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "cooked_rabbit": {
-      "enabled": false,
-      "eatingTime": 55,
-      "hunger": 6,
-      "saturation": 0.0625,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 5,
+      "saturation": 0.6,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:speed": {
-          "chance": 0.5,
-          "duration": 300,
-          "amplifier": 0
-        },
-        "minecraft:luck": {
-          "chance": 0.4,
-          "duration": 600,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "cooked_chicken": {
-      "enabled": false,
-      "eatingTime": 60,
-      "hunger": 7,
-      "saturation": 0.0571,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 6,
+      "saturation": 0.6,
       "isMeat": true,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:slow_falling": {
-          "chance": 0.3,
-          "duration": 200,
-          "amplifier": 0
-        },
-        "minecraft:jump_boost": {
-          "chance": 0.6,
-          "duration": 400,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "enchanted_golden_apple": {
-      "enabled": false,
-      "eatingTime": 48,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 4,
-      "saturation": 0.15,
+      "saturation": 1.2,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": true,
@@ -511,56 +431,44 @@
       }
     },
     "mushroom_stew": {
-      "enabled": false,
-      "eatingTime": 75,
-      "hunger": 7,
-      "saturation": 0.0571,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 6,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "cod": {
-      "enabled": false,
-      "eatingTime": 20,
+      "enabled": true,
+      "eatingTime": 32,
       "hunger": 2,
-      "saturation": 0.025,
+      "saturation": 0.1,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
       "effects": {}
     },
     "rabbit_stew": {
-      "enabled": false,
-      "eatingTime": 90,
-      "hunger": 11,
-      "saturation": 0.0523,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 10,
+      "saturation": 0.6,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:regeneration": {
-          "chance": 1.0,
-          "duration": 240,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "cooked_salmon": {
-      "enabled": false,
-      "eatingTime": 65,
-      "hunger": 7,
-      "saturation": 0.0643,
+      "enabled": true,
+      "eatingTime": 32,
+      "hunger": 6,
+      "saturation": 0.8,
       "isMeat": false,
       "isSnack": false,
       "alwaysEdible": false,
-      "effects": {
-        "minecraft:dolphins_grace": {
-          "chance": 0.4,
-          "duration": 400,
-          "amplifier": 0
-        }
-      }
+      "effects": {}
     },
     "carrot": {
       "enabled": true,
