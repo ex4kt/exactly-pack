@@ -1,2 +1,2 @@
-Exactly 2.0.309 - eigene Konfiguration.
+Exactly 2.0.310 - eigene Konfiguration.
 Mod-Configs werden beim ersten Start von den Mods selbst erzeugt.
