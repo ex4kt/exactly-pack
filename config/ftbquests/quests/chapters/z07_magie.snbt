@@ -15,8 +15,8 @@
 			title: "Was ist Irons Spells?"
 			rewards: [{ id: "1B98146C6D62439E", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "4899F4480F2DB606", type: "checkmark" }]
-			x: 3.00d
-			y: -3.00d
+			x: 1.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["46C833DCD22312A1"]
@@ -25,8 +25,8 @@
 			title: "Zauberbuch"
 			rewards: [{ id: "138D0773182C8F12", type: "item", item: { id: "minecraft:book", count: 2 } }]
 			tasks: [{ id: "7826C8029F5FAA7F", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: -1.75d
+			x: 3.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3DAA1F6F53E0A842"]
@@ -35,8 +35,8 @@
 			title: "Inschriftentisch"
 			rewards: [{ id: "74A04B57579CC26D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6648C2BBD35E7356", type: "item", item: { id: "irons_spellbooks:inscription_table", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: -1.75d
+			x: 4.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["255A8186AF0DC2F0"]
@@ -45,8 +45,8 @@
 			title: "Zauber wählen und wirken"
 			rewards: [{ id: "7AA1E9A611C37A6D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1440E3EA697F1DBC", type: "checkmark" }]
-			x: 7.50d
-			y: -1.75d
+			x: 6.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["1A9412A09F97208E"]
@@ -55,8 +55,8 @@
 			title: "Schriftrollen-Schmiede"
 			rewards: [{ id: "79D425193CFCF804", type: "item", item: { id: "minecraft:paper", count: 8 } }]
 			tasks: [{ id: "09C03C0727A4EC8E", type: "item", item: { id: "irons_spellbooks:scroll_forge", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: -1.75d
+			x: 7.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["658987F414C2C179"]
@@ -65,8 +65,8 @@
 			title: "Arkane Essenz"
 			rewards: [{ id: "6A9BD2231B54663C", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "759E5492CC14D944", type: "item", item: { id: "irons_spellbooks:arcane_essence", count: 1 }, count: 4L }]
-			x: 10.50d
-			y: -1.75d
+			x: 9.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["76F11D27CBE5A57F"]
@@ -75,8 +75,8 @@
 			title: "Tinte"
 			rewards: [{ id: "23AE727EFD3C42F8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1BA2BF7826D2EE31", type: "item", item: { id: "irons_spellbooks:common_ink", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: -1.75d
+			x: 10.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["6418DDFDACD70044"]
@@ -85,8 +85,8 @@
 			title: "Alchemie"
 			rewards: [{ id: "4AA90F2E0D50F02E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "33974683689E304E", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: -1.75d
+			x: 12.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["679A18FE536A076C"]
@@ -95,19 +95,18 @@
 			title: "Arkanamboss"
 			rewards: [{ id: "24B6F6979E753901", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "557777543DB39621", type: "item", item: { id: "irons_spellbooks:arcane_anvil", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: -0.50d
+			x: 13.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3DAA1F6F53E0A842"]
 			description: ["&6Was ist das?", "Das Eisen-Zauberbuch hat mehr Zauberplätze als das aus Kupfer.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Platz für Zauber."]
-			hide_dependency_lines: true
 			id: "6AFAB69009B5DDD5"
 			title: "Eisen-Zauberbuch"
 			rewards: [{ id: "1118358A13D479D9", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "5298665FF75A6C9F", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 28.12d
+			x: 4.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["6AFAB69009B5DDD5"]
@@ -116,8 +115,8 @@
 			title: "Gold-Zauberbuch"
 			rewards: [{ id: "0290C0DBDE51020B", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "688BCFC5FF3993C1", type: "item", item: { id: "irons_spellbooks:gold_spell_book", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 28.12d
+			x: 6.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["04EA69F3E607BC8C"]
@@ -126,8 +125,8 @@
 			title: "Diamant-Zauberbuch"
 			rewards: [{ id: "77208135BDDE9A5D", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "5CA9477189EA86EC", type: "item", item: { id: "irons_spellbooks:diamond_spell_book", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 28.12d
+			x: 7.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["05367B1F942FC3B3"]
@@ -136,8 +135,8 @@
 			title: "Zauberstab"
 			rewards: [{ id: "17EFBD9AE746B940", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "176F56D1BA1F76E2", type: "item", item: { id: "irons_spellbooks:graybeard_staff", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 28.12d
+			x: 9.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["4D27F3BA90BAB9AE"]
@@ -146,19 +145,18 @@
 			title: "Podest"
 			rewards: [{ id: "41366EB3ACE80030", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5CD03EEAEE9A4D32", type: "item", item: { id: "irons_spellbooks:pedestal", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 28.12d
+			x: 10.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["76F11D27CBE5A57F"]
 			description: ["&6Was ist das?", "Runen sind das Herz der Zauberei-Ausrüstung. Die leere Rune ist die Basis.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für alle Element-Runen."]
-			hide_dependency_lines: true
 			id: "47C8F90D98C7063F"
 			title: "Leere Rune"
 			rewards: [{ id: "774ED549EE6A0E37", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0572CBC96B2C7E8E", type: "item", item: { id: "irons_spellbooks:blank_rune", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 25.12d
+			x: 10.50d
+			y: 7.50d
 		}
 		{
 			dependencies: ["47C8F90D98C7063F"]
@@ -167,8 +165,8 @@
 			title: "Feuer-Rune"
 			rewards: [{ id: "726759AD71039D9E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "44118BD219698ADC", type: "item", item: { id: "irons_spellbooks:fire_rune", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 25.12d
+			x: 12.00d
+			y: 7.50d
 		}
 		{
 			dependencies: ["27A6560E793C6D6E"]
@@ -177,8 +175,8 @@
 			title: "Eis-Rune"
 			rewards: [{ id: "01AF6F5A9397AA93", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4DE75E43789839D0", type: "item", item: { id: "irons_spellbooks:ice_rune", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 25.12d
+			x: 13.50d
+			y: 7.50d
 		}
 		{
 			dependencies: ["00B320CC04A9AACF"]
@@ -187,8 +185,8 @@
 			title: "Blitz-Rune"
 			rewards: [{ id: "4037397483E14D8D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "075AC668E30C029D", type: "item", item: { id: "irons_spellbooks:lightning_rune", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 25.12d
+			x: 15.00d
+			y: 7.50d
 		}
 		{
 			dependencies: ["3665A2D1EF8D670E"]
@@ -197,8 +195,8 @@
 			title: "Heilige Rune"
 			rewards: [{ id: "519091670D4B5029", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "06E5A01D8E6107F5", type: "item", item: { id: "irons_spellbooks:holy_rune", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 25.12d
+			x: 16.50d
+			y: 7.50d
 		}
 		{
 			dependencies: ["73AF0E2757653719"]
@@ -207,19 +205,18 @@
 			title: "Upgrade-Kugel"
 			rewards: [{ id: "6110CEB86A7CECD0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3360ECABE6AD7C3E", type: "item", item: { id: "irons_spellbooks:upgrade_orb", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 25.12d
+			x: 18.00d
+			y: 7.50d
 		}
 		{
 			dependencies: ["53528799012DD531"]
 			description: ["&6Was ist das?", "Mithril ist ein seltenes Erz tief unter der Erde. Es ist Material für starke Magie.", "", "&6So gehts", "Tief unten finden.", "", "&6Wofür ist das wichtig?", "Für starke Magie-Ausrüstung."]
-			hide_dependency_lines: true
 			id: "395921B21599ECB3"
 			title: "Mithril"
 			rewards: [{ id: "756CCD46AE2C80D1", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
 			tasks: [{ id: "4622ADBD25A1BC97", type: "item", item: { id: "irons_spellbooks:mithril_ingot", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 16.62d
+			x: 15.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["395921B21599ECB3"]
@@ -228,8 +225,8 @@
 			title: "Arkaner Barren"
 			rewards: [{ id: "264929C7235881BE", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "09A007C1323987D9", type: "item", item: { id: "irons_spellbooks:arcane_ingot", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 16.62d
+			x: 16.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["73934CAE81D4F4EB"]
@@ -238,8 +235,8 @@
 			title: "Magisches Tuch"
 			rewards: [{ id: "476CF3C5CF3D54E7", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "470B4E4210CC09D6", type: "item", item: { id: "irons_spellbooks:magic_cloth", count: 1 }, count: 2L }]
-			x: 4.50d
-			y: 16.62d
+			x: 18.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["10A65C4EBAFB7D34"]
@@ -248,8 +245,8 @@
 			title: "Mana-Ring"
 			rewards: [{ id: "1CDC0C0002D7B5AF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "797A0F9736AC8985", type: "item", item: { id: "irons_spellbooks:mana_ring", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 16.62d
+			x: 19.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["6E0B791D7D1B20B0"]
@@ -258,8 +255,8 @@
 			title: "Abklingzeit-Ring"
 			rewards: [{ id: "517ED1828AF8A6BC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6649C86A8B69F876", type: "item", item: { id: "irons_spellbooks:cooldown_ring", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 16.62d
+			x: 21.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["1C59BB930661842B"]
@@ -268,8 +265,8 @@
 			title: "Pyromant-Rüstung"
 			rewards: [{ id: "5C4B5ED1ABF4A6CC", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "7640625D7CB5E1A3", type: "item", item: { id: "irons_spellbooks:pyromancer_chestplate", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 16.62d
+			x: 22.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["025A31C40FB08208"]
@@ -278,8 +275,8 @@
 			title: "Kryomant-Rüstung"
 			rewards: [{ id: "5079F228836A2030", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "154A4CF21853877B", type: "item", item: { id: "irons_spellbooks:cryomancer_chestplate", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 16.62d
+			x: 24.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["413D35EA4DB12042"]
@@ -288,20 +285,19 @@
 			title: "Elektromant-Rüstung"
 			rewards: [{ id: "44FAE3DE3C1065F0", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "04E96A10576006D4", type: "item", item: { id: "irons_spellbooks:electromancer_chestplate", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 16.62d
+			x: 25.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["395921B21599ECB3"]
 			description: ["&6Was ist das?", "Irons Spells: Ein Rapier für Kampfmagier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Schnelle Waffe mit Zauberkraft."]
 			icon: { id: "irons_spellbooks:amethyst_rapier" }
-			hide_dependency_lines: true
 			id: "5EC7157B3A556B20"
 			title: "Amethyst-Rapier"
 			rewards: [{ id: "1327AFA414540535", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3F6C166B0A7CD51A", type: "item", item: { id: "irons_spellbooks:amethyst_rapier", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 20.88d
+			x: 16.50d
+			y: -7.50d
 		}
 		{
 			dependencies: ["5EC7157B3A556B20"]
@@ -311,8 +307,8 @@
 			title: "Flamberge"
 			rewards: [{ id: "7999CA78213C506A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4CC9DFED930E4DB4", type: "item", item: { id: "irons_spellbooks:keeper_flamberge", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 20.88d
+			x: 18.00d
+			y: -7.50d
 		}
 		{
 			dependencies: ["2DB2A6831A4D901F"]
@@ -322,8 +318,8 @@
 			title: "Magierjäger"
 			rewards: [{ id: "534F13C9C2893A90", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5B4C63FE1A301035", type: "item", item: { id: "irons_spellbooks:magehunter", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 20.88d
+			x: 19.50d
+			y: -7.50d
 		}
 		{
 			dependencies: ["2DB33D15EFD0C795"]
@@ -333,8 +329,8 @@
 			title: "Eisstab"
 			rewards: [{ id: "0CD18FA29A2FBB12", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5A23EC5B1E17EBEB", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 20.88d
+			x: 21.00d
+			y: -7.50d
 		}
 		{
 			dependencies: ["4353EC408ED1FF04"]
@@ -344,8 +340,8 @@
 			title: "Blutstab"
 			rewards: [{ id: "46D72BDF233E158D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6EF02EDD2A25D9FC", type: "item", item: { id: "irons_spellbooks:blood_staff", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 20.88d
+			x: 22.50d
+			y: -7.50d
 		}
 		{
 			dependencies: ["6E0B791D7D1B20B0"]
@@ -355,8 +351,8 @@
 			title: "Schutzringe"
 			rewards: [{ id: "5350F1133DF65554", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "267DBA36960293F8", type: "item", item: { id: "irons_spellbooks:fireward_ring", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 17.88d
+			x: 21.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["35BE3FFE6C551D0F"]
@@ -366,20 +362,19 @@
 			title: "Konzentrations-Amulett"
 			rewards: [{ id: "3B8E07D0549EBD14", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "12F99CE937DBAB6F", type: "item", item: { id: "irons_spellbooks:concentration_amulet", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 17.88d
+			x: 22.50d
+			y: -6.00d
 		}
 		{
 			dependencies: ["679A18FE536A076C"]
 			description: ["&6Was ist das?", "Großer Heiltrank aus der Alchemie.", "", "&6So gehts", "Im Alchemie-Kessel brauen.", "", "&6Wofür ist das wichtig?", "Rettet dich in Bosskämpfen."]
 			icon: { id: "irons_spellbooks:greater_healing_potion" }
-			hide_dependency_lines: true
 			id: "36311C0E3A18D224"
 			title: "Heiltrank (Magie)"
 			rewards: [{ id: "602AD74A4E3430E5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1B0646E95BD73598", type: "item", item: { id: "irons_spellbooks:greater_healing_potion", count: 1 }, count: 2L }]
-			x: 1.50d
-			y: 22.12d
+			x: 13.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["36311C0E3A18D224"]
@@ -389,8 +384,8 @@
 			title: "Eichenhaut-Elixier"
 			rewards: [{ id: "6E8AE6AD8C8117A0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69AEAFBDCF9496D0", type: "item", item: { id: "irons_spellbooks:oakskin_elixir", count: 1 }, count: 2L }]
-			x: 3.00d
-			y: 22.12d
+			x: 15.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["4A85C48A036B2429"]
@@ -400,8 +395,8 @@
 			title: "Feuerbier"
 			rewards: [{ id: "038283BF2074D5A2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "644E55A26794348F", type: "item", item: { id: "irons_spellbooks:fire_ale", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 22.12d
+			x: 16.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["53528799012DD531"]
@@ -410,8 +405,8 @@
 			title: "Zauberer jagen"
 			rewards: [{ id: "16468B41E572C384", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
 			tasks: [{ id: "4D18A49A6BB25B55", type: "kill", entity: "irons_spellbooks:pyromancer", value: 1L, icon: { id: "irons_spellbooks:fire_upgrade_orb" } }]
-			x: 16.50d
-			y: -0.50d
+			x: 15.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3BEB5C9EE91D54CF"]
@@ -420,30 +415,28 @@
 			title: "Der Kryomant"
 			rewards: [{ id: "7CB6F0C9B2921628", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "44901E7CD8B1496B", type: "kill", entity: "irons_spellbooks:cryomancer", value: 1L, icon: { id: "irons_spellbooks:ice_upgrade_orb" } }]
-			x: 18.00d
-			y: -0.50d
+			x: 16.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["7752AE4A249A5EB3"]
 			description: ["&6Was ist das?", "Der Necromancer ruft Skelette. Besiege ihn.", "", "&6So gehts", "In Dungeons.", "", "&6Wofür ist das wichtig?", "Blut-Schriftrollen."]
-			hide_dependency_lines: true
 			id: "1C765747185689E7"
 			title: "Der Totenbeschwörer"
 			rewards: [{ id: "01CA078F49250E93", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "7F820E0EB40E1930", type: "kill", entity: "irons_spellbooks:necromancer", value: 1L, icon: { id: "irons_spellbooks:evocation_upgrade_orb" } }]
-			x: 1.50d
-			y: 1.38d
+			x: 18.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["1C765747185689E7"]
 			description: ["&6Was ist das?", "Kultisten beschwören Kreaturen. Sie leben in dunklen Strukturen.", "", "&6So gehts", "In der Welt finden.", "", "&6Wofür ist das wichtig?", "Beute für Magier."]
-			hide_dependency_lines: true
 			id: "5F1780F474913F9F"
 			title: "Kultisten"
 			rewards: [{ id: "2DACDB000DFDEA4A", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "1267B6B9B1FEE8B4", type: "kill", entity: "irons_spellbooks:cultist", value: 1L, icon: { id: "irons_spellbooks:blood_rune" } }]
-			x: 1.50d
-			y: 4.38d
+			x: 19.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["5F1780F474913F9F"]
@@ -452,8 +445,8 @@
 			title: "Apotheker"
 			rewards: [{ id: "681A94235C307224", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "60D4F76BB53ADAB5", type: "kill", entity: "irons_spellbooks:apothecarist", value: 1L, icon: { id: "minecraft:brewing_stand" } }]
-			x: 3.00d
-			y: 4.38d
+			x: 21.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["1C765747185689E7"]
@@ -462,8 +455,8 @@
 			title: "Der Erz-Beschwörer"
 			rewards: [{ id: "0A20A8304BCDF74E", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "5588FBBC572B6D53", type: "kill", entity: "irons_spellbooks:archevoker", value: 1L, icon: { id: "irons_spellbooks:evocation_rune" } }]
-			x: 3.00d
-			y: 1.38d
+			x: 19.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["5340EC175AEFCBE3"]
@@ -472,8 +465,8 @@
 			title: "Zitadellen-Wächter"
 			rewards: [{ id: "474C0024744EA290", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "2CAC1FC9CED15FCB", type: "kill", entity: "irons_spellbooks:citadel_keeper", value: 1L, icon: { id: "irons_spellbooks:arcane_essence" } }]
-			x: 4.50d
-			y: 4.38d
+			x: 22.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["04EF5409B5EAB371"]
@@ -482,8 +475,8 @@
 			title: "Eisspinne"
 			rewards: [{ id: "37B4E7660278B55E", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "55FDDB544DBD2A02", type: "kill", entity: "irons_spellbooks:ice_spider", value: 1L, icon: { id: "irons_spellbooks:ice_spider_egg" } }]
-			x: 6.00d
-			y: 4.38d
+			x: 24.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["6145C3A0D3F0E332"]
@@ -492,8 +485,8 @@
 			title: "Feuerboss"
 			rewards: [{ id: "341A79464A4B3AA5", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
 			tasks: [{ id: "78468FD53B562EDC", type: "kill", entity: "irons_spellbooks:fire_boss", value: 1L, icon: { id: "irons_spellbooks:cinder_essence" } }]
-			x: 4.50d
-			y: 1.38d
+			x: 21.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["34D1BD35BFBDF3D8"]
@@ -502,8 +495,8 @@
 			title: "Der Tote König"
 			rewards: [{ id: "1DE8EEBB25F65E1A", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
 			tasks: [{ id: "67918124991ACF60", type: "kill", entity: "irons_spellbooks:dead_king", value: 1L, icon: { id: "irons_spellbooks:legendary_ink" } }]
-			x: 6.00d
-			y: 1.38d
+			x: 22.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["1F7C16EE6236AB7A"]
@@ -515,8 +508,8 @@
 			tasks: [{ id: "706C72C41E79529B", type: "item", item: { id: "irons_spellbooks:iron_spell_book", count: 1 }, count: 1L }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 1.50d
-			y: -3.00d
+			x: 0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["76DD817B2C61A19D"]
@@ -528,20 +521,19 @@
 			tasks: [{ id: "01A18DEFA71CDF83", type: "item", item: { id: "aether:golden_parachute", count: 1 }, count: 1L }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 7.50d
-			y: 1.38d
+			x: 24.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["3BEB5C9EE91D54CF"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:frostfall" }
-			hide_dependency_lines: true
 			id: "3B9FB38CDC433B6A"
 			title: "Frostfall"
 			rewards: []
 			tasks: [{ id: "3C64A6B6A88B2154", type: "item", item: { id: "simplyswords:frostfall", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 5.62d
+			x: 16.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3B9FB38CDC433B6A"]
@@ -551,8 +543,8 @@
 			title: "Icewhisper"
 			rewards: []
 			tasks: [{ id: "49C9BC3D8A208C80", type: "item", item: { id: "simplyswords:icewhisper", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 5.62d
+			x: 18.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["33DB5FB8338E29E3"]
@@ -562,8 +554,8 @@
 			title: "Arcanethyst"
 			rewards: []
 			tasks: [{ id: "12879F24D9676FDE", type: "item", item: { id: "simplyswords:arcanethyst", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 5.62d
+			x: 19.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["77ECB58A051E070A"]
@@ -573,8 +565,8 @@
 			title: "Magiscythe"
 			rewards: []
 			tasks: [{ id: "50449A8F37040648", type: "item", item: { id: "simplyswords:magiscythe", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 5.62d
+			x: 21.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7928080382B90B6F"]
@@ -584,8 +576,8 @@
 			title: "Enigma"
 			rewards: []
 			tasks: [{ id: "5584DCF030C444D2", type: "item", item: { id: "simplyswords:enigma", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 5.62d
+			x: 22.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["46F108B04EB2950F"]
@@ -595,8 +587,8 @@
 			title: "Magispear"
 			rewards: []
 			tasks: [{ id: "507F7A7420B4D65C", type: "item", item: { id: "simplyswords:magispear", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 5.62d
+			x: 24.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["2F13775F44C5B609"]
@@ -606,8 +598,8 @@
 			title: "Magiblade"
 			rewards: []
 			tasks: [{ id: "605D41A6BBDAEB99", type: "item", item: { id: "simplyswords:magiblade", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 5.62d
+			x: 25.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["76E169059BF6DFEF"]
@@ -617,8 +609,8 @@
 			title: "Caelestis"
 			rewards: []
 			tasks: [{ id: "790A34CA8C2F4595", type: "item", item: { id: "simplyswords:caelestis", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 5.62d
+			x: 27.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["2B71938D1FCCC55D"]
@@ -628,8 +620,8 @@
 			title: "Amethyst Rapier"
 			rewards: []
 			tasks: [{ id: "50F17559A82FC845", type: "item", item: { id: "irons_spellbooks:amethyst_rapier", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: 5.62d
+			x: 28.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["4DA864F90BA90C51"]
@@ -639,8 +631,8 @@
 			title: "Claymore"
 			rewards: []
 			tasks: [{ id: "659C5BCC1CA0D55C", type: "item", item: { id: "irons_spellbooks:claymore", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: 5.62d
+			x: 30.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["3F81B8B7B847C53E"]
@@ -650,8 +642,8 @@
 			title: "Decrepit Scythe"
 			rewards: []
 			tasks: [{ id: "014A1D3CBB3C5F15", type: "item", item: { id: "irons_spellbooks:decrepit_scythe", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: 5.62d
+			x: 31.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["3B9FB38CDC433B6A"]
@@ -661,8 +653,8 @@
 			title: "Staff of the Nines"
 			rewards: []
 			tasks: [{ id: "25F27672FE4FABF5", type: "item", item: { id: "irons_spellbooks:staff_of_the_nines", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 6.88d
+			x: 18.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7CFC3BE5BDF534B9"]
@@ -672,8 +664,8 @@
 			title: "The Blood Staff"
 			rewards: []
 			tasks: [{ id: "158B079D67AB4A03", type: "item", item: { id: "irons_spellbooks:blood_staff", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 6.88d
+			x: 19.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["243A3BB56D8015B9"]
@@ -683,8 +675,8 @@
 			title: "Pyrium Staff"
 			rewards: []
 			tasks: [{ id: "4EC184E9090A1E05", type: "item", item: { id: "irons_spellbooks:pyrium_staff", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 6.88d
+			x: 21.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["70A5F356858935CD"]
@@ -694,8 +686,8 @@
 			title: "Graybeard Staff"
 			rewards: []
 			tasks: [{ id: "2AA5B04AC1C0BBE5", type: "item", item: { id: "irons_spellbooks:graybeard_staff", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 6.88d
+			x: 22.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["74CB427C0A563E46"]
@@ -705,8 +697,8 @@
 			title: "Ice Staff"
 			rewards: []
 			tasks: [{ id: "7483F68F088B002E", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 6.88d
+			x: 24.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["25CA5B688B56F510"]
@@ -716,8 +708,8 @@
 			title: "Hither-Thither Wand"
 			rewards: []
 			tasks: [{ id: "03748DD47396AE79", type: "item", item: { id: "irons_spellbooks:hither_thither_wand", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 6.88d
+			x: 25.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["7CFC3BE5BDF534B9"]
@@ -727,20 +719,19 @@
 			title: "Autoloader Crossbow"
 			rewards: []
 			tasks: [{ id: "090DD45B8601CBB5", type: "item", item: { id: "irons_spellbooks:autoloader_crossbow", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 9.38d
+			x: 19.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["18AB3E08F563181C"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "irons_spellbooks:archevoker_chestplate" }
-			hide_dependency_lines: true
 			id: "1E9B6F21707452D3"
 			title: "Archevoker (Rüstung)"
 			rewards: []
 			tasks: [{ id: "15302777B3797AD4", type: "checkmark" }]
-			x: 1.50d
-			y: 12.38d
+			x: 21.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["1E9B6F21707452D3"]
@@ -750,8 +741,8 @@
 			title: "Cryomancer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "57F6B6D07663C832", type: "checkmark" }]
-			x: 3.00d
-			y: 12.38d
+			x: 22.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["207DA0D92328511F"]
@@ -761,8 +752,8 @@
 			title: "Cultist (Rüstung)"
 			rewards: []
 			tasks: [{ id: "7492EF812A6A51F0", type: "checkmark" }]
-			x: 4.50d
-			y: 12.38d
+			x: 24.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["236FC8AE5B30A3DC"]
@@ -772,8 +763,8 @@
 			title: "Electromancer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "1FB8FA023E9EFAAB", type: "checkmark" }]
-			x: 6.00d
-			y: 12.38d
+			x: 25.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["4DCEBDC0F7D23A5A"]
@@ -783,8 +774,8 @@
 			title: "Infernal Sorcerer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "2CE5EB83A54622BB", type: "checkmark" }]
-			x: 7.50d
-			y: 12.38d
+			x: 27.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["258B1CBA588ECDFF"]
@@ -794,8 +785,8 @@
 			title: "Lightbringer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "7E57D4D22A358E2A", type: "checkmark" }]
-			x: 9.00d
-			y: 12.38d
+			x: 28.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["520C2D0A7936644B"]
@@ -805,8 +796,8 @@
 			title: "Plagued (Rüstung)"
 			rewards: []
 			tasks: [{ id: "03B89961E1EA51DC", type: "checkmark" }]
-			x: 10.50d
-			y: 12.38d
+			x: 30.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["6780E987A341D788"]
@@ -816,8 +807,8 @@
 			title: "Priest (Rüstung)"
 			rewards: []
 			tasks: [{ id: "64193505BCF46978", type: "checkmark" }]
-			x: 12.00d
-			y: 12.38d
+			x: 31.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["77480A43AADA8E91"]
@@ -827,8 +818,8 @@
 			title: "Scarecrow (Rüstung)"
 			rewards: []
 			tasks: [{ id: "42FD9B636EA92E72", type: "checkmark" }]
-			x: 13.50d
-			y: 12.38d
+			x: 33.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3E9E2612FF887FB6"]
@@ -838,8 +829,8 @@
 			title: "Pyromancer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "7F8A597D14B96C52", type: "checkmark" }]
-			x: 15.00d
-			y: 12.38d
+			x: 34.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["234F59FE7E91FF44"]
@@ -849,8 +840,8 @@
 			title: "Shadow-Walker (Rüstung)"
 			rewards: []
 			tasks: [{ id: "78F137C55EBD020C", type: "checkmark" }]
-			x: 16.50d
-			y: 12.38d
+			x: 36.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["1E9B6F21707452D3"]
@@ -860,8 +851,8 @@
 			title: "Boots of Speed (Rüstung)"
 			rewards: []
 			tasks: [{ id: "4D41BE45E4B3E993", type: "checkmark" }]
-			x: 3.00d
-			y: 13.62d
+			x: 22.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["353842698BE290FF"]
@@ -871,8 +862,8 @@
 			title: "Tarnished Crown (Rüstung)"
 			rewards: []
 			tasks: [{ id: "44EC840022A5BFEA", type: "checkmark" }]
-			x: 4.50d
-			y: 13.62d
+			x: 24.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["4D6213C95E0DA769"]
@@ -882,8 +873,8 @@
 			title: "Wandering Magician (Rüstung)"
 			rewards: []
 			tasks: [{ id: "308CD89B114C4FD4", type: "checkmark" }]
-			x: 6.00d
-			y: 13.62d
+			x: 25.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["2F3EDE26ED94B10C"]
@@ -893,19 +884,18 @@
 			title: "Wizard (Rüstung)"
 			rewards: []
 			tasks: [{ id: "4FF69540C4E93E9F", type: "checkmark" }]
-			x: 7.50d
-			y: 13.62d
+			x: 27.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["5C54807EC3EC2CDC"]
 			description: ["&6Was ist das?", "Die Void Blossom ist eine riesige Pflanze in der Tiefe.", "", "&6So gehts", "Verzauberte Diamantrüstung, Heiltränke, Spruchbuch. Zerstöre die Ranken zuerst.", "", "&6Wofür ist das wichtig?", "Erster Boss der Magiezeit."]
-			hide_dependency_lines: true
 			id: "449BF7C358F0A86C"
 			title: "Blütenschreck"
 			rewards: [{ id: "33862D9390601465", type: "xp_levels", xp_levels: 10 }, { id: "462E44916F097851", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
 			tasks: [{ id: "1EA7D860FE61C624", type: "kill", entity: "bosses_of_mass_destruction:void_blossom", value: 1L, icon: { id: "minecraft:flowering_azalea" } }]
 			x: 1.50d
-			y: 29.38d
+			y: 1.50d
 		}
 		{
 			dependencies: ["449BF7C358F0A86C"]
@@ -915,29 +905,27 @@
 			rewards: [{ id: "21F8299FEEE3BD43", type: "xp_levels", xp_levels: 10 }, { id: "7316109A7525F144", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
 			tasks: [{ id: "01D3FC736ABBF0C5", type: "kill", entity: "bosses_of_mass_destruction:lich", value: 1L, icon: { id: "minecraft:soul_lantern" } }]
 			x: 3.00d
-			y: 29.38d
+			y: 1.50d
 		}
 		{
 			dependencies: ["3DAA1F6F53E0A842"]
 			description: ["&6Was ist das?", "Ein einfaches Zauberbuch aus Kupfer.", "", "&6So gehts", "Zauberbuch und Kupferbarren am Inschriftentisch bzw. in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Für die ersten Zauber reicht es, später lohnt sich ein besseres Buch."]
-			hide_dependency_lines: true
 			id: "79F1C35EEAC3C1CA"
 			title: "Kupfer-Zauberbuch"
 			rewards: [{ id: "6C29DF910412F63D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2500B2682C20E22C", type: "item", item: { id: "irons_spellbooks:copper_spell_book", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 32.38d
+			x: 4.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["76F11D27CBE5A57F"]
 			description: ["&6Was ist das?", "Ein seltenes magisches Erz.", "", "&6So gehts", "Baue es in tiefen Höhlen ab, wo magische Energie spürbar ist.", "", "&6Wofür ist das wichtig?", "Daraus entstehen arkane Barren für starke Ausrüstung."]
-			hide_dependency_lines: true
 			id: "73033216D53F2EEC"
 			title: "Arkaner Schutt"
 			rewards: [{ id: "2CE9CA3FE6928A43", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6E2E97A4BE85CD48", type: "item", item: { id: "irons_spellbooks:arcane_debris", count: 1 }, count: 2L }]
-			x: 3.00d
-			y: 32.38d
+			x: 10.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["679A18FE536A076C"]
@@ -946,30 +934,28 @@
 			title: "Kessel"
 			rewards: [{ id: "4D94308BF524096D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3F782A2EB027D0A9", type: "item", item: { id: "minecraft:cauldron", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: -1.75d
+			x: 13.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["679A18FE536A076C"]
 			description: ["&6Was ist das?", "Ein spezieller Kessel zum Mischen magischer Zutaten.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Damit stellst du magische Tränke und Tinte her."]
-			hide_dependency_lines: true
 			id: "0260DD94DCAA6BC6"
 			title: "Alchemistenkessel"
 			rewards: [{ id: "368C73770396005B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "153288AE7C42DCAF", type: "item", item: { id: "irons_spellbooks:alchemist_cauldron", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 32.38d
+			x: 13.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["679A18FE536A076C"]
 			description: ["&6Was ist das?", "Ein Feuerbecken für magische Rituale.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Dient als Licht und Quelle von Rauch für Zauber."]
-			hide_dependency_lines: true
 			id: "51975C295CB54626"
 			title: "Kohlenbecken"
 			rewards: [{ id: "2EA5B733000FD065", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7C28F4FF85DEBC17", type: "item", item: { id: "irons_spellbooks:brazier", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 32.38d
+			x: 13.50d
+			y: -6.00d
 		}
 		{
 			dependencies: ["30A1A33A3BB96820"]
@@ -978,8 +964,8 @@
 			title: "Eisspinnen-Ei"
 			rewards: [{ id: "5BEE7C2D51E13761", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "12DE6D3CA114D22D", type: "item", item: { id: "irons_spellbooks:cooked_ice_spider_egg", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 4.38d
+			x: 25.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["243A3BB56D8015B9"]
@@ -988,8 +974,8 @@
 			title: "Blutflasche"
 			rewards: [{ id: "1B474DE99FED6163", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "478126A3F8792291", type: "item", item: { id: "irons_spellbooks:blood_vial", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 8.12d
+			x: 21.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["46C833DCD22312A1"]
@@ -998,8 +984,8 @@
 			title: "Magie: Mana und Zauberbuch"
 			rewards: [{ id: "0DB108F83A4B6A12", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "19D09413A8C6D10B", type: "checkmark" }]
-			x: 4.50d
-			y: -3.00d
+			x: 3.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["7B9476DD7F198EF7"]
@@ -1008,8 +994,8 @@
 			title: "Magie: Zauber lernen"
 			rewards: [{ id: "2066469102073E28", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77A00A588D20506D", type: "checkmark" }]
-			x: 6.00d
-			y: -3.00d
+			x: 4.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["01E061C09C31FC15"]
@@ -1018,8 +1004,8 @@
 			title: "Magie: Zauber wirken"
 			rewards: [{ id: "4C00FCEF80B9259E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2326F24B8673E1C6", type: "checkmark" }]
-			x: 7.50d
-			y: -3.00d
+			x: 6.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["563A4ACACD81AA94"]
@@ -1028,8 +1014,8 @@
 			title: "Magie: Schulen der Magie"
 			rewards: [{ id: "63AFC98D5F9D8ADE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5436A3E3FF9C5E91", type: "checkmark" }]
-			x: 9.00d
-			y: -3.00d
+			x: 7.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["07D7C3C2394446BC"]
@@ -1038,8 +1024,8 @@
 			title: "Magie: Ausrüstung"
 			rewards: [{ id: "5961485328FCF4AD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "38888AC9CBE9B575", type: "checkmark" }]
-			x: 10.50d
-			y: -3.00d
+			x: 9.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["694866570148F85F"]
@@ -1048,8 +1034,8 @@
 			title: "Magie: Bosse"
 			rewards: [{ id: "11F674B811E244C2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "33AE663147690034", type: "checkmark" }]
-			x: 12.00d
-			y: -3.00d
+			x: 10.50d
+			y: -4.50d
 		}
 		{
 			description: ["&6Abschnitt", "Zauber-Waffen und Stäbe"]
@@ -1058,8 +1044,8 @@
 			optional: true
 			tasks: [{ id: "21F61C4AE512F151", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 4.38d
+			x: 18.00d
+			y: 6.00d
 		}
 		{
 			description: ["&6Abschnitt", "Magie-Rüstungen"]
@@ -1068,8 +1054,8 @@
 			optional: true
 			tasks: [{ id: "63B9475ACD0A35EF", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 12.38d
+			x: 19.50d
+			y: -1.50d
 		}
 		{
 			description: ["&6Abschnitt", "Mithril, Ringe und Schmuck"]
@@ -1078,8 +1064,8 @@
 			optional: true
 			tasks: [{ id: "6D77A8DD807EF7B2", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 16.62d
+			x: 12.00d
+			y: -4.50d
 		}
 		{
 			description: ["&6Abschnitt", "Schwerter und Elixiere"]
@@ -1088,8 +1074,8 @@
 			optional: true
 			tasks: [{ id: "446BD298443899A1", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 20.88d
+			x: 15.00d
+			y: -7.50d
 		}
 		{
 			description: ["&6Abschnitt", "Runen und Upgrades"]
@@ -1098,8 +1084,8 @@
 			optional: true
 			tasks: [{ id: "6B3C6F3F7925D1AE", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 25.12d
+			x: 9.00d
+			y: 7.50d
 		}
 		{
 			description: ["&6Abschnitt", "Bücher und Zauberer"]
@@ -1108,8 +1094,8 @@
 			optional: true
 			tasks: [{ id: "41013786A1EA022C", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 28.12d
+			x: 1.50d
+			y: -3.00d
 		}
 		{
 			description: ["&6Abschnitt", "Hauptpfad-Ergänzungen"]
@@ -1118,8 +1104,8 @@
 			optional: true
 			tasks: [{ id: "4DA753EC635AE842", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 32.38d
+			x: 3.00d
+			y: 3.00d
 		}
 	]
 }

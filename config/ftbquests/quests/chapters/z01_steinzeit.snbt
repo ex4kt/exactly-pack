@@ -16,19 +16,18 @@
 			title: "Zeitalter verstehen"
 			rewards: [{ id: "00AD3BE8A3E49C52", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77CCCC73177623FD", type: "checkmark" }]
-			x: 3.00d
-			y: -0.12d
+			x: 1.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["093D637910111249"]
 			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar über ein Item.", "Schritt 2: Drücke R, um zu sehen, wie man es herstellt.", "Schritt 3: Drücke U, um zu sehen, wofür man es braucht.", "", "&6So gehts", "Fahre mit der Maus über ein Item und drücke R: So stellst du es her.", "Drücke U: Wofür man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofür ist das wichtig?", "Bei über 400 Mods kennt niemand alle Rezepte. JEI ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W außerdem eine Animation (Ponder)."]
-			hide_dependency_lines: true
 			id: "76B62C313C1E5D43"
 			title: "Rezepte nachschlagen (JEI)"
 			rewards: [{ id: "4E710640F0D99A73", type: "item", item: { id: "minecraft:bread", count: 4 } }]
 			tasks: [{ id: "64C3B366C0CF146C", type: "checkmark" }]
-			x: 1.50d
-			y: 60.12d
+			x: 3.00d
+			y: -10.50d
 		}
 		{
 			dependencies: ["76B62C313C1E5D43"]
@@ -37,8 +36,8 @@
 			title: "Karte öffnen"
 			rewards: [{ id: "03D17CACB594EFE3", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0801B7B2B6063697", type: "checkmark" }]
-			x: 3.00d
-			y: 60.12d
+			x: 4.50d
+			y: -12.00d
 		}
 		{
 			dependencies: ["31AE3D3C9B7D83E7"]
@@ -47,8 +46,8 @@
 			title: "Alles im Blick (Jade)"
 			rewards: [{ id: "457492C4DF6411DC", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "11A4F8DB7974D30D", type: "checkmark" }]
-			x: 4.50d
-			y: 60.12d
+			x: 6.00d
+			y: -12.00d
 		}
 		{
 			dependencies: ["0B043FE1AA795723"]
@@ -57,8 +56,8 @@
 			title: "Tastenbelegung suchen"
 			rewards: [{ id: "4A9AF60C1862B667", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "27AF029E4518988F", type: "checkmark" }]
-			x: 6.00d
-			y: 60.12d
+			x: 7.50d
+			y: -12.00d
 		}
 		{
 			dependencies: ["093D637910111249"]
@@ -67,19 +66,18 @@
 			title: "Holz sammeln"
 			rewards: [{ id: "0D44A1C6F6BC6D14", type: "item", item: { id: "minecraft:oak_log", count: 16 } }]
 			tasks: [{ id: "3B679BF3502503F2", type: "item", item: { id: "minecraft:oak_log", count: 1 }, count: 8L }]
-			x: 4.50d
-			y: -0.12d
+			x: 3.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5EC7640BCBDF892E"]
 			description: ["&6Was ist das?", "Birken erkennst du an der weißen Rinde. Ihr Holz ist hell.", "", "&6So gehts", "Fälle Birken mit der Axt. Pflanze die Setzlinge wieder ein.", "", "&6Wofür ist das wichtig?", "Verschiedene Holzarten bringen verschiedene Farben für Bretter, Möbel und Deko."]
-			hide_dependency_lines: true
 			id: "60D48C13E2FD3E4E"
 			title: "Birkenholz"
 			rewards: [{ id: "4859E0D3BD407BB3", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "6E7A654E51D29D73", type: "item", item: { id: "minecraft:birch_log", count: 1 }, count: 16L }]
-			x: 1.50d
-			y: 55.88d
+			x: 4.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["60D48C13E2FD3E4E"]
@@ -88,8 +86,8 @@
 			title: "Fichtenholz"
 			rewards: [{ id: "3E925D96D5EB07CD", type: "item", item: { id: "minecraft:torch", count: 8 } }]
 			tasks: [{ id: "6F295C5E2E57D446", type: "item", item: { id: "minecraft:spruce_log", count: 1 }, count: 16L }]
-			x: 3.00d
-			y: 55.88d
+			x: 6.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["5EC7640BCBDF892E"]
@@ -98,19 +96,18 @@
 			title: "Bretter"
 			rewards: [{ id: "5DD111E360AC1F20", type: "item", item: { id: "minecraft:stick", count: 16 } }]
 			tasks: [{ id: "409359707DCE88F2", type: "item", item: { id: "minecraft:oak_planks", count: 1 }, count: 64L }]
-			x: 6.00d
-			y: -0.12d
+			x: 4.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
 			description: ["&6Was ist das?", "Stöcke sind Griffe für Werkzeuge, Fackeln und vieles mehr.", "", "&6So gehts", "Zwei Bretter übereinander in der Werkbank ergeben vier Stöcke.", "", "&6Wofür ist das wichtig?", "Achtung Fortschritt: Bessere Werkzeuge brauchen später statt eines Stocks das Werkzeug der vorherigen Stufe."]
-			hide_dependency_lines: true
 			id: "3DE40AEC331BBC59"
 			title: "Stöcke"
 			rewards: [{ id: "6F12A1481B3EF6AF", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "45AEE27528D7508D", type: "item", item: { id: "minecraft:stick", count: 1 }, count: 32L }]
-			x: 1.50d
-			y: 57.12d
+			x: 6.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
@@ -119,8 +116,8 @@
 			title: "Werkbank bauen"
 			rewards: [{ id: "6EED97054AD334F5", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
 			tasks: [{ id: "3D64137EE4BB4B1D", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 1.75d
+			x: 6.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["0394F82571C6DE85"]
@@ -129,8 +126,8 @@
 			title: "Holzwerkzeug"
 			rewards: [{ id: "7F2046C5154ED497", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "5A7DE28E745DE755", type: "item", item: { id: "minecraft:wooden_pickaxe", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 1.75d
+			x: 7.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["43FE5B6E4CDC40DE"]
@@ -139,19 +136,18 @@
 			title: "Setzlinge pflanzen"
 			rewards: [{ id: "4AB429C7CCE3890C", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "26C9871077CE3E66", type: "item", item: { id: "minecraft:oak_sapling", count: 1 }, count: 8L }]
-			x: 4.50d
-			y: 55.88d
+			x: 7.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["0394F82571C6DE85"]
 			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Nähe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Blöcke).", "Schritt 2: Öffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und öffne sie.", "JEI-Rezepte mit dem Plus-Knopf füllen sich dann aus den Kisten.", "", "&6Wofür ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt für eine Werkstatt."]
-			hide_dependency_lines: true
 			id: "000FE9D86692D537"
 			title: "Nearby Crafting"
 			rewards: [{ id: "1B0D19B092BFA40E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77B1B94E331B5635", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 51.00d
+			x: 7.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["000FE9D86692D537"]
@@ -160,8 +156,8 @@
 			title: "Sägewerk"
 			rewards: [{ id: "2DC3A3B9A5DC8D8D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "67147F0E80537073", type: "item", item: { id: "sawmill:sawmill", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 51.00d
+			x: 9.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["5EA1722598CD6B3E"]
@@ -170,8 +166,8 @@
 			title: "Zimmermannstisch"
 			rewards: [{ id: "5B1BDD12C892136A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "608BD2F49CC248FC", type: "item", item: { id: "chipped:carpenters_table", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 51.00d
+			x: 10.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["2F77AFA6D10F0EF6"]
@@ -180,8 +176,8 @@
 			title: "Steinmetztisch"
 			rewards: [{ id: "517DCCF9E5F48D26", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7FA0E9F0288946C0", type: "item", item: { id: "chipped:mason_table", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 51.00d
+			x: 12.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["657109AA19C09B7A"]
@@ -190,8 +186,8 @@
 			title: "Meißel"
 			rewards: [{ id: "28C0C9EB8382C171", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "61ACB74941C633B3", type: "item", item: { id: "rechiseled:chisel", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 51.00d
+			x: 13.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["7D113048B2ABF3D2"]
@@ -200,8 +196,8 @@
 			title: "Möbel bauen"
 			rewards: [{ id: "2F9B5A24F15E0971", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4386E96ECD9A096B", type: "item", item: { id: "handcrafted:oak_chair", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 51.00d
+			x: 15.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["626C7A1375EADFD2"]
@@ -211,8 +207,8 @@
 			title: "Macaw-Möbel"
 			rewards: [{ id: "626EEFCFD4853ED8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77DD99F4F57EB0C5", type: "item", item: { id: "mcwfurnitures:oak_chair", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 51.00d
+			x: 16.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["5272DD27B136C7A6"]
@@ -222,8 +218,8 @@
 			title: "Macaw-Türen"
 			rewards: [{ id: "342C65B82E84B859", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "76F225590909CB3B", type: "item", item: { id: "mcwdoors:oak_barn_door", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 51.00d
+			x: 18.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["5221BB44D526AC25"]
@@ -233,8 +229,8 @@
 			title: "Seilbrücke"
 			rewards: [{ id: "1161B0B85299BB86", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "24DDC33BAB35D0E6", type: "item", item: { id: "mcwbridges:rope_oak_bridge", count: 1 }, count: 4L }]
-			x: 13.50d
-			y: 51.00d
+			x: 19.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["436CBA5BC0B154F4"]
@@ -244,8 +240,8 @@
 			title: "Gemütliche Möbel"
 			rewards: [{ id: "023A23D19479A90F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2F6E985C24BD0E38", type: "item", item: { id: "another_furniture:oak_chair", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: 51.00d
+			x: 21.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["371AC58069078D46"]
@@ -255,8 +251,8 @@
 			title: "Macaw-Dach"
 			rewards: [{ id: "09242B03DA44510F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "479A5C1745DEE2FE", type: "item", item: { id: "mcwroofs:oak_roof", count: 1 }, count: 8L }]
-			x: 16.50d
-			y: 51.00d
+			x: 22.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["47291DA3B6CE9A9E"]
@@ -266,20 +262,19 @@
 			title: "Macaw-Treppe"
 			rewards: [{ id: "6356E38976DB8D12", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "41DFE689CEF65BA3", type: "item", item: { id: "mcwstairs:oak_bulk_stairs", count: 1 }, count: 4L }]
-			x: 18.00d
-			y: 51.00d
+			x: 24.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["602B320FA662AE3F"]
 			description: ["&6Was ist das?", "Macaws Trapdoors: Falltüren in vielen Mustern.", "", "&6So gehts", "Rezepte in JEI mit @mcwtrpdoors.", "", "&6Wofür ist das wichtig?", "Fensterläden und Bodenklappen."]
 			icon: { id: "mcwtrpdoors:oak_barn_trapdoor" }
-			hide_dependency_lines: true
 			id: "5ED04CDD6E21EF46"
 			title: "Macaw-Falltür"
 			rewards: [{ id: "00D1CA0083778D1F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4EAD5FF90874B9D1", type: "item", item: { id: "mcwtrpdoors:oak_barn_trapdoor", count: 1 }, count: 2L }]
-			x: 1.50d
-			y: 52.88d
+			x: 25.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["5ED04CDD6E21EF46"]
@@ -289,8 +284,8 @@
 			title: "Macaw-Lampe"
 			rewards: [{ id: "5B33C6D442E91C3B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "273CE48C0C3DFAE7", type: "item", item: { id: "mcwlights:classic_street_lamp", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 52.88d
+			x: 27.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["279DB5AE1CABABDD"]
@@ -300,8 +295,8 @@
 			title: "Eigene Gemälde"
 			rewards: [{ id: "59EC29FC67A78DFC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "787E750326D04B44", type: "item", item: { id: "immersive_paintings:painting", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 52.88d
+			x: 28.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["149718EF5100546D"]
@@ -310,8 +305,8 @@
 			title: "Bruchstein"
 			rewards: [{ id: "661FB845F3358EED", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "583605054C42B443", type: "item", item: { id: "minecraft:cobblestone", count: 1 }, count: 64L }]
-			x: 12.00d
-			y: 4.25d
+			x: 9.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
@@ -321,19 +316,18 @@
 			title: "Steinspitzhacke"
 			rewards: [{ id: "2DCD828A621B7DF1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "63A0A7C37633A071", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: 5.50d
+			x: 10.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
 			description: ["&6Was ist das?", "Die Steinaxt fällt Bäume schneller und macht viel Schaden.", "", "&6So gehts", "Drei Bruchstein, zwei Stöcke, wie die Holzaxt. Die Holzaxt kommt dabei ins Rezept.", "", "&6Wofür ist das wichtig?", "Holz fällt man oft. Eine gute Axt spart viel Zeit."]
-			hide_dependency_lines: true
 			id: "5BD806E521C646C0"
 			title: "Steinaxt"
 			rewards: [{ id: "6362260526B29C9E", type: "item", item: { id: "minecraft:apple", count: 4 } }]
 			tasks: [{ id: "0604850468E3DBCE", type: "item", item: { id: "minecraft:stone_axe", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 46.75d
+			x: 10.50d
+			y: -7.50d
 		}
 		{
 			dependencies: ["5BD806E521C646C0"]
@@ -342,8 +336,8 @@
 			title: "Steinschwert"
 			rewards: [{ id: "0680E45709B74850", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "363DB0E20936DE96", type: "item", item: { id: "minecraft:stone_sword", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 46.75d
+			x: 12.00d
+			y: -7.50d
 		}
 		{
 			dependencies: ["502C61E3409EAEDC"]
@@ -352,19 +346,18 @@
 			title: "Ofen"
 			rewards: [{ id: "78F74B84B9B40790", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "4B53D3BCD3551BAE", type: "item", item: { id: "minecraft:furnace", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: 5.50d
+			x: 12.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5364C9419BE9A73B"]
 			description: ["&6Was ist das?", "Holz im Ofen wird zu Holzkohle, ein Ersatz für Kohle.", "", "&6So gehts", "Stämme in den Ofen legen.", "", "&6Wofür ist das wichtig?", "Wenn du keine Kohle findest, machst du Fackeln einfach aus Holzkohle."]
-			hide_dependency_lines: true
 			id: "7200E9323E24B343"
 			title: "Holzkohle"
 			rewards: [{ id: "102F1D153DE903EC", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "128F935437A8A369", type: "item", item: { id: "minecraft:charcoal", count: 1 }, count: 8L }]
-			x: 1.50d
-			y: 45.50d
+			x: 13.50d
+			y: 7.50d
 		}
 		{
 			dependencies: ["5364C9419BE9A73B"]
@@ -373,8 +366,8 @@
 			title: "Fackeln"
 			rewards: [{ id: "4FDEF51E08D4666C", type: "item", item: { id: "minecraft:torch", count: 24 } }]
 			tasks: [{ id: "3D55A1E0D64AF151", type: "item", item: { id: "minecraft:torch", count: 1 }, count: 32L }]
-			x: 16.50d
-			y: 5.50d
+			x: 13.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7200E9323E24B343"]
@@ -383,8 +376,8 @@
 			title: "Glas"
 			rewards: [{ id: "5B37050A372D6427", type: "item", item: { id: "minecraft:glass_bottle", count: 4 } }]
 			tasks: [{ id: "024E5B04280D7E2A", type: "item", item: { id: "minecraft:glass", count: 1 }, count: 16L }]
-			x: 3.00d
-			y: 45.50d
+			x: 15.00d
+			y: 7.50d
 		}
 		{
 			dependencies: ["1C505742606CDD9D"]
@@ -393,8 +386,8 @@
 			title: "Ziegel"
 			rewards: [{ id: "7D50A3CC57B13155", type: "item", item: { id: "minecraft:clay_ball", count: 8 } }]
 			tasks: [{ id: "6B8CC999AE04FCF3", type: "item", item: { id: "minecraft:brick", count: 1 }, count: 16L }]
-			x: 4.50d
-			y: 45.50d
+			x: 16.50d
+			y: 7.50d
 		}
 		{
 			dependencies: ["50DF24C7727465CF"]
@@ -403,8 +396,8 @@
 			title: "Glatter Stein"
 			rewards: [{ id: "6F261AAD45D4B499", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "756B55E53483AFC4", type: "item", item: { id: "minecraft:smooth_stone", count: 1 }, count: 16L }]
-			x: 6.00d
-			y: 45.50d
+			x: 18.00d
+			y: 7.50d
 		}
 		{
 			dependencies: ["3717959A07B50B2B"]
@@ -414,8 +407,8 @@
 			title: "Steinhammer"
 			rewards: [{ id: "7824F1481B51E2F8", type: "item", item: { id: "minecraft:cobblestone", count: 32 } }]
 			tasks: [{ id: "3783787E190BABF7", type: "item", item: { id: "justhammers:stone_hammer", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 46.75d
+			x: 13.50d
+			y: -7.50d
 		}
 		{
 			dependencies: ["06846FECFE8200C1"]
@@ -425,8 +418,8 @@
 			title: "Werkbank zum Mitnehmen"
 			rewards: [{ id: "7942A1459196CF2E", type: "item", item: { id: "minecraft:crafting_table", count: 1 } }]
 			tasks: [{ id: "1BA6E203B75F11D4", type: "item", item: { id: "crafting_on_a_stick:crafting_table", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 46.75d
+			x: 15.00d
+			y: -7.50d
 		}
 		{
 			dependencies: ["04E3728EFBB0858D"]
@@ -435,19 +428,18 @@
 			title: "Steinhacke"
 			rewards: [{ id: "56360209B05F1683", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
 			tasks: [{ id: "16E622EA42A4E478", type: "item", item: { id: "minecraft:stone_hoe", count: 1 }, count: 1L }]
-			x: 18.00d
-			y: 5.50d
+			x: 15.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["1C40D78F36FFCB0A"]
 			description: ["&6Was ist das?", "Samen bekommst du von Gras. Pflanze sie auf gehacktem Boden neben Wasser.", "", "&6So gehts", "Samen bekommst du von hohem Gras. Pflanze sie auf Ackerboden neben Wasser.", "Achte auf die Jahreszeit: Im Winter wächst kaum etwas.", "", "&6Wofür ist das wichtig?", "Brot, Teig, Kuchen und Futter für Kühe und Schafe.", "", "&6Gut zu wissen", "Ackerboden wird zu Erde, wenn du darauf springst. Wasser in vier Blöcken Umkreis hält ihn feucht, Knochenmehl lässt die Pflanzen sofort wachsen."]
-			hide_dependency_lines: true
 			id: "38E431CDA13687D6"
 			title: "Weizen anbauen"
 			rewards: [{ id: "244B668FCA9C8B21", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "43C954D79E7830BE", type: "item", item: { id: "minecraft:wheat", count: 1 }, count: 16L }]
-			x: 1.50d
-			y: 9.25d
+			x: 16.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
@@ -456,19 +448,18 @@
 			title: "Brot backen"
 			rewards: [{ id: "0210EEE85CF34952", type: "item", item: { id: "minecraft:cooked_chicken", count: 4 } }]
 			tasks: [{ id: "467C14B9BCFCB623", type: "item", item: { id: "minecraft:bread", count: 1 }, count: 8L }]
-			x: 4.50d
-			y: 11.12d
+			x: 18.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["0E13BB3BED84B047"]
 			description: ["&6Was ist das?", "Im Komposter werden Pflanzenreste zu Knochenmehl.", "", "&6So gehts", "Samen, Blätter und Pflanzen hineinwerfen, bis er voll ist.", "", "&6Wofür ist das wichtig?", "Knochenmehl lässt Pflanzen und Bäume sofort wachsen."]
-			hide_dependency_lines: true
 			id: "110D2FEA71919248"
 			title: "Komposter"
 			rewards: [{ id: "16B6FC965CA98E25", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
 			tasks: [{ id: "1CF8DA615D7E0621", type: "item", item: { id: "minecraft:composter", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 38.25d
+			x: 19.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["0E13BB3BED84B047"]
@@ -477,19 +468,18 @@
 			title: "Lagerfeuer"
 			rewards: [{ id: "421F879D3EA7BCB8", type: "item", item: { id: "minecraft:cooked_porkchop", count: 4 } }]
 			tasks: [{ id: "24AF7A695A16070C", type: "item", item: { id: "minecraft:campfire", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 11.12d
+			x: 19.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
 			description: ["&6Was ist das?", "Rohes Fleisch auf dem Lagerfeuer oder im Ofen braten.", "", "&6So gehts", "Auf dem Lagerfeuer, im Ofen oder im Räucherofen braten.", "", "&6Wofür ist das wichtig?", "Gutes Essen füllt die Sättigung, dann heilst du schneller."]
-			hide_dependency_lines: true
 			id: "2AD1D915658D1D50"
 			title: "Gebratenes Fleisch"
 			rewards: [{ id: "10D3B99316208328", type: "item", item: { id: "minecraft:cooked_beef", count: 6 } }]
 			tasks: [{ id: "40CCC3AF6B0283CA", type: "item", item: { id: "minecraft:cooked_beef", count: 1 }, count: 8L }]
-			x: 1.50d
-			y: 35.25d
+			x: 21.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["2AD1D915658D1D50"]
@@ -498,8 +488,8 @@
 			title: "Räucherofen"
 			rewards: [{ id: "53C21DFD56538624", type: "item", item: { id: "minecraft:coal", count: 8 } }]
 			tasks: [{ id: "31ABFA28F70821F4", type: "item", item: { id: "minecraft:smoker", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 35.25d
+			x: 22.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["110D2FEA71919248"]
@@ -508,8 +498,8 @@
 			title: "Ernten mit Rechtsklick"
 			rewards: [{ id: "59693D4513BE0537", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
 			tasks: [{ id: "36B7343A04693ADB", type: "checkmark" }]
-			x: 3.00d
-			y: 38.25d
+			x: 21.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["434B0242196341B0"]
@@ -518,8 +508,8 @@
 			title: "Jahreszeiten"
 			rewards: [{ id: "3DFC6C96A4C6B8E8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "080485FCFCDDBFAB", type: "item", item: { id: "sereneseasons:calendar", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 38.25d
+			x: 22.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["1FF6A1EC3F974044"]
@@ -529,8 +519,8 @@
 			title: "Fangnetz"
 			rewards: [{ id: "5750C155C31E6C9F", type: "item", item: { id: "minecraft:string", count: 6 } }]
 			tasks: [{ id: "3C8F909DF604E06F", type: "item", item: { id: "naturalist:capture_net", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 35.25d
+			x: 24.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["699D8AF525791ABA"]
@@ -540,19 +530,18 @@
 			title: "Wildfleisch"
 			rewards: [{ id: "7D811896F8366FBD", type: "item", item: { id: "minecraft:cooked_porkchop", count: 6 } }]
 			tasks: [{ id: "7275DB7F85BB3939", type: "item", item: { id: "naturalist:cooked_venison", count: 1 }, count: 4L }]
-			x: 6.00d
-			y: 35.25d
+			x: 25.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
 			description: ["&6Was ist das?", "Bienen machen Honig. Nimm eine Glasflasche und sammle am Bienenstock.", "", "&6So gehts", "Mit Glasflasche am vollen Bienenstock Honig sammeln. Lagerfeuer darunter beruhigt die Bienen.", "Mit Schere bekommst du Honigwaben.", "", "&6Wofür ist das wichtig?", "Honig für Met (Brewin), Kerzen aus Waben, Honig-Seetang und Create-Honig."]
-			hide_dependency_lines: true
 			id: "3562C0A2C728CF90"
 			title: "Bienen"
 			rewards: [{ id: "7C6AB809DF5F95CD", type: "item", item: { id: "minecraft:honey_bottle", count: 2 } }]
 			tasks: [{ id: "4311D6D9A2633A35", type: "item", item: { id: "minecraft:honey_bottle", count: 1 }, count: 2L }]
-			x: 1.50d
-			y: 39.50d
+			x: 18.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["3562C0A2C728CF90"]
@@ -561,19 +550,18 @@
 			title: "Angeln"
 			rewards: [{ id: "56BF2A4E6813EA19", type: "item", item: { id: "minecraft:cooked_salmon", count: 8 } }]
 			tasks: [{ id: "3216D6ECF81434B4", type: "item", item: { id: "minecraft:fishing_rod", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 39.50d
+			x: 19.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["149718EF5100546D"]
 			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Hälfte der Spieler schlafen.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
-			hide_dependency_lines: true
 			id: "31E49D7CA0CDCF29"
 			title: "Ein Bett für die Nacht"
 			rewards: [{ id: "2CCB051DE9617BB1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "08C0752D3456786D", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 49.75d
+			x: 9.00d
+			y: 9.00d
 		}
 		{
 			dependencies: ["31E49D7CA0CDCF29"]
@@ -582,8 +570,8 @@
 			title: "Kisten sind dein Freund"
 			rewards: [{ id: "3FD9FA36355B9A30", type: "item", item: { id: "minecraft:barrel", count: 2 } }]
 			tasks: [{ id: "55E5AE1BD49F7B38", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 49.75d
+			x: 10.50d
+			y: 9.00d
 		}
 		{
 			dependencies: ["69D520822E2F3373"]
@@ -592,8 +580,8 @@
 			title: "Eine Kiste"
 			rewards: [{ id: "30526571B5D635A2", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "2ECF0F2BE58A1FC9", type: "item", item: { id: "minecraft:chest", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 49.75d
+			x: 12.00d
+			y: 9.00d
 		}
 		{
 			dependencies: ["01E77D914BD88DA1"]
@@ -602,8 +590,8 @@
 			title: "Fass"
 			rewards: [{ id: "4EEBAA08D1E81414", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "61044A0ED56A5A5A", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 49.75d
+			x: 13.50d
+			y: 9.00d
 		}
 		{
 			dependencies: ["06ABC2FF817AB74D"]
@@ -612,8 +600,8 @@
 			title: "Inventar sortieren"
 			rewards: [{ id: "427D9B12C89E687E", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0979C3073BFEEA18", type: "checkmark" }]
-			x: 7.50d
-			y: 49.75d
+			x: 15.00d
+			y: 9.00d
 		}
 		{
 			dependencies: ["0C6A9776F573027A"]
@@ -622,8 +610,8 @@
 			title: "Türen"
 			rewards: [{ id: "0F3DD15C543C628E", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "049AB3B146171822", type: "item", item: { id: "minecraft:oak_door", count: 1 }, count: 2L }]
-			x: 9.00d
-			y: 49.75d
+			x: 16.50d
+			y: 9.00d
 		}
 		{
 			dependencies: ["730075A86BE3CD99"]
@@ -632,8 +620,8 @@
 			title: "Laterne"
 			rewards: [{ id: "497243380C4F195D", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "4D278F7C7C1E24C5", type: "item", item: { id: "minecraft:lantern", count: 1 }, count: 4L }]
-			x: 10.50d
-			y: 49.75d
+			x: 18.00d
+			y: 9.00d
 		}
 		{
 			dependencies: ["3E7ABB28E4C6BBE5"]
@@ -642,8 +630,8 @@
 			title: "Schlafen mit Comforts"
 			rewards: [{ id: "3563618D029E7D7A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1D44FC84F2D71FDA", type: "item", item: { id: "comforts:sleeping_bag_red", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 49.75d
+			x: 19.50d
+			y: 9.00d
 		}
 		{
 			dependencies: ["1799BD20B88CE4F4"]
@@ -652,19 +640,18 @@
 			title: "Tragen mit Carry On"
 			rewards: [{ id: "40EF884BF81B0279", type: "item", item: { id: "minecraft:chest", count: 2 } }]
 			tasks: [{ id: "509D67D5318570CD", type: "checkmark" }]
-			x: 13.50d
-			y: 49.75d
+			x: 21.00d
+			y: 9.00d
 		}
 		{
 			dependencies: ["04E3728EFBB0858D"]
 			description: ["&6Was ist das?", "Ein Waystone ist ein Teleport-Punkt. Alle aktivierten Waystones sind miteinander verbunden.", "", "&6So gehts", "Baue einen Waystone (Rezept in JEI) und stelle ihn auf.", "Rechtsklick aktiviert ihn. Ab dann kannst du von jedem anderen Waystone dorthin reisen.", "In Dörfern stehen oft schon Waystones, die du nur aktivieren musst.", "", "&6Wofür ist das wichtig?", "Die Welt ist riesig. Mit Waystones sparst du lange Wege zwischen Basis, Dorf, Nether-Portal und Dungeons."]
-			hide_dependency_lines: true
 			id: "7E5061B34C079EF7"
 			title: "Wegpunkt: Waystone"
 			rewards: [{ id: "1E42D2A795AE7EA7", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
 			tasks: [{ id: "70D950B7F8C853B2", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 42.50d
+			x: 15.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["7E5061B34C079EF7"]
@@ -673,8 +660,8 @@
 			title: "Waystone bauen"
 			rewards: [{ id: "01890E73651FF801", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
 			tasks: [{ id: "006693EB5B23EF99", type: "item", item: { id: "waystones:waystone", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 42.50d
+			x: 16.50d
+			y: -6.00d
 		}
 		{
 			dependencies: ["388F48A83D3D7FF0"]
@@ -683,8 +670,8 @@
 			title: "Boot"
 			rewards: [{ id: "060D7BEF1DA1BB8C", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "34ED2B1BBCCFCFEA", type: "item", item: { id: "minecraft:oak_boat", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 42.50d
+			x: 18.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["31BE35B07AF6F13E"]
@@ -693,8 +680,8 @@
 			title: "Ein Reittier"
 			rewards: [{ id: "2BC13A1D83926AF4", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
 			tasks: [{ id: "26607880CBD91C59", type: "item", item: { id: "minecraft:saddle", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 42.50d
+			x: 19.50d
+			y: -6.00d
 		}
 		{
 			dependencies: ["3FACF635CBD0587E"]
@@ -703,8 +690,8 @@
 			title: "Naturkompass"
 			rewards: [{ id: "50106E3C3BE9B83C", type: "item", item: { id: "minecraft:map", count: 1 } }]
 			tasks: [{ id: "13FBCC69853C87C9", type: "item", item: { id: "naturescompass:naturescompass", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 42.50d
+			x: 21.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["48ED10FFDEEA902E"]
@@ -713,8 +700,8 @@
 			title: "Biome finden"
 			rewards: [{ id: "10CDCCE0974B0D75", type: "item", item: { id: "minecraft:paper", count: 6 } }]
 			tasks: [{ id: "5A9BCBB967267441", type: "checkmark" }]
-			x: 9.00d
-			y: 42.50d
+			x: 22.50d
+			y: -6.00d
 		}
 		{
 			dependencies: ["387CA05F814C5319"]
@@ -723,8 +710,8 @@
 			title: "Ein Dorf besuchen"
 			rewards: [{ id: "43C39693CDA5E673", type: "item", item: { id: "minecraft:bread", count: 8 } }]
 			tasks: [{ id: "4719B31795AE6C90", type: "item", item: { id: "minecraft:emerald", count: 1 }, count: 10L }]
-			x: 10.50d
-			y: 42.50d
+			x: 24.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["330A13BA55DAE4DE"]
@@ -733,8 +720,8 @@
 			title: "Handeln"
 			rewards: [{ id: "01A23B833BCC6E38", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
 			tasks: [{ id: "07ECC06439DCE729", type: "checkmark" }]
-			x: 12.00d
-			y: 42.50d
+			x: 25.50d
+			y: -6.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -744,8 +731,8 @@
 			title: "Stein-Langschwert"
 			rewards: [{ id: "56EE8C09C32B780F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "45FA4774993CDE47", type: "item", item: { id: "weaponsexpanded:stone_longsword", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 22.75d
+			x: -1.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -755,8 +742,8 @@
 			title: "Stein-Breitschwert"
 			rewards: [{ id: "0E28426F9C1ECB04", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6AB751F94D6C0558", type: "item", item: { id: "weaponsexpanded:stone_broadsword", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 24.00d
+			x: -4.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -766,8 +753,8 @@
 			title: "Stein-Großschwert"
 			rewards: [{ id: "3730335B3E18D7BC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6FC67CD12C0F5AB8", type: "item", item: { id: "weaponsexpanded:stone_greatsword", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 25.25d
+			x: 0.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -777,8 +764,8 @@
 			title: "Stein-Katana"
 			rewards: [{ id: "38E24995C2CF38FD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69446A61D26EBD78", type: "item", item: { id: "weaponsexpanded:stone_katana", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 26.50d
+			x: -3.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -788,8 +775,8 @@
 			title: "Stein-Kampfaxt"
 			rewards: [{ id: "5B8F5FC6A6ED5F4F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0D4AB543EE42427D", type: "item", item: { id: "weaponsexpanded:stone_battleaxe", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 27.75d
+			x: 0.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -799,8 +786,8 @@
 			title: "Stein-Beil"
 			rewards: [{ id: "30F25BA91B2BAB88", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7A879D4049402C52", type: "item", item: { id: "weaponsexpanded:stone_hatchet", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 29.00d
+			x: -1.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -810,8 +797,8 @@
 			title: "Stein-Hammer"
 			rewards: [{ id: "37C694394BEC9288", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0E662FD1F3DE8002", type: "item", item: { id: "weaponsexpanded:stone_hammer", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 30.25d
+			x: -1.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -821,8 +808,8 @@
 			title: "Stein-Kriegshammer"
 			rewards: [{ id: "70AD33415798697D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "00045EFB7EF1F738", type: "item", item: { id: "weaponsexpanded:stone_warhammer", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 31.50d
+			x: -1.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -832,8 +819,8 @@
 			title: "Stein-Sense"
 			rewards: [{ id: "75E8579D6499C8A6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "71EF968DA6DE6720", type: "item", item: { id: "weaponsexpanded:stone_scythe", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 32.75d
+			x: 3.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -843,8 +830,8 @@
 			title: "Stein-Sichel"
 			rewards: [{ id: "15FC2F83B01B238F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "625A9B80388D4078", type: "item", item: { id: "weaponsexpanded:stone_sickle", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 34.00d
+			x: -3.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
@@ -853,8 +840,8 @@
 			title: "Kämpfen mit Better Combat"
 			rewards: [{ id: "646C278F84BC4206", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2EAD7078FD6AD63A", type: "checkmark" }]
-			x: 7.50d
-			y: 11.12d
+			x: 21.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
@@ -863,8 +850,8 @@
 			title: "Bogen"
 			rewards: [{ id: "73F537DD7183AB72", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
 			tasks: [{ id: "69206D2A2B363C09", type: "item", item: { id: "minecraft:bow", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 12.38d
+			x: 22.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7F4FF7546A6F0849"]
@@ -873,8 +860,8 @@
 			title: "Pfeile"
 			rewards: [{ id: "526D5A8636CB1F5C", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "26A5EC149F1AB6AF", type: "item", item: { id: "minecraft:arrow", count: 1 }, count: 32L }]
-			x: 4.50d
-			y: 21.50d
+			x: 0.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["5EDD66726A8CB055"]
@@ -883,8 +870,8 @@
 			title: "Lederrüstung"
 			rewards: [{ id: "56D8C3FD39A6C1A1", type: "item", item: { id: "minecraft:leather", count: 8 } }]
 			tasks: [{ id: "745B362AB99721F7", type: "item", item: { id: "minecraft:leather_chestplate", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 12.38d
+			x: 24.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["24B25DD1BE315360"]
@@ -893,8 +880,8 @@
 			title: "Der Creeper-Jäger"
 			rewards: [{ id: "7318882164C57F16", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
 			tasks: [{ id: "26133EADAA34006C", type: "kill", entity: "minecraft:creeper", value: 5L, icon: { id: "minecraft:gunpowder" } }]
-			x: 6.00d
-			y: 21.50d
+			x: 1.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["0ABE13F2F0EF54DA"]
@@ -903,8 +890,8 @@
 			title: "Sieger über Skelette"
 			rewards: [{ id: "04AA9FAA6E6A5ECC", type: "item", item: { id: "minecraft:arrow", count: 32 } }]
 			tasks: [{ id: "1C6310AC3665AE4D", type: "kill", entity: "minecraft:skeleton", value: 10L, icon: { id: "minecraft:bone" } }]
-			x: 7.50d
-			y: 21.50d
+			x: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["76B62C313C1E5D43"]
@@ -913,8 +900,8 @@
 			title: "Gruppe gründen"
 			rewards: [{ id: "3179A35CAD085AC1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "449C735BCC08F21C", type: "checkmark" }]
-			x: 3.00d
-			y: 61.38d
+			x: 4.50d
+			y: -10.50d
 		}
 		{
 			dependencies: ["05A8F87077230637"]
@@ -923,8 +910,8 @@
 			title: "Chunks sichern"
 			rewards: [{ id: "760673DC7DE7B63D", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "206FFC72C8F303A4", type: "checkmark" }]
-			x: 4.50d
-			y: 61.38d
+			x: 6.00d
+			y: -10.50d
 		}
 		{
 			dependencies: ["7D950ED7E0CB9950"]
@@ -933,8 +920,8 @@
 			title: "Ping"
 			rewards: [{ id: "119ACE7FA6580E93", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5146D11E6930575A", type: "checkmark" }]
-			x: 6.00d
-			y: 61.38d
+			x: 7.50d
+			y: -10.50d
 		}
 		{
 			dependencies: ["6B4314E787C73225"]
@@ -943,8 +930,8 @@
 			title: "Beute teilen (Lootr)"
 			rewards: [{ id: "4A27EE32DA8318BC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5DDBD34D49334BC6", type: "checkmark" }]
-			x: 7.50d
-			y: 61.38d
+			x: 9.00d
+			y: -10.50d
 		}
 		{
 			dependencies: ["3762E8AE7D5A3EA6"]
@@ -953,8 +940,8 @@
 			title: "Dein Grab"
 			rewards: [{ id: "080E7E6B6737F20B", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
 			tasks: [{ id: "431DF935F8DD49EF", type: "checkmark" }]
-			x: 9.00d
-			y: 61.38d
+			x: 10.50d
+			y: -10.50d
 		}
 		{
 			dependencies: ["4CC791F37478A527"]
@@ -963,8 +950,8 @@
 			title: "Kohle"
 			rewards: [{ id: "27AAD63E22BA19E1", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "42E16CF28F24A35E", type: "item", item: { id: "minecraft:coal", count: 1 }, count: 16L }]
-			x: 12.00d
-			y: 12.38d
+			x: 25.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["60B557A4BAD57D69"]
@@ -973,8 +960,8 @@
 			title: "Rohkupfer"
 			rewards: [{ id: "2243F483C0C95EF2", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
 			tasks: [{ id: "273B360D370CE882", type: "item", item: { id: "minecraft:raw_copper", count: 1 }, count: 16L }]
-			x: 13.50d
-			y: 12.38d
+			x: 27.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["00C24655867A56D6"]
@@ -983,8 +970,8 @@
 			title: "Kupferbarren"
 			rewards: [{ id: "3E3CD5D014670DB0", type: "item", item: { id: "minecraft:copper_ingot", count: 4 } }]
 			tasks: [{ id: "368A3C3D39A59BB8", type: "item", item: { id: "minecraft:copper_ingot", count: 1 }, count: 8L }]
-			x: 15.00d
-			y: 12.38d
+			x: 28.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7530D2695E6CB2F2"]
@@ -993,8 +980,8 @@
 			title: "Roheisen"
 			rewards: [{ id: "10FC83FA8BED6D11", type: "item", item: { id: "minecraft:iron_nugget", count: 12 } }]
 			tasks: [{ id: "5C1813D52026B033", type: "item", item: { id: "minecraft:raw_iron", count: 1 }, count: 16L }]
-			x: 16.50d
-			y: 12.38d
+			x: 30.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3E8BC412CE4C06F1"]
@@ -1003,8 +990,8 @@
 			title: "Eisen!"
 			rewards: [{ id: "7289F77FC744A085", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
 			tasks: [{ id: "074A6908421C1CE1", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
-			x: 18.00d
-			y: 12.38d
+			x: 31.50d
+			y: 0.00d
 		}
 		{
 			description: ["&6Was ist das?", "Das ist dein Questbuch (Taste U). Exactly wird in Zeitaltern gespielt: von der Steinzeit bis zum Meister-Zeitalter.", "Jedes Zeitalter ist ein Baum: Von dieser Startquest gehen Zweige ab, zum Beispiel Holz, Stein, Nahrung, Kochen, Zuhause, Reisen und Bergbau.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Items werden automatisch erkannt. Bei Quests mit Haken klickst du selbst auf den Haken.", "Belohnungen holst du mit einem Klick auf die Truhe in der Quest ab.", "", "&6Wofür ist das wichtig?", "Ganz rechts steht die Abschluss-Quest. Für die Eisenzeit brauchst du die Pflicht-Zweige und 16 Eisenbarren.", "Waffen, Werkzeuge, Rüstungen und Fernkampf findest du als eigene Reihen in jedem Zeitalter. Kleine Mods und Im Hintergrund sind immer offen."]
@@ -1014,34 +1001,32 @@
 			tasks: [{ id: "1B8905CD6A6A07B0", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 1.50d
-			y: -0.12d
+			x: 0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["5A652BEF93A71F4D"]
 			description: ["&6Was ist das?", "Hier beginnt die Eisenzeit. Sie schaltet frei: Eisenwerkzeug und -rüstung, Schild, Schmelzofen, Amboss, Toms Storage und die Eisenwaffen von Simply Swords.", "", "&6So gehts", "Schließe die Pflicht-Zweige ab: Holz, Stein, Nahrung, Kochen und Bergbau.", "Habe 16 Eisenbarren im Inventar und hol dir die Belohnung.", "Das gilt sofort für alle Spieler.", "", "&6Wofür ist das wichtig?", "Danach öffnet sich das Kapitel Eisenzeit."]
 			icon: { id: "minecraft:iron_ingot" }
-			hide_dependency_lines: true
 			id: "383D2644464FE272"
 			title: "Zeitalter: Eisenzeit"
 			rewards: [{ id: "53F97DDED346654E", type: "historystages:history_stage", stage: "eisenzeit", remove: false, individual: false }, { id: "2F0F0595DF1A4F1B", type: "xp_levels", xp_levels: 5 }, { id: "5E1A7E00C0FFEE01", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "6102DD31983CB9FE", type: "item", item: { id: "minecraft:iron_ingot", count: 1 }, count: 16L }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 1.50d
-			y: 14.25d
+			x: 33.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["60B557A4BAD57D69"]
 			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Stärke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:bow" }
-			hide_dependency_lines: true
 			id: "55EF779DF279FBD5"
 			title: "Bogen (Arsenal)"
 			rewards: []
 			tasks: [{ id: "2D02434E53530AFD", type: "item", item: { id: "minecraft:bow", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 17.25d
+			x: 27.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
@@ -1051,8 +1036,8 @@
 			title: "Werkzeug-Set Stein"
 			rewards: []
 			tasks: [{ id: "5F7B71280C7901AE", type: "checkmark" }]
-			x: 3.00d
-			y: 17.25d
+			x: 28.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["04C68043BDC78DC0"]
@@ -1062,8 +1047,8 @@
 			title: "Angel"
 			rewards: []
 			tasks: [{ id: "45650CFBE3C51DC1", type: "checkmark" }]
-			x: 4.50d
-			y: 17.25d
+			x: 30.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["45D11842B4FCB827"]
@@ -1073,8 +1058,8 @@
 			title: "Werkzeug-Set Holz"
 			rewards: []
 			tasks: [{ id: "71B65BAF6EA77673", type: "checkmark" }]
-			x: 6.00d
-			y: 17.25d
+			x: 31.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["04C68043BDC78DC0"]
@@ -1084,19 +1069,18 @@
 			title: "Rüstung Leder"
 			rewards: []
 			tasks: [{ id: "58FF5AB6A2A862DE", type: "checkmark" }]
-			x: 4.50d
-			y: 18.50d
+			x: 30.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["32B584A362001F6A"]
 			description: ["&6Was ist das?", "Mit der Schleuder verschießt du Kiesel auf Distanz.", "", "&6So gehts", "Kiesel sammeln, Schleuder nach JEI herstellen. Rechtsklick halten zum Spannen.", "", "&6Wofür ist das wichtig?", "Die erste Fernwaffe, noch vor dem Bogen."]
-			hide_dependency_lines: true
 			id: "5DE7F7A93248B56F"
 			title: "Schleuder"
 			rewards: [{ id: "52439A16D28A2676", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "33A71492BA32EC39", type: "item", item: { id: "slingshot:brown", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 64.38d
+			y: 3.00d
 		}
 		{
 			dependencies: ["5DE7F7A93248B56F"]
@@ -1106,7 +1090,7 @@
 			rewards: [{ id: "28C3E2EDD6E55C31", type: "item", item: { id: "slingshot:pebble", count: 16 } }]
 			tasks: [{ id: "724FDBB3BD24081F", type: "item", item: { id: "slingshot:pebble", count: 1 }, count: 8L }]
 			x: 3.00d
-			y: 64.38d
+			y: 3.00d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
@@ -1115,8 +1099,8 @@
 			title: "Zaun"
 			rewards: [{ id: "6F65EF2E6DECF530", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "384B4F56C4D4E68A", type: "item", item: { id: "minecraft:oak_fence", count: 1 }, count: 4L }]
-			x: 9.00d
-			y: -2.00d
+			x: 6.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["149718EF5100546D"]
@@ -1125,8 +1109,8 @@
 			title: "Leiter"
 			rewards: [{ id: "7D2B009491ABEB1C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "208130923219C05A", type: "item", item: { id: "minecraft:ladder", count: 1 }, count: 8L }]
-			x: 12.00d
-			y: 1.75d
+			x: 9.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
@@ -1135,8 +1119,8 @@
 			title: "Feuerstein"
 			rewards: [{ id: "7F423B7F31983E06", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7134F7288C39FF45", type: "item", item: { id: "minecraft:flint", count: 1 }, count: 3L }]
-			x: 13.50d
-			y: 3.00d
+			x: 10.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
@@ -1145,8 +1129,8 @@
 			title: "Steintreppen"
 			rewards: [{ id: "73A2A1A442CA71C8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "66748FF7633C94EC", type: "item", item: { id: "minecraft:cobblestone_stairs", count: 1 }, count: 6L }]
-			x: 13.50d
-			y: 4.25d
+			x: 10.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
@@ -1155,8 +1139,8 @@
 			title: "Kartoffeln und Karotten"
 			rewards: [{ id: "25DBC1766543F266", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6E11563AADD54FAF", type: "item", item: { id: "minecraft:carrot", count: 1 }, count: 4L }]
-			x: 4.50d
-			y: 7.38d
+			x: 18.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
@@ -1165,8 +1149,8 @@
 			title: "Kürbis"
 			rewards: [{ id: "1064B04BEEA51B47", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "15CC9B55C4406685", type: "item", item: { id: "minecraft:pumpkin", count: 1 }, count: 2L }]
-			x: 4.50d
-			y: 8.62d
+			x: 18.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
@@ -1175,8 +1159,8 @@
 			title: "Melone"
 			rewards: [{ id: "5C4579D251FCC102", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B5F5D8593BC84B5", type: "item", item: { id: "minecraft:melon_slice", count: 1 }, count: 6L }]
-			x: 4.50d
-			y: 9.88d
+			x: 18.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
@@ -1185,8 +1169,8 @@
 			title: "Knochenmehl"
 			rewards: [{ id: "2A6AAE6A26D5E314", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3054906D97F05EFC", type: "item", item: { id: "minecraft:bone_meal", count: 1 }, count: 6L }]
-			x: 9.00d
-			y: 11.12d
+			x: 22.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
@@ -1195,8 +1179,8 @@
 			title: "Papier"
 			rewards: [{ id: "08A70D88D69C64E4", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0ECE90FCB6CBB381", type: "item", item: { id: "minecraft:paper", count: 1 }, count: 3L }]
-			x: 9.00d
-			y: -0.75d
+			x: 6.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
@@ -1205,8 +1189,8 @@
 			title: "Schilder"
 			rewards: [{ id: "441B7533C996B730", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2E4A3E4C07BE5FED", type: "item", item: { id: "minecraft:oak_sign", count: 1 }, count: 2L }]
-			x: 9.00d
-			y: 0.50d
+			x: 6.00d
+			y: -9.00d
 		}
 		{
 			description: ["&6Abschnitt", "Arsenal und Handwerk"]
@@ -1215,8 +1199,8 @@
 			optional: true
 			tasks: [{ id: "6C46006AC3199B75", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 17.25d
+			x: 25.50d
+			y: -3.00d
 		}
 		{
 			description: ["&6Abschnitt", "Kampf und Stein-Waffen"]
@@ -1225,8 +1209,8 @@
 			optional: true
 			tasks: [{ id: "5F8FB3F2F41743CB", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 21.50d
+			x: -1.50d
+			y: 4.50d
 		}
 		{
 			description: ["&6Abschnitt", "Landwirtschaft"]
@@ -1235,8 +1219,8 @@
 			optional: true
 			tasks: [{ id: "5BF66CDE2545CB96", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 38.25d
+			x: 19.50d
+			y: 4.50d
 		}
 		{
 			description: ["&6Abschnitt", "Reisen und Dorf"]
@@ -1245,8 +1229,8 @@
 			optional: true
 			tasks: [{ id: "4EB08E12C88EC85E", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 42.50d
+			x: 13.50d
+			y: -6.00d
 		}
 		{
 			description: ["&6Abschnitt", "Steinwerkzeuge"]
@@ -1255,8 +1239,8 @@
 			optional: true
 			tasks: [{ id: "77A486728ECCBA5B", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 45.50d
+			x: 12.00d
+			y: 7.50d
 		}
 		{
 			description: ["&6Abschnitt", "Haus und Möbel"]
@@ -1265,8 +1249,8 @@
 			optional: true
 			tasks: [{ id: "32DE2EA6AADA3D81", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 49.75d
+			x: 7.50d
+			y: 9.00d
 		}
 		{
 			description: ["&6Abschnitt", "Holz und Pflanzen"]
@@ -1275,8 +1259,8 @@
 			optional: true
 			tasks: [{ id: "232F6897926E6598", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 55.88d
+			x: 3.00d
+			y: 6.00d
 		}
 		{
 			description: ["&6Abschnitt", "Spielhilfen"]
@@ -1285,8 +1269,8 @@
 			optional: true
 			tasks: [{ id: "3AE5A8DF120CAC9C", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 60.12d
+			x: 1.50d
+			y: -10.50d
 		}
 		{
 			description: ["&6Abschnitt", "Fernwaffen der Steinzeit"]
@@ -1296,7 +1280,7 @@
 			tasks: [{ id: "70157EF4F33C851D", type: "checkmark" }]
 			shape: "hexagon"
 			x: 0.00d
-			y: 64.38d
+			y: 3.00d
 		}
 	]
 }

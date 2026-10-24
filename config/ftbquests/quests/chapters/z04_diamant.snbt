@@ -15,7 +15,7 @@
 			title: "Diamant-Ausrüstung"
 			rewards: [{ id: "04CF41EB62772C30", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "586642040DF2A94C", type: "item", item: { id: "minecraft:diamond_pickaxe", count: 1 }, count: 1L }]
-			x: 3.00d
+			x: 1.50d
 			y: 0.00d
 		}
 		{
@@ -26,7 +26,7 @@
 			title: "Diamantschwert"
 			rewards: [{ id: "1C17CABACDF8F913", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2E81412FFA9A8AB9", type: "item", item: { id: "minecraft:diamond_sword", count: 1 }, count: 1L }]
-			x: 4.50d
+			x: 3.00d
 			y: 0.00d
 		}
 		{
@@ -37,7 +37,7 @@
 			title: "Diamantrüstung"
 			rewards: [{ id: "74F8084D4491A135", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2BBAC307BD308F25", type: "item", item: { id: "minecraft:diamond_chestplate", count: 1 }, count: 1L }]
-			x: 6.00d
+			x: 4.50d
 			y: 0.00d
 		}
 		{
@@ -47,19 +47,18 @@
 			title: "Schmiedetisch"
 			rewards: [{ id: "5BF54DFA91207BCE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B2DEE7CC1159E08", type: "item", item: { id: "minecraft:smithing_table", count: 1 }, count: 1L }]
-			x: 7.50d
+			x: 6.00d
 			y: 0.00d
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plätze.", "", "&6So gehts", "Gold-Rucksack mit Diamanten aufwerten.", "", "&6Wofür ist das wichtig?", "Viele Plätze und Upgrade-Slots für lange Reisen."]
-			hide_dependency_lines: true
 			id: "797F4B8218472B01"
 			title: "Diamant-Rucksack"
 			rewards: [{ id: "5D4AAFCD0EDD8F2A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "3A7455BE178F4B31", type: "item", item: { id: "sophisticatedbackpacks:diamond_backpack", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 22.50d
+			x: 6.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["797F4B8218472B01"]
@@ -68,8 +67,8 @@
 			title: "Monsterfreie Zone"
 			rewards: [{ id: "19E97F71F8105A8A", type: "item", item: { id: "minecraft:torch", count: 16 } }]
 			tasks: [{ id: "5C978FDFFC271000", type: "item", item: { id: "magnumtorch:diamond_magnum_torch", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 22.50d
+			x: 7.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
@@ -80,8 +79,8 @@
 			title: "Diamanthammer"
 			rewards: [{ id: "50BB36B4CF8ECDFF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "70175AE0EB9EB6EA", type: "item", item: { id: "justhammers:diamond_hammer", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 36.00d
+			x: 10.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["598824065CC1F63B"]
@@ -91,8 +90,8 @@
 			title: "Verstärkte Diamant-Spitzhacke"
 			rewards: [{ id: "66CC5C6021171209", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "57507A72DC39A771", type: "item", item: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 36.00d
+			x: 12.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
@@ -101,7 +100,7 @@
 			title: "Der Verzauberungstisch"
 			rewards: [{ id: "69B8EA263F9CBAB4", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
 			tasks: [{ id: "108E99E367ADB315", type: "item", item: { id: "minecraft:enchanting_table", count: 1 }, count: 1L }]
-			x: 9.00d
+			x: 7.50d
 			y: 0.00d
 		}
 		{
@@ -112,19 +111,18 @@
 			title: "Apothic Enchanting"
 			rewards: [{ id: "59E9963E549C5FF8", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "675BE451169A1D81", type: "checkmark" }]
-			x: 10.50d
+			x: 9.00d
 			y: 0.00d
 		}
 		{
 			dependencies: ["1DB3F417D7AE0137"]
 			description: ["&6Was ist das?", "Mit Easy Disenchanting überträgst du Verzauberungen auf Bücher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofür ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
-			hide_dependency_lines: true
 			id: "79245A87CC32FE72"
 			title: "Verzauberung übertragen"
 			rewards: [{ id: "6016C3A2CE568AF9", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "753B1D909508CF15", type: "checkmark" }]
-			x: 1.50d
-			y: 17.00d
+			x: 10.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["79245A87CC32FE72"]
@@ -133,8 +131,8 @@
 			title: "XP speichern"
 			rewards: [{ id: "03686DE193C50947", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3A662C5170BCFE53", type: "checkmark" }]
-			x: 3.00d
-			y: 17.00d
+			x: 12.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["0FD6302A9ABCCF31"]
@@ -144,8 +142,8 @@
 			title: "Veinminer-Verzauberung"
 			rewards: [{ id: "05CA28B6C57B677E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "089675ACCE9F3071", type: "checkmark" }]
-			x: 4.50d
-			y: 17.00d
+			x: 13.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["37407FF743621E7E"]
@@ -154,8 +152,8 @@
 			title: "Glück (Fortune)"
 			rewards: [{ id: "4DD145F7248AA806", type: "item", item: { id: "minecraft:lapis_lazuli", count: 8 } }]
 			tasks: [{ id: "0EDE54BC06F9109D", type: "checkmark" }]
-			x: 6.00d
-			y: 17.00d
+			x: 15.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["08E13C4778BBECAD"]
@@ -164,8 +162,8 @@
 			title: "Seidenberührung"
 			rewards: [{ id: "7503D49029A10950", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2AC6DFDF11A53533", type: "checkmark" }]
-			x: 7.50d
-			y: 17.00d
+			x: 16.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["188BE6C057D774EB"]
@@ -174,20 +172,19 @@
 			title: "Reparieren"
 			rewards: [{ id: "782AFEB88FB49A62", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "5A5DE05870933D6F", type: "checkmark" }]
-			x: 9.00d
-			y: 17.00d
+			x: 18.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Bücherregale machen den Verzauberungstisch stärker.", "", "&6So gehts", "Bretter und Bücher. Bücher aus Papier und Leder.", "", "&6Wofür ist das wichtig?", "Mit Apothic Enchanting gibt es viele besondere Regale."]
 			icon: { id: "minecraft:bookshelf" }
-			hide_dependency_lines: true
 			id: "04B61412DE38FA60"
 			title: "Bücherregale"
 			rewards: [{ id: "039AFD1CA1DEA8D1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6500D6CE1A353583", type: "item", item: { id: "minecraft:bookshelf", count: 1 }, count: 15L }]
-			x: 1.50d
-			y: 18.25d
+			x: 9.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["04B61412DE38FA60"]
@@ -197,8 +194,8 @@
 			title: "Regal-Vielfalt"
 			rewards: [{ id: "0C61EBD1DCD25736", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5CC802B71982B7E9", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 18.25d
+			x: 10.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["0A60B7540735FCD4"]
@@ -208,8 +205,8 @@
 			title: "Bibliothek"
 			rewards: [{ id: "66F67521F9C0C6AF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "49A48EFF187865E1", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 18.25d
+			x: 12.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["2ED40011201DDCD2"]
@@ -219,8 +216,8 @@
 			title: "Schrott-Buch"
 			rewards: [{ id: "1F4727007DAA87C5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4ED9F15F6C805FC5", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 18.25d
+			x: 13.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["1DB3F417D7AE0137"]
@@ -229,19 +226,18 @@
 			title: "Obsidian"
 			rewards: [{ id: "0F084224ABF2B814", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "16D60564FC57B2DD", type: "item", item: { id: "minecraft:obsidian", count: 1 }, count: 10L }]
-			x: 12.00d
+			x: 10.50d
 			y: 0.00d
 		}
 		{
 			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Der Warden ist blind, hört aber jedes Geräusch. Er ist stärker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Städte). Schleiche und wirf Schneebälle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausrüstung und Heiltränken.", "", "&6Wofür ist das wichtig?", "Antike Städte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Rüstungsdesigns."]
-			hide_dependency_lines: true
 			id: "150D1F4AD2F8211C"
 			title: "Der Wächter der Tiefe"
 			rewards: [{ id: "6126F822FCD62ACF", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
 			tasks: [{ id: "1317427E80675D00", type: "kill", entity: "minecraft:warden", value: 1L, icon: { id: "minecraft:sculk_shrieker" } }]
-			x: 1.50d
-			y: 9.00d
+			x: 12.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["150D1F4AD2F8211C"]
@@ -250,8 +246,8 @@
 			title: "Das Waldanwesen"
 			rewards: [{ id: "63F207EFFC388F04", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
 			tasks: [{ id: "1FFDCF5D84C3B5DB", type: "item", item: { id: "minecraft:totem_of_undying", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 9.00d
+			x: 13.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["671BE8F3FAC5BA64"]
@@ -260,8 +256,8 @@
 			title: "Der Illager-Magier"
 			rewards: [{ id: "5D0184279585879A", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "1BF16845DEFAFD0F", type: "kill", entity: "illagerinvasion:invoker", value: 1L, icon: { id: "minecraft:totem_of_undying" } }]
-			x: 4.50d
-			y: 9.00d
+			x: 15.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["5678565198FD7665"]
@@ -271,8 +267,8 @@
 			title: "Raid-Magier"
 			rewards: [{ id: "4C5F7E552C112717", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "115329C8A0F50375", type: "kill", entity: "raided:necromancer", value: 1L, icon: { id: "raided:necromancer_spawn_egg" } }]
-			x: 6.00d
-			y: 9.00d
+			x: 16.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["5678565198FD7665"]
@@ -282,8 +278,8 @@
 			title: "Platin"
 			rewards: [{ id: "006BBCB5B75D46F5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "627EDD05B260FBC8", type: "item", item: { id: "illagerinvasion:platinum_sheet", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 10.25d
+			x: 16.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["000C90CEB11DB7E0"]
@@ -293,20 +289,19 @@
 			title: "Verstärkungstisch"
 			rewards: [{ id: "6E37824A61358204", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3AA91CB6938F087C", type: "item", item: { id: "illagerinvasion:imbuing_table", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 10.25d
+			x: 18.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Prüfungskammern sind unterirdische Kampfräume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner für Schlüssel.", "", "&6Wofür ist das wichtig?", "Mit Schlüsseln öffnest du Tresore voller Beute."]
 			icon: { id: "minecraft:trial_key" }
-			hide_dependency_lines: true
 			id: "56EB4F04FE6703CA"
 			title: "Prüfungskammern"
 			rewards: [{ id: "6D4958C4A15B4EC8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "76F13C18E393C3D5", type: "item", item: { id: "minecraft:trial_key", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 21.25d
+			x: 7.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["56EB4F04FE6703CA"]
@@ -316,8 +311,8 @@
 			title: "Breeze-Rute"
 			rewards: [{ id: "07EBC892038A3F7E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "336356CF852352F5", type: "item", item: { id: "minecraft:breeze_rod", count: 1 }, count: 4L }]
-			x: 3.00d
-			y: 21.25d
+			x: 9.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["42F98F559D0D3AAB"]
@@ -327,8 +322,8 @@
 			title: "Streitkolben"
 			rewards: [{ id: "079AC59197144581", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0B40C9325E39CF50", type: "item", item: { id: "minecraft:mace", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 21.25d
+			x: 10.50d
+			y: 6.00d
 		}
 		{
 			dependencies: ["4D07825894473270"]
@@ -338,8 +333,8 @@
 			title: "Echo-Splitter"
 			rewards: [{ id: "202FD86182863C7D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1D270BB74B6D4061", type: "item", item: { id: "minecraft:echo_shard", count: 1 }, count: 4L }]
-			x: 6.00d
-			y: 21.25d
+			x: 12.00d
+			y: 6.00d
 		}
 		{
 			dependencies: ["150D1F4AD2F8211C"]
@@ -348,8 +343,8 @@
 			title: "Mowzies Mobs"
 			rewards: [{ id: "33456B4702982F82", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "00F52A429D471600", type: "checkmark" }]
-			x: 3.00d
-			y: 12.75d
+			x: 13.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["3749C4A14CCFBD1A"]
@@ -358,8 +353,8 @@
 			title: "Die Frostmaw"
 			rewards: [{ id: "43F345F1AAD570A9", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "3F8658FBA1412C68", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L, icon: { id: "mowziesmobs:ice_crystal" } }]
-			x: 4.50d
-			y: 12.75d
+			x: 15.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["0B8CCEB9DB0BE858"]
@@ -368,8 +363,8 @@
 			title: "Der Eisenschmetterer"
 			rewards: [{ id: "4B737ADC349C885C", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "55DEADE081083D6E", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "mowziesmobs:wrought_axe" } }]
-			x: 6.00d
-			y: 12.75d
+			x: 16.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["1369046F14D5434E"]
@@ -378,8 +373,8 @@
 			title: "Der Sonnenhäuptling"
 			rewards: [{ id: "5629662047E90E8D", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "696F74A495101ACA", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
-			x: 7.50d
-			y: 12.75d
+			x: 18.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["4580E8D9C3F5A821"]
@@ -388,8 +383,8 @@
 			title: "Der Bildhauer"
 			rewards: [{ id: "1C38C48823B3E1BE", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "4FBEE5A6C03D6F80", type: "kill", entity: "mowziesmobs:sculptor", value: 1L, icon: { id: "mowziesmobs:sculptor_staff" } }]
-			x: 9.00d
-			y: 12.75d
+			x: 19.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["3749C4A14CCFBD1A"]
@@ -398,8 +393,8 @@
 			title: "Erdbrecher-Handschuh"
 			rewards: [{ id: "5872A977677D74E1", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7BB98694FA83B2E2", type: "item", item: { id: "mowziesmobs:earthrend_gauntlet", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 14.00d
+			x: 15.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["746765CD8906AF2D"]
@@ -408,8 +403,8 @@
 			title: "Sonnen-Maske"
 			rewards: [{ id: "59C7C0950595CE07", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "7AF9886ACFC8B9E6", type: "item", item: { id: "mowziesmobs:sol_visage", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 14.00d
+			x: 16.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["682527776DB20343"]
@@ -418,8 +413,8 @@
 			title: "Bildhauer-Stab"
 			rewards: [{ id: "08802EF5C9E3CC1D", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "6D61D4C1DFCB91CD", type: "item", item: { id: "mowziesmobs:sculptor_staff", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 14.00d
+			x: 18.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["12F17AD8F6A0FF6B"]
@@ -428,8 +423,8 @@
 			title: "Geomanten-Robe"
 			rewards: [{ id: "727831C5BB7F9407", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "6862FE03434EF4AE", type: "item", item: { id: "mowziesmobs:geomancer_robe", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 14.00d
+			x: 19.50d
+			y: 0.00d
 		}
 		{
 			dependencies: ["70708B1B525BDA37"]
@@ -438,128 +433,118 @@
 			title: "Blasrohr"
 			rewards: [{ id: "5B36875581E561FD", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "678D49596E2F283E", type: "item", item: { id: "mowziesmobs:blowgun", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 14.00d
+			x: 21.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "2033B010211045B7"
 			title: "Diamant-Langschwert"
 			rewards: [{ id: "5177F28B73ED22EA", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "292C0FD63DC95A3C", type: "item", item: { id: "weaponsexpanded:diamond_longsword", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 30.50d
+			x: 0.51d
+			y: -3.13d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "3C16417455BF901B"
 			title: "Diamant-Breitschwert"
 			rewards: [{ id: "4312EB6EA8DE09D2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0953B6C65A9C5B61", type: "item", item: { id: "weaponsexpanded:diamond_broadsword", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 30.50d
+			x: 2.11d
+			y: -3.90d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "0950AD20BDAA2B45"
 			title: "Diamant-Großschwert"
 			rewards: [{ id: "0019A06A53CBD543", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "747B67A6FB82DB2D", type: "item", item: { id: "weaponsexpanded:diamond_greatsword", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 30.50d
+			x: 3.89d
+			y: -3.90d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "5C364D9ACC48B4FA"
 			title: "Diamant-Katana"
 			rewards: [{ id: "3EC9EDA90ACB0159", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "31C3F2A3E6D1759D", type: "item", item: { id: "weaponsexpanded:diamond_katana", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 30.50d
+			x: 3.89d
+			y: 3.90d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "0F16990376D1A846"
 			title: "Diamant-Kampfaxt"
 			rewards: [{ id: "4853973F514BF5A6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "728625DD10491403", type: "item", item: { id: "weaponsexpanded:diamond_battleaxe", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 30.50d
+			x: 2.11d
+			y: 3.90d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "32D6E55482ABC3AD"
 			title: "Diamant-Beil"
 			rewards: [{ id: "0A7CC3F8AC21AD6C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "234417955DAD0D84", type: "item", item: { id: "weaponsexpanded:diamond_hatchet", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 30.50d
+			x: 0.51d
+			y: 3.13d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "6D207A38EA79BD24"
 			title: "Diamant-Hammer"
 			rewards: [{ id: "75315A514C658E63", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6B1E1FF16CADAA71", type: "item", item: { id: "weaponsexpanded:diamond_hammer", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 30.50d
+			x: -1.71d
+			y: -3.21d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "5BEA137C19885E89"
 			title: "Diamant-Kriegshammer"
 			rewards: [{ id: "50852ABB72955BCD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6D65CA31B65081E0", type: "item", item: { id: "weaponsexpanded:diamond_warhammer", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 30.50d
+			x: 2.57d
+			y: -5.68d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "54263A8EF275AFD9"
 			title: "Diamant-Sense"
 			rewards: [{ id: "62A174187B44ABD8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "027C325E190B5363", type: "item", item: { id: "weaponsexpanded:diamond_scythe", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 31.75d
+			x: 5.85d
+			y: 4.94d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
-			hide_dependency_lines: true
 			id: "660CDF873CC0CCED"
 			title: "Diamant-Sichel"
 			rewards: [{ id: "1BD8B12B4532BD92", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "79637E9B68C7A0BB", type: "item", item: { id: "weaponsexpanded:diamond_sickle", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 25.50d
+			x: 4.50d
+			y: -21.00d
 		}
 		{
 			dependencies: ["660CDF873CC0CCED"]
@@ -569,8 +554,8 @@
 			title: "Simply Swords: Diamant-Langschwert"
 			rewards: [{ id: "1B715E804439CD94", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "29C878992440296B", type: "item", item: { id: "simplyswords:diamond_longsword", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 25.50d
+			x: 6.00d
+			y: -21.00d
 		}
 		{
 			dependencies: ["671BE8F3FAC5BA64"]
@@ -579,8 +564,8 @@
 			title: "Drachen"
 			rewards: [{ id: "278E32062C9FAF17", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "1F532F5A3E218094", type: "checkmark" }]
-			x: 4.50d
-			y: 11.50d
+			x: 15.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["2095E2163EB75A2E"]
@@ -590,8 +575,8 @@
 			title: "Drachenpfeife"
 			rewards: [{ id: "247A738C69510958", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "20383AE8C537B8E9", type: "checkmark" }]
-			x: 6.00d
-			y: 11.50d
+			x: 16.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["03A558E7A3EF9D0A"]
@@ -601,8 +586,8 @@
 			title: "Drachenrüstung"
 			rewards: [{ id: "3999BA1A3766E73E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4B05E22BFBB2ECED", type: "checkmark" }]
-			x: 7.50d
-			y: 11.50d
+			x: 18.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["32D7C0032123B540"]
@@ -614,7 +599,7 @@
 			tasks: [{ id: "5C8CCF0DBB609C98", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 1.50d
+			x: 0.00d
 			y: 0.00d
 		}
 		{
@@ -627,20 +612,19 @@
 			tasks: [{ id: "74C3CB9D99D5FCE5", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 13.50d
-			y: 0.00d
+			x: 12.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:trident" }
-			hide_dependency_lines: true
 			id: "5DBD766E57EBAD5C"
 			title: "Dreizack"
 			rewards: []
 			tasks: [{ id: "1BAE2F2BB8A5D68E", type: "item", item: { id: "minecraft:trident", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 26.75d
+			x: 4.50d
+			y: 21.00d
 		}
 		{
 			dependencies: ["5DBD766E57EBAD5C"]
@@ -650,8 +634,8 @@
 			title: "Streitkolben (Arsenal)"
 			rewards: []
 			tasks: [{ id: "023C02C9B277FA11", type: "item", item: { id: "minecraft:mace", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 26.75d
+			x: 6.00d
+			y: 25.50d
 		}
 		{
 			dependencies: ["5086933097CF61B1"]
@@ -661,8 +645,8 @@
 			title: "Sword on a Stick"
 			rewards: []
 			tasks: [{ id: "3AF69184E681C2F3", type: "item", item: { id: "simplyswords:sword_on_a_stick", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 26.75d
+			x: 7.50d
+			y: 25.50d
 		}
 		{
 			dependencies: ["6FF42D7D5578B047"]
@@ -672,8 +656,8 @@
 			title: "Bramblethorn"
 			rewards: []
 			tasks: [{ id: "090462122469637A", type: "item", item: { id: "simplyswords:bramblethorn", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 26.75d
+			x: 9.00d
+			y: 25.50d
 		}
 		{
 			dependencies: ["79E59BD72EF2B2FA"]
@@ -683,8 +667,8 @@
 			title: "Shadowsting"
 			rewards: []
 			tasks: [{ id: "1A080BEDEE47299A", type: "item", item: { id: "simplyswords:shadowsting", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 26.75d
+			x: 10.50d
+			y: 25.50d
 		}
 		{
 			dependencies: ["3B0494D1532C6741"]
@@ -694,8 +678,8 @@
 			title: "Sunfire"
 			rewards: []
 			tasks: [{ id: "71C27E517D980DD6", type: "item", item: { id: "simplyswords:sunfire", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 26.75d
+			x: 12.00d
+			y: 25.50d
 		}
 		{
 			dependencies: ["79D42AC833677EF7"]
@@ -705,8 +689,8 @@
 			title: "Waxweaver"
 			rewards: []
 			tasks: [{ id: "146170C13BC1E1EC", type: "item", item: { id: "simplyswords:waxweaver", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 26.75d
+			x: 13.50d
+			y: 25.50d
 		}
 		{
 			dependencies: ["5BF2ACA4018B0585"]
@@ -716,8 +700,8 @@
 			title: "Hiveheart"
 			rewards: []
 			tasks: [{ id: "544A19227AC4DC24", type: "item", item: { id: "simplyswords:hiveheart", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 26.75d
+			x: 15.00d
+			y: 25.50d
 		}
 		{
 			dependencies: ["054957A0438D7F48"]
@@ -727,8 +711,8 @@
 			title: "Star's Edge"
 			rewards: []
 			tasks: [{ id: "5B44A1C5519B978E", type: "item", item: { id: "simplyswords:stars_edge", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: 26.75d
+			x: 16.50d
+			y: 25.50d
 		}
 		{
 			dependencies: ["2EBF10B876FFFC1E"]
@@ -738,8 +722,8 @@
 			title: "Wickpiercer"
 			rewards: []
 			tasks: [{ id: "3802561CAA4EB3B4", type: "item", item: { id: "simplyswords:wickpiercer", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: 26.75d
+			x: 18.00d
+			y: 25.50d
 		}
 		{
 			dependencies: ["031BF1D67CD9E053"]
@@ -749,8 +733,8 @@
 			title: "Gloampiercer"
 			rewards: []
 			tasks: [{ id: "6B08DC8C0AF249C5", type: "item", item: { id: "simplyswords:gloampiercer", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: 26.75d
+			x: 19.50d
+			y: 25.50d
 		}
 		{
 			dependencies: ["5DBD766E57EBAD5C"]
@@ -760,8 +744,8 @@
 			title: "Chomp'olotl"
 			rewards: []
 			tasks: [{ id: "2635CF15BBE3F7D1", type: "item", item: { id: "simplyswords:chompolotl", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 28.00d
+			x: 6.00d
+			y: 21.00d
 		}
 		{
 			dependencies: ["6D4236478EE6630F"]
@@ -771,8 +755,8 @@
 			title: "Longsword of the Plague"
 			rewards: []
 			tasks: [{ id: "7B12A36880B2813B", type: "item", item: { id: "simplyswords:toxic_longsword", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 28.00d
+			x: 7.50d
+			y: 24.00d
 		}
 		{
 			dependencies: ["27404CB179E86D81"]
@@ -782,8 +766,8 @@
 			title: "Axe of a Thousand Metals"
 			rewards: []
 			tasks: [{ id: "2A7DEFB921F4F438", type: "item", item: { id: "mowziesmobs:wrought_axe", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 28.00d
+			x: 9.00d
+			y: 24.00d
 		}
 		{
 			dependencies: ["768216066194A7D8"]
@@ -793,8 +777,8 @@
 			title: "Spear"
 			rewards: []
 			tasks: [{ id: "198935529B77DDC8", type: "item", item: { id: "mowziesmobs:spear", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 28.00d
+			x: 10.50d
+			y: 24.00d
 		}
 		{
 			dependencies: ["0E7E6AE197DCAD0A"]
@@ -804,8 +788,8 @@
 			title: "Naga Fang Dagger"
 			rewards: []
 			tasks: [{ id: "11CDB2486E7DB2A2", type: "item", item: { id: "mowziesmobs:naga_fang_dagger", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 28.00d
+			x: 12.00d
+			y: 24.00d
 		}
 		{
 			dependencies: ["7FD822594DF4DC90"]
@@ -815,8 +799,8 @@
 			title: "Geomancer Staff"
 			rewards: []
 			tasks: [{ id: "11925CBD554284C4", type: "checkmark" }]
-			x: 10.50d
-			y: 28.00d
+			x: 13.50d
+			y: 24.00d
 		}
 		{
 			dependencies: ["6D4236478EE6630F"]
@@ -826,8 +810,8 @@
 			title: "Diamantbogen"
 			rewards: [{ id: "3359E389B6C7E884", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5E2F6BCC4F5D17D4", type: "item", item: { id: "archeries:diamond_bow", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 29.25d
+			x: 7.50d
+			y: 21.00d
 		}
 		{
 			dependencies: ["1338FFE60935D51A"]
@@ -837,8 +821,8 @@
 			title: "Diamantarmbrust"
 			rewards: [{ id: "7C68873F1C9EFD03", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7D8D32ED4F8068B2", type: "item", item: { id: "archeries:diamond_crossbow", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 29.25d
+			x: 9.00d
+			y: 22.50d
 		}
 		{
 			dependencies: ["1B2144517BC5AC69"]
@@ -848,20 +832,19 @@
 			title: "Diamantpfeil"
 			rewards: [{ id: "7E8E765DEBE4DD7F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3C6FD864E548D480", type: "checkmark" }]
-			x: 7.50d
-			y: 29.25d
+			x: 10.50d
+			y: 22.50d
 		}
 		{
 			dependencies: ["1338FFE60935D51A"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:diamond_pickaxe" }
-			hide_dependency_lines: true
 			id: "1136F86CA38A7C38"
 			title: "Werkzeug-Set Diamant"
 			rewards: []
 			tasks: [{ id: "034527547FCDBC80", type: "checkmark" }]
-			x: 1.50d
-			y: 34.75d
+			x: 9.00d
+			y: 21.00d
 		}
 		{
 			dependencies: ["1136F86CA38A7C38"]
@@ -871,8 +854,8 @@
 			title: "Rüstung Diamant"
 			rewards: []
 			tasks: [{ id: "4ED945500A1A5C96", type: "checkmark" }]
-			x: 3.00d
-			y: 34.75d
+			x: 10.50d
+			y: 21.00d
 		}
 		{
 			dependencies: ["1AEBC6FD6A90E4B1"]
@@ -882,8 +865,8 @@
 			title: "Divine (Rüstung)"
 			rewards: []
 			tasks: [{ id: "44DDD73D4C8B4C12", type: "checkmark" }]
-			x: 4.50d
-			y: 34.75d
+			x: 12.00d
+			y: 21.00d
 		}
 		{
 			dependencies: ["4D83ED26672135F4"]
@@ -893,8 +876,8 @@
 			title: "Prismarine (Rüstung)"
 			rewards: []
 			tasks: [{ id: "6246B8D72714D4E8", type: "checkmark" }]
-			x: 6.00d
-			y: 34.75d
+			x: 13.50d
+			y: 21.00d
 		}
 		{
 			dependencies: ["12441AAB862A6BAA"]
@@ -904,8 +887,8 @@
 			title: "Wrought Helm (Rüstung)"
 			rewards: []
 			tasks: [{ id: "60FD1D6BB2B603B3", type: "checkmark" }]
-			x: 7.50d
-			y: 34.75d
+			x: 15.00d
+			y: 21.00d
 		}
 		{
 			dependencies: ["35D9C17C3DF9768D"]
@@ -915,8 +898,8 @@
 			title: "Eiserner Wächter"
 			rewards: [{ id: "00398B7575503487", type: "xp_levels", xp_levels: 8 }, { id: "0A61BB3422F2971B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "1AB20C0ACD75974B", type: "kill", entity: "mowziesmobs:ferrous_wroughtnaut", value: 1L, icon: { id: "minecraft:iron_block" } }]
-			x: 1.50d
-			y: 40.25d
+			x: 21.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["42859D02779932CC"]
@@ -925,8 +908,8 @@
 			title: "Frostmaul"
 			rewards: [{ id: "3C317595391E7867", type: "xp_levels", xp_levels: 8 }, { id: "694F058C593B4A90", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "04D92D22C354AB56", type: "kill", entity: "mowziesmobs:frostmaw", value: 1L, icon: { id: "minecraft:snowball" } }]
-			x: 3.00d
-			y: 40.25d
+			x: 22.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["69102A9BDB2D4FFB"]
@@ -935,8 +918,8 @@
 			title: "Barako der Sonnenkönig"
 			rewards: [{ id: "641AA2E6CEB40563", type: "xp_levels", xp_levels: 8 }, { id: "212DBAFA880D7423", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "223F9692BF560191", type: "kill", entity: "mowziesmobs:umvuthi", value: 1L, icon: { id: "mowziesmobs:sol_visage" } }]
-			x: 4.50d
-			y: 40.25d
+			x: 24.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["0985399D5D0017D5"]
@@ -945,8 +928,8 @@
 			title: "Mutant-Zombie"
 			rewards: [{ id: "33F4D7EC2D01BADB", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "66C4DCBA4316285D", type: "kill", entity: "mutantmonsters:mutant_zombie", value: 1L, icon: { id: "minecraft:rotten_flesh" } }]
-			x: 6.00d
-			y: 40.25d
+			x: 25.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["2246934C01E48F4E"]
@@ -955,8 +938,8 @@
 			title: "Mutant-Skelett"
 			rewards: [{ id: "1C4262B5AD9806FD", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "1D5B9C52DBBF2DD2", type: "kill", entity: "mutantmonsters:mutant_skeleton", value: 1L, icon: { id: "minecraft:bone" } }]
-			x: 7.50d
-			y: 40.25d
+			x: 27.00d
+			y: -1.50d
 		}
 		{
 			dependencies: ["3E6B4CD6BE2E683E"]
@@ -965,8 +948,8 @@
 			title: "Mutant-Creeper"
 			rewards: [{ id: "2A9AD2222CCAFCDC", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "5F39299376A16D4E", type: "kill", entity: "mutantmonsters:mutant_creeper", value: 1L, icon: { id: "minecraft:gunpowder" } }]
-			x: 9.00d
-			y: 40.25d
+			x: 28.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
@@ -976,41 +959,38 @@
 			title: "Diamantblock"
 			rewards: [{ id: "1E5F45B1D9C18191", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2191B324CE07051B", type: "item", item: { id: "minecraft:diamond_block", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 3.00d
+			x: 0.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich beim Erkunden und Spähen."]
-			hide_dependency_lines: true
 			id: "6492FCA00E7D07FE"
 			title: "Fernglas"
 			rewards: [{ id: "3FF082B1E6604489", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "14F8F1DF661F0D7B", type: "item", item: { id: "minecraft:spyglass", count: 1 }, count: 1L }]
-			x: 9.00d
+			x: 6.00d
 			y: 3.00d
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Das blaue Material für Verzauberungen.", "", "&6So gehts", "Baue Lapis-Erz tief unter der Erde ab.", "", "&6Wofür ist das wichtig?", "Ohne Lapis keine Verzauberungen."]
-			hide_dependency_lines: true
 			id: "3C837821FE96F782"
 			title: "Lapislazuli"
 			rewards: [{ id: "1615092D7BA629EC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "53B4DD20085FEB5F", type: "item", item: { id: "minecraft:lapis_lazuli", count: 1 }, count: 12L }]
-			x: 10.50d
-			y: 3.00d
+			x: 9.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurück.", "", "&6So gehts", "Zwei Stöcke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
-			hide_dependency_lines: true
 			id: "25B9B3C3109D1578"
 			title: "Schleifstein"
 			rewards: [{ id: "47E4A9B48A6CA82A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3202D454B5AD883A", type: "item", item: { id: "minecraft:grindstone", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 3.00d
+			x: 9.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
@@ -1020,19 +1000,18 @@
 			title: "Goldener Apfel"
 			rewards: [{ id: "64816A69942FDAAD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "42C9DCF4BADABB6D", type: "item", item: { id: "minecraft:golden_apple", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 3.00d
+			x: 10.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Zeigt deine Rüstung im Haus.", "", "&6So gehts", "Stöcke und glatte Steinplatte. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Wechseln der Ausrüstung und für Deko."]
-			hide_dependency_lines: true
 			id: "0A340152DBA56AA6"
 			title: "Rüstungsständer"
 			rewards: [{ id: "4F540E83B2DFB2BB", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "672AB12E22F61754", type: "item", item: { id: "minecraft:armor_stand", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 3.00d
+			x: 6.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["63064054BBFD8FB1"]
@@ -1042,31 +1021,29 @@
 			title: "Rahmen"
 			rewards: [{ id: "248ED07D8FB53C99", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "57D76AEB55DEC6F0", type: "item", item: { id: "minecraft:item_frame", count: 1 }, count: 4L }]
-			x: 3.00d
-			y: 3.00d
+			x: 13.50d
+			y: -1.50d
 		}
 		{
 			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Amethystblöcke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Wunderschön für Räume und Verzauberungsecken."]
-			hide_dependency_lines: true
 			id: "4FCD4D95A34A6ED2"
 			title: "Kristall-Deko"
 			rewards: [{ id: "417453F757FE5157", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0EE82F4BFA9B8740", type: "item", item: { id: "minecraft:amethyst_block", count: 1 }, count: 2L }]
-			x: 6.00d
-			y: 3.00d
+			x: 9.00d
+			y: -6.00d
 		}
 		{
 			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Der Wächter (Warden) lebt in der Alten Stadt tief unter der Erde. Er hat 500 Leben, ist blind und hört jede Erschütterung.", "", "&6So gehts", "Diese Anleitung zeigt, wie du ihn meidest oder besiegst.", "", "&6Wofür ist das wichtig?", "Wer ihn weckt, stirbt oft in wenigen Schlägen. Gute Vorbereitung rettet dein Leben."]
 			icon: { id: "minecraft:sculk_shrieker" }
-			hide_dependency_lines: true
 			id: "79F99044DC32904A"
 			title: "Waechter: Überblick"
 			rewards: [{ id: "4437E80A6FECED2F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "65A4E20030A680B2", type: "checkmark" }]
-			x: 1.50d
-			y: 6.00d
+			x: 12.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["79F99044DC32904A"]
@@ -1076,8 +1053,8 @@
 			title: "Waechter: Alte Stadt finden"
 			rewards: [{ id: "6CD7F218F867DE41", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3F220935D80EB6B1", type: "checkmark" }]
-			x: 3.00d
-			y: 6.00d
+			x: 13.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["08E5540FAC14EE5E"]
@@ -1087,8 +1064,8 @@
 			title: "Waechter: Schleichen und Wolle"
 			rewards: [{ id: "2F5AC9A258869773", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "057DBA93E236E4D3", type: "item", item: { id: "minecraft:white_wool", count: 1 }, count: 32L }]
-			x: 4.50d
-			y: 6.00d
+			x: 15.00d
+			y: -3.00d
 		}
 		{
 			dependencies: ["5319CD220527AB74"]
@@ -1098,8 +1075,8 @@
 			title: "Waechter: Rüstung und Essen"
 			rewards: [{ id: "17EA35B8F96409AB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "47375AF48391FA26", type: "checkmark" }]
-			x: 6.00d
-			y: 6.00d
+			x: 16.50d
+			y: -3.00d
 		}
 		{
 			dependencies: ["0A2E1AA5BEEE1E7C"]
@@ -1109,8 +1086,8 @@
 			title: "Wächter besiegen"
 			rewards: [{ id: "294CA603C4711BF6", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "02841697B2A71087", type: "kill", entity: "minecraft:warden", value: 1L }]
-			x: 7.50d
-			y: 6.00d
+			x: 18.00d
+			y: -3.00d
 		}
 		{
 			description: ["&6Abschnitt", "Hauptpfad-Ergänzungen"]
@@ -1119,7 +1096,7 @@
 			optional: true
 			tasks: [{ id: "710645D6BEE6A0DA", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
+			x: 7.50d
 			y: 3.00d
 		}
 		{
@@ -1129,8 +1106,8 @@
 			optional: true
 			tasks: [{ id: "642287495745FAF2", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 6.00d
+			x: 12.00d
+			y: -6.00d
 		}
 		{
 			description: ["&6Abschnitt", "Bosse und Gegner"]
@@ -1139,8 +1116,8 @@
 			optional: true
 			tasks: [{ id: "50DF63D5BCA7DE6D", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 9.00d
+			x: 7.50d
+			y: -4.50d
 		}
 		{
 			description: ["&6Abschnitt", "Verzauberung und Bücher"]
@@ -1149,8 +1126,8 @@
 			optional: true
 			tasks: [{ id: "1FFEA0E5E234AC29", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 17.00d
+			x: 10.50d
+			y: -6.00d
 		}
 		{
 			description: ["&6Abschnitt", "Prüfungen und Rucksack"]
@@ -1159,8 +1136,8 @@
 			optional: true
 			tasks: [{ id: "70F51C37BBF23F0B", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 21.25d
+			x: 6.00d
+			y: 7.50d
 		}
 		{
 			description: ["&6Abschnitt", "Diamant-Waffen"]
@@ -1169,8 +1146,8 @@
 			optional: true
 			tasks: [{ id: "15EF2B9970E537CF", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 25.50d
+			x: 3.00d
+			y: -21.00d
 		}
 		{
 			description: ["&6Abschnitt", "Diamant-Ausrüstung"]
@@ -1179,8 +1156,8 @@
 			optional: true
 			tasks: [{ id: "132CDD7FE0C17F06", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 34.75d
+			x: 7.50d
+			y: 19.50d
 		}
 		{
 			description: ["&6Abschnitt", "Mutanten"]
@@ -1189,8 +1166,8 @@
 			optional: true
 			tasks: [{ id: "2CEA158BB75FBF9A", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 40.25d
+			x: 19.50d
+			y: -3.00d
 		}
 		{
 			description: ["&6Abschnitt", "Flugzeuge"]
@@ -1199,8 +1176,8 @@
 			optional: true
 			tasks: [{ id: "2C3DC3C33E4C9C26", type: "checkmark" }]
 			shape: "hexagon"
-			x: 0.00d
-			y: 43.00d
+			x: 18.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["35D9C17C3DF9768D"]
@@ -1210,8 +1187,8 @@
 			title: "Rumpf"
 			rewards: [{ id: "155697BCF001BE9F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "320E41D54A9BD752", type: "item", item: { id: "immersive_aircraft:hull", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 43.00d
+			x: 19.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["4DD0DA067A995253"]
@@ -1220,8 +1197,8 @@
 			title: "Heizkessel"
 			rewards: [{ id: "20389750EFCFF3D8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2A6E7B6196B80BB9", type: "item", item: { id: "immersive_aircraft:boiler", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 43.00d
+			x: 21.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["2D278F5CE8389E57"]
@@ -1230,8 +1207,8 @@
 			title: "Motor"
 			rewards: [{ id: "7AB0B8A74BCD3F04", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "164E87A77811A203", type: "item", item: { id: "immersive_aircraft:engine", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 43.00d
+			x: 22.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["629820D5D701A03F"]
@@ -1240,8 +1217,8 @@
 			title: "Propeller"
 			rewards: [{ id: "1AD4530F8089C13F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3E553C94FDDCC539", type: "item", item: { id: "immersive_aircraft:propeller", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 43.00d
+			x: 24.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["68831BD6C238738E"]
@@ -1250,8 +1227,8 @@
 			title: "Segel"
 			rewards: [{ id: "7FDC5BC8E1C7A0D2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69A1744473299B00", type: "item", item: { id: "immersive_aircraft:sail", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 43.00d
+			x: 25.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["5BD5E8A787C56E8D"]
@@ -1260,8 +1237,8 @@
 			title: "Doppeldecker"
 			rewards: [{ id: "5650796A8AC4CB40", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "262DB0094419ABD0", type: "item", item: { id: "immersive_aircraft:biplane", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 43.00d
+			x: 27.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["5861EFEFC54087AB"]
@@ -1270,8 +1247,8 @@
 			title: "Flugschrauber"
 			rewards: [{ id: "4842EDB5C729AF4C", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "2FBA6DA8313B6AEE", type: "item", item: { id: "immersive_aircraft:gyrodyne", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 43.00d
+			x: 28.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["19F7BD664987FE6B"]
@@ -1280,8 +1257,8 @@
 			title: "Quadrokopter"
 			rewards: [{ id: "68E80C151815D731", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "2E981CF2DEE11475", type: "item", item: { id: "immersive_aircraft:quadrocopter", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 43.00d
+			x: 30.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["53059BA58120D4DB"]
@@ -1290,8 +1267,8 @@
 			title: "Luftschiff"
 			rewards: [{ id: "422A95C67B3CE64E", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "3CB27D22E7853C28", type: "item", item: { id: "immersive_aircraft:airship", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: 43.00d
+			x: 31.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["61734ED79D594739"]
@@ -1300,8 +1277,8 @@
 			title: "Frachtluftschiff"
 			rewards: [{ id: "3891873A3B3A3A45", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "596C3D426E5EF53E", type: "item", item: { id: "immersive_aircraft:cargo_airship", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: 43.00d
+			x: 33.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["17DD55DAD7727688"]
@@ -1310,8 +1287,8 @@
 			title: "Kriegsschiff"
 			rewards: [{ id: "779FDD86832870E9", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "759570CA98CFB284", type: "item", item: { id: "immersive_aircraft:warship", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: 43.00d
+			x: 34.50d
+			y: 4.50d
 		}
 		{
 			dependencies: ["44B342909FEC9D2A"]
@@ -1320,8 +1297,8 @@
 			title: "Verbesserter Propeller"
 			rewards: [{ id: "2926193150E664AB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "68986B678099102A", type: "item", item: { id: "immersive_aircraft:enhanced_propeller", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 44.50d
+			x: 30.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["7FF0FD5E388482AF"]
@@ -1330,8 +1307,8 @@
 			title: "Stahlkessel"
 			rewards: [{ id: "4B0B4432346C6897", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "16800D6BE01F13B3", type: "item", item: { id: "immersive_aircraft:steel_boiler", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 44.50d
+			x: 25.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["2BED4230D2E4397B"]
@@ -1340,8 +1317,8 @@
 			title: "Öko-Motor"
 			rewards: [{ id: "225E1E2F574A62C4", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6B515B8F4491AB4C", type: "item", item: { id: "immersive_aircraft:eco_engine", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 44.50d
+			x: 27.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["18F8D9791B875395"]
@@ -1350,8 +1327,8 @@
 			title: "Nether-Motor"
 			rewards: [{ id: "74F50668F1CCA605", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "5BF2E7C3CBF633C9", type: "item", item: { id: "immersive_aircraft:nether_engine", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 44.50d
+			x: 28.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["6CB1775D5D70DE5F"]
@@ -1360,8 +1337,8 @@
 			title: "Robuste Rohre"
 			rewards: [{ id: "5FC3FAD339E8D6B7", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3576647B7FC617AF", type: "item", item: { id: "immersive_aircraft:sturdy_pipes", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 44.50d
+			x: 24.00d
+			y: 3.00d
 		}
 		{
 			dependencies: ["4DD0DA067A995253"]
@@ -1370,8 +1347,8 @@
 			title: "Rumpfverstärkung"
 			rewards: [{ id: "4E2BFDD3072AD338", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "76A40D8D809B2CC3", type: "item", item: { id: "immersive_aircraft:hull_reinforcement", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 44.50d
+			x: 21.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["2FC024DADBC88EE4"]
@@ -1380,8 +1357,8 @@
 			title: "Verbessertes Fahrwerk"
 			rewards: [{ id: "4977858A9AC35937", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "71D3210F9F769FF8", type: "item", item: { id: "immersive_aircraft:improved_landing_gear", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 44.50d
+			x: 22.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["135CC50AA6135F03"]
@@ -1390,8 +1367,8 @@
 			title: "Industriegetriebe"
 			rewards: [{ id: "78B59896352509AF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4CB315EE9219FC9F", type: "item", item: { id: "immersive_aircraft:industrial_gears", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 44.50d
+			x: 31.50d
+			y: 3.00d
 		}
 		{
 			dependencies: ["2FC024DADBC88EE4"]
@@ -1400,8 +1377,8 @@
 			title: "Schwere Armbrust"
 			rewards: [{ id: "7554C97A7A393FB5", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3731E190D6B1FE7A", type: "item", item: { id: "immersive_aircraft:heavy_crossbow", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 46.00d
+			x: 22.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["1107A08D0F125370"]
@@ -1410,8 +1387,8 @@
 			title: "Drehrohrkanone"
 			rewards: [{ id: "2A882EBB45289631", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7C1449FF2F7DA0BF", type: "item", item: { id: "immersive_aircraft:rotary_cannon", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 46.00d
+			x: 24.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["156A83D7C318BB8B"]
@@ -1420,8 +1397,8 @@
 			title: "Bombenbucht"
 			rewards: [{ id: "484237331FBFF87C", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "218932BF110E128A", type: "item", item: { id: "immersive_aircraft:bomb_bay", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 46.00d
+			x: 25.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["701304620ED45239"]
@@ -1430,8 +1407,8 @@
 			title: "Teleskop"
 			rewards: [{ id: "753FCFFD4417158B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "76AE8EF3A5F8141D", type: "item", item: { id: "immersive_aircraft:telescope", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 46.00d
+			x: 27.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["3AD58E528F7E5BAA"]
@@ -1440,8 +1417,8 @@
 			title: "Gyroskop"
 			rewards: [{ id: "100393BDD6860D6C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3E6F8EACB6CF872F", type: "item", item: { id: "immersive_aircraft:gyroscope", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 46.00d
+			x: 28.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["65A540A139645DF1"]
@@ -1450,8 +1427,8 @@
 			title: "Erweitertes Gyroskop"
 			rewards: [{ id: "4F4ADA2B62035BB1", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "5EC66553E92BC442", type: "item", item: { id: "immersive_aircraft:gyroscope_dials", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 46.00d
+			x: 30.00d
+			y: 1.50d
 		}
 		{
 			dependencies: ["29F6CCB1832D677C"]
@@ -1460,8 +1437,8 @@
 			title: "Elektronisches Gyroskop"
 			rewards: [{ id: "2A6C4AC57E0EE763", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "387569081A192BAE", type: "item", item: { id: "immersive_aircraft:gyroscope_hud", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 46.00d
+			x: 31.50d
+			y: 1.50d
 		}
 		{
 			dependencies: ["364E57CC371568BD"]
@@ -1470,8 +1447,8 @@
 			title: "Bambus-Trichter"
 			rewards: [{ id: "2ED3E17A8CE14E34", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "31B47D7109A2564C", type: "item", item: { id: "immersive_aircraft:bamboo_hopper", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 46.00d
+			x: 33.00d
+			y: 1.50d
 		}
 	]
 }

@@ -17,8 +17,8 @@
 			tasks: [{ id: "2DD427C3F666151A", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 1.50d
-			y: 6.25d
+			x: 0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -27,7 +27,7 @@
 			title: "Mutanten: Vorbereitung"
 			rewards: [{ id: "7824F2607AB381BB", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1EEDFCFC3F724926", type: "checkmark" }]
-			x: 4.50d
+			x: 1.50d
 			y: 0.00d
 		}
 		{
@@ -37,7 +37,7 @@
 			title: "Mutanten: Wie rufst du sie?"
 			rewards: [{ id: "5B74C718A2AA216A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "44BECDCEF4D475EC", type: "checkmark" }]
-			x: 6.00d
+			x: 3.00d
 			y: 0.00d
 		}
 		{
@@ -47,8 +47,8 @@
 			title: "Hulk-Hammer"
 			rewards: [{ id: "6C27AF29C0A4F083", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "01504585279E6933", type: "item", item: { id: "mutantmonsters:hulk_hammer", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 1.25d
+			x: -4.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -57,8 +57,8 @@
 			title: "Creeper-Splitter"
 			rewards: [{ id: "73C6517F62528AFA", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4D0C56030A8D77E5", type: "item", item: { id: "mutantmonsters:creeper_shard", count: 1 }, count: 4L }]
-			x: 4.50d
-			y: 2.50d
+			x: -3.60d
+			y: -1.74d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -67,8 +67,8 @@
 			title: "Enderseelen-Hand"
 			rewards: [{ id: "791572D53911C9B0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "623AFA212A7BD73C", type: "item", item: { id: "mutantmonsters:endersoul_hand", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 3.75d
+			x: -2.49d
+			y: -3.13d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -77,8 +77,8 @@
 			title: "Creeper-Diener-Tracker"
 			rewards: [{ id: "0440C43A2BE1B4DF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "219763C59682E074", type: "item", item: { id: "mutantmonsters:creeper_minion_tracker", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 5.00d
+			x: -0.89d
+			y: -3.90d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -87,8 +87,8 @@
 			title: "Mutant-Skelett-Schädel"
 			rewards: [{ id: "28FDB92DAB266981", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4A6A03B381356BC5", type: "item", item: { id: "mutantmonsters:mutant_skeleton_skull", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 6.25d
+			x: 0.89d
+			y: -3.90d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -97,8 +97,8 @@
 			title: "Mutant-Skelett-Rippe"
 			rewards: [{ id: "03D8F6220D4B002D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "22A60B44EF5FD31C", type: "item", item: { id: "mutantmonsters:mutant_skeleton_rib", count: 1 }, count: 2L }]
-			x: 4.50d
-			y: 7.50d
+			x: 2.49d
+			y: -3.13d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -107,8 +107,8 @@
 			title: "Mutant-Skelett-Glied"
 			rewards: [{ id: "2606799CCED8C284", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "459E47C605BE68DC", type: "item", item: { id: "mutantmonsters:mutant_skeleton_limb", count: 1 }, count: 2L }]
-			x: 4.50d
-			y: 8.75d
+			x: 2.49d
+			y: 3.13d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -117,8 +117,8 @@
 			title: "Mutant-Skelett-Brustplatte"
 			rewards: [{ id: "7BDB42817212D304", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3CECA9A0650D00AB", type: "item", item: { id: "mutantmonsters:mutant_skeleton_chestplate", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 10.00d
+			x: 0.89d
+			y: 3.90d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -127,8 +127,8 @@
 			title: "Mutant-Skelett-Hose"
 			rewards: [{ id: "4F2EB44637356B4E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "63AC4F141B2B980E", type: "item", item: { id: "mutantmonsters:mutant_skeleton_leggings", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 11.25d
+			x: -0.89d
+			y: 3.90d
 		}
 		{
 			dependencies: ["7DEB593550DD1B73"]
@@ -137,8 +137,8 @@
 			title: "Mutant-Skelett-Stiefel"
 			rewards: [{ id: "409EE302EE3B52DF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6CC46B444F546629", type: "item", item: { id: "mutantmonsters:mutant_skeleton_boots", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 12.50d
+			x: -2.49d
+			y: 3.13d
 		}
 	]
 }

@@ -17,8 +17,8 @@
 			tasks: [{ id: "51C9BC701E7EA419", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
-			x: 1.50d
-			y: 11.88d
+			x: 0.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -27,7 +27,7 @@
 			title: "Tiefes Dunkel: Vorbereitung"
 			rewards: [{ id: "29DC51F6D3CC2E3D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "68A1E0D7560646C9", type: "checkmark" }]
-			x: 4.50d
+			x: 1.50d
 			y: 0.00d
 		}
 		{
@@ -37,7 +37,7 @@
 			title: "Tiefes Dunkel: Portal zur Otherside"
 			rewards: [{ id: "050ADA384413F268", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "35824E43AE321B2C", type: "checkmark" }]
-			x: 6.00d
+			x: 3.00d
 			y: 0.00d
 		}
 		{
@@ -47,7 +47,7 @@
 			title: "Tiefes Dunkel: Resonarium"
 			rewards: [{ id: "7DABE929C4A334BF", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "49C79995E18BD542", type: "checkmark" }]
-			x: 7.50d
+			x: 4.50d
 			y: 0.00d
 		}
 		{
@@ -57,7 +57,7 @@
 			title: "Tiefes Dunkel: Gefahren"
 			rewards: [{ id: "00A61F933D6C51E3", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "360D02EA0BD466D6", type: "checkmark" }]
-			x: 9.00d
+			x: 6.00d
 			y: 0.00d
 		}
 		{
@@ -67,8 +67,8 @@
 			title: "Herz der Tiefe"
 			rewards: [{ id: "1919E93AD11745AD", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "14AA4E719D3C7DEC", type: "item", item: { id: "deeperdarker:heart_of_the_deep", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 1.25d
+			x: -4.00d
+			y: 0.00d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -77,8 +77,8 @@
 			title: "Resonarium"
 			rewards: [{ id: "7D836E77AF67D461", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "02F0EE99731C9452", type: "item", item: { id: "deeperdarker:resonarium", count: 1 }, count: 4L }]
-			x: 4.50d
-			y: 2.50d
+			x: -3.60d
+			y: -1.74d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -87,8 +87,8 @@
 			title: "Resonarium-Schwert"
 			rewards: [{ id: "59001AC9406329BC", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "5071950EADEC6F11", type: "item", item: { id: "deeperdarker:resonarium_sword", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 3.75d
+			x: -2.49d
+			y: -3.13d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -97,8 +97,8 @@
 			title: "Resonarium-Spitzhacke"
 			rewards: [{ id: "60581CCACE1D62E0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "00E1EF0CDF5088E5", type: "item", item: { id: "deeperdarker:resonarium_pickaxe", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 5.00d
+			x: -0.89d
+			y: -3.90d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -107,8 +107,8 @@
 			title: "Resonarium-Axt"
 			rewards: [{ id: "59DCA2A2702310BD", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "40928EC7E3610039", type: "item", item: { id: "deeperdarker:resonarium_axe", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 6.25d
+			x: 0.89d
+			y: -3.90d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -117,8 +117,8 @@
 			title: "Resonarium-Schaufel"
 			rewards: [{ id: "49A047DC4AC87FC0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "16F4488157241955", type: "item", item: { id: "deeperdarker:resonarium_shovel", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 7.50d
+			x: 2.49d
+			y: -3.13d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -127,8 +127,8 @@
 			title: "Resonarium-Hacke"
 			rewards: [{ id: "7BEA529A20190F67", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "24114258751B4C83", type: "item", item: { id: "deeperdarker:resonarium_hoe", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 8.75d
+			x: 2.49d
+			y: 3.13d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -137,8 +137,8 @@
 			title: "Resonarium-Helm"
 			rewards: [{ id: "5E6C9992B5FB12E0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4F1A8A1D93D20470", type: "item", item: { id: "deeperdarker:resonarium_helmet", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 10.00d
+			x: 0.89d
+			y: 3.90d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -147,8 +147,8 @@
 			title: "Resonarium-Brustplatte"
 			rewards: [{ id: "46E145F2899E365B", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7608D9425D111A9D", type: "item", item: { id: "deeperdarker:resonarium_chestplate", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 11.25d
+			x: -0.89d
+			y: 3.90d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -157,8 +157,8 @@
 			title: "Resonarium-Hose"
 			rewards: [{ id: "6CE9DA661DCF884C", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2E6FF1EEA4869DAE", type: "item", item: { id: "deeperdarker:resonarium_leggings", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 12.50d
+			x: -2.49d
+			y: 3.13d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -167,8 +167,8 @@
 			title: "Resonarium-Stiefel"
 			rewards: [{ id: "7B2B1B1CFF100E94", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7D302BB961BB83FB", type: "item", item: { id: "deeperdarker:resonarium_boots", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 13.75d
+			x: -3.60d
+			y: 1.74d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -177,8 +177,8 @@
 			title: "Resonarium-Schmiedevorlage"
 			rewards: [{ id: "4CF9754EDC95E928", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "65ED0DE47DB4304D", type: "item", item: { id: "deeperdarker:resonarium_upgrade_smithing_template", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 15.00d
+			x: -0.43d
+			y: -5.68d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -187,8 +187,8 @@
 			title: "Sculk-Knochen"
 			rewards: [{ id: "7A759471F29AEBA8", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "51473A8BFBBA46CE", type: "item", item: { id: "deeperdarker:sculk_bone", count: 1 }, count: 4L }]
-			x: 4.50d
-			y: 16.25d
+			x: -0.43d
+			y: 5.68d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -197,8 +197,8 @@
 			title: "Dunkelschiefer"
 			rewards: [{ id: "52F9E86051C5FAA0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "5FDCCC7569A0DA29", type: "item", item: { id: "deeperdarker:gloomslate", count: 1 }, count: 16L }]
-			x: 4.50d
-			y: 17.50d
+			x: -7.20d
+			y: -1.71d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -207,8 +207,8 @@
 			title: "Blütenbeeren"
 			rewards: [{ id: "2FFC72DC42943DE9", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "018B4E168095669A", type: "item", item: { id: "deeperdarker:bloom_berries", count: 1 }, count: 4L }]
-			x: 4.50d
-			y: 18.75d
+			x: -5.67d
+			y: -4.76d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -217,8 +217,8 @@
 			title: "Gebratener Anglerfisch"
 			rewards: [{ id: "6DEDC86A9F4FB02B", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "17FB567EB5A7CB55", type: "item", item: { id: "deeperdarker:cooked_angler_fish", count: 1 }, count: 2L }]
-			x: 4.50d
-			y: 20.00d
+			x: -2.93d
+			y: -6.79d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -227,8 +227,8 @@
 			title: "Leuchtgel"
 			rewards: [{ id: "41BAB379C2EC7545", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2475263C78549014", type: "item", item: { id: "deeperdarker:gleam_gel", count: 1 }, count: 4L }]
-			x: 4.50d
-			y: 21.25d
+			x: 0.43d
+			y: -7.39d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -237,8 +237,8 @@
 			title: "Echo-Boot"
 			rewards: [{ id: "0E3210E31B3F4CC6", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1F3C42B2E2CBBB93", type: "item", item: { id: "deeperdarker:echo_boat", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 22.50d
+			x: 6.18d
+			y: -4.07d
 		}
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
@@ -247,8 +247,8 @@
 			title: "Verstärkter Echo-Splitter"
 			rewards: [{ id: "43B78DF9497F5365", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3EB016C5D061FEA1", type: "item", item: { id: "deeperdarker:reinforced_echo_shard", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 23.75d
+			x: 6.18d
+			y: 4.07d
 		}
 	]
 }
