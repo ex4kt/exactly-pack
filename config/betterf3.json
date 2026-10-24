@@ -1,0 +1,98 @@
+{
+  "modules": {
+    "minecraft": {
+      "enabled": false
+    },
+    "fps": {
+      "enabled": true,
+      "lines": {
+        "fps": true
+      }
+    },
+    "graphics": {
+      "enabled": false
+    },
+    "server": {
+      "enabled": false
+    },
+    "coords": {
+      "enabled": true,
+      "lines": {
+        "player_coords": true,
+        "block_coords": false,
+        "chunk_relative_coords": false,
+        "chunk_coords": false,
+        "velocity": true,
+        "absolute_velocity": true,
+        "horizontal_velocity": true
+      }
+    },
+    "chunks": {
+      "enabled": false
+    },
+    "location": {
+      "enabled": true,
+      "lines": {
+        "dimension": true,
+        "facing": true,
+        "rotation": false,
+        "light": true,
+        "light_server": false,
+        "highest_block": false,
+        "highest_block_server": false,
+        "biome": true,
+        "local_difficulty": false,
+        "day_ticks": false,
+        "days_played": true,
+        "slime_chunk": false
+      }
+    },
+    "entity": {
+      "enabled": false
+    },
+    "sound": {
+      "enabled": false
+    },
+    "help": {
+      "enabled": false
+    },
+    "miscleft": {
+      "enabled": false
+    },
+    "miscright": {
+      "enabled": false
+    },
+    "system": {
+      "enabled": true,
+      "lines": {
+        "time": false,
+        "java_version": false,
+        "memory_usage": true,
+        "allocation_rate": false,
+        "allocated_memory": false,
+        "cpu": false,
+        "display": false,
+        "gpu": false,
+        "gpu_utilization": true,
+        "opengl_version": false,
+        "gpu_driver": false
+      }
+    },
+    "target": {
+      "enabled": true,
+      "lines": {
+        "targeted_block": true,
+        "id_block": true,
+        "block_states": true,
+        "block_tags": false,
+        "nothing": false,
+        "targeted_fluid": false,
+        "id_fluid": false,
+        "fluid_states": false,
+        "fluid_tags": false,
+        "nothing2": false,
+        "targeted_entity": true
+      }
+    }
+  }
+}
