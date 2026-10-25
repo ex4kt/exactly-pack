@@ -1,0 +1,9 @@
+# Exactly: verhindert, dass unterschiedliche Vanilla- oder Mod-Strukturen mit ihren echten
+# StructureStart-Bounding-Boxes ineinander generieren. Unterirdisch und oberirdisch duerfen
+# uebereinander liegen, solange ihre 3D-Bereiche sich nicht schneiden.
+enableOverlapPrevention = true
+use3DOverlapDetection = true
+logBlockedStructures = true
+structureWhitelist = []
+structureBlacklist = []
+structureSpecificEnabled = []
