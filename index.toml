@@ -34,7 +34,7 @@ hash = "cd8cb2a6675867613a30fe0040571b5b61d8b580a4d2981cc5f5c5220e4a6ce3"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "53e2cbbef077e6df25602013095f18ff49902d83120134d391da92ebe5fad68c"
+hash = "fc0b77eb3e8c06f6a15ddab11bbc236bb3525749653f8ade21fa48d7c98fa562"
 
 [[files]]
 file = "config/bedrockoid-config.toml"
@@ -125,12 +125,8 @@ file = "config/ftbquests/quests/chapters/hintergrund.snbt"
 hash = "3678c0455b0d2cc170b41a4e977301a43efef2217f888ac3e39fdd2e966b986d"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/immersiveengineering.snbt"
-hash = "e5a0d56faa04652b155f687ac8306359cf59236bc5e1c8b22409fbb6d4f9deb1"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/kleinemods.snbt"
-hash = "9fc9e51ae7f518f69a960b16bbeaf7120bff3d67526d566fcd76fb92dc836fb6"
+hash = "b02a247a97caa42c3709742b7b06b8dc2afd7aa660cba7fde493de4f5bab0432"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/neuemods_abenteuer.snbt"
@@ -150,7 +146,7 @@ hash = "791d4d516c58e30885d8e9c31d3b57097bf5cb2bacaba4b0290e98cd82fb9f71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z01_steinzeit.snbt"
-hash = "c56bff8a1b2dbdd87975047280472dc241912288a6e208ab2ea65cb51d5bec41"
+hash = "bc03cb9f04b67d1b811958bc819f060555f7bbcc4e265b2c4d127d859f8188e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/z02_eisenzeit.snbt"
@@ -297,6 +293,10 @@ file = "config/jeresources-common.toml"
 hash = "3429f353180c67675d4a2bcc7a35c825290746e8eaff7449c23319eb6d00ae38"
 
 [[files]]
+file = "config/l2configs/l2tabs-client.toml"
+hash = "6c94383da851ea2c26b9ecfeaa32f76f8cccd8f439ef3a2ae829ad3ea1ecb28a"
+
+[[files]]
 file = "config/litematica.json"
 hash = "ec810b104d5406e888336a1ab18978e57b59051bf2ec97a4c43e2b5a804494a2"
 
@@ -359,7 +359,7 @@ metafile = true
 
 [[files]]
 file = "config/paxi/datapacks/Exactly-Regeln.zip"
-hash = "42d49e52c6d0a31d0eb0fc5266f0de8f071116845e991c6e0be13ade94a2b747"
+hash = "4f9c3971c0d887b9110c9148fcf8405f964b4e64cdea4817597da8c1501469d3"
 
 [[files]]
 file = "config/paxi/datapacks/Exactly-Rezeptfixes.zip"
@@ -417,7 +417,7 @@ hash = "59d179a67977122c7ad464625cb41b7b0d95ee9a3fa8211dc6c9725d87ebc30e"
 
 [[files]]
 file = "config/paxi/resourcepacks/Exactly-Pack.zip"
-hash = "b936248a4564a9af0ca38cf32d242bd222007c19208fa28e2a123c8a4eaaf464"
+hash = "c25ab9369d7738a3b1be64b5fa6e001ae9cc0d4781912320c0c5bee4a6efabc4"
 
 [[files]]
 file = "config/paxi/resourcepacks/freshanimations_v1.10.4.pw.toml"
@@ -1285,7 +1285,7 @@ metafile = true
 
 [[files]]
 file = "mods/exactly_dungeon_collapse-1.0.0.jar"
-hash = "b461d2bd3f8b0bc8148f25a1188eba2e84489b524073592aa86088d9eb33232f"
+hash = "c1b7999fc80315fae71f0b2176bc7e5ecf15b438bcc42e5e6744315d9b8216e5"
 
 [[files]]
 file = "mods/expandeddelight-0.1.4.pw.toml"
@@ -1539,11 +1539,6 @@ metafile = true
 [[files]]
 file = "mods/immersivearmorhud-neoforge-1.0.1-1.21.1.pw.toml"
 hash = "2cac2d6bbf0444481bccebab29f051aa592f5e0a36b429c76d75afc60456dd21"
-metafile = true
-
-[[files]]
-file = "mods/immersiveengineering-1.21.1-12.4.2-194.pw.toml"
-hash = "2569fcda09bd0c36374f201e5868c8f956746dfa1442a6b98ac2d6b17c48ea89"
 metafile = true
 
 [[files]]
@@ -2318,6 +2313,11 @@ hash = "8be9746a223bb2286877ec4a2f58f7fa93a71528974294a5e11aeab28e6dedd7"
 metafile = true
 
 [[files]]
+file = "mods/slabbed-0.6.1-alpha-1.21.1.pw.toml"
+hash = "7cdb62575ef0c2ee39208e0b2bb9a007d3a5e851717ca9c99d6cfe978dbac4ac"
+metafile = true
+
+[[files]]
 file = "mods/sliceanddice-4.3.4-neoforge.pw.toml"
 hash = "caef6f226e1fe3c7d9cdb9a9ba6cf562ebf09d026f60c2f3cc3e74d6c2d646f8"
 metafile = true
@@ -2764,7 +2764,7 @@ hash = "4b8e2eb0a43ed5c5b059a388b40162386102b6315208baace6eb74b5303471f7"
 
 [[files]]
 file = "README_Exactly.txt"
-hash = "7e6b125879041a335c27381b51364a4f7b9246f5b485685a66dab83c4e6a2614"
+hash = "878d9c01df37fa41630b326939b99a6237ec2e5473434d35b37b6e48aa067e09"
 
 [[files]]
 file = "servers.dat"
