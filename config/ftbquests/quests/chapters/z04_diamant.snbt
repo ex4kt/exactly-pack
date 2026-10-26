@@ -1450,5 +1450,85 @@
 			x: 33.00d
 			y: 1.50d
 		}
+		{
+			dependencies: ["63064054BBFD8FB1"]
+			description: ["&6Was ist das?", "Technik-Mod für Automatisierung: Maschinen ernten, füttern, schlachten und verarbeiten für dich.", "", "&6So gehts", "Das Handbuch zeigt alles. Rezepte findest du in JEI mit R, Verwendungen mit U. Die Maschinen brauchen Energie (FE) und Maschinengehäuse.", "", "&6Wofür ist das wichtig?", "Im Diamant-Zeitalter wird Industrial Foregoing freigeschaltet. Es ersetzt Immersive Engineering."]
+			id: "F013C3BB8BC7A436"
+			title: "Industrial Foregoing"
+			rewards: [{ id: "69F52D2FD87B46AE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "8D6347E57D53B9AC", type: "checkmark" }]
+			x: 0.00d
+			y: 28.50d
+		}
+		{
+			dependencies: ["F013C3BB8BC7A436"]
+			description: ["&6Was ist das?", "Das einfachste Gehäuse, Grundlage der ersten Maschinen.", "", "&6So gehts", "Rezept in JEI suchen und mit R ansehen.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse gibt es keine Maschinen."]
+			id: "0805AA0C446E6326"
+			title: "Primitives Maschinengehäuse"
+			rewards: [{ id: "7737670B96B922E5", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "C1C34EF96701FAE1", type: "item", item: { id: "industrialforegoing:machine_frame_pity", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 28.50d
+		}
+		{
+			dependencies: ["0805AA0C446E6326"]
+			description: ["&6Was ist das?", "Erste Energiequelle, verbrennt Brennstoff zu Energie.", "", "&6So gehts", "Mit Brennmaterial füttern und Maschinen daneben stellen.", "", "&6Wofür ist das wichtig?", "Maschinen brauchen Energie, ohne Generator laufen sie nicht."]
+			id: "A3C553C7221DF134"
+			title: "Primitiver Heizgenerator"
+			rewards: [{ id: "D6413ADCEB4326C2", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "E654E58C29F3CC6B", type: "item", item: { id: "industrialforegoing:pitiful_generator", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 28.50d
+		}
+		{
+			dependencies: ["A3C553C7221DF134"]
+			description: ["&6Was ist das?", "Pflanzt Saatgut selbstständig auf Felder.", "", "&6So gehts", "Neben einem Feld aufstellen, Saatgut hineinlegen und Energie anschließen.", "", "&6Wofür ist das wichtig?", "Hält Farmen ohne Handarbeit am Laufen."]
+			id: "CDC02885F33A2BE4"
+			title: "Sämaschine"
+			rewards: [{ id: "868895DAB974F3DD", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "A19B8B5E266E8C84", type: "item", item: { id: "industrialforegoing:plant_sower", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 28.50d
+		}
+		{
+			dependencies: ["CDC02885F33A2BE4"]
+			description: ["&6Was ist das?", "Erntet reife Pflanzen und Bäume automatisch.", "", "&6So gehts", "Neben das Feld stellen, Reichweite mit Add-ons erhöhen.", "", "&6Wofür ist das wichtig?", "Zusammen mit der Sämaschine eine vollautomatische Farm."]
+			id: "AEF29B1320AE69B2"
+			title: "Erntemaschine"
+			rewards: [{ id: "D2B5B7A30C1B1FC1", type: "xp_levels", xp_levels: 6 }]
+			tasks: [{ id: "7256ED04DC7278C4", type: "item", item: { id: "industrialforegoing:plant_gatherer", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 28.50d
+		}
+		{
+			dependencies: ["AEF29B1320AE69B2"]
+			description: ["&6Was ist das?", "Tötet Mobs in einem Bereich und sammelt die Drops.", "", "&6So gehts", "Bei einem Mob-Spawner oder einer Mobfalle aufstellen.", "", "&6Wofür ist das wichtig?", "Gute Quelle für Erfahrung und Mob-Drops."]
+			id: "960BC4D25DD880A7"
+			title: "Monsterschnetzler"
+			rewards: [{ id: "DBCC89844C636D2D", type: "xp_levels", xp_levels: 7 }]
+			tasks: [{ id: "A2F60DDB5BAA5000", type: "item", item: { id: "industrialforegoing:mob_crusher", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 28.50d
+		}
+		{
+			dependencies: ["960BC4D25DD880A7"]
+			description: ["&6Was ist das?", "Wichtiges Material für höhere Maschinen.", "", "&6So gehts", "Entsteht aus Latex in der Latexverarbeitungsmaschine.", "", "&6Wofür ist das wichtig?", "Aus Kunststoff werden bessere Gehäuse und Add-ons."]
+			id: "7C2004FF186EB52A"
+			title: "Kunststoff"
+			rewards: [{ id: "F9B4FC2C5237CE35", type: "xp_levels", xp_levels: 8 }]
+			tasks: [{ id: "1BA69B1538C97072", type: "item", item: { id: "industrialforegoing:plastic", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 28.50d
+		}
+		{
+			dependencies: ["7C2004FF186EB52A"]
+			description: ["&6Was ist das?", "Speichert riesige Mengen eines Items in einem Block.", "", "&6So gehts", "Mit Black Hole Controller lässt er sich in Maschinen und Rohre einbinden.", "", "&6Wofür ist das wichtig?", "Ideal als Lager für Farm-Erträge."]
+			id: "96B39D107833B9FA"
+			title: "Black-Hole-Speicher"
+			rewards: [{ id: "3383A93FC496FAC8", type: "xp_levels", xp_levels: 9 }]
+			tasks: [{ id: "E11E91282D3E3B99", type: "item", item: { id: "industrialforegoing:pity_black_hole_unit", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 28.50d
+		}
 	]
 }
