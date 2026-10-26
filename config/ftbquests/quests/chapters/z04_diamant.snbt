@@ -1681,14 +1681,14 @@
 			y: 34.50d
 		}
 		{
-			dependencies: ["4C454C552CE9303A"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Macht aus 3 zerkleinerten Stäuben oder Roherzen 4,5 Staub. Er kann auch viele Materialien recyceln.", "", "&6So gehts", "Dampf anschließen und Roherz einlegen.", "", "&6Wofür ist das wichtig?", "Das ist die beste Art, deine Erze aufzustocken."]
 			id: "53823AD656A93EFE"
 			title: "Bronzezerkleinerer"
 			rewards: [{ id: "FB1E48FFB074347B", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "1539F005ECCDB3E7", type: "item", item: { id: "modern_industrialization:bronze_macerator", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["53823AD656A93EFE"]
@@ -1698,7 +1698,7 @@
 			rewards: [{ id: "ECDF3F4D362528EF", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "B13AFC99924F533F", type: "item", item: { id: "modern_industrialization:bronze_cutting_machine", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["5ED23422F7F155D5"]
@@ -1708,7 +1708,7 @@
 			rewards: [{ id: "B80F3A779D20241D", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "BDB566EBE9378B9F", type: "item", item: { id: "modern_industrialization:bronze_furnace", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["DBA716B5081C4F9B"]
@@ -1718,7 +1718,7 @@
 			rewards: [{ id: "EB0ACC8A78312C5A", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "63EC3389B375AF26", type: "item", item: { id: "modern_industrialization:wrench", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["9DED5FE360E51507"]
@@ -1728,7 +1728,7 @@
 			rewards: [{ id: "77B9F5C1F7221D31", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "E43CF9A43007C173", type: "item", item: { id: "modern_industrialization:bronze_item_input_hatch", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["EC4604BB3BE0E021"]
@@ -1738,7 +1738,7 @@
 			rewards: [{ id: "F3086E12803B0037", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "F4013545BC791D51", type: "item", item: { id: "modern_industrialization:fluid_pipe", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["902CA1809C5BEC6C"]
@@ -1748,7 +1748,7 @@
 			rewards: [{ id: "E091D1A6FBC5F230", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "4DC34C88D1552BFA", type: "item", item: { id: "modern_industrialization:item_pipe", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["C9F71E8974B8BC76"]
@@ -1758,7 +1758,7 @@
 			rewards: [{ id: "4E6EA38AA9245A08", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7DF7165362C483A4", type: "item", item: { id: "modern_industrialization:bronze_water_pump", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["63CA735E130DC614"]
@@ -1768,7 +1768,7 @@
 			rewards: [{ id: "840455E48586B5E5", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "DAAEE69C004660EF", type: "item", item: { id: "modern_industrialization:bronze_tank", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
 			dependencies: ["B2617AD1D233EE8C"]
@@ -1778,17 +1778,17 @@
 			rewards: [{ id: "1731BE477E079629", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "413D1B47E0A0D008", type: "item", item: { id: "modern_industrialization:bronze_barrel", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 36.00d
+			y: 37.50d
 		}
 		{
-			dependencies: ["E65395A6DED1E8FF"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Die erste Mehrblock-Maschine: Sie macht aus Kohle Koks, dem Weg zu Stahl.", "", "&6So gehts", "Du brauchst den Koksofen als Steuerblock (Controller), 21 Ziegel und 3 Luken: Gegenstands-Eingang, Gegenstands-Ausgang und Flüssigkeits-Eingang für Dampf. Optional ein Flüssigkeits-Ausgang für Kreosot.", "Halte den Schraubenschlüssel in der Hand, um fehlende Blöcke zu sehen. Mit einer Luke in der Hand siehst du, wo sie hin darf. Fehlt eine Luke, startet er nicht.", "Steht „Form gültig“, fülle den Eingang mit Dampf und Kohle.", "", "&6Wofür ist das wichtig?", "Koks ist der Grundstoff für Stahl und ein starker Brennstoff."]
 			id: "7D64281ACD707388"
 			title: "Der Koksofen"
 			rewards: [{ id: "187E744A0A516B58", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "82B0797D309F08CC", type: "item", item: { id: "modern_industrialization:coke_oven", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["7D64281ACD707388"]
@@ -1798,7 +1798,7 @@
 			rewards: [{ id: "FD0E343BBC767776", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "98EF57A426DB90C0", type: "item", item: { id: "modern_industrialization:coke", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["03B69C3DEDBCF753"]
@@ -1808,7 +1808,7 @@
 			rewards: [{ id: "D514C3BAABF12112", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "3363D51A585C7CB9", type: "item", item: { id: "modern_industrialization:steam_blast_furnace", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["A2503E1A08096B62"]
@@ -1818,7 +1818,7 @@
 			rewards: [{ id: "F282CBE9DF18FDAA", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "6F8621407D501E94", type: "item", item: { id: "modern_industrialization:steel_ingot", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["E87E5D54C5B7243D"]
@@ -1828,7 +1828,7 @@
 			rewards: [{ id: "59C8B7AEFDBF4906", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "F3BB09626BDDF2EA", type: "item", item: { id: "modern_industrialization:steel_upgrade", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["1F4C25C7E7BB4DF2"]
@@ -1838,7 +1838,7 @@
 			rewards: [{ id: "B4CDDAB91EF7E001", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "C3494333FD113D15", type: "item", item: { id: "modern_industrialization:steel_packer", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["A3C4B9F05190DFE4"]
@@ -1848,7 +1848,7 @@
 			rewards: [{ id: "581E170703B111C2", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "1431A9D1D07FF12A", type: "item", item: { id: "modern_industrialization:steel_unpacker", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["650669C7B50A7352"]
@@ -1858,7 +1858,7 @@
 			rewards: [{ id: "56EBCC982F933202", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "07CD92C6D8CE72C2", type: "item", item: { id: "modern_industrialization:trash_can", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["93C16DFA0599027D"]
@@ -1868,7 +1868,7 @@
 			rewards: [{ id: "2BE88D32C04B6B87", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "EBAA7B93B4C79B79", type: "item", item: { id: "modern_industrialization:bronze_drill", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
 			dependencies: ["0A474000D9FC7439"]
@@ -1878,17 +1878,17 @@
 			rewards: [{ id: "194A711DF3DBC4DC", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "8D4C8EE9BE0240BA", type: "item", item: { id: "modern_industrialization:steam_quarry", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 37.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["27C576C9FC50DBDB"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Ab hier läuft alles mit Strom. Elektromaschinen sind wie Dampfmaschinen, übertakten aber stufenlos bis 32 EU/t.", "Das Ziel: Baue Anlagen, die du dauerhaft ausbaust. Die volle Leistung erreichen Elektromaschinen im Dauerbetrieb.", "", "&6So gehts", "Die Quests unten führen dich von der ersten Turbine bis zur Ölraffinerie.", "", "&6Wofür ist das wichtig?", "Starke Technik ohne Zauberei, aber mit Planung."]
 			id: "B71DDE9CF520B862"
 			title: "Die Elektrozeit"
 			rewards: [{ id: "5D54B9953A0DF190", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "68938CCF419BF4D1", type: "checkmark" }]
 			x: 0.00d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["B71DDE9CF520B862"]
@@ -1898,7 +1898,7 @@
 			rewards: [{ id: "198E7BCEB139EDBA", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "AD3E54EE4EA40B34", type: "item", item: { id: "modern_industrialization:lv_steam_turbine", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["24C9F1CD29645A91"]
@@ -1908,7 +1908,7 @@
 			rewards: [{ id: "63338A82A2E45A3E", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "D184DE5569312EE7", type: "item", item: { id: "modern_industrialization:rubber_sheet", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["FF19532D7660654A"]
@@ -1918,7 +1918,7 @@
 			rewards: [{ id: "39D7F190165E185B", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "A9623861CFCF4970", type: "item", item: { id: "modern_industrialization:electric_wiremill", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["76BBAC9DA6093725"]
@@ -1928,7 +1928,7 @@
 			rewards: [{ id: "6937816F21D506E8", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "FD5989C7D0B9F8D4", type: "item", item: { id: "modern_industrialization:tin_cable", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["24FA6E196972CE1A"]
@@ -1938,7 +1938,7 @@
 			rewards: [{ id: "5425858A2118642D", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "70D312305821DD08", type: "item", item: { id: "modern_industrialization:analog_circuit", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["D9D3813FF05B7FEE"]
@@ -1948,7 +1948,7 @@
 			rewards: [{ id: "390159971EF0EB24", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "0E9229E73DB3E6EF", type: "item", item: { id: "modern_industrialization:assembler", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
 			dependencies: ["C29475CC661C679E"]
@@ -1958,17 +1958,17 @@
 			rewards: [{ id: "FAE8F7422C0D1D27", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "A7A08094F6F91622", type: "item", item: { id: "modern_industrialization:configurable_chest", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 39.00d
+			y: 43.50d
 		}
 		{
-			dependencies: ["CEF4E3718B6A1297"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Mit Schmiermittel übertaktest du eine Elektromaschine von Hand.", "", "&6So gehts", "Mische Kreosot und Redstone zu Schmiermittel. Rechtsklick auf eine Elektromaschine mit einem Eimer. Je 25 mb gibt 1 Effizienz-Tick.", "", "&6Wofür ist das wichtig?", "Mehr Tempo, wenn du es brauchst."]
 			id: "A9341A959AC4CFBE"
 			title: "Schmiermittel"
 			rewards: [{ id: "69311EF70D643E1D", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "7C979156D3909E27", type: "item", item: { id: "modern_industrialization:lubricant_bucket", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 39.00d
+			x: 0.00d
+			y: 46.50d
 		}
 		{
 			dependencies: ["A9341A959AC4CFBE"]
@@ -1977,8 +1977,8 @@
 			title: "Overclock-Upgrade"
 			rewards: [{ id: "027E0A3FDDEB8643", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "2E8D421B49C72632", type: "item", item: { id: "modern_industrialization:basic_upgrade", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: 39.00d
+			x: 1.50d
+			y: 46.50d
 		}
 		{
 			dependencies: ["3482DA64E131AD8E"]
@@ -1987,8 +1987,8 @@
 			title: "Redstone-Steuermodul"
 			rewards: [{ id: "83FADE568B6CDD2E", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "9AED50C41F753307", type: "item", item: { id: "modern_industrialization:redstone_control_module", count: 1 }, count: 1L }]
-			x: 0.00d
-			y: 40.50d
+			x: 3.00d
+			y: 46.50d
 		}
 		{
 			dependencies: ["8495DF9F91C194AD"]
@@ -1997,18 +1997,18 @@
 			title: "Der Polarisierer"
 			rewards: [{ id: "DD7DB4806DC535D6", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "3E7D98454F21525C", type: "item", item: { id: "modern_industrialization:polarizer", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 40.50d
+			x: 4.50d
+			y: 46.50d
 		}
 		{
-			dependencies: ["37A718A1F4442956"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Die elektrische Version des Dampfhochofens. Er schaltet neue Rezepte frei.", "", "&6So gehts", "Aufbau: eine Schicht Hitzefeste Maschinengehäuse, zwei hohle Schichten Kupfernickelspulen und eine weitere Schicht Hitzefeste Gehäuse. Der Steuerblock sitzt unten, Luken oben oder unten.", "Vergiss die Energie-Eingangsluke nicht, sonst hat er keinen Strom. Die LV-Luke verbindet sich nur mit LV-Kabeln.", "", "&6Wofür ist das wichtig?", "Für Aluminium, Edelstahl und viele weitere Metalle."]
 			id: "34E0EEA302C65103"
 			title: "Elektrischer Hochofen"
 			rewards: [{ id: "4BB9C3C348304565", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "1FF0F1561FDDA893", type: "item", item: { id: "modern_industrialization:electric_blast_furnace", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 40.50d
+			x: 0.00d
+			y: 49.50d
 		}
 		{
 			dependencies: ["34E0EEA302C65103"]
@@ -2017,8 +2017,8 @@
 			title: "Aluminium"
 			rewards: [{ id: "4886651178C1D2AF", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "D23326B62AE5F265", type: "item", item: { id: "modern_industrialization:aluminum_ingot", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 40.50d
+			x: 1.50d
+			y: 49.50d
 		}
 		{
 			dependencies: ["092806EEFC13511D"]
@@ -2027,8 +2027,8 @@
 			title: "Zentrifuge"
 			rewards: [{ id: "94DAB42CD333AD82", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "0B97D5D232F009B5", type: "item", item: { id: "modern_industrialization:centrifuge", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 40.50d
+			x: 3.00d
+			y: 49.50d
 		}
 		{
 			dependencies: ["1D2F66CD47A2047A"]
@@ -2037,8 +2037,8 @@
 			title: "Chemischer Reaktor"
 			rewards: [{ id: "F4A0CA5563A63695", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "E1D21D686B3628C3", type: "item", item: { id: "modern_industrialization:chemical_reactor", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 40.50d
+			x: 4.50d
+			y: 49.50d
 		}
 		{
 			dependencies: ["3FC379C772D125CB"]
@@ -2047,8 +2047,8 @@
 			title: "Destillerie"
 			rewards: [{ id: "DAC5D4E1400F0C0C", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "C8D8321C107B63C0", type: "item", item: { id: "modern_industrialization:distillery", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 40.50d
+			x: 6.00d
+			y: 49.50d
 		}
 		{
 			dependencies: ["8EC9C704907C7966"]
@@ -2057,18 +2057,18 @@
 			title: "Elektrolyseur"
 			rewards: [{ id: "B3388F39E65F04DB", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "0248739C334B5ACC", type: "item", item: { id: "modern_industrialization:electrolyzer", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 40.50d
+			x: 7.50d
+			y: 49.50d
 		}
 		{
-			dependencies: ["DB82AFD05BC2D5BC"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Ein größerer Kessel, der bei voller Hitze 256 mb Dampf pro Tick liefert.", "", "&6So gehts", "Aufbau: Bronzeplattierte Ziegel, Rohr-Gehäuse aus Bronze in der Mitte und Hitzefeste Gehäuse. Eine Schicht Hitzefeste Gehäuse unten, darüber drei Schichten Bronzeplattierte Ziegel. Der Steuerblock sitzt in der zweiten Schicht, die Luken in der untersten.", "Er erzeugt bei Gegenstands-Brennstoff doppelt so viel Energie. Ungenutzte Wärme geht zu 80 Prozent verloren, er lohnt sich also nur unter Volllast.", "", "&6Wofür ist das wichtig?", "Viel Dampf für Turbinen."]
 			id: "839A1E0A742C9851"
 			title: "Großer Dampfkessel"
 			rewards: [{ id: "3E6876FC8E3283AD", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "766599B856EE82B4", type: "item", item: { id: "modern_industrialization:large_steam_boiler", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 40.50d
+			x: 0.00d
+			y: 52.50d
 		}
 		{
 			dependencies: ["839A1E0A742C9851"]
@@ -2077,8 +2077,8 @@
 			title: "Elektrischer Steinbruch"
 			rewards: [{ id: "80492BC8509C1313", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "5A2361C7C457F424", type: "item", item: { id: "modern_industrialization:electric_quarry", count: 1 }, count: 1L }]
-			x: 13.50d
-			y: 40.50d
+			x: 1.50d
+			y: 52.50d
 		}
 		{
 			dependencies: ["EA5A7DF42F850623"]
@@ -2087,8 +2087,8 @@
 			title: "Erdölbohranlage"
 			rewards: [{ id: "7A56320C591FC6B3", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "5721CD8AD4F081D8", type: "item", item: { id: "modern_industrialization:oil_drilling_rig", count: 1 }, count: 1L }]
-			x: 0.00d
-			y: 42.00d
+			x: 3.00d
+			y: 52.50d
 		}
 		{
 			dependencies: ["04529EA02E03FAA6"]
@@ -2097,18 +2097,18 @@
 			title: "MV Dieselgenerator"
 			rewards: [{ id: "2E87A0758348AB1F", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "D727B7BA418D3480", type: "item", item: { id: "modern_industrialization:mv_diesel_generator", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 42.00d
+			x: 4.50d
+			y: 52.50d
 		}
 		{
-			dependencies: ["44E58DE4C13664DB"]
+			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Das nächste Metall, von dem du viel brauchst.", "", "&6So gehts", "Edelstahlstaub im Elektrischen Hochofen ergibt heiße Barren. Im Vakuumgefrierer kühlst du sie wieder zu normalen Barren.", "", "&6Wofür ist das wichtig?", "Für Tanks, Rohre und Maschinengehäuse der nächsten Stufe."]
 			id: "21D5F60C690614A5"
 			title: "Edelstahl"
 			rewards: [{ id: "5B434A14AA481A65", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "8F9B35BD8BC8DAC0", type: "item", item: { id: "modern_industrialization:stainless_steel_ingot", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 42.00d
+			x: 0.00d
+			y: 55.50d
 		}
 		{
 			dependencies: ["21D5F60C690614A5"]
@@ -2117,8 +2117,8 @@
 			title: "Vakuumgefrierer"
 			rewards: [{ id: "471D18622D0E043B", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "985AB5084844A7B7", type: "item", item: { id: "modern_industrialization:vacuum_freezer", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 42.00d
+			x: 1.50d
+			y: 55.50d
 		}
 		{
 			dependencies: ["FEBDA9423A67AC3C"]
@@ -2127,8 +2127,8 @@
 			title: "Destillationsturm"
 			rewards: [{ id: "B068715ACDA57D8F", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "262AF3F56BA53164", type: "item", item: { id: "modern_industrialization:distillation_tower", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 42.00d
+			x: 3.00d
+			y: 55.50d
 		}
 		{
 			dependencies: ["5A2A58D9A7FCD4BF"]
@@ -2137,8 +2137,8 @@
 			title: "Digitaler Schaltkreis"
 			rewards: [{ id: "2AC3A802D1651C04", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "194CE79569EE3381", type: "item", item: { id: "modern_industrialization:digital_circuit", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 42.00d
+			x: 4.50d
+			y: 55.50d
 		}
 		{
 			dependencies: ["6CE2AF0343FE4F05"]
@@ -2147,8 +2147,8 @@
 			title: "Hochentwickelte Maschinenhülle"
 			rewards: [{ id: "20818E848C05F200", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "44A0B2DE974F699B", type: "item", item: { id: "modern_industrialization:advanced_machine_hull", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 42.00d
+			x: 6.00d
+			y: 55.50d
 		}
 		{
 			dependencies: ["BD27751B45E5C197"]
@@ -2157,8 +2157,8 @@
 			title: "Overdrive-Modul"
 			rewards: [{ id: "E8FC44481EB3C497", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "284DEF5D76CEAADA", type: "item", item: { id: "modern_industrialization:overdrive_module", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 42.00d
+			x: 7.50d
+			y: 55.50d
 		}
 		{
 			dependencies: ["38FA4E4DC4E0F4A2"]
@@ -2167,8 +2167,8 @@
 			title: "Großer Dieselgenerator"
 			rewards: [{ id: "9A8FB47D21273636", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "5072F306847BFA85", type: "item", item: { id: "modern_industrialization:large_diesel_generator", count: 1 }, count: 1L }]
-			x: 12.00d
-			y: 42.00d
+			x: 9.00d
+			y: 55.50d
 		}
 		{
 			dependencies: ["1B5038C13D635818"]
@@ -2177,8 +2177,8 @@
 			title: "Weiter geht es"
 			rewards: [{ id: "8F18A449A4AE208C", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "EA9C2A2D78E55793", type: "checkmark" }]
-			x: 13.50d
-			y: 42.00d
+			x: 10.50d
+			y: 55.50d
 		}
 	]
 }
