@@ -19,9 +19,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["0582499342732963"]
 			description: ["&6Was ist das?", "Der Computer ist ein Block mit einem kleinen Bildschirm. Darauf läuft ein Betriebssystem, in dem du Befehle eintippst.", "", "&6So gehts", "Baue einen Computer. Das Rezept siehst du in JEI, indem du auf das Item klickst und R drückst.", "Stelle ihn auf den Boden. Rechtsklick öffnet sein Terminal. Mit dem Ein-Schalter im Fenster oder mit Strg+R startet er.", "Mit der Maus kannst du im Terminal nichts anklicken, alles läuft über die Tastatur.", "", "&6Wofür ist das wichtig?", "Der Computer ist das Gehirn für alles Weitere in diesem Kapitel."]
 			icon: { id: "computercraft:computer_normal" }
+			dependencies: ["0582499342732963"]
 			id: "513C44676E8366E2"
 			title: "Der Computer"
 			rewards: [{ id: "A3CD88C3BBBF942A", type: "xp_levels", xp_levels: 1 }]
@@ -30,9 +30,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["513C44676E8366E2"]
 			description: ["&6Was ist das?", "Im Terminal gibst du Befehle ein und bestätigst sie mit der Enter-Taste.", "", "&6So gehts", "Probiere diese Befehle aus:", "&bhelp          zeigt Hilfe-Themen", "&bls            zeigt die Dateien auf dem Computer", "&bclear         leert den Bildschirm", "&blabel set Hans  gibt dem Computer den Namen Hans", "Wichtige Tastenkürzel (jeweils eine Sekunde gedrückt halten):", "Strg+T beendet das laufende Programm.", "Strg+S schaltet den Computer aus.", "Strg+R startet ihn neu.", "", "&6Wofür ist das wichtig?", "Wenn ein Programm hängt, rettet dich Strg+T. Hake die Aufgabe ab, wenn du die Befehle probiert hast."]
 			icon: { id: "minecraft:writable_book" }
+			dependencies: ["513C44676E8366E2"]
 			id: "4B5233CCD8637456"
 			title: "Das Terminal"
 			rewards: [{ id: "A192D62229548E14", type: "xp_levels", xp_levels: 1 }]
@@ -41,9 +41,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["4B5233CCD8637456"]
 			description: ["&6Was ist das?", "Ein Programm ist eine Textdatei mit Anweisungen. Der Editor heißt edit.", "", "&6So gehts", "Tippe im Terminal:", "&bedit hallo", "Schreibe in den Editor diese Zeile:", "&bprint('Hallo Welt!')", "Drücke Strg, wähle im Menü Save (Speichern), dann Exit (Beenden).", "Starte das Programm mit:", "&bhallo", "Der Text erscheint auf dem Bildschirm.", "", "&6Wofür ist das wichtig?", "Jedes Programm in diesem Kapitel entsteht auf diese Weise: edit Name, Code schreiben, speichern, Name eintippen."]
 			icon: { id: "minecraft:paper" }
+			dependencies: ["4B5233CCD8637456"]
 			id: "BF6F733AED8952AF"
 			title: "Erstes Programm"
 			rewards: [{ id: "7D4B6C8709BD064D", type: "xp_levels", xp_levels: 1 }]
@@ -52,9 +52,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["BF6F733AED8952AF"]
 			description: ["&6Was ist das?", "Eine Variable ist ein Platz mit einem Namen, in dem du einen Wert speicherst. Lua rechnet mit +, -, *, / und ^ für Potenzen.", "", "&6So gehts", "Neues Programm mit edit rechnen:", "&blocal a = 5", "&blocal b = 3", "&bprint(a + b)", "&bprint(a * b)", "&blocal name = 'Alex'", "&bprint('Hallo ' .. name)", "Zwei Punkte (..) hängen Texte aneinander.", "Das Wort local sagt: Die Variable gilt nur in diesem Programm.", "", "&6Wofür ist das wichtig?", "Mit Variablen merkst du dir Zahlen und Namen, zum Beispiel wie viele Kisten gefüllt sind."]
 			icon: { id: "minecraft:book" }
+			dependencies: ["BF6F733AED8952AF"]
 			id: "CB93C9BEDA92C040"
 			title: "Variablen und Rechnen"
 			rewards: [{ id: "56D9D92617AF929A", type: "xp_levels", xp_levels: 1 }]
@@ -63,9 +63,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["CB93C9BEDA92C040"]
 			description: ["&6Was ist das?", "Programme können dich etwas fragen. Die Antwort holst du mit read().", "", "&6So gehts", "&bwrite('Wie heißt du? ')", "&blocal name = read()", "&bprint('Hallo ' .. name .. '!')", "write schreibt ohne Zeilenumbruch, print mit Zeilenumbruch.", "Mit tonumber(read()) wandelst du eine Eingabe in eine Zahl um.", "", "&6Wofür ist das wichtig?", "So baust du Programme, die auf deine Eingaben reagieren, zum Beispiel einen Taschenrechner."]
 			icon: { id: "minecraft:oak_sign" }
+			dependencies: ["CB93C9BEDA92C040"]
 			id: "88C9DC3FE2AA1859"
 			title: "Eingabe"
 			rewards: [{ id: "022CDE644D7EA65C", type: "xp_levels", xp_levels: 1 }]
@@ -74,9 +74,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["88C9DC3FE2AA1859"]
 			description: ["&6Was ist das?", "Mit if entscheidet ein Programm. Vergleiche sind == (gleich), ~= (ungleich), <, >, <= und >=.", "", "&6So gehts", "&bprint('Zahl von 1 bis 10?')", "&blocal z = tonumber(read())", "&bif z > 5 then", "&b  print('Groß')", "&belseif z == 5 then", "&b  print('Genau fünf')", "&belse", "&b  print('Klein')", "&bend", "Jeder if-Block endet mit end.", "", "&6Wofür ist das wichtig?", "Programme verzweigen so: Wenn die Tür zu ist, öffne sie, sonst warte."]
 			icon: { id: "minecraft:lever" }
+			dependencies: ["88C9DC3FE2AA1859"]
 			id: "DF9EFF522F0A380B"
 			title: "Wenn - dann"
 			rewards: [{ id: "02CA62D357F86FA8", type: "xp_levels", xp_levels: 1 }]
@@ -85,9 +85,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["DF9EFF522F0A380B"]
 			description: ["&6Was ist das?", "Eine Schleife wiederholt Anweisungen. for zählt, while läuft, solange eine Bedingung stimmt.", "", "&6So gehts", "Zählen von 1 bis 10:", "&bfor i = 1, 10 do", "&b  print(i)", "&bend", "Endlos wiederholen, jede Sekunde:", "&bwhile true do", "&b  print('Tick')", "&b  sleep(1)", "&bend", "Eine Endlosschleife stoppst du mit Strg+T.", "sleep(1) wartet eine Sekunde. Ohne sleep rechnet der Computer sich tot und das Programm wird abgebrochen.", "", "&6Wofür ist das wichtig?", "Schleifen lassen eine Farm oder einen Roboter stundenlang arbeiten."]
 			icon: { id: "minecraft:repeater" }
+			dependencies: ["DF9EFF522F0A380B"]
 			id: "B93C03CA0A4F625A"
 			title: "Schleifen"
 			rewards: [{ id: "ABBEB742DA0D4167", type: "xp_levels", xp_levels: 1 }]
@@ -96,9 +96,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["B93C03CA0A4F625A"]
 			description: ["&6Was ist das?", "Eine Funktion ist ein benannter Programmteil, den du immer wieder aufrufen kannst.", "", "&6So gehts", "&blocal function quadrat(x)", "&b  return x * x", "&bend", "&bprint(quadrat(4))", "return gibt das Ergebnis zurück. Funktionen müssen vor ihrer Benutzung im Programm stehen.", "", "&6Wofür ist das wichtig?", "Mit Funktionen wird der Code übersichtlich. Du schreibst eine Sache einmal und nutzt sie überall."]
 			icon: { id: "minecraft:crafting_table" }
+			dependencies: ["B93C03CA0A4F625A"]
 			id: "C053F2C4B1BCEE97"
 			title: "Funktionen"
 			rewards: [{ id: "38D0D99A1B22D2C1", type: "xp_levels", xp_levels: 1 }]
@@ -107,9 +107,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["C053F2C4B1BCEE97"]
 			description: ["&6Was ist das?", "Eine Tabelle ist eine Liste, in der mehrere Werte stehen. In Lua zählt die Liste ab 1, nicht ab 0.", "", "&6So gehts", "&blocal farben = {'rot', 'grün', 'blau'}", "&bprint(farben[1])          -- rot", "&bprint(#farben)           -- 3, die Länge", "&bfor i, f in ipairs(farben) do", "&b  print(i, f)", "&bend", "Auch Schlüssel-Werte-Paare gehen:", "&blocal spieler = { name = 'Alex', level = 12 }", "&bprint(spieler.name)", "Zwei Bindestriche (--) beginnen einen Kommentar, den der Computer ignoriert.", "", "&6Wofür ist das wichtig?", "Mit Tabellen speicherst du Listen von Dingen, zum Beispiel alle Items in einer Kiste."]
 			icon: { id: "minecraft:chest" }
+			dependencies: ["C053F2C4B1BCEE97"]
 			id: "91D5A082A13C2A44"
 			title: "Tabellen"
 			rewards: [{ id: "D9F79D109A04A73F", type: "xp_levels", xp_levels: 1 }]
@@ -118,278 +118,278 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["91D5A082A13C2A44"]
 			description: ["&6Was ist das?", "Der Computer kann an seinen sechs Seiten Redstone-Signale senden und empfangen. Die Seiten heißen top, bottom, left, right, front, back.", "front ist die Seite mit dem Bildschirm.", "", "&6So gehts", "Lege Redstone-Staub oder eine Redstone-Lampe neben den Computer. Dann:", "&bredstone.setOutput('right', true)", "Die Lampe geht an. Zum Ausschalten:", "&bredstone.setOutput('right', false)", "Das kannst du direkt im Terminal tippen oder in einem Programm.", "", "&6Wofür ist das wichtig?", "So schaltest du Lampen, Türen, Kolben und Maschinen mit dem Computer."]
 			icon: { id: "minecraft:redstone" }
+			dependencies: ["91D5A082A13C2A44"]
 			id: "168A7722F16A3C7F"
 			title: "Redstone senden"
 			rewards: [{ id: "4710FD39C7C5F906", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "D5A2B76025AC164D", type: "item", item: { id: "minecraft:redstone", count: 1 }, count: 1L }]
-			x: 15.00d
-			y: 0.00d
+			x: 13.50d
+			y: -1.50d
 		}
 		{
-			dependencies: ["168A7722F16A3C7F"]
 			description: ["&6Was ist das?", "Der Computer liest Signale an seinen Seiten. Dafür gibt es redstone.getInput.", "", "&6So gehts", "Setze einen Hebel an eine Seite des Computers. Dann:", "&bprint(redstone.getInput('left'))", "Es erscheint true (an) oder false (aus). Besser als Dauerabfrage: auf ein Ereignis warten.", "&bwhile true do", "&b  os.pullEvent('redstone')", "&b  print('Signal geändert!')", "&bend", "os.pullEvent wartet, bis etwas passiert. Das spart Rechenzeit.", "", "&6Wofür ist das wichtig?", "Mit Eingängen reagiert dein Computer auf Hebel, Druckplatten und Sensoren."]
 			icon: { id: "minecraft:redstone_torch" }
+			dependencies: ["168A7722F16A3C7F"]
 			id: "B7EABC22E9852F31"
 			title: "Redstone lesen"
 			rewards: [{ id: "B762D714E208B723", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "6E0B1713578B637B", type: "checkmark" }]
-			x: 16.50d
-			y: 0.00d
+			x: 13.50d
+			y: -3.00d
 		}
 		{
-			dependencies: ["B7EABC22E9852F31"]
 			description: ["&6Was ist das?", "Ein erstes kleines Projekt: eine Lampe, die blinkt.", "", "&6So gehts", "Baue eine Redstone-Lampe neben den Computer (rechte Seite) und schreibe das Programm blinker:", "&bwhile true do", "&b  redstone.setOutput('right', true)", "&b  sleep(0.5)", "&b  redstone.setOutput('right', false)", "&b  sleep(0.5)", "&bend", "Mit Strg+T hörst du auf.", "", "&6Wofür ist das wichtig?", "Das Prinzip aus Schleife, Ausgang und Pause steckt in jeder Automatik."]
 			icon: { id: "minecraft:redstone_lamp" }
+			dependencies: ["B7EABC22E9852F31"]
 			id: "BFC1A3C735E6767D"
 			title: "Blinklicht"
 			rewards: [{ id: "3DA5865C714B457C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "BDF5673D58DF7A8C", type: "item", item: { id: "minecraft:redstone_lamp", count: 1 }, count: 1L }]
-			x: 18.00d
-			y: 0.00d
+			x: 13.50d
+			y: -4.50d
 		}
 		{
-			dependencies: ["BFC1A3C735E6767D"]
 			description: ["&6Was ist das?", "Redstone hat Stärken von 0 bis 15. Der Computer kann sie lesen und senden.", "", "&6So gehts", "&bredstone.setAnalogOutput('back', 7)", "&bprint(redstone.getAnalogInput('front'))", "Hängt ein Komparator an einer Kiste, liest du so den Füllstand aus.", "", "&6Wofür ist das wichtig?", "So misst du Füllstände, steuerst Lautstärken oder Helligkeit, nicht nur an und aus."]
 			icon: { id: "minecraft:comparator" }
+			dependencies: ["BFC1A3C735E6767D"]
 			id: "EC4DE552844BE55A"
 			title: "Analoge Signale"
 			rewards: [{ id: "6EF34D921E43B745", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "BCF0F5EE9DAF17C0", type: "checkmark" }]
-			x: 19.50d
-			y: 0.00d
+			x: 13.50d
+			y: -6.00d
 		}
 		{
-			dependencies: ["EC4DE552844BE55A"]
 			description: ["&6Was ist das?", "Ein Ereignis ist etwas, das passiert: eine Taste, ein Timer, ein Redstone-Signal. os.pullEvent wartet darauf.", "", "&6So gehts", "&bwhile true do", "&b  local ereignis, taste = os.pullEvent('key')", "&b  print('Taste:', keys.getName(taste))", "&b  if taste == keys.q then break end", "&bend", "Mit Q beendest du das Programm. break verlässt eine Schleife.", "Weitere Ereignisse: char (Zeichen getippt), timer, redstone, mouse_click (Fortgeschrittener Computer).", "", "&6Wofür ist das wichtig?", "Ereignisse sind die Grundlage jeder Steuerung, auch für Monitore mit Touch."]
 			icon: { id: "minecraft:oak_button" }
+			dependencies: ["91D5A082A13C2A44"]
 			id: "E954A9F12CD9A221"
 			title: "Tasten und Ereignisse"
 			rewards: [{ id: "3AC578CC3543BB53", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "72003DC4818B20E5", type: "checkmark" }]
-			x: 21.00d
+			x: 15.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["E954A9F12CD9A221"]
 			description: ["&6Was ist das?", "Programme können Zeit messen und warten.", "", "&6So gehts", "&bprint(os.time())            -- Spielzeit", "&bprint(os.clock())           -- Sekunden seit Start", "&bsleep(5)                    -- fünf Sekunden warten", "Mit os.startTimer(3) startest du einen Timer, dessen Ereignis timer nach drei Sekunden kommt.", "", "&6Wofür ist das wichtig?", "Zeitgesteuerte Dinge: Tür nach drei Sekunden schließen, Farm alle zehn Minuten ernten."]
 			icon: { id: "minecraft:clock" }
+			dependencies: ["E954A9F12CD9A221"]
 			id: "164A20F1E707E8BE"
 			title: "Zeit und Wartezeit"
 			rewards: [{ id: "90FFE39F514F300C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "BF9B20A682BDA0D3", type: "checkmark" }]
-			x: 22.50d
+			x: 16.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["164A20F1E707E8BE"]
 			description: ["&6Was ist das?", "Der Computer hat ein Dateisystem. Befehle: ls (anzeigen), cd (Ordner wechseln), mkdir (Ordner anlegen), rm (löschen), cp (kopieren), mv (verschieben).", "", "&6So gehts", "&bmkdir programme", "&bcd programme", "&bedit test", "&bcd ..", "Aus einem Programm heraus:", "&bprint(fs.exists('programme/test'))", "&blocal f = fs.open('notiz.txt', 'w')", "&bf.write('Hallo Datei')", "&bf.close()", "So legt dein Programm Dateien an und liest sie wieder (Modus 'r' zum Lesen).", "", "&6Wofür ist das wichtig?", "Programme speichern damit Einstellungen und Daten über den Neustart hinaus."]
 			icon: { id: "minecraft:barrel" }
+			dependencies: ["164A20F1E707E8BE"]
 			id: "A13148C822B453E5"
 			title: "Dateien und Ordner"
 			rewards: [{ id: "A00F14930979CF7B", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1ED520F8B989949C", type: "checkmark" }]
-			x: 24.00d
+			x: 18.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["A13148C822B453E5"]
 			description: ["&6Was ist das?", "Eine Datei mit dem Namen startup läuft automatisch, wenn der Computer startet.", "", "&6So gehts", "&bedit startup", "&bprint('Computer gestartet')", "&bshell.run('blinker')", "Speichern und mit Strg+R neu starten. Die Datei startup läuft von allein, danach dein blinker.", "", "&6Wofür ist das wichtig?", "Eine Anlage läuft nach einem Server- oder Chunk-Neustart sofort wieder an, ohne dass du etwas tippst."]
 			icon: { id: "minecraft:clock" }
+			dependencies: ["A13148C822B453E5"]
 			id: "95C0822D6D5C2639"
 			title: "Startprogramm"
 			rewards: [{ id: "6915694831A44043", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "6C1F9D52EEE9E134", type: "checkmark" }]
-			x: 25.50d
+			x: 19.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["95C0822D6D5C2639"]
 			description: ["&6Was ist das?", "Ein Monitor ist ein großer Bildschirm, den du an eine Wand bauen kannst. Mehrere Monitore nebeneinander verschmelzen zu einem größeren Bild.", "", "&6So gehts", "Setze einen Monitor direkt an den Computer. Dann:", "&blocal mon = peripheral.find('monitor')", "&bmon.clear()", "&bmon.setTextScale(2)", "&bmon.setCursorPos(1, 1)", "&bmon.write('Hallo!')", "Mit term.redirect(mon) lässt du alle print-Ausgaben auf dem Monitor erscheinen.", "Ein Fortgeschrittener Monitor zeigt Farben und meldet Berührungen (Ereignis monitor_touch).", "", "&6Wofür ist das wichtig?", "Anzeigen für Vorräte, Uhren, Maschinenzustände und Schilder in deiner Basis."]
 			icon: { id: "computercraft:monitor_normal" }
+			dependencies: ["95C0822D6D5C2639"]
 			id: "E83952F420BA5EAE"
 			title: "Monitor"
 			rewards: [{ id: "8C815A59B583FF66", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "D6006DE8BC69A0F6", type: "item", item: { id: "computercraft:monitor_normal", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: 0.00d
+			x: 19.50d
+			y: 1.50d
 		}
 		{
-			dependencies: ["E83952F420BA5EAE"]
 			description: ["&6Was ist das?", "Peripheriegeräte sind Dinge, die du an den Computer anschließt: Monitor, Lautsprecher, Drucker, Laufwerk.", "Direkt neben dem Computer reicht. Weiter weg verbindest du sie mit Kabel und Modem.", "", "&6So gehts", "Frage alle Geräte ab:", "&bprint(textutils.serialize(peripheral.getNames()))", "Mit Kabel: Kabel und Modems ans Gerät und an den Computer setzen. Rechtsklick auf das Modem (rote Ringe werden grün) verbindet es.", "Dann:", "&blocal p = peripheral.wrap('monitor_0')", "Welche Funktionen ein Gerät kann, zeigt dir:", "&bprint(textutils.serialize(peripheral.getMethods('monitor_0')))", "", "&6Wofür ist das wichtig?", "So steuert ein Computer eine ganze Anlage mit vielen Geräten, auch mit dem Redstone Link Bridge von Create."]
 			icon: { id: "computercraft:wired_modem" }
+			dependencies: ["E83952F420BA5EAE"]
 			id: "A6EEDA3D6B152481"
 			title: "Geräte verbinden"
 			rewards: [{ id: "047E056E5C6AF10C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5856BA7C729F23CB", type: "item", item: { id: "computercraft:wired_modem", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: 0.00d
+			x: 19.50d
+			y: 3.00d
 		}
 		{
-			dependencies: ["A6EEDA3D6B152481"]
 			description: ["&6Was ist das?", "Der Lautsprecher spielt Noten und Geräusche ab.", "", "&6So gehts", "&blocal sp = peripheral.find('speaker')", "&bsp.playNote('harp', 1, 12)", "&bsp.playSound('minecraft:entity.pig.ambient')", "Die Zahl bei playNote ist die Tonhöhe von 0 bis 24.", "", "&6Wofür ist das wichtig?", "Alarmanlagen, Türklingeln und Melodien für deine Basis."]
 			icon: { id: "computercraft:speaker" }
+			dependencies: ["A6EEDA3D6B152481"]
 			id: "72451E05F30CEB0A"
 			title: "Lautsprecher"
 			rewards: [{ id: "286217E0A611CA26", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1641D8A41D78D6AC", type: "item", item: { id: "computercraft:speaker", count: 1 }, count: 1L }]
-			x: 30.00d
-			y: 0.00d
+			x: 19.50d
+			y: 4.50d
 		}
 		{
-			dependencies: ["72451E05F30CEB0A"]
 			description: ["&6Was ist das?", "Auf Disketten speicherst du Programme und trägst sie zu anderen Computern und Turtles.", "", "&6So gehts", "Setze das Laufwerk neben den Computer und lege eine Diskette hinein (Rechtsklick).", "Die Diskette erscheint im Ordner disk:", "&bcp meinprogramm disk/meinprogramm", "In einem anderen Computer mit Laufwerk kopierst du sie zurück. Mit label set Name auf der Diskette gibst du ihr einen Namen.", "Manche Dungeons enthalten Disketten mit Musik oder Programmen.", "", "&6Wofür ist das wichtig?", "Programme einmal schreiben und auf viele Turtles verteilen."]
 			icon: { id: "computercraft:disk_drive" }
+			dependencies: ["72451E05F30CEB0A"]
 			id: "17169ACE89EA090D"
 			title: "Diskettenlaufwerk"
 			rewards: [{ id: "BE78142FC37ACD8C", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "080A1945931C2E87", type: "item", item: { id: "computercraft:disk_drive", count: 1 }, count: 1L }]
-			x: 31.50d
-			y: 0.00d
+			x: 19.50d
+			y: 6.00d
 		}
 		{
-			dependencies: ["17169ACE89EA090D"]
 			description: ["&6Was ist das?", "Ein Funkmodem lässt Computer und Turtles Nachrichten austauschen. Das Netzwerk heißt rednet.", "", "&6So gehts", "Baue ein Funkmodem und setze es an den Computer (Seite zum Beispiel top). Beide Computer brauchen eins.", "Empfänger (Computer A):", "&brednet.open('top')", "&blocal id, nachricht = rednet.receive()", "&bprint(id, nachricht)", "Sender (Computer B):", "&brednet.open('top')", "&brednet.send(1, 'Hallo A!')", "Die Zahl bei send ist die Nummer des Empfängers. Sie steht mit dem Befehl id im Terminal. Mit rednet.broadcast('Text') erreichst du alle.", "Reichweite und Dimensionen hängen vom Modemtyp ab. Ein Funkmodem für Fortgeschrittene (Ender) hat die größere Reichweite.", "", "&6Wofür ist das wichtig?", "Du steuerst Turtles aus der Ferne oder meldest Alarm an mehrere Computer gleichzeitig."]
 			icon: { id: "computercraft:wireless_modem_normal" }
+			dependencies: ["17169ACE89EA090D"]
 			id: "380CF6CA1873D2D1"
 			title: "Funk-Modem"
 			rewards: [{ id: "77F1A82FD1BD9677", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5C1E8F3FFB1A5190", type: "item", item: { id: "computercraft:wireless_modem_normal", count: 1 }, count: 1L }]
-			x: 33.00d
-			y: 0.00d
+			x: 19.50d
+			y: 7.50d
 		}
 		{
-			dependencies: ["380CF6CA1873D2D1"]
 			description: ["&6Was ist das?", "Ein Taschencomputer ist ein tragbarer Computer in der Hand. Mit Funkmodem schickst du von unterwegs Befehle.", "", "&6So gehts", "Rechtsklick öffnet ihn. Dort läuft dasselbe System wie im Computer.", "Ein Funkmodem baust du in der Werkbank ein (Rezept in JEI). Dann kannst du Nachrichten an deine Turtles schicken.", "", "&6Wofür ist das wichtig?", "Eine Fernbedienung für deine ganze Anlage."]
 			icon: { id: "computercraft:pocket_computer_normal" }
+			dependencies: ["380CF6CA1873D2D1"]
 			id: "B52897666180F96F"
 			title: "Taschencomputer"
 			rewards: [{ id: "A4882912F7902083", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "BE53C16C6ACAF5B9", type: "item", item: { id: "computercraft:pocket_computer_normal", count: 1 }, count: 1L }]
-			x: 34.50d
-			y: 0.00d
+			x: 19.50d
+			y: 9.00d
 		}
 		{
-			dependencies: ["B52897666180F96F"]
 			description: ["&6Was ist das?", "Eine Turtle ist ein Computer auf Rädern. Sie läuft, gräbt, baut, kämpft und trägt Items. Du programmierst sie wie einen normalen Computer.", "", "&6So gehts", "Baue eine Turtle (Rezept in JEI).", "Stelle sie auf, Rechtsklick öffnet das Terminal. Sie braucht Treibstoff: Lege Kohle ins Inventar und tippe:", "&brefuel all", "&bprint(turtle.getFuelLevel())", "Ein Stück Kohle reicht für etwa 80 Schritte. Ohne Treibstoff bewegt sie sich nicht.", "", "&6Wofür ist das wichtig?", "Turtles arbeiten für dich: Tunnelbau, Holzfarm, Aufräumen, Einsammeln."]
 			icon: { id: "computercraft:turtle_normal" }
+			dependencies: ["4A4ADF95A3ECF983"]
 			id: "028B5F465235FCCB"
 			title: "Die Turtle"
 			rewards: [{ id: "D5BE9BBF6E326792", type: "item", item: { id: "minecraft:coal", count: 16 } }]
 			tasks: [{ id: "EDA51606F92BFF49", type: "item", item: { id: "computercraft:turtle_normal", count: 1 }, count: 1L }]
-			x: 36.00d
-			y: 0.00d
+			x: 21.00d
+			y: -1.50d
 		}
 		{
-			dependencies: ["028B5F465235FCCB"]
 			description: ["&6Was ist das?", "Die Turtle kennt Befehle zum Gehen und Drehen.", "", "&6So gehts", "&bturtle.forward()    -- vor", "&bturtle.back()       -- zurück", "&bturtle.up()         -- hoch", "&bturtle.down()       -- runter", "&bturtle.turnLeft()   -- links drehen", "&bturtle.turnRight()  -- rechts drehen", "Jeder Befehl gibt true oder false zurück, je nachdem, ob es geklappt hat. Bei einem Block im Weg ist es false.", "", "&6Wofür ist das wichtig?", "Alles weitere baut darauf auf. Mit einer Schleife läuft die Turtle eine ganze Strecke ab."]
 			icon: { id: "minecraft:rail" }
+			dependencies: ["028B5F465235FCCB"]
 			id: "03FBC2A235755AE4"
 			title: "Turtle bewegen"
 			rewards: [{ id: "7F5153BE679FC748", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "01C799D3B4557CCF", type: "checkmark" }]
-			x: 37.50d
-			y: 0.00d
+			x: 21.00d
+			y: -3.00d
 		}
 		{
-			dependencies: ["03FBC2A235755AE4"]
 			description: ["&6Was ist das?", "Eine Turtle mit Spitzhacke gräbt, und sie kann Blöcke setzen.", "", "&6So gehts", "Eine Grabturtle baust du, indem du Turtle und eine Spitzhacke in die Werkbank legst (Rezept in JEI).", "&bturtle.dig()           -- vorne graben", "&bturtle.digUp()         -- oben graben", "&bturtle.digDown()       -- unten graben", "&bturtle.select(1)       -- Slot 1 wählen", "&bturtle.place()         -- Block aus dem gewählten Slot setzen", "&bturtle.detect()        -- true, wenn vorne ein Block ist", "", "&6Wofür ist das wichtig?", "Damit gräbst du Tunnel, baust Brücken und erntest Bäume automatisch."]
 			icon: { id: "minecraft:iron_pickaxe" }
+			dependencies: ["03FBC2A235755AE4"]
 			id: "AD169F4FA948526C"
 			title: "Graben und Bauen"
 			rewards: [{ id: "E56AF106DE25654B", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "F94E5E2BEB9E1462", type: "checkmark" }]
-			x: 39.00d
-			y: 0.00d
+			x: 21.00d
+			y: -4.50d
 		}
 		{
-			dependencies: ["AD169F4FA948526C"]
 			description: ["&6Was ist das?", "Ein erstes vollständiges Turtle-Programm: ein Tunnel von zehn Blöcken.", "", "&6So gehts", "Programm tunnel10:", "&bfor i = 1, 10 do", "&b  while turtle.detect() do turtle.dig() end", "&b  turtle.forward()", "&bend", "Die innere while-Schleife gräbt weiter, solange vorne etwas ist (zum Beispiel fallender Kies).", "Eingebaute Programme gibt es auch: tunnel 20 und excavate 5 graben für dich.", "", "&6Wofür ist das wichtig?", "Bergbau, Strecken, Gruben: Alles, was nach Wiederholung aussieht, ist ein Turtle-Programm."]
 			icon: { id: "minecraft:iron_pickaxe" }
+			dependencies: ["AD169F4FA948526C"]
 			id: "C46ACF3C3A30F6DC"
 			title: "Programm: Tunnel"
 			rewards: [{ id: "DA438F142D817C8D", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1302E07278454498", type: "checkmark" }]
-			x: 40.50d
-			y: 0.00d
+			x: 21.00d
+			y: -6.00d
 		}
 		{
-			dependencies: ["C46ACF3C3A30F6DC"]
 			description: ["&6Was ist das?", "Eine Turtle kann Pflanzen ernten und Baumstämme schlagen, immer wieder.", "", "&6So gehts", "Programm ernte (Turtle schaut auf Zuckerrohr oder Bambus):", "&bwhile true do", "&b  if turtle.detect() then", "&b    turtle.dig()", "&b  end", "&b  sleep(30)", "&bend", "Alle Items landen im Inventar der Turtle. Mit turtle.drop() legt sie sie in eine Kiste vor ihr.", "", "&6Wofür ist das wichtig?", "Eine Farm, die du nur noch leerst, ohne etwas zu tun."]
 			icon: { id: "minecraft:oak_sapling" }
+			dependencies: ["C46ACF3C3A30F6DC"]
 			id: "F9B9A2EF8C5F363A"
 			title: "Programm: Holz- und Pflanzenfarm"
 			rewards: [{ id: "BE6D229225FEE718", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2F8830246E0A5AD1", type: "checkmark" }]
-			x: 42.00d
-			y: 0.00d
+			x: 21.00d
+			y: -7.50d
 		}
 		{
-			dependencies: ["F9B9A2EF8C5F363A"]
 			description: ["&6Was ist das?", "Mit rednet schickst du Befehle an eine Turtle.", "", "&6So gehts", "Turtle (mit Funkmodem, Programm lauschen):", "&brednet.open('right')", "&bwhile true do", "&b  local id, befehl = rednet.receive()", "&b  if befehl == 'vor' then turtle.forward() end", "&b  if befehl == 'links' then turtle.turnLeft() end", "&b  if befehl == 'graben' then turtle.dig() end", "&bend", "Taschencomputer oder Computer senden mit rednet.send(TurtleNummer, 'vor').", "", "&6Wofür ist das wichtig?", "So lenkst du eine Turtle aus der Ferne durch deine Mine."]
 			icon: { id: "computercraft:wireless_modem_normal" }
+			dependencies: ["F9B9A2EF8C5F363A", "380CF6CA1873D2D1"]
 			id: "904E7B73F194EBED"
 			title: "Turtle per Funk steuern"
 			rewards: [{ id: "FDB366F2D280C4A2", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "6D5D39EB2C47667D", type: "checkmark" }]
-			x: 43.50d
-			y: 0.00d
+			x: 21.00d
+			y: -9.00d
 		}
 		{
-			dependencies: ["904E7B73F194EBED"]
 			description: ["&6Was ist das?", "Der goldene Computer kann Farben und Mausklicks. Dein Programm bekommt dadurch Knöpfe und bunte Bilder.", "", "&6So gehts", "Baue einen Fortgeschrittenen Computer (Rezept in JEI).", "Farben:", "&bterm.setTextColor(colors.lime)", "&bprint('Grün!')", "&bterm.setBackgroundColor(colors.blue)", "&bterm.clear()", "Mausklicks:", "&blocal ereignis, taste, x, y = os.pullEvent('mouse_click')", "&bprint('Klick bei', x, y)", "", "&6Wofür ist das wichtig?", "Menüs und Steuerpulte, die du mit der Maus bedienst."]
 			icon: { id: "computercraft:computer_advanced" }
+			dependencies: ["95C0822D6D5C2639"]
 			id: "4A4ADF95A3ECF983"
 			title: "Fortgeschrittener Computer"
 			rewards: [{ id: "ED24F247B5489BB3", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "12E758012100CFE0", type: "item", item: { id: "computercraft:computer_advanced", count: 1 }, count: 1L }]
-			x: 45.00d
+			x: 21.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["4A4ADF95A3ECF983"]
 			description: ["&6Was ist das?", "Die CC Redstone Link Bridge verbindet Computer mit Create-Redstone-Links. Dein Programm kann Funk-Redstone aus Create senden und empfangen.", "", "&6So gehts", "Setze die Bridge an den Computer. Welche Funktionen sie kennt, findest du heraus mit:", "&blocal b = peripheral.find('redstone_link_bridge')", "&bprint(textutils.serialize(peripheral.getMethods(peripheral.getName(b))))", "Wenn find nichts liefert, prüfe die Namen mit peripheral.getNames().", "", "&6Wofür ist das wichtig?", "Du steuerst Create-Maschinen aus einem Programm und baust zentrale Schaltpulte."]
 			icon: { id: "ccredstonelinkbridge:redstone_link_bridge" }
+			dependencies: ["4A4ADF95A3ECF983"]
 			id: "CB6C143D48431994"
 			title: "Create-Verbindung"
 			rewards: [{ id: "B5325F189FD541B6", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1EC0C52E26B1B3EE", type: "item", item: { id: "ccredstonelinkbridge:redstone_link_bridge", count: 1 }, count: 1L }]
-			x: 46.50d
-			y: 0.00d
+			x: 21.00d
+			y: 1.50d
 		}
 		{
-			dependencies: ["CB6C143D48431994"]
 			description: ["&6Was ist das?", "Zu fast jeder Funktion gibt es eine Dokumentation.", "", "&6So gehts", "Im Spiel: help im Terminal zeigt Themen. Zum Beispiel help turtle oder help redstone.", "Im Netz: Die Seite tweaked.cc beschreibt alle Funktionen mit Beispielen.", "Programme herunterladen (wenn der Server HTTP erlaubt): pastebin get CODE name oder wget URL name.", "Das Lua-Terminal zum Ausprobieren öffnest du mit dem Befehl lua.", "", "&6Wofür ist das wichtig?", "So lernst du neue Funktionen und löst Fehler selbst."]
 			icon: { id: "minecraft:knowledge_book" }
+			dependencies: ["4A4ADF95A3ECF983"]
 			id: "39A4B7026297A235"
 			title: "Hilfe finden"
 			rewards: [{ id: "BBF1F471B2642D8A", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "34C17764625592CF", type: "checkmark" }]
-			x: 48.00d
+			x: 22.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["39A4B7026297A235"]
 			description: ["&6Was ist das?", "Ein Fehler im Programm erscheint als rote Meldung mit Zeilennummer.", "", "&6So gehts", "Beispiel: bios.lua:... attempt to call a nil value. Das heißt: Dein Programm ruft etwas auf, das es nicht gibt, meist wegen eines Tippfehlers.", "Hilfreiche Wege: Mit print() Werte ausgeben, kleinere Teile einzeln testen, Groß-/Kleinschreibung beachten (Lua unterscheidet sie).", "Jedes if, for und while braucht ein end, jede Funktion auch.", "", "&6Wofür ist das wichtig?", "Fehler gehören zum Programmieren dazu. Wer sie liest, lernt am schnellsten."]
 			icon: { id: "minecraft:spyglass" }
+			dependencies: ["39A4B7026297A235"]
 			id: "6675C0CB792FFB4E"
 			title: "Fehlersuche"
 			rewards: [{ id: "8AD8CAD2DCFE9D32", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2403C9A874A83B22", type: "checkmark" }]
-			x: 49.50d
+			x: 24.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["6675C0CB792FFB4E"]
 			description: ["&6Was ist das?", "Zeit für ein eigenes Projekt. Such dir etwas aus und baue es.", "", "&6So gehts", "Ideen:", "Eine automatische Tür, die sich öffnet, wenn du auf eine Druckplatte trittst (Redstone lesen und schreiben).", "Eine Anzeigetafel am Monitor mit der Spielzeit und einem Text.", "Eine Turtle-Farm, die Kürbisse erntet und in eine Kiste legt.", "Ein Alarm: Funk-Nachricht an alle Computer, wenn ein Spieler die Basis betritt.", "Hake die Aufgabe ab, wenn dein Projekt läuft.", "", "&6Wofür ist das wichtig?", "Du kannst jetzt programmieren. Alles Weitere sind nur noch neue Ideen."]
 			icon: { id: "minecraft:nether_star" }
+			dependencies: ["6675C0CB792FFB4E"]
 			id: "E0B58B46F5CCBDAF"
 			title: "Abschlussprojekt"
 			rewards: [{ id: "0BBEFCB586FC37AB", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "4EFF11954799F190", type: "checkmark" }]
-			x: 51.00d
+			x: 25.50d
 			y: 0.00d
 		}
 	]

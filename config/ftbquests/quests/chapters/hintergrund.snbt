@@ -18,79 +18,79 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["69BBD14066EFB46A"]
 			description: ["&6Was ist das?", "Der Grafik-Motor des Spiels. Er zeichnet die Welt viel schneller als Minecraft allein.", "", "&6So gehts", "Läuft von selbst. Einstellungen findest du unter Optionen, Videoeinstellungen.", "", "&6Wofür ist das wichtig?", "Mehr Bilder pro Sekunde, besonders mit vielen Mods."]
 			hide_dependency_lines: true
+			dependencies: ["74C7510450F2F014"]
 			id: "3CCC3AE355EF921E"
 			title: "Sodium"
 			rewards: []
 			tasks: [{ id: "2E88CDFC292DA9FC", type: "checkmark" }]
 			x: 4.50d
-			y: -1.50d
+			y: 0.00d
 		}
 		{
-			dependencies: ["3CCC3AE355EF921E"]
 			description: ["&6Was ist das?", "Ein übersichtlicheres Menü für die Grafik-Einstellungen von Sodium.", "", "&6So gehts", "Optionen, Videoeinstellungen.", "", "&6Wofür ist das wichtig?", "Alle Grafik-Regler an einem Ort, in Reitern sortiert."]
+			dependencies: ["3CCC3AE355EF921E"]
 			id: "4F4F246F81283099"
 			title: "Reese's Sodium Options"
 			rewards: []
 			tasks: [{ id: "724BB397D30A70DC", type: "checkmark" }]
-			x: 6.00d
+			x: 4.50d
 			y: -1.50d
 		}
 		{
-			dependencies: ["3CCC3AE355EF921E"]
 			description: ["&6Was ist das?", "Zusatzoptionen für Sodium, zum Beispiel feinere Einstellungen für Animationen und Partikel.", "", "&6So gehts", "Zu finden in den Videoeinstellungen.", "", "&6Wofür ist das wichtig?", "Du kannst unnötige Effekte abschalten und so FPS gewinnen."]
+			dependencies: ["4F4F246F81283099"]
 			id: "0CA5E8D1C4646F00"
 			title: "Sodium Extras"
 			rewards: []
 			tasks: [{ id: "04DDB1514ADDBC6C", type: "checkmark" }]
-			x: 5.39d
-			y: -5.40d
+			x: 4.50d
+			y: -3.00d
 		}
 		{
-			dependencies: ["3CCC3AE355EF921E"]
 			description: ["&6Was ist das?", "Items in der Hand, zum Beispiel Fackeln, leuchten und erhellen die Umgebung.", "", "&6So gehts", "Fackel oder Laterne in die Hand nehmen.", "", "&6Wofür ist das wichtig?", "Du siehst in dunklen Höhlen besser, ohne etwas zu platzieren."]
+			dependencies: ["0CA5E8D1C4646F00"]
 			id: "1594DBD19179D6C1"
 			title: "Dynamic Lights"
 			rewards: []
 			tasks: [{ id: "3EC775B8EAF006CE", type: "checkmark" }]
-			x: 6.99d
-			y: -4.63d
+			x: 4.50d
+			y: -4.50d
 		}
 		{
-			dependencies: ["3CCC3AE355EF921E"]
 			description: ["&6Was ist das?", "Blätter von Bäumen werden schneller gezeichnet, wenn man sie nicht richtig sieht.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Dichter Wald kostet weniger Leistung."]
+			dependencies: ["3CCC3AE355EF921E"]
 			id: "3CB055C0DD292B08"
 			title: "Leaf Culling"
 			rewards: []
 			tasks: [{ id: "04F07D3B8D604970", type: "checkmark" }]
-			x: 6.99d
-			y: 1.63d
+			x: 4.50d
+			y: 1.50d
 		}
 		{
-			dependencies: ["3CCC3AE355EF921E"]
 			description: ["&6Was ist das?", "Beschleunigt das Zeichnen von Menüs, Texten, Items und Anzeigen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Inventare und Bildschirme laufen flotter."]
+			dependencies: ["3CB055C0DD292B08"]
 			id: "52DB2C1EB3B8E061"
 			title: "ImmediatelyFast"
 			rewards: []
 			tasks: [{ id: "13C36797863C3AF0", type: "checkmark" }]
-			x: 5.39d
-			y: 2.40d
+			x: 4.50d
+			y: 3.00d
 		}
 		{
-			dependencies: ["3CCC3AE355EF921E"]
 			description: ["&6Was ist das?", "Zeichnet keine Tiere, Monster oder Kisten, die hinter Wänden verdeckt sind.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Spart Leistung, vor allem in Dörfern und Basen mit vielen Kisten."]
+			dependencies: ["52DB2C1EB3B8E061"]
 			id: "38274886B21C47AF"
 			title: "Entity Culling"
 			rewards: []
 			tasks: [{ id: "654618A7AE2F4029", type: "checkmark" }]
-			x: 4.93d
-			y: -8.89d
+			x: 4.50d
+			y: 4.50d
 		}
 		{
-			dependencies: ["69BBD14066EFB46A"]
 			description: ["&6Was ist das?", "Macht die Spiellogik schneller, zum Beispiel Mob-KI, Chunk-Laden und Blockberechnungen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Weniger Ruckler auf dem Server und im Einzelspieler."]
+			dependencies: ["69BBD14066EFB46A"]
 			id: "53F526BF615D9969"
 			title: "Lithium"
 			rewards: []
@@ -99,257 +99,257 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Spart Arbeitsspeicher, indem Daten von Blöcken und Modellen kompakter abgelegt werden.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Mit vielen Mods bleibt mehr RAM frei."]
+			dependencies: ["53F526BF615D9969"]
 			id: "2879C1CDC2657421"
 			title: "FerriteCore"
 			rewards: []
 			tasks: [{ id: "0ADB6B1E4E4FC37B", type: "checkmark" }]
-			x: 3.00d
-			y: 0.00d
+			x: 1.50d
+			y: -1.50d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Beschleunigt den Spielstart und senkt den Speicherverbrauch.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Kürzere Ladezeiten bei so vielen Mods."]
+			dependencies: ["2879C1CDC2657421"]
 			id: "2EF98E956C8896DF"
 			title: "ModernFix"
 			rewards: []
 			tasks: [{ id: "2FFA7F07674F0876", type: "checkmark" }]
-			x: -0.99d
-			y: -3.13d
+			x: 1.50d
+			y: -3.00d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Viele kleine Verbesserungen, die unnötige Arbeit der Grafik vermeiden.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Etwas mehr FPS ohne sichtbare Veränderung."]
+			dependencies: ["2EF98E956C8896DF"]
 			id: "0A8699645D892802"
 			title: "BadOptimizations"
 			rewards: []
 			tasks: [{ id: "7A26E089897837C5", type: "checkmark" }]
-			x: 0.61d
-			y: -3.90d
+			x: 1.50d
+			y: -4.50d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Erzeugt neue Teile der Welt schneller.", "", "&6So gehts", "Läuft von selbst, wenn du neues Gebiet erkundest.", "", "&6Wofür ist das wichtig?", "Weniger Ruckler beim Laufen und Fliegen."]
+			dependencies: ["0A8699645D892802"]
 			id: "64659744E0FAF08D"
 			title: "Noisium"
 			rewards: []
 			tasks: [{ id: "1798447DCE99FEBE", type: "checkmark" }]
-			x: 2.39d
-			y: -3.90d
+			x: 1.50d
+			y: -6.00d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Berechnet das Licht in der Welt viel schneller.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Bauen, Abbauen und Chunk-Laden verursachen weniger Lag."]
+			dependencies: ["53F526BF615D9969"]
 			id: "20D3C1F72533BEF0"
 			title: "Scalable Lux"
 			rewards: []
 			tasks: [{ id: "453BE4ED15EE2F61", type: "checkmark" }]
-			x: 3.99d
-			y: -3.13d
+			x: 1.50d
+			y: 1.50d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Berechnet Redstone-Signale schneller, ohne ihr Verhalten zu ändern.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Große Redstone-Schaltungen belasten das Spiel weniger."]
+			dependencies: ["20D3C1F72533BEF0"]
 			id: "5B0E5B7C2A71B442"
 			title: "Alternate Current"
 			rewards: []
 			tasks: [{ id: "4D4EF93C5B294CE8", type: "checkmark" }]
-			x: 3.99d
-			y: 3.13d
+			x: 1.50d
+			y: 3.00d
 		}
 		{
-			dependencies: ["53F526BF615D9969"]
 			description: ["&6Was ist das?", "Behebt einen Fehler, bei dem Grafikspeicher nach und nach vollläuft.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Das Spiel bleibt auch nach Stunden flüssig."]
+			dependencies: ["5B0E5B7C2A71B442"]
 			id: "40EEAE9EFEC70F13"
 			title: "GPU Memory Leak Fix"
 			rewards: []
 			tasks: [{ id: "7707D472CB02053C", type: "checkmark" }]
-			x: 2.39d
-			y: 3.90d
+			x: 1.50d
+			y: 4.50d
 		}
 		{
-			dependencies: ["69BBD14066EFB46A"]
 			description: ["&6Was ist das?", "Lädt Shader, also schönere Beleuchtung, Schatten und Wasser.", "", "&6So gehts", "Optionen, Videoeinstellungen, Shader-Packs. Im Pack ist Complementary Reimagined auf niedriger Stufe eingestellt.", "", "&6Wofür ist das wichtig?", "Das Spiel sieht besser aus. Bei wenig FPS kannst du die Shader dort abschalten."]
 			hide_dependency_lines: true
+			dependencies: ["44F1BB3885DB22CF"]
 			id: "0192F6E1E3E2EBD4"
 			title: "Iris Shaders"
 			rewards: []
 			tasks: [{ id: "517C186912A9B2FC", type: "checkmark" }]
-			x: 10.50d
-			y: -1.50d
+			x: 9.00d
+			y: 0.00d
 		}
 		{
-			dependencies: ["0192F6E1E3E2EBD4"]
 			description: ["&6Was ist das?", "Zeigt ferne Landschaft weit über die normale Sichtweite hinaus, als einfache Blöcke.", "", "&6So gehts", "Läuft von selbst. Einstellungen im Menü von Distant Horizons.", "", "&6Wofür ist das wichtig?", "Berge und Wälder sind schon von weitem zu sehen."]
+			dependencies: ["0192F6E1E3E2EBD4"]
 			id: "660A28B7AFC5F2AC"
 			title: "Distant Horizons"
 			rewards: []
 			tasks: [{ id: "2A9E3E0E6693E314", type: "checkmark" }]
-			x: 12.00d
+			x: 9.00d
 			y: -1.50d
 		}
 		{
-			dependencies: ["69BBD14066EFB46A"]
 			description: ["&6Was ist das?", "Erhöht die Grenzen für Datenpakete, damit große Pakete keine Verbindungsabbrüche verursachen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Stabiles Spielen zu mehreren, auch mit vielen Mods."]
+			dependencies: ["53F526BF615D9969"]
 			id: "74C7510450F2F014"
 			title: "Packet Fixer"
 			rewards: []
 			tasks: [{ id: "6E661796D3BDC072", type: "checkmark" }]
-			x: 1.50d
-			y: 6.00d
+			x: 3.00d
+			y: 0.00d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Behebt Fehler bei Nether-Portalen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Portale führen dich zuverlässig dorthin, wo du hinwillst."]
+			dependencies: ["74C7510450F2F014"]
 			id: "02B022E2DD0C9E6C"
 			title: "Netherportal Fix"
 			rewards: []
 			tasks: [{ id: "5FCA53DFC5A48965", type: "checkmark" }]
 			x: 3.00d
-			y: 6.00d
+			y: -1.50d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Behebt einen Fehler bei zufälligen Verzauberungen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Der Verzauberungstisch verhält sich wie erwartet."]
+			dependencies: ["02B022E2DD0C9E6C"]
 			id: "3686965675143436"
 			title: "Random Enchant Fix"
 			rewards: []
 			tasks: [{ id: "6AAE35744DA6493C", type: "checkmark" }]
-			x: -2.50d
-			y: 6.00d
+			x: 3.00d
+			y: -3.00d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Behebt Darstellungsfehler bei schneebedeckten Blöcken.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Schnee sieht in verschneiten Gebieten richtig aus."]
+			dependencies: ["3686965675143436"]
 			id: "70BD231D5E00E184"
 			title: "Simple Snowy Fix"
 			rewards: []
 			tasks: [{ id: "7D9FC560F170B520", type: "checkmark" }]
-			x: -2.10d
-			y: 4.26d
+			x: 3.00d
+			y: -4.50d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Behebt Fehler in der Kampf-KI von Skeletten.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Skelette verhalten sich so, wie es vorgesehen ist."]
+			dependencies: ["70BD231D5E00E184"]
 			id: "3FFDA6072F1625A3"
 			title: "Skeleton AI Fix"
 			rewards: []
 			tasks: [{ id: "3A05511F37B65B60", type: "checkmark" }]
-			x: -0.99d
-			y: 2.87d
+			x: 3.00d
+			y: -6.00d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Behebt Fehler beim Spawnen von Eisengolems.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Golems entstehen in Dörfern wie vorgesehen."]
+			dependencies: ["74C7510450F2F014"]
 			id: "7BE7A52615BEDDD4"
 			title: "Golem Spawn Fix"
 			rewards: []
 			tasks: [{ id: "4F28B8BCF8CCD037", type: "checkmark" }]
-			x: 3.99d
-			y: 9.13d
+			x: 3.00d
+			y: 1.50d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Verhindert, dass Chat-Nachrichten signiert und gemeldet werden können.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Du schreibst im Chat, ohne dass Nachrichten an Mojang gebunden werden."]
+			dependencies: ["7BE7A52615BEDDD4"]
 			id: "4AE30BFEE8A97205"
 			title: "No Chat Reports"
 			rewards: []
 			tasks: [{ id: "0F8914F64046CD03", type: "checkmark" }]
-			x: 2.39d
-			y: 9.90d
+			x: 3.00d
+			y: 3.00d
 		}
 		{
-			dependencies: ["74C7510450F2F014"]
 			description: ["&6Was ist das?", "Zeigt nach einem Absturz ein Fenster mit Hilfe zum Fehler.", "", "&6So gehts", "Erscheint nur, wenn das Spiel abstürzt.", "", "&6Wofür ist das wichtig?", "Du kannst das Protokoll leichter weitergeben und den Fehler suchen."]
+			dependencies: ["4AE30BFEE8A97205"]
 			id: "6AA5F36677E9C3D2"
 			title: "Crash Assistant"
 			rewards: []
 			tasks: [{ id: "4788A5B805B37421", type: "checkmark" }]
-			x: 0.61d
-			y: 9.90d
+			x: 3.00d
+			y: 4.50d
 		}
 		{
-			dependencies: ["69BBD14066EFB46A"]
 			description: ["&6Was ist das?", "Ein Werkzeug, das misst, was das Spiel bremst.", "", "&6So gehts", "Mit dem Befehl /spark profiler startest du eine Messung.", "", "&6Wofür ist das wichtig?", "Hilft zu finden, welche Mod oder welcher Block Lag verursacht."]
 			hide_dependency_lines: true
+			dependencies: ["710D3269A8CE4940"]
 			id: "44F1BB3885DB22CF"
 			title: "Spark"
 			rewards: []
 			tasks: [{ id: "4A4B01B72CC073C5", type: "checkmark" }]
-			x: 9.00d
-			y: 1.50d
+			x: 7.50d
+			y: 0.00d
 		}
 		{
-			dependencies: ["44F1BB3885DB22CF"]
 			description: ["&6Was ist das?", "Zeigt bei einem Absturz, welche Mods daran beteiligt waren.", "", "&6So gehts", "Wirkt nur im Fehlerfall, im Absturzbericht.", "", "&6Wofür ist das wichtig?", "Man findet den Verursacher schneller."]
+			dependencies: ["44F1BB3885DB22CF"]
 			id: "4F4560626D42DA96"
 			title: "MixinTrace"
 			rewards: []
 			tasks: [{ id: "30B4A01988F1A390", type: "checkmark" }]
-			x: 10.50d
-			y: 1.50d
-		}
-		{
-			dependencies: ["44F1BB3885DB22CF"]
-			description: ["&6Was ist das?", "Fängt Fehler in einzelnen Blöcken oder Mobs ab, statt dass das ganze Spiel abstürzt.", "", "&6So gehts", "Läuft von selbst. Bei einem Fehler erscheint eine Meldung im Chat.", "", "&6Wofür ist das wichtig?", "Ein kaputter Block bringt nicht die ganze Welt zum Absturz."]
-			id: "4649AC916E6EC3CD"
-			title: "Neruina"
-			rewards: []
-			tasks: [{ id: "7C709732B5CC2DA9", type: "checkmark" }]
-			x: 10.50d
-			y: 3.00d
-		}
-		{
-			dependencies: ["69BBD14066EFB46A"]
-			description: ["&6Was ist das?", "Erlaubt es, Mods für das Fabric-System im NeoForge-Spiel zu benutzen. Fabric API gehört dazu.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Dadurch sind mehr Mods im Pack möglich."]
-			hide_dependency_lines: true
-			id: "710D3269A8CE4940"
-			title: "Sinytra Connector"
-			rewards: []
-			tasks: [{ id: "458F1F694D889DD1", type: "checkmark" }]
 			x: 7.50d
 			y: -1.50d
 		}
 		{
-			dependencies: ["710D3269A8CE4940"]
+			description: ["&6Was ist das?", "Fängt Fehler in einzelnen Blöcken oder Mobs ab, statt dass das ganze Spiel abstürzt.", "", "&6So gehts", "Läuft von selbst. Bei einem Fehler erscheint eine Meldung im Chat.", "", "&6Wofür ist das wichtig?", "Ein kaputter Block bringt nicht die ganze Welt zum Absturz."]
+			dependencies: ["44F1BB3885DB22CF"]
+			id: "4649AC916E6EC3CD"
+			title: "Neruina"
+			rewards: []
+			tasks: [{ id: "7C709732B5CC2DA9", type: "checkmark" }]
+			x: 7.50d
+			y: 1.50d
+		}
+		{
+			description: ["&6Was ist das?", "Erlaubt es, Mods für das Fabric-System im NeoForge-Spiel zu benutzen. Fabric API gehört dazu.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Dadurch sind mehr Mods im Pack möglich."]
+			hide_dependency_lines: true
+			dependencies: ["3CCC3AE355EF921E"]
+			id: "710D3269A8CE4940"
+			title: "Sinytra Connector"
+			rewards: []
+			tasks: [{ id: "458F1F694D889DD1", type: "checkmark" }]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
 			description: ["&6Was ist das?", "Lädt Datenpakete und Ressourcenpakete des Packs automatisch.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Zeitalter, Regeln und Weltgenerierung des Packs werden so aktiv."]
+			dependencies: ["710D3269A8CE4940"]
 			id: "6C1ECE615FFBA229"
 			title: "Paxi"
 			rewards: []
 			tasks: [{ id: "14C1BE58DE7B04FD", type: "checkmark" }]
-			x: 9.00d
+			x: 6.00d
 			y: -1.50d
 		}
 		{
-			dependencies: ["710D3269A8CE4940"]
 			description: ["&6Was ist das?", "Setzt beim ersten Start sinnvolle Standard-Einstellungen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Deine eigenen Einstellungen bleiben danach erhalten."]
+			dependencies: ["6C1ECE615FFBA229"]
 			id: "0A0072113B6402A1"
 			title: "Configured Defaults"
 			rewards: []
 			tasks: [{ id: "188871568322D793", type: "checkmark" }]
-			x: 9.00d
+			x: 6.00d
 			y: -3.00d
 		}
 		{
-			dependencies: ["710D3269A8CE4940"]
 			description: ["&6Was ist das?", "Hilfsmod für die Weltgenerierung, damit Strukturen und Biome zusammenpassen.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Biome und Bauwerke vieler Mods liegen sauber nebeneinander."]
+			dependencies: ["710D3269A8CE4940"]
 			id: "59153B3AE05A9390"
 			title: "Lithostitched"
 			rewards: []
 			tasks: [{ id: "13EC7D0C5FC2F169", type: "checkmark" }]
-			x: 9.00d
-			y: -6.00d
+			x: 6.00d
+			y: 1.50d
 		}
 		{
-			dependencies: ["710D3269A8CE4940"]
 			description: ["&6Was ist das?", "Hilfsmod, das Biome vieler Mods gemeinsam in einer Welt verteilt.", "", "&6So gehts", "Läuft von selbst.", "", "&6Wofür ist das wichtig?", "Biome aus verschiedenen Mods mischen sich in einer Welt."]
+			dependencies: ["59153B3AE05A9390"]
 			id: "0D8CFCB210660C7E"
 			title: "TerraBlender"
 			rewards: []
 			tasks: [{ id: "61DAA0A40C71F0A6", type: "checkmark" }]
-			x: 9.00d
-			y: -10.50d
+			x: 6.00d
+			y: 3.00d
 		}
 	]
 }

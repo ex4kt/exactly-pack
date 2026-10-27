@@ -9,8 +9,8 @@
 	title: "&bIII. Diamant-Zeitalter"
 	quests: [
 		{
-			dependencies: ["35D9C17C3DF9768D"]
 			description: ["&6Was ist das?", "Diamant ist lange das Ziel. Stelle eine Spitzhacke aus Diamant her.", "", "&6So gehts", "Diamanten tief unten finden, am besten um Ebene minus 58.", "Für Diamantwerkzeug brauchst du das passende Eisenwerkzeug: Es kommt im Rezept an die Stelle des oberen Stocks.", "", "&6Wofür ist das wichtig?", "Diamantwerkzeug baut Obsidian ab. Damit kommst du in den Nether."]
+			dependencies: ["35D9C17C3DF9768D"]
 			id: "63064054BBFD8FB1"
 			title: "Diamant-Ausrüstung"
 			rewards: [{ id: "04CF41EB62772C30", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -19,9 +19,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Das Hauptschwert der Diamantzeit.", "", "&6So gehts", "Zwei Diamanten, darunter das Eisenschwert statt des Stocks.", "", "&6Wofür ist das wichtig?", "Pflicht für den Aufstieg. Grundlage aller Diamant-Spezialwaffen."]
 			icon: { id: "minecraft:diamond_sword" }
+			dependencies: ["63064054BBFD8FB1"]
 			id: "31E652570EB0BD57"
 			title: "Diamantschwert"
 			rewards: [{ id: "1C17CABACDF8F913", type: "xp_levels", xp_levels: 2 }]
@@ -30,9 +30,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Starke Rüstung aus Diamant.", "", "&6So gehts", "Wie Eisenrüstung, nur mit Diamanten.", "", "&6Wofür ist das wichtig?", "Pflicht für den Nether und die ersten Bosse."]
 			icon: { id: "minecraft:diamond_chestplate" }
+			dependencies: ["31E652570EB0BD57"]
 			id: "69BF8973F8D01A34"
 			title: "Diamantrüstung"
 			rewards: [{ id: "74F8084D4491A135", type: "xp_levels", xp_levels: 2 }]
@@ -41,8 +41,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Mit dem Schmiedetisch verbesserst du Ausrüstung mit Rüstungsdesign und Netherit.", "", "&6So gehts", "Vorlage, Ausrüstung und Material einlegen.", "", "&6Wofür ist das wichtig?", "Aus Diamant wird hier Netherit, Advanced Netherite und viele Mod-Rüstungen werden hier verbessert."]
+			dependencies: ["69BF8973F8D01A34"]
 			id: "2DEDA3D57FB89524"
 			title: "Schmiedetisch"
 			rewards: [{ id: "5BF54DFA91207BCE", type: "xp_levels", xp_levels: 2 }]
@@ -51,8 +51,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Der Diamant-Rucksack ist riesig und hat viele Upgrade-Plätze.", "", "&6So gehts", "Gold-Rucksack mit Diamanten aufwerten.", "", "&6Wofür ist das wichtig?", "Viele Plätze und Upgrade-Slots für lange Reisen."]
+			dependencies: ["69BF8973F8D01A34"]
 			id: "797F4B8218472B01"
 			title: "Diamant-Rucksack"
 			rewards: [{ id: "5D4AAFCD0EDD8F2A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -61,8 +61,8 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["797F4B8218472B01"]
 			description: ["&6Was ist das?", "Die Magnum-Fackel hält Monster in einem großen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Nähe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept in JEI).", "Stelle sie mitten in deine Basis.", "", "&6Wofür ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
+			dependencies: ["797F4B8218472B01"]
 			id: "2B4C71F6BF32A230"
 			title: "Monsterfreie Zone"
 			rewards: [{ id: "19E97F71F8105A8A", type: "item", item: { id: "minecraft:torch", count: 16 } }]
@@ -71,10 +71,10 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
 			icon: { id: "justhammers:diamond_hammer" }
 			hide_dependency_lines: true
+			dependencies: ["63064054BBFD8FB1"]
 			id: "598824065CC1F63B"
 			title: "Diamanthammer"
 			rewards: [{ id: "50BB36B4CF8ECDFF", type: "xp_levels", xp_levels: 2 }]
@@ -83,9 +83,9 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["598824065CC1F63B"]
 			description: ["&6Was ist das?", "Eine verstärkte Spitzhacke aus Minecraft Dungeons.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Haltbarkeit für lange Bergbau-Touren."]
 			icon: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe" }
+			dependencies: ["598824065CC1F63B"]
 			id: "3001D0B57ED05F99"
 			title: "Verstärkte Diamant-Spitzhacke"
 			rewards: [{ id: "66CC5C6021171209", type: "xp_levels", xp_levels: 2 }]
@@ -94,8 +94,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Schritt 1: Baue einen Verzauberungstisch.", "Schritt 2: Lege Werkzeug und Lapislazuli hinein.", "Mit Easy Magic bleiben die Items nach dem Schließen drin.", "", "&6So gehts", "Diamanten, Obsidian und ein Buch.", "Bis zu 15 Bücherregale im Abstand von einem Block darum herum machen die Verzauberungen stärker.", "Lapis und Erfahrung zahlen.", "", "&6Wofür ist das wichtig?", "Effizienz, Glück und Haltbarkeit machen dich viel schneller und sparen Material.", "", "&6Gut zu wissen", "Mit 15 Bücherregalen im Abstand von einem Block rund um den Tisch erreichst du die höchste Verzauberungsstufe (30). Lapislazuli ist der Preis jeder Verzauberung."]
+			dependencies: ["2DEDA3D57FB89524"]
 			id: "2502CCD91E41AFC0"
 			title: "Der Verzauberungstisch"
 			rewards: [{ id: "69B8EA263F9CBAB4", type: "item", item: { id: "minecraft:lapis_lazuli", count: 16 } }]
@@ -104,9 +104,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Apothic Enchanting ersetzt das normale Verzaubern.", "Jedes Bücherregal hat Werte: Eterna (Stärke), Quanta (Zufall) und Arcana (Seltenheit).", "", "&6So gehts", "Stelle verschiedene Bücherregale um den Verzauberungstisch. Fahre mit der Maus über den Tisch, um die Werte zu sehen.", "Bessere Regale (z.B. aus Nether- oder End-Material) bringen höhere Stufen.", "JEI zeigt alle besonderen Regale und Rezepte.", "", "&6Wofür ist das wichtig?", "Mit guten Regalen bekommst du Verzauberungen über der normalen Höchststufe. Das macht Werkzeuge und Rüstung für die Bosse stark."]
 			icon: { id: "minecraft:enchanted_book" }
+			dependencies: ["2502CCD91E41AFC0"]
 			id: "1DB3F417D7AE0137"
 			title: "Apothic Enchanting"
 			rewards: [{ id: "59E9963E549C5FF8", type: "xp_levels", xp_levels: 5 }]
@@ -115,8 +115,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["1DB3F417D7AE0137"]
 			description: ["&6Was ist das?", "Mit Easy Disenchanting überträgst du Verzauberungen auf Bücher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofür ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
+			dependencies: ["1DB3F417D7AE0137"]
 			id: "79245A87CC32FE72"
 			title: "Verzauberung übertragen"
 			rewards: [{ id: "6016C3A2CE568AF9", type: "xp_levels", xp_levels: 3 }]
@@ -125,8 +125,8 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["79245A87CC32FE72"]
 			description: ["&6Was ist das?", "Der XP Tome speichert Erfahrung in einem Buch.", "Rechtsklick füllt oder leert es.", "", "&6So gehts", "Rechtsklick füllt, Shift-Rechtsklick holt sie zurück.", "", "&6Wofür ist das wichtig?", "Beim Tod verlierst du gespeicherte Erfahrung nicht. Spare für große Verzauberungen."]
+			dependencies: ["79245A87CC32FE72"]
 			id: "0FD6302A9ABCCF31"
 			title: "XP speichern"
 			rewards: [{ id: "03686DE193C50947", type: "xp_levels", xp_levels: 2 }]
@@ -135,9 +135,9 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["0FD6302A9ABCCF31"]
 			description: ["&6Was ist das?", "Mit der Verzauberung Veinminer baust du ganze Erzadern auf einmal ab.", "", "&6So gehts", "Das Buch bekommst du nicht geschenkt. Du findest es am Verzauberungstisch (hohes Level), beim Bibliothekar im Dorf oder in Beutetruhen.", "Lege Spitzhacke und Buch in den Amboss. Halte beim Abbauen die Veinminer-Taste (Standard: Tilde/Grad) gedrückt, dann folgt die ganze Ader.", "", "&6Wofür ist das wichtig?", "Spart viel Zeit beim Erzabbau. Bestätige die Quest, sobald du das Buch selbst besorgt hast."]
 			icon: { id: "minecraft:enchanted_book" }
+			dependencies: ["0FD6302A9ABCCF31"]
 			id: "37407FF743621E7E"
 			title: "Veinminer-Verzauberung"
 			rewards: [{ id: "05CA28B6C57B677E", type: "xp_levels", xp_levels: 3 }]
@@ -146,8 +146,8 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["37407FF743621E7E"]
 			description: ["&6Was ist das?", "Die Verzauberung Glück bringt mehr Items aus Erzen.", "Verzaubere deine Spitzhacke damit, bevor du Diamanten abbaust.", "", "&6So gehts", "Auf die Spitzhacke verzaubern.", "", "&6Wofür ist das wichtig?", "Bis zu viermal so viele Diamanten. Für Eisen und Gold lieber die Create-Zerkleinerung nutzen."]
+			dependencies: ["37407FF743621E7E"]
 			id: "08E13C4778BBECAD"
 			title: "Glück (Fortune)"
 			rewards: [{ id: "4DD145F7248AA806", type: "item", item: { id: "minecraft:lapis_lazuli", count: 8 } }]
@@ -156,8 +156,8 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["08E13C4778BBECAD"]
 			description: ["&6Was ist das?", "Mit Seidenberührung bekommst du Blöcke selbst statt ihrer Drops, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofür ist das wichtig?", "Für Glas, Eis, Bienennester und Erzblöcke zum späteren Glück-Abbau."]
+			dependencies: ["08E13C4778BBECAD"]
 			id: "188BE6C057D774EB"
 			title: "Seidenberührung"
 			rewards: [{ id: "7503D49029A10950", type: "xp_levels", xp_levels: 3 }]
@@ -166,8 +166,8 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["188BE6C057D774EB"]
 			description: ["&6Was ist das?", "Mit der Verzauberung Reparatur (Mending) reparieren sich Werkzeuge durch Erfahrung. Du bekommst sie von Bibliothekaren oder aus Truhen.", "", "&6So gehts", "Mit Reparatur (Mending) verzaubern, dann repariert Erfahrung das Item.", "Oder im Amboss mit Material reparieren.", "", "&6Wofür ist das wichtig?", "Gute Werkzeuge musst du dann nie mehr neu machen."]
+			dependencies: ["188BE6C057D774EB"]
 			id: "2CB401D63D9F4388"
 			title: "Reparieren"
 			rewards: [{ id: "782AFEB88FB49A62", type: "xp_levels", xp_levels: 4 }]
@@ -176,9 +176,9 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Bücherregale machen den Verzauberungstisch stärker.", "", "&6So gehts", "Bretter und Bücher. Bücher aus Papier und Leder.", "", "&6Wofür ist das wichtig?", "Mit Apothic Enchanting gibt es viele besondere Regale."]
 			icon: { id: "minecraft:bookshelf" }
+			dependencies: ["2502CCD91E41AFC0"]
 			id: "04B61412DE38FA60"
 			title: "Bücherregale"
 			rewards: [{ id: "039AFD1CA1DEA8D1", type: "xp_levels", xp_levels: 2 }]
@@ -187,9 +187,9 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["04B61412DE38FA60"]
 			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofür ist das wichtig?", "Jedes Regal verändert die Werte am Tisch anders."]
 			icon: { id: "apothic_enchanting:beeshelf" }
+			dependencies: ["04B61412DE38FA60"]
 			id: "0A60B7540735FCD4"
 			title: "Regal-Vielfalt"
 			rewards: [{ id: "0C61EBD1DCD25736", type: "xp_levels", xp_levels: 2 }]
@@ -198,9 +198,9 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["0A60B7540735FCD4"]
 			description: ["&6Was ist das?", "Die Bibliothek speichert unendlich viele Verzauberungsbücher.", "", "&6So gehts", "Rezept in JEI. Bücher hineinlegen, einzelne Verzauberungen wieder herausnehmen.", "", "&6Wofür ist das wichtig?", "Ordnung für alle Bücher und gezieltes Verzaubern."]
 			icon: { id: "apothic_enchanting:library" }
+			dependencies: ["0A60B7540735FCD4"]
 			id: "2ED40011201DDCD2"
 			title: "Bibliothek"
 			rewards: [{ id: "66F67521F9C0C6AF", type: "xp_levels", xp_levels: 2 }]
@@ -209,9 +209,9 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["2ED40011201DDCD2"]
 			description: ["&6Was ist das?", "Mit dem Schrott-Buch rettest du Verzauberungen von alten Items.", "", "&6So gehts", "Im Amboss mit einem verzauberten Item kombinieren.", "", "&6Wofür ist das wichtig?", "Gute Verzauberungen gehen nie mehr verloren."]
 			icon: { id: "apothic_enchanting:scrap_tome" }
+			dependencies: ["2ED40011201DDCD2"]
 			id: "0103A684D1C7A7B0"
 			title: "Schrott-Buch"
 			rewards: [{ id: "1F4727007DAA87C5", type: "xp_levels", xp_levels: 2 }]
@@ -220,8 +220,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["1DB3F417D7AE0137"]
 			description: ["&6Was ist das?", "Obsidian brauchst du für Portale und Verzauberungstische. Baue ihn mit Diamant-Spitzhacke ab.", "", "&6So gehts", "Mit Diamantspitzhacke abbauen.", "", "&6Wofür ist das wichtig?", "Zehn Obsidian ergeben ein Nether-Portal. Auch für Verzauberungstisch und Enderkisten.", "", "&6Gut zu wissen", "Obsidian entsteht, wenn Wasser auf Lava trifft. Ein Nether-Portal braucht mindestens 10 Blöcke Obsidian (ein Rahmen von 4x5 ohne Ecken)."]
+			dependencies: ["1DB3F417D7AE0137"]
 			id: "1512FC1565ADD973"
 			title: "Obsidian"
 			rewards: [{ id: "0F084224ABF2B814", type: "xp_levels", xp_levels: 3 }]
@@ -230,8 +230,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Der Warden ist blind, hört aber jedes Geräusch. Er ist stärker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Städte). Schleiche und wirf Schneebälle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausrüstung und Heiltränken.", "", "&6Wofür ist das wichtig?", "Antike Städte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Rüstungsdesigns."]
+			dependencies: ["1512FC1565ADD973"]
 			id: "150D1F4AD2F8211C"
 			title: "Der Wächter der Tiefe"
 			rewards: [{ id: "6126F822FCD62ACF", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
@@ -240,8 +240,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["150D1F4AD2F8211C"]
 			description: ["&6Was ist das?", "Im Woodland Mansion lauern Illager und Beute. Du brauchst Totem und Ausrüstung.", "", "&6So gehts", "Mit dem Natures Compass oder einer Forscherkarte vom Kartografen finden.", "Magier (Evoker) lassen den Totem der Unsterblichkeit fallen.", "", "&6Wofür ist das wichtig?", "Der Totem rettet dich einmal vor dem Tod. Halte ihn in der zweiten Hand bei jedem Bosskampf."]
+			dependencies: ["150D1F4AD2F8211C"]
 			id: "671BE8F3FAC5BA64"
 			title: "Das Waldanwesen"
 			rewards: [{ id: "63F207EFFC388F04", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
@@ -250,8 +250,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["671BE8F3FAC5BA64"]
 			description: ["&6Was ist das?", "Illager Invasion bringt den Invoker, einen sehr starken Illager-Magier.", "", "&6So gehts", "Er erscheint in Überfällen und eigenen Bauten. Halte Abstand von seinen Zaubern und greife zwischen den Zaubern an.", "", "&6Wofür ist das wichtig?", "Gute Beute und Training für die großen Bosse."]
+			dependencies: ["671BE8F3FAC5BA64"]
 			id: "5678565198FD7665"
 			title: "Der Illager-Magier"
 			rewards: [{ id: "5D0184279585879A", type: "xp_levels", xp_levels: 8 }]
@@ -260,9 +260,9 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["5678565198FD7665"]
 			description: ["&6Was ist das?", "Raided: neue Raid-Gegner wie Necromancer, Incinerator und Inquisitor.", "", "&6So gehts", "Bei einem Raid oder Außenposten besiegen.", "", "&6Wofür ist das wichtig?", "Starke Gegner mit guter Beute."]
 			icon: { id: "raided:necromancer_spawn_egg" }
+			dependencies: ["5678565198FD7665"]
 			id: "57EA3BA48156F517"
 			title: "Raid-Magier"
 			rewards: [{ id: "4C5F7E552C112717", type: "xp_levels", xp_levels: 4 }]
@@ -271,9 +271,9 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["5678565198FD7665"]
 			description: ["&6Was ist das?", "Illager Invasion: Platin aus Illager-Burgen.", "", "&6So gehts", "Platinbrocken finden und verarbeiten.", "", "&6Wofür ist das wichtig?", "Für den Verzauberungs-Tisch der Illager."]
 			icon: { id: "illagerinvasion:platinum_sheet" }
+			dependencies: ["5678565198FD7665"]
 			id: "000C90CEB11DB7E0"
 			title: "Platin"
 			rewards: [{ id: "006BBCB5B75D46F5", type: "xp_levels", xp_levels: 2 }]
@@ -282,9 +282,9 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["000C90CEB11DB7E0"]
 			description: ["&6Was ist das?", "Illager Invasion: Der Tisch erhöht Verzauberungen über die normale Grenze.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Noch stärkere Ausrüstung."]
 			icon: { id: "illagerinvasion:imbuing_table" }
+			dependencies: ["000C90CEB11DB7E0"]
 			id: "298030CF36D333B8"
 			title: "Verstärkungstisch"
 			rewards: [{ id: "6E37824A61358204", type: "xp_levels", xp_levels: 2 }]
@@ -293,9 +293,9 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["2DEDA3D57FB89524"]
 			description: ["&6Was ist das?", "Prüfungskammern sind unterirdische Kampfräume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner für Schlüssel.", "", "&6Wofür ist das wichtig?", "Mit Schlüsseln öffnest du Tresore voller Beute."]
 			icon: { id: "minecraft:trial_key" }
+			dependencies: ["2DEDA3D57FB89524"]
 			id: "56EB4F04FE6703CA"
 			title: "Prüfungskammern"
 			rewards: [{ id: "6D4958C4A15B4EC8", type: "xp_levels", xp_levels: 2 }]
@@ -304,9 +304,9 @@
 			y: 6.00d
 		}
 		{
-			dependencies: ["56EB4F04FE6703CA"]
 			description: ["&6Was ist das?", "Der Breeze ist ein Windwesen aus den Prüfungskammern.", "", "&6So gehts", "Besiege Breezes. Weiche ihren Windstößen aus.", "", "&6Wofür ist das wichtig?", "Für Windladungen und den Streitkolben."]
 			icon: { id: "minecraft:breeze_rod" }
+			dependencies: ["56EB4F04FE6703CA"]
 			id: "42F98F559D0D3AAB"
 			title: "Breeze-Rute"
 			rewards: [{ id: "07EBC892038A3F7E", type: "xp_levels", xp_levels: 2 }]
@@ -315,9 +315,9 @@
 			y: 6.00d
 		}
 		{
-			dependencies: ["42F98F559D0D3AAB"]
 			description: ["&6Was ist das?", "Der Streitkolben macht mehr Schaden, je tiefer du fällst.", "", "&6So gehts", "Schwerer Kern aus einem Tresor und eine Breeze-Rute.", "", "&6Wofür ist das wichtig?", "Mit Windladung hochspringen und zuschlagen."]
 			icon: { id: "minecraft:mace" }
+			dependencies: ["42F98F559D0D3AAB"]
 			id: "4D07825894473270"
 			title: "Streitkolben"
 			rewards: [{ id: "079AC59197144581", type: "xp_levels", xp_levels: 2 }]
@@ -326,9 +326,9 @@
 			y: 6.00d
 		}
 		{
-			dependencies: ["4D07825894473270"]
 			description: ["&6Was ist das?", "Echo-Splitter liegen in Antiken Städten.", "", "&6So gehts", "Leise schleichen und Truhen plündern.", "", "&6Wofür ist das wichtig?", "Für den Bergungskompass, der zu deinem Tod zeigt."]
 			icon: { id: "minecraft:echo_shard" }
+			dependencies: ["4D07825894473270"]
 			id: "77494855C8A929F6"
 			title: "Echo-Splitter"
 			rewards: [{ id: "202FD86182863C7D", type: "xp_levels", xp_levels: 2 }]
@@ -337,8 +337,8 @@
 			y: 6.00d
 		}
 		{
-			dependencies: ["150D1F4AD2F8211C"]
 			description: ["&6Was ist das?", "Mowzies Mobs bringt kraftvolle Gegner und Waffen, zum Beispiel den Frostmaw im Schnee.", "", "&6So gehts", "In der Welt suchen.", "", "&6Wofür ist das wichtig?", "Einzigartige Beute."]
+			dependencies: ["150D1F4AD2F8211C"]
 			id: "3749C4A14CCFBD1A"
 			title: "Mowzies Mobs"
 			rewards: [{ id: "33456B4702982F82", type: "xp_levels", xp_levels: 3 }]
@@ -347,8 +347,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["3749C4A14CCFBD1A"]
 			description: ["&6Was ist das?", "Die Frostmaw lebt in eisigen Höhlen. Besiege sie und nimm den Eiskristall.", "", "&6So gehts", "In Schneebiomen.", "", "&6Wofür ist das wichtig?", "Eis-Kristall."]
+			dependencies: ["3749C4A14CCFBD1A"]
 			id: "0B8CCEB9DB0BE858"
 			title: "Die Frostmaw"
 			rewards: [{ id: "43F345F1AAD570A9", type: "xp_levels", xp_levels: 10 }]
@@ -357,8 +357,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["0B8CCEB9DB0BE858"]
 			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut bewacht Festungen. Er hat harte Hiebe.", "", "&6So gehts", "In Höhlen.", "", "&6Wofür ist das wichtig?", "Starke Axt."]
+			dependencies: ["0B8CCEB9DB0BE858"]
 			id: "1369046F14D5434E"
 			title: "Der Eisenschmetterer"
 			rewards: [{ id: "4B737ADC349C885C", type: "xp_levels", xp_levels: 8 }]
@@ -367,8 +367,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["1369046F14D5434E"]
 			description: ["&6Was ist das?", "Umvuthi ist der Boss der Sonnenstämme. Du brauchst starke Ausrüstung.", "", "&6So gehts", "In Savannen.", "", "&6Wofür ist das wichtig?", "Sonnenmaske."]
+			dependencies: ["1369046F14D5434E"]
 			id: "4580E8D9C3F5A821"
 			title: "Der Sonnenhäuptling"
 			rewards: [{ id: "5629662047E90E8D", type: "xp_levels", xp_levels: 12 }]
@@ -377,8 +377,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["4580E8D9C3F5A821"]
 			description: ["&6Was ist das?", "Der Sculptor ist ein Boss in einem hohen Turm.", "", "&6So gehts", "In Bergen.", "", "&6Wofür ist das wichtig?", "Bildhauer-Stab."]
+			dependencies: ["4580E8D9C3F5A821"]
 			id: "2F0C741B8BE7C505"
 			title: "Der Bildhauer"
 			rewards: [{ id: "1C38C48823B3E1BE", type: "xp_levels", xp_levels: 12 }]
@@ -387,8 +387,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["3749C4A14CCFBD1A"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Der Earthrend Gauntlet zieht dich an Gegner heran.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Erdmagie."]
+			dependencies: ["3749C4A14CCFBD1A"]
 			id: "746765CD8906AF2D"
 			title: "Erdbrecher-Handschuh"
 			rewards: [{ id: "5872A977677D74E1", type: "xp_levels", xp_levels: 5 }]
@@ -397,8 +397,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["746765CD8906AF2D"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Die Sol Visage vom Umvuthi schießt Sonnenstrahlen.", "", "&6So gehts", "Vom Boss.", "", "&6Wofür ist das wichtig?", "Sonnenkraft."]
+			dependencies: ["746765CD8906AF2D"]
 			id: "682527776DB20343"
 			title: "Sonnen-Maske"
 			rewards: [{ id: "59C7C0950595CE07", type: "xp_levels", xp_levels: 6 }]
@@ -407,8 +407,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["682527776DB20343"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Der Stab des Bildhauers formt Steinsäulen.", "", "&6So gehts", "Vom Bildhauer.", "", "&6Wofür ist das wichtig?", "Felsmagie."]
+			dependencies: ["682527776DB20343"]
 			id: "12F17AD8F6A0FF6B"
 			title: "Bildhauer-Stab"
 			rewards: [{ id: "08802EF5C9E3CC1D", type: "xp_levels", xp_levels: 5 }]
@@ -417,8 +417,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["12F17AD8F6A0FF6B"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Rüstung des Geomanten.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Erdmagie."]
+			dependencies: ["12F17AD8F6A0FF6B"]
 			id: "70708B1B525BDA37"
 			title: "Geomanten-Robe"
 			rewards: [{ id: "727831C5BB7F9407", type: "xp_levels", xp_levels: 4 }]
@@ -427,8 +427,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["70708B1B525BDA37"]
 			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschießt Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Gift-Pfeile."]
+			dependencies: ["70708B1B525BDA37"]
 			id: "0CBF80C3F9C3353A"
 			title: "Blasrohr"
 			rewards: [{ id: "5B36875581E561FD", type: "xp_levels", xp_levels: 3 }]
@@ -437,9 +437,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "2033B010211045B7"
 			title: "Diamant-Langschwert"
 			rewards: [{ id: "5177F28B73ED22EA", type: "xp_levels", xp_levels: 2 }]
@@ -448,9 +448,9 @@
 			y: -3.13d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "3C16417455BF901B"
 			title: "Diamant-Breitschwert"
 			rewards: [{ id: "4312EB6EA8DE09D2", type: "xp_levels", xp_levels: 2 }]
@@ -459,9 +459,9 @@
 			y: -3.90d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "0950AD20BDAA2B45"
 			title: "Diamant-Großschwert"
 			rewards: [{ id: "0019A06A53CBD543", type: "xp_levels", xp_levels: 2 }]
@@ -470,9 +470,9 @@
 			y: -3.90d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "5C364D9ACC48B4FA"
 			title: "Diamant-Katana"
 			rewards: [{ id: "3EC9EDA90ACB0159", type: "xp_levels", xp_levels: 2 }]
@@ -481,9 +481,9 @@
 			y: 3.90d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "0F16990376D1A846"
 			title: "Diamant-Kampfaxt"
 			rewards: [{ id: "4853973F514BF5A6", type: "xp_levels", xp_levels: 2 }]
@@ -492,9 +492,9 @@
 			y: 3.90d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "32D6E55482ABC3AD"
 			title: "Diamant-Beil"
 			rewards: [{ id: "0A7CC3F8AC21AD6C", type: "xp_levels", xp_levels: 2 }]
@@ -503,9 +503,9 @@
 			y: 3.13d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "6D207A38EA79BD24"
 			title: "Diamant-Hammer"
 			rewards: [{ id: "75315A514C658E63", type: "xp_levels", xp_levels: 2 }]
@@ -514,9 +514,9 @@
 			y: -3.21d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "5BEA137C19885E89"
 			title: "Diamant-Kriegshammer"
 			rewards: [{ id: "50852ABB72955BCD", type: "xp_levels", xp_levels: 2 }]
@@ -525,9 +525,9 @@
 			y: -5.68d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "54263A8EF275AFD9"
 			title: "Diamant-Sense"
 			rewards: [{ id: "62A174187B44ABD8", type: "xp_levels", xp_levels: 2 }]
@@ -536,9 +536,9 @@
 			y: 4.94d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Diamantschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
+			dependencies: ["31E652570EB0BD57"]
 			id: "660CDF873CC0CCED"
 			title: "Diamant-Sichel"
 			rewards: [{ id: "1BD8B12B4532BD92", type: "xp_levels", xp_levels: 2 }]
@@ -547,9 +547,9 @@
 			y: -21.00d
 		}
 		{
-			dependencies: ["660CDF873CC0CCED"]
 			description: ["&6Was ist das?", "Das Langschwert aus Diamant.", "", "&6So gehts", "Rezept in JEI. Das Eisen-Langschwert gehört ins Rezept.", "", "&6Wofür ist das wichtig?", "Mehr Schaden für die Bosse der Diamantzeit."]
 			icon: { id: "simplyswords:diamond_longsword" }
+			dependencies: ["660CDF873CC0CCED"]
 			id: "044532E4F2FBF3DB"
 			title: "Simply Swords: Diamant-Langschwert"
 			rewards: [{ id: "1B715E804439CD94", type: "xp_levels", xp_levels: 2 }]
@@ -558,8 +558,8 @@
 			y: -21.00d
 		}
 		{
-			dependencies: ["671BE8F3FAC5BA64"]
 			description: ["&6Was ist das?", "Mit Dragon Mounts kannst du Drachen ausbrüten und reiten.", "Du findest Eier in der Welt. Brüte das Ei aus und füttere den Drachen.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Abenteuer in der Luft."]
+			dependencies: ["671BE8F3FAC5BA64"]
 			id: "2095E2163EB75A2E"
 			title: "Drachen"
 			rewards: [{ id: "278E32062C9FAF17", type: "xp_levels", xp_levels: 4 }]
@@ -568,9 +568,9 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["2095E2163EB75A2E"]
 			description: ["&6Was ist das?", "Dragon Mounts: Mit der Pfeife rufst du deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Dein Drache kommt, egal wo du bist."]
 			icon: { id: "minecraft:goat_horn" }
+			dependencies: ["2095E2163EB75A2E"]
 			id: "03A558E7A3EF9D0A"
 			title: "Drachenpfeife"
 			rewards: [{ id: "247A738C69510958", type: "xp_levels", xp_levels: 2 }]
@@ -579,9 +579,9 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["03A558E7A3EF9D0A"]
 			description: ["&6Was ist das?", "Dragon Mounts: Rüstung für deinen Drachen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Dein Drache hält mehr aus."]
 			icon: { id: "minecraft:diamond_horse_armor" }
+			dependencies: ["03A558E7A3EF9D0A"]
 			id: "6DCE2C608F30263F"
 			title: "Drachenrüstung"
 			rewards: [{ id: "3999BA1A3766E73E", type: "xp_levels", xp_levels: 2 }]
@@ -590,9 +590,9 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["32D7C0032123B540"]
 			description: ["&6Was ist das?", "Das Diamant-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Ausrüstung, Diamant-Werkzeug, Verzaubern, Bibliothek, Portal, Gefahren, Illager-Schätze, Prüfungskammern, Mowzies Mobs, Mowzie-Beute, Waffenkammer, Drachen.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofür ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins nächste. Nebenzweige kannst du jederzeit später machen."]
 			icon: { id: "minecraft:diamond_pickaxe" }
+			dependencies: ["32D7C0032123B540"]
 			id: "35D9C17C3DF9768D"
 			title: "Beginn: Diamant-Zeitalter"
 			rewards: [{ id: "328BC10CCF6129FC", type: "xp_levels", xp_levels: 2 }]
@@ -603,9 +603,9 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Hier beginnt das Nether-Zeitalter. Es schaltet frei:", "Der Nether: Das Portal lässt dich jetzt durch.", "", "&6So gehts", "Schließe den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort für alle Spieler, auch für die, die gerade nicht online sind.", "", "&6Wofür ist das wichtig?", "Im nächsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus früheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherrack" }
+			dependencies: ["1512FC1565ADD973"]
 			id: "3289CBE6B6A936DA"
 			title: "Zeitalter: Nether-Zeitalter"
 			rewards: [{ id: "1D07F218025316AD", type: "historystages:history_stage", stage: "netherzeit", remove: false, individual: false }, { id: "7F584C90AB7C4D9A", type: "xp_levels", xp_levels: 5 }]
@@ -616,9 +616,9 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["31E652570EB0BD57"]
 			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:trident" }
+			dependencies: ["31E652570EB0BD57"]
 			id: "5DBD766E57EBAD5C"
 			title: "Dreizack"
 			rewards: []
@@ -627,9 +627,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["5DBD766E57EBAD5C"]
 			description: ["&6Was ist das?", "Macht mehr Schaden, je tiefer du fällst.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:mace" }
+			dependencies: ["5DBD766E57EBAD5C"]
 			id: "5086933097CF61B1"
 			title: "Streitkolben (Arsenal)"
 			rewards: []
@@ -638,9 +638,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["5086933097CF61B1"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:sword_on_a_stick" }
+			dependencies: ["5086933097CF61B1"]
 			id: "6FF42D7D5578B047"
 			title: "Sword on a Stick"
 			rewards: []
@@ -649,9 +649,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["6FF42D7D5578B047"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:bramblethorn" }
+			dependencies: ["6FF42D7D5578B047"]
 			id: "79E59BD72EF2B2FA"
 			title: "Bramblethorn"
 			rewards: []
@@ -660,9 +660,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["79E59BD72EF2B2FA"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:shadowsting" }
+			dependencies: ["79E59BD72EF2B2FA"]
 			id: "3B0494D1532C6741"
 			title: "Shadowsting"
 			rewards: []
@@ -671,9 +671,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["3B0494D1532C6741"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:sunfire" }
+			dependencies: ["3B0494D1532C6741"]
 			id: "79D42AC833677EF7"
 			title: "Sunfire"
 			rewards: []
@@ -682,9 +682,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["79D42AC833677EF7"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:waxweaver" }
+			dependencies: ["79D42AC833677EF7"]
 			id: "5BF2ACA4018B0585"
 			title: "Waxweaver"
 			rewards: []
@@ -693,9 +693,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["5BF2ACA4018B0585"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:hiveheart" }
+			dependencies: ["5BF2ACA4018B0585"]
 			id: "054957A0438D7F48"
 			title: "Hiveheart"
 			rewards: []
@@ -704,9 +704,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["054957A0438D7F48"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stars_edge" }
+			dependencies: ["054957A0438D7F48"]
 			id: "2EBF10B876FFFC1E"
 			title: "Star's Edge"
 			rewards: []
@@ -715,9 +715,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["2EBF10B876FFFC1E"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:wickpiercer" }
+			dependencies: ["2EBF10B876FFFC1E"]
 			id: "031BF1D67CD9E053"
 			title: "Wickpiercer"
 			rewards: []
@@ -726,9 +726,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["031BF1D67CD9E053"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:gloampiercer" }
+			dependencies: ["031BF1D67CD9E053"]
 			id: "73088E647EC47A82"
 			title: "Gloampiercer"
 			rewards: []
@@ -737,9 +737,9 @@
 			y: 25.50d
 		}
 		{
-			dependencies: ["5DBD766E57EBAD5C"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:chompolotl" }
+			dependencies: ["5DBD766E57EBAD5C"]
 			id: "6D4236478EE6630F"
 			title: "Chomp'olotl"
 			rewards: []
@@ -748,9 +748,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["6D4236478EE6630F"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:toxic_longsword" }
+			dependencies: ["6D4236478EE6630F"]
 			id: "27404CB179E86D81"
 			title: "Longsword of the Plague"
 			rewards: []
@@ -759,9 +759,9 @@
 			y: 24.00d
 		}
 		{
-			dependencies: ["27404CB179E86D81"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:wrought_axe" }
+			dependencies: ["27404CB179E86D81"]
 			id: "768216066194A7D8"
 			title: "Axe of a Thousand Metals"
 			rewards: []
@@ -770,9 +770,9 @@
 			y: 24.00d
 		}
 		{
-			dependencies: ["768216066194A7D8"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:spear" }
+			dependencies: ["768216066194A7D8"]
 			id: "0E7E6AE197DCAD0A"
 			title: "Spear"
 			rewards: []
@@ -781,9 +781,9 @@
 			y: 24.00d
 		}
 		{
-			dependencies: ["0E7E6AE197DCAD0A"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:naga_fang_dagger" }
+			dependencies: ["0E7E6AE197DCAD0A"]
 			id: "7FD822594DF4DC90"
 			title: "Naga Fang Dagger"
 			rewards: []
@@ -792,9 +792,9 @@
 			y: 24.00d
 		}
 		{
-			dependencies: ["7FD822594DF4DC90"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "mowziesmobs:sculptor_staff" }
+			dependencies: ["7FD822594DF4DC90"]
 			id: "54FE5C1180E344FF"
 			title: "Geomancer Staff"
 			rewards: []
@@ -803,9 +803,9 @@
 			y: 24.00d
 		}
 		{
-			dependencies: ["6D4236478EE6630F"]
 			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Ein starker Bogen für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_bow" }
+			dependencies: ["6D4236478EE6630F"]
 			id: "1338FFE60935D51A"
 			title: "Diamantbogen"
 			rewards: [{ id: "3359E389B6C7E884", type: "xp_levels", xp_levels: 2 }]
@@ -814,9 +814,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["1338FFE60935D51A"]
 			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Starke Armbrust für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_crossbow" }
+			dependencies: ["1338FFE60935D51A"]
 			id: "1B2144517BC5AC69"
 			title: "Diamantarmbrust"
 			rewards: [{ id: "7C68873F1C9EFD03", type: "xp_levels", xp_levels: 2 }]
@@ -825,9 +825,9 @@
 			y: 22.50d
 		}
 		{
-			dependencies: ["1B2144517BC5AC69"]
 			description: ["&6Was ist das?", "Der Diamantpfeil.", "", "&6So gehts", "Diesen Pfeil gibt es in unserer Archeries-Version nicht. Hake die Quest einfach ab.", "", "&6Wofür ist das wichtig?", "Mehr Schaden pro Schuss."]
 			icon: { id: "minecraft:arrow" }
+			dependencies: ["1B2144517BC5AC69"]
 			id: "5DEB458F606EEFCD"
 			title: "Diamantpfeil"
 			rewards: [{ id: "7E8E765DEBE4DD7F", type: "xp_levels", xp_levels: 2 }]
@@ -836,9 +836,9 @@
 			y: 22.50d
 		}
 		{
-			dependencies: ["1338FFE60935D51A"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:diamond_pickaxe" }
+			dependencies: ["1338FFE60935D51A"]
 			id: "1136F86CA38A7C38"
 			title: "Werkzeug-Set Diamant"
 			rewards: []
@@ -847,9 +847,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["1136F86CA38A7C38"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "minecraft:diamond_chestplate" }
+			dependencies: ["1136F86CA38A7C38"]
 			id: "1AEBC6FD6A90E4B1"
 			title: "Rüstung Diamant"
 			rewards: []
@@ -858,9 +858,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["1AEBC6FD6A90E4B1"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:divine_chestplate" }
+			dependencies: ["1AEBC6FD6A90E4B1"]
 			id: "4D83ED26672135F4"
 			title: "Divine (Rüstung)"
 			rewards: []
@@ -869,9 +869,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["4D83ED26672135F4"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:prismarine_chestplate" }
+			dependencies: ["4D83ED26672135F4"]
 			id: "12441AAB862A6BAA"
 			title: "Prismarine (Rüstung)"
 			rewards: []
@@ -880,9 +880,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["12441AAB862A6BAA"]
 			description: ["&6Was ist das?", "Teile: Helm.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Mowzies Mobs.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "mowziesmobs:wrought_helmet" }
+			dependencies: ["12441AAB862A6BAA"]
 			id: "28646A08B1E6D57D"
 			title: "Wrought Helm (Rüstung)"
 			rewards: []
@@ -891,9 +891,9 @@
 			y: 21.00d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
-			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut ist ein riesiger Eisengolem-Boss in seiner Kammer unter der Erde.", "", "&6So gehts", "Diamantrüstung, ein Diamantschwert oder Axt, Heiltränke und Goldäpfel. Weiche seinen Schlägen aus.", "", "&6Wofür ist das wichtig?", "Erster Boss der Diamantzeit."]
+			description: ["&6Was ist das?", "Der Ferrous Wroughtnaut: ein riesiger Ritter in Eisenrüstung mit einer gewaltigen Axt.", "", "&6Wo findest du ihn?", "In der Wrought-Kammer, einer verschlossenen Steinkammer unter der Oberfläche der Oberwelt.", "", "&6Was brauchst du?", "Diamantrüstung, Diamantschwert oder -axt, Schild, Goldäpfel.", "", "&6So gehts", "Von vorn ist er nahezu unverwundbar. Weiche seinem Axthieb aus: danach steckt er kurz fest und dreht dir den Rücken zu. Dann von hinten zuschlagen.", "", "&6Beute", "Axt der Tausend Metalle und Wrought Helm (beide gehen nie kaputt)."]
 			hide_dependency_lines: true
+			dependencies: ["35D9C17C3DF9768D"]
 			id: "42859D02779932CC"
 			title: "Eiserner Wächter"
 			rewards: [{ id: "00398B7575503487", type: "xp_levels", xp_levels: 8 }, { id: "0A61BB3422F2971B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -902,8 +902,8 @@
 			y: -1.50d
 		}
 		{
+			description: ["&6Was ist das?", "Der Frostmaw, ein riesiger Eis-Yeti.", "", "&6Wo findest du ihn?", "Er schläft in verschneiten Gebieten der Oberwelt. Er wacht auf, wenn du ihn angreifst oder zu nah kommst.", "", "&6Was brauchst du?", "Diamantrüstung, Bogen, Feuer hilft (Flammen-Verzauberung, Feuerkugeln). Warme Kleidung ist nicht nötig, aber Abstand.", "", "&6So gehts", "Er schlägt um sich, springt und speit Eisatem. Bleib seitlich in Bewegung. Trick: Im Schlaf kannst du ihm den Eiskristall stehlen.", "", "&6Beute", "Eis Kristall (Rechtsklick halten: eisiger Wirbel, lädt sich im Inventar wieder auf)."]
 			dependencies: ["42859D02779932CC"]
-			description: ["&6Was ist das?", "Frostmaw, ein riesiger Eisbär in verschneiten Gebieten.", "", "&6So gehts", "Diamantrüstung, Feuerschutz-Tränke, Bogen. Er greift in Wellen an.", "", "&6Wofür ist das wichtig?", "Boss für kalte Biome."]
 			id: "69102A9BDB2D4FFB"
 			title: "Frostmaul"
 			rewards: [{ id: "3C317595391E7867", type: "xp_levels", xp_levels: 8 }, { id: "694F058C593B4A90", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -912,8 +912,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["69102A9BDB2D4FFB"]
 			description: ["&6Was ist das?", "Umvuthi ist der Anführer der Barakoa in ihren Dörfern.", "", "&6So gehts", "Diamantrüstung, Schild, Heiltränke. Seine Wachen greifen mit an.", "", "&6Wofür ist das wichtig?", "Boss der Barakoa-Dörfer."]
+			dependencies: ["69102A9BDB2D4FFB"]
 			id: "0985399D5D0017D5"
 			title: "Barako der Sonnenkönig"
 			rewards: [{ id: "641AA2E6CEB40563", type: "xp_levels", xp_levels: 8 }, { id: "212DBAFA880D7423", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -922,8 +922,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["0985399D5D0017D5"]
 			description: ["&6Was ist das?", "Ein riesiger Zombie, der Gegner wegschleudert.", "", "&6So gehts", "Diamantrüstung, Schild. Halte Abstand und nutze den Bogen.", "", "&6Wofür ist das wichtig?", "Starker Gegner der Diamantzeit."]
+			dependencies: ["0985399D5D0017D5"]
 			id: "2246934C01E48F4E"
 			title: "Mutant-Zombie"
 			rewards: [{ id: "33F4D7EC2D01BADB", type: "xp_levels", xp_levels: 5 }]
@@ -932,8 +932,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["2246934C01E48F4E"]
 			description: ["&6Was ist das?", "Ein riesiges Skelett, das mehrere Pfeile gleichzeitig schießt.", "", "&6So gehts", "Diamantrüstung, Schild. Nahkampf, wenn es nah ist.", "", "&6Wofür ist das wichtig?", "Fernkampf-Mutant der Diamantzeit."]
+			dependencies: ["2246934C01E48F4E"]
 			id: "3E6B4CD6BE2E683E"
 			title: "Mutant-Skelett"
 			rewards: [{ id: "1C4262B5AD9806FD", type: "xp_levels", xp_levels: 5 }]
@@ -942,8 +942,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["3E6B4CD6BE2E683E"]
 			description: ["&6Was ist das?", "Ein riesiger Creeper, der explodiert und Blitze ruft.", "", "&6So gehts", "Diamantrüstung, Abstand halten und mit dem Bogen schießen.", "", "&6Wofür ist das wichtig?", "Gefährlicher Mutant, nutze Distanzwaffen."]
+			dependencies: ["3E6B4CD6BE2E683E"]
 			id: "7EDF045A11C92083"
 			title: "Mutant-Creeper"
 			rewards: [{ id: "2A9AD2222CCAFCDC", type: "xp_levels", xp_levels: 5 }]
@@ -952,9 +952,9 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Neun Diamanten werden zu einem Block.", "", "&6So gehts", "Neun Diamanten quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Schöne Deko und kompaktes Lager für deinen Schatz."]
 			hide_dependency_lines: true
+			dependencies: ["63064054BBFD8FB1"]
 			id: "32FAAA7DA2F5723D"
 			title: "Diamantblock"
 			rewards: [{ id: "1E5F45B1D9C18191", type: "xp_levels", xp_levels: 2 }]
@@ -963,8 +963,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich beim Erkunden und Spähen."]
+			dependencies: ["69BF8973F8D01A34"]
 			id: "6492FCA00E7D07FE"
 			title: "Fernglas"
 			rewards: [{ id: "3FF082B1E6604489", type: "xp_levels", xp_levels: 2 }]
@@ -973,8 +973,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Das blaue Material für Verzauberungen.", "", "&6So gehts", "Baue Lapis-Erz tief unter der Erde ab.", "", "&6Wofür ist das wichtig?", "Ohne Lapis keine Verzauberungen."]
+			dependencies: ["2502CCD91E41AFC0"]
 			id: "3C837821FE96F782"
 			title: "Lapislazuli"
 			rewards: [{ id: "1615092D7BA629EC", type: "xp_levels", xp_levels: 2 }]
@@ -983,8 +983,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurück.", "", "&6So gehts", "Zwei Stöcke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
+			dependencies: ["2502CCD91E41AFC0"]
 			id: "25B9B3C3109D1578"
 			title: "Schleifstein"
 			rewards: [{ id: "47E4A9B48A6CA82A", type: "xp_levels", xp_levels: 2 }]
@@ -993,9 +993,9 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Ein Apfel mit starker Heilwirkung.", "", "&6So gehts", "Acht Goldbarren um einen Apfel in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Rettet dich im Notfall vor dem Tod."]
 			hide_dependency_lines: true
+			dependencies: ["63064054BBFD8FB1"]
 			id: "31A632BD8B609BCE"
 			title: "Goldener Apfel"
 			rewards: [{ id: "64816A69942FDAAD", type: "xp_levels", xp_levels: 2 }]
@@ -1004,8 +1004,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["69BF8973F8D01A34"]
 			description: ["&6Was ist das?", "Zeigt deine Rüstung im Haus.", "", "&6So gehts", "Stöcke und glatte Steinplatte. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Wechseln der Ausrüstung und für Deko."]
+			dependencies: ["69BF8973F8D01A34"]
 			id: "0A340152DBA56AA6"
 			title: "Rüstungsständer"
 			rewards: [{ id: "4F540E83B2DFB2BB", type: "xp_levels", xp_levels: 2 }]
@@ -1014,9 +1014,9 @@
 			y: -6.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Rahmen halten Gegenstände an der Wand.", "", "&6So gehts", "Stöcke und Leder in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Rahmen zeigst du Truheninhalte oder Sammlungen."]
 			hide_dependency_lines: true
+			dependencies: ["63064054BBFD8FB1"]
 			id: "2B5A3C1A87D01853"
 			title: "Rahmen"
 			rewards: [{ id: "248ED07D8FB53C99", type: "xp_levels", xp_levels: 2 }]
@@ -1025,8 +1025,8 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["2502CCD91E41AFC0"]
 			description: ["&6Was ist das?", "Amethystblöcke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Wunderschön für Räume und Verzauberungsecken."]
+			dependencies: ["2502CCD91E41AFC0"]
 			id: "4FCD4D95A34A6ED2"
 			title: "Kristall-Deko"
 			rewards: [{ id: "417453F757FE5157", type: "xp_levels", xp_levels: 2 }]
@@ -1035,9 +1035,9 @@
 			y: -6.00d
 		}
 		{
-			dependencies: ["1512FC1565ADD973"]
 			description: ["&6Was ist das?", "Der Wächter (Warden) lebt in der Alten Stadt tief unter der Erde. Er hat 500 Leben, ist blind und hört jede Erschütterung.", "", "&6So gehts", "Diese Anleitung zeigt, wie du ihn meidest oder besiegst.", "", "&6Wofür ist das wichtig?", "Wer ihn weckt, stirbt oft in wenigen Schlägen. Gute Vorbereitung rettet dein Leben."]
 			icon: { id: "minecraft:sculk_shrieker" }
+			dependencies: ["1512FC1565ADD973"]
 			id: "79F99044DC32904A"
 			title: "Waechter: Überblick"
 			rewards: [{ id: "4437E80A6FECED2F", type: "xp_levels", xp_levels: 2 }]
@@ -1046,9 +1046,9 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["79F99044DC32904A"]
 			description: ["&6Was ist das?", "Die Alte Stadt liegt im Biom Tiefes Dunkel.", "", "&6So gehts", "Suche das Biom Tiefes Dunkel (mit dem Naturkompass) und grabe auf etwa Höhe -51 nach unten, bis du Tiefenschiefer-Fliesen siehst.", "", "&6Wofür ist das wichtig?", "Dort sind seltene Kisten mit Verzauberungen und der Wächter."]
 			icon: { id: "minecraft:deepslate_tiles" }
+			dependencies: ["79F99044DC32904A"]
 			id: "08E5540FAC14EE5E"
 			title: "Waechter: Alte Stadt finden"
 			rewards: [{ id: "6CD7F218F867DE41", type: "xp_levels", xp_levels: 3 }]
@@ -1057,9 +1057,9 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["08E5540FAC14EE5E"]
 			description: ["&6Was ist das?", "Der Wächter hört Geräusche und Erschütterungen.", "", "&6So gehts", "Halte Shift (schleichen), dann machst du keine Geräusche. Wolle dämpft Schwingungen: Lege sie auf den Boden, über den du läufst.", "Sculk-Schreier rufen den Wächter. Löse sie nicht aus.", "", "&6Wofür ist das wichtig?", "Wer leise bleibt, kann die Truhen in der Stadt leeren, ohne ihn zu wecken."]
 			icon: { id: "minecraft:white_wool" }
+			dependencies: ["08E5540FAC14EE5E"]
 			id: "5319CD220527AB74"
 			title: "Waechter: Schleichen und Wolle"
 			rewards: [{ id: "2F5AC9A258869773", type: "xp_levels", xp_levels: 3 }]
@@ -1068,9 +1068,9 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["5319CD220527AB74"]
 			description: ["&6Was ist das?", "Ein Treffer des Wächters ist sehr hart.", "", "&6So gehts", "Nimm die beste Rüstung, viele Goldene Äpfel und gutes Essen mit. Wenn er dich anschaut, gehe in Deckung.", "", "&6Wofür ist das wichtig?", "Er macht auch durch Rüstung großen Schaden. Gute Ausrüstung ist der Unterschied zwischen Leben und Tod."]
 			icon: { id: "minecraft:golden_apple" }
+			dependencies: ["5319CD220527AB74"]
 			id: "0A2E1AA5BEEE1E7C"
 			title: "Waechter: Rüstung und Essen"
 			rewards: [{ id: "17EA35B8F96409AB", type: "xp_levels", xp_levels: 3 }]
@@ -1079,9 +1079,9 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["0A2E1AA5BEEE1E7C"]
 			description: ["&6Was ist das?", "Besiege den Wächter, wenn du dich bereit fühlst.", "", "&6So gehts", "Locke ihn mit einem Schneeball oder Pfeil weg, gehe in eine enge Nische, schlage zu und weiche zurück. Er hat 500 Leben und greift mit Schall an.", "Du musst ihn nicht besiegen: Meide ihn und laufe weg, wenn er dich gehört hat.", "", "&6Wofür ist das wichtig?", "Er ist der stärkste Gegner der Oberwelt und gibt Erfahrung."]
 			icon: { id: "minecraft:echo_shard" }
+			dependencies: ["0A2E1AA5BEEE1E7C"]
 			id: "5608557AB6DA937F"
 			title: "Wächter besiegen"
 			rewards: [{ id: "294CA603C4711BF6", type: "xp_levels", xp_levels: 10 }]
@@ -1091,6 +1091,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Hauptpfad-Ergänzungen"]
+			dependencies: ["2DEDA3D57FB89524"]
 			id: "5BB1DF812749D2B2"
 			title: "Hauptpfad-Ergänzungen"
 			optional: true
@@ -1101,6 +1102,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Anleitung: Wächter der Tiefe"]
+			dependencies: ["1DB3F417D7AE0137"]
 			id: "162104B5E0CE8A1F"
 			title: "Anleitung: Wächter der Tiefe"
 			optional: true
@@ -1111,6 +1113,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Bosse und Gegner"]
+			dependencies: ["69BF8973F8D01A34"]
 			id: "4F7502C1669D43CB"
 			title: "Bosse und Gegner"
 			optional: true
@@ -1121,6 +1124,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Verzauberung und Bücher"]
+			dependencies: ["1DB3F417D7AE0137"]
 			id: "16500C5DE8B33013"
 			title: "Verzauberung und Bücher"
 			optional: true
@@ -1131,6 +1135,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Prüfungen und Rucksack"]
+			dependencies: ["2DEDA3D57FB89524"]
 			id: "55C878DA53E0DDE1"
 			title: "Prüfungen und Rucksack"
 			optional: true
@@ -1141,6 +1146,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Diamant-Waffen"]
+			dependencies: ["31E652570EB0BD57"]
 			id: "469BB5577D01B75D"
 			title: "Diamant-Waffen"
 			optional: true
@@ -1151,6 +1157,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Diamant-Ausrüstung"]
+			dependencies: ["2502CCD91E41AFC0"]
 			id: "0BDD511953E2719F"
 			title: "Diamant-Ausrüstung"
 			optional: true
@@ -1161,6 +1168,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Mutanten"]
+			dependencies: ["12F17AD8F6A0FF6B"]
 			id: "55EBF2E325EF7376"
 			title: "Mutanten"
 			optional: true
@@ -1171,6 +1179,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Flugzeuge"]
+			dependencies: ["682527776DB20343"]
 			id: "171D357888417322"
 			title: "Flugzeuge"
 			optional: true
@@ -1180,9 +1189,9 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["35D9C17C3DF9768D"]
 			description: ["&6Was ist das?", "Der Rumpf ist der Grundbaustein jedes Fluggeräts.", "", "&6So gehts", "6 Stämme und 3 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ohne Rumpf kein Flugzeug.", "", "&6Gut zu wissen", "Alle Fluggeräte von Immersive Aircraft werden ab dem Diamant-Zeitalter freigeschaltet."]
 			hide_dependency_lines: true
+			dependencies: ["35D9C17C3DF9768D"]
 			id: "4DD0DA067A995253"
 			title: "Rumpf"
 			rewards: [{ id: "155697BCF001BE9F", type: "xp_levels", xp_levels: 2 }]
@@ -1191,8 +1200,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
 			description: ["&6Was ist das?", "Der Heizkessel erzeugt Dampf für den Motor.", "", "&6So gehts", "7 Kupferbarren und ein Ofen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für den Motor."]
+			dependencies: ["4DD0DA067A995253"]
 			id: "2D278F5CE8389E57"
 			title: "Heizkessel"
 			rewards: [{ id: "20389750EFCFF3D8", type: "xp_levels", xp_levels: 2 }]
@@ -1201,8 +1210,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["2D278F5CE8389E57"]
 			description: ["&6Was ist das?", "Der Motor treibt Propeller und Rotoren an. Er verbrennt Kohle oder anderen Brennstoff.", "", "&6So gehts", "Heizkessel, Hochofen, 2 Kolben und 3 Bruchstein.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Jedes motorisierte Fluggerät braucht ihn."]
+			dependencies: ["2D278F5CE8389E57"]
 			id: "629820D5D701A03F"
 			title: "Motor"
 			rewards: [{ id: "7AB0B8A74BCD3F04", type: "xp_levels", xp_levels: 3 }]
@@ -1211,8 +1220,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["629820D5D701A03F"]
 			description: ["&6Was ist das?", "Der Propeller erzeugt den Schub.", "", "&6So gehts", "5 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Doppeldecker, Flugschrauber und Quadrokopter."]
+			dependencies: ["629820D5D701A03F"]
 			id: "68831BD6C238738E"
 			title: "Propeller"
 			rewards: [{ id: "1AD4530F8089C13F", type: "xp_levels", xp_levels: 2 }]
@@ -1221,8 +1230,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["68831BD6C238738E"]
 			description: ["&6Was ist das?", "Segel aus Stoff für Flügel und Ballone.", "", "&6So gehts", "6 weiße Teppiche und 3 Fäden.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Flugschrauber und Luftschiffe."]
+			dependencies: ["68831BD6C238738E"]
 			id: "5BD5E8A787C56E8D"
 			title: "Segel"
 			rewards: [{ id: "7FDC5BC8E1C7A0D2", type: "xp_levels", xp_levels: 2 }]
@@ -1231,8 +1240,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["5BD5E8A787C56E8D"]
 			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig. Er braucht Anlauf zum Starten.", "", "&6So gehts", "3 Rümpfe, Motor und Propeller. Hinsetzen, mit W Schub geben, Brennstoff ins Flugzeug-Inventar.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Schnell über weite Strecken reisen."]
+			dependencies: ["5BD5E8A787C56E8D"]
 			id: "5861EFEFC54087AB"
 			title: "Doppeldecker"
 			rewards: [{ id: "5650796A8AC4CB40", type: "xp_levels", xp_levels: 5 }]
@@ -1241,8 +1250,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["5861EFEFC54087AB"]
 			description: ["&6Was ist das?", "Der Flugschrauber fliegt ohne Motor: Du trittst selbst in die Pedale.", "", "&6So gehts", "2 Segel, 2 Rümpfe und ein Propeller.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Günstig fliegen, ganz ohne Brennstoff."]
+			dependencies: ["5861EFEFC54087AB"]
 			id: "19F7BD664987FE6B"
 			title: "Flugschrauber"
 			rewards: [{ id: "4842EDB5C729AF4C", type: "xp_levels", xp_levels: 4 }]
@@ -1251,8 +1260,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["19F7BD664987FE6B"]
 			description: ["&6Was ist das?", "Der Quadrokopter schwebt auf der Stelle.", "", "&6So gehts", "4 Propeller, 4 Bambus und ein Motor.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ideal zum Bauen in der Höhe."]
+			dependencies: ["19F7BD664987FE6B"]
 			id: "53059BA58120D4DB"
 			title: "Quadrokopter"
 			rewards: [{ id: "68E80C151815D731", type: "xp_levels", xp_levels: 5 }]
@@ -1261,8 +1270,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["53059BA58120D4DB"]
 			description: ["&6Was ist das?", "Das Luftschiff ist langsam, aber sehr stabil.", "", "&6So gehts", "6 Segel, 2 Rümpfe und ein Motor.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemütlich reisen, mit Platz für Mitfahrer."]
+			dependencies: ["53059BA58120D4DB"]
 			id: "61734ED79D594739"
 			title: "Luftschiff"
 			rewards: [{ id: "422A95C67B3CE64E", type: "xp_levels", xp_levels: 5 }]
@@ -1271,8 +1280,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["61734ED79D594739"]
 			description: ["&6Was ist das?", "Das Frachtluftschiff hat viel Stauraum.", "", "&6So gehts", "Luftschiff, Rumpf und 4 Truhen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Viele Items auf einmal transportieren."]
+			dependencies: ["61734ED79D594739"]
 			id: "17DD55DAD7727688"
 			title: "Frachtluftschiff"
 			rewards: [{ id: "3891873A3B3A3A45", type: "xp_levels", xp_levels: 6 }]
@@ -1281,8 +1290,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["17DD55DAD7727688"]
 			description: ["&6Was ist das?", "Das Kriegsschiff ist ein fliegendes Schlachtschiff mit Platz für Waffen.", "", "&6So gehts", "Frachtluftschiff, 3 Rümpfe, 2 Motoren, 2 Segel und Industriegetriebe.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemeinsam fliegen und kämpfen."]
+			dependencies: ["17DD55DAD7727688"]
 			id: "530C81D0E1B95D89"
 			title: "Kriegsschiff"
 			rewards: [{ id: "779FDD86832870E9", type: "xp_levels", xp_levels: 10 }]
@@ -1291,8 +1300,8 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["44B342909FEC9D2A"]
 			description: ["&6Was ist das?", "Ein stärkerer Propeller als Verbesserung.", "", "&6So gehts", "Propeller und 4 Kupferbarren. Ins Verbesserungsfeld des Fluggeräts legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Schub und Tempo."]
+			dependencies: ["44B342909FEC9D2A"]
 			id: "135CC50AA6135F03"
 			title: "Verbesserter Propeller"
 			rewards: [{ id: "2926193150E664AB", type: "xp_levels", xp_levels: 3 }]
@@ -1301,8 +1310,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["7FF0FD5E388482AF"]
 			description: ["&6Was ist das?", "Ein besserer Kessel als Verbesserung.", "", "&6So gehts", "Heizkessel, Hochofen und 7 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Der Motor leistet mehr."]
+			dependencies: ["7FF0FD5E388482AF"]
 			id: "2BED4230D2E4397B"
 			title: "Stahlkessel"
 			rewards: [{ id: "4B0B4432346C6897", type: "xp_levels", xp_levels: 3 }]
@@ -1311,8 +1320,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["2BED4230D2E4397B"]
 			description: ["&6Was ist das?", "Ein sparsamer Motor als Verbesserung.", "", "&6So gehts", "Motor, 3 Goldbarren, 3 Ziegel und 2 Schleimbälle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Verbraucht weniger Brennstoff."]
+			dependencies: ["2BED4230D2E4397B"]
 			id: "18F8D9791B875395"
 			title: "Öko-Motor"
 			rewards: [{ id: "225E1E2F574A62C4", type: "xp_levels", xp_levels: 3 }]
@@ -1321,8 +1330,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["18F8D9791B875395"]
 			description: ["&6Was ist das?", "Der stärkste Motor als Verbesserung.", "", "&6So gehts", "Motor, Netheritbarren, 2 Lohenruten, 2 Magmacreme und 3 Netherziegel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Höchste Leistung (braucht Netherit)."]
+			dependencies: ["18F8D9791B875395"]
 			id: "44B342909FEC9D2A"
 			title: "Nether-Motor"
 			rewards: [{ id: "74F50668F1CCA605", type: "xp_levels", xp_levels: 8 }]
@@ -1331,8 +1340,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["6CB1775D5D70DE5F"]
 			description: ["&6Was ist das?", "Stabilere Leitungen als Verbesserung.", "", "&6So gehts", "3 Kupferbarren und 2 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Das Fluggerät hält mehr aus."]
+			dependencies: ["6CB1775D5D70DE5F"]
 			id: "7FF0FD5E388482AF"
 			title: "Robuste Rohre"
 			rewards: [{ id: "5FC3FAD339E8D6B7", type: "xp_levels", xp_levels: 2 }]
@@ -1341,8 +1350,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["4DD0DA067A995253"]
 			description: ["&6Was ist das?", "Eine Panzerung für den Rumpf als Verbesserung.", "", "&6So gehts", "3 Rümpfe und 6 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Lebenspunkte für dein Fluggerät."]
+			dependencies: ["4DD0DA067A995253"]
 			id: "2FC024DADBC88EE4"
 			title: "Rumpfverstärkung"
 			rewards: [{ id: "4E2BFDD3072AD338", type: "xp_levels", xp_levels: 3 }]
@@ -1351,8 +1360,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["2FC024DADBC88EE4"]
 			description: ["&6Was ist das?", "Ein besseres Fahrwerk als Verbesserung.", "", "&6So gehts", "3 Eisenbarren und 4 Kohle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Sanftere Landungen, weniger Schaden."]
+			dependencies: ["2FC024DADBC88EE4"]
 			id: "6CB1775D5D70DE5F"
 			title: "Verbessertes Fahrwerk"
 			rewards: [{ id: "4977858A9AC35937", type: "xp_levels", xp_levels: 2 }]
@@ -1361,8 +1370,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["135CC50AA6135F03"]
 			description: ["&6Was ist das?", "Ein Getriebe für schwere Technik.", "", "&6So gehts", "3 Eisenbarren, 3 Kupferbarren und ein Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für Drehrohrkanone und Kriegsschiff."]
+			dependencies: ["135CC50AA6135F03"]
 			id: "7453ACABF193E9DA"
 			title: "Industriegetriebe"
 			rewards: [{ id: "78B59896352509AF", type: "xp_levels", xp_levels: 3 }]
@@ -1371,8 +1380,8 @@
 			y: 3.00d
 		}
 		{
-			dependencies: ["2FC024DADBC88EE4"]
 			description: ["&6Was ist das?", "Eine Armbrust zum Anbauen an Fluggeräte.", "", "&6So gehts", "Armbrust, Stolperdrahthaken und ein Stamm. Ins Waffenfeld legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die erste Bordwaffe."]
+			dependencies: ["2FC024DADBC88EE4"]
 			id: "1107A08D0F125370"
 			title: "Schwere Armbrust"
 			rewards: [{ id: "7554C97A7A393FB5", type: "xp_levels", xp_levels: 3 }]
@@ -1381,8 +1390,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["1107A08D0F125370"]
 			description: ["&6Was ist das?", "Eine schnell feuernde Bordkanone.", "", "&6So gehts", "Spender, Industriegetriebe und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Starke Bordwaffe gegen Gegner."]
+			dependencies: ["1107A08D0F125370"]
 			id: "156A83D7C318BB8B"
 			title: "Drehrohrkanone"
 			rewards: [{ id: "2A882EBB45289631", type: "xp_levels", xp_levels: 5 }]
@@ -1391,8 +1400,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["156A83D7C318BB8B"]
 			description: ["&6Was ist das?", "Wirft TNT aus dem Fluggerät ab.", "", "&6So gehts", "4 Eisenbarren und TNT.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Bomben aus der Luft."]
+			dependencies: ["156A83D7C318BB8B"]
 			id: "701304620ED45239"
 			title: "Bombenbucht"
 			rewards: [{ id: "484237331FBFF87C", type: "xp_levels", xp_levels: 4 }]
@@ -1401,8 +1410,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["701304620ED45239"]
 			description: ["&6Was ist das?", "Ein Fernrohr zum Anbauen.", "", "&6So gehts", "Fernrohr und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Weit sehen während des Flugs."]
+			dependencies: ["701304620ED45239"]
 			id: "3AD58E528F7E5BAA"
 			title: "Teleskop"
 			rewards: [{ id: "753FCFFD4417158B", type: "xp_levels", xp_levels: 2 }]
@@ -1411,8 +1420,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["3AD58E528F7E5BAA"]
 			description: ["&6Was ist das?", "Zeigt Lage und Richtung des Fluggeräts.", "", "&6So gehts", "2 Komparatoren und ein Kompass.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Leichter gerade fliegen."]
+			dependencies: ["3AD58E528F7E5BAA"]
 			id: "65A540A139645DF1"
 			title: "Gyroskop"
 			rewards: [{ id: "100393BDD6860D6C", type: "xp_levels", xp_levels: 2 }]
@@ -1421,8 +1430,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["65A540A139645DF1"]
 			description: ["&6Was ist das?", "Ein Gyroskop mit zusätzlichen Anzeigen.", "", "&6So gehts", "Gyroskop, 3 Uhren, Notenblock und Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Fluginfos auf einen Blick."]
+			dependencies: ["65A540A139645DF1"]
 			id: "29F6CCB1832D677C"
 			title: "Erweitertes Gyroskop"
 			rewards: [{ id: "4F4ADA2B62035BB1", type: "xp_levels", xp_levels: 3 }]
@@ -1431,8 +1440,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["29F6CCB1832D677C"]
 			description: ["&6Was ist das?", "Blendet die Fluginfos direkt im Bild ein.", "", "&6So gehts", "Gyroskop, Redstone-Lampe, Glasscheibe, Notenblock, Hebel, 2 Goldbarren und 2 Goldklumpen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die beste Anzeige beim Fliegen."]
+			dependencies: ["29F6CCB1832D677C"]
 			id: "364E57CC371568BD"
 			title: "Elektronisches Gyroskop"
 			rewards: [{ id: "2A6C4AC57E0EE763", type: "xp_levels", xp_levels: 4 }]
@@ -1441,8 +1450,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["364E57CC371568BD"]
 			description: ["&6Was ist das?", "Ein leichtes Flugzeug aus Bambus.", "", "&6So gehts", "2 Doppeldecker, Rumpf, Motor und 5 Bambusblöcke.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ein weiteres Flugzeug für deine Sammlung."]
+			dependencies: ["364E57CC371568BD"]
 			id: "5D87104B136F5709"
 			title: "Bambus-Trichter"
 			rewards: [{ id: "2ED3E17A8CE14E34", type: "xp_levels", xp_levels: 6 }]
@@ -1451,734 +1460,734 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Technik-Mod für Automatisierung: Maschinen ernten, füttern, schlachten und verarbeiten für dich.", "", "&6So gehts", "Das Handbuch zeigt alles. Rezepte findest du in JEI mit R, Verwendungen mit U. Die Maschinen brauchen Energie (FE) und Maschinengehäuse.", "", "&6Wofür ist das wichtig?", "Im Diamant-Zeitalter wird Industrial Foregoing freigeschaltet. Es ersetzt Immersive Engineering."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "F013C3BB8BC7A436"
 			title: "Industrial Foregoing"
 			rewards: [{ id: "69F52D2FD87B46AE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "8D6347E57D53B9AC", type: "checkmark" }]
 			x: 0.00d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["F013C3BB8BC7A436"]
 			description: ["&6Was ist das?", "Das einfachste Gehäuse, Grundlage der ersten Maschinen.", "", "&6So gehts", "Rezept in JEI suchen und mit R ansehen.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse gibt es keine Maschinen."]
+			dependencies: ["F013C3BB8BC7A436"]
 			id: "0805AA0C446E6326"
 			title: "Primitives Maschinengehäuse"
 			rewards: [{ id: "7737670B96B922E5", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "C1C34EF96701FAE1", type: "item", item: { id: "industrialforegoing:machine_frame_pity", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["0805AA0C446E6326"]
 			description: ["&6Was ist das?", "Erste Energiequelle, verbrennt Brennstoff zu Energie.", "", "&6So gehts", "Mit Brennmaterial füttern und Maschinen daneben stellen.", "", "&6Wofür ist das wichtig?", "Maschinen brauchen Energie, ohne Generator laufen sie nicht."]
+			dependencies: ["0805AA0C446E6326"]
 			id: "A3C553C7221DF134"
 			title: "Primitiver Heizgenerator"
 			rewards: [{ id: "D6413ADCEB4326C2", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "E654E58C29F3CC6B", type: "item", item: { id: "industrialforegoing:pitiful_generator", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["A3C553C7221DF134"]
 			description: ["&6Was ist das?", "Pflanzt Saatgut selbstständig auf Felder.", "", "&6So gehts", "Neben einem Feld aufstellen, Saatgut hineinlegen und Energie anschließen.", "", "&6Wofür ist das wichtig?", "Hält Farmen ohne Handarbeit am Laufen."]
+			dependencies: ["A3C553C7221DF134"]
 			id: "CDC02885F33A2BE4"
 			title: "Sämaschine"
 			rewards: [{ id: "868895DAB974F3DD", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "A19B8B5E266E8C84", type: "item", item: { id: "industrialforegoing:plant_sower", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["CDC02885F33A2BE4"]
 			description: ["&6Was ist das?", "Erntet reife Pflanzen und Bäume automatisch.", "", "&6So gehts", "Neben das Feld stellen, Reichweite mit Add-ons erhöhen.", "", "&6Wofür ist das wichtig?", "Zusammen mit der Sämaschine eine vollautomatische Farm."]
+			dependencies: ["CDC02885F33A2BE4"]
 			id: "AEF29B1320AE69B2"
 			title: "Erntemaschine"
 			rewards: [{ id: "D2B5B7A30C1B1FC1", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "7256ED04DC7278C4", type: "item", item: { id: "industrialforegoing:plant_gatherer", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["AEF29B1320AE69B2"]
 			description: ["&6Was ist das?", "Tötet Mobs in einem Bereich und sammelt die Drops.", "", "&6So gehts", "Bei einem Mob-Spawner oder einer Mobfalle aufstellen.", "", "&6Wofür ist das wichtig?", "Gute Quelle für Erfahrung und Mob-Drops."]
+			dependencies: ["AEF29B1320AE69B2"]
 			id: "960BC4D25DD880A7"
 			title: "Monsterschnetzler"
 			rewards: [{ id: "DBCC89844C636D2D", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "A2F60DDB5BAA5000", type: "item", item: { id: "industrialforegoing:mob_crusher", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["960BC4D25DD880A7"]
 			description: ["&6Was ist das?", "Wichtiges Material für höhere Maschinen.", "", "&6So gehts", "Entsteht aus Latex in der Latexverarbeitungsmaschine.", "", "&6Wofür ist das wichtig?", "Aus Kunststoff werden bessere Gehäuse und Add-ons."]
+			dependencies: ["960BC4D25DD880A7"]
 			id: "7C2004FF186EB52A"
 			title: "Kunststoff"
 			rewards: [{ id: "F9B4FC2C5237CE35", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "1BA69B1538C97072", type: "item", item: { id: "industrialforegoing:plastic", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["7C2004FF186EB52A"]
 			description: ["&6Was ist das?", "Speichert riesige Mengen eines Items in einem Block.", "", "&6So gehts", "Mit Black Hole Controller lässt er sich in Maschinen und Rohre einbinden.", "", "&6Wofür ist das wichtig?", "Ideal als Lager für Farm-Erträge."]
+			dependencies: ["7C2004FF186EB52A"]
 			id: "96B39D107833B9FA"
 			title: "Black-Hole-Speicher"
 			rewards: [{ id: "3383A93FC496FAC8", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "E11E91282D3E3B99", type: "item", item: { id: "industrialforegoing:pity_black_hole_unit", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 28.50d
+			y: -24.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Mit diesem Mod baust du eigene Golems aus Teilen. Sie kämpfen, tragen Waffen und können mit Upgrades verstärkt werden.", "", "&6So gehts", "Rezepte findest du in JEI (R). Ein Golem entsteht aus einem Halter, den du mit den passenden Teilen herstellst.", "", "&6Wofür ist das wichtig?", "Eigene Verteidigung für die Basis und starke Begleiter im Kampf."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "374FC20CBAA68FAB"
 			title: "Modulare Golems"
 			rewards: [{ id: "81013B5EBCF162E9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "AFD5B9CEDDE24AA2", type: "checkmark" }]
 			x: 0.00d
-			y: 31.50d
+			y: -27.00d
 		}
 		{
-			dependencies: ["374FC20CBAA68FAB"]
 			description: ["&6Was ist das?", "Der Halter speichert einen Metallgolem. Setzt du ihn ab, erscheint der Golem.", "", "&6So gehts", "Rezept in JEI nachschlagen. Körper, Arme und Beine aus Metall, danach im Halter zusammensetzen.", "", "&6Wofür ist das wichtig?", "Grundlage für alle Metallgolems."]
+			dependencies: ["374FC20CBAA68FAB"]
 			id: "16BF6F4CD96CDA92"
 			title: "Metallgolem-Halter"
 			rewards: [{ id: "1FBB699895BACDE6", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "BDA49E26CBD4E8EB", type: "item", item: { id: "modulargolems:metal_golem_holder", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 31.50d
+			y: -27.00d
 		}
 		{
-			dependencies: ["16BF6F4CD96CDA92"]
 			description: ["&6Was ist das?", "Ein Golem in Menschengestalt. Er kann Rüstung und Waffen tragen.", "", "&6So gehts", "Halter herstellen und mit Körper, Armen und Beinen füllen. Rüstung und Waffe gibst du ihm per Rechtsklick.", "", "&6Wofür ist das wichtig?", "Vielseitiger Kämpfer, der wie ein Spieler ausgerüstet wird."]
+			dependencies: ["16BF6F4CD96CDA92"]
 			id: "AB4DA9FBEA614647"
 			title: "Humanoider Golem"
 			rewards: [{ id: "6D7658B44ADF9D32", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "93FE45D0314E7A06", type: "item", item: { id: "modulargolems:humanoid_golem_holder", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 31.50d
+			y: -27.00d
 		}
 		{
-			dependencies: ["AB4DA9FBEA614647"]
 			description: ["&6Was ist das?", "Ein schneller vierbeiniger Golem. Er folgt dir und greift Feinde an.", "", "&6So gehts", "Halter herstellen und mit Körper und Beinen füllen.", "", "&6Wofür ist das wichtig?", "Flinker Begleiter für Erkundungen."]
+			dependencies: ["AB4DA9FBEA614647"]
 			id: "F71DC3C9072E4C51"
 			title: "Hunde-Golem"
 			rewards: [{ id: "A94017612AE422DD", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "BFC2AF7FCCE25063", type: "item", item: { id: "modulargolems:dog_golem_holder", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 31.50d
+			y: -27.00d
 		}
 		{
-			dependencies: ["F71DC3C9072E4C51"]
 			description: ["&6Was ist das?", "Mit dem Stab gibst du deinen Golems Befehle: bewachen, folgen oder bleiben.", "", "&6So gehts", "Stab in die Hand nehmen und einen Golem oder einen Ort anklicken.", "", "&6Wofür ist das wichtig?", "Ohne Stab bleiben Golems ungezielt in der Nähe stehen."]
+			dependencies: ["F71DC3C9072E4C51"]
 			id: "883B389E2D2909A2"
 			title: "Befehlsstab"
 			rewards: [{ id: "03A014D7C04B8F3E", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "A7E837CAF5CF6526", type: "item", item: { id: "modulargolems:command_wand", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 31.50d
+			y: -27.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Technik in Stufen: erst die Dampfzeit mit Bronze und Stahl, dann die Elektrozeit mit Strom.", "Alles hier lässt sich automatisieren. Die Aufbauten der Dampfzeit werden später überholt, steck also nicht zu viel Mühe hinein.", "", "&6So gehts", "Arbeite die Quests der Reihe nach durch. Rezepte findest du in JEI mit R, Verwendungen mit U.", "Das Handbuch im Spiel zeigt jeden Mehrblock-Aufbau als 3D-Modell.", "", "&6Wofür ist das wichtig?", "Im Diamant-Zeitalter wird Modern Industrialization freigeschaltet. Es ist die große Technik-Linie neben Create und Industrial Foregoing."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "41466D3700FDD12D"
 			title: "Modern Industrialization"
 			rewards: [{ id: "D10059E8258606E7", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3BFC6BEFE507DB2E", type: "checkmark" }]
 			x: 0.00d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["41466D3700FDD12D"]
 			description: ["&6Was ist das?", "Das MI-Handbuch erklärt Maschinen, Mehrblock-Bauten und alle Stufen.", "", "&6So gehts", "Rechtsklick öffnet es. Das Rezept siehst du in JEI.", "Seitenzahlen gibt es nicht, links in der Leiste wählst du ein Thema.", "", "&6Wofür ist das wichtig?", "Hier steht der genaue Aufbau jeder Mehrblock-Maschine."]
+			dependencies: ["41466D3700FDD12D"]
 			id: "7F68C56FAD48BA20"
 			title: "Das Handbuch"
 			rewards: [{ id: "0F03F098A5424895", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "67103DF67B459864", type: "item", item: { id: "modern_industrialization:guidebook", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["7F68C56FAD48BA20"]
 			description: ["&6Was ist das?", "Der Hammer ist dein erstes Werkzeug. Er erhöht die Ausbeute im Schmiedehammer und schaltet mehr Rezepte frei, kostet aber Haltbarkeit.", "", "&6So gehts", "Rezept in JEI ansehen und herstellen.", "", "&6Wofür ist das wichtig?", "Ohne Hammer gibt es kaum Staub und Platten in der frühen Phase."]
+			dependencies: ["7F68C56FAD48BA20"]
 			id: "368968294CAB3CCA"
 			title: "Eisenhammer"
 			rewards: [{ id: "47C2AEF75CCB97C2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5D6D97FDE9224C68", type: "item", item: { id: "modern_industrialization:iron_hammer", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["368968294CAB3CCA"]
 			description: ["&6Was ist das?", "Der Schmiedehammer ist ein Block für einfache Verarbeitung ohne Strom.", "", "&6So gehts", "Lege Eisen-, Kupfer- oder Zinnerz hinein: du bekommst 2 Roherz pro Erz.", "Mit dem Eisenhammer steigt das Verhältnis noch weiter. Jedes Roherz lässt sich schmelzen.", "", "&6Wofür ist das wichtig?", "Er verdoppelt bis verdreifacht deine Erzausbeute zu Beginn."]
+			dependencies: ["368968294CAB3CCA"]
 			id: "BD9417CA961170F4"
 			title: "Schmiedehammer"
 			rewards: [{ id: "82FC348875169438", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "82821757C7D1B478", type: "item", item: { id: "modern_industrialization:forge_hammer", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["BD9417CA961170F4"]
 			description: ["&6Was ist das?", "Ein Bohrer, der 3x3 Blöcke auf einmal abbaut und Behutsamkeit hat.", "", "&6So gehts", "Er braucht Wasser und festen Brennstoff, zum Beispiel Kohle.", "Rechtsklick auf eine Wasserquelle füllt ihn. Brennstoff legst du per Rechtsklick im Inventar auf den Bohrer. Beim Abbauen wird der Brennstoff langsam verbraucht.", "", "&6Wofür ist das wichtig?", "Zusammen mit dem Schmiedehammer holst du Erze ohne Behutsamkeits-Spitzhacke."]
+			dependencies: ["BD9417CA961170F4"]
 			id: "479687E2AACCCA3C"
 			title: "Dampf-Bergbaubohrer"
 			rewards: [{ id: "389F6E24B88E8A6A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "BDAA603E74E87AB0", type: "item", item: { id: "modern_industrialization:steam_mining_drill", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["479687E2AACCCA3C"]
 			description: ["&6Was ist das?", "Bronze ist das Material der ersten Maschinen.", "", "&6So gehts", "Hämmere Kupfer- und Zinnbarren im Schmiedehammer zu Staub. Beides zusammen ergibt Bronzestaub, im Ofen wird daraus ein Bronzebarren.", "Besser ist es im Mischer, den du gleich baust. Merke: 9 winzige Stäube sind 1 Staub.", "", "&6Wofür ist das wichtig?", "Bronze braucht fast jeder Bau der ersten Stufe."]
+			dependencies: ["479687E2AACCCA3C"]
 			id: "B9F0237EBF1591A4"
 			title: "Deine erste Bronze"
 			rewards: [{ id: "5B84981BB6FEC97A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2507EF7BF882C54E", type: "item", item: { id: "modern_industrialization:bronze_ingot", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["B9F0237EBF1591A4"]
 			description: ["&6Was ist das?", "Feuerfeste Ziegel für Koksofen, Hochofen und Kessel.", "", "&6So gehts", "Lege Ziegel in den Schmiedehammer, du bekommst Ziegelstaub. Daraus wird Schamottestaub, im Ofen entsteht der Schamottestein.", "In Dampfmaschinen oder mit dem Hammer klappt das effizienter.", "", "&6Wofür ist das wichtig?", "Für Koksofen und Dampfhochofen braucht man viele davon."]
+			dependencies: ["B9F0237EBF1591A4"]
 			id: "72776E94CB6184AD"
 			title: "Schamottestein"
 			rewards: [{ id: "1B48DFEC309D3F49", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "A68526DC1AD697A3", type: "item", item: { id: "modern_industrialization:fire_clay_brick", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["72776E94CB6184AD"]
 			description: ["&6Was ist das?", "Der Kessel verbrennt Brennstoff und macht aus Wasser Dampf. Dampf treibt alle Dampfmaschinen an.", "", "&6So gehts", "Er heizt sich langsam auf und gibt dann Dampf an Maschinen direkt neben ihm ab, bis zu 8 mb pro Tick.", "Bronzemaschinen verarbeiten Rezepte bis 2 EU/t. 1 mb Dampf ist 1 EU, ein heißer Kessel versorgt also vier Maschinen.", "Tipp: Baue erst den Verdichter, das spart viele Platten. Einen Wassereimer kannst du auch zu einem Dampfeimer einschmelzen.", "", "&6Wofür ist das wichtig?", "Ohne Dampf läuft in der ersten Stufe keine Maschine."]
+			dependencies: ["72776E94CB6184AD"]
 			id: "5706AB25DF043BC3"
 			title: "Bronzekessel"
 			rewards: [{ id: "C44B2FC90AF7BBF2", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2556010CC074C32C", type: "item", item: { id: "modern_industrialization:bronze_boiler", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["5706AB25DF043BC3"]
 			description: ["&6Was ist das?", "Presst Barren zu Platten, 1 zu 1. Aus einem Doppelbarren werden 2 Platten.", "", "&6So gehts", "Baue ihn neben den Kessel, damit er Dampf bekommt. Das Rezept siehst du in JEI.", "", "&6Wofür ist das wichtig?", "Die erste Maschine, die du bauen solltest, denn Platten sind überall nötig."]
+			dependencies: ["5706AB25DF043BC3"]
 			id: "0A48575E5B1895F5"
 			title: "Bronzeverdichter"
 			rewards: [{ id: "F966FE516A69AC45", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "DE94F735CFDA4B30", type: "item", item: { id: "modern_industrialization:bronze_compressor", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["0A48575E5B1895F5"]
 			description: ["&6Was ist das?", "Mischt Stäube zu besseren Verhältnissen: Bronze, Schamotte und später Rohstahl.", "", "&6So gehts", "Neben den Kessel stellen. Legt man Kupfer- und Zinnstaub hinein, entsteht Bronzestaub. Er macht auch Bruchstein und Ton.", "", "&6Wofür ist das wichtig?", "Spart Material gegenüber dem Mischen im Handwerkstisch."]
+			dependencies: ["0A48575E5B1895F5"]
 			id: "4C454C552CE9303A"
 			title: "Bronzemischer"
 			rewards: [{ id: "9F706196EF93D5E7", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "9EE9A90FF55A5C3A", type: "item", item: { id: "modern_industrialization:bronze_mixer", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 34.50d
+			y: -30.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Macht aus 3 zerkleinerten Stäuben oder Roherzen 4,5 Staub. Er kann auch viele Materialien recyceln.", "", "&6So gehts", "Dampf anschließen und Roherz einlegen.", "", "&6Wofür ist das wichtig?", "Das ist die beste Art, deine Erze aufzustocken."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "53823AD656A93EFE"
 			title: "Bronzezerkleinerer"
 			rewards: [{ id: "FB1E48FFB074347B", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "1539F005ECCDB3E7", type: "item", item: { id: "modern_industrialization:bronze_macerator", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["53823AD656A93EFE"]
 			description: ["&6Was ist das?", "Schneidet Bolzen, Zahnräder, Ringe und Stäbe mit besserer Ausbeute.", "", "&6So gehts", "Dampf anschließen. Pro Einsatz verbraucht sie etwas Schmiermittel.", "", "&6Wofür ist das wichtig?", "Wichtig für Teile, die du später massenhaft brauchst."]
+			dependencies: ["53823AD656A93EFE"]
 			id: "5ED23422F7F155D5"
 			title: "Bronzefräse"
 			rewards: [{ id: "ECDF3F4D362528EF", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "B13AFC99924F533F", type: "item", item: { id: "modern_industrialization:bronze_cutting_machine", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["5ED23422F7F155D5"]
 			description: ["&6Was ist das?", "Ein Ofen, der mit Dampf läuft. Er ist so langsam wie ein normaler Ofen, braucht aber nur ein Zehntel des Brennstoffs.", "", "&6So gehts", "Dampf anschließen und Gegenstände einlegen.", "", "&6Wofür ist das wichtig?", "Spart Kohle bei großen Mengen."]
+			dependencies: ["5ED23422F7F155D5"]
 			id: "DBA716B5081C4F9B"
 			title: "Bronzeofen"
 			rewards: [{ id: "B80F3A779D20241D", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "BDB566EBE9378B9F", type: "item", item: { id: "modern_industrialization:bronze_furnace", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["DBA716B5081C4F9B"]
 			description: ["&6Was ist das?", "Das wichtigste Werkzeug dieser Mod.", "", "&6So gehts", "Rechtsklick dreht eine Maschine, Umschalt+Rechtsklick dreht ihre Ausgabeseite.", "Mit dem Schlüssel in der Hand siehst du bei Mehrblock-Bauten fehlende Blöcke und Fehler.", "Achtung: Mit dem Schlüssel abgebaut lässt eine Maschine nichts fallen. Dafür nimmst du eine Spitzhacke.", "", "&6Wofür ist das wichtig?", "Du brauchst ihn für Rohre, Maschinen und jeden Mehrblock-Bau."]
+			dependencies: ["DBA716B5081C4F9B"]
 			id: "9DED5FE360E51507"
 			title: "Der Schraubenschlüssel"
 			rewards: [{ id: "EB0ACC8A78312C5A", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "63EC3389B375AF26", type: "item", item: { id: "modern_industrialization:wrench", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["9DED5FE360E51507"]
 			description: ["&6Was ist das?", "Jede Maschine nimmt Eingaben von allen Seiten an und hat eine Ausgabeseite.", "", "&6So gehts", "Im Menü schaltest du das automatische Auswerfen ein. Ein Schloss sperrt einen Slot auf eine Sorte, mit dem Mausrad senkst du die Stapelgröße.", "Trichter, Rohre und andere Automatik können aus jeder Seite entnehmen.", "Die Bronze-Luke, die du hier abgibst, brauchst du gleich für den Koksofen.", "", "&6Wofür ist das wichtig?", "So automatisierst du später ganze Fertigungsstraßen."]
+			dependencies: ["9DED5FE360E51507"]
 			id: "EC4604BB3BE0E021"
 			title: "Maschinen einstellen"
 			rewards: [{ id: "77B9F5C1F7221D31", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "E43CF9A43007C173", type: "item", item: { id: "modern_industrialization:bronze_item_input_hatch", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["EC4604BB3BE0E021"]
 			description: ["&6Was ist das?", "Transportiert Flüssigkeiten zwischen Maschinen und Tanks.", "", "&6So gehts", "Bis zu 3 Rohre passen in einen Block, Rohre verschiedener Farben verbinden sich nicht.", "Ein Rohr enthält nur eine Flüssigkeit und verbindet sich nicht von allein mit leeren Rohren. Schlüssel-Rechtsklick ändert die Verbindung, in die Mitte klicken erzwingt sie.", "", "&6Wofür ist das wichtig?", "Für Wasser zum Kessel, Dampf und später Öl."]
+			dependencies: ["EC4604BB3BE0E021"]
 			id: "902CA1809C5BEC6C"
 			title: "Flüssigkeitsrohr"
 			rewards: [{ id: "F3086E12803B0037", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "F4013545BC791D51", type: "item", item: { id: "modern_industrialization:fluid_pipe", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["902CA1809C5BEC6C"]
 			description: ["&6Was ist das?", "Transportiert Gegenstände, etwa 16 alle paar Sekunden.", "", "&6So gehts", "Rechtsklick auf eine Verbindung ohne Schlüssel öffnet den Filter. Standardmäßig ist er eine Erlaubnisliste: es wird nichts bewegt, bis du Gegenstände einträgst oder auf Sperrliste umstellst.", "Konfiguriere beide Enden des Rohrs, sonst bewegt sich nichts. Mit Motoren lässt es sich aufrüsten.", "", "&6Wofür ist das wichtig?", "Dein Transportsystem zwischen Maschinen und Lagern."]
+			dependencies: ["902CA1809C5BEC6C"]
 			id: "C9F71E8974B8BC76"
 			title: "Gegenstandsrohr"
 			rewards: [{ id: "E091D1A6FBC5F230", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "4DC34C88D1552BFA", type: "item", item: { id: "modern_industrialization:item_pipe", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["C9F71E8974B8BC76"]
 			description: ["&6Was ist das?", "Eine Pumpe, die Wasser selbst nachliefert.", "", "&6So gehts", "Umgib sie seitlich mit Wasserblöcken. Pro angrenzender Quelle gibt sie alle 5 Sekunden 1/8 Eimer, höchstens 1 Eimer alle 5 Sekunden, und kostet 1 EU/t.", "Das Wasser geht automatisch an die Maschine auf ihrer Ausgabeseite.", "", "&6Wofür ist das wichtig?", "Automatischer Wassernachschub für den Kessel."]
+			dependencies: ["C9F71E8974B8BC76"]
 			id: "63CA735E130DC614"
 			title: "Bronzepumpe"
 			rewards: [{ id: "4E6EA38AA9245A08", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "7DF7165362C483A4", type: "item", item: { id: "modern_industrialization:bronze_water_pump", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["63CA735E130DC614"]
 			description: ["&6Was ist das?", "Ein Tank für 4 Eimer Flüssigkeit, auch in der Welt platzierbar.", "", "&6So gehts", "Rechtsklick mit Eimern oder anderen Tanks füllt und leert ihn. Tanks mit gleichem Inhalt stapeln sich im Inventar.", "", "&6Wofür ist das wichtig?", "Zwischenlager für Wasser, Öl und Co."]
+			dependencies: ["63CA735E130DC614"]
 			id: "B2617AD1D233EE8C"
 			title: "Bronzetank"
 			rewards: [{ id: "840455E48586B5E5", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "DAAEE69C004660EF", type: "item", item: { id: "modern_industrialization:bronze_tank", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["B2617AD1D233EE8C"]
 			description: ["&6Was ist das?", "Speichert 32 Stapel einer Sorte.", "", "&6So gehts", "Rechtsklick gibt einen Stapel hinein (mit Umschalt so viel wie möglich), Linksklick nimmt einen Stapel heraus (mit Umschalt nur einen Gegenstand).", "Beim Abbauen behält das Fass seinen Inhalt.", "", "&6Wofür ist das wichtig?", "Platzsparendes Lager, ideal für Maschinen-Eingänge."]
+			dependencies: ["B2617AD1D233EE8C"]
 			id: "E65395A6DED1E8FF"
 			title: "Bronzefass"
 			rewards: [{ id: "1731BE477E079629", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "413D1B47E0A0D008", type: "item", item: { id: "modern_industrialization:bronze_barrel", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 37.50d
+			y: -33.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Die erste Mehrblock-Maschine: Sie macht aus Kohle Koks, dem Weg zu Stahl.", "", "&6So gehts", "Du brauchst den Koksofen als Steuerblock (Controller), 21 Ziegel und 3 Luken: Gegenstands-Eingang, Gegenstands-Ausgang und Flüssigkeits-Eingang für Dampf. Optional ein Flüssigkeits-Ausgang für Kreosot.", "Halte den Schraubenschlüssel in der Hand, um fehlende Blöcke zu sehen. Mit einer Luke in der Hand siehst du, wo sie hin darf. Fehlt eine Luke, startet er nicht.", "Steht „Form gültig“, fülle den Eingang mit Dampf und Kohle.", "", "&6Wofür ist das wichtig?", "Koks ist der Grundstoff für Stahl und ein starker Brennstoff."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "7D64281ACD707388"
 			title: "Der Koksofen"
 			rewards: [{ id: "187E744A0A516B58", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "82B0797D309F08CC", type: "item", item: { id: "modern_industrialization:coke_oven", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["7D64281ACD707388"]
 			description: ["&6Was ist das?", "Gebrannte Kohle. Als Brennstoff hält Koks viermal so lange wie Kohle.", "", "&6So gehts", "Lass den Koksofen laufen und hole Koks aus dem Ausgang.", "", "&6Wofür ist das wichtig?", "Koks wird zu Koksstaub für Stahl und später für Gummi."]
+			dependencies: ["7D64281ACD707388"]
 			id: "03B69C3DEDBCF753"
 			title: "Koks"
 			rewards: [{ id: "FD0E343BBC767776", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "98EF57A426DB90C0", type: "item", item: { id: "modern_industrialization:coke", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["03B69C3DEDBCF753"]
 			description: ["&6Was ist das?", "Hier entsteht Stahl.", "", "&6So gehts", "Zerkleinere Koks zu Koksstaub und mische ihn mit Eisen zu ungekochtem Stahlstaub. Im Mischer wird das Verhältnis besser.", "Aufbau: Steuerblock, 29 Schamottesteine und dieselben drei Luken wie beim Koksofen. Er sieht aus wie der Koksofen mit einer zusätzlichen hohlen Schicht oben.", "", "&6Wofür ist das wichtig?", "Stahl brauchst du für fast alle besseren Maschinen."]
+			dependencies: ["03B69C3DEDBCF753"]
 			id: "A2503E1A08096B62"
 			title: "Der Dampfhochofen"
 			rewards: [{ id: "D514C3BAABF12112", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "3363D51A585C7CB9", type: "item", item: { id: "modern_industrialization:steam_blast_furnace", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["A2503E1A08096B62"]
 			description: ["&6Was ist das?", "Stahl ist stabiler als Bronze und das Material der zweiten Dampfstufe.", "", "&6So gehts", "Ungekochten Stahlstaub im Dampfhochofen verarbeiten.", "", "&6Wofür ist das wichtig?", "Mit Stahl baust du den Steinbruch und alles Weitere."]
+			dependencies: ["A2503E1A08096B62"]
 			id: "E87E5D54C5B7243D"
 			title: "Dein erster Stahl"
 			rewards: [{ id: "F282CBE9DF18FDAA", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "6F8621407D501E94", type: "item", item: { id: "modern_industrialization:steel_ingot", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["E87E5D54C5B7243D"]
 			description: ["&6Was ist das?", "Verbessert Bronzemaschinen zu Stahlmaschinen.", "", "&6So gehts", "Im Handwerkstisch auf eine Bronzemaschine anwenden, oder mit Umschalt+Rechtsklick direkt auf die Maschine.", "Stahlmaschinen schaffen Rezepte bis 4 EU/t und arbeiten doppelt so schnell. Ein Stahlkessel liefert doppelt so viel Dampf, ein Stahltank fasst 16 Eimer, die Stahlpumpe liefert doppelt so viel Wasser.", "Ein Mehrblock mit mindestens einer Stahl-Luke wird ebenfalls zur Stahlstufe.", "", "&6Wofür ist das wichtig?", "Doppelte Geschwindigkeit ohne neue Maschinen."]
+			dependencies: ["E87E5D54C5B7243D"]
 			id: "1F4C25C7E7BB4DF2"
 			title: "Stahl-Upgrade"
 			rewards: [{ id: "59C8B7AEFDBF4906", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "F3BB09626BDDF2EA", type: "item", item: { id: "modern_industrialization:steel_upgrade", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["1F4C25C7E7BB4DF2"]
 			description: ["&6Was ist das?", "Erledigt einfache Handwerksrezepte automatisch, zum Beispiel Doppelbarren und Rohre.", "", "&6So gehts", "Rezepte siehst du in JEI. Der Packer ist erst ab Stahlstufe verfügbar.", "", "&6Wofür ist das wichtig?", "Spart viel Handarbeit bei Massenproduktion."]
+			dependencies: ["1F4C25C7E7BB4DF2"]
 			id: "A3C4B9F05190DFE4"
 			title: "Stahl-Packer"
 			rewards: [{ id: "B4CDDAB91EF7E001", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "C3494333FD113D15", type: "item", item: { id: "modern_industrialization:steel_packer", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["A3C4B9F05190DFE4"]
 			description: ["&6Was ist das?", "Das Gegenstück zum Packer: macht Barren aus Blöcken und Ähnliches.", "", "&6So gehts", "Rezepte siehst du in JEI.", "", "&6Wofür ist das wichtig?", "Praktisch, wenn du aus Blöcken wieder Rohstoffe brauchst."]
+			dependencies: ["A3C4B9F05190DFE4"]
 			id: "650669C7B50A7352"
 			title: "Stahl-Entpacker"
 			rewards: [{ id: "581E170703B111C2", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "1431A9D1D07FF12A", type: "item", item: { id: "modern_industrialization:steel_unpacker", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["650669C7B50A7352"]
 			description: ["&6Was ist das?", "Vernichtet jeden Gegenstand und jede Flüssigkeit, die hineingeleitet wird.", "", "&6So gehts", "Halte ihn über einen Flüssigkeits-Tank einer Maschine und klicke, um den Tank direkt zu leeren.", "", "&6Wofür ist das wichtig?", "Verhindert, dass Produktionsstraßen verstopfen."]
+			dependencies: ["650669C7B50A7352"]
 			id: "93C16DFA0599027D"
 			title: "Mülleimer"
 			rewards: [{ id: "56EBCC982F933202", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "07CD92C6D8CE72C2", type: "item", item: { id: "modern_industrialization:trash_can", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["93C16DFA0599027D"]
 			description: ["&6Was ist das?", "Verbrauchsmaterial für den Steinbruch.", "", "&6So gehts", "Rezept in JEI ansehen. Der Steinbruch verbraucht Bohrer, wenn er arbeitet.", "", "&6Wofür ist das wichtig?", "Ohne Bohrer läuft kein Steinbruch."]
+			dependencies: ["93C16DFA0599027D"]
 			id: "0A474000D9FC7439"
 			title: "Bronzebohrer"
 			rewards: [{ id: "2BE88D32C04B6B87", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "EBAA7B93B4C79B79", type: "item", item: { id: "modern_industrialization:bronze_drill", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["0A474000D9FC7439"]
 			description: ["&6Was ist das?", "Ein Mehrblock-Bau, der automatisch unter der Welt nach Erzen gräbt.", "", "&6So gehts", "Er verbraucht Bronzebohrer, gräbt tiefer als bis zur Grundgesteinsschicht und liefert Erze, siehe JEI.", "Du brauchst sehr viel Stahl. Lass vorher mehrere Dampfhochöfen laufen.", "", "&6Wofür ist das wichtig?", "Das Ziel der Dampfzeit: unendlich Rohstoffe, ohne selbst zu graben."]
+			dependencies: ["0A474000D9FC7439"]
 			id: "27C576C9FC50DBDB"
 			title: "Dampfsteinbruch"
 			rewards: [{ id: "194A711DF3DBC4DC", type: "xp_levels", xp_levels: 7 }]
 			tasks: [{ id: "8D4C8EE9BE0240BA", type: "item", item: { id: "modern_industrialization:steam_quarry", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 40.50d
+			y: -36.00d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Ab hier läuft alles mit Strom. Elektromaschinen sind wie Dampfmaschinen, übertakten aber stufenlos bis 32 EU/t.", "Das Ziel: Baue Anlagen, die du dauerhaft ausbaust. Die volle Leistung erreichen Elektromaschinen im Dauerbetrieb.", "", "&6So gehts", "Die Quests unten führen dich von der ersten Turbine bis zur Ölraffinerie.", "", "&6Wofür ist das wichtig?", "Starke Technik ohne Zauberei, aber mit Planung."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "B71DDE9CF520B862"
 			title: "Die Elektrozeit"
 			rewards: [{ id: "5D54B9953A0DF190", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "68938CCF419BF4D1", type: "checkmark" }]
 			x: 0.00d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["B71DDE9CF520B862"]
 			description: ["&6Was ist das?", "Wandelt Dampf in Strom (EU) um: 1 mb Dampf wird zu 1 EU, bis zu 32 mb pro Tick.", "", "&6So gehts", "Sie gibt Strom nur an Kabel auf ihrer Ausgabeseite ab. Sie hat die Stufe LV (Niederspannung).", "Kabel haben eine Stufe: Kupfer, Silber und Zinn sind LV, Kupfernickel und Elektrum sind MV.", "", "&6Wofür ist das wichtig?", "Die erste Stromquelle."]
+			dependencies: ["B71DDE9CF520B862"]
 			id: "24C9F1CD29645A91"
 			title: "LV Dampfturbine"
 			rewards: [{ id: "198E7BCEB139EDBA", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "AD3E54EE4EA40B34", type: "item", item: { id: "modern_industrialization:lv_steam_turbine", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["24C9F1CD29645A91"]
 			description: ["&6Was ist das?", "Gummi isoliert Kabel.", "", "&6So gehts", "Mische Koksstaub mit Wasser im Mischer zu Rohem Syntheseöl, verbrenne es im Dampfhochofen zu Syntheseöl und kombiniere es mit Papier zu Gummiplatten.", "Papier lässt sich aus Holzbrei herstellen. Automatisiere das möglichst früh.", "", "&6Wofür ist das wichtig?", "Ohne Gummi keine Kabel."]
+			dependencies: ["24C9F1CD29645A91"]
 			id: "FF19532D7660654A"
 			title: "Gummi"
 			rewards: [{ id: "63338A82A2E45A3E", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "D184DE5569312EE7", type: "item", item: { id: "modern_industrialization:rubber_sheet", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["FF19532D7660654A"]
 			description: ["&6Was ist das?", "Macht aus Barren Draht.", "", "&6So gehts", "Strom anschließen und Barren einlegen. Rezepte in JEI.", "", "&6Wofür ist das wichtig?", "Aus Draht und Gummi werden Kabel."]
+			dependencies: ["FF19532D7660654A"]
 			id: "76BBAC9DA6093725"
 			title: "Elektrische Drahtmühle"
 			rewards: [{ id: "39D7F190165E185B", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "A9623861CFCF4970", type: "item", item: { id: "modern_industrialization:electric_wiremill", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["76BBAC9DA6093725"]
 			description: ["&6Was ist das?", "Kabel leiten Strom. Draht plus Gummi ergibt ein Kabel.", "", "&6So gehts", "Ein LV-Netz zieht höchstens 256 EU/t in sich hinein, MV 1024 EU/t, HV 8192 EU/t. Kurzzeitig kann ein LV-Netz mehr liefern, weil Kabel etwas speichern.", "Einzelblock-Elektromaschinen verbinden sich nur mit LV-Kabeln. Für mehr Leistung brauchst du mehrere Netze oder Transformatoren.", "", "&6Wofür ist das wichtig?", "Das Rückgrat jeder Elektro-Anlage."]
+			dependencies: ["76BBAC9DA6093725"]
 			id: "24FA6E196972CE1A"
 			title: "Kabel"
 			rewards: [{ id: "6937816F21D506E8", type: "xp_levels", xp_levels: 8 }]
 			tasks: [{ id: "FD5989C7D0B9F8D4", type: "item", item: { id: "modern_industrialization:tin_cable", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["24FA6E196972CE1A"]
 			description: ["&6Was ist das?", "Das erste Elektronik-Bauteil.", "", "&6So gehts", "Rezept in JEI ansehen.", "", "&6Wofür ist das wichtig?", "Schaltet viele Maschinen frei, zum Beispiel die Konfigurierbare Kiste."]
+			dependencies: ["24FA6E196972CE1A"]
 			id: "D9D3813FF05B7FEE"
 			title: "Analoger Schaltkreis"
 			rewards: [{ id: "5425858A2118642D", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "70D312305821DD08", type: "item", item: { id: "modern_industrialization:analog_circuit", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["D9D3813FF05B7FEE"]
 			description: ["&6Was ist das?", "Automatisiert fast alle Rezepte, bis zu 3 pro Fertiger mit Slotsperre.", "", "&6So gehts", "Automatisiere früh Maschinenhülle, Analoge Schaltkreise, Motoren, Kolben, Roboterarme und Förderbänder.", "Dann ist der Bau neuer Elektromaschinen praktisch kostenlos.", "", "&6Wofür ist das wichtig?", "Der wichtigste Baustein deiner Fabrik."]
+			dependencies: ["D9D3813FF05B7FEE"]
 			id: "C29475CC661C679E"
 			title: "Der Fertiger"
 			rewards: [{ id: "390159971EF0EB24", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "0E9229E73DB3E6EF", type: "item", item: { id: "modern_industrialization:assembler", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["C29475CC661C679E"]
 			description: ["&6Was ist das?", "Eine Kiste mit 27 einstellbaren Slots und automatischem Auswerfen.", "", "&6So gehts", "Du brauchst Analoge Schaltkreise für das Rezept.", "", "&6Wofür ist das wichtig?", "Ideal für Automatisierung."]
+			dependencies: ["C29475CC661C679E"]
 			id: "CEF4E3718B6A1297"
 			title: "Konfigurierbare Kiste"
 			rewards: [{ id: "FAE8F7422C0D1D27", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "A7A08094F6F91622", type: "item", item: { id: "modern_industrialization:configurable_chest", count: 1 }, count: 1L }]
 			x: 10.50d
-			y: 43.50d
+			y: 28.50d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Mit Schmiermittel übertaktest du eine Elektromaschine von Hand.", "", "&6So gehts", "Mische Kreosot und Redstone zu Schmiermittel. Rechtsklick auf eine Elektromaschine mit einem Eimer. Je 25 mb gibt 1 Effizienz-Tick.", "", "&6Wofür ist das wichtig?", "Mehr Tempo, wenn du es brauchst."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "A9341A959AC4CFBE"
 			title: "Schmiermittel"
 			rewards: [{ id: "69311EF70D643E1D", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "7C979156D3909E27", type: "item", item: { id: "modern_industrialization:lubricant_bucket", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 46.50d
+			y: 31.50d
 		}
 		{
-			dependencies: ["A9341A959AC4CFBE"]
 			description: ["&6Was ist das?", "Erhöht die Übertaktungsgrenze einer Maschine.", "", "&6So gehts", "Einzelmaschinen übertakten bis 32 EU/t, Mehrblock-Maschinen bis 128 EU/t. Lege Upgrades im Menü der Maschine ein. Mengen in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Leistung, ohne neu zu bauen."]
+			dependencies: ["A9341A959AC4CFBE"]
 			id: "3482DA64E131AD8E"
 			title: "Overclock-Upgrade"
 			rewards: [{ id: "027E0A3FDDEB8643", type: "xp_levels", xp_levels: 9 }]
 			tasks: [{ id: "2E8D421B49C72632", type: "item", item: { id: "modern_industrialization:basic_upgrade", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 46.50d
+			y: 31.50d
 		}
 		{
-			dependencies: ["3482DA64E131AD8E"]
 			description: ["&6Was ist das?", "Steuert das Verhalten einer Maschine mit Redstone.", "", "&6So gehts", "Stelle das Modul in der Hand ein und lege es dann in die Maschine oder den Steuerblock.", "", "&6Wofür ist das wichtig?", "Für automatische Ein- und Ausschalter."]
+			dependencies: ["3482DA64E131AD8E"]
 			id: "8495DF9F91C194AD"
 			title: "Redstone-Steuermodul"
 			rewards: [{ id: "83FADE568B6CDD2E", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "9AED50C41F753307", type: "item", item: { id: "modern_industrialization:redstone_control_module", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 46.50d
+			y: 31.50d
 		}
 		{
-			dependencies: ["8495DF9F91C194AD"]
 			description: ["&6Was ist das?", "Polarisiert Gegenstände. Er hat noch wenige Rezepte, ist aber nützlich, um Motoren zu automatisieren.", "", "&6So gehts", "Rezepte in JEI ansehen.", "", "&6Wofür ist das wichtig?", "Teil der Motor-Produktion."]
+			dependencies: ["8495DF9F91C194AD"]
 			id: "37A718A1F4442956"
 			title: "Der Polarisierer"
 			rewards: [{ id: "DD7DB4806DC535D6", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "3E7D98454F21525C", type: "item", item: { id: "modern_industrialization:polarizer", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 46.50d
+			y: 31.50d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Die elektrische Version des Dampfhochofens. Er schaltet neue Rezepte frei.", "", "&6So gehts", "Aufbau: eine Schicht Hitzefeste Maschinengehäuse, zwei hohle Schichten Kupfernickelspulen und eine weitere Schicht Hitzefeste Gehäuse. Der Steuerblock sitzt unten, Luken oben oder unten.", "Vergiss die Energie-Eingangsluke nicht, sonst hat er keinen Strom. Die LV-Luke verbindet sich nur mit LV-Kabeln.", "", "&6Wofür ist das wichtig?", "Für Aluminium, Edelstahl und viele weitere Metalle."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "34E0EEA302C65103"
 			title: "Elektrischer Hochofen"
 			rewards: [{ id: "4BB9C3C348304565", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "1FF0F1561FDDA893", type: "item", item: { id: "modern_industrialization:electric_blast_furnace", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 49.50d
+			y: 34.50d
 		}
 		{
-			dependencies: ["34E0EEA302C65103"]
 			description: ["&6Was ist das?", "Ein Material für fortgeschrittene Maschinen.", "", "&6So gehts", "Bauxitstaub im Elektrischen Hochofen ergibt Aluminium-Nuggets. Besser: im Elektrolyseur Bauxitstaub zu Aluminiumstaub verarbeiten und diesen im Hochofen schmelzen.", "", "&6Wofür ist das wichtig?", "Weitere Maschinen brauchen Aluminium."]
+			dependencies: ["34E0EEA302C65103"]
 			id: "092806EEFC13511D"
 			title: "Aluminium"
 			rewards: [{ id: "4886651178C1D2AF", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "D23326B62AE5F265", type: "item", item: { id: "modern_industrialization:aluminum_ingot", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 49.50d
+			y: 34.50d
 		}
 		{
-			dependencies: ["092806EEFC13511D"]
 			description: ["&6Was ist das?", "Trennt Gegenstände durch schnelles Drehen. Sie liefert zum Beispiel Kohlenstoffstaub für besseren Stahl und Silizium.", "", "&6So gehts", "Strom anschließen. Rezepte in JEI.", "", "&6Wofür ist das wichtig?", "Besseres Material aus bekannten Rohstoffen."]
+			dependencies: ["092806EEFC13511D"]
 			id: "1D2F66CD47A2047A"
 			title: "Zentrifuge"
 			rewards: [{ id: "94DAB42CD333AD82", type: "xp_levels", xp_levels: 10 }]
 			tasks: [{ id: "0B97D5D232F009B5", type: "item", item: { id: "modern_industrialization:centrifuge", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 49.50d
+			y: 34.50d
 		}
 		{
-			dependencies: ["1D2F66CD47A2047A"]
 			description: ["&6Was ist das?", "Lässt Gegenstände und Flüssigkeiten miteinander reagieren.", "", "&6So gehts", "Strom anschließen. Rezepte in JEI.", "", "&6Wofür ist das wichtig?", "Grundlage der Kunststoff- und Chemie-Produktion."]
+			dependencies: ["1D2F66CD47A2047A"]
 			id: "3FC379C772D125CB"
 			title: "Chemischer Reaktor"
 			rewards: [{ id: "F4A0CA5563A63695", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "E1D21D686B3628C3", type: "item", item: { id: "modern_industrialization:chemical_reactor", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 49.50d
+			y: 34.50d
 		}
 		{
-			dependencies: ["3FC379C772D125CB"]
 			description: ["&6Was ist das?", "Zerlegt Flüssigkeiten in leichtere Bestandteile. Sie ist die Grundlage der Ölverarbeitung.", "", "&6So gehts", "Strom anschließen. Rezepte in JEI.", "", "&6Wofür ist das wichtig?", "Ohne Destillerie kein Treibstoff."]
+			dependencies: ["3FC379C772D125CB"]
 			id: "8EC9C704907C7966"
 			title: "Destillerie"
 			rewards: [{ id: "DAC5D4E1400F0C0C", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "C8D8321C107B63C0", type: "item", item: { id: "modern_industrialization:distillery", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 49.50d
+			y: 34.50d
 		}
 		{
-			dependencies: ["8EC9C704907C7966"]
 			description: ["&6Was ist das?", "Trennt Materialien mit starkem Strom in ihre Bestandteile.", "", "&6So gehts", "Strom anschließen. Rezepte in JEI.", "", "&6Wofür ist das wichtig?", "Für Aluminium und viele Chemie-Rezepte."]
+			dependencies: ["8EC9C704907C7966"]
 			id: "DB82AFD05BC2D5BC"
 			title: "Elektrolyseur"
 			rewards: [{ id: "B3388F39E65F04DB", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "0248739C334B5ACC", type: "item", item: { id: "modern_industrialization:electrolyzer", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 49.50d
+			y: 34.50d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Ein größerer Kessel, der bei voller Hitze 256 mb Dampf pro Tick liefert.", "", "&6So gehts", "Aufbau: Bronzeplattierte Ziegel, Rohr-Gehäuse aus Bronze in der Mitte und Hitzefeste Gehäuse. Eine Schicht Hitzefeste Gehäuse unten, darüber drei Schichten Bronzeplattierte Ziegel. Der Steuerblock sitzt in der zweiten Schicht, die Luken in der untersten.", "Er erzeugt bei Gegenstands-Brennstoff doppelt so viel Energie. Ungenutzte Wärme geht zu 80 Prozent verloren, er lohnt sich also nur unter Volllast.", "", "&6Wofür ist das wichtig?", "Viel Dampf für Turbinen."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "839A1E0A742C9851"
 			title: "Großer Dampfkessel"
 			rewards: [{ id: "3E6876FC8E3283AD", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "766599B856EE82B4", type: "item", item: { id: "modern_industrialization:large_steam_boiler", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 52.50d
+			y: 37.50d
 		}
 		{
-			dependencies: ["839A1E0A742C9851"]
 			description: ["&6Was ist das?", "Die elektrische Variante des Dampfsteinbruchs. Gib ihm Bohrer und Strom.", "", "&6So gehts", "Aufbau wie beim Dampfsteinbruch.", "", "&6Wofür ist das wichtig?", "Viel mehr Rohstoffe."]
+			dependencies: ["839A1E0A742C9851"]
 			id: "EA5A7DF42F850623"
 			title: "Elektrischer Steinbruch"
 			rewards: [{ id: "80492BC8509C1313", type: "xp_levels", xp_levels: 11 }]
 			tasks: [{ id: "5A2361C7C457F424", type: "item", item: { id: "modern_industrialization:electric_quarry", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 52.50d
+			y: 37.50d
 		}
 		{
-			dependencies: ["EA5A7DF42F850623"]
 			description: ["&6Was ist das?", "Gewinnt Rohöl unter dem Grundgestein, wie ein Steinbruch für Öl.", "", "&6So gehts", "Aufbau: Stahl-Maschinengehäuse, Stahl-Rohrgehäuse und Ketten. Wichtig sind eine Gegenstands-Eingangsluke für Bohrer, eine Flüssigkeits-Ausgangsluke und eine Energie-Eingangsluke.", "", "&6Wofür ist das wichtig?", "Aus Rohöl werden Treibstoffe, Gummi und viele Nebenprodukte."]
+			dependencies: ["EA5A7DF42F850623"]
 			id: "04529EA02E03FAA6"
 			title: "Erdölbohranlage"
 			rewards: [{ id: "7A56320C591FC6B3", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "5721CD8AD4F081D8", type: "item", item: { id: "modern_industrialization:oil_drilling_rig", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 52.50d
+			y: 37.50d
 		}
 		{
-			dependencies: ["04529EA02E03FAA6"]
 			description: ["&6Was ist das?", "Wandelt Treibstoff in Strom um, bis zu 256 EU/t. Er verbindet sich nur mit MV-Kabeln.", "", "&6So gehts", "Treibstoffe probierst du in JEI aus. Kreosot funktioniert schon.", "", "&6Wofür ist das wichtig?", "Mehr Strom auf kleinem Raum."]
+			dependencies: ["04529EA02E03FAA6"]
 			id: "44E58DE4C13664DB"
 			title: "MV Dieselgenerator"
 			rewards: [{ id: "2E87A0758348AB1F", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "D727B7BA418D3480", type: "item", item: { id: "modern_industrialization:mv_diesel_generator", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 52.50d
+			y: 37.50d
 		}
 		{
-			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Das nächste Metall, von dem du viel brauchst.", "", "&6So gehts", "Edelstahlstaub im Elektrischen Hochofen ergibt heiße Barren. Im Vakuumgefrierer kühlst du sie wieder zu normalen Barren.", "", "&6Wofür ist das wichtig?", "Für Tanks, Rohre und Maschinengehäuse der nächsten Stufe."]
+			dependencies: ["63064054BBFD8FB1"]
 			id: "21D5F60C690614A5"
 			title: "Edelstahl"
 			rewards: [{ id: "5B434A14AA481A65", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "8F9B35BD8BC8DAC0", type: "item", item: { id: "modern_industrialization:stainless_steel_ingot", count: 1 }, count: 1L }]
 			x: 0.00d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["21D5F60C690614A5"]
 			description: ["&6Was ist das?", "Kühlt heiße Barren.", "", "&6So gehts", "Das Handbuch zeigt den genauen Aufbau, den Schlüssel in der Hand ebenfalls.", "", "&6Wofür ist das wichtig?", "Der Weg zu Edelstahl."]
+			dependencies: ["21D5F60C690614A5"]
 			id: "FEBDA9423A67AC3C"
 			title: "Vakuumgefrierer"
 			rewards: [{ id: "471D18622D0E043B", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "985AB5084844A7B7", type: "item", item: { id: "modern_industrialization:vacuum_freezer", count: 1 }, count: 1L }]
 			x: 1.50d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["FEBDA9423A67AC3C"]
 			description: ["&6Was ist das?", "Liefert pro Schicht eine Ausgabe, mehr als die einfache Destillerie. Je höher der Turm, desto mehr Nebenprodukte.", "", "&6So gehts", "Ein Turm der Größe 2 liefert die erste Ausgabe, Größe 3 die ersten beiden, und so weiter.", "", "&6Wofür ist das wichtig?", "Holt das Maximum aus dem Öl."]
+			dependencies: ["FEBDA9423A67AC3C"]
 			id: "5A2A58D9A7FCD4BF"
 			title: "Destillationsturm"
 			rewards: [{ id: "B068715ACDA57D8F", type: "xp_levels", xp_levels: 12 }]
 			tasks: [{ id: "262AF3F56BA53164", type: "item", item: { id: "modern_industrialization:distillation_tower", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["5A2A58D9A7FCD4BF"]
 			description: ["&6Was ist das?", "Das Bauteil der Mittelstufe.", "", "&6So gehts", "Rezept in JEI ansehen.", "", "&6Wofür ist das wichtig?", "Für Destillationsturm und viele Maschinen."]
+			dependencies: ["5A2A58D9A7FCD4BF"]
 			id: "6CE2AF0343FE4F05"
 			title: "Digitaler Schaltkreis"
 			rewards: [{ id: "2AC3A802D1651C04", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "194CE79569EE3381", type: "item", item: { id: "modern_industrialization:digital_circuit", count: 1 }, count: 1L }]
 			x: 4.50d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["6CE2AF0343FE4F05"]
 			description: ["&6Was ist das?", "Hebt eine Maschine auf die Stufe MV.", "", "&6So gehts", "Rechtsklick auf eine Maschine mit der Hülle. Danach akzeptiert sie nur MV-Kabel. Die Stufe lässt sich auch im Menü ändern.", "", "&6Wofür ist das wichtig?", "Mehr Leistung für bestehende Maschinen."]
+			dependencies: ["6CE2AF0343FE4F05"]
 			id: "BD27751B45E5C197"
 			title: "Hochentwickelte Maschinenhülle"
 			rewards: [{ id: "20818E848C05F200", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "44A0B2DE974F699B", type: "item", item: { id: "modern_industrialization:advanced_machine_hull", count: 1 }, count: 1L }]
 			x: 6.00d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["BD27751B45E5C197"]
 			description: ["&6Was ist das?", "Verhindert, dass die Effizienz einer Maschine sinkt, wenn sie nicht arbeitet.", "", "&6So gehts", "Die Maschine verbraucht dabei weiter Strom, als würde sie arbeiten. Fehlt der Strom, sinkt die Effizienz wie sonst.", "", "&6Wofür ist das wichtig?", "Für gleichmäßigen Betrieb."]
+			dependencies: ["BD27751B45E5C197"]
 			id: "38FA4E4DC4E0F4A2"
 			title: "Overdrive-Modul"
 			rewards: [{ id: "E8FC44481EB3C497", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "284DEF5D76CEAADA", type: "item", item: { id: "modern_industrialization:overdrive_module", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["38FA4E4DC4E0F4A2"]
 			description: ["&6Was ist das?", "Macht aus Treibstoff bis zu 16384 EU/t.", "", "&6So gehts", "Du brauchst Verarbeitungseinheiten und hochentwickelte Maschinenhüllen.", "", "&6Wofür ist das wichtig?", "Das Kraftwerk für große Anlagen."]
+			dependencies: ["38FA4E4DC4E0F4A2"]
 			id: "1B5038C13D635818"
 			title: "Großer Dieselgenerator"
 			rewards: [{ id: "9A8FB47D21273636", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "5072F306847BFA85", type: "item", item: { id: "modern_industrialization:large_diesel_generator", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 55.50d
+			y: 40.50d
 		}
 		{
-			dependencies: ["1B5038C13D635818"]
 			description: ["&6Was ist das?", "Danach folgen Hochdruck-Dampf, Implosionsverdichter, Kernreaktor, Fusionsreaktor und Quanten-Technik.", "", "&6So gehts", "Alles steht im Handbuch unter Mittelstufe und Endstufe. Diese Quests führen nur bis zur Mittelstufe.", "", "&6Wofür ist das wichtig?", "Die Endstufe ist sehr stark. Entscheide mit deinen Mitspielern, wie weit ihr gehen wollt."]
+			dependencies: ["1B5038C13D635818"]
 			id: "432965AFDDC289B5"
 			title: "Weiter geht es"
 			rewards: [{ id: "8F18A449A4AE208C", type: "xp_levels", xp_levels: 13 }]
 			tasks: [{ id: "EA9C2A2D78E55793", type: "checkmark" }]
 			x: 10.50d
-			y: 55.50d
+			y: 40.50d
 		}
 	]
 }

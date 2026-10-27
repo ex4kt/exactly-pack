@@ -420,7 +420,7 @@
 		}
 		{
 			dependencies: ["7752AE4A249A5EB3"]
-			description: ["&6Was ist das?", "Der Necromancer ruft Skelette. Besiege ihn.", "", "&6So gehts", "In Dungeons.", "", "&6Wofür ist das wichtig?", "Blut-Schriftrollen."]
+			description: ["&6Was ist das?", "Der Necromancer, ein Magier, der Skelette und Zombies ruft.", "", "&6Wo findest du ihn?", "In den Katakomben von Iron's Spells unter der Oberwelt (in vielen Biomen: Wald, Taiga, Ebene, Wüste, Sumpf, Hügel).", "", "&6Was brauchst du?", "Gute Rüstung, Bogen oder Fernkampf-Zauber, Heilung.", "", "&6So gehts", "Erst seine Diener erledigen, dann ihn. Er hält Abstand: verfolge ihn oder schieße.", "", "&6Beute", "Arkane Essenz und Schriftrollen."]
 			id: "1C765747185689E7"
 			title: "Der Totenbeschwörer"
 			rewards: [{ id: "01CA078F49250E93", type: "xp_levels", xp_levels: 6 }]
@@ -460,7 +460,7 @@
 		}
 		{
 			dependencies: ["5340EC175AEFCBE3"]
-			description: ["&6Was ist das?", "Der Citadel Keeper bewacht die Zitadelle. Ein harter Gegner.", "", "&6So gehts", "Zitadelle erkunden.", "", "&6Wofür ist das wichtig?", "Starke Beute."]
+			description: ["&6Was ist das?", "Der Uralte Ritter (Citadel Keeper) bewacht die Zitadelle.", "", "&6Wo findest du ihn?", "In der Zitadelle im Nether (in den Biomen der Bastionen, etwa auf Höhe 33).", "", "&6Was brauchst du?", "Netherit- oder gute Magie-Rüstung, Feuerresistenz, Heilung.", "", "&6So gehts", "Er schlägt hart mit seinem Flamberge zu. Ausweichen und nach seinen Hieben angreifen.", "", "&6Beute", "Aschenessenz und Netheritplatten."]
 			id: "04EF5409B5EAB371"
 			title: "Zitadellen-Wächter"
 			rewards: [{ id: "474C0024744EA290", type: "xp_levels", xp_levels: 10 }]
@@ -480,7 +480,7 @@
 		}
 		{
 			dependencies: ["6145C3A0D3F0E332"]
-			description: ["&6Was ist das?", "Der Feuerboss ist einer der stärksten Gegner von Irons Spells.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Seltene Beute."]
+			description: ["&6Was ist das?", "Echo von Tyros, dem Ersten Flammenträger: der Feuerboss von Iron's Spells.", "", "&6Wo findest du ihn?", "Er wird in der Zitadelle im Nether gerufen, an einer Aschenen Seelenrune.", "", "&6Was brauchst du?", "Einen Aschenen Seelenrufer (Rezept in JEI, braucht Aschenessenz vom Uralten Ritter). Dazu Feuerresistenz, Heilung, starke Rüstung.", "", "&6So gehts", "Benutze den Seelenrufer bei der Seelenrune. Tyros greift mit Feuer an: Feuerresistenz-Trank vorher trinken, in Bewegung bleiben.", "", "&6Beute", "Arkane Essenz, Aschenessenz, Göttlicher Seelensplitter, seltene Waffen und für jeden Spieler ein Verfallener Schlüssel."]
 			id: "34D1BD35BFBDF3D8"
 			title: "Feuerboss"
 			rewards: [{ id: "341A79464A4B3AA5", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
@@ -899,7 +899,7 @@
 		}
 		{
 			dependencies: ["449BF7C358F0A86C"]
-			description: ["&6Was ist das?", "Der Lich ist ein Magier mit Meteoren und Totenkopf-Beschwörung.", "", "&6So gehts", "Verzauberte Diamantrüstung, Feuerschutz, Heiltränke. Zerstöre zuerst seine Kristalle.", "", "&6Wofür ist das wichtig?", "Magie-Boss, der Zauberer-Fertigkeiten fordert."]
+			description: ["&6Was ist das?", "Der Lich aus Bosses of Mass Destruction (siehe auch Kapitel Bosse der Zerstörung).", "", "&6Wo findest du ihn?", "Im Lich-Turm in kalten Biomen (verschneite Taiga, Ebenen, Hänge, Eiszapfen, gefrorene Gipfel).", "", "&6Was brauchst du?", "4 Seelensterne: nach je 50 besiegten Untoten fällt einer. In die Luft geworfen fliegt er Richtung Turm.", "", "&6So gehts", "Im Turm die 4 Gemeißelten Steinaltäre mit je einem Seelenstern füllen. 300 Leben, verlangsamende Geschosse und Kometen: Fernkampf und ausweichen.", "", "&6Beute", "Antike Anima, Diamanten, Bücher."]
 			id: "54937D4D0780D58C"
 			title: "Lich"
 			rewards: [{ id: "21F8299FEEE3BD43", type: "xp_levels", xp_levels: 10 }, { id: "7316109A7525F144", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
@@ -1039,6 +1039,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Zauber-Waffen und Stäbe"]
+			dependencies: ["3BEB5C9EE91D54CF"]
 			id: "1C6170ECE58C96F1"
 			title: "Zauber-Waffen und Stäbe"
 			optional: true
@@ -1049,6 +1050,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Magie-Rüstungen"]
+			dependencies: ["3B9FB38CDC433B6A"]
 			id: "2B4FB27C0DB5000F"
 			title: "Magie-Rüstungen"
 			optional: true
@@ -1059,6 +1061,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Mithril, Ringe und Schmuck"]
+			dependencies: ["679A18FE536A076C"]
 			id: "5F03D9C694833BD6"
 			title: "Mithril, Ringe und Schmuck"
 			optional: true
@@ -1069,6 +1072,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Schwerter und Elixiere"]
+			dependencies: ["53528799012DD531"]
 			id: "4500D03A49A5C904"
 			title: "Schwerter und Elixiere"
 			optional: true
@@ -1079,6 +1083,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Runen und Upgrades"]
+			dependencies: ["76F11D27CBE5A57F"]
 			id: "0F2CD9E209A6B4D7"
 			title: "Runen und Upgrades"
 			optional: true
@@ -1089,6 +1094,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Bücher und Zauberer"]
+			dependencies: ["5C54807EC3EC2CDC"]
 			id: "1368D5B6A5F62A8B"
 			title: "Bücher und Zauberer"
 			optional: true
@@ -1099,6 +1105,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Hauptpfad-Ergänzungen"]
+			dependencies: ["46C833DCD22312A1"]
 			id: "066E615B8818D5EE"
 			title: "Hauptpfad-Ergänzungen"
 			optional: true
@@ -1106,6 +1113,178 @@
 			shape: "hexagon"
 			x: 3.00d
 			y: 3.00d
+		}
+		{
+			dependencies: ["46C833DCD22312A1"]
+			description: ["&6Was ist das?", "Ein großes Addon für Iron's Spells: zwei neue Zauberschulen (Nekro und Aero), über 90 Zauber, neue Monster, Erze und Rüstungen.", "", "&6So gehts", "Neue Erze findest du in der Welt, Monster-Beute brauchst du für Runen und Ausrüstung. Rezepte zeigt JEI.", "", "&6Wofür ist das wichtig?", "Mehr Magie-Fortschritt nach den Iron's-Spells-Grundlagen."]
+			icon: { id: "irons_spellbooks:iron_spell_book" }
+			id: "1F781F505D7F6EB5"
+			title: "Monsters & Spellbooks"
+			rewards: [{ id: "BB1BB28B19CBCE41", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5C4B4E867FF483A9", type: "checkmark" }]
+			x: 0.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["1F781F505D7F6EB5"]
+			description: ["&6Was ist das?", "Ein Metall aus dem Meer.", "", "&6So gehts", "Ozeanitklumpen findest du am Meeresgrund in Ton, Sand und Kies.", "", "&6Wofür ist das wichtig?", "Für Wasser-Ausrüstung und Hydro-Zauber."]
+			id: "9FD021745AE58FD8"
+			title: "Ozeanit"
+			rewards: [{ id: "CA9CF3159F1F1CC7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "49DF46056F761EF5", type: "item", item: { id: "monsterspellbooks:raw_oceanite", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["9FD021745AE58FD8"]
+			description: ["&6Was ist das?", "Ein seltenes Bergmetall.", "", "&6So gehts", "Orichalkumerz liegt in großer Höhe in Gebirgsbiomen.", "", "&6Wofür ist das wichtig?", "Für Orichalkum-Waffen."]
+			id: "EF87638816DF45BB"
+			title: "Orichalkum"
+			rewards: [{ id: "6DA99037AB509616", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7089001B5C1AB252", type: "item", item: { id: "monsterspellbooks:raw_orichalcum", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["EF87638816DF45BB"]
+			description: ["&6Was ist das?", "Ein Metall aus dem Nether.", "", "&6So gehts", "Höllenmetallerz findest du im Nether.", "", "&6Wofür ist das wichtig?", "Für feurige Ausrüstung."]
+			id: "C150C1BB9E2C4637"
+			title: "Höllenmetall"
+			rewards: [{ id: "73321C3098930341", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "370935222E17DE03", type: "item", item: { id: "monsterspellbooks:raw_scorched_metal", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["C150C1BB9E2C4637"]
+			description: ["&6Was ist das?", "Schrott der Zwergen-Automaten.", "", "&6So gehts", "Zwergen-Automaten lassen Zwergenlegierungsschrott fallen, einige spawnen in Gebirgen.", "", "&6Wofür ist das wichtig?", "Für Zwergen-Waffen und die Zwergeningenieur-Rüstung."]
+			id: "7B51615C3D71868F"
+			title: "Zwergenlegierung"
+			rewards: [{ id: "D72BCD77B2F562F0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3B63B0A221F10A6D", type: "item", item: { id: "monsterspellbooks:dwarven_alloy_scrap", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["7B51615C3D71868F"]
+			description: ["&6Was ist das?", "Die Rune der neuen Nekro-Schule (Flüche, Schaden über Zeit, Untote).", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für Nekro-Zauberbücher, Upgrades und Ausrüstung."]
+			id: "1A37186C595CB102"
+			title: "Nekro-Rune"
+			rewards: [{ id: "E91626307A02B6A9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "C851ADC35F70018E", type: "item", item: { id: "monsterspellbooks:necro_rune", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["1A37186C595CB102"]
+			description: ["&6Was ist das?", "Verstärkt Nekrozauber auf Ausrüstung.", "", "&6So gehts", "Rezept in JEI, am Arkanen Amboss anwenden.", "", "&6Wofür ist das wichtig?", "Mehr Nekrozauber-Stärke."]
+			id: "BA0B3AA638B49F8F"
+			title: "Nekro-Upgrade-Kugel"
+			rewards: [{ id: "6553C9A8875A66C2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "36CF03D006442CC2", type: "item", item: { id: "monsterspellbooks:necro_upgrade_orb", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["BA0B3AA638B49F8F"]
+			description: ["&6Was ist das?", "Die Rune der neuen Aero-Schule (Wind und Luft).", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für Aero-Zauber und Ausrüstung."]
+			id: "5EE137512C837A80"
+			title: "Aero-Rune"
+			rewards: [{ id: "3870D154DE9FFC70", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "9E157CDCF52CA816", type: "item", item: { id: "monsterspellbooks:aero_rune", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["5EE137512C837A80"]
+			description: ["&6Was ist das?", "Eine feste Kugel verbannter Seelen, der Schlüssel zum Lich-Dasein.", "", "&6So gehts", "Rezept in JEI. Ohne sie verflucht dich der Zauber Lich-Dasein.", "", "&6Wofür ist das wichtig?", "Mit Lich-Dasein kannst du einmal wiederauferstehen."]
+			id: "10A1F534BDD3E551"
+			title: "Kugel der Seelen"
+			rewards: [{ id: "A3FE316324C68008", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "48453D921206E941", type: "item", item: { id: "monsterspellbooks:orb_soul", count: 1 }, count: 1L }]
+			x: 12.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["46C833DCD22312A1"]
+			description: ["&6Was ist das?", "Monsters & Spellbooks bringt zaubernde Monster mit eigener Beute.", "", "&6So gehts", "Besiege die Monster dieser Reihe. Jedes lässt Materialien für Runen und Ausrüstung fallen.", "", "&6Wofür ist das wichtig?", "Die Beute brauchst du für die neuen Ausrüstungen."]
+			icon: { id: "minecraft:skeleton_skull" }
+			id: "C02E8A468FC59D68"
+			title: "Neue Monster"
+			rewards: [{ id: "EA2043E1E5D3B3A3", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6C7DC1A48B16783C", type: "checkmark" }]
+			x: 0.00d
+			y: 13.50d
+		}
+		{
+			dependencies: ["C02E8A468FC59D68"]
+			description: ["&6Was ist das?", "Ein Skelett aus Seelensandtälern.", "", "&6So gehts", "Es spawnt in Seelensandtälern im Nether und lässt Rohes Schandeisen fallen.", "", "&6Wofür ist das wichtig?", "Schandeisen für Ausrüstung."]
+			id: "7D7455C75AB83217"
+			title: "Schandskelett"
+			rewards: [{ id: "A18DA8E856F7B026", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "A9ED86F37E32C068", type: "kill", entity: "monsterspellbooks:vile_skeleton", value: 1L }]
+			x: 1.50d
+			y: 13.50d
+		}
+		{
+			dependencies: ["7D7455C75AB83217"]
+			description: ["&6Was ist das?", "Ein Geist aus Seelensandtälern.", "", "&6So gehts", "Er spawnt in Seelensandtälern und lässt Ektoplasmakugeln fallen.", "", "&6Wofür ist das wichtig?", "Ektoplasma für Nekro-Gegenstände."]
+			id: "D240B188CEFB4B2C"
+			title: "Seelengeist"
+			rewards: [{ id: "7C569E7C5031C510", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "66CB9FA2D2C1DE2D", type: "kill", entity: "monsterspellbooks:soul_wraith", value: 1L }]
+			x: 3.00d
+			y: 13.50d
+		}
+		{
+			dependencies: ["D240B188CEFB4B2C"]
+			description: ["&6Was ist das?", "Ein zaubernder Wither-Magier im Nether.", "", "&6So gehts", "Er lebt im Nether, ist selten und ruft eine Wither-Armee. Er lässt Faulige Knochen fallen.", "", "&6Wofür ist das wichtig?", "Faulige Knochen für Nekro-Ausrüstung."]
+			id: "9899E7DA5EF36254"
+			title: "Wither-Hexenmeister"
+			rewards: [{ id: "3D06A9946B7FED34", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "F3D254808BAE1116", type: "kill", entity: "monsterspellbooks:wither_warlock", value: 1L }]
+			x: 4.50d
+			y: 13.50d
+		}
+		{
+			dependencies: ["9899E7DA5EF36254"]
+			description: ["&6Was ist das?", "Ein Waldgeist aus Holz.", "", "&6So gehts", "Spriggans leben in Waldbiomen und lassen Weisholz-Knochen fallen.", "", "&6Wofür ist das wichtig?", "Material für Natur-Ausrüstung."]
+			id: "D2A6D0AF4B5F2268"
+			title: "Spriggan"
+			rewards: [{ id: "B83498A94D8698B9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "78FCFD3192F951F4", type: "kill", entity: "monsterspellbooks:spriggan", value: 1L }]
+			x: 6.00d
+			y: 13.50d
+		}
+		{
+			dependencies: ["D2A6D0AF4B5F2268"]
+			description: ["&6Was ist das?", "Ein seltenes magisches Wesen aus Redstone.", "", "&6So gehts", "Es spawnt tief unter dem Meeresspiegel in Höhlen und lässt Redstone-Kristalle fallen.", "", "&6Wofür ist das wichtig?", "Für Blitz-Ausrüstung und den Zwergen-Energiekern."]
+			id: "74A4B52F08079537"
+			title: "Redstone-Elementar"
+			rewards: [{ id: "126099ABFD851A2F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "B78E2910DE1FED87", type: "kill", entity: "monsterspellbooks:redstone_elemental", value: 1L }]
+			x: 7.50d
+			y: 13.50d
+		}
+		{
+			dependencies: ["74A4B52F08079537"]
+			description: ["&6Was ist das?", "Ein Illager, der Eiszauber wirkt.", "", "&6So gehts", "Zaubernde Illager kommen bei Überfällen und lassen Illageritbarren fallen.", "", "&6Wofür ist das wichtig?", "Illagerit für Illager-Ausrüstung."]
+			id: "2DD85B5D252FD167"
+			title: "Illager-Eismagier"
+			rewards: [{ id: "BF11425103C3DB06", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "BEC0E6EEDB084BE0", type: "kill", entity: "monsterspellbooks:illager_iceologer", value: 1L }]
+			x: 9.00d
+			y: 13.50d
+		}
+		{
+			dependencies: ["2DD85B5D252FD167"]
+			description: ["&6Was ist das?", "Ein extrem gefährliches Monster aus dem Dschungel.", "", "&6So gehts", "Es lebt im Dschungel. Gute Rüstung mitnehmen.", "", "&6Wofür ist das wichtig?", "Pflanzenmasse und eine echte Herausforderung."]
+			id: "057CC610A192C46D"
+			title: "Dschungelspringblatt"
+			rewards: [{ id: "781CD0BAAE50979E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "588B5E4AB879B908", type: "kill", entity: "monsterspellbooks:jungle_leapleaf", value: 1L }]
+			x: 10.50d
+			y: 13.50d
 		}
 	]
 }

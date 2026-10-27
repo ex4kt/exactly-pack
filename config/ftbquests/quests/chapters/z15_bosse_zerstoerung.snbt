@@ -9,7 +9,7 @@
 	title: "&cBosse der Zerstörung"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Bosses of Mass Destruction fügt vier mächtige Bosse hinzu: Lich, Gauntlet, Void Blossom und Obsidilith. Jeder hat eine eigene Arena und eine eigene Beute.", "Die Anleitungen unten helfen dir, jeden Kampf zu bestehen.", "", "&6Wofür ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
+			description: ["&6Was ist das?", "Bosses of Mass Destruction fügt vier Bosse mit eigener Arena hinzu: Lich (kalte Biome), Gauntlet (Nether), Void Blossom (tief unter der Oberwelt) und Obsidilith (End).", "", "&6Reihenfolge", "Empfohlen: Lich, dann Void Blossom, dann Gauntlet im Nether, zum Schluss Obsidilith im End.", "", "&6Wofür ist das wichtig?", "Die Beute wird zu starken Gegenständen verarbeitet (Erdtauch-Speer, Mob-Schutz). Alles ist freiwillig."]
 			icon: { id: "bosses_of_mass_destruction:soul_star" }
 			id: "659E23D298A106AC"
 			title: "&cBosse der Zerstörung"
@@ -21,8 +21,8 @@
 			y: 0.00d
 		}
 		{
+			description: ["&6Was ist das?", "Diese Bosse sind deutlich stärker als Vanilla-Bosse (250 bis 350 Leben, harte Treffer, Explosionen).", "", "&6Was brauchst du?", "- Mindestens volle Diamant-, besser Netherit-Rüstung mit Schutz-Verzauberung", "- Schild, Bogen oder Armbrust mit vielen Pfeilen", "- Goldene Äpfel, Heil- und Feuerresistenz-Tränke, viel Essen", "- Blöcke zum Bauen, ein Bett oder Ankerpunkt in der Nähe", "", "&6So gehts", "Kämpfe nicht allein, wenn es geht. Die Bosse heilen sich langsam, wenn du weggehst: dranbleiben."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Die Bosse sind schwerer als Vanilla-Bosse. Gute Rüstung, Heilung und viel Platz zum Ausweichen sind Pflicht.", "", "&6So gehts", "Nimm Goldene Äpfel, einen Schild, Bogen und Blöcke zum Bauen mit. Lerne die Angriffsmuster, bevor du kämpfst."]
 			id: "4C3DE63606F736E7"
 			title: "Boss: Vorbereitung"
 			rewards: [{ id: "0FA3EE1A2AC39558", type: "xp_levels", xp_levels: 3 }]
@@ -31,8 +31,8 @@
 			y: 0.00d
 		}
 		{
+			description: ["&6Wo findest du ihn?", "Im Lich-Turm in kalten Biomen: verschneite Taiga, verschneite Ebenen und Hänge, Eiszapfen, gefrorene Gipfel, verschneiter Strand, gefrorener Ozean.", "", "&6Was brauchst du?", "- 4 Seelensterne: nach je 50 besiegten Untoten (Zombies, Skelette, Phantome, Ertrunkene usw.) lässt ein Untoter einen Seelenstern fallen.", "- Rechtsklick in die Luft mit einem Seelenstern: er fliegt wie ein Enderauge in Richtung des nächsten Lich-Turms.", "", "&6So gehts", "Im Turm stehen auf einer Etage 4 Gemeißelte Steinaltäre. Setze in jeden einen Seelenstern (Rechtsklick), dann erscheint der Lich.", "Er hat 300 Leben, schießt verlangsamende Geschosse und lässt Kometen fallen. Fernkampf und ständiges Ausweichen helfen.", "", "&6Beute", "Antike Anima, dazu Knochen, Bücher und Diamanten. In den Turm-Truhen liegt weitere Beute."]
 			dependencies: ["4C3DE63606F736E7"]
-			description: ["&6Was ist das?", "Der Lich ruft Geister und beschwört Waffen. Er lässt den Seelenstern fallen.", "", "&6So gehts", "Weiche den Geschossen aus, besiege die Geister schnell und schlage dann zu. Nutze Fernkampf."]
 			id: "33D918086EDD77D8"
 			title: "Boss: Lich"
 			rewards: [{ id: "24188ECB26CEDA39", type: "xp_levels", xp_levels: 3 }]
@@ -41,8 +41,8 @@
 			y: 0.00d
 		}
 		{
+			description: ["&6Wo findest du ihn?", "Im Nether, in einer unterirdischen Arena tief unten (um Höhe 15). Arenen sind recht häufig.", "", "&6Was brauchst du?", "Feuerresistenz, Netherit-Ausrüstung, Bogen. Kein Gegenstand zum Rufen nötig: er erwacht, wenn du die Arena betrittst.", "", "&6So gehts", "Er hat 250 Leben und gute Rüstung. Seine Faustschläge explodieren, der Laser lädt sich hörbar auf: dann hinter Deckung.", "Schlag zu, wenn er nach einem Angriff kurz stillsteht.", "", "&6Beute", "Das Brennende Auge liegt in der Truhe der Arena. Beim Tod erscheint Antiker Schrott."]
 			dependencies: ["33D918086EDD77D8"]
-			description: ["&6Was ist das?", "Der Gauntlet ist ein schwebender Handschuh mit starken Schlägen. Er lässt das Brennende Auge fallen.", "", "&6So gehts", "Halte Abstand, weiche den Raketen aus und greife an, wenn er schwach ist."]
 			id: "265C28EA0879D955"
 			title: "Boss: Gauntlet"
 			rewards: [{ id: "04D6962B25CD3671", type: "xp_levels", xp_levels: 3 }]
@@ -51,8 +51,8 @@
 			y: 0.00d
 		}
 		{
+			description: ["&6Wo findest du sie?", "In einer Höhle ganz unten in der Oberwelt (Tiefenschiefer-Ebene), in fast allen normalen Biomen.", "", "&6Was brauchst du?", "Eine Leerenlilie zum Suchen: Maiglöckchen + Amethystscherbe (formlos). Stell sie auf: ihr Pollen fliegt in Richtung der nächsten Void Blossom.", "", "&6So gehts", "Sie erscheint, sobald du ihre Höhle betrittst. 350 Leben, wirft Dornen und lässt Ranken aus dem Boden schießen: in Bewegung bleiben.", "", "&6Beute", "Void-Dorn und Kristallfrucht."]
 			dependencies: ["265C28EA0879D955"]
-			description: ["&6Was ist das?", "Die Void Blossom wächst in der Tiefe und wirft Dornen. Sie lässt den Void-Dorn fallen.", "", "&6So gehts", "Zerstöre zuerst ihre Ranken, dann den Kern. Heile dich zwischen den Phasen."]
 			id: "032FE80C0F717B8C"
 			title: "Boss: Void Blossom"
 			rewards: [{ id: "29FCBEFAE841099A", type: "xp_levels", xp_levels: 3 }]
@@ -61,8 +61,8 @@
 			y: 0.00d
 		}
 		{
+			description: ["&6Wo findest du ihn?", "Im End, in einer Arena auf den äußeren Inseln (erst nach dem Enderdrachen erreichbar).", "", "&6Was brauchst du?", "Ein Enderauge. Setze es in den Obsidianaltar in der Arena, dann erscheint der Obsidilith.", "Dazu: Langsamer-Fall-Tränke oder Elytren, viele Blöcke, sehr gute Rüstung.", "", "&6So gehts", "Er hat 300 Leben und sehr viel Rüstung. Er greift mit Runen und Explosionen an: weg von den markierten Stellen.", "", "&6Beute", "Das Obsidianherz liegt in der Truhe. Nach dem Sieg erscheint eine Säule."]
 			dependencies: ["032FE80C0F717B8C"]
-			description: ["&6Was ist das?", "Der Obsidilith ist ein Koloss mit Runen. Er lässt das Obsidianherz fallen.", "", "&6So gehts", "Zerstöre die Runen nacheinander und weiche seinen Angriffen aus. Sei geduldig."]
 			id: "33288E16EBE80FA9"
 			title: "Boss: Obsidilith"
 			rewards: [{ id: "5E822143E66FFCEC", type: "xp_levels", xp_levels: 3 }]
@@ -71,94 +71,94 @@
 			y: 0.00d
 		}
 		{
+			description: ["&6Was ist das?", "Zeigt den Weg zum Lich-Turm und ruft dort den Lich.", "", "&6So gehts", "Nach je 50 besiegten Untoten lässt einer einen Seelenstern fallen. Rechtsklick in die Luft: er fliegt Richtung Lich-Turm. Für den Lich brauchst du 4 Stück.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Beute des Lichs.", "", "&6So gehts", "Besiege den Lich.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "705CA63C182364D3"
 			title: "Seelenstern"
 			rewards: [{ id: "7F45B096D3801B73", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7776C6557C4E4248", type: "item", item: { id: "bosses_of_mass_destruction:soul_star", count: 1 }, count: 1L }]
-			x: -4.00d
-			y: 0.00d
+			x: 0.00d
+			y: -1.50d
 		}
 		{
+			description: ["&6Was ist das?", "Beute des Gauntlets (Truhe in der Arena).", "", "&6Wofür ist das wichtig?", "Für den Explosionsverstärker und den Tisch der Erhebung (Rezepte in JEI). Freiwillig."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Beute des Gauntlets.", "", "&6So gehts", "Besiege den Gauntlet.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "6FB00AB71D96509C"
 			title: "Brennendes Auge"
 			rewards: [{ id: "089B5123E842997D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6F29A9F1CED66B44", type: "item", item: { id: "bosses_of_mass_destruction:blazing_eye", count: 1 }, count: 1L }]
-			x: -3.60d
-			y: -1.74d
+			x: 0.00d
+			y: -3.00d
 		}
 		{
+			description: ["&6Was ist das?", "Beute der Void Blossom.", "", "&6Wofür ist das wichtig?", "Für den Erdtauch-Speer und die Aufgeladene Enderperle. Freiwillig."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Beute der Void Blossom.", "", "&6So gehts", "Besiege die Void Blossom.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "7528EA79511070A7"
 			title: "Void-Dorn"
 			rewards: [{ id: "4EB58FD8821951D4", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4A41F8E4D4D6D278", type: "item", item: { id: "bosses_of_mass_destruction:void_thorn", count: 1 }, count: 1L }]
-			x: -2.49d
-			y: -3.13d
+			x: 0.00d
+			y: -4.50d
 		}
 		{
+			description: ["&6Was ist das?", "Beute des Obsidiliths (Truhe in der Arena).", "", "&6Wofür ist das wichtig?", "Für Erdtauch-Speer, Mob-Schutz und Explosionsverstärker. Freiwillig."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Beute des Obsidiliths.", "", "&6So gehts", "Besiege den Obsidilith.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "1328023A61065C22"
 			title: "Obsidianherz"
 			rewards: [{ id: "177804422F71E001", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "703E53CF192F09A9", type: "item", item: { id: "bosses_of_mass_destruction:obsidian_heart", count: 1 }, count: 1L }]
-			x: -0.89d
-			y: -3.90d
+			x: 0.00d
+			y: -6.00d
 		}
 		{
+			description: ["&6Was ist das?", "Ein Speer, mit dem du dich ein Stück durch feste Blöcke teleportierst.", "", "&6So gehts", "Obsidianherz + Void-Dorn + Stock (übereinander).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Ein starker Speer.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "0FF5F73746B7624A"
 			title: "Erdtauch-Speer"
 			rewards: [{ id: "2EDC49C1F71BD135", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4242C22583E2665A", type: "item", item: { id: "bosses_of_mass_destruction:earthdive_spear", count: 1 }, count: 1L }]
-			x: 0.89d
-			y: -3.90d
+			x: 0.00d
+			y: 3.00d
 		}
 		{
+			description: ["&6Was ist das?", "Gibt kurz Regeneration und Resistenz.", "", "&6So gehts", "Beute der Void Blossom.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Eine seltene Frucht, die Leben schenkt.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "5508BEF1A55F3058"
 			title: "Kristallfrucht"
 			rewards: [{ id: "21F5691D1B423B97", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "6CFFB0F0F79EDC82", type: "item", item: { id: "bosses_of_mass_destruction:crystal_fruit", count: 1 }, count: 1L }]
-			x: 2.49d
-			y: -3.13d
+			x: 0.00d
+			y: 6.00d
 		}
 		{
-			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Ein seltenes Material.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
+			description: ["&6Was ist das?", "Beute des Lichs.", "", "&6Wofür ist das wichtig?", "Für Mob-Schutz, Tisch der Erhebung und Aufgeladene Enderperle. Freiwillig."]
+			dependencies: ["4C3DE63606F736E7"]
 			id: "6D6522B0CA3F3A62"
-			title: "Uralte Anima"
+			title: "Antike Anima"
 			rewards: [{ id: "5EC0C2607F9880A6", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2759158152261FD8", type: "item", item: { id: "bosses_of_mass_destruction:ancient_anima", count: 1 }, count: 1L }]
-			x: 2.49d
-			y: 3.13d
+			x: 1.50d
+			y: -1.50d
 		}
 		{
+			description: ["&6Was ist das?", "Setzt Boss-Bauwerke in der Nähe zurück, damit du einen Boss noch einmal bekämpfen kannst.", "", "&6So gehts", "Netheritplatte + Drachenatem + Ghastträne (formlos).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Ein seltenes Material aus dem Nether.", "", "&6So gehts", "Rezept oder Fundort siehe JEI.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "7D719B0520798298"
 			title: "Schwefelnektar"
 			rewards: [{ id: "2577C324694BAAD6", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "31D06D9C18BEE074", type: "item", item: { id: "bosses_of_mass_destruction:brimstone_nectar", count: 1 }, count: 1L }]
-			x: 0.89d
-			y: 3.90d
+			x: 0.00d
+			y: 4.50d
 		}
 		{
+			description: ["&6Was ist das?", "Der Stab der Unterdrückung: aufgestellt spawnen im Umkreis von 64 Blöcken keine Monster.", "", "&6So gehts", "Antike Anima, darunter Obsidianherz, darunter Obsidian.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["659E23D298A106AC"]
-			description: ["&6Was ist das?", "Ein Block, der Mobs fernhält.", "", "&6So gehts", "Stelle ihn nach JEI-Rezept her.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			id: "17985D060397A31D"
 			title: "Mob-Schutz"
 			rewards: [{ id: "7383D496000E05D0", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "35FD679D17C70A4A", type: "item", item: { id: "bosses_of_mass_destruction:mob_ward", count: 1 }, count: 1L }]
-			x: -0.89d
-			y: 3.90d
+			x: 0.00d
+			y: 1.50d
 		}
 	]
 }
