@@ -1127,11 +1127,11 @@
 		}
 		{
 			dependencies: ["1F781F505D7F6EB5"]
-			description: ["&6Was ist das?", "Ein Metall aus dem Meer.", "", "&6So gehts", "Ozeanitklumpen findest du am Meeresgrund in Ton, Sand und Kies.", "", "&6Wofür ist das wichtig?", "Für Wasser-Ausrüstung und Hydro-Zauber."]
+			description: ["&6Was ist das?", "Ein dunkles Silber für Nekro-Waffen.", "", "&6So gehts", "Todessilbererz liefert Klumpen, aus denen du Barren machst. Alternativ entsteht es aus Silberbarren (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Für Todessilber-Dolch, -Schwert und -Axt."]
 			id: "9FD021745AE58FD8"
-			title: "Ozeanit"
+			title: "Todessilber"
 			rewards: [{ id: "CA9CF3159F1F1CC7", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "49DF46056F761EF5", type: "item", item: { id: "monsterspellbooks:raw_oceanite", count: 1 }, count: 1L }]
+			tasks: [{ id: "49DF46056F761EF5", type: "item", item: { id: "monsterspellbooks:deathsilver_ingot", count: 1 }, count: 1L }]
 			x: 1.50d
 			y: 10.50d
 		}
@@ -1218,7 +1218,7 @@
 		}
 		{
 			dependencies: ["C02E8A468FC59D68"]
-			description: ["&6Was ist das?", "Ein Skelett aus Seelensandtälern.", "", "&6So gehts", "Es spawnt in Seelensandtälern im Nether und lässt Rohes Schandeisen fallen.", "", "&6Wofür ist das wichtig?", "Schandeisen für Ausrüstung."]
+			description: ["&6Was ist das?", "Ein Skelett aus Seelensandtälern.", "", "&6So gehts", "Es spawnt in Seelensandtälern im Nether. Ein harter Gegner für Nekro-Magier.", "", "&6Wofür ist das wichtig?", "Übung für die Nekro-Monster im Nether."]
 			id: "7D7455C75AB83217"
 			title: "Schandskelett"
 			rewards: [{ id: "A18DA8E856F7B026", type: "xp_levels", xp_levels: 2 }]
