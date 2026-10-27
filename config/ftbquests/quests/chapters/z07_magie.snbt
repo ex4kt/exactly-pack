@@ -1120,7 +1120,7 @@
 			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "1F781F505D7F6EB5"
 			title: "Monsters & Spellbooks"
-			rewards: [{ id: "BB1BB28B19CBCE41", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "469594AE6FDFF895", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5C4B4E867FF483A9", type: "checkmark" }]
 			x: 0.00d
 			y: 10.50d
@@ -1128,17 +1128,17 @@
 		{
 			dependencies: ["1F781F505D7F6EB5"]
 			description: ["&6Was ist das?", "Ein dunkles Silber für Nekro-Waffen.", "", "&6So gehts", "Todessilbererz liefert Klumpen, aus denen du Barren machst. Alternativ entsteht es aus Silberbarren (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Für Todessilber-Dolch, -Schwert und -Axt."]
-			id: "9FD021745AE58FD8"
+			id: "24019DFB2BB49DD9"
 			title: "Todessilber"
-			rewards: [{ id: "CA9CF3159F1F1CC7", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3A76189F54E6D6CE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "49DF46056F761EF5", type: "item", item: { id: "monsterspellbooks:deathsilver_ingot", count: 1 }, count: 1L }]
 			x: 1.50d
 			y: 10.50d
 		}
 		{
-			dependencies: ["9FD021745AE58FD8"]
+			dependencies: ["24019DFB2BB49DD9"]
 			description: ["&6Was ist das?", "Ein seltenes Bergmetall.", "", "&6So gehts", "Orichalkumerz liegt in großer Höhe in Gebirgsbiomen.", "", "&6Wofür ist das wichtig?", "Für Orichalkum-Waffen."]
-			id: "EF87638816DF45BB"
+			id: "5073184386A43B96"
 			title: "Orichalkum"
 			rewards: [{ id: "6DA99037AB509616", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7089001B5C1AB252", type: "item", item: { id: "monsterspellbooks:raw_orichalcum", count: 1 }, count: 1L }]
@@ -1146,9 +1146,9 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["EF87638816DF45BB"]
+			dependencies: ["5073184386A43B96"]
 			description: ["&6Was ist das?", "Ein Metall aus dem Nether.", "", "&6So gehts", "Höllenmetallerz findest du im Nether.", "", "&6Wofür ist das wichtig?", "Für feurige Ausrüstung."]
-			id: "C150C1BB9E2C4637"
+			id: "07C077091AC335DB"
 			title: "Höllenmetall"
 			rewards: [{ id: "73321C3098930341", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "370935222E17DE03", type: "item", item: { id: "monsterspellbooks:raw_scorched_metal", count: 1 }, count: 1L }]
@@ -1156,11 +1156,11 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["C150C1BB9E2C4637"]
+			dependencies: ["07C077091AC335DB"]
 			description: ["&6Was ist das?", "Schrott der Zwergen-Automaten.", "", "&6So gehts", "Zwergen-Automaten lassen Zwergenlegierungsschrott fallen, einige spawnen in Gebirgen.", "", "&6Wofür ist das wichtig?", "Für Zwergen-Waffen und die Zwergeningenieur-Rüstung."]
 			id: "7B51615C3D71868F"
 			title: "Zwergenlegierung"
-			rewards: [{ id: "D72BCD77B2F562F0", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "19805602F24701DA", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3B63B0A221F10A6D", type: "item", item: { id: "monsterspellbooks:dwarven_alloy_scrap", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 10.50d
@@ -1170,15 +1170,15 @@
 			description: ["&6Was ist das?", "Die Rune der neuen Nekro-Schule (Flüche, Schaden über Zeit, Untote).", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für Nekro-Zauberbücher, Upgrades und Ausrüstung."]
 			id: "1A37186C595CB102"
 			title: "Nekro-Rune"
-			rewards: [{ id: "E91626307A02B6A9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "C851ADC35F70018E", type: "item", item: { id: "monsterspellbooks:necro_rune", count: 1 }, count: 1L }]
+			rewards: [{ id: "1FC8CE581F00CB14", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "49FDFB365CEB3329", type: "item", item: { id: "monsterspellbooks:necro_rune", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 10.50d
 		}
 		{
 			dependencies: ["1A37186C595CB102"]
 			description: ["&6Was ist das?", "Verstärkt Nekrozauber auf Ausrüstung.", "", "&6So gehts", "Rezept in JEI, am Arkanen Amboss anwenden.", "", "&6Wofür ist das wichtig?", "Mehr Nekrozauber-Stärke."]
-			id: "BA0B3AA638B49F8F"
+			id: "145484EE3FD17CE2"
 			title: "Nekro-Upgrade-Kugel"
 			rewards: [{ id: "6553C9A8875A66C2", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "36CF03D006442CC2", type: "item", item: { id: "monsterspellbooks:necro_upgrade_orb", count: 1 }, count: 1L }]
@@ -1186,12 +1186,12 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["BA0B3AA638B49F8F"]
+			dependencies: ["145484EE3FD17CE2"]
 			description: ["&6Was ist das?", "Die Rune der neuen Aero-Schule (Wind und Luft).", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für Aero-Zauber und Ausrüstung."]
 			id: "5EE137512C837A80"
 			title: "Aero-Rune"
 			rewards: [{ id: "3870D154DE9FFC70", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "9E157CDCF52CA816", type: "item", item: { id: "monsterspellbooks:aero_rune", count: 1 }, count: 1L }]
+			tasks: [{ id: "11C3A41A8EC49F69", type: "item", item: { id: "monsterspellbooks:aero_rune", count: 1 }, count: 1L }]
 			x: 10.50d
 			y: 10.50d
 		}
@@ -1200,7 +1200,7 @@
 			description: ["&6Was ist das?", "Eine feste Kugel verbannter Seelen, der Schlüssel zum Lich-Dasein.", "", "&6So gehts", "Rezept in JEI. Ohne sie verflucht dich der Zauber Lich-Dasein.", "", "&6Wofür ist das wichtig?", "Mit Lich-Dasein kannst du einmal wiederauferstehen."]
 			id: "10A1F534BDD3E551"
 			title: "Kugel der Seelen"
-			rewards: [{ id: "A3FE316324C68008", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "15BEC849E513CCFC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "48453D921206E941", type: "item", item: { id: "monsterspellbooks:orb_soul", count: 1 }, count: 1L }]
 			x: 12.00d
 			y: 10.50d
@@ -1209,27 +1209,27 @@
 			dependencies: ["46C833DCD22312A1"]
 			description: ["&6Was ist das?", "Monsters & Spellbooks bringt zaubernde Monster mit eigener Beute.", "", "&6So gehts", "Besiege die Monster dieser Reihe. Jedes lässt Materialien für Runen und Ausrüstung fallen.", "", "&6Wofür ist das wichtig?", "Die Beute brauchst du für die neuen Ausrüstungen."]
 			icon: { id: "minecraft:skeleton_skull" }
-			id: "C02E8A468FC59D68"
+			id: "25C6BF5BB940EA8C"
 			title: "Neue Monster"
-			rewards: [{ id: "EA2043E1E5D3B3A3", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "131F4053584F50C6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6C7DC1A48B16783C", type: "checkmark" }]
 			x: 0.00d
 			y: 13.50d
 		}
 		{
-			dependencies: ["C02E8A468FC59D68"]
+			dependencies: ["25C6BF5BB940EA8C"]
 			description: ["&6Was ist das?", "Ein Skelett aus Seelensandtälern.", "", "&6So gehts", "Es spawnt in Seelensandtälern im Nether. Ein harter Gegner für Nekro-Magier.", "", "&6Wofür ist das wichtig?", "Übung für die Nekro-Monster im Nether."]
 			id: "7D7455C75AB83217"
 			title: "Schandskelett"
-			rewards: [{ id: "A18DA8E856F7B026", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "A9ED86F37E32C068", type: "kill", entity: "monsterspellbooks:vile_skeleton", value: 1L }]
+			rewards: [{ id: "341B3E2C5B2567BF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "690B66E853BF3DE5", type: "kill", entity: "monsterspellbooks:vile_skeleton", value: 1L }]
 			x: 1.50d
 			y: 13.50d
 		}
 		{
 			dependencies: ["7D7455C75AB83217"]
 			description: ["&6Was ist das?", "Ein Geist aus Seelensandtälern.", "", "&6So gehts", "Er spawnt in Seelensandtälern und lässt Ektoplasmakugeln fallen.", "", "&6Wofür ist das wichtig?", "Ektoplasma für Nekro-Gegenstände."]
-			id: "D240B188CEFB4B2C"
+			id: "4404918224177BF9"
 			title: "Seelengeist"
 			rewards: [{ id: "7C569E7C5031C510", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "66CB9FA2D2C1DE2D", type: "kill", entity: "monsterspellbooks:soul_wraith", value: 1L }]
@@ -1237,32 +1237,32 @@
 			y: 13.50d
 		}
 		{
-			dependencies: ["D240B188CEFB4B2C"]
+			dependencies: ["4404918224177BF9"]
 			description: ["&6Was ist das?", "Ein zaubernder Wither-Magier im Nether.", "", "&6So gehts", "Er lebt im Nether, ist selten und ruft eine Wither-Armee. Er lässt Faulige Knochen fallen.", "", "&6Wofür ist das wichtig?", "Faulige Knochen für Nekro-Ausrüstung."]
-			id: "9899E7DA5EF36254"
+			id: "602BFDED1CE54E80"
 			title: "Wither-Hexenmeister"
 			rewards: [{ id: "3D06A9946B7FED34", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "F3D254808BAE1116", type: "kill", entity: "monsterspellbooks:wither_warlock", value: 1L }]
+			tasks: [{ id: "4F3823B634F48845", type: "kill", entity: "monsterspellbooks:wither_warlock", value: 1L }]
 			x: 4.50d
 			y: 13.50d
 		}
 		{
-			dependencies: ["9899E7DA5EF36254"]
+			dependencies: ["602BFDED1CE54E80"]
 			description: ["&6Was ist das?", "Ein Waldgeist aus Holz.", "", "&6So gehts", "Spriggans leben in Waldbiomen und lassen Weisholz-Knochen fallen.", "", "&6Wofür ist das wichtig?", "Material für Natur-Ausrüstung."]
-			id: "D2A6D0AF4B5F2268"
+			id: "7AB2F8A34DDAF061"
 			title: "Spriggan"
-			rewards: [{ id: "B83498A94D8698B9", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "266C119AE7E6846C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "78FCFD3192F951F4", type: "kill", entity: "monsterspellbooks:spriggan", value: 1L }]
 			x: 6.00d
 			y: 13.50d
 		}
 		{
-			dependencies: ["D2A6D0AF4B5F2268"]
+			dependencies: ["7AB2F8A34DDAF061"]
 			description: ["&6Was ist das?", "Ein seltenes magisches Wesen aus Redstone.", "", "&6So gehts", "Es spawnt tief unter dem Meeresspiegel in Höhlen und lässt Redstone-Kristalle fallen.", "", "&6Wofür ist das wichtig?", "Für Blitz-Ausrüstung und den Zwergen-Energiekern."]
 			id: "74A4B52F08079537"
 			title: "Redstone-Elementar"
 			rewards: [{ id: "126099ABFD851A2F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "B78E2910DE1FED87", type: "kill", entity: "monsterspellbooks:redstone_elemental", value: 1L }]
+			tasks: [{ id: "0B6568032EA529F3", type: "kill", entity: "monsterspellbooks:redstone_elemental", value: 1L }]
 			x: 7.50d
 			y: 13.50d
 		}
@@ -1271,8 +1271,8 @@
 			description: ["&6Was ist das?", "Ein Illager, der Eiszauber wirkt.", "", "&6So gehts", "Zaubernde Illager kommen bei Überfällen und lassen Illageritbarren fallen.", "", "&6Wofür ist das wichtig?", "Illagerit für Illager-Ausrüstung."]
 			id: "2DD85B5D252FD167"
 			title: "Illager-Eismagier"
-			rewards: [{ id: "BF11425103C3DB06", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "BEC0E6EEDB084BE0", type: "kill", entity: "monsterspellbooks:illager_iceologer", value: 1L }]
+			rewards: [{ id: "082F8AA17434BE82", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0ED9AEFB9A1C554A", type: "kill", entity: "monsterspellbooks:illager_iceologer", value: 1L }]
 			x: 9.00d
 			y: 13.50d
 		}
@@ -1285,6 +1285,36 @@
 			tasks: [{ id: "588B5E4AB879B908", type: "kill", entity: "monsterspellbooks:jungle_leapleaf", value: 1L }]
 			x: 10.50d
 			y: 13.50d
+		}
+		{
+			dependencies: ["25C6BF5BB940EA8C"]
+			description: ["&6Was ist das?", "Ein Smaragd, aufgeladen in der Energiekugel.", "", "&6So gehts", "Lege einen Smaragd hinein und lade ihn mit sehr viel Strom auf.", "", "&6Wofür ist das wichtig?", "Öffnet die Beseelte Stufe."]
+			id: "3DA71B19ABC5C5AF"
+			title: "Beseelter Kristall"
+			rewards: [{ id: "00519184CDBBE03F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "10C334DA12528A2F", type: "item", item: { id: "powah:crystal_spirited", count: 1 }, count: 1L }]
+			x: 0.00d
+			y: 15.000d
+		}
+		{
+			dependencies: ["3DA71B19ABC5C5AF"]
+			description: ["&6Was ist das?", "Die sechste Stufe des Furnators.", "", "&6So gehts", "Aufrüstung des Niotischen Furnators, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Sehr viel Strom aus normalem Brennstoff."]
+			id: "3ED3326E73485CAB"
+			title: "Beseelter Furnator"
+			rewards: [{ id: "09A6FEFD3F592333", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5A20026A7948BF77", type: "item", item: { id: "powah:furnator_spirited", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 15.000d
+		}
+		{
+			dependencies: ["3ED3326E73485CAB"]
+			description: ["&6Was ist das?", "Riesiger Speicher.", "", "&6So gehts", "Aufrüstung der Niotischen Energiezelle, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für Basen mit Industrial Foregoing, Modern Industrialization und Co."]
+			id: "5C5C445AD1910C4F"
+			title: "Beseelte Energiezelle"
+			rewards: [{ id: "274B45A8DF71FEB9", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3410898B31817BC5", type: "item", item: { id: "powah:energy_cell_spirited", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 15.000d
 		}
 	]
 }

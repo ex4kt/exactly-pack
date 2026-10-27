@@ -773,13 +773,63 @@
 			dependencies: ["7D49D31EE0C23921"]
 			description: ["&6Was ist das?", "Friends' Wine: Ein Wein, der dich und alle Umstehenden hüpfen lässt. Dazu gibt es Puppen und eine Fernbedienung.", "", "&6So gehts", "Handle bei einem erwachsenen, grün gekleideten Nichtsnutz-Dorfbewohner: 16 Weizen und 1 Glasflasche ergeben den Wein.", "", "&6Wofür ist das wichtig?", "Reiner Spaß: Die Puppe spielt Musik, alle in der Nähe hüpfen im Takt."]
 			icon: { id: "friendswine:wine" }
-			id: "886B7B0D2C69B98B"
+			id: "7E7B229B8886F31F"
 			title: "Friends' Wine"
 			optional: true
 			rewards: [{ id: "1C04EC49197D8BA1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "08847A89B0848763", type: "item", item: { id: "friendswine:wine", count: 1 }, count: 1L }]
 			x: 3.00d
 			y: 6.00d
+		}
+		{
+			dependencies: ["7E7B229B8886F31F"]
+			description: ["&6Was ist das?", "Ein Kristall aus Lohenruten, aufgeladen in der Energiekugel.", "", "&6So gehts", "Lege eine Lohenrute (oder vier Lohenpulver) in die Energiekugel und lade sie mit Energisierstäben auf.", "", "&6Wofür ist das wichtig?", "Er öffnet die Lodernde Stufe."]
+			id: "3B979D4273604062"
+			title: "Lodernder Kristall"
+			rewards: [{ id: "263E737124BF4FE1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1927D6C03DBD6A0A", type: "item", item: { id: "powah:crystal_blazing", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 7.500d
+		}
+		{
+			dependencies: ["3B979D4273604062"]
+			description: ["&6Was ist das?", "Erzeugt Strom aus dem Temperaturunterschied zwischen einer Wärmequelle und einem Kühlmittel.", "", "&6So gehts", "Herstellung: drei Dielektrische Pasten, zwei Winzige Kondensatoren, Gehäuse und drei Thermoplatten. Wärmequellen und Kühlmittel zeigt JEI.", "", "&6Wofür ist das wichtig?", "Strom ganz ohne Brennstoff, wenn du Lava und Wasser zur Hand hast."]
+			id: "172A7539D7C4992B"
+			title: "Thermogenerator"
+			rewards: [{ id: "47D37E33524125FD", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "0B5A446B43E1EF80", type: "item", item: { id: "powah:thermo_generator_starter", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 7.500d
+		}
+		{
+			dependencies: ["3B979D4273604062"]
+			description: ["&6Was ist das?", "Das Herz aller Ender-Blöcke.", "", "&6So gehts", "In der Energiekugel: Enderauge, Dielektrisches Gehäuse und Winziger Kondensator.", "", "&6Wofür ist das wichtig?", "Für Enderzelle und Endertor."]
+			id: "0676EE990AE35CAE"
+			title: "Enderkern"
+			rewards: [{ id: "0FC6035DBFDA47B8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7EFF2A848AC5ECE9", type: "item", item: { id: "powah:ender_core", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 7.500d
+		}
+		{
+			dependencies: ["0676EE990AE35CAE"]
+			description: ["&6Was ist das?", "Strom lässt sich damit kabellos über Kanäle zwischen Enderzelle und Endertoren übertragen.", "", "&6So gehts", "Herstellung: Enderkern, Eisennuggets und Obsidian.", "", "&6Wofür ist das wichtig?", "Strom kabellos über die ganze Welt."]
+			id: "337D981ACEB010A6"
+			title: "Enderzelle"
+			rewards: [{ id: "5C7090749F9821D7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "19277714A82F54B1", type: "item", item: { id: "powah:ender_cell_starter", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 7.500d
+		}
+		{
+			dependencies: ["3B979D4273604062"]
+			description: ["&6Was ist das?", "Ein Diamant, aufgeladen in der Energiekugel.", "", "&6So gehts", "Lege einen Diamanten hinein und lade ihn mit viel Strom auf.", "", "&6Wofür ist das wichtig?", "Öffnet die Niotische Stufe, die vierte Stufe aller Powah-Blöcke."]
+			id: "50CC059AC1A2A7B0"
+			title: "Niotischer Kristall"
+			rewards: [{ id: "71214B522869ED6F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2A8CCB2A323ABBC2", type: "item", item: { id: "powah:crystal_niotic", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 7.500d
 		}
 	]
 }

@@ -1158,5 +1158,25 @@
 			x: 0.00d
 			y: -4.50d
 		}
+		{
+			dependencies: ["4B072B9FA56A961E"]
+			description: ["&6Was ist das?", "Der teuerste Kristall: aus Nether-Stern, zwei Redstone-Blöcken und einem Block aus Lodernden Kristallen.", "", "&6So gehts", "Lege alles in die Energiekugel und lade sie mit enorm viel Strom auf.", "", "&6Wofür ist das wichtig?", "Öffnet die höchste Stufe, Nitro."]
+			id: "45172ACBD7E50C7A"
+			title: "Nitro-Kristall"
+			rewards: [{ id: "6D1468D52BC84510", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "0990179092E93BA5", type: "item", item: { id: "powah:crystal_nitro", count: 1 }, count: 1L }]
+			x: 12.00d
+			y: 12.000d
+		}
+		{
+			dependencies: ["45172ACBD7E50C7A"]
+			description: ["&6Was ist das?", "Die letzte Stufe des Furnators.", "", "&6So gehts", "Aufrüstung des Beseelten Furnators, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Das meiste an Strom, das Powah hergibt."]
+			id: "79A2A9609ED1834A"
+			title: "Nitro-Furnator"
+			rewards: [{ id: "3482C884503AF595", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "483915046B72FD01", type: "item", item: { id: "powah:furnator_nitro", count: 1 }, count: 1L }]
+			x: 13.50d
+			y: 12.000d
+		}
 	]
 }

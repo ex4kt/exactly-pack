@@ -1856,5 +1856,116 @@
 			x: 21.00d
 			y: -18.000d
 		}
+		{
+			dependencies: ["654719D02E16F370"]
+			description: ["&6Was ist das?", "Powah liefert einfachen Strom (FE): Generatoren, Energiezellen und Kabel in sieben Stufen von Starter bis Nitro.", "", "&6So gehts", "Das Handbuch stellst du formlos aus einem Buch und Dielektrischer Paste her. Es erklärt alle Blöcke.", "", "&6Wofür ist das wichtig?", "Im Eisenzeitalter beginnst du mit den Stufen Starter und Einfach. Die höheren Stufen schalten spätere Zeitalter frei."]
+			id: "7FF4E1B69E14EC41"
+			title: "Powah"
+			rewards: [{ id: "66E96A9EB404111D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "26A5DBE9842E9790", type: "item", item: { id: "powah:book", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 19.500d
+		}
+		{
+			dependencies: ["7FF4E1B69E14EC41"]
+			description: ["&6Was ist das?", "Die Grundzutat fast aller Powah-Bauteile.", "", "&6So gehts", "Formlos: drei Kohle, zwei Tonbälle und ein Eimer Lava. Oder zwei Kohle, ein Tonball und Lohenpulver.", "", "&6Wofür ist das wichtig?", "Aus Paste entstehen Stäbe, Gehäuse und fast alle Maschinen."]
+			id: "33609DAE7AF85E00"
+			title: "Dielektrische Paste"
+			rewards: [{ id: "5427B37BE7D97D58", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3CE790E652B1DAFF", type: "item", item: { id: "powah:dielectric_paste", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 19.500d
+		}
+		{
+			dependencies: ["33609DAE7AF85E00"]
+			description: ["&6Was ist das?", "Das Maschinengehäuse. Fast jeder Powah-Block braucht eins.", "", "&6So gehts", "Zuerst Dielektrische Stäbe (Eisengitter und Paste, senkrecht oder waagerecht). Dann: vier Eisenbarren, zwei senkrechte und zwei waagerechte Stäbe.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse kein Generator und keine Energiezelle."]
+			id: "439E31C0B019C44F"
+			title: "Dielektrisches Gehäuse"
+			rewards: [{ id: "2C4594C6908C2601", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7CE45F8BAB1BACC9", type: "item", item: { id: "powah:dielectric_casing", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 19.500d
+		}
+		{
+			dependencies: ["439E31C0B019C44F"]
+			description: ["&6Was ist das?", "Ein Generator, der aus festem Brennstoff Strom macht: Kohle, Holz und alles, was im Ofen brennt.", "", "&6So gehts", "Herstellung: fünf Dielektrische Pasten, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Ofen. Brennstoff hineinlegen oder per Trichter zuführen.", "", "&6Wofür ist das wichtig?", "Das ist der einfachste Strom im Pack, die Antwort auf den Kohlegenerator."]
+			id: "48C2A55DC0616220"
+			title: "Furnator"
+			rewards: [{ id: "7F7DB81A28AE18FB", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5D009BA7288B5D2A", type: "item", item: { id: "powah:furnator_starter", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 19.500d
+		}
+		{
+			dependencies: ["48C2A55DC0616220"]
+			description: ["&6Was ist das?", "Speichert Strom und gibt ihn an angrenzende Maschinen ab.", "", "&6So gehts", "Herstellung: vier Eisenbarren, vier Winzige Kondensatoren und ein Dielektrisches Gehäuse.", "", "&6Wofür ist das wichtig?", "Puffert Schwankungen, damit deine Maschinen nicht aussetzen."]
+			id: "3A0009E1ED0A9B9A"
+			title: "Energiezelle"
+			rewards: [{ id: "1C53819798227774", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0C0AEA7C0DC42836", type: "item", item: { id: "powah:energy_cell_starter", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 19.500d
+		}
+		{
+			dependencies: ["3A0009E1ED0A9B9A"]
+			description: ["&6Was ist das?", "Leitet Strom von Generatoren zu Verbrauchern.", "", "&6So gehts", "Herstellung: sechs waagerechte Dielektrische Stäbe, zwei Eisennuggets und ein Winziger Kondensator.", "", "&6Wofür ist das wichtig?", "Mit Kabeln versorgst du Maschinen, die nicht direkt am Generator stehen."]
+			id: "79D8CD39F51206E7"
+			title: "Energiekabel"
+			rewards: [{ id: "7BD448ECCA4770C1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "74352B28CFE21007", type: "item", item: { id: "powah:energy_cable_starter", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 19.500d
+		}
+		{
+			dependencies: ["79D8CD39F51206E7"]
+			description: ["&6Was ist das?", "Starter, Einfach, Gehärtet, Lodernd, Niotisch, Beseelt, Nitro: jede Stufe bringt mehr Leistung und Kapazität.", "", "&6So gehts", "Du rüstest Blöcke auf, indem du den Vorgänger in das Rezept der nächsten Stufe legst. Die Stufen kommen mit den Zeitaltern.", "", "&6Wofür ist das wichtig?", "Einfach und Starter gibt es jetzt, Gehärtet im Diamant-Zeitalter, Lodernd und Niotisch im Nether-Zeitalter, Beseelt im Magie-Zeitalter, Nitro im Meister-Zeitalter."]
+			icon: { id: "powah:capacitor_hardened" }
+			id: "5845815EBE1A026E"
+			title: "Sieben Stufen"
+			rewards: [{ id: "2638216129A92107", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1349D7F422904689", type: "checkmark" }]
+			x: 12.00d
+			y: 19.500d
+		}
+		{
+			dependencies: ["439E31C0B019C44F"]
+			description: ["&6Was ist das?", "Lädt Gegenstände mit Strom auf und verwandelt sie dabei.", "", "&6So gehts", "Herstellung: fünf Glasblöcke, ein Dielektrisches Gehäuse und drei waagerechte Dielektrische Stäbe. Energisierstäbe rundherum liefern den Strom.", "", "&6Wofür ist das wichtig?", "So entstehen Energiestahl, Kristalle und Uraninit."]
+			id: "001EAB6C9B9F4CBB"
+			title: "Energiekugel"
+			rewards: [{ id: "5B1271DADD87874C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "515A37DB26374507", type: "item", item: { id: "powah:energizing_orb", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 21.000d
+		}
+		{
+			dependencies: ["001EAB6C9B9F4CBB"]
+			description: ["&6Was ist das?", "Gibt Strom an die Energiekugel ab.", "", "&6So gehts", "Herstellung: Quarz, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Dielektrischer Stab. Stelle ihn in kurzem Abstand zur Kugel auf.", "", "&6Wofür ist das wichtig?", "Mehr oder bessere Stäbe laden schneller."]
+			id: "3954DF096FF35505"
+			title: "Energisierstab"
+			rewards: [{ id: "7DC19E005CFE3676", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "69FF9FAE800160D6", type: "item", item: { id: "powah:energizing_rod_starter", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 21.000d
+		}
+		{
+			dependencies: ["48C2A55DC0616220"]
+			description: ["&6Was ist das?", "Erzeugt Strom aus Lava und anderen magmatischen Flüssigkeiten.", "", "&6So gehts", "Herstellung: fünf Dielektrische Pasten, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Eimer. Welche Flüssigkeiten funktionieren, zeigt JEI unter Magmatische Flüssigkeiten.", "", "&6Wofür ist das wichtig?", "Gut, wenn du Lava in der Nähe hast."]
+			id: "3562446DBC8CD11F"
+			title: "Magmator"
+			rewards: [{ id: "0AF9A38A66FAD105", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "49FF915BC39A9F0F", type: "item", item: { id: "powah:magmator_starter", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 21.000d
+		}
+		{
+			dependencies: ["3A0009E1ED0A9B9A"]
+			description: ["&6Was ist das?", "Erzeugt tagsüber Strom ganz ohne Brennstoff.", "", "&6So gehts", "Herstellung: drei Photoelektrische Scheiben (Lapis, Glasscheibe, Paste), zwei Winzige Kondensatoren, Gehäuse und drei Dielektrische Pasten. Es muss freien Himmel haben.", "", "&6Wofür ist das wichtig?", "Mit Better Days sind die Tage lang, das lohnt sich."]
+			id: "33AF0110A0277424"
+			title: "Solarpanel"
+			rewards: [{ id: "497B6D8DBEDF1EA1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1C025B2F8455C681", type: "item", item: { id: "powah:solar_panel_starter", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 21.000d
+		}
 	]
 }

@@ -9,287 +9,570 @@
 	title: "&dApotheosis"
 	quests: [
 		{
-			description: ["&6Was ist das?", "Apotheosis bringt Ausrüstung mit zufälligen Fähigkeiten (Affixe), Edelsteine zum Einsetzen, stärkere Monster und Welt-Stufen ins Spiel.", "", "&6So gehts", "Dieses Kapitel führt dich vom ersten Affix-Gegenstand bis zu den Spawnern. Alles ist freiwillig. Das Modul gehört wie die Apothic-Verzauberungen zum Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Je weiter du die Welt-Stufen freischaltest, desto härter die Gegner, aber desto besser die Beute."]
+			description: ["&6Was ist das?", "Apotheosis macht Ausrüstung zu Beute: Gegenstände mit zufälligen Fähigkeiten (Affixe), Edelsteine zum Einsetzen, Welt-Stufen, Eindringlinge, Elite-Monster und Spawner, die du einsammeln und verbessern kannst.", "", "&6So gehts", "Der Hauptweg in der Mitte führt durch die fünf Welt-Stufen. Darunter und darüber hängen die Zweige: Ausrüstung veredeln, Tränke, Edelsteine, Gegner und Beute, Spawner. Alles ist freiwillig. Der Mod gehört wie die Apothic-Verzauberungen (eigenes Kapitel) ins Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Je höher deine Welt-Stufe, desto härter die Gegner und desto besser die Beute."]
 			icon: { id: "apotheosis:gem_cutting_table" }
-			id: "63A7E8E991B75FDA"
+			id: "5698BF92CF245300"
 			title: "Apotheosis"
-			rewards: [{ id: "02C8DA13DC13C29A", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "B9F3BB80C593E4FE", type: "checkmark" }]
+			rewards: [{ id: "5A6120CCABD137D7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "37190EF62A190E1F", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
 			x: 0.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["63A7E8E991B75FDA"]
-			description: ["&6Was ist das?", "Das Handbuch zu Apotheosis, direkt im Spiel.", "", "&6So gehts", "Herstellung: ein Buch und ein Goldbarren, beides formlos in die Werkbank.", "", "&6Wofür ist das wichtig?", "Es erklärt Affixe, Edelsteine, Welt-Stufen, Spawner und Tränke ausführlich (auf Englisch)."]
-			id: "28FF2244F198A894"
+			dependencies: ["5698BF92CF245300"]
+			description: ["&6Was ist das?", "Das Handbuch zu Apotheosis, direkt im Spiel (auf Englisch).", "", "&6So gehts", "Herstellung: ein Buch und ein Goldbarren, formlos in der Werkbank.", "", "&6Wofür ist das wichtig?", "Es erklärt Affixe, Edelsteine, Welt-Stufen, Spawner, Tränke und Verzauberungen ausführlich."]
+			id: "1E023313CF477816"
 			title: "Chronik der Schatten"
-			rewards: [{ id: "F20B1160F9785133", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "F73FCE4C98596153", type: "item", item: { id: "patchouli:guide_book", count: 1 }, count: 1L }]
+			rewards: [{ id: "782309DF261C6F75", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3DE57AA9DD3C5106", type: "item", item: { id: "patchouli:guide_book", count: 1 }, count: 1L }]
 			x: 1.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["28FF2244F198A894"]
-			description: ["&6Was ist das?", "Waffen, Werkzeuge und Rüstung können jetzt Affixe tragen: Zusatzwerte und Fähigkeiten, erkennbar am Namen und an der Seltenheit.", "", "&6So gehts", "Du findest sie in Kisten, bei Elite-Monstern, bei Eindringlingen, beim Fahrenden Händler und als Beute von Mobs. Hebe einen auf und bestätige diese Quest.", "", "&6Wofür ist das wichtig?", "Der erste Fund schaltet die Welt-Stufe Zuflucht frei."]
+			dependencies: ["1E023313CF477816"]
+			description: ["&6Was ist das?", "Waffen, Werkzeuge und Rüstung können jetzt Affixe tragen: Zusatzwerte und Fähigkeiten. Du erkennst sie an Namen, Seltenheit und Farbe.", "", "&6So gehts", "Du findest sie in Kisten, bei Elite-Monstern und Eindringlingen, beim Fahrenden Händler und mit Glück als Beute normaler Monster. Hebe einen auf und bestätige die Quest.", "", "&6Wofür ist das wichtig?", "Der erste Fund schaltet die Welt-Stufe Zuflucht frei."]
 			icon: { id: "apotheosis:sigil_of_rebirth" }
-			id: "17C766681B68D333"
+			id: "46C408A67E0A482D"
 			title: "Der erste Affix-Gegenstand"
-			rewards: [{ id: "71D865FFD3F21B6D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "CB6191884641C508", type: "checkmark" }]
+			rewards: [{ id: "4BDFA3D558552C39", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "52815E3C782E65FE", type: "checkmark" }]
 			x: 3.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["17C766681B68D333"]
-			description: ["&6Was ist das?", "Fünf Welt-Stufen: Zuflucht, Grenzland, Aufstieg, Gipfel, Zenit. Höhere Stufen machen Mobs stärker und die Beute besser.", "", "&6So gehts", "Strg + T öffnet die Auswahl. Dort siehst du die Voraussetzungen jeder Stufe und die Drop-Chancen.", "", "&6Wofür ist das wichtig?", "Wer die Stufen ignoriert, bekommt nur schwache Beute."]
+			dependencies: ["46C408A67E0A482D"]
+			description: ["&6Was ist das?", "Eine Welt-Stufe gilt nur für dich. Sie bestimmt, wie stark die Gegner sind und wie gut die Beute ist.", "", "&6So gehts", "Strg + T öffnet die Welt-Stufen-Auswahl. Symbol anklicken, dann „Aktivieren\". „Detailinfo\" zeigt die Drop-Chancen, „?\" ein Tutorial. Solange du noch nie eine Stufe aktiviert hast, zeigen Affix-Gegenstände ihre Werte nicht an.", "", "&6Wofür ist das wichtig?", "Neue Stufen schalten sich nicht von selbst ein. Du kannst jederzeit zwischen freigeschalteten Stufen wechseln."]
 			icon: { id: "apotheosis:boss_summoner" }
-			id: "90D65CE3E31A894C"
-			title: "Welt-Stufen"
-			rewards: [{ id: "FE5369ED72B509A6", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "64CCA4B1C2B01108", type: "checkmark" }]
+			id: "3A5645CE8150CB6E"
+			title: "Welt-Stufe aktivieren"
+			rewards: [{ id: "50E3643BFA0E3C4D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "347B3A8951342D7A", type: "checkmark" }]
 			x: 4.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["90D65CE3E31A894C"]
-			description: ["&6Was ist das?", "Die zweite Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set aus Affix-Gegenständen mit mindestens Seltenheit Gewöhnlich: Helm, Brustpanzer, Beinschutz, Stiefel und Waffe. Danach schaltest du Grenzland frei und aktivierst es mit Strg + T.", "", "&6Wofür ist das wichtig?", "Ab dem Grenzland erscheinen Apothic-Eindringlinge in der Welt."]
+			dependencies: ["3A5645CE8150CB6E"]
+			description: ["&6Was ist das?", "Die zweite Welt-Stufe. Ab hier erscheinen Apothic-Eindringlinge.", "", "&6So gehts", "Trage in jedem Rüstungsplatz einen Affix-Gegenstand und halte eine Affix-Waffe in einer Hand. Danach schaltest du das Grenzland frei und aktivierst es mit Strg + T.", "", "&6Wofür ist das wichtig?", "Seltenere Gegenstände und die ersten Eindringlinge."]
 			icon: { id: "minecraft:iron_chestplate" }
-			id: "53FAD7BCF8B1DF9B"
+			id: "7E9CC5005197FB45"
 			title: "Grenzland"
-			rewards: [{ id: "270363ED7492044C", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "5B4EC7228BA1A942", type: "checkmark" }]
+			rewards: [{ id: "44FA2FAF83F72BA7", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "7C2C2B886A6613A5", type: "checkmark" }]
 			x: 6.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["53FAD7BCF8B1DF9B"]
-			description: ["&6Was ist das?", "Die dritte Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set mit mindestens Seltenheit Ungewöhnlich und erschlage einen Apothic-Eindringling.", "", "&6Wofür ist das wichtig?", "Bessere Seltenheiten und mehr Eindringlinge."]
+			dependencies: ["7E9CC5005197FB45"]
+			description: ["&6Was ist das?", "Die dritte Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set Ungewöhnlicher Affix-Gegenstände samt Waffe und erschlage einen Apothic-Eindringling. Dann freischalten und aktivieren.", "", "&6Wofür ist das wichtig?", "Mehr seltene Gegenstände und Eindringlinge."]
 			icon: { id: "minecraft:diamond_chestplate" }
-			id: "6FE7E3014EFFF2C8"
+			id: "6528795EAD5D074D"
 			title: "Aufstieg"
-			rewards: [{ id: "21D49524440E4E63", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "E9EF9374B97E7510", type: "checkmark" }]
+			rewards: [{ id: "3EA9ED0FD820A79C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5E567C9C363342E2", type: "checkmark" }]
 			x: 7.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["6FE7E3014EFFF2C8"]
-			description: ["&6Was ist das?", "Die vierte Welt-Stufe.", "", "&6So gehts", "Erschlage den Wither und trage ein komplettes Set mit mindestens Seltenheit Selten.", "", "&6Wofür ist das wichtig?", "Hier fallen die ersten epischen und mythischen Gegenstände."]
+			dependencies: ["6528795EAD5D074D"]
+			description: ["&6Was ist das?", "Die vierte Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set Seltener Affix-Gegenstände und erschlage den Wither.", "", "&6Wofür ist das wichtig?", "Hier fallen erste epische Gegenstände. Monster bekommen Schadensminderung, bleib also ausgerüstet."]
 			icon: { id: "minecraft:wither_skeleton_skull" }
-			id: "2696CC4E349A8A9C"
+			id: "72FA1A5F2EB9026A"
 			title: "Gipfel"
-			rewards: [{ id: "44DC76400E66EBC4", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "407DE2BECD7A475B", type: "checkmark" }]
+			rewards: [{ id: "781BDBC4D65C171F", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "298182E60FD4D12B", type: "checkmark" }]
 			x: 9.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["2696CC4E349A8A9C"]
-			description: ["&6Was ist das?", "Die letzte Welt-Stufe.", "", "&6So gehts", "Erschlage den Enderdrachen und trage ein komplettes Set mit mindestens Seltenheit Episch.", "", "&6Wofür ist das wichtig?", "Die besten Affixe, Edelsteine und Eindringlinge im Spiel."]
+			dependencies: ["72FA1A5F2EB9026A"]
+			description: ["&6Was ist das?", "Die letzte Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set Epischer Affix-Gegenstände und erschlage den Enderdrachen.", "", "&6Wofür ist das wichtig?", "Die besten Affixe, Edelsteine und Eindringlinge im Spiel. Unzerbrechliche Talismane gibt es nur in dieser Stufe."]
 			icon: { id: "minecraft:dragon_head" }
-			id: "A0699D3FB94EEDD8"
+			id: "372521EDADBF67A6"
 			title: "Zenit"
-			rewards: [{ id: "576DCD80BDFC3BFA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "167D852B2975EFE6", type: "checkmark" }]
+			rewards: [{ id: "4F10D256669BEAD6", type: "xp_levels", xp_levels: 5 }]
+			tasks: [{ id: "2BD30A9AE61C0BA8", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
 			x: 10.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["17C766681B68D333"]
-			description: ["&6Was ist das?", "Gewöhnlich, Ungewöhnlich, Selten, Episch, Mythisch: je höher, desto mehr Affixe und stärkere Werte.", "", "&6So gehts", "Die Seltenheit steht in der Gegenstandsbeschreibung. Strg + T zeigt die Drop-Chancen deiner Welt-Stufe.", "", "&6Wofür ist das wichtig?", "Voraussetzung für die Welt-Stufen."]
-			id: "954949F295FB1B6B"
-			title: "Seltenheiten"
-			rewards: [{ id: "C1950D90C7F03E8C", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "597BC006CB96597E", type: "checkmark" }]
-			x: 3.00d
-			y: -1.50d
+			dependencies: ["372521EDADBF67A6"]
+			description: ["&6Was ist das?", "Mythische Gegenstände sind die seltenste Stufe: vier Zusatzwerte, zwei Effekte, eine Fähigkeit und mehrere Sockel.", "", "&6So gehts", "Finde einen mythischen Affix-Gegenstand, etwa bei einem starken Eindringling, und bestätige die Quest.", "", "&6Wofür ist das wichtig?", "Sie sind das Ziel aller Verbesserungen. Mit dem Verstärkungstisch machst du sie perfekt."]
+			icon: { id: "apotheosis:godforged_pearl" }
+			id: "2F4751A1F8113396"
+			title: "Titanengeschmiedet"
+			rewards: [{ id: "731992E4D23B41B9", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "10D863996E91AE7F", type: "checkmark" }]
+			x: 12.00d
+			y: 0.00d
 		}
 		{
-			dependencies: ["954949F295FB1B6B"]
-			description: ["&6Was ist das?", "Zerlegt Affix-Gegenstände in Seltenheitsmaterialien.", "", "&6So gehts", "Herstellung: Kupferbarren, Eisenspitzhacke, Eisenaxt, Schmiedetisch, Lavaeimer und Edelsteinstaub.", "", "&6Wofür ist das wichtig?", "Aus den Materialien baust du alles Weitere."]
-			id: "F9AF8B9D8C4C0798"
-			title: "Zerlegetisch"
-			rewards: [{ id: "43D408A2E27D43C1", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "07D4377C56A87A62", type: "item", item: { id: "apotheosis:salvaging_table", count: 1 }, count: 1L }]
+			dependencies: ["46C408A67E0A482D"]
+			description: ["&6Was ist das?", "Affixe sind Zusatzfähigkeiten auf Ausrüstung. Zusatzwerte steigern ein Attribut, Effekte bringen neue Eigenschaften, Fähigkeiten sind die stärkste Art und haben oft Abklingzeit. Dazu kommen Sockel und eine Haltbarkeits-Verbesserung.", "", "&6So gehts", "Schau dir einen Gegenstand in der Beschreibung genau an. Zusatzwerte gibt es auf jeder Stufe, Effekte ab Ungewöhnlich, Fähigkeiten auf Episch und Mythisch. Bestätige, wenn du Affixe gelesen hast.", "", "&6Wofür ist das wichtig?", "Wer Affixe versteht, wählt die richtige Ausrüstung und die richtigen Edelsteine."]
+			icon: { id: "apotheosis:gem_dust" }
+			id: "1C5C6118C83B64CE"
+			title: "Affixe"
+			rewards: [{ id: "200F5D5887F9CBA1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "15E47D77B7489C25", type: "checkmark" }]
 			x: 3.00d
 			y: -3.00d
 		}
 		{
-			dependencies: ["17C766681B68D333"]
-			description: ["&6Was ist das?", "Apothic-Edelsteine werden in Gegenstände mit Sockel gesetzt und geben Bonuswerte. Es gibt sie in Kisten und als Beute starker Mobs.", "", "&6So gehts", "Reinheiten von Rissig bis Perfekt. Hebe einen Edelstein auf und bestätige die Quest.", "", "&6Wofür ist das wichtig?", "Edelsteine sind der zweite große Teil der Ausrüstung."]
-			icon: { id: "apotheosis:gem_dust" }
-			id: "B9E4938C6A85CE09"
-			title: "Edelsteine"
-			rewards: [{ id: "4847AD39A2C4A162", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "4784427DDEDE0ACD", type: "checkmark" }]
-			x: 3.00d
-			y: 1.50d
+			dependencies: ["1C5C6118C83B64CE"]
+			description: ["&6Was ist das?", "Gewöhnlich, Ungewöhnlich, Selten, Episch, Mythisch. Je höher, desto mehr Zusatzwerte, Effekte und Sockel.", "", "&6So gehts", "Gewöhnlich: ein Zusatzwert. Ungewöhnlich: zwei Zusatzwerte, vielleicht ein Sockel. Selten: ein Effekt und bis zu zwei Sockel. Episch: dazu eine Fähigkeit. Mythisch: vier Zusatzwerte, zwei Effekte, eine Fähigkeit.", "", "&6Wofür ist das wichtig?", "Die Seltenheit entscheidet über Welt-Stufen, Umschmieden und Materialien."]
+			id: "7ED0C626917C05A0"
+			title: "Seltenheiten"
+			rewards: [{ id: "6A0C3ED7FDD579D0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6A24D79FEA9F422E", type: "checkmark" }]
+			x: 4.50d
+			y: -3.00d
 		}
 		{
-			dependencies: ["B9E4938C6A85CE09"]
-			description: ["&6Was ist das?", "Zerstoßener Edelstein, Zutat für fast alle Apotheosis-Blöcke.", "", "&6So gehts", "Wirf einen beliebigen Edelstein auf den Boden und lass einen Amboss darauf fallen. Danach gewinnst du Staub am Zerlegetisch.", "", "&6Wofür ist das wichtig?", "Ohne Staub kannst du die Tische nicht bauen."]
-			id: "82FE8B8F0FFAB89E"
-			title: "Edelsteinstaub"
-			rewards: [{ id: "282C2237479E22AC", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "3D3732681B67CD40", type: "item", item: { id: "apotheosis:gem_dust", count: 1 }, count: 1L }]
+			dependencies: ["7ED0C626917C05A0"]
+			description: ["&6Was ist das?", "Zerlegt Affix-Gegenstände und Edelsteine in Seltenheitsmaterialien beziehungsweise Edelsteinstaub.", "", "&6So gehts", "Herstellung: drei Kupferbarren, Eisenspitzhacke, Eisenaxt, Schmiedetisch, Lavaeimer und zwei Edelsteinstaub. Den ersten Staub gewinnst du im Zweig Edelsteine mit dem Amboss-Trick.", "", "&6Wofür ist das wichtig?", "Ohne Zerlegetisch kommst du nicht an Material für Umschmieden und Veredeln."]
+			id: "7C1E99DFBDAF1B1F"
+			title: "Zerlegetisch"
+			rewards: [{ id: "7EE8208F70DD3061", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "356588B1C51A6799", type: "item", item: { id: "apotheosis:salvaging_table", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["7C1E99DFBDAF1B1F"]
+			description: ["&6Was ist das?", "Jede Seltenheit hat ihr Material: Gewöhnlich Geheimnisvoller Metallschrott, Ungewöhnlich Zeitgenagter Stoff, Selten Leuchtender Kristallsplitter, Episch Arkane Sande, Mythisch Gottgeschmiedete Perle.", "", "&6So gehts", "Zerlege Gegenstände der jeweiligen Seltenheit am Zerlegetisch.", "", "&6Wofür ist das wichtig?", "Du brauchst sie zum Umschmieden, für Edelstein-Veredelung und für viele Runen."]
+			id: "62309D16ABE28BAA"
+			title: "Seltenheitsmaterial"
+			rewards: [{ id: "153F61F8AC199C05", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2C41AA27DB3EA020", type: "item", item: { id: "apotheosis:mysterious_scrap_metal", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: -3.00d
+		}
+		{
+			dependencies: ["62309D16ABE28BAA"]
+			description: ["&6Was ist das?", "Würfelt die Affixe eines Gegenstands neu, bis zur Seltenheit Selten.", "", "&6So gehts", "Herstellung: Eisenbarren, zwei Edelsteinstaub, Verzauberungstisch und drei glatte Steine.", "", "&6Wofür ist das wichtig?", "Wenn dir ein Affix nicht gefällt oder ein Gegenstand noch keinen hat."]
+			id: "55C56213C54DB7FE"
+			title: "Einfacher Umschmiedetisch"
+			rewards: [{ id: "777C2C7298B8F56E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6E63D56A51242402", type: "item", item: { id: "apotheosis:simple_reforging_table", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["55C56213C54DB7FE"]
+			description: ["&6Was ist das?", "Treibstoff des Umschmiedetischs.", "", "&6So gehts", "Herstellung: sechs Edelsteinverschmolzene Schieferplatten und drei Edelsteinstaub.", "", "&6Wofür ist das wichtig?", "Jedes Umschmieden ab Ungewöhnlich verbraucht Sigille."]
+			id: "4F5595EE700E48BD"
+			title: "Sigill der Wiedergeburt"
+			rewards: [{ id: "31BA46DD6FD0F195", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2BC0149576409DF7", type: "item", item: { id: "apotheosis:sigil_of_rebirth", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: -3.00d
+		}
+		{
+			dependencies: ["4F5595EE700E48BD"]
+			description: ["&6Was ist das?", "Lege den Gegenstand in die Mitte, oben links das Material der gewünschten Seltenheit, unten rechts die Sigille.", "", "&6So gehts", "Du bekommst drei Angebote, keines ist besser als die anderen. Das zweite und dritte kosten das Doppelte und Dreifache an Stufen und Material. Kosten pro Seltenheit: Gewöhnlich 2 Stufen und 1 Material; Ungewöhnlich 5 Stufen, 2 Material, 1 Sigill; Selten 15 Stufen, 2 Material, 2 Sigille.", "", "&6Wofür ist das wichtig?", "So holst du aus Fundstücken genau die Affixe, die du willst."]
+			icon: { id: "apotheosis:reforging_table" }
+			id: "5A798828142B020E"
+			title: "Umschmieden"
+			rewards: [{ id: "452F94ADE373B6D9", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "081F9BF64A7E5C5C", type: "checkmark" }]
+			x: 12.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["5A798828142B020E"]
+			description: ["&6Was ist das?", "Die große Version: erlaubt auch Episch und Mythisch.", "", "&6So gehts", "Herstellung: Netheritbarren, zwei Arkane Sande, Einfacher Umschmiedetisch und drei Netherziegel. Episch kostet 30 Stufen, 2 Material und 4 Sigille, Mythisch 50 Stufen, 3 Material und 5 Sigille.", "", "&6Wofür ist das wichtig?", "Für die besten Gegenstände."]
+			id: "0977AE63F46DB6CB"
+			title: "Umschmiedetisch"
+			rewards: [{ id: "669C4EBA90FED353", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "589E6ADB2C52C5DF", type: "item", item: { id: "apotheosis:reforging_table", count: 1 }, count: 1L }]
+			x: 13.50d
+			y: -3.00d
+		}
+		{
+			dependencies: ["0977AE63F46DB6CB"]
+			description: ["&6Was ist das?", "Treibstoff des Verstärkungstischs.", "", "&6So gehts", "Herstellung: vier Edelsteinstaub, vier Edelsteinverschmolzene Schieferplatten und eine Gottgeschmiedete Perle.", "", "&6Wofür ist das wichtig?", "Verbessert einzelne Affixe."]
+			id: "7BAD1045390BB4A6"
+			title: "Sigill der Verstärkung"
+			rewards: [{ id: "54BB0A3ED29372A4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "77C67C1564F0B8DD", type: "item", item: { id: "apotheosis:sigil_of_enhancement", count: 1 }, count: 1L }]
+			x: 15.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["7BAD1045390BB4A6"]
+			description: ["&6Was ist das?", "Die Endspiel-Werkbank für einzelne Affixe.", "", "&6So gehts", "Herstellung: Nether-Stern, zwei Gottgeschmiedete Perlen, Verzauberungstisch und drei polierte Schwarzsteine.", "", "&6Wofür ist das wichtig?", "Lohnt sich vor allem für Mythische, notfalls auch Epische Gegenstände."]
+			id: "70DF6DA7BB3D1A7E"
+			title: "Verstärkungstisch"
+			rewards: [{ id: "2137F1DC32E655E2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0D5E094DB8EF146D", type: "item", item: { id: "apotheosis:augmenting_table", count: 1 }, count: 1L }]
+			x: 16.50d
+			y: -3.00d
+		}
+		{
+			dependencies: ["70DF6DA7BB3D1A7E"]
+			description: ["&6Was ist das?", "Zwei Arbeitsschritte: Aufwerten und Neu würfeln.", "", "&6So gehts", "Aufwerten kostet zwei Sigille der Verstärkung und 225 Stufen und erhöht die Stärke eines Affixes um 25 Prozent. Neu würfeln kostet ein Sigill und 175 Stufen und tauscht den Affix gegen einen anderen derselben Art. Affixe ohne Stufen lassen sich nicht aufwerten.", "", "&6Wofür ist das wichtig?", "So wird aus einem guten Fund der perfekte Gegenstand."]
+			id: "620E00B8BFFA62FC"
+			title: "Affix aufwerten"
+			rewards: [{ id: "345F34AA1667D91D", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "4604FA6539E34C40", type: "checkmark" }]
+			x: 18.00d
+			y: -3.00d
+		}
+		{
+			dependencies: ["620E00B8BFFA62FC"]
+			description: ["&6Was ist das?", "Überlädt einen Affix und setzt einen anderen zurück.", "", "&6So gehts", "Das Rezept zeigt JEI. Das Sigill wird auch für die Rune des Bergsteigers gebraucht.", "", "&6Wofür ist das wichtig?", "Stärkere Affixe gegen einen Preis."]
+			id: "2D4EDEDE0C31E851"
+			title: "Sigill der Bosheit"
+			rewards: [{ id: "24705A85FAF6C532", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5F55E26D11C60A8E", type: "item", item: { id: "apotheosis:sigil_of_malice", count: 1 }, count: 1L }]
+			x: 19.50d
+			y: -3.00d
+		}
+		{
+			dependencies: ["1C5C6118C83B64CE"]
+			description: ["&6Was ist das?", "Ein Talisman verteilt einen Trank über viel längere Zeit als die drei Tränke, aus denen er entsteht.", "", "&6So gehts", "Herstellung: drei gleiche Tränke in der mittleren Reihe, darum sechs Lohenpulver.", "", "&6Wofür ist das wichtig?", "Dauerhafte Effekte ohne Trank-Flaschen im Kampf."]
+			id: "2E3B78F5E1BDBC16"
+			title: "Talisman"
+			rewards: [{ id: "3BAE8281788E64CC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "12BBF3B9A01B4FD0", type: "item", item: { id: "apotheosis:potion_charm", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["2E3B78F5E1BDBC16"]
+			description: ["&6Was ist das?", "Ein Talisman wirkt nur, wenn er eingeschaltet ist.", "", "&6So gehts", "Rechtsklick schaltet ihn ein, er leuchtet dann. Solange er im Inventar liegt, wirkt er in kurzen Stößen und verbraucht Haltbarkeit. Ist sie leer, geht er kaputt.", "", "&6Wofür ist das wichtig?", "Ohne Einschalten tut er nichts."]
+			id: "1593168ABE53C48E"
+			title: "Talisman benutzen"
+			rewards: [{ id: "116CB91F0BF022AD", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2C29807BAC719A84", type: "checkmark" }]
+			x: 4.50d
+			y: -6.00d
+		}
+		{
+			dependencies: ["1593168ABE53C48E"]
+			description: ["&6Was ist das?", "Jede Stufe gibt 20 Prozent mehr Abbaugeschwindigkeit.", "", "&6So gehts", "Braue einen Seltsamen Trank und gib Pilzsuppe dazu. Mit den üblichen Zutaten verlängerst, verstärkst oder machst du ihn zum Wurftrank.", "", "&6Wofür ist das wichtig?", "Der Trank hat in Vanilla kein Rezept."]
+			icon: { id: "minecraft:mushroom_stew" }
+			id: "427A7EF48D722BD5"
+			title: "Trank der Eile"
+			rewards: [{ id: "0D645BB1525638BF", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7CDEFC3F7AD4D8B0", type: "checkmark" }]
+			x: 6.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["427A7EF48D722BD5"]
+			description: ["&6Was ist das?", "Jede Stufe gibt 20 Prozent Schadensminderung gegen alles.", "", "&6So gehts", "Braue einen Seltsamen Trank und gib eine Shulkerschale dazu.", "", "&6Wofür ist das wichtig?", "Hilft in harten Kämpfen."]
+			icon: { id: "minecraft:shulker_shell" }
+			id: "44D16D0D02A719A8"
+			title: "Trank der Resistenz"
+			rewards: [{ id: "2FAF81C752E0E49E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2E1FFB7948CA6FFE", type: "checkmark" }]
+			x: 7.50d
+			y: -6.00d
+		}
+		{
+			dependencies: ["44D16D0D02A719A8"]
+			description: ["&6Was ist das?", "Jede Stufe gibt zwei zusätzliche Herzen, die nicht nachwachsen.", "", "&6So gehts", "Braue einen Seltsamen Trank und gib einen Goldenen Apfel dazu. Die Herzen frischen sich nicht auf, deshalb ist ein Talisman besser als der Trank.", "", "&6Wofür ist das wichtig?", "Zusätzlicher Puffer für harte Kämpfe."]
+			icon: { id: "minecraft:golden_apple" }
+			id: "3BD92E6E5A5F283E"
+			title: "Trank der Absorption"
+			rewards: [{ id: "0C215FD38B1D3059", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0EE43245EAB8017F", type: "checkmark" }]
+			x: 9.00d
+			y: -6.00d
+		}
+		{
+			dependencies: ["3BD92E6E5A5F283E"]
+			description: ["&6Was ist das?", "Ein Talisman, der nie kaputt geht: unbegrenzt lange Trankwirkung.", "", "&6So gehts", "Nur per Aufguss-Verzauberung in der Welt-Stufe Zenit, mit sehr guten Verzauberungswerten. Siehe das Kapitel Verzauberung (Apothic).", "", "&6Wofür ist das wichtig?", "Das Endziel der Tränke."]
+			icon: { id: "apotheosis:potion_charm" }
+			id: "18910296DB6D4BAE"
+			title: "Unzerbrechlicher Talisman"
+			rewards: [{ id: "5452424B524FEBFC", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "42E2375E5556035E", type: "checkmark" }]
+			x: 10.50d
+			y: -6.00d
+		}
+		{
+			dependencies: ["46C408A67E0A482D"]
+			description: ["&6Was ist das?", "Apothic-Edelsteine setzt du in Gegenstände mit Sockel ein. Sie geben mächtige Zusatzwerte. Jeder Edelstein hat eine Reinheit von Rissig bis Perfekt.", "", "&6So gehts", "Du findest sie in Kisten und mit kleiner Chance als Beute von Monstern, bei Eindringlingen und Bossen öfter. Von Maschinen fallen sie kaum. Hebe einen auf und bestätige die Quest.", "", "&6Wofür ist das wichtig?", "Die Welt-Stufe bestimmt, welche Edelsteine mit welcher Reinheit erscheinen."]
+			icon: { id: "apotheosis:gem_dust" }
+			id: "32ABE07174CBA42E"
+			title: "Edelsteine"
+			rewards: [{ id: "03047C30A74C6E68", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "640DDE65766479E4", type: "checkmark" }]
 			x: 3.00d
 			y: 3.00d
 		}
 		{
-			dependencies: ["82FE8B8F0FFAB89E"]
-			description: ["&6Was ist das?", "Wertet Edelsteine mit Edelsteinstaub und Seltenheitsmaterialien auf.", "", "&6So gehts", "Herstellung: glatter Stein, Schere, Bretter und Edelsteinstaub.", "", "&6Wofür ist das wichtig?", "So werden aus Rissigen Edelsteinen Perfekte."]
-			id: "E5C466D3686841F5"
-			title: "Edelstein-Schleiftisch"
-			rewards: [{ id: "3895C7E7080A2A0D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "C1E6F7CD76996D4C", type: "item", item: { id: "apotheosis:gem_cutting_table", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 4.50d
+			dependencies: ["32ABE07174CBA42E"]
+			description: ["&6Was ist das?", "Zerstoßener Edelstein, Zutat für fast alles.", "", "&6So gehts", "Die erste Portion bekommst du so: Wirf einen Edelstein auf den Boden und lass einen Amboss darauf fallen. Danach nutzt du den Zerlegetisch.", "", "&6Wofür ist das wichtig?", "Ohne Staub kannst du keinen Tisch bauen."]
+			id: "2827943BD2B957AB"
+			title: "Edelsteinstaub"
+			rewards: [{ id: "640CB3C2002209CC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "754CCAD2D0B55717", type: "item", item: { id: "apotheosis:gem_dust", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 3.00d
 		}
 		{
-			dependencies: ["E5C466D3686841F5"]
-			description: ["&6Was ist das?", "Speichert viele Edelsteine in einem Block.", "", "&6So gehts", "Herstellung: Glas, Basalt, Edelstein-Schleiftisch und Endertruhe.", "", "&6Wofür ist das wichtig?", "Hält dein Inventar sauber."]
-			id: "D068414DF2840142"
+			dependencies: ["2827943BD2B957AB"]
+			description: ["&6Was ist das?", "Wertet Edelsteine mit Edelsteinstaub, Seltenheitsmaterial und einem zweiten Edelstein auf.", "", "&6So gehts", "Herstellung: Schere, vier Bretter, zwei glatte Steine und Edelsteinstaub.", "", "&6Wofür ist das wichtig?", "So werden aus Rissigen Steinen Perfekte."]
+			id: "7C5F719ECC18BB03"
+			title: "Edelstein-Schleiftisch"
+			rewards: [{ id: "3A527FBCDB21FDF1", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "757010184A54F53C", type: "item", item: { id: "apotheosis:gem_cutting_table", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["7C5F719ECC18BB03"]
+			description: ["&6Was ist das?", "Verstärkter Tiefenschiefer, Grundstoff aller Sigille.", "", "&6So gehts", "Herstellung: acht Tiefenschiefer um ein Edelsteinstaub.", "", "&6Wofür ist das wichtig?", "Ohne Platten keine Sigille."]
+			id: "25CE80C3C2768D50"
+			title: "Edelsteinverschmolzene Schieferplatte"
+			rewards: [{ id: "487BFBB1D19DB88A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "219E63DCD9A149F2", type: "item", item: { id: "apotheosis:gem_fused_slate", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["25CE80C3C2768D50"]
+			description: ["&6Was ist das?", "Mit dem Schmiedetisch setzt du Edelsteine in Sockel ein.", "", "&6So gehts", "Gegenstand links, Edelstein rechts. Alternativ hebst du den Edelstein auf und klickst ihn im Inventar auf den Gegenstand. Manche Edelsteine sind einzigartig: nur einer pro Gegenstand. Ein eingesetzter Edelstein ist teuer wieder zu entfernen.", "", "&6Wofür ist das wichtig?", "Wähle deine Edelsteine mit Bedacht."]
+			id: "76A4761EA3AA3D00"
+			title: "Edelstein einsetzen"
+			rewards: [{ id: "531380204444BF70", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "0B3BE54FA7EDB52D", type: "checkmark" }]
+			x: 9.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["76A4761EA3AA3D00"]
+			description: ["&6Was ist das?", "Fügt einem Gegenstand einen Sockel hinzu, bis höchstens zwei.", "", "&6So gehts", "Herstellung: vier Edelsteinstaub, Schießpulver, drei Edelsteinverschmolzene Schieferplatten und ein Amethystsplitter. Im Schmiedetisch auf den Gegenstand anwenden.", "", "&6Wofür ist das wichtig?", "Mehr Sockel bedeuten mehr Edelsteine."]
+			id: "2D087E1C8AAFDA58"
+			title: "Sigill der Sockelung"
+			rewards: [{ id: "13437CB3145FE20B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3807EDFF16DF5FBE", type: "item", item: { id: "apotheosis:sigil_of_socketing", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["2D087E1C8AAFDA58"]
+			description: ["&6Was ist das?", "Die Reinheit steigt von Rissig über Angeschlagen, Fehlerhaft, Normal und Makellos bis Perfekt.", "", "&6So gehts", "Am Schleiftisch kostet jede Stufe Edelsteinstaub, Seltenheitsmaterial und einen zweiten Edelstein gleicher Reinheit. Die Kosten steigen mit der Reinheit, JEI zeigt sie.", "", "&6Wofür ist das wichtig?", "Die Reinheit allein bestimmt die Stärke des Edelsteins."]
+			id: "667099AF0368D250"
+			title: "Edelstein veredeln"
+			rewards: [{ id: "467E792ABB4E5375", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2B95D93FAFF6D46B", type: "checkmark" }]
+			x: 12.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["667099AF0368D250"]
+			description: ["&6Was ist das?", "Ein Lager für Edelsteine, bis zu 32.000 pro Sorte und Reinheit. Mit Filter nach Name und Gegenstand. Sechs Zusatzplätze erlauben Veredeln direkt im Kasten.", "", "&6So gehts", "Herstellung: drei Glasblöcke, vier Basalt, Edelstein-Schleiftisch und Endertruhe. Eine Version mit Platz für zwei Milliarden gibt es nur per Aufguss-Verzauberung.", "", "&6Wofür ist das wichtig?", "Hält das Inventar sauber und ersetzt den Schleiftisch."]
+			id: "5381904E6E22E9D6"
 			title: "Edelsteinkasten"
-			rewards: [{ id: "1659DB2C8DAD6A94", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "7F3E581E8FCAD1E1", type: "item", item: { id: "apotheosis:gem_case", count: 1 }, count: 1L }]
+			rewards: [{ id: "573293ED2BA08D35", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5C5550EAC496775F", type: "item", item: { id: "apotheosis:gem_case", count: 1 }, count: 1L }]
+			x: 13.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["5381904E6E22E9D6"]
+			description: ["&6Was ist das?", "Entfernt alle Edelsteine aus einem Gegenstand, ohne etwas zu zerstören.", "", "&6So gehts", "Herstellung: vier Edelsteinverschmolzene Schieferplatten, Lohenrute, zwei Enderperlen, Lavaeimer und Edelsteinstaub. Mit dem Gegenstand im Schmiedetisch kombinieren.", "", "&6Wofür ist das wichtig?", "Damit kannst du Edelsteine ohne Verlust umsetzen."]
+			id: "634B1AEC0696E19E"
+			title: "Sigill des Entzugs"
+			rewards: [{ id: "3679FF6A17D58400", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3DA0281CA3C02300", type: "item", item: { id: "apotheosis:sigil_of_withdrawal", count: 1 }, count: 1L }]
+			x: 15.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["634B1AEC0696E19E"]
+			description: ["&6Was ist das?", "Die höchste Reinheit. Perfekte Edelsteine lassen sich nicht weiter aufwerten.", "", "&6So gehts", "Veredle einen Edelstein am Schleiftisch oder im Kasten auf Perfekt.", "", "&6Wofür ist das wichtig?", "Ein perfekter Edelstein ist der beste Beitrag zu jeder Ausrüstung."]
+			icon: { id: "apotheosis:gem_dust" }
+			id: "32A6DAA0FE65EAD0"
+			title: "Perfekter Edelstein"
+			rewards: [{ id: "62122377B32E427D", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "1FAFB48517969E06", type: "checkmark" }]
+			x: 16.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["32ABE07174CBA42E"]
+			description: ["&6Was ist das?", "Eindringlinge sind gerüstete Monster mit Namen und Beute. Sie ersetzen einen kleinen Teil normaler Monster-Spawns.", "", "&6So gehts", "In der Oberwelt erscheinen sie an der Oberfläche oder auf deiner Tiefe, im Nether überall, im Ende nur auf den äußeren Inseln, nie in der Zuflucht. Ein lauter Ton, eine Nachricht und ein Lichtstrahl kündigen sie an.", "", "&6Wofür ist das wichtig?", "Je höher die Welt-Stufe, desto häufiger und stärker sind sie."]
+			icon: { id: "apotheosis:boss_summoner" }
+			id: "4C62B32ECF646A53"
+			title: "Apothic-Eindringlinge"
+			rewards: [{ id: "4BB3570777BD0CC8", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "27E62848CF13E7A5", type: "checkmark" }]
 			x: 3.00d
 			y: 6.00d
 		}
 		{
-			dependencies: ["53FAD7BCF8B1DF9B"]
-			description: ["&6Was ist das?", "Würfelt die Affixe eines Gegenstands neu.", "", "&6So gehts", "Herstellung: Eisenbarren, zwei Edelsteinstaub, Verzauberungstisch und drei glatte Steine.", "", "&6Wofür ist das wichtig?", "Wenn dir ein Affix nicht gefällt."]
-			id: "E4F4B9E372FD7965"
-			title: "Einfacher Umschmiedetisch"
-			rewards: [{ id: "3D09393A9E623ECB", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "577230F9BC6DF83C", type: "item", item: { id: "apotheosis:simple_reforging_table", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: -1.50d
-		}
-		{
-			dependencies: ["E4F4B9E372FD7965"]
-			description: ["&6Was ist das?", "Treibstoff für den Umschmiedetisch.", "", "&6So gehts", "Herstellung: Edelsteinstaub und Edelsteinverschmolzene Schieferplatte, Rezept siehe JEI.", "", "&6Wofür ist das wichtig?", "Jedes Umschmieden verbraucht Sigille."]
-			id: "E1D7588F81B4407F"
-			title: "Sigill der Wiedergeburt"
-			rewards: [{ id: "791EFBF342193E41", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "CAF83C3E47714E03", type: "item", item: { id: "apotheosis:sigil_of_rebirth", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: -3.00d
-		}
-		{
-			dependencies: ["E1D7588F81B4407F"]
-			description: ["&6Was ist das?", "Die große Version des Tischs mit höherer maximaler Seltenheit.", "", "&6So gehts", "Herstellung: Netheritbarren, zwei Arkane Sande, einfacher Umschmiedetisch und drei Netherziegel.", "", "&6Wofür ist das wichtig?", "Für epische und mythische Gegenstände."]
-			id: "4144A3CA2D7A60FE"
-			title: "Umschmiedetisch"
-			rewards: [{ id: "728162DD080FD6FA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "E54C433E48B3817A", type: "item", item: { id: "apotheosis:reforging_table", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: -4.50d
-		}
-		{
-			dependencies: ["53FAD7BCF8B1DF9B"]
-			description: ["&6Was ist das?", "Fügt einem Gegenstand einen zusätzlichen Sockel hinzu.", "", "&6So gehts", "Herstellung: Edelsteinstaub, Schwarzpulver, Edelsteinverschmolzene Schieferplatte und Amethystsplitter.", "", "&6Wofür ist das wichtig?", "Mehr Sockel bedeuten mehr Edelsteine."]
-			id: "F43C48F097E5124E"
-			title: "Sigill der Sockelung"
-			rewards: [{ id: "CD8E02545735067F", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "DE1492527EA488AA", type: "item", item: { id: "apotheosis:sigil_of_socketing", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 1.50d
-		}
-		{
-			dependencies: ["F43C48F097E5124E"]
-			description: ["&6Was ist das?", "Setze einen Edelstein in einen Gegenstand mit Sockel.", "", "&6So gehts", "Am Schmiedetisch: Gegenstand links, Edelstein rechts. Einen eingesetzten Edelstein wieder zu entfernen ist teuer.", "", "&6Wofür ist das wichtig?", "Wähle deine Edelsteine mit Bedacht."]
-			id: "B597E9FF4D1943A0"
-			title: "Edelstein einsetzen"
-			rewards: [{ id: "725337356DB06B96", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "060B81F0BC00DD29", type: "checkmark" }]
-			x: 6.00d
-			y: 3.00d
-		}
-		{
-			dependencies: ["2696CC4E349A8A9C"]
-			description: ["&6Was ist das?", "Treibstoff für den Verstärkungstisch.", "", "&6So gehts", "Herstellung: Edelsteinstaub, Edelsteinverschmolzene Schieferplatte und Gottgeschmiedete Perle.", "", "&6Wofür ist das wichtig?", "Verbessert einzelne Affixe."]
-			id: "4D7ED6AE11772795"
-			title: "Sigill der Verstärkung"
-			rewards: [{ id: "313644FC0BEC457D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "E19885438F552D6A", type: "item", item: { id: "apotheosis:sigil_of_enhancement", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: -1.50d
-		}
-		{
-			dependencies: ["4D7ED6AE11772795"]
-			description: ["&6Was ist das?", "Wertet einzelne Affixe auf oder würfelt sie neu.", "", "&6So gehts", "Herstellung: Nether-Stern, zwei Gottgeschmiedete Perlen, Verzauberungstisch und drei polierte Schwarzsteine.", "", "&6Wofür ist das wichtig?", "Das Endspiel für perfekte Gegenstände."]
-			id: "5C059208CBFFBC41"
-			title: "Verstärkungstisch"
-			rewards: [{ id: "2B1647B23213A807", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "7688992556F63717", type: "item", item: { id: "apotheosis:augmenting_table", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: -3.00d
-		}
-		{
-			dependencies: ["90D65CE3E31A894C"]
-			description: ["&6Was ist das?", "Ab dem Grenzland erscheinen gerüstete Monster mit Affix-Ausrüstung und Anführer.", "", "&6So gehts", "Sie tauchen an der Oberfläche auf, auch im Nether, Ende und Zwielichtwald. Besiege den Anführer und nimm die Beute.", "", "&6Wofür ist das wichtig?", "Gute Quelle für Affix-Gegenstände."]
-			id: "8A6FD58D51D8FF8C"
-			title: "Apothic-Eindringlinge"
-			rewards: [{ id: "88C75D279E3A1ABC", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "8C72A150D3E4ECDA", type: "checkmark" }]
+			dependencies: ["4C62B32ECF646A53"]
+			description: ["&6Was ist das?", "Jeder Eindringling trägt genau einen Affix-Gegenstand, den er garantiert fallen lässt.", "", "&6So gehts", "Erschlage einen Eindringling. Der Gegenstand hat seine Seltenheit, stärkere Affixe als üblich und seinen Namen als Zusatz. Dazu mehr Chance auf Edelsteine.", "", "&6Wofür ist das wichtig?", "Der Weg zum Aufstieg und eine sichere Quelle für gute Ausrüstung."]
+			id: "771B0193EF859420"
+			title: "Eindringlings-Beute"
+			rewards: [{ id: "440783A736BB78B6", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "246405953E87D792", type: "checkmark" }]
 			x: 4.50d
-			y: 1.50d
+			y: 6.00d
 		}
 		{
-			dependencies: ["8A6FD58D51D8FF8C"]
-			description: ["&6Was ist das?", "Einzelne starke Monster mit Namen, die mehr aushalten und mehr fallen lassen.", "", "&6So gehts", "Sie spawnen in der Oberwelt und im Nether.", "", "&6Wofür ist das wichtig?", "Kleiner Kampf für gute Beute."]
-			id: "16B5F60BF033F228"
+			dependencies: ["771B0193EF859420"]
+			description: ["&6Was ist das?", "Einzelne Monster mit Namen und mehr Stärke. Sie ersetzen normale Monster ohne Auftritt.", "", "&6So gehts", "Sie spawnen in der Oberwelt und im Nether. Sei vorsichtig, sie fallen nicht groß auf.", "", "&6Wofür ist das wichtig?", "Sie können Affix-Gegenstände fallen lassen."]
+			id: "6934B837F973649A"
 			title: "Elite-Monster"
-			rewards: [{ id: "239C0604BCA6A4F4", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "DDDCC910BA2C6F8F", type: "checkmark" }]
-			x: 4.50d
-			y: 3.00d
+			rewards: [{ id: "56C6C6B9127C619E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "312C8CC0181DAED3", type: "checkmark" }]
+			x: 6.00d
+			y: 6.00d
 		}
 		{
-			dependencies: ["16B5F60BF033F228"]
-			description: ["&6Was ist das?", "Ruft gezielt einen Apothic-Eindringling.", "", "&6So gehts", "Siehe JEI für das Rezept und die Anwendung.", "", "&6Wofür ist das wichtig?", "Wenn du Affix-Beute gezielt farmen willst."]
-			id: "AA3023EE1E94EA00"
-			title: "Eindringlings-Beschwörer"
-			rewards: [{ id: "3F09567FFE023198", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "D4C011C3D97CE5C0", type: "item", item: { id: "apotheosis:boss_summoner", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 4.50d
+			dependencies: ["6934B837F973649A"]
+			description: ["&6Was ist das?", "Verstecke tief unter der Erde mit einem Eingesperrten Eindringling und ein paar Truhen.", "", "&6So gehts", "Es gibt mehrere Varianten. Der Käfig öffnet sich, wenn du nah kommst, und entlässt den Eindringling.", "", "&6Wofür ist das wichtig?", "Gute Beute, wenn du vorbereitet bist."]
+			icon: { id: "apotheosis:boss_spawner" }
+			id: "5DE6012B017167DA"
+			title: "Eindringlings-Verliese"
+			rewards: [{ id: "2DC1775EAD7067C5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1AACECA092754715", type: "checkmark" }]
+			x: 7.50d
+			y: 6.00d
 		}
 		{
-			dependencies: ["2696CC4E349A8A9C"]
-			description: ["&6Was ist das?", "Mit Apothic Spawners lassen sich Mob-Spawner einsammeln und verändern.", "", "&6So gehts", "Baue den Spawner mit einem Werkzeug mit Behutsamkeit ab. Danach setzt du Runen ein.", "", "&6Wofür ist das wichtig?", "Mob-Farmen auf Wunsch."]
+			dependencies: ["5DE6012B017167DA"]
+			description: ["&6Was ist das?", "Zwei Arten freistehender Spawner: Brutal-Spawner rufen stärkere, feuerresistente Monster mit langer Pause. Schwarm-Spawner rufen sehr schnell viele schwache Monster, meist Spinnen.", "", "&6So gehts", "Du findest sie in der Welt. Erschlage die Monster, danach plünderst du die Truhe.", "", "&6Wofür ist das wichtig?", "Gute Übung, bevor du eigene Spawner bearbeitest."]
 			icon: { id: "minecraft:spawner" }
-			id: "6111708AD86A41AE"
+			id: "5FC7A6623C183F11"
+			title: "Wilde Spawner"
+			rewards: [{ id: "3D99BD8A127183CC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2C4EE292BFB131C3", type: "checkmark" }]
+			x: 9.00d
+			y: 6.00d
+		}
+		{
+			dependencies: ["5FC7A6623C183F11"]
+			description: ["&6Was ist das?", "Der Fahrende Händler bietet jetzt Leuchtfeuer, Totems der Unsterblichkeit und zufällige Affix-Gegenstände an. Bezahlt wird mit Smaragden und dem Reparaturmaterial. Er taucht öfter auf und bleibt kürzer, auch unter der Erde.", "", "&6So gehts", "Kaufe einen Affix-Gegenstand bei ihm. In der Welt-Stufe Gipfel und Zenit bietet er teils fertige Ausrüstung an.", "", "&6Wofür ist das wichtig?", "Eine ruhige Quelle für Gegenstände."]
+			icon: { id: "minecraft:emerald" }
+			id: "0C2E57C439D4343F"
+			title: "Fahrender Händler"
+			rewards: [{ id: "4FCD8D099D9B3856", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "148F366F41AE3DBA", type: "checkmark" }]
+			x: 10.50d
+			y: 6.00d
+		}
+		{
+			dependencies: ["4C62B32ECF646A53"]
+			description: ["&6Was ist das?", "Mit Apothic Spawners lassen sich Mob-Spawner einsammeln und umsetzen.", "", "&6So gehts", "Baue einen Spawner mit einem Werkzeug mit Behutsamkeit ab. Das kostet zusätzliche Haltbarkeit. Halte Umschalt über dem Gegenstand, dann siehst du seine Werte.", "", "&6Wofür ist das wichtig?", "Mob-Farmen nach deinen Regeln."]
+			icon: { id: "minecraft:spawner" }
+			id: "07D2579F1F9C806D"
 			title: "Spawner einsammeln"
-			rewards: [{ id: "C5B59BC7483FFDD8", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "3CAB55572AA72C5E", type: "checkmark" }]
-			x: 9.00d
-			y: 1.50d
+			rewards: [{ id: "5C87C3D604714E85", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "2B2794DE623C2DC6", type: "checkmark" }]
+			x: 3.00d
+			y: 9.00d
 		}
 		{
-			dependencies: ["6111708AD86A41AE"]
-			description: ["&6Was ist das?", "Grundstein für alle Spawner-Verbesserungen.", "", "&6So gehts", "Herstellung: Edelsteinstaub, Edelsteinverschmolzene Schieferplatte und Spawner-Kette. Die Kette erhältst du, wenn ein Mob-Spawner explosiv zerstört wird.", "", "&6Wofür ist das wichtig?", "Mit Runen änderst du Reichweite, Verzögerung, Redstone-Steuerung und mehr."]
-			id: "8DC0436C5F0624D1"
+			dependencies: ["07D2579F1F9C806D"]
+			description: ["&6Was ist das?", "Entsteht, wenn ein Mob-Spawner durch eine Explosion zerstört wird. Eine Kaskade zerstört ihn, wenig später detoniert er, der gespeicherte Mob und viele Ketten bleiben liegen.", "", "&6So gehts", "Zerstöre einen Spawner mit TNT oder Ähnlichem und sammle die Ketten auf. Der Spawner geht dabei verloren.", "", "&6Wofür ist das wichtig?", "Ketten sind der Rohstoff aller Runen."]
+			id: "3CF889920FEEBF6C"
+			title: "Spawner-Kette"
+			rewards: [{ id: "58E3D4E8462333F4", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "063916BECCF29FE3", type: "item", item: { id: "apotheosis:spawner_chain", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 9.00d
+		}
+		{
+			dependencies: ["3CF889920FEEBF6C"]
+			description: ["&6Was ist das?", "Die leere Rune, Grundlage aller anderen.", "", "&6So gehts", "Herstellung: fünf Spawner-Ketten, zwei Edelsteinverschmolzene Schieferplatten und zwei Edelsteinstaub.", "", "&6Wofür ist das wichtig?", "Alle weiteren Runen entstehen aus ihr."]
+			id: "0DAB3A9E3D160338"
 			title: "Spawner-Rune"
-			rewards: [{ id: "676891D1B4E04E15", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "41418839D137C095", type: "item", item: { id: "apotheosis:spawner_rune", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 3.00d
+			rewards: [{ id: "793DBA21EBB7D773", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "483CD663E807C62C", type: "item", item: { id: "apotheosis:spawner_rune", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 9.00d
 		}
 		{
-			dependencies: ["8DC0436C5F0624D1"]
-			description: ["&6Was ist das?", "Eine Verzauberung: Monster lassen mit etwas Glück ihr Spawn-Ei fallen.", "", "&6So gehts", "Verzauberung am Verzauberungstisch oder aus einem Buch.", "", "&6Wofür ist das wichtig?", "Spawn-Eier ermöglichen eigene Spawner."]
-			icon: { id: "minecraft:spawner" }
-			id: "1D3311AC29DB3C85"
-			title: "Einfangen"
-			rewards: [{ id: "428F0D39B1A2BD19", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "6DF0431DD02BA714", type: "checkmark" }]
+			dependencies: ["0DAB3A9E3D160338"]
+			description: ["&6Was ist das?", "Runen verändern Spawner-Werte wie Pause, Anzahl, Reichweite und mehr.", "", "&6So gehts", "Halte die Rune in der Hand und klicke mit Rechtsklick auf den Spawner. Jede Rune und ihre Wirkung zeigt JEI unter den Verwendungen von Mob-Spawnern.", "", "&6Wofür ist das wichtig?", "Der Kern des Spawner-Systems."]
+			id: "3920584F9FFDB2B4"
+			title: "Rune anwenden"
+			rewards: [{ id: "5E2F7A56A90DB1A7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3BC47DD1308BE3D8", type: "checkmark" }]
+			x: 7.50d
+			y: 9.00d
+		}
+		{
+			dependencies: ["3920584F9FFDB2B4"]
+			description: ["&6Was ist das?", "Die erste Stufen-Rune: verbessert die Kernwerte etwas.", "", "&6So gehts", "Herstellung: vier Zeitgenagte Stoffe, zwei Uhren, zwei Feuerstein und eine Spawner-Rune.", "", "&6Wofür ist das wichtig?", "Es gibt eine Stufen-Rune je Welt-Stufe über der Zuflucht."]
+			id: "787E2039CC986946"
+			title: "Rune des Grenzgängers"
+			rewards: [{ id: "6284478A16D328AC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0D2647ED99BEB898", type: "item", item: { id: "apotheosis:frontier_spawner_upgrade_rune", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 4.50d
+			y: 9.00d
+		}
+		{
+			dependencies: ["787E2039CC986946"]
+			description: ["&6Was ist das?", "Die zweite Stufen-Rune: spürbar bessere Kernwerte.", "", "&6So gehts", "Herstellung: vier Leuchtende Kristallsplitter, ein beliebiges Spawn-Ei, zwei Quarz, Sigill der Sockelung und Spawner-Rune.", "", "&6Wofür ist das wichtig?", "Mehr Monster pro Zyklus und kürzere Pausen."]
+			id: "02E76468E9EC60FC"
+			title: "Rune des Wanderers"
+			rewards: [{ id: "178A53ECE675EB2C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "02CE421164FF43BD", type: "item", item: { id: "apotheosis:ascent_spawner_upgrade_rune", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 9.00d
+		}
+		{
+			dependencies: ["02E76468E9EC60FC"]
+			description: ["&6Was ist das?", "Die Vorstufe für starke Runen.", "", "&6So gehts", "Entsteht per Aufguss-Verzauberung aus einer Spawner-Rune, mit Verzauberungswerten Eterna 70, Quanta 30 und Arcana 50. Siehe das Kapitel Verzauberung (Apothic).", "", "&6Wofür ist das wichtig?", "Voraussetzung für Rune des Bergsteigers und Donnernde Rune."]
+			id: "4FEBAD3395B45A2B"
+			title: "Durchtränkte Rune"
+			rewards: [{ id: "6C95C02B8874B60D", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "00B4E8F82D394F10", type: "item", item: { id: "apotheosis:infused_spawner_rune", count: 1 }, count: 1L }]
+			x: 12.00d
+			y: 9.00d
+		}
+		{
+			dependencies: ["4FEBAD3395B45A2B"]
+			description: ["&6Was ist das?", "Die dritte Stufen-Rune: stark verbessert.", "", "&6So gehts", "Herstellung: vier Arkane Sande, Wächter-Ranke, zwei Phantomhäute, Sigill der Bosheit und Durchtränkte Rune.", "", "&6Wofür ist das wichtig?", "Das Kraftwerk für Mob-Farmen."]
+			id: "3B5CADB1D7CF9C65"
+			title: "Rune des Bergsteigers"
+			rewards: [{ id: "52FDD3160252A95A", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1B59D311FD5DE13D", type: "item", item: { id: "apotheosis:summit_spawner_upgrade_rune", count: 1 }, count: 1L }]
+			x: 13.50d
+			y: 9.00d
+		}
+		{
+			dependencies: ["3B5CADB1D7CF9C65"]
+			description: ["&6Was ist das?", "Die letzte Stufen-Rune bringt den Spawner an sein Maximum.", "", "&6So gehts", "Herstellung: vier Gottgeschmiedete Perlen, ein Perfekter Endersurge-Edelstein, zwei Erfüllte Atem, Nether-Stern und Durchtränkte Rune.", "", "&6Wofür ist das wichtig?", "Die ultimative Mob-Maschine."]
+			id: "71E1F78ACA022DB6"
+			title: "Donnernde Rune"
+			rewards: [{ id: "1ACAB70680A38F2B", type: "xp_levels", xp_levels: 4 }]
+			tasks: [{ id: "10A5C300ECF5AA97", type: "item", item: { id: "apotheosis:pinnacle_spawner_upgrade_rune", count: 1 }, count: 1L }]
+			x: 15.00d
+			y: 9.00d
+		}
+		{
+			dependencies: ["71E1F78ACA022DB6"]
+			description: ["&6Was ist das?", "Eigene Runen für einzelne Werte: Reichweite, Kontrolle per Redstone, ewiges Zwielicht, Stille, Jugend, Verbrennung und mehr.", "", "&6So gehts", "Rezepte siehe JEI. Halte beim Anwenden Netherquarz in der Zweithand, dann kehrt sich die Wirkung um. Stufen-Runen lassen sich nicht umkehren.", "", "&6Wofür ist das wichtig?", "Stärkere Runen wie Echos, Einsamkeit, Trotz und Benommenheit brauchen die Durchtränkte Rune. Bei großen Farmen immer die Rune der Benommenheit nutzen: weniger Last, leichter zu steuern."]
+			icon: { id: "apotheosis:silent_spawner_rune" }
+			id: "1275B014EBCD20AD"
+			title: "Stat-Runen"
+			rewards: [{ id: "09E20BDE8B8EBA40", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "5B931ADE89B8514E", type: "checkmark" }]
+			x: 16.50d
+			y: 9.00d
+		}
+		{
+			dependencies: ["1275B014EBCD20AD"]
+			description: ["&6Was ist das?", "Eine Verzauberung: Monster lassen mit Glück ihr Spawn-Ei fallen.", "", "&6So gehts", "Verzaubere eine Waffe mit Einfangen. Bosse und Monster ohne Ei sind ausgenommen. Mit dem Ei änderst du den Mob eines Spawners per Rechtsklick.", "", "&6Wofür ist das wichtig?", "So bekommst du die Monster, die du in deiner Farm haben willst."]
+			icon: { id: "minecraft:spawner" }
+			id: "1BA00B72D1A9589D"
+			title: "Einfangen"
+			rewards: [{ id: "106AB86BF8606B6C", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "6F3D553294849CDB", type: "checkmark" }]
+			x: 18.00d
+			y: 9.00d
 		}
 	]
 }
