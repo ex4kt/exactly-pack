@@ -1,77 +1,87 @@
+# 0.0.354
+- Kapitel mit gesperrten Mods (Relikte, Bosse der Zerstörung, Tiefes Dunkel, Mutanten, Apotheosis) erscheinen jetzt erst, wenn du das passende Zeitalter erreicht hast.
+- Zwei Farmer's-Delight-Quests (Messer, Pflugwerkzeuge) verlangen Eisen und kommen deshalb erst in der Eisenzeit.
+
 # 0.0.353
-- Start-Fenster: Knopf "Erneut pruefen"; Fehler bei Benutzernamen mit Leerzeichen behoben (Fenster startete nicht).
+- Das Fenster vor dem Spielstart hat jetzt einen Knopf "Erneut prüfen". Damit suchst du noch einmal nach einem Update.
+- Fehler behoben: Das Fenster vor dem Spielstart ging bei Windows-Benutzernamen mit Leerzeichen nicht auf, das Spiel startete dann nicht.
 
 # 0.0.352
-- Absturz beim Start behoben (Frueh-Ladebildschirm aus 0.0.349 wieder entfernt: Mod exactly_earlywindow raus, fml.toml wieder auf den normalen NeoForge-Ladebildschirm).
+- Absturz beim Spielstart behoben. Er kam von einem neuen Ladebildschirm in den Versionen 0.0.349 bis 0.0.351. Der Ladebildschirm ist wieder der normale.
 
 # 0.0.351
-- Start-Fenster (exactly-start.ps1): Version pruefen, Aktualisieren mit Fortschrittsbalken, Starten nur bei aktueller Version, Beenden. In Prism als "Vor dem Start"-Befehl eintragen: powershell -NoProfile -ExecutionPolicy Bypass -File exactly-start.ps1
-- Neuigkeiten-Seite zeigt nur noch den vollstaendigen Changelog, neuer Knopf "Changelog" im Hauptmenue.
+- Neues Fenster vor dem Spielstart: Es zeigt, ob dein Pack aktuell ist. Du kannst Starten, Aktualisieren oder Beenden. Mit einer alten Version kannst du nicht starten.
+- Die Seite mit den Neuigkeiten zeigt jetzt nur noch diese Liste. Im Hauptmenü gibt es oben links einen Knopf "Changelog", mit dem du sie jederzeit öffnest.
 
 # 0.0.350
-- Quest-Kapitel Pneumatik und Create neu angeordnet (Hauptstrang mit Knoten und Zweigreihen), lange Abhaengigkeitslinien in 14 Kapiteln ausgeblendet, Emberblade-Quest neu.
+- Die Quest-Kapitel Pneumatik und Create sind übersichtlicher geordnet: ein Hauptweg mit sauberen Abzweigen, ohne wirre Linien quer über den Bildschirm.
+- Lange Verbindungslinien zwischen Quests sind in vielen Kapiteln ausgeblendet. Du siehst sie, wenn du mit der Maus über eine Quest fährst.
+- Die Quest zum Emberblade ist neu geschrieben: Es gibt kein Rezept dafür, du findest es nur als Beute.
 
 # 0.0.349
-- Frueh-Ladebildschirm zeigt die Pack-Version gross (eigenes Fenstermodul, nur Client).
+- Versuch eines neuen Ladebildschirms mit großer Versionsnummer. Er verursachte Abstürze und ist seit 0.0.352 wieder entfernt.
 
 # 0.0.348
-- Vier Quests mit nicht vorhandenen Items repariert (Erfülltes Tiefen-/Endregal, Arkaner Schutt, Black-Hole-Speicher): jetzt einfach abhaken.
+- Vier Quests verlangten Gegenstände, die es im Spiel nicht gibt. Du kannst sie jetzt einfach abhaken.
 
 # 0.0.347
-- Quests überarbeitet: Create (rund 95), Pneumatik (30), Magie, Bosse, Ende, Farmer's Delight und viele Rezept-Quests mit Schritt-für-Schritt-Anleitung.
-- Netherit-Ausrüstung schon im Nether-Zeitalter, doppelte und falsche Quests bereinigt.
-- Raus: Modern Industrialization.
+- Viele Quests überarbeitet, mit Schritt-für-Schritt-Anleitung und geprüften Rezepten: Create (rund 95 Quests), Pneumatik (30), Magie, Bosse, Ende und Farmer's Delight.
+- Die Netherit-Ausrüstung gibt es schon im Nether-Zeitalter.
+- Doppelte und falsche Quests aufgeräumt.
+- Entfernt: Modern Industrialization.
 
 # 0.0.346
-- Neuer Inventar-Reiter "Zubehör" (öffnet den Accessories-Bildschirm), Werkbank-Reiter wieder normales Inventar, Attribute-Reiter und Curios-Menü entfernt.
+- Neuer Reiter "Zubehör" oben am Inventar. Er öffnet den Bildschirm für Zubehör (Ringe, Amulette und Ähnliches). Der Werkbank-Reiter ist wieder das normale Inventar.
+- Entfernt: der Attribute-Reiter (kleines Schwert) und das Curios-Menü.
 
 # 0.0.345
-- Curios-Reiter am Inventar ausgeblendet (L2 Tabs), Zubehör nur noch über den Accessories-Bildschirm.
+- Der Curios-Reiter am Inventar ist ausgeblendet. Zubehör öffnest du nur noch über den Zubehör-Bildschirm.
 
 # 0.0.344
-- Neu: Powah (Furnator, Magmator, Thermogenerator, Solarpanel, Reaktor, Energiezellen, Kabel) in sieben Stufen, auf Deutsch.
-- Powah im Zeitalter-System: ab Eisenzeit, höhere Stufen im Diamant-, Nether-, Magie- und Meister-Zeitalter.
-- Apotheosis-Quest-Kapitel komplett neu: 54 Quests, Hauptweg Welt-Stufen plus Zweige Ausrüstung, Tränke, Edelsteine, Gegner, Spawner.
+- Neu: Powah (Energie-Generatoren wie Furnator, Magmator, Thermogenerator und Solarpanel, dazu Reaktor, Energiezellen und Kabel) in sieben Stufen, auf Deutsch.
+- Powah gehört jetzt zum Zeitalter-System: Es beginnt in der Eisenzeit, höhere Stufen schalten sich in Diamant-, Nether-, Magie- und Meister-Zeitalter frei.
+- Das Apotheosis-Quest-Kapitel ist komplett neu: 54 Quests mit einem Hauptweg durch die Welt-Stufen und Abzweigen für Ausrüstung, Tränke, Edelsteine, Gegner und Spawner.
 - Powah-Quests in den Kapiteln Eisenzeit, Diamant, Nether, Magie und Meister.
-- Quest-IDs der Server-Kapitel abgeglichen (Spielerfortschritt bleibt erhalten).
+- Dein Questfortschritt bleibt erhalten.
 
 # 0.0.343
-- Neu: Apotheosis mit Apothic Spawners (Diamant-Zeitalter, Deutsch, Quest-Kapitel mit 27 Quests, Affix- und Edelstein-Chance in Kisten gesenkt).
-- Neu: Better Days, Tag 30 Minuten, Nacht 15 Minuten.
-- Quest-Kapitel Farmer's Delight, Diamant, Eisenzeit, Neue Mods Abenteuer: zu große Abstände verkleinert.
-- Neuigkeiten-Seite bei jedem Spielstart.
+- Neu: Apotheosis mit Apothic Spawners (ab dem Diamant-Zeitalter, auf Deutsch, mit einem Quest-Kapitel mit 27 Quests). Verbesserte Waffen und Edelsteine kommen in Kisten seltener vor.
+- Neu: Better Days. Der Tag dauert 30 Minuten, die Nacht 15 Minuten.
+- Quest-Kapitel Farmer's Delight, Diamant, Eisenzeit und Neue Mods Abenteuer: zu große Abstände zwischen Quests verkleinert.
+- Die Neuigkeiten-Seite erscheint bei jedem Spielstart.
 
 # 0.0.342
-- Neuigkeiten-Seite repariert: Sie erscheint jetzt bei jedem Spielstart vor dem Hauptmenü.
+- Die Neuigkeiten-Seite funktioniert wieder. Sie erscheint bei jedem Spielstart vor dem Hauptmenü.
 
 # 0.0.341
-- Quest "Ozeanit" durch "Todessilber" ersetzt (Ozeanit gibt es in Monsters & Spellbooks 0.0.15 nicht), Text zum Schandskelett korrigiert.
+- Die Quest "Ozeanit" ist durch "Todessilber" ersetzt, weil es Ozeanit in dieser Version von Monsters & Spellbooks nicht gibt.
+- Der Text zum Schandskelett ist korrigiert.
 
 # 0.0.340
-- Neue Seite "Was ist neu" vor dem Hauptmenü, mit Changelog.
-- Raus: Server Browser.
+- Neue Seite "Was ist neu" vor dem Hauptmenü, mit dem Changelog.
+- Entfernt: Server Browser.
 
 # 0.0.339
-- Neu: Monsters & Spellbooks (mit Ace's Spell Utils), im Magie-Zeitalter gesperrt.
-- Quest-Kapitel neu geordnet (Hauptstrang mit Zweigen oben und unten): Hintergrund, Kleine Mods, Relikte, Bosse, Mutanten, Dungeon-Waffen, ComputerCraft, Diamant.
-- Boss-Tutorials: Lich, Gauntlet, Void Blossom, Obsidilith, Ignis, Harbinger, Maledictus, Ender-Wächter, Leviathan, Kobolediator, Eiserner Wächter, Frostmaul, Totenbeschwörer, Zitadellen-Wächter, Tyros.
-- Fehler korrigiert: Seelenstern ist keine Lich-Beute, Steinzeit-Quests hingen an einer gelöschten Quest.
-- Übersetzung: Monsters & Spellbooks, Iron Furnaces, Mod-Namen.
+- Neu: Monsters & Spellbooks (mit Ace's Spell Utils). Im Magie-Zeitalter gesperrt.
+- Quest-Kapitel neu geordnet: Hauptweg mit Abzweigen oben und unten. Betroffen: Hintergrund, Kleine Mods, Relikte, Bosse, Mutanten, Dungeon-Waffen, ComputerCraft und Diamant.
+- Anleitungen für die Bosse: Lich, Gauntlet, Void Blossom, Obsidilith, Ignis, Harbinger, Maledictus, Ender-Wächter, Leviathan, Kobolediator, Eiserner Wächter, Frostmaul, Totenbeschwörer, Zitadellen-Wächter und Tyros.
+- Fehler behoben: Der Seelenstern ist keine Beute vom Lich. Mehrere Steinzeit-Quests hingen an einer gelöschten Quest.
+- Übersetzungen: Monsters & Spellbooks, Iron Furnaces und viele Mod-Namen.
 
 # 0.0.338
-- Raus: Nyfs Spiders.
-- Neu: Freecam (nur Client).
-- Modular Golems vollständig übersetzt, Quests für Golems in der Diamantzeit.
+- Entfernt: Nyfs Spiders.
+- Neu: Freecam (nur auf deinem Computer).
+- Modular Golems komplett übersetzt, mit Quests zu Golems in der Diamantzeit.
 - Modern Industrialization: Quest-Baum mit 8 Reihen.
 - Tippfehler "Kufper" zu "Kupfer" behoben.
-- Zubehör-Menü: wieder der Accessories-Bildschirm.
+- Zubehör-Menü: wieder der normale Zubehör-Bildschirm.
 
 # 0.0.337
-- Neu: Modern Industrialization (Technik in Stufen) mit Handbuch (GuideME), übersetzt, im Diamant-Zeitalter gesperrt.
+- Neu: Modern Industrialization (Technik in Stufen) mit Handbuch, auf Deutsch. Im Diamant-Zeitalter gesperrt.
 
 # 0.0.336
-- Carry On: Kisten aus Sophisticated Storage lassen sich tragen.
+- Kisten aus Sophisticated Storage lassen sich jetzt mit Carry On tragen.
 
 # 0.0.335
-- Raus: Slabbed.
-- Neu: Industrial Foregoing (ersetzt Immersive Engineering), übersetzt, mit Quests, im Diamant-Zeitalter gesperrt.
+- Entfernt: Slabbed.
+- Neu: Industrial Foregoing (ersetzt Immersive Engineering), auf Deutsch, mit Quests. Im Diamant-Zeitalter gesperrt.
