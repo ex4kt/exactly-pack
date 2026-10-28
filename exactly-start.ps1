@@ -6,7 +6,7 @@ $ErrorActionPreference = 'Stop'
 $PackUrl = 'https://raw.githubusercontent.com/ex4kt/exactly-pack/main/pack.toml'
 
 # Auf eine Kopie im Temp-Ordner umsteigen, damit der Installer diese Datei bei einem Update ersetzen darf.
-if (-not $Test -and $PSCommandPath -and ($PSCommandPath -notlike "$env:TEMP*")) {
+if (-not $Test -and $PSCommandPath -and ((Split-Path $PSCommandPath -Leaf) -ne 'exactly-start-run.ps1')) {
     $kopie = Join-Path $env:TEMP 'exactly-start-run.ps1'
     Copy-Item $PSCommandPath $kopie -Force
     & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $kopie
@@ -46,7 +46,7 @@ Add-Type -AssemblyName System.Drawing
 $form = New-Object Windows.Forms.Form
 $form.Text = 'Exactly'
 $form.StartPosition = 'CenterScreen'
-$form.ClientSize = New-Object Drawing.Size(460, 210)
+$form.ClientSize = New-Object Drawing.Size(500, 210)
 $form.FormBorderStyle = 'FixedDialog'
 $form.MaximizeBox = $false; $form.MinimizeBox = $false
 $form.TopMost = $true
@@ -60,23 +60,24 @@ $form.Controls.Add($titel)
 
 $info = New-Object Windows.Forms.Label
 $info.Font = New-Object Drawing.Font('Segoe UI', 10)
-$info.Location = New-Object Drawing.Point(22, 60); $info.Size = New-Object Drawing.Size(420, 60)
+$info.Location = New-Object Drawing.Point(22, 60); $info.Size = New-Object Drawing.Size(456, 60)
 $form.Controls.Add($info)
 
 $balken = New-Object Windows.Forms.ProgressBar
-$balken.Location = New-Object Drawing.Point(22, 124); $balken.Size = New-Object Drawing.Size(416, 18)
+$balken.Location = New-Object Drawing.Point(22, 124); $balken.Size = New-Object Drawing.Size(456, 18)
 $balken.Style = 'Marquee'
 $form.Controls.Add($balken)
 
 function Knopf($text, $x) {
     $b = New-Object Windows.Forms.Button
-    $b.Text = $text; $b.Size = New-Object Drawing.Size(130, 34); $b.Location = New-Object Drawing.Point($x, 160)
+    $b.Text = $text; $b.Size = New-Object Drawing.Size(112, 34); $b.Location = New-Object Drawing.Point($x, 160)
     $b.Font = New-Object Drawing.Font('Segoe UI', 10)
     $form.Controls.Add($b); return $b
 }
 $bStart = Knopf 'Starten' 22
-$bUpd = Knopf 'Aktualisieren' 165
-$bEnde = Knopf 'Beenden' 308
+$bPruef = Knopf 'Erneut prüfen' 142
+$bUpd = Knopf 'Aktualisieren' 262
+$bEnde = Knopf 'Beenden' 382
 $script:ok = $false
 
 function Zeige($status, $text, $laeuft) {
@@ -84,6 +85,7 @@ function Zeige($status, $text, $laeuft) {
     $balken.Style = if ($laeuft) { 'Marquee' } else { 'Continuous' }
     $balken.Value = if ($status -eq 'aktuell') { 100 } else { 0 }
     $bStart.Enabled = ($status -eq 'aktuell') -and -not $laeuft
+    $bPruef.Enabled = -not $laeuft
     $bUpd.Enabled = -not $laeuft
     $bEnde.Enabled = -not $laeuft
 }
@@ -110,6 +112,7 @@ $bUpd.Add_Click({
     }
     Neu-Pruefen
 })
+$bPruef.Add_Click({ Neu-Pruefen })
 $bStart.Add_Click({ $script:ok = $true; $form.Close() })
 $bEnde.Add_Click({ $form.Close() })
 $form.Add_Shown({ $form.Activate(); Neu-Pruefen })
