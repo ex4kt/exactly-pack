@@ -30,7 +30,7 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["32DC1D3AC5759026", "32D7C0032123B540"]
+			dependencies: ["32DC1D3AC5759026"]
 			description: ["&6Was ist das?", "Eine bessere Stufe des Gurtes mit mehr Platz.", "", "&6So gehts", "Im Handwerkstisch mit Kupfer aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Werkzeuge griffbereit. Von Anfang an frei."]
 			icon: { id: "travelertoolbelt:copper_belt" }
 			id: "5119BFBD4C881403"
@@ -52,30 +52,30 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["00D61CB6B59E304F", "3289CBE6B6A936DA"]
+			dependencies: ["73B6D112677CFBB8", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Der Goldgurt ist die nächste Stufe.", "", "&6So gehts", "Im Handwerkstisch mit Gold aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "travelertoolbelt:gold_belt" }
 			id: "57CD98C65F1CE409"
 			title: "Goldgurt"
 			rewards: [{ id: "07BEA1169BC5D3CB", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0568B162AD02E10C", type: "item", item: { id: "travelertoolbelt:gold_belt", count: 1 }, count: 1L }]
-			x: 6.00d
+			x: 7.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["57CD98C65F1CE409", "32D7C0032123B540"]
+			dependencies: ["00D61CB6B59E304F", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Der Diamantgurt fasst viel Werkzeug.", "", "&6So gehts", "Im Handwerkstisch mit Diamant aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "travelertoolbelt:diamond_belt" }
 			id: "73B6D112677CFBB8"
 			title: "Diamantgurt"
 			rewards: [{ id: "4C66517DFA0A28CD", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "62963E82662CA72E", type: "item", item: { id: "travelertoolbelt:diamond_belt", count: 1 }, count: 1L }]
-			x: 7.50d
+			x: 6.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["73B6D112677CFBB8", "4EA7B6B983C1C0EE"]
-			description: ["&6Was ist das?", "Die höchste Stufe mit allen Plätzen.", "", "&6So gehts", "Im Schmiedetisch mit Netherite aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
+			dependencies: ["57CD98C65F1CE409", "3289CBE6B6A936DA"]
+			description: ["&6Was ist das?", "Die höchste Stufe mit allen Plätzen.", "", "&6So gehts", "Im Schmiedetisch mit Netherite aufwerten, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "travelertoolbelt:netherite_belt" }
 			id: "171B7AC27318CD82"
 			title: "Netheritgurt"
@@ -129,25 +129,25 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["740D6D5E8624A9F8", "388349920682B0BC"]
+			dependencies: ["187F6EB35CBE5F33", "388349920682B0BC"]
 			description: ["&6Was ist das?", "Ein Ring, der dich schweben lässt.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Zeitalter der Welten."]
 			icon: { id: "potionring:ring_of_levitation" }
 			id: "7A0BAEB83556C5A4"
 			title: "Ring der Levitation"
 			rewards: [{ id: "0035AB7FBF767E71", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "51000942F93D5686", type: "item", item: { id: "potionring:ring_of_levitation", count: 1 }, count: 1L }]
-			x: 7.50d
+			x: 9.00d
 			y: -1.50d
 		}
 		{
-			dependencies: ["7A0BAEB83556C5A4", "1F7C16EE6236AB7A"]
+			dependencies: ["740D6D5E8624A9F8", "1F7C16EE6236AB7A"]
 			description: ["&6Was ist das?", "Ein Ring, der deine Körpergröße verändert.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Magie-Zeitalter."]
 			icon: { id: "potionring:ring_of_growing" }
 			id: "187F6EB35CBE5F33"
 			title: "Ring des Wachsens"
 			rewards: [{ id: "1216DFFBB04952FE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4312CF3433C502A9", type: "item", item: { id: "potionring:ring_of_growing", count: 1 }, count: 1L }]
-			x: 9.00d
+			x: 7.50d
 			y: -1.50d
 		}
 		{
@@ -173,29 +173,29 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["3FA1DF778AB73210", "3289CBE6B6A936DA"]
+			dependencies: ["42849D5773829726", "3289CBE6B6A936DA"]
 			description: ["&6Was ist das?", "Die nächste Stufe, aus Herzen von Bossen wie dem Wither.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Noch mehr Leben. Freigeschaltet im Nether-Zeitalter."]
 			icon: { id: "bhc:yellow_heart_canister" }
 			id: "33E76E874C68EA7F"
 			title: "Gelbes Herz-Behälter"
 			rewards: [{ id: "14D6F274E2BBB972", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "15ECD075FCD06EF8", type: "item", item: { id: "bhc:yellow_heart_canister", count: 1 }, count: 1L }]
-			x: 4.50d
+			x: 6.00d
 			y: 1.50d
 		}
 		{
-			dependencies: ["33E76E874C68EA7F", "32D7C0032123B540"]
+			dependencies: ["3FA1DF778AB73210", "32D7C0032123B540"]
 			description: ["&6Was ist das?", "Das Amulett nimmt Herz-Behälter auf.", "", "&6So gehts", "Rezept in JEI nachschlagen und anlegen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Diamant-Zeitalter."]
 			icon: { id: "bhc:heart_amulet" }
 			id: "42849D5773829726"
 			title: "Herz-Amulett"
 			rewards: [{ id: "39E5C1D257BF1F1E", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "602C3CCA83B93DDB", type: "item", item: { id: "bhc:heart_amulet", count: 1 }, count: 1L }]
-			x: 6.00d
+			x: 4.50d
 			y: 1.50d
 		}
 		{
-			dependencies: ["42849D5773829726", "61920C28D0F155A0"]
+			dependencies: ["33E76E874C68EA7F", "61920C28D0F155A0"]
 			description: ["&6Was ist das?", "Aus den Herzen des Enderdrachen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im End-Zeitalter."]
 			icon: { id: "bhc:green_heart_canister" }
 			id: "68C45B3916138001"

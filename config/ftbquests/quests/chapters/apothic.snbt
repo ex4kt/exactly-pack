@@ -318,12 +318,12 @@
 		}
 		{
 			dependencies: ["77F16701FD710E9F"]
-			description: ["&6Was ist das?", "Das erfüllte Tiefenregal, die höchste Stufe der Tiefen-Regale.", "", "&6So gehts", "Dieses Regal gibt es in unserer Apothic-Version nicht. Hake die Quest einfach ab.", "", "&6Wofür ist das wichtig?", "Für die stärksten Verzauberungen am Tisch."]
+			description: ["&6Was ist das?", "Das erfüllte Tiefenregal, die höchste Stufe der Tiefen-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst seltene Zutaten aus den Tiefen.", "", "&6Wofür ist das wichtig?", "Für die stärksten Verzauberungen am Tisch."]
 			icon: { id: "apothic_enchanting:echoing_deepshelf" }
 			id: "1068BF974B3CF68E"
 			title: "Erfülltes Tiefenregal"
 			rewards: [{ id: "3AFD309C6BEA75BA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "49F1829EA76FD76F", type: "checkmark" }]
+			tasks: [{ id: "49F1829EA76FD76F", type: "item", item: { id: "apothic_enchanting:infused_deepshelf", count: 1 }, count: 1L }]
 			x: 13.50d
 			y: -4.50d
 		}
@@ -385,28 +385,17 @@
 		}
 		{
 			dependencies: ["6B7A3E221F2BC4CA"]
-			description: ["&6Was ist das?", "Das erfüllte Endregal, die höchste Stufe der End-Regale.", "", "&6So gehts", "Dieses Regal gibt es in unserer Apothic-Version nicht. Hake die Quest einfach ab.", "", "&6Wofür ist das wichtig?", "Für die allerstärksten Verzauberungen am Tisch."]
+			description: ["&6Was ist das?", "Das erfüllte Endregal, die höchste Stufe der End-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst seltene Zutaten aus dem Ende, zum Beispiel Erfüllten Atem.", "", "&6Wofür ist das wichtig?", "Für die allerstärksten Verzauberungen am Tisch."]
 			icon: { id: "apothic_enchanting:draconic_endshelf" }
 			id: "7E8A4C888E9CEA2A"
 			title: "Erfülltes Endregal"
 			rewards: [{ id: "5218A2FF7319E08C", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "6ABC51607898C16F", type: "checkmark" }]
+			tasks: [{ id: "6ABC51607898C16F", type: "item", item: { id: "apothic_enchanting:infused_endshelf", count: 1 }, count: 1L }]
 			x: 13.50d
 			y: 3.00d
 		}
 		{
 			dependencies: ["6351B40A60D6F16F"]
-			description: ["&6Was ist das?", "Die Bibliothek speichert Verzauberungen aus Büchern.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege Bücher hinein und hole einzelne Verzauberungen heraus.", "", "&6Wofür ist das wichtig?", "Ordnung und die Möglichkeit, gezielt zu verzaubern."]
-			icon: { id: "apothic_enchanting:library" }
-			id: "72640A4BABB2E83C"
-			title: "Bibliothek"
-			rewards: [{ id: "4DFDAF2D7657BA59", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3E6933586E97FED7", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["72640A4BABB2E83C"]
 			description: ["&6Was ist das?", "Die Ender-Bibliothek ist die verbesserte Bibliothek und fasst noch mehr.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Mehr Platz für deine Verzauberungen."]
 			icon: { id: "apothic_enchanting:ender_library" }
 			id: "4237B339D3807FBE"
@@ -418,10 +407,10 @@
 		}
 		{
 			dependencies: ["4237B339D3807FBE"]
-			description: ["&6Was ist das?", "Der Schmiedetisch (Reforging Table) gibt Waffen und Rüstung zufällige Werte-Ränge.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege ein Item hinein und bezahle mit den gezeigten Materialien.", "", "&6Wofür ist das wichtig?", "Dein Ausrüstung bekommt Zusatzwerte, die du sonst nicht hättest."]
+			description: ["&6Was ist das?", "Am Umschmiedetisch würfelst du die Affixe einer Waffe oder Rüstung neu.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege den Gegenstand hinein und bezahle mit Seltenheitsmaterial und Erfahrung.", "", "&6Wofür ist das wichtig?", "Mit schlechten Affixen musst du nicht leben: Du kannst sie neu auswürfeln."]
 			icon: { id: "minecraft:smithing_table" }
 			id: "62DCFAEC7205B7CB"
-			title: "Schmiedetisch"
+			title: "Umschmiedetisch"
 			rewards: [{ id: "19D152769776E0EE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "462D54E501C07388", type: "checkmark" }]
 			x: 13.50d
@@ -429,7 +418,7 @@
 		}
 		{
 			dependencies: ["62DCFAEC7205B7CB"]
-			description: ["&6Was ist das?", "Der Zerlegetisch (Salvaging Table) zerlegt Ausrüstung in ihre Materialien.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege ein Item hinein und nimm Teile davon zurück.", "", "&6Wofür ist das wichtig?", "Alte Ausrüstung wird wieder zu Rohstoffen."]
+			description: ["&6Was ist das?", "Der Zerlegetisch zerlegt Affix-Gegenstände in Seltenheitsmaterial und Edelsteine in Edelsteinstaub.", "", "&6So gehts", "Rezept in JEI nachschlagen. Lege den Gegenstand hinein und nimm das Material heraus.", "", "&6Wofür ist das wichtig?", "Das Material brauchst du zum Umschmieden und Veredeln."]
 			icon: { id: "minecraft:grindstone" }
 			hide_dependency_lines: true
 			id: "4946E9BB2985FD9C"
@@ -451,7 +440,7 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["72640A4BABB2E83C"]
+			dependencies: ["6351B40A60D6F16F"]
 			description: ["&6Was ist das?", "Das Schrott-Buch rettet Verzauberungen von alten Items.", "", "&6So gehts", "Rezept in JEI nachschlagen. Im Amboss mit einem verzauberten Item benutzen.", "", "&6Wofür ist das wichtig?", "Gute Verzauberungen gehen nicht mehr verloren."]
 			icon: { id: "apothic_enchanting:scrap_tome" }
 			id: "20FDB2C382E9FCA9"
@@ -724,7 +713,7 @@
 			id: "5D15724A898B5ABF"
 			title: "Verzauberung: Tisch bauen"
 			rewards: [{ id: "08144D7623D60F5B", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "0AE144EEF31DB98E", type: "item", item: { id: "apothic_enchanting:apothic_enchanting_table", count: 1 }, count: 1L }]
+			tasks: [{ id: "0AE144EEF31DB98E", type: "checkmark" }]
 			x: 3.00d
 			y: 7.50d
 		}
@@ -734,13 +723,13 @@
 			id: "0F6726590BA97C2E"
 			title: "Verzauberung: Erste Regale"
 			rewards: [{ id: "7D87C696A4FEB92D", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "1D25A169EAA64FAE", type: "item", item: { id: "apothic_enchanting:basic_bookshelf", count: 1 }, count: 8L }]
+			tasks: [{ id: "1D25A169EAA64FAE", type: "checkmark" }]
 			x: 4.50d
 			y: 7.50d
 		}
 		{
 			dependencies: ["0F6726590BA97C2E"]
-			description: ["&6Was ist das?", "Eterna ist die Staerke: Sie bestimmt, wie hoch die Stufe deiner Verzauberung werden kann.", "", "&6So gehts", "Schaue im Tisch auf die Anzeige. Steinregale und bessere Regale erhöhen Eterna. Die Quests unten zeigen, welches Regal was gibt.", "", "&6Wofür ist das wichtig?", "Für hohe Stufen brauchst du viel Eterna."]
+			description: ["&6Was ist das?", "Eterna ist die Stärke: Sie bestimmt, wie hoch die Stufe deiner Verzauberung werden kann.", "", "&6So gehts", "Schaue im Tisch auf die Anzeige. Steinregale und bessere Regale erhöhen Eterna. Die Quests unten zeigen, welches Regal was gibt.", "", "&6Wofür ist das wichtig?", "Für hohe Stufen brauchst du viel Eterna."]
 			id: "552BD35F16BFD31E"
 			title: "Verzauberung: Eterna"
 			rewards: [{ id: "6C8AFA6D057571FB", type: "xp_levels", xp_levels: 3 }]
@@ -800,7 +789,7 @@
 		}
 		{
 			dependencies: ["721982F4EBAA4D9D"]
-			description: ["&6Was ist das?", "Apothic bringt Werkbänke zum Zerlegen und Schmieden mit.", "", "&6So gehts", "Mit dem Zerlegetisch zerlegst du Verzauberungen und bekommst Material zurück. Der Schmiedetisch kombiniert Verzauberungen.", "Die Quests unten zeigen die Bücher (Tomes) dazu.", "", "&6Wofür ist das wichtig?", "Du verlierst keine guten Verzauberungen mehr, wenn du sie neu verteilen willst."]
+			description: ["&6Was ist das?", "Apothic bringt zwei Werkbänke mit: Zerlegetisch und Umschmiedetisch.", "", "&6So gehts", "Der Zerlegetisch macht aus Affix-Gegenständen Seltenheitsmaterial. Am Umschmiedetisch würfelst du die Affixe eines Gegenstands neu.", "Die Quests unten zeigen die Bücher (Tomes) dazu.", "", "&6Wofür ist das wichtig?", "Beide gehören zur Ausrüstung mit Affixen, mehr dazu im Kapitel Apotheosis."]
 			id: "0A26FD4B5EDFE2B6"
 			title: "Verzauberung: Zerlegen und Schmieden"
 			rewards: [{ id: "1A8522C71E12D566", type: "xp_levels", xp_levels: 3 }]
@@ -887,7 +876,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Spezial-Gegenstände"]
-			dependencies: ["72640A4BABB2E83C"]
+			dependencies: ["6351B40A60D6F16F"]
 			id: "2B60C0850A3F61D2"
 			title: "Spezial-Gegenstände"
 			optional: true

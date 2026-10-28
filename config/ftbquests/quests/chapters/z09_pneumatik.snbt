@@ -19,8 +19,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["1ADDD6C9F3C1DE3C"]
-			description: ["&6Was ist das?", "Der Kompressor macht Druckluft, die Maschinen brauchen.", "Schritt 1: Baue einen Luftkompressor.", "Schritt 2: Fülle ihn mit Brennstoff (z.B. Kohle).", "", "&6So gehts", "Aufstellen, Kohle oder Holz hineinlegen.", "Die Druckanzeige steigt. Bei zu viel Druck explodiert er, also immer Luft abnehmen.", "", "&6Wofür ist das wichtig?", "Druckluft (bar) ist die Energie für alles in PneumaticCraft.", "", "&6Gut zu wissen", "Der Kompressor erzeugt Druck aus Brennstoff. Zu hoher Druck zerstört Rohre und Maschinen, baue deshalb ein Sicherheitsventil ein."]
+			dependencies: ["35BD5341300C9F5F"]
+			description: ["&6Was ist das?", "Der Luftkompressor macht aus Brennstoff Druckluft, die Maschinen brauchen.", "", "&6So gehts", "Rezept: 3 Verstärkte Steinziegel oben, links einer und rechts das Druckrohr in der Mitte, unten Ziegel, Ofen, Ziegel (Muster in JEI). Verstärkte Ziegel: 4 Verstärkter Stein in der Werkbank.", "Stelle ihn hin, lege Kohle oder Holz hinein. Die Anzeige zeigt, wie der Druck steigt.", "Schließe Druckrohre an. Nichts mehr entnehmen, wenn der Druck 5 bar erreicht, sonst platzt etwas.", "", "&6Wofür ist das wichtig?", "Druckluft (bar) ist die Energie für alles in diesem Kapitel.", "", "&6Gut zu wissen", "Ein Sicherheitsventil im Rohrnetz baust du später mit dem Handbuch ein."]
 			id: "04815340C4F710AA"
 			title: "Luftkompressor"
 			rewards: [{ id: "7405CE993E6BCE08", type: "item", item: { id: "minecraft:coal", count: 8 } }]
@@ -29,8 +29,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["04815340C4F710AA"]
-			description: ["&6Was ist das?", "Druckrohre leiten die Luft von Block zu Block.", "Schritt 1: Baue Rohre.", "Schritt 2: Verbinde Kompressor und Maschinen.", "", "&6So gehts", "Rohre zwischen Kompressor und Maschine legen.", "Mit dem Schlüssel kannst du Seiten trennen.", "", "&6Wofür ist das wichtig?", "Ein Kompressor kann viele Maschinen versorgen."]
+			dependencies: ["4B1CDA02C5F025E2"]
+			description: ["&6Was ist das?", "Druckrohre leiten die Druckluft von Block zu Block.", "", "&6So gehts", "Rezept: oben in einer Reihe Verdichtetes Eisen, Glas, Verdichtetes Eisen (Werkbank, ergibt 8).", "Lege sie als Strecke zwischen Kompressor und Maschine.", "Mit dem Schlüssel schließt du einzelne Seiten ab, damit die Luft nicht überall hinläuft.", "", "&6Wofür ist das wichtig?", "Ein Kompressor kann viele Maschinen über ein Rohrnetz versorgen."]
 			id: "35BD5341300C9F5F"
 			title: "Druckrohre"
 			rewards: [{ id: "52BE18BF3E85356C", type: "xp_levels", xp_levels: 2 }]
@@ -39,8 +39,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["35BD5341300C9F5F"]
-			description: ["&6Was ist das?", "Das Manometer zeigt, wie hoch der Druck ist.", "Halte es in der Hand und klicke auf Rohre.", "Achtung: Zu hoher Druck lässt Rohre platzen.", "", "&6So gehts", "Rechtsklick auf ein Rohr oder eine Maschine.", "", "&6Wofür ist das wichtig?", "Rechtzeitig erkennen, bevor etwas explodiert.", "", "&6Gut zu wissen", "Mit dem Manometer liest du den aktuellen Druck in Rohren und Maschinen ab."]
+			dependencies: ["04815340C4F710AA"]
+			description: ["&6Was ist das?", "Das Manometer zeigt, wie hoch der Druck ist.", "", "&6So gehts", "Rezept: Druckmesser oben (Verdichtetes Eisen in der Mitte, 4 Kupferbarren kreuzförmig drumherum), Luftkanister darunter (Werkbank).", "Rechtsklick auf Rohr oder Maschine zeigt den Druck.", "", "&6Wofür ist das wichtig?", "So siehst du Druckprobleme, bevor etwas platzt."]
 			id: "1E49B8E5BFC25779"
 			title: "Manometer"
 			rewards: [{ id: "4A5C5EEB833CD7DC", type: "xp_levels", xp_levels: 2 }]
@@ -60,7 +60,7 @@
 		}
 		{
 			dependencies: ["616C7E4CA96161A9"]
-			description: ["&6Was ist das?", "Die Druckkammer ist ein Mehrblock-Gebäude.", "Schritt 1: Baue Wände, ein Ventil und Fenster aus Kammerteilen.", "Schritt 2: Verbinde das Ventil mit Druckluft.", "", "&6So gehts", "Mindestens 3x3x3 aus Druckkammer-Wänden bauen, mit Ventil und Schnittstelle.", "Druckluft hinein, Items hinein.", "", "&6Wofür ist das wichtig?", "Hier entsteht Verdichtetes Eisen, das Hauptmaterial von PneumaticCraft."]
+			description: ["&6Was ist das?", "Die Druckkammer ist ein Mehrblock-Gebäude, in dem Items unter Druck zu neuen Items werden.", "", "&6So gehts", "Wand-Block: 8 Verstärkte Ziegel in einem Ring (Werkbank, ergibt 16).", "Baue einen Hohlraum aus Wänden, mindestens 3 mal 3 mal 3 innen.", "Setze ein Ventil in eine Wand (Rezept: Rohr und 4 Wände formlos). Setze eine Schnittstelle in eine Wand (Trichter und 2 Wände formlos).", "Verbinde das Ventil mit Druckluft. Wirf Items durch die Schnittstelle hinein.", "", "&6Wofür ist das wichtig?", "Hier entstehen Verdichtetes Eisen, Transistoren und leere Platinen.", "", "&6Gut zu wissen", "Einige Rezepte brauchen bis 4 bar, die Kammer zeigt den aktuellen Druck."]
 			id: "574A9938F9FEA985"
 			title: "Druckkammer"
 			rewards: [{ id: "62FAA2AA3342346D", type: "xp_levels", xp_levels: 3 }]
@@ -69,8 +69,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["574A9938F9FEA985"]
-			description: ["&6Was ist das?", "Verdichtetes Eisen ist das wichtigste Metall.", "Schritt 1: Lege Eisenbarren in die Druckkammer.", "Schritt 2: Stelle genug Druck ein.", "", "&6So gehts", "Eisenbarren in die Druckkammer oder mit TNT-Explosion verdichten.", "", "&6Wofür ist das wichtig?", "Fast alle Maschinen brauchen es."]
+			dependencies: ["1ADDD6C9F3C1DE3C"]
+			description: ["&6Was ist das?", "Verdichtetes Eisen ist das wichtigste Metall von PneumaticCraft. Fast alles besteht daraus.", "", "&6So gehts", "Am Anfang gibt es nur den Weg mit TNT: Wirf Eisenbarren als Items auf den Boden und lasse daneben TNT explodieren.", "Die Barren in der Explosion werden zu Verdichtetem Eisen. Etwa ein Fünftel geht verloren.", "Später geht es sicherer in der Druckkammer bei 2 bar Druck (siehe Quest Druckkammer).", "Gehe mit Abstand zur TNT-Explosion und sammle das Eisen danach ein.", "", "&6Wofür ist das wichtig?", "Ohne Verdichtetes Eisen kannst du kein Druckrohr und keinen Kompressor bauen.", "", "&6Gut zu wissen", "Aus Verdichtetem Eisen lässt sich auch Verstärkter Stein herstellen: 8 Stein um 1 Verdichtetes Eisen (Werkbank)."]
 			id: "4B1CDA02C5F025E2"
 			title: "Verdichtetes Eisen"
 			rewards: [{ id: "7544EFE81975BAC5", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
@@ -79,8 +79,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["4B1CDA02C5F025E2"]
-			description: ["&6Was ist das?", "Die besseren Rohre halten viel mehr Druck aus.", "Damit kannst du größere Anlagen bauen.", "", "&6So gehts", "In der Druckkammer herstellen.", "", "&6Wofür ist das wichtig?", "Für fortgeschrittene Maschinen mit mehr Druck."]
+			dependencies: ["2997ECFAA38F40C0"]
+			description: ["&6Was ist das?", "Fortgeschrittene Rohre halten viel mehr Druck aus.", "", "&6So gehts", "Sie entstehen in der Montagelinie mit dem Laser aus Druckrohren (Rezept in JEI).", "Das ist Voraussetzung für Fortgeschrittenen Kompressor und Jet-Boots.", "", "&6Wofür ist das wichtig?", "Größere Anlagen, mehr Druck."]
 			id: "5A20E02B588EBC84"
 			title: "Fortgeschrittene Rohre"
 			rewards: [{ id: "6B26D4D94A23A82E", type: "xp_levels", xp_levels: 4 }]
@@ -89,8 +89,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["5A20E02B588EBC84"]
-			description: ["&6Was ist das?", "Die Ladestation füllt Gegenstände mit Druckluft.", "", "&6So gehts", "Item hineinlegen, Druckluft anschließen.", "", "&6Wofür ist das wichtig?", "Jedes pneumatische Werkzeug muss hier aufgeladen werden."]
+			dependencies: ["1E49B8E5BFC25779"]
+			description: ["&6Was ist das?", "Die Ladestation füllt Gegenstände mit Druckluft.", "", "&6So gehts", "Rezept: Druckrohr oben rechts, 3 Ziegel in der Mitte, 3 Verstärkte Steinplatten unten (Muster in JEI).", "Lege ein pneumatisches Werkzeug oder die Rüstung hinein, schließe Druckluft an.", "", "&6Wofür ist das wichtig?", "Jedes pneumatische Werkzeug braucht Luft aus der Ladestation."]
 			id: "26F0E7A797B1459C"
 			title: "Ladestation"
 			rewards: [{ id: "2A96203835B77566", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -100,7 +100,7 @@
 		}
 		{
 			dependencies: ["26F0E7A797B1459C"]
-			description: ["&6Was ist das?", "Luftkanister speichern Druckluft zum Mitnehmen. Laden an der Ladestation.", "", "&6So gehts", "An Rohre anschließen.", "", "&6Wofür ist das wichtig?", "Puffer für Druckspitzen."]
+			description: ["&6Was ist das?", "Der Luftkanister speichert Druckluft zum Mitnehmen.", "", "&6So gehts", "Rezept: Druckrohr oben, darunter Verdichtetes Eisen, Redstone, Verdichtetes Eisen, in zwei Reihen (Muster in JEI).", "In der Ladestation lädst du ihn auf.", "", "&6Wofür ist das wichtig?", "Gebraucht für Manometer, Schlüssel und Rüstung."]
 			id: "6A0D6E72CF8686EC"
 			title: "Druckluft-Behälter"
 			rewards: [{ id: "6276474F963157DA", type: "xp_levels", xp_levels: 2 }]
@@ -110,7 +110,7 @@
 		}
 		{
 			dependencies: ["6A0D6E72CF8686EC"]
-			description: ["&6Was ist das?", "Tanks speichern Flüssigkeiten wie Öl oder Treibstoff.", "", "&6So gehts", "Aufstellen und mit Rohren verbinden.", "", "&6Wofür ist das wichtig?", "Für Öl, Diesel und mehr."]
+			description: ["&6Was ist das?", "Der kleine Tank speichert Flüssigkeiten wie Öl oder Treibstoff.", "", "&6So gehts", "Rezept: Eisengitter in den Ecken, Verdichtetes Eisen an den Seiten, Glas in der Mitte (Werkbank).", "Stelle ihn auf und verbinde ihn mit Rohren oder Eimern.", "", "&6Wofür ist das wichtig?", "Für Öl, Diesel und andere Flüssigkeiten."]
 			id: "180C3D47022C0326"
 			title: "Tanks"
 			rewards: [{ id: "503A4C4A25711760", type: "xp_levels", xp_levels: 2 }]
@@ -120,7 +120,7 @@
 		}
 		{
 			dependencies: ["180C3D47022C0326"]
-			description: ["&6Was ist das?", "Die Anlage verarbeitet Flüssigkeiten mit Hitze und Druck, z.B. zu Plastik.", "", "&6So gehts", "Halte das Item und drücke I, dann öffnet sich die passende Seite im PNC-Handbuch.", "", "&6Wofür ist das wichtig?", "Zwischenschritt für Plastik und Treibstoffe."]
+			description: ["&6Was ist das?", "Die Thermopneumatische Anlage verarbeitet Flüssigkeiten mit Hitze und Druck.", "", "&6So gehts", "Rezept: Verstärkte Steinplatten rundherum, in der Mitte links und rechts ein kleiner Tank, in der Mitte oben ein Druckrohr (Muster in JEI).", "Sie braucht Druckluft und Hitze. Für Hitze brauchst du Lava oder Feuer darunter (siehe Wärmerahmen).", "Rezepte: JEI, Taste R.", "", "&6Wofür ist das wichtig?", "Zwischenschritt für Plastik, Treibstoff und Bohrer."]
 			id: "27EC460A72A7BB44"
 			title: "Thermopneumatische Anlage"
 			rewards: [{ id: "77B8D31C2AAE6C9F", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
@@ -130,7 +130,7 @@
 		}
 		{
 			dependencies: ["27EC460A72A7BB44"]
-			description: ["&6Was ist das?", "Die Raffinerie zerlegt Öl in Diesel, Kerosin und Benzin.", "", "&6So gehts", "Raffinerie-Controller und Ausgänge stapeln, Hitze von unten.", "", "&6Wofür ist das wichtig?", "Treibstoffe für starke Kompressoren und Plastik."]
+			description: ["&6Was ist das?", "Die Raffinerie zerlegt Rohöl in Diesel, Kerosin, Benzin und LPG.", "", "&6So gehts", "Rezept: Verstärkte Steinplatten, Redstone, kleiner Tank (Muster in JEI).", "Stapele sie mit Ausgabe-Modulen (Rezept: Verstärkte Platten, Glas, Diamant).", "Setze Heizer unter die Raffinerie: Sie braucht mindestens 100 Grad (373 K).", "", "&6Wofür ist das wichtig?", "Treibstoffe für Kompressoren und Plastik."]
 			id: "31292358F7BF209E"
 			title: "Raffinerie"
 			rewards: [{ id: "393F2BC21F22247E", type: "xp_levels", xp_levels: 5 }]
@@ -140,7 +140,7 @@
 		}
 		{
 			dependencies: ["31292358F7BF209E"]
-			description: ["&6Was ist das?", "Plastik ist wichtig für Platinen und vieles mehr.", "", "&6So gehts", "Aus LPG in der Thermopneumatischen Anlage.", "", "&6Wofür ist das wichtig?", "Für Platinen, Drohnen und Elektronik."]
+			description: ["&6Was ist das?", "Plastik ist wichtig für Platinen, Drohnen und Upgrades.", "", "&6So gehts", "In der Thermopneumatischen Anlage: 100 mB LPG und 1 Kohle ergeben Flüssigplastik.", "Lasse das Flüssigplastik im Wärmerahmen abkühlen, es wird zu Plastik.", "Alternativ: Biodiesel mit Holzkohle (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Plastik braucht jede Platine."]
 			id: "0FB1ABFEB86194BB"
 			title: "Plastik"
 			rewards: [{ id: "46C3531FF2F3A409", type: "item", item: { id: "minecraft:lime_dye", count: 8 } }]
@@ -150,7 +150,7 @@
 		}
 		{
 			dependencies: ["0FB1ABFEB86194BB"]
-			description: ["&6Was ist das?", "Mit der UV-Lichtbox und Ätzsäure machst du Platinen.", "", "&6So gehts", "Platine hineinlegen, Druckluft anschließen.", "", "&6Wofür ist das wichtig?", "Erster Schritt zur Platine."]
+			description: ["&6Was ist das?", "Die UV-Lichtbox belichtet Platinen mit einem Muster.", "", "&6So gehts", "Werkbank: 3 Redstone-Lampen oben, Verdichtete Eisenbarren, PCB-Blaupause, Druckrohr, Verdichtete Eisenbarren unten (Muster in JEI).", "Lege eine leere Platine hinein und gib Druckluft.", "Danach kommt der Ätztank.", "", "&6Wofür ist das wichtig?", "Teil des Platinen-Verfahrens."]
 			id: "4DEDD78F25CCB176"
 			title: "UV-Lichtbox"
 			rewards: [{ id: "0D7D8770207CA376", type: "xp_levels", xp_levels: 4 }]
@@ -160,7 +160,7 @@
 		}
 		{
 			dependencies: ["4DEDD78F25CCB176"]
-			description: ["&6Was ist das?", "Im Ätztank entstehen Platinen schneller als in der UV-Lichtbox.", "", "&6So gehts", "Ätzsäure einfüllen.", "", "&6Wofür ist das wichtig?", "Zweiter Schritt zur Platine."]
+			description: ["&6Was ist das?", "Im Ätztank ätzt Säure die belichtete Platine fertig.", "", "&6So gehts", "Rezept: Glas, Obsidian, Verstärkte Wandsteine und kleiner Tank (Muster in JEI).", "Ätzsäure: In der Druckkammer bei 1 bar aus 1 Plastikeimer, 2 Faulfleisch, 2 Spinnenaugen, 2 Schwarzpulver.", "", "&6Wofür ist das wichtig?", "Zweiter Schritt zur Platine."]
 			id: "428BF85B580E5F2E"
 			title: "Ätztank"
 			rewards: [{ id: "15F624A67FDC399E", type: "xp_levels", xp_levels: 4 }]
@@ -169,8 +169,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["428BF85B580E5F2E"]
-			description: ["&6Was ist das?", "Eine bedruckte Platine ist das Herz vieler Upgrades.", "", "&6So gehts", "Belichten, ätzen, Teile per Montagelinie einsetzen.", "", "&6Wofür ist das wichtig?", "Für Drohnen, Programmierer und Rüstung."]
+			dependencies: ["428BF85B580E5F2E", "5F5A8C6451AE31E7", "1956BCF7D61579A0"]
+			description: ["&6Was ist das?", "Die Platine ist das Herz vieler Upgrades.", "", "&6So gehts", "Werkbank: unfertige Platine in die Mitte, oben und unten je ein Transistor, links und rechts je ein Kondensator.", "Die unfertige Platine entsteht aus einer leeren Platine in der Montagelinie (Laser).", "", "&6Wofür ist das wichtig?", "Für Rüstung, Drohnen, Montagelinie und Programmierer."]
 			id: "05B51B13768CB084"
 			title: "Platine"
 			rewards: [{ id: "50568560A9760CAB", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
@@ -180,7 +180,7 @@
 		}
 		{
 			dependencies: ["05B51B13768CB084"]
-			description: ["&6Was ist das?", "Die Montagelinie bohrt, lasert und baut Bauteile automatisch.", "", "&6So gehts", "Steuerung, Plattform, IO-Einheiten aufbauen.", "", "&6Wofür ist das wichtig?", "Für fortgeschrittene Bauteile."]
+			description: ["&6Was ist das?", "Die Montagelinie bohrt, lasert und baut automatisch Bauteile.", "", "&6So gehts", "Steuerung: Platine, Rohr und 3 Verdichtetes Eisen (Werkbank). Dazu Plattform, Laser und Bohrer (Rezepte in JEI).", "Schließe alles mit Druckluft an. Im Steuergerät wählst du das Programm.", "", "&6Wofür ist das wichtig?", "Fortgeschrittene Rohre, Solarzellen und viele Bauteile."]
 			id: "2997ECFAA38F40C0"
 			title: "Montagelinie"
 			rewards: [{ id: "7D0C7B037275549A", type: "xp_levels", xp_levels: 5 }]
@@ -190,7 +190,7 @@
 		}
 		{
 			dependencies: ["2997ECFAA38F40C0"]
-			description: ["&6Was ist das?", "Laser und Bohrer der Montagelinie bearbeiten Bauteile.", "", "&6So gehts", "In die Linie setzen.", "", "&6Wofür ist das wichtig?", "Für Laser-Rezepte."]
+			description: ["&6Was ist das?", "Der Montage-Laser schneidet und formt Teile in der Montage-Anlage.", "", "&6So gehts", "Werkbank: Rotes Glas, 3 Druckzylinder, 1 Leiterplatte und 2 Verdichtete Eisenbarren (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Nötig für die Montage-Anlage."]
 			id: "18C5514DB93E15E4"
 			title: "Montage-Laser"
 			rewards: [{ id: "63926CB5309FF271", type: "xp_levels", xp_levels: 4 }]
@@ -199,8 +199,8 @@
 			y: -3.00d
 		}
 		{
-			dependencies: ["2997ECFAA38F40C0"]
-			description: ["&6Was ist das?", "Bauteile für Platinen.", "", "&6So gehts", "In der Montagelinie herstellen.", "", "&6Wofür ist das wichtig?", "Ohne sie keine fortgeschrittenen Platinen."]
+			dependencies: ["0FB1ABFEB86194BB"]
+			description: ["&6Was ist das?", "Transistoren und Kondensatoren stellst du in der Druckkammer her.", "", "&6So gehts", "Transistor (1 bar): 3 Draht, 1 Redstonestaub, 1 Plastik.", "Kondensator (1 bar): 2 Draht, 1 Schleimball, 1 Plastik.", "", "&6Wofür ist das wichtig?", "Zwei Transistoren und zwei Kondensatoren pro Platine."]
 			icon: { id: "pneumaticcraft:transistor" }
 			id: "5F5A8C6451AE31E7"
 			title: "Transistor und Kondensator"
@@ -222,7 +222,7 @@
 		}
 		{
 			dependencies: ["574A9938F9FEA985"]
-			description: ["&6Was ist das?", "Das Ventil füllt Luft in die Druckkammer.", "", "&6So gehts", "In eine Wand der Kammer setzen.", "", "&6Wofür ist das wichtig?", "Ohne Ventil keine Druckkammer."]
+			description: ["&6Was ist das?", "Das Druckkammer-Ventil ist der Lufteingang der Kammer.", "", "&6So gehts", "Rezept: Druckrohr und eine Druckkammer-Wand (Werkbank, formlos). Mit 4 Wänden ergibt es 4 Ventile.", "Setze es in eine Wand der Kammer und verbinde es mit Druckluft.", "", "&6Wofür ist das wichtig?", "Ohne Ventil keine Druckkammer."]
 			icon: { id: "pneumaticcraft:pressure_chamber_valve" }
 			id: "4495B17427F466A9"
 			title: "Druckkammer-Ventil"
@@ -255,7 +255,7 @@
 		}
 		{
 			dependencies: ["759E89B8060C4AAD"]
-			description: ["&6Was ist das?", "Ein Rahmen, der Kisten kühlt oder heizt.", "", "&6So gehts", "Auf eine Kiste setzen, Hitze oder Kälte daneben.", "", "&6Wofür ist das wichtig?", "Kochen oder Gefrieren ohne Ofen."]
+			description: ["&6Was ist das?", "Der Hitzerahmen heizt oder kühlt Dinge.", "", "&6So gehts", "Rezept: Verdichtetes Eisen rundherum, Ofen in der Mitte (Werkbank).", "Setze ihn an eine Kiste oder Maschine, daneben Hitze (Lava) oder Kälte (Eis).", "So erstarrt zum Beispiel Flüssigplastik zu Plastik.", "", "&6Wofür ist das wichtig?", "Wärme steuern."]
 			icon: { id: "pneumaticcraft:heat_frame" }
 			id: "13ACD1A94757CB41"
 			title: "Hitzerahmen"
@@ -277,7 +277,7 @@
 		}
 		{
 			dependencies: ["04815340C4F710AA"]
-			description: ["&6Was ist das?", "Der fortgeschrittene Kompressor macht viel mehr Druck. Er wird heiß, kühle ihn mit Kühlkörpern.", "", "&6So gehts", "Ersetze den Startkompressor.", "", "&6Wofür ist das wichtig?", "Mehr Druck für mehr Maschinen."]
+			description: ["&6Was ist das?", "Der fortgeschrittene Kompressor macht viel mehr Druck.", "", "&6So gehts", "Du rüstest einen normalen Kompressor auf: Kompressor in die Mitte unten, Verdichtetes Eisen rundherum, Fortgeschrittenes Rohr rechts (Muster in JEI).", "Er wird heiß, stelle Kühlkörper daneben.", "", "&6Wofür ist das wichtig?", "Mehr Druck für große Anlagen."]
 			id: "503015EB9CAA670D"
 			title: "Bessere Kompressoren"
 			rewards: [{ id: "14A6E6C9AAAA0BAA", type: "xp_levels", xp_levels: 4 }]
@@ -287,7 +287,7 @@
 		}
 		{
 			dependencies: ["503015EB9CAA670D"]
-			description: ["&6Was ist das?", "Der Flüssigkeits-Kompressor verbrennt Treibstoff wie Diesel für Druckluft.", "", "&6So gehts", "Diesel oder Kerosin hineinpumpen.", "", "&6Wofür ist das wichtig?", "Sehr effizient."]
+			description: ["&6Was ist das?", "Der Flüssigkeits-Kompressor erzeugt Druck aus Brennstoff.", "", "&6So gehts", "Werkbank: 1 Luftkompressor, 2 Druckrohre, 1 kleiner Tank, 2 Leder (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Bessere Druckquelle."]
 			id: "2F09D80529B297E1"
 			title: "Flüssigkeits-Kompressor"
 			rewards: [{ id: "17C217467C4EA5C6", type: "xp_levels", xp_levels: 4 }]
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["2F09D80529B297E1"]
-			description: ["&6Was ist das?", "Der thermische Kompressor macht Druck aus Temperaturunterschieden, z.B. Lava und Eis.", "", "&6So gehts", "Heiße Seite und kalte Seite bauen.", "", "&6Wofür ist das wichtig?", "Kein Brennstoff nötig."]
+			description: ["&6Was ist das?", "Der Thermische Kompressor erzeugt Druck aus Hitze.", "", "&6So gehts", "Werkbank: 1 Luftkompressor, 4 Druckrohre, 4 Verdichtete Eisenbarren, 2 Schwere Druckplatten (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Druck aus Lava oder Feuer."]
 			id: "202CAB29C61D555A"
 			title: "Thermischer Kompressor"
 			rewards: [{ id: "181CA65AA170625C", type: "xp_levels", xp_levels: 4 }]
@@ -307,7 +307,7 @@
 		}
 		{
 			dependencies: ["202CAB29C61D555A"]
-			description: ["&6Was ist das?", "Der Solar-Kompressor macht Druckluft aus Sonnenlicht.", "", "&6So gehts", "Unter freien Himmel stellen.", "", "&6Wofür ist das wichtig?", "Kostenlose Luft am Tag."]
+			description: ["&6Was ist das?", "Der Solar-Kompressor erzeugt Druck aus Sonnenlicht.", "", "&6So gehts", "Werkbank: 3 Solarzellen, 2 Leiterplatten, 1 Verdichtetes Zahnrad, 2 Fortgeschrittene Rohre und 1 Block aus Verdichtetem Eisen (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Kostenlose Druckquelle."]
 			id: "4DD5871FB622FCD0"
 			title: "Solar-Kompressor"
 			rewards: [{ id: "30C14FC68860F47E", type: "xp_levels", xp_levels: 4 }]
@@ -317,7 +317,7 @@
 		}
 		{
 			dependencies: ["4DD5871FB622FCD0"]
-			description: ["&6Was ist das?", "Kühlkörper ziehen Hitze aus Maschinen. Wasser oder Eis daneben helfen.", "", "&6So gehts", "Neben heiße Maschinen stellen.", "", "&6Wofür ist das wichtig?", "Gegen Überhitzung."]
+			description: ["&6Was ist das?", "Kühlkörper ziehen Hitze aus Maschinen.", "", "&6So gehts", "Rezept: 3 Eisengitter oben, unten Verdichtetes Eisen, Kupferbarren, Verdichtetes Eisen (Werkbank).", "Stelle ihn neben die heiße Maschine.", "", "&6Wofür ist das wichtig?", "Gegen Überhitzung."]
 			id: "1884683A42672233"
 			title: "Kühlkörper"
 			rewards: [{ id: "06D6538ACD79FECE", type: "xp_levels", xp_levels: 2 }]
@@ -327,7 +327,7 @@
 		}
 		{
 			dependencies: ["1884683A42672233"]
-			description: ["&6Was ist das?", "Das Wirbelrohr macht aus Druckluft eine warme und eine kalte Seite.", "", "&6So gehts", "Druckluft hinein.", "", "&6Wofür ist das wichtig?", "Für Hitze ohne Feuer."]
+			description: ["&6Was ist das?", "Das Wirbelrohr trennt Luft in heiße und kalte Seite.", "", "&6So gehts", "Werkbank: 5 Verdichtete Eisenbarren, 2 Kupferbarren und 2 Druckrohre in einem Muster (JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Wärme und Kälte aus Druckluft."]
 			id: "3852AFA8D3099808"
 			title: "Wirbelrohr"
 			rewards: [{ id: "416696003D29C5DC", type: "xp_levels", xp_levels: 3 }]
@@ -337,7 +337,7 @@
 		}
 		{
 			dependencies: ["05B51B13768CB084"]
-			description: ["&6Was ist das?", "Drohnen erledigen Arbeit für dich. Du programmierst sie.", "Du brauchst dafür Programmierer und Ladestation.", "", "&6So gehts", "Mit dem Programmierer Bausteine zusammensetzen: Gebiet, Abbauen, Liefern.", "Drohne an der Ladestation aufladen.", "", "&6Wofür ist das wichtig?", "Drohnen bauen ab, ernten, liefern und kämpfen für dich."]
+			description: ["&6Was ist das?", "Drohnen erledigen Arbeit für dich. Du programmierst sie am Programmierer.", "", "&6So gehts", "Programmierer: Platine, Turbinenrotoren, Plastik, schwarze Glasscheibe und roter Farbstoff (Muster in JEI).", "Drohne: 4 Turbinenrotoren um 1 Platine (Werkbank). Rotor: 2 Turbinenblätter um Verdichtetes Eisen. Blatt: 1 Gold und 2 Redstone in der Druckkammer.", "Programmiere Puzzleteile: Gebiet, Aktion, Ende. Lade die Drohne an der Ladestation.", "", "&6Wofür ist das wichtig?", "Abbauen, Ernten, Liefern und Kämpfen ohne dich."]
 			id: "50C35DF29511AE8D"
 			title: "Drohnen"
 			rewards: [{ id: "70B280685D0FC0B6", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -347,7 +347,7 @@
 		}
 		{
 			dependencies: ["50C35DF29511AE8D"]
-			description: ["&6Was ist das?", "Die normale Drohne führt dein Programm aus: abbauen, bauen, transportieren.", "", "&6So gehts", "Im Programmierer programmieren.", "", "&6Wofür ist das wichtig?", "Automatische Arbeit."]
+			description: ["&6Was ist das?", "Die Drohne ist ein fliegender Helfer.", "", "&6So gehts", "Werkbank: 4 Turbinenrotoren um 1 Leiterplatte (Kreuzform).", "Programmiere sie mit dem Programmierer.", "", "&6Wofür ist das wichtig?", "Automatisierung."]
 			id: "070405CFA4BAC6D7"
 			title: "Drohne"
 			rewards: [{ id: "4D58EA332CEB2BE3", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -357,7 +357,7 @@
 		}
 		{
 			dependencies: ["070405CFA4BAC6D7"]
-			description: ["&6Was ist das?", "Die Ernte-Drohne erntet Felder ohne Programm.", "", "&6So gehts", "Aufstellen, sie arbeitet von selbst.", "", "&6Wofür ist das wichtig?", "Felder ohne Programmierung ernten."]
+			description: ["&6Was ist das?", "Die Ernte-Drohne erntet Pflanzen.", "", "&6So gehts", "Werkbank: 4 Turbinenrotoren um 1 Feldfrucht (Kreuzform).", "", "&6Wofür ist das wichtig?", "Automatische Ernte."]
 			id: "2F728F95DE67E0DE"
 			title: "Ernte-Drohne"
 			rewards: [{ id: "63684724A6B6379A", type: "xp_levels", xp_levels: 4 }]
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["2F728F95DE67E0DE"]
-			description: ["&6Was ist das?", "Die Wach-Drohne greift Monster in der Nähe an.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Schutz deiner Basis."]
+			description: ["&6Was ist das?", "Die Wach-Drohne verteidigt dich.", "", "&6So gehts", "Werkbank: 4 Turbinenrotoren um 1 Eisenschwert (Kreuzform).", "", "&6Wofür ist das wichtig?", "Schutz für die Basis."]
 			id: "60E66878A5B33ADD"
 			title: "Wach-Drohne"
 			rewards: [{ id: "0D9121F4B5CE0E4C", type: "xp_levels", xp_levels: 4 }]
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["60E66878A5B33ADD"]
-			description: ["&6Was ist das?", "Die Sammel-Drohne sammelt herumliegende Items ein.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Nichts liegt mehr herum."]
+			description: ["&6Was ist das?", "Die Sammel-Drohne sammelt Items ein.", "", "&6So gehts", "Werkbank: 4 Turbinenrotoren um 1 Trichter (Kreuzform).", "", "&6Wofür ist das wichtig?", "Automatisches Einsammeln."]
 			id: "316DBA48FA8A3007"
 			title: "Sammel-Drohne"
 			rewards: [{ id: "597C3764BDD8732C", type: "xp_levels", xp_levels: 4 }]
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["316DBA48FA8A3007"]
-			description: ["&6Was ist das?", "Logistikrahmen und -drohnen bringen Items von A nach B ohne Förderband.", "", "&6So gehts", "Logistik-Rahmen auf Kisten setzen.", "", "&6Wofür ist das wichtig?", "Items automatisch verteilen."]
+			description: ["&6Was ist das?", "Der Logistik-Rahmen fordert Items an. So verknüpfst du Kisten.", "", "&6So gehts", "Werkbank: 6 Stöcke, 1 blauer Farbstoff, 1 Logistik-Kern (Muster in JEI). Ergibt 8.", "", "&6Wofür ist das wichtig?", "Lager-Automatik."]
 			id: "1DDDA2A3B714E90D"
 			title: "Logistik-Drohnen"
 			rewards: [{ id: "18344E931B4FF954", type: "xp_levels", xp_levels: 5 }]
@@ -397,7 +397,7 @@
 		}
 		{
 			dependencies: ["1DDDA2A3B714E90D"]
-			description: ["&6Was ist das?", "Mit dem Amadron-Tablet handelst du mit Spielern und Händlern.", "", "&6So gehts", "Tablet benutzen und bestellen. Drohnen liefern.", "", "&6Wofür ist das wichtig?", "Tausche Items gegen andere Items."]
+			description: ["&6Was ist das?", "Das Amadron-Tablet handelt mit anderen Spielern und Händlern.", "", "&6So gehts", "Werkbank: 6 Plastikplatten, 1 GPS-Werkzeug und 1 Luftkanister (Muster in JEI). Es braucht Druck.", "", "&6Wofür ist das wichtig?", "Handel."]
 			id: "7F7B7F7EA5B08C5A"
 			title: "Amadron"
 			rewards: [{ id: "066188FA5120D16A", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
@@ -407,7 +407,7 @@
 		}
 		{
 			dependencies: ["7F7B7F7EA5B08C5A"]
-			description: ["&6Was ist das?", "Das GPS-Werkzeug speichert Koordinaten für Drohnenprogramme.", "", "&6So gehts", "Rechtsklick auf einen Block.", "", "&6Wofür ist das wichtig?", "Für Drohnenprogramme."]
+			description: ["&6Was ist das?", "Das GPS-Werkzeug speichert Orte.", "", "&6So gehts", "Werkbank: 4 Plastikplatten, 1 Diamant, 1 Glasscheibe und 1 Redstonefackel (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Orte für Drohnen und Fernbedienung."]
 			id: "595CDCA23A1E2EEF"
 			title: "GPS-Werkzeug"
 			rewards: [{ id: "7626CEEE06F567A2", type: "xp_levels", xp_levels: 2 }]
@@ -417,7 +417,7 @@
 		}
 		{
 			dependencies: ["26F0E7A797B1459C"]
-			description: ["&6Was ist das?", "Die Pneumatische Rüstung hat Upgrades: Nachtsicht, Sprung, Magnet und mehr.", "", "&6So gehts", "Herstellen, aufladen, Upgrades einbauen.", "", "&6Wofür ist das wichtig?", "Zeigt Erze, Gegner und Informationen."]
+			description: ["&6Was ist das?", "Der Pneumatische Helm hat Upgrades: Erzsuche, Nachtsicht und mehr.", "", "&6So gehts", "Rezept: oben Kanister, Platine, Kanister; Mitte Kanister, verdichteter Eisenhelm, Kanister; unten 3 Kanister (Muster in JEI).", "Lade ihn in der Ladestation auf.", "Upgrades setzt du in der Ladestation ein.", "", "&6Wofür ist das wichtig?", "Zeigt Erz, Gegner und Informationen."]
 			id: "4FAE484FAEB4CACE"
 			title: "Pneumatischer Helm"
 			rewards: [{ id: "281766DD55D3D4AC", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -427,7 +427,7 @@
 		}
 		{
 			dependencies: ["4FAE484FAEB4CACE"]
-			description: ["&6Was ist das?", "Die Brustplatte speichert Luft für die anderen Rüstungsteile und bekommt Upgrades.", "", "&6So gehts", "Aufladen und Upgrades einbauen.", "", "&6Wofür ist das wichtig?", "Schutz und Extras."]
+			description: ["&6Was ist das?", "Die Pneumatische Brustplatte lässt dich mit Druck stärker werden.", "", "&6So gehts", "Werkbank: Verdichtete Eisen-Brustplatte in der Mitte, 6 Luftkanister, 1 Leiterplatte (Muster in JEI). Sie braucht Druck.", "", "&6Wofür ist das wichtig?", "Kraft und Upgrades."]
 			id: "5E269CD307654277"
 			title: "Pneumatische Brustplatte"
 			rewards: [{ id: "67E12C0E3E05CC4A", type: "xp_levels", xp_levels: 4 }]
@@ -437,7 +437,7 @@
 		}
 		{
 			dependencies: ["5E269CD307654277"]
-			description: ["&6Was ist das?", "Mit Jet-Boots-Upgrades fliegst du mit Druckluft.", "", "&6So gehts", "Aufladen, Upgrades einbauen.", "", "&6Wofür ist das wichtig?", "Kein Fallschaden, Sprungkraft."]
+			description: ["&6Was ist das?", "Mit Jet-Boots-Upgrades fliegst du mit Druckluft.", "", "&6So gehts", "Rezept: Platine, Kanister, Platine oben; Kanister, verdichtete Eisenstiefel, Kanister (Muster in JEI).", "Aufladen und Upgrades einbauen.", "", "&6Wofür ist das wichtig?", "Kein Fallschaden, Fliegen."]
 			id: "7AF9D0981A9843F7"
 			title: "Pneumatische Stiefel"
 			rewards: [{ id: "7BAF962DA40FA78D", type: "xp_levels", xp_levels: 4 }]
@@ -447,7 +447,7 @@
 		}
 		{
 			dependencies: ["7AF9D0981A9843F7"]
-			description: ["&6Was ist das?", "Das Jet-Boots-Upgrade in den Stiefeln lässt dich fliegen.", "", "&6So gehts", "Jet-Boot-Upgrade in die Stiefel.", "", "&6Wofür ist das wichtig?", "Fliegen ohne Elytra."]
+			description: ["&6Was ist das?", "Die Jet-Boots lassen dich fliegen.", "", "&6So gehts", "Werkbank: 4 Upgrade-Komponenten, 2 Fortgeschrittene Rohre, 1 Fortgeschrittener Kompressor und 2 Wirbelkanonen (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Fliegen mit Druck."]
 			id: "5C08F65816EC2EA8"
 			title: "Jet-Boots"
 			rewards: [{ id: "4E91076AC4ABB54D", type: "item", item: { id: "minecraft:feather", count: 8 } }]
@@ -457,7 +457,7 @@
 		}
 		{
 			dependencies: ["5C08F65816EC2EA8"]
-			description: ["&6Was ist das?", "Der Jackhammer baut Gestein in Großem Umfang ab. Mit Bohrern für verschiedene Stufen.", "", "&6So gehts", "Aufladen und abbauen. Mit Upgrades sehr stark.", "", "&6Wofür ist das wichtig?", "Bricht Blöcke extrem schnell."]
+			description: ["&6Was ist das?", "Der Presslufthammer baut Gestein sehr schnell ab.", "", "&6So gehts", "Rezept: Plastik, Verdichtetes Eisenblock, Plastik; Verdichtetes Eisen, Rohr, Verdichtetes Eisen; Diamant, Pneumatischer Zylinder, Diamant (Muster in JEI).", "Lade ihn auf. Bohrer wählst du im Gerät.", "", "&6Wofür ist das wichtig?", "Bricht Blöcke extrem schnell."]
 			id: "63CFE2CE7276DCB6"
 			title: "Presslufthammer"
 			rewards: [{ id: "1456D315D18BB65A", type: "xp_levels", xp_levels: 4 }]
@@ -467,7 +467,7 @@
 		}
 		{
 			dependencies: ["63CFE2CE7276DCB6"]
-			description: ["&6Was ist das?", "Die Minigun feuert Munition mit Druckluft. Viel Schaden, hoher Verbrauch.", "", "&6So gehts", "Munition einlegen und aufladen.", "", "&6Wofür ist das wichtig?", "Sehr stark gegen Monster."]
+			description: ["&6Was ist das?", "Die Minigun schießt Munition mit Druckluft.", "", "&6So gehts", "Rezept: Kanister, Kiste, Verdichtetes Eisen, Kanonenrohr, Kupfer, Hebel (Muster in JEI).", "Munition: Schwarzpulver, Verdichtetes Eisen und Kupferbarren (Werkbank, formlos).", "", "&6Wofür ist das wichtig?", "Viel Schaden, hoher Verbrauch."]
 			id: "2A082F72838B89D0"
 			title: "Minigun"
 			rewards: [{ id: "509D3D7EFEDE1113", type: "xp_levels", xp_levels: 6 }]
@@ -477,7 +477,7 @@
 		}
 		{
 			dependencies: ["2A082F72838B89D0"]
-			description: ["&6Was ist das?", "Die Wirbelkanone schießt Luftwirbel, die Gegner wegschleudern.", "", "&6So gehts", "Aufladen und schießen.", "", "&6Wofür ist das wichtig?", "Räumt Blätter und Gras."]
+			description: ["&6Was ist das?", "Die Wirbelkanone schießt einen Windstoß.", "", "&6So gehts", "Werkbank: 4 Verdichtete Eisenbarren, 1 gelber Farbstoff, 1 Luftkanister, 1 Hebel (JEI, Taste R). Sie braucht Druck.", "", "&6Wofür ist das wichtig?", "Wegschleudern von Gegnern."]
 			id: "330667740EE40F4F"
 			title: "Wirbelkanone"
 			rewards: [{ id: "297C75B6B6944B5A", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -487,16 +487,6 @@
 		}
 		{
 			dependencies: ["330667740EE40F4F"]
-			description: ["&6Was ist das?", "Verbandszeug und Heiltränke helfen auch deinen Freunden.", "Rechtsklick auf einen Mitspieler mit Verband heilt ihn.", "", "&6So gehts", "Baue einen Verband und halte Rechtsklick, um dich zu heilen.", "Rechtsklick auf einen Mitspieler heilt ihn.", "", "&6Wofür ist das wichtig?", "In schweren Kämpfen könnt ihr euch gegenseitig retten."]
-			id: "7B1AA3F5829D5144"
-			title: "Gemeinsam heilen"
-			rewards: [{ id: "6254C04530530D86", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "747E4B05800F9093", type: "item", item: { id: "pneumaticcraft:bandage", count: 1 }, count: 1L }]
-			x: 25.50d
-			y: 3.00d
-		}
-		{
-			dependencies: ["7B1AA3F5829D5144"]
 			description: ["&6Was ist das?", "Hose mit Lauf-Upgrades.", "", "&6So gehts", "Aufladen und Upgrades einbauen.", "", "&6Wofür ist das wichtig?", "Schneller laufen."]
 			icon: { id: "pneumaticcraft:pneumatic_leggings" }
 			id: "56D5278DED80EA39"
@@ -508,7 +498,7 @@
 		}
 		{
 			dependencies: ["4495B17427F466A9"]
-			description: ["&6Was ist das?", "Mit Aufzugbasis und Rahmen baust du einen Aufzug mit Druckluft.", "", "&6So gehts", "Aufzugsbasis und Rahmen stapeln.", "", "&6Wofür ist das wichtig?", "Schnell zwischen Stockwerken."]
+			description: ["&6Was ist das?", "Mit der Aufzugbasis baust du einen Aufzug mit Druckluft.", "", "&6So gehts", "Rezept: 2 Pneumatische Zylinder und 2 Plastik (Muster in JEI). Zylinder: Verdichtetes Eisen, Plastik, Kanonenrohr.", "Stapele Aufzugsgerüste darüber, sie sind die Schienen.", "", "&6Wofür ist das wichtig?", "Schnell zwischen Etagen."]
 			id: "03E4F4EDF0D9C175"
 			title: "Aufzug"
 			rewards: [{ id: "2017BE1EAA96A4D7", type: "xp_levels", xp_levels: 4 }]
@@ -518,7 +508,7 @@
 		}
 		{
 			dependencies: ["03E4F4EDF0D9C175"]
-			description: ["&6Was ist das?", "Eine große Tür, die mit Druckluft auf- und zugeht.", "", "&6So gehts", "Mit Türbasis aufstellen.", "", "&6Wofür ist das wichtig?", "Öffnet sich beim Nähern."]
+			description: ["&6Was ist das?", "Die Pneumatische Tür öffnet sich mit Druck.", "", "&6So gehts", "Werkbank: 6 Verdichtete Eisenbarren in 2x3-Form.", "", "&6Wofür ist das wichtig?", "Eine Basis-Tür."]
 			id: "0473D20B91D6B05B"
 			title: "Pneumatische Tür"
 			rewards: [{ id: "62D9AB35C9B0E130", type: "xp_levels", xp_levels: 3 }]
@@ -528,7 +518,7 @@
 		}
 		{
 			dependencies: ["0473D20B91D6B05B"]
-			description: ["&6Was ist das?", "Mit der Fernbedienung steuerst du Redstone und Drohnen von weitem.", "", "&6So gehts", "Im Programmierer einrichten.", "", "&6Wofür ist das wichtig?", "Türen und Anlagen per Knopf."]
+			description: ["&6Was ist das?", "Die Fernbedienung steuert deine Geräte aus der Ferne.", "", "&6So gehts", "Werkbank: 1 Netzwerk-I/O-Port, 4 Transistoren, 1 GPS-Werkzeug und 1 Netzwerk-Speicher (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Fernsteuerung."]
 			id: "6D36F5EF464FF5FD"
 			title: "Fernbedienung"
 			rewards: [{ id: "3A95112C0B8BE275", type: "xp_levels", xp_levels: 3 }]
@@ -538,7 +528,7 @@
 		}
 		{
 			dependencies: ["6D36F5EF464FF5FD"]
-			description: ["&6Was ist das?", "Der Sensor misst fast alles und gibt Redstone aus: Wetter, Spieler, Zeit.", "", "&6So gehts", "Sensor-Upgrade einsetzen.", "", "&6Wofür ist das wichtig?", "Für Redstone-Schaltungen."]
+			description: ["&6Was ist das?", "Der Universelle Sensor misst Dinge in der Welt.", "", "&6So gehts", "Werkbank: 1 Seismischer Sensor, 4 Plastikplatten, 1 Verstärker, 1 Druckrohr (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Sensor für Redstone."]
 			id: "4A5C2B821E03D0DC"
 			title: "Universeller Sensor"
 			rewards: [{ id: "36EF7D5B84F856C6", type: "xp_levels", xp_levels: 4 }]
@@ -548,7 +538,7 @@
 		}
 		{
 			dependencies: ["4A5C2B821E03D0DC"]
-			description: ["&6Was ist das?", "Das Aerial Interface verbindet deine Maschinen mit deinem Inventar.", "", "&6So gehts", "Neben eine Kiste stellen.", "", "&6Wofür ist das wichtig?", "Automatisch aufladen."]
+			description: ["&6Was ist das?", "Die Luftschnittstelle lädt deine Rüstung per Druck.", "", "&6So gehts", "Werkbank: 4 Druckkammer-Wände, 1 Trichter, 2 Enderperlen, 1 Netherstern, 1 Fortgeschrittenes Rohr (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Eine Schnittstelle zu deinem Inventar."]
 			id: "3B10DF0AECD55679"
 			title: "Luftschnittstelle"
 			rewards: [{ id: "681139751CA8DBCB", type: "xp_levels", xp_levels: 5 }]
@@ -558,7 +548,7 @@
 		}
 		{
 			dependencies: ["3B10DF0AECD55679"]
-			description: ["&6Was ist das?", "Ein Trichter, der in jede Richtung zieht und schiebt.", "", "&6So gehts", "Mit Schlüssel ausrichten.", "", "&6Wofür ist das wichtig?", "Flexibler als normale Trichter."]
+			description: ["&6Was ist das?", "Der Omnidirektionale Trichter schaufelt in jede Richtung.", "", "&6So gehts", "Werkbank: 5 Verdichtete Eisenbarren um 1 Kiste (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Kisten verbinden."]
 			id: "0C412C1CD7A7989E"
 			title: "Omnidirektionaler Trichter"
 			rewards: [{ id: "1D10936E5A7F1651", type: "xp_levels", xp_levels: 2 }]
@@ -568,7 +558,7 @@
 		}
 		{
 			dependencies: ["0C412C1CD7A7989E"]
-			description: ["&6Was ist das?", "Die verstärkte Kiste behält ihren Inhalt beim Abbau und ist explosionsfest.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Behält den Inhalt beim Abbauen."]
+			description: ["&6Was ist das?", "Die Verstärkte Kiste ist eine stabile Kiste.", "", "&6So gehts", "Werkbank: 4 Verdichtete Eisenbarren, 1 Goldnugget, 2 Verstärkte Ziegelwände, 1 Holzkiste und 1 Obsidian (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Sicheres Lager."]
 			id: "1D992A2A3DDBCC98"
 			title: "Verstärkte Kiste"
 			rewards: [{ id: "1409C79373B89401", type: "xp_levels", xp_levels: 3 }]
@@ -588,7 +578,7 @@
 		}
 		{
 			dependencies: ["7E39F1CD4249422F"]
-			description: ["&6Was ist das?", "Das Sentry Turret verteidigt deine Basis mit Munition.", "", "&6So gehts", "Munition einlegen.", "", "&6Wofür ist das wichtig?", "Sichert deine Basis."]
+			description: ["&6Was ist das?", "Das Wächtergeschütz schützt deine Basis.", "", "&6So gehts", "Werkbank: 1 Minigun, 2 Plastikplatten und 3 Verdichtete Eisenbarren (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Verteidigung."]
 			id: "6F09CC2EB94F3327"
 			title: "Wächtergeschütz"
 			rewards: [{ id: "6F83BB89C5D0AB2E", type: "item", item: { id: "minecraft:gunpowder", count: 8 } }]
@@ -607,39 +597,6 @@
 			size: 1.5d
 			x: 0.00d
 			y: 0.00d
-		}
-		{
-			dependencies: ["180C3D47022C0326"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
-			icon: { id: "pneumaticcraft:jackhammer" }
-			id: "72267DA2D3EE571B"
-			title: "Pneumatic Jackhammer"
-			rewards: []
-			tasks: [{ id: "3EB0F87631AF202E", type: "checkmark" }]
-			x: 18.00d
-			y: 1.50d
-		}
-		{
-			dependencies: ["72267DA2D3EE571B"]
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
-			icon: { id: "pneumaticcraft:compressed_iron_chestplate" }
-			id: "05624773F53AA4CD"
-			title: "Compressed Iron (Rüstung)"
-			rewards: []
-			tasks: [{ id: "560CF81DB8F89082", type: "checkmark" }]
-			x: 19.50d
-			y: 1.50d
-		}
-		{
-			dependencies: ["05624773F53AA4CD"]
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod PneumaticCraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
-			icon: { id: "pneumaticcraft:pneumatic_chestplate" }
-			id: "737499D074087493"
-			title: "Pneumatic (Rüstung)"
-			rewards: []
-			tasks: [{ id: "7464FF3784B6ADF8", type: "checkmark" }]
-			x: 21.00d
-			y: 1.50d
 		}
 		{
 			dependencies: ["4B1CDA02C5F025E2"]
@@ -662,18 +619,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["6A0D6E72CF8686EC"]
-			description: ["&6Was ist das?", "Ein kleiner Behälter für Druckluft.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Speichert Druck für mobile Geräte."]
-			id: "7465880303E0C221"
-			title: "Luftkanister"
-			rewards: [{ id: "4858973EF8F9CF69", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4606B348784F3C26", type: "item", item: { id: "pneumaticcraft:air_canister", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: -1.50d
-		}
-		{
 			dependencies: ["31292358F7BF209E"]
-			description: ["&6Was ist das?", "Standardmunition für die Minigun.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Ohne Munition schießt die Minigun nicht."]
+			description: ["&6Was ist das?", "Munition lädt die Minigun.", "", "&6So gehts", "Werkbank: 1 Schwarzpulver, 1 Verdichteter Eisenbarren und 1 Kupferbarren (formlos).", "", "&6Wofür ist das wichtig?", "Schießen mit der Minigun."]
 			id: "59CD02A6F681E7EF"
 			title: "Munition"
 			rewards: [{ id: "3EC523F60C99286D", type: "xp_levels", xp_levels: 2 }]
@@ -683,7 +630,7 @@
 		}
 		{
 			dependencies: ["4DEDD78F25CCB176"]
-			description: ["&6Was ist das?", "Ein schneller Verband zur Heilung.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Einfache Heilung ohne Tranke."]
+			description: ["&6Was ist das?", "Der Verband heilt dich schnell.", "", "&6So gehts", "Werkbank: 3 Glycerin in Kreuzform, 1 Teppich in der Mitte. Glycerin siehst du in JEI (Fett aus Pflanzenöl).", "", "&6Wofür ist das wichtig?", "Heilung ohne Tränke."]
 			id: "45D5838D8DD8674C"
 			title: "Verband"
 			rewards: [{ id: "37A3F3A9A7ECBFC4", type: "xp_levels", xp_levels: 2 }]
@@ -692,8 +639,8 @@
 			y: 1.50d
 		}
 		{
-			dependencies: ["5F5A8C6451AE31E7"]
-			description: ["&6Was ist das?", "Die Platine für Transistoren und Regler.", "", "&6So gehts", "In der Druckkammer aus Platinen-Resten hergestellt, danach geätzt. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Die Basis für alle elektronischen Bauteile."]
+			dependencies: ["0FB1ABFEB86194BB"]
+			description: ["&6Was ist das?", "Die leere Platine ist die Basis aller Elektronik.", "", "&6So gehts", "Druckkammer bei 1,5 bar: 2 Redstone-Fackeln, 3 Kupferdraht (oder Draht-Items) und 1 Plastik ergeben 3 Platinen.", "Misslungene Platinen kannst du im Ofen zu leeren Platinen einschmelzen.", "", "&6Wofür ist das wichtig?", "Das Material für Platinen."]
 			id: "1956BCF7D61579A0"
 			title: "Leere Platine"
 			rewards: [{ id: "0EF5292B98370A8A", type: "xp_levels", xp_levels: 2 }]
@@ -703,7 +650,7 @@
 		}
 		{
 			dependencies: ["03E4F4EDF0D9C175"]
-			description: ["&6Was ist das?", "Das Gerüst, in dem der Aufzug fährt.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Verlängert den Weg des Aufzugs nach oben."]
+			description: ["&6Was ist das?", "Das Aufzugsgerüst bildet den Schacht eines Aufzugs.", "", "&6So gehts", "Werkbank: 6 Verdichtete Eisenbarren in 2x3-Form. Ergibt 4.", "", "&6Wofür ist das wichtig?", "Aufzug bauen."]
 			id: "47B5428E751C0493"
 			title: "Aufzugsgerüst"
 			rewards: [{ id: "054DE65B6C8A2DAE", type: "xp_levels", xp_levels: 2 }]

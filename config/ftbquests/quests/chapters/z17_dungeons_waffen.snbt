@@ -21,7 +21,7 @@
 			y: 0.00d
 		}
 		{
-			description: ["&6Was ist das?", "Waffen aus Dungeons sind stark, aber teils selten.", "", "&6So gehts", "Erkunde Dungeons, Tempel und Festungen. Brich Truhen auf und nimm die Schlüssel mit."]
+			description: ["&6Was ist das?", "Waffen aus Dungeons sind stark, aber teils selten.", "", "&6So gehts", "Erkunde Dungeons, Tempel und Festungen. Öffne Truhen und nimm die Schlüssel mit."]
 			dependencies: ["64707A59A0CE9DDE"]
 			id: "7F60B9FA1F124A78"
 			title: "Dungeons: Tipps"
@@ -82,7 +82,7 @@
 		}
 		{
 			description: ["&6Was ist das?", "Ein wuchtiger Streitkolben.", "", "&6So gehts", "Finde ihn in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			dependencies: ["7359FE24FEFA636D"]
+			dependencies: ["7F60B9FA1F124A78"]
 			id: "3F613FB08E7BB92D"
 			title: "Streitkolben"
 			rewards: [{ id: "7BDCFD55304374B3", type: "xp_levels", xp_levels: 3 }]
@@ -92,7 +92,7 @@
 		}
 		{
 			description: ["&6Was ist das?", "Eine schnelle Sichel.", "", "&6So gehts", "Finde sie in Dungeons.", "Das Rezept oder den Fundort zeigt dir JEI (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			dependencies: ["7359FE24FEFA636D"]
+			dependencies: ["7F60B9FA1F124A78"]
 			id: "053D82CBE0B89BCB"
 			title: "Sichel"
 			rewards: [{ id: "50BB42E0111AFB83", type: "xp_levels", xp_levels: 3 }]
@@ -202,7 +202,7 @@
 		}
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für das Endschiff.", "", "&6So gehts", "Finde ihn im Ende.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			dependencies: ["7359FE24FEFA636D"]
+			dependencies: ["7F60B9FA1F124A78"]
 			id: "2EB52387AB9F4430"
 			title: "Endschiff-Schlüssel"
 			rewards: [{ id: "06F594CFF6111CF2", type: "xp_levels", xp_levels: 3 }]
@@ -212,7 +212,7 @@
 		}
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für den Piglin-Turm.", "", "&6So gehts", "Finde ihn im Nether.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
-			dependencies: ["7359FE24FEFA636D"]
+			dependencies: ["7F60B9FA1F124A78"]
 			id: "5A091FD628215DB0"
 			title: "Piglin-Donjon-Schlüssel"
 			rewards: [{ id: "7432E410B1E82143", type: "xp_levels", xp_levels: 3 }]
@@ -229,15 +229,6 @@
 			tasks: [{ id: "391E0A0B8EBDD6FC", type: "checkmark" }]
 			x: 1.50d
 			y: 3.00d
-		}
-		{
-			description: ["Wegweiser: Die Quests ober- und unterhalb gehoeren zu diesem Abschnitt. Einfach abhaken."]
-			dependencies: ["7F60B9FA1F124A78"]
-			id: "7359FE24FEFA636D"
-			title: "Weitere Waffen und Schluessel 1"
-			tasks: [{ id: "7EE07D9B60BE2E71", type: "checkmark" }]
-			x: 3.00d
-			y: 0.00d
 		}
 	]
 }

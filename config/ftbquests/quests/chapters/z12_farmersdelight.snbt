@@ -30,7 +30,7 @@
 		}
 		{
 			dependencies: ["2BB55ABC06EFBD94"]
-			description: ["&6Was ist das?", "Stroh bekommst du, wenn du Gras oder Weizen mit dem Messer erntest.", "", "&6So gehts", "Halte das Messer und baue hohes Gras ab.", "", "&6Wofür ist das wichtig?", "Für Leinwand, Reiche Erde und Kompost."]
+			description: ["&6Was ist das?", "Stroh brauchst du für Strohballen, Dächer und Leinwand.", "", "&6So gehts", "Ernte Reis: Wilder Reis und Reisrispen ergeben beim Schneiden Reis und Stroh.", "Werkbank: 1 Strohballen ergibt 9 Stroh.", "", "&6Wofür ist das wichtig?", "Dächer und Deko."]
 			id: "2A259585422D8567"
 			title: "Stroh"
 			rewards: [{ id: "63F51D6BFCAF93B0", type: "item", item: { id: "minecraft:hay_block", count: 2 } }]
@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["2A259585422D8567"]
-			description: ["&6Was ist das?", "Aus Stroh wird Leinwand, damit baust du Schilder und Säcke.", "", "&6So gehts", "Stroh in der Werkbank verarbeiten.", "", "&6Wofür ist das wichtig?", "Für Leinwand-Schilder, Säcke und einige Rezepte."]
+			description: ["&6Was ist das?", "Aus Stroh wird Leinwand, damit baust du Schilder und Säcke.", "", "&6So gehts", "Rezept: Werkbank: 4x Stroh (Muster in JEI, Taste R).", "Stroh in der Werkbank verarbeiten.", "", "&6Wofür ist das wichtig?", "Für Leinwand-Schilder, Säcke und einige Rezepte."]
 			id: "3A18F51A5E568F49"
 			title: "Leinwand"
 			rewards: [{ id: "7E22377B3A3BB78C", type: "xp_levels", xp_levels: 1 }]
@@ -200,7 +200,7 @@
 		}
 		{
 			dependencies: ["67F0670BEC9430FB"]
-			description: ["&6Was ist das?", "Kürbissuppe ist ein herzhafter Klassiker.", "", "&6So gehts", "Kürbisscheiben (Schneidebrett), Milch und Gemüse in den Topf.", "", "&6Wofür ist das wichtig?", "Gute Sättigung und Gemütlich-Effekt."]
+			description: ["&6Was ist das?", "Kürbissuppe ist ein wärmendes Gericht.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Kürbisscheibe, Blattgemüse, rohes Schweinefleisch und Milch.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "7FA85AFA1F26A951"
 			title: "Kürbissuppe"
 			rewards: [{ id: "560E1854D4092D45", type: "xp_levels", xp_levels: 2 }]
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["7FA85AFA1F26A951"]
-			description: ["&6Was ist das?", "Gebratener Reis sattmacht und ist schnell zu kochen.", "", "&6So gehts", "Reis, Ei, Karotte und Zwiebel in den Topf.", "", "&6Wofür ist das wichtig?", "Hohe Sättigung, ideal für Ausflüge."]
+			description: ["&6Was ist das?", "Gebratener Reis ist ein Gericht mit Reis.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Reis, Ei, Karotte und Zwiebel.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "2D8DC453EEEE8B3F"
 			title: "Gebratener Reis"
 			rewards: [{ id: "76A16082E21FD331", type: "xp_levels", xp_levels: 2 }]
@@ -230,7 +230,7 @@
 		}
 		{
 			dependencies: ["37AB77CFE8C0A929"]
-			description: ["&6Was ist das?", "Gemüse-Eintopf mit guten Effekten.", "", "&6So gehts", "Tomate, Zwiebel, Rote Bete und Paprika in den Topf.", "", "&6Wofür ist das wichtig?", "Gut für Vegetarier-Farmen ohne Tiere."]
+			description: ["&6Was ist das?", "Ratatouille ist ein Gemüse-Eintopf.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Tomate, Zwiebel, Rote Bete und ein weiteres Gemüse (nicht Melone).", "", "&6Wofür ist das wichtig?", "Gutes Essen."]
 			id: "2A29604854E7F84F"
 			title: "Ratatouille"
 			rewards: [{ id: "55AA9822DFE65A42", type: "xp_levels", xp_levels: 3 }]
@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["267BD2D81EB6726A"]
-			description: ["&6Was ist das?", "Hirtenpastete ist ein Festmahl-Block aus Hackfleisch und Kartoffeln.", "", "&6So gehts", "Im Topf herstellen und aufstellen.", "", "&6Wofür ist das wichtig?", "Viele Portionen für die Gruppe."]
+			description: ["&6Was ist das?", "Die Hirtenpastete ist ein großes Gericht für viele.", "", "&6So gehts", "Werkbank (formlos): 2 Ofenkartoffeln, 3 Gebratenes Hammelfleisch, 2 Zwiebeln, Milch und Schüssel.", "", "&6Wofür ist das wichtig?", "Mehrere Portionen."]
 			id: "05D98236E5D865F0"
 			title: "Hirtenpastete"
 			rewards: [{ id: "7BA04E17F1451E71", type: "xp_levels", xp_levels: 4 }]
@@ -270,7 +270,7 @@
 		}
 		{
 			dependencies: ["05D98236E5D865F0"]
-			description: ["&6Was ist das?", "Die Küchenschränke sind hübsch und lagern Items. Gut für die Küche.", "", "&6So gehts", "In allen Holzarten herstellbar.", "", "&6Wofür ist das wichtig?", "Ordnung in der Küche und schöne Deko."]
+			description: ["&6Was ist das?", "Der Schrank ist ein Küchenmöbel mit Lagerplatz.", "", "&6So gehts", "Werkbank: 2 Eichen-Falltüren in der Mitte, Eichenstufen darüber und darunter (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Gut für die Küche."]
 			id: "77E4F090E3CB5DB8"
 			title: "Schrank"
 			rewards: [{ id: "35E330BB43855AEB", type: "xp_levels", xp_levels: 1 }]
@@ -280,7 +280,7 @@
 		}
 		{
 			dependencies: ["77E4F090E3CB5DB8"]
-			description: ["&6Was ist das?", "Hundefutter füttert Wölfe und heilt sie gut.", "", "&6So gehts", "Im Topf herstellen und einem Wolf geben.", "", "&6Wofür ist das wichtig?", "Heilt Wölfe voll und macht sie stärker. Gut für deine Begleiter."]
+			description: ["&6Was ist das?", "Hundefutter macht Hunde satt.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Faules Fleisch, Knochenmehl, rohes Fleisch und Reis.", "", "&6Wofür ist das wichtig?", "Für deinen Hund."]
 			id: "693932FE72D923BF"
 			title: "Hundefutter"
 			rewards: [{ id: "50FCD1DF4D0BC7D6", type: "xp_levels", xp_levels: 2 }]
@@ -410,7 +410,7 @@
 		}
 		{
 			dependencies: ["607352A859D17B8B"]
-			description: ["&6Was ist das?", "Ein Ei in der Pfanne gebraten.", "", "&6So gehts", "Ei auf die Pfanne legen, die über einer Wärmequelle (Herd, Lagerfeuer) steht.", "", "&6Wofür ist das wichtig?", "Zutat für Sandwiches und Speck mit Ei."]
+			description: ["&6Was ist das?", "Das Spiegelei ist ein einfaches Gericht.", "", "&6So gehts", "Lege ein Ei in Ofen, Räucherofen oder Lagerfeuer.", "", "&6Wofür ist das wichtig?", "Zutat in Rezepten."]
 			id: "75F1C406661F9F2C"
 			title: "Spiegelei"
 			rewards: [{ id: "73484EF86C9BF90C", type: "xp_levels", xp_levels: 2 }]
@@ -470,7 +470,7 @@
 		}
 		{
 			dependencies: ["6033DF12C3F00649"]
-			description: ["&6Was ist das?", "Kuchen mit Schokolade.", "", "&6So gehts", "Mürbeteig mit Kakao und Milch backen und schneiden. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Starke Sattigung, schmeckt ausgezeichnet."]
+			description: ["&6Was ist das?", "Kuchen mit Schokolade.", "", "&6So gehts", "Mürbeteig mit Kakao und Milch backen und schneiden. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Starke Sättigung, schmeckt ausgezeichnet."]
 			id: "69EF41CFF4655DBB"
 			title: "Schokoladenkuchen"
 			rewards: [{ id: "0BA86376AD07D248", type: "xp_levels", xp_levels: 2 }]
@@ -490,7 +490,7 @@
 		}
 		{
 			dependencies: ["051D59C0F509C3A0"]
-			description: ["&6Was ist das?", "Kekse mit Honig.", "", "&6So gehts", "Weizen, Honig und Ei in der Werkbank kombinieren. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Leichte Snacks mit gutem Sattigungswert."]
+			description: ["&6Was ist das?", "Kekse mit Honig.", "", "&6So gehts", "Weizen, Honig und Ei in der Werkbank kombinieren. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Leichte Snacks mit gutem Sättigungswert."]
 			id: "7C6AD5BD86C24F7B"
 			title: "Honigkekse"
 			rewards: [{ id: "7A72DB3CA393055D", type: "xp_levels", xp_levels: 2 }]
@@ -540,7 +540,7 @@
 		}
 		{
 			dependencies: ["42CFE784BB670F85"]
-			description: ["&6Was ist das?", "Frischer Melonensaft.", "", "&6So gehts", "Melonenscheiben und Flasche im Kochtopf. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Leichte Erfrischung."]
+			description: ["&6Was ist das?", "Melonensaft erfrischt.", "", "&6So gehts", "Werkbank (formlos): 4 Melonenscheiben, 1 Zucker, 1 Glasflasche.", "", "&6Wofür ist das wichtig?", "Erfrischungsgetränk."]
 			id: "5A206B1EB197FF25"
 			title: "Melonensaft"
 			rewards: [{ id: "10B9AE552559CD53", type: "xp_levels", xp_levels: 2 }]
@@ -552,7 +552,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Das Nether hat eigene Zutaten, aus denen du scharfe und nahrhafte Gerichte kochst, zum Beispiel Hoglin-Fleisch und Scharfe Paprika.", "", "&6So gehts", "Du brauchst dafür den Nether-Herd und den Kochtopf. Das genaue Rezept jedes Gerichts zeigt dir JEI (R auf dem Item).", "Gute Zutaten findest du in Bastionen, Hoglin-Gehegen und Paprika-Plantagen im Nether.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "44C95F2396029139"
-			title: "Ueberblick: Nether-Küche"
+			title: "Überblick: Nether-Küche"
 			rewards: [{ id: "6E5A0B652C64DEEC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1EF026E187155633", type: "checkmark" }]
 			shape: "hexagon"
@@ -602,7 +602,7 @@
 		}
 		{
 			dependencies: ["240D7DD3A8296CD9"]
-			description: ["&6Was ist das?", "Scharfes Curry gibt kurzzeitig Feuerwiderstand.", "", "&6So gehts", "Im Kochtopf mit Paprika herstellen.", "", "&6Wofür ist das wichtig?", "Gibt Feuerresistenz, perfekt vor Lava-Abenteuern."]
+			description: ["&6Was ist das?", "Scharfes Curry ist ein feuriges Nether-Gericht.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): rohes Fleisch, Milch, Gewürz aus dem Nether, Reis, Gemüse und ein Kürbis oder Kürbisscheibe.", "", "&6Wofür ist das wichtig?", "Starkes Essen."]
 			id: "7ACB323D65B54E2C"
 			title: "Scharfes Curry"
 			rewards: [{ id: "18E4F107B39E36C5", type: "xp_levels", xp_levels: 4 }]
@@ -612,7 +612,7 @@
 		}
 		{
 			dependencies: ["7ACB323D65B54E2C"]
-			description: ["&6Was ist das?", "Ein Burger mit Hoglin-Fleisch.", "", "&6So gehts", "Wie den Hamburger herstellen.", "", "&6Wofür ist das wichtig?", "Sehr satt machend."]
+			description: ["&6Was ist das?", "Der Nether-Burger ist ein starkes Gericht.", "", "&6So gehts", "Werkbank (formlos): Brot, Gekochtes Lendenstück, Wirbelranken, Karmesinpilz und Wirrpilz.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "3504A853910446E0"
 			title: "Nether-Burger"
 			rewards: [{ id: "1027AE4010C70C89", type: "xp_levels", xp_levels: 4 }]
@@ -634,7 +634,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Enders Delight fügt Gerichte aus Zutaten des Endes hinzu: Chorusfrucht, Endermiten, Shulker und mehr.", "", "&6So gehts", "Du baust zuerst den Ende-Herd. Mit ihm und dem Kochtopf kochst du die Gerichte. Rezepte siehst du in JEI.", "Viele Gerichte geben starke Effekte. Beachte, dass einige Zutaten nur im Ende zu finden sind.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "40B08832AE0BBC78"
-			title: "Ueberblick: Ende-Küche"
+			title: "Überblick: Ende-Küche"
 			rewards: [{ id: "1A8E3E9B3CA059E3", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "25F7FA5569C0913A", type: "checkmark" }]
 			shape: "hexagon"
@@ -664,7 +664,7 @@
 		}
 		{
 			dependencies: ["2659B7880C5D46B2"]
-			description: ["&6Was ist das?", "Der Endstein-Herd brennt mit Endhitze.", "", "&6So gehts", "Herstellen und entzünden.", "", "&6Wofür ist das wichtig?", "Für End-Rezepte."]
+			description: ["&6Was ist das?", "Der Ende-Herd ist der Herd des Endes.", "", "&6So gehts", "Werkbank: 3 Obsidian oben, in der Mitte Endsteinziegel, Drachenatem, Endsteinziegel, unten Endsteinziegel, Lagerfeuer, Endsteinziegel.", "", "&6Wofür ist das wichtig?", "Kochen im Ende."]
 			id: "6FFA59CB4929154B"
 			title: "Ende-Herd"
 			rewards: [{ id: "7289FC4AFD9B0094", type: "xp_levels", xp_levels: 3 }]
@@ -674,7 +674,7 @@
 		}
 		{
 			dependencies: ["6FFA59CB4929154B"]
-			description: ["&6Was ist das?", "Ein Kuchen aus Chorusfrucht. Teleportiert dich beim Essen nicht, macht aber satt.", "", "&6So gehts", "Im Topf oder in der Werkbank herstellen.", "", "&6Wofür ist das wichtig?", "Gute Sättigung im Ende."]
+			description: ["&6Was ist das?", "Der Chorus-Kuchen ist ein Gericht des Endes.", "", "&6So gehts", "Werkbank: 3 Weizen oben, 3 Chorusfrucht in der Mitte, Zucker, Kuchenboden, Zucker unten.", "", "&6Wofür ist das wichtig?", "Süßes Essen."]
 			id: "27EE939B81A98F06"
 			title: "Chorus-Kuchen"
 			rewards: [{ id: "788222B0D067E42B", type: "xp_levels", xp_levels: 3 }]
@@ -684,7 +684,7 @@
 		}
 		{
 			dependencies: ["27EE939B81A98F06"]
-			description: ["&6Was ist das?", "Ein Eintopf aus Endermiten.", "", "&6So gehts", "Endermiten besiegen und kochen.", "", "&6Wofür ist das wichtig?", "Ungewöhnlich, aber stark."]
+			description: ["&6Was ist das?", "Der Endermiten-Eintopf ist ein Ende-Gericht.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Enderman-Beute und Endermiten-Kruste.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "467369B89A524F6B"
 			title: "Endermiten-Eintopf"
 			rewards: [{ id: "0D0C0FC17870452C", type: "xp_levels", xp_levels: 4 }]
@@ -694,7 +694,7 @@
 		}
 		{
 			dependencies: ["467369B89A524F6B"]
-			description: ["&6Was ist das?", "Gefüllte Shulker sind ein Festmahl.", "", "&6So gehts", "Shulker in Endstädten besiegen, Fleisch zubereiten.", "", "&6Wofür ist das wichtig?", "Eines der besten Gerichte im Spiel."]
+			description: ["&6Was ist das?", "Das Shulker-Filet ist ein Ende-Gericht.", "", "&6So gehts", "Schneide Shulker-Weichtier auf dem Schneidebrett.", "", "&6Wofür ist das wichtig?", "Zutat."]
 			id: "704A2ED0C76A836F"
 			title: "Shulker-Filet"
 			rewards: [{ id: "2BF4A28BB55586D8", type: "xp_levels", xp_levels: 4 }]
@@ -704,7 +704,7 @@
 		}
 		{
 			dependencies: ["704A2ED0C76A836F"]
-			description: ["&6Was ist das?", "Nudeln mit Enderperle.", "", "&6So gehts", "Im Kochtopf herstellen.", "", "&6Wofür ist das wichtig?", "Starkes End-Gericht."]
+			description: ["&6Was ist das?", "Perlen-Nudeln sind ein Ende-Gericht.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Enderman-Beute, Nudeln und Chorus-Saft.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "784BD0458846F6A8"
 			title: "Perlen-Nudeln"
 			rewards: [{ id: "2EA1CCDDF0ED6719", type: "xp_levels", xp_levels: 5 }]
@@ -714,7 +714,7 @@
 		}
 		{
 			dependencies: ["6F81E1560F8E3640"]
-			description: ["&6Was ist das?", "Splitter für die Küche im Ende.", "", "&6So gehts", "Rezept im JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Wichtig für Gerichte aus dem Ende."]
+			description: ["&6Was ist das?", "Die Enderscherbe ist ein Splitter aus Enderperlen.", "", "&6So gehts", "Schneide eine Enderperle auf dem Schneidebrett.", "", "&6Wofür ist das wichtig?", "Zutat."]
 			id: "6BE77B686A997E64"
 			title: "Enderscherbe"
 			rewards: [{ id: "7DF721BFF7B7E60D", type: "xp_levels", xp_levels: 2 }]
@@ -724,7 +724,7 @@
 		}
 		{
 			dependencies: ["6F81E1560F8E3640"]
-			description: ["&6Was ist das?", "Ein Gericht aus dem Ende.", "", "&6So gehts", "Am Ende-Herd nach Rezept kochen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Sättigt stark und gibt starke Effekte."]
+			description: ["&6Was ist das?", "Pommes mit Steak sind ein Ende-Gericht.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Leerenpaprika, Rindfleisch, Milch und Kartoffel.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "39367C7F38998D0D"
 			title: "Pommes mit Steak"
 			rewards: [{ id: "3805CCBEF0427B28", type: "xp_levels", xp_levels: 2 }]
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["6F81E1560F8E3640"]
-			description: ["&6Was ist das?", "Kekse mit Endersplittern.", "", "&6So gehts", "Nach Rezept backen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Leichter Snack mit Wirkung."]
+			description: ["&6Was ist das?", "Seltsame Kekse sind ein Ende-Snack.", "", "&6So gehts", "Werkbank (formlos): Endermiten-Kruste, Zucker und 2 Weizen.", "", "&6Wofür ist das wichtig?", "Snack."]
 			id: "32A640A48B548F44"
 			title: "Seltsame Kekse"
 			rewards: [{ id: "202E6F8C13298383", type: "xp_levels", xp_levels: 2 }]
@@ -744,7 +744,7 @@
 		}
 		{
 			dependencies: ["6F81E1560F8E3640"]
-			description: ["&6Was ist das?", "Ein Spieß mit End-Zutaten.", "", "&6So gehts", "Nach Rezept kochen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Gut für lange Ausflüge."]
+			description: ["&6Was ist das?", "Der Knusprige Spieß ist ein Ende-Snack.", "", "&6So gehts", "Werkbank (formlos): Endermiten-Kruste, Gepoppte Chorusfrucht, Chorusfrucht und Stock.", "", "&6Wofür ist das wichtig?", "Snack."]
 			id: "0400B810F5A653E1"
 			title: "Knuspriger Spieß"
 			rewards: [{ id: "0FE81CA6A0AC2D09", type: "xp_levels", xp_levels: 2 }]
@@ -756,7 +756,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Oceans Delight bringt Gerichte aus Meerestieren und Algen: Tintenfisch, Kabeljau, Seetang und mehr.", "", "&6So gehts", "Du fischst oder jagst die Zutaten im Meer, schneidest sie auf dem Schneidebrett und kochst sie im Kochtopf oder in der Pfanne.", "Gerichte aus dem Meer sind oft günstig, aber nahrhaft: gut für Seefahrer.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "6BEEED572995BE64"
-			title: "Ueberblick: Meer und Fisch"
+			title: "Überblick: Meer und Fisch"
 			rewards: [{ id: "47894C77167ABB55", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6648E97E43EE6E8C", type: "checkmark" }]
 			shape: "hexagon"
@@ -776,7 +776,7 @@
 		}
 		{
 			dependencies: ["797F55EB9542C484"]
-			description: ["&6Was ist das?", "Tintenfisch am Schneidebrett zerlegen und im Topf garen.", "", "&6So gehts", "Tentakel schneiden und braten.", "", "&6Wofür ist das wichtig?", "Einfacher Snack aus dem Meer."]
+			description: ["&6Was ist das?", "Tintenfischringe sind ein Meeres-Gericht.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Geschnittene Tentakel und Teig.", "", "&6Wofür ist das wichtig?", "Meeresfrüchte."]
 			id: "142FA161B2D17AEA"
 			title: "Tintenfischringe"
 			rewards: [{ id: "1F884BEE966D2C94", type: "xp_levels", xp_levels: 3 }]
@@ -786,7 +786,7 @@
 		}
 		{
 			dependencies: ["142FA161B2D17AEA"]
-			description: ["&6Was ist das?", "Kabeljau mit Füllung, ein Klassiker der Küche.", "", "&6So gehts", "Im Topf oder Ofen herstellen.", "", "&6Wofür ist das wichtig?", "Gutes Fischgericht."]
+			description: ["&6Was ist das?", "Der Gefüllte Kabeljau ist ein Meeres-Gericht.", "", "&6So gehts", "Werkbank (formlos): Seetang, Zwiebel, Tomate, Brauner Pilz, Seil und Kabeljau.", "", "&6Wofür ist das wichtig?", "Gutes Essen."]
 			id: "2276698111C6A771"
 			title: "Gefüllter Kabeljau"
 			rewards: [{ id: "1B1981D7ED1CFBF1", type: "xp_levels", xp_levels: 3 }]
@@ -796,7 +796,7 @@
 		}
 		{
 			dependencies: ["2276698111C6A771"]
-			description: ["&6Was ist das?", "Ein leichter Salat aus dem Meer.", "", "&6So gehts", "Seegras sammeln und in der Werkbank mischen.", "", "&6Wofür ist das wichtig?", "Schnelles Essen aus dem Meer."]
+			description: ["&6Was ist das?", "Der Seegras-Salat ist ein leichtes Gericht.", "", "&6So gehts", "Werkbank (formlos): Seegras und Schüssel.", "", "&6Wofür ist das wichtig?", "Schnelles Essen."]
 			id: "24109C246CC8DB23"
 			title: "Seegras-Salat"
 			rewards: [{ id: "78C7BFC4EDD6DD2C", type: "xp_levels", xp_levels: 3 }]
@@ -806,7 +806,7 @@
 		}
 		{
 			dependencies: ["24109C246CC8DB23"]
-			description: ["&6Was ist das?", "Seetang mit Honig, ein süßer Snack.", "", "&6So gehts", "In der Pfanne braten.", "", "&6Wofür ist das wichtig?", "Süßer Snack."]
+			description: ["&6Was ist das?", "Honig-Seetang ist ein süßer Snack.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Honigflasche und getrockneter Seetang.", "", "&6Wofür ist das wichtig?", "Snack."]
 			id: "5E627E2F689858F1"
 			title: "Honig-Seetang"
 			rewards: [{ id: "0746F86E82E83768", type: "xp_levels", xp_levels: 3 }]
@@ -828,7 +828,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Brewin and Chewin erweitert die Küche um Brauen, Gären und neue Gerichte: Bier, Met, Schnaps, Käse und mehr.", "", "&6So gehts", "Das Fass (Keg) ist das Herz: Du füllst es mit Zutaten und Wasser, nach einiger Zeit ist das Getränk fertig. Ein Humpen nimmt es auf.", "Getränke geben Effekte, aber zu viel kann auch schaden. Ein Wärmebehälter hält Getränke warm.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "03C00E84E4C6F385"
-			title: "Ueberblick: Brauerei und Getränke"
+			title: "Überblick: Brauerei und Getränke"
 			rewards: [{ id: "054B83E6434FBBCD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7D4C772CA206421D", type: "checkmark" }]
 			shape: "hexagon"
@@ -868,7 +868,7 @@
 		}
 		{
 			dependencies: ["64CFB4FCC5B2C567"]
-			description: ["&6Was ist das?", "Bier ist ein Klassiker. Weizen und Wasser gären im Fass.", "", "&6So gehts", "Weizen und Wasser im Fass gären lassen.", "", "&6Wofür ist das wichtig?", "Gibt kurzzeitig mehr Widerstand gegen Rückstoß."]
+			description: ["&6Was ist das?", "Bier gärt im Gärfass.", "", "&6So gehts", "Gärfass: Weizen, Weizensamen und brauner Pilz mit Wasser.", "", "&6Wofür ist das wichtig?", "Getränk mit Wirkung."]
 			id: "156BB5F398B13376"
 			title: "Bier"
 			rewards: [{ id: "1DD686D9048EC9DA", type: "xp_levels", xp_levels: 3 }]
@@ -878,7 +878,7 @@
 		}
 		{
 			dependencies: ["156BB5F398B13376"]
-			description: ["&6Was ist das?", "Met aus Honig gibt Stärke und ist ein toller Trank für lange Reisen.", "", "&6So gehts", "Honig und Wasser im Fass.", "", "&6Wofür ist das wichtig?", "Hilft bei langen Kämpfen."]
+			description: ["&6Was ist das?", "Met gärt im Gärfass.", "", "&6So gehts", "Gärfass: Honig, Weizen, Weizensamen und Süßbeeren.", "", "&6Wofür ist das wichtig?", "Getränk mit Wirkung."]
 			id: "1F5796A7469CB5D8"
 			title: "Met"
 			rewards: [{ id: "4AC1279C96D3AB20", type: "xp_levels", xp_levels: 3 }]
@@ -898,7 +898,7 @@
 		}
 		{
 			dependencies: ["1B75CCE6EF5856F0"]
-			description: ["&6Was ist das?", "Mit dem Fass legst du Gemüse ein: Kimchi, saure Gurken und mehr.", "", "&6So gehts", "Gemüse und Salz im Fass.", "", "&6Wofür ist das wichtig?", "Lange haltbare Nahrung mit guten Effekten."]
+			description: ["&6Was ist das?", "Eingelegtes (Kimchi) entsteht im Gärfass.", "", "&6So gehts", "Gärfass: Kohl, ein weiteres Gemüse und Seetang.", "", "&6Wofür ist das wichtig?", "Haltbares Essen."]
 			id: "734B053FCE640882"
 			title: "Eingelegtes"
 			rewards: [{ id: "664D8DC07DA7E676", type: "xp_levels", xp_levels: 2 }]
@@ -908,7 +908,7 @@
 		}
 		{
 			dependencies: ["734B053FCE640882"]
-			description: ["&6Was ist das?", "Pizza ist ein toller Snack und gibt viel Sättigung.", "", "&6So gehts", "Teig, Tomatensauce, Käse und Belag zusammensetzen.", "", "&6Wofür ist das wichtig?", "Mehrere Stücke für die ganze Gruppe."]
+			description: ["&6Was ist das?", "Die Pizza ist ein Gericht aus Brewin' and Chewin'.", "", "&6So gehts", "Werkbank: Käse, Belag, Tomatensauce und Weizen (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Mehrere Scheiben."]
 			id: "30B8CC2B3187AB62"
 			title: "Pizza"
 			rewards: [{ id: "62462C71D28E3273", type: "xp_levels", xp_levels: 3 }]
@@ -928,7 +928,7 @@
 		}
 		{
 			dependencies: ["1F502B2B779D5956"]
-			description: ["&6Was ist das?", "Wodka und andere starke Getränke brauchen Zeit und die richtige Kälte.", "", "&6So gehts", "Braucht Kälte und lange Gärzeit.", "", "&6Wofür ist das wichtig?", "Sehr starke Effekte für Bosskämpfe."]
+			description: ["&6Was ist das?", "Schnaps gärt im Gärfass.", "", "&6So gehts", "Gärfass: Kartoffel, Weizen und Weizensamen.", "", "&6Wofür ist das wichtig?", "Starkes Getränk."]
 			id: "73C9FDCF839140CB"
 			title: "Schnaps"
 			rewards: [{ id: "74F92B0E7F9003EB", type: "xp_levels", xp_levels: 4 }]
@@ -938,7 +938,7 @@
 		}
 		{
 			dependencies: ["73C9FDCF839140CB"]
-			description: ["&6Was ist das?", "Das Fiery Fondue ist ein Festmahl am Tisch.", "", "&6So gehts", "Mit Käse im Topf herstellen und aufstellen.", "", "&6Wofür ist das wichtig?", "Gruppenessen mit guten Effekten."]
+			description: ["&6Was ist das?", "Das Käsefondue ist ein warmes Essen.", "", "&6So gehts", "Kochtopf (auf Feuerstelle oder Herd): Tomatensauce, Kartoffel, Milch, Scharfes Käserad, Schinken und Brot.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "0A000B3B2871AE51"
 			title: "Käsefondue"
 			rewards: [{ id: "12A30C24726906BA", type: "xp_levels", xp_levels: 4 }]
@@ -950,7 +950,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Wetland Whimsy bringt Gerichte aus dem Sumpf: Flusskrebse und Gumbo sind die bekanntesten.", "", "&6So gehts", "Fange Flusskrebse im Sumpf, koche sie und bereite damit Gumbo zu. Rezepte siehst du in JEI.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "0E51EACA59F4E34B"
-			title: "Ueberblick: Sumpfküche"
+			title: "Überblick: Sumpfküche"
 			rewards: [{ id: "7486C94C6D614D7D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2ACC9EAA308166BC", type: "checkmark" }]
 			shape: "hexagon"
@@ -984,7 +984,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Alexs Mobs bringt neue Tiere und damit neue Zutaten: Wels, Hummer, Elch, Känguru, Emu und mehr.", "", "&6So gehts", "Jage die Tiere und brate oder koche ihr Fleisch. Mit Farmers Delight bekommst du daraus zusätzliche Gerichte.", "Das Tierbuch im Kapitel Alexs Mobs erklärt, wo du die Tiere findest.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "58BFB9C2F70BF4C4"
-			title: "Ueberblick: Tierische Gerichte"
+			title: "Überblick: Tierische Gerichte"
 			rewards: [{ id: "0DD389B5BD815F73", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5CA8D80D8C37035F", type: "checkmark" }]
 			shape: "hexagon"
@@ -1106,7 +1106,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Autochefs Delight kann Kochen automatisieren: Ein Koch-Gehilfe nimmt dir Handgriffe ab.", "", "&6So gehts", "Du richtest ihn mit Zutaten ein und er kocht nach Rezept. Siehe JEI für Rezept und Bedienung.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "4BE35783EDF531F9"
-			title: "Ueberblick: Automatisch kochen"
+			title: "Überblick: Automatisch kochen"
 			rewards: [{ id: "1B3DF8F13D8FC888", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5E97C6E2331EA735", type: "checkmark" }]
 			shape: "hexagon"
@@ -1126,9 +1126,9 @@
 		}
 		{
 			dependencies: ["085735849D72954E"]
-			description: ["&6Was ist das?", "Hier steht alles zu Hof, Anbau und Hofkueche: Mistgabel, Kochtopf, Tomaten, Mais, Mehl, Fleischwolf, Backofen, Weinbau und mehr.", "", "&6So gehts", "Du baust Pflanzen an, mahlst Mehl und bereitest Mahlzeiten zu. Die Quests unten gehen in der Reihenfolge der Herstellung vor.", "Viele Rezepte hängen zusammen: Erst Zutaten, dann Gerichte. Schaue immer in JEI nach.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			description: ["&6Was ist das?", "Hier steht alles zu Hof, Anbau und Hofküche: Mistgabel, Kochtopf, Tomaten, Mais, Mehl, Fleischwolf, Backofen, Weinbau und mehr.", "", "&6So gehts", "Du baust Pflanzen an, mahlst Mehl und bereitest Mahlzeiten zu. Die Quests unten gehen in der Reihenfolge der Herstellung vor.", "Viele Rezepte hängen zusammen: Erst Zutaten, dann Gerichte. Schaue immer in JEI nach.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "706273B587E60951"
-			title: "Ueberblick: Hof und Farm"
+			title: "Überblick: Hof und Farm"
 			rewards: [{ id: "2409F3C4F7E7AE8E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "18D2B7A8F08ACB25", type: "checkmark" }]
 			shape: "hexagon"
@@ -1413,7 +1413,7 @@
 		}
 		{
 			dependencies: ["0B83B6A4D9B83D59"]
-			description: ["&6Was ist das?", "Butter aus Milch.", "", "&6So gehts", "Kochtopf oder Butterfass, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gutes Essen oder Landwirtschaft für deine Hofwirtschaft."]
+			description: ["&6Was ist das?", "Butter entsteht aus Milch.", "", "&6So gehts", "Rühre Milch in der Schüssel zu Butter.", "", "&6Wofür ist das wichtig?", "Zutat in Rezepten."]
 			id: "3014FF6A36299A35"
 			title: "Butter"
 			rewards: [{ id: "0AA2AE3797016BAE", type: "xp_levels", xp_levels: 2 }]
@@ -1423,7 +1423,7 @@
 		}
 		{
 			dependencies: ["0B83B6A4D9B83D59"]
-			description: ["&6Was ist das?", "Ein frischer Salat vom Hof.", "", "&6So gehts", "Schneidebrett und Schüssel, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gutes Essen oder Landwirtschaft für deine Hofwirtschaft."]
+			description: ["&6Was ist das?", "Der Bauernsalat ist ein Gemüse-Gericht.", "", "&6So gehts", "Rühre Tomate, Zwiebel, Kohl und Erdbeere in der Schüssel.", "", "&6Wofür ist das wichtig?", "Gesundes Essen."]
 			id: "771AE2283C0BDD75"
 			title: "Bauernsalat"
 			rewards: [{ id: "1BA88B96B08ABD89", type: "xp_levels", xp_levels: 2 }]
@@ -1433,7 +1433,7 @@
 		}
 		{
 			dependencies: ["0B83B6A4D9B83D59"]
-			description: ["&6Was ist das?", "Herzhafter Eintopf.", "", "&6So gehts", "Im Kochtopf kochen, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gutes Essen oder Landwirtschaft für deine Hofwirtschaft."]
+			description: ["&6Was ist das?", "Gulasch ist ein deftiges Essen.", "", "&6So gehts", "Topf: Zwiebel, Gekochtes Rindfleisch, Tomatensuppe, Karotte, Kartoffel.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "55A5E439A0578F63"
 			title: "Gulasch"
 			rewards: [{ id: "59CF928AAFF8936D", type: "xp_levels", xp_levels: 2 }]
@@ -1443,7 +1443,7 @@
 		}
 		{
 			dependencies: ["0B83B6A4D9B83D59"]
-			description: ["&6Was ist das?", "Suppe aus Gerste.", "", "&6So gehts", "Im Kochtopf kochen, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gutes Essen oder Landwirtschaft für deine Hofwirtschaft."]
+			description: ["&6Was ist das?", "Gerstensuppe ist ein einfaches Gericht.", "", "&6So gehts", "Topf: 2 Gerste, Wasserflasche und Ei.", "", "&6Wofür ist das wichtig?", "Sättigend."]
 			id: "4BBF0C21FDA1D705"
 			title: "Gerstensuppe"
 			rewards: [{ id: "7A7C6F55011B6931", type: "xp_levels", xp_levels: 2 }]
@@ -1453,7 +1453,7 @@
 		}
 		{
 			dependencies: ["0B83B6A4D9B83D59"]
-			description: ["&6Was ist das?", "Dünger für schnelleres Wachstum.", "", "&6So gehts", "Kompost und Knochenmehl, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gutes Essen oder Landwirtschaft für deine Hofwirtschaft."]
+			description: ["&6Was ist das?", "Dünger macht Pflanzen schneller.", "", "&6So gehts", "Trockne Knochenmehl oder Faules Fleisch auf dem Trockner.", "", "&6Wofür ist das wichtig?", "Schnelleres Wachstum."]
 			id: "4B504A85C40B8A37"
 			title: "Dünger"
 			rewards: [{ id: "1F2620F920FCD6E1", type: "xp_levels", xp_levels: 2 }]
@@ -1463,7 +1463,7 @@
 		}
 		{
 			dependencies: ["0B83B6A4D9B83D59"]
-			description: ["&6Was ist das?", "Futter für deine Hühner.", "", "&6So gehts", "Samen und Mehl, siehe JEI.", "", "&6Wofür ist das wichtig?", "Gutes Essen oder Landwirtschaft für deine Hofwirtschaft."]
+			description: ["&6Was ist das?", "Hühnerfutter macht Hühner satt.", "", "&6So gehts", "Schneidebrett: Weizen, Karotte und Weizensamen.", "", "&6Wofür ist das wichtig?", "Für deine Hühner."]
 			id: "5E0A838F4DF1D2FE"
 			title: "Hühnerfutter"
 			rewards: [{ id: "097DBED68D61D7BE", type: "xp_levels", xp_levels: 2 }]
@@ -1475,7 +1475,7 @@
 			dependencies: ["5C658D7AF84D36C8"]
 			description: ["&6Was ist das?", "Mit dem Mod AstikorCarts Redux ziehst du Pflug, Sämaschine, Mähbinder und Wagen mit einem Pferd. So bewirtschaftest du große Felder schnell.", "", "&6So gehts", "Die folgenden Quests gehen Schritt für Schritt: Pferd, Sattel, Rad, Pflug, Sämaschine, Mähbinder, Wagen. Die Taste R hängt Gerät und Tier an oder ab (Taste in den Optionen änderbar).", "", "&6Wofür ist das wichtig?", "Mit den Geräten sparst du viel Handarbeit auf großen Feldern."]
 			id: "217BAECEAB45BAF2"
-			title: "Ueberblick: Pferde und Felder"
+			title: "Überblick: Pferde und Felder"
 			rewards: [{ id: "230F2D17D4471357", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "38E3DBAEC4EF767D", type: "checkmark" }]
 			shape: "hexagon"

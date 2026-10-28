@@ -281,16 +281,6 @@
 			y: 0.00d
 		}
 		{
-			description: ["&6Was ist das?", "Zeigt bei einem Absturz, welche Mods daran beteiligt waren.", "", "&6So gehts", "Wirkt nur im Fehlerfall, im Absturzbericht.", "", "&6Wofür ist das wichtig?", "Man findet den Verursacher schneller."]
-			dependencies: ["44F1BB3885DB22CF"]
-			id: "4F4560626D42DA96"
-			title: "MixinTrace"
-			rewards: []
-			tasks: [{ id: "30B4A01988F1A390", type: "checkmark" }]
-			x: 7.50d
-			y: -1.50d
-		}
-		{
 			description: ["&6Was ist das?", "Fängt Fehler in einzelnen Blöcken oder Mobs ab, statt dass das ganze Spiel abstürzt.", "", "&6So gehts", "Läuft von selbst. Bei einem Fehler erscheint eine Meldung im Chat.", "", "&6Wofür ist das wichtig?", "Ein kaputter Block bringt nicht die ganze Welt zum Absturz."]
 			dependencies: ["44F1BB3885DB22CF"]
 			id: "4649AC916E6EC3CD"

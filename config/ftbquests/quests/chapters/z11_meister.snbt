@@ -9,59 +9,7 @@
 	title: "&4VIII. Meister-Zeitalter"
 	quests: [
 		{
-			dependencies: ["07BE262D9D78209B"]
-			description: ["&6Was ist das?", "Antiker Schutt liegt tief im Nether. Mit Betten sprengst du ihn aus.", "", "&6So gehts", "Er liegt tief, um Ebene 15. Sprenge mit TNT oder Betten, er ist explosionsfest.", "Brauche eine Diamantspitzhacke.", "", "&6Wofür ist das wichtig?", "Netherit ist die beste Vanilla-Ausrüstung, brennt nicht und hält sehr lange."]
-			id: "2B95538C66CBB21B"
-			title: "Netherit"
-			rewards: [{ id: "7C061CBE7E0A4789", type: "xp_levels", xp_levels: 5 }]
-			tasks: [{ id: "5FB6AFEB1D51D4A2", type: "item", item: { id: "minecraft:ancient_debris", count: 1 }, count: 4L }]
-			x: 1.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["2B95538C66CBB21B"]
-			description: ["&6Was ist das?", "Schmelze Antiken Schutt zu Schrott. Vier Schrott und vier Gold ergeben einen Barren.", "", "&6So gehts", "Antiker Schutt im Ofen zu Schrott. Vier Schrott und vier Gold.", "", "&6Wofür ist das wichtig?", "Mit Vorlage im Schmiedetisch Diamant zu Netherit aufwerten."]
-			id: "0627B6D0F3C46F98"
-			title: "Netherit-Barren"
-			rewards: [{ id: "64DFEDF9D0380377", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "14DA6C6BD1C7B738", type: "item", item: { id: "minecraft:netherite_ingot", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: 0.00d
-		}
-		{
-			dependencies: ["0627B6D0F3C46F98"]
-			description: ["&6Was ist das?", "Die Netherit-Spitzhacke ist die beste normale Spitzhacke. Verbessere Diamant am Schmiedetisch.", "", "&6So gehts", "Diamantspitzhacke, Netherit-Barren und Vorlage im Schmiedetisch.", "", "&6Wofür ist das wichtig?", "Geht nicht in Lava kaputt und hält sehr lange."]
-			id: "1881FE15AC4DE4B3"
-			title: "Netherit-Spitzhacke"
-			rewards: [{ id: "35868B0CE30EA675", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
-			tasks: [{ id: "05E3600C8AD78762", type: "item", item: { id: "minecraft:netherite_pickaxe", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["1881FE15AC4DE4B3"]
-			description: ["&6Was ist das?", "Das stärkste normale Schwert.", "", "&6So gehts", "Diamantschwert, Netherit-Barren und Netherit-Vorlage am Schmiedetisch.", "", "&6Wofür ist das wichtig?", "Pflicht für den Meister. Grundlage aller Netherit-Spezialwaffen."]
-			icon: { id: "minecraft:netherite_sword" }
-			id: "17D4328BC68DB13B"
-			title: "Netherit-Schwert"
-			rewards: [{ id: "5D458DF91DA07089", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "176B1A484A2E7D8F", type: "item", item: { id: "minecraft:netherite_sword", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 0.00d
-		}
-		{
-			dependencies: ["17D4328BC68DB13B"]
-			description: ["&6Was ist das?", "Die beste Vanilla-Rüstung.", "", "&6So gehts", "Diamantrüstung am Schmiedetisch aufwerten.", "", "&6Wofür ist das wichtig?", "Kein Rückstoß, brennt nicht."]
-			icon: { id: "minecraft:netherite_chestplate" }
-			id: "5157AEBF5A6074A6"
-			title: "Netherit-Rüstung"
-			rewards: [{ id: "56D5D9CCEC6D5170", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "7DE848B30A201F47", type: "item", item: { id: "minecraft:netherite_chestplate", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["5157AEBF5A6074A6"]
+			dependencies: ["07BE262D9D78209B", "5157AEBF5A6074A6"]
 			description: ["&6Was ist das?", "Advanced Netherite verbessert Netherit mit Eisen, Gold, Smaragd oder Diamant. Jede Stufe hat eigene Vorteile.", "", "&6So gehts", "Im Schmiedetisch mit den passenden Barren.", "", "&6Wofür ist das wichtig?", "Starke Boni, z.B. mehr Erze oder Schutz vor Piglins."]
 			id: "103D3053E09ACE15"
 			title: "Advanced Netherite"
@@ -69,39 +17,6 @@
 			tasks: [{ id: "7341702896665770", type: "item", item: { id: "advancednetherite:netherite_diamond_pickaxe", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 0.00d
-		}
-		{
-			dependencies: ["17D4328BC68DB13B"]
-			description: ["&6Was ist das?", "Just Hammers: der stärkste Hammer.", "", "&6So gehts", "Am Schmiedetisch aufwerten.", "", "&6Wofür ist das wichtig?", "Bricht alles in Sekunden."]
-			icon: { id: "justhammers:netherite_hammer" }
-			id: "1EF49B8760E50068"
-			title: "Netherit-Hammer"
-			rewards: [{ id: "20144E31C0F7A6F9", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "0C7BDBE946BB171B", type: "item", item: { id: "justhammers:netherite_hammer", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: -3.00d
-		}
-		{
-			dependencies: ["1EF49B8760E50068"]
-			description: ["&6Was ist das?", "Baut riesige Bereiche auf einmal ab.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für gigantische Bauprojekte."]
-			icon: { id: "justhammers:netherite_destructor_hammer" }
-			id: "14B18961543DDA9E"
-			title: "Zerstörer-Hammer"
-			rewards: [{ id: "227D60797BCEF99C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3264435EF559347E", type: "item", item: { id: "justhammers:netherite_destructor_hammer", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: -3.00d
-		}
-		{
-			dependencies: ["14B18961543DDA9E"]
-			description: ["&6Was ist das?", "Das Langschwert aus Netherit.", "", "&6So gehts", "Diamant-Langschwert am Schmiedetisch aufwerten.", "", "&6Wofür ist das wichtig?", "Die stärkste Form dieser Waffe."]
-			icon: { id: "simplyswords:netherite_longsword" }
-			id: "582FF975AE794D20"
-			title: "Simply Swords: Netherit-Langschwert"
-			rewards: [{ id: "6E54C3985515007A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "673997710BB1781E", type: "item", item: { id: "simplyswords:netherite_longsword", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: -3.00d
 		}
 		{
 			dependencies: ["103D3053E09ACE15"]
@@ -115,7 +30,7 @@
 		}
 		{
 			dependencies: ["6E01392665CDEBA9"]
-			description: ["&6Was ist das?", "Der Wither lässt den Netherstern fallen.", "", "&6So gehts", "Wither besiegen.", "", "&6Wofür ist das wichtig?", "Für das Leuchtfeuer."]
+			description: ["&6Was ist das?", "Ignis ist ein Feuer-Boss aus dem Nether und lässt Ignitium fallen. Den Netherstern bekommst du vom Wither.", "", "&6So gehts", "Suche Ignis im Nether. Nimm Feuerresistenz-Tränke, beste Rüstung, Heilung und Fernkampf mit.", "Weiche seinen Feuerangriffen aus und schlage zu, sobald er nachlädt.", "Den Wither rufst du aus Seelensand und drei Wither-Schädeln, der Netherstern fällt beim Tod.", "", "&6Wofür ist das wichtig?", "Der Netherstern gibt dir das Leuchtfeuer, Ignis das Ignitium.", "", "&6Gut zu wissen", "Ignis lässt Ignitium-Barren und eine Musikplatte fallen."]
 			id: "03D0118EABF00FE3"
 			title: "Netherstern"
 			rewards: [{ id: "2CBDB488CEAE20E0", type: "xp_levels", xp_levels: 8 }]
@@ -145,7 +60,7 @@
 		}
 		{
 			dependencies: ["780152119A23FCE9"]
-			description: ["&6Was ist das?", "Ignitium bekommst du von Ignis. Es macht feuerfeste Rüstung.", "", "&6So gehts", "Ignis besiegen.", "", "&6Wofür ist das wichtig?", "Feuerfeste Rüstung."]
+			description: ["&6Was ist das?", "Das Netherit-Ungeheuer ist ein riesiger Boss. Von ihm kommt die Höllen-Schmiede.", "", "&6So gehts", "Nimm Feuerresistenz, beste Rüstung, viele Heiltränke mit. Er schlägt mit riesigem Hammer.", "Weiche seitlich aus und greife an, nachdem er zugeschlagen hat.", "", "&6Wofür ist das wichtig?", "Seine Beute macht feuerfeste Ausrüstung und starke Waffen möglich.", "", "&6Gut zu wissen", "Beute: Höllen-Schmiede (Hammer), Monströses Horn, Lava-Energiezelle, Musikplatte. Ignitium bekommst du aber von Ignis."]
 			id: "4BCD5B014E5A3A68"
 			title: "Ignitium"
 			rewards: [{ id: "61DD01683588F3A1", type: "xp_levels", xp_levels: 6 }]
@@ -155,7 +70,7 @@
 		}
 		{
 			dependencies: ["4BCD5B014E5A3A68"]
-			description: ["&6Was ist das?", "Cataclysm: Das Schwert des Ignis setzt alles in Brand.", "", "&6So gehts", "Mit Ignitium herstellen.", "", "&6Wofür ist das wichtig?", "Setzt Gegner in Brand."]
+			description: ["&6Was ist das?", "Der Incinerator ist das Schwert des Ignis.", "", "&6So gehts", "Werkbank: Lohenruten, Ignitium-Barren und Netherit-Schwert (Muster in JEI, Taste R).", "Ignitium kommt von Ignis.", "", "&6Wofür ist das wichtig?", "Feuer-Waffe."]
 			id: "3DEEC0BEF56E570F"
 			title: "Der Incinerator"
 			rewards: [{ id: "48C6C3498B03A37A", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -175,7 +90,7 @@
 		}
 		{
 			dependencies: ["7963AF6C8EC7C7EE"]
-			description: ["&6Was ist das?", "Cataclysm: Infernal Forge ist ein riesiger Hammer aus dem Monstrosity.", "", "&6So gehts", "Vom Netherit-Ungeheuer.", "", "&6Wofür ist das wichtig?", "Sehr hoher Schaden."]
+			description: ["&6Was ist das?", "Der Kobolediator ist ein Wüsten-Boss. Er lässt Antikes Metall fallen.", "", "&6So gehts", "Wo: in der Verfluchten Pyramide in der Wüste. Nimm Rüstung, Heilung, gute Waffe mit.", "Töte zuerst die Koboletons um ihn herum, dann ihn.", "", "&6Wofür ist das wichtig?", "Antikes Metall ist Zutat für Cataclysm-Rüstung und -Waffen.", "", "&6Gut zu wissen", "Antikes Metall fällt auch aus Koboletons und Wadjets, und liegt in Wüsten-Truhen."]
 			id: "4A02E0D40DE041CD"
 			title: "Höllen-Schmiede"
 			rewards: [{ id: "59DB50A5846968A3", type: "xp_levels", xp_levels: 8 }]
@@ -249,7 +164,7 @@
 		}
 		{
 			dependencies: ["171ACBF09717672B"]
-			description: ["&6Was ist das?", "Antikes Metall erhältst du vom Ancient Remnant.", "", "&6So gehts", "Den Boss in der Verfluchten Pyramide besiegen.", "", "&6Wofür ist das wichtig?", "Für Cataclysm-Waffen."]
+			description: ["&6Was ist das?", "Der Harbinger ist ein Maschinen-Boss. Er lässt einen Witherit-Block fallen.", "", "&6So gehts", "Bereite Rüstung, Heilung und Fernkampf vor.", "Weiche seinen Angriffen aus und schlage zu, wenn er nachlädt.", "", "&6Wofür ist das wichtig?", "Der Witherit-Block ist die Grundlage für Witherit-Barren.", "", "&6Gut zu wissen", "Antikes Metall bekommst du nicht vom Harbinger, sondern vom Kobolediator."]
 			id: "3F8056687CC98678"
 			title: "Antikes Metall"
 			rewards: [{ id: "6C42CB7562886EA8", type: "xp_levels", xp_levels: 5 }]
@@ -279,7 +194,7 @@
 		}
 		{
 			dependencies: ["632520937276C1DE"]
-			description: ["&6Was ist das?", "Cursium vom Maledictus macht starke Rüstung.", "", "&6So gehts", "Den Boss besiegen.", "", "&6Wofür ist das wichtig?", "Cursium-Rüstung ist eine der besten."]
+			description: ["&6Was ist das?", "Der Korallen-Golem lebt in Unterwasser-Strukturen (Versunkene Stadt).", "", "&6So gehts", "Wo: in der Versunkenen Stadt im Ozean. Nimm Wasseratmung und Rüstung mit.", "Weiche aus und greife an, sobald er nachlädt.", "", "&6Wofür ist das wichtig?", "Gut für Cataclysm-Zutaten aus dem Meer.", "", "&6Gut zu wissen", "Cursium-Barren bekommst du vom Maledictus."]
 			id: "12691D9AF22A663B"
 			title: "Cursium"
 			rewards: [{ id: "46B296004928AE4C", type: "xp_levels", xp_levels: 6 }]
@@ -299,7 +214,7 @@
 		}
 		{
 			dependencies: ["7DFF058717D1BD39"]
-			description: ["&6Was ist das?", "Die Amethyst-Krabbe lebt in Höhlen mit Amethyst.", "", "&6So gehts", "In Höhlen suchen.", "", "&6Wofür ist das wichtig?", "Panzer für Cataclysm-Rezepte."]
+			description: ["&6Was ist das?", "Die Amethyst-Krabbe lebt im Amethyst-Nest.", "", "&6So gehts", "Wo: im Amethyst-Nest in den Üppigen Höhlen. Nimm Schwert und Heilung mit.", "Sie hat einen harten Panzer. Schlage von der Seite.", "", "&6Wofür ist das wichtig?", "Der Amethyst-Panzer ist Zutat für Cataclysm-Rezepte.", "", "&6Gut zu wissen", "Im Amethyst-Nest steht eine Truhe, die auch Panzer enthält."]
 			id: "43E50A0EB3F3D296"
 			title: "Amethyst-Krabbe"
 			rewards: [{ id: "5D5B19B1AE56557B", type: "xp_levels", xp_levels: 6 }]
@@ -352,7 +267,7 @@
 		}
 		{
 			dependencies: ["30D4B8A5EA0E5F23"]
-			description: ["&6Was ist das?", "Cataclysm: Enderit aus dem Ender-Wächter.", "", "&6So gehts", "Vom Ender-Wächter.", "", "&6Wofür ist das wichtig?", "Starke Waffen."]
+			description: ["&6Was ist das?", "Der Ender-Golem lebt im Ende.", "", "&6So gehts", "Gehe ins Ende und suche ihn.", "Nimm Rüstung, Heilung und Blöcke zum Bauen mit. Weiche seinen Schlägen aus.", "", "&6Wofür ist das wichtig?", "Seine Beute macht starke Ende-Waffen.", "", "&6Gut zu wissen", "Der Ender-Wächter lässt Wächter-Handschuh und eine Musikplatte fallen."]
 			id: "5E470834EC412470"
 			title: "Enderit"
 			rewards: [{ id: "7066DDA5FDD4C9D5", type: "xp_levels", xp_levels: 6 }]
@@ -392,7 +307,7 @@
 		}
 		{
 			dependencies: ["4462D623E69BC5A5"]
-			description: ["&6Was ist das?", "Cataclysm: Käfer aus dem Ende.", "", "&6So gehts", "Im Ende suchen.", "", "&6Wofür ist das wichtig?", "Chorusfrucht."]
+			description: ["&6Was ist das?", "Die Endermaptera ist ein Käfer aus dem Ende.", "", "&6So gehts", "Gehe ins Ende. Suche sie dort in der Umgebung.", "Sie greift im Nahkampf an. Schlage zurück.", "", "&6Wofür ist das wichtig?", "Gut für Chorusfrucht und Cataclysm-Rezepte."]
 			id: "67AF610D0A62F9FC"
 			title: "Endermaptera"
 			rewards: [{ id: "414E0E2978AB85E6", type: "xp_levels", xp_levels: 4 }]
@@ -432,7 +347,7 @@
 		}
 		{
 			dependencies: ["6663337064B5A928"]
-			description: ["&6Was ist das?", "Das Drachenhaut-Zauberbuch ist eines der besten Bücher. Du brauchst Drachenhaut vom Enderdrachen.", "", "&6So gehts", "Mit Drachenhaut herstellen.", "", "&6Wofür ist das wichtig?", "Ultimative Magie."]
+			description: ["&6Was ist das?", "Das Drachenhaut-Zauberbuch ist eines der besten Bücher.", "", "&6So gehts", "Werkbank: 6 Drachenhaut, 2 Obsidian und ein Ruiniertes Buch in der Mitte (Muster in JEI).", "Drachenhaut bekommst du vom Enderdrachen.", "", "&6Wofür ist das wichtig?", "Starke Zauber."]
 			id: "57A98A3D4E207747"
 			title: "Drachenhaut-Zauberbuch"
 			rewards: [{ id: "686E084EFB67B93C", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
@@ -453,7 +368,7 @@
 		}
 		{
 			dependencies: ["4EA7B6B983C1C0EE"]
-			description: ["&6Was ist das?", "Das Meister-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Netherit, Netherit-Ausrüstung, Der Wither, Cataclysm im Nether, Cataclysm-Rüstkammer, Cataclysm in der Oberwelt, Meeresschätze, Cataclysm im Ende und Meer, Meister-Magie.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofür ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins nächste. Nebenzweige kannst du jederzeit später machen."]
+			description: ["&6Was ist das?", "Das Meister-Zeitalter hat begonnen. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Advanced Netherite, Der Wither, Cataclysm im Nether, Cataclysm-Rüstkammer, Cataclysm in der Oberwelt, Meeresschätze, Cataclysm im Ende und Meer, Meister-Magie.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Die Abschluss-Quest ganz rechts braucht nur die wichtigen Zweige. Alle anderen sind freiwillig, lohnen sich aber.", "", "&6Wofür ist das wichtig?", "Mit dem Abschluss dieses Zeitalters geht es ins nächste. Nebenzweige kannst du jederzeit später machen."]
 			icon: { id: "minecraft:netherite_ingot" }
 			id: "07BE262D9D78209B"
 			title: "Beginn: Meister-Zeitalter"
@@ -489,7 +404,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["3719AAFC58A14DD8"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:waking_lichblade" }
 			id: "4B072B9FA56A961E"
@@ -500,7 +415,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["4B072B9FA56A961E"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:awakened_lichblade" }
 			id: "2EA39522BAD100ED"
@@ -511,7 +426,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["2EA39522BAD100ED"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:harbinger" }
 			id: "6BF629EE8EB7E8FA"
@@ -522,7 +437,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["6BF629EE8EB7E8FA"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:watcher_claymore" }
 			id: "2FBAD2C6F124D29B"
@@ -533,7 +448,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["2FBAD2C6F124D29B"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:the_devourer" }
 			id: "1E771E11D7152C00"
@@ -544,7 +459,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["1E771E11D7152C00"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:brimstone_claymore" }
 			id: "4BCB69C9E786AD0C"
@@ -555,7 +470,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["4BCB69C9E786AD0C"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:watching_warglaive" }
 			id: "51FC0953FD8F6234"
@@ -566,7 +481,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["51FC0953FD8F6234"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "advancednetherite:netherite_iron_sword" }
 			id: "49048DD8BDAC2023"
@@ -577,7 +492,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["49048DD8BDAC2023"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "advancednetherite:netherite_gold_sword" }
 			id: "2C488889734B30B5"
@@ -588,7 +503,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["2C488889734B30B5"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "advancednetherite:netherite_emerald_sword" }
 			id: "77B14DAB718CA299"
@@ -599,7 +514,7 @@
 			y: 10.50d
 		}
 		{
-			dependencies: ["3719AAFC58A14DD8"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "advancednetherite:netherite_diamond_sword" }
 			id: "6DD8A369596D64B3"
@@ -610,7 +525,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["6DD8A369596D64B3"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "cataclysm:black_steel_sword" }
 			id: "15D479A15FE484AE"
@@ -621,7 +536,7 @@
 			y: 9.00d
 		}
 		{
-			dependencies: ["15D479A15FE484AE"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "cataclysm:coral_spear" }
 			id: "365A06B06AFD48F8"
@@ -632,7 +547,7 @@
 			y: 9.00d
 		}
 		{
-			dependencies: ["365A06B06AFD48F8"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "cataclysm:ancient_spear" }
 			id: "5D082F81EA35D726"
@@ -643,7 +558,7 @@
 			y: 9.00d
 		}
 		{
-			dependencies: ["6DD8A369596D64B3"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "cataclysm:cursed_bow" }
 			id: "09028E38B09C7954"
@@ -654,7 +569,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["09028E38B09C7954"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:netherite_pickaxe" }
 			id: "2A044A33576EB449"
@@ -665,7 +580,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["2A044A33576EB449"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstärkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_iron_pickaxe" }
 			id: "4E7F5A03345F278F"
@@ -676,7 +591,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["4E7F5A03345F278F"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstärkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_gold_pickaxe" }
 			id: "591F6ECAF470D1C0"
@@ -687,7 +602,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["591F6ECAF470D1C0"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstärkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_emerald_pickaxe" }
 			id: "64DF87B9BD191ECD"
@@ -698,7 +613,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["64DF87B9BD191ECD"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke. Netherit mit einem weiteren Material verstärkt.", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "advancednetherite:netherite_diamond_pickaxe" }
 			id: "1F4697D2311127DE"
@@ -709,7 +624,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["1F4697D2311127DE"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "cataclysm:black_steel_pickaxe" }
 			id: "05F836785DB50EE2"
@@ -720,7 +635,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["2A044A33576EB449"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "minecraft:netherite_chestplate" }
 			id: "078B02F4BC6E00EE"
@@ -731,7 +646,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["078B02F4BC6E00EE"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "advancednetherite:netherite_iron_chestplate" }
 			id: "68DD6F0DB8855584"
@@ -742,7 +657,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["68DD6F0DB8855584"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "advancednetherite:netherite_gold_chestplate" }
 			id: "601EFFD97F0A11D2"
@@ -753,7 +668,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["601EFFD97F0A11D2"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "advancednetherite:netherite_emerald_chestplate" }
 			id: "435C33AB612DDEF8"
@@ -764,7 +679,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["435C33AB612DDEF8"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Advanced Netherite.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "advancednetherite:netherite_diamond_chestplate" }
 			id: "37774E8A6BC2B270"
@@ -775,7 +690,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["37774E8A6BC2B270"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "cataclysm:bone_reptile_chestplate" }
 			id: "110EB2EA5840841F"
@@ -786,7 +701,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["110EB2EA5840841F"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "cataclysm:cursium_chestplate" }
 			id: "0DAA726631FD7966"
@@ -797,7 +712,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["0DAA726631FD7966"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "cataclysm:ignitium_chestplate" }
 			id: "63DF3F4DD571D571"
@@ -808,7 +723,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["63DF3F4DD571D571"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Cataclysm.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "cataclysm:ignitium_elytra_chestplate" }
 			id: "402C77127F7AE32E"
@@ -830,7 +745,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["73F8483FED3E84B8"]
+			dependencies: ["402C77127F7AE32E"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:wither_chestplate" }
 			id: "7EAF60AB3E5A06BA"
@@ -841,7 +756,7 @@
 			y: 4.50d
 		}
 		{
-			dependencies: ["078B02F4BC6E00EE"]
+			dependencies: ["103D3053E09ACE15"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "irons_spellbooks:netherite_mage_chestplate" }
 			id: "56B38221BC72A610"
@@ -853,57 +768,7 @@
 		}
 		{
 			dependencies: ["07BE262D9D78209B"]
-			description: ["&6Was ist das?", "Das Netherite Monstrosity ist ein riesiger Lava-Boss in der Seelenschmiede.", "", "&6So gehts", "Netheritrüstung mit Feuerschutz, Heiltränke. Nur mit Vorbereitung.", "", "&6Wofür ist das wichtig?", "Boss des Meister-Zeitalters."]
-			id: "6E96BA3EA980E587"
-			title: "Netherit-Monstrum"
-			rewards: [{ id: "5A06BC5CEB97967C", type: "xp_levels", xp_levels: 15 }, { id: "0013477F11552877", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
-			tasks: [{ id: "2B06246DBCA1A775", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L, icon: { id: "minecraft:netherite_ingot" } }]
-			x: 1.50d
-			y: -4.50d
-		}
-		{
-			dependencies: ["6E96BA3EA980E587"]
-			description: ["&6Was ist das?", "Ignis ist ein feuriger Ritter mit riesigem Schwert.", "", "&6So gehts", "Netheritrüstung mit Feuerschutz, Schild, Heiltränke.", "", "&6Wofür ist das wichtig?", "Boss des Meister-Zeitalters."]
-			id: "2CB92026A063DFF5"
-			title: "Ignis"
-			rewards: [{ id: "78CFDC5C18313B38", type: "xp_levels", xp_levels: 15 }, { id: "26EDC9B8CAB8ABFC", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
-			tasks: [{ id: "6901B543061907F6", type: "kill", entity: "cataclysm:ignis", value: 1L, icon: { id: "minecraft:blaze_rod" } }]
-			x: 3.00d
-			y: -4.50d
-		}
-		{
-			dependencies: ["2CB92026A063DFF5"]
-			description: ["&6Was ist das?", "Der Leviathan wartet im versunkenen Reich im Ozean.", "", "&6So gehts", "Netheritrüstung, Atmung unter Wasser, Heiltränke.", "", "&6Wofür ist das wichtig?", "Ozean-Boss des Meister-Zeitalters."]
-			id: "584C326C1BDDCA39"
-			title: "Leviathan"
-			rewards: [{ id: "60A3E8D87F12EB80", type: "xp_levels", xp_levels: 15 }, { id: "04817B03BFCB7D46", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
-			tasks: [{ id: "3B3CC5FAA26FD943", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_shard" } }]
-			x: 4.50d
-			y: -4.50d
-		}
-		{
-			dependencies: ["584C326C1BDDCA39"]
-			description: ["&6Was ist das?", "Der Ender Guardian bewacht sein Mausoleum.", "", "&6So gehts", "Netheritrüstung, Schild, viel Heilung.", "", "&6Wofür ist das wichtig?", "Boss des Meister-Zeitalters."]
-			id: "598ECA0C511D7BDE"
-			title: "Ender-Wächter"
-			rewards: [{ id: "0F75A04C29C24939", type: "xp_levels", xp_levels: 15 }, { id: "2E944B768DDD95DD", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
-			tasks: [{ id: "2FFC62D10F99DFC7", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_crystal" } }]
-			x: 6.00d
-			y: -4.50d
-		}
-		{
-			dependencies: ["598ECA0C511D7BDE"]
-			description: ["&6Was ist das?", "Der Harbinger ist ein riesiger Roboter mit Lasern.", "", "&6So gehts", "Netheritrüstung, Schild, Heiltränke.", "", "&6Wofür ist das wichtig?", "Letzter Boss der Meisterschaft."]
-			id: "2B3CBED242A6B15E"
-			title: "Harbinger (Boss)"
-			rewards: [{ id: "36F41F64F7DAEFAF", type: "xp_levels", xp_levels: 20 }, { id: "4E9605793AB86927", type: "item", item: { id: "minecraft:netherite_scrap", count: 6 } }]
-			tasks: [{ id: "6C3445E0D082DD66", type: "kill", entity: "cataclysm:the_harbinger", value: 1L, icon: { id: "minecraft:beacon" } }]
-			x: 7.50d
-			y: -4.50d
-		}
-		{
-			dependencies: ["2B3CBED242A6B15E"]
-			description: ["&6Was ist das?", "Der Gauntlet ist ein riesiger Stein-Boss in den Höhlen.", "", "&6So gehts", "Netheritrüstung, Schild, Heiltränke. Zerstöre seinen Kern.", "", "&6Wofür ist das wichtig?", "Boss des Meister-Zeitalters."]
+			description: ["&6Was ist das?", "Der Gauntlet ist ein riesiger Boss aus Bosse der Zerstörung. Er wartet in einer Arena.", "", "&6So gehts", "Suche die Gauntlet-Arena in der Welt.", "Nimm Netheritrüstung, Schild, Heiltränke und einen Bogen mit.", "Weiche seinen Angriffen aus und greife zwischen den Angriffen an.", "", "&6Wofür ist das wichtig?", "In der Arena liegt eine Truhe mit dem Brennenden Auge.", "", "&6Gut zu wissen", "Beute: Brennendes Auge in der Truhe."]
 			id: "68D7DD5270AC0F36"
 			title: "Gauntlet"
 			rewards: [{ id: "42C54CC2B608230D", type: "xp_levels", xp_levels: 15 }, { id: "36F02085563B49D5", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
@@ -913,7 +778,7 @@
 		}
 		{
 			dependencies: ["68D7DD5270AC0F36"]
-			description: ["&6Was ist das?", "Der Obsidilith ist ein riesiger Obsidian-Boss.", "", "&6So gehts", "Netheritrüstung, Diamantspitzhacke, Heiltränke. Zerstöre die Kristalle.", "", "&6Wofür ist das wichtig?", "Boss des Meister-Zeitalters."]
+			description: ["&6Was ist das?", "Der Obsidilith ist ein riesiger Obsidian-Boss. Er wartet in einer Arena.", "", "&6So gehts", "Suche die Obsidilith-Arena. Nimm Netheritrüstung, Diamantspitzhacke, Heiltränke und Fernkampf mit.", "Weiche seinen Angriffen aus und greife zwischen den Angriffen an.", "", "&6Wofür ist das wichtig?", "Die Truhe enthält das Obsidianherz, Obsidian und Purpurblöcke.", "", "&6Gut zu wissen", "Beute: Obsidianherz, Obsidian, Purpurblöcke."]
 			id: "1EF42B80CF8766E1"
 			title: "Obsidilith"
 			rewards: [{ id: "39FFEFF49D220694", type: "xp_levels", xp_levels: 15 }, { id: "0A5912A44CFDC8C0", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
@@ -922,48 +787,8 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["2B95538C66CBB21B"]
-			description: ["&6Was ist das?", "Das Rohmaterial für Netherit.", "", "&6So gehts", "Antiken Schutt im Ofen schmelzen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Vier Schrott und vier Gold ergeben einen Barren."]
-			id: "4C9068B3CEAB7FAD"
-			title: "Netherit-Schrott"
-			rewards: [{ id: "58350BEBD009DC78", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3EEA294A13ED3660", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 }, count: 4L }]
-			x: 3.00d
-			y: -1.50d
-		}
-		{
-			dependencies: ["0627B6D0F3C46F98"]
-			description: ["&6Was ist das?", "Neun Netheritbarren als Block.", "", "&6So gehts", "Neun Barren in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Explosionssicher, ein Zeichen von Reichtum."]
-			id: "6FC2C0E66B8A6ABF"
-			title: "Netheritblock"
-			rewards: [{ id: "5D3D7DF0C08BCF3B", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6499DB596D9A01B3", type: "item", item: { id: "minecraft:netherite_block", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 1.50d
-		}
-		{
-			dependencies: ["1881FE15AC4DE4B3"]
-			description: ["&6Was ist das?", "Die beste Schaufel.", "", "&6So gehts", "Diamantschaufel und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Baut Erde und Sand blitzschnell ab."]
-			id: "0BBCD038697D4191"
-			title: "Netherit-Schaufel"
-			rewards: [{ id: "6CE839E4514E7746", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "09B50A42E9BB497A", type: "item", item: { id: "minecraft:netherite_shovel", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 1.50d
-		}
-		{
-			dependencies: ["1881FE15AC4DE4B3"]
-			description: ["&6Was ist das?", "Die beste Hacke.", "", "&6So gehts", "Diamanthacke und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Für große Felder mit schneller Ernte."]
-			id: "1C63C584EABE3DCB"
-			title: "Netherit-Hacke"
-			rewards: [{ id: "7913B66CA2FF03DF", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4198DD27390E70C6", type: "item", item: { id: "minecraft:netherite_hoe", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: -3.00d
-		}
-		{
 			dependencies: ["6E01392665CDEBA9"]
-			description: ["&6Was ist das?", "Eine dunkle Blume, die den Wither-Effekt gibt.", "", "&6So gehts", "Entsteht, wenn der Wither ein Wesen tötet.", "", "&6Wofür ist das wichtig?", "Nur für Mutige: Dekoration mit Risiko."]
+			description: ["&6Was ist das?", "Die Wither-Rose ist eine dunkle Blume, die den Wither-Effekt gibt.", "", "&6So gehts", "Sie entsteht, wenn der Wither ein Wesen tötet.", "Mit Create: eine Mohnblume mit dem Seelenfeuer-Gebläse verfluchen.", "", "&6Wofür ist das wichtig?", "Zutat für Tränke."]
 			id: "61C907445E967B59"
 			title: "Wither-Rose"
 			rewards: [{ id: "3808D52F8490A8DE", type: "xp_levels", xp_levels: 2 }]
@@ -1060,30 +885,8 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["1C35BA97EED2E9ED"]
-			description: ["&6Was ist das?", "Der Kampf: Besiege den Wither.", "", "&6So gehts", "Unter der Hälfte seiner Leben verliert er den Schutz gegen Pfeile und fliegt weg. Greife ihn aus der Nähe an und lass ihn nicht entkommen.", "Nutze Milch und Goldene Äpfel. Schlage zu und weiche zurück, sobald du den Effekt bekommst.", "", "&6Wofür ist das wichtig?", "Er lässt einen Netherstern fallen. Daraus baust du das Leuchtfeuer."]
-			icon: { id: "minecraft:nether_star" }
-			id: "6EA9343D7DA261CB"
-			title: "Wither besiegen"
-			rewards: [{ id: "50FE409C46B13DD4", type: "xp_levels", xp_levels: 10 }]
-			tasks: [{ id: "299261263E6683B6", type: "kill", entity: "minecraft:wither", value: 1L }]
-			x: 24.00d
-			y: -4.50d
-		}
-		{
-			description: ["&6Abschnitt", "Netherit-Zutaten"]
-			dependencies: ["07BE262D9D78209B"]
-			id: "346490CDB159350B"
-			title: "Netherit-Zutaten"
-			optional: true
-			tasks: [{ id: "4892AFEB9992495E", type: "checkmark" }]
-			shape: "hexagon"
-			x: 1.50d
-			y: -1.50d
-		}
-		{
 			description: ["&6Abschnitt", "Zauberbücher"]
-			dependencies: ["435C33AB612DDEF8"]
+			dependencies: ["103D3053E09ACE15"]
 			id: "58A8D15D4CCBF80A"
 			title: "Zauberbücher"
 			optional: true
@@ -1094,7 +897,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Cataclysm-Bosse und Ausrüstung"]
-			dependencies: ["68DD6F0DB8855584"]
+			dependencies: ["103D3053E09ACE15"]
 			id: "63C8984D01633D2B"
 			title: "Cataclysm-Bosse und Ausrüstung"
 			optional: true
@@ -1116,7 +919,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Werkzeug-Sets"]
-			dependencies: ["6DD8A369596D64B3"]
+			dependencies: ["103D3053E09ACE15"]
 			id: "21DF6B6AB2D737F7"
 			title: "Werkzeug-Sets"
 			optional: true
@@ -1127,7 +930,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Rüstungen"]
-			dependencies: ["6DD8A369596D64B3"]
+			dependencies: ["103D3053E09ACE15"]
 			id: "3B070A5A60E965F0"
 			title: "Rüstungen"
 			optional: true
@@ -1135,17 +938,6 @@
 			shape: "hexagon"
 			x: 15.00d
 			y: 3.00d
-		}
-		{
-			description: ["&6Abschnitt", "Hämmer"]
-			dependencies: ["0627B6D0F3C46F98"]
-			id: "6906E982C7CE32AE"
-			title: "Hämmer"
-			optional: true
-			tasks: [{ id: "592C0432C5BED7CE", type: "checkmark" }]
-			shape: "hexagon"
-			x: 4.50d
-			y: -3.00d
 		}
 		{
 			description: ["&6Abschnitt", "Boss-Beschwörung", "", "Cataclysm-Bauwerke findest du mit Augen, die wie Enderaugen fliegen:", "- Auge der Flamme: Brennende Arena (Ignis, Nether)", "- Monströses Auge: Seelenschmiede (Netherit-Monstrosität, Nether)", "- Auge der Mechanik: Alte Fabrik (Harbinger, unterirdisch)", "- Auge des Fluchs: Frostgefängnis (Maledictus)", "- Auge der Wüste: Verfluchte Pyramide (Uralter Überrest, Wüste)", "- Auge des Abgrunds: Versunkene Stadt (Leviathan)", "- Auge der Leere: Zerstörte Zitadelle (Ender-Wächter, End)", "- Auge des Sturms: Akropolis (Scylla, warmer Ozean)"]
@@ -1159,7 +951,7 @@
 			y: -4.50d
 		}
 		{
-			dependencies: ["4B072B9FA56A961E"]
+			dependencies: ["07BE262D9D78209B"]
 			description: ["&6Was ist das?", "Der teuerste Kristall: aus Nether-Stern, zwei Redstone-Blöcken und einem Block aus Lodernden Kristallen.", "", "&6So gehts", "Lege alles in die Energiekugel und lade sie mit enorm viel Strom auf.", "", "&6Wofür ist das wichtig?", "Öffnet die höchste Stufe, Nitro."]
 			id: "45172ACBD7E50C7A"
 			title: "Nitro-Kristall"
@@ -1170,7 +962,7 @@
 		}
 		{
 			dependencies: ["45172ACBD7E50C7A"]
-			description: ["&6Was ist das?", "Die letzte Stufe des Furnators.", "", "&6So gehts", "Aufrüstung des Beseelten Furnators, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Das meiste an Strom, das Powah hergibt."]
+			description: ["&6Was ist das?", "Der Nitro-Furnator ist die letzte Stufe des Furnators.", "", "&6So gehts", "Werkbank: Beseelter Furnator in der Mitte unten, 2 Nitro-Kondensatoren, Dielektrisches Gehäuse und 5 Nitro-Kristalle (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Starke Energie."]
 			id: "79A2A9609ED1834A"
 			title: "Nitro-Furnator"
 			rewards: [{ id: "3482C884503AF595", type: "xp_levels", xp_levels: 3 }]

@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["01FA39B55E675D70"]
-			description: ["&6Was ist das?", "Create baut Maschinen mit Drehkraft statt Strom.", "Halte im JEI-Menü W über einem Item, dann siehst du eine kurze Animation (Ponder), wie es funktioniert.", "Dieses Kapitel führt dich Schritt für Schritt durch die Zeitalter von Create.", "", "&6So gehts", "Halte W über einem Create-Item, um eine Animation (Ponder) zu sehen, die genau zeigt, wie es geht.", "Folge den Quests der Reihe nach: Kraft erzeugen, weiterleiten, benutzen.", "", "&6Wofür ist das wichtig?", "Mit Create automatisierst du Erzverarbeitung, Farmen, Kochen und baust sogar Züge."]
+			description: ["&6Was ist das?", "Create baut Maschinen mit Drehkraft statt Strom. Alles besteht aus drei Dingen: einer Kraftquelle, Wellen und Zahnrädern, die die Kraft weitergeben, und einer Maschine, die sie benutzt.", "", "&6So gehts", "Halte im Inventar oder in JEI die Taste W über einem Create-Item: Dann spielt Ponder eine kurze Animation ab, die genau zeigt, wie es gebaut wird.", "Arbeite die Quests von links nach rechts ab. Bau jedes Teil sofort in deiner Welt auf, dann verstehst du es.", "Alles dreht sich nur, wenn eine Kraftquelle läuft. Wenn nichts läuft: zuerst die Quelle prüfen, dann die Welle.", "", "&6Wofür ist das wichtig?", "Mit Create automatisierst du Erzverarbeitung, Farmen und Essen und baust sogar Züge.", "", "&6Gut zu wissen", "Mit dem Schlüssel (Quest „Schlüssel“) kannst du Blöcke drehen und abbauen, ohne sie zu zerstören.", "Mit der Brille (Quest „Brille“) siehst du, wie viel Kraft die Anlage erzeugt und verbraucht."]
 			id: "674AB1A536761250"
 			title: "Was ist Create?"
 			rewards: [{ id: "3136A5AA9B94E223", type: "xp_levels", xp_levels: 1 }]
@@ -20,7 +20,7 @@
 		}
 		{
 			dependencies: ["674AB1A536761250"]
-			description: ["&6Was ist das?", "Das ist der erste Werkstoff.", "Stelle eine Andesit-Legierung her (Andesit und Eisenstücke).", "", "&6So gehts", "Andesit und Eisennugget (oder Zinknugget) in der Werkbank.", "Später schneller im Mixer.", "", "&6Wofür ist das wichtig?", "Fast jedes Create-Teil am Anfang braucht Andesit-Legierung. Sammle viel Andesit."]
+			description: ["&6Was ist das?", "Andesit-Legierung ist der erste Werkstoff von Create. Fast jedes Bauteil braucht sie.", "", "&6So gehts", "Öffne eine Werkbank. Lege 2 Andesit und 2 Eisennuggets über Kreuz: Andesit oben links und unten rechts, Eisennugget oben rechts und unten links.", "Du bekommst 1 Legierung. Statt Eisennuggets gehen auch Zinknuggets.", "Eisennuggets bekommst du, wenn du einen Eisenbarren in der Werkbank in 9 Nuggets zerlegst. Andesit findest du in Höhlen oder stellst ihn aus Diorit und Bruchstein her.", "", "&6Wofür ist das wichtig?", "Ohne Andesit-Legierung gibt es keine Wellen, Zahnräder oder Gehäuse.", "", "&6Gut zu wissen", "Später geht es automatisch im Mixer. Für den Anfang reicht die Werkbank."]
 			id: "42732661CDA6F864"
 			title: "Andesit-Legierung"
 			rewards: [{ id: "264472CF9321B1B1", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
@@ -30,7 +30,7 @@
 		}
 		{
 			dependencies: ["42732661CDA6F864"]
-			description: ["&6Was ist das?", "Wellen und Zahnräder übertragen die Drehung.", "Baue eine Welle, dann ein Zahnrad, und stecke es daran.", "", "&6So gehts", "Welle: Andesit-Legierung. Zahnrad: Welle und Holz.", "Zahnräder greifen ineinander, Wellen verbinden gerade.", "", "&6Wofür ist das wichtig?", "Damit bringst du Kraft von der Quelle zu jeder Maschine.", "", "&6Gut zu wissen", "Mit dem Schlüssel baust du Create-Blöcke ab oder drehst sie, ohne sie zu zerstören. Große und kleine Zahnräder ändern die Geschwindigkeit."]
+			description: ["&6Was ist das?", "Wellen und Zahnräder leiten die Drehkraft von der Quelle zur Maschine.", "", "&6So gehts", "Welle: 2 Andesit-Legierungen untereinander in die Werkbank, das ergibt mehrere Wellen auf einmal.", "Zahnrad: 1 Welle und 1 beliebiges Brett zusammen in die Werkbank.", "Setze eine Welle an die Kraftquelle. Die Welle verbindet sich mit allem, was sie berührt und mitdrehen kann.", "Zwei Zahnräder, die sich seitlich berühren, drehen sich gegenläufig. Sie müssen aneinander stoßen, ohne eine Lücke.", "", "&6Wofür ist das wichtig?", "So bringst du Kraft von der Quelle zu jeder Maschine.", "", "&6Gut zu wissen", "Wellen kannst du nur in gerader Linie verlegen. Für Kurven brauchst du Zahnräder oder Getriebe.", "Mit dem Schlüssel drehst du eine Welle in eine andere Richtung."]
 			id: "6DF28229B667A2EE"
 			title: "Welle und Zahnrad"
 			rewards: [{ id: "17D9E7587F3E6A2C", type: "xp_levels", xp_levels: 2 }]
@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["6DF28229B667A2EE"]
-			description: ["&6Was ist das?", "Mit der Handkurbel erzeugst du erste Kraft selbst.", "Rechtsklick halten dreht die Welle.", "", "&6So gehts", "Aufstellen und Rechtsklick halten.", "", "&6Wofür ist das wichtig?", "Perfekt zum Testen. Für Dauerbetrieb brauchst du Wasserrad oder Windmühle.", "", "&6Gut zu wissen", "Halte Rechtsklick, um zu kurbeln. Mit Shift drehst du in die Gegenrichtung. Die Handkurbel ist die erste Kraftquelle, bevor du Wasser- oder Windkraft hast."]
+			description: ["&6Was ist das?", "Die Handkurbel ist die erste Kraftquelle, die du ohne Wasser oder Wind bekommst.", "", "&6So gehts", "Rezept: 3 Bretter in eine Reihe oben, 1 Andesit-Legierung unten rechts (Werkbank).", "Stelle die Kurbel an eine Welle und halte Rechtsklick gedrückt. Solange du hältst, dreht sich die Welle.", "Zum Testen: Setze daneben die Mühle oder die Presse und kurbele.", "", "&6Wofür ist das wichtig?", "Perfekt zum Ausprobieren. Für Dauerbetrieb brauchst du später Wasserrad oder Windmühle."]
 			id: "489ADC0B60AB13A5"
 			title: "Handkurbel"
 			rewards: [{ id: "17E0CDE492A1F49B", type: "xp_levels", xp_levels: 1 }]
@@ -50,7 +50,7 @@
 		}
 		{
 			dependencies: ["489ADC0B60AB13A5"]
-			description: ["&6Was ist das?", "Das Wasserrad macht Kraft aus fließendem Wasser.", "Platziere es neben Wasser, das fließt, und verbinde es mit Wellen.", "", "&6So gehts", "Wasserrad auf eine Welle setzen und Wasser darüber fließen lassen.", "", "&6Wofür ist das wichtig?", "Erste dauerhafte Kraftquelle. Mehrere Räder hintereinander ergeben mehr Kraft."]
+			description: ["&6Was ist das?", "Das Wasserrad macht aus fließendem Wasser Dauerkraft.", "", "&6So gehts", "Rezept: 8 Bretter rund um 1 Welle in der Mitte (Werkbank).", "Stelle das Rad direkt neben einen Bach oder baue selbst einen Wasserlauf: Kippe einen Eimer Wasser oben, damit das Wasser über oder an das Rad fließt.", "Das Wasser muss fließen. Stehendes Wasser dreht nichts.", "Setze eine Welle ans Rad und führe sie zu deinen Maschinen.", "", "&6Wofür ist das wichtig?", "Die erste Kraftquelle, die von allein weiterläuft. Mehrere Räder geben mehr Kraft.", "", "&6Gut zu wissen", "Wenn sich das Rad nicht dreht, prüfe, ob das Wasser auf der richtigen Seite vorbeiläuft. Mit der Brille siehst du die Leistung."]
 			id: "039A708DA9C8F9F7"
 			title: "Wasserrad"
 			rewards: [{ id: "282F450CB79B7BF2", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
@@ -60,7 +60,7 @@
 		}
 		{
 			dependencies: ["039A708DA9C8F9F7"]
-			description: ["&6Was ist das?", "Das Windmühlenlager macht Kraft aus Wind.", "Baue Segel an das Lager. Mehr Segel, mehr Kraft.", "", "&6So gehts", "Windmühlenlager aufstellen, Segel daran mit Superkleber verbinden.", "Rechtsklick auf das Lager startet sie.", "", "&6Wofür ist das wichtig?", "Mehr Segel ergeben mehr Kraft. Reicht für eine ganze Fabrik."]
+			description: ["&6Was ist das?", "Die Windmühle erzeugt Kraft aus Wind. Sie braucht ein Lager und Segel.", "", "&6So gehts", "Windmühlenlager: Holzstufe oben, ein Stein in der Mitte und eine Welle unten (Werkbank).", "Segel: Wolle und Stock, dazu Stock und Andesit-Legierung (Werkbank, ergibt 2 Segel).", "Stelle das Lager an die Wand. Baue vor der Vorderseite des Lagers eine Fläche aus mindestens 8 Segeln, sie haften aneinander.", "Rechtsklick mit leerer Hand auf das Lager: Die Windmühle startet. Mehr Segel geben mehr Kraft.", "", "&6Wofür ist das wichtig?", "Dauerhafte Kraft ohne Wasser. Reicht für eine ganze Fabrik, wenn du genug Segel baust.", "", "&6Gut zu wissen", "Hindernisse vor den Segeln stören nicht, aber die Fläche darf nicht an Blöcken streifen."]
 			id: "68B64382EC0CCC2C"
 			title: "Windmühle"
 			rewards: [{ id: "7CB61A4DD33079A0", type: "xp_levels", xp_levels: 2 }]
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["68B64382EC0CCC2C"]
-			description: ["&6Was ist das?", "Große Zahnräder übersetzen Drehzahl in Kraft und umgekehrt.", "", "&6So gehts", "Großes und kleines Zahnrad diagonal verbinden.", "", "&6Wofür ist das wichtig?", "Klein auf Groß halbiert, Groß auf Klein verdoppelt die Drehzahl."]
+			description: ["&6Was ist das?", "Große Zahnräder übersetzen die Drehzahl und geben mehr Kraft pro Drehung.", "", "&6So gehts", "Rezept: 1 Welle und 2 Bretter (oder 1 Zahnrad und 1 Brett) in der Werkbank.", "Setze ein kleines Zahnrad so neben ein großes, dass sie sich diagonal an den Rändern berühren.", "Klein treibt Groß: Die Drehzahl halbiert sich, die Kraft verdoppelt sich. Groß treibt Klein: umgekehrt.", "", "&6Wofür ist das wichtig?", "Damit stellst du Geschwindigkeit und Kraft für jede Maschine passend ein."]
 			id: "3BCEB9B8C58D7608"
 			title: "Großes Zahnrad"
 			rewards: [{ id: "64D729A88AAFC5F3", type: "item", item: { id: "minecraft:oak_planks", count: 8 } }]
@@ -80,7 +80,7 @@
 		}
 		{
 			dependencies: ["3BCEB9B8C58D7608"]
-			description: ["&6Was ist das?", "Das Getriebe leitet Drehkraft in alle Richtungen.", "", "&6So gehts", "Zwischen Wellen setzen.", "", "&6Wofür ist das wichtig?", "Kompakte Leitungen in alle Richtungen."]
+			description: ["&6Was ist das?", "Das Getriebe leitet Drehkraft in mehrere Richtungen gleichzeitig weiter.", "", "&6So gehts", "Rezept in JEI nachschlagen (Andesit-Gehäuse mit Zahnrädern, Taste R auf dem Item).", "Setze es zwischen Wellen. Aus jeder Seite, an die du eine Welle setzt, kommt Kraft heraus.", "Eine Seite ist der Eingang, die anderen beliebig viele Ausgänge.", "", "&6Wofür ist das wichtig?", "Kompakte Kraftverteilung: eine Quelle versorgt viele Maschinen."]
 			id: "36305C6C501DC44F"
 			title: "Getriebe"
 			rewards: [{ id: "2B5653D3B0CEE566", type: "xp_levels", xp_levels: 2 }]
@@ -89,8 +89,8 @@
 			y: 12.00d
 		}
 		{
-			dependencies: ["36305C6C501DC44F"]
-			description: ["&6Was ist das?", "Die Kupplung schaltet Kraft ein und aus (mit Redstone).", "", "&6So gehts", "Zwischen Wellen setzen, Redstone-Signal trennt die Verbindung.", "", "&6Wofür ist das wichtig?", "Maschinen an- und ausschalten."]
+			dependencies: ["36305C6C501DC44F", "09FFCF7C8C464AAA"]
+			description: ["&6Was ist das?", "Die Kupplung schaltet Kraft mit einem Redstone-Signal ein und aus.", "", "&6So gehts", "Rezept: 1 Andesit-Gehäuse, 1 Welle und 1 Redstonestaub (Werkbank, formlos).", "Setze sie zwischen zwei Wellen.", "Ohne Signal läuft die Kraft durch. Mit Redstone-Signal (zum Beispiel Hebel) trennt sie.", "", "&6Wofür ist das wichtig?", "Maschinen gezielt an- und ausschalten."]
 			id: "1953C0BFA6CFB012"
 			title: "Kupplung"
 			rewards: [{ id: "7F95F5599D0955F6", type: "xp_levels", xp_levels: 2 }]
@@ -99,8 +99,8 @@
 			y: 12.00d
 		}
 		{
-			dependencies: ["1953C0BFA6CFB012"]
-			description: ["&6Was ist das?", "Die Gangschaltung dreht die Richtung um.", "", "&6So gehts", "In eine Welle einbauen, mit Hebel umschalten.", "", "&6Wofür ist das wichtig?", "Wichtig für Aufzüge und Maschinen, die vor und zurück sollen."]
+			dependencies: ["1953C0BFA6CFB012", "09FFCF7C8C464AAA"]
+			description: ["&6Was ist das?", "Die Gangschaltung dreht die Drehrichtung um, wenn Redstone-Signal anliegt.", "", "&6So gehts", "Rezept: 1 Andesit-Gehäuse, 1 Zahnrad und 1 Redstonestaub (Werkbank, formlos).", "Baue sie zwischen zwei Wellen ein und lege einen Hebel daneben.", "Hebel an: Die Welle dahinter dreht die Gegenrichtung.", "", "&6Wofür ist das wichtig?", "Wichtig für Aufzüge und Maschinen, die vor und zurück sollen."]
 			id: "70BD1FCFABB3D919"
 			title: "Gangschaltung"
 			rewards: [{ id: "736EB073C8433437", type: "xp_levels", xp_levels: 2 }]
@@ -109,8 +109,8 @@
 			y: 12.00d
 		}
 		{
-			dependencies: ["42732661CDA6F864"]
-			description: ["&6Was ist das?", "Mit der Brille siehst du Kraftwerte. Der Schlüssel dreht und baut Maschinen um.", "", "&6So gehts", "Brille aufsetzen und Maschinen ansehen.", "", "&6Wofür ist das wichtig?", "So erkennst du, ob deine Kraft reicht. Rot bedeutet Überlastung."]
+			dependencies: ["38AF595D86D9B7CE"]
+			description: ["&6Was ist das?", "Mit der Brille siehst du, wie viel Kraft deine Anlage hat und braucht.", "", "&6So gehts", "Rezept: 1 Faden oben in der Mitte, unten Glas, Goldblech, Glas (Werkbank). Goldblech presst du aus einem Goldbarren in der Presse.", "Setze die Brille auf (Helm-Platz) und sieh eine Maschine an.", "Rot bedeutet: überlastet, die Kraft reicht nicht.", "", "&6Wofür ist das wichtig?", "So erkennst du Fehler sofort, statt zu raten.", "", "&6Gut zu wissen", "Das Goldblech presst du in der Mechanischen Presse. Baue deshalb erst die Presse und dann die Brille."]
 			id: "18BE1CC2A35E0604"
 			title: "Brille und Schlüssel"
 			rewards: [{ id: "3F22F1ADC00B57B8", type: "xp_levels", xp_levels: 3 }]
@@ -120,7 +120,7 @@
 		}
 		{
 			dependencies: ["18BE1CC2A35E0604"]
-			description: ["&6Was ist das?", "Der Schraubenschlüssel dreht Blöcke, baut sie ab und bewegt sie.", "", "&6So gehts", "Rechtsklick dreht Blöcke, Shift-Rechtsklick baut sie sofort ab.", "", "&6Wofür ist das wichtig?", "Umbauen ohne Spitzhacke."]
+			description: ["&6Was ist das?", "Der Schlüssel dreht, versetzt und baut Create-Blöcke ab, ohne sie zu zerstören.", "", "&6So gehts", "Rezept: 2 Goldbleche oben, links Goldblech und rechts Zahnrad in der Mitte, 1 Stock unten rechts (Werkbank).", "Rechtsklick dreht einen Block.", "Schleichen und Rechtsklick baut ihn ab und gibt dir das Item sofort zurück.", "", "&6Wofür ist das wichtig?", "Umbauen ohne Spitzhacke und ohne Verluste."]
 			id: "628F1B0AF1E9D261"
 			title: "Schlüssel (Wrench)"
 			rewards: [{ id: "79031085A495C97C", type: "xp_levels", xp_levels: 2 }]
@@ -129,8 +129,8 @@
 			y: 15.00d
 		}
 		{
-			dependencies: ["18BE1CC2A35E0604"]
-			description: ["&6Was ist das?", "Gehäuse umhüllen Wellen und Maschinen.", "", "&6So gehts", "Andesit-Legierung auf Holz anwenden (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Viele Create-Maschinen brauchen Gehäuse."]
+			dependencies: ["42732661CDA6F864"]
+			description: ["&6Was ist das?", "Gehäuse umhüllen Maschinen. Fast jede Create-Maschine braucht eines.", "", "&6So gehts", "Brich einen Holzstamm mit einer Axt: Du bekommst einen entrindeten Stamm.", "Halte eine Andesit-Legierung und mache Rechtsklick auf den entrindeten Stamm. Er wird zum Andesit-Gehäuse.", "Es ist kein Werkbank-Rezept, die Anwendung geschieht direkt in der Welt.", "", "&6Wofür ist das wichtig?", "Mühle, Presse, Kupplung, Depot und viele Maschinen brauchen es.", "", "&6Gut zu wissen", "Gleiches Prinzip: Kupferbarren auf Stamm gibt Kupfergehäuse, Messingbarren gibt Messinggehäuse."]
 			icon: { id: "create:andesite_casing" }
 			id: "09FFCF7C8C464AAA"
 			title: "Andesit-Gehäuse"
@@ -141,7 +141,7 @@
 		}
 		{
 			dependencies: ["09FFCF7C8C464AAA"]
-			description: ["&6Was ist das?", "Gehäuse für Flüssigkeiten.", "", "&6So gehts", "Kupferbarren auf Holz anwenden.", "", "&6Wofür ist das wichtig?", "Für Pumpen, Tanks und Abflüsse."]
+			description: ["&6Was ist das?", "Das Kupfergehäuse ist die Hülle für alles mit Flüssigkeit.", "", "&6So gehts", "Halte einen Kupferbarren und mache Rechtsklick auf einen entrindeten Stamm.", "Es ist kein Werkbank-Rezept.", "", "&6Wofür ist das wichtig?", "Für Ausguss, Abfluss, Pumpen und Tanks."]
 			icon: { id: "create:copper_casing" }
 			id: "05C9BB5F1F32E0B9"
 			title: "Kupfergehäuse"
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["039A708DA9C8F9F7"]
-			description: ["&6Was ist das?", "Das große Wasserrad liefert viel mehr Kraft.", "", "&6So gehts", "Rezept in JEI, mit Wasser antreiben.", "", "&6Wofür ist das wichtig?", "Reicht für eine ganze Fabrik."]
+			description: ["&6Was ist das?", "Das große Wasserrad liefert viel mehr Kraft als das kleine.", "", "&6So gehts", "Rezept: 8 Bretter rund um 1 Wasserrad in der Mitte (Werkbank).", "Stelle es auf ein breites Stück fließendes Wasser, wie bei der kleinen Version.", "", "&6Wofür ist das wichtig?", "Eine Fabrik ohne Brennstoff."]
 			icon: { id: "create:large_water_wheel" }
 			id: "24F010691B763632"
 			title: "Großes Wasserrad"
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["24F010691B763632"]
-			description: ["&6Was ist das?", "Tachometer und Belastungsmesser zeigen Drehzahl und Last.", "", "&6So gehts", "Rezept in JEI, in die Welle einbauen.", "", "&6Wofür ist das wichtig?", "So siehst du, ob deine Kraft reicht."]
+			description: ["&6Was ist das?", "Drehzahlmesser und Belastungsmesser zeigen dir Tempo und Last.", "", "&6So gehts", "Drehzahlmesser: 1 Kompass und 1 Andesit-Gehäuse (Werkbank).", "Belastungsmesser: stelle aus dem Drehzahlmesser in der Werkbank den anderen her.", "Setze sie an eine Welle. Die Anzeige zeigt, ob alles läuft.", "", "&6Wofür ist das wichtig?", "Du siehst, wenn die Anlage zu schwach ist, bevor etwas stehen bleibt."]
 			icon: { id: "create:stressometer" }
 			id: "7FA24E0EEF26FEFF"
 			title: "Messgeräte"
@@ -173,8 +173,8 @@
 			y: 13.50d
 		}
 		{
-			dependencies: ["489ADC0B60AB13A5"]
-			description: ["&6Was ist das?", "Die Mühle zermahlt Items ohne große Anlage.", "", "&6So gehts", "Kraft anschließen, Items oben hinein.", "", "&6Wofür ist das wichtig?", "Mehl für Teig und Brot, Farben aus Blumen."]
+			dependencies: ["489ADC0B60AB13A5", "09FFCF7C8C464AAA"]
+			description: ["&6Was ist das?", "Die Mühle zermahlt Items, zum Beispiel Getreide zu Mehl.", "", "&6So gehts", "Rezept: Zahnrad oben, Andesit-Gehäuse in der Mitte, Stein unten (Werkbank).", "Setze sie so, dass sie von einer Welle oder Kurbel Kraft bekommt.", "Wirf die Items oben hinein. Das Ergebnis wirft sie seitlich aus oder legt es unten ab.", "", "&6Wofür ist das wichtig?", "Mehl für Brot, Farben aus Blumen und Brocken aus Erz."]
 			id: "3E86AA6370B6B05D"
 			title: "Mühle (Millstone)"
 			rewards: [{ id: "2917D9E3CEC5D626", type: "item", item: { id: "minecraft:wheat", count: 8 } }]
@@ -183,8 +183,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["3E86AA6370B6B05D"]
-			description: ["&6Was ist das?", "Mit der Presse machst du Bleche aus Barren.", "Presse platzieren, Kraft anschließen, Barren darunter legen (Depot oder Förderband).", "", "&6So gehts", "Über ein Depot oder Förderband stellen und Kraft anschließen.", "", "&6Wofür ist das wichtig?", "Bleche brauchst du für viele Create-Rezepte. Zusammen mit dem Becken wird sie zum Kompaktierer.", "", "&6Gut zu wissen", "Die Presse arbeitet auf einem Depot oder Förderband unter ihr und presst zum Beispiel Barren zu Blechen."]
+			dependencies: ["3E86AA6370B6B05D", "09FFCF7C8C464AAA"]
+			description: ["&6Was ist das?", "Die Mechanische Presse presst Barren zu Blechen.", "", "&6So gehts", "Rezept: Welle oben, Andesit-Gehäuse in der Mitte, Eisenblock unten (Werkbank).", "Stelle sie in 2 Blöcken Höhe über ein Depot oder Förderband und schließe Kraft an die Welle an.", "Lege einen Barren auf das Depot. Die Presse drückt herunter und macht ein Blech daraus.", "", "&6Wofür ist das wichtig?", "Bleche brauchst du für viele Create-Rezepte: Eisen, Kupfer, Gold, Messing.", "", "&6Gut zu wissen", "Die Presse braucht zum Arbeiten das Depot darunter. Ohne Depot passiert nichts."]
 			id: "38AF595D86D9B7CE"
 			title: "Mechanische Presse"
 			rewards: [{ id: "6D385C55F984D2EC", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
@@ -193,8 +193,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["38AF595D86D9B7CE"]
-			description: ["&6Was ist das?", "Ein Ablageplatz für ein Item, auf dem Maschinen arbeiten.", "", "&6So gehts", "Unter Presse oder Deployer stellen und Item drauflegen.", "", "&6Wofür ist das wichtig?", "Der einfachste Arbeitsplatz für Pressen.", "", "&6Gut zu wissen", "Ein Depot ist eine Ablage für einen Gegenstand. Maschinen wie die Presse bearbeiten darauf liegende Items."]
+			dependencies: ["38AF595D86D9B7CE", "09FFCF7C8C464AAA"]
+			description: ["&6Was ist das?", "Das Depot ist eine kleine Ablage für Items und der einfachste Arbeitsplatz für Maschinen.", "", "&6So gehts", "Rezept: 1 Andesit-Legierung und 1 Andesit-Gehäuse (Werkbank, formlos).", "Stelle es unter die Presse oder einen Deployer.", "Lege ein Item mit Rechtsklick hinein, es bleibt liegen, bis die Maschine fertig ist.", "", "&6Wofür ist das wichtig?", "Ohne Depot arbeitet keine Presse."]
 			id: "511AB40D87A4293D"
 			title: "Depot"
 			rewards: [{ id: "47A89CE68BEB6A34", type: "xp_levels", xp_levels: 2 }]
@@ -203,8 +203,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["511AB40D87A4293D"]
-			description: ["&6Was ist das?", "Zwei Brechräder zerkleinern Erze zu Brocken mit Bonus.", "", "&6So gehts", "Zwei Räder nebeneinander, gegeneinander drehen lassen. Items oben hineinwerfen.", "", "&6Wofür ist das wichtig?", "Mehr Barren pro Erz und Extra-Drops wie Zink oder Gold."]
+			dependencies: ["0BEB27DE8EEBEB86"]
+			description: ["&6Was ist das?", "Zwei Brechräder zerkleinern Erz zu Brocken und holen mehr aus Erz heraus als ein Ofen.", "", "&6So gehts", "Du stellst sie im Mechanischen Crafter her (Rezept in JEI). Baue zuerst Messing und den Crafter, siehe Zweig „Messing und Technik“. Die Quest zählt erst dann.", "Setze zwei Räder nebeneinander, mit einem Block Lücke dazwischen.", "Gib beiden Kraft, sie müssen gegeneinander drehen: Das Rad links dreht sich anders herum als das Rad rechts (Schlüssel benutzen).", "Wirf Erz von oben in die Lücke.", "", "&6Wofür ist das wichtig?", "Mehr Barren pro Erz und Extra-Beute, zum Beispiel Zink.", "", "&6Gut zu wissen", "Das Brechrad steht hinter dem Mechanischen Crafter. Du kannst bis dahin Erz im Ofen schmelzen."]
 			id: "1B38A51428195D36"
 			title: "Brechrad"
 			rewards: [{ id: "5E8DCA7C1E1BFE8A", type: "xp_levels", xp_levels: 3 }]
@@ -213,8 +213,8 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["1B38A51428195D36"]
-			description: ["&6Was ist das?", "Mit Förderband und Schacht bewegst du Items.", "Das Band verbindest du mit zwei Rechtsklicks und einem Konnektor.", "", "&6So gehts", "Mit dem Band-Item zwei Wellen verbinden.", "", "&6Wofür ist das wichtig?", "Das Rückgrat jeder Fabrik."]
+			dependencies: ["511AB40D87A4293D"]
+			description: ["&6Was ist das?", "Das Förderband bringt Items von A nach B.", "", "&6So gehts", "Rezept: 6 getrocknete Seetang-Blätter in 2 Reihen zu 3 (Werkbank). Getrockneter Seetang entsteht im Ofen aus Seetang.", "Rechtsklick mit dem Band auf eine Welle, danach Rechtsklick auf eine zweite Welle in gerader Linie.", "Das Band läuft, wenn die Welle Kraft hat. Items auf dem Band wandern mit.", "", "&6Wofür ist das wichtig?", "Das Rückgrat jeder Fabrik.", "", "&6Gut zu wissen", "Beide Wellen müssen auf derselben Höhe liegen und das Band muss gerade sein, nicht um die Ecke."]
 			id: "4D19FA2F8D6EE1AE"
 			title: "Förderband"
 			rewards: [{ id: "35FED5194CD1AE5A", type: "xp_levels", xp_levels: 2 }]
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["4D19FA2F8D6EE1AE"]
-			description: ["&6Was ist das?", "Schächte und Trichter führen Items zwischen Behältern und Maschinen.", "", "&6So gehts", "Unter oder neben Kisten bauen.", "", "&6Wofür ist das wichtig?", "Items von Band zu Kiste und zurück."]
+			description: ["&6Was ist das?", "Der Schacht ist ein Rohr für Items. Er lässt sie fallen oder zieht sie hoch.", "", "&6So gehts", "Rezept: Eisenblech oben, Eisenbarren in der Mitte, Eisenblech unten (Werkbank, 4 Stück).", "Stelle ihn senkrecht unter eine Kiste oder Maschine: Die Items fallen heraus.", "Mit einem Gebläse unten können sie auch nach oben fliegen.", "", "&6Wofür ist das wichtig?", "Items von Band zu Kiste und zurück."]
 			id: "2F0645A576106C0B"
 			title: "Schacht und Trichter"
 			rewards: [{ id: "06CD7081676716CE", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
@@ -234,7 +234,7 @@
 		}
 		{
 			dependencies: ["2F0645A576106C0B"]
-			description: ["&6Was ist das?", "Das Gebläse bläst Items durch Feuer, Wasser oder Lava und behandelt sie so: backen, waschen, verkohlen.", "", "&6So gehts", "Mit Lava davor: Schmelzen. Mit Wasser: Waschen. Mit Feuer: Räuchern. Mit Seelenfeuer: Auflösen.", "", "&6Wofür ist das wichtig?", "Massenverarbeitung ohne Öfen. Erzbrocken waschen gibt Bonus-Nuggets.", "", "&6Gut zu wissen", "Das Gebläse erzeugt Luftstrom. Hinter Feuer räuchert es Dinge, hinter Lava schmilzt es, hinter Wasser wäscht es, und es treibt Gegenstände vor sich her."]
+			description: ["&6Was ist das?", "Das Gebläse bläst Luft durch Feuer, Wasser oder Lava und behandelt so Items.", "", "&6So gehts", "Rezept: Welle oben, Andesit-Gehäuse, Propeller unten (Werkbank). Propeller: 4 Eisenbleche um 1 Andesit-Legierung.", "Gib dem Gebläse Kraft und setze direkt vor die Luftseite die Quelle: Lava = Schmelzen, Wasser = Waschen, Lagerfeuer = Räuchern, Seelenfeuer = Verzaubern.", "Items auf dem Band oder Depot vor der Quelle werden behandelt.", "", "&6Wofür ist das wichtig?", "Massenverarbeitung ohne Ofen. Erzbrocken waschen gibt Nuggets extra.", "", "&6Gut zu wissen", "Drehrichtung entscheidet: Bläst es nach vorn oder zieht es an? Dreh die Welle, wenn nichts passiert."]
 			id: "494CAE31CD8BAFAC"
 			title: "Gebläse"
 			rewards: [{ id: "7DFC2423934B9950", type: "xp_levels", xp_levels: 4 }]
@@ -244,7 +244,7 @@
 		}
 		{
 			dependencies: ["38AF595D86D9B7CE"]
-			description: ["&6Was ist das?", "Bleche presst die Mechanische Presse.", "", "&6So gehts", "Barren auf ein Depot unter die Presse legen.", "", "&6Wofür ist das wichtig?", "Für Rohre, Tanks und viele Bauteile."]
+			description: ["&6Was ist das?", "Bleche sind flache Platten aus Metall, wichtige Zutaten.", "", "&6So gehts", "Lege einen Barren auf ein Depot unter die Presse.", "Gold gibt Goldblech, Eisen gibt Eisenblech, Kupfer gibt Kupferblech.", "", "&6Wofür ist das wichtig?", "Für Rohre, Tanks und Elektronik."]
 			icon: { id: "create:iron_sheet" }
 			id: "1F1DC1AE3C29928C"
 			title: "Bleche"
@@ -255,7 +255,7 @@
 		}
 		{
 			dependencies: ["1F1DC1AE3C29928C"]
-			description: ["&6Was ist das?", "Zink ist neben Kupfer das zweite Create-Metall.", "", "&6So gehts", "Zinkerz liegt tief unten. Schmelzen oder im Brechrad zerkleinern.", "", "&6Wofür ist das wichtig?", "Ohne Zink kein Messing."]
+			description: ["&6Was ist das?", "Zink ist das zweite Create-Metall.", "", "&6So gehts", "Zinkerz liegt in Höhlen. Schmelze Rohzink im Ofen oder zerkleinere es mit dem Brechrad.", "Zinknuggets gehen genauso wie Eisennuggets als Zutat für Andesit-Legierung.", "", "&6Wofür ist das wichtig?", "Ohne Zink kein Messing."]
 			icon: { id: "create:zinc_ingot" }
 			id: "2824D8867773C780"
 			title: "Zink"
@@ -266,7 +266,7 @@
 		}
 		{
 			dependencies: ["4D19FA2F8D6EE1AE"]
-			description: ["&6Was ist das?", "Create-Trichter und Tunnel steuern Items auf Bändern.", "", "&6So gehts", "An Bänder oder Kisten setzen.", "", "&6Wofür ist das wichtig?", "Sortieren und verteilen ohne Chaos."]
+			description: ["&6Was ist das?", "Trichter und Tunnel setzen Items auf Bänder oder holen sie herunter.", "", "&6So gehts", "Trichter: 1 Andesit-Legierung und 1 getrockneter Seetang (Werkbank, 2 Stück).", "Tunnel: 2 Legierungen und 2 Seetang (Werkbank, 2 Stück).", "Setze den Trichter an eine Kiste: Er zieht Items heraus oder steckt sie hinein.", "", "&6Wofür ist das wichtig?", "Ordnung auf dem Band, ohne Chaos."]
 			icon: { id: "create:andesite_funnel" }
 			id: "1E820F10CB9ED62F"
 			title: "Trichter und Tunnel"
@@ -277,7 +277,7 @@
 		}
 		{
 			dependencies: ["1E820F10CB9ED62F"]
-			description: ["&6Was ist das?", "Der Auswerfer wirft Items in hohem Bogen.", "", "&6So gehts", "Ziel mit dem Schlüssel einstellen.", "", "&6Wofür ist das wichtig?", "Items über weite Strecken bewegen."]
+			description: ["&6Was ist das?", "Der Auswerfer wirft Items in hohem Bogen weit weg.", "", "&6So gehts", "Rezept: Goldblech, Depot, Zahnrad (Werkbank, senkrecht).", "Stelle ihn mit Kraft hin und stelle mit dem Schlüssel das Ziel ein.", "Wirf ein Item hinein, es fliegt zum Ziel.", "", "&6Wofür ist das wichtig?", "Items über Lücken oder weite Strecken bewegen."]
 			icon: { id: "create:weighted_ejector" }
 			id: "5FDC16F1A90B3F9C"
 			title: "Auswerfer"
@@ -308,7 +308,7 @@
 		}
 		{
 			dependencies: ["78DB0123994E32EC"]
-			description: ["&6Was ist das?", "Das parallele Getriebe leitet Kraft nebeneinander durch.", "", "&6So gehts", "Zwischen Wellen bauen.", "", "&6Wofür ist das wichtig?", "Kompakte Kraftleitungen."]
+			description: ["&6Was ist das?", "Das Parallele Getriebe leitet Kraft nebeneinander.", "", "&6So gehts", "Rezept: Werkbank (formlos): Getriebe, Großes Zahnrad (Muster in JEI, Taste R).", "Rezept in JEI.", "Setze es zwischen Wellen.", "", "&6Wofür ist das wichtig?", "Kompakte Leitungen."]
 			id: "5220EFA567A5FE4D"
 			title: "Paralleles Getriebe"
 			rewards: [{ id: "492649EF3E2D222A", type: "xp_levels", xp_levels: 3 }]
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["5220EFA567A5FE4D"]
-			description: ["&6Was ist das?", "Der Kreuzverbinder verbindet Wellen im 90-Grad-Winkel.", "", "&6So gehts", "Zwischen Wellen bauen.", "", "&6Wofür ist das wichtig?", "Kraft in viele Richtungen."]
+			description: ["&6Was ist das?", "Der Kreuzverbinder leitet Drehkraft in vier Richtungen.", "", "&6So gehts", "Werkbank: 1 Getriebe in der Mitte, 4 Wellen rundherum (Kreuzform).", "", "&6Wofür ist das wichtig?", "Antriebe verzweigen."]
 			id: "50EA24843EE06E27"
 			title: "Kreuzverbinder"
 			rewards: [{ id: "085D2CA7A99C05C0", type: "xp_levels", xp_levels: 2 }]
@@ -328,7 +328,7 @@
 		}
 		{
 			dependencies: ["50EA24843EE06E27"]
-			description: ["&6Was ist das?", "Die Bremse stoppt Drehung ruckartig. Praktisch für Konstruktionen.", "", "&6So gehts", "Mit Redstone ansteuern.", "", "&6Wofür ist das wichtig?", "Maschinen sicher stoppen."]
+			description: ["&6Was ist das?", "Die Bremse hält deine Maschine an, wenn sie Redstone-Signal bekommt.", "", "&6So gehts", "Werkbank: 1 Andesit-Gehäuse, 1 Welle, 1 Redstone und 1 Obsidian (formlos).", "", "&6Wofür ist das wichtig?", "Sicheres Stoppen."]
 			id: "387000686E26987A"
 			title: "Bremse"
 			rewards: [{ id: "4403A5ECE11D2F8C", type: "xp_levels", xp_levels: 3 }]
@@ -338,7 +338,7 @@
 		}
 		{
 			dependencies: ["387000686E26987A"]
-			description: ["&6Was ist das?", "Die Zentrifugalkupplung rastet bei hoher Drehzahl ein.", "", "&6So gehts", "Drehzahl einstellen.", "", "&6Wofür ist das wichtig?", "Schutz vor Überlastung."]
+			description: ["&6Was ist das?", "Die Zentrifugalkupplung koppelt Antriebe nach Drehzahl.", "", "&6So gehts", "Werkbank: 1 Andesit-Gehäuse, 1 Welle, 1 Eisenblech, 1 Geschwindigkeitsmesser (formlos).", "", "&6Wofür ist das wichtig?", "Schaltet Antriebe automatisch."]
 			id: "7A0258B9B370103C"
 			title: "Zentrifugalkupplung"
 			rewards: [{ id: "19E31E41829AF7B2", type: "xp_levels", xp_levels: 3 }]
@@ -348,7 +348,7 @@
 		}
 		{
 			dependencies: ["7A0258B9B370103C"]
-			description: ["&6Was ist das?", "Die Batterie speichert Drehkraft für später.", "", "&6So gehts", "An Wellen anschließen.", "", "&6Wofür ist das wichtig?", "Kraft für später."]
+			description: ["&6Was ist das?", "Die Kinetische Batterie speichert Drehkraft.", "", "&6So gehts", "Rezept: Präzisionsmechanismus, Messinggehäuse, 2 Eisenbleche und Redstone (Muster in JEI, ergibt 8).", "", "&6Wofür ist das wichtig?", "Kraft für Spitzen."]
 			id: "47E5C1325D82DD1F"
 			title: "Kinetische Batterie"
 			rewards: [{ id: "4CD7A3468E8624CE", type: "xp_levels", xp_levels: 6 }]
@@ -358,7 +358,7 @@
 		}
 		{
 			dependencies: ["47E5C1325D82DD1F"]
-			description: ["&6Was ist das?", "Das Silo speichert riesige Mengen eines Items.", "", "&6So gehts", "Mehrere zusammenbauen.", "", "&6Wofür ist das wichtig?", "Massenlager für Fabriken."]
+			description: ["&6Was ist das?", "Das Item-Silo ist ein großer Item-Speicher.", "", "&6So gehts", "Rezept: Eisenblech, Holzfass, Eisenblech (Werkbank).", "Oder ein Item-Tresor in der Werkbank umwandeln.", "", "&6Wofür ist das wichtig?", "Massenlager."]
 			id: "73781B1E336A1E28"
 			title: "Item-Silo"
 			rewards: [{ id: "5F5302E6CEA10FA4", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
@@ -368,7 +368,7 @@
 		}
 		{
 			dependencies: ["73781B1E336A1E28"]
-			description: ["&6Was ist das?", "Das Gefäß ist ein großer Flüssigkeitsspeicher, wie ein Tank, aber flexibler.", "", "&6So gehts", "Mit Rohren verbinden.", "", "&6Wofür ist das wichtig?", "Kleine Tanks auf wenig Platz."]
+			description: ["&6Was ist das?", "Das Flüssigkeitsgefäß speichert Flüssigkeiten in einem Block.", "", "&6So gehts", "Werkbank: Fass in der Mitte, rechts und links je 1 Kupferblech.", "Alternativ: Flüssigkeitstank in die Werkbank legen.", "", "&6Wofür ist das wichtig?", "Mehr Lagerplatz."]
 			id: "10EB9F69CD73B4EE"
 			title: "Flüssigkeitsgefäß"
 			rewards: [{ id: "78CB928FE87EFE63", type: "xp_levels", xp_levels: 4 }]
@@ -378,7 +378,7 @@
 		}
 		{
 			dependencies: ["10EB9F69CD73B4EE"]
-			description: ["&6Was ist das?", "Der Kontrollchip ist ein Bauteil für fortgeschrittene Steuerungen.", "", "&6So gehts", "Rezept mit R in JEI, Funktion mit W (Ponder) ansehen.", "", "&6Wofür ist das wichtig?", "Für schlaue Züge und Maschinen."]
+			description: ["&6Was ist das?", "Der Kontrollchip ist ein Bauteil für Steuerungen.", "", "&6So gehts", "Er entsteht im Montageverfahren auf einem Goldblech: Deployer mit Elektronenröhre, Deployer mit Redstone, dann pressen. Dreimal wiederholen.", "Benutze dasselbe Band mit 3 Maschinen wie beim Präzisionsmechanismus.", "", "&6Wofür ist das wichtig?", "Für den Impulsgeber."]
 			id: "40A10B716E55574A"
 			title: "Kontrollchip"
 			rewards: [{ id: "0148B62FAA161F94", type: "xp_levels", xp_levels: 4 }]
@@ -388,7 +388,7 @@
 		}
 		{
 			dependencies: ["40A10B716E55574A"]
-			description: ["&6Was ist das?", "Sequenzierter Impulsgeber sendet Redstone-Signale nach einem Muster.", "", "&6So gehts", "Zeit einstellen.", "", "&6Wofür ist das wichtig?", "Regelmäßige Signale für Maschinen."]
+			description: ["&6Was ist das?", "Der Gesteuerte Impulsgeber sendet Redstone-Signale in einer Abfolge.", "", "&6So gehts", "Werkbank: 2 Elektronenröhren, 1 Steuerchip, 1 Messingblech, 1 Redstone-Fackel und 3 Stein (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Programmierbare Signale."]
 			id: "3B71BB718999F2D2"
 			title: "Gesteuerter Impulsgeber"
 			rewards: [{ id: "1A5A9E775EF22F0C", type: "xp_levels", xp_levels: 4 }]
@@ -418,7 +418,7 @@
 		}
 		{
 			dependencies: ["30C591B0CE9B0747"]
-			description: ["&6Was ist das?", "Laufstege aus Metall sind perfekt für Fabriken.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Industrielle Wege."]
+			description: ["&6Was ist das?", "Der Andesit-Laufsteg ist ein Gitterweg.", "", "&6So gehts", "Werkbank: 4 Andesit-Legierungs-Platten, 1 Andesit-Gitter (Muster in JEI). Ergibt 4.", "Oder Steinsäge: 1 Andesit-Legierung ergibt 4 Laufstege.", "", "&6Wofür ist das wichtig?", "Wege in der Fabrik."]
 			id: "4321B30F7711815A"
 			title: "Laufsteg"
 			rewards: [{ id: "784B770DF40E680D", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
@@ -438,7 +438,7 @@
 		}
 		{
 			dependencies: ["6C08619099471FC0"]
-			description: ["&6Was ist das?", "Industrial Grating aus Bits n Bobs ist ein Boden mit Flair.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Industrie-Deko."]
+			description: ["&6Was ist das?", "Das Industrielle Gitter ist ein Gitterblock für die Fabrik.", "", "&6So gehts", "Steinsäge: 1 Eisenbarren ergibt 3 Gitter.", "", "&6Wofür ist das wichtig?", "Deko und Böden."]
 			id: "729ADFE7EBA2FFFA"
 			title: "Industrielles Gitter"
 			rewards: [{ id: "104DEFE44565330A", type: "xp_levels", xp_levels: 2 }]
@@ -448,7 +448,7 @@
 		}
 		{
 			dependencies: ["729ADFE7EBA2FFFA"]
-			description: ["&6Was ist das?", "Bits n Bobs bringt Stühle in 16 Farben. Rechtsklick zum Sitzen.", "", "&6So gehts", "Rechtsklick zum Hinsetzen.", "", "&6Wofür ist das wichtig?", "Gemütliche Pausen."]
+			description: ["&6Was ist das?", "Der Stuhl ist ein Sitz.", "", "&6So gehts", "Werkbank (formlos): 1 rote Wolle und 1 Holztreppe.", "", "&6Wofür ist das wichtig?", "Sitzmöbel."]
 			id: "71D225112AF869BF"
 			title: "Stuhl"
 			rewards: [{ id: "50CC7070D69C3899", type: "xp_levels", xp_levels: 1 }]
@@ -458,7 +458,7 @@
 		}
 		{
 			dependencies: ["71D225112AF869BF"]
-			description: ["&6Was ist das?", "Headlamp und Glühbirne bringen Licht in die Halle.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Fabriken beleuchten."]
+			description: ["&6Was ist das?", "Der Scheinwerfer ist eine Lampe.", "", "&6So gehts", "Werkbank (formlos): 1 Glühbirne ergibt 2 Scheinwerfer.", "", "&6Wofür ist das wichtig?", "Licht für die Fabrik."]
 			id: "1AA98726989C9201"
 			title: "Scheinwerfer"
 			rewards: [{ id: "5C02733C119BDD37", type: "xp_levels", xp_levels: 2 }]
@@ -468,7 +468,7 @@
 		}
 		{
 			dependencies: ["1AA98726989C9201"]
-			description: ["&6Was ist das?", "Nixie-Röhren zeigen Zahlen und Text. Gut für Anzeigetafeln.", "", "&6So gehts", "Mit Namensschild oder Anzeige verbinden.", "", "&6Wofür ist das wichtig?", "Schöne Anzeigen."]
+			description: ["&6Was ist das?", "Nixie-Röhren zeigen Zahlen und Text. Gut für Anzeigetafeln.", "", "&6So gehts", "Rezept: Werkbank: 4x Polierter Rosenquarz, 2x Eisenblech (ergibt 4) (Muster in JEI, Taste R).", "Mit Namensschild oder Anzeige verbinden.", "", "&6Wofür ist das wichtig?", "Schöne Anzeigen."]
 			id: "4FA59058C0DB8C6B"
 			title: "Nixie-Röhre"
 			rewards: [{ id: "2C77772D63F6A8C8", type: "xp_levels", xp_levels: 2 }]
@@ -488,7 +488,7 @@
 		}
 		{
 			dependencies: ["215D7966642C7DC1"]
-			description: ["&6Was ist das?", "Metallträger für Brücken und Hallen.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Brücken und Hallen."]
+			description: ["&6Was ist das?", "Metallträger für Brücken und Hallen.", "", "&6So gehts", "Rezept: Werkbank: 3x Eisen-Platte, 3x Andesitlegierung (ergibt 8) (Muster in JEI, Taste R).", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Brücken und Hallen."]
 			id: "421C52CC2592DE90"
 			title: "Träger (Girder)"
 			rewards: [{ id: "72F837A7C8485392", type: "xp_levels", xp_levels: 2 }]
@@ -508,7 +508,7 @@
 		}
 		{
 			dependencies: ["2DEBEBA57A527CB8"]
-			description: ["&6Was ist das?", "Create-Fenster aus Holz und Metall.", "", "&6So gehts", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Industrie-Fenster."]
+			description: ["&6Was ist das?", "Create-Fenster sind schöne Fenster.", "", "&6So gehts", "Werkbank: 4 Eichenbretter, 1 Glas (Muster in JEI). Ergibt 2.", "", "&6Wofür ist das wichtig?", "Schöne Gebäude."]
 			id: "2CADF34E0D17A144"
 			title: "Fenster"
 			rewards: [{ id: "3E2A4429C1088E03", type: "xp_levels", xp_levels: 1 }]
@@ -528,7 +528,7 @@
 			y: -12.00d
 		}
 		{
-			dependencies: ["1B38A51428195D36"]
+			dependencies: ["511AB40D87A4293D"]
 			description: ["&6Was ist das?", "Hier siehst du die übrigen Mods, die zu Create gehören.", "", "&6So gehts", "Folge den Quests.", "", "&6Wofür ist das wichtig?", "Jede bringt neue Möglichkeiten."]
 			id: "64FC4332152AA427"
 			title: "Weitere Create-Mods"
@@ -549,7 +549,7 @@
 		}
 		{
 			dependencies: ["4C8B5C2BC37A1784"]
-			description: ["&6Was ist das?", "Der Slicer schneidet Items mit Messern automatisch, wie am Schneidebrett.", "Der Sprinkler gießt Felder mit Dünger.", "", "&6So gehts", "Der Slicer schneidet Zutaten automatisch, der Sprinkler gießt Felder.", "", "&6Wofür ist das wichtig?", "Automatische Kueche: Schneiden, Kochen, Verpacken."]
+			description: ["&6Was ist das?", "Der Slicer schneidet Items mit Messern automatisch, wie am Schneidebrett.", "Der Sprinkler gießt Felder mit Dünger.", "", "&6So gehts", "Der Slicer schneidet Zutaten automatisch, der Sprinkler gießt Felder.", "", "&6Wofür ist das wichtig?", "Automatische Küche: Schneiden, Kochen, Verpacken."]
 			id: "201CCA92972E779A"
 			title: "Slice and Dice"
 			rewards: [{ id: "7E31FAADD0325EF5", type: "xp_levels", xp_levels: 3 }]
@@ -559,7 +559,7 @@
 		}
 		{
 			dependencies: ["201CCA92972E779A"]
-			description: ["&6Was ist das?", "Der Sprinkler gießt Felder mit Dünger oder Wasser.", "", "&6So gehts", "Wasser per Rohr anschließen.", "", "&6Wofür ist das wichtig?", "Schnellere Ernte."]
+			description: ["&6Was ist das?", "Der Sprinkler bewässert Pflanzen.", "", "&6So gehts", "Werkbank: 4 Kupferbleche, 1 Eisenstangen, 1 Flüssigkeitsrohr (Muster in JEI). Ergibt 3.", "Schließe ihn an Rohre mit Wasser an.", "", "&6Wofür ist das wichtig?", "Automatische Bewässerung."]
 			id: "68D22676F7358C19"
 			title: "Sprinkler"
 			rewards: [{ id: "3E64621EA4329353", type: "xp_levels", xp_levels: 3 }]
@@ -641,7 +641,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["2552113832B9F44F"]
+			dependencies: ["2F0645A576106C0B"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "create_tools_n_weapons:gear_sword" }
 			id: "28EEF26F2B9816D5"
@@ -652,7 +652,7 @@
 			y: 9.00d
 		}
 		{
-			dependencies: ["2552113832B9F44F"]
+			dependencies: ["2F0645A576106C0B"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke aus Create-Zahnrädern.", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "create_tools_n_weapons:gear_pickaxe" }
 			id: "6952463C19F65C09"
@@ -663,7 +663,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["6952463C19F65C09"]
+			dependencies: ["2F0645A576106C0B"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "create:wand_of_symmetry" }
 			id: "54FB8CF24168952C"
@@ -674,7 +674,7 @@
 			y: 7.50d
 		}
 		{
-			dependencies: ["6952463C19F65C09"]
+			dependencies: ["2F0645A576106C0B"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "create:cardboard_chestplate" }
 			id: "549DF4434F7B80D0"
@@ -686,7 +686,7 @@
 		}
 		{
 			dependencies: ["79C5111ED6A1E634"]
-			description: ["&6Was ist das?", "Der Blazebrenner heizt Becken. Du brauchst eine Blaze im Käfig.", "", "&6So gehts", "Leeren Brenner auf einen Blaze im Nether klicken.", "Unter ein Becken stellen und mit Brennstoff füttern.", "", "&6Wofür ist das wichtig?", "Ohne Hitze kein Messing. Mit Blaze-Kuchen wird es superheiß."]
+			description: ["&6Was ist das?", "Der Blazebrenner heizt Becken und macht damit Messing möglich.", "", "&6So gehts", "Der leere Brenner: 4 Eisenbleche plus 1 Netherrack in der Mitte, kreuzförmig (Werkbank).", "Fange im Nether eine Blaze: Rechtsklick mit dem leeren Brenner auf die Blaze.", "Stelle den Brenner unter ein Becken und füttere ihn mit Kohle oder Holz. Mit Blaze-Kuchen wird er überheiß.", "", "&6Wofür ist das wichtig?", "Ohne Hitze kein Messing.", "", "&6Gut zu wissen", "Bring Feuerresistenz mit, wenn du im Nether auf Blazes gehst."]
 			id: "130F33E0BDF1373A"
 			title: "Blazebrenner"
 			rewards: [{ id: "02E4922F1217C502", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
@@ -696,7 +696,7 @@
 		}
 		{
 			dependencies: ["130F33E0BDF1373A"]
-			description: ["&6Was ist das?", "Der Mixer mischt Zutaten im Becken. Mit Hitze entsteht Messing.", "", "&6So gehts", "Mixer über das Becken stellen, Kraft anschließen.", "", "&6Wofür ist das wichtig?", "Messing, Teig, Andesit-Legierung und viele Flüssigkeiten."]
+			description: ["&6Was ist das?", "Das Becken hält Zutaten. Der Mixer darüber vermengt sie.", "", "&6So gehts", "Becken: 2 Legierungen oben, 3 unten (Werkbank, wie ein Trog).", "Mixer: Zahnrad, Andesit-Gehäuse, Schneebesen untereinander (Werkbank). Schneebesen: 5 Eisenbleche um 2 Legierungen.", "Mixer genau über das Becken stellen, Kraft anschließen. Unter das Becken kommt der Blazebrenner.", "Wirf die Zutaten ins Becken und lass den Mixer laufen.", "", "&6Wofür ist das wichtig?", "Messing, Teig, Schokolade und viele Flüssigkeiten.", "", "&6Gut zu wissen", "Ohne Brenner mischt der Mixer nur Dinge, die keine Hitze brauchen."]
 			id: "5EAAFA8DBD065E8F"
 			title: "Becken und Mixer"
 			rewards: [{ id: "73CE919C75D997E4", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -706,7 +706,7 @@
 		}
 		{
 			dependencies: ["5EAAFA8DBD065E8F"]
-			description: ["&6Was ist das?", "Messing machst du im Becken aus Kupfer und Zink mit Hitze.", "", "&6So gehts", "Kupfer und Zink im Becken mit beheiztem Mixer mischen.", "", "&6Wofür ist das wichtig?", "Für Mechanische Arme, Crafter und fortgeschrittene Teile."]
+			description: ["&6Was ist das?", "Messing ist der Werkstoff für fortgeschrittene Maschinen.", "", "&6So gehts", "Wirf 1 Kupferbarren und 1 Zinkbarren ins Becken, das auf einem Blazebrenner steht.", "Mixer darüber laufen lassen. Es ergibt 2 Messing.", "Hole den Barren mit einem Trichter oder von Hand heraus.", "", "&6Wofür ist das wichtig?", "Für Mechanischen Arm, Crafter, Gehäuse und Züge.", "", "&6Gut zu wissen", "Wenn das Becken nicht arbeitet: Brenner muss „erhitzt“ sein, Blaze-Kuchen wird „überhitzt“."]
 			id: "6A62DADBFA2996A0"
 			title: "Messing"
 			rewards: [{ id: "2A1AE6E861B683F4", type: "item", item: { id: "minecraft:gold_nugget", count: 8 } }]
@@ -716,7 +716,7 @@
 		}
 		{
 			dependencies: ["6A62DADBFA2996A0"]
-			description: ["&6Was ist das?", "Aus Messing presst du Messingbleche. Sie sind das Material der Fortgeschrittenen.", "", "&6So gehts", "Messingbarren unter die Presse.", "", "&6Wofür ist das wichtig?", "Für Elektronik-Teile und Maschinen."]
+			description: ["&6Was ist das?", "Messingblech wird aus einem Messingbarren gepresst.", "", "&6So gehts", "Messingbarren auf ein Depot unter die Presse legen.", "", "&6Wofür ist das wichtig?", "Die Grundlage für Elektronenröhren und fast alle späteren Bauteile."]
 			id: "3FCFC846B34538AC"
 			title: "Messingblech"
 			rewards: [{ id: "0E901BDF5241992D", type: "xp_levels", xp_levels: 3 }]
@@ -726,7 +726,7 @@
 		}
 		{
 			dependencies: ["5EAAFA8DBD065E8F"]
-			description: ["&6Was ist das?", "Create: Schokolade aus dem Mixer.", "", "&6So gehts", "Kakao, Milch und Zucker im beheizten Mixer, dann abfüllen.", "", "&6Wofür ist das wichtig?", "Lecker und schnell. Auch Honig und Tee gehen so."]
+			description: ["&6Was ist das?", "Schokolade stellt der Mixer aus Zutaten her.", "", "&6So gehts", "Wirf Zucker, Kakaobohnen und Milch ins beheizte Becken, Mixer an.", "Fülle sie mit dem Ausguss in Items, zum Beispiel Schokoriegel.", "", "&6Wofür ist das wichtig?", "Essen und Zutat für Create-Rezepte."]
 			icon: { id: "create:bar_of_chocolate" }
 			id: "5F39BE72760304BB"
 			title: "Schokolade"
@@ -737,7 +737,7 @@
 		}
 		{
 			dependencies: ["5F39BE72760304BB"]
-			description: ["&6Was ist das?", "Create: Tee, der Eile gibt.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Schneller abbauen und bauen."]
+			description: ["&6Was ist das?", "Bautee gibt dir Eile, wenn du ihn trinkst.", "", "&6So gehts", "Tee mischst du im beheizten Becken, danach füllst du mit dem Ausguss eine Glasflasche (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Schneller bauen und abbauen."]
 			icon: { id: "create:builders_tea" }
 			id: "2A352835559FE101"
 			title: "Bautee"
@@ -748,7 +748,7 @@
 		}
 		{
 			dependencies: ["6A62DADBFA2996A0"]
-			description: ["&6Was ist das?", "Messing-Trichter mit Filter.", "", "&6So gehts", "Filter mit Rechtsklick einstellen.", "", "&6Wofür ist das wichtig?", "Genaues Sortieren auf Bändern."]
+			description: ["&6Was ist das?", "Der Messing-Trichter sortiert nach Filter.", "", "&6So gehts", "Rezept: Elektronenröhre, Messingbarren, getrockneter Seetang (Werkbank).", "Stelle ihn an Kiste oder Band. Rechtsklick auf den Filterplatz mit einem Item stellt den Filter ein.", "", "&6Wofür ist das wichtig?", "Genaues Sortieren auf Bändern."]
 			icon: { id: "create:brass_funnel" }
 			id: "1DE2C1A489867156"
 			title: "Messing-Trichter"
@@ -759,7 +759,7 @@
 		}
 		{
 			dependencies: ["1DE2C1A489867156"]
-			description: ["&6Was ist das?", "Rohre mit Filter für Flüssigkeiten.", "", "&6So gehts", "In ein Rohrnetz einbauen.", "", "&6Wofür ist das wichtig?", "Nur bestimmte Flüssigkeiten durchlassen."]
+			description: ["&6Was ist das?", "Smarte Rohre lassen nur eine bestimmte Flüssigkeit durch.", "", "&6So gehts", "Rezept: Messingblech, Rohr, Elektronenröhre (Werkbank, senkrecht).", "Baue sie ins Rohrnetz ein und stelle den Filter mit Rechtsklick ein.", "", "&6Wofür ist das wichtig?", "Mischungen vermeiden."]
 			icon: { id: "create:smart_fluid_pipe" }
 			id: "7829549CCD454745"
 			title: "Smarte Rohre"
@@ -770,7 +770,7 @@
 		}
 		{
 			dependencies: ["7829549CCD454745"]
-			description: ["&6Was ist das?", "Stellt die Drehzahl genau ein.", "", "&6So gehts", "Unter ein großes Zahnrad bauen.", "", "&6Wofür ist das wichtig?", "Maschinen auf die perfekte Geschwindigkeit bringen."]
+			description: ["&6Was ist das?", "Der Drehzahlregler stellt die Drehzahl genau ein.", "", "&6So gehts", "Rezept: Präzisionsmechanismus oben, Messinggehäuse unten (Werkbank).", "Setze ihn auf ein großes Zahnrad, das auf der Leitung läuft. Rechtsklick auf die Fläche stellt die Zahl ein.", "", "&6Wofür ist das wichtig?", "Maschinen auf perfektes Tempo bringen."]
 			icon: { id: "create:rotation_speed_controller" }
 			id: "5E2258F10ED9FDE4"
 			title: "Drehzahlregler"
@@ -814,7 +814,7 @@
 		}
 		{
 			dependencies: ["3FCFC846B34538AC"]
-			description: ["&6Was ist das?", "Der Deployer nutzt Items wie ein Spieler: platzieren, verbauen, anwenden.", "", "&6So gehts", "Item in die Hand legen, Kraft anschließen.", "", "&6Wofür ist das wichtig?", "Wichtig für Montage-Rezepte, z.B. Präzisionsmechanismus."]
+			description: ["&6Was ist das?", "Der Deployer benutzt Items wie ein Spieler: setzen, anwenden, einbauen.", "", "&6So gehts", "Rezept: Elektronenröhre, Andesit-Gehäuse, Messinghand (Werkbank, senkrecht). Messinghand: 3 Messingbleche und 1 Legierung.", "Elektronenröhre: poliertes Rosenquarz oben und 1 Eisenblech unten (Werkbank).", "Setze ihn über ein Depot, gib ihm Kraft und Rechtsklick mit dem Item, das er halten soll.", "", "&6Wofür ist das wichtig?", "Pflicht für Montage-Rezepte, zum Beispiel den Präzisionsmechanismus.", "", "&6Gut zu wissen", "Polierter Rosenquarz: 1 Quarz und 8 Redstonestaub in der Werkbank ergeben Rosenquarz. Dann halte Schleifpapier (Rezept in JEI) und mache Rechtsklick gedrückt mit dem Rosenquarz in der Hand."]
 			id: "1E28AAEED1B4799C"
 			title: "Deployer"
 			rewards: [{ id: "7BD6B0FF3AF6C6F0", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
@@ -824,7 +824,7 @@
 		}
 		{
 			dependencies: ["1E28AAEED1B4799C"]
-			description: ["&6Was ist das?", "Das ist das wichtigste Bauteil der Spätphase.", "Auf ein Goldblech im Depot nacheinander Zahnräder und Eisenstücke per Deployer anwenden.", "", "&6So gehts", "Goldblech auf Band, dann abwechselnd Zahnräder und Nuggets per Deployer.", "JEI zeigt die Reihenfolge.", "", "&6Wofür ist das wichtig?", "Braucht man für Züge, Mechanische Crafter und viele Maschinen."]
+			description: ["&6Was ist das?", "Der Präzisionsmechanismus ist das wichtigste Bauteil der Spätphase.", "", "&6So gehts", "Du brauchst 3 Deployer, ein Förderband und Goldblech. Gib dem ersten Deployer ein Zahnrad, dem zweiten ein großes Zahnrad, dem dritten Eisennuggets.", "Setze die drei Deployer in einer Reihe über das Band, Goldblech aufs Band legen.", "Das Teil muss 5 mal durch alle drei Deployer laufen. Mache das Band zu einer Schleife oder lege es nach jedem Durchgang wieder an den Anfang.", "Am Ende hast du einen fertigen Präzisionsmechanismus.", "", "&6Wofür ist das wichtig?", "Für Züge, Crafter, Arm, Drehzahlregler und mehr.", "", "&6Gut zu wissen", "Das Rezept zeigt JEI als „Montage“ mit allen Schritten."]
 			id: "57ECEE26D1794CC7"
 			title: "Präzisionsmechanismus"
 			rewards: [{ id: "45931AE54350891C", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -834,7 +834,7 @@
 		}
 		{
 			dependencies: ["57ECEE26D1794CC7"]
-			description: ["&6Was ist das?", "Der Arm bewegt Items zwischen Maschinen, ganz automatisch.", "Stelle ihn mit Eingabe und Ausgabe ein.", "", "&6So gehts", "Arm in der Hand halten, Rechtsklick auf Quellen und Ziele, dann aufstellen.", "", "&6Wofür ist das wichtig?", "Ersetzt viele Trichter und Bänder."]
+			description: ["&6Was ist das?", "Der Mechanische Arm bewegt Items zwischen Maschinen von allein.", "", "&6So gehts", "Rezept: 2 Messingbleche, 1 Messingblech, 1 Messinggehäuse, 1 Präzisionsmechanismus und 1 Legierung (Muster in JEI).", "Halte den Arm in der Hand, Rechtsklick auf die Eingangs-Quelle, dann Rechtsklick auf das Ziel, danach stelle ihn hin.", "Gib ihm Kraft.", "", "&6Wofür ist das wichtig?", "Ersetzt viele Trichter und Bänder."]
 			id: "22114057A1106DB9"
 			title: "Mechanischer Arm"
 			rewards: [{ id: "3D85D110EC7136F6", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
@@ -844,7 +844,7 @@
 		}
 		{
 			dependencies: ["22114057A1106DB9"]
-			description: ["&6Was ist das?", "Mehrere Crafter verbunden stellen jedes Rezept automatisch her.", "", "&6So gehts", "Mehrere Crafter im Rechteck aufstellen und verbinden.", "", "&6Wofür ist das wichtig?", "Für große Rezepte und Massenproduktion."]
+			description: ["&6Was ist das?", "Mehrere Mechanische Crafter zusammengeschaltet stellen jedes Rezept automatisch her.", "", "&6So gehts", "Rezept: Elektronenröhre, Messinggehäuse, Werkbank (Werkbank, senkrecht, ergibt 3).", "Stelle die Crafter als Rechteck auf. Mit Schlüssel die Pfeile so drehen, dass sie zum Ausgang zeigen.", "Gib allen Kraft und lege Items in jeden Crafter, wie beim Craften.", "", "&6Wofür ist das wichtig?", "Auch für die Brechräder und die Wand der Symmetrie."]
 			id: "0BEB27DE8EEBEB86"
 			title: "Mechanischer Crafter"
 			rewards: [{ id: "045D1EEAE9686104", type: "xp_levels", xp_levels: 4 }]
@@ -854,7 +854,7 @@
 		}
 		{
 			dependencies: ["130F33E0BDF1373A"]
-			description: ["&6Was ist das?", "Der Bohrer baut Blöcke automatisch ab.", "", "&6So gehts", "Kraft anschließen, auf einem Kolben bewegen für Tunnel.", "", "&6Wofür ist das wichtig?", "Steingeneratoren und Tunnelbohrer."]
+			description: ["&6Was ist das?", "Der Bohrer baut Blöcke selbst ab.", "", "&6So gehts", "Rezept: Legierung oben, 2 Eisenbarren seitlich, Andesit-Gehäuse unten (Werkbank).", "Stelle ihn mit Kraft hin: Er baut vor sich alles ab.", "Auf einem Kolben oder Wagen wird er zum Tunnelbohrer.", "", "&6Wofür ist das wichtig?", "Steingeneratoren und Minen."]
 			id: "7DD5BB5616563C39"
 			title: "Bohrer"
 			rewards: [{ id: "7932050EE3F498F2", type: "item", item: { id: "minecraft:iron_ingot", count: 6 } }]
@@ -864,7 +864,7 @@
 		}
 		{
 			dependencies: ["7DD5BB5616563C39"]
-			description: ["&6Was ist das?", "Die Säge zerschneidet Stämme zu Brettern und fällt Bäume.", "", "&6So gehts", "Kraft anschließen. Auf einem Band verarbeitet sie Stapel.", "", "&6Wofür ist das wichtig?", "Holzfarm und viele Brettervarianten."]
+			description: ["&6Was ist das?", "Die Säge zerschneidet Holz und fällt Bäume.", "", "&6So gehts", "Rezept: Eisenblech, Eisenbarren, Eisenblech in einer Reihe, darüber 1 Eisenblech, darunter Andesit-Gehäuse (Werkbank).", "Gib ihr Kraft. Auf einem Band verarbeitet sie ganze Stapel zu Brettern.", "", "&6Wofür ist das wichtig?", "Holzfarmen."]
 			id: "0A88D145FA3D25C0"
 			title: "Säge"
 			rewards: [{ id: "7AE1E73BC97CCC5D", type: "xp_levels", xp_levels: 3 }]
@@ -874,7 +874,7 @@
 		}
 		{
 			dependencies: ["0A88D145FA3D25C0"]
-			description: ["&6Was ist das?", "Der Ernter schneidet reife Pflanzen. Er läuft auf Wagen oder Maschinen.", "", "&6So gehts", "An eine bewegte Konstruktion bauen.", "", "&6Wofür ist das wichtig?", "Automatische Felder."]
+			description: ["&6Was ist das?", "Der Ernter schneidet reife Pflanzen ab.", "", "&6So gehts", "Rezept: 2 Eisenbleche, 2 Legierungen, Gehäuse (Muster in JEI).", "Er läuft nur auf einem bewegten Aufbau, etwa auf einem Wagen oder an einem Lager.", "", "&6Wofür ist das wichtig?", "Automatische Felder."]
 			id: "088C7FF83A5E57EB"
 			title: "Ernter"
 			rewards: [{ id: "1802DC7A38463712", type: "item", item: { id: "minecraft:wheat_seeds", count: 16 } }]
@@ -884,7 +884,7 @@
 		}
 		{
 			dependencies: ["088C7FF83A5E57EB"]
-			description: ["&6Was ist das?", "Der Pflug bearbeitet Erde und pflanzt Samen.", "", "&6So gehts", "An einen Zug oder Kolben bauen.", "", "&6Wofür ist das wichtig?", "Große Felder automatisch."]
+			description: ["&6Was ist das?", "Der Pflug bearbeitet Erde und pflanzt Samen.", "", "&6So gehts", "Rezept: 3 Eisenbleche, 3 Legierungen, Gehäuse (Muster in JEI).", "Wie der Ernter nur auf einem bewegten Aufbau.", "", "&6Wofür ist das wichtig?", "Große Felder ohne Handarbeit."]
 			id: "54B9F3499505678A"
 			title: "Pflug"
 			rewards: [{ id: "5F3FF73AAF0DB7C8", type: "xp_levels", xp_levels: 3 }]
@@ -894,7 +894,7 @@
 		}
 		{
 			dependencies: ["54B9F3499505678A"]
-			description: ["&6Was ist das?", "Mechanisches Lager und Kolben bewegen ganze Konstruktionen. Mit Superkleber verbindest du Blöcke.", "", "&6So gehts", "Superkleber verbindet Blöcke, die zusammen bewegt werden.", "", "&6Wofür ist das wichtig?", "Tore, Aufzüge, Drehtüren, Farmen."]
+			description: ["&6Was ist das?", "Lager und Kolben bewegen ganze Konstruktionen. Superkleber hält sie zusammen.", "", "&6So gehts", "Mechanisches Lager: Holzstufe, Andesit-Gehäuse, Welle (Werkbank, senkrecht).", "Superkleber: Schleimball, Eisenblech, Eisennugget, Schleimball (Muster in JEI, Taste R).", "Setze das Lager hin, baue Blöcke davor, klebe sie mit Superkleber zusammen und mache Rechtsklick auf das Lager.", "", "&6Wofür ist das wichtig?", "Tore, Aufzüge, Drehtüren und Farmen."]
 			id: "715757D1A042B6F7"
 			title: "Lager, Kolben und Superkleber"
 			rewards: [{ id: "4F6264D7CD163F4E", type: "item", item: { id: "minecraft:slime_ball", count: 4 } }]
@@ -904,7 +904,7 @@
 		}
 		{
 			dependencies: ["715757D1A042B6F7"]
-			description: ["&6Was ist das?", "Die Seilwinde bewegt Konstruktionen nach oben und unten.", "", "&6So gehts", "Seilwinde aufstellen und Blöcke darunter kleben.", "", "&6Wofür ist das wichtig?", "Aufzüge und Abbau-Maschinen."]
+			description: ["&6Was ist das?", "Die Seilwinde fährt Blöcke an einem Seil auf und ab.", "", "&6So gehts", "Rezept: Andesit-Gehäuse, Wolle, Eisenblech (Werkbank, senkrecht).", "Setze sie hin, gib Kraft, klebe darunter eine Konstruktion an.", "", "&6Wofür ist das wichtig?", "Aufzüge und Abbaumaschinen."]
 			id: "22F71FBC8AE32558"
 			title: "Seilwinde"
 			rewards: [{ id: "1F088721BB23F804", type: "xp_levels", xp_levels: 3 }]
@@ -914,7 +914,7 @@
 		}
 		{
 			dependencies: ["22F71FBC8AE32558"]
-			description: ["&6Was ist das?", "Jede Maschine braucht Belastung (Stress). Quellen liefern Kapazität.", "", "&6So gehts", "Mit der Brille sehen, wie viel genutzt wird.", "", "&6Wofür ist das wichtig?", "Plane mehr Kraft, wenn die Fabrik wächst."]
+			description: ["&6Was ist das?", "Jede Maschine verbraucht Kraft. Quellen liefern Kraft.", "", "&6So gehts", "Setze die Brille auf und sieh die Maschine an: Sie zeigt Verbrauch und Angebot.", "Wenn der Verbrauch das Angebot übersteigt, bleibt alles stehen. Baue mehr Räder oder Quellen.", "Die Gesteuerte Gangschaltung (Rezept in JEI) schaltet Abschnitte der Reihe nach.", "", "&6Wofür ist das wichtig?", "Plane mehr Kraft ein, wenn die Fabrik wächst."]
 			id: "6A8DE92C8A36A700"
 			title: "Kraftverteilung"
 			rewards: [{ id: "1FA168E84241086E", type: "xp_levels", xp_levels: 4 }]
@@ -924,7 +924,7 @@
 		}
 		{
 			dependencies: ["7DD5BB5616563C39"]
-			description: ["&6Was ist das?", "Mit Flüssigkeitstank und Rohren speicherst und leitest du Wasser, Lava und mehr.", "", "&6So gehts", "Tank aufstellen, mit Rohren verbinden.", "", "&6Wofür ist das wichtig?", "Für Lava, Wasser, Honig und Schokolade."]
+			description: ["&6Was ist das?", "Der Tank speichert Flüssigkeit, Rohre leiten sie weiter.", "", "&6So gehts", "Tank: Kupferblech oben und unten, Holzfass in der Mitte (Werkbank).", "Rohre: Kupferblech, Kupferbarren, Kupferblech (Werkbank, 4 Stück).", "Die Rohre verbinden sich mit Tank, Pumpe und Ausguss.", "", "&6Wofür ist das wichtig?", "Wasser, Lava, Honig und Schokolade lagern."]
 			id: "2AD1E2F6CA4AD089"
 			title: "Tank und Rohre"
 			rewards: [{ id: "6DEC365617D11B75", type: "xp_levels", xp_levels: 3 }]
@@ -934,7 +934,7 @@
 		}
 		{
 			dependencies: ["2AD1E2F6CA4AD089"]
-			description: ["&6Was ist das?", "Die mechanische Pumpe schiebt Flüssigkeit durch Rohre.", "", "&6So gehts", "In ein Rohr einbauen und Kraft anschließen.", "", "&6Wofür ist das wichtig?", "Ohne Pumpe fließt nichts."]
+			description: ["&6Was ist das?", "Die Pumpe schiebt Flüssigkeit durch Rohre.", "", "&6So gehts", "Rezept: Zahnrad und Rohr (Werkbank, formlos).", "Setze sie ins Rohr und gib Kraft. Der Pfeil zeigt die Richtung. Mit dem Schlüssel umdrehen.", "", "&6Wofür ist das wichtig?", "Ohne Pumpe fließt nichts."]
 			id: "78241309321CF90C"
 			title: "Pumpe"
 			rewards: [{ id: "5588E12394985B88", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
@@ -944,7 +944,7 @@
 		}
 		{
 			dependencies: ["78241309321CF90C"]
-			description: ["&6Was ist das?", "Füllt Flüssigkeit in Items, z.B. Flaschen.", "", "&6So gehts", "Über ein Depot oder Band stellen.", "", "&6Wofür ist das wichtig?", "Für Honigflaschen und Montage-Rezepte."]
+			description: ["&6Was ist das?", "Der Ausguss füllt Flüssigkeit in Items, zum Beispiel Flaschen.", "", "&6So gehts", "Rezept: Kupfergehäuse und getrockneter Seetang (Werkbank).", "Setze ihn über ein Depot oder ein Band und verbinde ihn mit einem Rohr.", "", "&6Wofür ist das wichtig?", "Honigflaschen und Montage-Rezepte."]
 			id: "3E80326171591E1E"
 			title: "Ausguss"
 			rewards: [{ id: "3A896E9473497108", type: "xp_levels", xp_levels: 3 }]
@@ -954,7 +954,7 @@
 		}
 		{
 			dependencies: ["3E80326171591E1E"]
-			description: ["&6Was ist das?", "Der Abfluss leert Behälter und holt Flüssigkeit zurück.", "", "&6So gehts", "Items auf den Abfluss werfen.", "", "&6Wofür ist das wichtig?", "Eimer und Flaschen automatisch leeren."]
+			description: ["&6Was ist das?", "Der Abfluss leert Behälter und holt die Flüssigkeit zurück.", "", "&6So gehts", "Rezept: Eisengitter oben, Kupfergehäuse unten (Werkbank).", "Lege ein volles Item hinein, die Flüssigkeit fließt ins Rohr.", "", "&6Wofür ist das wichtig?", "Eimer und Flaschen automatisch leeren."]
 			id: "6B40BAAF41A4B5E7"
 			title: "Abfluss"
 			rewards: [{ id: "38B212068F050A7A", type: "xp_levels", xp_levels: 3 }]
@@ -964,7 +964,7 @@
 		}
 		{
 			dependencies: ["6B40BAAF41A4B5E7"]
-			description: ["&6Was ist das?", "Die Dampfmaschine macht aus Dampf (Becken mit Wasser und Hitze) viel Kraft.", "", "&6So gehts", "Tank mit Wasser, Blazebrenner darunter, Dampfmaschine am Tank.", "", "&6Wofür ist das wichtig?", "Viel Kraft auf wenig Platz."]
+			description: ["&6Was ist das?", "Die Dampfmaschine macht aus Dampf viel Kraft.", "", "&6So gehts", "Rezept: Goldblech, Legierung, Kupferblock untereinander (Werkbank).", "Stelle einen Tank mit Wasser über einen Blazebrenner, setze die Maschine seitlich an den Tank und verbinde sie mit einer Welle.", "", "&6Wofür ist das wichtig?", "Viel Kraft auf wenig Platz.", "", "&6Gut zu wissen", "Der Brenner braucht Brennstoff, sonst steht sie."]
 			id: "0CD8F0566857B855"
 			title: "Dampfmaschine"
 			rewards: [{ id: "2B3D10BE29347BD4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -974,7 +974,7 @@
 		}
 		{
 			dependencies: ["57ECEE26D1794CC7"]
-			description: ["&6Was ist das?", "Create-Schienen sind die Basis des Zugsystems.", "", "&6So gehts", "Rechtsklick für Kurven und Rampen.", "", "&6Wofür ist das wichtig?", "Grundlage für dein Zugnetz."]
+			description: ["&6Was ist das?", "Schienen sind die Basis des Zugsystems.", "", "&6So gehts", "Schienen entstehen im Montageverfahren (Rezept in JEI): zwei Nuggets per Deployer, dann pressen.", "Platziere Schienen mit Rechtsklick auf den Boden, Kurven und Rampen nach Hinweis im Spiel.", "", "&6Wofür ist das wichtig?", "Ohne Schienen kein Zug."]
 			id: "14C3FFBBFEC1223F"
 			title: "Schienen"
 			rewards: [{ id: "4AAA0DBD726A3CB6", type: "item", item: { id: "minecraft:iron_nugget", count: 16 } }]
@@ -984,7 +984,7 @@
 		}
 		{
 			dependencies: ["14C3FFBBFEC1223F"]
-			description: ["&6Was ist das?", "Der Bahnhof steuert Züge. Stelle ihn neben die Schienen.", "", "&6So gehts", "Auf die Schiene stellen, Zug bauen, dann Montieren.", "", "&6Wofür ist das wichtig?", "Ohne Bahnhof gibt es keinen Zug."]
+			description: ["&6Was ist das?", "Der Bahnhof steuert Züge.", "", "&6So gehts", "Rezept: Eisenbahn-Gehäuse und Kompass (Werkbank, ergibt 2). Eisenbahn-Gehäuse: Messinggehäuse mit Rechtsklick und Obsidianblech.", "Stelle den Bahnhof auf eine gerade Schiene (keine Kurve).", "Rechtsklick auf den Bahnhof, „Zug zusammenbauen“ wählen, die Wagen bauen, dann „Zug fertigstellen“.", "", "&6Wofür ist das wichtig?", "Ohne Bahnhof keine Züge.", "", "&6Gut zu wissen", "Der Montageteil ist maximal 128 Blöcke lang. Jede Wagen-Plattform hat höchstens 2 Drehgestelle."]
 			id: "5A3D0C32B070EA01"
 			title: "Bahnhof"
 			rewards: [{ id: "297988D3DBC2880C", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
@@ -994,7 +994,7 @@
 		}
 		{
 			dependencies: ["5A3D0C32B070EA01"]
-			description: ["&6Was ist das?", "Signale verhindern Zusammenstöße auf einem Netz.", "", "&6So gehts", "An Schienen setzen.", "", "&6Wofür ist das wichtig?", "Mehrere Züge auf einem Netz."]
+			description: ["&6Was ist das?", "Signale verhindern Zusammenstöße.", "", "&6So gehts", "Rezept: Eisenbahn-Gehäuse und Elektronenröhre (Werkbank).", "Rechtsklick auf die Schiene, dann Signal in 16 Blöcken daneben setzen.", "", "&6Wofür ist das wichtig?", "Mehrere Züge auf einem Netz."]
 			id: "4500AB02F447CCE9"
 			title: "Zugsignal"
 			rewards: [{ id: "6DE8ED9C60677ED5", type: "xp_levels", xp_levels: 4 }]
@@ -1004,7 +1004,7 @@
 		}
 		{
 			dependencies: ["4500AB02F447CCE9"]
-			description: ["&6Was ist das?", "Zugtüren sind schön und verriegeln deinen Zug.", "", "&6So gehts", "In die Zugwand einbauen.", "", "&6Wofür ist das wichtig?", "Schöner und sicherer."]
+			description: ["&6Was ist das?", "Die Zugtür ist eine Tür für Züge.", "", "&6So gehts", "Werkbank (formlos): 1 Holztür und 1 Schienen-Gehäuse.", "", "&6Wofür ist das wichtig?", "Zugwaggons."]
 			id: "2AD2B15A530ABCC6"
 			title: "Zugtür"
 			rewards: [{ id: "1B59333276C9D3E8", type: "xp_levels", xp_levels: 2 }]
@@ -1014,7 +1014,7 @@
 		}
 		{
 			dependencies: ["2AD2B15A530ABCC6"]
-			description: ["&6Was ist das?", "Mit Fahrplänen sagst du Zügen, wo sie hinfahren.", "", "&6So gehts", "Fahrplan schreiben und dem Zugführer geben.", "", "&6Wofür ist das wichtig?", "Automatische Transporte zwischen Basen."]
+			description: ["&6Was ist das?", "Mit Fahrplänen sagst du dem Zug, wohin er fährt.", "", "&6So gehts", "Rezept: Papier und Obsidianblech (Werkbank, 4 Stück).", "Rechtsklick mit dem Fahrplan öffnet die Liste. Füge Ziele (Bahnhofsnamen) hinzu, * als Platzhalter.", "Gib dem Zug den Fahrplan, indem du ihn in Zugsteuerung klickst.", "", "&6Wofür ist das wichtig?", "Automatische Transporte zwischen Basen."]
 			id: "15EEFE232CF048D6"
 			title: "Fahrplan"
 			rewards: [{ id: "005445D80EC41614", type: "xp_levels", xp_levels: 3 }]
@@ -1024,7 +1024,7 @@
 		}
 		{
 			dependencies: ["15EEFE232CF048D6"]
-			description: ["&6Was ist das?", "Sitze brauchst du für Zug und Konstruktionen.", "", "&6So gehts", "Auf den Zug setzen.", "", "&6Wofür ist das wichtig?", "Ein Zugführer braucht einen Sitz."]
+			description: ["&6Was ist das?", "Sitze brauchst du für Zug und Konstruktionen.", "", "&6So gehts", "Rezept: 1 rote Wolle und 1 Holzstufe (Werkbank, formlos).", "Rechtsklick auf den Sitz zum Hinsetzen.", "", "&6Wofür ist das wichtig?", "Ein Zug braucht Sitz und Steuerung."]
 			id: "320A411AF04785F0"
 			title: "Sitze"
 			rewards: [{ id: "40E24448D6A1A735", type: "xp_levels", xp_levels: 1 }]
@@ -1034,7 +1034,7 @@
 		}
 		{
 			dependencies: ["3FCFC846B34538AC"]
-			description: ["&6Was ist das?", "Mit Schematic und Schematic-Kanone baust du ganze Gebäude automatisch nach.", "", "&6So gehts", "Bauplan laden, Material bereitstellen.", "", "&6Wofür ist das wichtig?", "Große Projekte automatisch bauen."]
+			description: ["&6Was ist das?", "Die Montage-Kanone baut ganze Gebäude nach Bauplan.", "", "&6So gehts", "Rezept: Eisenblock, Stämme, Glatter Stein und Werfer (Muster in JEI).", "Bauplan: leeren Bauplan (Papier und hellblauer Farbstoff) mit Schematics erzeugen.", "Lade ihn in die Kanone, lege die Materialien in eine Kiste daneben.", "", "&6Wofür ist das wichtig?", "Große Projekte automatisch bauen."]
 			id: "7C844C1C206CBA84"
 			title: "Montage-Kanone"
 			rewards: [{ id: "29018FFB954DA8AB", type: "xp_levels", xp_levels: 6 }]
@@ -1044,7 +1044,7 @@
 		}
 		{
 			dependencies: ["7C844C1C206CBA84"]
-			description: ["&6Was ist das?", "Der Item-Tresor ist ein riesiger Behälter für Items.", "", "&6So gehts", "Aufstellen und befüllen.", "", "&6Wofür ist das wichtig?", "Für wertvolle Sachen."]
+			description: ["&6Was ist das?", "Der Tresor ist ein riesiger Behälter.", "", "&6So gehts", "Rezept: Eisenblech, Holzfass, Eisenblech (Werkbank, senkrecht).", "Baue Tresore aneinander, sie verschmelzen zu einem großen.", "", "&6Wofür ist das wichtig?", "Viel Lagerplatz."]
 			id: "39C930AE15A46055"
 			title: "Tresor"
 			rewards: [{ id: "16E161DFBF03331E", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
@@ -1054,7 +1054,7 @@
 		}
 		{
 			dependencies: ["39C930AE15A46055"]
-			description: ["&6Was ist das?", "Der Packer verpackt Items zu Paketen, die über Frogports verschickt werden.", "", "&6So gehts", "Neben eine Kiste stellen.", "", "&6Wofür ist das wichtig?", "Für Logistik und Lieferungen."]
+			description: ["&6Was ist das?", "Der Packer verpackt Items in Pakete.", "", "&6So gehts", "Werkbank: 4 Eisenbarren, 1 Pappblock, 2 Redstone (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Lager- und Logistik-Automatik."]
 			id: "2556C5D10B0777FE"
 			title: "Packer"
 			rewards: [{ id: "62C3984B83C3178A", type: "xp_levels", xp_levels: 4 }]
@@ -1064,7 +1064,7 @@
 		}
 		{
 			dependencies: ["2556C5D10B0777FE"]
-			description: ["&6Was ist das?", "Der Stock Ticker bestellt Items aus vernetzten Lagern. Das ist die Logistik von Create.", "", "&6So gehts", "Halte W über dem Item, dann zeigt dir Ponder eine Animation.", "", "&6Wofür ist das wichtig?", "Automatische Bestellungen über die ganze Basis."]
+			description: ["&6Was ist das?", "Der Bestellautomat holt Items aus vernetzten Lagern.", "", "&6So gehts", "Rezept: Glas, Vorratsverbindung, Goldbarren (Werkbank, senkrecht).", "Verbinde ihn mit Vorratsverbindungen an Tresoren.", "", "&6Wofür ist das wichtig?", "Zentrale Bestellung."]
 			id: "6C7CF65C76D8AED1"
 			title: "Lagerverwaltung"
 			rewards: [{ id: "78C17D4C2AA5FCF7", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -1074,7 +1074,7 @@
 		}
 		{
 			dependencies: ["6C7CF65C76D8AED1"]
-			description: ["&6Was ist das?", "Display Link und Display Board zeigen Werte und Texte an.", "", "&6So gehts", "Anzeigetafel aufstellen und mit Quelle verbinden.", "", "&6Wofür ist das wichtig?", "Füllstände und Zugzeiten anzeigen."]
+			description: ["&6Was ist das?", "Die Anzeigeverbindung bringt Werte auf Tafeln.", "", "&6So gehts", "Rezept: Sender und Messinggehäuse (Werkbank, senkrecht).", "Setze sie an die Quelle und die Tafel daneben.", "", "&6Wofür ist das wichtig?", "Füllstände und Zeiten anzeigen."]
 			id: "3675A3BAD48F1939"
 			title: "Anzeige"
 			rewards: [{ id: "7F78C301435C54D9", type: "xp_levels", xp_levels: 3 }]
@@ -1084,7 +1084,7 @@
 		}
 		{
 			dependencies: ["3675A3BAD48F1939"]
-			description: ["&6Was ist das?", "Redstone Link schickt Signale kabellos zwischen Blöcken.", "", "&6So gehts", "Zwei Verbindungen mit gleichen Items einstellen.", "", "&6Wofür ist das wichtig?", "Maschinen aus der Ferne steuern."]
+			description: ["&6Was ist das?", "Die Redstone-Verbindung sendet Signale kabellos.", "", "&6So gehts", "Rezept: Sender und Andesit-Gehäuse (Werkbank, ergibt 2).", "Lege in jede Verbindung 2 gleiche Items. Gleiche Items, gleicher Kanal.", "", "&6Wofür ist das wichtig?", "Maschinen aus der Ferne steuern."]
 			id: "10A70A96CF23B681"
 			title: "Redstone-Verbindung"
 			rewards: [{ id: "3AD202C7ACAE72D8", type: "xp_levels", xp_levels: 3 }]
@@ -1094,7 +1094,7 @@
 		}
 		{
 			dependencies: ["10A70A96CF23B681"]
-			description: ["&6Was ist das?", "Eine hübsche Uhr, die zur vollen Stunde einen Vogel zeigt.", "", "&6So gehts", "Kraft anschließen.", "", "&6Wofür ist das wichtig?", "Schöne Deko und Zeitmesser."]
+			description: ["&6Was ist das?", "Die Kuckucksuhr ist eine Uhr.", "", "&6So gehts", "Werkbank: 1 Brett oben, 1 Andesit-Gehäuse in der Mitte, 1 Uhr unten (Senkrecht).", "", "&6Wofür ist das wichtig?", "Deko mit Funktion."]
 			id: "51B8EA34FF3BC40D"
 			title: "Kuckucksuhr"
 			rewards: [{ id: "69D5C18F3A4A195E", type: "xp_levels", xp_levels: 3 }]
@@ -1137,61 +1137,6 @@
 		}
 		{
 			dependencies: ["0A88D145FA3D25C0"]
-			description: ["&6Was ist das?", "ComputerCraft: Computer, die du in Lua programmierst.", "", "&6So gehts", "Rezept in JEI. Rechtsklick öffnet die Konsole, help zeigt Befehle.", "", "&6Wofür ist das wichtig?", "Automatisiere alles, was du dir ausdenken kannst."]
-			icon: { id: "computercraft:computer_normal" }
-			id: "620D9031497FC76D"
-			title: "Computer"
-			rewards: [{ id: "38D74D734D071D0E", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "39A4253396CA0CA0", type: "item", item: { id: "computercraft:computer_normal", count: 1 }, count: 1L }]
-			x: 24.00d
-			y: -7.50d
-		}
-		{
-			dependencies: ["620D9031497FC76D"]
-			description: ["&6Was ist das?", "Monitore zeigen Text und Bilder an.", "", "&6So gehts", "Mehrere nebeneinander ergeben einen großen Bildschirm.", "", "&6Wofür ist das wichtig?", "Anzeigen für Lager, Strom und Züge."]
-			icon: { id: "computercraft:monitor_normal" }
-			id: "05A8489AEF890E02"
-			title: "Monitor"
-			rewards: [{ id: "0F82174E1ED89645", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "37490ED5ACB9EE5A", type: "item", item: { id: "computercraft:monitor_normal", count: 1 }, count: 4L }]
-			x: 25.50d
-			y: -7.50d
-		}
-		{
-			dependencies: ["05A8489AEF890E02"]
-			description: ["&6Was ist das?", "Computer reden per Funk miteinander.", "", "&6So gehts", "An einen Computer setzen.", "", "&6Wofür ist das wichtig?", "Fernsteuerung über große Entfernungen."]
-			icon: { id: "computercraft:wireless_modem_normal" }
-			id: "4E709F8893E85B36"
-			title: "Funkmodem"
-			rewards: [{ id: "4AAEF102C3FEAB7C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "47C08D44EACCE8E6", type: "item", item: { id: "computercraft:wireless_modem_normal", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: -7.50d
-		}
-		{
-			dependencies: ["4E709F8893E85B36"]
-			description: ["&6Was ist das?", "Turtles sind kleine Roboter, die graben, bauen und farmen.", "", "&6So gehts", "Turtle mit Werkzeug ausrüsten und ein Programm starten, zum Beispiel excavate.", "", "&6Wofür ist das wichtig?", "Ein Roboter, der für dich Bergbau macht."]
-			icon: { id: "computercraft:turtle_normal" }
-			id: "3666F7BBB2FE71D4"
-			title: "Turtle"
-			rewards: [{ id: "08DB4BBA8E4C3D79", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "09931C0E649B0B92", type: "item", item: { id: "computercraft:turtle_normal", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: -7.50d
-		}
-		{
-			dependencies: ["3666F7BBB2FE71D4"]
-			description: ["&6Was ist das?", "Ein Computer für die Hosentasche.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Steuere deine Anlagen von unterwegs."]
-			icon: { id: "computercraft:pocket_computer_normal" }
-			id: "0B9834B66EEE622D"
-			title: "Taschencomputer"
-			rewards: [{ id: "4B0CF0827944D592", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "5178F9A0633A118B", type: "item", item: { id: "computercraft:pocket_computer_normal", count: 1 }, count: 1L }]
-			x: 30.00d
-			y: -7.50d
-		}
-		{
-			dependencies: ["0B9834B66EEE622D"]
 			description: ["&6Was ist das?", "Verbindet ComputerCraft mit Create-Redstone-Links.", "", "&6So gehts", "Neben einen Computer setzen, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Computer steuern Create-Maschinen kabellos."]
 			icon: { id: "ccredstonelinkbridge:redstone_link_bridge" }
 			id: "702277E7FD565925"
@@ -1213,7 +1158,7 @@
 		}
 		{
 			dependencies: ["549BFDFEBF019D58"]
-			description: ["&6Was ist das?", "Elektrum ist der Werkstoff für Kabel und Elektronik.", "", "&6So gehts", "Im Mixer herstellen.", "", "&6Wofür ist das wichtig?", "Für Teslaspule und Elektronik."]
+			description: ["&6Was ist das?", "Elektrum ist der Werkstoff für Strom-Teile.", "", "&6So gehts", "Weg 1: 1 Goldbarren und 1 Silberbarren im beheizten Becken mischen (Mixer und Blazebrenner), ergibt 2 Elektrum. Silber findest du in der Welt.", "Weg 2: Einen Goldbarren mit einem Blitz laden: Lege ihn auf ein Depot unter eine Teslaspule mit Strom.", "Aus Elektrum presst die Presse Elektrumbleche.", "", "&6Wofür ist das wichtig?", "Für Akku und Elektronik."]
 			id: "6875E8F30DFC6C4B"
 			title: "Elektrum"
 			rewards: [{ id: "0E24DC44EA1720D2", type: "xp_levels", xp_levels: 3 }]
@@ -1223,7 +1168,7 @@
 		}
 		{
 			dependencies: ["6875E8F30DFC6C4B"]
-			description: ["&6Was ist das?", "Kupferdraht bringt Strom in Kabeln.", "", "&6So gehts", "Kupferbleche im Walzwerk.", "", "&6Wofür ist das wichtig?", "Verbindet Strom-Maschinen."]
+			description: ["&6Was ist das?", "Kupferdraht leitet Strom.", "", "&6So gehts", "Presse einen Kupferbarren zu Kupferblech (Mechanische Presse).", "Lege das Blech ins Walzwerk (Quest Walzwerk): Es kommt Draht heraus.", "Aus Draht wickelst du Kupferspulen (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Die Spulen brauchst du für Motor, Alternator und Teslaspule."]
 			id: "089197E1061FB1C5"
 			title: "Kupferdraht"
 			rewards: [{ id: "5E698B2C9D1D3BC0", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
@@ -1233,7 +1178,7 @@
 		}
 		{
 			dependencies: ["089197E1061FB1C5"]
-			description: ["&6Was ist das?", "Der Elektromotor wandelt Strom in Drehkraft um.", "", "&6So gehts", "Motor aufstellen und Strom anschließen.", "", "&6Wofür ist das wichtig?", "Kraft ohne Wasser oder Wind."]
+			description: ["&6Was ist das?", "Der Elektromotor wandelt Strom in Drehkraft.", "", "&6So gehts", "Du stellst ihn im Mechanischen Crafter her (Muster in JEI): Andesit-Legierung, Messingbleche, Kupferspulen, Eisenstab und Kondensator.", "Setze ihn neben eine Welle und schließe Strom mit einem Kabel an.", "Die Drehzahl stellst du am Motor mit Rechtsklick auf die Fläche ein.", "", "&6Wofür ist das wichtig?", "Kraft ohne Wasser oder Wind, überall in deiner Basis."]
 			id: "30C712FDB84B48D0"
 			title: "Elektromotor"
 			rewards: [{ id: "1F23A39C7A132B60", type: "xp_levels", xp_levels: 4 }]
@@ -1243,7 +1188,7 @@
 		}
 		{
 			dependencies: ["30C712FDB84B48D0"]
-			description: ["&6Was ist das?", "Der Alternator wandelt Drehkraft in Strom um.", "", "&6So gehts", "Mit Welle antreiben.", "", "&6Wofür ist das wichtig?", "Strom aus deinen Wasserrädern."]
+			description: ["&6Was ist das?", "Der Alternator wandelt Drehkraft in Strom.", "", "&6So gehts", "Mechanischer Crafter (Muster in JEI): Legierung, Eisenbleche, Eisenstab, Kupferspulen.", "Setze ihn an eine Welle, die sich dreht. Ziehe ein Kabel zum Verbraucher.", "", "&6Wofür ist das wichtig?", "Strom aus deinen Wasserrädern."]
 			id: "010033F83D76F587"
 			title: "Alternator"
 			rewards: [{ id: "37C3985CE78727A8", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
@@ -1253,7 +1198,7 @@
 		}
 		{
 			dependencies: ["010033F83D76F587"]
-			description: ["&6Was ist das?", "Der Kondensator speichert Strom.", "", "&6So gehts", "Mit Verbindern anschließen.", "", "&6Wofür ist das wichtig?", "Speichert Strom für Spitzen."]
+			description: ["&6Was ist das?", "Der Kondensator speichert eine kleine Menge Strom.", "", "&6So gehts", "Rezept: Zinkblech, Kupferblech, Redstone-Fackel untereinander (Werkbank).", "", "&6Wofür ist das wichtig?", "Teil von Motor, Akku und Teslaspule."]
 			id: "5D32AD4573ACEC77"
 			title: "Kondensator"
 			rewards: [{ id: "4DA1802439EBA1F1", type: "xp_levels", xp_levels: 3 }]
@@ -1263,7 +1208,7 @@
 		}
 		{
 			dependencies: ["5D32AD4573ACEC77"]
-			description: ["&6Was ist das?", "Mit dem Verbinder spannst du Stromkabel von Block zu Block.", "", "&6So gehts", "Verbinder setzen und Kabel ziehen.", "", "&6Wofür ist das wichtig?", "Lange Stromleitungen."]
+			description: ["&6Was ist das?", "Der Verbinder spannt Stromkabel von Block zu Block.", "", "&6So gehts", "Rezept: Kupferstab, Andesit-Legierung und Schleimball formlos (Werkbank, 3 Stück).", "Setze einen Verbinder an Quelle und Verbraucher. Mit Rechtsklick und Draht verbindest du sie.", "", "&6Wofür ist das wichtig?", "Lange Stromleitungen."]
 			id: "06F91B15222AE358"
 			title: "Verbinder"
 			rewards: [{ id: "112B88902D49BE7C", type: "xp_levels", xp_levels: 3 }]
@@ -1273,7 +1218,7 @@
 		}
 		{
 			dependencies: ["06F91B15222AE358"]
-			description: ["&6Was ist das?", "Das Walzwerk presst Drähte aus Barren schneller.", "", "&6So gehts", "Kraft anschließen.", "", "&6Wofür ist das wichtig?", "Draht und Stangen für Strom-Rezepte."]
+			description: ["&6Was ist das?", "Das Walzwerk macht Draht, Stäbe und Bleche aus Barren.", "", "&6So gehts", "Rezept: Eisenbleche, Welle, Andesit-Legierungen und Gehäuse (Muster in JEI).", "Gib ihm Kraft, wirf einen Barren hinein.", "", "&6Wofür ist das wichtig?", "Draht und Stangen für Strom-Rezepte."]
 			id: "3E4801E7CF60E04B"
 			title: "Walzwerk"
 			rewards: [{ id: "3EBC0C6F2D820D61", type: "xp_levels", xp_levels: 4 }]
@@ -1283,7 +1228,7 @@
 		}
 		{
 			dependencies: ["3E4801E7CF60E04B"]
-			description: ["&6Was ist das?", "Der modulare Akku speichert noch mehr Strom.", "", "&6So gehts", "Mit Verbindern anschließen.", "", "&6Wofür ist das wichtig?", "Strom für die Nacht."]
+			description: ["&6Was ist das?", "Der Akku speichert viel Strom.", "", "&6So gehts", "Rezept: Kupferstab oben, Kondensator, Messinggehäuse, Kondensator in der Mitte, Elektrum-Draht unten (Muster in JEI).", "Verbinde ihn mit Kabeln.", "", "&6Wofür ist das wichtig?", "Strom für die Nacht."]
 			id: "2F586E6CF7425BCB"
 			title: "Akku"
 			rewards: [{ id: "53653A54C20E6AC9", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -1293,7 +1238,7 @@
 		}
 		{
 			dependencies: ["2F586E6CF7425BCB"]
-			description: ["&6Was ist das?", "Die Teslaspule schießt Blitze und ladet Items.", "", "&6So gehts", "Über ein Depot stellen.", "", "&6Wofür ist das wichtig?", "Lädt Werkzeuge und Batterien."]
+			description: ["&6Was ist das?", "Die Teslaspule schießt Blitze, lädt Items und Entitäten.", "", "&6So gehts", "Mechanischer Crafter (Muster in JEI), braucht Kupferspulen, Kondensatoren, Messinggehäuse und Elektronenröhre.", "Stelle sie über ein Depot. Mit Strom lädt sie Gegenstände oder Goldbarren.", "", "&6Wofür ist das wichtig?", "Elektrum und geladene Werkzeuge."]
 			id: "0A6A15B1F7ECA356"
 			title: "Teslaspule"
 			rewards: [{ id: "46C847178E9E341D", type: "xp_levels", xp_levels: 5 }]
@@ -1313,7 +1258,7 @@
 		}
 		{
 			dependencies: ["4B17F8A206B3E575"]
-			description: ["&6Was ist das?", "Aus Biomasse stellst du Brennstoff-Pellets für Blazebrenner her.", "", "&6So gehts", "Pflanzen in einen Mixer.", "", "&6Wofür ist das wichtig?", "Erneuerbarer Brennstoff für Blazebrenner."]
+			description: ["&6Was ist das?", "Biomasse ist Brennstoff für Blazebrenner.", "", "&6So gehts", "Biomasse stellst du nach Rezept in JEI (Taste R) her.", "Presse sie im Becken mit der Presse zu Biomasse-Pellets und gib sie dem Brenner.", "", "&6Wofür ist das wichtig?", "Erneuerbarer Brennstoff."]
 			id: "4224F2929FD382C0"
 			title: "Biomasse"
 			rewards: [{ id: "049A67F0F2EC0D0A", type: "xp_levels", xp_levels: 3 }]
@@ -1323,7 +1268,7 @@
 		}
 		{
 			dependencies: ["1DE2C1A489867156"]
-			description: ["&6Was ist das?", "Laufstege aus Messing sehen edler aus.", "", "&6So gehts", "Aufstellen.", "", "&6Wofür ist das wichtig?", "Industrieller Look."]
+			description: ["&6Was ist das?", "Der Messing-Laufsteg ist ein Gitterweg.", "", "&6So gehts", "Werkbank: 4 Messing-Platten, 1 Messing-Gitter (Muster in JEI). Ergibt 4.", "Oder Steinsäge: 1 Messingbarren ergibt 4 Laufstege.", "", "&6Wofür ist das wichtig?", "Wege in der Fabrik."]
 			id: "1D323DE4886BF66B"
 			title: "Messing-Laufsteg"
 			rewards: [{ id: "7FFB8ABE26C5A558", type: "xp_levels", xp_levels: 2 }]
@@ -1333,7 +1278,7 @@
 		}
 		{
 			dependencies: ["1D323DE4886BF66B"]
-			description: ["&6Was ist das?", "Das Create Jetpack gibt dir Flug mit Druckluft aus dem Tank auf dem Rücken.", "", "&6So gehts", "Mit dem Druckluft-Tank von Create füllen.", "", "&6Wofür ist das wichtig?", "Fliegen schon vor der Elytra."]
+			description: ["&6Was ist das?", "Der Create-Jetpack lässt dich fliegen.", "", "&6So gehts", "Mechanischer Crafter: Elytra, Kupfer-Rückentank, 2 Präzisionsmechanismen, Wellen, Schütten und Messing-Platten (Muster in JEI, Typ „Mechanical Crafting\").", "", "&6Wofür ist das wichtig?", "Fliegen mit Create."]
 			id: "5E3550244BA833DA"
 			title: "Create Jetpack"
 			rewards: [{ id: "3AC03185D1E7AB32", type: "item", item: { id: "minecraft:firework_rocket", count: 8 } }]
@@ -1364,7 +1309,7 @@
 			y: -1.50d
 		}
 		{
-			dependencies: ["6A5C3D81E42B8620"]
+			dependencies: ["22114057A1106DB9"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:steampunk_chestplate" }
 			id: "2E91729FFF7D076E"
@@ -1376,7 +1321,7 @@
 		}
 		{
 			dependencies: ["79C5111ED6A1E634"]
-			description: ["&6Was ist das?", "Create: New Age erweitert Create um echte Elektrizität. Kupferdraht ist die Grundlage aller Stromteile.", "", "&6So gehts", "Rezept in JEI nachschlagen und herstellen.", "", "&6Wofür ist das wichtig?", "Ohne Draht kein Generator und keine Verbindungen."]
+			description: ["&6Was ist das?", "Kupferdraht aus New Age ist die Basis der Strom-Teile dieser Mod.", "", "&6So gehts", "Schneide ein Kupferblech im Steinsäger zu 4 Draht.", "Kupferblech presst die Presse aus einem Kupferbarren.", "", "&6Wofür ist das wichtig?", "Ohne Draht keine Spule."]
 			icon: { id: "create_new_age:copper_wire" }
 			id: "72C6150EA283BB25"
 			title: "Kupferdraht (New Age)"
@@ -1387,7 +1332,7 @@
 		}
 		{
 			dependencies: ["72C6150EA283BB25"]
-			description: ["&6Was ist das?", "Die Generatorspule wandelt Drehkraft in Strom um.", "", "&6So gehts", "Rezept in JEI nachschlagen. Sie braucht Magnete und Draht.", "", "&6Wofür ist das wichtig?", "Sie ist das Herz jedes Generators."]
+			description: ["&6Was ist das?", "Die Generatorspule wandelt Drehkraft in Strom.", "", "&6So gehts", "Rezept: 8 Kupferbarren rund um 1 Andesit-Legierungsblock (Werkbank).", "", "&6Wofür ist das wichtig?", "Herz jedes Generators."]
 			icon: { id: "create_new_age:generator_coil" }
 			id: "537047B0D9B08E86"
 			title: "Generatorspule"
@@ -1398,7 +1343,7 @@
 		}
 		{
 			dependencies: ["537047B0D9B08E86"]
-			description: ["&6Was ist das?", "Bürsten leiten den Strom vom Rotor ab.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Ohne Bürsten liefert der Generator keinen Strom."]
+			description: ["&6Was ist das?", "Kohlebürsten leiten den Strom vom Rotor.", "", "&6So gehts", "Rezept: 6 Andesit-Legierungen, 2 Kohle und 1 Welle (Werkbank).", "", "&6Wofür ist das wichtig?", "Ohne Bürsten kein Strom."]
 			icon: { id: "create_new_age:carbon_brushes" }
 			id: "32C4380E2DA37B34"
 			title: "Kohlebürsten"
@@ -1409,7 +1354,7 @@
 		}
 		{
 			dependencies: ["32C4380E2DA37B34"]
-			description: ["&6Was ist das?", "Der Motor wandelt Strom zurück in Drehkraft.", "", "&6So gehts", "Rezept in JEI nachschlagen und neben eine Create-Welle stellen.", "", "&6Wofür ist das wichtig?", "So treibst du Maschinen ohne Wasserrad oder Windmühle an."]
+			description: ["&6Was ist das?", "Der Einfache Motor wandelt Strom in Drehkraft.", "", "&6So gehts", "Rezept: 6 Eisennuggets, 1 Magnetitblock, Andesit-Gehäuse und Welle (Werkbank).", "Stelle ihn an eine Welle und verbinde ihn mit Draht.", "", "&6Wofür ist das wichtig?", "Maschinen ohne Wasser antreiben."]
 			icon: { id: "create_new_age:basic_motor" }
 			id: "787DC8EA414981C9"
 			title: "Einfacher Motor"
@@ -1420,7 +1365,7 @@
 		}
 		{
 			dependencies: ["787DC8EA414981C9"]
-			description: ["&6Was ist das?", "Der Verbinder leitet Strom über Distanz.", "", "&6So gehts", "Zwei Verbinder platzieren und mit dem Draht verknüpfen.", "", "&6Wofür ist das wichtig?", "So bringst du Strom quer durch die Basis."]
+			description: ["&6Was ist das?", "Der Stromverbinder leitet Strom über Distanz.", "", "&6So gehts", "Rezept: 3 Andesit-Legierungen und 3 Kupfernuggets abwechselnd (Werkbank, 2 Stück).", "", "&6Wofür ist das wichtig?", "Quer durch die Basis."]
 			icon: { id: "create_new_age:electrical_connector" }
 			id: "7307C82B97B2EC83"
 			title: "Stromverbinder"
@@ -1431,7 +1376,7 @@
 		}
 		{
 			dependencies: ["7307C82B97B2EC83"]
-			description: ["&6Was ist das?", "Der Stirlingmotor erzeugt Drehkraft aus Hitze.", "", "&6So gehts", "Rezept in JEI nachschlagen und über eine Wärmequelle stellen.", "", "&6Wofür ist das wichtig?", "Eine stetige Kraftquelle ohne Wetter."]
+			description: ["&6Was ist das?", "Der Stirlingmotor erzeugt Drehkraft aus Hitze.", "", "&6So gehts", "Rezept: Kupferblock, 2 Heizrohre, Welle, 2 Eisennuggets (Muster in JEI).", "Stelle ihn über eine Hitzequelle (Feuer, Lava).", "", "&6Wofür ist das wichtig?", "Wetterunabhängige Kraft."]
 			icon: { id: "create_new_age:stirling_engine" }
 			id: "3512E34C28D2D9FE"
 			title: "Stirlingmotor"
@@ -1442,7 +1387,7 @@
 		}
 		{
 			dependencies: ["3512E34C28D2D9FE"]
-			description: ["&6Was ist das?", "Eine elektrische Laterne für deine Wege.", "", "&6So gehts", "Rezept in JEI nachschlagen und an das Stromnetz hängen.", "", "&6Wofür ist das wichtig?", "Dauerhaftes Licht ohne Fackeln."]
+			description: ["&6Was ist das?", "Die Straßenlaterne leuchtet mit Strom.", "", "&6So gehts", "Rezept: Eisenblech, Glas, Stromverbinder untereinander (Werkbank).", "", "&6Wofür ist das wichtig?", "Dauerlicht ohne Fackeln."]
 			icon: { id: "create_new_age:street_light" }
 			id: "190827C1081CC46A"
 			title: "Straßenlaterne"
@@ -1453,7 +1398,7 @@
 		}
 		{
 			dependencies: ["79C5111ED6A1E634"]
-			description: ["&6Was ist das?", "Der Scanner zeigt, wo unter dir Rohöl liegt.", "", "&6So gehts", "Rezept in JEI nachschlagen und in der Hand über Chunks fahren.", "", "&6Wofür ist das wichtig?", "Ohne Fundort keine Ölquelle."]
+			description: ["&6Was ist das?", "Der Ölscanner zeigt, wo Rohöl unter dir liegt.", "", "&6So gehts", "Rezept: Legierung, Uhr, Legierung / 2 Eisenbleche mit Eisenbarren / Eisenbarren (Muster in JEI).", "Halte ihn in der Hand und laufe über Chunks. Er zeigt die Menge.", "", "&6Wofür ist das wichtig?", "Ohne Fundort keine Quelle."]
 			icon: { id: "createdieselgenerators:oil_scanner" }
 			id: "68239A4265A716D8"
 			title: "Ölscanner"
@@ -1464,7 +1409,7 @@
 		}
 		{
 			dependencies: ["68239A4265A716D8"]
-			description: ["&6Was ist das?", "Teil der Ölpumpe, die das Öl an die Oberfläche holt.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Das Öl ist der Treibstoff für alles Weitere."]
+			description: ["&6Was ist das?", "Der Förderkopf gehört zur Ölpumpe.", "", "&6So gehts", "Rezept: Legierungen in den Ecken, 2 Zinkbarren, getrockneter Seetang (Muster in JEI).", "Du brauchst außerdem Pumpenlager, Pumpenloch und Pumpenkurbel.", "", "&6Wofür ist das wichtig?", "Fördert Rohöl."]
 			icon: { id: "createdieselgenerators:pumpjack_head" }
 			id: "27D4A9B29351113E"
 			title: "Förderkopf"
@@ -1475,7 +1420,7 @@
 		}
 		{
 			dependencies: ["27D4A9B29351113E"]
-			description: ["&6Was ist das?", "Die Kurbel treibt den Pumpenkopf an.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Create-Drehkraft verbinden.", "", "&6Wofür ist das wichtig?", "Sie bewegt die Pumpe auf und ab."]
+			description: ["&6Was ist das?", "Die Pumpenkurbel treibt den Förderkopf an.", "", "&6So gehts", "Mechanischer Crafter (Muster in JEI): Legierungen, Eisenbleche, Zinkbarren, Welle.", "Verbinde sie mit Drehkraft.", "", "&6Wofür ist das wichtig?", "Bewegt die Pumpe auf und ab."]
 			icon: { id: "createdieselgenerators:pumpjack_crank" }
 			id: "478CE75DA77CE27C"
 			title: "Pumpenkurbel"
@@ -1497,7 +1442,7 @@
 		}
 		{
 			dependencies: ["6631D94060D1CAE1"]
-			description: ["&6Was ist das?", "Die Destillation trennt Rohöl in Diesel und Benzin.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Tanks bauen.", "", "&6Wofür ist das wichtig?", "So gewinnst du nutzbaren Treibstoff."]
+			description: ["&6Was ist das?", "Die Destillation trennt Rohöl in Diesel, Benzin und mehr.", "", "&6So gehts", "Rezept: 2 Rohre, Uhr, 2 Legierungen, Eisenblech (Muster in JEI, ergibt 4).", "Stelle mehrere übereinander, ein Tank liefert Öl.", "", "&6Wofür ist das wichtig?", "Treibstoff gewinnen."]
 			icon: { id: "createdieselgenerators:distillation_controller" }
 			id: "4C61D09A99C24FE9"
 			title: "Destillation"
@@ -1508,7 +1453,7 @@
 		}
 		{
 			dependencies: ["4C61D09A99C24FE9"]
-			description: ["&6Was ist das?", "Der Motor verbrennt Diesel und liefert starke Drehkraft.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Diesel versorgen.", "", "&6Wofür ist das wichtig?", "Mehr Kraft auf kleinem Raum als jedes Wasserrad."]
+			description: ["&6Was ist das?", "Der Dieselmotor verbrennt Diesel und liefert viel Kraft.", "", "&6So gehts", "Rezept: Feuerzeug, 2 Motorkolben, Messingblock, 2 Blackstone-Platten, Flüssigkeitstank (Muster in JEI).", "Versorge ihn mit Diesel aus Rohren und stelle den Auspuff frei.", "", "&6Wofür ist das wichtig?", "Mehr Kraft auf kleinem Raum."]
 			icon: { id: "createdieselgenerators:diesel_engine" }
 			id: "500A0A344BD6F113"
 			title: "Dieselmotor"
@@ -1541,7 +1486,7 @@
 		}
 		{
 			description: ["&6Abschnitt", "Erweiterungen und Deko"]
-			dependencies: ["1B38A51428195D36"]
+			dependencies: ["511AB40D87A4293D"]
 			id: "4EA0A5B13AC9DDBE"
 			title: "Erweiterungen und Deko"
 			optional: true
