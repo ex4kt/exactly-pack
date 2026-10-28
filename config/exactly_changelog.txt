@@ -1,3 +1,6 @@
+# 0.0.352
+- Absturz beim Start behoben (Frueh-Ladebildschirm aus 0.0.349 wieder entfernt: Mod exactly_earlywindow raus, fml.toml wieder auf den normalen NeoForge-Ladebildschirm).
+
 # 0.0.351
 - Start-Fenster (exactly-start.ps1): Version pruefen, Aktualisieren mit Fortschrittsbalken, Starten nur bei aktueller Version, Beenden. In Prism als "Vor dem Start"-Befehl eintragen: powershell -NoProfile -ExecutionPolicy Bypass -File exactly-start.ps1
 - Neuigkeiten-Seite zeigt nur noch den vollstaendigen Changelog, neuer Knopf "Changelog" im Hauptmenue.
