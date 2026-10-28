@@ -402,6 +402,7 @@
 			dependencies: ["53528799012DD531"]
 			description: ["&6Was ist das?", "Der Pyromant ist ein Feuer-Magier und dein erster Zauberer-Gegner.", "", "&6So gehts", "Suche einen Pyromanten-Turm in der Oberwelt. Dort steht der Pyromant.", "Nimm Feuerresistenz-Trank, Wasser-Eimer und gute Rüstung mit. Er wirft Feuerbälle.", "Geh nah ran und schlage zu, solange er nachlädt. Weiche den Feuerbällen seitlich aus.", "", "&6Wofür ist das wichtig?", "Er lässt Arkane Essenz und Schriftrollen fallen. Damit geht die Magie-Linie weiter.", "", "&6Gut zu wissen", "Auf dem Turm liegen Truhen mit Beute. Nimm sie mit."]
 			id: "3BEB5C9EE91D54CF"
+			hide_dependent_lines: true
 			title: "Zauberer jagen"
 			rewards: [{ id: "16468B41E572C384", type: "item", item: { id: "minecraft:experience_bottle", count: 8 } }]
 			tasks: [{ id: "4D18A49A6BB25B55", type: "kill", entity: "irons_spellbooks:pyromancer", value: 1L, icon: { id: "irons_spellbooks:fire_upgrade_orb" } }]
@@ -573,6 +574,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:enigma" }
 			id: "46F108B04EB2950F"
+			hide_dependency_lines: true
 			title: "Enigma"
 			rewards: []
 			tasks: [{ id: "5584DCF030C444D2", type: "item", item: { id: "simplyswords:enigma", count: 1 }, count: 1L }]
@@ -584,6 +586,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:magispear" }
 			id: "2F13775F44C5B609"
+			hide_dependency_lines: true
 			title: "Magispear"
 			rewards: []
 			tasks: [{ id: "507F7A7420B4D65C", type: "item", item: { id: "simplyswords:magispear", count: 1 }, count: 1L }]
@@ -595,6 +598,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:magiblade" }
 			id: "76E169059BF6DFEF"
+			hide_dependency_lines: true
 			title: "Magiblade"
 			rewards: []
 			tasks: [{ id: "605D41A6BBDAEB99", type: "item", item: { id: "simplyswords:magiblade", count: 1 }, count: 1L }]
@@ -606,6 +610,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:caelestis" }
 			id: "2B71938D1FCCC55D"
+			hide_dependency_lines: true
 			title: "Caelestis"
 			rewards: []
 			tasks: [{ id: "790A34CA8C2F4595", type: "item", item: { id: "simplyswords:caelestis", count: 1 }, count: 1L }]
@@ -617,6 +622,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:amethyst_rapier" }
 			id: "4DA864F90BA90C51"
+			hide_dependency_lines: true
 			title: "Amethyst Rapier"
 			rewards: []
 			tasks: [{ id: "50F17559A82FC845", type: "item", item: { id: "irons_spellbooks:amethyst_rapier", count: 1 }, count: 1L }]
@@ -628,6 +634,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:claymore" }
 			id: "3F81B8B7B847C53E"
+			hide_dependency_lines: true
 			title: "Claymore"
 			rewards: []
 			tasks: [{ id: "659C5BCC1CA0D55C", type: "item", item: { id: "irons_spellbooks:claymore", count: 1 }, count: 1L }]
@@ -639,6 +646,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:decrepit_scythe" }
 			id: "321734CB12DEF7CB"
+			hide_dependency_lines: true
 			title: "Decrepit Scythe"
 			rewards: []
 			tasks: [{ id: "014A1D3CBB3C5F15", type: "item", item: { id: "irons_spellbooks:decrepit_scythe", count: 1 }, count: 1L }]
@@ -694,6 +702,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:ice_staff" }
 			id: "25CA5B688B56F510"
+			hide_dependency_lines: true
 			title: "Ice Staff"
 			rewards: []
 			tasks: [{ id: "7483F68F088B002E", type: "item", item: { id: "irons_spellbooks:ice_staff", count: 1 }, count: 1L }]
@@ -705,6 +714,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "irons_spellbooks:hither_thither_wand" }
 			id: "6B8C805612F83546"
+			hide_dependency_lines: true
 			title: "Hither-Thither Wand"
 			rewards: []
 			tasks: [{ id: "03748DD47396AE79", type: "item", item: { id: "irons_spellbooks:hither_thither_wand", count: 1 }, count: 1L }]
@@ -749,6 +759,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "irons_spellbooks:cultist_chestplate" }
 			id: "236FC8AE5B30A3DC"
+			hide_dependency_lines: true
 			title: "Cultist (Rüstung)"
 			rewards: []
 			tasks: [{ id: "7492EF812A6A51F0", type: "checkmark" }]
@@ -760,6 +771,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "irons_spellbooks:electromancer_chestplate" }
 			id: "4DCEBDC0F7D23A5A"
+			hide_dependency_lines: true
 			title: "Electromancer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "1FB8FA023E9EFAAB", type: "checkmark" }]
@@ -771,6 +783,7 @@
 			description: ["&6Was ist das?", "Teile: Brustplatte.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Irons Spells n Spellbooks.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "irons_spellbooks:infernal_sorcerer_chestplate" }
 			id: "258B1CBA588ECDFF"
+			hide_dependency_lines: true
 			title: "Infernal Sorcerer (Rüstung)"
 			rewards: []
 			tasks: [{ id: "2CE5EB83A54622BB", type: "checkmark" }]
@@ -1119,6 +1132,7 @@
 			description: ["&6Was ist das?", "Ein großes Addon für Iron's Spells: zwei neue Zauberschulen (Nekro und Aero), über 90 Zauber, neue Monster, Erze und Rüstungen.", "", "&6So gehts", "Neue Erze findest du in der Welt, Monster-Beute brauchst du für Runen und Ausrüstung. Rezepte zeigt JEI.", "", "&6Wofür ist das wichtig?", "Mehr Magie-Fortschritt nach den Iron's-Spells-Grundlagen."]
 			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "1F781F505D7F6EB5"
+			hide_dependency_lines: true
 			title: "Monsters & Spellbooks"
 			rewards: [{ id: "469594AE6FDFF895", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5C4B4E867FF483A9", type: "checkmark" }]
@@ -1210,6 +1224,7 @@
 			description: ["&6Was ist das?", "Monsters & Spellbooks bringt zaubernde Monster mit eigener Beute.", "", "&6So gehts", "Besiege die Monster dieser Reihe. Jedes lässt Materialien für Runen und Ausrüstung fallen.", "", "&6Wofür ist das wichtig?", "Die Beute brauchst du für die neuen Ausrüstungen."]
 			icon: { id: "minecraft:skeleton_skull" }
 			id: "25C6BF5BB940EA8C"
+			hide_dependency_lines: true
 			title: "Neue Monster"
 			rewards: [{ id: "131F4053584F50C6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6C7DC1A48B16783C", type: "checkmark" }]
@@ -1290,6 +1305,7 @@
 			dependencies: ["5C54807EC3EC2CDC"]
 			description: ["&6Was ist das?", "Beseelter Kristall ist der Kristall der dritten Powah-Stufe.", "", "&6So gehts", "Energiekugel: Smaragd mit Energie bestrahlen ergibt 1 Beseelten Kristall.", "9 Kristalle ergeben einen Block und zurück.", "", "&6Wofür ist das wichtig?", "Zutat für Beseelte Generatoren und Zellen."]
 			id: "3DA71B19ABC5C5AF"
+			hide_dependency_lines: true
 			title: "Beseelter Kristall"
 			rewards: [{ id: "00519184CDBBE03F", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "10C334DA12528A2F", type: "item", item: { id: "powah:crystal_spirited", count: 1 }, count: 1L }]

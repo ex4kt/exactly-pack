@@ -49,14 +49,14 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["489ADC0B60AB13A5"]
+			dependencies: ["182C4C6D2B12D400"]
 			description: ["&6Was ist das?", "Das Wasserrad macht aus fließendem Wasser Dauerkraft.", "", "&6So gehts", "Rezept: 8 Bretter rund um 1 Welle in der Mitte (Werkbank).", "Stelle das Rad direkt neben einen Bach oder baue selbst einen Wasserlauf: Kippe einen Eimer Wasser oben, damit das Wasser über oder an das Rad fließt.", "Das Wasser muss fließen. Stehendes Wasser dreht nichts.", "Setze eine Welle ans Rad und führe sie zu deinen Maschinen.", "", "&6Wofür ist das wichtig?", "Die erste Kraftquelle, die von allein weiterläuft. Mehrere Räder geben mehr Kraft.", "", "&6Gut zu wissen", "Wenn sich das Rad nicht dreht, prüfe, ob das Wasser auf der richtigen Seite vorbeiläuft. Mit der Brille siehst du die Leistung."]
 			id: "039A708DA9C8F9F7"
 			title: "Wasserrad"
 			rewards: [{ id: "282F450CB79B7BF2", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
 			tasks: [{ id: "5D440B2135D5C071", type: "item", item: { id: "create:water_wheel", count: 1 }, count: 1L }]
 			x: 7.50d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["039A708DA9C8F9F7"]
@@ -66,7 +66,7 @@
 			rewards: [{ id: "7CB61A4DD33079A0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "12E8F4525669F1D3", type: "item", item: { id: "create:windmill_bearing", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["68B64382EC0CCC2C"]
@@ -76,7 +76,7 @@
 			rewards: [{ id: "64D729A88AAFC5F3", type: "item", item: { id: "minecraft:oak_planks", count: 8 } }]
 			tasks: [{ id: "662A3A3BF4C43192", type: "item", item: { id: "create:large_cogwheel", count: 1 }, count: 2L }]
 			x: 10.50d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
 			dependencies: ["3BCEB9B8C58D7608"]
@@ -86,37 +86,37 @@
 			rewards: [{ id: "2B5653D3B0CEE566", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4B512C2B9B855433", type: "item", item: { id: "create:gearbox", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
-			dependencies: ["36305C6C501DC44F", "09FFCF7C8C464AAA"]
+			dependencies: ["36305C6C501DC44F"]
 			description: ["&6Was ist das?", "Die Kupplung schaltet Kraft mit einem Redstone-Signal ein und aus.", "", "&6So gehts", "Rezept: 1 Andesit-Gehäuse, 1 Welle und 1 Redstonestaub (Werkbank, formlos).", "Setze sie zwischen zwei Wellen.", "Ohne Signal läuft die Kraft durch. Mit Redstone-Signal (zum Beispiel Hebel) trennt sie.", "", "&6Wofür ist das wichtig?", "Maschinen gezielt an- und ausschalten."]
 			id: "1953C0BFA6CFB012"
 			title: "Kupplung"
 			rewards: [{ id: "7F95F5599D0955F6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "58901113A9ADBC89", type: "item", item: { id: "create:clutch", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
-			dependencies: ["1953C0BFA6CFB012", "09FFCF7C8C464AAA"]
+			dependencies: ["1953C0BFA6CFB012"]
 			description: ["&6Was ist das?", "Die Gangschaltung dreht die Drehrichtung um, wenn Redstone-Signal anliegt.", "", "&6So gehts", "Rezept: 1 Andesit-Gehäuse, 1 Zahnrad und 1 Redstonestaub (Werkbank, formlos).", "Baue sie zwischen zwei Wellen ein und lege einen Hebel daneben.", "Hebel an: Die Welle dahinter dreht die Gegenrichtung.", "", "&6Wofür ist das wichtig?", "Wichtig für Aufzüge und Maschinen, die vor und zurück sollen."]
 			id: "70BD1FCFABB3D919"
 			title: "Gangschaltung"
 			rewards: [{ id: "736EB073C8433437", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "56FE4899C8FE3170", type: "item", item: { id: "create:gearshift", count: 1 }, count: 1L }]
 			x: 15.00d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
-			dependencies: ["38AF595D86D9B7CE"]
+			dependencies: ["05C9BB5F1F32E0B9"]
 			description: ["&6Was ist das?", "Mit der Brille siehst du, wie viel Kraft deine Anlage hat und braucht.", "", "&6So gehts", "Rezept: 1 Faden oben in der Mitte, unten Glas, Goldblech, Glas (Werkbank). Goldblech presst du aus einem Goldbarren in der Presse.", "Setze die Brille auf (Helm-Platz) und sieh eine Maschine an.", "Rot bedeutet: überlastet, die Kraft reicht nicht.", "", "&6Wofür ist das wichtig?", "So erkennst du Fehler sofort, statt zu raten.", "", "&6Gut zu wissen", "Das Goldblech presst du in der Mechanischen Presse. Baue deshalb erst die Presse und dann die Brille."]
 			id: "18BE1CC2A35E0604"
 			title: "Brille und Schlüssel"
 			rewards: [{ id: "3F22F1ADC00B57B8", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "64156C5D4A82C61B", type: "item", item: { id: "create:goggles", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 13.50d
+			x: 7.50d
+			y: -20.25d
 		}
 		{
 			dependencies: ["18BE1CC2A35E0604"]
@@ -125,19 +125,19 @@
 			title: "Schlüssel (Wrench)"
 			rewards: [{ id: "79031085A495C97C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4698D920D3194453", type: "item", item: { id: "create:wrench", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 15.00d
+			x: 9.00d
+			y: -20.25d
 		}
 		{
-			dependencies: ["42732661CDA6F864"]
+			dependencies: ["3DC943295B23ACC3"]
 			description: ["&6Was ist das?", "Gehäuse umhüllen Maschinen. Fast jede Create-Maschine braucht eines.", "", "&6So gehts", "Brich einen Holzstamm mit einer Axt: Du bekommst einen entrindeten Stamm.", "Halte eine Andesit-Legierung und mache Rechtsklick auf den entrindeten Stamm. Er wird zum Andesit-Gehäuse.", "Es ist kein Werkbank-Rezept, die Anwendung geschieht direkt in der Welt.", "", "&6Wofür ist das wichtig?", "Mühle, Presse, Kupplung, Depot und viele Maschinen brauchen es.", "", "&6Gut zu wissen", "Gleiches Prinzip: Kupferbarren auf Stamm gibt Kupfergehäuse, Messingbarren gibt Messinggehäuse."]
 			icon: { id: "create:andesite_casing" }
 			id: "09FFCF7C8C464AAA"
 			title: "Andesit-Gehäuse"
 			rewards: [{ id: "39B6261C835ACE39", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7D8C315247A50DDA", type: "item", item: { id: "create:andesite_casing", count: 1 }, count: 8L }]
-			x: 6.00d
-			y: 13.50d
+			x: 4.50d
+			y: -20.25d
 		}
 		{
 			dependencies: ["09FFCF7C8C464AAA"]
@@ -147,19 +147,19 @@
 			title: "Kupfergehäuse"
 			rewards: [{ id: "63B68F55DFF9B801", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6616455F30CA73D8", type: "item", item: { id: "create:copper_casing", count: 1 }, count: 8L }]
-			x: 7.50d
-			y: 13.50d
+			x: 6.00d
+			y: -20.25d
 		}
 		{
-			dependencies: ["039A708DA9C8F9F7"]
+			dependencies: ["182C4C6D2B12D400"]
 			description: ["&6Was ist das?", "Das große Wasserrad liefert viel mehr Kraft als das kleine.", "", "&6So gehts", "Rezept: 8 Bretter rund um 1 Wasserrad in der Mitte (Werkbank).", "Stelle es auf ein breites Stück fließendes Wasser, wie bei der kleinen Version.", "", "&6Wofür ist das wichtig?", "Eine Fabrik ohne Brennstoff."]
 			icon: { id: "create:large_water_wheel" }
 			id: "24F010691B763632"
 			title: "Großes Wasserrad"
 			rewards: [{ id: "2B5B117367788A8A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "53743AE5D1E79FBB", type: "item", item: { id: "create:large_water_wheel", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 13.50d
+			x: 6.00d
+			y: 20.25d
 		}
 		{
 			dependencies: ["24F010691B763632"]
@@ -169,11 +169,11 @@
 			title: "Messgeräte"
 			rewards: [{ id: "7CB9D00F32013DC3", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1F4768D4D661CFEB", type: "item", item: { id: "create:stressometer", count: 1 }, count: 1L }]
-			x: 10.50d
-			y: 13.50d
+			x: 7.50d
+			y: 20.25d
 		}
 		{
-			dependencies: ["489ADC0B60AB13A5", "09FFCF7C8C464AAA"]
+			dependencies: ["489ADC0B60AB13A5"]
 			description: ["&6Was ist das?", "Die Mühle zermahlt Items, zum Beispiel Getreide zu Mehl.", "", "&6So gehts", "Rezept: Zahnrad oben, Andesit-Gehäuse in der Mitte, Stein unten (Werkbank).", "Setze sie so, dass sie von einer Welle oder Kurbel Kraft bekommt.", "Wirf die Items oben hinein. Das Ergebnis wirft sie seitlich aus oder legt es unten ab.", "", "&6Wofür ist das wichtig?", "Mehl für Brot, Farben aus Blumen und Brocken aus Erz."]
 			id: "3E86AA6370B6B05D"
 			title: "Mühle (Millstone)"
@@ -183,7 +183,7 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["3E86AA6370B6B05D", "09FFCF7C8C464AAA"]
+			dependencies: ["3E86AA6370B6B05D"]
 			description: ["&6Was ist das?", "Die Mechanische Presse presst Barren zu Blechen.", "", "&6So gehts", "Rezept: Welle oben, Andesit-Gehäuse in der Mitte, Eisenblock unten (Werkbank).", "Stelle sie in 2 Blöcken Höhe über ein Depot oder Förderband und schließe Kraft an die Welle an.", "Lege einen Barren auf das Depot. Die Presse drückt herunter und macht ein Blech daraus.", "", "&6Wofür ist das wichtig?", "Bleche brauchst du für viele Create-Rezepte: Eisen, Kupfer, Gold, Messing.", "", "&6Gut zu wissen", "Die Presse braucht zum Arbeiten das Depot darunter. Ohne Depot passiert nichts."]
 			id: "38AF595D86D9B7CE"
 			title: "Mechanische Presse"
@@ -193,7 +193,7 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["38AF595D86D9B7CE", "09FFCF7C8C464AAA"]
+			dependencies: ["38AF595D86D9B7CE"]
 			description: ["&6Was ist das?", "Das Depot ist eine kleine Ablage für Items und der einfachste Arbeitsplatz für Maschinen.", "", "&6So gehts", "Rezept: 1 Andesit-Legierung und 1 Andesit-Gehäuse (Werkbank, formlos).", "Stelle es unter die Presse oder einen Deployer.", "Lege ein Item mit Rechtsklick hinein, es bleibt liegen, bis die Maschine fertig ist.", "", "&6Wofür ist das wichtig?", "Ohne Depot arbeitet keine Presse."]
 			id: "511AB40D87A4293D"
 			title: "Depot"
@@ -203,7 +203,7 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["0BEB27DE8EEBEB86"]
+			dependencies: ["511AB40D87A4293D"]
 			description: ["&6Was ist das?", "Zwei Brechräder zerkleinern Erz zu Brocken und holen mehr aus Erz heraus als ein Ofen.", "", "&6So gehts", "Du stellst sie im Mechanischen Crafter her (Rezept in JEI). Baue zuerst Messing und den Crafter, siehe Zweig „Messing und Technik“. Die Quest zählt erst dann.", "Setze zwei Räder nebeneinander, mit einem Block Lücke dazwischen.", "Gib beiden Kraft, sie müssen gegeneinander drehen: Das Rad links dreht sich anders herum als das Rad rechts (Schlüssel benutzen).", "Wirf Erz von oben in die Lücke.", "", "&6Wofür ist das wichtig?", "Mehr Barren pro Erz und Extra-Beute, zum Beispiel Zink.", "", "&6Gut zu wissen", "Das Brechrad steht hinter dem Mechanischen Crafter. Du kannst bis dahin Erz im Ofen schmelzen."]
 			id: "1B38A51428195D36"
 			title: "Brechrad"
@@ -213,7 +213,7 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["511AB40D87A4293D"]
+			dependencies: ["1B38A51428195D36"]
 			description: ["&6Was ist das?", "Das Förderband bringt Items von A nach B.", "", "&6So gehts", "Rezept: 6 getrocknete Seetang-Blätter in 2 Reihen zu 3 (Werkbank). Getrockneter Seetang entsteht im Ofen aus Seetang.", "Rechtsklick mit dem Band auf eine Welle, danach Rechtsklick auf eine zweite Welle in gerader Linie.", "Das Band läuft, wenn die Welle Kraft hat. Items auf dem Band wandern mit.", "", "&6Wofür ist das wichtig?", "Das Rückgrat jeder Fabrik.", "", "&6Gut zu wissen", "Beide Wellen müssen auf derselben Höhe liegen und das Band muss gerade sein, nicht um die Ecke."]
 			id: "4D19FA2F8D6EE1AE"
 			title: "Förderband"
@@ -250,8 +250,8 @@
 			title: "Bleche"
 			rewards: [{ id: "0698732FFB1CE169", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "364D945F81DD577E", type: "item", item: { id: "create:iron_sheet", count: 1 }, count: 16L }]
-			x: 10.50d
-			y: 4.50d
+			x: 9.00d
+			y: 15.75d
 		}
 		{
 			dependencies: ["1F1DC1AE3C29928C"]
@@ -261,8 +261,8 @@
 			title: "Zink"
 			rewards: [{ id: "5B516D8CBCAA90D6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6EE9C7595C425619", type: "item", item: { id: "create:zinc_ingot", count: 1 }, count: 16L }]
-			x: 12.00d
-			y: 4.50d
+			x: 10.50d
+			y: 15.75d
 		}
 		{
 			dependencies: ["4D19FA2F8D6EE1AE"]
@@ -272,8 +272,8 @@
 			title: "Trichter und Tunnel"
 			rewards: [{ id: "00B2ACA2801F6C0A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "16F9AB21138165CE", type: "item", item: { id: "create:andesite_funnel", count: 1 }, count: 8L }]
-			x: 15.00d
-			y: -1.50d
+			x: 13.50d
+			y: 11.25d
 		}
 		{
 			dependencies: ["1E820F10CB9ED62F"]
@@ -283,18 +283,18 @@
 			title: "Auswerfer"
 			rewards: [{ id: "74A82F48980F7FAC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "35FF9CEBC0378B34", type: "item", item: { id: "create:weighted_ejector", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: -1.50d
+			x: 15.00d
+			y: 11.25d
 		}
 		{
-			dependencies: ["6DF28229B667A2EE"]
+			dependencies: ["25A30BBB0A2726F4"]
 			description: ["&6Was ist das?", "Create Connected bringt neue Bausteine für Maschinen und Zahnräder.", "", "&6So gehts", "Folge den Quests in diesem Bereich.", "", "&6Wofür ist das wichtig?", "Kompaktere und schlauere Fabriken."]
 			id: "15F02219B2102A2C"
 			title: "Create Connected"
 			rewards: [{ id: "58ECA6C0FB8EE487", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "18F37AEE0396B1D4", type: "checkmark" }]
 			x: 6.00d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["15F02219B2102A2C"]
@@ -304,7 +304,7 @@
 			rewards: [{ id: "4934D7781887606D", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "3FE9516826A4ED37", type: "item", item: { id: "create_connected:copycat_block", count: 1 }, count: 4L }]
 			x: 7.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["78DB0123994E32EC"]
@@ -314,7 +314,7 @@
 			rewards: [{ id: "492649EF3E2D222A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "1A50EB11728F883F", type: "item", item: { id: "create_connected:parallel_gearbox", count: 1 }, count: 1L }]
 			x: 9.00d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["5220EFA567A5FE4D"]
@@ -324,7 +324,7 @@
 			rewards: [{ id: "085D2CA7A99C05C0", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "51B43945D8A89871", type: "item", item: { id: "create_connected:cross_connector", count: 1 }, count: 2L }]
 			x: 10.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["50EA24843EE06E27"]
@@ -334,7 +334,7 @@
 			rewards: [{ id: "4403A5ECE11D2F8C", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2E2ABFE484BA9086", type: "item", item: { id: "create_connected:brake", count: 1 }, count: 1L }]
 			x: 12.00d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["387000686E26987A"]
@@ -344,7 +344,7 @@
 			rewards: [{ id: "19E31E41829AF7B2", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "698DF1322818C8D4", type: "item", item: { id: "create_connected:centrifugal_clutch", count: 1 }, count: 1L }]
 			x: 13.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["7A0258B9B370103C"]
@@ -354,7 +354,7 @@
 			rewards: [{ id: "4CD7A3468E8624CE", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "24F3A8E30E113506", type: "item", item: { id: "create_connected:kinetic_battery", count: 1 }, count: 1L }]
 			x: 15.00d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["47E5C1325D82DD1F"]
@@ -364,7 +364,7 @@
 			rewards: [{ id: "5F5302E6CEA10FA4", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
 			tasks: [{ id: "4F02A717D164B760", type: "item", item: { id: "create_connected:item_silo", count: 1 }, count: 1L }]
 			x: 16.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["73781B1E336A1E28"]
@@ -374,7 +374,7 @@
 			rewards: [{ id: "78CB928FE87EFE63", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "2290F8E926B8F989", type: "item", item: { id: "create_connected:fluid_vessel", count: 1 }, count: 1L }]
 			x: 18.00d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["10EB9F69CD73B4EE"]
@@ -384,7 +384,7 @@
 			rewards: [{ id: "0148B62FAA161F94", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "078B5601917EDBE7", type: "item", item: { id: "create_connected:control_chip", count: 1 }, count: 1L }]
 			x: 19.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["40A10B716E55574A"]
@@ -394,7 +394,7 @@
 			rewards: [{ id: "1A5A9E775EF22F0C", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "07781D417B18B922", type: "item", item: { id: "create_connected:sequenced_pulse_generator", count: 1 }, count: 1L }]
 			x: 21.00d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			dependencies: ["3B71BB718999F2D2"]
@@ -404,17 +404,17 @@
 			rewards: [{ id: "2C400EC845BF0AB4", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "72E53652C30F4A40", type: "item", item: { id: "create_connected:fan_freezing_catalyst", count: 1 }, count: 1L }]
 			x: 22.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
-			dependencies: ["511AB40D87A4293D"]
+			dependencies: ["4EA0A5B13AC9DDBE"]
 			description: ["&6Was ist das?", "Mehrere Mods bringen Baumaterial: Create Deco (Metall, Ziegel, Laufstege), Bits n Bobs (Stühle, Lampen, Gitter), Rechiseled Create und mehr.", "", "&6So gehts", "Mit Create Deco und Bits n Bobs.", "", "&6Wofür ist das wichtig?", "Fabriken schön gestalten."]
 			id: "30C591B0CE9B0747"
 			title: "Deko mit Create"
 			rewards: [{ id: "4025DE8C8C663C62", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "51FAD20C73636A8E", type: "checkmark" }]
 			x: 12.00d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["30C591B0CE9B0747"]
@@ -424,7 +424,7 @@
 			rewards: [{ id: "784B770DF40E680D", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "633C9B4C09659446", type: "item", item: { id: "createdeco:andesite_catwalk", count: 1 }, count: 4L }]
 			x: 13.50d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["4321B30F7711815A"]
@@ -434,7 +434,7 @@
 			rewards: [{ id: "0D76954A307DDCE6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "51C250B47EAE85A1", type: "item", item: { id: "createdeco:andesite_bars", count: 1 }, count: 4L }]
 			x: 15.00d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["6C08619099471FC0"]
@@ -444,7 +444,7 @@
 			rewards: [{ id: "104DEFE44565330A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0CAE29DDD14DA9B6", type: "item", item: { id: "bits_n_bobs:industrial_grating", count: 1 }, count: 4L }]
 			x: 16.50d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["729ADFE7EBA2FFFA"]
@@ -454,7 +454,7 @@
 			rewards: [{ id: "50CC7070D69C3899", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0482F4BDE908D71E", type: "item", item: { id: "bits_n_bobs:red_chair", count: 1 }, count: 1L }]
 			x: 18.00d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["71D225112AF869BF"]
@@ -464,7 +464,7 @@
 			rewards: [{ id: "5C02733C119BDD37", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "19F074495DD4673C", type: "item", item: { id: "bits_n_bobs:headlamp", count: 1 }, count: 2L }]
 			x: 19.50d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["1AA98726989C9201"]
@@ -474,7 +474,7 @@
 			rewards: [{ id: "2C77772D63F6A8C8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0E668F20C2692295", type: "item", item: { id: "bits_n_bobs:large_nixie_tube", count: 1 }, count: 1L }]
 			x: 21.00d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["4FA59058C0DB8C6B"]
@@ -484,7 +484,7 @@
 			rewards: [{ id: "73816CF8B8F40B64", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
 			tasks: [{ id: "7A8CB0EEFD5C6A2A", type: "item", item: { id: "bits_n_bobs:gigantic_cogwheel", count: 1 }, count: 1L }]
 			x: 22.50d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["215D7966642C7DC1"]
@@ -494,7 +494,7 @@
 			rewards: [{ id: "72F837A7C8485392", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6EFCE14581D81E1C", type: "item", item: { id: "create:metal_girder", count: 1 }, count: 4L }]
 			x: 24.00d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["421C52CC2592DE90"]
@@ -504,7 +504,7 @@
 			rewards: [{ id: "62B0BF4BD2525B88", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2D5EE6ED66E0747C", type: "item", item: { id: "create:copper_shingles", count: 1 }, count: 4L }]
 			x: 25.50d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["2DEBEBA57A527CB8"]
@@ -514,7 +514,7 @@
 			rewards: [{ id: "3E2A4429C1088E03", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "034759054E13ED75", type: "item", item: { id: "create:oak_window", count: 1 }, count: 4L }]
 			x: 27.00d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["2CADF34E0D17A144"]
@@ -525,7 +525,7 @@
 			rewards: [{ id: "4BB33728C415142C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "4C40586D04169654", type: "item", item: { id: "stoneworks:andesite_bricks", count: 1 }, count: 16L }]
 			x: 28.50d
-			y: -12.00d
+			y: -15.75d
 		}
 		{
 			dependencies: ["511AB40D87A4293D"]
@@ -534,8 +534,8 @@
 			title: "Weitere Create-Mods"
 			rewards: [{ id: "46E69D37C52E3A31", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "65ABC4A9CD7C9EA1", type: "checkmark" }]
-			x: 13.50d
-			y: 10.50d
+			x: 10.50d
+			y: 13.50d
 		}
 		{
 			dependencies: ["64FC4332152AA427"]
@@ -544,8 +544,8 @@
 			title: "Kupfer und Zink"
 			rewards: [{ id: "3BE78156B78A3A6B", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "799915459BA722BB", type: "checkmark" }]
-			x: 15.00d
-			y: 10.50d
+			x: 12.00d
+			y: 13.50d
 		}
 		{
 			dependencies: ["4C8B5C2BC37A1784"]
@@ -554,8 +554,8 @@
 			title: "Slice and Dice"
 			rewards: [{ id: "7E31FAADD0325EF5", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "593FE655E4C68D8D", type: "item", item: { id: "sliceanddice:slicer", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: 10.50d
+			x: 13.50d
+			y: 13.50d
 		}
 		{
 			dependencies: ["201CCA92972E779A"]
@@ -564,8 +564,8 @@
 			title: "Sprinkler"
 			rewards: [{ id: "3E64621EA4329353", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "794ABD24AE16A5F4", type: "item", item: { id: "sliceanddice:sprinkler", count: 1 }, count: 1L }]
-			x: 18.00d
-			y: 10.50d
+			x: 15.00d
+			y: 13.50d
 		}
 		{
 			dependencies: ["68D22676F7358C19"]
@@ -574,8 +574,8 @@
 			title: "Kupfer-Tauchausrüstung"
 			rewards: [{ id: "6C5C5B92EA518E04", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2156BCD5258B805E", type: "item", item: { id: "create:copper_backtank", count: 1 }, count: 1L }]
-			x: 19.50d
-			y: 10.50d
+			x: 16.50d
+			y: 13.50d
 		}
 		{
 			dependencies: ["7F2A2A8CE37A8264"]
@@ -584,8 +584,8 @@
 			title: "Gear-Werkzeug"
 			rewards: [{ id: "2F815A8E668BAAD7", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "04F46B5C1C5E7598", type: "item", item: { id: "create_tools_n_weapons:gear_pickaxe", count: 1 }, count: 1L }]
-			x: 21.00d
-			y: 10.50d
+			x: 18.00d
+			y: 13.50d
 		}
 		{
 			dependencies: ["09E9759E55ACA4A0"]
@@ -594,8 +594,8 @@
 			title: "Mechanischer Generator"
 			rewards: [{ id: "3C9614E5C0E02A17", type: "item", item: { id: "minecraft:cobblestone", count: 16 } }]
 			tasks: [{ id: "2F9C543EF9078CD0", type: "item", item: { id: "createcobblestone:mechanical_generator", count: 1 }, count: 1L }]
-			x: 22.50d
-			y: 10.50d
+			x: 19.50d
+			y: 13.50d
 		}
 		{
 			dependencies: ["342B709704C892B0"]
@@ -604,8 +604,8 @@
 			title: "Ultimate Factory"
 			rewards: [{ id: "1D536E20916BB09E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "563D2F293BD1AA81", type: "checkmark" }]
-			x: 24.00d
-			y: 10.50d
+			x: 21.00d
+			y: 13.50d
 		}
 		{
 			dependencies: ["1902971840DF9A13"]
@@ -614,8 +614,8 @@
 			title: "Rucksack mit Create"
 			rewards: [{ id: "581C681F6A94F9D5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "01AB0972B39762D3", type: "checkmark" }]
-			x: 25.50d
-			y: 10.50d
+			x: 22.50d
+			y: 13.50d
 		}
 		{
 			description: ["&6Was ist das?", "Create ist ein eigenes Kapitel und von Anfang an frei, kein Zeitalter. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Kraft, Werkzeug, Gehäuse, Mehr Kraft, Verarbeitung, Materialien, Item-Transport, Create Connected, Deko, Erweiterungen.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Alle Zweige sind freiwillig. Create blockiert keinen Zeitalter-Aufstieg.", "", "&6Wofür ist das wichtig?", "Create ist von Anfang an frei. Mach, was dir gefällt, wann du willst."]
@@ -630,7 +630,7 @@
 			y: 0.00d
 		}
 		{
-			dependencies: ["2F0645A576106C0B"]
+			dependencies: ["734080D5DB50FC77"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "create:cardboard_sword" }
 			id: "2552113832B9F44F"
@@ -638,10 +638,10 @@
 			rewards: []
 			tasks: [{ id: "5CE87689EB7ADBE2", type: "item", item: { id: "create:cardboard_sword", count: 1 }, count: 1L }]
 			x: 16.50d
-			y: 7.50d
+			y: 9.00d
 		}
 		{
-			dependencies: ["2F0645A576106C0B"]
+			dependencies: ["2552113832B9F44F"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "create_tools_n_weapons:gear_sword" }
 			id: "28EEF26F2B9816D5"
@@ -652,36 +652,36 @@
 			y: 9.00d
 		}
 		{
-			dependencies: ["2F0645A576106C0B"]
+			dependencies: ["28EEF26F2B9816D5"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke aus Create-Zahnrädern.", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "create_tools_n_weapons:gear_pickaxe" }
 			id: "6952463C19F65C09"
 			title: "Gear-Set"
 			rewards: []
 			tasks: [{ id: "64728F842235277D", type: "checkmark" }]
-			x: 18.00d
-			y: 7.50d
+			x: 19.50d
+			y: 9.00d
 		}
 		{
-			dependencies: ["2F0645A576106C0B"]
+			dependencies: ["6952463C19F65C09"]
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "create:wand_of_symmetry" }
 			id: "54FB8CF24168952C"
 			title: "Wand Of Symmetry"
 			rewards: []
 			tasks: [{ id: "41095051A2FDE6C5", type: "checkmark" }]
-			x: 19.50d
-			y: 7.50d
+			x: 21.00d
+			y: 9.00d
 		}
 		{
-			dependencies: ["2F0645A576106C0B"]
+			dependencies: ["54FB8CF24168952C"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "create:cardboard_chestplate" }
 			id: "549DF4434F7B80D0"
 			title: "Cardboard (Rüstung)"
 			rewards: []
 			tasks: [{ id: "3BB8CCF3A85D96CC", type: "checkmark" }]
-			x: 19.50d
+			x: 22.50d
 			y: 9.00d
 		}
 		{
@@ -691,7 +691,7 @@
 			title: "Blazebrenner"
 			rewards: [{ id: "02E4922F1217C502", type: "item", item: { id: "minecraft:blaze_powder", count: 4 } }]
 			tasks: [{ id: "5C374AFDF0EB2024", type: "item", item: { id: "create:blaze_burner", count: 1 }, count: 1L }]
-			x: 19.50d
+			x: 21.00d
 			y: 0.00d
 		}
 		{
@@ -701,7 +701,7 @@
 			title: "Becken und Mixer"
 			rewards: [{ id: "73CE919C75D997E4", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "281176B96323C21F", type: "item", item: { id: "create:mechanical_mixer", count: 1 }, count: 1L }]
-			x: 21.00d
+			x: 22.50d
 			y: 0.00d
 		}
 		{
@@ -711,7 +711,7 @@
 			title: "Messing"
 			rewards: [{ id: "2A1AE6E861B683F4", type: "item", item: { id: "minecraft:gold_nugget", count: 8 } }]
 			tasks: [{ id: "7E6109538E4B1341", type: "item", item: { id: "create:brass_ingot", count: 1 }, count: 2L }]
-			x: 22.50d
+			x: 24.00d
 			y: 0.00d
 		}
 		{
@@ -721,19 +721,19 @@
 			title: "Messingblech"
 			rewards: [{ id: "0E901BDF5241992D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "39C4B47DE113849F", type: "item", item: { id: "create:brass_sheet", count: 1 }, count: 4L }]
-			x: 24.00d
+			x: 25.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["5EAAFA8DBD065E8F"]
+			dependencies: ["6115471899930F07"]
 			description: ["&6Was ist das?", "Schokolade stellt der Mixer aus Zutaten her.", "", "&6So gehts", "Wirf Zucker, Kakaobohnen und Milch ins beheizte Becken, Mixer an.", "Fülle sie mit dem Ausguss in Items, zum Beispiel Schokoriegel.", "", "&6Wofür ist das wichtig?", "Essen und Zutat für Create-Rezepte."]
 			icon: { id: "create:bar_of_chocolate" }
 			id: "5F39BE72760304BB"
 			title: "Schokolade"
 			rewards: [{ id: "094B622650B032FF", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "10A1423D60D304A4", type: "item", item: { id: "create:bar_of_chocolate", count: 1 }, count: 4L }]
-			x: 22.50d
-			y: -1.50d
+			x: 24.00d
+			y: -4.50d
 		}
 		{
 			dependencies: ["5F39BE72760304BB"]
@@ -743,8 +743,8 @@
 			title: "Bautee"
 			rewards: [{ id: "4F35CE769C767ED9", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2B98ABC9EF91FEB8", type: "item", item: { id: "create:builders_tea", count: 1 }, count: 2L }]
-			x: 24.00d
-			y: -1.50d
+			x: 25.50d
+			y: -4.50d
 		}
 		{
 			dependencies: ["6A62DADBFA2996A0"]
@@ -755,7 +755,7 @@
 			rewards: [{ id: "37E35F07C56A8293", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3FB6C8905E3B5A20", type: "item", item: { id: "create:brass_funnel", count: 1 }, count: 8L }]
 			x: 24.00d
-			y: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["1DE2C1A489867156"]
@@ -766,7 +766,7 @@
 			rewards: [{ id: "7CDAF871713E4ACE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0DC83FABC61AC0FD", type: "item", item: { id: "create:smart_fluid_pipe", count: 1 }, count: 4L }]
 			x: 25.50d
-			y: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["7829549CCD454745"]
@@ -777,7 +777,7 @@
 			rewards: [{ id: "549D4721C5B561E1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2CB81DDE959B72E9", type: "item", item: { id: "create:rotation_speed_controller", count: 1 }, count: 1L }]
 			x: 27.00d
-			y: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["5E2258F10ED9FDE4"]
@@ -788,7 +788,7 @@
 			rewards: [{ id: "2A901FAA99BC2877", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "3795DB09EF09FB94", type: "item", item: { id: "create:elevator_pulley", count: 1 }, count: 1L }]
 			x: 28.50d
-			y: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["0BEF58AB710DEE38"]
@@ -799,7 +799,7 @@
 			rewards: [{ id: "564C51242F77FD7E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "678088C93FE47921", type: "item", item: { id: "create:clockwork_bearing", count: 1 }, count: 1L }]
 			x: 30.00d
-			y: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["4308F30E818770CF"]
@@ -810,7 +810,7 @@
 			rewards: [{ id: "7A0B6BE86449C98E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "792738C9EFD11530", type: "item", item: { id: "create_ca:brass_gearbox", count: 1 }, count: 1L }]
 			x: 31.50d
-			y: 3.00d
+			y: 4.50d
 		}
 		{
 			dependencies: ["3FCFC846B34538AC"]
@@ -819,7 +819,7 @@
 			title: "Deployer"
 			rewards: [{ id: "7BD6B0FF3AF6C6F0", type: "item", item: { id: "minecraft:gold_ingot", count: 4 } }]
 			tasks: [{ id: "6328B7FD33CD5A02", type: "item", item: { id: "create:deployer", count: 1 }, count: 1L }]
-			x: 25.50d
+			x: 27.00d
 			y: 0.00d
 		}
 		{
@@ -829,7 +829,7 @@
 			title: "Präzisionsmechanismus"
 			rewards: [{ id: "45931AE54350891C", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "07D511411AB178CB", type: "item", item: { id: "create:precision_mechanism", count: 1 }, count: 1L }]
-			x: 27.00d
+			x: 28.50d
 			y: 0.00d
 		}
 		{
@@ -840,7 +840,7 @@
 			rewards: [{ id: "3D85D110EC7136F6", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
 			tasks: [{ id: "4BCDDB067B505D7B", type: "item", item: { id: "create:mechanical_arm", count: 1 }, count: 1L }]
 			x: 28.50d
-			y: -1.50d
+			y: -2.25d
 		}
 		{
 			dependencies: ["22114057A1106DB9"]
@@ -850,17 +850,17 @@
 			rewards: [{ id: "045D1EEAE9686104", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "6AC48B581F89BE35", type: "item", item: { id: "create:mechanical_crafter", count: 1 }, count: 3L }]
 			x: 30.00d
-			y: -3.00d
+			y: -2.25d
 		}
 		{
-			dependencies: ["130F33E0BDF1373A"]
+			dependencies: ["7D72461056D64D87"]
 			description: ["&6Was ist das?", "Der Bohrer baut Blöcke selbst ab.", "", "&6So gehts", "Rezept: Legierung oben, 2 Eisenbarren seitlich, Andesit-Gehäuse unten (Werkbank).", "Stelle ihn mit Kraft hin: Er baut vor sich alles ab.", "Auf einem Kolben oder Wagen wird er zum Tunnelbohrer.", "", "&6Wofür ist das wichtig?", "Steingeneratoren und Minen."]
 			id: "7DD5BB5616563C39"
 			title: "Bohrer"
 			rewards: [{ id: "7932050EE3F498F2", type: "item", item: { id: "minecraft:iron_ingot", count: 6 } }]
 			tasks: [{ id: "1C760B0F6719F90A", type: "item", item: { id: "create:mechanical_drill", count: 1 }, count: 1L }]
-			x: 21.00d
-			y: -4.50d
+			x: 22.50d
+			y: -6.75d
 		}
 		{
 			dependencies: ["7DD5BB5616563C39"]
@@ -869,8 +869,8 @@
 			title: "Säge"
 			rewards: [{ id: "7AE1E73BC97CCC5D", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "2DC7EEE61ACAB8F2", type: "item", item: { id: "create:mechanical_saw", count: 1 }, count: 1L }]
-			x: 22.50d
-			y: -4.50d
+			x: 24.00d
+			y: -6.75d
 		}
 		{
 			dependencies: ["0A88D145FA3D25C0"]
@@ -879,8 +879,8 @@
 			title: "Ernter"
 			rewards: [{ id: "1802DC7A38463712", type: "item", item: { id: "minecraft:wheat_seeds", count: 16 } }]
 			tasks: [{ id: "53DDD8FAE0A17B59", type: "item", item: { id: "create:mechanical_harvester", count: 1 }, count: 1L }]
-			x: 24.00d
-			y: -4.50d
+			x: 25.50d
+			y: -6.75d
 		}
 		{
 			dependencies: ["088C7FF83A5E57EB"]
@@ -889,8 +889,8 @@
 			title: "Pflug"
 			rewards: [{ id: "5F3FF73AAF0DB7C8", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3738044C0F7DCC43", type: "item", item: { id: "create:mechanical_plough", count: 1 }, count: 1L }]
-			x: 25.50d
-			y: -6.00d
+			x: 27.00d
+			y: -6.75d
 		}
 		{
 			dependencies: ["54B9F3499505678A"]
@@ -899,8 +899,8 @@
 			title: "Lager, Kolben und Superkleber"
 			rewards: [{ id: "4F6264D7CD163F4E", type: "item", item: { id: "minecraft:slime_ball", count: 4 } }]
 			tasks: [{ id: "260B26680A7FA153", type: "item", item: { id: "create:mechanical_bearing", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: -6.00d
+			x: 28.50d
+			y: -6.75d
 		}
 		{
 			dependencies: ["715757D1A042B6F7"]
@@ -909,8 +909,8 @@
 			title: "Seilwinde"
 			rewards: [{ id: "1F088721BB23F804", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "35C28B3DBDF2F9B1", type: "item", item: { id: "create:rope_pulley", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: -6.00d
+			x: 30.00d
+			y: -6.75d
 		}
 		{
 			dependencies: ["22F71FBC8AE32558"]
@@ -919,18 +919,18 @@
 			title: "Kraftverteilung"
 			rewards: [{ id: "1FA168E84241086E", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "62BC61DD8C305CAB", type: "item", item: { id: "create:sequenced_gearshift", count: 1 }, count: 1L }]
-			x: 30.00d
-			y: -6.00d
+			x: 31.50d
+			y: -6.75d
 		}
 		{
-			dependencies: ["7DD5BB5616563C39"]
+			dependencies: ["287E140393182B9B"]
 			description: ["&6Was ist das?", "Der Tank speichert Flüssigkeit, Rohre leiten sie weiter.", "", "&6So gehts", "Tank: Kupferblech oben und unten, Holzfass in der Mitte (Werkbank).", "Rohre: Kupferblech, Kupferbarren, Kupferblech (Werkbank, 4 Stück).", "Die Rohre verbinden sich mit Tank, Pumpe und Ausguss.", "", "&6Wofür ist das wichtig?", "Wasser, Lava, Honig und Schokolade lagern."]
 			id: "2AD1E2F6CA4AD089"
 			title: "Tank und Rohre"
 			rewards: [{ id: "6DEC365617D11B75", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "11EA5CADE181B2AE", type: "item", item: { id: "create:fluid_tank", count: 1 }, count: 1L }]
 			x: 22.50d
-			y: -9.00d
+			y: -11.25d
 		}
 		{
 			dependencies: ["2AD1E2F6CA4AD089"]
@@ -940,7 +940,7 @@
 			rewards: [{ id: "5588E12394985B88", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
 			tasks: [{ id: "37E511109F76875B", type: "item", item: { id: "create:mechanical_pump", count: 1 }, count: 1L }]
 			x: 24.00d
-			y: -9.00d
+			y: -11.25d
 		}
 		{
 			dependencies: ["78241309321CF90C"]
@@ -950,7 +950,7 @@
 			rewards: [{ id: "3A896E9473497108", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7C3CAF1D69D38273", type: "item", item: { id: "create:spout", count: 1 }, count: 1L }]
 			x: 25.50d
-			y: -9.00d
+			y: -11.25d
 		}
 		{
 			dependencies: ["3E80326171591E1E"]
@@ -960,7 +960,7 @@
 			rewards: [{ id: "38B212068F050A7A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "03FC381EF4152814", type: "item", item: { id: "create:item_drain", count: 1 }, count: 1L }]
 			x: 27.00d
-			y: -9.00d
+			y: -11.25d
 		}
 		{
 			dependencies: ["6B40BAAF41A4B5E7"]
@@ -970,16 +970,16 @@
 			rewards: [{ id: "2B3D10BE29347BD4", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "50252BF08DCFFE12", type: "item", item: { id: "create:steam_engine", count: 1 }, count: 1L }]
 			x: 28.50d
-			y: -9.00d
+			y: -11.25d
 		}
 		{
-			dependencies: ["57ECEE26D1794CC7"]
+			dependencies: ["457F350D6A8BA567"]
 			description: ["&6Was ist das?", "Schienen sind die Basis des Zugsystems.", "", "&6So gehts", "Schienen entstehen im Montageverfahren (Rezept in JEI): zwei Nuggets per Deployer, dann pressen.", "Platziere Schienen mit Rechtsklick auf den Boden, Kurven und Rampen nach Hinweis im Spiel.", "", "&6Wofür ist das wichtig?", "Ohne Schienen kein Zug."]
 			id: "14C3FFBBFEC1223F"
 			title: "Schienen"
 			rewards: [{ id: "4AAA0DBD726A3CB6", type: "item", item: { id: "minecraft:iron_nugget", count: 16 } }]
 			tasks: [{ id: "1266679DAC1A3A01", type: "item", item: { id: "create:track", count: 1 }, count: 8L }]
-			x: 28.50d
+			x: 31.50d
 			y: 0.00d
 		}
 		{
@@ -989,7 +989,7 @@
 			title: "Bahnhof"
 			rewards: [{ id: "297988D3DBC2880C", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
 			tasks: [{ id: "23DAFD1C80E09600", type: "item", item: { id: "create:track_station", count: 1 }, count: 1L }]
-			x: 30.00d
+			x: 33.00d
 			y: 0.00d
 		}
 		{
@@ -999,7 +999,7 @@
 			title: "Zugsignal"
 			rewards: [{ id: "6DE8ED9C60677ED5", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "2E4FDEBD2CBA33EE", type: "item", item: { id: "create:track_signal", count: 1 }, count: 1L }]
-			x: 31.50d
+			x: 34.50d
 			y: 0.00d
 		}
 		{
@@ -1009,7 +1009,7 @@
 			title: "Zugtür"
 			rewards: [{ id: "1B59333276C9D3E8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "36225B0E55912807", type: "item", item: { id: "create:train_door", count: 1 }, count: 1L }]
-			x: 33.00d
+			x: 36.00d
 			y: 0.00d
 		}
 		{
@@ -1019,7 +1019,7 @@
 			title: "Fahrplan"
 			rewards: [{ id: "005445D80EC41614", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4F62E1D7B4A89E23", type: "item", item: { id: "create:schedule", count: 1 }, count: 1L }]
-			x: 34.50d
+			x: 37.50d
 			y: 0.00d
 		}
 		{
@@ -1029,18 +1029,18 @@
 			title: "Sitze"
 			rewards: [{ id: "40E24448D6A1A735", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "0EE1449520C13DC3", type: "item", item: { id: "create:red_seat", count: 1 }, count: 1L }]
-			x: 36.00d
+			x: 39.00d
 			y: 0.00d
 		}
 		{
-			dependencies: ["3FCFC846B34538AC"]
+			dependencies: ["488D4978FD95B6FC"]
 			description: ["&6Was ist das?", "Die Montage-Kanone baut ganze Gebäude nach Bauplan.", "", "&6So gehts", "Rezept: Eisenblock, Stämme, Glatter Stein und Werfer (Muster in JEI).", "Bauplan: leeren Bauplan (Papier und hellblauer Farbstoff) mit Schematics erzeugen.", "Lade ihn in die Kanone, lege die Materialien in eine Kiste daneben.", "", "&6Wofür ist das wichtig?", "Große Projekte automatisch bauen."]
 			id: "7C844C1C206CBA84"
 			title: "Montage-Kanone"
 			rewards: [{ id: "29018FFB954DA8AB", type: "xp_levels", xp_levels: 6 }]
 			tasks: [{ id: "131579CB494797E6", type: "item", item: { id: "create:schematicannon", count: 1 }, count: 1L }]
-			x: 25.50d
-			y: 1.50d
+			x: 27.00d
+			y: 2.25d
 		}
 		{
 			dependencies: ["7C844C1C206CBA84"]
@@ -1049,8 +1049,8 @@
 			title: "Tresor"
 			rewards: [{ id: "16E161DFBF03331E", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
 			tasks: [{ id: "1CB2EC2CF690050C", type: "item", item: { id: "create:item_vault", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: 1.50d
+			x: 28.50d
+			y: 2.25d
 		}
 		{
 			dependencies: ["39C930AE15A46055"]
@@ -1059,8 +1059,8 @@
 			title: "Packer"
 			rewards: [{ id: "62C3984B83C3178A", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "56639C00E4354B87", type: "item", item: { id: "create:packager", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: 1.50d
+			x: 30.00d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2556C5D10B0777FE"]
@@ -1069,8 +1069,8 @@
 			title: "Lagerverwaltung"
 			rewards: [{ id: "78C17D4C2AA5FCF7", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "0CFBAB846E32E8AF", type: "item", item: { id: "create:stock_ticker", count: 1 }, count: 1L }]
-			x: 30.00d
-			y: 1.50d
+			x: 31.50d
+			y: 2.25d
 		}
 		{
 			dependencies: ["6C7CF65C76D8AED1"]
@@ -1079,8 +1079,8 @@
 			title: "Anzeige"
 			rewards: [{ id: "7F78C301435C54D9", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3FC53988CACB97C3", type: "item", item: { id: "create:display_link", count: 1 }, count: 1L }]
-			x: 31.50d
-			y: 1.50d
+			x: 33.00d
+			y: 2.25d
 		}
 		{
 			dependencies: ["3675A3BAD48F1939"]
@@ -1089,8 +1089,8 @@
 			title: "Redstone-Verbindung"
 			rewards: [{ id: "3AD202C7ACAE72D8", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4125D3B7CC969AA0", type: "item", item: { id: "create:redstone_link", count: 1 }, count: 2L }]
-			x: 33.00d
-			y: 1.50d
+			x: 34.50d
+			y: 2.25d
 		}
 		{
 			dependencies: ["10A70A96CF23B681"]
@@ -1099,8 +1099,8 @@
 			title: "Kuckucksuhr"
 			rewards: [{ id: "69D5C18F3A4A195E", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "33C9A7C490C9032F", type: "item", item: { id: "create:cuckoo_clock", count: 1 }, count: 1L }]
-			x: 34.50d
-			y: 1.50d
+			x: 36.00d
+			y: 2.25d
 		}
 		{
 			dependencies: ["51B8EA34FF3BC40D"]
@@ -1110,8 +1110,8 @@
 			title: "Hypertubes"
 			rewards: [{ id: "651AA4FF3759A8C1", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "1D9AABEED4A7FFAC", type: "checkmark" }]
-			x: 36.00d
-			y: 1.50d
+			x: 37.50d
+			y: 2.25d
 		}
 		{
 			dependencies: ["239211072B615428"]
@@ -1121,8 +1121,8 @@
 			title: "Hypertube-Eingang"
 			rewards: [{ id: "64ED2E3D780688A1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "734E048D77689F44", type: "item", item: { id: "create_hypertube:hypertube_entrance", count: 1 }, count: 1L }]
-			x: 37.50d
-			y: 1.50d
+			x: 39.00d
+			y: 2.25d
 		}
 		{
 			dependencies: ["2E40D819D4B781CB"]
@@ -1132,29 +1132,29 @@
 			title: "Hypertube-Beschleuniger"
 			rewards: [{ id: "2DEFD39B803BBEE8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6E98859BDC0DC577", type: "item", item: { id: "create_hypertube:hypertube_accelerator", count: 1 }, count: 1L }]
-			x: 39.00d
-			y: 1.50d
+			x: 40.50d
+			y: 2.25d
 		}
 		{
-			dependencies: ["0A88D145FA3D25C0"]
+			dependencies: ["6A8DE92C8A36A700"]
 			description: ["&6Was ist das?", "Verbindet ComputerCraft mit Create-Redstone-Links.", "", "&6So gehts", "Neben einen Computer setzen, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Computer steuern Create-Maschinen kabellos."]
 			icon: { id: "ccredstonelinkbridge:redstone_link_bridge" }
 			id: "702277E7FD565925"
 			title: "Redstone-Link-Brücke"
 			rewards: [{ id: "58ECA418BCE18CC1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77B1CE46588BCEFE", type: "item", item: { id: "ccredstonelinkbridge:redstone_link_bridge", count: 1 }, count: 1L }]
-			x: 31.50d
-			y: -7.50d
+			x: 33.00d
+			y: -6.75d
 		}
 		{
-			dependencies: ["088C7FF83A5E57EB"]
+			dependencies: ["454C12A06D1ED9E1"]
 			description: ["&6Was ist das?", "Create Crafts and Additions bringt Strom: Motoren, Kabel, Akkus und Tesla-Spulen.", "Strom und Drehkraft lassen sich ineinander umwandeln.", "", "&6So gehts", "Folge den Quests: Kupferdraht, Motor, Alternator.", "", "&6Wofür ist das wichtig?", "Strom ist einfacher zu verlegen als Wellen."]
 			id: "549BFDFEBF019D58"
 			title: "Create Additions"
 			rewards: [{ id: "5E62DEA8DC356A66", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "70BDCD75D89F9331", type: "checkmark" }]
-			x: 25.50d
-			y: -4.50d
+			x: 22.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["549BFDFEBF019D58"]
@@ -1163,8 +1163,8 @@
 			title: "Elektrum"
 			rewards: [{ id: "0E24DC44EA1720D2", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4D60C4C605B87C1B", type: "item", item: { id: "createaddition:electrum_ingot", count: 1 }, count: 4L }]
-			x: 27.00d
-			y: -4.50d
+			x: 24.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["6875E8F30DFC6C4B"]
@@ -1173,8 +1173,8 @@
 			title: "Kupferdraht"
 			rewards: [{ id: "5E698B2C9D1D3BC0", type: "item", item: { id: "minecraft:copper_ingot", count: 8 } }]
 			tasks: [{ id: "6CFD8698EEF44BB7", type: "item", item: { id: "createaddition:copper_wire", count: 1 }, count: 8L }]
-			x: 28.50d
-			y: -4.50d
+			x: 25.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["089197E1061FB1C5"]
@@ -1183,8 +1183,8 @@
 			title: "Elektromotor"
 			rewards: [{ id: "1F23A39C7A132B60", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "074F13AC488E27A9", type: "item", item: { id: "createaddition:electric_motor", count: 1 }, count: 1L }]
-			x: 30.00d
-			y: -4.50d
+			x: 27.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["30C712FDB84B48D0"]
@@ -1193,8 +1193,8 @@
 			title: "Alternator"
 			rewards: [{ id: "37C3985CE78727A8", type: "item", item: { id: "minecraft:redstone", count: 16 } }]
 			tasks: [{ id: "1AC21901494033A2", type: "item", item: { id: "createaddition:alternator", count: 1 }, count: 1L }]
-			x: 31.50d
-			y: -4.50d
+			x: 28.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["010033F83D76F587"]
@@ -1203,8 +1203,8 @@
 			title: "Kondensator"
 			rewards: [{ id: "4DA1802439EBA1F1", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "28D7A887E0F0E993", type: "item", item: { id: "createaddition:capacitor", count: 1 }, count: 1L }]
-			x: 33.00d
-			y: -4.50d
+			x: 30.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["5D32AD4573ACEC77"]
@@ -1213,8 +1213,8 @@
 			title: "Verbinder"
 			rewards: [{ id: "112B88902D49BE7C", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "4A85240543A8B21F", type: "item", item: { id: "createaddition:connector", count: 1 }, count: 4L }]
-			x: 34.50d
-			y: -4.50d
+			x: 31.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["06F91B15222AE358"]
@@ -1223,8 +1223,8 @@
 			title: "Walzwerk"
 			rewards: [{ id: "3EBC0C6F2D820D61", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "0213BECC75BADDFF", type: "item", item: { id: "createaddition:rolling_mill", count: 1 }, count: 1L }]
-			x: 36.00d
-			y: -4.50d
+			x: 33.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["3E4801E7CF60E04B"]
@@ -1233,8 +1233,8 @@
 			title: "Akku"
 			rewards: [{ id: "53653A54C20E6AC9", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
 			tasks: [{ id: "24257012840F76C9", type: "item", item: { id: "createaddition:modular_accumulator", count: 1 }, count: 1L }]
-			x: 37.50d
-			y: -4.50d
+			x: 34.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["2F586E6CF7425BCB"]
@@ -1243,8 +1243,8 @@
 			title: "Teslaspule"
 			rewards: [{ id: "46C847178E9E341D", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "647244AA3517C33E", type: "item", item: { id: "createaddition:tesla_coil", count: 1 }, count: 1L }]
-			x: 39.00d
-			y: -4.50d
+			x: 36.00d
+			y: -9.00d
 		}
 		{
 			dependencies: ["0A6A15B1F7ECA356"]
@@ -1253,8 +1253,8 @@
 			title: "Stromschnittstelle"
 			rewards: [{ id: "7E41DF2EC741DBFA", type: "xp_levels", xp_levels: 4 }]
 			tasks: [{ id: "6A563040900A3B20", type: "item", item: { id: "createaddition:portable_energy_interface", count: 1 }, count: 1L }]
-			x: 40.50d
-			y: -4.50d
+			x: 37.50d
+			y: -9.00d
 		}
 		{
 			dependencies: ["4B17F8A206B3E575"]
@@ -1263,17 +1263,17 @@
 			title: "Biomasse"
 			rewards: [{ id: "049A67F0F2EC0D0A", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "264E40E46F6906E8", type: "item", item: { id: "createaddition:biomass_pellet", count: 1 }, count: 8L }]
-			x: 42.00d
-			y: -4.50d
+			x: 39.00d
+			y: -9.00d
 		}
 		{
-			dependencies: ["1DE2C1A489867156"]
+			dependencies: ["2B77A4E3AD95C314"]
 			description: ["&6Was ist das?", "Der Messing-Laufsteg ist ein Gitterweg.", "", "&6So gehts", "Werkbank: 4 Messing-Platten, 1 Messing-Gitter (Muster in JEI). Ergibt 4.", "Oder Steinsäge: 1 Messingbarren ergibt 4 Laufstege.", "", "&6Wofür ist das wichtig?", "Wege in der Fabrik."]
 			id: "1D323DE4886BF66B"
 			title: "Messing-Laufsteg"
 			rewards: [{ id: "7FFB8ABE26C5A558", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5EFA4919C5437233", type: "item", item: { id: "createdeco:brass_catwalk", count: 1 }, count: 4L }]
-			x: 25.50d
+			x: 33.00d
 			y: 4.50d
 		}
 		{
@@ -1283,52 +1283,52 @@
 			title: "Create Jetpack"
 			rewards: [{ id: "3AC03185D1E7AB32", type: "item", item: { id: "minecraft:firework_rocket", count: 8 } }]
 			tasks: [{ id: "198A3B3AAF5CFD33", type: "item", item: { id: "create_jetpack:jetpack", count: 1 }, count: 1L }]
-			x: 27.00d
+			x: 34.50d
 			y: 4.50d
 		}
 		{
-			dependencies: ["494CAE31CD8BAFAC"]
+			dependencies: ["3B1E90D27BCCBD83"]
 			description: ["&6Was ist das?", "Hier geht Create mit Messing, Zügen, Create Additions, Hypertubes und ComputerCraft weiter. Jede Linie, die von hier abgeht, ist ein eigener Zweig.", "Zweige: Messing, Create-Küche, Feinsteuerung, Montage, Maschinen, Flüssigkeiten, Züge, Logistik, Hypertube-Netz, Computer, Strom, Extras.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Alle Zweige sind freiwillig. Create blockiert keinen Zeitalter-Aufstieg.", "", "&6Wofür ist das wichtig?", "Create ist von Anfang an frei. Mach, was dir gefällt, wann du willst."]
 			icon: { id: "create:brass_ingot" }
 			id: "79C5111ED6A1E634"
 			title: "Weiter: Messing und Technik"
 			rewards: [{ id: "41B0D33798F023CD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0B54225CD8914B0A", type: "checkmark" }]
-			x: 18.00d
+			x: 19.50d
 			y: 0.00d
 		}
 		{
-			dependencies: ["22114057A1106DB9"]
+			dependencies: ["0BEB27DE8EEBEB86"]
 			description: ["&6Was ist das?", "Teile: Helm, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "create:copper_diving_helmet" }
 			id: "6A5C3D81E42B8620"
 			title: "Copper Diving (Rüstung)"
 			rewards: []
 			tasks: [{ id: "242161B7DC317E70", type: "checkmark" }]
-			x: 30.00d
-			y: -1.50d
+			x: 31.50d
+			y: -2.25d
 		}
 		{
-			dependencies: ["22114057A1106DB9"]
+			dependencies: ["6A5C3D81E42B8620"]
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:steampunk_chestplate" }
 			id: "2E91729FFF7D076E"
 			title: "Steampunk (Rüstung)"
 			rewards: []
 			tasks: [{ id: "26BD3419094064F8", type: "checkmark" }]
-			x: 31.50d
-			y: -1.50d
+			x: 33.00d
+			y: -2.25d
 		}
 		{
-			dependencies: ["79C5111ED6A1E634"]
+			dependencies: ["2A387C8C57120E88"]
 			description: ["&6Was ist das?", "Kupferdraht aus New Age ist die Basis der Strom-Teile dieser Mod.", "", "&6So gehts", "Schneide ein Kupferblech im Steinsäger zu 4 Draht.", "Kupferblech presst die Presse aus einem Kupferbarren.", "", "&6Wofür ist das wichtig?", "Ohne Draht keine Spule."]
 			icon: { id: "create_new_age:copper_wire" }
 			id: "72C6150EA283BB25"
 			title: "Kupferdraht (New Age)"
 			rewards: [{ id: "1DAFC9BE159693A5", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1BDBE380AF021131", type: "item", item: { id: "create_new_age:copper_wire", count: 1 }, count: 1L }]
-			x: 19.50d
-			y: 6.00d
+			x: 21.00d
+			y: 6.75d
 		}
 		{
 			dependencies: ["72C6150EA283BB25"]
@@ -1338,8 +1338,8 @@
 			title: "Generatorspule"
 			rewards: [{ id: "19D4AED6BED7B1DF", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "6B9C760B40663313", type: "item", item: { id: "create_new_age:generator_coil", count: 1 }, count: 1L }]
-			x: 21.00d
-			y: 6.00d
+			x: 22.50d
+			y: 6.75d
 		}
 		{
 			dependencies: ["537047B0D9B08E86"]
@@ -1349,8 +1349,8 @@
 			title: "Kohlebürsten"
 			rewards: [{ id: "1C8E57EB1A4CB601", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "110E92DDEE5CACEF", type: "item", item: { id: "create_new_age:carbon_brushes", count: 1 }, count: 1L }]
-			x: 22.50d
-			y: 6.00d
+			x: 24.00d
+			y: 6.75d
 		}
 		{
 			dependencies: ["32C4380E2DA37B34"]
@@ -1360,8 +1360,8 @@
 			title: "Einfacher Motor"
 			rewards: [{ id: "6FF40A477954B254", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2D78E232FAC7720B", type: "item", item: { id: "create_new_age:basic_motor", count: 1 }, count: 1L }]
-			x: 24.00d
-			y: 6.00d
+			x: 25.50d
+			y: 6.75d
 		}
 		{
 			dependencies: ["787DC8EA414981C9"]
@@ -1371,8 +1371,8 @@
 			title: "Stromverbinder"
 			rewards: [{ id: "1DDA7B95178664CA", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "7D449F8C90206BE2", type: "item", item: { id: "create_new_age:electrical_connector", count: 1 }, count: 1L }]
-			x: 25.50d
-			y: 6.00d
+			x: 27.00d
+			y: 6.75d
 		}
 		{
 			dependencies: ["7307C82B97B2EC83"]
@@ -1382,8 +1382,8 @@
 			title: "Stirlingmotor"
 			rewards: [{ id: "77112324AAF494B2", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "24D4EEFF0B4D8203", type: "item", item: { id: "create_new_age:stirling_engine", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: 6.00d
+			x: 28.50d
+			y: 6.75d
 		}
 		{
 			dependencies: ["3512E34C28D2D9FE"]
@@ -1393,19 +1393,19 @@
 			title: "Straßenlaterne"
 			rewards: [{ id: "1918E70FA4617BF6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1BB0FCF064E98B70", type: "item", item: { id: "create_new_age:street_light", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: 6.00d
+			x: 30.00d
+			y: 6.75d
 		}
 		{
-			dependencies: ["79C5111ED6A1E634"]
+			dependencies: ["4EB344BF2A9A2E5C"]
 			description: ["&6Was ist das?", "Der Ölscanner zeigt, wo Rohöl unter dir liegt.", "", "&6So gehts", "Rezept: Legierung, Uhr, Legierung / 2 Eisenbleche mit Eisenbarren / Eisenbarren (Muster in JEI).", "Halte ihn in der Hand und laufe über Chunks. Er zeigt die Menge.", "", "&6Wofür ist das wichtig?", "Ohne Fundort keine Quelle."]
 			icon: { id: "createdieselgenerators:oil_scanner" }
 			id: "68239A4265A716D8"
 			title: "Ölscanner"
 			rewards: [{ id: "4B3A6B376BF6799B", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "5B21EBD622E5D5A8", type: "item", item: { id: "createdieselgenerators:oil_scanner", count: 1 }, count: 1L }]
-			x: 19.50d
-			y: -10.50d
+			x: 21.00d
+			y: -13.50d
 		}
 		{
 			dependencies: ["68239A4265A716D8"]
@@ -1415,8 +1415,8 @@
 			title: "Förderkopf"
 			rewards: [{ id: "74A8C126334EDE02", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "4C574D2D98FEA14E", type: "item", item: { id: "createdieselgenerators:pumpjack_head", count: 1 }, count: 1L }]
-			x: 21.00d
-			y: -10.50d
+			x: 22.50d
+			y: -13.50d
 		}
 		{
 			dependencies: ["27D4A9B29351113E"]
@@ -1426,8 +1426,8 @@
 			title: "Pumpenkurbel"
 			rewards: [{ id: "341B94C540D0AF9E", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "21A0965B048246AB", type: "item", item: { id: "createdieselgenerators:pumpjack_crank", count: 1 }, count: 1L }]
-			x: 22.50d
-			y: -10.50d
+			x: 24.00d
+			y: -13.50d
 		}
 		{
 			dependencies: ["478CE75DA77CE27C"]
@@ -1437,8 +1437,8 @@
 			title: "Rohöl"
 			rewards: [{ id: "58A87B8E52600760", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "6E1439FBD620C73A", type: "item", item: { id: "createdieselgenerators:crude_oil_bucket", count: 1 }, count: 1L }]
-			x: 24.00d
-			y: -10.50d
+			x: 25.50d
+			y: -13.50d
 		}
 		{
 			dependencies: ["6631D94060D1CAE1"]
@@ -1448,8 +1448,8 @@
 			title: "Destillation"
 			rewards: [{ id: "32CFA60E3524EC94", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "3AF5F1864564E3AD", type: "item", item: { id: "createdieselgenerators:distillation_controller", count: 1 }, count: 1L }]
-			x: 25.50d
-			y: -10.50d
+			x: 27.00d
+			y: -13.50d
 		}
 		{
 			dependencies: ["4C61D09A99C24FE9"]
@@ -1459,8 +1459,8 @@
 			title: "Dieselmotor"
 			rewards: [{ id: "48B4F673D9706396", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "1A5F7E9237786EB6", type: "item", item: { id: "createdieselgenerators:diesel_engine", count: 1 }, count: 1L }]
-			x: 27.00d
-			y: -10.50d
+			x: 28.50d
+			y: -13.50d
 		}
 		{
 			dependencies: ["500A0A344BD6F113"]
@@ -1470,8 +1470,8 @@
 			title: "Diesel"
 			rewards: [{ id: "07BEA35DBC2F9BAC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "32AE51F297043F03", type: "item", item: { id: "createdieselgenerators:diesel_bucket", count: 1 }, count: 1L }]
-			x: 28.50d
-			y: -10.50d
+			x: 30.00d
+			y: -13.50d
 		}
 		{
 			description: ["&6Abschnitt", "Ausrüstung und Rohre"]
@@ -1482,7 +1482,7 @@
 			tasks: [{ id: "3FAFD6C020EAF864", type: "checkmark" }]
 			shape: "hexagon"
 			x: 15.00d
-			y: 7.50d
+			y: 9.00d
 		}
 		{
 			description: ["&6Abschnitt", "Erweiterungen und Deko"]
@@ -1492,8 +1492,8 @@
 			optional: true
 			tasks: [{ id: "5CEBC9C635E4DF83", type: "checkmark" }]
 			shape: "hexagon"
-			x: 12.00d
-			y: 10.50d
+			x: 10.50d
+			y: -15.75d
 		}
 		{
 			description: ["&6Abschnitt", "Kraft und Getriebe"]
@@ -1504,7 +1504,7 @@
 			tasks: [{ id: "1DBD66470FA11121", type: "checkmark" }]
 			shape: "hexagon"
 			x: 6.00d
-			y: 12.00d
+			y: 18.00d
 		}
 		{
 			description: ["&6Abschnitt", "Create Connected"]
@@ -1515,7 +1515,7 @@
 			tasks: [{ id: "33E7925F1164D05A", type: "checkmark" }]
 			shape: "hexagon"
 			x: 4.50d
-			y: -13.50d
+			y: -18.00d
 		}
 		{
 			description: ["&6Abschnitt", "Werkzeug und Gehäuse"]
@@ -1526,51 +1526,51 @@
 			tasks: [{ id: "466A0350B1186F62", type: "checkmark" }]
 			shape: "hexagon"
 			x: 3.00d
-			y: 13.50d
+			y: -20.25d
 		}
 		{
 			description: ["&6Abschnitt", "Messing und Technik"]
-			dependencies: ["4D19FA2F8D6EE1AE"]
+			dependencies: ["494CAE31CD8BAFAC"]
 			id: "3B1E90D27BCCBD83"
 			title: "Messing und Technik"
 			optional: true
 			tasks: [{ id: "0D6CA6D2F0A05527", type: "checkmark" }]
 			shape: "hexagon"
-			x: 16.50d
-			y: 1.50d
+			x: 18.00d
+			y: 0.00d
 		}
 		{
 			description: ["&6Abschnitt", "Züge"]
-			dependencies: ["549BFDFEBF019D58"]
+			dependencies: ["57ECEE26D1794CC7"]
 			id: "457F350D6A8BA567"
 			title: "Züge"
 			optional: true
 			tasks: [{ id: "70262B9DB8F3CB13", type: "checkmark" }]
 			shape: "hexagon"
-			x: 27.00d
-			y: -1.50d
+			x: 30.00d
+			y: 0.00d
 		}
 		{
 			description: ["&6Abschnitt", "Lager und Hypertubes"]
-			dependencies: ["0A88D145FA3D25C0"]
+			dependencies: ["3FCFC846B34538AC"]
 			id: "488D4978FD95B6FC"
 			title: "Lager und Hypertubes"
 			optional: true
 			tasks: [{ id: "6962554D19C99357", type: "checkmark" }]
 			shape: "hexagon"
-			x: 22.50d
-			y: 3.00d
+			x: 25.50d
+			y: 2.25d
 		}
 		{
 			description: ["&6Abschnitt", "Kleine Extras"]
-			dependencies: ["130F33E0BDF1373A"]
+			dependencies: ["5EAAFA8DBD065E8F"]
 			id: "6115471899930F07"
 			title: "Kleine Extras"
 			optional: true
 			tasks: [{ id: "7AA010C50A9B08C0", type: "checkmark" }]
 			shape: "hexagon"
-			x: 21.00d
-			y: -1.50d
+			x: 22.50d
+			y: -4.50d
 		}
 		{
 			description: ["&6Abschnitt", "Bewegte Konstruktionen"]
@@ -1580,41 +1580,41 @@
 			optional: true
 			tasks: [{ id: "0A38A49DB58EBD30", type: "checkmark" }]
 			shape: "hexagon"
-			x: 19.50d
-			y: -4.50d
+			x: 21.00d
+			y: -6.75d
 		}
 		{
 			description: ["&6Abschnitt", "Create Additions"]
-			dependencies: ["7DD5BB5616563C39"]
+			dependencies: ["7D72461056D64D87"]
 			id: "454C12A06D1ED9E1"
 			title: "Create Additions"
 			optional: true
 			tasks: [{ id: "68124F85840525E9", type: "checkmark" }]
 			shape: "hexagon"
-			x: 24.00d
-			y: -3.00d
+			x: 21.00d
+			y: -9.00d
 		}
 		{
 			description: ["&6Abschnitt", "Flüssigkeiten und Dampf"]
-			dependencies: ["7DD5BB5616563C39"]
+			dependencies: ["454C12A06D1ED9E1"]
 			id: "287E140393182B9B"
 			title: "Flüssigkeiten und Dampf"
 			optional: true
 			tasks: [{ id: "27902422C2CDB2C2", type: "checkmark" }]
 			shape: "hexagon"
 			x: 21.00d
-			y: -9.00d
+			y: -11.25d
 		}
 		{
 			description: ["&6Abschnitt", "Create New Age"]
-			dependencies: ["2F0645A576106C0B"]
+			dependencies: ["79C5111ED6A1E634"]
 			id: "2A387C8C57120E88"
 			title: "Create New Age"
 			optional: true
 			tasks: [{ id: "4BBB4587F1B45109", type: "checkmark" }]
 			shape: "hexagon"
-			x: 18.00d
-			y: 6.00d
+			x: 19.50d
+			y: 6.75d
 		}
 		{
 			description: ["&6Abschnitt", "Diesel und Öl"]
@@ -1624,8 +1624,8 @@
 			optional: true
 			tasks: [{ id: "06DB57088EB78EDA", type: "checkmark" }]
 			shape: "hexagon"
-			x: 18.00d
-			y: -10.50d
+			x: 19.50d
+			y: -13.50d
 		}
 	]
 }

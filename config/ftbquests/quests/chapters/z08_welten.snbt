@@ -112,6 +112,7 @@
 			dependencies: ["60C2E7BB2A1D95A3"]
 			description: ["&6Was ist das?", "Der Slider ist der erste Boss im Aether, der Wächter des Bronzenen Dungeons.", "", "&6So gehts", "Wo: im Bronzenen Dungeon auf einer Aether-Insel.", "Er rutscht wild durch den Raum. Weiche aus und schlage ihn, wenn er stehen bleibt.", "Je weniger Leben er hat, desto schneller wird er.", "", "&6Wofür ist das wichtig?", "Er öffnet den Weg zu den nächsten Dungeons.", "", "&6Gut zu wissen", "Beute: Bronzener Dungeon-Schlüssel, Gemeißelter Stein.", "Die Lampe der Asche verbrennt Dornen und öffnet den Weg zum Ende des Waldes."]
 			id: "57E41ABAF269D36E"
+			hide_dependent_lines: true
 			title: "Lampe der Asche"
 			rewards: [{ id: "428CBF51A7B7C95E", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
 			tasks: [{ id: "0AF90EF2A6CFD673", type: "item", item: { id: "twilightforest:lamp_of_cinders", count: 1 }, count: 1L }]
@@ -684,6 +685,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stormscale" }
 			id: "2D8DA4E3C83693AD"
+			hide_dependency_lines: true
 			title: "Stormscale"
 			rewards: []
 			tasks: [{ id: "1644F46A5C315CF6", type: "item", item: { id: "simplyswords:stormscale", count: 1 }, count: 1L }]
@@ -695,6 +697,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:ionbound_stormscale" }
 			id: "3C68E2B7D12CEC69"
+			hide_dependency_lines: true
 			title: "Ionbound Stormscale"
 			rewards: []
 			tasks: [{ id: "56113D8EBE84B105", type: "item", item: { id: "simplyswords:ionbound_stormscale", count: 1 }, count: 1L }]
@@ -706,6 +709,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:stormbringer" }
 			id: "0B0D6E90B305B48C"
+			hide_dependency_lines: true
 			title: "Stormbringer"
 			rewards: []
 			tasks: [{ id: "7E970120A2FDCF0B", type: "item", item: { id: "simplyswords:stormbringer", count: 1 }, count: 1L }]
@@ -717,6 +721,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:mjolnir" }
 			id: "09A402BDB43B7530"
+			hide_dependency_lines: true
 			title: "Mjolnir"
 			rewards: []
 			tasks: [{ id: "740119C75CC038A9", type: "item", item: { id: "simplyswords:mjolnir", count: 1 }, count: 1L }]
@@ -728,6 +733,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:livyatan" }
 			id: "2620BB1461AA62C4"
+			hide_dependency_lines: true
 			title: "Livyatan"
 			rewards: []
 			tasks: [{ id: "5E3A9BB476113A4B", type: "item", item: { id: "simplyswords:livyatan", count: 1 }, count: 1L }]
@@ -739,6 +745,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:thunderbrand" }
 			id: "7274A6D8318B1184"
+			hide_dependency_lines: true
 			title: "Thunderbrand"
 			rewards: []
 			tasks: [{ id: "57F7ECA8A52E9BBB", type: "item", item: { id: "simplyswords:thunderbrand", count: 1 }, count: 1L }]
@@ -750,6 +757,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:whisperwind" }
 			id: "7EA417B355E3E385"
+			hide_dependency_lines: true
 			title: "Whisperwind"
 			rewards: []
 			tasks: [{ id: "0AE3183597D6AB1F", type: "item", item: { id: "simplyswords:whisperwind", count: 1 }, count: 1L }]
@@ -761,6 +769,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:tempest" }
 			id: "4A2EE93B5084D720"
+			hide_dependency_lines: true
 			title: "Tempest"
 			rewards: []
 			tasks: [{ id: "3879CAB047394610", type: "item", item: { id: "simplyswords:tempest", count: 1 }, count: 1L }]
@@ -772,6 +781,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:ribboncleaver" }
 			id: "5E2307E1CD8337B6"
+			hide_dependency_lines: true
 			title: "Ribboncleaver"
 			rewards: []
 			tasks: [{ id: "4700B4DD84639C27", type: "item", item: { id: "simplyswords:ribboncleaver", count: 1 }, count: 1L }]
@@ -783,6 +793,7 @@
 			description: ["&6Was ist das?", "Einzigartige Waffe mit besonderer Fähigkeit.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:riftmane" }
 			id: "73F0380B17A9C9F5"
+			hide_dependency_lines: true
 			title: "Riftmane"
 			rewards: []
 			tasks: [{ id: "625E8EAD6C5DFCE0", type: "item", item: { id: "simplyswords:riftmane", count: 1 }, count: 1L }]
@@ -805,6 +816,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:flaming_sword" }
 			id: "0EB6EE420971C7B3"
+			hide_dependency_lines: true
 			title: "Flaming Sword"
 			rewards: []
 			tasks: [{ id: "6476D7EB9002133B", type: "item", item: { id: "aether:flaming_sword", count: 1 }, count: 1L }]
@@ -816,6 +828,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:holy_sword" }
 			id: "26DA47D8C40CA992"
+			hide_dependency_lines: true
 			title: "Holy Sword"
 			rewards: []
 			tasks: [{ id: "70C83B4E21154BA7", type: "item", item: { id: "aether:holy_sword", count: 1 }, count: 1L }]
@@ -827,6 +840,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:lightning_sword" }
 			id: "78DA72FA1F49E736"
+			hide_dependency_lines: true
 			title: "Lightning Sword"
 			rewards: []
 			tasks: [{ id: "4BB366E27ECA157B", type: "item", item: { id: "aether:lightning_sword", count: 1 }, count: 1L }]
@@ -838,6 +852,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:hammer_of_kingbdogz" }
 			id: "38D377BCD07563A7"
+			hide_dependency_lines: true
 			title: "Hammer of Kingbdogz"
 			rewards: []
 			tasks: [{ id: "21B6EF0AD0ED33FE", type: "item", item: { id: "aether:hammer_of_kingbdogz", count: 1 }, count: 1L }]
@@ -849,6 +864,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:valkyrie_lance" }
 			id: "047556D751CC57ED"
+			hide_dependency_lines: true
 			title: "Valkyrie Lance"
 			rewards: []
 			tasks: [{ id: "0BDF6C49BD738C6C", type: "item", item: { id: "aether:valkyrie_lance", count: 1 }, count: 1L }]
@@ -860,6 +876,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:cloud_staff" }
 			id: "3F95B9971ADDFF0B"
+			hide_dependency_lines: true
 			title: "Cloud Staff"
 			rewards: []
 			tasks: [{ id: "5AB9A406C2A07C20", type: "item", item: { id: "aether:cloud_staff", count: 1 }, count: 1L }]
@@ -871,6 +888,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:nature_staff" }
 			id: "3CE177F8ABFD296E"
+			hide_dependency_lines: true
 			title: "Nature Staff"
 			rewards: []
 			tasks: [{ id: "0044A8B6E27B3CFA", type: "item", item: { id: "aether:nature_staff", count: 1 }, count: 1L }]
@@ -882,6 +900,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:shield_of_repulsion" }
 			id: "27CB195ADB4ED4C1"
+			hide_dependency_lines: true
 			title: "Shield of Repulsion"
 			rewards: []
 			tasks: [{ id: "3B297038099AA2D3", type: "item", item: { id: "aether:shield_of_repulsion", count: 1 }, count: 1L }]
@@ -904,6 +923,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "aether:phoenix_bow" }
 			id: "7F47EA84595DAE5F"
+			hide_dependency_lines: true
 			title: "Phoenix Bow"
 			rewards: []
 			tasks: [{ id: "1D01FD48C7DC3822", type: "item", item: { id: "aether:phoenix_bow", count: 1 }, count: 1L }]
@@ -915,6 +935,7 @@
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "aether:skyroot_pickaxe" }
 			id: "2B468677D68A25FA"
+			hide_dependency_lines: true
 			title: "Aether Skyroot-Set"
 			rewards: []
 			tasks: [{ id: "684B6E81E948E533", type: "checkmark" }]
@@ -926,6 +947,7 @@
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "aether:holystone_pickaxe" }
 			id: "581E2999BCC83209"
+			hide_dependency_lines: true
 			title: "Aether Holystone-Set"
 			rewards: []
 			tasks: [{ id: "6EC978D467B968DF", type: "checkmark" }]
@@ -937,6 +959,7 @@
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "aether:zanite_pickaxe" }
 			id: "246B4B184049D1FD"
+			hide_dependency_lines: true
 			title: "Aether Zanite-Set"
 			rewards: []
 			tasks: [{ id: "4B56906E70B01968", type: "checkmark" }]
@@ -948,6 +971,7 @@
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "aether:gravitite_pickaxe" }
 			id: "52D377E0D3B472B9"
+			hide_dependency_lines: true
 			title: "Aether Gravitite-Set"
 			rewards: []
 			tasks: [{ id: "248B35E5B6CC45A6", type: "checkmark" }]
@@ -959,6 +983,7 @@
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "aether:valkyrie_pickaxe" }
 			id: "78F60C90E6B45DD1"
+			hide_dependency_lines: true
 			title: "Aether Valkyrie-Set"
 			rewards: []
 			tasks: [{ id: "751230F7A978790D", type: "checkmark" }]
@@ -970,6 +995,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:zanite_chestplate" }
 			id: "439D34A684054C33"
+			hide_dependency_lines: true
 			title: "Zanite (Rüstung)"
 			rewards: []
 			tasks: [{ id: "5D12033D7FB8E4AA", type: "checkmark" }]
@@ -981,6 +1007,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:gravitite_chestplate" }
 			id: "030F5D316769E207"
+			hide_dependency_lines: true
 			title: "Gravitite (Rüstung)"
 			rewards: []
 			tasks: [{ id: "25F01F243EEC340D", type: "checkmark" }]
@@ -992,6 +1019,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:valkyrie_chestplate" }
 			id: "489B9610ABFF6CB1"
+			hide_dependency_lines: true
 			title: "Valkyrie (Rüstung)"
 			rewards: []
 			tasks: [{ id: "334B3BC34F757ED9", type: "checkmark" }]
@@ -1003,6 +1031,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:neptune_chestplate" }
 			id: "795598D83CDA7CE0"
+			hide_dependency_lines: true
 			title: "Neptune (Rüstung)"
 			rewards: []
 			tasks: [{ id: "1C2C473425A26936", type: "checkmark" }]
@@ -1014,6 +1043,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:obsidian_chestplate" }
 			id: "4C3A69BD9900DE91"
+			hide_dependency_lines: true
 			title: "Obsidian (Rüstung)"
 			rewards: []
 			tasks: [{ id: "1109DD46837BAB58", type: "checkmark" }]
@@ -1025,6 +1055,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:phoenix_chestplate" }
 			id: "226E24479767B070"
+			hide_dependency_lines: true
 			title: "Phoenix (Rüstung)"
 			rewards: []
 			tasks: [{ id: "3743434A2AEB5FE9", type: "checkmark" }]
@@ -1036,6 +1067,7 @@
 			description: ["&6Was ist das?", "Teile: Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Aether.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "aether:sentry_boots" }
 			id: "1E4BD7DD91BF5AC3"
+			hide_dependency_lines: true
 			title: "Sentry (Rüstung)"
 			rewards: []
 			tasks: [{ id: "75B52229853A0970", type: "checkmark" }]

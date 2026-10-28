@@ -262,6 +262,7 @@
 			description: ["&6Was ist das?", "Hier beginnt das Meister-Zeitalter. Es schaltet frei:", "Cataclysm mit seinen Bossen, Advanced Netherite, die Runic-Waffen, das Blaue Herz, das Uhrwerk-Gewehr und die stärkste Stufe der Powah-Technik (Nitro).", "", "&6So gehts", "Schließe den Hauptpfad dieses Kapitels ab.", "Hake diese Quest ab und hol dir die Belohnung. Erst die Belohnung schaltet das Zeitalter frei.", "Das gilt sofort für alle Spieler, auch für die, die gerade nicht online sind.", "", "&6Wofür ist das wichtig?", "Im nächsten Kapitel wartet der Hauptpfad des neuen Zeitalters.", "Nebenquests aus früheren Zeitaltern kannst du jederzeit nachholen."]
 			icon: { id: "minecraft:netherite_ingot" }
 			id: "4EA7B6B983C1C0EE"
+			hide_dependency_lines: true
 			title: "Zeitalter: Meister-Zeitalter"
 			rewards: [{ id: "5B930C254D693EE0", type: "historystages:history_stage", stage: "meisterzeit", remove: false, individual: false }, { id: "751E857D2BD39CEF", type: "xp_levels", xp_levels: 5 }]
 			tasks: [{ id: "548E8C86CC29AAE0", type: "checkmark" }]

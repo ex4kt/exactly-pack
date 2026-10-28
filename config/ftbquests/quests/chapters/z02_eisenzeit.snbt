@@ -23,6 +23,7 @@
 			description: ["&6Was ist das?", "Das Hauptschwert der Eisenzeit.", "", "&6So gehts", "Zwei Eisenbarren, darunter das Steinschwert statt des Stocks.", "", "&6Wofür ist das wichtig?", "Pflicht für den Aufstieg. Aus dem Eisenschwert baust du auch alle Eisen-Spezialwaffen."]
 			icon: { id: "minecraft:iron_sword" }
 			id: "59E93DB37E085659"
+			hide_dependent_lines: true
 			title: "Eisenschwert"
 			rewards: [{ id: "39C40E4DDC8BD40D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0484BE1A6F4222F0", type: "item", item: { id: "minecraft:iron_sword", count: 1 }, count: 1L }]
@@ -44,6 +45,7 @@
 			dependencies: ["5AD7D87EDA092F1C"]
 			description: ["&6Was ist das?", "Ein Schild blockt Pfeile und Nahkampf. Rechtsklick halten.", "", "&6So gehts", "Rechtsklick halten.", "", "&6Wofür ist das wichtig?", "Gegen Pfeile und Creeper.", "", "&6Gut zu wissen", "Ein Axthieb deaktiviert einen Schild für einige Sekunden. Halte den Schild also nicht dauernd hoch, wenn dich ein Gegner mit einer Axt angreift."]
 			id: "6077C06A96337BE4"
+			hide_dependent_lines: true
 			title: "Schild"
 			rewards: [{ id: "655029FFE9896069", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
 			tasks: [{ id: "3B9A3C5F2C00898E", type: "item", item: { id: "minecraft:shield", count: 1 }, count: 1L }]
@@ -99,6 +101,7 @@
 			description: ["&6Was ist das?", "Mit Eimern trägst du Wasser, Lava und Milch.", "", "&6So gehts", "Drei Eisenbarren in V-Form.", "", "&6Wofür ist das wichtig?", "Wasser für Felder, Lava als Brennstoff, Milch gegen Gift."]
 			icon: { id: "minecraft:bucket" }
 			id: "46202DD190374BDB"
+			hide_dependency_lines: true
 			title: "Eimer"
 			rewards: [{ id: "0AF66614B1ED1224", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "58BA1CE7A6684315", type: "item", item: { id: "minecraft:bucket", count: 1 }, count: 2L }]
@@ -162,6 +165,7 @@
 			dependencies: ["0A3B510FB0DE8C3A"]
 			description: ["&6Was ist das?", "Amethyst wächst in Amethystgeoden unter der Erde.", "", "&6So gehts", "Abgebrochene Kristalle aufsammeln.", "", "&6Wofür ist das wichtig?", "Fernrohr, getöntes Glas und einige Mod-Rezepte."]
 			id: "1953A324EE9E6A13"
+			hide_dependent_lines: true
 			title: "Amethyst"
 			rewards: [{ id: "2173BABD0A03DDE2", type: "item", item: { id: "minecraft:glass", count: 8 } }]
 			tasks: [{ id: "49AE08F2160C3D3B", type: "item", item: { id: "minecraft:amethyst_shard", count: 1 }, count: 8L }]
@@ -172,6 +176,7 @@
 			dependencies: ["0A3B510FB0DE8C3A"]
 			description: ["&6Was ist das?", "Smaragdsterz gibt es nur in Bergen. Damit handelst du mit Dorfbewohnern.", "", "&6So gehts", "Selten in Bergbiomen oder durch Handel.", "", "&6Wofür ist das wichtig?", "Mit Smaragden kaufst du Verzauberungsbücher und Ausrüstung."]
 			id: "2811AA4C0CD8301C"
+			hide_dependency_lines: true
 			title: "Smaragd"
 			rewards: [{ id: "79FA1E8F367F9A57", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "7A4C429E2649E429", type: "item", item: { id: "minecraft:emerald", count: 1 }, count: 4L }]
@@ -237,6 +242,7 @@
 			description: ["&6Was ist das?", "Mit der Leine führst du Tiere.", "", "&6So gehts", "Faden und ein Schleimball.", "", "&6Wofür ist das wichtig?", "Tiere zur Farm bringen."]
 			icon: { id: "minecraft:lead" }
 			id: "7F2BC6A2E1878E46"
+			hide_dependency_lines: true
 			title: "Leine"
 			rewards: [{ id: "469C639470BCFD64", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69762CB14AEA1859", type: "item", item: { id: "minecraft:lead", count: 1 }, count: 2L }]
@@ -379,6 +385,7 @@
 			dependencies: ["6077C06A96337BE4"]
 			description: ["&6Was ist das?", "Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "Schritt 1: Baue ein Storage Terminal.", "Schritt 2: Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Schritt 3: Öffne das Terminal und suche oben nach Items.", "", "&6So gehts", "Stelle das Terminal (Storage Terminal) neben eine Kiste oder verbinde es mit Kabeln.", "Öffne es, suche oben nach Namen und nimm heraus, was du brauchst.", "", "&6Wofür ist das wichtig?", "Statt zwanzig Kisten zu durchsuchen, hast du ein Suchfenster für alles. Das Herz deiner Basis."]
 			id: "68F179F7BC6AF54D"
+			hide_dependency_lines: true
 			title: "Tom Storage: Terminal"
 			rewards: [{ id: "607C5F7E58CB4B4A", type: "item", item: { id: "minecraft:iron_ingot", count: 8 } }]
 			tasks: [{ id: "1403C4DBC90A7370", type: "item", item: { id: "toms_storage:storage_terminal", count: 1 }, count: 1L }]
@@ -599,6 +606,7 @@
 			dependencies: ["756BA580078912C2"]
 			description: ["&6Was ist das?", "Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Nähe.", "Du findest sie in Truhen oder kannst sie herstellen.", "", "&6So gehts", "Halte sie in der Hand und benutze sie (Rechtsklick).", "Wähle den Ziel-Waystone aus der Liste.", "", "&6Wofür ist das wichtig?", "Perfekt für Notfälle in Dungeons oder wenn du dich verlaufen hast. Später gibt es auch den Warpstein, der wiederverwendbar ist."]
 			id: "3E45566A9BA84A3F"
+			hide_dependency_lines: true
 			title: "Warp-Schriftrolle"
 			rewards: [{ id: "3C28B9854BCB9FF5", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "05C295F6606D0034", type: "item", item: { id: "waystones:warp_scroll", count: 1 }, count: 1L }]
@@ -882,6 +890,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Wieder Weapons Expanded, jetzt in Eisen. Dieselben Waffenarten gibt es auch in Diamant (nächstes Zeitalter).", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Eisenschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "6C92B583E37D33C6"
+			hide_dependency_lines: true
 			title: "Eisen-Langschwert"
 			rewards: [{ id: "391F1DDFF2D2EB3F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6742C03BCD4CEC86", type: "item", item: { id: "weaponsexpanded:iron_longsword", count: 1 }, count: 1L }]
@@ -1003,6 +1012,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Eine Armbrust, die mehrere Bolzen schnell hintereinander schießt.", "", "&6So gehts", "Ketten, Eisen und ein Stolperdrahthaken. Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Viel Schaden in kurzer Zeit, perfekt gegen Gruppen."]
 			optional: true
 			id: "00013B933C846FF9"
+			hide_dependency_lines: true
 			title: "Kettenarmbrust"
 			rewards: [{ id: "08EFE6BFA2CC5F19", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3B4D98FA2CD33CF0", type: "item", item: { id: "weaponsexpanded:chain_crossbow", count: 1 }, count: 1L }]
@@ -1073,6 +1083,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_warglaive" }
 			id: "4CC052E076966B0B"
+			hide_dependency_lines: true
 			title: "Warglaive"
 			rewards: []
 			tasks: [{ id: "06BCD89900DA0347", type: "item", item: { id: "simplyswords:iron_warglaive", count: 1 }, count: 1L }]
@@ -1084,6 +1095,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_spear" }
 			id: "69A45BF282DFA7B1"
+			hide_dependency_lines: true
 			title: "Speer"
 			rewards: []
 			tasks: [{ id: "2CDFDEBCF21E790E", type: "item", item: { id: "simplyswords:iron_spear", count: 1 }, count: 1L }]
@@ -1095,6 +1107,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_sai" }
 			id: "1D7B4B8365B96807"
+			hide_dependency_lines: true
 			title: "Sai"
 			rewards: []
 			tasks: [{ id: "2EA7F4BF8D6537C9", type: "item", item: { id: "simplyswords:iron_sai", count: 1 }, count: 1L }]
@@ -1106,6 +1119,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_katana" }
 			id: "340E6904D3580B5C"
+			hide_dependency_lines: true
 			title: "Katana"
 			rewards: []
 			tasks: [{ id: "4903C27CA471B55F", type: "item", item: { id: "simplyswords:iron_katana", count: 1 }, count: 1L }]
@@ -1117,6 +1131,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_claymore" }
 			id: "55B11449B08A95F6"
+			hide_dependency_lines: true
 			title: "Claymore"
 			rewards: []
 			tasks: [{ id: "79A5721D1D707697", type: "item", item: { id: "simplyswords:iron_claymore", count: 1 }, count: 1L }]
@@ -1128,6 +1143,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_longsword" }
 			id: "3D25BBA218B79567"
+			hide_dependency_lines: true
 			title: "Langschwert"
 			rewards: []
 			tasks: [{ id: "673B50CEDF85FF2E", type: "item", item: { id: "simplyswords:iron_longsword", count: 1 }, count: 1L }]
@@ -1139,6 +1155,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_twinblade" }
 			id: "39C2363A6EA98D08"
+			hide_dependency_lines: true
 			title: "Twinblade"
 			rewards: []
 			tasks: [{ id: "208C2B5834CFD50D", type: "item", item: { id: "simplyswords:iron_twinblade", count: 1 }, count: 1L }]
@@ -1183,6 +1200,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_scythe" }
 			id: "0DD39DF75F4D80B4"
+			hide_dependency_lines: true
 			title: "Sense"
 			rewards: []
 			tasks: [{ id: "7C94DFF1150C4C45", type: "item", item: { id: "simplyswords:iron_scythe", count: 1 }, count: 1L }]
@@ -1194,6 +1212,7 @@
 			description: ["&6Was ist das?", "Stufen: iron, gold, diamond, netherite, runic", "Runic ist die stärkste Stufe.", "Aus der Mod Simply Swords.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "simplyswords:iron_halberd" }
 			id: "2026C3AFF7CE83AD"
+			hide_dependency_lines: true
 			title: "Hellebarde"
 			rewards: []
 			tasks: [{ id: "42B46F5773BF3A3C", type: "item", item: { id: "simplyswords:iron_halberd", count: 1 }, count: 1L }]
@@ -1205,6 +1224,7 @@
 			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Wetland Whimsy.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "wetland_whimsy:dagger" }
 			id: "2178A786EEF5B6D6"
+			hide_dependency_lines: true
 			title: "Dagger"
 			rewards: []
 			tasks: [{ id: "43E2DC88B375510C", type: "item", item: { id: "wetland_whimsy:dagger", count: 1 }, count: 1L }]
@@ -1216,6 +1236,7 @@
 			description: ["&6Was ist das?", "Holz, Stein, Eisen, Gold, Diamant, Netherit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:iron_sword" }
 			id: "29B2E131BE9306F9"
+			hide_dependency_lines: true
 			title: "Schwerter (Vanilla)"
 			rewards: []
 			tasks: [{ id: "2955BF9DE2095E66", type: "item", item: { id: "minecraft:iron_sword", count: 1 }, count: 1L }]
@@ -1458,6 +1479,7 @@
 			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
 			icon: { id: "immersive_armors:wooden_chestplate" }
 			id: "1210905BD2D816B1"
+			hide_dependency_lines: true
 			title: "Wooden (Rüstung)"
 			rewards: []
 			tasks: [{ id: "59FC0E021C39EB8E", type: "checkmark" }]
@@ -1609,6 +1631,7 @@
 			description: ["&6Abschnitt", "Redstone"]
 			dependencies: ["1953A324EE9E6A13"]
 			id: "588ACD3EE1C99447"
+			hide_dependency_lines: true
 			title: "Redstone"
 			optional: true
 			tasks: [{ id: "665FFC426A6AA8AA", type: "checkmark" }]
@@ -1620,6 +1643,7 @@
 			description: ["&6Abschnitt", "Werkzeug und Ausbau"]
 			dependencies: ["6077C06A96337BE4"]
 			id: "51BD8805351DA6E9"
+			hide_dependency_lines: true
 			title: "Werkzeug und Ausbau"
 			optional: true
 			tasks: [{ id: "605192C5EAB07065", type: "checkmark" }]
@@ -1653,6 +1677,7 @@
 			description: ["&6Abschnitt", "Reisen und Waypoints"]
 			dependencies: ["0A3B510FB0DE8C3A"]
 			id: "31E8C90EB81DE455"
+			hide_dependency_lines: true
 			title: "Reisen und Waypoints"
 			optional: true
 			tasks: [{ id: "16FE4EEACA065B60", type: "checkmark" }]
@@ -1664,6 +1689,7 @@
 			description: ["&6Abschnitt", "Lager und Kisten"]
 			dependencies: ["6077C06A96337BE4"]
 			id: "4987C18126DDC53B"
+			hide_dependency_lines: true
 			title: "Lager und Kisten"
 			optional: true
 			tasks: [{ id: "158B55B3E3DF7DF7", type: "checkmark" }]
@@ -1675,6 +1701,7 @@
 			description: ["&6Abschnitt", "Rucksäcke"]
 			dependencies: ["6077C06A96337BE4"]
 			id: "5EF5F1C89BB2D086"
+			hide_dependency_lines: true
 			title: "Rucksäcke"
 			optional: true
 			tasks: [{ id: "493E3CFABC9D98CB", type: "checkmark" }]
@@ -1686,6 +1713,7 @@
 			description: ["&6Abschnitt", "Dorf und Biome"]
 			dependencies: ["6077C06A96337BE4"]
 			id: "0AFCE31BE33FB530"
+			hide_dependency_lines: true
 			title: "Dorf und Biome"
 			optional: true
 			tasks: [{ id: "52B33758DC510187", type: "checkmark" }]
@@ -1697,6 +1725,7 @@
 			description: ["&6Abschnitt", "Eisen-Waffen"]
 			dependencies: ["59E93DB37E085659"]
 			id: "654719D02E16F370"
+			hide_dependency_lines: true
 			title: "Eisen-Waffen"
 			optional: true
 			tasks: [{ id: "65669721A74B2773", type: "checkmark" }]

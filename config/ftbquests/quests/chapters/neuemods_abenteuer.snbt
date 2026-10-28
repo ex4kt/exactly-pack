@@ -133,6 +133,7 @@
 			description: ["&6Was ist das?", "Über 20 neue Enderman-Arten.", "", "&6So gehts", "Endermen in verschiedenen Biomen jagen.", "", "&6Wofür ist das wichtig?", "Der Zahn ist ein neuer Rohstoff."]
 			icon: { id: "endermanoverhaul:enderman_tooth" }
 			id: "69FEA1FEAD24D2B0"
+			hide_dependency_lines: true
 			title: "Endermanzahn"
 			rewards: [{ id: "121968EF959DF6DC", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "277CF1E564039685", type: "item", item: { id: "endermanoverhaul:enderman_tooth", count: 1 }, count: 1L }]

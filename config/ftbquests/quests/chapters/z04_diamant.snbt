@@ -12,6 +12,7 @@
 			description: ["&6Was ist das?", "Diamant ist lange das Ziel. Stelle eine Spitzhacke aus Diamant her.", "", "&6So gehts", "Diamanten tief unten finden, am besten um Ebene minus 58.", "Für Diamantwerkzeug brauchst du das passende Eisenwerkzeug: Es kommt im Rezept an die Stelle des oberen Stocks.", "", "&6Wofür ist das wichtig?", "Diamantwerkzeug baut Obsidian ab. Damit kommst du in den Nether."]
 			dependencies: ["35D9C17C3DF9768D"]
 			id: "63064054BBFD8FB1"
+			hide_dependent_lines: true
 			title: "Diamant-Ausrüstung"
 			rewards: [{ id: "04CF41EB62772C30", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
 			tasks: [{ id: "586642040DF2A94C", type: "item", item: { id: "minecraft:diamond_pickaxe", count: 1 }, count: 1L }]
@@ -23,6 +24,7 @@
 			icon: { id: "minecraft:diamond_sword" }
 			dependencies: ["63064054BBFD8FB1"]
 			id: "31E652570EB0BD57"
+			hide_dependent_lines: true
 			title: "Diamantschwert"
 			rewards: [{ id: "1C17CABACDF8F913", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2E81412FFA9A8AB9", type: "item", item: { id: "minecraft:diamond_sword", count: 1 }, count: 1L }]
@@ -510,6 +512,7 @@
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "660CDF873CC0CCED"
+			hide_dependency_lines: true
 			title: "Diamant-Sichel"
 			rewards: [{ id: "1BD8B12B4532BD92", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "79637E9B68C7A0BB", type: "item", item: { id: "weaponsexpanded:diamond_sickle", count: 1 }, count: 1L }]
@@ -558,6 +561,7 @@
 			icon: { id: "minecraft:trident" }
 			dependencies: ["31E652570EB0BD57"]
 			id: "5DBD766E57EBAD5C"
+			hide_dependency_lines: true
 			title: "Dreizack"
 			rewards: []
 			tasks: [{ id: "1BAE2F2BB8A5D68E", type: "item", item: { id: "minecraft:trident", count: 1 }, count: 1L }]
@@ -569,6 +573,7 @@
 			icon: { id: "minecraft:mace" }
 			dependencies: ["5DBD766E57EBAD5C"]
 			id: "5086933097CF61B1"
+			hide_dependent_lines: true
 			title: "Streitkolben (Arsenal)"
 			rewards: []
 			tasks: [{ id: "023C02C9B277FA11", type: "item", item: { id: "minecraft:mace", count: 1 }, count: 1L }]
@@ -635,6 +640,7 @@
 			icon: { id: "simplyswords:hiveheart" }
 			dependencies: ["5086933097CF61B1"]
 			id: "054957A0438D7F48"
+			hide_dependency_lines: true
 			title: "Hiveheart"
 			rewards: []
 			tasks: [{ id: "544A19227AC4DC24", type: "item", item: { id: "simplyswords:hiveheart", count: 1 }, count: 1L }]
@@ -646,6 +652,7 @@
 			icon: { id: "simplyswords:stars_edge" }
 			dependencies: ["5086933097CF61B1"]
 			id: "2EBF10B876FFFC1E"
+			hide_dependency_lines: true
 			title: "Star's Edge"
 			rewards: []
 			tasks: [{ id: "5B44A1C5519B978E", type: "item", item: { id: "simplyswords:stars_edge", count: 1 }, count: 1L }]
@@ -657,6 +664,7 @@
 			icon: { id: "simplyswords:wickpiercer" }
 			dependencies: ["5086933097CF61B1"]
 			id: "031BF1D67CD9E053"
+			hide_dependency_lines: true
 			title: "Wickpiercer"
 			rewards: []
 			tasks: [{ id: "3802561CAA4EB3B4", type: "item", item: { id: "simplyswords:wickpiercer", count: 1 }, count: 1L }]
@@ -668,6 +676,7 @@
 			icon: { id: "simplyswords:gloampiercer" }
 			dependencies: ["5086933097CF61B1"]
 			id: "73088E647EC47A82"
+			hide_dependency_lines: true
 			title: "Gloampiercer"
 			rewards: []
 			tasks: [{ id: "6B08DC8C0AF249C5", type: "item", item: { id: "simplyswords:gloampiercer", count: 1 }, count: 1L }]
@@ -723,6 +732,7 @@
 			icon: { id: "mowziesmobs:naga_fang_dagger" }
 			dependencies: ["5DBD766E57EBAD5C"]
 			id: "7FD822594DF4DC90"
+			hide_dependency_lines: true
 			title: "Naga Fang Dagger"
 			rewards: []
 			tasks: [{ id: "11CDB2486E7DB2A2", type: "item", item: { id: "mowziesmobs:naga_fang_dagger", count: 1 }, count: 1L }]
@@ -734,6 +744,7 @@
 			icon: { id: "mowziesmobs:sculptor_staff" }
 			dependencies: ["5DBD766E57EBAD5C"]
 			id: "54FE5C1180E344FF"
+			hide_dependency_lines: true
 			title: "Geomancer Staff"
 			rewards: []
 			tasks: [{ id: "11925CBD554284C4", type: "checkmark" }]
@@ -1075,6 +1086,7 @@
 			description: ["&6Abschnitt", "Diamant-Waffen"]
 			dependencies: ["31E652570EB0BD57"]
 			id: "469BB5577D01B75D"
+			hide_dependency_lines: true
 			title: "Diamant-Waffen"
 			optional: true
 			tasks: [{ id: "15EF2B9970E537CF", type: "checkmark" }]
@@ -1086,6 +1098,7 @@
 			description: ["&6Abschnitt", "Diamant-Ausrüstung"]
 			dependencies: ["2502CCD91E41AFC0"]
 			id: "0BDD511953E2719F"
+			hide_dependency_lines: true
 			title: "Diamant-Ausrüstung"
 			optional: true
 			tasks: [{ id: "132CDD7FE0C17F06", type: "checkmark" }]
@@ -1390,6 +1403,7 @@
 			description: ["&6Was ist das?", "Technik-Mod für Automatisierung: Maschinen ernten, füttern, schlachten und verarbeiten für dich.", "", "&6So gehts", "Das Handbuch zeigt alles. Rezepte findest du in JEI mit R, Verwendungen mit U. Die Maschinen brauchen Energie (FE) und Maschinengehäuse.", "", "&6Wofür ist das wichtig?", "Im Diamant-Zeitalter wird Industrial Foregoing freigeschaltet."]
 			dependencies: ["63064054BBFD8FB1"]
 			id: "477C49CD2AB49D33"
+			hide_dependency_lines: true
 			title: "Industrial Foregoing"
 			rewards: [{ id: "69F52D2FD87B46AE", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5D26D5493EF7899F", type: "checkmark" }]
@@ -1470,6 +1484,7 @@
 			description: ["&6Was ist das?", "Mit diesem Mod baust du eigene Golems aus Teilen. Sie kämpfen, tragen Waffen und können mit Upgrades verstärkt werden.", "", "&6So gehts", "Rezepte findest du in JEI (R). Ein Golem entsteht aus einem Halter, den du mit den passenden Teilen herstellst.", "", "&6Wofür ist das wichtig?", "Eigene Verteidigung für die Basis und starke Begleiter im Kampf."]
 			dependencies: ["63064054BBFD8FB1"]
 			id: "374FC20CBAA68FAB"
+			hide_dependency_lines: true
 			title: "Modulare Golems"
 			rewards: [{ id: "350D84BA08F9F7E1", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "28D054B14E47B1DC", type: "checkmark" }]
@@ -1520,6 +1535,7 @@
 			dependencies: ["63064054BBFD8FB1"]
 			description: ["&6Was ist das?", "Stahl, der in der Energiekugel aus Eisen und Gold entsteht.", "", "&6So gehts", "Lege einen Eisenbarren und einen Goldbarren in die Energiekugel und lade sie mit Energisierstäben auf.", "", "&6Wofür ist das wichtig?", "Er ist die Zutat der Gehärteten Stufe."]
 			id: "7B81B7909BCD40B9"
+			hide_dependency_lines: true
 			title: "Energiestahl"
 			rewards: [{ id: "3D6C98F8A51F4521", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7CAE321ACB3AA9FB", type: "item", item: { id: "powah:steel_energized", count: 1 }, count: 1L }]

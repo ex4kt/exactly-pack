@@ -23,6 +23,7 @@
 			dependencies: ["093D637910111249"]
 			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar über ein Item.", "Schritt 2: Drücke R, um zu sehen, wie man es herstellt.", "Schritt 3: Drücke U, um zu sehen, wofür man es braucht.", "", "&6So gehts", "Fahre mit der Maus über ein Item und drücke R: So stellst du es her.", "Drücke U: Wofür man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofür ist das wichtig?", "Bei über 400 Mods kennt niemand alle Rezepte. JEI ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W außerdem eine Animation (Ponder)."]
 			id: "76B62C313C1E5D43"
+			hide_dependency_lines: true
 			title: "Rezepte nachschlagen (JEI)"
 			rewards: [{ id: "4E710640F0D99A73", type: "item", item: { id: "minecraft:bread", count: 4 } }]
 			tasks: [{ id: "64C3B366C0CF146C", type: "checkmark" }]
@@ -143,6 +144,7 @@
 			dependencies: ["0394F82571C6DE85"]
 			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Nähe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Blöcke).", "Schritt 2: Öffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und öffne sie.", "JEI-Rezepte mit dem Plus-Knopf füllen sich dann aus den Kisten.", "", "&6Wofür ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt für eine Werkstatt."]
 			id: "000FE9D86692D537"
+			hide_dependency_lines: true
 			title: "Nearby Crafting"
 			rewards: [{ id: "1B0D19B092BFA40E", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "77B1B94E331B5635", type: "item", item: { id: "minecraft:crafting_table", count: 1 }, count: 1L }]
@@ -557,6 +559,7 @@
 			dependencies: ["149718EF5100546D"]
 			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Hälfte der Spieler schlafen.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
 			id: "31E49D7CA0CDCF29"
+			hide_dependency_lines: true
 			title: "Ein Bett für die Nacht"
 			rewards: [{ id: "2CCB051DE9617BB1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
 			tasks: [{ id: "08C0752D3456786D", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
@@ -708,6 +711,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7B7BD9E2CE14267D"
+			hide_dependency_lines: true
 			title: "Stein-Langschwert"
 			rewards: [{ id: "56EE8C09C32B780F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "45FA4774993CDE47", type: "item", item: { id: "weaponsexpanded:stone_longsword", count: 1 }, count: 1L }]
@@ -719,6 +723,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "456E1FF38461CB11"
+			hide_dependency_lines: true
 			title: "Stein-Breitschwert"
 			rewards: [{ id: "0E28426F9C1ECB04", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6AB751F94D6C0558", type: "item", item: { id: "weaponsexpanded:stone_broadsword", count: 1 }, count: 1L }]
@@ -730,6 +735,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7EC7DE08B14CA598"
+			hide_dependency_lines: true
 			title: "Stein-Großschwert"
 			rewards: [{ id: "3730335B3E18D7BC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6FC67CD12C0F5AB8", type: "item", item: { id: "weaponsexpanded:stone_greatsword", count: 1 }, count: 1L }]
@@ -741,6 +747,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "735D8E3285B2AA09"
+			hide_dependency_lines: true
 			title: "Stein-Katana"
 			rewards: [{ id: "38E24995C2CF38FD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "69446A61D26EBD78", type: "item", item: { id: "weaponsexpanded:stone_katana", count: 1 }, count: 1L }]
@@ -752,6 +759,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "138E676E5DB8B364"
+			hide_dependency_lines: true
 			title: "Stein-Kampfaxt"
 			rewards: [{ id: "5B8F5FC6A6ED5F4F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0D4AB543EE42427D", type: "item", item: { id: "weaponsexpanded:stone_battleaxe", count: 1 }, count: 1L }]
@@ -763,6 +771,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3E5CB21B0C884120"
+			hide_dependency_lines: true
 			title: "Stein-Beil"
 			rewards: [{ id: "30F25BA91B2BAB88", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7A879D4049402C52", type: "item", item: { id: "weaponsexpanded:stone_hatchet", count: 1 }, count: 1L }]
@@ -774,6 +783,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "34EF91803174E0E8"
+			hide_dependency_lines: true
 			title: "Stein-Hammer"
 			rewards: [{ id: "37C694394BEC9288", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0E662FD1F3DE8002", type: "item", item: { id: "weaponsexpanded:stone_hammer", count: 1 }, count: 1L }]
@@ -785,6 +795,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3BAC6AAD952DF514"
+			hide_dependency_lines: true
 			title: "Stein-Kriegshammer"
 			rewards: [{ id: "70AD33415798697D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "00045EFB7EF1F738", type: "item", item: { id: "weaponsexpanded:stone_warhammer", count: 1 }, count: 1L }]
@@ -796,6 +807,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3174F2FF37A0A643"
+			hide_dependency_lines: true
 			title: "Stein-Sense"
 			rewards: [{ id: "75E8579D6499C8A6", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "71EF968DA6DE6720", type: "item", item: { id: "weaponsexpanded:stone_scythe", count: 1 }, count: 1L }]
@@ -807,6 +819,7 @@
 			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3AB96FC6D59F8B69"
+			hide_dependency_lines: true
 			title: "Stein-Sichel"
 			rewards: [{ id: "15FC2F83B01B238F", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "625A9B80388D4078", type: "item", item: { id: "weaponsexpanded:stone_sickle", count: 1 }, count: 1L }]
@@ -817,6 +830,7 @@
 			dependencies: ["5A685565E72C4410"]
 			description: ["&6Was ist das?", "Waffen haben eigene Schwünge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination.", "", "&6So gehts", "Halte die linke Maustaste für Kombos.", "Zweihänder treffen mehrere Gegner, zwei Einhandwaffen schlagen abwechselnd.", "", "&6Wofür ist das wichtig?", "Die richtige Waffe für jede Situation."]
 			id: "38A3C7968505D99D"
+			hide_dependent_lines: true
 			title: "Kämpfen mit Better Combat"
 			rewards: [{ id: "646C278F84BC4206", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "2EAD7078FD6AD63A", type: "checkmark" }]
@@ -837,6 +851,7 @@
 			dependencies: ["38A3C7968505D99D"]
 			description: ["&6Was ist das?", "Feuerstein, Stock und Feder ergeben Pfeile.", "", "&6So gehts", "Feuerstein, Stock und Feder untereinander ergeben vier Pfeile.", "", "&6Wofür ist das wichtig?", "Gegen Creeper und Skelette ist Abstand Gold wert."]
 			id: "24B25DD1BE315360"
+			hide_dependency_lines: true
 			title: "Pfeile"
 			rewards: [{ id: "526D5A8636CB1F5C", type: "item", item: { id: "minecraft:flint", count: 8 } }]
 			tasks: [{ id: "26A5EC149F1AB6AF", type: "item", item: { id: "minecraft:arrow", count: 1 }, count: 32L }]
@@ -1166,6 +1181,7 @@
 			dependencies: ["0E282EEACBC50CE7"]
 			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilft bei der Ordnung in großen Lagern."]
 			id: "22DEBBAF902D4BA1"
+			hide_dependency_lines: true
 			title: "Schilder"
 			rewards: [{ id: "441B7533C996B730", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2E4A3E4C07BE5FED", type: "item", item: { id: "minecraft:oak_sign", count: 1 }, count: 2L }]
@@ -1231,6 +1247,7 @@
 			description: ["&6Abschnitt", "Haus und Möbel"]
 			dependencies: ["149718EF5100546D"]
 			id: "70575F278203EA3C"
+			hide_dependency_lines: true
 			title: "Haus und Möbel"
 			optional: true
 			tasks: [{ id: "32DE2EA6AADA3D81", type: "checkmark" }]
@@ -1253,6 +1270,7 @@
 			description: ["&6Abschnitt", "Spielhilfen"]
 			dependencies: ["093D637910111249"]
 			id: "578E0CF31118AD49"
+			hide_dependency_lines: true
 			title: "Spielhilfen"
 			optional: true
 			tasks: [{ id: "3AE5A8DF120CAC9C", type: "checkmark" }]

@@ -72,6 +72,7 @@
 			dependencies: ["32BDB50E970C219C"]
 			description: ["&6Was ist das?", "Im Kochtopf gart man Eintöpfe und Suppen. Stelle ihn auf den Herd und lege Zutaten plus Schüssel hinein.", "", "&6So gehts", "Stelle den Topf auf den Herd.", "Lege bis zu sechs Zutaten und das Gefäß (meist Schüssel) hinein.", "Warte, bis das Gericht fertig ist, und nimm es heraus.", "", "&6Wofür ist das wichtig?", "Topf-Gerichte geben die wichtigen Effekte. Mit Wasser im Topf brauchst du für Suppen kein Wasser extra."]
 			id: "085735849D72954E"
+			hide_dependent_lines: true
 			title: "Kochtopf"
 			rewards: [{ id: "75011DBE68410A93", type: "item", item: { id: "minecraft:bowl", count: 4 } }]
 			tasks: [{ id: "6243EE6995B2025B", type: "item", item: { id: "farmersdelight:cooking_pot", count: 1 }, count: 1L }]
@@ -142,6 +143,7 @@
 			dependencies: ["5C658D7AF84D36C8"]
 			description: ["&6Was ist das?", "Kohl und Zwiebeln wachsen auf Feldern. Du findest Samen in der Wildnis.", "", "&6So gehts", "Wilde Pflanzen findest du an Stränden und Wiesen. Baue sie ab, um Samen zu bekommen.", "Pflanze sie auf Ackerboden.", "", "&6Wofür ist das wichtig?", "Fast alle Salate und Eintöpfe brauchen Gemüse. Lege früh ein Feld an."]
 			id: "49D8EACDFE986051"
+			hide_dependency_lines: true
 			title: "Kohl und Zwiebeln"
 			rewards: [{ id: "3B6E0C6651CF4429", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
 			tasks: [{ id: "1451434409BC882D", type: "item", item: { id: "farmersdelight:cabbage", count: 1 }, count: 4L }]
@@ -182,6 +184,7 @@
 			dependencies: ["2BB55ABC06EFBD94"]
 			description: ["&6Was ist das?", "Ein Messer ist das wichtigste Werkzeug. Damit schneidest du Zutaten, erntest Stroh und holst mehr aus Tieren.", "", "&6So gehts", "Baue ein Messer aus Eisen (oder Feuerstein, Gold, Diamant).", "Mit dem Messer erntest du Stroh von Gras und bekommst mehr Fleisch von Tieren.", "Fortschritt: Feuerstein-Messer, dann Eisen-Messer (braucht das Feuerstein-Messer), dann Diamant-Messer (braucht das Eisen-Messer).", "", "&6Wofür ist das wichtig?", "Ohne Messer kannst du auf dem Schneidebrett kaum etwas schneiden. Stroh brauchst du für Leinwand und Reiche Erde."]
 			id: "04C8E4874DFC3753"
+			hide_dependency_lines: true
 			title: "Messer"
 			rewards: [{ id: "36A771044701E156", type: "item", item: { id: "minecraft:iron_nugget", count: 8 } }]
 			tasks: [{ id: "7C2B0122672B58FD", type: "item", item: { id: "farmersdelight:iron_knife", count: 1 }, count: 1L }]
@@ -342,6 +345,7 @@
 			dependencies: ["2DBF06CA4693E4A2"]
 			description: ["&6Was ist das?", "Rindfleisch mit dem Messer auf dem Schneidebrett zerkleinern.", "", "&6So gehts", "Rohes Fleisch bzw. Fisch auf das Schneidebrett legen und mit dem Messer schneiden.", "", "&6Wofür ist das wichtig?", "Geschnittenes Fleisch kocht schneller, sättigt besser und wird in vielen Rezepten gebraucht."]
 			id: "0DDA127D5E5CDD1C"
+			hide_dependency_lines: true
 			title: "Hackfleisch"
 			rewards: [{ id: "14B00933B9BCE53D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "39C9D621A076D5DD", type: "item", item: { id: "farmersdelight:minced_beef", count: 1 }, count: 2L }]
@@ -452,6 +456,7 @@
 			dependencies: ["32BDB50E970C219C"]
 			description: ["&6Was ist das?", "Teigboden für Kuchen und Torten.", "", "&6So gehts", "Weizenteig, Zucker und Eier verarbeiten. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Ohne Mürbeteig kein Kuchen."]
 			id: "051D59C0F509C3A0"
+			hide_dependency_lines: true
 			title: "Mürbeteig"
 			rewards: [{ id: "46CAE8CFAC3E8D1A", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "15DC38B3AE2167D1", type: "item", item: { id: "farmersdelight:pie_crust", count: 1 }, count: 2L }]
@@ -552,6 +557,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Das Nether hat eigene Zutaten, aus denen du scharfe und nahrhafte Gerichte kochst, zum Beispiel Hoglin-Fleisch und Scharfe Paprika.", "", "&6So gehts", "Du brauchst dafür den Nether-Herd und den Kochtopf. Das genaue Rezept jedes Gerichts zeigt dir JEI (R auf dem Item).", "Gute Zutaten findest du in Bastionen, Hoglin-Gehegen und Paprika-Plantagen im Nether.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "44C95F2396029139"
+			hide_dependency_lines: true
 			title: "Überblick: Nether-Küche"
 			rewards: [{ id: "6E5A0B652C64DEEC", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "1EF026E187155633", type: "checkmark" }]
@@ -634,6 +640,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Enders Delight fügt Gerichte aus Zutaten des Endes hinzu: Chorusfrucht, Endermiten, Shulker und mehr.", "", "&6So gehts", "Du baust zuerst den Ende-Herd. Mit ihm und dem Kochtopf kochst du die Gerichte. Rezepte siehst du in JEI.", "Viele Gerichte geben starke Effekte. Beachte, dass einige Zutaten nur im Ende zu finden sind.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "40B08832AE0BBC78"
+			hide_dependency_lines: true
 			title: "Überblick: Ende-Küche"
 			rewards: [{ id: "1A8E3E9B3CA059E3", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "25F7FA5569C0913A", type: "checkmark" }]
@@ -746,6 +753,7 @@
 			dependencies: ["6F81E1560F8E3640"]
 			description: ["&6Was ist das?", "Der Knusprige Spieß ist ein Ende-Snack.", "", "&6So gehts", "Werkbank (formlos): Endermiten-Kruste, Gepoppte Chorusfrucht, Chorusfrucht und Stock.", "", "&6Wofür ist das wichtig?", "Snack."]
 			id: "0400B810F5A653E1"
+			hide_dependency_lines: true
 			title: "Knuspriger Spieß"
 			rewards: [{ id: "0FE81CA6A0AC2D09", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "0F3DFE639AD2F15F", type: "item", item: { id: "endersdelight:crispy_skewer", count: 1 }, count: 1L }]
@@ -756,6 +764,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Oceans Delight bringt Gerichte aus Meerestieren und Algen: Tintenfisch, Kabeljau, Seetang und mehr.", "", "&6So gehts", "Du fischst oder jagst die Zutaten im Meer, schneidest sie auf dem Schneidebrett und kochst sie im Kochtopf oder in der Pfanne.", "Gerichte aus dem Meer sind oft günstig, aber nahrhaft: gut für Seefahrer.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "6BEEED572995BE64"
+			hide_dependency_lines: true
 			title: "Überblick: Meer und Fisch"
 			rewards: [{ id: "47894C77167ABB55", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "6648E97E43EE6E8C", type: "checkmark" }]
@@ -828,6 +837,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Brewin and Chewin erweitert die Küche um Brauen, Gären und neue Gerichte: Bier, Met, Schnaps, Käse und mehr.", "", "&6So gehts", "Das Fass (Keg) ist das Herz: Du füllst es mit Zutaten und Wasser, nach einiger Zeit ist das Getränk fertig. Ein Humpen nimmt es auf.", "Getränke geben Effekte, aber zu viel kann auch schaden. Ein Wärmebehälter hält Getränke warm.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "03C00E84E4C6F385"
+			hide_dependency_lines: true
 			title: "Überblick: Brauerei und Getränke"
 			rewards: [{ id: "054B83E6434FBBCD", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7D4C772CA206421D", type: "checkmark" }]
@@ -950,6 +960,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Wetland Whimsy bringt Gerichte aus dem Sumpf: Flusskrebse und Gumbo sind die bekanntesten.", "", "&6So gehts", "Fange Flusskrebse im Sumpf, koche sie und bereite damit Gumbo zu. Rezepte siehst du in JEI.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "0E51EACA59F4E34B"
+			hide_dependency_lines: true
 			title: "Überblick: Sumpfküche"
 			rewards: [{ id: "7486C94C6D614D7D", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "2ACC9EAA308166BC", type: "checkmark" }]
@@ -984,6 +995,7 @@
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Alexs Mobs bringt neue Tiere und damit neue Zutaten: Wels, Hummer, Elch, Känguru, Emu und mehr.", "", "&6So gehts", "Jage die Tiere und brate oder koche ihr Fleisch. Mit Farmers Delight bekommst du daraus zusätzliche Gerichte.", "Das Tierbuch im Kapitel Alexs Mobs erklärt, wo du die Tiere findest.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
 			id: "58BFB9C2F70BF4C4"
+			hide_dependency_lines: true
 			title: "Überblick: Tierische Gerichte"
 			rewards: [{ id: "0DD389B5BD815F73", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "5CA8D80D8C37035F", type: "checkmark" }]
@@ -1240,6 +1252,7 @@
 			description: ["&6Was ist das?", "Vinery bringt Weinberge und Weinkeller.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Presse Obst zu Saft und Wein."]
 			icon: { id: "vinery:apple_press" }
 			id: "55F2D261E3BE01B9"
+			hide_dependency_lines: true
 			title: "Apfelpresse"
 			rewards: [{ id: "38D1CAA48E209669", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "08B53F19BFC43630", type: "item", item: { id: "vinery:apple_press", count: 1 }, count: 1L }]
@@ -1295,6 +1308,7 @@
 			description: ["&6Was ist das?", "HerbalBrews bringt Tee und Kaffee.", "", "&6So gehts", "Rezept in JEI nachschlagen und auf eine Hitzequelle stellen.", "", "&6Wofür ist das wichtig?", "Hier werden Aufgüsse gekocht."]
 			icon: { id: "herbalbrews:tea_kettle" }
 			id: "036852F339D18F19"
+			hide_dependency_lines: true
 			title: "Teekessel"
 			rewards: [{ id: "0359BB8D6C240F67", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "660209E2971AF9B2", type: "item", item: { id: "herbalbrews:tea_kettle", count: 1 }, count: 1L }]
@@ -1475,6 +1489,7 @@
 			dependencies: ["5C658D7AF84D36C8"]
 			description: ["&6Was ist das?", "Mit dem Mod AstikorCarts Redux ziehst du Pflug, Sämaschine, Mähbinder und Wagen mit einem Pferd. So bewirtschaftest du große Felder schnell.", "", "&6So gehts", "Die folgenden Quests gehen Schritt für Schritt: Pferd, Sattel, Rad, Pflug, Sämaschine, Mähbinder, Wagen. Die Taste R hängt Gerät und Tier an oder ab (Taste in den Optionen änderbar).", "", "&6Wofür ist das wichtig?", "Mit den Geräten sparst du viel Handarbeit auf großen Feldern."]
 			id: "217BAECEAB45BAF2"
+			hide_dependency_lines: true
 			title: "Überblick: Pferde und Felder"
 			rewards: [{ id: "230F2D17D4471357", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "38E3DBAEC4EF767D", type: "checkmark" }]
