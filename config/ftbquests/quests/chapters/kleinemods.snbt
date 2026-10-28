@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: ["&6Was ist das?", "Zeigt Hunger- und Sättigungswerte beim Essen.", "", "&6So gehts", "Halte Essen in der Hand. Die Hungerleiste zeigt, wie viel es auffüllt.", "", "&6Wofür ist das wichtig?", "Wer gut isst, heilt schneller. Wähle Gerichte mit hoher Sättigung."]
-			dependencies: ["68F82A12D07740B4"]
+			dependencies: []
 			id: "469AEC5C8CB306C2"
 			title: "AppleSkin"
 			rewards: []
@@ -29,18 +29,8 @@
 			y: -1.50d
 		}
 		{
-			description: ["&6Was ist das?", "Neu aufgenommene Items werden hervorgehoben.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Du findest neue Beute schneller."]
-			dependencies: ["150D6238E7801832"]
-			id: "33B184C1866FE734"
-			title: "Highlighter"
-			rewards: []
-			tasks: [{ id: "67273D7ADB4CF11E", type: "checkmark" }]
-			x: 1.50d
-			y: -3.00d
-		}
-		{
 			description: ["&6Was ist das?", "Du siehst deine Items im Boot.", "", "&6So gehts", "Einfach Boot fahren.", "", "&6Wofür ist das wichtig?", "Bessere Übersicht."]
-			dependencies: ["33B184C1866FE734"]
+			dependencies: ["150D6238E7801832"]
 			id: "455FFED230C745BF"
 			title: "Boat View"
 			rewards: []
@@ -342,18 +332,8 @@
 			y: 1.50d
 		}
 		{
-			description: ["&6Was ist das?", "Kleine Bedrock-Funktionen auch in Java.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Bequemere Steuerung."]
-			dependencies: ["2776C2E8D8335938"]
-			id: "45A11044870FAC77"
-			title: "Bedrockoid"
-			rewards: []
-			tasks: [{ id: "131FE5870AEAED18", type: "checkmark" }]
-			x: 4.50d
-			y: 3.00d
-		}
-		{
 			description: ["&6Was ist das?", "Lieblingswelten oben festpinnen.", "", "&6So gehts", "Im Weltmenü auf den Stern klicken.", "", "&6Wofür ist das wichtig?", "Deine Hauptwelt immer oben."]
-			dependencies: ["45A11044870FAC77"]
+			dependencies: ["2776C2E8D8335938"]
 			id: "6EDB33CB2A736061"
 			title: "Cherished Worlds"
 			rewards: []
@@ -362,19 +342,8 @@
 			y: 4.50d
 		}
 		{
-			description: ["&6Was ist das?", "Dorfbewohner haben Namen.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Leichter zu merken, wer welchen Handel hat."]
-			hide_dependency_lines: true
-			dependencies: ["06092362D1A3E215"]
-			id: "5E3263A06D3B78B8"
-			title: "Villager Names"
-			rewards: []
-			tasks: [{ id: "1CF97D4C06BFFC5C", type: "checkmark" }]
-			x: 9.00d
-			y: 0.00d
-		}
-		{
 			description: ["&6Was ist das?", "Dorfbewohner bekommen Wachen, die Monster bekämpfen.", "", "&6So gehts", "Rechtsklick mit Waffe auf eine Wache gibt ihr Ausrüstung.", "", "&6Wofür ist das wichtig?", "Dörfer werden sicherer."]
-			dependencies: ["5E3263A06D3B78B8"]
+			dependencies: ["06092362D1A3E215"]
 			id: "007D41E18FE681D8"
 			title: "Wachen im Dorf"
 			rewards: []
@@ -395,7 +364,7 @@
 		{
 			description: ["&6Was ist das?", "Neue Piglin-Arten im Nether.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofür ist das wichtig?", "Mehr Beute und mehr Gefahr."]
 			hide_dependency_lines: true
-			dependencies: ["5E3263A06D3B78B8"]
+			dependencies: ["06092362D1A3E215"]
 			id: "5C2689CCFF175F64"
 			title: "Piglin Proliferation"
 			rewards: []
@@ -476,18 +445,8 @@
 			y: -7.50d
 		}
 		{
-			description: ["&6Was ist das?", "Fasst Erfahrungskugeln zusammen, das spart Leistung.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Weniger Lag bei Farmen."]
-			dependencies: ["0C0BF7F714DDB8C9"]
-			id: "30636355FD3D2A8F"
-			title: "Clumps"
-			rewards: []
-			tasks: [{ id: "7962AB58C3C44606", type: "checkmark" }]
-			x: 3.00d
-			y: 1.50d
-		}
-		{
 			description: ["&6Was ist das?", "Beim Tod entsteht ein Grab mit deinen Sachen.", "", "&6So gehts", "Koordinaten im Chat lesen und hingehen.", "", "&6Wofür ist das wichtig?", "Du verlierst deine Ausrüstung nicht."]
-			dependencies: ["30636355FD3D2A8F"]
+			dependencies: ["0C0BF7F714DDB8C9"]
 			id: "2FA1270183472115"
 			title: "Youre in Grave Danger"
 			rewards: []
@@ -506,33 +465,14 @@
 			y: 4.50d
 		}
 		{
-			description: ["&6Was ist das?", "Zeigt den Kopf des Spielers neben Chatnachrichten.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Man sieht schneller, wer etwas schreibt."]
-			dependencies: ["00953D7395BC0145"]
-			id: "018DA77B04B3ED2D"
-			title: "Chat Heads"
-			rewards: []
-			tasks: [{ id: "1CF70F79C6B8D9CB", type: "checkmark" }]
-			x: 3.00d
-			y: 6.00d
-		}
-		{
 			description: ["&6Was ist das?", "Neue Tiere und Monster in der Oberwelt, zum Beispiel Krötenwarze, Gorilla, Kakerlake oder Elefant.", "", "&6So gehts", "Erkunde verschiedene Biome. Viele Tiere sind selten und haben besondere Fähigkeiten oder Beute.", "", "&6Wofür ist das wichtig?", "Manche Tiere liefern einzigartige Items. Nutze JEI und das Rezeptbuch Animal Dictionary von Alexs Mobs."]
-			dependencies: ["018DA77B04B3ED2D"]
+			dependencies: ["00953D7395BC0145"]
 			id: "06B55FF9D23EAAE0"
 			title: "Alexs Mobs"
 			rewards: []
 			tasks: [{ id: "45349EC5DAED712D", type: "checkmark" }]
 			x: 3.00d
 			y: 7.50d
-		}
-		{
-			description: ["&6Was ist das?", "Zeigt oben in der Mitte, welchen Block oder welches Tier du ansiehst.", "", "&6So gehts", "Einfach hinschauen.", "", "&6Wofür ist das wichtig?", "Hilft beim Nachschlagen in JEI und zeigt den Fortschritt von Maschinen."]
-			id: "68F82A12D07740B4"
-			title: "Jade"
-			rewards: []
-			tasks: [{ id: "6BCE53F97A1301F0", type: "checkmark" }]
-			x: 0.00d
-			y: 0.00d
 		}
 		{
 			description: ["&6Was ist das?", "BetterF3 zeigt den F3-Bildschirm übersichtlich.", "", "&6So gehts", "F3 drücken.", "", "&6Wofür ist das wichtig?", "Koordinaten und Werte auf einen Blick."]
@@ -546,31 +486,9 @@
 			y: 7.50d
 		}
 		{
-			description: ["&6Was ist das?", "Sounds ersetzt viele Spielgeräusche durch bessere.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Mehr Atmosphäre."]
-			icon: { id: "minecraft:note_block" }
-			dependencies: ["228E5B8CE0AB12B5"]
-			id: "3CD8EDA038A1A0D4"
-			title: "Neue Klänge (Sounds)"
-			rewards: []
-			tasks: [{ id: "18C173E55ED403BB", type: "checkmark" }]
-			x: 1.50d
-			y: 9.00d
-		}
-		{
-			description: ["&6Was ist das?", "Fügt Hintergrundgeräusche der Natur hinzu.", "", "&6So gehts", "Passiert automatisch.", "", "&6Wofür ist das wichtig?", "Wälder, Höhlen und Meer klingen lebendig."]
-			icon: { id: "minecraft:jukebox" }
-			dependencies: ["3CD8EDA038A1A0D4"]
-			id: "58DB6795D4531174"
-			title: "Umgebungsklänge (AmbientSounds)"
-			rewards: []
-			tasks: [{ id: "7A15A6D0A5687658", type: "checkmark" }]
-			x: 1.50d
-			y: 10.50d
-		}
-		{
 			description: ["&6Was ist das?", "Mit den Elytren kannst du rollen.", "", "&6So gehts", "Beim Fliegen die Rolltasten benutzen.", "", "&6Wofür ist das wichtig?", "Wendigeres Fliegen."]
 			icon: { id: "minecraft:elytra" }
-			dependencies: ["58DB6795D4531174"]
+			dependencies: ["228E5B8CE0AB12B5"]
 			id: "2A52207D32539331"
 			title: "Fassrolle (Do a Barrel Roll)"
 			rewards: []

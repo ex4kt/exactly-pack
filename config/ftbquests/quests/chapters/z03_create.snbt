@@ -631,28 +631,6 @@
 		}
 		{
 			dependencies: ["734080D5DB50FC77"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
-			icon: { id: "create:cardboard_sword" }
-			id: "2552113832B9F44F"
-			title: "Cardboard Sword"
-			rewards: []
-			tasks: [{ id: "5CE87689EB7ADBE2", type: "item", item: { id: "create:cardboard_sword", count: 1 }, count: 1L }]
-			x: 16.50d
-			y: 9.00d
-		}
-		{
-			dependencies: ["2552113832B9F44F"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
-			icon: { id: "create_tools_n_weapons:gear_sword" }
-			id: "28EEF26F2B9816D5"
-			title: "Gear Sword"
-			rewards: []
-			tasks: [{ id: "4A219A66FEC0C4AB", type: "item", item: { id: "create_tools_n_weapons:gear_sword", count: 1 }, count: 1L }]
-			x: 18.00d
-			y: 9.00d
-		}
-		{
-			dependencies: ["28EEF26F2B9816D5"]
 			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke aus Create-Zahnrädern.", "Aus der Mod Create Tools and Weapons.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "create_tools_n_weapons:gear_pickaxe" }
 			id: "6952463C19F65C09"
@@ -660,28 +638,6 @@
 			rewards: []
 			tasks: [{ id: "64728F842235277D", type: "checkmark" }]
 			x: 19.50d
-			y: 9.00d
-		}
-		{
-			dependencies: ["6952463C19F65C09"]
-			description: ["&6Was ist das?", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
-			icon: { id: "create:wand_of_symmetry" }
-			id: "54FB8CF24168952C"
-			title: "Wand Of Symmetry"
-			rewards: []
-			tasks: [{ id: "41095051A2FDE6C5", type: "checkmark" }]
-			x: 21.00d
-			y: 9.00d
-		}
-		{
-			dependencies: ["54FB8CF24168952C"]
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
-			icon: { id: "create:cardboard_chestplate" }
-			id: "549DF4434F7B80D0"
-			title: "Cardboard (Rüstung)"
-			rewards: []
-			tasks: [{ id: "3BB8CCF3A85D96CC", type: "checkmark" }]
-			x: 22.50d
 			y: 9.00d
 		}
 		{
@@ -1296,28 +1252,6 @@
 			tasks: [{ id: "0B54225CD8914B0A", type: "checkmark" }]
 			x: 19.50d
 			y: 0.00d
-		}
-		{
-			dependencies: ["0BEB27DE8EEBEB86"]
-			description: ["&6Was ist das?", "Teile: Helm, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Create.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
-			icon: { id: "create:copper_diving_helmet" }
-			id: "6A5C3D81E42B8620"
-			title: "Copper Diving (Rüstung)"
-			rewards: []
-			tasks: [{ id: "242161B7DC317E70", type: "checkmark" }]
-			x: 31.50d
-			y: -2.25d
-		}
-		{
-			dependencies: ["6A5C3D81E42B8620"]
-			description: ["&6Was ist das?", "Teile: Helm, Brustplatte, Hose, Stiefel.", "Rezept oder Fundort siehe JEI (Item anklicken, R bzw. U drücken).", "Aus der Mod Immersive Armors.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
-			icon: { id: "immersive_armors:steampunk_chestplate" }
-			id: "2E91729FFF7D076E"
-			title: "Steampunk (Rüstung)"
-			rewards: []
-			tasks: [{ id: "26BD3419094064F8", type: "checkmark" }]
-			x: 33.00d
-			y: -2.25d
 		}
 		{
 			dependencies: ["2A387C8C57120E88"]

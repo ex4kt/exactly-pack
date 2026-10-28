@@ -64,17 +64,6 @@
 		}
 		{
 			dependencies: ["4DDCE2A848B64EE7", "383D2644464FE272"]
-			description: ["&6Was ist das?", "Die einfachste Schusswaffe, mit Feuerzeug gezündet.", "", "&6So gehts", "Rezept in JEI nachschlagen. Kugeln müssen geladen werden.", "", "&6Wofür ist das wichtig?", "Dein Einstieg in Schusswaffen."]
-			icon: { id: "irons_artifice:flintlock" }
-			id: "544B72A302A4853A"
-			title: "Steinschlosspistole"
-			rewards: [{ id: "53944785876E01D7", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "5462BF23125BE216", type: "item", item: { id: "irons_artifice:flintlock", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["544B72A302A4853A", "383D2644464FE272"]
 			description: ["&6Was ist das?", "Ein Gewehr mit viel Reichweite.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Gut für weite Schüsse. Freigeschaltet in der Eisenzeit."]
 			icon: { id: "irons_artifice:musket" }
 			id: "5737614F7F609207"
@@ -82,61 +71,6 @@
 			rewards: [{ id: "2652E1F91B474C08", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "782AD7F236C0D8B6", type: "item", item: { id: "irons_artifice:musket", count: 1 }, count: 1L }]
 			x: 3.00d
-			y: 0.00d
-		}
-		{
-			dependencies: ["5737614F7F609207", "383D2644464FE272"]
-			description: ["&6Was ist das?", "Eine Schrotflinte aus alter Zeit.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Stark auf kurze Distanz."]
-			icon: { id: "irons_artifice:blunderbuss" }
-			id: "5BC91A09D8983D16"
-			title: "Donnerbüchse"
-			rewards: [{ id: "0467A649CAE6A5AC", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "083ABD4A124B39D4", type: "item", item: { id: "irons_artifice:blunderbuss", count: 1 }, count: 1L }]
-			x: 4.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["5BC91A09D8983D16", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Ein Revolver mit mehreren Kammern.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Schnell nachladbar. Freigeschaltet im Nether-Zeitalter."]
-			icon: { id: "irons_artifice:blackpowder_revolver" }
-			id: "4C43C3A73F4C800C"
-			title: "Revolver"
-			rewards: [{ id: "48ED354B9C4F1542", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "0C99FA53B02D7453", type: "item", item: { id: "irons_artifice:blackpowder_revolver", count: 1 }, count: 1L }]
-			x: 6.00d
-			y: 0.00d
-		}
-		{
-			dependencies: ["4C43C3A73F4C800C", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Der klassische Sechsschüsser.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Sechs Schuss, ohne Pulver im Rezept."]
-			icon: { id: "irons_artifice:six_shooter" }
-			id: "4FCEC771EE791BA6"
-			title: "Sechsschüsser"
-			rewards: [{ id: "1A4B226D64C6AA14", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "5C58BD749EEF2A61", type: "item", item: { id: "irons_artifice:six_shooter", count: 1 }, count: 1L }]
-			x: 7.50d
-			y: 0.00d
-		}
-		{
-			dependencies: ["4FCEC771EE791BA6", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Eine schwere Waffe mit Uhrwerk.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Viel Schaden, langsam. Freigeschaltet im Nether-Zeitalter."]
-			icon: { id: "irons_artifice:arquebus" }
-			id: "12334266F199E4EA"
-			title: "Arkebuse"
-			rewards: [{ id: "21E8FD25FAB548D0", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "46BC6780CDF4776F", type: "item", item: { id: "irons_artifice:arquebus", count: 1 }, count: 1L }]
-			x: 9.00d
-			y: 0.00d
-		}
-		{
-			dependencies: ["12334266F199E4EA", "4EA7B6B983C1C0EE"]
-			description: ["&6Was ist das?", "Das beste Gewehr, mit Netherite gebaut.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Meister-Zeitalter."]
-			icon: { id: "irons_artifice:clockwork_rifle" }
-			id: "3DC6B70A021C8DCC"
-			title: "Uhrwerk-Gewehr"
-			rewards: [{ id: "745646531263096F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "1DE5EE3FBE5B75AE", type: "item", item: { id: "irons_artifice:clockwork_rifle", count: 1 }, count: 1L }]
-			x: 10.50d
 			y: 0.00d
 		}
 		{
@@ -193,28 +127,6 @@
 			tasks: [{ id: "23E7FB14A7D06F96", type: "item", item: { id: "irons_artifice:incendiary_tip_modifier", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: -1.50d
-		}
-		{
-			dependencies: ["4DDCE2A848B64EE7", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Der Hut lädt deine Waffe nach einem Kill sofort nach.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufsetzen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
-			icon: { id: "irons_artifice:cowboy_hat" }
-			id: "030CCE7A520E113E"
-			title: "Cowboyhut"
-			rewards: [{ id: "5C2089A7DAD905D4", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "7A5834534438D7A7", type: "item", item: { id: "irons_artifice:cowboy_hat", count: 1 }, count: 1L }]
-			x: 1.50d
-			y: -4.50d
-		}
-		{
-			dependencies: ["030CCE7A520E113E", "3289CBE6B6A936DA"]
-			description: ["&6Was ist das?", "Der erste Schuss aus vollem Magazin macht mehr Schaden.", "", "&6So gehts", "Rezept in JEI nachschlagen und aufsetzen.", "", "&6Wofür ist das wichtig?", "Freigeschaltet im Nether-Zeitalter."]
-			icon: { id: "irons_artifice:tricorne" }
-			id: "11D76550837502E5"
-			title: "Dreispitz"
-			rewards: [{ id: "23939DA872D0EA76", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "171283DD35B8A287", type: "item", item: { id: "irons_artifice:tricorne", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: -4.50d
 		}
 	]
 }
