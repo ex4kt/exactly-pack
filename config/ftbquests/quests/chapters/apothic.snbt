@@ -318,12 +318,12 @@
 		}
 		{
 			dependencies: ["77F16701FD710E9F"]
-			description: ["&6Was ist das?", "Das erfüllte Tiefenregal, die höchste Stufe der Tiefen-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst seltene Zutaten aus den Tiefen.", "", "&6Wofür ist das wichtig?", "Für die stärksten Verzauberungen am Tisch."]
+			description: ["&6Was ist das?", "Dieses Regal gibt es in dieser Version des Mods nicht. Die anderen Tiefenregale hast du schon. Hake die Quest einfach ab.", "", "&6So gehts", "Hake die Quest ab, es ist nichts zu tun.", "", "&6Wofür ist das wichtig?", "Die Quest bleibt nur wegen der Reihenfolge im Kapitel."]
 			icon: { id: "apothic_enchanting:echoing_deepshelf" }
 			id: "1068BF974B3CF68E"
 			title: "Erfülltes Tiefenregal"
 			rewards: [{ id: "3AFD309C6BEA75BA", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "49F1829EA76FD76F", type: "item", item: { id: "apothic_enchanting:infused_deepshelf", count: 1 }, count: 1L }]
+			tasks: [{ id: "49F1829EA76FD76F", type: "checkmark" }]
 			x: 13.50d
 			y: -4.50d
 		}
@@ -385,12 +385,12 @@
 		}
 		{
 			dependencies: ["6B7A3E221F2BC4CA"]
-			description: ["&6Was ist das?", "Das erfüllte Endregal, die höchste Stufe der End-Regale.", "", "&6So gehts", "Rezept in JEI nachschlagen. Du brauchst seltene Zutaten aus dem Ende, zum Beispiel Erfüllten Atem.", "", "&6Wofür ist das wichtig?", "Für die allerstärksten Verzauberungen am Tisch."]
+			description: ["&6Was ist das?", "Dieses Regal gibt es in dieser Version des Mods nicht. Die anderen Endregale hast du schon. Hake die Quest einfach ab.", "", "&6So gehts", "Hake die Quest ab, es ist nichts zu tun.", "", "&6Wofür ist das wichtig?", "Die Quest bleibt nur wegen der Reihenfolge im Kapitel."]
 			icon: { id: "apothic_enchanting:draconic_endshelf" }
 			id: "7E8A4C888E9CEA2A"
 			title: "Erfülltes Endregal"
 			rewards: [{ id: "5218A2FF7319E08C", type: "xp_levels", xp_levels: 4 }]
-			tasks: [{ id: "6ABC51607898C16F", type: "item", item: { id: "apothic_enchanting:infused_endshelf", count: 1 }, count: 1L }]
+			tasks: [{ id: "6ABC51607898C16F", type: "checkmark" }]
 			x: 13.50d
 			y: 3.00d
 		}

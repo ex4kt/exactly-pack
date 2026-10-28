@@ -1457,12 +1457,12 @@
 			y: -12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Speichert riesige Mengen eines Items in einem Block.", "", "&6So gehts", "Mit Black Hole Controller lässt er sich in Maschinen und Rohre einbinden.", "", "&6Wofür ist das wichtig?", "Ideal als Lager für Farm-Erträge."]
+			description: ["&6Was ist das?", "Diese Speichereinheit gibt es in dieser Version nicht. Schau in JEI nach den anderen Black-Hole-Speichern und hake die Quest ab.", "", "&6So gehts", "Hake die Quest ab, es ist nichts zu tun.", "", "&6Wofür ist das wichtig?", "Die Quest bleibt nur wegen der Reihenfolge im Kapitel."]
 			dependencies: ["7C2004FF186EB52A"]
 			id: "4B29DF76AF2924F9"
 			title: "Black-Hole-Speicher"
 			rewards: [{ id: "3383A93FC496FAC8", type: "xp_levels", xp_levels: 9 }]
-			tasks: [{ id: "57BD9A9631ED736B", type: "item", item: { id: "industrialforegoing:pity_black_hole_unit", count: 1 }, count: 1L }]
+			tasks: [{ id: "57BD9A9631ED736B", type: "checkmark" }]
 			x: 10.50d
 			y: -12.000d
 		}

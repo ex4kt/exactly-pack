@@ -919,11 +919,11 @@
 		}
 		{
 			dependencies: ["76F11D27CBE5A57F"]
-			description: ["&6Was ist das?", "Ein seltenes magisches Erz.", "", "&6So gehts", "Baue es in tiefen Höhlen ab, wo magische Energie spürbar ist.", "", "&6Wofür ist das wichtig?", "Daraus entstehen arkane Barren für starke Ausrüstung."]
+			description: ["&6Was ist das?", "Arkaner Schutt ist in dieser Version kein Item. Hake die Quest einfach ab.", "", "&6So gehts", "Hake die Quest ab, es ist nichts zu tun.", "", "&6Wofür ist das wichtig?", "Die Quest bleibt nur wegen der Reihenfolge im Kapitel."]
 			id: "73033216D53F2EEC"
 			title: "Arkaner Schutt"
 			rewards: [{ id: "2CE9CA3FE6928A43", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6E2E97A4BE85CD48", type: "item", item: { id: "irons_spellbooks:arcane_debris", count: 1 }, count: 2L }]
+			tasks: [{ id: "6E2E97A4BE85CD48", type: "checkmark" }]
 			x: 10.50d
 			y: -1.50d
 		}
