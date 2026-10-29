@@ -15,8 +15,15 @@ if (-not $Test -and $PSCommandPath -and ((Split-Path $PSCommandPath -Leaf) -ne '
 
 function Hole-Remote {
     try {
+        # raw.githubusercontent.com liefert Minuten lang eine alte pack.toml aus (CDN-Cache, Query hilft nicht);
+        # die API liefert immer den aktuellen Stand, raw bleibt nur als Notnagel.
         $h = @{ 'Cache-Control' = 'no-cache'; 'User-Agent' = 'exactly-start' }
-        $r = Invoke-WebRequest -Uri ($PackUrl + '?t=' + [DateTime]::UtcNow.Ticks) -Headers $h -UseBasicParsing -TimeoutSec 20
+        try {
+            $r = Invoke-WebRequest -Uri 'https://api.github.com/repos/ex4kt/exactly-pack/contents/pack.toml?ref=main' -Headers ($h + @{ 'Accept' = 'application/vnd.github.raw' }) -UseBasicParsing -TimeoutSec 20
+        } catch {
+            $r = Invoke-WebRequest -Uri ($PackUrl + '?t=' + [DateTime]::UtcNow.Ticks) -Headers $h -UseBasicParsing -TimeoutSec 20
+        }
+        if ($r.Content -is [byte[]]) { $r | Add-Member -Force NoteProperty Content ([Text.Encoding]::UTF8.GetString($r.Content)) }
         $bytes = [Text.Encoding]::UTF8.GetBytes($r.Content)
         $sha = [BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash($bytes)).Replace('-', '').ToLower()
         $v = ([regex]::Match($r.Content, '(?m)^version\s*=\s*"([^"]+)"')).Groups[1].Value
@@ -35,35 +42,6 @@ function Pruefen {
     if (-not $remote) { return @{ Status = 'offline'; Lokal = $lokal; Neu = '' } }
     if ($remote.Hash -eq (Lokaler-Hash)) { return @{ Status = 'aktuell'; Lokal = $remote.Version; Neu = $remote.Version } }
     return @{ Status = 'alt'; Lokal = $lokal; Neu = $remote.Version }
-}
-
-# Tastenbelegung des Packs (config\exactly_tasten.txt) einmal je "# stand N" in die gemeinsame options.txt eintragen.
-# Static Options legt die options.txt in %APPDATA%\.minecraft ab, deshalb kommen neue Standardwerte sonst nur bei Neuinstallationen an.
-# Schlaegt etwas fehl, passiert nichts (der Start wird nie blockiert); laeuft schon ein Minecraft, wird auf den naechsten Start gewartet.
-function Wende-Tasten($liste = (Join-Path (Get-Location) 'config\exactly_tasten.txt'), $opt = (Join-Path $env:APPDATA '.minecraft\options.txt'), $marke = (Join-Path $env:APPDATA '.minecraft\exactly_tasten_stand.txt')) {
-    try {
-        if (-not (Test-Path $liste) -or -not (Test-Path $opt)) { return 'keine Datei' }
-        if (Get-Process javaw -ErrorAction SilentlyContinue) { return 'Minecraft laeuft' }
-        $utf8 = New-Object Text.UTF8Encoding $false
-        $zeilen = [IO.File]::ReadAllLines($liste, $utf8)
-        $stand = ([regex]::Match(($zeilen -join "`n"), '(?m)^# stand (\d+)')).Groups[1].Value
-        if (-not $stand) { return 'kein Stand' }
-        if ((Test-Path $marke) -and ([IO.File]::ReadAllText($marke).Trim() -eq $stand)) { return 'schon angewendet' }
-        $neu = [ordered]@{}
-        foreach ($z in $zeilen) { if ($z -match '^(key_[^:\s]+):') { $neu[$Matches[1]] = $z.Trim() } }
-        $alt = [IO.File]::ReadAllLines($opt, $utf8)
-        $aus = New-Object System.Collections.Generic.List[string]
-        $benutzt = @{}
-        foreach ($z in $alt) {
-            if ($z -match '^(key_[^:\s]+):' -and $neu.Contains($Matches[1])) { $aus.Add($neu[$Matches[1]]); $benutzt[$Matches[1]] = $true } else { $aus.Add($z) }
-        }
-        foreach ($n in $neu.Keys) { if (-not $benutzt.ContainsKey($n)) { $aus.Add($neu[$n]) } }
-        $sicherung = $opt + '.vor_tasten'
-        if (-not (Test-Path $sicherung)) { Copy-Item $opt $sicherung -Force }
-        [IO.File]::WriteAllText($opt, (($aus -join "`n") + "`n"), $utf8)
-        [IO.File]::WriteAllText($marke, $stand, $utf8)
-        return ('angewendet: ' + $neu.Count)
-    } catch { return ('Fehler: ' + $_.Exception.Message) }
 }
 
 if ($Test) { Pruefen | ConvertTo-Json; exit 0 }
@@ -146,4 +124,4 @@ $bStart.Add_Click({ $script:ok = $true; $form.Close() })
 $bEnde.Add_Click({ $form.Close() })
 $form.Add_Shown({ $form.Activate(); Neu-Pruefen })
 [void]$form.ShowDialog()
-if ($script:ok) { [void](Wende-Tasten); exit 0 } else { exit 1 }
+if ($script:ok) { exit 0 } else { exit 1 }
