@@ -102,7 +102,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Stöcke sind Griffe für Werkzeuge, Fackeln und vieles mehr.", "", "&6So gehts", "Zwei Bretter übereinander in der Werkbank ergeben vier Stöcke.", "", "&6Wofür ist das wichtig?", "Achtung Fortschritt: Bessere Werkzeuge brauchen später statt eines Stocks das Werkzeug der vorherigen Stufe."]
+			description: ["&6Was ist das?", "Stöcke sind Griffe für Werkzeuge, Fackeln und vieles mehr.", "", "&6So gehts", "Zwei Bretter übereinander in der Werkbank ergeben vier Stöcke.", "", "&6Wofür ist das wichtig?"]
 			id: "3DE40AEC331BBC59"
 			title: "Stöcke"
 			rewards: [{ id: "6F12A1481B3EF6AF", type: "xp_levels", xp_levels: 1 }]
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "Fortschritt: Werkzeuge und Waffen baust du Stufe für Stufe. Holz, dann Stein, dann Eisen, dann Diamant. Jede Stufe braucht das Werkzeug der vorherigen im Rezept, also wirf alte Werkzeuge nicht weg.", "", "&6Wofür ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Später: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Nähe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das grüne Rezeptbuch neben dem Raster legt die Zutaten für bekannte Rezepte automatisch aus."]
+			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "", "&6Wofür ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Später: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Nähe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das grüne Rezeptbuch neben dem Raster legt die Zutaten für bekannte Rezepte automatisch aus."]
 			id: "0394F82571C6DE85"
 			title: "Werkbank bauen"
 			rewards: [{ id: "6EED97054AD334F5", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
@@ -312,7 +312,7 @@
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Die Steinspitzhacke baut Eisen- und Kupfererz ab.", "", "&6So gehts", "Drei Bruchstein, darunter die Holzspitzhacke und ein Stock. Jede Stufe braucht das Werkzeug der vorherigen Stufe.", "", "&6Wofür ist das wichtig?", "Ohne Steinspitzhacke kein Eisen und damit keine Eisenzeit.", "", "&6Gut zu wissen", "Mit ihr baust du Kupfer- und Eisenerz ab. Diamanten brauchen mindestens eine Eisenspitzhacke."]
+			description: ["&6Was ist das?", "Die Steinspitzhacke baut Eisen- und Kupfererz ab.", "", "&6So gehts", "Drei Bruchstein, darunter zwei Stöcke.", "", "&6Wofür ist das wichtig?", "Ohne Steinspitzhacke kein Eisen und damit keine Eisenzeit.", "", "&6Gut zu wissen", "Mit ihr baust du Kupfer- und Eisenerz ab. Diamanten brauchen mindestens eine Eisenspitzhacke."]
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "502C61E3409EAEDC"
 			title: "Steinspitzhacke"
@@ -708,7 +708,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7B7BD9E2CE14267D"
 			hide_dependency_lines: true
@@ -720,7 +720,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "456E1FF38461CB11"
 			hide_dependency_lines: true
@@ -732,7 +732,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7EC7DE08B14CA598"
 			hide_dependency_lines: true
@@ -744,7 +744,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "735D8E3285B2AA09"
 			hide_dependency_lines: true
@@ -756,7 +756,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "138E676E5DB8B364"
 			hide_dependency_lines: true
@@ -768,7 +768,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3E5CB21B0C884120"
 			hide_dependency_lines: true
@@ -780,7 +780,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "34EF91803174E0E8"
 			hide_dependency_lines: true
@@ -792,7 +792,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3BAC6AAD952DF514"
 			hide_dependency_lines: true
@@ -804,7 +804,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3174F2FF37A0A643"
 			hide_dependency_lines: true
@@ -816,7 +816,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R. Statt eines Stocks gehört ein Steinschwert ins Rezept.", "Ohne das normale Schwert dieser Stufe kannst du die Waffe nicht craften.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3AB96FC6D59F8B69"
 			hide_dependency_lines: true
@@ -1014,7 +1014,7 @@
 		}
 		{
 			dependencies: ["60B557A4BAD57D69"]
-			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Stärke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Stärke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:bow" }
 			id: "55EF779DF279FBD5"
 			title: "Bogen (Arsenal)"
@@ -1025,7 +1025,7 @@
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "04C68043BDC78DC0"
 			title: "Werkzeug-Set Stein"
@@ -1036,7 +1036,7 @@
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
-			description: ["&6Was ist das?", "Fische und Schätze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Fische und Schätze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:fishing_rod" }
 			id: "45D11842B4FCB827"
 			title: "Angel"
@@ -1047,7 +1047,7 @@
 		}
 		{
 			dependencies: ["45D11842B4FCB827"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:wooden_pickaxe" }
 			id: "0EC84BEA5DC43552"
 			title: "Werkzeug-Set Holz"

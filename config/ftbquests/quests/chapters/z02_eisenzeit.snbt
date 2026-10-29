@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["56184FBD96403098"]
-			description: ["&6Was ist das?", "Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen.", "", "&6So gehts", "Eisenerz schmelzen. Eisenspitzhacke: drei Eisenbarren, darunter die Steinspitzhacke und ein Stock.", "Fortschritt: Jede Stufe braucht das Werkzeug der vorherigen Stufe. Es ersetzt im Rezept den obersten Stock, direkt unter dem Kopf. JEI zeigt dir das genaue Rezept.", "", "&6Wofür ist das wichtig?", "Erst mit einer Eisenspitzhacke kannst du Gold, Redstone und Diamanten abbauen.", "", "&6Gut zu wissen", "Eisen hält rund doppelt so lange wie Stein (250 gegen 131 Nutzungen) und ist die Voraussetzung für Diamanten."]
+			description: ["&6Was ist das?", "Eine Eisenspitzhacke baut Diamanten ab. Schmelze Eisenerz im Ofen.", "", "&6So gehts", "Eisenerz schmelzen. Eisenspitzhacke: drei Eisenbarren, darunter zwei Stöcke.", "", "&6Wofür ist das wichtig?", "Erst mit einer Eisenspitzhacke kannst du Gold, Redstone und Diamanten abbauen.", "", "&6Gut zu wissen", "Eisen hält rund doppelt so lange wie Stein (250 gegen 131 Nutzungen) und ist die Voraussetzung für Diamanten."]
 			id: "269F5FBF41678363"
 			title: "Eisenwerkzeuge"
 			rewards: [{ id: "523FC697668E6553", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -780,7 +780,7 @@
 		}
 		{
 			dependencies: ["59E93DB37E085659"]
-			description: ["&6Was ist das?", "Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenübersicht an.", "", "&6So gehts", "Rezepte in JEI.", "Fortschritt: Die Eisen-Variante jeder Waffenart braucht ein Eisenschwert, die Diamant-Variante die Eisen-Variante derselben Art. Netherit und Runic wertest du am Schmiedetisch auf.", "", "&6Wofür ist das wichtig?", "Viele Waffen mit besonderen Fähigkeiten."]
+			description: ["&6Was ist das?", "Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenübersicht an.", "", "&6So gehts", "Rezepte in JEI.", "", "&6Wofür ist das wichtig?", "Viele Waffen mit besonderen Fähigkeiten."]
 			id: "68E6E846CD4EBF8F"
 			title: "Simply Swords"
 			rewards: [{ id: "5F4DE647EF40C25D", type: "xp_levels", xp_levels: 3 }]
@@ -914,7 +914,7 @@
 		}
 		{
 			dependencies: ["1953A324EE9E6A13"]
-			description: ["&6Was ist das?", "Holz, Stein, Eisen, Gold, Diamant, Netherit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Holz, Stein, Eisen, Gold, Diamant, Netherit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:iron_sword" }
 			id: "29B2E131BE9306F9"
 			hide_dependency_lines: true
@@ -926,7 +926,7 @@
 		}
 		{
 			dependencies: ["1953A324EE9E6A13"]
-			description: ["&6Was ist das?", "Schießt Pfeile und Feuerwerksraketen.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Fortschritt: Schwerter von Vanilla, Aether und Simply Swords baust du Stufe für Stufe. Die nächste Stufe braucht die vorherige Waffe im Rezept.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Schießt Pfeile und Feuerwerksraketen.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:crossbow" }
 			id: "6629FC4CC3C6B6A9"
 			title: "Armbrust"
@@ -1003,7 +1003,7 @@
 		}
 		{
 			dependencies: ["5976031F6573C330"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:iron_pickaxe" }
 			id: "7EE92A0700879328"
 			title: "Werkzeug-Set Eisen"
@@ -1014,7 +1014,7 @@
 		}
 		{
 			dependencies: ["5976031F6573C330"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:golden_pickaxe" }
 			id: "1AE31944EF6F97EE"
 			title: "Werkzeug-Set Gold"
@@ -1025,7 +1025,7 @@
 		}
 		{
 			dependencies: ["5976031F6573C330"]
-			description: ["&6Was ist das?", "Für Wolle, Blätter und Spinnweben.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Fortschritt: Holz, Stein, Eisen, Diamant (und im Aether Skyroot, Holystone, Zanit, Gravitit). Jede Stufe braucht das Werkzeug der vorherigen im Rezept. Netherit und Advanced Netherite wertest du am Schmiedetisch auf.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Für Wolle, Blätter und Spinnweben.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:shears" }
 			id: "36E364EF6A8F0098"
 			title: "Schere (Arsenal)"
