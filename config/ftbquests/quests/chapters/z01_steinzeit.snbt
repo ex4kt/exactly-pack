@@ -52,7 +52,7 @@
 		}
 		{
 			dependencies: ["0B043FE1AA795723"]
-			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Drücke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, M Karte, N Wegpunkte, R und U in JEI.", "", "&6Wofür ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
+			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Drücke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, H Zubehör, M Karte, N Wegpunkte, R und U in JEI.", "Im Questbuch (U) oben rechts die Nadel: aktuelle Quests am Bildrand.", "", "&6Wofür ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
 			id: "7E73FC1903ABEE32"
 			title: "Tastenbelegung suchen"
 			rewards: [{ id: "4A9AF60C1862B667", type: "xp_levels", xp_levels: 2 }]
@@ -214,7 +214,7 @@
 		}
 		{
 			dependencies: ["5272DD27B136C7A6"]
-			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Rezepte in JEI mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
+			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 4x Eichenbretter (ergibt 2) (Muster in JEI, Taste R).", "Rezepte in JEI mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
 			icon: { id: "mcwdoors:oak_barn_door" }
 			id: "5221BB44D526AC25"
 			title: "Macaw-Türen"
@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["5221BB44D526AC25"]
-			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezepte in JEI mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
+			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezept: Werkbank (formlos): Eichenholzhängebrückentreppe (Muster in JEI, Taste R).", "Rezepte in JEI mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
 			icon: { id: "mcwbridges:rope_oak_bridge" }
 			id: "436CBA5BC0B154F4"
 			title: "Seilbrücke"
@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["436CBA5BC0B154F4"]
-			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Rezepte in JEI mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
+			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Rezept: Werkbank: 3x Eichenbretter, 2x Stock (ergibt 3) (Muster in JEI, Taste R).", "Rezepte in JEI mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
 			icon: { id: "another_furniture:oak_chair" }
 			id: "371AC58069078D46"
 			title: "Gemütliche Möbel"
@@ -247,7 +247,7 @@
 		}
 		{
 			dependencies: ["371AC58069078D46"]
-			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Rezepte in JEI mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
+			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Rezept: Werkbank: 2x Eichenstamm, Stock (ergibt 2) (Muster in JEI, Taste R).", "Rezepte in JEI mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
 			icon: { id: "mcwroofs:oak_roof" }
 			id: "47291DA3B6CE9A9E"
 			title: "Macaw-Dach"
@@ -403,7 +403,7 @@
 		}
 		{
 			dependencies: ["3717959A07B50B2B"]
-			description: ["&6Was ist das?", "Just Hammers: Der Hammer baut 3x3 Blöcke auf einmal ab.", "", "&6So gehts", "Rezept in JEI. Schaue beim Abbauen auf eine Wand, der Hammer nimmt das ganze Quadrat.", "", "&6Wofür ist das wichtig?", "Tunnel und Abbauflächen gehen viel schneller. Später gibt es Eisen- und Diamanthammer."]
+			description: ["&6Was ist das?", "Just Hammers: Der Hammer baut 3x3 Blöcke auf einmal ab.", "", "&6So gehts", "Rezept: Werkbank: 3x Stein, 3x Stock (Muster in JEI, Taste R).", "Schaue beim Abbauen auf eine Wand, der Hammer nimmt das ganze Quadrat.", "", "&6Wofür ist das wichtig?", "Tunnel und Abbauflächen gehen viel schneller. Später gibt es Eisen- und Diamanthammer."]
 			icon: { id: "justhammers:stone_hammer" }
 			id: "06846FECFE8200C1"
 			title: "Steinhammer"
@@ -505,7 +505,7 @@
 		}
 		{
 			dependencies: ["434B0242196341B0"]
-			description: ["&6Was ist das?", "Serene Seasons: Frühling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Der Kalender zeigt die aktuelle Jahreszeit.", "In JEI siehst du beim Samen, wann er wächst.", "Im Gewächshaus (Glas über den Feldern) wachsen Pflanzen auch außerhalb der Saison.", "", "&6Wofür ist das wichtig?", "Plane deine Felder: Im Winter wächst kaum etwas. Lege Vorräte an oder baue ein Gewächshaus."]
+			description: ["&6Was ist das?", "Serene Seasons: Frühling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Rezept: Werkbank: 8x Papier, Uhr (Muster in JEI, Taste R).", "Der Kalender zeigt die aktuelle Jahreszeit.", "In JEI siehst du beim Samen, wann er wächst.", "Im Gewächshaus (Glas über den Feldern) wachsen Pflanzen auch außerhalb der Saison.", "", "&6Wofür ist das wichtig?", "Plane deine Felder: Im Winter wächst kaum etwas. Lege Vorräte an oder baue ein Gewächshaus."]
 			id: "53B5513ABE6670E3"
 			title: "Jahreszeiten"
 			rewards: [{ id: "3DFC6C96A4C6B8E8", type: "xp_levels", xp_levels: 2 }]
@@ -557,7 +557,7 @@
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Im Mehrspieler muss die Hälfte der Spieler schlafen.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
+			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Du kannst allein schlafen: Die Nacht läuft dann schneller. Je mehr Mitspieler im Bett liegen, desto schneller wird es Morgen. Niemand muss warten, bis die Hälfte schläft.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
 			id: "31E49D7CA0CDCF29"
 			hide_dependency_lines: true
 			title: "Ein Bett für die Nacht"
@@ -618,7 +618,7 @@
 		}
 		{
 			dependencies: ["3E7ABB28E4C6BBE5"]
-			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt für Ausflüge.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Die Hälfte der Spieler muss schlafen, damit die Nacht endet.", "", "&6So gehts", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofür ist das wichtig?", "Auf langen Ausflügen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
+			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt für Ausflüge.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Du kannst allein schlafen. Die Nacht wird schneller, je mehr Spieler im Bett oder Schlafsack liegen.", "", "&6So gehts", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofür ist das wichtig?", "Auf langen Ausflügen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
 			id: "1799BD20B88CE4F4"
 			title: "Schlafen mit Comforts"
 			rewards: [{ id: "3563618D029E7D7A", type: "xp_levels", xp_levels: 2 }]
@@ -678,7 +678,7 @@
 		}
 		{
 			dependencies: ["48ED10FFDEEA902E"]
-			description: ["&6Was ist das?", "Natures Compass zeigt dir, wo ein Biom ist.", "Wähle das Biom, drück Suchen, folge dem Pfeil.", "", "&6So gehts", "Rechtsklick, Biom wählen.", "", "&6Wofür ist das wichtig?", "Bestimmte Biome haben besondere Ressourcen."]
+			description: ["&6Was ist das?", "Der Naturkompass findet Biome. Der Kompass des Entdeckers findet Bauwerke: Dörfer, Festungen, Antike Städte, Netherfestungen und vieles mehr.", "", "&6So gehts", "Beide Kompasse: Rechtsklick, Ziel wählen, Suchen, dem Zeiger folgen.", "Bauwerke suchst du mit dem Kompass des Entdeckers, nicht mit dem Naturkompass.", "", "&6Wofür ist das wichtig?", "So findest du später auch Netherfestungen und Antike Städte, ohne stundenlang zu laufen."]
 			id: "387CA05F814C5319"
 			title: "Biome finden"
 			rewards: [{ id: "10CDCCE0974B0D75", type: "item", item: { id: "minecraft:paper", count: 6 } }]
@@ -920,7 +920,7 @@
 		}
 		{
 			dependencies: ["6B4314E787C73225"]
-			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Öffne eine Lootr-Truhe (sie hat einen besonderen Rand). Der Inhalt gehört nur dir.", "", "&6Wofür ist das wichtig?", "Ihr könnt gemeinsam Dungeons erkunden, ohne dass einer alles leer räumt."]
+			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plündern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Öffne eine Lootr-Truhe (sie hat einen besonderen Rand). Der Inhalt gehört nur dir.", "", "&6Wofür ist das wichtig?", "Ihr könnt gemeinsam Dungeons erkunden, ohne dass einer alles leer räumt."]
 			id: "3762E8AE7D5A3EA6"
 			title: "Beute teilen (Lootr)"
 			rewards: [{ id: "4A27EE32DA8318BC", type: "xp_levels", xp_levels: 2 }]
@@ -989,7 +989,7 @@
 			y: 0.00d
 		}
 		{
-			description: ["&6Was ist das?", "Das ist dein Questbuch (Taste U). Exactly wird in Zeitaltern gespielt: von der Steinzeit bis zum Meister-Zeitalter.", "Jedes Zeitalter ist ein Baum: Von dieser Startquest gehen Zweige ab, zum Beispiel Holz, Stein, Nahrung, Kochen, Zuhause, Reisen und Bergbau.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Items werden automatisch erkannt. Bei Quests mit Haken klickst du selbst auf den Haken.", "Belohnungen holst du mit einem Klick auf die Truhe in der Quest ab.", "", "&6Wofür ist das wichtig?", "Ganz rechts steht die Abschluss-Quest. Für die Eisenzeit brauchst du die Pflicht-Zweige und 16 Eisenbarren.", "Waffen, Werkzeuge, Rüstungen und Fernkampf findest du als eigene Reihen in jedem Zeitalter. Kleine Mods und Im Hintergrund sind immer offen."]
+			description: ["&6Was ist das?", "Das ist dein Questbuch (Taste U). Exactly wird in Zeitaltern gespielt: von der Steinzeit bis zum Meister-Zeitalter.", "Jedes Zeitalter ist ein Baum: Von dieser Startquest gehen Zweige ab, zum Beispiel Holz, Stein, Nahrung, Kochen, Zuhause, Reisen und Bergbau.", "", "&6So gehts", "Wähle einen Zweig und arbeite ihn von links nach rechts ab. Manche Zweige teilen sich weiter auf.", "Items werden automatisch erkannt. Bei Quests mit Haken klickst du selbst auf den Haken.", "Belohnungen holst du mit einem Klick auf die Truhe in der Quest ab.", "Oben rechts im Questbuch ist eine Nadel: Damit bleiben die offenen Quests dieses Kapitels am Bildrand stehen.", "", "&6Wofür ist das wichtig?", "Ganz rechts steht die Abschluss-Quest. Für die Eisenzeit brauchst du die Pflicht-Zweige und 16 Eisenbarren.", "Waffen, Werkzeuge, Rüstungen und Fernkampf findest du als eigene Reihen in jedem Zeitalter. Kleine Mods ist immer offen."]
 			id: "32B584A362001F6A"
 			title: "Willkommen bei Exactly"
 			rewards: [{ id: "020ACE76080D4E35", type: "item", item: { id: "minecraft:bread", count: 8 } }]

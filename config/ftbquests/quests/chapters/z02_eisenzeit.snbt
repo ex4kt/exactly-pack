@@ -64,7 +64,7 @@
 		}
 		{
 			dependencies: ["269F5FBF41678363"]
-			description: ["&6Was ist das?", "Just Hammers: Eisenhammer, baut 3x3 ab und hält länger.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mit dem Verstärkten Hammer und dem Aufprall-Hammer geht es noch größer."]
+			description: ["&6Was ist das?", "Just Hammers: Eisenhammer, baut 3x3 ab und hält länger.", "", "&6So gehts", "Rezept: Werkbank: 3x Eisenbarren, 3x Stock (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Mit dem Verstärkten Hammer und dem Aufprall-Hammer geht es noch größer."]
 			icon: { id: "justhammers:iron_hammer" }
 			hide_dependency_lines: true
 			id: "0E22D7CD6474A80D"
@@ -76,7 +76,7 @@
 		}
 		{
 			dependencies: ["0E22D7CD6474A80D"]
-			description: ["&6Was ist das?", "Ein Hammer mit mehr Haltbarkeit.", "", "&6So gehts", "Hammer und Verstärkungskern im Rezept, siehe JEI.", "", "&6Wofür ist das wichtig?", "Hält viel länger beim großen Abbau."]
+			description: ["&6Was ist das?", "Ein Hammer mit mehr Haltbarkeit.", "", "&6So gehts", "Rezept: Werkbank: 3x Eisenblock, Verstärkter Kern, 2x Stock (Muster in JEI, Taste R).", "Hammer und Verstärkungskern im Rezept, siehe JEI.", "", "&6Wofür ist das wichtig?", "Hält viel länger beim großen Abbau."]
 			icon: { id: "justhammers:iron_reinforced_hammer" }
 			id: "26B32F8429342DB2"
 			title: "Verstärkter Hammer"
@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["26B32F8429342DB2"]
-			description: ["&6Was ist das?", "Baut 5x5 Blöcke auf einmal ab.", "", "&6So gehts", "Hammer und Aufprallkern im Rezept, siehe JEI.", "", "&6Wofür ist das wichtig?", "Riesige Flächen in Sekunden frei."]
+			description: ["&6Was ist das?", "Baut 5x5 Blöcke auf einmal ab.", "", "&6So gehts", "Rezept: Werkbank: 3x Eisenblock, Wuchtkern, 2x Stock (Muster in JEI, Taste R).", "Hammer und Aufprallkern im Rezept, siehe JEI.", "", "&6Wofür ist das wichtig?", "Riesige Flächen in Sekunden frei."]
 			icon: { id: "justhammers:iron_impact_hammer" }
 			id: "3A0600E1446EB9DC"
 			title: "Aufprall-Hammer"
@@ -251,7 +251,7 @@
 		}
 		{
 			dependencies: ["7F2BC6A2E1878E46"]
-			description: ["&6Was ist das?", "Revamped Wolf: Rüstungen für deinen Wolf.", "", "&6So gehts", "Rezept in JEI, mit Rechtsklick dem Wolf anlegen.", "", "&6Wofür ist das wichtig?", "Dein Wolf überlebt viel länger."]
+			description: ["&6Was ist das?", "Revamped Wolf: Rüstungen für deinen Wolf.", "", "&6So gehts", "Rezept: Werkbank: 6x Eisenbarren (Muster in JEI, Taste R).", "Rezept in JEI, mit Rechtsklick dem Wolf anlegen.", "", "&6Wofür ist das wichtig?", "Dein Wolf überlebt viel länger."]
 			icon: { id: "revampedwolf:iron_wolf_armor" }
 			id: "01FAB32F71FD4204"
 			title: "Wolfsrüstung"
@@ -404,7 +404,7 @@
 		}
 		{
 			dependencies: ["313A5694ECE0F1F4"]
-			description: ["&6Was ist das?", "Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten.", "", "&6So gehts", "Wie das normale Terminal anschließen.", "Craftest du etwas, holt es die Zutaten direkt aus dem Lager. Mit JEI klickst du ein Rezept einfach hinein.", "", "&6Wofür ist das wichtig?", "Der bequemste Ort zum Craften im ganzen Pack."]
+			description: ["&6Was ist das?", "Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten.", "", "&6So gehts", "Rezept: Werkbank: 4x Werkbank, 4x Diamant, Lagerterminal (Muster in JEI, Taste R).", "Wie das normale Terminal anschließen.", "Craftest du etwas, holt es die Zutaten direkt aus dem Lager. Mit JEI klickst du ein Rezept einfach hinein.", "", "&6Wofür ist das wichtig?", "Der bequemste Ort zum Craften im ganzen Pack."]
 			id: "3869E07C7FB2C538"
 			title: "Crafting Terminal"
 			rewards: [{ id: "68B47E685B92F437", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
@@ -687,7 +687,7 @@
 		}
 		{
 			dependencies: ["0EC1EAFA54BE498F"]
-			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plundern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Einfach öffnen.", "", "&6Wofür ist das wichtig?", "Fair im Mehrspieler."]
+			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plündern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Einfach öffnen.", "", "&6Wofür ist das wichtig?", "Fair im Mehrspieler."]
 			id: "0EE8F1575F169E87"
 			title: "Lootr: Eigene Truhen"
 			rewards: [{ id: "62305E39AB709A26", type: "xp_levels", xp_levels: 2 }]
@@ -810,7 +810,7 @@
 		}
 		{
 			dependencies: ["19E638D4100EDC74"]
-			description: ["&6Was ist das?", "Immersive Armors: Rüstung aus Knochen, leicht und günstig.", "", "&6So gehts", "Knochen in der Werkbank, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Schaden mit dem Bogen."]
+			description: ["&6Was ist das?", "Immersive Armors: Rüstung aus Knochen, leicht und günstig.", "", "&6So gehts", "Rezept: Werkbank: 8x Knochen (Muster in JEI, Taste R).", "Knochen in der Werkbank,", "", "&6Wofür ist das wichtig?", "Mehr Schaden mit dem Bogen."]
 			icon: { id: "immersive_armors:bone_chestplate" }
 			id: "6E41810E7D461305"
 			title: "Knochenrüstung"
@@ -821,7 +821,7 @@
 		}
 		{
 			dependencies: ["6E41810E7D461305"]
-			description: ["&6Was ist das?", "Immersive Armors: sehr starke, aber langsame Rüstung.", "", "&6So gehts", "Eisen in der Werkbank, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Für Kämpfe, in denen du viel einstecken musst."]
+			description: ["&6Was ist das?", "Immersive Armors: sehr starke, aber langsame Rüstung.", "", "&6So gehts", "Rezept: Werkbank: 4x Eisenblock, 4x Eisenbarren (Muster in JEI, Taste R).", "Eisen in der Werkbank,", "", "&6Wofür ist das wichtig?", "Für Kämpfe, in denen du viel einstecken musst."]
 			icon: { id: "immersive_armors:heavy_chestplate" }
 			id: "67549021D25EE13B"
 			title: "Schwere Rüstung"
@@ -854,7 +854,7 @@
 		}
 		{
 			dependencies: ["67549021D25EE13B"]
-			description: ["&6Was ist das?", "Minecraft Dungeons Waffen: Dolche, Sensen, Hämmer und mehr aus dem Spiel Minecraft Dungeons.", "", "&6So gehts", "Rezepte in JEI mit @minecraftdungeonsv3. Besondere Waffen findest du in Truhen.", "", "&6Wofür ist das wichtig?", "Jede Waffe hat einen eigenen Stil."]
+			description: ["&6Was ist das?", "Minecraft Dungeons Waffen: Dolche, Sensen, Hämmer und mehr aus dem Spiel Minecraft Dungeons.", "", "&6So gehts", "Rezept: Werkbank: Eisenbarren, Stock (Muster in JEI, Taste R).", "Rezepte in JEI mit @minecraftdungeonsv3. Besondere Waffen findest du in Truhen.", "", "&6Wofür ist das wichtig?", "Jede Waffe hat einen eigenen Stil."]
 			icon: { id: "minecraftdungeonsv3:dagger" }
 			id: "07963A3E483D6532"
 			title: "Dungeons-Waffen"
@@ -865,7 +865,7 @@
 		}
 		{
 			dependencies: ["59E93DB37E085659"]
-			description: ["&6Was ist das?", "Ein langer Bogen mit mehr Reichweite und Schaden als der normale Bogen.", "", "&6So gehts", "Stöcke, Faden und ein Eisenbarren. Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Ideal gegen fliegende Gegner und auf große Entfernung."]
+			description: ["&6Was ist das?", "Ein langer Bogen mit mehr Reichweite und Schaden als der normale Bogen.", "", "&6So gehts", "Rezept: Werkbank: 3x Stock, 3x Faden, Eisenbarren (Muster in JEI, Taste R).", "Stöcke, Faden und ein Eisenbarren.", "", "&6Wofür ist das wichtig?", "Ideal gegen fliegende Gegner und auf große Entfernung."]
 			optional: true
 			id: "60647909911BB8D7"
 			title: "Langbogen"
@@ -876,7 +876,7 @@
 		}
 		{
 			dependencies: ["59E93DB37E085659"]
-			description: ["&6Was ist das?", "Weapons Expanded: Eine Armbrust, die mehrere Bolzen schnell hintereinander schießt.", "", "&6So gehts", "Ketten, Eisen und ein Stolperdrahthaken. Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Viel Schaden in kurzer Zeit, perfekt gegen Gruppen."]
+			description: ["&6Was ist das?", "Weapons Expanded: Eine Armbrust, die mehrere Bolzen schnell hintereinander schießt.", "", "&6So gehts", "Rezept: Werkbank: 3x Eisenbarren, Eisennugget, 2x Kette, Haken (Muster in JEI, Taste R).", "Ketten, Eisen und ein Stolperdrahthaken.", "", "&6Wofür ist das wichtig?", "Viel Schaden in kurzer Zeit, perfekt gegen Gruppen."]
 			optional: true
 			id: "00013B933C846FF9"
 			hide_dependency_lines: true
@@ -937,7 +937,7 @@
 		}
 		{
 			dependencies: ["6629FC4CC3C6B6A9"]
-			description: ["&6Was ist das?", "Der Eisenbogen, die erste Stufe der Archeries-Bögen.", "", "&6So gehts", "Rezept in JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Mehr Schaden als der normale Bogen."]
+			description: ["&6Was ist das?", "Der Eisenbogen, die erste Stufe der Archeries-Bögen.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 3x Faden, Eisenbarren (Muster in JEI, Taste R).", "Rezept in JEI nachschlagen (R auf dem Item).", "", "&6Wofür ist das wichtig?", "Mehr Schaden als der normale Bogen."]
 			icon: { id: "archeries:iron_bow" }
 			id: "031B5A86508C5201"
 			title: "Eisenbogen"
@@ -948,7 +948,7 @@
 		}
 		{
 			dependencies: ["031B5A86508C5201"]
-			description: ["&6Was ist das?", "Der Goldbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Eine weitere Stufe der Bögen."]
+			description: ["&6Was ist das?", "Der Goldbogen.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 3x Faden, Goldbarren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Eine weitere Stufe der Bögen."]
 			icon: { id: "archeries:golden_bow" }
 			id: "3F366BA29E9994D0"
 			title: "Goldbogen"
@@ -959,7 +959,7 @@
 		}
 		{
 			dependencies: ["3F366BA29E9994D0"]
-			description: ["&6Was ist das?", "Die Kupferarmbrust, die erste Stufe der Archeries-Armbrüste.", "", "&6So gehts", "Rezept in JEI nachschlagen. Kupfer bekommst du schon in der Steinzeit.", "", "&6Wofür ist das wichtig?", "Eine Armbrust mit mehr Durchschlagskraft als der Bogen."]
+			description: ["&6Was ist das?", "Die Kupferarmbrust, die erste Stufe der Archeries-Armbrüste.", "", "&6So gehts", "Rezept: Werkbank: 3x Stock, Kupferbarren, 2x Faden, Haken (Muster in JEI, Taste R).", "Kupfer bekommst du schon in der Steinzeit.", "", "&6Wofür ist das wichtig?", "Eine Armbrust mit mehr Durchschlagskraft als der Bogen."]
 			icon: { id: "archeries:copper_crossbow" }
 			id: "7AE08D7A0C5A594E"
 			title: "Kupferarmbrust"
@@ -970,7 +970,7 @@
 		}
 		{
 			dependencies: ["7AE08D7A0C5A594E"]
-			description: ["&6Was ist das?", "Die Goldarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Eine weitere Stufe der Armbrüste."]
+			description: ["&6Was ist das?", "Die Goldarmbrust.", "", "&6So gehts", "Rezept: Werkbank: 3x Stock, Goldbarren, 2x Faden, Haken (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Eine weitere Stufe der Armbrüste."]
 			icon: { id: "archeries:golden_crossbow" }
 			id: "1CC965397322E42D"
 			title: "Goldarmbrust"
@@ -981,7 +981,7 @@
 		}
 		{
 			dependencies: ["1CC965397322E42D"]
-			description: ["&6Was ist das?", "Der weiche Pfeil, ein besonderer Pfeil der Mod.", "", "&6So gehts", "Rezept und Besonderheit in JEI und im Tooltip nachschlagen.", "", "&6Wofür ist das wichtig?", "Ein Pfeil für Sonderfälle."]
+			description: ["&6Was ist das?", "Der weiche Pfeil, ein besonderer Pfeil der Mod.", "", "&6So gehts", "Rezept: Werkbank: 8x Pfeil, Wolle (ergibt 8) (Muster in JEI, Taste R).", "Rezept und Besonderheit in JEI und im Tooltip nachschlagen.", "", "&6Wofür ist das wichtig?", "Ein Pfeil für Sonderfälle."]
 			icon: { id: "archeries:soft_arrow" }
 			id: "41CC43AF9B7DBDAA"
 			title: "Weicher Pfeil"
@@ -992,7 +992,7 @@
 		}
 		{
 			dependencies: ["6629FC4CC3C6B6A9"]
-			description: ["&6Was ist das?", "Der Kupferpfeil.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Pfeile in Stufen, passend zu Bogen und Armbrust."]
+			description: ["&6Was ist das?", "Der Kupferpfeil.", "", "&6So gehts", "Rezept: Werkbank: Kupferbarren, Stock, Feder (ergibt 4) (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Pfeile in Stufen, passend zu Bogen und Armbrust."]
 			icon: { id: "archeries:copper_arrow" }
 			id: "5976031F6573C330"
 			title: "Kupferpfeil"
@@ -1338,7 +1338,7 @@
 		}
 		{
 			dependencies: ["1E1204DE81AAE19A"]
-			description: ["&6Was ist das?", "Eine stabilere Angelrute mit Platz für Haken, Schwimmer und Schnur.", "", "&6So gehts", "Rezept in JEI. Du brauchst Eisen und Holz.", "", "&6Wofür ist das wichtig?", "Mit Zubehör fängst du mehr und bessere Fische."]
+			description: ["&6Was ist das?", "Eine stabilere Angelrute mit Platz für Haken, Schwimmer und Schnur.", "", "&6So gehts", "Rezept: Werkbank: 2x Eisen-Barren, 2x Faden, Stock (Muster in JEI, Taste R).", "Du brauchst Eisen und Holz.", "", "&6Wofür ist das wichtig?", "Mit Zubehör fängst du mehr und bessere Fische."]
 			icon: { id: "aquaculture:iron_fishing_rod" }
 			id: "4504DFA9E2765F31"
 			title: "Eiserne Angelrute"
@@ -1349,7 +1349,7 @@
 		}
 		{
 			dependencies: ["4504DFA9E2765F31"]
-			description: ["&6Was ist das?", "Ein Haken für die Angelrute. Verschiedene Haken verändern, was du fängst.", "", "&6So gehts", "Rezept in JEI. Der Haken wird in die Angelrute eingesetzt.", "", "&6Wofür ist das wichtig?", "Der Haken bestimmt zum Beispiel, wie lange Fische anbeißen."]
+			description: ["&6Was ist das?", "Ein Haken für die Angelrute. Verschiedene Haken verändern, was du fängst.", "", "&6So gehts", "Rezept: Werkbank: 4x Eisen-Nuggets (Muster in JEI, Taste R).", "Der Haken wird in die Angelrute eingesetzt.", "", "&6Wofür ist das wichtig?", "Der Haken bestimmt zum Beispiel, wie lange Fische anbeißen."]
 			icon: { id: "aquaculture:iron_hook" }
 			id: "5D3BC2F47AB01C12"
 			title: "Eisenhaken"
@@ -1360,7 +1360,7 @@
 		}
 		{
 			dependencies: ["5D3BC2F47AB01C12"]
-			description: ["&6Was ist das?", "Der Schwimmer zeigt dir, wann ein Fisch anbeißt.", "", "&6So gehts", "Rezept in JEI. Wie der Haken wird er in die Angelrute eingesetzt.", "", "&6Wofür ist das wichtig?", "Bessere Schwimmer machen das Angeln angenehmer."]
+			description: ["&6Was ist das?", "Der Schwimmer zeigt dir, wann ein Fisch anbeißt.", "", "&6So gehts", "Rezept: Werkbank: 2x Tonklumpen, Nautilusschale (Muster in JEI, Taste R).", "Wie der Haken wird er in die Angelrute eingesetzt.", "", "&6Wofür ist das wichtig?", "Bessere Schwimmer machen das Angeln angenehmer."]
 			icon: { id: "aquaculture:bobber" }
 			id: "5A00BF2649DFA3E9"
 			title: "Schwimmer"
@@ -1371,7 +1371,7 @@
 		}
 		{
 			dependencies: ["5A00BF2649DFA3E9"]
-			description: ["&6Was ist das?", "Die Schnur der Angelrute. Es gibt auch farbige Schnüre.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Ohne gute Schnur reißt dir der Fang eher ab."]
+			description: ["&6Was ist das?", "Die Schnur der Angelrute. Es gibt auch farbige Schnüre.", "", "&6So gehts", "Rezept: Werkbank: 4x Faden, Eisen-Barren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Ohne gute Schnur reißt dir der Fang eher ab."]
 			icon: { id: "aquaculture:fishing_line" }
 			id: "673940744144FF56"
 			title: "Angelschnur"
@@ -1393,7 +1393,7 @@
 		}
 		{
 			dependencies: ["3BB428B2BE7BF43E"]
-			description: ["&6Was ist das?", "Eine Farm, die Würmer als Köder erzeugt.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Würmer sind der einfachste Köder und halten dich im Fischen."]
+			description: ["&6Was ist das?", "Eine Farm, die Würmer als Köder erzeugt.", "", "&6So gehts", "Rezept: Werkbank: 4x Holzzäune, Erde, 3x Bretter (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Würmer sind der einfachste Köder und halten dich im Fischen."]
 			icon: { id: "aquaculture:worm_farm" }
 			id: "4F27588F9D2EF1AD"
 			title: "Wurmfarm"
@@ -1404,7 +1404,7 @@
 		}
 		{
 			dependencies: ["4F27588F9D2EF1AD"]
-			description: ["&6Was ist das?", "Mit dem Filetiermesser schneidest du Fische in Filets.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Filets sind die Grundlage für viele Gerichte."]
+			description: ["&6Was ist das?", "Mit dem Filetiermesser schneidest du Fische in Filets.", "", "&6So gehts", "Rezept: Werkbank: 2x Eisen-Barren, Stock (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Filets sind die Grundlage für viele Gerichte."]
 			icon: { id: "aquaculture:iron_fillet_knife" }
 			id: "5142214E536A3C6E"
 			title: "Eisernes Filetiermesser"
@@ -1539,7 +1539,7 @@
 		}
 		{
 			dependencies: ["48C2A55DC0616220"]
-			description: ["&6Was ist das?", "Erzeugt Strom aus Lava und anderen magmatischen Flüssigkeiten.", "", "&6So gehts", "Herstellung: fünf Dielektrische Pasten, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Eimer. Welche Flüssigkeiten funktionieren, zeigt JEI unter Magmatische Flüssigkeiten.", "", "&6Wofür ist das wichtig?", "Gut, wenn du Lava in der Nähe hast."]
+			description: ["&6Was ist das?", "Erzeugt Strom aus Lava und anderen magmatischen Flüssigkeiten.", "", "&6So gehts", "Rezept: Werkbank: 5x Dielektrische Paste, 2x Einfacher Kondensator (winzig), Dielektrisches Gehäuse, Eimer (Muster in JEI, Taste R).", "Herstellung: fünf Dielektrische Pasten, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Eimer. Welche Flüssigkeiten funktionieren, zeigt JEI unter Magmatische Flüssigkeiten.", "", "&6Wofür ist das wichtig?", "Gut, wenn du Lava in der Nähe hast."]
 			id: "3562446DBC8CD11F"
 			title: "Magmator"
 			rewards: [{ id: "0AF9A38A66FAD105", type: "xp_levels", xp_levels: 2 }]

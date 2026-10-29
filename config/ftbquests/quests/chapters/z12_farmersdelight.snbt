@@ -50,7 +50,7 @@
 		}
 		{
 			dependencies: ["3A18F51A5E568F49"]
-			description: ["&6Was ist das?", "Auf dem Schneidebrett schneidest du Zutaten. Rechtsklick mit Messer, Axt oder Schaufel auf das Brett.", "", "&6So gehts", "Stelle das Brett auf, lege mit Rechtsklick eine Zutat darauf.", "Rechtsklick mit Messer schneidet.", "In JEI siehst du alle Schneide-Rezepte.", "", "&6Wofür ist das wichtig?", "Fast jedes Gericht braucht geschnittene Zutaten. Später kann der Slicer aus Slice and Dice das automatisch machen."]
+			description: ["&6Was ist das?", "Auf dem Schneidebrett schneidest du Zutaten. Rechtsklick mit Messer, Axt oder Schaufel auf das Brett.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 4x Bretter (Muster in JEI, Taste R).", "Stelle das Brett auf, lege mit Rechtsklick eine Zutat darauf.", "Rechtsklick mit Messer schneidet.", "In JEI siehst du alle Schneide-Rezepte.", "", "&6Wofür ist das wichtig?", "Fast jedes Gericht braucht geschnittene Zutaten. Später kann der Slicer aus Slice and Dice das automatisch machen."]
 			id: "2DBF06CA4693E4A2"
 			title: "Schneidebrett"
 			rewards: [{ id: "3CC317B8F51CC44C", type: "item", item: { id: "minecraft:stick", count: 8 } }]
@@ -404,7 +404,7 @@
 		}
 		{
 			dependencies: ["0DDA127D5E5CDD1C"]
-			description: ["&6Was ist das?", "Gepresste Hackfleisch-Scheibe.", "", "&6So gehts", "Hackfleisch in der Werkbank zur Frikadelle formen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Die Grundlage für den Hamburger."]
+			description: ["&6Was ist das?", "Gepresste Hackfleisch-Scheibe.", "", "&6So gehts", "Rezept: Ofen: Hackfleisch (Muster in JEI, Taste R).", "Hackfleisch in der Werkbank zur Frikadelle formen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Die Grundlage für den Hamburger."]
 			id: "52D37B22FC2BB240"
 			title: "Frikadelle"
 			rewards: [{ id: "1AE4A9952A48D592", type: "xp_levels", xp_levels: 2 }]
@@ -495,7 +495,7 @@
 		}
 		{
 			dependencies: ["051D59C0F509C3A0"]
-			description: ["&6Was ist das?", "Kekse mit Honig.", "", "&6So gehts", "Weizen, Honig und Ei in der Werkbank kombinieren. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Leichte Snacks mit gutem Sättigungswert."]
+			description: ["&6Was ist das?", "Kekse mit Honig.", "", "&6So gehts", "Rezept: Werkbank (formlos): Honigflasche, 2x Weizen (ergibt 8) (Muster in JEI, Taste R).", "Weizen, Honig und Ei in der Werkbank kombinieren. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Leichte Snacks mit gutem Sättigungswert."]
 			id: "7C6AD5BD86C24F7B"
 			title: "Honigkekse"
 			rewards: [{ id: "7A72DB3CA393055D", type: "xp_levels", xp_levels: 2 }]
@@ -1061,7 +1061,7 @@
 		}
 		{
 			dependencies: ["69F8B7227C49BD6A"]
-			description: ["&6Was ist das?", "Ein Burger aus Känguru-Fleisch.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Sattes Essen für unterwegs."]
+			description: ["&6Was ist das?", "Ein Burger aus Känguru-Fleisch.", "", "&6So gehts", "Rezept: Werkbank: 2x Brot, Gebratenes Kängurufleisch (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Sattes Essen für unterwegs."]
 			icon: { id: "alexsmobs:kangaroo_burger" }
 			id: "151CD266AC75EF2D"
 			title: "Känguru-Burger"
@@ -1094,7 +1094,7 @@
 		}
 		{
 			dependencies: ["06689C84BC1B5449"]
-			description: ["&6Was ist das?", "Eintopf, der Mosquitos fernhält.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Schutz vor den blutsaugenden Mosquitos."]
+			description: ["&6Was ist das?", "Eintopf, der Mosquitos fernhält.", "", "&6So gehts", "Rezept: Werkbank (formlos): Schüssel, 2x Triopslaich, Stinkflasche (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Schutz vor den blutsaugenden Mosquitos."]
 			icon: { id: "alexsmobs:mosquito_repellent_stew" }
 			id: "1E164CAAA702210C"
 			title: "Mosquito-Eintopf"
@@ -1161,7 +1161,7 @@
 		}
 		{
 			dependencies: ["33CC029093F94BA7"]
-			description: ["&6Was ist das?", "Farm and Charm bringt Landwirtschaft und Hausmannskost.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Das Werkzeug für Heu und Stroh."]
+			description: ["&6Was ist das?", "Farm and Charm bringt Landwirtschaft und Hausmannskost.", "", "&6So gehts", "Rezept: Werkbank: Eisennugget, 2x Stock (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Das Werkzeug für Heu und Stroh."]
 			icon: { id: "farm_and_charm:pitchfork" }
 			id: "0A7BE54CE42BFDE8"
 			title: "Mistgabel"
@@ -1227,7 +1227,7 @@
 		}
 		{
 			dependencies: ["5A2F5F332541B0E7"]
-			description: ["&6Was ist das?", "Der Wolf macht aus Fleisch Hack.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Hack ist die Basis für Pastetchen und Gulasch."]
+			description: ["&6Was ist das?", "Der Wolf macht aus Fleisch Hack.", "", "&6So gehts", "Rezept: Werkbank: 4x Eisennugget, 2x Bretter, 3x Eisenbarren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Hack ist die Basis für Pastetchen und Gulasch."]
 			icon: { id: "farm_and_charm:mincer" }
 			id: "3C983B9249E793FE"
 			title: "Fleischwolf"
@@ -1238,7 +1238,7 @@
 		}
 		{
 			dependencies: ["3C983B9249E793FE"]
-			description: ["&6Was ist das?", "Im Bratofen gart Fleisch langsam.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Große Braten machen satt und glücklich."]
+			description: ["&6Was ist das?", "Im Bratofen gart Fleisch langsam.", "", "&6So gehts", "Rezept: Werkbank: 3x Eisennugget, 5x Eisenbarren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Große Braten machen satt und glücklich."]
 			icon: { id: "farm_and_charm:roaster" }
 			id: "665C9896AB48EFA4"
 			title: "Bratofen"
@@ -1272,7 +1272,7 @@
 		}
 		{
 			dependencies: ["46EA5E842C3CED58"]
-			description: ["&6Was ist das?", "Im Fass reift der Wein.", "", "&6So gehts", "Rezept in JEI nachschlagen und mit Saft befüllen.", "", "&6Wofür ist das wichtig?", "Nur im Fass entsteht aus Saft echter Wein."]
+			description: ["&6Was ist das?", "Im Fass reift der Wein.", "", "&6So gehts", "Rezept: Werkbank: Fass, 2x Stock (Muster in JEI, Taste R).", "Rezept in JEI nachschlagen und mit Saft befüllen.", "", "&6Wofür ist das wichtig?", "Nur im Fass entsteht aus Saft echter Wein."]
 			icon: { id: "vinery:fermentation_barrel" }
 			id: "4E98BFAAEDA707C4"
 			title: "Gärfass"
@@ -1305,7 +1305,7 @@
 		}
 		{
 			dependencies: ["33CC029093F94BA7"]
-			description: ["&6Was ist das?", "HerbalBrews bringt Tee und Kaffee.", "", "&6So gehts", "Rezept in JEI nachschlagen und auf eine Hitzequelle stellen.", "", "&6Wofür ist das wichtig?", "Hier werden Aufgüsse gekocht."]
+			description: ["&6Was ist das?", "HerbalBrews bringt Tee und Kaffee.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 4x Eisenbarren (Muster in JEI, Taste R).", "Rezept in JEI nachschlagen und auf eine Hitzequelle stellen.", "", "&6Wofür ist das wichtig?", "Hier werden Aufgüsse gekocht."]
 			icon: { id: "herbalbrews:tea_kettle" }
 			id: "036852F339D18F19"
 			hide_dependency_lines: true
@@ -1328,7 +1328,7 @@
 		}
 		{
 			dependencies: ["257F8CD1F4BF2009"]
-			description: ["&6Was ist das?", "Ein Krug für Getränke.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Zum Aufbewahren und Ausschenken."]
+			description: ["&6Was ist das?", "Ein Krug für Getränke.", "", "&6So gehts", "Rezept: Werkbank: 7x Glasscheibe (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Zum Aufbewahren und Ausschenken."]
 			icon: { id: "herbalbrews:jug" }
 			id: "5F90E087695AFE72"
 			title: "Krug"
@@ -1361,7 +1361,7 @@
 		}
 		{
 			dependencies: ["33CC029093F94BA7"]
-			description: ["&6Was ist das?", "Expanded Delight erweitert Farmers Delight.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Frische Säfte aus Obst."]
+			description: ["&6Was ist das?", "Expanded Delight erweitert Farmers Delight.", "", "&6So gehts", "Rezept: Werkbank: 6x Eisen-Barren, Fass (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Frische Säfte aus Obst."]
 			icon: { id: "expandeddelight:juicer" }
 			id: "650BE46A80B13C58"
 			title: "Entsafter"
@@ -1416,7 +1416,7 @@
 		}
 		{
 			dependencies: ["4AAF6D15F3E8F30B"]
-			description: ["&6Was ist das?", "Zum Zerstoßen von Zutaten.", "", "&6So gehts", "Rezept in JEI nachschlagen.", "", "&6Wofür ist das wichtig?", "Für Salz und Gewürze."]
+			description: ["&6Was ist das?", "Zum Zerstoßen von Zutaten.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, Bruchstein (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Für Salz und Gewürze."]
 			icon: { id: "expandeddelight:crushing_mallet" }
 			id: "57B2AD73587ADB94"
 			title: "Quetschhammer"
@@ -1520,7 +1520,7 @@
 		}
 		{
 			dependencies: ["613E83C5D359396D"]
-			description: ["&6Was ist das?", "Räder sind die Grundlage aller Wagen und Geräte.", "", "&6So gehts", "Stelle Räder aus Holz in der Werkbank her. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Jedes Gerät braucht zwei Räder."]
+			description: ["&6Was ist das?", "Räder sind die Grundlage aller Wagen und Geräte.", "", "&6So gehts", "Rezept: Werkbank: 8x Stock, Bretter (Muster in JEI, Taste R).", "Stelle Räder aus Holz in der Werkbank her. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Jedes Gerät braucht zwei Räder."]
 			id: "630C402BFF3F9E61"
 			title: "Wagenrad"
 			rewards: [{ id: "14C13FF0BEFDE151", type: "xp_levels", xp_levels: 3 }]
@@ -1540,7 +1540,7 @@
 		}
 		{
 			dependencies: ["24F8F66E9BD25CAA"]
-			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er gräbt Erde um, macht Wege und entrindet Stämme.", "", "&6So gehts", "Stelle ihn in der Werkbank her (Holz und Räder). Das Rezept zeigt dir JEI: Item anklicken und R drücken. Lege die Werkzeuge in die Pflug-Plätze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofür ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
+			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er gräbt Erde um, macht Wege und entrindet Stämme.", "", "&6So gehts", "Rezept: Werkbank: 4x Stock, 3x Eichenbretter, 2x Rad (Muster in JEI, Taste R).", "Stelle ihn in der Werkbank her (Holz und Räder). Das Rezept zeigt dir JEI: Item anklicken und R drücken. Lege die Werkzeuge in die Pflug-Plätze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofür ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
 			id: "03C6BA276BE16281"
 			title: "Pflug"
 			rewards: [{ id: "2CEAEA5CBA707C11", type: "xp_levels", xp_levels: 3 }]
@@ -1560,7 +1560,7 @@
 		}
 		{
 			dependencies: ["5416282EB7088819"]
-			description: ["&6Was ist das?", "Die Sämaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Stelle sie her. Das Rezept zeigt dir JEI: Item anklicken und R drücken. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Du säst dein Feld mit einem Rutsch."]
+			description: ["&6Was ist das?", "Die Sämaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Rezept: Werkbank: 5x Eichenbretter, Kiste, Trichter, 2x Rad (Muster in JEI, Taste R).", "Stelle sie her. Das Rezept zeigt dir JEI: Item anklicken und R drücken. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Du säst dein Feld mit einem Rutsch."]
 			id: "2A5822ABC406AC14"
 			title: "Sämaschine"
 			rewards: [{ id: "4829BB310677FFBE", type: "xp_levels", xp_levels: 3 }]
@@ -1580,7 +1580,7 @@
 		}
 		{
 			dependencies: ["47B66AAEA7EBE338"]
-			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
+			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Rezept: Werkbank: 3x Eichenbretter, Kiste, 2x Rad (Muster in JEI, Taste R).", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
 			id: "01ED0EF6AE8F064E"
 			title: "Handwagen"
 			rewards: [{ id: "1DDB59E4D185DC6A", type: "xp_levels", xp_levels: 3 }]
@@ -1590,7 +1590,7 @@
 		}
 		{
 			dependencies: ["01ED0EF6AE8F064E"]
-			description: ["&6Was ist das?", "Ein großer Wagen für 54 Stapel mit einem Sitz.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R drücken. Mit Shift und Rechtsklick öffnest du das Lager.", "", "&6Wofür ist das wichtig?", "Dein mobiles Lager auf Reisen."]
+			description: ["&6Was ist das?", "Ein großer Wagen für 54 Stapel mit einem Sitz.", "", "&6So gehts", "Rezept: Werkbank: 5x Eichenbretter, 2x Kiste, 2x Rad (Muster in JEI, Taste R).", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R drücken. Mit Shift und Rechtsklick öffnest du das Lager.", "", "&6Wofür ist das wichtig?", "Dein mobiles Lager auf Reisen."]
 			id: "375632BFE9D0B530"
 			title: "Versorgungswagen"
 			rewards: [{ id: "04DB7CFA9A1760C4", type: "xp_levels", xp_levels: 3 }]
@@ -1600,7 +1600,7 @@
 		}
 		{
 			dependencies: ["375632BFE9D0B530"]
-			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze für Tiere oder Spieler.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R drücken. Er lässt sich mit einem Banner schmücken.", "", "&6Wofür ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
+			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze für Tiere oder Spieler.", "", "&6So gehts", "Rezept: Werkbank: 7x Eichenbretter, 2x Rad (Muster in JEI, Taste R).", "Stelle ihn her. Das Rezept zeigt dir JEI: Item anklicken und R drücken. Er lässt sich mit einem Banner schmücken.", "", "&6Wofür ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
 			id: "756DF0541E3027DB"
 			title: "Tierwagen"
 			rewards: [{ id: "1F52220A256DACB8", type: "xp_levels", xp_levels: 3 }]

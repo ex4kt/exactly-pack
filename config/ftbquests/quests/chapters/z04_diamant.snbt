@@ -73,7 +73,7 @@
 			y: -3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
+			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept: Werkbank: 3x Diamant, 3x Stock (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
 			icon: { id: "justhammers:diamond_hammer" }
 			hide_dependency_lines: true
 			dependencies: ["63064054BBFD8FB1"]
@@ -117,7 +117,7 @@
 			y: 0.000d
 		}
 		{
-			description: ["&6Was ist das?", "Mit Easy Disenchanting überträgst du Verzauberungen auf Bücher.", "Schritt 1: Lege das verzauberte Item und ein Buch in den Amboss.", "Schritt 2: Nimm das verzauberte Buch heraus.", "", "&6So gehts", "Item in den Schleifstein legen.", "", "&6Wofür ist das wichtig?", "Schlechte Verzauberungen loswerden und neu verzaubern."]
+			description: ["&6Was ist das?", "Mit Easy Disenchanting holst du Verzauberungen vom Item auf ein Buch. Das Item bleibt erhalten, nur ohne Verzauberung.", "", "&6So gehts", "Öffne einen Amboss (nicht den Schleifstein).", "Links das verzauberte Item, rechts ein leeres Buch. Rechts nimmst du das verzauberte Buch.", "Willst du auf ein Buch, das schon Verzauberungen hat: das Buch links, das Item rechts.", "Der Schleifstein löscht Verzauberungen und gibt nur Erfahrung zurück. Die Verzauberung ist dann weg.", "", "&6Wofür ist das wichtig?", "Gute Verzauberungen von alter Ausrüstung retten und neu verteilen."]
 			dependencies: ["1DB3F417D7AE0137"]
 			id: "79245A87CC32FE72"
 			title: "Verzauberung übertragen"
@@ -189,7 +189,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofür ist das wichtig?", "Jedes Regal verändert die Werte am Tisch anders."]
+			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezept: Werkbank: 4x Honigwabe, 2x Eichen-Bienenstock, 2x Honigblock, Bücherregale (Muster in JEI, Taste R).", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofür ist das wichtig?", "Jedes Regal verändert die Werte am Tisch anders."]
 			icon: { id: "apothic_enchanting:beeshelf" }
 			dependencies: ["04B61412DE38FA60"]
 			id: "0A60B7540735FCD4"
@@ -232,7 +232,7 @@
 			y: 0.000d
 		}
 		{
-			description: ["&6Was ist das?", "Der Warden ist blind, hört aber jedes Geräusch. Er ist stärker als fast jeder Boss.", "", "&6So gehts", "Er lebt in der Tiefen Dunkelheit (Antike Städte). Schleiche und wirf Schneebälle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausrüstung und Heiltränken.", "", "&6Wofür ist das wichtig?", "Antike Städte haben die besten Truhen der Oberwelt: Schwunghosen-Verzauberung, Echosplitter, Rüstungsdesigns."]
+			description: ["&6Was ist das?", "Der Wächter (Warden) ist blind, hört aber jedes Geräusch. Er ist stärker als fast jeder Boss.", "", "&6So gehts", "Er lebt im Tiefen Dunkel (Antike Städte). Schleiche und wirf Schneebälle, um ihn abzulenken.", "Kampf nur mit sehr guter Ausrüstung und Heiltränken.", "Wenn du ihn besiegst, lässt er das Herz der Tiefe fallen. Damit zündest du das Portal in die Otherside (Kapitel Tiefes Dunkel).", "", "&6Wofür ist das wichtig?", "Antike Städte haben die besten Truhen der Oberwelt: Huschen (leises Schleichen), Echosplitter, Rüstungsdesigns."]
 			dependencies: ["1512FC1565ADD973"]
 			id: "150D1F4AD2F8211C"
 			title: "Der Wächter der Tiefe"
@@ -539,7 +539,7 @@
 			y: 12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Ein starker Bogen für die mittleren Bosse."]
+			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 3x Faden, Diamant (Muster in JEI, Taste R).", "Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Ein starker Bogen für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_bow" }
 			dependencies: ["5DBD766E57EBAD5C"]
 			id: "1338FFE60935D51A"
@@ -550,7 +550,7 @@
 			y: 12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept in JEI nachschlagen. Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Starke Armbrust für die mittleren Bosse."]
+			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept: Werkbank: 3x Stock, Diamant, 2x Faden, Haken (Muster in JEI, Taste R).", "Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Starke Armbrust für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_crossbow" }
 			dependencies: ["1338FFE60935D51A"]
 			id: "1B2144517BC5AC69"
@@ -749,7 +749,7 @@
 			y: -3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Die Alte Stadt liegt im Biom Tiefes Dunkel.", "", "&6So gehts", "Suche das Biom Tiefes Dunkel (mit dem Naturkompass) und grabe auf etwa Höhe -51 nach unten, bis du Tiefenschiefer-Fliesen siehst.", "", "&6Wofür ist das wichtig?", "Dort sind seltene Kisten mit Verzauberungen und der Wächter."]
+			description: ["&6Was ist das?", "Die Alte Stadt liegt im Biom Tiefes Dunkel, tief unter der Erde.", "", "&6So gehts", "Schnellster Weg: Kompass des Entdeckers, Antike Stadt suchen.", "Oder: Naturkompass auf das Biom Tiefes Dunkel, dann auf etwa Höhe -51 nach unten graben, bis du Tiefenschiefer-Fliesen siehst.", "", "&6Wofür ist das wichtig?", "Dort sind seltene Kisten mit Verzauberungen, der Wächter und das Portal in die Otherside."]
 			icon: { id: "minecraft:deepslate_tiles" }
 			dependencies: ["79F99044DC32904A"]
 			id: "08E5540FAC14EE5E"
@@ -1165,7 +1165,7 @@
 			y: -12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Das einfachste Gehäuse, Grundlage der ersten Maschinen.", "", "&6So gehts", "Rezept in JEI suchen und mit R ansehen.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse gibt es keine Maschinen."]
+			description: ["&6Was ist das?", "Das einfachste Gehäuse, Grundlage der ersten Maschinen.", "", "&6So gehts", "Rezept: Werkbank: 4x Baumstämme, 4x Eisen-Barren, Redstone-Block (Muster in JEI, Taste R).", "Rezept in JEI suchen und mit R ansehen.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse gibt es keine Maschinen."]
 			dependencies: ["477C49CD2AB49D33"]
 			id: "0805AA0C446E6326"
 			title: "Primitives Maschinengehäuse"
@@ -1298,7 +1298,7 @@
 		}
 		{
 			dependencies: ["7B81B7909BCD40B9"]
-			description: ["&6Was ist das?", "Die dritte Stufe des Furnators: mehr Strom, verbraucht Brennstoff schneller.", "", "&6So gehts", "Aufrüstung des Einfachen Furnators, Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Stärker als alles, was du bisher an Strom hattest."]
+			description: ["&6Was ist das?", "Die dritte Stufe des Furnators: mehr Strom, verbraucht Brennstoff schneller.", "", "&6So gehts", "Rezept: Werkbank: 5x Energiestahl, 2x Gehärteter Kondensator, Dielektrisches Gehäuse, Furnator (Einfach) (Muster in JEI, Taste R).", "Aufrüstung des Einfachen Furnators,", "", "&6Wofür ist das wichtig?", "Stärker als alles, was du bisher an Strom hattest."]
 			id: "79E68C7A6E881E43"
 			title: "Gehärteter Furnator"
 			rewards: [{ id: "1DF4CD5968E23981", type: "xp_levels", xp_levels: 2 }]
@@ -1328,7 +1328,7 @@
 		}
 		{
 			dependencies: ["286FD2B73A34D4A3"]
-			description: ["&6Was ist das?", "Ein Generator mit Uraninit als Brennstoff.", "", "&6So gehts", "Herstellung: vier Uraninit, vier Winzige Kondensatoren und ein Gehäuse. Brennstoffe und Kühlmittel zeigt JEI unter Reaktor-Brennstoffe und Kühlmittel.", "", "&6Wofür ist das wichtig?", "Viel Strom für wenig Platz, aber Aufbau und Wartung kosten Mühe."]
+			description: ["&6Was ist das?", "Ein Generator mit Uraninit als Brennstoff.", "", "&6So gehts", "Rezept: Werkbank: 4x Uraninit, 4x Einfacher Kondensator (winzig), Dielektrisches Gehäuse (ergibt 4) (Muster in JEI, Taste R).", "Herstellung: vier Uraninit, vier Winzige Kondensatoren und ein Gehäuse. Brennstoffe und Kühlmittel zeigt JEI unter Reaktor-Brennstoffe und Kühlmittel.", "", "&6Wofür ist das wichtig?", "Viel Strom für wenig Platz, aber Aufbau und Wartung kosten Mühe."]
 			id: "64A3CB2E490081E6"
 			title: "Reaktor"
 			rewards: [{ id: "33DA0A6848D25B16", type: "xp_levels", xp_levels: 3 }]

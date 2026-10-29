@@ -22,7 +22,7 @@
 		}
 		{
 			dependencies: ["103D3053E09ACE15"]
-			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenköpfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schädel.", "Kämpfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "", "&6Wofür ist das wichtig?", "Er lässt den Netherstern fallen, daraus baust du ein Leuchtfeuer.", "", "&6Gut zu wissen", "Er entsteht aus vier Seelensand und drei Witherskelett-Schädeln. Kämpfe in einem Raum mit Decke und sorge für genug Heilung, er hat 300 Leben."]
+			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenköpfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schädel.", "Kämpfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "Unter der Hälfte seiner Leben bekommt er eine Panzerung: Pfeile treffen dann nicht mehr. Geh nah ran und kämpfe mit dem Schwert. Er fliegt in dieser Phase nicht mehr weg.", "", "&6Wofür ist das wichtig?", "Er lässt den Netherstern fallen, daraus baust du ein Leuchtfeuer.", "", "&6Gut zu wissen", "Er hat 300 Leben. Die Anleitung darunter führt dich Schritt für Schritt durch Ausrüstung, Schädel und Kampfplatz."]
 			id: "6E01392665CDEBA9"
 			title: "Der Wither"
 			rewards: [{ id: "4DC4D1E1F6E946A8", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
@@ -113,7 +113,7 @@
 		}
 		{
 			dependencies: ["1780C0D0A5746F73"]
-			description: ["&6Was ist das?", "Cataclysm: Eine Laserwaffe vom Harbinger.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Dauerfeuer gegen Bosse."]
+			description: ["&6Was ist das?", "Cataclysm: Eine Laserwaffe vom Harbinger.", "", "&6So gehts", "Rezept: Werkbank: Redstone, 3x Eisenbarren, Redstone-Block, 2x Witheritbarren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Dauerfeuer gegen Bosse."]
 			icon: { id: "cataclysm:laser_gatling" }
 			id: "68AB7D16B23D0676"
 			title: "Laser-Gatling"
@@ -135,7 +135,7 @@
 		}
 		{
 			dependencies: ["1F864491CCBCAF0C"]
-			description: ["&6Was ist das?", "Cataclysm: Eine Sense aus Seelen.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Hoher Flächenschaden."]
+			description: ["&6Was ist das?", "Cataclysm: Eine Sense aus Seelen.", "", "&6So gehts", "Rezept: Werkbank: 3x Cursiumbarren, 2x Schwarzstahlbarren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Hoher Flächenschaden."]
 			icon: { id: "cataclysm:soul_render" }
 			id: "5D712401476E2014"
 			title: "Seelenreißer"
@@ -511,7 +511,7 @@
 		}
 		{
 			dependencies: ["6E01392665CDEBA9"]
-			description: ["&6Was ist das?", "Der Wither ist ein Boss mit 300 Leben. Er fliegt, schießt Totenkopf-Geschosse, die den Wither-Effekt (Schaden über Zeit) geben, und zerstört Blöcke um sich.", "", "&6So gehts", "Diese Anleitung führt dich in acht Schritten: Ausrüstung, Heilung, Netherfestung, Schädel, Seelensand, Kampfplatz, Aufbau, Kampf.", "Mach die Schritte von links nach rechts. Jeder Schritt gibt Erfahrung.", "", "&6Wofür ist das wichtig?", "Der Wither liefert den Netherstern, ohne den es kein Leuchtfeuer gibt. Ohne Vorbereitung ist der Kampf sehr gefährlich."]
+			description: ["&6Was ist das?", "Der Wither ist ein Boss mit 300 Leben. Er fliegt, schießt Totenkopf-Geschosse, die den Wither-Effekt (Schaden über Zeit) geben, und zerstört Blöcke um sich.", "", "&6So gehts", "Diese Anleitung führt dich in sieben Schritten: Ausrüstung, Heilung, Netherfestung, Schädel, Seelensand, Kampfplatz, Aufbau.", "Mach die Schritte von links nach rechts. Jeder Schritt gibt Erfahrung.", "Im Kampf: Erst aus der Distanz, ab der Hälfte der Leben nah mit dem Schwert (dann sind Pfeile nutzlos).", "", "&6Wofür ist das wichtig?", "Der Wither liefert den Netherstern, ohne den es kein Leuchtfeuer gibt. Ohne Vorbereitung ist der Kampf sehr gefährlich."]
 			icon: { id: "minecraft:wither_skeleton_skull" }
 			id: "3FACB52F0FE5B297"
 			title: "Wither: Überblick"
@@ -544,7 +544,7 @@
 		}
 		{
 			dependencies: ["0E820BF0F76E3142"]
-			description: ["&6Was ist das?", "Witherskelette leben nur in Netherfestungen.", "", "&6So gehts", "Gehe ins Nether und suche eine Netherfestung (dunkle Backstein-Bauten). Mit dem Naturkompass aus dem Pack kannst du nach ihr suchen lassen.", "Baue Brücken über Lavaseen und nimm genug Blöcke und Feuerresistenz-Tränke mit.", "", "&6Wofür ist das wichtig?", "Nur dort fallen die Witherskelett-Schädel. Eine Festung ist voll von Blazes und Skeletten: Sei vorsichtig."]
+			description: ["&6Was ist das?", "Witherskelette leben nur in Netherfestungen.", "", "&6So gehts", "Geh in den Nether und suche eine Netherfestung (dunkle Backstein-Bauten).", "Dafür den Kompass des Entdeckers nutzen: Rechtsklick, Netherfestung wählen, Suchen. Der Naturkompass findet nur Biome, keine Bauwerke.", "Baue Brücken über Lavaseen und nimm genug Blöcke und Feuerresistenz-Tränke mit.", "", "&6Wofür ist das wichtig?", "Nur dort fallen die Witherskelett-Schädel. Eine Festung ist voll von Blazes und Skeletten: Sei vorsichtig."]
 			icon: { id: "minecraft:nether_bricks" }
 			id: "2CC166EDC1678FF2"
 			title: "Wither: Netherfestung finden"
@@ -588,7 +588,7 @@
 		}
 		{
 			dependencies: ["37E9FE2F7A39F750"]
-			description: ["&6Was ist das?", "Hier rufst du ihn.", "", "&6So gehts", "Stelle drei Seelensand in einer Reihe, dann einen Seelensand in die Mitte darunter (T-Form). Setze zuletzt drei Schädel auf die obere Reihe.", "Der Wither blinkt blau und ist kurz unverwundbar, dann explodiert er. Gehe vorher mehrere Blöcke zurück.", "", "&6Wofür ist das wichtig?", "Wer zu nah steht, nimmt Explosionsschaden. Setze die Schädel aus sicherer Entfernung."]
+			description: ["&6Was ist das?", "Hier rufst du ihn, und so kämpfst du.", "", "&6So gehts", "Stelle drei Seelensand in einer Reihe, dann einen Seelensand in die Mitte darunter (T-Form). Setze zuletzt drei Schädel auf die obere Reihe.", "Der Wither blinkt blau und ist kurz unverwundbar, dann explodiert er. Geh vorher mehrere Blöcke zurück.", "Phase 1: Er fliegt und schießt Schädel. Bogen und Abstand.", "Phase 2 (unter der Hälfte der Leben): Er bekommt eine Panzerung, Pfeile treffen nicht mehr, er bleibt nah. Schwert, Milch gegen den Wither-Effekt, Goldene Äpfel.", "", "&6Wofür ist das wichtig?", "Wer zu nah steht, nimmt Explosionsschaden. Setze die Schädel aus sicherer Entfernung."]
 			icon: { id: "minecraft:soul_sand" }
 			id: "1C35BA97EED2E9ED"
 			title: "Wither: Aufbau"

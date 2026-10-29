@@ -290,7 +290,7 @@
 		}
 		{
 			dependencies: ["395921B21599ECB3"]
-			description: ["&6Was ist das?", "Irons Spells: Ein Rapier für Kampfmagier.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Schnelle Waffe mit Zauberkraft."]
+			description: ["&6Was ist das?", "Irons Spells: Ein Rapier für Kampfmagier.", "", "&6So gehts", "Rezept: Werkbank: 2x Amethystscherbe, 2x Kette, Waffenteile (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Schnelle Waffe mit Zauberkraft."]
 			icon: { id: "irons_spellbooks:amethyst_rapier" }
 			id: "5EC7157B3A556B20"
 			title: "Amethyst-Rapier"
@@ -323,7 +323,7 @@
 		}
 		{
 			dependencies: ["2DB33D15EFD0C795"]
-			description: ["&6Was ist das?", "Ein Stab für Eiszauber.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Stärkere Eiszauber."]
+			description: ["&6Was ist das?", "Ein Stab für Eiszauber.", "", "&6So gehts", "Rezept: Werkbank (formlos): Gefrorener Schaft, Permafrostsplitter (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Stärkere Eiszauber."]
 			icon: { id: "irons_spellbooks:ice_staff" }
 			id: "4353EC408ED1FF04"
 			title: "Eisstab"
@@ -345,7 +345,7 @@
 		}
 		{
 			dependencies: ["6E0B791D7D1B20B0"]
-			description: ["&6Was ist das?", "Ringe, die vor Feuer, Frost oder Gift schützen.", "", "&6So gehts", "Rezepte in JEI, im Zubehör-Slot tragen.", "", "&6Wofür ist das wichtig?", "Perfekt gegen passende Bosse."]
+			description: ["&6Was ist das?", "Ringe, die vor Feuer, Frost oder Gift schützen.", "", "&6So gehts", "Rezept: Werkbank: 4x Aschenessenz, Mithrilschrott (Muster in JEI, Taste R).", "Rezepte in JEI, im Zubehör-Slot tragen.", "", "&6Wofür ist das wichtig?", "Perfekt gegen passende Bosse."]
 			icon: { id: "irons_spellbooks:fireward_ring" }
 			id: "35BE3FFE6C551D0F"
 			title: "Schutzringe"
@@ -356,7 +356,7 @@
 		}
 		{
 			dependencies: ["35BE3FFE6C551D0F"]
-			description: ["&6Was ist das?", "Ein Amulett gegen Unterbrechung beim Zaubern.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Zauber werden nicht abgebrochen, wenn du getroffen wirst."]
+			description: ["&6Was ist das?", "Ein Amulett gegen Unterbrechung beim Zaubern.", "", "&6So gehts", "Rezept: Werkbank: 3x Kette, Mithrilschrott, Mithrilbarren (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Zauber werden nicht abgebrochen, wenn du getroffen wirst."]
 			icon: { id: "irons_spellbooks:concentration_amulet" }
 			id: "0D3E201CB31572E4"
 			title: "Konzentrations-Amulett"
@@ -547,7 +547,7 @@
 		}
 		{
 			dependencies: ["3DAA1F6F53E0A842"]
-			description: ["&6Was ist das?", "Ein einfaches Zauberbuch aus Kupfer.", "", "&6So gehts", "Zauberbuch und Kupferbarren am Inschriftentisch bzw. in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Für die ersten Zauber reicht es, später lohnt sich ein besseres Buch."]
+			description: ["&6Was ist das?", "Ein einfaches Zauberbuch aus Kupfer.", "", "&6So gehts", "Rezept: Werkbank: 2x Kupfer-Barren, 6x Papier, Faden (Muster in JEI, Taste R).", "Zauberbuch und Kupferbarren am Inschriftentisch bzw. in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Für die ersten Zauber reicht es, später lohnt sich ein besseres Buch."]
 			id: "79F1C35EEAC3C1CA"
 			title: "Kupfer-Zauberbuch"
 			rewards: [{ id: "6C29DF910412F63D", type: "xp_levels", xp_levels: 2 }]
@@ -766,7 +766,7 @@
 		}
 		{
 			dependencies: ["1F781F505D7F6EB5"]
-			description: ["&6Was ist das?", "Ein dunkles Silber für Nekro-Waffen.", "", "&6So gehts", "Todessilbererz liefert Klumpen, aus denen du Barren machst. Alternativ entsteht es aus Silberbarren (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Für Todessilber-Dolch, -Schwert und -Axt."]
+			description: ["&6Was ist das?", "Ein dunkles Silber für Nekro-Waffen.", "", "&6So gehts", "Rezept: Werkbank: 9x Todessilberklumpen (Muster in JEI, Taste R).", "Todessilbererz liefert Klumpen, aus denen du Barren machst. Alternativ entsteht es aus Silberbarren (Rezept in JEI).", "", "&6Wofür ist das wichtig?", "Für Todessilber-Dolch, -Schwert und -Axt."]
 			id: "24019DFB2BB49DD9"
 			title: "Todessilber"
 			rewards: [{ id: "3A76189F54E6D6CE", type: "xp_levels", xp_levels: 2 }]
@@ -836,7 +836,7 @@
 		}
 		{
 			dependencies: ["5EE137512C837A80"]
-			description: ["&6Was ist das?", "Eine feste Kugel verbannter Seelen, der Schlüssel zum Lich-Dasein.", "", "&6So gehts", "Rezept in JEI. Ohne sie verflucht dich der Zauber Lich-Dasein.", "", "&6Wofür ist das wichtig?", "Mit Lich-Dasein kannst du einmal wiederauferstehen."]
+			description: ["&6Was ist das?", "Eine feste Kugel verbannter Seelen, der Schlüssel zum Lich-Dasein.", "", "&6So gehts", "Rezept: Werkbank: 4x Fauliger Knochen, 4x Spektritbarren, Göttlicher Seelensplitter (Muster in JEI, Taste R).", "Ohne sie verflucht dich der Zauber Lich-Dasein.", "", "&6Wofür ist das wichtig?", "Mit Lich-Dasein kannst du einmal wiederauferstehen."]
 			id: "10A1F534BDD3E551"
 			title: "Kugel der Seelen"
 			rewards: [{ id: "15BEC849E513CCFC", type: "xp_levels", xp_levels: 2 }]
