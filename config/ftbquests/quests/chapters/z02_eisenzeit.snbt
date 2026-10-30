@@ -317,50 +317,6 @@
 		}
 		{
 			dependencies: ["7F2BC6A2E1878E46"]
-			description: ["&6Was ist das?", "Oh The Biomes We Have Gone: über 80 neue Biome mit eigenen Bäumen.", "", "&6So gehts", "Suche mit dem Naturkompass ein neues Biom, zum Beispiel eine Savanne mit Baobabs.", "", "&6Wofür ist das wichtig?", "Neue Holzarten und Pflanzen für schöne Bauten."]
-			icon: { id: "biomeswevegone:baobab_log" }
-			id: "1F6A514282C7FD4A"
-			title: "Neue Biome"
-			rewards: [{ id: "4EFBBF8D10D807FD", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "06F076EEDB93E442", type: "item", item: { id: "biomeswevegone:baobab_log", count: 1 }, count: 8L }]
-			x: 7.50d
-			y: 15.000d
-		}
-		{
-			dependencies: ["1F6A514282C7FD4A"]
-			description: ["&6Was ist das?", "BWG: Ebenholz ist fast schwarz.", "", "&6So gehts", "In Ebenholz-Wäldern fällen.", "", "&6Wofür ist das wichtig?", "Edles, dunkles Holz."]
-			icon: { id: "biomeswevegone:ebony_log" }
-			id: "1DC6642F8C3710BC"
-			title: "Ebenholz"
-			rewards: [{ id: "44491904136C840D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "3489A713C6C0B4DE", type: "item", item: { id: "biomeswevegone:ebony_log", count: 1 }, count: 8L }]
-			x: 9.00d
-			y: 15.000d
-		}
-		{
-			dependencies: ["1DC6642F8C3710BC"]
-			description: ["&6Was ist das?", "BWG: Mahagoni aus dem Regenwald.", "", "&6So gehts", "Im Mahagoni-Regenwald fällen.", "", "&6Wofür ist das wichtig?", "Warmes, rotes Holz."]
-			icon: { id: "biomeswevegone:mahogany_log" }
-			id: "552F3E5C22D3C666"
-			title: "Mahagoni"
-			rewards: [{ id: "31E09329337715A7", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "60D8459732DDA7C6", type: "item", item: { id: "biomeswevegone:mahogany_log", count: 1 }, count: 8L }]
-			x: 10.50d
-			y: 15.000d
-		}
-		{
-			dependencies: ["552F3E5C22D3C666"]
-			description: ["&6Was ist das?", "BWG: Leuchtende Bäume im verzauberten Wald.", "", "&6So gehts", "Den verzauberten Wald finden.", "", "&6Wofür ist das wichtig?", "Magisches Holz für besondere Bauten."]
-			icon: { id: "biomeswevegone:blue_enchanted_log" }
-			id: "38CC7B6CC628EC08"
-			title: "Verzauberter Wald"
-			rewards: [{ id: "7F876F32E440D26D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6FAB65AEBD6EC3AA", type: "item", item: { id: "biomeswevegone:blue_enchanted_log", count: 1 }, count: 8L }]
-			x: 12.00d
-			y: 15.000d
-		}
-		{
-			dependencies: ["38CC7B6CC628EC08"]
 			description: ["&6Was ist das?", "Wetland Whimsy: neue Sümpfe mit Zypressen.", "", "&6So gehts", "Im Sumpf fällen.", "", "&6Wofür ist das wichtig?", "Neues Holz und Sumpf-Abenteuer."]
 			icon: { id: "wetland_whimsy:bald_cypress_log" }
 			id: "707755A835E4D089"
