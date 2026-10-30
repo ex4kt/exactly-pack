@@ -63,7 +63,7 @@
 			y: -3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Die Magnum-Fackel hält Monster in einem großen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Nähe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept in JEI).", "Stelle sie mitten in deine Basis.", "", "&6Wofür ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
+			description: ["&6Was ist das?", "Die Magnum-Fackel hält Monster in einem großen Bereich fern.", "Stelle sie neben dein Haus, damit nichts in der Nähe spawnt.", "", "&6So gehts", "Baue die Diamant-Magnum-Fackel (Rezept im Rezeptbuch).", "Stelle sie mitten in deine Basis.", "", "&6Wofür ist das wichtig?", "Viel einfacher als alles auszuleuchten. So kannst du in Ruhe bauen und Farmen anlegen."]
 			dependencies: ["797F4B8218472B01"]
 			id: "2B4C71F6BF32A230"
 			title: "Monsterfreie Zone"
@@ -73,7 +73,7 @@
 			y: -3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept: Werkbank: 3x Diamant, 3x Stock (Muster in JEI, Taste R).", "", "&6Wofür ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
+			description: ["&6Was ist das?", "Just Hammers: Diamanthammer, sehr schnell und haltbar.", "", "&6So gehts", "Rezept: Werkbank: 3x Diamant, 3x Stock (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "", "&6Wofür ist das wichtig?", "Riesige Mengen Stein in Sekunden."]
 			icon: { id: "justhammers:diamond_hammer" }
 			hide_dependency_lines: true
 			dependencies: ["63064054BBFD8FB1"]
@@ -85,7 +85,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Eine verstärkte Spitzhacke aus Minecraft Dungeons.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Mehr Haltbarkeit für lange Bergbau-Touren."]
+			description: ["&6Was ist das?", "Eine verstärkte Spitzhacke aus Minecraft Dungeons.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Mehr Haltbarkeit für lange Bergbau-Touren."]
 			icon: { id: "minecraftdungeonsv3:reinforced_diamond_pickaxe" }
 			dependencies: ["598824065CC1F63B"]
 			id: "3001D0B57ED05F99"
@@ -106,7 +106,7 @@
 			y: 0.000d
 		}
 		{
-			description: ["&6Was ist das?", "Apothic Enchanting ersetzt das normale Verzaubern.", "Jedes Bücherregal hat Werte: Eterna (Stärke), Quanta (Zufall) und Arcana (Seltenheit).", "", "&6So gehts", "Stelle verschiedene Bücherregale um den Verzauberungstisch. Fahre mit der Maus über den Tisch, um die Werte zu sehen.", "Bessere Regale (z.B. aus Nether- oder End-Material) bringen höhere Stufen.", "JEI zeigt alle besonderen Regale und Rezepte.", "", "&6Wofür ist das wichtig?", "Mit guten Regalen bekommst du Verzauberungen über der normalen Höchststufe. Das macht Werkzeuge und Rüstung für die Bosse stark."]
+			description: ["&6Was ist das?", "Apothic Enchanting ersetzt das normale Verzaubern.", "Jedes Bücherregal hat Werte: Eterna (Stärke), Quanta (Zufall) und Arcana (Seltenheit).", "", "&6So gehts", "Stelle verschiedene Bücherregale um den Verzauberungstisch. Fahre mit der Maus über den Tisch, um die Werte zu sehen.", "Bessere Regale (z.B. aus Nether- oder End-Material) bringen höhere Stufen.", "Das Rezeptbuch (JEI) zeigt alle besonderen Regale und Rezepte.", "", "&6Wofür ist das wichtig?", "Mit guten Regalen bekommst du Verzauberungen über der normalen Höchststufe. Das macht Werkzeuge und Rüstung für die Bosse stark."]
 			icon: { id: "minecraft:enchanted_book" }
 			dependencies: ["2502CCD91E41AFC0"]
 			id: "1DB3F417D7AE0137"
@@ -158,7 +158,7 @@
 			y: -4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Mit Seidenberührung bekommst du Blöcke selbst statt ihrer Drops, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofür ist das wichtig?", "Für Glas, Eis, Bienennester und Erzblöcke zum späteren Glück-Abbau."]
+			description: ["&6Was ist das?", "Mit Seidenberührung bekommst du Blöcke selbst statt ihrer Beute, z.B. Erz oder Glas.", "", "&6So gehts", "Auf eine Spitzhacke verzaubern.", "", "&6Wofür ist das wichtig?", "Für Glas, Eis, Bienennester und Erzblöcke zum späteren Glück-Abbau."]
 			dependencies: ["08E13C4778BBECAD"]
 			id: "188BE6C057D774EB"
 			title: "Seidenberührung"
@@ -189,7 +189,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezept: Werkbank: 4x Honigwabe, 2x Eichen-Bienenstock, 2x Honigblock, Bücherregale (Muster in JEI, Taste R).", "Rezepte in JEI mit @apothic_enchanting.", "", "&6Wofür ist das wichtig?", "Jedes Regal verändert die Werte am Tisch anders."]
+			description: ["&6Was ist das?", "Apothic Enchanting: besondere Regale wie Bienen-, Melonen- oder Geodenregal.", "", "&6So gehts", "Rezept: Werkbank: 4x Honigwabe, 2x Eichen-Bienenstock, 2x Honigblock, Bücherregale (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @apothic_enchanting.", "", "&6Wofür ist das wichtig?", "Jedes Regal verändert die Werte am Tisch anders."]
 			icon: { id: "apothic_enchanting:beeshelf" }
 			dependencies: ["04B61412DE38FA60"]
 			id: "0A60B7540735FCD4"
@@ -200,7 +200,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Die Bibliothek speichert unendlich viele Verzauberungsbücher.", "", "&6So gehts", "Rezept in JEI. Bücher hineinlegen, einzelne Verzauberungen wieder herausnehmen.", "", "&6Wofür ist das wichtig?", "Ordnung für alle Bücher und gezieltes Verzaubern."]
+			description: ["&6Was ist das?", "Die Bibliothek speichert unendlich viele Verzauberungsbücher.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R. Bücher hineinlegen, einzelne Verzauberungen wieder herausnehmen.", "", "&6Wofür ist das wichtig?", "Ordnung für alle Bücher und gezieltes Verzaubern."]
 			icon: { id: "apothic_enchanting:library" }
 			dependencies: ["0A60B7540735FCD4"]
 			id: "2ED40011201DDCD2"
@@ -284,7 +284,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Illager Invasion: Der Tisch erhöht Verzauberungen über die normale Grenze.", "", "&6So gehts", "Rezept in JEI.", "", "&6Wofür ist das wichtig?", "Noch stärkere Ausrüstung."]
+			description: ["&6Was ist das?", "Illager Invasion: Der Tisch erhöht Verzauberungen über die normale Grenze.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Noch stärkere Ausrüstung."]
 			icon: { id: "illagerinvasion:imbuing_table" }
 			dependencies: ["000C90CEB11DB7E0"]
 			id: "298030CF36D333B8"
@@ -295,7 +295,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Prüfungskammern sind unterirdische Kampfräume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner für Schlüssel.", "", "&6Wofür ist das wichtig?", "Mit Schlüsseln öffnest du Tresore voller Beute."]
+			description: ["&6Was ist das?", "Prüfungskammern sind unterirdische Kampfräume voller Fallen und Gegner.", "", "&6So gehts", "Finde eine Kammer aus Kupfer und Tuff. Besiege die Wellen der Spawner (Monsterkäfig) für Schlüssel.", "", "&6Wofür ist das wichtig?", "Mit Schlüsseln öffnest du Tresore voller Beute."]
 			icon: { id: "minecraft:trial_key" }
 			dependencies: ["2DEDA3D57FB89524"]
 			id: "56EB4F04FE6703CA"
@@ -369,7 +369,7 @@
 			y: 0.000d
 		}
 		{
-			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschießt Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: In JEI nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Gift-Pfeile."]
+			description: ["&6Was ist das?", "Mowzies Mobs: Das Blasrohr verschießt Giftpfeile.", "", "&6So gehts", "Fundort und Rezept: Im Rezeptbuch nachschlagen (R und U).", "", "&6Wofür ist das wichtig?", "Gift-Pfeile."]
 			dependencies: ["682527776DB20343"]
 			id: "0CBF80C3F9C3353A"
 			title: "Blasrohr"
@@ -379,7 +379,7 @@
 			y: 0.000d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "2033B010211045B7"
@@ -390,7 +390,7 @@
 			y: -3.133d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "3C16417455BF901B"
@@ -401,7 +401,7 @@
 			y: -3.900d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "0950AD20BDAA2B45"
@@ -412,7 +412,7 @@
 			y: -3.900d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "5C364D9ACC48B4FA"
@@ -423,7 +423,7 @@
 			y: 3.900d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "0F16990376D1A846"
@@ -434,7 +434,7 @@
 			y: 3.900d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "32D6E55482ABC3AD"
@@ -445,7 +445,7 @@
 			y: 3.133d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "6D207A38EA79BD24"
@@ -456,7 +456,7 @@
 			y: -3.211d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "5BEA137C19885E89"
@@ -467,7 +467,7 @@
 			y: -5.688d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "54263A8EF275AFD9"
@@ -478,7 +478,7 @@
 			y: 4.944d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
 			id: "660CDF873CC0CCED"
@@ -490,7 +490,7 @@
 			y: -9.000d
 		}
 		{
-			description: ["&6Was ist das?", "Das Langschwert aus Diamant.", "", "&6So gehts", "Rezept in JEI. Das Eisen-Langschwert gehört ins Rezept.", "", "&6Wofür ist das wichtig?", "Mehr Schaden für die Bosse der Diamantzeit."]
+			description: ["&6Was ist das?", "Das Langschwert aus Diamant.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R. Das Eisen-Langschwert gehört ins Rezept.", "", "&6Wofür ist das wichtig?", "Mehr Schaden für die Bosse der Diamantzeit."]
 			icon: { id: "simplyswords:diamond_longsword" }
 			dependencies: ["660CDF873CC0CCED"]
 			id: "044532E4F2FBF3DB"
@@ -527,7 +527,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Wurfwaffe. Mit Wasserkraft bist du im Regen schnell.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R im Rezeptbuch nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe, der Infotext zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:trident" }
 			dependencies: ["31E652570EB0BD57"]
 			id: "5DBD766E57EBAD5C"
@@ -539,7 +539,7 @@
 			y: 12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 3x Faden, Diamant (Muster in JEI, Taste R).", "Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Ein starker Bogen für die mittleren Bosse."]
+			description: ["&6Was ist das?", "Der Diamantbogen.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 3x Faden, Diamant (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Ein starker Bogen für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_bow" }
 			dependencies: ["5DBD766E57EBAD5C"]
 			id: "1338FFE60935D51A"
@@ -550,7 +550,7 @@
 			y: 12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept: Werkbank: 3x Stock, Diamant, 2x Faden, Haken (Muster in JEI, Taste R).", "Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Starke Armbrust für die mittleren Bosse."]
+			description: ["&6Was ist das?", "Die Diamantarmbrust.", "", "&6So gehts", "Rezept: Werkbank: 3x Stock, Diamant, 2x Faden, Haken (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Verfügbar im Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Starke Armbrust für die mittleren Bosse."]
 			icon: { id: "archeries:diamond_crossbow" }
 			dependencies: ["1338FFE60935D51A"]
 			id: "1B2144517BC5AC69"
@@ -572,7 +572,7 @@
 			y: 13.500d
 		}
 		{
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:diamond_pickaxe" }
 			dependencies: ["1338FFE60935D51A"]
 			id: "1136F86CA38A7C38"
@@ -583,7 +583,7 @@
 			y: 12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Infotext auf Rüstung und Härte."]
 			icon: { id: "minecraft:diamond_chestplate" }
 			dependencies: ["1338FFE60935D51A"]
 			id: "1AEBC6FD6A90E4B1"
@@ -655,7 +655,7 @@
 			y: -1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Neun Diamanten werden zu einem Block.", "", "&6So gehts", "Neun Diamanten quadratisch in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Schöne Deko und kompaktes Lager für deinen Schatz."]
+			description: ["&6Was ist das?", "Neun Diamanten werden zu einem Block.", "", "&6So gehts", "Neun Diamanten quadratisch in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Schöne Deko und kompaktes Lager für deinen Schatz."]
 			hide_dependency_lines: true
 			dependencies: ["63064054BBFD8FB1"]
 			id: "32FAAA7DA2F5723D"
@@ -666,7 +666,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich beim Erkunden und Spähen."]
+			description: ["&6Was ist das?", "Mit dem Fernglas siehst du weit.", "", "&6So gehts", "Kupferbarren und Amethystsplitter in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Hilfreich beim Erkunden und Spähen."]
 			dependencies: ["69BF8973F8D01A34"]
 			id: "6492FCA00E7D07FE"
 			title: "Fernglas"
@@ -686,7 +686,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurück.", "", "&6So gehts", "Zwei Stöcke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
+			description: ["&6Was ist das?", "Entfernt Verzauberungen und gibt Erfahrung zurück.", "", "&6So gehts", "Zwei Stöcke, Stein und Bretter in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, wenn du eine Verzauberung loswerden willst."]
 			dependencies: ["2502CCD91E41AFC0"]
 			id: "25B9B3C3109D1578"
 			title: "Schleifstein"
@@ -696,7 +696,7 @@
 			y: -3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Ein Apfel mit starker Heilwirkung.", "", "&6So gehts", "Acht Goldbarren um einen Apfel in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Rettet dich im Notfall vor dem Tod."]
+			description: ["&6Was ist das?", "Ein Apfel mit starker Heilwirkung.", "", "&6So gehts", "Acht Goldbarren um einen Apfel in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Rettet dich im Notfall vor dem Tod."]
 			hide_dependency_lines: true
 			dependencies: ["63064054BBFD8FB1"]
 			id: "31A632BD8B609BCE"
@@ -707,7 +707,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Zeigt deine Rüstung im Haus.", "", "&6So gehts", "Stöcke und glatte Steinplatte. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Wechseln der Ausrüstung und für Deko."]
+			description: ["&6Was ist das?", "Zeigt deine Rüstung im Haus.", "", "&6So gehts", "Stöcke und glatte Steinplatte. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Wechseln der Ausrüstung und für Deko."]
 			dependencies: ["69BF8973F8D01A34"]
 			id: "0A340152DBA56AA6"
 			title: "Rüstungsständer"
@@ -717,7 +717,7 @@
 			y: -6.000d
 		}
 		{
-			description: ["&6Was ist das?", "Rahmen halten Gegenstände an der Wand.", "", "&6So gehts", "Stöcke und Leder in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Rahmen zeigst du Truheninhalte oder Sammlungen."]
+			description: ["&6Was ist das?", "Rahmen halten Gegenstände an der Wand.", "", "&6So gehts", "Stöcke und Leder in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Rahmen zeigst du Truheninhalte oder Sammlungen."]
 			hide_dependency_lines: true
 			dependencies: ["63064054BBFD8FB1"]
 			id: "2B5A3C1A87D01853"
@@ -728,7 +728,7 @@
 			y: -1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Amethystblöcke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Wunderschön für Räume und Verzauberungsecken."]
+			description: ["&6Was ist das?", "Amethystblöcke funkeln in der Dunkelheit.", "", "&6So gehts", "Vier Amethystsplitter in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Wunderschön für Räume und Verzauberungsecken."]
 			dependencies: ["2502CCD91E41AFC0"]
 			id: "4FCD4D95A34A6ED2"
 			title: "Kristall-Deko"
@@ -883,7 +883,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Der Rumpf ist der Grundbaustein jedes Fluggeräts.", "", "&6So gehts", "6 Stämme und 3 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ohne Rumpf kein Flugzeug.", "", "&6Gut zu wissen", "Alle Fluggeräte von Immersive Aircraft werden ab dem Diamant-Zeitalter freigeschaltet."]
+			description: ["&6Was ist das?", "Der Rumpf ist der Grundbaustein jedes Fluggeräts.", "", "&6So gehts", "6 Stämme und 3 Eisenbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Ohne Rumpf kein Flugzeug.", "", "&6Gut zu wissen", "Alle Fluggeräte von Immersive Aircraft werden ab dem Diamant-Zeitalter freigeschaltet."]
 			hide_dependency_lines: true
 			dependencies: ["35D9C17C3DF9768D"]
 			id: "4DD0DA067A995253"
@@ -894,7 +894,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Der Heizkessel erzeugt Dampf für den Motor.", "", "&6So gehts", "7 Kupferbarren und ein Ofen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für den Motor."]
+			description: ["&6Was ist das?", "Der Heizkessel erzeugt Dampf für den Motor.", "", "&6So gehts", "7 Kupferbarren und ein Ofen.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Brauchst du für den Motor."]
 			dependencies: ["4DD0DA067A995253"]
 			id: "2D278F5CE8389E57"
 			title: "Heizkessel"
@@ -904,7 +904,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Der Motor treibt Propeller und Rotoren an. Er verbrennt Kohle oder anderen Brennstoff.", "", "&6So gehts", "Heizkessel, Hochofen, 2 Kolben und 3 Bruchstein.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Jedes motorisierte Fluggerät braucht ihn."]
+			description: ["&6Was ist das?", "Der Motor treibt Propeller und Rotoren an. Er verbrennt Kohle oder anderen Brennstoff.", "", "&6So gehts", "Heizkessel, Hochofen, 2 Kolben und 3 Bruchstein.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Jedes motorisierte Fluggerät braucht ihn."]
 			dependencies: ["2D278F5CE8389E57"]
 			id: "629820D5D701A03F"
 			title: "Motor"
@@ -914,7 +914,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Der Propeller erzeugt den Schub.", "", "&6So gehts", "5 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Doppeldecker, Flugschrauber und Quadrokopter."]
+			description: ["&6Was ist das?", "Der Propeller erzeugt den Schub.", "", "&6So gehts", "5 Eisenbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Für Doppeldecker, Flugschrauber und Quadrokopter."]
 			dependencies: ["629820D5D701A03F"]
 			id: "68831BD6C238738E"
 			title: "Propeller"
@@ -924,7 +924,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Segel aus Stoff für Flügel und Ballone.", "", "&6So gehts", "6 weiße Teppiche und 3 Fäden.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Für Flugschrauber und Luftschiffe."]
+			description: ["&6Was ist das?", "Segel aus Stoff für Flügel und Ballone.", "", "&6So gehts", "6 weiße Teppiche und 3 Fäden.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Für Flugschrauber und Luftschiffe."]
 			dependencies: ["68831BD6C238738E"]
 			id: "5BD5E8A787C56E8D"
 			title: "Segel"
@@ -934,7 +934,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig. Er braucht Anlauf zum Starten.", "", "&6So gehts", "3 Rümpfe, Motor und Propeller. Hinsetzen, mit W Schub geben, Brennstoff ins Flugzeug-Inventar.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Schnell über weite Strecken reisen."]
+			description: ["&6Was ist das?", "Der Doppeldecker ist schnell und wendig. Er braucht Anlauf zum Starten.", "", "&6So gehts", "3 Rümpfe, Motor und Propeller. Hinsetzen, mit W Schub geben, Brennstoff ins Flugzeug-Inventar.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Schnell über weite Strecken reisen."]
 			dependencies: ["5BD5E8A787C56E8D"]
 			id: "5861EFEFC54087AB"
 			title: "Doppeldecker"
@@ -944,7 +944,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Der Flugschrauber fliegt ohne Motor: Du trittst selbst in die Pedale.", "", "&6So gehts", "2 Segel, 2 Rümpfe und ein Propeller.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Günstig fliegen, ganz ohne Brennstoff."]
+			description: ["&6Was ist das?", "Der Flugschrauber fliegt ohne Motor: Du trittst selbst in die Pedale.", "", "&6So gehts", "2 Segel, 2 Rümpfe und ein Propeller.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Günstig fliegen, ganz ohne Brennstoff."]
 			dependencies: ["5861EFEFC54087AB"]
 			id: "19F7BD664987FE6B"
 			title: "Flugschrauber"
@@ -954,7 +954,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Der Quadrokopter schwebt auf der Stelle.", "", "&6So gehts", "4 Propeller, 4 Bambus und ein Motor.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ideal zum Bauen in der Höhe."]
+			description: ["&6Was ist das?", "Der Quadrokopter schwebt auf der Stelle.", "", "&6So gehts", "4 Propeller, 4 Bambus und ein Motor.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Ideal zum Bauen in der Höhe."]
 			dependencies: ["19F7BD664987FE6B"]
 			id: "53059BA58120D4DB"
 			title: "Quadrokopter"
@@ -964,7 +964,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Das Luftschiff ist langsam, aber sehr stabil.", "", "&6So gehts", "6 Segel, 2 Rümpfe und ein Motor.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemütlich reisen, mit Platz für Mitfahrer."]
+			description: ["&6Was ist das?", "Das Luftschiff ist langsam, aber sehr stabil.", "", "&6So gehts", "6 Segel, 2 Rümpfe und ein Motor.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Gemütlich reisen, mit Platz für Mitfahrer."]
 			dependencies: ["53059BA58120D4DB"]
 			id: "61734ED79D594739"
 			title: "Luftschiff"
@@ -974,7 +974,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Das Frachtluftschiff hat viel Stauraum.", "", "&6So gehts", "Luftschiff, Rumpf und 4 Truhen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Viele Items auf einmal transportieren."]
+			description: ["&6Was ist das?", "Das Frachtluftschiff hat viel Stauraum.", "", "&6So gehts", "Luftschiff, Rumpf und 4 Truhen.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Viele Items auf einmal transportieren."]
 			dependencies: ["61734ED79D594739"]
 			id: "17DD55DAD7727688"
 			title: "Frachtluftschiff"
@@ -984,7 +984,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Das Kriegsschiff ist ein fliegendes Schlachtschiff mit Platz für Waffen.", "", "&6So gehts", "Frachtluftschiff, 3 Rümpfe, 2 Motoren, 2 Segel und Industriegetriebe.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Gemeinsam fliegen und kämpfen."]
+			description: ["&6Was ist das?", "Das Kriegsschiff ist ein fliegendes Schlachtschiff mit Platz für Waffen.", "", "&6So gehts", "Frachtluftschiff, 3 Rümpfe, 2 Motoren, 2 Segel und Industriegetriebe.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Gemeinsam fliegen und kämpfen."]
 			dependencies: ["17DD55DAD7727688"]
 			id: "530C81D0E1B95D89"
 			title: "Kriegsschiff"
@@ -994,7 +994,7 @@
 			y: 4.500d
 		}
 		{
-			description: ["&6Was ist das?", "Ein stärkerer Propeller als Verbesserung.", "", "&6So gehts", "Propeller und 4 Kupferbarren. Ins Verbesserungsfeld des Fluggeräts legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Schub und Tempo."]
+			description: ["&6Was ist das?", "Ein stärkerer Propeller als Verbesserung.", "", "&6So gehts", "Propeller und 4 Kupferbarren. Ins Verbesserungsfeld des Fluggeräts legen.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Mehr Schub und Tempo."]
 			dependencies: ["44B342909FEC9D2A"]
 			id: "135CC50AA6135F03"
 			title: "Verbesserter Propeller"
@@ -1004,7 +1004,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Ein besserer Kessel als Verbesserung.", "", "&6So gehts", "Heizkessel, Hochofen und 7 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Der Motor leistet mehr."]
+			description: ["&6Was ist das?", "Ein besserer Kessel als Verbesserung.", "", "&6So gehts", "Heizkessel, Hochofen und 7 Eisenbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Der Motor leistet mehr."]
 			dependencies: ["7FF0FD5E388482AF"]
 			id: "2BED4230D2E4397B"
 			title: "Stahlkessel"
@@ -1014,7 +1014,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Ein sparsamer Motor als Verbesserung.", "", "&6So gehts", "Motor, 3 Goldbarren, 3 Ziegel und 2 Schleimbälle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Verbraucht weniger Brennstoff."]
+			description: ["&6Was ist das?", "Ein sparsamer Motor als Verbesserung.", "", "&6So gehts", "Motor, 3 Goldbarren, 3 Ziegel und 2 Schleimbälle.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Verbraucht weniger Brennstoff."]
 			dependencies: ["2BED4230D2E4397B"]
 			id: "18F8D9791B875395"
 			title: "Öko-Motor"
@@ -1024,7 +1024,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Der stärkste Motor als Verbesserung.", "", "&6So gehts", "Motor, Netheritbarren, 2 Lohenruten, 2 Magmacreme und 3 Netherziegel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Höchste Leistung (braucht Netherit)."]
+			description: ["&6Was ist das?", "Der stärkste Motor als Verbesserung.", "", "&6So gehts", "Motor, Netheritbarren, 2 Lohenruten, 2 Magmacreme und 3 Netherziegel.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Höchste Leistung (braucht Netherit)."]
 			dependencies: ["18F8D9791B875395"]
 			id: "44B342909FEC9D2A"
 			title: "Nether-Motor"
@@ -1034,7 +1034,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Stabilere Leitungen als Verbesserung.", "", "&6So gehts", "3 Kupferbarren und 2 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Das Fluggerät hält mehr aus."]
+			description: ["&6Was ist das?", "Stabilere Leitungen als Verbesserung.", "", "&6So gehts", "3 Kupferbarren und 2 Eisenbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Das Fluggerät hält mehr aus."]
 			dependencies: ["6CB1775D5D70DE5F"]
 			id: "7FF0FD5E388482AF"
 			title: "Robuste Rohre"
@@ -1044,7 +1044,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Eine Panzerung für den Rumpf als Verbesserung.", "", "&6So gehts", "3 Rümpfe und 6 Eisenbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Lebenspunkte für dein Fluggerät."]
+			description: ["&6Was ist das?", "Eine Panzerung für den Rumpf als Verbesserung.", "", "&6So gehts", "3 Rümpfe und 6 Eisenbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Mehr Lebenspunkte für dein Fluggerät."]
 			dependencies: ["4DD0DA067A995253"]
 			id: "2FC024DADBC88EE4"
 			title: "Rumpfverstärkung"
@@ -1054,7 +1054,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Ein besseres Fahrwerk als Verbesserung.", "", "&6So gehts", "3 Eisenbarren und 4 Kohle.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Sanftere Landungen, weniger Schaden."]
+			description: ["&6Was ist das?", "Ein besseres Fahrwerk als Verbesserung.", "", "&6So gehts", "3 Eisenbarren und 4 Kohle.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Sanftere Landungen, weniger Schaden."]
 			dependencies: ["2FC024DADBC88EE4"]
 			id: "6CB1775D5D70DE5F"
 			title: "Verbessertes Fahrwerk"
@@ -1064,7 +1064,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Ein Getriebe für schwere Technik.", "", "&6So gehts", "3 Eisenbarren, 3 Kupferbarren und ein Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Brauchst du für Drehrohrkanone und Kriegsschiff."]
+			description: ["&6Was ist das?", "Ein Getriebe für schwere Technik.", "", "&6So gehts", "3 Eisenbarren, 3 Kupferbarren und ein Hebel.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Brauchst du für Drehrohrkanone und Kriegsschiff."]
 			dependencies: ["135CC50AA6135F03"]
 			id: "7453ACABF193E9DA"
 			title: "Industriegetriebe"
@@ -1074,7 +1074,7 @@
 			y: 3.000d
 		}
 		{
-			description: ["&6Was ist das?", "Eine Armbrust zum Anbauen an Fluggeräte.", "", "&6So gehts", "Armbrust, Stolperdrahthaken und ein Stamm. Ins Waffenfeld legen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die erste Bordwaffe."]
+			description: ["&6Was ist das?", "Eine Armbrust zum Anbauen an Fluggeräte.", "", "&6So gehts", "Armbrust, Stolperdrahthaken und ein Stamm. Ins Waffenfeld legen.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Die erste Bordwaffe."]
 			dependencies: ["2FC024DADBC88EE4"]
 			id: "1107A08D0F125370"
 			title: "Schwere Armbrust"
@@ -1084,7 +1084,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Eine schnell feuernde Bordkanone.", "", "&6So gehts", "Spender, Industriegetriebe und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Starke Bordwaffe gegen Gegner."]
+			description: ["&6Was ist das?", "Eine schnell feuernde Bordkanone.", "", "&6So gehts", "Spender, Industriegetriebe und ein Kupferbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Starke Bordwaffe gegen Gegner."]
 			dependencies: ["1107A08D0F125370"]
 			id: "156A83D7C318BB8B"
 			title: "Drehrohrkanone"
@@ -1094,7 +1094,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Wirft TNT aus dem Fluggerät ab.", "", "&6So gehts", "4 Eisenbarren und TNT.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Bomben aus der Luft."]
+			description: ["&6Was ist das?", "Wirft TNT aus dem Fluggerät ab.", "", "&6So gehts", "4 Eisenbarren und TNT.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Bomben aus der Luft."]
 			dependencies: ["156A83D7C318BB8B"]
 			id: "701304620ED45239"
 			title: "Bombenbucht"
@@ -1104,7 +1104,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Ein Fernrohr zum Anbauen.", "", "&6So gehts", "Fernrohr und ein Kupferbarren.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Weit sehen während des Flugs."]
+			description: ["&6Was ist das?", "Ein Fernrohr zum Anbauen.", "", "&6So gehts", "Fernrohr und ein Kupferbarren.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Weit sehen während des Flugs."]
 			dependencies: ["701304620ED45239"]
 			id: "3AD58E528F7E5BAA"
 			title: "Teleskop"
@@ -1114,7 +1114,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Zeigt Lage und Richtung des Fluggeräts.", "", "&6So gehts", "2 Komparatoren und ein Kompass.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Leichter gerade fliegen."]
+			description: ["&6Was ist das?", "Zeigt Lage und Richtung des Fluggeräts.", "", "&6So gehts", "2 Komparatoren und ein Kompass.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Leichter gerade fliegen."]
 			dependencies: ["3AD58E528F7E5BAA"]
 			id: "65A540A139645DF1"
 			title: "Gyroskop"
@@ -1124,7 +1124,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Ein Gyroskop mit zusätzlichen Anzeigen.", "", "&6So gehts", "Gyroskop, 3 Uhren, Notenblock und Hebel.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Mehr Fluginfos auf einen Blick."]
+			description: ["&6Was ist das?", "Ein Gyroskop mit zusätzlichen Anzeigen.", "", "&6So gehts", "Gyroskop, 3 Uhren, Notenblock und Hebel.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Mehr Fluginfos auf einen Blick."]
 			dependencies: ["65A540A139645DF1"]
 			id: "29F6CCB1832D677C"
 			title: "Erweitertes Gyroskop"
@@ -1134,7 +1134,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Blendet die Fluginfos direkt im Bild ein.", "", "&6So gehts", "Gyroskop, Redstone-Lampe, Glasscheibe, Notenblock, Hebel, 2 Goldbarren und 2 Goldklumpen.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Die beste Anzeige beim Fliegen."]
+			description: ["&6Was ist das?", "Blendet die Fluginfos direkt im Bild ein.", "", "&6So gehts", "Gyroskop, Redstone-Lampe, Glasscheibe, Notenblock, Hebel, 2 Goldbarren und 2 Goldklumpen.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Die beste Anzeige beim Fliegen."]
 			dependencies: ["29F6CCB1832D677C"]
 			id: "364E57CC371568BD"
 			title: "Elektronisches Gyroskop"
@@ -1144,7 +1144,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Ein leichtes Flugzeug aus Bambus.", "", "&6So gehts", "2 Doppeldecker, Rumpf, Motor und 5 Bambusblöcke.", "Rezept: Item in JEI suchen und R drücken, mit U siehst du, wofür es gebraucht wird.", "", "&6Wofür ist das wichtig?", "Ein weiteres Flugzeug für deine Sammlung."]
+			description: ["&6Was ist das?", "Ein leichtes Flugzeug aus Bambus.", "", "&6So gehts", "2 Doppeldecker, Rumpf, Motor und 5 Bambusblöcke.", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Ein weiteres Flugzeug für deine Sammlung."]
 			dependencies: ["364E57CC371568BD"]
 			id: "5D87104B136F5709"
 			title: "Bambus-Trichter"
@@ -1154,7 +1154,7 @@
 			y: 1.500d
 		}
 		{
-			description: ["&6Was ist das?", "Technik-Mod für Automatisierung: Maschinen ernten, füttern, schlachten und verarbeiten für dich.", "", "&6So gehts", "Das Handbuch zeigt alles. Rezepte findest du in JEI mit R, Verwendungen mit U. Die Maschinen brauchen Energie (FE) und Maschinengehäuse.", "", "&6Wofür ist das wichtig?", "Im Diamant-Zeitalter wird Industrial Foregoing freigeschaltet."]
+			description: ["&6Was ist das?", "Technik-Mod für Automatisierung: Maschinen ernten, füttern, schlachten und verarbeiten für dich.", "", "&6So gehts", "Das Handbuch zeigt alles. Rezepte findest du im Rezeptbuch mit R, Verwendungen mit U. Die Maschinen brauchen Energie (FE) und Maschinengehäuse.", "", "&6Wofür ist das wichtig?", "Im Diamant-Zeitalter wird Industrial Foregoing freigeschaltet."]
 			dependencies: ["63064054BBFD8FB1"]
 			id: "477C49CD2AB49D33"
 			hide_dependency_lines: true
@@ -1165,7 +1165,7 @@
 			y: -12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Das einfachste Gehäuse, Grundlage der ersten Maschinen.", "", "&6So gehts", "Rezept: Werkbank: 4x Baumstämme, 4x Eisen-Barren, Redstone-Block (Muster in JEI, Taste R).", "Rezept in JEI suchen und mit R ansehen.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse gibt es keine Maschinen."]
+			description: ["&6Was ist das?", "Das einfachste Gehäuse, Grundlage der ersten Maschinen.", "", "&6So gehts", "Rezept: Werkbank: 4x Baumstämme, 4x Eisen-Barren, Redstone-Block (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezept im Rezeptbuch suchen und mit R ansehen.", "", "&6Wofür ist das wichtig?", "Ohne Gehäuse gibt es keine Maschinen."]
 			dependencies: ["477C49CD2AB49D33"]
 			id: "0805AA0C446E6326"
 			title: "Primitives Maschinengehäuse"
@@ -1205,7 +1205,7 @@
 			y: -12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Tötet Mobs in einem Bereich und sammelt die Drops.", "", "&6So gehts", "Bei einem Mob-Spawner oder einer Mobfalle aufstellen.", "", "&6Wofür ist das wichtig?", "Gute Quelle für Erfahrung und Mob-Drops."]
+			description: ["&6Was ist das?", "Tötet Monster in einem Bereich und sammelt die Beute.", "", "&6So gehts", "Bei einem Monsterkäfig (Spawner) oder einer Monsterfalle aufstellen.", "", "&6Wofür ist das wichtig?", "Gute Quelle für Erfahrung und Mob-Beute."]
 			dependencies: ["3EFDEFF735E9F0D7"]
 			id: "49AA6FCC012A77A8"
 			title: "Monsterschnetzler"
@@ -1225,7 +1225,7 @@
 			y: -12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Diese Speichereinheit gibt es in dieser Version nicht. Schau in JEI nach den anderen Black-Hole-Speichern und hake die Quest ab.", "", "&6So gehts", "Hake die Quest ab, es ist nichts zu tun.", "", "&6Wofür ist das wichtig?", "Die Quest bleibt nur wegen der Reihenfolge im Kapitel."]
+			description: ["&6Was ist das?", "Diese Speichereinheit gibt es in dieser Version nicht. Schau im Rezeptbuch nach den anderen Black-Hole-Speichern und hake die Quest ab.", "", "&6So gehts", "Hake die Quest ab, es ist nichts zu tun.", "", "&6Wofür ist das wichtig?", "Die Quest bleibt nur wegen der Reihenfolge im Kapitel."]
 			dependencies: ["7C2004FF186EB52A"]
 			id: "4B29DF76AF2924F9"
 			title: "Black-Hole-Speicher"
@@ -1235,7 +1235,7 @@
 			y: -12.000d
 		}
 		{
-			description: ["&6Was ist das?", "Mit diesem Mod baust du eigene Golems aus Teilen. Sie kämpfen, tragen Waffen und können mit Upgrades verstärkt werden.", "", "&6So gehts", "Rezepte findest du in JEI (R). Ein Golem entsteht aus einem Halter, den du mit den passenden Teilen herstellst.", "", "&6Wofür ist das wichtig?", "Eigene Verteidigung für die Basis und starke Begleiter im Kampf."]
+			description: ["&6Was ist das?", "Mit diesem Mod baust du eigene Golems aus Teilen. Sie kämpfen, tragen Waffen und können mit Upgrades verstärkt werden.", "", "&6So gehts", "Rezepte findest du im Rezeptbuch (R). Ein Golem entsteht aus einem Halter, den du mit den passenden Teilen herstellst.", "", "&6Wofür ist das wichtig?", "Eigene Verteidigung für die Basis und starke Begleiter im Kampf."]
 			dependencies: ["63064054BBFD8FB1"]
 			id: "374FC20CBAA68FAB"
 			hide_dependency_lines: true
@@ -1246,7 +1246,7 @@
 			y: -15.000d
 		}
 		{
-			description: ["&6Was ist das?", "Der Halter speichert einen Metallgolem. Setzt du ihn ab, erscheint der Golem.", "", "&6So gehts", "Rezept in JEI nachschlagen. Körper, Arme und Beine aus Metall, danach im Halter zusammensetzen.", "", "&6Wofür ist das wichtig?", "Grundlage für alle Metallgolems."]
+			description: ["&6Was ist das?", "Der Halter speichert einen Metallgolem. Setzt du ihn ab, erscheint der Golem.", "", "&6So gehts", "Rezept nachschlagen: Maus aufs Item, Taste R. Körper, Arme und Beine aus Metall, danach im Halter zusammensetzen.", "", "&6Wofür ist das wichtig?", "Grundlage für alle Metallgolems."]
 			dependencies: ["374FC20CBAA68FAB"]
 			id: "16BF6F4CD96CDA92"
 			title: "Metallgolem-Halter"
@@ -1298,7 +1298,7 @@
 		}
 		{
 			dependencies: ["7B81B7909BCD40B9"]
-			description: ["&6Was ist das?", "Die dritte Stufe des Furnators: mehr Strom, verbraucht Brennstoff schneller.", "", "&6So gehts", "Rezept: Werkbank: 5x Energiestahl, 2x Gehärteter Kondensator, Dielektrisches Gehäuse, Furnator (Einfach) (Muster in JEI, Taste R).", "Aufrüstung des Einfachen Furnators,", "", "&6Wofür ist das wichtig?", "Stärker als alles, was du bisher an Strom hattest."]
+			description: ["&6Was ist das?", "Die dritte Stufe des Furnators: mehr Strom, verbraucht Brennstoff schneller.", "", "&6So gehts", "Rezept: Werkbank: 5x Energiestahl, 2x Gehärteter Kondensator, Dielektrisches Gehäuse, Furnator (Einfach) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Aufrüstung des Einfachen Furnators,", "", "&6Wofür ist das wichtig?", "Stärker als alles, was du bisher an Strom hattest."]
 			id: "79E68C7A6E881E43"
 			title: "Gehärteter Furnator"
 			rewards: [{ id: "1DF4CD5968E23981", type: "xp_levels", xp_levels: 2 }]
@@ -1308,7 +1308,7 @@
 		}
 		{
 			dependencies: ["79E68C7A6E881E43"]
-			description: ["&6Was ist das?", "Die Gehärtete Energiezelle speichert mehr Energie.", "", "&6So gehts", "Werkbank: 1 Einfache Energiezelle, 1 Dielektrisches Gehäuse, 4 Energiegeladener Stahl und 2 Gehärtete Kondensatoren (Muster in JEI).", "", "&6Wofür ist das wichtig?", "Größere Anlagen."]
+			description: ["&6Was ist das?", "Die Gehärtete Energiezelle speichert mehr Energie.", "", "&6So gehts", "Werkbank: 1 Einfache Energiezelle, 1 Dielektrisches Gehäuse, 4 Energiegeladener Stahl und 2 Gehärtete Kondensatoren (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "", "&6Wofür ist das wichtig?", "Größere Anlagen."]
 			id: "3B5A54EFD98BE5B5"
 			title: "Gehärtete Energiezelle"
 			rewards: [{ id: "3BCEB89E52DF9B16", type: "xp_levels", xp_levels: 2 }]
@@ -1328,7 +1328,7 @@
 		}
 		{
 			dependencies: ["286FD2B73A34D4A3"]
-			description: ["&6Was ist das?", "Ein Generator mit Uraninit als Brennstoff.", "", "&6So gehts", "Rezept: Werkbank: 4x Uraninit, 4x Einfacher Kondensator (winzig), Dielektrisches Gehäuse (ergibt 4) (Muster in JEI, Taste R).", "Herstellung: vier Uraninit, vier Winzige Kondensatoren und ein Gehäuse. Brennstoffe und Kühlmittel zeigt JEI unter Reaktor-Brennstoffe und Kühlmittel.", "", "&6Wofür ist das wichtig?", "Viel Strom für wenig Platz, aber Aufbau und Wartung kosten Mühe."]
+			description: ["&6Was ist das?", "Ein Generator mit Uraninit als Brennstoff.", "", "&6So gehts", "Rezept: Werkbank: 4x Uraninit, 4x Einfacher Kondensator (winzig), Dielektrisches Gehäuse (ergibt 4) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Herstellung: vier Uraninit, vier Winzige Kondensatoren und ein Gehäuse. Brennstoffe und Kühlmittel zeigt das Rezeptbuch unter Reaktor-Brennstoffe und Kühlmittel.", "", "&6Wofür ist das wichtig?", "Viel Strom für wenig Platz, aber Aufbau und Wartung kosten Mühe."]
 			id: "64A3CB2E490081E6"
 			title: "Reaktor"
 			rewards: [{ id: "33DA0A6848D25B16", type: "xp_levels", xp_levels: 3 }]

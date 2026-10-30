@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["32B584A362001F6A"]
-			description: ["&6Was ist das?", "Exactly hat acht Zeitalter: Stein, Eisen, Diamant, Nether, Magie, Welten, Ende und Meister. Create, Pneumatik und Farmers Delight sind eigene Kapitel und von Anfang an frei.", "Alles, was zu einem späteren Zeitalter gehört, ist noch gesperrt.", "", "&6So gehts", "JEI zeigt bei gesperrten Rezepten ein Schloss.", "Gesperrte Werkzeuge und Blöcke funktionieren nicht, gesperrte Dimensionen (Nether, Aether, Zwielichtwald, Ende) weisen dich am Portal ab.", "Fahre in JEI oder im Inventar über ein gesperrtes Item: Der Tooltip nennt das Zeitalter, das es freischaltet.", "", "&6Wofür ist das wichtig?", "Am Ende jedes Kapitels steht eine Zeitalter-Quest. Wer sie abschließt, schaltet das nächste Zeitalter für alle frei. Sprecht euch also ab!"]
+			description: ["&6Was ist das?", "Exactly hat acht Zeitalter: Stein, Eisen, Diamant, Nether, Magie, Welten, Ende und Meister. Create, Pneumatik und Farmers Delight sind eigene Kapitel und von Anfang an frei.", "Alles, was zu einem späteren Zeitalter gehört, ist noch gesperrt.", "", "&6So gehts", "Das Rezeptbuch (JEI) zeigt bei gesperrten Rezepten ein Schloss.", "Gesperrte Werkzeuge und Blöcke funktionieren nicht, gesperrte Dimensionen (Nether, Aether, Zwielichtwald, Ende) weisen dich am Portal ab.", "Fahre im Rezeptbuch oder im Inventar über ein gesperrtes Item: Der Infotext nennt das Zeitalter, das es freischaltet.", "", "&6Wofür ist das wichtig?", "Am Ende jedes Kapitels steht eine Zeitalter-Quest. Wer sie abschließt, schaltet das nächste Zeitalter für alle frei. Sprecht euch also ab!"]
 			icon: { id: "minecraft:clock" }
 			id: "093D637910111249"
 			title: "Zeitalter verstehen"
@@ -21,7 +21,7 @@
 		}
 		{
 			dependencies: ["093D637910111249"]
-			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar über ein Item.", "Schritt 2: Drücke R, um zu sehen, wie man es herstellt.", "Schritt 3: Drücke U, um zu sehen, wofür man es braucht.", "", "&6So gehts", "Fahre mit der Maus über ein Item und drücke R: So stellst du es her.", "Drücke U: Wofür man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofür ist das wichtig?", "Bei über 400 Mods kennt niemand alle Rezepte. JEI ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W außerdem eine Animation (Ponder)."]
+			description: ["&6Was ist das?", "Schritt 1: Halte den Mauszeiger im Inventar über ein Item.", "Schritt 2: Drücke R, um zu sehen, wie man es herstellt.", "Schritt 3: Drücke U, um zu sehen, wofür man es braucht.", "", "&6So gehts", "Fahre mit der Maus über ein Item und drücke R: So stellst du es her.", "Drücke U: Wofür man es braucht.", "Oben in der Suchleiste suchst du nach Namen. Mit @modname suchst du nach Mod, z.B. @create.", "", "&6Wofür ist das wichtig?", "Bei über 400 Mods kennt niemand alle Rezepte. Das Rezeptbuch (JEI) ist dein wichtigstes Werkzeug. Bei Create zeigt dir die Taste W außerdem eine Animation (Ponder)."]
 			id: "76B62C313C1E5D43"
 			hide_dependency_lines: true
 			title: "Rezepte nachschlagen (JEI)"
@@ -42,7 +42,7 @@
 		}
 		{
 			dependencies: ["31AE3D3C9B7D83E7"]
-			description: ["&6Was ist das?", "Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren.", "", "&6So gehts", "Schaue einfach einen Block oder ein Tier an.", "Bei Öfen und Maschinen siehst du den Fortschritt, bei Pflanzen das Wachstum.", "", "&6Wofür ist das wichtig?", "So erkennst du sofort, aus welcher Mod etwas kommt, und kannst es in JEI nachschlagen."]
+			description: ["&6Was ist das?", "Jade zeigt dir oben im Bild, was du gerade ansiehst: Block, Mod und Inhalt.", "Schau eine Kiste oder eine Maschine an, um es auszuprobieren.", "", "&6So gehts", "Schaue einfach einen Block oder ein Tier an.", "Bei Öfen und Maschinen siehst du den Fortschritt, bei Pflanzen das Wachstum.", "", "&6Wofür ist das wichtig?", "So erkennst du sofort, aus welcher Mod etwas kommt, und kannst es im Rezeptbuch nachschlagen."]
 			id: "0B043FE1AA795723"
 			title: "Alles im Blick (Jade)"
 			rewards: [{ id: "457492C4DF6411DC", type: "xp_levels", xp_levels: 1 }]
@@ -52,7 +52,7 @@
 		}
 		{
 			dependencies: ["0B043FE1AA795723"]
-			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Drücke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, H Zubehör, M Karte, N Wegpunkte, R und U in JEI.", "Im Questbuch (U) oben rechts die Nadel: aktuelle Quests am Bildrand.", "", "&6Wofür ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
+			description: ["&6Was ist das?", "Viele Mods haben eigene Tasten.", "Schritt 1: Drücke Esc und gehe auf Optionen, Steuerung.", "Schritt 2: Oben gibt es eine Suchleiste. Tippe den Namen der Funktion ein.", "", "&6So gehts", "Esc, Optionen, Steuerung, Tastenbelegung.", "Oben ist eine Suchleiste. Tippe einen Namen ein, z.B. Rucksack.", "Wichtig: B Rucksack, U Quests, H Zubehör, M Karte, N Wegpunkte, R und U im Rezeptbuch.", "Im Questbuch (U) oben rechts die Nadel: aktuelle Quests am Bildrand.", "", "&6Wofür ist das wichtig?", "Wenn eine Taste nicht geht, schaue hier nach. Rote Tasten sind doppelt belegt."]
 			id: "7E73FC1903ABEE32"
 			title: "Tastenbelegung suchen"
 			rewards: [{ id: "4A9AF60C1862B667", type: "xp_levels", xp_levels: 2 }]
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit JEI (Taste R auf einem Item) siehst du jedes Rezept.", "", "&6Wofür ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Später: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Nähe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das grüne Rezeptbuch neben dem Raster legt die Zutaten für bekannte Rezepte automatisch aus."]
+			description: ["&6Was ist das?", "Die Werkbank hat ein 3x3-Feld. Die meisten Rezepte brauchen sie.", "", "&6So gehts", "Lege vier Bretter im Quadrat in das Crafting-Feld deines Inventars.", "Stelle die Werkbank auf und klicke sie mit Rechtsklick an.", "Mit dem Rezeptbuch (Taste R auf einem Item) siehst du jedes Rezept.", "", "&6Wofür ist das wichtig?", "Mit Werkzeug geht alles schneller. Die Belohnung ist eine Steinspitzhacke, damit kannst du gleich Stein und Kohle abbauen.", "Später: Mit Nearby Crafting nimmt die Werkbank Material direkt aus Kisten in der Nähe.", "", "&6Gut zu wissen", "Stelle in jede Basis eine Werkbank. Das grüne Rezeptbuch neben dem Raster legt die Zutaten für bekannte Rezepte automatisch aus."]
 			id: "0394F82571C6DE85"
 			title: "Werkbank bauen"
 			rewards: [{ id: "6EED97054AD334F5", type: "item", item: { id: "minecraft:stone_pickaxe", count: 1 } }]
@@ -142,7 +142,7 @@
 		}
 		{
 			dependencies: ["0394F82571C6DE85"]
-			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Nähe craften.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Blöcke).", "Schritt 2: Öffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und öffne sie.", "JEI-Rezepte mit dem Plus-Knopf füllen sich dann aus den Kisten.", "", "&6Wofür ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt für eine Werkstatt."]
+			description: ["&6Was ist das?", "Du kannst mit Items aus Kisten in der Nähe herstellen.", "Schritt 1: Stelle eine Werkbank neben deine Kisten (bis etwa 8 Blöcke).", "Schritt 2: Öffne sie. Items aus den Kisten stehen zum Craften bereit.", "", "&6So gehts", "Stelle Kisten neben deine Werkbank und öffne sie.", "Rezept aus dem Rezeptbuche mit dem Plus-Knopf füllen sich dann aus den Kisten.", "", "&6Wofür ist das wichtig?", "Du musst nicht mehr alles ins Inventar holen. Perfekt für eine Werkstatt."]
 			id: "000FE9D86692D537"
 			hide_dependency_lines: true
 			title: "Nearby Crafting"
@@ -193,7 +193,7 @@
 		}
 		{
 			dependencies: ["7D113048B2ABF3D2"]
-			description: ["&6Was ist das?", "Handcrafted bringt Möbel: Stühle, Tische, Bänke, Regale, Schränke.", "", "&6So gehts", "Rezepte in JEI mit @handcrafted. Mit dem Hammer kannst du Möbel umgestalten.", "", "&6Wofür ist das wichtig?", "Ein gemütliches Zuhause, auf Stühlen kann man sogar sitzen."]
+			description: ["&6Was ist das?", "Handcrafted bringt Möbel: Stühle, Tische, Bänke, Regale, Schränke.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @handcrafted. Mit dem Hammer kannst du Möbel umgestalten.", "", "&6Wofür ist das wichtig?", "Ein gemütliches Zuhause, auf Stühlen kann man sogar sitzen."]
 			id: "626C7A1375EADFD2"
 			title: "Möbel bauen"
 			rewards: [{ id: "2F9B5A24F15E0971", type: "xp_levels", xp_levels: 2 }]
@@ -203,7 +203,7 @@
 		}
 		{
 			dependencies: ["626C7A1375EADFD2"]
-			description: ["&6Was ist das?", "Macaws Furniture: Stühle, Tische, Schränke, Küchen und Betten.", "", "&6So gehts", "Rezepte in JEI mit @mcwfurnitures. Fast alles gibt es in allen Holzarten.", "", "&6Wofür ist das wichtig?", "Ein richtig eingerichtetes Zuhause."]
+			description: ["&6Was ist das?", "Macaws Furniture: Stühle, Tische, Schränke, Küchen und Betten.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwfurnitures. Fast alles gibt es in allen Holzarten.", "", "&6Wofür ist das wichtig?", "Ein richtig eingerichtetes Zuhause."]
 			icon: { id: "mcwfurnitures:oak_chair" }
 			id: "5272DD27B136C7A6"
 			title: "Macaw-Möbel"
@@ -214,7 +214,7 @@
 		}
 		{
 			dependencies: ["5272DD27B136C7A6"]
-			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 4x Eichenbretter (ergibt 2) (Muster in JEI, Taste R).", "Rezepte in JEI mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
+			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 4x Eichenbretter (ergibt 2) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
 			icon: { id: "mcwdoors:oak_barn_door" }
 			id: "5221BB44D526AC25"
 			title: "Macaw-Türen"
@@ -225,7 +225,7 @@
 		}
 		{
 			dependencies: ["5221BB44D526AC25"]
-			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezept: Werkbank (formlos): Eichenholzhängebrückentreppe (Muster in JEI, Taste R).", "Rezepte in JEI mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
+			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezept: Werkbank (formlos): Eichenholzhängebrückentreppe (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
 			icon: { id: "mcwbridges:rope_oak_bridge" }
 			id: "436CBA5BC0B154F4"
 			title: "Seilbrücke"
@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["436CBA5BC0B154F4"]
-			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Rezept: Werkbank: 3x Eichenbretter, 2x Stock (ergibt 3) (Muster in JEI, Taste R).", "Rezepte in JEI mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
+			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Rezept: Werkbank: 3x Eichenbretter, 2x Stock (ergibt 3) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
 			icon: { id: "another_furniture:oak_chair" }
 			id: "371AC58069078D46"
 			title: "Gemütliche Möbel"
@@ -247,7 +247,7 @@
 		}
 		{
 			dependencies: ["371AC58069078D46"]
-			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Rezept: Werkbank: 2x Eichenstamm, Stock (ergibt 2) (Muster in JEI, Taste R).", "Rezepte in JEI mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
+			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Rezept: Werkbank: 2x Eichenstamm, Stock (ergibt 2) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
 			icon: { id: "mcwroofs:oak_roof" }
 			id: "47291DA3B6CE9A9E"
 			title: "Macaw-Dach"
@@ -258,7 +258,7 @@
 		}
 		{
 			dependencies: ["47291DA3B6CE9A9E"]
-			description: ["&6Was ist das?", "Macaws Stairs: Treppen, Geländer und Balkone.", "", "&6So gehts", "Rezepte in JEI mit @mcwstairs.", "", "&6Wofür ist das wichtig?", "Schöne Aufgänge und Balkone."]
+			description: ["&6Was ist das?", "Macaws Stairs: Treppen, Geländer und Balkone.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwstairs.", "", "&6Wofür ist das wichtig?", "Schöne Aufgänge und Balkone."]
 			icon: { id: "mcwstairs:oak_bulk_stairs" }
 			id: "602B320FA662AE3F"
 			title: "Macaw-Treppe"
@@ -269,7 +269,7 @@
 		}
 		{
 			dependencies: ["602B320FA662AE3F"]
-			description: ["&6Was ist das?", "Macaws Trapdoors: Falltüren in vielen Mustern.", "", "&6So gehts", "Rezepte in JEI mit @mcwtrpdoors.", "", "&6Wofür ist das wichtig?", "Fensterläden und Bodenklappen."]
+			description: ["&6Was ist das?", "Macaws Trapdoors: Falltüren in vielen Mustern.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwtrpdoors.", "", "&6Wofür ist das wichtig?", "Fensterläden und Bodenklappen."]
 			icon: { id: "mcwtrpdoors:oak_barn_trapdoor" }
 			id: "5ED04CDD6E21EF46"
 			title: "Macaw-Falltür"
@@ -280,7 +280,7 @@
 		}
 		{
 			dependencies: ["5ED04CDD6E21EF46"]
-			description: ["&6Was ist das?", "Macaws Lights: Laternen, Lampen und Kronleuchter.", "", "&6So gehts", "Rezepte in JEI mit @mcwlights.", "", "&6Wofür ist das wichtig?", "Licht, das zum Haus passt."]
+			description: ["&6Was ist das?", "Macaws Lights: Laternen, Lampen und Kronleuchter.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwlights.", "", "&6Wofür ist das wichtig?", "Licht, das zum Haus passt."]
 			icon: { id: "mcwlights:classic_street_lamp" }
 			id: "279DB5AE1CABABDD"
 			title: "Macaw-Lampe"
@@ -333,7 +333,7 @@
 		}
 		{
 			dependencies: ["5BD806E521C646C0"]
-			description: ["&6Was ist das?", "Ein Schwert aus Stein, deine erste richtige Waffe.", "", "&6So gehts", "Zwei Bruchstein übereinander, darunter das Holzschwert statt des Stocks.", "", "&6Wofür ist das wichtig?", "Mit Better Combat hat jede Waffenart eigene Kombos. Teste sie an der Trainingspuppe."]
+			description: ["&6Was ist das?", "Ein Schwert aus Stein, deine erste richtige Waffe.", "", "&6So gehts", "Zwei Bruchstein übereinander, darunter das Holzschwert statt des Stocks.", "", "&6Wofür ist das wichtig?", "Mit Better Combat hat jede Waffenart eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe."]
 			id: "3717959A07B50B2B"
 			title: "Steinschwert"
 			rewards: [{ id: "0680E45709B74850", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
@@ -403,7 +403,7 @@
 		}
 		{
 			dependencies: ["3717959A07B50B2B"]
-			description: ["&6Was ist das?", "Just Hammers: Der Hammer baut 3x3 Blöcke auf einmal ab.", "", "&6So gehts", "Rezept: Werkbank: 3x Stein, 3x Stock (Muster in JEI, Taste R).", "Schaue beim Abbauen auf eine Wand, der Hammer nimmt das ganze Quadrat.", "", "&6Wofür ist das wichtig?", "Tunnel und Abbauflächen gehen viel schneller. Später gibt es Eisen- und Diamanthammer."]
+			description: ["&6Was ist das?", "Just Hammers: Der Hammer baut 3x3 Blöcke auf einmal ab.", "", "&6So gehts", "Rezept: Werkbank: 3x Stein, 3x Stock (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Schaue beim Abbauen auf eine Wand, der Hammer nimmt das ganze Quadrat.", "", "&6Wofür ist das wichtig?", "Tunnel und Abbauflächen gehen viel schneller. Später gibt es Eisen- und Diamanthammer."]
 			icon: { id: "justhammers:stone_hammer" }
 			id: "06846FECFE8200C1"
 			title: "Steinhammer"
@@ -414,7 +414,7 @@
 		}
 		{
 			dependencies: ["06846FECFE8200C1"]
-			description: ["&6Was ist das?", "Crafting on a Stick: eine Werkbank in der Hand.", "", "&6So gehts", "Herstellen und mit Rechtsklick in der Hand öffnen.", "", "&6Wofür ist das wichtig?", "Unterwegs craften, ohne eine Werkbank aufzustellen."]
+			description: ["&6Was ist das?", "Crafting on a Stick: eine Werkbank in der Hand.", "", "&6So gehts", "Herstellen und mit Rechtsklick in der Hand öffnen.", "", "&6Wofür ist das wichtig?", "Unterwegs herstellen, ohne eine Werkbank aufzustellen."]
 			icon: { id: "crafting_on_a_stick:crafting_table" }
 			id: "36CBAAF12C4D22D9"
 			title: "Werkbank zum Mitnehmen"
@@ -425,7 +425,7 @@
 		}
 		{
 			dependencies: ["04E3728EFBB0858D"]
-			description: ["&6Was ist das?", "Mit der Hacke machst du aus Erde Ackerboden.", "", "&6So gehts", "Werkbank: 2 Stein oder Bruchstein oben (eine Reihe, links), 2 Stöcke darunter (Muster in JEI).", "Rechtsklick auf Erde oder Gras. Wasser in der Nähe hält den Boden feucht.", "", "&6Wofür ist das wichtig?", "Ohne Acker keine Ernte."]
+			description: ["&6Was ist das?", "Mit der Hacke machst du aus Erde Ackerboden.", "", "&6So gehts", "Werkbank: 2 Stein oder Bruchstein oben (eine Reihe, links), 2 Stöcke darunter (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rechtsklick auf Erde oder Gras. Wasser in der Nähe hält den Boden feucht.", "", "&6Wofür ist das wichtig?", "Ohne Acker keine Ernte."]
 			id: "1C40D78F36FFCB0A"
 			title: "Steinhacke"
 			rewards: [{ id: "56360209B05F1683", type: "item", item: { id: "minecraft:wheat_seeds", count: 8 } }]
@@ -445,7 +445,7 @@
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Drei Weizen nebeneinander ergeben ein Brot.", "", "&6So gehts", "Rezept: Werkbank: 3x Weizen (Muster in JEI, Taste R).", "Drei Weizen nebeneinander in der Werkbank.", "", "&6Wofür ist das wichtig?", "Ein Vorrat Brot rettet dich auf langen Ausflügen."]
+			description: ["&6Was ist das?", "Drei Weizen nebeneinander ergeben ein Brot.", "", "&6So gehts", "Rezept: Werkbank: 3x Weizen (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Drei Weizen nebeneinander in der Werkbank.", "", "&6Wofür ist das wichtig?", "Ein Vorrat Brot rettet dich auf langen Ausflügen."]
 			id: "0E13BB3BED84B047"
 			title: "Brot backen"
 			rewards: [{ id: "0210EEE85CF34952", type: "item", item: { id: "minecraft:cooked_chicken", count: 4 } }]
@@ -505,7 +505,7 @@
 		}
 		{
 			dependencies: ["434B0242196341B0"]
-			description: ["&6Was ist das?", "Serene Seasons: Frühling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Rezept: Werkbank: 8x Papier, Uhr (Muster in JEI, Taste R).", "Der Kalender zeigt die aktuelle Jahreszeit.", "In JEI siehst du beim Samen, wann er wächst.", "Im Gewächshaus (Glas über den Feldern) wachsen Pflanzen auch außerhalb der Saison.", "", "&6Wofür ist das wichtig?", "Plane deine Felder: Im Winter wächst kaum etwas. Lege Vorräte an oder baue ein Gewächshaus."]
+			description: ["&6Was ist das?", "Serene Seasons: Frühling, Sommer, Herbst, Winter.", "Pflanzen wachsen je nach Jahreszeit unterschiedlich. Der Kalender zeigt dir den Tag.", "", "&6So gehts", "Rezept: Werkbank: 8x Papier, Uhr (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Der Kalender zeigt die aktuelle Jahreszeit.", "Im Rezeptbuch siehst du beim Samen, wann er wächst.", "Im Gewächshaus (Glas über den Feldern) wachsen Pflanzen auch außerhalb der Saison.", "", "&6Wofür ist das wichtig?", "Plane deine Felder: Im Winter wächst kaum etwas. Lege Vorräte an oder baue ein Gewächshaus."]
 			id: "53B5513ABE6670E3"
 			title: "Jahreszeiten"
 			rewards: [{ id: "3DFC6C96A4C6B8E8", type: "xp_levels", xp_levels: 2 }]
@@ -638,7 +638,7 @@
 		}
 		{
 			dependencies: ["04E3728EFBB0858D"]
-			description: ["&6Was ist das?", "Ein Waystone ist ein Teleport-Punkt. Alle aktivierten Waystones sind miteinander verbunden.", "", "&6So gehts", "Baue einen Waystone (Rezept in JEI) und stelle ihn auf.", "Rechtsklick aktiviert ihn. Ab dann kannst du von jedem anderen Waystone dorthin reisen.", "In Dörfern stehen oft schon Waystones, die du nur aktivieren musst.", "", "&6Wofür ist das wichtig?", "Die Welt ist riesig. Mit Waystones sparst du lange Wege zwischen Basis, Dorf, Nether-Portal und Dungeons."]
+			description: ["&6Was ist das?", "Ein Waystone ist ein Teleport-Punkt. Alle aktivierten Waystones sind miteinander verbunden.", "", "&6So gehts", "Baue einen Waystone (Rezept im Rezeptbuch) und stelle ihn auf.", "Rechtsklick aktiviert ihn. Ab dann kannst du von jedem anderen Waystone dorthin reisen.", "In Dörfern stehen oft schon Waystones, die du nur aktivieren musst.", "", "&6Wofür ist das wichtig?", "Die Welt ist riesig. Mit Waystones sparst du lange Wege zwischen Basis, Dorf, Nether-Portal und Dungeons."]
 			id: "7E5061B34C079EF7"
 			title: "Wegpunkt: Waystone"
 			rewards: [{ id: "1E42D2A795AE7EA7", type: "item", item: { id: "minecraft:ender_pearl", count: 1 } }]
@@ -658,7 +658,7 @@
 		}
 		{
 			dependencies: ["31BE35B07AF6F13E"]
-			description: ["&6Was ist das?", "Pferde, Esel und Maultiere kannst du mit einem Sattel reiten.", "", "&6So gehts", "Rezept: Werkbank: 5x Leder, Faden (Muster in JEI, Taste R).", "Mit Sattel reiten.", "", "&6Wofür ist das wichtig?", "Schneller reisen."]
+			description: ["&6Was ist das?", "Pferde, Esel und Maultiere kannst du mit einem Sattel reiten.", "", "&6So gehts", "Rezept: Werkbank: 5x Leder, Faden (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Mit Sattel reiten.", "", "&6Wofür ist das wichtig?", "Schneller reisen."]
 			id: "3FACF635CBD0587E"
 			title: "Ein Reittier"
 			rewards: [{ id: "2BC13A1D83926AF4", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
@@ -708,7 +708,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7B7BD9E2CE14267D"
 			hide_dependency_lines: true
@@ -720,7 +720,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "456E1FF38461CB11"
 			hide_dependency_lines: true
@@ -732,7 +732,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "7EC7DE08B14CA598"
 			hide_dependency_lines: true
@@ -744,7 +744,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "735D8E3285B2AA09"
 			hide_dependency_lines: true
@@ -756,7 +756,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "138E676E5DB8B364"
 			hide_dependency_lines: true
@@ -768,7 +768,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3E5CB21B0C884120"
 			hide_dependency_lines: true
@@ -780,7 +780,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "34EF91803174E0E8"
 			hide_dependency_lines: true
@@ -792,7 +792,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3BAC6AAD952DF514"
 			hide_dependency_lines: true
@@ -804,7 +804,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3174F2FF37A0A643"
 			hide_dependency_lines: true
@@ -816,7 +816,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: In JEI mit R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			id: "3AB96FC6D59F8B69"
 			hide_dependency_lines: true
@@ -828,7 +828,7 @@
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
-			description: ["&6Was ist das?", "Waffen haben eigene Schwünge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination.", "", "&6So gehts", "Halte die linke Maustaste für Kombos.", "Zweihänder treffen mehrere Gegner, zwei Einhandwaffen schlagen abwechselnd.", "", "&6Wofür ist das wichtig?", "Die richtige Waffe für jede Situation."]
+			description: ["&6Was ist das?", "Waffen haben eigene Schwünge und Treffer.", "Schritt 1: Halte eine Waffe in der Hand.", "Schritt 2: Klicke zum Schlagen. Mehrere Klicks machen eine Kombination.", "", "&6So gehts", "Halte die linke Maustaste für Kombos (Schlagfolgen).", "Zweihänder treffen mehrere Gegner, zwei Einhandwaffen schlagen abwechselnd.", "", "&6Wofür ist das wichtig?", "Die richtige Waffe für jede Situation."]
 			id: "38A3C7968505D99D"
 			hide_dependent_lines: true
 			title: "Kämpfen mit Better Combat"
@@ -839,7 +839,7 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Mit dem Bogen kämpfst du aus der Ferne.", "", "&6So gehts", "Werkbank: 3 Stöcke und 3 Faden (Muster in JEI).", "Du brauchst Pfeile, sie kommen aus Federn, Feuerstein und Stöcken.", "", "&6Wofür ist das wichtig?", "Gegen fliegende und vorsichtige Gegner."]
+			description: ["&6Was ist das?", "Mit dem Bogen kämpfst du aus der Ferne.", "", "&6So gehts", "Werkbank: 3 Stöcke und 3 Faden (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Du brauchst Pfeile, sie kommen aus Federn, Feuerstein und Stöcken.", "", "&6Wofür ist das wichtig?", "Gegen fliegende und vorsichtige Gegner."]
 			id: "5EDD66726A8CB055"
 			title: "Bogen"
 			rewards: [{ id: "73F537DD7183AB72", type: "item", item: { id: "minecraft:arrow", count: 16 } }]
@@ -900,7 +900,7 @@
 		}
 		{
 			dependencies: ["05A8F87077230637"]
-			description: ["&6Was ist das?", "Mit Open Parties and Claims schützt du dein Gebiet.", "Schritt 1: Öffne die Weltkarte (M).", "Schritt 2: Wähle Chunks aus und beanspruche sie.", "Nur du und deine Gruppe dürft dort bauen.", "", "&6So gehts", "Öffne die Weltkarte mit M.", "Rechtsklick auf die Karte, dann Claim wählen. Oder ziehe einen Bereich auf.", "Mit F8 öffnest du das Menü von Open Parties and Claims.", "", "&6Wofür ist das wichtig?", "Schützt deine Basis vor Explosionen, Griefing und Monstern, die Blöcke klauen."]
+			description: ["&6Was ist das?", "Mit Open Parties and Claims schützt du dein Gebiet.", "Schritt 1: Öffne die Weltkarte (M).", "Schritt 2: Wähle Chunks (Weltabschnitte) aus und beanspruche sie.", "Nur du und deine Gruppe dürft dort bauen.", "", "&6So gehts", "Öffne die Weltkarte mit M.", "Rechtsklick auf die Karte, dann Claim wählen. Oder ziehe einen Bereich auf.", "Mit F8 öffnest du das Menü von Open Parties and Claims.", "", "&6Wofür ist das wichtig?", "Schützt deine Basis vor Explosionen, Griefing und Monstern, die Blöcke klauen."]
 			id: "7D950ED7E0CB9950"
 			title: "Chunks sichern"
 			rewards: [{ id: "760673DC7DE7B63D", type: "item", item: { id: "minecraft:iron_ingot", count: 4 } }]
@@ -1014,7 +1014,7 @@
 		}
 		{
 			dependencies: ["60B557A4BAD57D69"]
-			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Stärke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R in JEI nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos. Teste sie an der Trainingspuppe, der Tooltip zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
+			description: ["&6Was ist das?", "Braucht Pfeile. Mit Verzauberungen wie Stärke und Unendlichkeit.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept oder Fundort: Item mit R im Rezeptbuch nachschlagen. Einzigartige Waffen gibt es nur als Beute oder von Bossen.", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe, der Infotext zeigt Schaden und Tempo.", "", "&6Wofür ist das wichtig?", "Je stärker die Waffe, desto leichter die Bosse. Gute Verzauberungen: Schärfe, Plünderung, Haltbarkeit, Reparatur."]
 			icon: { id: "minecraft:bow" }
 			id: "55EF779DF279FBD5"
 			title: "Bogen (Arsenal)"
@@ -1025,7 +1025,7 @@
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:stone_pickaxe" }
 			id: "04C68043BDC78DC0"
 			title: "Werkzeug-Set Stein"
@@ -1036,7 +1036,7 @@
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
-			description: ["&6Was ist das?", "Fische und Schätze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Fische und Schätze angeln.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:fishing_rod" }
 			id: "45D11842B4FCB827"
 			title: "Angel"
@@ -1047,7 +1047,7 @@
 		}
 		{
 			dependencies: ["45D11842B4FCB827"]
-			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
+			description: ["&6Was ist das?", "Spitzhacke, Axt, Schaufel, Hacke.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "Verzaubere mit Effizienz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Bessere Werkzeuge bauen schneller ab und können härtere Erze abbauen. Die nächste Stufe öffnet neue Rohstoffe."]
 			icon: { id: "minecraft:wooden_pickaxe" }
 			id: "0EC84BEA5DC43552"
 			title: "Werkzeug-Set Holz"
@@ -1058,7 +1058,7 @@
 		}
 		{
 			dependencies: ["55EF779DF279FBD5"]
-			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Item mit R in JEI nachschlagen. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Tooltip auf Rüstung und Härte."]
+			description: ["&6Was ist das?", "Helm, Brustplatte, Hose, Stiefel.", "Aus der Mod Minecraft.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R. Alle vier Teile tragen, manche Sets geben dann einen extra Bonus.", "Verzaubere mit Schutz, Haltbarkeit und Reparatur.", "", "&6Wofür ist das wichtig?", "Gute Rüstung ist die Voraussetzung für Bosse, Nether und Ende. Achte im Infotext auf Rüstung und Härte."]
 			icon: { id: "minecraft:leather_chestplate" }
 			id: "7199905A795ABFEE"
 			title: "Rüstung Leder"
@@ -1069,7 +1069,7 @@
 		}
 		{
 			dependencies: ["32B584A362001F6A"]
-			description: ["&6Was ist das?", "Mit der Schleuder verschießt du Kiesel auf Distanz.", "", "&6So gehts", "Kiesel sammeln, Schleuder nach JEI herstellen. Rechtsklick halten zum Spannen.", "", "&6Wofür ist das wichtig?", "Die erste Fernwaffe, noch vor dem Bogen."]
+			description: ["&6Was ist das?", "Mit der Schleuder verschießt du Kiesel auf Distanz.", "", "&6So gehts", "Kiesel sammeln, Schleuder nach dem Rezeptbuch herstellen. Rechtsklick halten zum Spannen.", "", "&6Wofür ist das wichtig?", "Die erste Fernwaffe, noch vor dem Bogen."]
 			id: "5DE7F7A93248B56F"
 			title: "Schleuder"
 			rewards: [{ id: "52439A16D28A2676", type: "xp_levels", xp_levels: 1 }]
@@ -1089,7 +1089,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Ein Zaun hält Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stöcke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Zäunen baust du Weiden für Tiere."]
+			description: ["&6Was ist das?", "Ein Zaun hält Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stöcke in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Zäunen baust du Weiden für Tiere."]
 			id: "52C4CA6F70F42119"
 			title: "Zaun"
 			rewards: [{ id: "6F65EF2E6DECF530", type: "xp_levels", xp_levels: 2 }]
@@ -1099,7 +1099,7 @@
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Leitern bringen dich schnell nach oben und unten.", "", "&6So gehts", "Stöcke in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Unverzichtbar im Bergwerk und beim Hausbau."]
+			description: ["&6Was ist das?", "Leitern bringen dich schnell nach oben und unten.", "", "&6So gehts", "Stöcke in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Unverzichtbar im Bergwerk und beim Hausbau."]
 			id: "13E4634A0A85F1DE"
 			title: "Leiter"
 			rewards: [{ id: "7D2B009491ABEB1C", type: "xp_levels", xp_levels: 2 }]
@@ -1119,7 +1119,7 @@
 		}
 		{
 			dependencies: ["3D7458B224785A88"]
-			description: ["&6Was ist das?", "Treppen aus Stein für dein Haus.", "", "&6So gehts", "Bruchstein in der Werkbank in Treppenform legen. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Treppen und Platten wirken Häuser abwechslungsreicher."]
+			description: ["&6Was ist das?", "Treppen aus Stein für dein Haus.", "", "&6So gehts", "Bruchstein in der Werkbank in Treppenform legen. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Treppen und Platten wirken Häuser abwechslungsreicher."]
 			id: "1FD7E4E167AFCB3A"
 			title: "Steintreppen"
 			rewards: [{ id: "73A2A1A442CA71C8", type: "xp_levels", xp_levels: 2 }]
@@ -1139,7 +1139,7 @@
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Kürbisse wachsen aus Samen und liefern Kürbiskuchen.", "", "&6So gehts", "Rezept: Werkbank: 4x Kürbisscheibe (Muster in JEI, Taste R).", "Kürbissamen in Ackerboden pflanzen und warten.", "", "&6Wofür ist das wichtig?", "Wird später für Kürbiskuchen und Golems gebraucht."]
+			description: ["&6Was ist das?", "Kürbisse wachsen aus Samen und liefern Kürbiskuchen.", "", "&6So gehts", "Rezept: Werkbank: 4x Kürbisscheibe (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Kürbissamen in Ackerboden pflanzen und warten.", "", "&6Wofür ist das wichtig?", "Wird später für Kürbiskuchen und Golems gebraucht."]
 			id: "7AD88243D3698286"
 			title: "Kürbis"
 			rewards: [{ id: "1064B04BEEA51B47", type: "xp_levels", xp_levels: 2 }]
@@ -1179,7 +1179,7 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir JEI: Item anklicken und R drücken.", "", "&6Wofür ist das wichtig?", "Hilft bei der Ordnung in großen Lagern."]
+			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Hilft bei der Ordnung in großen Lagern."]
 			id: "22DEBBAF902D4BA1"
 			hide_dependency_lines: true
 			title: "Schilder"

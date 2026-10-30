@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["32D7C0032123B540"]
-			description: ["&6Was ist das?", "Apotheosis macht Ausrüstung zu Beute: Gegenstände mit zufälligen Fähigkeiten (Affixe), Edelsteine zum Einsetzen, Welt-Stufen, Eindringlinge, Elite-Monster und Spawner, die du einsammeln und verbessern kannst.", "", "&6So gehts", "Der Hauptweg in der Mitte führt durch die fünf Welt-Stufen. Darunter und darüber hängen die Zweige: Ausrüstung veredeln, Tränke, Edelsteine, Gegner und Beute, Spawner. Alles ist freiwillig. Der Mod gehört wie die Apothic-Verzauberungen (eigenes Kapitel) ins Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Je höher deine Welt-Stufe, desto härter die Gegner und desto besser die Beute."]
+			description: ["&6Was ist das?", "Apotheosis macht Ausrüstung zu Beute: Gegenstände mit zufälligen Fähigkeiten (Affixe (zufällige Zusatz-Eigenschaften)), Edelsteine zum Einsetzen, Welt-Stufen, Eindringlinge, Elite-Monster und Spawner (Monsterkäfig), die du einsammeln und verbessern kannst.", "", "&6So gehts", "Der Hauptweg in der Mitte führt durch die fünf Welt-Stufen. Darunter und darüber hängen die Zweige: Ausrüstung veredeln, Tränke, Edelsteine, Gegner und Beute, Spawner. Alles ist freiwillig. Der Mod gehört wie die Apothic-Verzauberungen (eigenes Kapitel) ins Diamant-Zeitalter.", "", "&6Wofür ist das wichtig?", "Je höher deine Welt-Stufe, desto härter die Gegner und desto besser die Beute."]
 			icon: { id: "apotheosis:gem_cutting_table" }
 			id: "5698BF92CF245300"
 			title: "Apotheosis"
@@ -23,7 +23,7 @@
 		}
 		{
 			dependencies: ["5698BF92CF245300"]
-			description: ["&6Was ist das?", "Das Handbuch zu Apotheosis, direkt im Spiel (auf Englisch).", "", "&6So gehts", "Herstellung: ein Buch und ein Goldbarren, formlos in der Werkbank.", "", "&6Wofür ist das wichtig?", "Es erklärt Affixe, Edelsteine, Welt-Stufen, Spawner, Tränke und Verzauberungen ausführlich."]
+			description: ["&6Was ist das?", "Das Handbuch zu Apotheosis, direkt im Spiel (auf Englisch).", "", "&6So gehts", "Herstellung: ein Buch und ein Goldbarren, formlos in der Werkbank.", "", "&6Wofür ist das wichtig?", "Es erklärt Affixe (zufällige Zusatz-Eigenschaften), Edelsteine, Welt-Stufen, Spawner (Monsterkäfig), Tränke und Verzauberungen ausführlich."]
 			id: "1E023313CF477816"
 			title: "Chronik der Schatten"
 			rewards: [{ id: "782309DF261C6F75", type: "xp_levels", xp_levels: 2 }]
@@ -33,7 +33,7 @@
 		}
 		{
 			dependencies: ["1E023313CF477816"]
-			description: ["&6Was ist das?", "Waffen, Werkzeuge und Rüstung können jetzt Affixe tragen: Zusatzwerte und Fähigkeiten. Du erkennst sie an Namen, Seltenheit und Farbe.", "", "&6So gehts", "Du findest sie in Kisten, bei Elite-Monstern und Eindringlingen, beim Fahrenden Händler und mit Glück als Beute normaler Monster. Hebe einen auf und bestätige die Quest.", "", "&6Wofür ist das wichtig?", "Der erste Fund schaltet die Welt-Stufe Zuflucht frei."]
+			description: ["&6Was ist das?", "Waffen, Werkzeuge und Rüstung können jetzt Affixe (zufällige Zusatz-Eigenschaften) tragen: Zusatzwerte und Fähigkeiten. Du erkennst sie an Namen, Seltenheit und Farbe.", "", "&6So gehts", "Du findest sie in Kisten, bei Elite-Monstern und Eindringlingen, beim Fahrenden Händler und mit Glück als Beute normaler Monster. Hebe einen auf und bestätige die Quest.", "", "&6Wofür ist das wichtig?", "Der erste Fund schaltet die Welt-Stufe Zuflucht frei."]
 			icon: { id: "apotheosis:sigil_of_rebirth" }
 			id: "46C408A67E0A482D"
 			title: "Der erste Affix-Gegenstand"
@@ -44,7 +44,7 @@
 		}
 		{
 			dependencies: ["46C408A67E0A482D"]
-			description: ["&6Was ist das?", "Eine Welt-Stufe gilt nur für dich. Sie bestimmt, wie stark die Gegner sind und wie gut die Beute ist.", "", "&6So gehts", "Strg + T öffnet die Welt-Stufen-Auswahl. Symbol anklicken, dann „Aktivieren\". „Detailinfo\" zeigt die Drop-Chancen, „?\" ein Tutorial. Solange du noch nie eine Stufe aktiviert hast, zeigen Affix-Gegenstände ihre Werte nicht an.", "", "&6Wofür ist das wichtig?", "Neue Stufen schalten sich nicht von selbst ein. Du kannst jederzeit zwischen freigeschalteten Stufen wechseln."]
+			description: ["&6Was ist das?", "Eine Welt-Stufe gilt nur für dich. Sie bestimmt, wie stark die Gegner sind und wie gut die Beute ist.", "", "&6So gehts", "Strg + T öffnet die Welt-Stufen-Auswahl. Symbol anklicken, dann „Aktivieren\". „Detailinfo\" zeigt die Beute-Chancen, „?\" ein Tutorial. Solange du noch nie eine Stufe aktiviert hast, zeigen Affix-Gegenstände ihre Werte nicht an.", "", "&6Wofür ist das wichtig?", "Neue Stufen schalten sich nicht von selbst ein. Du kannst jederzeit zwischen freigeschalteten Stufen wechseln."]
 			icon: { id: "apotheosis:boss_summoner" }
 			id: "3A5645CE8150CB6E"
 			title: "Welt-Stufe aktivieren"
@@ -88,7 +88,7 @@
 		}
 		{
 			dependencies: ["72FA1A5F2EB9026A"]
-			description: ["&6Was ist das?", "Die letzte Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set Epischer Affix-Gegenstände und erschlage den Enderdrachen.", "", "&6Wofür ist das wichtig?", "Die besten Affixe, Edelsteine und Eindringlinge im Spiel. Unzerbrechliche Talismane gibt es nur in dieser Stufe."]
+			description: ["&6Was ist das?", "Die letzte Welt-Stufe.", "", "&6So gehts", "Trage ein komplettes Set Epischer Affix-Gegenstände und erschlage den Enderdrachen.", "", "&6Wofür ist das wichtig?", "Die besten Affixe (zufällige Zusatz-Eigenschaften), Edelsteine und Eindringlinge im Spiel. Unzerbrechliche Talismane gibt es nur in dieser Stufe."]
 			icon: { id: "minecraft:dragon_head" }
 			id: "372521EDADBF67A6"
 			title: "Zenit"
@@ -112,7 +112,7 @@
 		}
 		{
 			dependencies: ["46C408A67E0A482D"]
-			description: ["&6Was ist das?", "Affixe sind Zusatzfähigkeiten auf Ausrüstung. Zusatzwerte steigern ein Attribut, Effekte bringen neue Eigenschaften, Fähigkeiten sind die stärkste Art und haben oft Abklingzeit. Dazu kommen Sockel und eine Haltbarkeits-Verbesserung.", "", "&6So gehts", "Schau dir einen Gegenstand in der Beschreibung genau an. Zusatzwerte gibt es auf jeder Stufe, Effekte ab Ungewöhnlich, Fähigkeiten auf Episch und Mythisch. Bestätige, wenn du Affixe gelesen hast.", "", "&6Wofür ist das wichtig?", "Wer Affixe versteht, wählt die richtige Ausrüstung und die richtigen Edelsteine."]
+			description: ["&6Was ist das?", "Affixe (zufällige Zusatz-Eigenschaften) sind Zusatzfähigkeiten auf Ausrüstung. Zusatzwerte steigern ein Attribut, Effekte bringen neue Eigenschaften, Fähigkeiten sind die stärkste Art und haben oft Abklingzeit. Dazu kommen Sockel und eine Haltbarkeits-Verbesserung.", "", "&6So gehts", "Schau dir einen Gegenstand in der Beschreibung genau an. Zusatzwerte gibt es auf jeder Stufe, Effekte ab Ungewöhnlich, Fähigkeiten auf Episch und Mythisch. Bestätige, wenn du Affixe gelesen hast.", "", "&6Wofür ist das wichtig?", "Wer Affixe versteht, wählt die richtige Ausrüstung und die richtigen Edelsteine."]
 			icon: { id: "apotheosis:gem_dust" }
 			id: "1C5C6118C83B64CE"
 			title: "Affixe"
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["62309D16ABE28BAA"]
-			description: ["&6Was ist das?", "Würfelt die Affixe eines Gegenstands neu, bis zur Seltenheit Selten.", "", "&6So gehts", "Herstellung: Eisenbarren, zwei Edelsteinstaub, Verzauberungstisch und drei glatte Steine.", "", "&6Wofür ist das wichtig?", "Wenn dir ein Affix nicht gefällt oder ein Gegenstand noch keinen hat."]
+			description: ["&6Was ist das?", "Würfelt die Affixe (zufällige Zusatz-Eigenschaften) eines Gegenstands neu, bis zur Seltenheit Selten.", "", "&6So gehts", "Herstellung: Eisenbarren, zwei Edelsteinstaub, Verzauberungstisch und drei glatte Steine.", "", "&6Wofür ist das wichtig?", "Wenn dir ein Affix nicht gefällt oder ein Gegenstand noch keinen hat."]
 			id: "55C56213C54DB7FE"
 			title: "Einfacher Umschmiedetisch"
 			rewards: [{ id: "777C2C7298B8F56E", type: "xp_levels", xp_levels: 2 }]
@@ -173,7 +173,7 @@
 		}
 		{
 			dependencies: ["4F5595EE700E48BD"]
-			description: ["&6Was ist das?", "Lege den Gegenstand in die Mitte, oben links das Material der gewünschten Seltenheit, unten rechts die Sigille.", "", "&6So gehts", "Du bekommst drei Angebote, keines ist besser als die anderen. Das zweite und dritte kosten das Doppelte und Dreifache an Stufen und Material. Kosten pro Seltenheit: Gewöhnlich 2 Stufen und 1 Material; Ungewöhnlich 5 Stufen, 2 Material, 1 Sigill; Selten 15 Stufen, 2 Material, 2 Sigille.", "", "&6Wofür ist das wichtig?", "So holst du aus Fundstücken genau die Affixe, die du willst."]
+			description: ["&6Was ist das?", "Lege den Gegenstand in die Mitte, oben links das Material der gewünschten Seltenheit, unten rechts die Sigille.", "", "&6So gehts", "Du bekommst drei Angebote, keines ist besser als die anderen. Das zweite und dritte kosten das Doppelte und Dreifache an Stufen und Material. Kosten pro Seltenheit: Gewöhnlich 2 Stufen und 1 Material; Ungewöhnlich 5 Stufen, 2 Material, 1 Sigill; Selten 15 Stufen, 2 Material, 2 Sigille.", "", "&6Wofür ist das wichtig?", "So holst du aus Fundstücken genau die Affixe (zufällige Zusatz-Eigenschaften), die du willst."]
 			icon: { id: "apotheosis:reforging_table" }
 			id: "5A798828142B020E"
 			title: "Umschmieden"
@@ -194,7 +194,7 @@
 		}
 		{
 			dependencies: ["0977AE63F46DB6CB"]
-			description: ["&6Was ist das?", "Treibstoff des Verstärkungstischs.", "", "&6So gehts", "Herstellung: vier Edelsteinstaub, vier Edelsteinverschmolzene Schieferplatten und eine Gottgeschmiedete Perle.", "", "&6Wofür ist das wichtig?", "Verbessert einzelne Affixe."]
+			description: ["&6Was ist das?", "Treibstoff des Verstärkungstischs.", "", "&6So gehts", "Herstellung: vier Edelsteinstaub, vier Edelsteinverschmolzene Schieferplatten und eine Gottgeschmiedete Perle.", "", "&6Wofür ist das wichtig?", "Verbessert einzelne Affixe (zufällige Zusatz-Eigenschaften)."]
 			id: "7BAD1045390BB4A6"
 			title: "Sigill der Verstärkung"
 			rewards: [{ id: "54BB0A3ED29372A4", type: "xp_levels", xp_levels: 2 }]
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["7BAD1045390BB4A6"]
-			description: ["&6Was ist das?", "Die Endspiel-Werkbank für einzelne Affixe.", "", "&6So gehts", "Herstellung: Nether-Stern, zwei Gottgeschmiedete Perlen, Verzauberungstisch und drei polierte Schwarzsteine.", "", "&6Wofür ist das wichtig?", "Lohnt sich vor allem für Mythische, notfalls auch Epische Gegenstände."]
+			description: ["&6Was ist das?", "Die Endspiel-Werkbank für einzelne Affixe (zufällige Zusatz-Eigenschaften).", "", "&6So gehts", "Herstellung: Nether-Stern, zwei Gottgeschmiedete Perlen, Verzauberungstisch und drei polierte Schwarzsteine.", "", "&6Wofür ist das wichtig?", "Lohnt sich vor allem für Mythische, notfalls auch Epische Gegenstände."]
 			id: "70DF6DA7BB3D1A7E"
 			title: "Verstärkungstisch"
 			rewards: [{ id: "2137F1DC32E655E2", type: "xp_levels", xp_levels: 2 }]
@@ -214,7 +214,7 @@
 		}
 		{
 			dependencies: ["70DF6DA7BB3D1A7E"]
-			description: ["&6Was ist das?", "Zwei Arbeitsschritte: Aufwerten und Neu würfeln.", "", "&6So gehts", "Aufwerten kostet zwei Sigille der Verstärkung und 225 Stufen und erhöht die Stärke eines Affixes um 25 Prozent. Neu würfeln kostet ein Sigill und 175 Stufen und tauscht den Affix gegen einen anderen derselben Art. Affixe ohne Stufen lassen sich nicht aufwerten.", "", "&6Wofür ist das wichtig?", "So wird aus einem guten Fund der perfekte Gegenstand."]
+			description: ["&6Was ist das?", "Zwei Arbeitsschritte: Aufwerten und Neu würfeln.", "", "&6So gehts", "Aufwerten kostet zwei Sigille der Verstärkung und 225 Stufen und erhöht die Stärke eines Affixes um 25 Prozent. Neu würfeln kostet ein Sigill und 175 Stufen und tauscht den Affix gegen einen anderen derselben Art. Affixe (zufällige Zusatz-Eigenschaften) ohne Stufen lassen sich nicht aufwerten.", "", "&6Wofür ist das wichtig?", "So wird aus einem guten Fund der perfekte Gegenstand."]
 			id: "620E00B8BFFA62FC"
 			title: "Affix aufwerten"
 			rewards: [{ id: "345F34AA1667D91D", type: "xp_levels", xp_levels: 4 }]
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["620E00B8BFFA62FC"]
-			description: ["&6Was ist das?", "Überlädt einen Affix und setzt einen anderen zurück.", "", "&6So gehts", "Das Rezept zeigt JEI. Das Sigill wird auch für die Rune des Bergsteigers gebraucht.", "", "&6Wofür ist das wichtig?", "Stärkere Affixe gegen einen Preis."]
+			description: ["&6Was ist das?", "Überlädt einen Affix und setzt einen anderen zurück.", "", "&6So gehts", "Das Rezept zeigt das Rezeptbuch. Das Sigill wird auch für die Rune des Bergsteigers gebraucht.", "", "&6Wofür ist das wichtig?", "Stärkere Affixe (zufällige Zusatz-Eigenschaften) gegen einen Preis."]
 			id: "2D4EDEDE0C31E851"
 			title: "Sigill der Bosheit"
 			rewards: [{ id: "24705A85FAF6C532", type: "xp_levels", xp_levels: 2 }]
@@ -359,7 +359,7 @@
 		}
 		{
 			dependencies: ["2D087E1C8AAFDA58"]
-			description: ["&6Was ist das?", "Die Reinheit steigt von Rissig über Angeschlagen, Fehlerhaft, Normal und Makellos bis Perfekt.", "", "&6So gehts", "Am Schleiftisch kostet jede Stufe Edelsteinstaub, Seltenheitsmaterial und einen zweiten Edelstein gleicher Reinheit. Die Kosten steigen mit der Reinheit, JEI zeigt sie.", "", "&6Wofür ist das wichtig?", "Die Reinheit allein bestimmt die Stärke des Edelsteins."]
+			description: ["&6Was ist das?", "Die Reinheit steigt von Rissig über Angeschlagen, Fehlerhaft, Normal und Makellos bis Perfekt.", "", "&6So gehts", "Am Schleiftisch kostet jede Stufe Edelsteinstaub, Seltenheitsmaterial und einen zweiten Edelstein gleicher Reinheit. Die Kosten steigen mit der Reinheit, das Rezeptbuch zeigt sie.", "", "&6Wofür ist das wichtig?", "Die Reinheit allein bestimmt die Stärke des Edelsteins."]
 			id: "667099AF0368D250"
 			title: "Edelstein veredeln"
 			rewards: [{ id: "467E792ABB4E5375", type: "xp_levels", xp_levels: 3 }]
@@ -411,7 +411,7 @@
 		}
 		{
 			dependencies: ["4C62B32ECF646A53"]
-			description: ["&6Was ist das?", "Jeder Eindringling trägt genau einen Affix-Gegenstand, den er garantiert fallen lässt.", "", "&6So gehts", "Erschlage einen Eindringling. Der Gegenstand hat seine Seltenheit, stärkere Affixe als üblich und seinen Namen als Zusatz. Dazu mehr Chance auf Edelsteine.", "", "&6Wofür ist das wichtig?", "Der Weg zum Aufstieg und eine sichere Quelle für gute Ausrüstung."]
+			description: ["&6Was ist das?", "Jeder Eindringling trägt genau einen Affix-Gegenstand, den er garantiert fallen lässt.", "", "&6So gehts", "Erschlage einen Eindringling. Der Gegenstand hat seine Seltenheit, stärkere Affixe (zufällige Zusatz-Eigenschaften) als üblich und seinen Namen als Zusatz. Dazu mehr Chance auf Edelsteine.", "", "&6Wofür ist das wichtig?", "Der Weg zum Aufstieg und eine sichere Quelle für gute Ausrüstung."]
 			id: "771B0193EF859420"
 			title: "Eindringlings-Beute"
 			rewards: [{ id: "440783A736BB78B6", type: "xp_levels", xp_levels: 3 }]
@@ -442,7 +442,7 @@
 		}
 		{
 			dependencies: ["5DE6012B017167DA"]
-			description: ["&6Was ist das?", "Zwei Arten freistehender Spawner: Brutal-Spawner rufen stärkere, feuerresistente Monster mit langer Pause. Schwarm-Spawner rufen sehr schnell viele schwache Monster, meist Spinnen.", "", "&6So gehts", "Du findest sie in der Welt. Erschlage die Monster, danach plünderst du die Truhe.", "", "&6Wofür ist das wichtig?", "Gute Übung, bevor du eigene Spawner bearbeitest."]
+			description: ["&6Was ist das?", "Zwei Arten freistehender Spawner (Monsterkäfig): Brutal-Spawner rufen stärkere, feuerresistente Monster mit langer Pause. Schwarm-Spawner rufen sehr schnell viele schwache Monster, meist Spinnen.", "", "&6So gehts", "Du findest sie in der Welt. Erschlage die Monster, danach plünderst du die Truhe.", "", "&6Wofür ist das wichtig?", "Gute Übung, bevor du eigene Spawner bearbeitest."]
 			icon: { id: "minecraft:spawner" }
 			id: "5FC7A6623C183F11"
 			title: "Wilde Spawner"
@@ -464,7 +464,7 @@
 		}
 		{
 			dependencies: ["4C62B32ECF646A53"]
-			description: ["&6Was ist das?", "Mit Apothic Spawners lassen sich Mob-Spawner einsammeln und umsetzen.", "", "&6So gehts", "Baue einen Spawner mit einem Werkzeug mit Behutsamkeit ab. Das kostet zusätzliche Haltbarkeit. Halte Umschalt über dem Gegenstand, dann siehst du seine Werte.", "", "&6Wofür ist das wichtig?", "Mob-Farmen nach deinen Regeln."]
+			description: ["&6Was ist das?", "Mit Apothic Spawners lassen sich Monsterkäfig (Spawner) einsammeln und umsetzen.", "", "&6So gehts", "Baue einen Spawner (Monsterkäfig) mit einem Werkzeug mit Behutsamkeit ab. Das kostet zusätzliche Haltbarkeit. Halte Umschalt über dem Gegenstand, dann siehst du seine Werte.", "", "&6Wofür ist das wichtig?", "Mob-Farmen nach deinen Regeln."]
 			icon: { id: "minecraft:spawner" }
 			id: "07D2579F1F9C806D"
 			title: "Spawner einsammeln"
@@ -475,7 +475,7 @@
 		}
 		{
 			dependencies: ["07D2579F1F9C806D"]
-			description: ["&6Was ist das?", "Entsteht, wenn ein Mob-Spawner durch eine Explosion zerstört wird. Eine Kaskade zerstört ihn, wenig später detoniert er, der gespeicherte Mob und viele Ketten bleiben liegen.", "", "&6So gehts", "Zerstöre einen Spawner mit TNT oder Ähnlichem und sammle die Ketten auf. Der Spawner geht dabei verloren.", "", "&6Wofür ist das wichtig?", "Ketten sind der Rohstoff aller Runen."]
+			description: ["&6Was ist das?", "Entsteht, wenn ein Monsterkäfig (Spawner) durch eine Explosion zerstört wird. Eine Kaskade zerstört ihn, wenig später detoniert er, der gespeicherte Monster und viele Ketten bleiben liegen.", "", "&6So gehts", "Zerstöre einen Spawner (Monsterkäfig) mit TNT oder Ähnlichem und sammle die Ketten auf. Der Spawner geht dabei verloren.", "", "&6Wofür ist das wichtig?", "Ketten sind der Rohstoff aller Runen."]
 			id: "3CF889920FEEBF6C"
 			title: "Spawner-Kette"
 			rewards: [{ id: "58E3D4E8462333F4", type: "xp_levels", xp_levels: 2 }]
@@ -495,7 +495,7 @@
 		}
 		{
 			dependencies: ["0DAB3A9E3D160338"]
-			description: ["&6Was ist das?", "Runen verändern Spawner-Werte wie Pause, Anzahl, Reichweite und mehr.", "", "&6So gehts", "Halte die Rune in der Hand und klicke mit Rechtsklick auf den Spawner. Jede Rune und ihre Wirkung zeigt JEI unter den Verwendungen von Mob-Spawnern.", "", "&6Wofür ist das wichtig?", "Der Kern des Spawner-Systems."]
+			description: ["&6Was ist das?", "Runen verändern Spawner-Werte wie Pause, Anzahl, Reichweite und mehr.", "", "&6So gehts", "Halte die Rune in der Hand und klicke mit Rechtsklick auf den Spawner (Monsterkäfig). Jede Rune und ihre Wirkung zeigt das Rezeptbuch unter den Verwendungen von Monsterkäfig (Spawner)n.", "", "&6Wofür ist das wichtig?", "Der Kern des Spawner-Systems."]
 			id: "3920584F9FFDB2B4"
 			title: "Rune anwenden"
 			rewards: [{ id: "5E2F7A56A90DB1A7", type: "xp_levels", xp_levels: 2 }]
@@ -545,7 +545,7 @@
 		}
 		{
 			dependencies: ["3B5CADB1D7CF9C65"]
-			description: ["&6Was ist das?", "Die letzte Stufen-Rune bringt den Spawner an sein Maximum.", "", "&6So gehts", "Herstellung: vier Gottgeschmiedete Perlen, ein Perfekter Endersurge-Edelstein, zwei Erfüllte Atem, Nether-Stern und Durchtränkte Rune.", "", "&6Wofür ist das wichtig?", "Die ultimative Mob-Maschine."]
+			description: ["&6Was ist das?", "Die letzte Stufen-Rune bringt den Spawner (Monsterkäfig) an sein Maximum.", "", "&6So gehts", "Herstellung: vier Gottgeschmiedete Perlen, ein Perfekter Endersurge-Edelstein, zwei Erfüllte Atem, Nether-Stern und Durchtränkte Rune.", "", "&6Wofür ist das wichtig?", "Die ultimative Mob-Maschine."]
 			id: "71E1F78ACA022DB6"
 			title: "Donnernde Rune"
 			rewards: [{ id: "1ACAB70680A38F2B", type: "xp_levels", xp_levels: 4 }]
@@ -555,7 +555,7 @@
 		}
 		{
 			dependencies: ["71E1F78ACA022DB6"]
-			description: ["&6Was ist das?", "Eigene Runen für einzelne Werte: Reichweite, Kontrolle per Redstone, ewiges Zwielicht, Stille, Jugend, Verbrennung und mehr.", "", "&6So gehts", "Rezepte siehe JEI. Halte beim Anwenden Netherquarz in der Zweithand, dann kehrt sich die Wirkung um. Stufen-Runen lassen sich nicht umkehren.", "", "&6Wofür ist das wichtig?", "Stärkere Runen wie Echos, Einsamkeit, Trotz und Benommenheit brauchen die Durchtränkte Rune. Bei großen Farmen immer die Rune der Benommenheit nutzen: weniger Last, leichter zu steuern."]
+			description: ["&6Was ist das?", "Eigene Runen für einzelne Werte: Reichweite, Kontrolle per Redstone, ewiges Zwielicht, Stille, Jugend, Verbrennung und mehr.", "", "&6So gehts", "Rezepte siehe das Rezeptbuch. Halte beim Anwenden Netherquarz in der Zweithand, dann kehrt sich die Wirkung um. Stufen-Runen lassen sich nicht umkehren.", "", "&6Wofür ist das wichtig?", "Stärkere Runen wie Echos, Einsamkeit, Trotz und Benommenheit brauchen die Durchtränkte Rune. Bei großen Farmen immer die Rune der Benommenheit nutzen: weniger Last, leichter zu steuern."]
 			icon: { id: "apotheosis:silent_spawner_rune" }
 			id: "1275B014EBCD20AD"
 			title: "Stat-Runen"
@@ -566,7 +566,7 @@
 		}
 		{
 			dependencies: ["1275B014EBCD20AD"]
-			description: ["&6Was ist das?", "Eine Verzauberung: Monster lassen mit Glück ihr Spawn-Ei fallen.", "", "&6So gehts", "Verzaubere eine Waffe mit Einfangen. Bosse und Monster ohne Ei sind ausgenommen. Mit dem Ei änderst du den Mob eines Spawners per Rechtsklick.", "", "&6Wofür ist das wichtig?", "So bekommst du die Monster, die du in deiner Farm haben willst."]
+			description: ["&6Was ist das?", "Eine Verzauberung: Monster lassen mit Glück ihr Spawn-Ei fallen.", "", "&6So gehts", "Verzaubere eine Waffe mit Einfangen. Bosse und Monster ohne Ei sind ausgenommen. Mit dem Ei änderst du den Monster eines Spawners per Rechtsklick.", "", "&6Wofür ist das wichtig?", "So bekommst du die Monster, die du in deiner Farm haben willst."]
 			icon: { id: "minecraft:spawner" }
 			id: "1BA00B72D1A9589D"
 			title: "Einfangen"

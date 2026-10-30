@@ -19,7 +19,7 @@
 			y: 0.00d
 		}
 		{
-			description: ["&6Was ist das?", "Der Computer ist ein Block mit einem kleinen Bildschirm. Darauf läuft ein Betriebssystem, in dem du Befehle eintippst.", "", "&6So gehts", "Baue einen Computer. Das Rezept siehst du in JEI, indem du auf das Item klickst und R drückst.", "Stelle ihn auf den Boden. Rechtsklick öffnet sein Terminal. Mit dem Ein-Schalter im Fenster oder mit Strg+R startet er.", "Mit der Maus kannst du im Terminal nichts anklicken, alles läuft über die Tastatur.", "", "&6Wofür ist das wichtig?", "Der Computer ist das Gehirn für alles Weitere in diesem Kapitel."]
+			description: ["&6Was ist das?", "Der Computer ist ein Block mit einem kleinen Bildschirm. Darauf läuft ein Betriebssystem, in dem du Befehle eintippst.", "", "&6So gehts", "Baue einen Computer. Das Rezept siehst du im Rezeptbuch, indem du auf das Item klickst und R drückst.", "Stelle ihn auf den Boden. Rechtsklick öffnet sein Terminal. Mit dem Ein-Schalter im Fenster oder mit Strg+R startet er.", "Mit der Maus kannst du im Terminal nichts anklicken, alles läuft über die Tastatur.", "", "&6Wofür ist das wichtig?", "Der Computer ist das Gehirn für alles Weitere in diesem Kapitel."]
 			icon: { id: "computercraft:computer_normal" }
 			dependencies: ["0582499342732963"]
 			id: "513C44676E8366E2"
@@ -261,7 +261,7 @@
 			y: 7.50d
 		}
 		{
-			description: ["&6Was ist das?", "Ein Taschencomputer ist ein tragbarer Computer in der Hand. Mit Funkmodem schickst du von unterwegs Befehle.", "", "&6So gehts", "Rechtsklick öffnet ihn. Dort läuft dasselbe System wie im Computer.", "Ein Funkmodem baust du in der Werkbank ein (Rezept in JEI). Dann kannst du Nachrichten an deine Turtles schicken.", "", "&6Wofür ist das wichtig?", "Eine Fernbedienung für deine ganze Anlage."]
+			description: ["&6Was ist das?", "Ein Taschencomputer ist ein tragbarer Computer in der Hand. Mit Funkmodem schickst du von unterwegs Befehle.", "", "&6So gehts", "Rechtsklick öffnet ihn. Dort läuft dasselbe System wie im Computer.", "Ein Funkmodem baust du in der Werkbank ein (Rezept im Rezeptbuch). Dann kannst du Nachrichten an deine Turtles schicken.", "", "&6Wofür ist das wichtig?", "Eine Fernbedienung für deine ganze Anlage."]
 			icon: { id: "computercraft:pocket_computer_normal" }
 			dependencies: ["380CF6CA1873D2D1"]
 			id: "1A85216CC5D47773"
@@ -272,7 +272,7 @@
 			y: 9.00d
 		}
 		{
-			description: ["&6Was ist das?", "Eine Turtle ist ein Computer auf Rädern. Sie läuft, gräbt, baut, kämpft und trägt Items. Du programmierst sie wie einen normalen Computer.", "", "&6So gehts", "Baue eine Turtle (Rezept in JEI).", "Stelle sie auf, Rechtsklick öffnet das Terminal. Sie braucht Treibstoff: Lege Kohle ins Inventar und tippe:", "&brefuel all", "&bprint(turtle.getFuelLevel())", "Ein Stück Kohle reicht für etwa 80 Schritte. Ohne Treibstoff bewegt sie sich nicht.", "", "&6Wofür ist das wichtig?", "Turtles arbeiten für dich: Tunnelbau, Holzfarm, Aufräumen, Einsammeln."]
+			description: ["&6Was ist das?", "Eine Turtle ist ein Computer auf Rädern. Sie läuft, gräbt, baut, kämpft und trägt Items. Du programmierst sie wie einen normalen Computer.", "", "&6So gehts", "Baue eine Turtle (Rezept im Rezeptbuch).", "Stelle sie auf, Rechtsklick öffnet das Terminal. Sie braucht Treibstoff: Lege Kohle ins Inventar und tippe:", "&brefuel all", "&bprint(turtle.getFuelLevel())", "Ein Stück Kohle reicht für etwa 80 Schritte. Ohne Treibstoff bewegt sie sich nicht.", "", "&6Wofür ist das wichtig?", "Turtles arbeiten für dich: Tunnelbau, Holzfarm, Aufräumen, Einsammeln."]
 			icon: { id: "computercraft:turtle_normal" }
 			dependencies: ["4A4ADF95A3ECF983"]
 			id: "028B5F465235FCCB"
@@ -294,7 +294,7 @@
 			y: -3.00d
 		}
 		{
-			description: ["&6Was ist das?", "Eine Turtle mit Spitzhacke gräbt, und sie kann Blöcke setzen.", "", "&6So gehts", "Eine Grabturtle baust du, indem du Turtle und eine Spitzhacke in die Werkbank legst (Rezept in JEI).", "&bturtle.dig()           -- vorne graben", "&bturtle.digUp()         -- oben graben", "&bturtle.digDown()       -- unten graben", "&bturtle.select(1)       -- Slot 1 wählen", "&bturtle.place()         -- Block aus dem gewählten Slot setzen", "&bturtle.detect()        -- true, wenn vorne ein Block ist", "", "&6Wofür ist das wichtig?", "Damit gräbst du Tunnel, baust Brücken und erntest Bäume automatisch."]
+			description: ["&6Was ist das?", "Eine Turtle mit Spitzhacke gräbt, und sie kann Blöcke setzen.", "", "&6So gehts", "Eine Grabturtle baust du, indem du Turtle und eine Spitzhacke in die Werkbank legst (Rezept im Rezeptbuch).", "&bturtle.dig()           -- vorne graben", "&bturtle.digUp()         -- oben graben", "&bturtle.digDown()       -- unten graben", "&bturtle.select(1)       -- Slot 1 wählen", "&bturtle.place()         -- Block aus dem gewählten Slot setzen", "&bturtle.detect()        -- true, wenn vorne ein Block ist", "", "&6Wofür ist das wichtig?", "Damit gräbst du Tunnel, baust Brücken und erntest Bäume automatisch."]
 			icon: { id: "minecraft:iron_pickaxe" }
 			dependencies: ["03FBC2A235755AE4"]
 			id: "38640E6A053DB4C4"
@@ -339,7 +339,7 @@
 			y: -9.00d
 		}
 		{
-			description: ["&6Was ist das?", "Der goldene Computer kann Farben und Mausklicks. Dein Programm bekommt dadurch Knöpfe und bunte Bilder.", "", "&6So gehts", "Baue einen Fortgeschrittenen Computer (Rezept in JEI).", "Farben:", "&bterm.setTextColor(colors.lime)", "&bprint('Grün!')", "&bterm.setBackgroundColor(colors.blue)", "&bterm.clear()", "Mausklicks:", "&blocal ereignis, taste, x, y = os.pullEvent('mouse_click')", "&bprint('Klick bei', x, y)", "", "&6Wofür ist das wichtig?", "Menüs und Steuerpulte, die du mit der Maus bedienst."]
+			description: ["&6Was ist das?", "Der goldene Computer kann Farben und Mausklicks. Dein Programm bekommt dadurch Knöpfe und bunte Bilder.", "", "&6So gehts", "Baue einen Fortgeschrittenen Computer (Rezept im Rezeptbuch).", "Farben:", "&bterm.setTextColor(colors.lime)", "&bprint('Grün!')", "&bterm.setBackgroundColor(colors.blue)", "&bterm.clear()", "Mausklicks:", "&blocal ereignis, taste, x, y = os.pullEvent('mouse_click')", "&bprint('Klick bei', x, y)", "", "&6Wofür ist das wichtig?", "Menüs und Steuerpulte, die du mit der Maus bedienst."]
 			icon: { id: "computercraft:computer_advanced" }
 			dependencies: ["3E46102C0C74EDFC"]
 			id: "4A4ADF95A3ECF983"
