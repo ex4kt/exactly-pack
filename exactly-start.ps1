@@ -111,7 +111,11 @@ $bUpd.Add_Click({
     $java = $env:INST_JAVA; if (-not $java) { $java = 'java' }
     Zeige 'alt' 'Aktualisiere ... (das Fenster des Installers zeigt den Fortschritt)' $true
     try {
-        $p = Start-Process -FilePath $java -ArgumentList @('-jar', 'packwiz-installer-bootstrap.jar', $PackUrl) -PassThru
+        # Ist packwiz-installer.jar schon da, nicht bei der GitHub-API nach einer neueren Installer-Version fragen:
+        # die API erlaubt nur 60 Anfragen pro Stunde und IP, danach brach die Aktualisierung mit HTTP 403 ab (0.0.375)
+        $argumente = @('-jar', 'packwiz-installer-bootstrap.jar')
+        if (Test-Path 'packwiz-installer.jar') { $argumente += '--bootstrap-no-update' }
+        $p = Start-Process -FilePath $java -ArgumentList ($argumente + $PackUrl) -PassThru
         while (-not $p.HasExited) { [Windows.Forms.Application]::DoEvents(); Start-Sleep -Milliseconds 100 }
         if ($p.ExitCode -ne 0) { Zeige 'alt' ("Die Aktualisierung wurde nicht abgeschlossen (Code " + $p.ExitCode + ").`nDruecke Aktualisieren, um es nochmal zu versuchen.") $false; return }
     } catch {
