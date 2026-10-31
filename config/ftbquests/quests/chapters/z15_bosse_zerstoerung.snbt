@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z15_bosse_zerstoerung"
+	group: "468AD64DD4665C08"
 	icon: { id: "bosses_of_mass_destruction:soul_star" }
 	id: "8BED5B6594A4D29C"
-	order_index: 21
+	order_index: 3
 	quest_links: [ ]
 	title: "&cBosse der Zerstörung"
+	subtitle: ["Lich, Gauntlet, Void Blossom und Obsidilith"]
 	quests: [
 		{
 			dependencies: ["1F7C16EE6236AB7A"]
@@ -24,6 +26,7 @@
 		{
 			description: ["&6Was ist das?", "Diese Bosse sind deutlich stärker als Vanilla-Bosse (250 bis 350 Leben, harte Treffer, Explosionen).", "", "&6Was brauchst du?", "- Mindestens volle Diamant-, besser Netherit-Rüstung mit Schutz-Verzauberung", "- Schild, Bogen oder Armbrust mit vielen Pfeilen", "- Goldene Äpfel, Heil- und Feuerresistenz-Tränke, viel Essen", "- Blöcke zum Bauen, ein Bett oder Ankerpunkt in der Nähe", "", "&6So gehts", "Kämpfe nicht allein, wenn es geht. Die Bosse heilen sich langsam, wenn du weggehst: dranbleiben."]
 			dependencies: ["659E23D298A106AC"]
+			icon: { id: "minecraft:golden_apple" }
 			id: "4C3DE63606F736E7"
 			title: "Boss: Vorbereitung"
 			rewards: [{ id: "0FA3EE1A2AC39558", type: "xp_levels", xp_levels: 3 }]
@@ -34,6 +37,7 @@
 		{
 			description: ["&6Wo findest du ihn?", "Im Lich-Turm in kalten Biomen: verschneite Taiga, verschneite Ebenen und Hänge, Eiszapfen, gefrorene Gipfel, verschneiter Strand, gefrorener Ozean.", "", "&6Was brauchst du?", "- 4 Seelensterne: nach je 50 besiegten Untoten (Zombies, Skelette, Phantome, Ertrunkene usw.) lässt ein Untoter einen Seelenstern fallen.", "- Rechtsklick in die Luft mit einem Seelenstern: er fliegt wie ein Enderauge in Richtung des nächsten Lich-Turms.", "", "&6So gehts", "Im Turm stehen auf einer Etage 4 Gemeißelte Steinaltäre. Setze in jeden einen Seelenstern (Rechtsklick), dann erscheint der Lich.", "Er hat 300 Leben, schießt verlangsamende Geschosse und lässt Kometen fallen. Fernkampf und ständiges Ausweichen helfen.", "", "&6Beute", "Antike Anima, dazu Knochen, Bücher und Diamanten. In den Turm-Truhen liegt weitere Beute."]
 			dependencies: ["4C3DE63606F736E7"]
+			icon: { id: "bosses_of_mass_destruction:soul_star" }
 			id: "33D918086EDD77D8"
 			title: "Boss: Lich"
 			rewards: [{ id: "24188ECB26CEDA39", type: "xp_levels", xp_levels: 3 }]
@@ -44,6 +48,7 @@
 		{
 			description: ["&6Wo findest du ihn?", "Im Nether, in einer unterirdischen Arena tief unten (um Höhe 15). Arenen sind recht häufig.", "", "&6Was brauchst du?", "Feuerresistenz, Netherit-Ausrüstung, Bogen. Kein Gegenstand zum Rufen nötig: er erwacht, wenn du die Arena betrittst.", "", "&6So gehts", "Er hat 250 Leben und gute Rüstung. Seine Faustschläge explodieren, der Laser lädt sich hörbar auf: dann hinter Deckung.", "Schlag zu, wenn er nach einem Angriff kurz stillsteht.", "", "&6Beute", "Das Brennende Auge liegt in der Truhe der Arena. Beim Tod erscheint Antiker Schrott."]
 			dependencies: ["33D918086EDD77D8"]
+			icon: { id: "bosses_of_mass_destruction:blazing_eye" }
 			id: "265C28EA0879D955"
 			title: "Boss: Gauntlet"
 			rewards: [{ id: "04D6962B25CD3671", type: "xp_levels", xp_levels: 3 }]
@@ -54,6 +59,7 @@
 		{
 			description: ["&6Wo findest du sie?", "In einer Höhle ganz unten in der Oberwelt (Tiefenschiefer-Ebene), in fast allen normalen Biomen.", "", "&6Was brauchst du?", "Eine Leerenlilie zum Suchen: Maiglöckchen + Amethystscherbe (formlos). Stell sie auf: ihr Pollen fliegt in Richtung der nächsten Void Blossom.", "", "&6So gehts", "Sie erscheint, sobald du ihre Höhle betrittst. 350 Leben, wirft Dornen und lässt Ranken aus dem Boden schießen: in Bewegung bleiben.", "", "&6Beute", "Void-Dorn und Kristallfrucht."]
 			dependencies: ["265C28EA0879D955"]
+			icon: { id: "bosses_of_mass_destruction:void_thorn" }
 			id: "032FE80C0F717B8C"
 			title: "Boss: Void Blossom"
 			rewards: [{ id: "29FCBEFAE841099A", type: "xp_levels", xp_levels: 3 }]
@@ -64,6 +70,7 @@
 		{
 			description: ["&6Wo findest du ihn?", "Im End, in einer Arena auf den äußeren Inseln (erst nach dem Enderdrachen erreichbar).", "", "&6Was brauchst du?", "Ein Enderauge. Setze es in den Obsidianaltar in der Arena, dann erscheint der Obsidilith.", "Dazu: Langsamer-Fall-Tränke oder Elytren, viele Blöcke, sehr gute Rüstung.", "", "&6So gehts", "Er hat 300 Leben und sehr viel Rüstung. Er greift mit Runen und Explosionen an: weg von den markierten Stellen.", "", "&6Beute", "Das Obsidianherz liegt in der Truhe. Nach dem Sieg erscheint eine Säule."]
 			dependencies: ["032FE80C0F717B8C"]
+			icon: { id: "bosses_of_mass_destruction:obsidian_heart" }
 			id: "33288E16EBE80FA9"
 			title: "Boss: Obsidilith"
 			rewards: [{ id: "5E822143E66FFCEC", type: "xp_levels", xp_levels: 3 }]

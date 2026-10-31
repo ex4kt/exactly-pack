@@ -2,17 +2,19 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z05_nether"
+	group: "17290001E660111C"
 	icon: { id: "minecraft:netherrack" }
 	id: "0337A78701EFCF1C"
 	order_index: 3
 	quest_links: [ ]
 	title: "&cIV. Nether-Zeitalter"
+	subtitle: ["Der Nether: Festungen, Piglins und Bosse"]
 	quests: [
 		{
 			dependencies: ["4FA1824F157108ED"]
-			description: ["&6Was ist das?", "Baue ein Portal aus Obsidian und entzünde es mit Feuerzeug.", "Nimm Tränke und viel Nahrung mit.", "", "&6So gehts", "Baue ein 4x5-Portal aus Obsidian und entzünde es mit Feuerzeug.", "Nimm Essen, Blöcke und Feuerresistenz mit. Betten explodieren im Nether.", "Setze sofort einen Waystone neben das Portal.", "", "&6Wofür ist das wichtig?", "Nur im Nether gibt es Blazestäbe (für Blazebrenner und Enderaugen), Quarz, Netherit und Netherwarzen.", "", "&6Gut zu wissen", "Das Nether ist 8:1 skaliert: Ein Block im Nether entspricht acht Blöcken in der Oberwelt. So baust du kurze Reisewege zwischen weit entfernten Orten."]
+			description: ["&6Was ist das?", "Der Nether ist eine heiße Unterwelt voller Lava, Festungen und neuer Rohstoffe.", "", "&6So gehts", "Baue ein 4x5-Portal aus Obsidian und entzünde es mit Feuerzeug.", "Nimm Essen, Blöcke und Feuerresistenz mit. Betten explodieren im Nether.", "Setze sofort einen Wegstein neben das Portal.", "", "&6Wofür ist das wichtig?", "Nur im Nether gibt es Blazestäbe (für Blazebrenner und Enderaugen), Quarz, Netherit und Netherwarzen.", "", "&6Gut zu wissen", "Der Nether ist 8:1 skaliert: Ein Block im Nether entspricht acht Blöcken in der Oberwelt. So baust du kurze Reisewege zwischen weit entfernten Orten."]
 			id: "7D49D31EE0C23921"
-			title: "Ins Nether"
+			title: "In den Nether"
 			rewards: [{ id: "2C455C73DD9F2415", type: "item", item: { id: "minecraft:golden_carrot", count: 8 } }]
 			tasks: [{ id: "7BD379CEF088090D", type: "dimension", dimension: "minecraft:the_nether", icon: { id: "minecraft:netherrack" } }]
 			x: 1.50d
@@ -98,7 +100,7 @@
 			icon: { id: "minecraft:warped_fungus_on_a_stick" }
 			id: "1CDA2737B2884539"
 			title: "Strider reiten"
-			rewards: [{ id: "6339264914E37313", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6339264914E37313", type: "xp_levels", xp_levels: 2 }, { id: "7A9F43B2B6D0CCDF", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "6023B1585C7A4D3E", type: "item", item: { id: "minecraft:warped_fungus_on_a_stick", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: -6.00d
@@ -131,7 +133,7 @@
 			icon: { id: "gardens_of_the_dead:soulblight_stem" }
 			id: "792A285B0B2B5B6E"
 			title: "Fäulnisholz"
-			rewards: [{ id: "50E6583700153D39", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "50E6583700153D39", type: "xp_levels", xp_levels: 2 }, { id: "478D0714A6372574", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "4A0BF61C425372E3", type: "item", item: { id: "gardens_of_the_dead:soulblight_stem", count: 1 }, count: 8L }]
 			x: 7.50d
 			y: -7.50d
@@ -153,7 +155,7 @@
 			icon: { id: "friendsandfoes:wildfire_crown" }
 			id: "30602D133E2F7E2C"
 			title: "Wildfire-Krone"
-			rewards: [{ id: "5461AE97132BD07C", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5461AE97132BD07C", type: "xp_levels", xp_levels: 2 }, { id: "70CC917F69F6F8BB", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "11A38976B9658817", type: "item", item: { id: "friendsandfoes:wildfire_crown", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 4.50d
@@ -186,7 +188,7 @@
 			icon: { id: "create:polished_rose_quartz" }
 			id: "4FDB391E7820971E"
 			title: "Rosenquarz"
-			rewards: [{ id: "1A71CA3F8CE3157D", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1A71CA3F8CE3157D", type: "xp_levels", xp_levels: 2 }, { id: "21E02335819BC2DB", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "3EA298702BE991C7", type: "item", item: { id: "create:polished_rose_quartz", count: 1 }, count: 8L }]
 			x: 9.00d
 			y: 3.00d
@@ -206,7 +208,8 @@
 			description: ["&6Was ist das?", "Wither-Skelette bewachen Festungen. Ihre Totenköpfe brauchst du für den Wither.", "", "&6So gehts", "Mit gutem Schwert und Plünderung (Looting) kämpfen.", "", "&6Wofür ist das wichtig?", "Du brauchst drei Schädel für den Wither."]
 			id: "6C52749B77C05F3C"
 			title: "Wither-Skelett"
-			rewards: [{ id: "5FCB52B2C5B1ECAA", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "5FCB52B2C5B1ECAA", type: "xp_levels", xp_levels: 6 }, { id: "4DFBEBF8175A0385", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "4BED17CAE9F4EDC0", type: "kill", entity: "minecraft:wither_skeleton", value: 3L, icon: { id: "minecraft:wither_skeleton_skull" } }]
 			x: 9.00d
 			y: 0.00d
@@ -214,6 +217,7 @@
 		{
 			dependencies: ["6C52749B77C05F3C"]
 			description: ["&6Was ist das?", "Ghasts schweben über der Lava. Erwidere ihre Feuerbälle mit Schlägen!", "", "&6So gehts", "Schlage ihre Feuerbälle zurück oder nutze den Bogen.", "", "&6Wofür ist das wichtig?", "Für Regenerationstränke und Endkristalle."]
+			hide_until_deps_complete: true
 			id: "20B95EE6B7921A98"
 			title: "Ghast-Träne"
 			rewards: [{ id: "39EFF07FD4D7E0CE", type: "xp_levels", xp_levels: 4 }]
@@ -245,6 +249,7 @@
 		{
 			dependencies: ["58B53EB02B7ED8D4"]
 			description: ["&6Was ist das?", "Ein Feuerresistenz-Trank schützt dich vor Lava. Pflicht im Nether.", "", "&6So gehts", "Netherwarze und Magma-Creme in den Braustand.", "", "&6Wofür ist das wichtig?", "Pflicht für Ignis, Netherit-Suche und Lava-Unfälle."]
+			icon: { id: "minecraft:magma_cream" }
 			id: "26EF9FC45606EB04"
 			title: "Feuerresistenz"
 			rewards: [{ id: "6D1CABFFA5C1C74C", type: "item", item: { id: "minecraft:nether_wart", count: 8 } }]
@@ -267,7 +272,8 @@
 			description: ["&6Was ist das?", "Der Piglin-Brute ist gefährlich. Bleib wachsam.", "", "&6So gehts", "Sie leben in Bastionen. Kämpfe mit Schild.", "", "&6Wofür ist das wichtig?", "Bastionen haben die Netheritvorlage."]
 			id: "673DCFD701C282E0"
 			title: "Schutz vor Piglins"
-			rewards: [{ id: "705D2D1517D391FB", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "705D2D1517D391FB", type: "xp_levels", xp_levels: 5 }, { id: "3203C7551DCE4D4C", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "7E64FD619DBCE006", type: "kill", entity: "minecraft:piglin_brute", value: 1L, icon: { id: "minecraft:golden_axe" } }]
 			x: 7.50d
 			y: -4.50d
@@ -275,6 +281,7 @@
 		{
 			dependencies: ["673DCFD701C282E0"]
 			description: ["&6Was ist das?", "Die Netherit-Aufwertung findest du in Bastionen. Du brauchst sie für Netherit-Ausrüstung.", "", "&6So gehts", "In Bastionen. Mit Diamanten kopieren.", "", "&6Wofür ist das wichtig?", "Ohne Vorlage kein Netherit."]
+			hide_until_deps_complete: true
 			id: "184CBEAEA862EC71"
 			title: "Netheritvorlage"
 			rewards: [{ id: "194F30DE009534A7", type: "item", item: { id: "minecraft:diamond", count: 2 } }]
@@ -287,7 +294,8 @@
 			description: ["&6Was ist das?", "Der Piglin-Alchemist wirft Tränke und tauscht mit dir.", "", "&6So gehts", "Er taucht in Reisenden-Lagern auf.", "Du kannst mit ihm tauschen. Er gibt dir Tränke, Magma-Creme, Glowstone-Staub, Redstone und mehr.", "", "&6Wofür ist das wichtig?", "Gute Quelle für Trank-Zutaten."]
 			id: "18E2A6C89C5361AB"
 			title: "Piglin-Alchemist"
-			rewards: [{ id: "004735FDB2489526", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "004735FDB2489526", type: "xp_levels", xp_levels: 4 }, { id: "3A3DAB3017640A7E", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "5EDC2ADF1917B132", type: "kill", entity: "piglinproliferation:piglin_alchemist", value: 1L, icon: { id: "minecraft:potion" } }]
 			x: 10.50d
 			y: -4.50d
@@ -296,6 +304,7 @@
 			dependencies: ["18E2A6C89C5361AB"]
 			description: ["&6Was ist das?", "Piglin Proliferation: Ein kleiner Schild, mit dem du nach vorne stürmst.", "", "&6So gehts", "Von Piglin-Kriegern oder herstellen.", "", "&6Wofür ist das wichtig?", "Schnelle Angriffe im Kampf."]
 			icon: { id: "piglinproliferation:buckler" }
+			hide_until_deps_complete: true
 			id: "4F6B0B22E9E8CA17"
 			title: "Buckler"
 			rewards: [{ id: "5A846364938E4E01", type: "xp_levels", xp_levels: 2 }]
@@ -331,7 +340,7 @@
 			icon: { id: "barteringstation:bartering_station" }
 			id: "6B72282A7F590E48"
 			title: "Tauschstation"
-			rewards: [{ id: "414A7C8387D8EC04", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "414A7C8387D8EC04", type: "xp_levels", xp_levels: 2 }, { id: "754C4BF505B6E9DE", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "2F79DEB788D2EBD9", type: "item", item: { id: "barteringstation:bartering_station", count: 1 }, count: 1L }]
 			x: 16.50d
 			y: -4.50d
@@ -339,6 +348,7 @@
 		{
 			dependencies: ["4A473A1B156AA71A"]
 			description: ["&6Was ist das?", "Eternal Nether fügt neue Orte und Gegner hinzu.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofür ist das wichtig?", "Neue Materialien und Gegner."]
+			icon: { id: "minecraft:soul_sand" }
 			id: "5104B957CBA784CC"
 			title: "Ewiger Nether"
 			rewards: [{ id: "271DC2718262C335", type: "xp_levels", xp_levels: 4 }]
@@ -351,7 +361,8 @@
 			description: ["&6Was ist das?", "Wraither sind Geister im Ewigen Nether.", "", "&6So gehts", "Besiege einen Wraither. Er lebt in den Strukturen des Ewigen Nethers (Katakomben, Zitadelle, Piglin-Herrenhaus).", "Nimm Schild, Rüstung und Heilung mit.", "", "&6Wofür ist das wichtig?", "Er lässt Verdorrten Knochen, Kohle und manchmal einen Wither-Skelettschädel fallen."]
 			id: "2CA188CD06DF4D69"
 			title: "Der Wraither"
-			rewards: [{ id: "7EA4770381BC8EE1", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "7EA4770381BC8EE1", type: "xp_levels", xp_levels: 6 }, { id: "75AE19306D8B03F8", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "60CB7641F75F6861", type: "kill", entity: "eternalnether:wraither", value: 1L, icon: { id: "minecraft:soul_sand" } }]
 			x: 9.00d
 			y: 1.50d
@@ -361,7 +372,8 @@
 			description: ["&6Was ist das?", "Wither-Skelett-Ritter bewachen die Strukturen des Ewigen Nethers.", "", "&6So gehts", "Kämpfe mit Schild. Er schlägt hart und wither dich.", "Du findest ihn in Katakomben, Zitadelle und Piglin-Herrenhaus.", "", "&6Wofür ist das wichtig?", "Er lässt Verdorrten Knochen, Kohle und manchmal einen Wither-Skelettschädel fallen."]
 			id: "24E552ADABCE3CF6"
 			title: "Wither-Skelett-Ritter"
-			rewards: [{ id: "7554D386D2E42B5A", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "7554D386D2E42B5A", type: "xp_levels", xp_levels: 6 }, { id: "6365EA48348C0EEA", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "1B299B8631FF78A7", type: "kill", entity: "eternalnether:wither_skeleton_knight", value: 1L, icon: { id: "eternalnether:withered_bone" } }]
 			x: 10.50d
 			y: 1.50d
@@ -371,7 +383,8 @@
 			description: ["&6Was ist das?", "Der Corpor ist ein Gegner des Ewigen Nethers.", "", "&6So gehts", "Besiege ihn mit Schild und guter Waffe.", "Er lässt Verdorrten Knochen, Kohle und manchmal einen Wither-Skelettschädel fallen.", "", "&6Wofür ist das wichtig?", "Material für Wither-Skelett-Ausrüstung."]
 			id: "6EF3221D4344B52F"
 			title: "Corpor"
-			rewards: [{ id: "64A33A3AEEC5A450", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "64A33A3AEEC5A450", type: "xp_levels", xp_levels: 5 }, { id: "0502D9232FF983AD", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "27F76B94519935BD", type: "kill", entity: "eternalnether:corpor", value: 1L, icon: { id: "eternalnether:soul_stone" } }]
 			x: 12.00d
 			y: 1.50d
@@ -395,7 +408,7 @@
 			icon: { id: "irons_spellbooks:iron_spell_book" }
 			id: "1F7C16EE6236AB7A"
 			title: "Zeitalter: Magie-Zeitalter"
-			rewards: [{ id: "7FE158C50661DC5B", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "7FE158C50661DC5B", type: "historystages:history_stage", stage: "magiezeit", remove: false, individual: false }, { id: "035913B5E3CE174F", type: "xp_levels", xp_levels: 5 }, { id: "4C381875ADAB7A20", type: "choice", table_id: 8726050246647594116L }]
 			tasks: [{ id: "18204CC3C7732B14", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
@@ -485,7 +498,7 @@
 			icon: { id: "archeries:echoing_arrow" }
 			id: "603C9C59F3CC6837"
 			title: "Echopfeil"
-			rewards: [{ id: "1857A4D79B204E23", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1857A4D79B204E23", type: "xp_levels", xp_levels: 2 }, { id: "25330950485F2A61", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "0E69B34C790942D8", type: "item", item: { id: "archeries:echoing_arrow", count: 1 }, count: 1L }]
 			x: 27.00d
 			y: -1.50d
@@ -495,7 +508,8 @@
 			description: ["&6Was ist das?", "Der Stalker lebt in der Otherside von Deeper and Darker und jagt dich im Dunkeln.", "", "&6So gehts", "Diamantrüstung mit Verzauberungen, Nachtsicht, Heiltränke. Laufe nicht blind in die Dunkelheit.", "", "&6Wofür ist das wichtig?", "Gefährlicher Gegner im Tiefendunkel."]
 			id: "2DFCAF23C27F665D"
 			title: "Stalker"
-			rewards: [{ id: "07CF367BE8BCAD75", type: "xp_levels", xp_levels: 8 }, { id: "5873FFB67682D83D", type: "item", item: { id: "minecraft:diamond", count: 4 } }]
+			rewards: [{ id: "07CF367BE8BCAD75", type: "xp_levels", xp_levels: 8 }, { id: "5873FFB67682D83D", type: "item", item: { id: "minecraft:diamond", count: 4 } }, { id: "24D52A243538B59C", type: "random", table_id: 4804718647030329492L }]
+			shape: "gear"
 			tasks: [{ id: "655157835130A925", type: "kill", entity: "deeperdarker:stalker", value: 1L, icon: { id: "minecraft:sculk_catalyst" } }]
 			x: 1.50d
 			y: -3.00d
@@ -515,7 +529,7 @@
 			description: ["&6Was ist das?", "Zermahlener Blazestab.", "", "&6So gehts", "Blazestäbe in der Werkbank zu Pulver machen. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Brennstoff für Brauständer und Zutat für Enderaugen."]
 			id: "3B052BB24A4E70D0"
 			title: "Flammenpulver"
-			rewards: [{ id: "57B939FED9F0CD7B", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "57B939FED9F0CD7B", type: "xp_levels", xp_levels: 2 }, { id: "5E697D6F58FDC481", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "644FE81C2A0CE19D", type: "item", item: { id: "minecraft:blaze_powder", count: 1 }, count: 4L }]
 			x: 9.00d
 			y: -1.50d
@@ -525,7 +539,7 @@
 			description: ["&6Was ist das?", "Ein heißer Block, der Füße verbrennt.", "", "&6So gehts", "Vier Magma-Creme in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch für Blasensäulen und Farmen."]
 			id: "5B9792077BA4CE89"
 			title: "Magmablock"
-			rewards: [{ id: "38EBE89B56056A5E", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "38EBE89B56056A5E", type: "xp_levels", xp_levels: 2 }, { id: "3C07C878D02092F0", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "4CD6AC3EA0A89CBA", type: "item", item: { id: "minecraft:magma_block", count: 1 }, count: 4L }]
 			x: 15.00d
 			y: 3.00d
@@ -535,7 +549,7 @@
 			description: ["&6Was ist das?", "Dunkler Stein, der im Nether vorkommt.", "", "&6So gehts", "Baue ihn in den Basaltdeltas und Bastionen ab.", "", "&6Wofür ist das wichtig?", "Tolles Baumaterial mit düsterem Look."]
 			id: "5FD4F6A3C2E90492"
 			title: "Schwarzstein"
-			rewards: [{ id: "592B1FC4CADA8804", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "592B1FC4CADA8804", type: "xp_levels", xp_levels: 2 }, { id: "018172109A28F88C", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "2ABF7E203F68F98D", type: "item", item: { id: "minecraft:blackstone", count: 1 }, count: 16L }]
 			x: 3.00d
 			y: 3.00d
@@ -545,7 +559,7 @@
 			description: ["&6Was ist das?", "Neun Goldbarren werden zu einem Block.", "", "&6So gehts", "Neun Goldbarren in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Piglins lieben Gold, ein Block ist auch schöne Deko."]
 			id: "10CF38D7BBF7F5BC"
 			title: "Gold-Block"
-			rewards: [{ id: "6B16A0A56A005C78", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6B16A0A56A005C78", type: "xp_levels", xp_levels: 2 }, { id: "57EED729F3365872", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "633FDC6AF6827CD2", type: "item", item: { id: "minecraft:gold_block", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: -3.00d
@@ -553,6 +567,7 @@
 		{
 			description: ["&6Abschnitt", "Nether-Waffen und Schilde"]
 			dependencies: ["6C52749B77C05F3C"]
+			icon: { id: "minecraft:shield" }
 			id: "3BBF239DD7C73C68"
 			title: "Nether-Waffen und Schilde"
 			optional: true
@@ -564,6 +579,7 @@
 		{
 			description: ["&6Abschnitt", "Bogen und Armbrüste"]
 			dependencies: ["7EDCFECDB7D99606"]
+			icon: { id: "minecraft:crossbow" }
 			id: "72D3D7D342F78C64"
 			title: "Bogen und Armbrüste"
 			optional: true
@@ -575,6 +591,7 @@
 		{
 			description: ["&6Abschnitt", "Nether-Bosse"]
 			dependencies: ["42854B03A286B50B"]
+			icon: { id: "minecraft:wither_skeleton_skull" }
 			id: "22AE9A9292EA7AF1"
 			title: "Nether-Bosse"
 			optional: true
@@ -586,6 +603,7 @@
 		{
 			description: ["&6Abschnitt", "Piglins und Handel"]
 			dependencies: ["7D49D31EE0C23921"]
+			icon: { id: "minecraft:gold_ingot" }
 			id: "1A59D0677F781616"
 			title: "Piglins und Handel"
 			optional: true
@@ -597,6 +615,7 @@
 		{
 			description: ["&6Abschnitt", "Technik"]
 			dependencies: ["4FA1824F157108ED"]
+			icon: { id: "minecraft:blaze_rod" }
 			id: "2F86D9D9077911AB"
 			title: "Technik"
 			optional: true
@@ -608,6 +627,7 @@
 		{
 			description: ["&6Abschnitt", "Bau und Anbau"]
 			dependencies: ["7D49D31EE0C23921"]
+			icon: { id: "minecraft:nether_bricks" }
 			id: "12123553CC9A046F"
 			title: "Bau und Anbau"
 			optional: true
@@ -619,6 +639,7 @@
 		{
 			description: ["&6Abschnitt", "Netherit-Waffen"]
 			dependencies: ["4FA1824F157108ED"]
+			icon: { id: "minecraft:netherite_sword" }
 			id: "68D28BD292EDDB4C"
 			title: "Netherit-Waffen"
 			optional: true
@@ -654,7 +675,7 @@
 			description: ["&6Was ist das?", "Erzeugt Strom aus dem Temperaturunterschied zwischen einer Wärmequelle und einem Kühlmittel.", "", "&6So gehts", "Rezept: Werkbank: 3x Dielektrische Paste, 2x Einfacher Kondensator (winzig), Dielektrisches Gehäuse, 3x Thermoplatte (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Herstellung: drei Dielektrische Pasten, zwei Winzige Kondensatoren, Gehäuse und drei Thermoplatten. Wärmequellen und Kühlmittel zeigt das Rezeptbuch.", "", "&6Wofür ist das wichtig?", "Strom ganz ohne Brennstoff, wenn du Lava und Wasser zur Hand hast."]
 			id: "172A7539D7C4992B"
 			title: "Thermogenerator"
-			rewards: [{ id: "47D37E33524125FD", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "47D37E33524125FD", type: "xp_levels", xp_levels: 3 }, { id: "0F3BAA48887F6C48", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "0B5A446B43E1EF80", type: "item", item: { id: "powah:thermo_generator_starter", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 7.500d
@@ -674,7 +695,7 @@
 			description: ["&6Was ist das?", "Strom lässt sich damit kabellos über Kanäle zwischen Enderzelle und Endertoren übertragen.", "", "&6So gehts", "Herstellung: Enderkern, Eisennuggets und Obsidian.", "", "&6Wofür ist das wichtig?", "Strom kabellos über die ganze Welt."]
 			id: "337D981ACEB010A6"
 			title: "Enderzelle"
-			rewards: [{ id: "5C7090749F9821D7", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5C7090749F9821D7", type: "xp_levels", xp_levels: 2 }, { id: "6A08986F7FAEA245", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "19277714A82F54B1", type: "item", item: { id: "powah:ender_cell_starter", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 7.500d
@@ -684,7 +705,7 @@
 			description: ["&6Was ist das?", "Ein Diamant, aufgeladen in der Energiekugel.", "", "&6So gehts", "Lege einen Diamanten hinein und lade ihn mit viel Strom auf.", "", "&6Wofür ist das wichtig?", "Öffnet die Niotische Stufe, die vierte Stufe aller Powah-Blöcke."]
 			id: "50CC059AC1A2A7B0"
 			title: "Niotischer Kristall"
-			rewards: [{ id: "71214B522869ED6F", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "71214B522869ED6F", type: "xp_levels", xp_levels: 3 }, { id: "2F28A9BF8C611906", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "2A8CCB2A323ABBC2", type: "item", item: { id: "powah:crystal_niotic", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 7.500d
@@ -692,6 +713,7 @@
 		{
 			description: ["&6Abschnitt", "Hämmer"]
 			dependencies: ["0627B6D0F3C46F98"]
+			icon: { id: "justhammers:iron_hammer" }
 			id: "6906E982C7CE32AE"
 			title: "Hämmer"
 			optional: true
@@ -705,7 +727,7 @@
 			description: ["&6Was ist das?", "Die beste Hacke.", "", "&6So gehts", "Diamanthacke und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Für große Felder mit schneller Ernte."]
 			id: "1C63C584EABE3DCB"
 			title: "Netherit-Hacke"
-			rewards: [{ id: "7913B66CA2FF03DF", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7913B66CA2FF03DF", type: "xp_levels", xp_levels: 2 }, { id: "4CC16AC0347D7071", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "4198DD27390E70C6", type: "item", item: { id: "minecraft:netherite_hoe", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 12.00d
@@ -738,7 +760,7 @@
 			icon: { id: "simplyswords:netherite_longsword" }
 			id: "582FF975AE794D20"
 			title: "Simply Swords: Netherit-Langschwert"
-			rewards: [{ id: "6E54C3985515007A", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6E54C3985515007A", type: "xp_levels", xp_levels: 2 }, { id: "683D708491F953D4", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "673997710BB1781E", type: "item", item: { id: "simplyswords:netherite_longsword", count: 1 }, count: 1L }]
 			x: 10.50d
 			y: 12.00d
@@ -746,6 +768,7 @@
 		{
 			description: ["&6Abschnitt", "Netherit-Zutaten"]
 			dependencies: ["4FA1824F157108ED"]
+			icon: { id: "minecraft:netherite_scrap" }
 			id: "346490CDB159350B"
 			hide_dependency_lines: true
 			title: "Netherit-Zutaten"
@@ -760,7 +783,7 @@
 			description: ["&6Was ist das?", "Das Rohmaterial für Netherit.", "", "&6So gehts", "Antiken Schutt im Ofen schmelzen. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Vier Schrott und vier Gold ergeben einen Barren."]
 			id: "4C9068B3CEAB7FAD"
 			title: "Netherit-Schrott"
-			rewards: [{ id: "58350BEBD009DC78", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "58350BEBD009DC78", type: "xp_levels", xp_levels: 2 }, { id: "30AE022A47453FE1", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "3EEA294A13ED3660", type: "item", item: { id: "minecraft:netherite_scrap", count: 1 }, count: 4L }]
 			x: 3.00d
 			y: 13.50d
@@ -813,7 +836,7 @@
 			icon: { id: "minecraft:netherite_chestplate" }
 			id: "5157AEBF5A6074A6"
 			title: "Netherit-Rüstung"
-			rewards: [{ id: "56D5D9CCEC6D5170", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "56D5D9CCEC6D5170", type: "xp_levels", xp_levels: 2 }, { id: "591DC7E5E791737B", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "7DE848B30A201F47", type: "item", item: { id: "minecraft:netherite_chestplate", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 15.00d
@@ -823,7 +846,7 @@
 			description: ["&6Was ist das?", "Neun Netheritbarren als Block.", "", "&6So gehts", "Neun Barren in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Explosionssicher, ein Zeichen von Reichtum."]
 			id: "6FC2C0E66B8A6ABF"
 			title: "Netheritblock"
-			rewards: [{ id: "5D3D7DF0C08BCF3B", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "5D3D7DF0C08BCF3B", type: "xp_levels", xp_levels: 2 }, { id: "4D232D58EEEA2BF6", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "6499DB596D9A01B3", type: "item", item: { id: "minecraft:netherite_block", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 16.50d
@@ -833,7 +856,7 @@
 			description: ["&6Was ist das?", "Die beste Schaufel.", "", "&6So gehts", "Diamantschaufel und Netheritbarren am Schmiedetisch. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Baut Erde und Sand blitzschnell ab."]
 			id: "0BBCD038697D4191"
 			title: "Netherit-Schaufel"
-			rewards: [{ id: "6CE839E4514E7746", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6CE839E4514E7746", type: "xp_levels", xp_levels: 2 }, { id: "6758D6B3FAD91CAC", type: "random", table_id: 4804718647030329492L }]
 			tasks: [{ id: "09B50A42E9BB497A", type: "item", item: { id: "minecraft:netherite_shovel", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 16.50d

@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z19_apotheosis"
+	group: "484E01FB37A7B70C"
 	icon: { id: "apotheosis:gem_cutting_table" }
 	id: "976EA2217C361D27"
-	order_index: 24
+	order_index: 1
 	quest_links: [ ]
 	title: "&dApotheosis"
+	subtitle: ["Edelsteine, Affixe und seltene Beute"]
 	quests: [
 		{
 			dependencies: ["32D7C0032123B540"]
@@ -124,6 +126,7 @@
 		{
 			dependencies: ["1C5C6118C83B64CE"]
 			description: ["&6Was ist das?", "Gewöhnlich, Ungewöhnlich, Selten, Episch, Mythisch. Je höher, desto mehr Zusatzwerte, Effekte und Sockel.", "", "&6So gehts", "Gewöhnlich: ein Zusatzwert. Ungewöhnlich: zwei Zusatzwerte, vielleicht ein Sockel. Selten: ein Effekt und bis zu zwei Sockel. Episch: dazu eine Fähigkeit. Mythisch: vier Zusatzwerte, zwei Effekte, eine Fähigkeit.", "", "&6Wofür ist das wichtig?", "Die Seltenheit entscheidet über Welt-Stufen, Umschmieden und Materialien."]
+			icon: { id: "apotheosis:gem_dust" }
 			id: "7ED0C626917C05A0"
 			title: "Seltenheiten"
 			rewards: [{ id: "6A0C3ED7FDD579D0", type: "xp_levels", xp_levels: 2 }]
@@ -215,6 +218,7 @@
 		{
 			dependencies: ["70DF6DA7BB3D1A7E"]
 			description: ["&6Was ist das?", "Zwei Arbeitsschritte: Aufwerten und Neu würfeln.", "", "&6So gehts", "Aufwerten kostet zwei Sigille der Verstärkung und 225 Stufen und erhöht die Stärke eines Affixes um 25 Prozent. Neu würfeln kostet ein Sigill und 175 Stufen und tauscht den Affix gegen einen anderen derselben Art. Affixe (zufällige Zusatz-Eigenschaften) ohne Stufen lassen sich nicht aufwerten.", "", "&6Wofür ist das wichtig?", "So wird aus einem guten Fund der perfekte Gegenstand."]
+			icon: { id: "apotheosis:reforging_table" }
 			id: "620E00B8BFFA62FC"
 			title: "Affix aufwerten"
 			rewards: [{ id: "345F34AA1667D91D", type: "xp_levels", xp_levels: 4 }]
@@ -245,6 +249,7 @@
 		{
 			dependencies: ["2E3B78F5E1BDBC16"]
 			description: ["&6Was ist das?", "Ein Talisman wirkt nur, wenn er eingeschaltet ist.", "", "&6So gehts", "Rechtsklick schaltet ihn ein, er leuchtet dann. Solange er im Inventar liegt, wirkt er in kurzen Stößen und verbraucht Haltbarkeit. Ist sie leer, geht er kaputt.", "", "&6Wofür ist das wichtig?", "Ohne Einschalten tut er nichts."]
+			icon: { id: "apotheosis:potion_charm" }
 			id: "1593168ABE53C48E"
 			title: "Talisman benutzen"
 			rewards: [{ id: "116CB91F0BF022AD", type: "xp_levels", xp_levels: 2 }]
@@ -340,6 +345,7 @@
 		{
 			dependencies: ["25CE80C3C2768D50"]
 			description: ["&6Was ist das?", "Mit dem Schmiedetisch setzt du Edelsteine in Sockel ein.", "", "&6So gehts", "Gegenstand links, Edelstein rechts. Alternativ hebst du den Edelstein auf und klickst ihn im Inventar auf den Gegenstand. Manche Edelsteine sind einzigartig: nur einer pro Gegenstand. Ein eingesetzter Edelstein ist teuer wieder zu entfernen.", "", "&6Wofür ist das wichtig?", "Wähle deine Edelsteine mit Bedacht."]
+			icon: { id: "apotheosis:sigil_of_socketing" }
 			id: "76A4761EA3AA3D00"
 			title: "Edelstein einsetzen"
 			rewards: [{ id: "531380204444BF70", type: "xp_levels", xp_levels: 3 }]
@@ -360,6 +366,7 @@
 		{
 			dependencies: ["2D087E1C8AAFDA58"]
 			description: ["&6Was ist das?", "Die Reinheit steigt von Rissig über Angeschlagen, Fehlerhaft, Normal und Makellos bis Perfekt.", "", "&6So gehts", "Am Schleiftisch kostet jede Stufe Edelsteinstaub, Seltenheitsmaterial und einen zweiten Edelstein gleicher Reinheit. Die Kosten steigen mit der Reinheit, das Rezeptbuch zeigt sie.", "", "&6Wofür ist das wichtig?", "Die Reinheit allein bestimmt die Stärke des Edelsteins."]
+			icon: { id: "apotheosis:gem_cutting_table" }
 			id: "667099AF0368D250"
 			title: "Edelstein veredeln"
 			rewards: [{ id: "467E792ABB4E5375", type: "xp_levels", xp_levels: 3 }]
@@ -412,6 +419,7 @@
 		{
 			dependencies: ["4C62B32ECF646A53"]
 			description: ["&6Was ist das?", "Jeder Eindringling trägt genau einen Affix-Gegenstand, den er garantiert fallen lässt.", "", "&6So gehts", "Erschlage einen Eindringling. Der Gegenstand hat seine Seltenheit, stärkere Affixe (zufällige Zusatz-Eigenschaften) als üblich und seinen Namen als Zusatz. Dazu mehr Chance auf Edelsteine.", "", "&6Wofür ist das wichtig?", "Der Weg zum Aufstieg und eine sichere Quelle für gute Ausrüstung."]
+			icon: { id: "apotheosis:boss_summoner" }
 			id: "771B0193EF859420"
 			title: "Eindringlings-Beute"
 			rewards: [{ id: "440783A736BB78B6", type: "xp_levels", xp_levels: 3 }]
@@ -422,6 +430,7 @@
 		{
 			dependencies: ["771B0193EF859420"]
 			description: ["&6Was ist das?", "Einzelne Monster mit Namen und mehr Stärke. Sie ersetzen normale Monster ohne Auftritt.", "", "&6So gehts", "Sie spawnen in der Oberwelt und im Nether. Sei vorsichtig, sie fallen nicht groß auf.", "", "&6Wofür ist das wichtig?", "Sie können Affix-Gegenstände fallen lassen."]
+			icon: { id: "minecraft:zombie_head" }
 			id: "6934B837F973649A"
 			title: "Elite-Monster"
 			rewards: [{ id: "56C6C6B9127C619E", type: "xp_levels", xp_levels: 2 }]
@@ -496,6 +505,7 @@
 		{
 			dependencies: ["0DAB3A9E3D160338"]
 			description: ["&6Was ist das?", "Runen verändern Spawner-Werte wie Pause, Anzahl, Reichweite und mehr.", "", "&6So gehts", "Halte die Rune in der Hand und klicke mit Rechtsklick auf den Spawner (Monsterkäfig). Jede Rune und ihre Wirkung zeigt das Rezeptbuch unter den Verwendungen von Monsterkäfig (Spawner)n.", "", "&6Wofür ist das wichtig?", "Der Kern des Spawner-Systems."]
+			icon: { id: "apotheosis:silent_spawner_rune" }
 			id: "3920584F9FFDB2B4"
 			title: "Rune anwenden"
 			rewards: [{ id: "5E2F7A56A90DB1A7", type: "xp_levels", xp_levels: 2 }]

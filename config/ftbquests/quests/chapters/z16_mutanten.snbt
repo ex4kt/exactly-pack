@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z16_mutanten"
+	group: "468AD64DD4665C08"
 	icon: { id: "mutantmonsters:hulk_hammer" }
 	id: "068C8F90069A306F"
-	order_index: 22
+	order_index: 4
 	quest_links: [ ]
 	title: "&2Mutanten"
+	subtitle: ["Riesige Mutanten und ihre Beute"]
 	quests: [
 		{
 			dependencies: ["32D7C0032123B540"]
@@ -24,6 +26,7 @@
 		{
 			description: ["&6Was ist das?", "Mutanten haben viel mehr Leben und schlagen sehr hart.", "", "&6So gehts", "Bringe die beste Rüstung, Heilung und Fernkampf mit. Kämpfe nie in engen Räumen."]
 			dependencies: ["7DEB593550DD1B73"]
+			icon: { id: "minecraft:golden_apple" }
 			id: "0B6EC6F39EFEBFDA"
 			title: "Mutanten: Vorbereitung"
 			rewards: [{ id: "7824F2607AB381BB", type: "xp_levels", xp_levels: 3 }]
@@ -34,6 +37,7 @@
 		{
 			description: ["&6Was ist das?", "Mutanten entstehen durch einen Bau, ähnlich wie der Wither, oder erscheinen in der Welt.", "", "&6So gehts", "Schaue im Rezeptbuch oder im Handbuch des Mods nach, welche Blöcke zum Beschwören nötig sind."]
 			dependencies: ["0B6EC6F39EFEBFDA"]
+			icon: { id: "mutantmonsters:creeper_shard" }
 			id: "01D3D2F3308445D6"
 			title: "Mutanten: Wie rufst du sie?"
 			rewards: [{ id: "5B74C718A2AA216A", type: "xp_levels", xp_levels: 3 }]

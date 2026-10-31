@@ -2,18 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "alexsmobs"
+	group: "468AD64DD4665C08"
 	icon: { id: "alexsmobs:animal_dictionary" }
 	id: "0F7CD194B479802A"
-	order_index: 14
+	order_index: 1
 	quest_links: [ ]
 	title: "&2Alexs Mobs"
+	subtitle: ["Viele neue Tiere und was sie fallen lassen"]
 	quests: [
 		{
 			description: ["&6Was ist das?", "Alexs Mobs bringt über 80 neue Tiere und Monster in die Oberwelt, den Nether und das Ende, mit eigenen Items.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Nimm das Tierbuch mit und erkunde verschiedene Biome.", "", "&6Wofür ist das wichtig?", "Viele Tiere liefern einzigartige Ausrüstung und Essen."]
 			icon: { id: "alexsmobs:animal_dictionary" }
 			id: "7184D5CAD6F7BA96"
 			title: "Alexs Mobs"
-			rewards: []
+			rewards: [{ id: "50AC9D9986C80626", type: "xp", xp: 25 }]
 			tasks: [{ id: "71FEEF5FBFAD0119", type: "checkmark" }]
 			x: 0.00d
 			y: 0.00d

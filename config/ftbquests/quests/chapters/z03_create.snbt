@@ -2,15 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z03_create"
+	group: "6A8854EE0A00DFC0"
 	icon: { id: "create:andesite_alloy" }
 	id: "7D73897943AFB1A9"
-	order_index: 8
+	order_index: 0
 	quest_links: [ ]
 	title: "&6Create"
+	subtitle: ["Zahnräder, Wellen und Maschinen, die für dich arbeiten"]
 	quests: [
 		{
 			dependencies: ["01FA39B55E675D70"]
 			description: ["&6Was ist das?", "Create baut Maschinen mit Drehkraft statt Strom. Alles besteht aus drei Dingen: einer Kraftquelle, Wellen und Zahnrädern, die die Kraft weitergeben, und einer Maschine, die sie benutzt.", "", "&6So gehts", "Halte im Inventar oder im Rezeptbuch die Taste W über einem Create-Item: Dann spielt Ponder eine kurze Animation ab, die genau zeigt, wie es gebaut wird.", "Arbeite die Quests von links nach rechts ab. Bau jedes Teil sofort in deiner Welt auf, dann verstehst du es.", "Alles dreht sich nur, wenn eine Kraftquelle läuft. Wenn nichts läuft: zuerst die Quelle prüfen, dann die Welle.", "", "&6Wofür ist das wichtig?", "Mit Create automatisierst du Erzverarbeitung, Farmen und Essen und baust sogar Züge.", "", "&6Gut zu wissen", "Mit dem Schlüssel (Quest „Schlüssel“) kannst du Blöcke drehen und abbauen, ohne sie zu zerstören.", "Mit der Brille (Quest „Brille“) siehst du, wie viel Kraft die Anlage erzeugt und verbraucht."]
+			icon: { id: "create:cogwheel" }
 			id: "674AB1A536761250"
 			title: "Was ist Create?"
 			rewards: [{ id: "3136A5AA9B94E223", type: "xp_levels", xp_levels: 1 }]
@@ -289,6 +292,7 @@
 		{
 			dependencies: ["25A30BBB0A2726F4"]
 			description: ["&6Was ist das?", "Create Connected bringt neue Bausteine für Maschinen und Zahnräder.", "", "&6So gehts", "Folge den Quests in diesem Bereich.", "", "&6Wofür ist das wichtig?", "Kompaktere und schlauere Fabriken."]
+			icon: { id: "create_connected:copycat_block" }
 			id: "15F02219B2102A2C"
 			title: "Create Connected"
 			rewards: [{ id: "58ECA6C0FB8EE487", type: "xp_levels", xp_levels: 2 }]
@@ -409,6 +413,7 @@
 		{
 			dependencies: ["4EA0A5B13AC9DDBE"]
 			description: ["&6Was ist das?", "Mehrere Mods bringen Baumaterial: Create Deco (Metall, Ziegel, Laufstege), Bits n Bobs (Stühle, Lampen, Gitter), Rechiseled Create und mehr.", "", "&6So gehts", "Mit Create Deco und Bits n Bobs.", "", "&6Wofür ist das wichtig?", "Fabriken schön gestalten."]
+			icon: { id: "createdeco:andesite_catwalk" }
 			id: "30C591B0CE9B0747"
 			title: "Deko mit Create"
 			rewards: [{ id: "4025DE8C8C663C62", type: "xp_levels", xp_levels: 1 }]
@@ -513,7 +518,7 @@
 			id: "2CADF34E0D17A144"
 			title: "Fenster"
 			rewards: [{ id: "3E2A4429C1088E03", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "034759054E13ED75", type: "item", title: "Beliebige Create-Fenster", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(create:oak_window)item(create:spruce_window)item(create:birch_window)item(create:jungle_window)item(create:acacia_window)item(create:dark_oak_window)item(create:mangrove_window)item(create:cherry_window)item(create:bamboo_window)item(create:crimson_window)item(create:warped_window)item(create:ornate_iron_window)item(create:industrial_iron_window)item(create:weathered_iron_window))" } }, count: 4L }]
+			tasks: [{ id: "034759054E13ED75", type: "item", title: "Beliebige Create-Fenster", icon: { id: "create:oak_window" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(create:oak_window)item(create:spruce_window)item(create:birch_window)item(create:jungle_window)item(create:acacia_window)item(create:dark_oak_window)item(create:mangrove_window)item(create:cherry_window)item(create:bamboo_window)item(create:crimson_window)item(create:warped_window)item(create:ornate_iron_window)item(create:industrial_iron_window)item(create:weathered_iron_window))" } }, count: 4L }]
 			x: 27.00d
 			y: -15.75d
 		}
@@ -531,6 +536,7 @@
 		{
 			dependencies: ["511AB40D87A4293D"]
 			description: ["&6Was ist das?", "Hier siehst du die übrigen Mods, die zu Create gehören.", "", "&6So gehts", "Folge den Quests.", "", "&6Wofür ist das wichtig?", "Jede bringt neue Möglichkeiten."]
+			icon: { id: "create:large_cogwheel" }
 			id: "64FC4332152AA427"
 			title: "Weitere Create-Mods"
 			rewards: [{ id: "46E69D37C52E3A31", type: "xp_levels", xp_levels: 1 }]
@@ -541,6 +547,7 @@
 		{
 			dependencies: ["64FC4332152AA427"]
 			description: ["&6Was ist das?", "Create Copper and Zinc bringt mehr Werkzeuge und Blockvarianten für diese Metalle.", "", "&6So gehts", "Zink findest du in Create-Erzadern, Kupfer überall.", "", "&6Wofür ist das wichtig?", "Ohne beides kein Messing."]
+			icon: { id: "create:zinc_ingot" }
 			id: "4C8B5C2BC37A1784"
 			title: "Kupfer und Zink"
 			rewards: [{ id: "3BE78156B78A3A6B", type: "xp_levels", xp_levels: 2 }]
@@ -601,6 +608,7 @@
 		{
 			dependencies: ["342B709704C892B0"]
 			description: ["&6Was ist das?", "Create Ultimate Factory macht viele Rohstoffe erneuerbar: Tuff aus Bruchstein, Diamanten aus Kohle und mehr. Schaue die Rezepte im Rezeptbuch an.", "", "&6So gehts", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Mehr Automatisierung."]
+			icon: { id: "create:mechanical_crafter" }
 			id: "1902971840DF9A13"
 			title: "Ultimate Factory"
 			rewards: [{ id: "1D536E20916BB09E", type: "xp_levels", xp_levels: 3 }]
@@ -611,6 +619,7 @@
 		{
 			dependencies: ["1902971840DF9A13"]
 			description: ["&6Was ist das?", "Sophisticated Backpacks hat eine Create-Anbindung: Rucksack-Upgrades arbeiten mit Create-Maschinen zusammen.", "", "&6So gehts", "Rezept: Fahre mit der Maus über das Item und drücke R. Mit U siehst du, wofür man es braucht.", "", "&6Wofür ist das wichtig?", "Technik für unterwegs."]
+			icon: { id: "sophisticatedbackpacks:backpack" }
 			id: "47FD85DEBA2212B0"
 			title: "Rucksack mit Create"
 			rewards: [{ id: "581C681F6A94F9D5", type: "xp_levels", xp_levels: 2 }]
@@ -636,7 +645,7 @@
 			icon: { id: "create_tools_n_weapons:gear_pickaxe" }
 			id: "6952463C19F65C09"
 			title: "Gear-Set"
-			rewards: []
+			rewards: [{ id: "17E953DEE783B683", type: "xp", xp: 25 }]
 			tasks: [{ id: "64728F842235277D", type: "checkmark" }]
 			x: 19.50d
 			y: 9.00d
@@ -1106,6 +1115,7 @@
 		{
 			dependencies: ["454C12A06D1ED9E1"]
 			description: ["&6Was ist das?", "Create Crafts and Additions bringt Strom: Motoren, Kabel, Akkus und Tesla-Spulen.", "Strom und Drehkraft lassen sich ineinander umwandeln.", "", "&6So gehts", "Folge den Quests: Kupferdraht, Motor, Alternator.", "", "&6Wofür ist das wichtig?", "Strom ist einfacher zu verlegen als Wellen."]
+			icon: { id: "createaddition:electrum_ingot" }
 			id: "549BFDFEBF019D58"
 			title: "Create Additions"
 			rewards: [{ id: "5E62DEA8DC356A66", type: "xp_levels", xp_levels: 2 }]
@@ -1411,6 +1421,7 @@
 		{
 			description: ["&6Abschnitt", "Ausrüstung und Rohre"]
 			dependencies: ["2F0645A576106C0B"]
+			icon: { id: "create:fluid_pipe" }
 			id: "734080D5DB50FC77"
 			title: "Ausrüstung und Rohre"
 			optional: true
@@ -1422,6 +1433,7 @@
 		{
 			description: ["&6Abschnitt", "Erweiterungen und Deko"]
 			dependencies: ["511AB40D87A4293D"]
+			icon: { id: "createdeco:andesite_catwalk" }
 			id: "4EA0A5B13AC9DDBE"
 			title: "Erweiterungen und Deko"
 			optional: true
@@ -1433,6 +1445,7 @@
 		{
 			description: ["&6Abschnitt", "Kraft und Getriebe"]
 			dependencies: ["489ADC0B60AB13A5"]
+			icon: { id: "create:water_wheel" }
 			id: "182C4C6D2B12D400"
 			title: "Kraft und Getriebe"
 			optional: true
@@ -1444,6 +1457,7 @@
 		{
 			description: ["&6Abschnitt", "Create Connected"]
 			dependencies: ["6DF28229B667A2EE"]
+			icon: { id: "create_connected:copycat_block" }
 			id: "25A30BBB0A2726F4"
 			title: "Create Connected"
 			optional: true
@@ -1455,6 +1469,7 @@
 		{
 			description: ["&6Abschnitt", "Werkzeug und Gehäuse"]
 			dependencies: ["42732661CDA6F864"]
+			icon: { id: "create:andesite_casing" }
 			id: "3DC943295B23ACC3"
 			title: "Werkzeug und Gehäuse"
 			optional: true
@@ -1466,6 +1481,7 @@
 		{
 			description: ["&6Abschnitt", "Messing und Technik"]
 			dependencies: ["494CAE31CD8BAFAC"]
+			icon: { id: "create:brass_ingot" }
 			id: "3B1E90D27BCCBD83"
 			title: "Messing und Technik"
 			optional: true
@@ -1477,6 +1493,7 @@
 		{
 			description: ["&6Abschnitt", "Züge"]
 			dependencies: ["57ECEE26D1794CC7"]
+			icon: { id: "create:track" }
 			id: "457F350D6A8BA567"
 			title: "Züge"
 			optional: true
@@ -1488,6 +1505,7 @@
 		{
 			description: ["&6Abschnitt", "Lager und Hypertubes"]
 			dependencies: ["3FCFC846B34538AC"]
+			icon: { id: "create:item_vault" }
 			id: "488D4978FD95B6FC"
 			title: "Lager und Hypertubes"
 			optional: true
@@ -1499,6 +1517,7 @@
 		{
 			description: ["&6Abschnitt", "Kleine Extras"]
 			dependencies: ["5EAAFA8DBD065E8F"]
+			icon: { id: "create:bar_of_chocolate" }
 			id: "6115471899930F07"
 			title: "Kleine Extras"
 			optional: true
@@ -1510,6 +1529,7 @@
 		{
 			description: ["&6Abschnitt", "Bewegte Konstruktionen"]
 			dependencies: ["130F33E0BDF1373A"]
+			icon: { id: "create:mechanical_drill" }
 			id: "7D72461056D64D87"
 			title: "Bewegte Konstruktionen"
 			optional: true
@@ -1521,6 +1541,7 @@
 		{
 			description: ["&6Abschnitt", "Create Additions"]
 			dependencies: ["7D72461056D64D87"]
+			icon: { id: "createaddition:electrum_ingot" }
 			id: "454C12A06D1ED9E1"
 			title: "Create Additions"
 			optional: true
@@ -1532,6 +1553,7 @@
 		{
 			description: ["&6Abschnitt", "Flüssigkeiten und Dampf"]
 			dependencies: ["454C12A06D1ED9E1"]
+			icon: { id: "create:fluid_tank" }
 			id: "287E140393182B9B"
 			title: "Flüssigkeiten und Dampf"
 			optional: true
@@ -1543,6 +1565,7 @@
 		{
 			description: ["&6Abschnitt", "Create New Age"]
 			dependencies: ["79C5111ED6A1E634"]
+			icon: { id: "create_new_age:copper_wire" }
 			id: "2A387C8C57120E88"
 			title: "Create New Age"
 			optional: true
@@ -1554,6 +1577,7 @@
 		{
 			description: ["&6Abschnitt", "Diesel und Öl"]
 			dependencies: ["79C5111ED6A1E634"]
+			icon: { id: "createdieselgenerators:oil_scanner" }
 			id: "4EB344BF2A9A2E5C"
 			title: "Diesel und Öl"
 			optional: true

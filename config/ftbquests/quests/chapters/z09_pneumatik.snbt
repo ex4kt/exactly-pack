@@ -2,15 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z09_pneumatik"
+	group: "6A8854EE0A00DFC0"
 	icon: { id: "pneumaticcraft:air_compressor" }
 	id: "10EDA57CE4EF04A5"
-	order_index: 10
+	order_index: 1
 	quest_links: [ ]
 	title: "&3Pneumatik"
+	subtitle: ["Druckluft, Drohnen und Elektronik"]
 	quests: [
 		{
 			dependencies: ["3ED2EEBB1CFA992F"]
 			description: ["&6Was ist das?", "PneumaticCraft hat ein eigenes Handbuch im Spiel (Patchouli).", "Suche im Rezeptbuch nach dem Buch. Es erklärt jedes Gebäude.", "", "&6So gehts", "Halte ein PneumaticCraft-Item und drücke I, oder baue das Handbuch.", "", "&6Wofür ist das wichtig?", "Bei Druckluft-Technik gibt es viele Zahlen. Das Handbuch erklärt jede Maschine genau."]
+			icon: { id: "pneumaticcraft:manual" }
 			id: "1ADDD6C9F3C1DE3C"
 			title: "Handbuch im Spiel"
 			rewards: [{ id: "28F928DBD1E5C558", type: "xp_levels", xp_levels: 1 }]
@@ -671,6 +674,7 @@
 		{
 			description: ["&6Abschnitt", "Elektronik"]
 			dependencies: ["05B51B13768CB084"]
+			icon: { id: "pneumaticcraft:printed_circuit_board" }
 			id: "08938C794B55DA0A"
 			title: "Elektronik"
 			optional: true
@@ -682,6 +686,7 @@
 		{
 			description: ["&6Abschnitt", "Drohnen"]
 			dependencies: ["4DEDD78F25CCB176"]
+			icon: { id: "pneumaticcraft:drone" }
 			id: "385D2C12BF80407E"
 			title: "Drohnen"
 			optional: true
@@ -693,6 +698,7 @@
 		{
 			description: ["&6Abschnitt", "Waffen und Rüstung"]
 			dependencies: ["26F0E7A797B1459C"]
+			icon: { id: "pneumaticcraft:pneumatic_chestplate" }
 			id: "76AB2FE8666F3262"
 			title: "Waffen und Rüstung"
 			optional: true
@@ -704,6 +710,7 @@
 		{
 			description: ["&6Abschnitt", "Druckkammer und Upgrades"]
 			dependencies: ["574A9938F9FEA985"]
+			icon: { id: "pneumaticcraft:pressure_chamber_wall" }
 			id: "306225B6EC06E390"
 			title: "Druckkammer und Upgrades"
 			optional: true
@@ -715,6 +722,7 @@
 		{
 			description: ["&6Abschnitt", "Flugzeuge"]
 			dependencies: ["3ED2EEBB1CFA992F"]
+			icon: { id: "minecraft:elytra" }
 			id: "5238AC7B16D43BCF"
 			title: "Flugzeuge"
 			optional: true
@@ -726,6 +734,7 @@
 		{
 			description: ["&6Abschnitt", "Weiteres"]
 			dependencies: ["4DEDD78F25CCB176"]
+			icon: { id: "pneumaticcraft:pressure_tube" }
 			id: "0660F0B200B6266C"
 			title: "Weiteres"
 			optional: true

@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "z20_kolonie"
+	group: "0265F2BD15BD46AE"
+	icon: { id: "minecolonies:blockhuttownhall" }
+	id: "40EF1A44D3702E95"
+	order_index: 3
+	quest_links: [ ]
+	title: "&6Kolonie und Bauen"
+	subtitle: ["Deine eigene Stadt mit MineColonies und Bauwerkzeugen"]
+	quests: [
+		{
+			description: ["&6Was ist das?", "MineColonies lässt dich ein eigenes Dorf gründen. Bewohner bauen, ernten, kochen und verteidigen für dich.", "", "&6So gehts", "Folge den Quests von links nach rechts. Rezepte zeigt das Rezeptbuch: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Eine Kolonie nimmt dir viel Arbeit ab und wächst mit dir durch alle Zeitalter."]
+			icon: { id: "minecolonies:blockhuttownhall" }
+			id: "6689339934628BBF"
+			title: "Kolonie und Bauen"
+			rewards: [{ id: "002D03F4FA5F1039", type: "xp_levels", xp_levels: 2 }]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{ id: "401FDA1D789B9C88", type: "checkmark" }]
+			x: 0.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["6689339934628BBF"]
+			description: ["&6Was ist das?", "Mit dem Baustab (Structurize) wählst du Gebäude aus und stellst sie als Vorschau in die Welt.", "", "&6So gehts", "Stelle den Baustab her und mache Rechtsklick auf den Boden. Wähle ein Gebäude, drehe und verschiebe die Vorschau und bestätige.", "", "&6Wofür ist das wichtig?", "Ohne Baustab kannst du keine Kolonie-Gebäude platzieren."]
+			icon: { id: "structurize:sceptergold" }
+			id: "3E769925842F1CE5"
+			title: "Der Baustab"
+			rewards: [{ id: "32E02DDB29B22A18", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6318447EA62877C7", type: "item", item: { id: "structurize:sceptergold", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 0.00d
+		}
+		{
+			dependencies: ["3E769925842F1CE5"]
+			description: ["&6Was ist das?", "Das Versorgungslager (an Land) oder das Versorgungsschiff (am Wasser) ist der Startpunkt jeder Kolonie.", "", "&6So gehts", "Stelle eines von beiden her und setze es mit Rechtsklick an einen freien, flachen Platz. Danach baust du dort dein Rathaus.", "", "&6Wofür ist das wichtig?", "Hier beginnt deine Kolonie. Wähle den Ort gut, er wird zum Zentrum."]
+			icon: { id: "minecolonies:supplycampdeployer" }
+			id: "23FAF07B87A6E285"
+			title: "Versorgungslager"
+			rewards: [{ id: "7F3557811D14F850", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3D677770711CD4A6", type: "item", title: "Versorgungslager oder Versorgungsschiff", icon: { id: "minecolonies:supplycampdeployer" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(minecolonies:supplycampdeployer)item(minecolonies:supplychestdeployer))" } }, count: 1L }]
+			x: 3.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["23FAF07B87A6E285"]
+			description: ["&6Was ist das?", "Das Rathaus gründet die Kolonie. Ab hier gehört das Gebiet um das Rathaus dir.", "", "&6So gehts", "Stelle den Rathaus-Block her und setze ihn mit dem Baustab. Rechtsklick auf den Block öffnet das Menü der Kolonie.", "", "&6Wofür ist das wichtig?", "Das Rathaus zeigt dir alle Bewohner, Gebäude und Aufträge."]
+			icon: { id: "minecolonies:blockhuttownhall" }
+			id: "793A5F2F64724056"
+			title: "Das Rathaus"
+			rewards: [{ id: "34EBE280FB5473A5", type: "xp_levels", xp_levels: 3 }]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{ id: "4800EA39AF0A34D5", type: "item", item: { id: "minecolonies:blockhuttownhall", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 0.00d
+		}
+		{
+			dependencies: ["793A5F2F64724056"]
+			description: ["&6Was ist das?", "In der Bauhütte wohnt der Baumeister. Er baut alle anderen Gebäude.", "", "&6So gehts", "Setze die Bauhütte mit dem Baustab und gib im Menü den Bauauftrag. Der Baumeister bringt die Liste der Materialien, die er braucht.", "", "&6Wofür ist das wichtig?", "Ohne Baumeister wächst die Kolonie nicht."]
+			icon: { id: "minecolonies:blockhutbuilder" }
+			id: "4CD9C3D5FC728544"
+			title: "Die Bauhütte"
+			rewards: [{ id: "512F5E13E4FEAA24", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "1DCB4A6FD01EFE49", type: "item", item: { id: "minecolonies:blockhutbuilder", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4CD9C3D5FC728544"]
+			description: ["&6Was ist das?", "Das Klemmbrett zeigt, was deine Bewohner gerade brauchen.", "", "&6So gehts", "Rechtsklick auf das Rathaus mit dem Klemmbrett verbindet es. Danach öffnest du es überall mit Rechtsklick.", "", "&6Wofür ist das wichtig?", "So siehst du sofort, welches Material fehlt, und die Arbeit geht weiter."]
+			icon: { id: "minecolonies:clipboard" }
+			id: "5E3ADE60FEC76F87"
+			title: "Das Klemmbrett"
+			rewards: [{ id: "2DE4C944A675B079", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3365B23F368A2159", type: "item", item: { id: "minecolonies:clipboard", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 0.00d
+		}
+		{
+			dependencies: ["5E3ADE60FEC76F87"]
+			description: ["&6Was ist das?", "Die Ressourcenrolle zeigt die Materialliste eines Bauauftrags.", "", "&6So gehts", "Rechtsklick auf die Bauhütte mit der Rolle verbindet sie. Danach zeigt sie, was der Baumeister noch braucht.", "", "&6Wofür ist das wichtig?", "Damit sammelst du gezielt nur das, was wirklich fehlt."]
+			icon: { id: "minecolonies:resourcescroll" }
+			id: "3797B981FC4612B7"
+			title: "Die Ressourcenrolle"
+			rewards: [{ id: "0A3EC628595EC54A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "04567A27122BFAA1", type: "item", item: { id: "minecolonies:resourcescroll", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 0.00d
+		}
+		{
+			dependencies: ["4CD9C3D5FC728544"]
+			description: ["&6Was ist das?", "Im Wohnhaus wohnen die Bewohner deiner Kolonie.", "", "&6So gehts", "Setze das Wohnhaus mit dem Baustab und lass es vom Baumeister bauen. Höhere Stufen bieten mehr Betten.", "", "&6Wofür ist das wichtig?", "Mehr Betten heißen mehr Bewohner und damit mehr Arbeiter."]
+			icon: { id: "minecolonies:blockhutcitizen" }
+			id: "1E4B3127AF8C95EA"
+			title: "Ein Wohnhaus"
+			rewards: [{ id: "7D1EDF8C2A4FC89C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2A40E99A348F89D3", type: "item", item: { id: "minecolonies:blockhutcitizen", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 1.50d
+		}
+		{
+			dependencies: ["1E4B3127AF8C95EA"]
+			description: ["&6Was ist das?", "Der Holzfäller fällt Bäume und pflanzt neue Setzlinge.", "", "&6So gehts", "Baue die Hütte und weise im Menü einen Bewohner zu. Gib ihm eine Axt.", "", "&6Wofür ist das wichtig?", "Holz braucht dein Baumeister ständig."]
+			icon: { id: "minecolonies:blockhutlumberjack" }
+			id: "5A806E7B14DE42B6"
+			title: "Der Holzfäller"
+			rewards: [{ id: "74F8220D502DEEAC", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2255483A9A3662AD", type: "item", item: { id: "minecolonies:blockhutlumberjack", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: 1.50d
+		}
+		{
+			dependencies: ["5A806E7B14DE42B6"]
+			description: ["&6Was ist das?", "Der Bauer bestellt Felder und erntet sie.", "", "&6So gehts", "Baue die Hütte, stelle Feldmarkierungen auf und gib ihm Saatgut und eine Hacke.", "", "&6Wofür ist das wichtig?", "Ohne Essen arbeiten deine Bewohner langsamer."]
+			icon: { id: "minecolonies:blockhutfarmer" }
+			id: "764B3E22FC6328B3"
+			title: "Der Bauer"
+			rewards: [{ id: "379700990CD95AB5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7ECF2600331BF37F", type: "item", item: { id: "minecolonies:blockhutfarmer", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: 1.50d
+		}
+		{
+			dependencies: ["764B3E22FC6328B3"]
+			description: ["&6Was ist das?", "In der Küche kocht ein Bewohner für die ganze Kolonie.", "", "&6So gehts", "Baue die Küche und liefere Rohzutaten und Brennstoff.", "", "&6Wofür ist das wichtig?", "Satte Bewohner sind zufrieden und arbeiten schneller."]
+			icon: { id: "minecolonies:blockhutcook" }
+			id: "7DC8065C2E32B69E"
+			title: "Die Küche"
+			rewards: [{ id: "4FFBE3E757CF9FF2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "365C01C7E3DEFBD2", type: "item", item: { id: "minecolonies:blockhutcook", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: 1.50d
+		}
+		{
+			dependencies: ["4CD9C3D5FC728544"]
+			description: ["&6Was ist das?", "Das Lagerhaus ist das zentrale Lager deiner Kolonie.", "", "&6So gehts", "Baue das Lagerhaus. Lege Materialien hinein, die Bewohner holen sich daraus, was sie brauchen.", "", "&6Wofür ist das wichtig?", "Ohne Lagerhaus musst du alles selbst verteilen."]
+			icon: { id: "minecolonies:blockhutwarehouse" }
+			id: "3054A8B9400929A2"
+			title: "Das Lagerhaus"
+			rewards: [{ id: "4BA494B79BB07C12", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2F3102B0E01B5577", type: "item", item: { id: "minecolonies:blockhutwarehouse", count: 1 }, count: 1L }]
+			x: 7.50d
+			y: -1.50d
+		}
+		{
+			dependencies: ["3054A8B9400929A2"]
+			description: ["&6Was ist das?", "Der Kurier trägt Waren zwischen Lagerhaus und Gebäuden hin und her.", "", "&6So gehts", "Baue die Kurierhütte in der Nähe des Lagerhauses.", "", "&6Wofür ist das wichtig?", "Mit Kurieren versorgt sich die Kolonie fast von selbst."]
+			icon: { id: "minecolonies:blockhutdeliveryman" }
+			id: "6E3D479923668CDF"
+			title: "Der Kurier"
+			rewards: [{ id: "38C6C04D1D2C9B16", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "6354F4ECA49588BB", type: "item", item: { id: "minecolonies:blockhutdeliveryman", count: 1 }, count: 1L }]
+			x: 9.00d
+			y: -1.50d
+		}
+		{
+			dependencies: ["6E3D479923668CDF"]
+			description: ["&6Was ist das?", "Im Wachturm lebt eine Wache, die die Kolonie gegen Monster und Überfälle schützt.", "", "&6So gehts", "Baue den Wachturm am Rand der Kolonie und gib der Wache Waffe und Rüstung.", "", "&6Wofür ist das wichtig?", "Ab einer gewissen Größe greifen Barbaren und Piraten an. Wachen halten sie auf."]
+			icon: { id: "minecolonies:blockhutguardtower" }
+			id: "7210E36EF04DF40F"
+			title: "Der Wachturm"
+			rewards: [{ id: "09E713B534DEAE1E", type: "xp_levels", xp_levels: 3 }]
+			shape: "gear"
+			tasks: [{ id: "37579CC29D618668", type: "item", item: { id: "minecolonies:blockhutguardtower", count: 1 }, count: 1L }]
+			x: 10.50d
+			y: -1.50d
+		}
+		{
+			dependencies: ["793A5F2F64724056"]
+			description: ["&6Was ist das?", "Mit dem Architektenschneider (Domum Ornamentum) machst du aus zwei Blöcken neue Bauteile, zum Beispiel Fachwerk, Säulen und Schindeln.", "", "&6So gehts", "Lege zwei Blöcke als Muster ein und wähle das Bauteil aus.", "", "&6Wofür ist das wichtig?", "Viele Kolonie-Gebäude brauchen diese Bauteile."]
+			icon: { id: "domum_ornamentum:architectscutter" }
+			id: "15074CFC80D124F9"
+			title: "Architektenschneider"
+			rewards: [{ id: "005D6BE8B1724A15", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "758F1104876BCF35", type: "item", item: { id: "domum_ornamentum:architectscutter", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 1.50d
+		}
+		{
+			dependencies: ["6689339934628BBF"]
+			description: ["&6Was ist das?", "Das Bau-Gadget (Building Gadgets 2) setzt viele Blöcke auf einmal, zum Beispiel ganze Wände oder Böden.", "", "&6So gehts", "Das Gadget braucht Strom (FE). Lade es in einem Ladegerät. Lege den Block mit Shift-Rechtsklick fest und wähle die Form im Menü.", "", "&6Wofür ist das wichtig?", "Große Bauten gehen damit viel schneller."]
+			icon: { id: "buildinggadgets2:gadget_building" }
+			id: "7B8F1251B64FC18E"
+			title: "Bau-Gadget"
+			rewards: [{ id: "61845F094AFD857A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5F1A4C19B4893A81", type: "item", item: { id: "buildinggadgets2:gadget_building", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["7B8F1251B64FC18E"]
+			description: ["&6Was ist das?", "Das Tausch-Gadget ersetzt viele Blöcke auf einmal durch einen anderen.", "", "&6So gehts", "Wähle den neuen Block mit Shift-Rechtsklick und tausche dann mit Rechtsklick.", "", "&6Wofür ist das wichtig?", "Ideal zum Umgestalten fertiger Gebäude."]
+			icon: { id: "buildinggadgets2:gadget_exchanging" }
+			id: "4E48D664BF4CBDAA"
+			title: "Tausch-Gadget"
+			rewards: [{ id: "1AC1ED8508145CA7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "04577F3D959A717F", type: "item", item: { id: "buildinggadgets2:gadget_exchanging", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["4E48D664BF4CBDAA"]
+			description: ["&6Was ist das?", "Das Kopier-Gadget kopiert einen Bereich und setzt ihn woanders wieder ein.", "", "&6So gehts", "Markiere zwei Ecken, kopiere und setze die Kopie ein. Die Blöcke dafür brauchst du im Inventar.", "", "&6Wofür ist das wichtig?", "Gleiche Häuser oder Farmen baust du so nur einmal."]
+			icon: { id: "buildinggadgets2:gadget_copy_paste" }
+			id: "7924C4F36DB59187"
+			title: "Kopier-Gadget"
+			rewards: [{ id: "41D1580EF80F06AB", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0D57A277F519465D", type: "item", item: { id: "buildinggadgets2:gadget_copy_paste", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["7924C4F36DB59187"]
+			description: ["&6Was ist das?", "Das Abriss-Gadget entfernt viele Blöcke auf einmal.", "", "&6So gehts", "Stelle Breite und Tiefe ein und mache Rechtsklick auf die Fläche.", "", "&6Wofür ist das wichtig?", "Schnell Platz schaffen, ohne stundenlang zu graben."]
+			icon: { id: "buildinggadgets2:gadget_destruction" }
+			id: "6C516834AD692D79"
+			title: "Abriss-Gadget"
+			rewards: [{ id: "3527216E3C0E5B1E", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "59CDAFB56303E03D", type: "item", item: { id: "buildinggadgets2:gadget_destruction", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["6689339934628BBF"]
+			description: ["&6Was ist das?", "Mit dem Redstone-Stift (Redstone Pen) zeichnest du Redstone-Leitungen direkt auf Böden, Wände und Decken.", "", "&6So gehts", "Rechtsklick auf eine Fläche zeichnet eine Leitung. Der Stift verbraucht Redstone.", "", "&6Wofür ist das wichtig?", "Redstone-Schaltungen werden so viel kleiner und ordentlicher."]
+			icon: { id: "redstonepen:pen" }
+			id: "633576DE215D39F0"
+			title: "Redstone-Stift"
+			rewards: [{ id: "255B35270790B54A", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "53DC2A4B267F66A9", type: "item", item: { id: "redstonepen:pen", count: 1 }, count: 1L }]
+			x: 1.50d
+			y: 4.50d
+		}
+	]
+}

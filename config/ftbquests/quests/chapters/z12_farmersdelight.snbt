@@ -2,15 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z12_farmersdelight"
+	group: "0265F2BD15BD46AE"
 	icon: { id: "farmersdelight:cooking_pot" }
 	id: "59E3F132B1D0F00C"
-	order_index: 9
+	order_index: 0
 	quest_links: [ ]
 	title: "&aFarmers Delight"
+	subtitle: ["Kochen, Felder und Gerichte mit Effekten"]
 	quests: [
 		{
 			dependencies: ["2AD1D915658D1D50"]
 			description: ["&6Was ist das?", "Farmers Delight bringt bessere Gerichte, Felder und Kochgeräte.", "Die nächsten Quests führen dich Schritt für Schritt durch die Küche.", "Tipp: Mahlzeiten aus dem Kochtopf geben Effekte wie Nahrhaft und Gemütlich (Lebensregeneration).", "", "&6So gehts", "Folge den Quests in diesem Kapitel: erst Werkzeug, dann Kochgeräte, dann Gerichte.", "", "&6Wofür ist das wichtig?", "Mahlzeiten aus dem Kochtopf geben die Effekte Nahrhaft (kein Hunger) und Gemütlich (Leben regeneriert). Das hilft enorm in Kämpfen und Dungeons."]
+			icon: { id: "farmersdelight:cooking_pot" }
 			id: "5C658D7AF84D36C8"
 			title: "Kochen mit Farmers Delight"
 			rewards: [{ id: "703538BE99552503", type: "item", item: { id: "minecraft:bread", count: 4 } }]
@@ -172,7 +175,7 @@
 		}
 		{
 			dependencies: ["7D73691BB3992AB7"]
-			description: ["&6Was ist das?", "Kohl, Tomate und Rote Bete in der Schüssel.", "", "&6So gehts", "Kohl, Tomate und Rote Bete mit einer Schüssel in der Werkbank.", "", "&6Wofür ist das wichtig?", "Schnell gemacht und gesund. Gemüse aus dem Garten-Zweig."]
+			description: ["&6Was ist das?", "Ein frischer Salat aus drei Gemüsesorten.", "", "&6So gehts", "Kohl, Tomate und Rote Bete mit einer Schüssel in der Werkbank.", "", "&6Wofür ist das wichtig?", "Schnell gemacht und gesund. Gemüse aus dem Garten-Zweig."]
 			id: "477171C8016A0F75"
 			title: "Gemischter Salat"
 			rewards: [{ id: "03B534BB368554BB", type: "item", item: { id: "minecraft:carrot", count: 8 } }]
@@ -278,7 +281,7 @@
 			id: "77E4F090E3CB5DB8"
 			title: "Schrank"
 			rewards: [{ id: "35E330BB43855AEB", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "69E6F79C9EF0F3A7", type: "item", title: "Beliebiger Schrank", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(farmersdelight:cabinets)" } }, count: 1L }]
+			tasks: [{ id: "69E6F79C9EF0F3A7", type: "item", title: "Beliebiger Schrank", icon: { id: "farmersdelight:oak_cabinet" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(farmersdelight:cabinets)" } }, count: 1L }]
 			x: 16.50d
 			y: 21.000d
 		}
@@ -405,7 +408,7 @@
 		}
 		{
 			dependencies: ["0DDA127D5E5CDD1C"]
-			description: ["&6Was ist das?", "Gepresste Hackfleisch-Scheibe.", "", "&6So gehts", "Rezept: Ofen: Hackfleisch (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Hackfleisch in der Werkbank zur Frikadelle formen. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Die Grundlage für den Hamburger."]
+			description: ["&6Was ist das?", "Gepresste Hackfleisch-Scheibe.", "", "&6So gehts", "Rezept: Ofen: Hackfleisch (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Hackfleisch in der Werkbank zur Frikadelle formen.", "", "&6Wofür ist das wichtig?", "Die Grundlage für den Hamburger."]
 			id: "52D37B22FC2BB240"
 			title: "Frikadelle"
 			rewards: [{ id: "1AE4A9952A48D592", type: "xp_levels", xp_levels: 2 }]
@@ -496,7 +499,7 @@
 		}
 		{
 			dependencies: ["051D59C0F509C3A0"]
-			description: ["&6Was ist das?", "Kekse mit Honig.", "", "&6So gehts", "Rezept: Werkbank (formlos): Honigflasche, 2x Weizen (ergibt 8) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Weizen, Honig und Ei in der Werkbank kombinieren. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Leichte Snacks mit gutem Sättigungswert."]
+			description: ["&6Was ist das?", "Kekse mit Honig.", "", "&6So gehts", "Rezept: Werkbank (formlos): Honigflasche, 2x Weizen (ergibt 8) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Weizen, Honig und Ei in der Werkbank kombinieren.", "", "&6Wofür ist das wichtig?", "Leichte Snacks mit gutem Sättigungswert."]
 			id: "7C6AD5BD86C24F7B"
 			title: "Honigkekse"
 			rewards: [{ id: "7A72DB3CA393055D", type: "xp_levels", xp_levels: 2 }]
@@ -557,6 +560,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Das Nether hat eigene Zutaten, aus denen du scharfe und nahrhafte Gerichte kochst, zum Beispiel Hoglin-Fleisch und Scharfe Paprika.", "", "&6So gehts", "Du brauchst dafür den Nether-Herd und den Kochtopf. Das genaue Rezept jedes Gerichts zeigt dir das Rezeptbuch (Maus aufs Item, Taste R).", "Gute Zutaten findest du in Bastionen, Hoglin-Gehegen und Paprika-Plantagen im Nether.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "mynethersdelight:nether_bricks_stove" }
 			id: "44C95F2396029139"
 			hide_dependency_lines: true
 			title: "Überblick: Nether-Küche"
@@ -569,7 +573,8 @@
 		}
 		{
 			dependencies: ["44C95F2396029139"]
-			description: ["&6Was ist das?", "My Nethers Delight bringt Gerichte aus dem Nether.", "Du brauchst Zutaten von Hoglins, Striders und Ghasts.", "", "&6So gehts", "Sammle Zutaten von Hoglins, Stridern und Ghasts.", "", "&6Wofür ist das wichtig?", "Nether-Gerichte geben oft Feuerresistenz und Stärke."]
+			description: ["&6Was ist das?", "My Nethers Delight bringt Gerichte aus dem Nether.", "", "&6So gehts", "Sammle Zutaten von Hoglins, Stridern und Ghasts.", "", "&6Wofür ist das wichtig?", "Nether-Gerichte geben oft Feuerresistenz und Stärke."]
+			icon: { id: "mynethersdelight:nether_bricks_stove" }
 			id: "40DE859B7882B7D0"
 			title: "Nether-Küche"
 			rewards: [{ id: "4C04C6D26FCC7985", type: "xp_levels", xp_levels: 2 }]
@@ -640,6 +645,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Enders Delight fügt Gerichte aus Zutaten des Endes hinzu: Chorusfrucht, Endermiten, Shulker und mehr.", "", "&6So gehts", "Du baust zuerst den Ende-Herd. Mit ihm und dem Kochtopf kochst du die Gerichte. Rezepte siehst du im Rezeptbuch.", "Viele Gerichte geben starke Effekte. Beachte, dass einige Zutaten nur im Ende zu finden sind.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "endersdelight:endstone_stove" }
 			id: "40B08832AE0BBC78"
 			hide_dependency_lines: true
 			title: "Überblick: Ende-Küche"
@@ -653,6 +659,7 @@
 		{
 			dependencies: ["40B08832AE0BBC78"]
 			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende. Sieh im Kapitel Kochen nach.", "", "&6So gehts", "Siehe Kochen.", "", "&6Wofür ist das wichtig?", "Starke Mahlzeiten."]
+			icon: { id: "endersdelight:ender_shard" }
 			id: "6F81E1560F8E3640"
 			title: "Enders Delight"
 			rewards: [{ id: "65FB4C779C8B22B2", type: "xp_levels", xp_levels: 3 }]
@@ -663,6 +670,7 @@
 		{
 			dependencies: ["6F81E1560F8E3640"]
 			description: ["&6Was ist das?", "Enders Delight bringt Gerichte aus dem Ende.", "Du brauchst Chorusfrucht, Shulker und Endermiten.", "", "&6So gehts", "Zutaten im Ende sammeln.", "", "&6Wofür ist das wichtig?", "Sehr starke Mahlzeiten für das Endspiel."]
+			icon: { id: "endersdelight:endstone_stove" }
 			id: "2659B7880C5D46B2"
 			title: "Gerichte aus dem Ende"
 			rewards: [{ id: "4C54A5F625C4C38E", type: "xp_levels", xp_levels: 2 }]
@@ -764,6 +772,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Oceans Delight bringt Gerichte aus Meerestieren und Algen: Tintenfisch, Kabeljau, Seetang und mehr.", "", "&6So gehts", "Du fischst oder jagst die Zutaten im Meer, schneidest sie auf dem Schneidebrett und kochst sie im Kochtopf oder in der Pfanne.", "Gerichte aus dem Meer sind oft günstig, aber nahrhaft: gut für Seefahrer.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "minecraft:cod" }
 			id: "6BEEED572995BE64"
 			hide_dependency_lines: true
 			title: "Überblick: Meer und Fisch"
@@ -777,6 +786,7 @@
 		{
 			dependencies: ["6BEEED572995BE64"]
 			description: ["&6Was ist das?", "Oceans Delight bringt Rezepte mit Fisch und Meer.", "Du brauchst Fische, Tintenfische und Wächter.", "", "&6So gehts", "Fische, Tintenfische und Wächter fangen oder besiegen.", "", "&6Wofür ist das wichtig?", "Gut für Inselbasen am Meer."]
+			icon: { id: "oceansdelight:squid_rings" }
 			id: "797F55EB9542C484"
 			title: "Meeresfrüchte"
 			rewards: [{ id: "72833AC98ED390A2", type: "xp_levels", xp_levels: 2 }]
@@ -837,6 +847,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Brewin and Chewin erweitert die Küche um Brauen, Gären und neue Gerichte: Bier, Met, Schnaps, Käse und mehr.", "", "&6So gehts", "Das Fass (Keg) ist das Herz: Du füllst es mit Zutaten und Wasser, nach einiger Zeit ist das Getränk fertig. Ein Humpen nimmt es auf.", "Getränke geben Effekte, aber zu viel kann auch schaden. Ein Wärmebehälter hält Getränke warm.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "brewinandchewin:keg" }
 			id: "03C00E84E4C6F385"
 			hide_dependency_lines: true
 			title: "Überblick: Brauerei und Getränke"
@@ -850,6 +861,7 @@
 		{
 			dependencies: ["03C00E84E4C6F385"]
 			description: ["&6Was ist das?", "Die Mod erweitert Farmers Delight um Fermentation: Getränke, Käse, Eingelegtes.", "Das Brauen funktioniert im Fass (Keg). Schaue im Fortschritts-Fenster (L) unter Brewin and Chewin nach.", "", "&6So gehts", "Alles passiert im Fass (Keg). Erfolge (Taste L) zeigen dir die Schritte.", "", "&6Wofür ist das wichtig?", "Getränke geben starke Effekte wie Stärke oder Feuerresistenz, Käse ist Zutat für viele Gerichte."]
+			icon: { id: "brewinandchewin:keg" }
 			id: "1064EAB812C16845"
 			title: "Brewin and Chewin"
 			rewards: [{ id: "2EB5CA9C365B0B91", type: "xp_levels", xp_levels: 2 }]
@@ -960,6 +972,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Wetland Whimsy bringt Gerichte aus dem Sumpf: Flusskrebse und Gumbo sind die bekanntesten.", "", "&6So gehts", "Fange Flusskrebse im Sumpf, koche sie und bereite damit Gumbo zu. Rezepte siehst du im Rezeptbuch.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "wetland_whimsy:cooked_crawfish" }
 			id: "0E51EACA59F4E34B"
 			hide_dependency_lines: true
 			title: "Überblick: Sumpfküche"
@@ -995,6 +1008,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Alexs Mobs bringt neue Tiere und damit neue Zutaten: Wels, Hummer, Elch, Känguru, Emu und mehr.", "", "&6So gehts", "Jage die Tiere und brate oder koche ihr Fleisch. Mit Farmers Delight bekommst du daraus zusätzliche Gerichte.", "Das Tierbuch im Kapitel Alexs Mobs erklärt, wo du die Tiere findest.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "minecraft:cooked_beef" }
 			id: "58BFB9C2F70BF4C4"
 			hide_dependency_lines: true
 			title: "Überblick: Tierische Gerichte"
@@ -1118,6 +1132,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Autochefs Delight kann Kochen automatisieren: Ein Koch-Gehilfe nimmt dir Handgriffe ab.", "", "&6So gehts", "Du richtest ihn mit Zutaten ein und er kocht nach Rezept. Siehe das Rezeptbuch für Rezept und Bedienung.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "minecraft:hopper" }
 			id: "4BE35783EDF531F9"
 			title: "Überblick: Automatisch kochen"
 			rewards: [{ id: "1B3DF8F13D8FC888", type: "xp_levels", xp_levels: 2 }]
@@ -1130,6 +1145,7 @@
 		{
 			dependencies: ["4BE35783EDF531F9"]
 			description: ["&6Was ist das?", "Autochefs Delight kocht mit Rezeptbuch für dich. Das ist praktisch, wenn viele Zutaten nötig sind.", "", "&6So gehts", "Stelle die Autochef-Geräte auf und gib ihnen ein Rezept.", "", "&6Wofür ist das wichtig?", "Spart Klicks, wenn du viele Portionen für die Gruppe kochst."]
+			icon: { id: "minecraft:hopper" }
 			id: "5E5DF70D3901E8A6"
 			title: "Hilfe von Autochef"
 			rewards: [{ id: "7EA382CBB2DF2137", type: "xp_levels", xp_levels: 3 }]
@@ -1140,6 +1156,7 @@
 		{
 			dependencies: ["085735849D72954E"]
 			description: ["&6Was ist das?", "Hier steht alles zu Hof, Anbau und Hofküche: Mistgabel, Kochtopf, Tomaten, Mais, Mehl, Fleischwolf, Backofen, Weinbau und mehr.", "", "&6So gehts", "Du baust Pflanzen an, mahlst Mehl und bereitest Mahlzeiten zu. Die Quests unten gehen in der Reihenfolge der Herstellung vor.", "Viele Rezepte hängen zusammen: Erst Zutaten, dann Gerichte. Schaue immer im Rezeptbuch nach.", "", "&6Wofür ist das wichtig?", "Alles rund ums Essen gehört in dieses Kapitel. Die Gerichte sind freiwillig und jederzeit nachholbar."]
+			icon: { id: "farm_and_charm:cooking_pot" }
 			id: "706273B587E60951"
 			title: "Überblick: Hof und Farm"
 			rewards: [{ id: "2409F3C4F7E7AE8E", type: "xp_levels", xp_levels: 2 }]
@@ -1155,7 +1172,7 @@
 			icon: { id: "farm_and_charm:cooking_pot" }
 			id: "33CC029093F94BA7"
 			title: "Essen und Trinken"
-			rewards: []
+			rewards: [{ id: "3F6550A47287096F", type: "xp", xp: 25 }]
 			tasks: [{ id: "3073859541ACA844", type: "checkmark" }]
 			x: 12.00d
 			y: 0.000d
@@ -1489,6 +1506,7 @@
 		{
 			dependencies: ["5C658D7AF84D36C8"]
 			description: ["&6Was ist das?", "Mit dem Mod AstikorCarts Redux ziehst du Pflug, Sämaschine, Mähbinder und Wagen mit einem Pferd. So bewirtschaftest du große Felder schnell.", "", "&6So gehts", "Die folgenden Quests gehen Schritt für Schritt: Pferd, Sattel, Rad, Pflug, Sämaschine, Mähbinder, Wagen. Die Taste R hängt Gerät und Tier an oder ab (Taste in den Optionen änderbar).", "", "&6Wofür ist das wichtig?", "Mit den Geräten sparst du viel Handarbeit auf großen Feldern."]
+			icon: { id: "minecraft:saddle" }
 			id: "217BAECEAB45BAF2"
 			hide_dependency_lines: true
 			title: "Überblick: Pferde und Felder"
@@ -1502,6 +1520,7 @@
 		{
 			dependencies: ["217BAECEAB45BAF2"]
 			description: ["&6Was ist das?", "Ein gezähmtes Pferd zieht deine Geräte.", "", "&6So gehts", "Suche ein wildes Pferd in der Ebene. Setze dich mehrmals mit leerer Hand drauf, bis es dich akzeptiert. Danach legst du einen Sattel auf.", "", "&6Wofür ist das wichtig?", "Ohne Zugtier bewegt sich kein Gerät."]
+			icon: { id: "minecraft:saddle" }
 			id: "37B465D11C6E11F7"
 			title: "Pferd zähmen"
 			rewards: [{ id: "7891A774D792A484", type: "xp_levels", xp_levels: 3 }]
@@ -1521,7 +1540,7 @@
 		}
 		{
 			dependencies: ["613E83C5D359396D"]
-			description: ["&6Was ist das?", "Räder sind die Grundlage aller Wagen und Geräte.", "", "&6So gehts", "Rezept: Werkbank: 8x Stock, Bretter (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle Räder aus Holz in der Werkbank her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Jedes Gerät braucht zwei Räder."]
+			description: ["&6Was ist das?", "Räder sind die Grundlage aller Wagen und Geräte.", "", "&6So gehts", "Rezept: Werkbank: 8x Stock, Bretter (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle Räder aus Holz in der Werkbank her.", "", "&6Wofür ist das wichtig?", "Jedes Gerät braucht zwei Räder."]
 			id: "630C402BFF3F9E61"
 			title: "Wagenrad"
 			rewards: [{ id: "14C13FF0BEFDE151", type: "xp_levels", xp_levels: 3 }]
@@ -1541,18 +1560,19 @@
 		}
 		{
 			dependencies: ["24F8F66E9BD25CAA"]
-			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er gräbt Erde um, macht Wege und entrindet Stämme.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 4x Stock, 3x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn in der Werkbank her (Holz und Räder). Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Lege die Werkzeuge in die Pflug-Plätze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofür ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
+			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er gräbt Erde um, macht Wege und entrindet Stämme.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 4x Stock, 3x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn in der Werkbank her (Holz und Räder). Lege die Werkzeuge in die Pflug-Plätze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofür ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
 			icon: { id: "astikorcartsredux:oak_plow" }
 			id: "03C6BA276BE16281"
 			title: "Pflug"
 			rewards: [{ id: "2CEAEA5CBA707C11", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "05CC4EB077EDD9ED", type: "item", title: "Beliebiger Pflug", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_plow)item(astikorcartsredux:spruce_plow)item(astikorcartsredux:birch_plow)item(astikorcartsredux:jungle_plow)item(astikorcartsredux:acacia_plow)item(astikorcartsredux:dark_oak_plow)item(astikorcartsredux:mangrove_plow)item(astikorcartsredux:cherry_plow)item(astikorcartsredux:bamboo_plow)item(astikorcartsredux:crimson_plow)item(astikorcartsredux:warped_plow))" } }, count: 1L }]
+			tasks: [{ id: "05CC4EB077EDD9ED", type: "item", title: "Beliebiger Pflug", icon: { id: "astikorcartsredux:oak_plow" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_plow)item(astikorcartsredux:spruce_plow)item(astikorcartsredux:birch_plow)item(astikorcartsredux:jungle_plow)item(astikorcartsredux:acacia_plow)item(astikorcartsredux:dark_oak_plow)item(astikorcartsredux:mangrove_plow)item(astikorcartsredux:cherry_plow)item(astikorcartsredux:bamboo_plow)item(astikorcartsredux:crimson_plow)item(astikorcartsredux:warped_plow))" } }, count: 1L }]
 			x: 9.00d
 			y: -39.000d
 		}
 		{
 			dependencies: ["03C6BA276BE16281"]
 			description: ["&6Was ist das?", "So spannst du den Pflug an.", "", "&6So gehts", "Stelle den Pflug hinter das Pferd. Drücke R in der Nähe, dann verbindest du Pferd und Pflug. Reite los. Mit Sprint änderst du das Tempo.", "", "&6Wofür ist das wichtig?", "Merke dir: Nicht zu schnell fahren, sonst werden Streifen übersprungen."]
+			icon: { id: "astikorcartsredux:oak_plow" }
 			id: "5416282EB7088819"
 			title: "Pflug benutzen"
 			rewards: [{ id: "22C535C5797DE22E", type: "xp_levels", xp_levels: 3 }]
@@ -1562,12 +1582,12 @@
 		}
 		{
 			dependencies: ["5416282EB7088819"]
-			description: ["&6Was ist das?", "Die Sämaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 5x Eichenbretter, Kiste, Trichter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle sie her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Du säst dein Feld mit einem Rutsch."]
+			description: ["&6Was ist das?", "Die Sämaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 5x Eichenbretter, Kiste, Trichter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle sie her. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Du säst dein Feld mit einem Rutsch."]
 			icon: { id: "astikorcartsredux:oak_seed_drill" }
 			id: "2A5822ABC406AC14"
 			title: "Sämaschine"
 			rewards: [{ id: "4829BB310677FFBE", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "5B5FEB1584F580C1", type: "item", title: "Beliebige Sämaschine", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_seed_drill)item(astikorcartsredux:spruce_seed_drill)item(astikorcartsredux:birch_seed_drill)item(astikorcartsredux:jungle_seed_drill)item(astikorcartsredux:acacia_seed_drill)item(astikorcartsredux:dark_oak_seed_drill)item(astikorcartsredux:mangrove_seed_drill)item(astikorcartsredux:cherry_seed_drill)item(astikorcartsredux:bamboo_seed_drill)item(astikorcartsredux:crimson_seed_drill)item(astikorcartsredux:warped_seed_drill))" } }, count: 1L }]
+			tasks: [{ id: "5B5FEB1584F580C1", type: "item", title: "Beliebige Sämaschine", icon: { id: "astikorcartsredux:oak_seed_drill" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_seed_drill)item(astikorcartsredux:spruce_seed_drill)item(astikorcartsredux:birch_seed_drill)item(astikorcartsredux:jungle_seed_drill)item(astikorcartsredux:acacia_seed_drill)item(astikorcartsredux:dark_oak_seed_drill)item(astikorcartsredux:mangrove_seed_drill)item(astikorcartsredux:cherry_seed_drill)item(astikorcartsredux:bamboo_seed_drill)item(astikorcartsredux:crimson_seed_drill)item(astikorcartsredux:warped_seed_drill))" } }, count: 1L }]
 			x: 12.00d
 			y: -39.000d
 		}
@@ -1578,40 +1598,40 @@
 			id: "47B66AAEA7EBE338"
 			title: "Mähbinder"
 			rewards: [{ id: "43C07FEF7EC02544", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "334034D0F65C18EE", type: "item", title: "Beliebiger Mähbinder", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_reaper)item(astikorcartsredux:spruce_reaper)item(astikorcartsredux:birch_reaper)item(astikorcartsredux:jungle_reaper)item(astikorcartsredux:acacia_reaper)item(astikorcartsredux:dark_oak_reaper)item(astikorcartsredux:mangrove_reaper)item(astikorcartsredux:cherry_reaper)item(astikorcartsredux:bamboo_reaper)item(astikorcartsredux:crimson_reaper)item(astikorcartsredux:warped_reaper))" } }, count: 1L }]
+			tasks: [{ id: "334034D0F65C18EE", type: "item", title: "Beliebiger Mähbinder", icon: { id: "astikorcartsredux:oak_reaper" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_reaper)item(astikorcartsredux:spruce_reaper)item(astikorcartsredux:birch_reaper)item(astikorcartsredux:jungle_reaper)item(astikorcartsredux:acacia_reaper)item(astikorcartsredux:dark_oak_reaper)item(astikorcartsredux:mangrove_reaper)item(astikorcartsredux:cherry_reaper)item(astikorcartsredux:bamboo_reaper)item(astikorcartsredux:crimson_reaper)item(astikorcartsredux:warped_reaper))" } }, count: 1L }]
 			x: 13.50d
 			y: -39.000d
 		}
 		{
 			dependencies: ["47B66AAEA7EBE338"]
-			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 3x Eichenbretter, Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
+			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 3x Eichenbretter, Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her.", "", "&6Wofür ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
 			icon: { id: "astikorcartsredux:oak_hand_cart" }
 			id: "01ED0EF6AE8F064E"
 			title: "Handwagen"
 			rewards: [{ id: "1DDB59E4D185DC6A", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "7451674BF368969D", type: "item", title: "Beliebiger Handwagen", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_hand_cart)item(astikorcartsredux:spruce_hand_cart)item(astikorcartsredux:birch_hand_cart)item(astikorcartsredux:jungle_hand_cart)item(astikorcartsredux:acacia_hand_cart)item(astikorcartsredux:dark_oak_hand_cart)item(astikorcartsredux:mangrove_hand_cart)item(astikorcartsredux:cherry_hand_cart)item(astikorcartsredux:bamboo_hand_cart)item(astikorcartsredux:crimson_hand_cart)item(astikorcartsredux:warped_hand_cart))" } }, count: 1L }]
+			tasks: [{ id: "7451674BF368969D", type: "item", title: "Beliebiger Handwagen", icon: { id: "astikorcartsredux:oak_hand_cart" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_hand_cart)item(astikorcartsredux:spruce_hand_cart)item(astikorcartsredux:birch_hand_cart)item(astikorcartsredux:jungle_hand_cart)item(astikorcartsredux:acacia_hand_cart)item(astikorcartsredux:dark_oak_hand_cart)item(astikorcartsredux:mangrove_hand_cart)item(astikorcartsredux:cherry_hand_cart)item(astikorcartsredux:bamboo_hand_cart)item(astikorcartsredux:crimson_hand_cart)item(astikorcartsredux:warped_hand_cart))" } }, count: 1L }]
 			x: 15.00d
 			y: -39.000d
 		}
 		{
 			dependencies: ["01ED0EF6AE8F064E"]
-			description: ["&6Was ist das?", "Ein großer Wagen für 54 Stapel mit einem Sitz.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 5x Eichenbretter, 2x Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Mit Shift und Rechtsklick öffnest du das Lager.", "", "&6Wofür ist das wichtig?", "Dein mobiles Lager auf Reisen."]
+			description: ["&6Was ist das?", "Ein großer Wagen für 54 Stapel mit einem Sitz.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 5x Eichenbretter, 2x Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Mit Shift und Rechtsklick öffnest du das Lager.", "", "&6Wofür ist das wichtig?", "Dein mobiles Lager auf Reisen."]
 			icon: { id: "astikorcartsredux:oak_supply_cart" }
 			id: "375632BFE9D0B530"
 			title: "Versorgungswagen"
 			rewards: [{ id: "04DB7CFA9A1760C4", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "16880E39ABD7A455", type: "item", title: "Beliebiger Versorgungswagen", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:bamboo_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart))" } }, count: 1L }]
+			tasks: [{ id: "16880E39ABD7A455", type: "item", title: "Beliebiger Versorgungswagen", icon: { id: "astikorcartsredux:oak_supply_cart" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:bamboo_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart))" } }, count: 1L }]
 			x: 16.50d
 			y: -39.000d
 		}
 		{
 			dependencies: ["375632BFE9D0B530"]
-			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze für Tiere oder Spieler.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 7x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Er lässt sich mit einem Banner schmücken.", "", "&6Wofür ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
+			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze für Tiere oder Spieler.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 7x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Er lässt sich mit einem Banner schmücken.", "", "&6Wofür ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
 			icon: { id: "astikorcartsredux:oak_animal_cart" }
 			id: "756DF0541E3027DB"
 			title: "Tierwagen"
 			rewards: [{ id: "1F52220A256DACB8", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "2AE88CE073EA7702", type: "item", title: "Beliebiger Tierwagen", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_animal_cart)item(astikorcartsredux:spruce_animal_cart)item(astikorcartsredux:birch_animal_cart)item(astikorcartsredux:jungle_animal_cart)item(astikorcartsredux:acacia_animal_cart)item(astikorcartsredux:dark_oak_animal_cart)item(astikorcartsredux:mangrove_animal_cart)item(astikorcartsredux:cherry_animal_cart)item(astikorcartsredux:bamboo_animal_cart)item(astikorcartsredux:crimson_animal_cart)item(astikorcartsredux:warped_animal_cart))" } }, count: 1L }]
+			tasks: [{ id: "2AE88CE073EA7702", type: "item", title: "Beliebiger Tierwagen", icon: { id: "astikorcartsredux:oak_animal_cart" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_animal_cart)item(astikorcartsredux:spruce_animal_cart)item(astikorcartsredux:birch_animal_cart)item(astikorcartsredux:jungle_animal_cart)item(astikorcartsredux:acacia_animal_cart)item(astikorcartsredux:dark_oak_animal_cart)item(astikorcartsredux:mangrove_animal_cart)item(astikorcartsredux:cherry_animal_cart)item(astikorcartsredux:bamboo_animal_cart)item(astikorcartsredux:crimson_animal_cart)item(astikorcartsredux:warped_animal_cart))" } }, count: 1L }]
 			x: 18.00d
 			y: -39.000d
 		}

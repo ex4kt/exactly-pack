@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z02_eisenzeit"
+	group: "17290001E660111C"
 	icon: { id: "minecraft:iron_pickaxe" }
 	id: "56EA113C96D0679C"
 	order_index: 1
 	quest_links: [ ]
 	title: "&fII. Eisenzeit"
+	subtitle: ["Eisen, Redstone, Dungeons und die ersten Reisen"]
 	quests: [
 		{
 			dependencies: ["56184FBD96403098"]
@@ -91,7 +93,7 @@
 			icon: { id: "justhammers:iron_impact_hammer" }
 			id: "3A0600E1446EB9DC"
 			title: "Aufprall-Hammer"
-			rewards: [{ id: "157AD37B09CC0326", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "157AD37B09CC0326", type: "xp_levels", xp_levels: 2 }, { id: "31650C60B5109FAB", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "79EDEB9A8DB10095", type: "item", item: { id: "justhammers:iron_impact_hammer", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: -6.000d
@@ -136,7 +138,7 @@
 			icon: { id: "minecraft:compass" }
 			id: "5FD4E49A062C9230"
 			title: "Kompass"
-			rewards: [{ id: "32690FC3A35F0483", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "32690FC3A35F0483", type: "xp_levels", xp_levels: 2 }, { id: "4EF113C33830BA2E", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "73D2EC810B04AD86", type: "item", item: { id: "minecraft:compass", count: 1 }, count: 1L }]
 			x: 12.00d
 			y: 12.000d
@@ -310,7 +312,7 @@
 			icon: { id: "tradingpost:trading_post" }
 			id: "119323FAF05B0781"
 			title: "Handelsposten"
-			rewards: [{ id: "6417DEA0B73BCCBE", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6417DEA0B73BCCBE", type: "xp_levels", xp_levels: 2 }, { id: "7BE186A184C3106D", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "3DE4480A4FFC555D", type: "item", item: { id: "tradingpost:trading_post", count: 1 }, count: 1L }]
 			x: 15.00d
 			y: 13.500d
@@ -332,14 +334,14 @@
 			icon: { id: "wetland_whimsy:ancient_coin" }
 			id: "4E0AE3F1F1524EB3"
 			title: "Antike Münzen"
-			rewards: [{ id: "1831228E63EA1579", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1831228E63EA1579", type: "xp_levels", xp_levels: 2 }, { id: "44461921754A8495", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "284B93AB70D07C5F", type: "item", item: { id: "wetland_whimsy:ancient_coin", count: 1 }, count: 4L }]
 			x: 15.00d
 			y: 15.000d
 		}
 		{
 			dependencies: ["6077C06A96337BE4"]
-			description: ["&6Was ist das?", "Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "Schritt 1: Baue ein Storage Terminal.", "Schritt 2: Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Schritt 3: Öffne das Terminal und suche oben nach Items.", "", "&6So gehts", "Stelle das Terminal (Storage Terminal) neben eine Kiste oder verbinde es mit Kabeln.", "Öffne es, suche oben nach Namen und nimm heraus, was du brauchst.", "", "&6Wofür ist das wichtig?", "Statt zwanzig Kisten zu durchsuchen, hast du ein Suchfenster für alles. Das Herz deiner Basis."]
+			description: ["&6Was ist das?", "Ein Terminal zeigt den Inhalt vieler Kisten an einem Ort.", "", "&6So gehts", "Baue ein Storage Terminal.", "Verbinde Kisten mit Inventory Connector und Inventory Cable mit dem Terminal.", "Öffne das Terminal und suche oben nach Items.", "Stelle das Terminal (Storage Terminal) neben eine Kiste oder verbinde es mit Kabeln.", "Öffne es, suche oben nach Namen und nimm heraus, was du brauchst.", "", "&6Wofür ist das wichtig?", "Statt zwanzig Kisten zu durchsuchen, hast du ein Suchfenster für alles. Das Herz deiner Basis."]
 			id: "68F179F7BC6AF54D"
 			hide_dependency_lines: true
 			title: "Tom Storage: Terminal"
@@ -363,14 +365,14 @@
 			description: ["&6Was ist das?", "Das Crafting Terminal ist ein Terminal mit eingebauter Werkbank.", "Es nimmt Material direkt aus den verbundenen Kisten.", "", "&6So gehts", "Rezept: Werkbank: 4x Werkbank, 4x Diamant, Lagerterminal (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Wie das normale Terminal anschließen.", "Craftest du etwas, holt es die Zutaten direkt aus dem Lager. Mit dem Rezeptbuch klickst du ein Rezept einfach hinein.", "", "&6Wofür ist das wichtig?", "Der bequemste Ort zum Craften im ganzen Pack."]
 			id: "3869E07C7FB2C538"
 			title: "Crafting Terminal"
-			rewards: [{ id: "68B47E685B92F437", type: "item", item: { id: "minecraft:diamond", count: 1 } }]
+			rewards: [{ id: "68B47E685B92F437", type: "item", item: { id: "minecraft:diamond", count: 1 } }, { id: "576073E2DA8A5C25", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "043EE370215D9104", type: "item", item: { id: "toms_storage:crafting_terminal", count: 1 }, count: 1L }]
 			x: 12.00d
 			y: -13.500d
 		}
 		{
 			dependencies: ["68F179F7BC6AF54D"]
-			description: ["&6Was ist das?", "Ein Rucksack passt in dein Inventar und hat viele Plätze.", "Schritt 1: Baue einen Rucksack.", "Schritt 2: Öffne ihn mit der Taste B oder per Rechtsklick.", "Schritt 3: Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet).", "", "&6So gehts", "Herstellen und auf den Rücken legen oder in der Hand halten.", "Taste B öffnet ihn, auch wenn er auf dem Rücken ist.", "Shift-Rechtsklick auf den Boden stellt ihn ab.", "", "&6Wofür ist das wichtig?", "Der Rucksack ist dein bester Begleiter auf Abenteuern. In den nächsten Quests lernst du die wichtigsten Upgrades."]
+			description: ["&6Was ist das?", "Ein Rucksack passt in dein Inventar und hat viele Plätze.", "", "&6So gehts", "Stelle einen Rucksack her und lege ihn auf den Rücken oder halte ihn in der Hand.", "Taste B oder Rechtsklick öffnet ihn, auch wenn er auf dem Rücken ist.", "Shift-Rechtsklick auf den Boden stellt ihn ab.", "Rucksack-Upgrades machen ihn noch besser (Einsaugen, Magnet).", "", "&6Wofür ist das wichtig?", "Der Rucksack ist dein bester Begleiter auf Abenteuern. In den nächsten Quests lernst du die wichtigsten Upgrades."]
 			id: "6D372DBD6597CF0A"
 			title: "Rucksack"
 			rewards: [{ id: "59C08D4B3BDA3E86", type: "item", item: { id: "minecraft:leather", count: 4 } }]
@@ -453,7 +455,7 @@
 			description: ["&6Was ist das?", "Das Werkzeugtausch-Upgrade wählt automatisch das richtige Werkzeug für den Block.", "", "&6So gehts", "Upgrade einsetzen, Werkzeuge in den Rucksack legen.", "", "&6Wofür ist das wichtig?", "Spitzhacke, Axt, Schaufel wechseln sich von selbst."]
 			id: "5DDA4B45ACCBEBCD"
 			title: "Werkzeugtausch"
-			rewards: [{ id: "05AA68B529FF6204", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "05AA68B529FF6204", type: "xp_levels", xp_levels: 3 }, { id: "62B333F2780E64CE", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "4660088A8D32FCD8", type: "item", item: { id: "sophisticatedbackpacks:tool_swapper_upgrade", count: 1 }, count: 1L }]
 			x: 22.50d
 			y: -15.000d
@@ -553,14 +555,14 @@
 			description: ["&6Was ist das?", "Die Nether-Truhe speichert pro Platz sehr viele Items eines Typs.", "Gut für Bruchstein, Erde und andere Massen.", "", "&6So gehts", "Wie eine Kiste benutzen.", "", "&6Wofür ist das wichtig?", "Ideal für Massenware."]
 			id: "50366C7C690FEB44"
 			title: "Nether-Truhe"
-			rewards: [{ id: "6EED231976E2C3D6", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "6EED231976E2C3D6", type: "xp_levels", xp_levels: 3 }, { id: "3242224D3FD64397", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "67E99A8B5C758512", type: "item", item: { id: "netherchested:nether_chest", count: 1 }, count: 1L }]
 			x: 25.50d
 			y: -12.000d
 		}
 		{
 			dependencies: ["756BA580078912C2"]
-			description: ["&6Was ist das?", "Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Nähe.", "Du findest sie in Truhen oder kannst sie herstellen.", "", "&6So gehts", "Halte sie in der Hand und benutze sie (Rechtsklick).", "Wähle den Ziel-Waystone aus der Liste.", "", "&6Wofür ist das wichtig?", "Perfekt für Notfälle in Dungeons oder wenn du dich verlaufen hast. Später gibt es auch den Warpstein, der wiederverwendbar ist."]
+			description: ["&6Was ist das?", "Mit der Warp-Schriftrolle reist du zu einem Waystone, auch ohne einen in der Nähe.", "Du findest sie in Truhen oder kannst sie herstellen.", "", "&6So gehts", "Halte sie in der Hand und benutze sie (Rechtsklick).", "Wähle den Ziel-Wegstein aus der Liste.", "", "&6Wofür ist das wichtig?", "Perfekt für Notfälle in Dungeons oder wenn du dich verlaufen hast. Später gibt es auch den Warpstein, der wiederverwendbar ist."]
 			id: "3E45566A9BA84A3F"
 			hide_dependency_lines: true
 			title: "Warp-Schriftrolle"
@@ -571,7 +573,7 @@
 		}
 		{
 			dependencies: ["3E45566A9BA84A3F"]
-			description: ["&6Was ist das?", "Die Rückkehr-Schriftrolle bringt dich zum zuletzt benutzten Waystone zurück.", "", "&6So gehts", "Werkbank: 2 Goldnuggets und 1 Tintenbeutel in der oberen Reihe, 3 Papier darunter. Ergibt 3.", "Benutzen und kurz warten.", "", "&6Wofür ist das wichtig?", "Schnell zurück zur Basis."]
+			description: ["&6Was ist das?", "Die Rückkehr-Schriftrolle bringt dich zum zuletzt benutzten Wegstein zurück.", "", "&6So gehts", "Werkbank: 2 Goldnuggets und 1 Tintenbeutel in der oberen Reihe, 3 Papier darunter. Ergibt 3.", "Benutzen und kurz warten.", "", "&6Wofür ist das wichtig?", "Schnell zurück zur Basis."]
 			id: "08B942864A711575"
 			title: "Rückkehr-Schriftrolle"
 			rewards: [{ id: "31970A781C7B63CC", type: "xp_levels", xp_levels: 2 }]
@@ -581,7 +583,7 @@
 		}
 		{
 			dependencies: ["08B942864A711575"]
-			description: ["&6Was ist das?", "Der Warpstein ist ein tragbarer Waystone. Er braucht Zeit zum Aufladen.", "", "&6So gehts", "Benutzen und Ziel wählen. Er braucht danach eine Weile zum Aufladen.", "", "&6Wofür ist das wichtig?", "Dein Teleporter für unterwegs."]
+			description: ["&6Was ist das?", "Der Warpstein ist ein tragbarer Wegstein. Er braucht Zeit zum Aufladen.", "", "&6So gehts", "Benutzen und Ziel wählen. Er braucht danach eine Weile zum Aufladen.", "", "&6Wofür ist das wichtig?", "Dein Teleporter für unterwegs."]
 			id: "239D2FCBF658A66E"
 			title: "Warpstein"
 			rewards: [{ id: "0EFAF8B277D7FF0C", type: "item", item: { id: "minecraft:ender_pearl", count: 2 } }]
@@ -612,18 +614,19 @@
 		}
 		{
 			dependencies: ["112A630642C644E1"]
-			description: ["&6Was ist das?", "Ein Portstone teleportiert dich zu einem bekannten Waystone, ohne selbst einer zu sein.", "", "&6So gehts", "Aufstellen und Ziel wählen.", "", "&6Wofür ist das wichtig?", "Bequem für feste Reisepunkte."]
+			description: ["&6Was ist das?", "Ein Portstone teleportiert dich zu einem bekannten Wegstein, ohne selbst einer zu sein.", "", "&6So gehts", "Aufstellen und Ziel wählen.", "", "&6Wofür ist das wichtig?", "Bequem für feste Reisepunkte."]
 			icon: { id: "waystones:purple_portstone" }
 			id: "2D5A3E8FCEFE5BBC"
 			title: "Portstone"
-			rewards: [{ id: "692982D2B0F63E67", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "692982D2B0F63E67", type: "xp_levels", xp_levels: 3 }, { id: "7906B273834B8BE4", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "4FB6AD78F02DAD46", type: "checkmark" }]
 			x: 18.00d
 			y: 10.500d
 		}
 		{
 			dependencies: ["0A3B510FB0DE8C3A"]
-			description: ["&6Was ist das?", "Ringe, Amulette und Umhänge tragen sich in eigenen Slots.", "Schritt 1: Öffne dein Inventar und klicke auf den Reiter Zubehör (oder drücke H).", "Schritt 2: Lege Zubehör dort ein.", "", "&6So gehts", "Im Zubehör-Reiter siehst du alle Plätze für Ringe, Amulette und Umhänge.", "", "&6Wofür ist das wichtig?", "Artifacts, Ringe und Magie-Items gehören hierher."]
+			description: ["&6Was ist das?", "Ringe, Amulette und Umhänge tragen sich in eigenen Slots.", "", "&6So gehts", "Öffne dein Inventar und klicke auf den Reiter Zubehör (oder drücke H).", "Lege Zubehör dort ein.", "Im Zubehör-Reiter siehst du alle Plätze für Ringe, Amulette und Umhänge.", "", "&6Wofür ist das wichtig?", "Artifacts, Ringe und Magie-Items gehören hierher."]
+			icon: { id: "minecraft:leather_chestplate" }
 			id: "624FC3A780C75C5B"
 			title: "Zubehör anlegen"
 			rewards: [{ id: "6DE02E7DDE0A3342", type: "xp_levels", xp_levels: 2 }]
@@ -634,6 +637,7 @@
 		{
 			dependencies: ["624FC3A780C75C5B"]
 			description: ["&6Was ist das?", "Artifacts sind besondere Gegenstände. Man kann sie nicht herstellen.", "Du findest sie in Truhen, unterirdischen Lagern und bei Mimics (Truhen-Monster).", "", "&6So gehts", "In Truhen in Höhlen und Dungeons. Auch Mimics (lebende Truhen) haben welche.", "", "&6Wofür ist das wichtig?", "Jedes Artefakt macht dich stärker oder schneller."]
+			icon: { id: "artifacts:umbrella" }
 			id: "0EC1EAFA54BE498F"
 			title: "Artifacts finden"
 			rewards: [{ id: "73D5E1CFFC603048", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -644,6 +648,7 @@
 		{
 			dependencies: ["0EC1EAFA54BE498F"]
 			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln. Jeder bekommt eigene Beute.", "Du kannst also alles plündern, ohne dass die anderen leer ausgehen.", "", "&6So gehts", "Einfach öffnen.", "", "&6Wofür ist das wichtig?", "Fair im Mehrspieler."]
+			icon: { id: "lootr:lootr_chest" }
 			id: "0EE8F1575F169E87"
 			title: "Lootr: Eigene Truhen"
 			rewards: [{ id: "62305E39AB709A26", type: "xp_levels", xp_levels: 2 }]
@@ -654,6 +659,7 @@
 		{
 			dependencies: ["0EE8F1575F169E87"]
 			description: ["&6Was ist das?", "Dungeons Arise, Cataclysm, Yungs und mehr bauen viele Strukturen in die Welt.", "Nimm Brot und Fackeln mit und schau in jede Truhe.", "", "&6So gehts", "Erkunden und Beute sammeln.", "", "&6Wofür ist das wichtig?", "Ausrüstung, Artefakte und Bosse."]
+			icon: { id: "minecraft:mossy_stone_bricks" }
 			id: "55A3471651407E87"
 			title: "Dungeons entdecken"
 			rewards: [{ id: "7628019177A9932A", type: "item", item: { id: "minecraft:bread", count: 8 } }]
@@ -664,6 +670,7 @@
 		{
 			dependencies: ["55A3471651407E87"]
 			description: ["&6Was ist das?", "Dungeons Arise baut riesige Strukturen: Burgen, Türme, Schiffe. Finde eine und erkunde sie.", "", "&6So gehts", "Halte beim Reisen Ausschau nach großen Bauten am Horizont oder auf der Karte.", "Nimm Fackeln, Essen, Blöcke und ein Bett mit, die Bauten sind groß und voller Gegner.", "Die beste Beute liegt meist ganz oben oder ganz unten.", "", "&6Wofür ist das wichtig?", "Hier findest du Diamanten, verzauberte Ausrüstung und Artefakte, bevor du dich an die großen Bosse wagst."]
+			icon: { id: "minecraft:cracked_stone_bricks" }
 			id: "1375D3BF673B89FD"
 			title: "Dungeons Arise"
 			rewards: [{ id: "221C05F619708675", type: "item", item: { id: "minecraft:golden_apple", count: 1 } }]
@@ -674,6 +681,7 @@
 		{
 			dependencies: ["1375D3BF673B89FD"]
 			description: ["&6Was ist das?", "Yungs Mods verbessern Minen, Dungeons, Festungen und Tempel. Erkunde eine Better Stronghold oder Better Mineshaft.", "", "&6So gehts", "Better Mineshafts findest du in Höhlen, Better Strongholds mit Enderaugen.", "Achte auf Fallen in Wüstentempeln und Dschungeltempeln.", "", "&6Wofür ist das wichtig?", "Die Festung (Stronghold) brauchst du für das Endportal. Minen haben Schienen, Kohle und Beute für den Anfang."]
+			icon: { id: "minecraft:stone_bricks" }
 			id: "31E60C11D54094B5"
 			title: "Yungs Bauten"
 			rewards: [{ id: "6D79360E4E8E3BE4", type: "xp_levels", xp_levels: 4 }]
@@ -686,7 +694,8 @@
 			description: ["&6Was ist das?", "Plünderer-Außenposten sind gefährlich. Besiege einen Plünderer.", "", "&6So gehts", "Außenposten erkennst du am grauen Turm. Töte den Anführer mit Banner, dann bekommst du ein schlechtes Omen.", "", "&6Wofür ist das wichtig?", "Ein Dorf-Überfall mit schlechtem Omen bringt Beute und Smaragde. Den Totem der Unsterblichkeit lässt der Magier (Evoker) in Raids und Waldanwesen fallen."]
 			id: "54A182519ADC46EC"
 			title: "Der Plünderer"
-			rewards: [{ id: "34FFE03044864763", type: "item", item: { id: "minecraft:emerald", count: 4 } }]
+			rewards: [{ id: "34FFE03044864763", type: "item", item: { id: "minecraft:emerald", count: 4 } }, { id: "557F53B5273046F3", type: "random", table_id: 9122779297218428223L }]
+			shape: "gear"
 			tasks: [{ id: "3E06D2C6E7AEFA20", type: "kill", entity: "minecraft:pillager", value: 5L, icon: { id: "minecraft:crossbow" } }]
 			x: 21.00d
 			y: 4.500d
@@ -694,6 +703,7 @@
 		{
 			dependencies: ["55A3471651407E87"]
 			description: ["&6Was ist das?", "Underground Worlds: neue Tempel und Höhlen, zum Beispiel Wüstenpyramiden, Dschungeltempel und Eishöhlen.", "", "&6So gehts", "Erkunde die Welt. Achte auf Treibsand in Wüstentempeln.", "", "&6Wofür ist das wichtig?", "Dort warten eigene Waffen und Rüstungen."]
+			icon: { id: "minecraft:cobweb" }
 			id: "26D502652577EB61"
 			title: "Unterwelten"
 			rewards: [{ id: "3EB988A5C49743AD", type: "xp_levels", xp_levels: 3 }]
@@ -729,7 +739,7 @@
 			icon: { id: "undergroundworlds:blade_of_the_jungle" }
 			id: "3B0609E52BA4505D"
 			title: "Klinge des Dschungels"
-			rewards: [{ id: "2D8A7A4F5CE54D10", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "2D8A7A4F5CE54D10", type: "xp_levels", xp_levels: 2 }, { id: "5DC36EB51EC6A03D", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "7F4D3FE0E5DA98DB", type: "item", item: { id: "undergroundworlds:blade_of_the_jungle", count: 1 }, count: 1L }]
 			x: 22.50d
 			y: 6.000d
@@ -737,6 +747,7 @@
 		{
 			dependencies: ["59E93DB37E085659"]
 			description: ["&6Was ist das?", "Viele neue Waffen von Katana bis Hellebarde. Sieh dir die Waffenübersicht an.", "", "&6So gehts", "Rezepte im Rezeptbuch.", "", "&6Wofür ist das wichtig?", "Viele Waffen mit besonderen Fähigkeiten."]
+			icon: { id: "minecraft:iron_sword" }
 			id: "68E6E846CD4EBF8F"
 			title: "Simply Swords"
 			rewards: [{ id: "5F4DE647EF40C25D", type: "xp_levels", xp_levels: 3 }]
@@ -757,6 +768,7 @@
 		{
 			dependencies: ["6F655800F3F2F44C"]
 			description: ["&6Was ist das?", "Viele neue Rüstungen. Sieh dir die Rüstungsübersicht an.", "", "&6So gehts", "Rezepte im Rezeptbuch.", "", "&6Wofür ist das wichtig?", "Rüstung mit Spezialfähigkeiten."]
+			icon: { id: "immersive_armors:bone_chestplate" }
 			id: "19E638D4100EDC74"
 			title: "Immersive Armors"
 			rewards: [{ id: "7F626B6066B0614A", type: "xp_levels", xp_levels: 3 }]
@@ -792,7 +804,8 @@
 			icon: { id: "takesapillage:archer_spawn_egg" }
 			id: "52166E69EAACE45E"
 			title: "Plünderer-Bogenschütze"
-			rewards: [{ id: "5C472C085D292F4A", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "5C472C085D292F4A", type: "xp_levels", xp_levels: 4 }, { id: "55DB9C927F264B28", type: "random", table_id: 9122779297218428223L }]
+			shape: "gear"
 			tasks: [{ id: "7FA564CA65E527F7", type: "kill", entity: "takesapillage:archer", value: 1L, icon: { id: "takesapillage:archer_spawn_egg" } }]
 			x: 22.50d
 			y: 4.500d
@@ -803,7 +816,8 @@
 			icon: { id: "variantsandventures:thicket_spawn_egg" }
 			id: "191B01FC4D9F7B7C"
 			title: "Varianten der Welt"
-			rewards: [{ id: "600F3A612D1F6E51", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "600F3A612D1F6E51", type: "xp_levels", xp_levels: 4 }, { id: "0C2EE477D96A7D6B", type: "random", table_id: 9122779297218428223L }]
+			shape: "gear"
 			tasks: [{ id: "0E46BF74C4B17875", type: "kill", entity: "variantsandventures:thicket", value: 1L, icon: { id: "variantsandventures:thicket_spawn_egg" } }]
 			x: 24.00d
 			y: 4.500d
@@ -814,7 +828,7 @@
 			icon: { id: "minecraftdungeonsv3:dagger" }
 			id: "07963A3E483D6532"
 			title: "Dungeons-Waffen"
-			rewards: [{ id: "2BFF75108842E0DB", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "2BFF75108842E0DB", type: "xp_levels", xp_levels: 2 }, { id: "1B9E8B2A407921CD", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "2AA6711E5FA7BAEF", type: "item", item: { id: "minecraftdungeonsv3:dagger", count: 1 }, count: 1L }]
 			x: 15.00d
 			y: 18.000d
@@ -861,7 +875,7 @@
 			icon: { id: "minecraft:diamond" }
 			id: "32D7C0032123B540"
 			title: "Zeitalter: Diamant-Zeitalter"
-			rewards: [{ id: "6A491A2F9597089E", type: "historystages:history_stage", stage: "diamantzeit", remove: false, individual: false }, { id: "79DC8B483630D416", type: "xp_levels", xp_levels: 5 }]
+			rewards: [{ id: "6A491A2F9597089E", type: "historystages:history_stage", stage: "diamantzeit", remove: false, individual: false }, { id: "79DC8B483630D416", type: "xp_levels", xp_levels: 5 }, { id: "7FF1E2EC53907569", type: "choice", table_id: 8947158638436567770L }]
 			tasks: [{ id: "2D71D00A621A0C2A", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
@@ -875,7 +889,7 @@
 			id: "29B2E131BE9306F9"
 			hide_dependency_lines: true
 			title: "Schwerter (Vanilla)"
-			rewards: []
+			rewards: [{ id: "6D7E135779594477", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "2955BF9DE2095E66", type: "item", item: { id: "minecraft:iron_sword", count: 1 }, count: 1L }]
 			x: 24.00d
 			y: -3.000d
@@ -886,7 +900,7 @@
 			icon: { id: "minecraft:crossbow" }
 			id: "6629FC4CC3C6B6A9"
 			title: "Armbrust"
-			rewards: []
+			rewards: [{ id: "314259ED341F0D2D", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "335E72583482DD14", type: "item", item: { id: "minecraft:crossbow", count: 1 }, count: 1L }]
 			x: 16.50d
 			y: 0.000d
@@ -941,7 +955,7 @@
 			icon: { id: "archeries:soft_arrow" }
 			id: "41CC43AF9B7DBDAA"
 			title: "Weicher Pfeil"
-			rewards: [{ id: "6A3B60DB78F775DA", type: "xp_levels", xp_levels: 1 }]
+			rewards: [{ id: "6A3B60DB78F775DA", type: "xp_levels", xp_levels: 1 }, { id: "78BF83C1E0FA3DD8", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "772263B2CA47719B", type: "item", item: { id: "archeries:soft_arrow", count: 1 }, count: 1L }]
 			x: 24.00d
 			y: 1.500d
@@ -963,7 +977,7 @@
 			icon: { id: "minecraft:iron_pickaxe" }
 			id: "7EE92A0700879328"
 			title: "Werkzeug-Set Eisen"
-			rewards: []
+			rewards: [{ id: "7E1CFD8EDC7FBE50", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "0FB4D99334EC4D6D", type: "checkmark" }]
 			x: 19.50d
 			y: 0.000d
@@ -974,7 +988,7 @@
 			icon: { id: "minecraft:golden_pickaxe" }
 			id: "1AE31944EF6F97EE"
 			title: "Werkzeug-Set Gold"
-			rewards: []
+			rewards: [{ id: "5CDDFDE065644954", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "7654E414D1757C7A", type: "checkmark" }]
 			x: 21.00d
 			y: -1.500d
@@ -985,7 +999,7 @@
 			icon: { id: "minecraft:shears" }
 			id: "36E364EF6A8F0098"
 			title: "Schere (Arsenal)"
-			rewards: []
+			rewards: [{ id: "401284312CD27229", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "05116E829A5C8A8D", type: "checkmark" }]
 			x: 24.00d
 			y: -1.500d
@@ -996,7 +1010,7 @@
 			icon: { id: "minecraft:chainmail_chestplate" }
 			id: "44EC141776D51B84"
 			title: "Rüstung Kette"
-			rewards: []
+			rewards: [{ id: "4B832C28C846B87B", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "17DF347F979C11EB", type: "checkmark" }]
 			x: 21.00d
 			y: 0.000d
@@ -1007,7 +1021,7 @@
 			icon: { id: "minecraft:iron_chestplate" }
 			id: "580698553ABB7937"
 			title: "Rüstung Eisen"
-			rewards: []
+			rewards: [{ id: "78FA935AA0E74B92", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "45D740DE057766FE", type: "checkmark" }]
 			x: 22.50d
 			y: 0.000d
@@ -1018,7 +1032,7 @@
 			icon: { id: "minecraft:golden_chestplate" }
 			id: "21B1E3B27D94A512"
 			title: "Rüstung Gold"
-			rewards: []
+			rewards: [{ id: "45F59C0D3EC9848C", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "61222B610F5D0E49", type: "checkmark" }]
 			x: 24.00d
 			y: 0.000d
@@ -1029,7 +1043,7 @@
 			icon: { id: "minecraft:turtle_helmet" }
 			id: "73F992CF3BC9C612"
 			title: "Schildkrötenpanzer"
-			rewards: []
+			rewards: [{ id: "5FFEC2C995F450E2", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "45776B60B2189CB4", type: "checkmark" }]
 			x: 25.50d
 			y: 0.000d
@@ -1040,7 +1054,8 @@
 			hide_dependency_lines: true
 			id: "4F50EC07951BCC41"
 			title: "Illager-Bote"
-			rewards: [{ id: "4A4D46519F411554", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "4A4D46519F411554", type: "xp_levels", xp_levels: 3 }, { id: "6E19C14D79B6CAB2", type: "random", table_id: 9122779297218428223L }]
+			shape: "gear"
 			tasks: [{ id: "044B3A4E6043B8B2", type: "kill", entity: "illagerinvasion:basher", value: 1L, icon: { id: "minecraft:iron_axe" } }]
 			x: 25.50d
 			y: -1.500d
@@ -1050,7 +1065,8 @@
 			description: ["&6Was ist das?", "Ein starker Illager mit Axt, tritt in Villen auf.", "", "&6So gehts", "Eisenrüstung, Schild, Goldäpfel. Greife ihn nicht von vorne an.", "", "&6Wofür ist das wichtig?", "Beweis, dass du die Illager schaffst."]
 			id: "28B6BDF2A019421F"
 			title: "Inquisitor"
-			rewards: [{ id: "6F809CD3F69738CC", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }]
+			rewards: [{ id: "6F809CD3F69738CC", type: "item", item: { id: "minecraft:golden_apple", count: 2 } }, { id: "12072A5E23B64F78", type: "random", table_id: 9122779297218428223L }]
+			shape: "gear"
 			tasks: [{ id: "36ADF8C9BDC104CD", type: "kill", entity: "illagerinvasion:inquisitor", value: 1L, icon: { id: "minecraft:iron_sword" } }]
 			x: 27.00d
 			y: -1.500d
@@ -1060,7 +1076,7 @@
 			description: ["&6Was ist das?", "Neun Eisenbarren werden zu einem Block.", "", "&6So gehts", "Neun Eisenbarren quadratisch in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch zum Lagern und für Baumaterial."]
 			id: "0A1C4349D4FA11BD"
 			title: "Eisenblock"
-			rewards: [{ id: "4CC52905DB7A2B04", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4CC52905DB7A2B04", type: "xp_levels", xp_levels: 2 }, { id: "0BD580CDAA57594E", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "592234E059392FA6", type: "item", item: { id: "minecraft:iron_block", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: -1.500d
@@ -1070,7 +1086,7 @@
 			description: ["&6Was ist das?", "Der Hochofen schmilzt Erze doppelt so schnell.", "", "&6So gehts", "Ofen, Eisenbarren und glatten Stein in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Spart bei großen Erzmengen viel Zeit."]
 			id: "1220F8092EE4B733"
 			title: "Hochofen"
-			rewards: [{ id: "4E639C37C1F1A406", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "4E639C37C1F1A406", type: "xp_levels", xp_levels: 2 }, { id: "39042F610F68AEA6", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "0865A14FAD3DC316", type: "item", item: { id: "minecraft:blast_furnace", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: -1.500d
@@ -1080,7 +1096,7 @@
 			description: ["&6Was ist das?", "Eisengitter sind Gitterstäbe.", "", "&6So gehts", "Werkbank: 6 Eisenbarren in 2 Reihen zu je 3 ergeben 16 Gitterstäbe.", "", "&6Wofür ist das wichtig?", "Zellen, Fenster, Fallen."]
 			id: "7E41D42443A85947"
 			title: "Eisengitter"
-			rewards: [{ id: "459DEF6DF965AD2F", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "459DEF6DF965AD2F", type: "xp_levels", xp_levels: 2 }, { id: "263629B45400B796", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "2321C1C989D105D0", type: "item", item: { id: "minecraft:iron_bars", count: 1 }, count: 8L }]
 			x: 9.00d
 			y: -4.500d
@@ -1090,7 +1106,7 @@
 			description: ["&6Was ist das?", "Eine Fackel, die Strom liefert.", "", "&6So gehts", "Redstone über einen Stock legen. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Dauerhafte Stromquelle und Basis vieler Schaltungen."]
 			id: "3B2C7FC17618D056"
 			title: "Redstone-Fackel"
-			rewards: [{ id: "1AC4C09FC9C878CD", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "1AC4C09FC9C878CD", type: "xp_levels", xp_levels: 2 }, { id: "0BE8A72884E0F4E3", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "4A7D1CF88FC64D74", type: "item", item: { id: "minecraft:redstone_torch", count: 1 }, count: 1L }]
 			x: 13.50d
 			y: -7.500d
@@ -1120,7 +1136,7 @@
 			description: ["&6Was ist das?", "Wirft Gegenstände aus, wenn er Strom bekommt.", "", "&6So gehts", "Bogen, Bruchstein und Redstone. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Nützlich für Fallen und automatisches Füttern."]
 			id: "54A6075ECA1863F7"
 			title: "Spender"
-			rewards: [{ id: "28248FC55A1E5666", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "28248FC55A1E5666", type: "xp_levels", xp_levels: 2 }, { id: "4F861C8AC1C1FD64", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "3882718F91FE9850", type: "item", item: { id: "minecraft:dispenser", count: 1 }, count: 1L }]
 			x: 18.00d
 			y: -6.000d
@@ -1130,7 +1146,7 @@
 			description: ["&6Was ist das?", "Schienen, die Loren beschleunigen.", "", "&6So gehts", "Gold, Stöcke und Redstone in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Redstone-Strom machen sie lange Strecken schnell."]
 			id: "40D67A0CB7079CE7"
 			title: "Antriebsschiene"
-			rewards: [{ id: "31A3014A54BAA1E7", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "31A3014A54BAA1E7", type: "xp_levels", xp_levels: 2 }, { id: "582FE72ABB2A212E", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "2B5377FB9601CE56", type: "item", item: { id: "minecraft:powered_rail", count: 1 }, count: 6L }]
 			x: 19.50d
 			y: -4.500d
@@ -1140,7 +1156,7 @@
 			description: ["&6Was ist das?", "Neun Redstone werden zu einem Block.", "", "&6So gehts", "Neun Redstone quadratisch in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Dauerhaft starke Stromquelle und kompaktes Lager."]
 			id: "63630CA978151DC1"
 			title: "Redstone-Block"
-			rewards: [{ id: "244C456C66BD2E43", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "244C456C66BD2E43", type: "xp_levels", xp_levels: 2 }, { id: "671091C4CB99463C", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "2A4FACB8B956F01B", type: "item", item: { id: "minecraft:redstone_block", count: 1 }, count: 1L }]
 			x: 13.50d
 			y: -10.500d
@@ -1150,7 +1166,7 @@
 			description: ["&6Was ist das?", "Spielt je nach Untergrund verschiedene Töne.", "", "&6So gehts", "Bretter und Redstone in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Strom baust du eigene Melodien."]
 			id: "04227A067E0FC49C"
 			title: "Notenblock"
-			rewards: [{ id: "352A016FA9186FFF", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "352A016FA9186FFF", type: "xp_levels", xp_levels: 2 }, { id: "6D6EAC3D04FA0504", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "59E8F024667C2818", type: "item", item: { id: "minecraft:note_block", count: 1 }, count: 1L }]
 			x: 16.50d
 			y: -9.000d
@@ -1160,7 +1176,7 @@
 			description: ["&6Was ist das?", "Ein Fass fasst Vorräte platzsparend.", "", "&6So gehts", "Bretter und Holzplatten in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch neben dem Ofen als Lager."]
 			id: "03185179B2908973"
 			title: "Lagerfass"
-			rewards: [{ id: "2613673C97332E8A", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "2613673C97332E8A", type: "xp_levels", xp_levels: 2 }, { id: "6EF191E9676A9B41", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "1253F8CA15B5C772", type: "item", item: { id: "minecraft:barrel", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 4.500d
@@ -1170,7 +1186,7 @@
 			description: ["&6Was ist das?", "Gibt Signal, wenn ein Pfeil trifft.", "", "&6So gehts", "Redstone und Heu in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Ideal für Zielscheiben und Fallen."]
 			id: "6E563307341EC5F2"
 			title: "Zielblock"
-			rewards: [{ id: "210226F9F33062F0", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "210226F9F33062F0", type: "xp_levels", xp_levels: 2 }, { id: "2390D01F6B64C505", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "4786D639E95C4BE1", type: "item", item: { id: "minecraft:target", count: 1 }, count: 1L }]
 			x: 18.00d
 			y: -7.500d
@@ -1178,6 +1194,7 @@
 		{
 			description: ["&6Abschnitt", "Redstone"]
 			dependencies: ["1953A324EE9E6A13"]
+			icon: { id: "minecraft:redstone" }
 			id: "588ACD3EE1C99447"
 			hide_dependency_lines: true
 			title: "Redstone"
@@ -1190,6 +1207,7 @@
 		{
 			description: ["&6Abschnitt", "Werkzeug und Ausbau"]
 			dependencies: ["6077C06A96337BE4"]
+			icon: { id: "minecraft:iron_pickaxe" }
 			id: "51BD8805351DA6E9"
 			hide_dependency_lines: true
 			title: "Werkzeug und Ausbau"
@@ -1202,6 +1220,7 @@
 		{
 			description: ["&6Abschnitt", "Arsenal Waffen und Rüstung"]
 			dependencies: ["0A3B510FB0DE8C3A"]
+			icon: { id: "minecraft:iron_chestplate" }
 			id: "5823885926B54EA5"
 			title: "Arsenal Waffen und Rüstung"
 			optional: true
@@ -1213,6 +1232,7 @@
 		{
 			description: ["&6Abschnitt", "Dungeons und Erkundung"]
 			dependencies: ["0A3B510FB0DE8C3A"]
+			icon: { id: "minecraft:compass" }
 			id: "5AE540F38397F31C"
 			title: "Dungeons und Erkundung"
 			optional: true
@@ -1224,6 +1244,7 @@
 		{
 			description: ["&6Abschnitt", "Reisen und Waypoints"]
 			dependencies: ["0A3B510FB0DE8C3A"]
+			icon: { id: "waystones:waystone" }
 			id: "31E8C90EB81DE455"
 			hide_dependency_lines: true
 			title: "Reisen und Waypoints"
@@ -1236,6 +1257,7 @@
 		{
 			description: ["&6Abschnitt", "Lager und Kisten"]
 			dependencies: ["6077C06A96337BE4"]
+			icon: { id: "minecraft:chest" }
 			id: "4987C18126DDC53B"
 			hide_dependency_lines: true
 			title: "Lager und Kisten"
@@ -1248,6 +1270,7 @@
 		{
 			description: ["&6Abschnitt", "Rucksäcke"]
 			dependencies: ["6077C06A96337BE4"]
+			icon: { id: "sophisticatedbackpacks:backpack" }
 			id: "5EF5F1C89BB2D086"
 			hide_dependency_lines: true
 			title: "Rucksäcke"
@@ -1260,6 +1283,7 @@
 		{
 			description: ["&6Abschnitt", "Dorf und Biome"]
 			dependencies: ["6077C06A96337BE4"]
+			icon: { id: "minecraft:emerald" }
 			id: "0AFCE31BE33FB530"
 			hide_dependency_lines: true
 			title: "Dorf und Biome"
@@ -1272,6 +1296,7 @@
 		{
 			description: ["&6Abschnitt", "Eisen-Waffen"]
 			dependencies: ["59E93DB37E085659"]
+			icon: { id: "minecraft:iron_sword" }
 			id: "654719D02E16F370"
 			hide_dependency_lines: true
 			title: "Eisen-Waffen"
@@ -1397,7 +1422,7 @@
 			icon: { id: "aquaculturedelight:fish_and_chips" }
 			id: "37CAB43C0861E8AD"
 			title: "Fish and Chips"
-			rewards: [{ id: "62D02358B9F232EA", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "62D02358B9F232EA", type: "xp_levels", xp_levels: 2 }, { id: "4BB3781E02CFB114", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "4079A9553376602C", type: "item", item: { id: "aquaculturedelight:fish_and_chips", count: 1 }, count: 1L }]
 			x: 21.00d
 			y: -18.000d
@@ -1468,7 +1493,7 @@
 			icon: { id: "powah:capacitor_hardened" }
 			id: "5845815EBE1A026E"
 			title: "Sieben Stufen"
-			rewards: [{ id: "2638216129A92107", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "2638216129A92107", type: "xp_levels", xp_levels: 2 }, { id: "7036C065B8D037B5", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "1349D7F422904689", type: "checkmark" }]
 			x: 12.00d
 			y: 19.500d
@@ -1488,7 +1513,7 @@
 			description: ["&6Was ist das?", "Gibt Strom an die Energiekugel ab.", "", "&6So gehts", "Herstellung: Quarz, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Dielektrischer Stab. Stelle ihn in kurzem Abstand zur Kugel auf.", "", "&6Wofür ist das wichtig?", "Mehr oder bessere Stäbe laden schneller."]
 			id: "3954DF096FF35505"
 			title: "Energisierstab"
-			rewards: [{ id: "7DC19E005CFE3676", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "7DC19E005CFE3676", type: "xp_levels", xp_levels: 2 }, { id: "52AF7C3165BD6B52", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "69FF9FAE800160D6", type: "item", item: { id: "powah:energizing_rod_starter", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 21.000d
@@ -1498,7 +1523,7 @@
 			description: ["&6Was ist das?", "Erzeugt Strom aus Lava und anderen magmatischen Flüssigkeiten.", "", "&6So gehts", "Rezept: Werkbank: 5x Dielektrische Paste, 2x Einfacher Kondensator (winzig), Dielektrisches Gehäuse, Eimer (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Herstellung: fünf Dielektrische Pasten, zwei Winzige Kondensatoren, Dielektrisches Gehäuse und ein Eimer. Welche Flüssigkeiten funktionieren, zeigt das Rezeptbuch unter Magmatische Flüssigkeiten.", "", "&6Wofür ist das wichtig?", "Gut, wenn du Lava in der Nähe hast."]
 			id: "3562446DBC8CD11F"
 			title: "Magmator"
-			rewards: [{ id: "0AF9A38A66FAD105", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "0AF9A38A66FAD105", type: "xp_levels", xp_levels: 2 }, { id: "7D951D0881EA361D", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "49FF915BC39A9F0F", type: "item", item: { id: "powah:magmator_starter", count: 1 }, count: 1L }]
 			x: 7.50d
 			y: 21.000d
@@ -1508,7 +1533,7 @@
 			description: ["&6Was ist das?", "Erzeugt tagsüber Strom ganz ohne Brennstoff.", "", "&6So gehts", "Herstellung: drei Photoelektrische Scheiben (Lapis, Glasscheibe, Paste), zwei Winzige Kondensatoren, Gehäuse und drei Dielektrische Pasten. Es muss freien Himmel haben.", "", "&6Wofür ist das wichtig?", "Mit Better Days sind die Tage lang, das lohnt sich."]
 			id: "33AF0110A0277424"
 			title: "Solarpanel"
-			rewards: [{ id: "497B6D8DBEDF1EA1", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "497B6D8DBEDF1EA1", type: "xp_levels", xp_levels: 2 }, { id: "12F73CBDBF85221E", type: "random", table_id: 9122779297218428223L }]
 			tasks: [{ id: "1C025B2F8455C681", type: "item", item: { id: "powah:solar_panel_starter", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 21.000d

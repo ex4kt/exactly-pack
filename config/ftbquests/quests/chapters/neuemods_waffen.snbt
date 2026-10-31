@@ -2,18 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "neuemods_waffen"
+	group: "468AD64DD4665C08"
 	icon: { id: "irons_artifice:blackpowder_revolver" }
 	id: "9B6CB067425E6994"
-	order_index: 35
+	order_index: 6
 	quest_links: [ ]
 	title: "&cSchusswaffen"
+	subtitle: ["Musketen, Kugeln und Zubehör"]
 	quests: [
 		{
 			description: ["&6Was ist das?", "Ein Kapitel für die Waffen aus Irons Arms and Artifice: Pulver, Pistolen, Revolver, Gewehre. Stärkere Waffen schaltest du mit den Zeitaltern frei.", "", "&6So gehts", "Alles hier ist freiwillig. Jede Linie ist ein Zweig, arbeite sie von links nach rechts ab.", "", "&6Wofür ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
 			icon: { id: "irons_artifice:blackpowder_revolver" }
 			id: "4DDCE2A848B64EE7"
 			title: "Schusswaffen"
-			rewards: []
+			rewards: [{ id: "723C22E7A324E98F", type: "xp", xp: 25 }]
 			tasks: [{ id: "205E8B02DD7D9BE8", type: "checkmark" }]
 			x: 0.00d
 			y: 0.00d

@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z11_meister"
+	group: "17290001E660111C"
 	icon: { id: "minecraft:netherite_ingot" }
 	id: "20A5180829C00618"
 	order_index: 7
 	quest_links: [ ]
 	title: "&4VIII. Meister-Zeitalter"
+	subtitle: ["Die stärksten Bosse und die beste Ausrüstung"]
 	quests: [
 		{
 			dependencies: ["07BE262D9D78209B", "5157AEBF5A6074A6"]
@@ -25,7 +27,8 @@
 			description: ["&6Was ist das?", "Der Wither entsteht aus Seelensand und drei Totenköpfen.", "", "&6So gehts", "T-Form aus vier Seelensand, oben drei Wither-Skelett-Schädel.", "Kämpfe unter der Erde, damit er nicht davonfliegt. Bring Milch gegen den Wither-Effekt.", "Unter der Hälfte seiner Leben bekommt er eine Panzerung: Pfeile treffen dann nicht mehr. Geh nah ran und kämpfe mit dem Schwert. Er fliegt in dieser Phase nicht mehr weg.", "", "&6Wofür ist das wichtig?", "Er lässt den Netherstern fallen, daraus baust du ein Leuchtfeuer.", "", "&6Gut zu wissen", "Er hat 300 Leben. Die Anleitung darunter führt dich Schritt für Schritt durch Ausrüstung, Schädel und Kampfplatz."]
 			id: "6E01392665CDEBA9"
 			title: "Der Wither"
-			rewards: [{ id: "4DC4D1E1F6E946A8", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }]
+			rewards: [{ id: "4DC4D1E1F6E946A8", type: "item", item: { id: "minecraft:enchanted_golden_apple", count: 1 } }, { id: "141A47D70DB48215", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "123623BFCDAD3606", type: "kill", entity: "minecraft:wither", value: 1L, icon: { id: "minecraft:wither_skeleton_skull" } }]
 			x: 10.50d
 			y: 0.00d
@@ -33,6 +36,7 @@
 		{
 			dependencies: ["6E01392665CDEBA9"]
 			description: ["&6Was ist das?", "Ignis ist ein Feuer-Boss aus dem Nether und lässt Ignitium fallen. Den Netherstern bekommst du vom Wither.", "", "&6So gehts", "Suche Ignis im Nether. Nimm Feuerresistenz-Tränke, beste Rüstung, Heilung und Fernkampf mit.", "Weiche seinen Feuerangriffen aus und schlage zu, sobald er nachlädt.", "Den Wither rufst du aus Seelensand und drei Wither-Schädeln, der Netherstern fällt beim Tod.", "", "&6Wofür ist das wichtig?", "Der Netherstern gibt dir das Leuchtfeuer, Ignis das Ignitium.", "", "&6Gut zu wissen", "Ignis lässt Ignitium-Barren und eine Musikplatte fallen."]
+			hide_until_deps_complete: true
 			id: "03D0118EABF00FE3"
 			title: "Netherstern"
 			rewards: [{ id: "2CBDB488CEAE20E0", type: "xp_levels", xp_levels: 8 }]
@@ -55,7 +59,8 @@
 			description: ["&6Was ist das?", "Ignis, der Flammen-Ritter aus Cataclysm.", "", "&6Wo findest du ihn?", "In der Brennenden Arena in den Nether-Ödlanden. Den Weg zeigt das Auge der Flamme (Enderauge, Lohenstaub, Netheritplatte, Seelensand).", "", "&6Was brauchst du?", "Brennende Asche: lassen Entflammte Wiedergänger fallen. Dazu Feuerresistenz, Netherit-Ausrüstung, Heilung.", "", "&6So gehts", "Lege die Brennende Asche auf den Altar des Feuers in der Arena, dann erwacht Ignis. Erst seinen Schild brechen, dann die Rüstung.", "", "&6Beute", "Ignitiumbarren. Danach erscheinen in Netherfestungen Entflammte Berserker."]
 			id: "780152119A23FCE9"
 			title: "Cataclysm: Ignis"
-			rewards: [{ id: "5A8204465CC5DEF1", type: "xp_levels", xp_levels: 12 }]
+			rewards: [{ id: "5A8204465CC5DEF1", type: "xp_levels", xp_levels: 12 }, { id: "5D5D1D7D6E362A74", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "67FAF71329234E9F", type: "kill", entity: "cataclysm:ignis", value: 1L, icon: { id: "minecraft:blaze_powder" } }]
 			x: 15.00d
 			y: 0.00d
@@ -63,6 +68,7 @@
 		{
 			dependencies: ["780152119A23FCE9"]
 			description: ["&6Was ist das?", "Das Netherit-Ungeheuer ist ein riesiger Boss. Von ihm kommt die Höllen-Schmiede.", "", "&6So gehts", "Nimm Feuerresistenz, beste Rüstung, viele Heiltränke mit. Er schlägt mit riesigem Hammer.", "Weiche seitlich aus und greife an, nachdem er zugeschlagen hat.", "", "&6Wofür ist das wichtig?", "Seine Beute macht feuerfeste Ausrüstung und starke Waffen möglich.", "", "&6Gut zu wissen", "Beute: Höllen-Schmiede (Hammer), Monströses Horn, Lava-Energiezelle, Musikplatte. Ignitium bekommst du aber von Ignis."]
+			hide_until_deps_complete: true
 			id: "4BCD5B014E5A3A68"
 			title: "Ignitium"
 			rewards: [{ id: "61DD01683588F3A1", type: "xp_levels", xp_levels: 6 }]
@@ -85,7 +91,8 @@
 			description: ["&6Was ist das?", "Der Netherite Monstrosity lauert in den Lavahöhlen. Er ist extrem stark.", "", "&6So gehts", "In der Seelenschmiede im Nether. Weiche den Lavakugeln aus.", "", "&6Wofür ist das wichtig?", "Er lässt die Höllen-Schmiede fallen."]
 			id: "7963AF6C8EC7C7EE"
 			title: "Cataclysm: Netherit-Ungeheuer"
-			rewards: [{ id: "129A4F0B0F6081D6", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }]
+			rewards: [{ id: "129A4F0B0F6081D6", type: "item", item: { id: "minecraft:netherite_scrap", count: 2 } }, { id: "4A8A3D11E2C209E2", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "0BE31258E0B895F8", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L, icon: { id: "minecraft:netherite_scrap" } }]
 			x: 19.50d
 			y: -1.50d
@@ -93,6 +100,7 @@
 		{
 			dependencies: ["7963AF6C8EC7C7EE"]
 			description: ["&6Was ist das?", "Der Kobolediator ist ein Wüsten-Boss. Er lässt Antikes Metall fallen.", "", "&6So gehts", "Wo: in der Verfluchten Pyramide in der Wüste. Nimm Rüstung, Heilung, gute Waffe mit.", "Töte zuerst die Koboletons um ihn herum, dann ihn.", "", "&6Wofür ist das wichtig?", "Antikes Metall ist Zutat für Cataclysm-Rüstung und -Waffen.", "", "&6Gut zu wissen", "Antikes Metall fällt auch aus Koboletons und Wadjets, und liegt in Wüsten-Truhen."]
+			hide_until_deps_complete: true
 			id: "4A02E0D40DE041CD"
 			title: "Höllen-Schmiede"
 			rewards: [{ id: "59DB50A5846968A3", type: "xp_levels", xp_levels: 8 }]
@@ -139,7 +147,7 @@
 			icon: { id: "cataclysm:soul_render" }
 			id: "5D712401476E2014"
 			title: "Seelenreißer"
-			rewards: [{ id: "6CA9215A3FC38584", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "6CA9215A3FC38584", type: "xp_levels", xp_levels: 2 }, { id: "1BF3CF6D34D0ED7C", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "280A89632FE1AF36", type: "item", item: { id: "cataclysm:soul_render", count: 1 }, count: 1L }]
 			x: 22.50d
 			y: 1.50d
@@ -149,7 +157,8 @@
 			description: ["&6Was ist das?", "Der Kobolediator, ein riesiges Skelett-Gladiator aus Cataclysm.", "", "&6Wo findest du ihn?", "In Wüsten, Savannen und Tafelbergen, dort wo die Koboletons leben.", "", "&6Was brauchst du?", "Gute Rüstung, Schild, Heilung.", "", "&6So gehts", "Er springt und schlägt mit seiner Klinge: seitlich ausweichen und nach dem Sprung zuschlagen.", "", "&6Beute", "Uraltmetallbarren, Kobolediator-Schädel und Koboleton-Knochen."]
 			id: "1C588DAD6DB23882"
 			title: "Cataclysm: Kobolediator"
-			rewards: [{ id: "093BEFC4751431EC", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "093BEFC4751431EC", type: "xp_levels", xp_levels: 6 }, { id: "74354CB5962B1383", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "50EAE31AC7E42652", type: "kill", entity: "cataclysm:kobolediator", value: 1L, icon: { id: "minecraft:sand" } }]
 			x: 16.50d
 			y: 3.00d
@@ -159,7 +168,8 @@
 			description: ["&6Was ist das?", "In der Verfluchten Pyramide liegt der Ancient Remnant. Er ist ein harter Boss.", "", "&6So gehts", "Bringe gute Rüstung, Essen und Heilung mit. Er ruft Sandstürme und Käfer.", "", "&6Wofür ist das wichtig?", "Er lässt Antikes Metall fallen, Material für starke Cataclysm-Waffen."]
 			id: "171ACBF09717672B"
 			title: "Cataclysm: Verfluchte Pyramide"
-			rewards: [{ id: "055F4DB54A381C6B", type: "item", item: { id: "minecraft:diamond", count: 3 } }]
+			rewards: [{ id: "055F4DB54A381C6B", type: "item", item: { id: "minecraft:diamond", count: 3 } }, { id: "3F4FDC6D784AC68E", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "2A29D1B2B6405E43", type: "kill", entity: "cataclysm:ancient_remnant", value: 1L, icon: { id: "minecraft:sandstone" } }]
 			x: 18.00d
 			y: 3.00d
@@ -167,6 +177,7 @@
 		{
 			dependencies: ["171ACBF09717672B"]
 			description: ["&6Was ist das?", "Der Harbinger ist ein Maschinen-Boss. Er lässt einen Witherit-Block fallen.", "", "&6So gehts", "Bereite Rüstung, Heilung und Fernkampf vor.", "Weiche seinen Angriffen aus und schlage zu, wenn er nachlädt.", "", "&6Wofür ist das wichtig?", "Der Witherit-Block ist die Grundlage für Witherit-Barren.", "", "&6Gut zu wissen", "Antikes Metall bekommst du nicht vom Harbinger, sondern vom Kobolediator."]
+			hide_until_deps_complete: true
 			id: "3F8056687CC98678"
 			title: "Antikes Metall"
 			rewards: [{ id: "6C42CB7562886EA8", type: "xp_levels", xp_levels: 5 }]
@@ -179,7 +190,8 @@
 			description: ["&6Was ist das?", "Der Harbinger, ein Kampfroboter aus Cataclysm.", "", "&6Wo findest du ihn?", "In der Alten Fabrik tief unter der Erde (etwa Höhe -30). Den Weg zeigt das Auge der Mechanik (Enderauge, Eisenbarren, Redstoneblock).", "", "&6Was brauchst du?", "Netherit-Ausrüstung, Schild, viel Heilung, Blöcke für Deckung.", "", "&6So gehts", "Er schläft in seiner Halle und muss geweckt werden. Er schießt Laser und Raketen: bleib in Bewegung und nutze Deckung.", "", "&6Beute", "Witheritblock (für Witherit-Ausrüstung)."]
 			id: "0117E82FFC94BBC7"
 			title: "Cataclysm: Harbinger"
-			rewards: [{ id: "21CB7DA05EE93751", type: "xp_levels", xp_levels: 14 }]
+			rewards: [{ id: "21CB7DA05EE93751", type: "xp_levels", xp_levels: 14 }, { id: "50CD1C6A28CECC06", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "3DF6E189003A0FD1", type: "kill", entity: "cataclysm:the_harbinger", value: 1L, icon: { id: "cataclysm:mech_eye" } }]
 			x: 21.00d
 			y: 3.00d
@@ -189,7 +201,8 @@
 			description: ["&6Was ist das?", "Maledictus, ein verfluchter Krieger aus Cataclysm.", "", "&6Wo findest du ihn?", "Im Frostgefängnis in verschneiten Ebenen. Den Weg zeigt das Auge des Fluchs (Enderauge, Knochen, Goldbarren, Phantomhaut, verrottetes Fleisch).", "", "&6Was brauchst du?", "Netherit-Ausrüstung, Schild, Heilung.", "", "&6So gehts", "Er wird im Gefängnis gerufen. Er ist sehr schnell: ausweichen und nach seinen Angriffen zuschlagen.", "", "&6Beute", "Cursiumbarren (für Cursium-Rüstung)."]
 			id: "632520937276C1DE"
 			title: "Cataclysm: Maledictus"
-			rewards: [{ id: "7C5BDA6C516B0C4F", type: "xp_levels", xp_levels: 14 }]
+			rewards: [{ id: "7C5BDA6C516B0C4F", type: "xp_levels", xp_levels: 14 }, { id: "63149F39C6823A6C", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "1E5D4B95C06CBB31", type: "kill", entity: "cataclysm:maledictus", value: 1L, icon: { id: "cataclysm:cursium_ingot" } }]
 			x: 22.50d
 			y: 3.00d
@@ -197,6 +210,7 @@
 		{
 			dependencies: ["632520937276C1DE"]
 			description: ["&6Was ist das?", "Der Korallen-Golem lebt in Unterwasser-Strukturen (Versunkene Stadt).", "", "&6So gehts", "Wo: in der Versunkenen Stadt im Ozean. Nimm Wasseratmung und Rüstung mit.", "Weiche aus und greife an, sobald er nachlädt.", "", "&6Wofür ist das wichtig?", "Gut für Cataclysm-Zutaten aus dem Meer.", "", "&6Gut zu wissen", "Cursium-Barren bekommst du vom Maledictus."]
+			hide_until_deps_complete: true
 			id: "12691D9AF22A663B"
 			title: "Cursium"
 			rewards: [{ id: "46B296004928AE4C", type: "xp_levels", xp_levels: 6 }]
@@ -209,7 +223,8 @@
 			description: ["&6Was ist das?", "Der Korallen-Golem lebt in den Ozeanen.", "", "&6So gehts", "Im Ozean suchen.", "", "&6Wofür ist das wichtig?", "Korallen-Brocken für Cataclysm-Rezepte."]
 			id: "7DFF058717D1BD39"
 			title: "Korallen-Golem"
-			rewards: [{ id: "4F68D04DA371E3BA", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "4F68D04DA371E3BA", type: "xp_levels", xp_levels: 6 }, { id: "1BF6ACE3F70F77CD", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "2FBFAD65FB346DC9", type: "kill", entity: "cataclysm:coral_golem", value: 1L, icon: { id: "cataclysm:coral_chunk" } }]
 			x: 25.50d
 			y: 3.00d
@@ -219,7 +234,8 @@
 			description: ["&6Was ist das?", "Die Amethyst-Krabbe lebt im Amethyst-Nest.", "", "&6So gehts", "Wo: im Amethyst-Nest in den Üppigen Höhlen. Nimm Schwert und Heilung mit.", "Sie hat einen harten Panzer. Schlage von der Seite.", "", "&6Wofür ist das wichtig?", "Der Amethyst-Panzer ist Zutat für Cataclysm-Rezepte.", "", "&6Gut zu wissen", "Im Amethyst-Nest steht eine Truhe, die auch Panzer enthält."]
 			id: "43E50A0EB3F3D296"
 			title: "Amethyst-Krabbe"
-			rewards: [{ id: "5D5B19B1AE56557B", type: "xp_levels", xp_levels: 6 }]
+			rewards: [{ id: "5D5B19B1AE56557B", type: "xp_levels", xp_levels: 6 }, { id: "46D9EBBEBAB25A24", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "6A170EA349BD1D02", type: "kill", entity: "cataclysm:amethyst_crab", value: 1L, icon: { id: "cataclysm:amethyst_crab_shell" } }]
 			x: 27.00d
 			y: 3.00d
@@ -228,9 +244,10 @@
 			dependencies: ["43E50A0EB3F3D296"]
 			description: ["&6Was ist das?", "Cataclysm: Rüstung aus Cursium.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Eine der besten Rüstungen im Spiel."]
 			icon: { id: "cataclysm:cursium_chestplate" }
+			hide_until_deps_complete: true
 			id: "531C072BDD8D16E0"
 			title: "Cursium-Rüstung"
-			rewards: [{ id: "434CFA49A0FA6EB9", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "434CFA49A0FA6EB9", type: "xp_levels", xp_levels: 2 }, { id: "7E5F1EB6914F9C50", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "3B0A6A74DD9420A6", type: "item", item: { id: "cataclysm:cursium_chestplate", count: 1 }, count: 1L }]
 			x: 28.50d
 			y: 3.00d
@@ -252,7 +269,7 @@
 			icon: { id: "friendsandfoes:totem_of_illusion" }
 			id: "339A6D4DBCC4DBE9"
 			title: "Totem der Illusion"
-			rewards: [{ id: "49D1E70097ABC8AA", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "49D1E70097ABC8AA", type: "xp_levels", xp_levels: 2 }, { id: "1160CF453266179C", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "44C4A9652EFE4AFC", type: "item", item: { id: "friendsandfoes:totem_of_illusion", count: 1 }, count: 1L }]
 			x: 15.00d
 			y: -1.50d
@@ -262,7 +279,8 @@
 			description: ["&6Was ist das?", "Der Ender Guardian aus Cataclysm.", "", "&6Wo findest du ihn?", "In der Zerstörten Zitadelle in den End-Hochländern. Den Weg zeigt das Auge der Leere (Enderauge, Endsteinziegel, Purpurblöcke, Shulkerschale).", "", "&6Was brauchst du?", "Netherit-Ausrüstung, Langsamer-Fall-Tränke, Blöcke. Leerenkerne lassen Endergolems in der Zitadelle fallen.", "", "&6So gehts", "Er wartet im Inneren der Zitadelle. Er beschwört Leerenrunen aus dem Boden: nicht stehen bleiben.", "", "&6Beute", "Panzerhandschuh der Wacht."]
 			id: "30D4B8A5EA0E5F23"
 			title: "Der Ender-Wächter"
-			rewards: [{ id: "42BA7876D19EFA8F", type: "xp_levels", xp_levels: 12 }]
+			rewards: [{ id: "42BA7876D19EFA8F", type: "xp_levels", xp_levels: 12 }, { id: "13FD2C60E75192CC", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "35C06F51BE7E7C02", type: "kill", entity: "cataclysm:ender_guardian", value: 1L, icon: { id: "minecraft:end_rod" } }]
 			x: 19.50d
 			y: 0.00d
@@ -270,6 +288,7 @@
 		{
 			dependencies: ["30D4B8A5EA0E5F23"]
 			description: ["&6Was ist das?", "Der Ender-Golem lebt im Ende.", "", "&6So gehts", "Gehe ins Ende und suche ihn.", "Nimm Rüstung, Heilung und Blöcke zum Bauen mit. Weiche seinen Schlägen aus.", "", "&6Wofür ist das wichtig?", "Seine Beute macht starke Ende-Waffen.", "", "&6Gut zu wissen", "Der Ender-Wächter lässt Wächter-Handschuh und eine Musikplatte fallen."]
+			hide_until_deps_complete: true
 			id: "5E470834EC412470"
 			title: "Enderit"
 			rewards: [{ id: "7066DDA5FDD4C9D5", type: "xp_levels", xp_levels: 6 }]
@@ -302,7 +321,8 @@
 			description: ["&6Was ist das?", "Der Ender Golem ist ein Gegner von Cataclysm.", "", "&6So gehts", "In den Endinseln suchen.", "", "&6Wofür ist das wichtig?", "Material für Cataclysm."]
 			id: "4462D623E69BC5A5"
 			title: "Ender-Golem"
-			rewards: [{ id: "1900DB513F64797A", type: "xp_levels", xp_levels: 8 }]
+			rewards: [{ id: "1900DB513F64797A", type: "xp_levels", xp_levels: 8 }, { id: "43E1CB8172348847", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "1C5E7E70A1412F5C", type: "kill", entity: "cataclysm:ender_golem", value: 1L, icon: { id: "minecraft:end_stone" } }]
 			x: 25.50d
 			y: 0.00d
@@ -312,7 +332,8 @@
 			description: ["&6Was ist das?", "Die Endermaptera ist ein Käfer aus dem Ende.", "", "&6So gehts", "Gehe ins Ende. Suche sie dort in der Umgebung.", "Sie greift im Nahkampf an. Schlage zurück.", "", "&6Wofür ist das wichtig?", "Gut für Chorusfrucht und Cataclysm-Rezepte."]
 			id: "67AF610D0A62F9FC"
 			title: "Endermaptera"
-			rewards: [{ id: "414E0E2978AB85E6", type: "xp_levels", xp_levels: 4 }]
+			rewards: [{ id: "414E0E2978AB85E6", type: "xp_levels", xp_levels: 4 }, { id: "40FC1E75F61B45AD", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "2A162AE6D1F9A39D", type: "kill", entity: "cataclysm:endermaptera", value: 1L, icon: { id: "minecraft:chorus_fruit" } }]
 			x: 27.00d
 			y: 0.00d
@@ -322,7 +343,8 @@
 			description: ["&6Was ist das?", "Der Leviathan, ein riesiges Seeungeheuer aus Cataclysm.", "", "&6Wo findest du ihn?", "In der Versunkenen Stadt im tiefen Ozean. Den Weg zeigt das Auge des Abgrunds (Enderauge, Obsidian, Weinender Obsidian).", "", "&6Was brauchst du?", "Ein Abgrundopfer: Athame (von Deepling-Priestern und -Hexenmeistern), Kristallisierte Koralle oder Korallenbrocken, Herz des Meeres, Nautilusschale und Blöcke aus Eisen, Gold, Diamant, Smaragd, Amethyst (Rezept im Rezeptbuch).", "Dazu Wasseratmung, Tiefenläufer und Wasseraffinität.", "", "&6So gehts", "Lege das Abgrundopfer auf den Altar des Abgrunds. Außerhalb des Wassers ist er unverwundbar: du musst im Wasser kämpfen.", "", "&6Beute", "Gezeitenklauen und Abgrund-Ei. Danach erscheinen Korallengolems im Ozean."]
 			id: "4917E9741E66678F"
 			title: "Der Leviathan"
-			rewards: [{ id: "3A62C11DD65AD7A4", type: "item", item: { id: "minecraft:diamond", count: 5 } }]
+			rewards: [{ id: "3A62C11DD65AD7A4", type: "item", item: { id: "minecraft:diamond", count: 5 } }, { id: "3E0D4F98F54786D1", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "04CB9AA45C71B67E", type: "kill", entity: "cataclysm:the_leviathan", value: 1L, icon: { id: "minecraft:prismarine_crystals" } }]
 			x: 28.50d
 			y: 0.00d
@@ -363,7 +385,7 @@
 			icon: { id: "irons_spellbooks:legendary_spell_book" }
 			id: "3AD4802D7DA27110"
 			title: "Legendäres Zauberbuch"
-			rewards: [{ id: "3DE92F76B05A132B", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3DE92F76B05A132B", type: "xp_levels", xp_levels: 2 }, { id: "15D9D1C17E57A685", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "7A08B7AEB0B13E40", type: "item", item: { id: "irons_spellbooks:legendary_spell_book", count: 1 }, count: 1L }]
 			x: 27.00d
 			y: -1.50d
@@ -388,7 +410,7 @@
 			icon: { id: "minecraft:nether_star" }
 			id: "495422205A04E91E"
 			title: "Meister von Exactly"
-			rewards: [{ id: "584EDC7C83D756A5", type: "item", item: { id: "minecraft:nether_star", count: 1 } }]
+			rewards: [{ id: "584EDC7C83D756A5", type: "item", item: { id: "minecraft:nether_star", count: 1 } }, { id: "54DFBD4858913D28", type: "choice", table_id: 8198849010029719595L }]
 			tasks: [{ id: "750FB9389F742288", type: "checkmark" }]
 			shape: "hexagon"
 			size: 1.5d
@@ -401,7 +423,7 @@
 			icon: { id: "minecraft:netherite_pickaxe" }
 			id: "2A044A33576EB449"
 			title: "Werkzeug-Set Netherit"
-			rewards: []
+			rewards: [{ id: "0F44423F24F95BB1", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "52273EFF1947A991", type: "checkmark" }]
 			x: 15.00d
 			y: 4.50d
@@ -413,7 +435,7 @@
 			id: "4E7F5A03345F278F"
 			hide_dependency_lines: true
 			title: "Netherit-Iron-Set"
-			rewards: []
+			rewards: [{ id: "75F79D2593E03D0E", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "790B148956B804D0", type: "checkmark" }]
 			x: 16.50d
 			y: 7.50d
@@ -425,7 +447,7 @@
 			id: "591F6ECAF470D1C0"
 			hide_dependency_lines: true
 			title: "Netherit-Gold-Set"
-			rewards: []
+			rewards: [{ id: "52A65D0BE6E42B1C", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "461071BE3F3A97A1", type: "checkmark" }]
 			x: 18.00d
 			y: 7.50d
@@ -437,7 +459,7 @@
 			id: "64DF87B9BD191ECD"
 			hide_dependency_lines: true
 			title: "Netherit-Emerald-Set"
-			rewards: []
+			rewards: [{ id: "41313329959304EF", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "35081777F312F439", type: "checkmark" }]
 			x: 19.50d
 			y: 7.50d
@@ -449,7 +471,7 @@
 			id: "1F4697D2311127DE"
 			hide_dependency_lines: true
 			title: "Netherit-Diamond-Set"
-			rewards: []
+			rewards: [{ id: "1B83180244C8379A", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "3A72D49448610865", type: "checkmark" }]
 			x: 21.00d
 			y: 7.50d
@@ -461,7 +483,7 @@
 			id: "05F836785DB50EE2"
 			hide_dependency_lines: true
 			title: "Black-Steel-Set"
-			rewards: []
+			rewards: [{ id: "59E4D5715693C206", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "0362F1BFC0B24991", type: "checkmark" }]
 			x: 22.50d
 			y: 7.50d
@@ -473,7 +495,7 @@
 			id: "078B02F4BC6E00EE"
 			hide_dependency_lines: true
 			title: "Rüstung Netherit"
-			rewards: []
+			rewards: [{ id: "32BD3939AC3D6EFF", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "3D60EC805B78B91E", type: "checkmark" }]
 			x: 16.50d
 			y: 4.50d
@@ -484,7 +506,8 @@
 			id: "68D7DD5270AC0F36"
 			hide_dependency_lines: true
 			title: "Gauntlet"
-			rewards: [{ id: "42C54CC2B608230D", type: "xp_levels", xp_levels: 15 }, { id: "36F02085563B49D5", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			rewards: [{ id: "42C54CC2B608230D", type: "xp_levels", xp_levels: 15 }, { id: "36F02085563B49D5", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }, { id: "449EC307491E37A0", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "3AF8786E18213695", type: "kill", entity: "bosses_of_mass_destruction:gauntlet", value: 1L, icon: { id: "minecraft:blackstone" } }]
 			x: 9.00d
 			y: -4.50d
@@ -494,7 +517,8 @@
 			description: ["&6Was ist das?", "Der Obsidilith ist ein riesiger Obsidian-Boss. Er wartet in einer Arena.", "", "&6So gehts", "Suche die Obsidilith-Arena. Nimm Netheritrüstung, Diamantspitzhacke, Heiltränke und Fernkampf mit.", "Weiche seinen Angriffen aus und greife zwischen den Angriffen an.", "", "&6Wofür ist das wichtig?", "Die Truhe enthält das Obsidianherz, Obsidian und Purpurblöcke.", "", "&6Gut zu wissen", "Beute: Obsidianherz, Obsidian, Purpurblöcke."]
 			id: "1EF42B80CF8766E1"
 			title: "Obsidilith"
-			rewards: [{ id: "39FFEFF49D220694", type: "xp_levels", xp_levels: 15 }, { id: "0A5912A44CFDC8C0", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }]
+			rewards: [{ id: "39FFEFF49D220694", type: "xp_levels", xp_levels: 15 }, { id: "0A5912A44CFDC8C0", type: "item", item: { id: "minecraft:netherite_scrap", count: 4 } }, { id: "5BCFC4F01B4C3B1F", type: "random", table_id: 6279185533977231229L }]
+			shape: "gear"
 			tasks: [{ id: "41B1E37A305DB862", type: "kill", entity: "bosses_of_mass_destruction:obsidilith", value: 1L, icon: { id: "minecraft:obsidian" } }]
 			x: 10.50d
 			y: -4.50d
@@ -502,9 +526,10 @@
 		{
 			dependencies: ["6E01392665CDEBA9"]
 			description: ["&6Was ist das?", "Die Wither-Rose ist eine dunkle Blume, die den Wither-Effekt gibt.", "", "&6So gehts", "Sie entsteht, wenn der Wither ein Wesen tötet.", "Mit Create: eine Mohnblume mit dem Seelenfeuer-Gebläse verfluchen.", "", "&6Wofür ist das wichtig?", "Zutat für Tränke."]
+			hide_until_deps_complete: true
 			id: "61C907445E967B59"
 			title: "Wither-Rose"
-			rewards: [{ id: "3808D52F8490A8DE", type: "xp_levels", xp_levels: 2 }]
+			rewards: [{ id: "3808D52F8490A8DE", type: "xp_levels", xp_levels: 2 }, { id: "0924BB0D30695E5A", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "61FEE277B4664DD7", type: "item", item: { id: "minecraft:wither_rose", count: 1 }, count: 1L }]
 			x: 12.00d
 			y: 1.50d
@@ -544,12 +569,12 @@
 		}
 		{
 			dependencies: ["0E820BF0F76E3142"]
-			description: ["&6Was ist das?", "Witherskelette leben nur in Netherfestungen.", "", "&6So gehts", "Geh in den Nether und suche eine Netherfestung (dunkle Backstein-Bauten).", "Dafür den Kompass des Entdeckers nutzen: Rechtsklick, Netherfestung wählen, Suchen. Der Naturkompass findet nur Biome, keine Bauwerke.", "Baue Brücken über Lavaseen und nimm genug Blöcke und Feuerresistenz-Tränke mit.", "", "&6Wofür ist das wichtig?", "Nur dort fallen die Witherskelett-Schädel. Eine Festung ist voll von Blazes und Skeletten: Sei vorsichtig."]
+			description: ["&6Was ist das?", "Witherskelette leben nur in Netherfestungen.", "", "&6So gehts", "Geh in den Nether und suche eine Netherfestung (dunkle Backstein-Bauten).", "Dafür den Kompass des Entdeckers nutzen: Rechtsklick, Netherfestung wählen, Suchen. Der Naturkompass findet nur Biome, keine Bauwerke.", "Baue Brücken über Lavaseen und nimm genug Blöcke und Feuerresistenz-Tränke mit.", "Die Quest ist erledigt, wenn du in der Festung Netherziegel anschaust.", "", "&6Wofür ist das wichtig?", "Nur dort fallen die Witherskelett-Schädel. Eine Festung ist voll von Blazes und Skeletten: Sei vorsichtig."]
 			icon: { id: "minecraft:nether_bricks" }
 			id: "2CC166EDC1678FF2"
 			title: "Wither: Netherfestung finden"
 			rewards: [{ id: "0C8B99C7EE289B99", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "25A8B886B39D53C3", type: "checkmark" }]
+			tasks: [{ id: "25A8B886B39D53C3", type: "observation", observation_type: "block", observe_type: 0, timer: 0L, to_observe: "minecraft:nether_bricks", icon: { id: "minecraft:nether_bricks" } }]
 			x: 16.50d
 			y: -4.50d
 		}
@@ -592,7 +617,7 @@
 			icon: { id: "minecraft:soul_sand" }
 			id: "1C35BA97EED2E9ED"
 			title: "Wither: Aufbau"
-			rewards: [{ id: "5DC969B26362A92C", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "5DC969B26362A92C", type: "xp_levels", xp_levels: 3 }, { id: "73E557B994BC47FB", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "79FC1DDC88579A9C", type: "checkmark" }]
 			x: 22.50d
 			y: -4.50d
@@ -600,6 +625,7 @@
 		{
 			description: ["&6Abschnitt", "Zauberbücher"]
 			dependencies: ["103D3053E09ACE15"]
+			icon: { id: "irons_spellbooks:netherite_spell_book" }
 			id: "58A8D15D4CCBF80A"
 			hide_dependency_lines: true
 			title: "Zauberbücher"
@@ -612,6 +638,7 @@
 		{
 			description: ["&6Abschnitt", "Cataclysm-Bosse und Ausrüstung"]
 			dependencies: ["103D3053E09ACE15"]
+			icon: { id: "cataclysm:ignitium_ingot" }
 			id: "63C8984D01633D2B"
 			hide_dependency_lines: true
 			title: "Cataclysm-Bosse und Ausrüstung"
@@ -624,6 +651,7 @@
 		{
 			description: ["&6Abschnitt", "Schwerter und Speere"]
 			dependencies: ["103D3053E09ACE15"]
+			icon: { id: "minecraft:netherite_sword" }
 			id: "55BE5763A6243E0C"
 			title: "Schwerter und Speere"
 			optional: true
@@ -635,6 +663,7 @@
 		{
 			description: ["&6Abschnitt", "Werkzeug-Sets"]
 			dependencies: ["103D3053E09ACE15"]
+			icon: { id: "minecraft:netherite_pickaxe" }
 			id: "21DF6B6AB2D737F7"
 			title: "Werkzeug-Sets"
 			optional: true
@@ -646,6 +675,7 @@
 		{
 			description: ["&6Abschnitt", "Rüstungen"]
 			dependencies: ["103D3053E09ACE15"]
+			icon: { id: "minecraft:netherite_chestplate" }
 			id: "3B070A5A60E965F0"
 			title: "Rüstungen"
 			optional: true
@@ -657,6 +687,7 @@
 		{
 			description: ["&6Abschnitt", "Boss-Beschwörung", "", "Cataclysm-Bauwerke findest du mit Augen, die wie Enderaugen fliegen:", "- Auge der Flamme: Brennende Arena (Ignis, Nether)", "- Monströses Auge: Seelenschmiede (Netherit-Monstrosität, Nether)", "- Auge der Mechanik: Alte Fabrik (Harbinger, unterirdisch)", "- Auge des Fluchs: Frostgefängnis (Maledictus)", "- Auge der Wüste: Verfluchte Pyramide (Uralter Überrest, Wüste)", "- Auge des Abgrunds: Versunkene Stadt (Leviathan)", "- Auge der Leere: Zerstörte Zitadelle (Ender-Wächter, End)", "- Auge des Sturms: Akropolis (Scylla, warmer Ozean)"]
 			dependencies: ["07BE262D9D78209B"]
+			icon: { id: "minecraft:nether_star" }
 			id: "522FC73A3C82A787"
 			title: "Boss-Beschwörung"
 			optional: true
@@ -681,7 +712,7 @@
 			description: ["&6Was ist das?", "Der Nitro-Furnator ist die letzte Stufe des Furnators.", "", "&6So gehts", "Werkbank: Beseelter Furnator in der Mitte unten, 2 Nitro-Kondensatoren, Dielektrisches Gehäuse und 5 Nitro-Kristalle (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "", "&6Wofür ist das wichtig?", "Starke Energie."]
 			id: "79A2A9609ED1834A"
 			title: "Nitro-Furnator"
-			rewards: [{ id: "3482C884503AF595", type: "xp_levels", xp_levels: 3 }]
+			rewards: [{ id: "3482C884503AF595", type: "xp_levels", xp_levels: 3 }, { id: "175C8E2C73FDE187", type: "random", table_id: 6279185533977231229L }]
 			tasks: [{ id: "483915046B72FD01", type: "item", item: { id: "powah:furnator_nitro", count: 1 }, count: 1L }]
 			x: 13.50d
 			y: 12.000d

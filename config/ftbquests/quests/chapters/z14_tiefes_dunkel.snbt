@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z14_tiefes_dunkel"
+	group: "468AD64DD4665C08"
 	icon: { id: "deeperdarker:resonarium" }
 	id: "4041F5EE8BAE8E66"
-	order_index: 20
+	order_index: 2
 	quest_links: [ ]
 	title: "&3Tiefes Dunkel"
+	subtitle: ["Resonarium, das Herz der Tiefe und die Otherside"]
 	quests: [
 		{
 			dependencies: ["3289CBE6B6A936DA"]
@@ -24,6 +26,7 @@
 		{
 			dependencies: ["04D7ABAA8C88AD3A"]
 			description: ["&6Was ist das?", "Das Tiefe Dunkel ist sehr gefährlich (Wächter!). Nimm Heilung, gute Rüstung, Wolle und Blöcke mit. Schleichen vermeidet Geräusche.", "", "&6So gehts", "Lies zuerst die Anleitung zum Wächter im Diamant-Kapitel. Bereite Essen, Goldene Äpfel und Fernkampf vor."]
+			icon: { id: "minecraft:golden_apple" }
 			id: "25FD9EA42E87DEB6"
 			title: "Tiefes Dunkel: Vorbereitung"
 			rewards: [{ id: "29DC51F6D3CC2E3D", type: "xp_levels", xp_levels: 3 }]
@@ -33,17 +36,18 @@
 		}
 		{
 			dependencies: ["25FD9EA42E87DEB6"]
-			description: ["&6Was ist das?", "In jeder Antiken Stadt steht in der Mitte ein großer Rahmen aus Verstärktem Tiefenschiefer. Das ist das Portal in die Otherside.", "", "&6So gehts", "Schritt 1: Besiege den Wächter. Er lässt immer ein Herz der Tiefe fallen.", "Schritt 2: Räume den Innenraum des Rahmens leer. Sculk-Adern an den Kanten blockieren das Zünden.", "Schritt 3: Halte das Herz und klicke auf die Innenseite des Rahmens (nicht außen).", "Das Herz wird verbraucht. Danach führt das Portal in die Otherside.", "", "&6Wofür ist das wichtig?", "Ohne dieses Portal kommst du nicht in die Otherside."]
+			description: ["&6Was ist das?", "In jeder Antiken Stadt steht in der Mitte ein großer Rahmen aus Verstärktem Tiefenschiefer. Das ist das Portal in die Otherside.", "", "&6So gehts", "Schritt 1: Besiege den Wächter. Er lässt immer ein Herz der Tiefe fallen.", "Schritt 2: Räume den Innenraum des Rahmens leer. Sculk-Adern an den Kanten blockieren das Zünden.", "Schritt 3: Halte das Herz und klicke auf die Innenseite des Rahmens (nicht außen).", "Das Herz wird verbraucht. Danach führt das Portal in die Otherside.", "Die Quest ist erledigt, sobald du in der Otherside stehst.", "", "&6Wofür ist das wichtig?", "Ohne dieses Portal kommst du nicht in die Otherside."]
 			id: "6BAD6BE28E7AA6E9"
 			title: "Tiefes Dunkel: Portal zur Otherside"
 			rewards: [{ id: "050ADA384413F268", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "35824E43AE321B2C", type: "checkmark" }]
+			tasks: [{ id: "35824E43AE321B2C", type: "dimension", dimension: "deeperdarker:otherside", icon: { id: "minecraft:reinforced_deepslate" } }]
 			x: 3.00d
 			y: 0.00d
 		}
 		{
 			dependencies: ["6BAD6BE28E7AA6E9"]
 			description: ["&6Was ist das?", "Resonarium ist das Material für Wächter-Waffen und -Rüstung.", "", "&6So gehts", "Besiege Schlamm-Gegner (Sludge) in der Otherside. Sie lassen Resonarium fallen.", "Die Wächter-Aufwertungsvorlage dupliziert du an der Werkbank: 7 Diamanten, 1 Sculk und 1 Vorlage (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Im Schmiedetisch wertest du Diamantausrüstung mit der Vorlage zu Wächter-Ausrüstung auf.", "", "&6Wofür ist das wichtig?", "Starke Wächter-Ausrüstung."]
+			icon: { id: "deeperdarker:resonarium" }
 			id: "18E334144443C0F9"
 			title: "Tiefes Dunkel: Resonarium"
 			rewards: [{ id: "7DABE929C4A334BF", type: "xp_levels", xp_levels: 3 }]
@@ -54,6 +58,7 @@
 		{
 			dependencies: ["18E334144443C0F9"]
 			description: ["&6Was ist das?", "In der Otherside leben Gegner, die auf Geräusche reagieren.", "", "&6So gehts", "Schleiche (Shift), setze Wolle als Dämpfer und beleuchte den Weg.", "Der Stalker lässt Seelenkristalle fallen. Seelenkristalle liegen auch im Brunnen des Alten Tempels.", "Aus Seelenkristall, Seelenstaub, Sculk-Knochen und einer Elytra baust du die Seelen-Elytra (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "", "&6Wofür ist das wichtig?", "Beute für Waffen, Rüstung und die Seelen-Elytra."]
+			icon: { id: "minecraft:sculk_shrieker" }
 			id: "70EB9A0A96263AE6"
 			title: "Tiefes Dunkel: Gefahren"
 			rewards: [{ id: "00A61F933D6C51E3", type: "xp_levels", xp_levels: 3 }]

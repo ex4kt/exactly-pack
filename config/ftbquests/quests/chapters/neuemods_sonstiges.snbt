@@ -2,18 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "neuemods_sonstiges"
+	group: "0265F2BD15BD46AE"
 	icon: { id: "lootr:lootr_chest" }
 	id: "234C32CD107BA6B3"
-	order_index: 37
+	order_index: 1
 	quest_links: [ ]
 	title: "&aWeitere Mods"
+	subtitle: ["Was sonst noch im Pack steckt"]
 	quests: [
 		{
 			description: ["&6Was ist das?", "Ein Kapitel für kleine Mods, die bisher keinen Eintrag hatten: Lootr, Grabsteine, XP-Tome, Amendments, Toil and Trouble, Rechiseled Create, Dorfwachen, Relikte und mehr Zweithand-Slots.", "", "&6So gehts", "Alles hier ist freiwillig. Hake einfach ab, was dich interessiert.", "", "&6Wofür ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
 			icon: { id: "lootr:lootr_chest" }
 			id: "1F9A49EA0F75944D"
 			title: "Weitere Mods"
-			rewards: []
+			rewards: [{ id: "6AB01DE6F129C178", type: "xp", xp: 25 }]
 			tasks: [{ id: "691762801BA2AE57", type: "checkmark" }]
 			x: 0.00d
 			y: 0.00d
@@ -124,7 +126,7 @@
 			id: "68EAA9F38E911490"
 			title: "Schnellere Boote"
 			rewards: [{ id: "57FC15A3E4817E37", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "52A0F8AF1354647C", type: "item", title: "Beliebiges Boot", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:boats)" } }, count: 1L }]
+			tasks: [{ id: "52A0F8AF1354647C", type: "item", title: "Beliebiges Boot", icon: { id: "minecraft:oak_boat" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:boats)" } }, count: 1L }]
 			x: 1.50d
 			y: 1.50d
 		}
@@ -138,6 +140,50 @@
 			tasks: [{ id: "7BBDC31CE7558FA2", type: "checkmark" }]
 			x: 3.00d
 			y: 1.50d
+		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Pipez-Rohre bringen Gegenstände, Flüssigkeiten oder Energie von einem Block zum anderen.", "Es gibt Rohre für Gegenstände, Flüssigkeiten, Energie, Gas und ein Universalrohr für alles.", "", "&6So gehts", "Verbinde zwei Blöcke mit Rohren, zum Beispiel eine Truhe und einen Ofen.", "Ein Rohr nimmt erst etwas heraus, wenn du die Anschlussseite mit dem Schraubenschlüssel umstellst.", "", "&6Wofür ist das wichtig?", "Damit laufen Öfen, Farmen und Lager ganz von selbst."]
+			icon: { id: "pipez:item_pipe" }
+			id: "61D24810949A1CE2"
+			title: "Rohre (Pipez)"
+			rewards: [{ id: "158934D8ED8FFB14", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "776B8EE4B7180BC0", type: "item", title: "Beliebiges Rohr aus Pipez", icon: { id: "pipez:item_pipe" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(pipez:item_pipe)item(pipez:fluid_pipe)item(pipez:energy_pipe)item(pipez:gas_pipe)item(pipez:universal_pipe))" } }, count: 1L }]
+			x: 1.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["61D24810949A1CE2"]
+			description: ["&6Was ist das?", "Der Schraubenschlüssel stellt Rohre ein.", "", "&6So gehts", "Rechtsklick mit dem Schlüssel auf eine Anschlussseite: Das Rohr zieht dort Dinge heraus.", "Mit Schleichen und Rechtsklick trennst du eine Verbindung.", "Rechtsklick ohne Schlüssel auf eine herausziehende Seite öffnet das Menü für Filter und Upgrades.", "", "&6Wofür ist das wichtig?", "So bestimmst du genau, was wohin fließt."]
+			icon: { id: "pipez:wrench" }
+			id: "2DF45986D00F660E"
+			title: "Rohr-Schraubenschlüssel"
+			rewards: [{ id: "4F971A358429B4A2", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4B76E6A03707EEFF", type: "item", item: { id: "pipez:wrench", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 3.00d
+		}
+		{
+			dependencies: ["2DF45986D00F660E"]
+			description: ["&6Was ist das?", "Upgrades machen Rohre schneller und schalten Filter, Verteilung und Redstone-Steuerung frei.", "", "&6So gehts", "Lege ein Upgrade in das Menü der herausziehenden Seite. Es gibt fünf Stufen bis zum Unendlichen Rohr-Upgrade.", "", "&6Wofür ist das wichtig?", "Große Farmen brauchen schnelle Rohre, sonst staut sich alles."]
+			icon: { id: "pipez:basic_upgrade" }
+			id: "0DE18213542453F5"
+			title: "Rohr-Upgrade"
+			rewards: [{ id: "6C8BCFB20D194787", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0AD57A23FE956FAE", type: "item", item: { id: "pipez:basic_upgrade", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 3.00d
+		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Modern Minecarts bringt neue Schienen: Kupferschienen, Bahnübergänge, Schienenrampen und gerichtete Antriebsschienen.", "", "&6So gehts", "Die Rezepte zeigt das Rezeptbuch: Maus aufs Item, Taste R.", "Mit einem Bahnübergang kreuzen sich zwei Strecken, ohne dass du umbauen musst.", "", "&6Wofür ist das wichtig?", "Damit baust du Bahnstrecken zwischen Basis, Dorf und Mine."]
+			icon: { id: "modernminecarts:copper_rail" }
+			id: "337BA883B27902DE"
+			title: "Neue Schienen"
+			rewards: [{ id: "74BC26B22BDDD0A0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0780FC58639E1FC6", type: "item", title: "Beliebige Schiene aus Modern Minecarts", icon: { id: "modernminecarts:copper_rail" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(modernminecarts:copper_rail)item(modernminecarts:rail_crossing)item(modernminecarts:sloped_rail)item(modernminecarts:powered_detector_rail)item(modernminecarts:directed_powered_rail))" } }, count: 1L }]
+			x: 1.50d
+			y: 4.50d
 		}
 	]
 }

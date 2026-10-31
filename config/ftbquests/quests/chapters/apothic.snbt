@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apothic"
+	group: "484E01FB37A7B70C"
 	icon: { id: "minecraft:enchanted_book" }
 	id: "5F9FB94190625AE8"
-	order_index: 13
+	order_index: 0
 	quest_links: [ ]
 	title: "&dVerzauberung (Apothic)"
+	subtitle: ["Bücherregale, Verzauberungstisch und starke Verzauberungen"]
 	quests: [
 		{
 			dependencies: ["1DB3F417D7AE0137"]
@@ -14,7 +16,7 @@
 			icon: { id: "minecraft:enchanted_book" }
 			id: "7C303C5E4B7608E0"
 			title: "Verzauberung (Apothic)"
-			rewards: []
+			rewards: [{ id: "70D8A1C8043E0D8B", type: "xp", xp: 25 }]
 			tasks: [{ id: "038FAE9F61B4B2C9", type: "checkmark" }]
 			x: 0.00d
 			y: 0.00d
@@ -658,7 +660,7 @@
 			icon: { id: "apothic_enchanting:music_disc_arcana" }
 			id: "0F20DF0067E92E30"
 			title: "Platte: Arcana"
-			rewards: []
+			rewards: [{ id: "1E63C432EB8C1487", type: "xp", xp: 25 }]
 			tasks: [{ id: "4BBBE04DBEE010A0", type: "item", item: { id: "apothic_enchanting:music_disc_arcana", count: 1 }, count: 1L }]
 			x: 25.50d
 			y: 0.00d
@@ -669,7 +671,7 @@
 			icon: { id: "apothic_enchanting:music_disc_eterna" }
 			id: "5B01357741F80A1D"
 			title: "Platte: Eterna"
-			rewards: []
+			rewards: [{ id: "1320D25351A6C9DE", type: "xp", xp: 25 }]
 			tasks: [{ id: "482800A810073380", type: "item", item: { id: "apothic_enchanting:music_disc_eterna", count: 1 }, count: 1L }]
 			x: 27.00d
 			y: 0.00d
@@ -680,7 +682,7 @@
 			icon: { id: "apothic_enchanting:music_disc_quanta" }
 			id: "22D70368C6A78B64"
 			title: "Platte: Quanta"
-			rewards: []
+			rewards: [{ id: "3FA9118A91B982CB", type: "xp", xp: 25 }]
 			tasks: [{ id: "765BB614A3CAF46B", type: "item", item: { id: "apothic_enchanting:music_disc_quanta", count: 1 }, count: 1L }]
 			x: 28.50d
 			y: 0.00d
@@ -700,6 +702,7 @@
 		{
 			dependencies: ["7C303C5E4B7608E0"]
 			description: ["&6Was ist das?", "Apothic Enchanting baut den Verzauberungstisch stark aus. Mit Regalen steuerst du, was du verzauberst und wie stark.", "", "&6So gehts", "Diese Anleitung führt dich in kleinen Schritten: Tisch, Regale, die drei Werte (Eterna, Quanta, Arcana), erste Verzauberung, Bibliothek.", "", "&6Wofür ist das wichtig?", "Mit gutem Aufbau bekommst du viel stärkere Verzauberungen als im normalen Spiel."]
+			icon: { id: "minecraft:enchanting_table" }
 			id: "4CB07467E3856DE3"
 			title: "Verzauberung: Überblick"
 			rewards: [{ id: "79B54E29085FD548", type: "xp_levels", xp_levels: 3 }]
@@ -710,6 +713,7 @@
 		{
 			dependencies: ["4CB07467E3856DE3"]
 			description: ["&6Was ist das?", "Der Apothic-Tisch ist der erweiterte Verzauberungstisch.", "", "&6So gehts", "Baue ihn wie den normalen Tisch oder wandle einen normalen Tisch um. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Er zeigt dir die Werte Eterna, Quanta und Arcana und erlaubt viele zusätzliche Regale."]
+			icon: { id: "minecraft:enchanting_table" }
 			id: "5D15724A898B5ABF"
 			title: "Verzauberung: Tisch bauen"
 			rewards: [{ id: "08144D7623D60F5B", type: "xp_levels", xp_levels: 3 }]
@@ -720,6 +724,7 @@
 		{
 			dependencies: ["5D15724A898B5ABF"]
 			description: ["&6Was ist das?", "Regale um den Tisch geben ihm Kraft.", "", "&6So gehts", "Stelle Regale in einem Ring um den Tisch, jeweils mit einem Block Abstand (also mit Luft dazwischen). Einfache Regale sind der Anfang.", "", "&6Wofür ist das wichtig?", "Mehr Regale heißt mehr Eterna und damit höhere Verzauberungsstufen."]
+			icon: { id: "minecraft:bookshelf" }
 			id: "0F6726590BA97C2E"
 			title: "Verzauberung: Erste Regale"
 			rewards: [{ id: "7D87C696A4FEB92D", type: "xp_levels", xp_levels: 3 }]
@@ -730,6 +735,7 @@
 		{
 			dependencies: ["0F6726590BA97C2E"]
 			description: ["&6Was ist das?", "Eterna ist die Stärke: Sie bestimmt, wie hoch die Stufe deiner Verzauberung werden kann.", "", "&6So gehts", "Schaue im Tisch auf die Anzeige. Steinregale und bessere Regale erhöhen Eterna. Die Quests unten zeigen, welches Regal was gibt.", "", "&6Wofür ist das wichtig?", "Für hohe Stufen brauchst du viel Eterna."]
+			icon: { id: "apothic_enchanting:music_disc_eterna" }
 			id: "552BD35F16BFD31E"
 			title: "Verzauberung: Eterna"
 			rewards: [{ id: "6C8AFA6D057571FB", type: "xp_levels", xp_levels: 3 }]
@@ -740,6 +746,7 @@
 		{
 			dependencies: ["552BD35F16BFD31E"]
 			description: ["&6Was ist das?", "Quanta ist der Zufall: Sie bestimmt, wie stark die angebotenen Verzauberungen schwanken.", "", "&6So gehts", "Manche Regale (zum Beispiel Bienen- und Melonenregal) verändern Quanta. Ein hoher Wert macht Ergebnisse unberechenbar, aber oft mächtiger.", "", "&6Wofür ist das wichtig?", "Mit Quanta bekommst du seltene Glückstreffer."]
+			icon: { id: "apothic_enchanting:music_disc_quanta" }
 			id: "7953D1415A72E055"
 			title: "Verzauberung: Quanta"
 			rewards: [{ id: "5C9CF8C22671D9C3", type: "xp_levels", xp_levels: 3 }]
@@ -750,6 +757,7 @@
 		{
 			dependencies: ["7953D1415A72E055"]
 			description: ["&6Was ist das?", "Arcana ist die Vielfalt: Sie bestimmt, welche Arten von Verzauberungen angeboten werden.", "", "&6So gehts", "Höhere Arcana schaltet seltene Verzauberungen frei. Arcana kommt aus besonderen Regalen (z. B. Nether-, See-, Tiefen- und Endregale).", "", "&6Wofür ist das wichtig?", "Für die besten Verzauberungen brauchst du hohe Arcana."]
+			icon: { id: "apothic_enchanting:music_disc_arcana" }
 			id: "452670B269C91C4A"
 			title: "Verzauberung: Arcana"
 			rewards: [{ id: "0CF207610BECE9DB", type: "xp_levels", xp_levels: 3 }]
@@ -760,6 +768,7 @@
 		{
 			dependencies: ["452670B269C91C4A"]
 			description: ["&6Was ist das?", "Im Tisch siehst du Hinweise, welche Verzauberungen möglich sind.", "", "&6So gehts", "Bewege die Maus über die Stufen im Tisch. Du siehst eine Verzauberung als Tipp. Ändere Regale, bis die gewünschte erscheint.", "", "&6Wofür ist das wichtig?", "So planst du gezielt, statt nur zu raten."]
+			icon: { id: "minecraft:writable_book" }
 			id: "1422043FBDAD21A1"
 			title: "Verzauberung: Hinweise"
 			rewards: [{ id: "4ABBC584ADA28FB2", type: "xp_levels", xp_levels: 3 }]
@@ -770,6 +779,7 @@
 		{
 			dependencies: ["1422043FBDAD21A1"]
 			description: ["&6Was ist das?", "Jetzt verzauberst du etwas.", "", "&6So gehts", "Lege den Gegenstand und Lapislazuli in den Tisch. Wähle eine Stufe. Das kostet Erfahrungsstufen und Lapis.", "", "&6Wofür ist das wichtig?", "Das Ergebnis hängt von deinen Regalen ab. Verbessere sie Schritt für Schritt."]
+			icon: { id: "minecraft:enchanted_book" }
 			id: "3F10C459B21AE233"
 			title: "Verzauberung: Erste Verzauberung"
 			rewards: [{ id: "3B58CAE85A9AF7D4", type: "xp_levels", xp_levels: 3 }]
@@ -790,6 +800,7 @@
 		{
 			dependencies: ["721982F4EBAA4D9D"]
 			description: ["&6Was ist das?", "Apothic bringt zwei Werkbänke mit: Zerlegetisch und Umschmiedetisch.", "", "&6So gehts", "Der Zerlegetisch macht aus Affix-Gegenständen Seltenheitsmaterial. Am Umschmiedetisch würfelst du die Affixe (zufällige Zusatz-Eigenschaften) eines Gegenstands neu.", "Die Quests unten zeigen die Bücher (Tomes) dazu.", "", "&6Wofür ist das wichtig?", "Beide gehören zur Ausrüstung mit Affixen, mehr dazu im Kapitel Apotheosis."]
+			icon: { id: "minecraft:grindstone" }
 			id: "0A26FD4B5EDFE2B6"
 			title: "Verzauberung: Zerlegen und Schmieden"
 			rewards: [{ id: "1A8522C71E12D566", type: "xp_levels", xp_levels: 3 }]
@@ -800,6 +811,7 @@
 		{
 			description: ["&6Abschnitt", "Einfache Regale"]
 			dependencies: ["7C303C5E4B7608E0"]
+			icon: { id: "minecraft:bookshelf" }
 			id: "190F201A4FFEBBDA"
 			title: "Einfache Regale"
 			optional: true
@@ -811,6 +823,7 @@
 		{
 			description: ["&6Abschnitt", "Nether-Regale"]
 			dependencies: ["7C303C5E4B7608E0"]
+			icon: { id: "apothic_enchanting:hellshelf" }
 			id: "2552E18BAAB22091"
 			title: "Nether-Regale"
 			optional: true
@@ -822,6 +835,7 @@
 		{
 			description: ["&6Abschnitt", "See-Regale"]
 			dependencies: ["38115819797BA204"]
+			icon: { id: "apothic_enchanting:seashelf" }
 			id: "444C587EDF473F45"
 			title: "See-Regale"
 			optional: true
@@ -833,6 +847,7 @@
 		{
 			description: ["&6Abschnitt", "Tiefen-Regale"]
 			dependencies: ["1667C518C798C97F"]
+			icon: { id: "apothic_enchanting:deepshelf" }
 			id: "381851517221C7F0"
 			title: "Tiefen-Regale"
 			optional: true
@@ -844,6 +859,7 @@
 		{
 			description: ["&6Abschnitt", "End-Regale"]
 			dependencies: ["68FDB4D7A0ED657E"]
+			icon: { id: "apothic_enchanting:endshelf" }
 			id: "1A57CC7AAF495DA4"
 			title: "End-Regale"
 			optional: true
@@ -855,6 +871,7 @@
 		{
 			description: ["&6Abschnitt", "Bibliothek und Werkbänke"]
 			dependencies: ["7B97A3921E241ADA"]
+			icon: { id: "apothic_enchanting:library" }
 			id: "590061EE59757283"
 			title: "Bibliothek und Werkbänke"
 			optional: true
@@ -866,6 +883,7 @@
 		{
 			description: ["&6Abschnitt", "Bücher (Tomes)"]
 			dependencies: ["6351B40A60D6F16F"]
+			icon: { id: "apothic_enchanting:scrap_tome" }
 			id: "03E97BE9506024F1"
 			title: "Bücher (Tomes)"
 			optional: true
@@ -877,6 +895,7 @@
 		{
 			description: ["&6Abschnitt", "Spezial-Gegenstände"]
 			dependencies: ["6351B40A60D6F16F"]
+			icon: { id: "apothic_enchanting:inert_trident" }
 			id: "2B60C0850A3F61D2"
 			title: "Spezial-Gegenstände"
 			optional: true

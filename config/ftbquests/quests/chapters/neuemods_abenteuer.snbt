@@ -2,18 +2,20 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "neuemods_abenteuer"
+	group: "468AD64DD4665C08"
 	icon: { id: "galosphere:allurite_shard" }
 	id: "3F2487AC4DFAF010"
-	order_index: 33
+	order_index: 0
 	quest_links: [ ]
 	title: "&aAbenteuer und Natur"
+	subtitle: ["Neue Biome, Strukturen und Kreaturen entdecken"]
 	quests: [
 		{
 			description: ["&6Was ist das?", "Ein Kapitel für die Mods dieser Gruppe.", "", "&6So gehts", "Alle Quests hier sind freiwillig. Jede Linie ist ein eigener Zweig, arbeite sie von links nach rechts ab.", "", "&6Wofür ist das wichtig?", "Du lernst die neuen Items kennen und bekommst kleine XP-Belohnungen."]
 			icon: { id: "galosphere:allurite_shard" }
 			id: "757575AA84F88284"
 			title: "Abenteuer und Natur"
-			rewards: []
+			rewards: [{ id: "3924BF09BD45DFDD", type: "xp", xp: 25 }]
 			tasks: [{ id: "087922CBB62B600B", type: "checkmark" }]
 			x: 0.00d
 			y: 0.000d
@@ -345,7 +347,7 @@
 			id: "39AF0526F72845B7"
 			title: "Kogge"
 			rewards: [{ id: "5090E99CB15F4ACD", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "173C4610772BF4CE", type: "item", title: "Beliebige Kogge", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(smallships:oak_cog)item(smallships:spruce_cog)item(smallships:birch_cog)item(smallships:jungle_cog)item(smallships:acacia_cog)item(smallships:dark_oak_cog)item(smallships:mangrove_cog)item(smallships:cherry_cog)item(smallships:bamboo_cog)item(smallships:crimson_cog)item(smallships:warped_cog))" } }, count: 1L }]
+			tasks: [{ id: "173C4610772BF4CE", type: "item", title: "Beliebige Kogge", icon: { id: "smallships:oak_cog" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(smallships:oak_cog)item(smallships:spruce_cog)item(smallships:birch_cog)item(smallships:jungle_cog)item(smallships:acacia_cog)item(smallships:dark_oak_cog)item(smallships:mangrove_cog)item(smallships:cherry_cog)item(smallships:bamboo_cog)item(smallships:crimson_cog)item(smallships:warped_cog))" } }, count: 1L }]
 			x: 4.50d
 			y: -7.500d
 		}
@@ -513,6 +515,105 @@
 			tasks: [{ id: "220EDEB8151B018C", type: "item", item: { id: "quark:crate", count: 1 }, count: 1L }]
 			x: 10.50d
 			y: 0.000d
+		}
+		{
+			dependencies: ["757575AA84F88284"]
+			description: ["&6Was ist das?", "Regions Unexplored fügt viele neue Biome hinzu, zum Beispiel Ahornwälder, Bayous, Kreideklippen und Mammutbaumwälder.", "", "&6So gehts", "Für die Quest zählt jeder neue Baumstamm aus Regions Unexplored. Mit dem Naturkompass findest du die Biome gezielt.", "", "&6Wofür ist das wichtig?", "Neue Holzarten und Pflanzen machen deine Bauten bunter."]
+			icon: { id: "regions_unexplored:maple_log" }
+			id: "63DB58855EDB6243"
+			title: "Neue Biome"
+			rewards: [{ id: "09772CD96E481C66", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "7409878A4E499A3B", type: "item", title: "Beliebiger Stamm aus Regions Unexplored", icon: { id: "regions_unexplored:maple_log" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(regions_unexplored:maple_log)item(regions_unexplored:pine_log)item(regions_unexplored:willow_log)item(regions_unexplored:larch_log)item(regions_unexplored:baobab_log)item(regions_unexplored:palm_log)item(regions_unexplored:eucalyptus_log)item(regions_unexplored:redwood_log)item(regions_unexplored:cypress_log)item(regions_unexplored:kapok_log)item(regions_unexplored:magnolia_log)item(regions_unexplored:socotra_log)item(regions_unexplored:blackwood_log)item(regions_unexplored:silver_birch_log)item(regions_unexplored:joshua_log))" } }, count: 1L }]
+			x: 1.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["63DB58855EDB6243"]
+			description: ["&6Was ist das?", "Die Dämmermelone ist eine seltene Frucht aus Regions Unexplored.", "", "&6So gehts", "Halte in den neuen Biomen Ausschau. Wo sie wächst, zeigt das Rezeptbuch: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Ein Snack für unterwegs. Iss eine und finde heraus, was passiert."]
+			icon: { id: "regions_unexplored:duskmelon_slice" }
+			id: "40FDE612DBADF33D"
+			title: "Dämmermelone"
+			rewards: [{ id: "640EE22CC9D68E23", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2BE79C78E7DCA5CE", type: "item", item: { id: "regions_unexplored:duskmelon_slice", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["40FDE612DBADF33D"]
+			description: ["&6Was ist das?", "Prismaglas schillert in allen Regenbogenfarben.", "", "&6So gehts", "Prismarit wächst in der Prismaschlucht, einer Höhle voller Kristalle. Das Rezept für das Glas zeigt das Rezeptbuch: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Auf ein aktives Leuchtfeuer gesetzt färbt es den Strahl bunt."]
+			icon: { id: "regions_unexplored:prismaglass" }
+			id: "0CE98B0A43333B2A"
+			title: "Prismaglas"
+			rewards: [{ id: "1CE5349C1AF7CFE5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2FD2EB04D47C03F1", type: "item", item: { id: "regions_unexplored:prismaglass", count: 1 }, count: 1L }]
+			x: 4.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["63DB58855EDB6243"]
+			description: ["&6Was ist das?", "Der Kompass des Entdeckers findet Bauwerke, zum Beispiel Dörfer, Festungen oder die Alte Stadt.", "", "&6So gehts", "Rechtsklick öffnet die Liste. Wähle ein Bauwerk und klicke auf Suchen. Die Nadel zeigt dann die Richtung.", "", "&6Wofür ist das wichtig?", "Der Naturkompass findet Biome, dieser hier findet Bauwerke. Zusammen findest du alles."]
+			icon: { id: "explorerscompass:explorerscompass" }
+			id: "24F202B69D6BEDE8"
+			title: "Kompass des Entdeckers"
+			rewards: [{ id: "4F2AAB7F58F63A35", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "22959347FE3ACABE", type: "item", item: { id: "explorerscompass:explorerscompass", count: 1 }, count: 1L }]
+			x: 6.00d
+			y: 10.50d
+		}
+		{
+			dependencies: ["24F202B69D6BEDE8"]
+			description: ["&6Was ist das?", "Creeper Overhaul gibt Creepern ein Aussehen passend zum Biom: Wüsten-, Dschungel-, Schnee- und Höhlen-Creeper.", "", "&6So gehts", "Achte auf getarnte Creeper. Manche haben eigene Fähigkeiten. Hake die Quest ab, wenn du einen gesehen hast.", "", "&6Wofür ist das wichtig?", "Creeper sind jetzt schwerer zu erkennen. Bleib wachsam."]
+			icon: { id: "minecraft:creeper_head" }
+			id: "4916B8F6E3C9CCFB"
+			title: "Creeper Overhaul"
+			rewards: [{ id: "6FA3299D69A4E293", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "247D7D2D748D2F4C", type: "checkmark" }]
+			x: 7.50d
+			y: 10.50d
+		}
+		{
+			dependencies: ["757575AA84F88284"]
+			description: ["&6Was ist das?", "Mit Dragon Mounts kannst du eigene Drachen ausbrüten, zähmen und reiten.", "Dracheneier liegen in Truhen verschiedener Bauwerke in der Welt.", "", "&6So gehts", "Erkunde Bauwerke und schau in die Truhen. Die Quest ist fertig, sobald du ein Drachenei im Inventar hast.", "", "&6Wofür ist das wichtig?", "Ohne Ei kein Drache. Es gibt viele Arten: Feuer, Eis, Wasser, Wald, Nether, End und mehr."]
+			icon: { id: "dmr:dragon_egg" }
+			id: "45F7C0AEAF9BDD04"
+			title: "Ein Drachenei"
+			rewards: [{ id: "7F81667D73EA7019", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5CAE24B4E5F65DB2", type: "advancement", title: "Finde ein Drachenei", advancement: "dmr:find_egg", criterion: "" }]
+			x: 1.50d
+			y: 13.50d
+		}
+		{
+			dependencies: ["45F7C0AEAF9BDD04"]
+			description: ["&6Was ist das?", "Ein Drachenei schlüpft nicht von allein.", "", "&6So gehts", "Setze das Ei auf den Boden und mache Rechtsklick darauf. Dann heißt es warten, bis der Drache schlüpft.", "Ein Leeres Drachenei passt sich der Umgebung an: Die Blöcke um das Ei bestimmen, welche Art schlüpft.", "", "&6Wofür ist das wichtig?", "Jede Drachenart hat eigene Fähigkeiten, zum Beispiel Schutz vor Feuer oder Sicht durch Wände."]
+			icon: { id: "dmr:dragon_egg" }
+			id: "455D7E10D30201A0"
+			title: "Der Drache schlüpft"
+			rewards: [{ id: "01E6CD4D4BE2B7A5", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "5E97C58D56DAC3BC", type: "advancement", title: "Brüte ein Drachenei aus", advancement: "dmr:hatch_1_dragon_egg", criterion: "" }]
+			x: 3.00d
+			y: 13.50d
+		}
+		{
+			dependencies: ["455D7E10D30201A0"]
+			description: ["&6Was ist das?", "Ein junger Drache gehört dir erst, wenn du ihn zähmst.", "", "&6So gehts", "Füttere ihn mit Fisch, bis er gezähmt ist. Danach wächst er mit der Zeit heran.", "Im Drachen-Inventar siehst du seine Werte und Fähigkeiten und kannst ihm Drachenrüstung anlegen.", "", "&6Wofür ist das wichtig?", "Ein ausgewachsener Drache trägt dich durch die Luft und kämpft an deiner Seite."]
+			icon: { id: "minecraft:cod" }
+			id: "671D0639AB8A2BE4"
+			title: "Drachen zähmen"
+			rewards: [{ id: "6A1219421B03136F", type: "xp_levels", xp_levels: 3 }]
+			tasks: [{ id: "1AA8357CF55FE3C9", type: "advancement", title: "Zähme einen Drachen", advancement: "dmr:tame_dragon", criterion: "" }]
+			x: 4.50d
+			y: 13.50d
+		}
+		{
+			dependencies: ["671D0639AB8A2BE4"]
+			description: ["&6Was ist das?", "Mit der Drachenpfeife rufst du deinen Drachen zu dir und gibst ihm Befehle.", "", "&6So gehts", "Rezept: vier Eisenbarren, vier Bretter und ein Farbstoff in der Mitte. Die Farbe ist egal.", "Binde die Pfeife an deinen Drachen. Über das Befehlsmenü sagst du ihm, ob er sitzen, folgen oder herumstreifen soll.", "", "&6Wofür ist das wichtig?", "Dein Drache ist nie weit weg, auch wenn du ihn zu Hause lässt."]
+			icon: { id: "dmr:dragon_whistle.red" }
+			id: "3852A3C3BA0884A1"
+			title: "Drachenpfeife"
+			rewards: [{ id: "379DC8FD54B2276C", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "58E6464D0A6FD96E", type: "item", title: "Beliebige Drachenpfeife", icon: { id: "dmr:dragon_whistle.red" }, item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(dmr:dragon_whistle.white)item(dmr:dragon_whistle.orange)item(dmr:dragon_whistle.magenta)item(dmr:dragon_whistle.light_blue)item(dmr:dragon_whistle.yellow)item(dmr:dragon_whistle.lime)item(dmr:dragon_whistle.pink)item(dmr:dragon_whistle.gray)item(dmr:dragon_whistle.light_gray)item(dmr:dragon_whistle.cyan)item(dmr:dragon_whistle.purple)item(dmr:dragon_whistle.blue)item(dmr:dragon_whistle.brown)item(dmr:dragon_whistle.green)item(dmr:dragon_whistle.red)item(dmr:dragon_whistle.black))" } }, count: 1L }]
+			x: 6.00d
+			y: 13.50d
 		}
 	]
 }

@@ -2,18 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "kleinemods"
+	group: "0265F2BD15BD46AE"
 	icon: { id: "minecraft:book" }
 	id: "5A95C0FC3DC74B89"
-	order_index: 98
+	order_index: 2
 	quest_links: [ ]
 	title: "&7Kleine Mods"
+	subtitle: ["Kleine Helfer, die das Spiel angenehmer machen"]
 	quests: [
 		{
 			description: ["&6Was ist das?", "Zeigt Hunger- und Sättigungswerte beim Essen.", "", "&6So gehts", "Halte Essen in der Hand. Die Hungerleiste zeigt, wie viel es auffüllt.", "", "&6Wofür ist das wichtig?", "Wer gut isst, heilt schneller. Wähle Gerichte mit hoher Sättigung."]
 			dependencies: []
+			icon: { id: "minecraft:apple" }
 			id: "469AEC5C8CB306C2"
 			title: "AppleSkin"
-			rewards: []
+			rewards: [{ id: "598669BB824B854A", type: "xp", xp: 25 }]
 			tasks: [{ id: "0D3914286B79C3D1", type: "checkmark" }]
 			x: 1.50d
 			y: 0.00d
@@ -21,9 +24,10 @@
 		{
 			description: ["&6Was ist das?", "Das Fadenkreuz zeigt an, ob du angreifen, abbauen oder benutzen kannst.", "", "&6So gehts", "Achte auf die Form des Fadenkreuzes.", "", "&6Wofür ist das wichtig?", "Du siehst sofort, ob dein Schlag aufgeladen ist."]
 			dependencies: ["469AEC5C8CB306C2"]
+			icon: { id: "minecraft:target" }
 			id: "150D6238E7801832"
 			title: "Dynamisches Fadenkreuz"
-			rewards: []
+			rewards: [{ id: "17AF5D2047F740E7", type: "xp", xp: 25 }]
 			tasks: [{ id: "1F7E501B63D6E5FF", type: "checkmark" }]
 			x: 1.50d
 			y: -1.50d
@@ -31,9 +35,10 @@
 		{
 			description: ["&6Was ist das?", "Du siehst deine Items im Boot.", "", "&6So gehts", "Einfach Boot fahren.", "", "&6Wofür ist das wichtig?", "Bessere Übersicht."]
 			dependencies: ["150D6238E7801832"]
+			icon: { id: "minecraft:oak_boat" }
 			id: "455FFED230C745BF"
 			title: "Boat View"
-			rewards: []
+			rewards: [{ id: "1539DEFD2A8BC414", type: "xp", xp: 25 }]
 			tasks: [{ id: "137423B806D0C6E4", type: "checkmark" }]
 			x: 1.50d
 			y: -4.50d
@@ -41,9 +46,10 @@
 		{
 			description: ["&6Was ist das?", "Tipps auf dem Ladebildschirm und bei Items.", "", "&6So gehts", "Lies die Tipps unten links.", "", "&6Wofür ist das wichtig?", "Gute Erklärungen für Neulinge."]
 			dependencies: ["455FFED230C745BF"]
+			icon: { id: "minecraft:book" }
 			id: "5B4D0D1DA752AA41"
 			title: "Immersive Tips"
-			rewards: []
+			rewards: [{ id: "20D86FCB9561B9D8", type: "xp", xp: 25 }]
 			tasks: [{ id: "3ECBF8BCD2632AF6", type: "checkmark" }]
 			x: 1.50d
 			y: -6.00d
@@ -51,9 +57,10 @@
 		{
 			description: ["&6Was ist das?", "Eine übersichtlichere Erfolgsliste (Taste L).", "", "&6So gehts", "Taste L öffnen, Tabs oben wechseln.", "", "&6Wofür ist das wichtig?", "Viele Mods (z.B. Farmers Delight) erklären sich über Erfolge."]
 			dependencies: ["5B4D0D1DA752AA41"]
+			icon: { id: "minecraft:knowledge_book" }
 			id: "41CB342F996BA25D"
 			title: "Bessere Erfolge"
-			rewards: []
+			rewards: [{ id: "13DB4DC782A656B3", type: "xp", xp: 25 }]
 			tasks: [{ id: "0246FE311A738A56", type: "checkmark" }]
 			x: 1.50d
 			y: -7.50d
@@ -61,9 +68,10 @@
 		{
 			description: ["&6Was ist das?", "Minikarte, Weltkarte und Wegpunkte.", "", "&6So gehts", "M Karte, N Wegpunkte.", "", "&6Wofür ist das wichtig?", "Nie mehr verlaufen."]
 			dependencies: ["41CB342F996BA25D"]
+			icon: { id: "minecraft:filled_map" }
 			id: "70D49AD2FA3949F6"
 			title: "Weltkarte (Xaero's)"
-			rewards: []
+			rewards: [{ id: "1BDA47742A0857C6", type: "xp", xp: 25 }]
 			tasks: [{ id: "4241B99EB6355673", type: "checkmark" }]
 			x: 1.50d
 			y: -9.00d
@@ -71,9 +79,10 @@
 		{
 			description: ["&6Was ist das?", "Die Item-Liste mit allen Rezepten.", "", "&6So gehts", "R auf einem Item: Rezept. U: Wofür man es braucht. Suche oben.", "", "&6Wofür ist das wichtig?", "Das wichtigste Werkzeug im ganzen Modpack."]
 			dependencies: ["70D49AD2FA3949F6"]
+			icon: { id: "minecraft:crafting_table" }
 			id: "6C238FC475E0CA09"
 			title: "JEI"
-			rewards: []
+			rewards: [{ id: "32752F8AF114C7F4", type: "xp", xp: 25 }]
 			tasks: [{ id: "0DA8D2B7A95557D8", type: "checkmark" }]
 			x: 1.50d
 			y: -10.50d
@@ -81,9 +90,10 @@
 		{
 			description: ["&6Was ist das?", "Zeigt im Rezeptbuch, was Monster, Blöcke und Truhen droppen und welche Angebote Dorfbewohner haben.", "", "&6So gehts", "Drücke U auf einem Item: Du siehst, welche Monster oder Truhen es hergeben.", "Auch der Handel der Dorfbewohner wird gezeigt.", "", "&6Wofür ist das wichtig?", "So weißt du genau, wo du seltene Beute herbekommst."]
 			dependencies: ["6C238FC475E0CA09"]
+			icon: { id: "minecraft:chest" }
 			id: "0CC2E66A4AB809B0"
 			title: "Advanced Loot Info"
-			rewards: []
+			rewards: [{ id: "239234C778303F56", type: "xp", xp: 25 }]
 			tasks: [{ id: "1656C4F6D9E683D7", type: "checkmark" }]
 			x: 1.50d
 			y: -12.00d
@@ -91,9 +101,10 @@
 		{
 			description: ["&6Was ist das?", "Wähle zwischen Rezepten mit gleichen Zutaten.", "", "&6So gehts", "Im Ergebnis-Feld erscheint ein Knopf, wenn es mehrere Ergebnisse gibt.", "", "&6Wofür ist das wichtig?", "Wichtig bei vielen Mods, die die gleichen Zutaten nutzen."]
 			dependencies: ["469AEC5C8CB306C2"]
+			icon: { id: "minecraft:crafting_table" }
 			id: "2BD5BAD558037CAD"
 			title: "Polymorph"
-			rewards: []
+			rewards: [{ id: "101A56C697209B7F", type: "xp", xp: 25 }]
 			tasks: [{ id: "5669395115939908", type: "checkmark" }]
 			x: 1.50d
 			y: 1.50d
@@ -101,9 +112,10 @@
 		{
 			description: ["&6Was ist das?", "Knöpfe am Crafting-Feld: Drehen, Verteilen, Leeren.", "", "&6So gehts", "Drehen, gleichmäßig verteilen oder das Feld leeren.", "", "&6Wofür ist das wichtig?", "Spart viele Klicks beim Craften."]
 			dependencies: ["2BD5BAD558037CAD"]
+			icon: { id: "minecraft:crafting_table" }
 			id: "62F7393301B23B7A"
 			title: "Crafting Tweaks"
-			rewards: []
+			rewards: [{ id: "2AAF3962A5FA85D7", type: "xp", xp: 25 }]
 			tasks: [{ id: "505F284FFC476B05", type: "checkmark" }]
 			x: 1.50d
 			y: 3.00d
@@ -111,9 +123,10 @@
 		{
 			description: ["&6Was ist das?", "Werkbank, Steinsäge, Schmiedetisch und mehr zum Mitnehmen.", "", "&6So gehts", "Herstellen und mit Rechtsklick in der Hand öffnen.", "", "&6Wofür ist das wichtig?", "Craften unterwegs, ohne etwas aufzustellen."]
 			dependencies: ["62F7393301B23B7A"]
+			icon: { id: "crafting_on_a_stick:crafting_table" }
 			id: "3AA1E0BD53BB4D07"
 			title: "Crafting on a Stick"
-			rewards: []
+			rewards: [{ id: "7B539D9A459F8808", type: "xp", xp: 25 }]
 			tasks: [{ id: "5F49C2BC1B0BBFC9", type: "checkmark" }]
 			x: 1.50d
 			y: 4.50d
@@ -121,9 +134,10 @@
 		{
 			description: ["&6Was ist das?", "Items bleiben sichtbar auf der Werkbank liegen.", "", "&6So gehts", "Einfach Werkbank benutzen.", "", "&6Wofür ist das wichtig?", "Sieht schön aus und du verlierst nichts."]
 			dependencies: ["3AA1E0BD53BB4D07"]
+			icon: { id: "minecraft:crafting_table" }
 			id: "46E5142D7578353F"
 			title: "Visual Workbench"
-			rewards: []
+			rewards: [{ id: "1D013E1E7DA5FF05", type: "xp", xp: 25 }]
 			tasks: [{ id: "33DD93161DF4579A", type: "checkmark" }]
 			x: 1.50d
 			y: 6.00d
@@ -132,9 +146,10 @@
 			description: ["&6Was ist das?", "Items mit der Maus schneller verteilen (Mausrad, Ziehen).", "", "&6So gehts", "Mit gedrückter Maustaste über Plätze ziehen verteilt Items. Mit dem Mausrad schiebst du Items zwischen Inventaren.", "", "&6Wofür ist das wichtig?", "Spart viel Zeit beim Sortieren und Craften."]
 			hide_dependency_lines: true
 			dependencies: ["52D625493DB5E00A"]
+			icon: { id: "minecraft:chest" }
 			id: "5FBC790709F7E275"
 			title: "Mouse Tweaks"
-			rewards: []
+			rewards: [{ id: "346B47BCEA9D47EF", type: "xp", xp: 25 }]
 			tasks: [{ id: "66C1674DDDBD13CE", type: "checkmark" }]
 			x: 6.00d
 			y: 0.00d
@@ -142,9 +157,10 @@
 		{
 			description: ["&6Was ist das?", "Suchleiste in den Tasten-Einstellungen.", "", "&6So gehts", "Optionen, Steuerung, Tastenbelegung, oben suchen.", "", "&6Wofür ist das wichtig?", "Finde jede Taste in Sekunden."]
 			dependencies: ["5FBC790709F7E275"]
+			icon: { id: "minecraft:lever" }
 			id: "0568706D74F5EC9A"
 			title: "Controlling"
-			rewards: []
+			rewards: [{ id: "13A91AC4E5ED8CE9", type: "xp", xp: 25 }]
 			tasks: [{ id: "55FEF0228D1E48DC", type: "checkmark" }]
 			x: 6.00d
 			y: -1.50d
@@ -152,9 +168,10 @@
 		{
 			description: ["&6Was ist das?", "Inventar sortieren mit Shift und mittlerer Maustaste.", "", "&6So gehts", "Shift halten und mittlere Maustaste in einem Inventar drücken.", "", "&6Wofür ist das wichtig?", "Schnelle Ordnung, besonders nach langen Abbau-Touren."]
 			dependencies: ["0568706D74F5EC9A"]
+			icon: { id: "minecraft:barrel" }
 			id: "2EF9620A56574BE5"
 			title: "Client Sort"
-			rewards: []
+			rewards: [{ id: "7ECE6EFA08B0D8FF", type: "xp", xp: 25 }]
 			tasks: [{ id: "4A08849B66733D27", type: "checkmark" }]
 			x: 6.00d
 			y: -3.00d
@@ -162,9 +179,10 @@
 		{
 			description: ["&6Was ist das?", "Pflanzen per Rechtsklick ernten.", "", "&6So gehts", "Rechtsklick auf reife Pflanzen. Sie wachsen neu.", "", "&6Wofür ist das wichtig?", "Felder bleiben immer bepflanzt."]
 			dependencies: ["2EF9620A56574BE5"]
+			icon: { id: "minecraft:wheat" }
 			id: "3D3E6CFF1F3FCB4D"
 			title: "Rechtsklick-Ernte"
-			rewards: []
+			rewards: [{ id: "1167E094CCB8D69B", type: "xp", xp: 25 }]
 			tasks: [{ id: "225E7604C441AE82", type: "checkmark" }]
 			x: 6.00d
 			y: -4.50d
@@ -172,9 +190,10 @@
 		{
 			description: ["&6Was ist das?", "Du schlägst durch Gras und Blumen hindurch.", "", "&6So gehts", "Einfach angreifen, das Gras bleibt stehen.", "", "&6Wofür ist das wichtig?", "Kein versehentliches Abbauen im Kampf."]
 			dependencies: ["3D3E6CFF1F3FCB4D"]
+			icon: { id: "minecraft:iron_sword" }
 			id: "4FE2E64B6767107A"
 			title: "Clean Swing"
-			rewards: []
+			rewards: [{ id: "6C2A93466F415B23", type: "xp", xp: 25 }]
 			tasks: [{ id: "200C4EA3A436F236", type: "checkmark" }]
 			x: 6.00d
 			y: -6.00d
@@ -182,9 +201,10 @@
 		{
 			description: ["&6Was ist das?", "Vergleicht Ausrüstung im Infotext mit dem, was du trägst.", "", "&6So gehts", "Fahre über eine Waffe oder Rüstung und halte Shift.", "", "&6Wofür ist das wichtig?", "Du siehst sofort, ob das neue Teil besser ist als dein aktuelles."]
 			dependencies: ["5FBC790709F7E275"]
+			icon: { id: "minecraft:iron_chestplate" }
 			id: "32E4C6AD59B71AEE"
 			title: "Equipment Compare"
-			rewards: []
+			rewards: [{ id: "3BA984E801E0D956", type: "xp", xp: 25 }]
 			tasks: [{ id: "44F9268042730A59", type: "checkmark" }]
 			x: 6.00d
 			y: 1.50d
@@ -192,9 +212,10 @@
 		{
 			description: ["&6Was ist das?", "Ein fairer Amboss ohne Zu-teuer-Grenze.", "", "&6So gehts", "Amboss wie gewohnt benutzen.", "", "&6Wofür ist das wichtig?", "Du kannst Ausrüstung immer weiter reparieren und verbessern."]
 			dependencies: ["32E4C6AD59B71AEE"]
+			icon: { id: "minecraft:anvil" }
 			id: "583B90150595E114"
 			title: "Easy Anvils"
-			rewards: []
+			rewards: [{ id: "7A43399FE1E77E33", type: "xp", xp: 25 }]
 			tasks: [{ id: "0428AEC0F1D1C4C9", type: "checkmark" }]
 			x: 6.00d
 			y: 3.00d
@@ -202,9 +223,10 @@
 		{
 			description: ["&6Was ist das?", "Streichle Tiere mit Rechtsklick auf leerer Hand.", "", "&6So gehts", "Rechtsklick mit leerer Hand und Shift auf ein Tier.", "", "&6Wofür ist das wichtig?", "Einfach nett."]
 			dependencies: ["583B90150595E114"]
+			icon: { id: "minecraft:bone" }
 			id: "4054E1ED78AA5E36"
 			title: "PatPat"
-			rewards: []
+			rewards: [{ id: "5C9BE08D2D6D18F8", type: "xp", xp: 25 }]
 			tasks: [{ id: "30E3E71A53DF1307", type: "checkmark" }]
 			x: 6.00d
 			y: 4.50d
@@ -213,9 +235,10 @@
 			description: ["&6Was ist das?", "Möbel: Stühle, Tische, Betten, Regale.", "", "&6So gehts", "Rezepte im Rezeptbuch. Viele gibt es in allen Holzarten.", "", "&6Wofür ist das wichtig?", "Mach dein Zuhause gemütlich."]
 			hide_dependency_lines: true
 			dependencies: ["5FBC790709F7E275"]
+			icon: { id: "handcrafted:oak_chair" }
 			id: "06092362D1A3E215"
 			title: "Handcrafted"
-			rewards: []
+			rewards: [{ id: "6A1B873B6F693A81", type: "xp", xp: 25 }]
 			tasks: [{ id: "7A6988E6939DD453", type: "checkmark" }]
 			x: 7.50d
 			y: 0.00d
@@ -223,9 +246,10 @@
 		{
 			description: ["&6Was ist das?", "Viele Deko-Varianten für Blöcke an der Werkbank.", "", "&6So gehts", "Baue eine der Chipped-Werkbänke und lege einen Block hinein.", "", "&6Wofür ist das wichtig?", "Tausende Varianten für schönere Bauten."]
 			dependencies: ["06092362D1A3E215"]
+			icon: { id: "chipped:botanist_workbench" }
 			id: "5093FF3FB337E367"
 			title: "Chipped"
-			rewards: []
+			rewards: [{ id: "3DB8E30F180BD4FD", type: "xp", xp: 25 }]
 			tasks: [{ id: "3971527643E57EAA", type: "checkmark" }]
 			x: 7.50d
 			y: -1.50d
@@ -233,9 +257,10 @@
 		{
 			description: ["&6Was ist das?", "Mit dem Meißel verwandelst du Blöcke in Deko-Varianten.", "", "&6So gehts", "Meißel in der Hand, Blöcke hineinlegen, Variante wählen.", "", "&6Wofür ist das wichtig?", "Schöne Wände und Böden."]
 			dependencies: ["5093FF3FB337E367"]
+			icon: { id: "rechiseled:chisel" }
 			id: "7D0A5B096A7DA80B"
 			title: "Rechiseled"
-			rewards: []
+			rewards: [{ id: "6ED4721B74FDA1C2", type: "xp", xp: 25 }]
 			tasks: [{ id: "745DCBFDDA1BC51B", type: "checkmark" }]
 			x: 7.50d
 			y: -3.00d
@@ -243,9 +268,10 @@
 		{
 			description: ["&6Was ist das?", "Die Macaw-Mods bringen Möbel, Türen, Falltüren, Dächer, Treppen und Geländer, Brücken und Lampen in allen Holzarten.", "", "&6So gehts", "Rezepte im Rezeptbuch: suche mit @mcw.", "", "&6Wofür ist das wichtig?", "Damit werden Häuser und Basen viel schöner."]
 			dependencies: ["7D0A5B096A7DA80B"]
+			icon: { id: "mcwfurnitures:oak_chair" }
 			id: "4FC81BADFF702A71"
 			title: "Macaws Bauteile"
-			rewards: []
+			rewards: [{ id: "53AD23B77378E5D7", type: "xp", xp: 25 }]
 			tasks: [{ id: "5876286E7F4DBD93", type: "checkmark" }]
 			x: 7.50d
 			y: -4.50d
@@ -253,9 +279,10 @@
 		{
 			description: ["&6Was ist das?", "Doppeltüren öffnen sich zusammen.", "", "&6So gehts", "Zwei Türen nebeneinander stellen.", "", "&6Wofür ist das wichtig?", "Bequemer und schöner."]
 			dependencies: ["4FC81BADFF702A71"]
+			icon: { id: "minecraft:oak_door" }
 			id: "72EFB45E92B198EE"
 			title: "Doppeltüren"
-			rewards: []
+			rewards: [{ id: "26298B4EDBE3A764", type: "xp", xp: 25 }]
 			tasks: [{ id: "51EECD02CC1601B1", type: "checkmark" }]
 			x: 7.50d
 			y: -6.00d
@@ -263,9 +290,10 @@
 		{
 			description: ["&6Was ist das?", "Das Sägewerk macht aus Holz Treppen, Stufen, Zäune und mehr.", "", "&6So gehts", "Holz in das Sägewerk legen und das Ergebnis wählen.", "", "&6Wofür ist das wichtig?", "Mehr Ausbeute als in der Werkbank."]
 			dependencies: ["06092362D1A3E215"]
+			icon: { id: "sawmill:sawmill" }
 			id: "1022A1B08CDB5845"
 			title: "Sawmill"
-			rewards: []
+			rewards: [{ id: "39951F4A8F61A6DF", type: "xp", xp: 25 }]
 			tasks: [{ id: "6F1D4FE1370E25FB", type: "checkmark" }]
 			x: 7.50d
 			y: 1.50d
@@ -273,9 +301,10 @@
 		{
 			description: ["&6Was ist das?", "Blätter verschwinden schnell, wenn der Baum weg ist.", "", "&6So gehts", "Baum fällen und warten.", "", "&6Wofür ist das wichtig?", "Keine schwebenden Blätter mehr, Setzlinge fallen direkt."]
 			dependencies: ["1022A1B08CDB5845"]
+			icon: { id: "minecraft:oak_leaves" }
 			id: "4358A1F5A21068F4"
 			title: "Leaves Be Gone"
-			rewards: []
+			rewards: [{ id: "74A0C06D668A6507", type: "xp", xp: 25 }]
 			tasks: [{ id: "615C19F29D657312", type: "checkmark" }]
 			x: 7.50d
 			y: 3.00d
@@ -283,9 +312,10 @@
 		{
 			description: ["&6Was ist das?", "Fackeln, die Monster in großem Bereich fernhalten.", "", "&6So gehts", "Aufstellen, fertig.", "", "&6Wofür ist das wichtig?", "Sichere Basis ohne tausend Fackeln."]
 			dependencies: ["4358A1F5A21068F4"]
+			icon: { id: "magnumtorch:diamond_magnum_torch" }
 			id: "61971B0C886A4028"
 			title: "Magnum Torch"
-			rewards: []
+			rewards: [{ id: "13AD58504907819E", type: "xp", xp: 25 }]
 			tasks: [{ id: "685D5D38841FD5F7", type: "checkmark" }]
 			x: 7.50d
 			y: 4.50d
@@ -294,9 +324,10 @@
 			description: ["&6Was ist das?", "Ein Kompass, der Biome findet.", "", "&6So gehts", "Rechtsklick, Biom wählen, Suchen, dem Pfeil folgen.", "", "&6Wofür ist das wichtig?", "Findet z.B. Pilzinseln oder Dschungel."]
 			hide_dependency_lines: true
 			dependencies: ["0C0BF7F714DDB8C9"]
+			icon: { id: "naturescompass:naturescompass" }
 			id: "52D625493DB5E00A"
 			title: "Natures Compass"
-			rewards: []
+			rewards: [{ id: "6A50D9F567C39F54", type: "xp", xp: 25 }]
 			tasks: [{ id: "15558153B945745E", type: "checkmark" }]
 			x: 4.50d
 			y: 0.00d
@@ -304,9 +335,10 @@
 		{
 			description: ["&6Was ist das?", "Viele kleine Bauten: Ruinen, Hütten, verlassene Lager.", "", "&6So gehts", "Beim Erkunden findest du sie von selbst.", "", "&6Wofür ist das wichtig?", "Kleine Beutetruhen schon am Anfang."]
 			dependencies: ["52D625493DB5E00A"]
+			icon: { id: "minecraft:mossy_cobblestone" }
 			id: "27A3A9169C6C6691"
 			title: "Structory"
-			rewards: []
+			rewards: [{ id: "3EB82D6A1201141E", type: "xp", xp: 25 }]
 			tasks: [{ id: "0C00FC1534A5C515", type: "checkmark" }]
 			x: 4.50d
 			y: -3.00d
@@ -314,9 +346,10 @@
 		{
 			description: ["&6Was ist das?", "Neue Tiere: Bären, Rehe, Schlangen, Glühwürmchen, Schmetterlinge, Alligatoren und mehr.", "", "&6So gehts", "Viele Tiere haben eigenes Verhalten. Bären lieben Beeren, Schlangen sind giftig.", "", "&6Wofür ist das wichtig?", "Mehr Leben in der Welt und neue Beute."]
 			dependencies: ["27A3A9169C6C6691"]
+			icon: { id: "minecraft:spider_eye" }
 			id: "72AEBEE33AE4F157"
 			title: "Naturalist"
-			rewards: []
+			rewards: [{ id: "58143DDD9C79B2CB", type: "xp", xp: 25 }]
 			tasks: [{ id: "3964C3F0A0574FEA", type: "checkmark" }]
 			x: 4.50d
 			y: -4.50d
@@ -324,9 +357,10 @@
 		{
 			description: ["&6Was ist das?", "Waffen und Werkzeuge aus der Schnellleiste werden am Körper angezeigt.", "", "&6So gehts", "Taste V öffnet die Einstellungen.", "", "&6Wofür ist das wichtig?", "Sieht cool aus, besonders im Mehrspieler."]
 			dependencies: ["52D625493DB5E00A"]
+			icon: { id: "minecraft:iron_sword" }
 			id: "2776C2E8D8335938"
 			title: "Weapon Master"
-			rewards: []
+			rewards: [{ id: "46D5AD6582029D17", type: "xp", xp: 25 }]
 			tasks: [{ id: "12C4E5E1F708E698", type: "checkmark" }]
 			x: 4.50d
 			y: 1.50d
@@ -334,9 +368,10 @@
 		{
 			description: ["&6Was ist das?", "Lieblingswelten oben festpinnen.", "", "&6So gehts", "Im Weltmenü auf den Stern klicken.", "", "&6Wofür ist das wichtig?", "Deine Hauptwelt immer oben."]
 			dependencies: ["2776C2E8D8335938"]
+			icon: { id: "minecraft:grass_block" }
 			id: "6EDB33CB2A736061"
 			title: "Cherished Worlds"
-			rewards: []
+			rewards: [{ id: "5A05B5AE9BBE5598", type: "xp", xp: 25 }]
 			tasks: [{ id: "553E786E133C0F71", type: "checkmark" }]
 			x: 4.50d
 			y: 4.50d
@@ -344,9 +379,10 @@
 		{
 			description: ["&6Was ist das?", "Dorfbewohner bekommen Wachen, die Monster bekämpfen.", "", "&6So gehts", "Rechtsklick mit Waffe auf eine Wache gibt ihr Ausrüstung.", "", "&6Wofür ist das wichtig?", "Dörfer werden sicherer."]
 			dependencies: ["06092362D1A3E215"]
+			icon: { id: "minecraft:iron_helmet" }
 			id: "007D41E18FE681D8"
 			title: "Wachen im Dorf"
-			rewards: []
+			rewards: [{ id: "672E7BC032AE4301", type: "xp", xp: 25 }]
 			tasks: [{ id: "68BC071A63671BAC", type: "checkmark" }]
 			x: 9.00d
 			y: -1.50d
@@ -354,9 +390,10 @@
 		{
 			description: ["&6Was ist das?", "Neue Tiere und Monster wie Kupfergolem, Glare oder Moobloom.", "", "&6So gehts", "In der Welt suchen. Rezepte für Golems im Rezeptbuch.", "", "&6Wofür ist das wichtig?", "Der Kupfergolem drückt Kupferknöpfe für dich."]
 			dependencies: ["007D41E18FE681D8"]
+			icon: { id: "minecraft:copper_ingot" }
 			id: "0E1CCD029E445EF2"
 			title: "Friends and Foes"
-			rewards: []
+			rewards: [{ id: "447A425F89CFED5B", type: "xp", xp: 25 }]
 			tasks: [{ id: "466E45BF0BA06993", type: "checkmark" }]
 			x: 9.00d
 			y: -3.00d
@@ -365,9 +402,10 @@
 			description: ["&6Was ist das?", "Neue Piglin-Arten im Nether.", "", "&6So gehts", "Im Nether erkunden.", "", "&6Wofür ist das wichtig?", "Mehr Beute und mehr Gefahr."]
 			hide_dependency_lines: true
 			dependencies: ["06092362D1A3E215"]
+			icon: { id: "minecraft:gold_ingot" }
 			id: "5C2689CCFF175F64"
 			title: "Piglin Proliferation"
-			rewards: []
+			rewards: [{ id: "3C91E596F87BC618", type: "xp", xp: 25 }]
 			tasks: [{ id: "749EC3CE94DB1D85", type: "checkmark" }]
 			x: 9.00d
 			y: 1.50d
@@ -376,9 +414,10 @@
 			description: ["&6Was ist das?", "Neue Illager wie Invoker, Basher und Inquisitor.", "", "&6So gehts", "In Plünderer-Außenposten und Raids.", "", "&6Wofür ist das wichtig?", "Starke Gegner mit guter Beute."]
 			hide_dependency_lines: true
 			dependencies: ["5C2689CCFF175F64"]
+			icon: { id: "minecraft:crossbow" }
 			id: "15CDE8E3F545C9B9"
 			title: "Illager Invasion"
-			rewards: []
+			rewards: [{ id: "56954563E15521F4", type: "xp", xp: 25 }]
 			tasks: [{ id: "7FABF4985CB5C830", type: "checkmark" }]
 			x: 9.00d
 			y: 3.00d
@@ -387,9 +426,10 @@
 			description: ["&6Was ist das?", "Mit allen Dorfbewohnern gleichzeitig handeln.", "", "&6So gehts", "In einem Dorf aufstellen.", "", "&6Wofür ist das wichtig?", "Spart Lauferei."]
 			hide_dependency_lines: true
 			dependencies: ["469AEC5C8CB306C2"]
+			icon: { id: "tradingpost:trading_post" }
 			id: "0C0BF7F714DDB8C9"
 			title: "Trading Post"
-			rewards: []
+			rewards: [{ id: "0EEE5A2DCD96913D", type: "xp", xp: 25 }]
 			tasks: [{ id: "243544285067E7FC", type: "checkmark" }]
 			x: 3.00d
 			y: 0.00d
@@ -397,9 +437,10 @@
 		{
 			description: ["&6Was ist das?", "Tauscht automatisch mit Piglins.", "", "&6So gehts", "Gold hinein, Beute heraus.", "", "&6Wofür ist das wichtig?", "Bequemer Weg zu Enderperlen und Obsidian."]
 			dependencies: ["0C0BF7F714DDB8C9"]
+			icon: { id: "barteringstation:bartering_station" }
 			id: "50AAE48EFE85E8BA"
 			title: "Bartering Station"
-			rewards: []
+			rewards: [{ id: "03FD17F4A15D47C3", type: "xp", xp: 25 }]
 			tasks: [{ id: "7DAB2E7BAE03C793", type: "checkmark" }]
 			x: 3.00d
 			y: -1.50d
@@ -407,9 +448,10 @@
 		{
 			description: ["&6Was ist das?", "Beute-Truhen sind für jeden Spieler einzeln.", "", "&6So gehts", "Einfach öffnen.", "", "&6Wofür ist das wichtig?", "Faire Beute für alle."]
 			dependencies: ["50AAE48EFE85E8BA"]
+			icon: { id: "lootr:lootr_chest" }
 			id: "3779EA5955BAB077"
 			title: "Lootr"
-			rewards: []
+			rewards: [{ id: "46DAB5AAA69C29D4", type: "xp", xp: 25 }]
 			tasks: [{ id: "4503ACED0E34BC86", type: "checkmark" }]
 			x: 3.00d
 			y: -3.00d
@@ -417,9 +459,10 @@
 		{
 			description: ["&6Was ist das?", "Ein Buch, das Erfahrung speichert.", "", "&6So gehts", "Rechtsklick füllt, Shift-Rechtsklick leert.", "", "&6Wofür ist das wichtig?", "Spare Erfahrung für den Amboss."]
 			dependencies: ["3779EA5955BAB077"]
+			icon: { id: "xpbook:xp_tome" }
 			id: "13402E396DF203D6"
 			title: "XP Tome"
-			rewards: []
+			rewards: [{ id: "4EEE8E92B7A9FD52", type: "xp", xp: 25 }]
 			tasks: [{ id: "5804D3C98E0035CD", type: "checkmark" }]
 			x: 3.00d
 			y: -4.50d
@@ -427,9 +470,10 @@
 		{
 			description: ["Die Nether-Truhe speichert sehr viele Items pro Platz (Quest in der Eisenzeit)."]
 			dependencies: ["13402E396DF203D6"]
+			icon: { id: "minecraft:chest" }
 			id: "47A413BE999C691D"
 			title: "Nether Chested"
-			rewards: []
+			rewards: [{ id: "2E1DE4558877DF1B", type: "xp", xp: 25 }]
 			tasks: [{ id: "27A25D07F41AC58A", type: "checkmark" }]
 			x: 3.00d
 			y: -6.00d
@@ -437,9 +481,10 @@
 		{
 			description: ["&6Was ist das?", "Elytra und Brustplatte gleichzeitig tragen.", "", "&6So gehts", "Elytra in den extra Slot legen.", "", "&6Wofür ist das wichtig?", "Fliegen ohne Schutz zu verlieren."]
 			dependencies: ["47A413BE999C691D"]
+			icon: { id: "minecraft:elytra" }
 			id: "6FAAA3E6F91AD489"
 			title: "Elytra Slot"
-			rewards: []
+			rewards: [{ id: "0C41283AFCC94384", type: "xp", xp: 25 }]
 			tasks: [{ id: "74B57C8D418774FE", type: "checkmark" }]
 			x: 3.00d
 			y: -7.50d
@@ -447,9 +492,10 @@
 		{
 			description: ["&6Was ist das?", "Beim Tod entsteht ein Grab mit deinen Sachen.", "", "&6So gehts", "Koordinaten im Chat lesen und hingehen.", "", "&6Wofür ist das wichtig?", "Du verlierst deine Ausrüstung nicht."]
 			dependencies: ["0C0BF7F714DDB8C9"]
+			icon: { id: "minecraft:skeleton_skull" }
 			id: "2FA1270183472115"
 			title: "Youre in Grave Danger"
-			rewards: []
+			rewards: [{ id: "550CA367D084B857", type: "xp", xp: 25 }]
 			tasks: [{ id: "0D8C6AC6F72D9A53", type: "checkmark" }]
 			x: 3.00d
 			y: 3.00d
@@ -457,9 +503,10 @@
 		{
 			description: ["&6Was ist das?", "Neue Gerichte aus dem Ende.", "", "&6So gehts", "Siehe Kapitel Kochen.", "", "&6Wofür ist das wichtig?", "Starke Mahlzeiten für das Endspiel."]
 			dependencies: ["2FA1270183472115"]
+			icon: { id: "minecraft:ender_pearl" }
 			id: "00953D7395BC0145"
 			title: "Ender Delight"
-			rewards: []
+			rewards: [{ id: "32F0D23FC753B81C", type: "xp", xp: 25 }]
 			tasks: [{ id: "651A92FCC66F3564", type: "checkmark" }]
 			x: 3.00d
 			y: 4.50d
@@ -467,9 +514,10 @@
 		{
 			description: ["&6Was ist das?", "Neue Tiere und Monster in der Oberwelt, zum Beispiel Krötenwarze, Gorilla, Kakerlake oder Elefant.", "", "&6So gehts", "Erkunde verschiedene Biome. Viele Tiere sind selten und haben besondere Fähigkeiten oder Beute.", "", "&6Wofür ist das wichtig?", "Manche Tiere liefern einzigartige Items. Nutze das Buch Animal Dictionary von Alexs Mobs."]
 			dependencies: ["00953D7395BC0145"]
+			icon: { id: "alexsmobs:banana" }
 			id: "06B55FF9D23EAAE0"
 			title: "Alexs Mobs"
-			rewards: []
+			rewards: [{ id: "2797CD3D74B0A6FF", type: "xp", xp: 25 }]
 			tasks: [{ id: "45349EC5DAED712D", type: "checkmark" }]
 			x: 3.00d
 			y: 7.50d
@@ -480,7 +528,7 @@
 			dependencies: ["46E5142D7578353F"]
 			id: "228E5B8CE0AB12B5"
 			title: "Besseres F3"
-			rewards: []
+			rewards: [{ id: "251A315A47BA69CE", type: "xp", xp: 25 }]
 			tasks: [{ id: "2AFD297D7460F0D5", type: "checkmark" }]
 			x: 1.50d
 			y: 7.50d
@@ -491,10 +539,21 @@
 			dependencies: ["228E5B8CE0AB12B5"]
 			id: "2A52207D32539331"
 			title: "Fassrolle (Do a Barrel Roll)"
-			rewards: []
+			rewards: [{ id: "064FA62FD3E401A4", type: "xp", xp: 25 }]
 			tasks: [{ id: "7C6A3FFE07004FFD", type: "checkmark" }]
 			x: 1.50d
 			y: 12.00d
+		}
+		{
+			description: ["&6Was ist das?", "Mit HideArmor machst du einzelne Rüstungsteile unsichtbar, zum Beispiel den Helm oder die Elytren. Die Werte der Rüstung bleiben, nur das Aussehen ändert sich.", "", "&6So gehts", "Drücke die Taste \"HideArmor-Menü öffnen\" (Steuerung, Kategorie HideArmor). Dort schaltest du Helm, Brustpanzer, Hose, Schuhe, Elytren und Schild einzeln ab. Auch Verzauberungsglanz und Rüstungsverzierung lassen sich ausblenden.", "", "&6Wofür ist das wichtig?", "Dein Skin und deine Frisur bleiben sichtbar, auch wenn du volle Rüstung trägst. Das Menü speichert deine Einstellung pro Spieler."]
+			icon: { id: "minecraft:iron_chestplate" }
+			dependencies: ["2A52207D32539331"]
+			id: "A8BD9638DEBDAEE2"
+			title: "HideArmor"
+			rewards: [{ id: "6AF933F192EFBA17", type: "xp", xp: 25 }]
+			tasks: [{ id: "49E79F26C471F8EF", type: "checkmark" }]
+			x: 1.50d
+			y: 13.50d
 		}
 	]
 }

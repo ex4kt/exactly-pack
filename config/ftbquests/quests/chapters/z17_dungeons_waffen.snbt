@@ -2,11 +2,13 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "z17_dungeons_waffen"
+	group: "468AD64DD4665C08"
 	icon: { id: "minecraftdungeonsv3:great_hammer" }
 	id: "47CD07F7B74C990A"
-	order_index: 23
+	order_index: 5
 	quest_links: [ ]
 	title: "&6Dungeons-Waffen und Schlüssel"
+	subtitle: ["Dungeon-Schlüssel und besondere Waffen"]
 	quests: [
 		{
 			description: ["&6Was ist das?", "Hier findest du die Waffen aus Minecraft Dungeons sowie die Dungeon-Schlüssel von Dungeons and Taverns.", "Waffen findest du in Truhen und bei Bossen, Schlüssel öffnen besondere Räume in Bauwerken.", "", "&6Wofür ist das wichtig?", "Alles in diesem Kapitel ist freiwillig und jederzeit nachholbar. Jede Quest gibt eine Belohnung."]
@@ -23,6 +25,7 @@
 		{
 			description: ["&6Was ist das?", "Waffen aus Dungeons sind stark, aber teils selten.", "", "&6So gehts", "Erkunde Dungeons, Tempel und Festungen. Öffne Truhen und nimm die Schlüssel mit."]
 			dependencies: ["64707A59A0CE9DDE"]
+			icon: { id: "minecraft:map" }
 			id: "7F60B9FA1F124A78"
 			title: "Dungeons: Tipps"
 			rewards: [{ id: "7771F894F2E36355", type: "xp_levels", xp_levels: 3 }]
@@ -43,6 +46,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für die Zitadelle.", "", "&6So gehts", "Finde ihn in Dungeons and Taverns. Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["64707A59A0CE9DDE"]
+			icon: { id: "minecraft:tripwire_hook" }
 			id: "18357AEBD0EF5C36"
 			title: "Zitadellen-Schlüssel"
 			rewards: [{ id: "36DE6548D90E013A", type: "xp_levels", xp_levels: 3 }]
@@ -53,6 +57,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für die Netherfestung.", "", "&6So gehts", "Finde ihn in der Netherfestung.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["64707A59A0CE9DDE"]
+			icon: { id: "minecraft:tripwire_hook" }
 			id: "17D6AF8FF423F8BE"
 			title: "Netherfestungs-Schlüssel"
 			rewards: [{ id: "7440CABEE0ED4A62", type: "xp_levels", xp_levels: 3 }]
@@ -63,6 +68,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für die Endburg.", "", "&6So gehts", "Finde ihn im Ende.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["7F60B9FA1F124A78"]
+			icon: { id: "minecraft:tripwire_hook" }
 			id: "745FAC05CAC802A8"
 			title: "Endburg-Schlüssel"
 			rewards: [{ id: "609E03B7CA27E0F2", type: "xp_levels", xp_levels: 3 }]
@@ -73,6 +79,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für das Endschiff.", "", "&6So gehts", "Finde ihn im Ende.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["7F60B9FA1F124A78"]
+			icon: { id: "minecraft:tripwire_hook" }
 			id: "2EB52387AB9F4430"
 			title: "Endschiff-Schlüssel"
 			rewards: [{ id: "06F594CFF6111CF2", type: "xp_levels", xp_levels: 3 }]
@@ -83,6 +90,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für den Piglin-Turm.", "", "&6So gehts", "Finde ihn im Nether.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["7F60B9FA1F124A78"]
+			icon: { id: "minecraft:tripwire_hook" }
 			id: "5A091FD628215DB0"
 			title: "Piglin-Donjon-Schlüssel"
 			rewards: [{ id: "7432E410B1E82143", type: "xp_levels", xp_levels: 3 }]
@@ -93,6 +101,7 @@
 		{
 			description: ["&6Was ist das?", "Ein Schlüssel für einen Schrein.", "", "&6So gehts", "Finde ihn in Schreinen.", "Hake die Quest ab, sobald du ihn hast.", "", "&6Wofür ist das wichtig?", "Freiwillig, unabhängig von allen anderen Quests."]
 			dependencies: ["7F60B9FA1F124A78"]
+			icon: { id: "minecraft:tripwire_hook" }
 			id: "376F536489D33078"
 			title: "Schrein-Schlüssel"
 			rewards: [{ id: "3E648D7D2CE46525", type: "xp_levels", xp_levels: 3 }]
