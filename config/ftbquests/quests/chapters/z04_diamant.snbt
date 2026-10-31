@@ -379,113 +379,15 @@
 			y: 0.000d
 		}
 		{
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Zum dritten Mal Weapons Expanded, jetzt in Diamant. Das ist die letzte Stufe der Mod in diesem Pack.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Die Waffen von Weapons Expanded gibt es auch aus Diamant: Langschwert, Breitschwert, Großschwert, Katana, Hammer, Kriegshammer, Kampfaxt, Beil, Sichel und Sense.", "Für diese Quest zählt jede davon aus Diamant.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @weaponsexpanded: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
 			optional: true
 			dependencies: ["31E652570EB0BD57"]
-			id: "2033B010211045B7"
-			title: "Diamant-Langschwert"
-			rewards: [{ id: "5177F28B73ED22EA", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "292C0FD63DC95A3C", type: "item", item: { id: "weaponsexpanded:diamond_longsword", count: 1 }, count: 1L }]
-			x: 0.51d
-			y: -3.133d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "3C16417455BF901B"
-			title: "Diamant-Breitschwert"
-			rewards: [{ id: "4312EB6EA8DE09D2", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "0953B6C65A9C5B61", type: "item", item: { id: "weaponsexpanded:diamond_broadsword", count: 1 }, count: 1L }]
-			x: 2.11d
-			y: -3.900d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "0950AD20BDAA2B45"
-			title: "Diamant-Großschwert"
-			rewards: [{ id: "0019A06A53CBD543", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "747B67A6FB82DB2D", type: "item", item: { id: "weaponsexpanded:diamond_greatsword", count: 1 }, count: 1L }]
-			x: 3.89d
-			y: -3.900d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "5C364D9ACC48B4FA"
-			title: "Diamant-Katana"
-			rewards: [{ id: "3EC9EDA90ACB0159", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "31C3F2A3E6D1759D", type: "item", item: { id: "weaponsexpanded:diamond_katana", count: 1 }, count: 1L }]
-			x: 3.89d
-			y: 3.900d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "0F16990376D1A846"
-			title: "Diamant-Kampfaxt"
-			rewards: [{ id: "4853973F514BF5A6", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "728625DD10491403", type: "item", item: { id: "weaponsexpanded:diamond_battleaxe", count: 1 }, count: 1L }]
-			x: 2.11d
-			y: 3.900d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "32D6E55482ABC3AD"
-			title: "Diamant-Beil"
-			rewards: [{ id: "0A7CC3F8AC21AD6C", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "234417955DAD0D84", type: "item", item: { id: "weaponsexpanded:diamond_hatchet", count: 1 }, count: 1L }]
-			x: 0.51d
-			y: 3.133d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "6D207A38EA79BD24"
-			title: "Diamant-Hammer"
-			rewards: [{ id: "75315A514C658E63", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6B1E1FF16CADAA71", type: "item", item: { id: "weaponsexpanded:diamond_hammer", count: 1 }, count: 1L }]
-			x: -1.71d
-			y: -3.211d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "5BEA137C19885E89"
-			title: "Diamant-Kriegshammer"
-			rewards: [{ id: "50852ABB72955BCD", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6D65CA31B65081E0", type: "item", item: { id: "weaponsexpanded:diamond_warhammer", count: 1 }, count: 1L }]
-			x: 2.57d
-			y: -5.688d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
-			id: "54263A8EF275AFD9"
-			title: "Diamant-Sense"
-			rewards: [{ id: "62A174187B44ABD8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "027C325E190B5363", type: "item", item: { id: "weaponsexpanded:diamond_scythe", count: 1 }, count: 1L }]
-			x: 5.85d
-			y: 4.944d
-		}
-		{
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			dependencies: ["31E652570EB0BD57"]
+			icon: { id: "weaponsexpanded:diamond_greatsword" }
 			id: "660CDF873CC0CCED"
 			hide_dependency_lines: true
-			title: "Diamant-Sichel"
+			title: "Eine Diamant-Waffe"
 			rewards: [{ id: "1BD8B12B4532BD92", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "79637E9B68C7A0BB", type: "item", item: { id: "weaponsexpanded:diamond_sickle", count: 1 }, count: 1L }]
+			tasks: [{ id: "79637E9B68C7A0BB", type: "item", title: "Beliebige Diamant-Waffe", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(weaponsexpanded:diamond_longsword)item(weaponsexpanded:diamond_broadsword)item(weaponsexpanded:diamond_greatsword)item(weaponsexpanded:diamond_katana)item(weaponsexpanded:diamond_hammer)item(weaponsexpanded:diamond_warhammer)item(weaponsexpanded:diamond_battleaxe)item(weaponsexpanded:diamond_hatchet)item(weaponsexpanded:diamond_sickle)item(weaponsexpanded:diamond_scythe))" } }, count: 1L }]
 			x: 4.50d
 			y: -9.000d
 		}

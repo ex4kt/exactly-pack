@@ -119,12 +119,12 @@
 		}
 		{
 			dependencies: ["1F9A49EA0F75944D"]
-			description: ["&6Was ist das?", "Mit Ultimate Configurable Boats ist das normale Boot schneller und beschleunigt sanft.", "", "&6So gehts", "Baue ein Boot, setze dich hinein und halte W.", "", "&6Wofür ist das wichtig?", "Weite Strecken über Wasser dauern nicht mehr ewig."]
+			description: ["&6Was ist das?", "Mit Ultimate Configurable Boats ist das normale Boot schneller und beschleunigt sanft.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Baue ein Boot, setze dich hinein und halte W.", "", "&6Wofür ist das wichtig?", "Weite Strecken über Wasser dauern nicht mehr ewig."]
 			icon: { id: "minecraft:oak_boat" }
 			id: "68EAA9F38E911490"
 			title: "Schnellere Boote"
 			rewards: [{ id: "57FC15A3E4817E37", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "52A0F8AF1354647C", type: "item", item: { id: "minecraft:oak_boat", count: 1 }, count: 1L }]
+			tasks: [{ id: "52A0F8AF1354647C", type: "item", title: "Beliebiges Boot", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:boats)" } }, count: 1L }]
 			x: 1.50d
 			y: 1.50d
 		}

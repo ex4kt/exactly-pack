@@ -508,11 +508,12 @@
 		}
 		{
 			dependencies: ["2DEBEBA57A527CB8"]
-			description: ["&6Was ist das?", "Create-Fenster sind schöne Fenster.", "", "&6So gehts", "Werkbank: 4 Eichenbretter, 1 Glas (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R). Ergibt 2.", "", "&6Wofür ist das wichtig?", "Schöne Gebäude."]
+			description: ["&6Was ist das?", "Create-Fenster sind schöne Fenster.", "", "&6So gehts", "Für die Quest zählt jedes Create-Fenster, aus Holz oder Eisen.", "Werkbank: 4 Eichenbretter, 1 Glas (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R). Ergibt 2.", "", "&6Wofür ist das wichtig?", "Schöne Gebäude."]
+			icon: { id: "create:oak_window" }
 			id: "2CADF34E0D17A144"
 			title: "Fenster"
 			rewards: [{ id: "3E2A4429C1088E03", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "034759054E13ED75", type: "item", item: { id: "create:oak_window", count: 1 }, count: 4L }]
+			tasks: [{ id: "034759054E13ED75", type: "item", title: "Beliebige Create-Fenster", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(create:oak_window)item(create:spruce_window)item(create:birch_window)item(create:jungle_window)item(create:acacia_window)item(create:dark_oak_window)item(create:mangrove_window)item(create:cherry_window)item(create:bamboo_window)item(create:crimson_window)item(create:warped_window)item(create:ornate_iron_window)item(create:industrial_iron_window)item(create:weathered_iron_window))" } }, count: 4L }]
 			x: 27.00d
 			y: -15.75d
 		}

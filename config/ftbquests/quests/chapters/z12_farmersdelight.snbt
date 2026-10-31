@@ -273,11 +273,12 @@
 		}
 		{
 			dependencies: ["05D98236E5D865F0"]
-			description: ["&6Was ist das?", "Der Schrank ist ein Küchenmöbel mit Lagerplatz.", "", "&6So gehts", "Werkbank: 2 Eichen-Falltüren in der Mitte, Eichenstufen darüber und darunter (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "", "&6Wofür ist das wichtig?", "Gut für die Küche."]
+			description: ["&6Was ist das?", "Der Schrank ist ein Küchenmöbel mit Lagerplatz.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Werkbank: 2 Eichen-Falltüren in der Mitte, Eichenstufen darüber und darunter (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "", "&6Wofür ist das wichtig?", "Gut für die Küche."]
+			icon: { id: "farmersdelight:oak_cabinet" }
 			id: "77E4F090E3CB5DB8"
 			title: "Schrank"
 			rewards: [{ id: "35E330BB43855AEB", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "69E6F79C9EF0F3A7", type: "item", item: { id: "farmersdelight:oak_cabinet", count: 1 }, count: 1L }]
+			tasks: [{ id: "69E6F79C9EF0F3A7", type: "item", title: "Beliebiger Schrank", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(farmersdelight:cabinets)" } }, count: 1L }]
 			x: 16.50d
 			y: 21.000d
 		}
@@ -1540,11 +1541,12 @@
 		}
 		{
 			dependencies: ["24F8F66E9BD25CAA"]
-			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er gräbt Erde um, macht Wege und entrindet Stämme.", "", "&6So gehts", "Rezept: Werkbank: 4x Stock, 3x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn in der Werkbank her (Holz und Räder). Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Lege die Werkzeuge in die Pflug-Plätze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofür ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
+			description: ["&6Was ist das?", "Der Pflug bearbeitet breite Streifen: Er gräbt Erde um, macht Wege und entrindet Stämme.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 4x Stock, 3x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn in der Werkbank her (Holz und Räder). Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Lege die Werkzeuge in die Pflug-Plätze. Mit Rechtsklick schaltest du den Pflug an oder aus.", "", "&6Wofür ist das wichtig?", "Mit einem Pflug bearbeitest du ein ganzes Feld in wenigen Minuten."]
+			icon: { id: "astikorcartsredux:oak_plow" }
 			id: "03C6BA276BE16281"
 			title: "Pflug"
 			rewards: [{ id: "2CEAEA5CBA707C11", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "05CC4EB077EDD9ED", type: "item", item: { id: "astikorcartsredux:oak_plow", count: 1 }, count: 1L }]
+			tasks: [{ id: "05CC4EB077EDD9ED", type: "item", title: "Beliebiger Pflug", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_plow)item(astikorcartsredux:spruce_plow)item(astikorcartsredux:birch_plow)item(astikorcartsredux:jungle_plow)item(astikorcartsredux:acacia_plow)item(astikorcartsredux:dark_oak_plow)item(astikorcartsredux:mangrove_plow)item(astikorcartsredux:cherry_plow)item(astikorcartsredux:bamboo_plow)item(astikorcartsredux:crimson_plow)item(astikorcartsredux:warped_plow))" } }, count: 1L }]
 			x: 9.00d
 			y: -39.000d
 		}
@@ -1560,51 +1562,56 @@
 		}
 		{
 			dependencies: ["5416282EB7088819"]
-			description: ["&6Was ist das?", "Die Sämaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Rezept: Werkbank: 5x Eichenbretter, Kiste, Trichter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle sie her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Du säst dein Feld mit einem Rutsch."]
+			description: ["&6Was ist das?", "Die Sämaschine pflanzt Saatgut auf bearbeitetem Ackerboden.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 5x Eichenbretter, Kiste, Trichter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle sie her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Lege bis zu 9 Stapel Saatgut hinein (Rechtsklick).", "", "&6Wofür ist das wichtig?", "Du säst dein Feld mit einem Rutsch."]
+			icon: { id: "astikorcartsredux:oak_seed_drill" }
 			id: "2A5822ABC406AC14"
 			title: "Sämaschine"
 			rewards: [{ id: "4829BB310677FFBE", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "5B5FEB1584F580C1", type: "item", item: { id: "astikorcartsredux:oak_seed_drill", count: 1 }, count: 1L }]
+			tasks: [{ id: "5B5FEB1584F580C1", type: "item", title: "Beliebige Sämaschine", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_seed_drill)item(astikorcartsredux:spruce_seed_drill)item(astikorcartsredux:birch_seed_drill)item(astikorcartsredux:jungle_seed_drill)item(astikorcartsredux:acacia_seed_drill)item(astikorcartsredux:dark_oak_seed_drill)item(astikorcartsredux:mangrove_seed_drill)item(astikorcartsredux:cherry_seed_drill)item(astikorcartsredux:bamboo_seed_drill)item(astikorcartsredux:crimson_seed_drill)item(astikorcartsredux:warped_seed_drill))" } }, count: 1L }]
 			x: 12.00d
 			y: -39.000d
 		}
 		{
 			dependencies: ["2A5822ABC406AC14"]
-			description: ["&6Was ist das?", "Der Mähbinder erntet reifes Getreide, während du auf ihm sitzt.", "", "&6So gehts", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Hänge ihn ans Pferd und setze dich auf den Sitz.", "", "&6Wofür ist das wichtig?", "Du erntest breite Streifen ohne Einzelarbeit."]
+			description: ["&6Was ist das?", "Der Mähbinder erntet reifes Getreide, während du auf ihm sitzt.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Hänge ihn ans Pferd und setze dich auf den Sitz.", "", "&6Wofür ist das wichtig?", "Du erntest breite Streifen ohne Einzelarbeit."]
+			icon: { id: "astikorcartsredux:oak_reaper" }
 			id: "47B66AAEA7EBE338"
 			title: "Mähbinder"
 			rewards: [{ id: "43C07FEF7EC02544", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "334034D0F65C18EE", type: "item", item: { id: "astikorcartsredux:oak_reaper", count: 1 }, count: 1L }]
+			tasks: [{ id: "334034D0F65C18EE", type: "item", title: "Beliebiger Mähbinder", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_reaper)item(astikorcartsredux:spruce_reaper)item(astikorcartsredux:birch_reaper)item(astikorcartsredux:jungle_reaper)item(astikorcartsredux:acacia_reaper)item(astikorcartsredux:dark_oak_reaper)item(astikorcartsredux:mangrove_reaper)item(astikorcartsredux:cherry_reaper)item(astikorcartsredux:bamboo_reaper)item(astikorcartsredux:crimson_reaper)item(astikorcartsredux:warped_reaper))" } }, count: 1L }]
 			x: 13.50d
 			y: -39.000d
 		}
 		{
 			dependencies: ["47B66AAEA7EBE338"]
-			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Rezept: Werkbank: 3x Eichenbretter, Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
+			description: ["&6Was ist das?", "Ein Handwagen fasst 27 Stapel und wird vom Spieler gezogen.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 3x Eichenbretter, Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Praktisch, um Ernte vom Feld nach Hause zu bringen."]
+			icon: { id: "astikorcartsredux:oak_hand_cart" }
 			id: "01ED0EF6AE8F064E"
 			title: "Handwagen"
 			rewards: [{ id: "1DDB59E4D185DC6A", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "7451674BF368969D", type: "item", item: { id: "astikorcartsredux:oak_hand_cart", count: 1 }, count: 1L }]
+			tasks: [{ id: "7451674BF368969D", type: "item", title: "Beliebiger Handwagen", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_hand_cart)item(astikorcartsredux:spruce_hand_cart)item(astikorcartsredux:birch_hand_cart)item(astikorcartsredux:jungle_hand_cart)item(astikorcartsredux:acacia_hand_cart)item(astikorcartsredux:dark_oak_hand_cart)item(astikorcartsredux:mangrove_hand_cart)item(astikorcartsredux:cherry_hand_cart)item(astikorcartsredux:bamboo_hand_cart)item(astikorcartsredux:crimson_hand_cart)item(astikorcartsredux:warped_hand_cart))" } }, count: 1L }]
 			x: 15.00d
 			y: -39.000d
 		}
 		{
 			dependencies: ["01ED0EF6AE8F064E"]
-			description: ["&6Was ist das?", "Ein großer Wagen für 54 Stapel mit einem Sitz.", "", "&6So gehts", "Rezept: Werkbank: 5x Eichenbretter, 2x Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Mit Shift und Rechtsklick öffnest du das Lager.", "", "&6Wofür ist das wichtig?", "Dein mobiles Lager auf Reisen."]
+			description: ["&6Was ist das?", "Ein großer Wagen für 54 Stapel mit einem Sitz.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 5x Eichenbretter, 2x Kiste, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Mit Shift und Rechtsklick öffnest du das Lager.", "", "&6Wofür ist das wichtig?", "Dein mobiles Lager auf Reisen."]
+			icon: { id: "astikorcartsredux:oak_supply_cart" }
 			id: "375632BFE9D0B530"
 			title: "Versorgungswagen"
 			rewards: [{ id: "04DB7CFA9A1760C4", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "16880E39ABD7A455", type: "item", item: { id: "astikorcartsredux:oak_supply_cart", count: 1 }, count: 1L }]
+			tasks: [{ id: "16880E39ABD7A455", type: "item", title: "Beliebiger Versorgungswagen", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_supply_cart)item(astikorcartsredux:spruce_supply_cart)item(astikorcartsredux:birch_supply_cart)item(astikorcartsredux:jungle_supply_cart)item(astikorcartsredux:acacia_supply_cart)item(astikorcartsredux:dark_oak_supply_cart)item(astikorcartsredux:mangrove_supply_cart)item(astikorcartsredux:cherry_supply_cart)item(astikorcartsredux:bamboo_supply_cart)item(astikorcartsredux:crimson_supply_cart)item(astikorcartsredux:warped_supply_cart))" } }, count: 1L }]
 			x: 16.50d
 			y: -39.000d
 		}
 		{
 			dependencies: ["375632BFE9D0B530"]
-			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze für Tiere oder Spieler.", "", "&6So gehts", "Rezept: Werkbank: 7x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Er lässt sich mit einem Banner schmücken.", "", "&6Wofür ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
+			description: ["&6Was ist das?", "Der Tierwagen hat zwei Sitze für Tiere oder Spieler.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 7x Eichenbretter, 2x Rad (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Stelle ihn her. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken. Er lässt sich mit einem Banner schmücken.", "", "&6Wofür ist das wichtig?", "Perfekt, um Tiere zu transportieren."]
+			icon: { id: "astikorcartsredux:oak_animal_cart" }
 			id: "756DF0541E3027DB"
 			title: "Tierwagen"
 			rewards: [{ id: "1F52220A256DACB8", type: "xp_levels", xp_levels: 3 }]
-			tasks: [{ id: "2AE88CE073EA7702", type: "item", item: { id: "astikorcartsredux:oak_animal_cart", count: 1 }, count: 1L }]
+			tasks: [{ id: "2AE88CE073EA7702", type: "item", title: "Beliebiger Tierwagen", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(astikorcartsredux:oak_animal_cart)item(astikorcartsredux:spruce_animal_cart)item(astikorcartsredux:birch_animal_cart)item(astikorcartsredux:jungle_animal_cart)item(astikorcartsredux:acacia_animal_cart)item(astikorcartsredux:dark_oak_animal_cart)item(astikorcartsredux:mangrove_animal_cart)item(astikorcartsredux:cherry_animal_cart)item(astikorcartsredux:bamboo_animal_cart)item(astikorcartsredux:crimson_animal_cart)item(astikorcartsredux:warped_animal_cart))" } }, count: 1L }]
 			x: 18.00d
 			y: -39.000d
 		}

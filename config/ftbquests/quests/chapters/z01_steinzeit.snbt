@@ -62,11 +62,12 @@
 		}
 		{
 			dependencies: ["093D637910111249"]
-			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Stämmen werden Bretter, aus Brettern Stöcke, Werkbank und Werkzeug.", "", "&6So gehts", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofür ist das wichtig?", "Du brauchst Holz für fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und später für Create-Wellen und Wasserräder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus.", "", "&6Gut zu wissen", "Eine Axt fällt Bäume deutlich schneller als die Hand. Pflanze für jeden gefällten Baum einen Setzling nach, dann wächst der Wald nach."]
+			description: ["&6Was ist das?", "Holz ist das erste Material in Minecraft. Aus Stämmen werden Bretter, aus Brettern Stöcke, Werkbank und Werkzeug.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Schlage mit der Hand oder einer Axt auf einen Baumstamm, bis er abbricht.", "In der Werkbank (oder im 2x2-Feld im Inventar) wird ein Stamm zu vier Brettern.", "", "&6Wofür ist das wichtig?", "Du brauchst Holz für fast alles am Anfang: Werkbank, Kisten, Werkzeuge, Fackeln und später für Create-Wellen und Wasserräder.", "Tipp: Pflanze die Setzlinge wieder ein, dann geht dir das Holz nie aus.", "", "&6Gut zu wissen", "Eine Axt fällt Bäume deutlich schneller als die Hand. Pflanze für jeden gefällten Baum einen Setzling nach, dann wächst der Wald nach."]
+			icon: { id: "minecraft:oak_log" }
 			id: "5EC7640BCBDF892E"
 			title: "Holz sammeln"
 			rewards: [{ id: "0D44A1C6F6BC6D14", type: "item", item: { id: "minecraft:oak_log", count: 16 } }]
-			tasks: [{ id: "3B679BF3502503F2", type: "item", item: { id: "minecraft:oak_log", count: 1 }, count: 8L }]
+			tasks: [{ id: "3B679BF3502503F2", type: "item", title: "Beliebige Holzstämme", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" } }, count: 8L }]
 			x: 3.00d
 			y: 0.00d
 		}
@@ -93,10 +94,11 @@
 		{
 			dependencies: ["5EC7640BCBDF892E"]
 			description: ["&6Was ist das?", "Bretter sind das wichtigste Baumaterial am Anfang.", "", "&6So gehts", "Ein Stamm in der Werkbank ergibt vier Bretter. Im Sägewerk bekommst du mehr Treppen und Stufen.", "", "&6Wofür ist das wichtig?", "Kisten, Werkzeuge, Türen, Boote und Betten brauchen Bretter.", "", "&6Gut zu wissen", "Fast alle Rezepte akzeptieren jede Brettersorte, du musst also nicht auf die Holzart achten."]
+			icon: { id: "minecraft:oak_planks" }
 			id: "0E282EEACBC50CE7"
 			title: "Bretter"
 			rewards: [{ id: "5DD111E360AC1F20", type: "item", item: { id: "minecraft:stick", count: 16 } }]
-			tasks: [{ id: "409359707DCE88F2", type: "item", item: { id: "minecraft:oak_planks", count: 1 }, count: 64L }]
+			tasks: [{ id: "409359707DCE88F2", type: "item", title: "Beliebige Bretter", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:planks)" } }, count: 64L }]
 			x: 4.50d
 			y: 0.00d
 		}
@@ -132,11 +134,12 @@
 		}
 		{
 			dependencies: ["43FE5B6E4CDC40DE"]
-			description: ["&6Was ist das?", "Setzlinge fallen aus Blättern und wachsen zu neuen Bäumen.", "", "&6So gehts", "Pflanze sie auf Erde mit genug Licht und Platz. Knochenmehl lässt sie sofort wachsen.", "", "&6Wofür ist das wichtig?", "Eine kleine Baumfarm bei der Basis spart lange Wege."]
+			description: ["&6Was ist das?", "Setzlinge fallen aus Blättern und wachsen zu neuen Bäumen.", "", "&6So gehts", "Für die Quest zählt jede Setzlingsart.", "Pflanze sie auf Erde mit genug Licht und Platz. Knochenmehl lässt sie sofort wachsen.", "", "&6Wofür ist das wichtig?", "Eine kleine Baumfarm bei der Basis spart lange Wege."]
+			icon: { id: "minecraft:oak_sapling" }
 			id: "456B0331110261E0"
 			title: "Setzlinge pflanzen"
 			rewards: [{ id: "4AB429C7CCE3890C", type: "item", item: { id: "minecraft:bone_meal", count: 8 } }]
-			tasks: [{ id: "26C9871077CE3E66", type: "item", item: { id: "minecraft:oak_sapling", count: 1 }, count: 8L }]
+			tasks: [{ id: "26C9871077CE3E66", type: "item", title: "Beliebige Setzlinge", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:saplings)" } }, count: 8L }]
 			x: 7.50d
 			y: 6.00d
 		}
@@ -193,99 +196,100 @@
 		}
 		{
 			dependencies: ["7D113048B2ABF3D2"]
-			description: ["&6Was ist das?", "Handcrafted bringt Möbel: Stühle, Tische, Bänke, Regale, Schränke.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @handcrafted. Mit dem Hammer kannst du Möbel umgestalten.", "", "&6Wofür ist das wichtig?", "Ein gemütliches Zuhause, auf Stühlen kann man sogar sitzen."]
+			description: ["&6Was ist das?", "Handcrafted bringt Möbel: Stühle, Tische, Bänke, Regale, Schränke.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezepte im Rezeptbuch mit @handcrafted. Mit dem Hammer kannst du Möbel umgestalten.", "", "&6Wofür ist das wichtig?", "Ein gemütliches Zuhause, auf Stühlen kann man sogar sitzen."]
+			icon: { id: "handcrafted:oak_chair" }
 			id: "626C7A1375EADFD2"
 			title: "Möbel bauen"
 			rewards: [{ id: "2F9B5A24F15E0971", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4386E96ECD9A096B", type: "item", item: { id: "handcrafted:oak_chair", count: 1 }, count: 1L }]
+			tasks: [{ id: "4386E96ECD9A096B", type: "item", title: "Beliebiger Handcrafted-Stuhl", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(handcrafted:oak_chair)item(handcrafted:spruce_chair)item(handcrafted:birch_chair)item(handcrafted:jungle_chair)item(handcrafted:acacia_chair)item(handcrafted:dark_oak_chair)item(handcrafted:mangrove_chair)item(handcrafted:cherry_chair)item(handcrafted:bamboo_chair)item(handcrafted:crimson_chair)item(handcrafted:warped_chair))" } }, count: 1L }]
 			x: 15.00d
 			y: -9.00d
 		}
 		{
 			dependencies: ["626C7A1375EADFD2"]
-			description: ["&6Was ist das?", "Macaws Furniture: Stühle, Tische, Schränke, Küchen und Betten.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwfurnitures. Fast alles gibt es in allen Holzarten.", "", "&6Wofür ist das wichtig?", "Ein richtig eingerichtetes Zuhause."]
+			description: ["&6Was ist das?", "Macaws Furniture: Stühle, Tische, Schränke, Küchen und Betten.", "", "&6So gehts", "Für die Quest zählt jedes Möbelstück aus @mcwfurnitures.", "Rezepte im Rezeptbuch mit @mcwfurnitures. Fast alles gibt es in allen Holzarten.", "", "&6Wofür ist das wichtig?", "Ein richtig eingerichtetes Zuhause."]
 			icon: { id: "mcwfurnitures:oak_chair" }
 			id: "5272DD27B136C7A6"
 			title: "Macaw-Möbel"
 			rewards: [{ id: "626EEFCFD4853ED8", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "77DD99F4F57EB0C5", type: "item", item: { id: "mcwfurnitures:oak_chair", count: 1 }, count: 1L }]
+			tasks: [{ id: "77DD99F4F57EB0C5", type: "item", title: "Beliebiges Macaw-Möbel", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "mod(mcwfurnitures)" } }, count: 1L }]
 			x: 16.50d
 			y: -9.00d
 		}
 		{
 			dependencies: ["5272DD27B136C7A6"]
-			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Rezept: Werkbank: 2x Stock, 4x Eichenbretter (ergibt 2) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
+			description: ["&6Was ist das?", "Macaws Doors: Scheunentore, Glastüren, japanische Türen und mehr.", "", "&6So gehts", "Für die Quest zählt jede Tür aus @mcwdoors.", "Rezept: Werkbank: 2x Stock, 4x Eichenbretter (ergibt 2) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwdoors.", "", "&6Wofür ist das wichtig?", "Schöne Eingänge für jedes Haus."]
 			icon: { id: "mcwdoors:oak_barn_door" }
 			id: "5221BB44D526AC25"
 			title: "Macaw-Türen"
 			rewards: [{ id: "342C65B82E84B859", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "76F225590909CB3B", type: "item", item: { id: "mcwdoors:oak_barn_door", count: 1 }, count: 1L }]
+			tasks: [{ id: "76F225590909CB3B", type: "item", title: "Beliebige Macaw-Tür", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "mod(mcwdoors)" } }, count: 1L }]
 			x: 18.00d
 			y: -9.00d
 		}
 		{
 			dependencies: ["5221BB44D526AC25"]
-			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Rezept: Werkbank (formlos): Eichenholzhängebrückentreppe (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
+			description: ["&6Was ist das?", "Macaws Bridges: Brücken aus Seil, Holz und Stein.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank (formlos): Eichenholzhängebrückentreppe (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwbridges. Setze sie Stück für Stück über eine Schlucht.", "", "&6Wofür ist das wichtig?", "Sichere Wege über Flüsse und Abgründe."]
 			icon: { id: "mcwbridges:rope_oak_bridge" }
 			id: "436CBA5BC0B154F4"
 			title: "Seilbrücke"
 			rewards: [{ id: "1161B0B85299BB86", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "24DDC33BAB35D0E6", type: "item", item: { id: "mcwbridges:rope_oak_bridge", count: 1 }, count: 4L }]
+			tasks: [{ id: "24DDC33BAB35D0E6", type: "item", title: "Beliebige Seilbrücke", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(mcwbridges:rope_oak_bridge)item(mcwbridges:rope_spruce_bridge)item(mcwbridges:rope_birch_bridge)item(mcwbridges:rope_jungle_bridge)item(mcwbridges:rope_acacia_bridge)item(mcwbridges:rope_dark_oak_bridge)item(mcwbridges:rope_mangrove_bridge)item(mcwbridges:rope_cherry_bridge)item(mcwbridges:rope_crimson_bridge)item(mcwbridges:rope_warped_bridge))" } }, count: 4L }]
 			x: 19.50d
 			y: -9.00d
 		}
 		{
 			dependencies: ["436CBA5BC0B154F4"]
-			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Rezept: Werkbank: 3x Eichenbretter, 2x Stock (ergibt 3) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
+			description: ["&6Was ist das?", "Another Furniture: Stühle, Bänke, Regale, Lampen, Vorhänge und Sofas.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept: Werkbank: 3x Eichenbretter, 2x Stock (ergibt 3) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @another_furniture.", "", "&6Wofür ist das wichtig?", "Noch mehr Auswahl für dein Zuhause."]
 			icon: { id: "another_furniture:oak_chair" }
 			id: "371AC58069078D46"
 			title: "Gemütliche Möbel"
 			rewards: [{ id: "023A23D19479A90F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "2F6E985C24BD0E38", type: "item", item: { id: "another_furniture:oak_chair", count: 1 }, count: 1L }]
+			tasks: [{ id: "2F6E985C24BD0E38", type: "item", title: "Beliebiger Stuhl", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(another_furniture:oak_chair)item(another_furniture:spruce_chair)item(another_furniture:birch_chair)item(another_furniture:jungle_chair)item(another_furniture:acacia_chair)item(another_furniture:dark_oak_chair)item(another_furniture:mangrove_chair)item(another_furniture:cherry_chair)item(another_furniture:bamboo_chair)item(another_furniture:crimson_chair)item(another_furniture:warped_chair))" } }, count: 1L }]
 			x: 21.00d
 			y: -9.00d
 		}
 		{
 			dependencies: ["371AC58069078D46"]
-			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Rezept: Werkbank: 2x Eichenstamm, Stock (ergibt 2) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
+			description: ["&6Was ist das?", "Macaws Roofs: Dächer in vielen Formen.", "", "&6So gehts", "Für die Quest zählt jedes Dachteil aus @mcwroofs.", "Rezept: Werkbank: 2x Eichenstamm, Stock (ergibt 2) (Anordnung zeigt das Rezeptbuch: Maus aufs Item, Taste R).", "Rezepte im Rezeptbuch mit @mcwroofs.", "", "&6Wofür ist das wichtig?", "Echte Dachschrägen statt einfacher Treppen."]
 			icon: { id: "mcwroofs:oak_roof" }
 			id: "47291DA3B6CE9A9E"
 			title: "Macaw-Dach"
 			rewards: [{ id: "09242B03DA44510F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "479A5C1745DEE2FE", type: "item", item: { id: "mcwroofs:oak_roof", count: 1 }, count: 8L }]
+			tasks: [{ id: "479A5C1745DEE2FE", type: "item", title: "Beliebige Macaw-Dachteile", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "mod(mcwroofs)" } }, count: 8L }]
 			x: 22.50d
 			y: -9.00d
 		}
 		{
 			dependencies: ["47291DA3B6CE9A9E"]
-			description: ["&6Was ist das?", "Macaws Stairs: Treppen, Geländer und Balkone.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwstairs.", "", "&6Wofür ist das wichtig?", "Schöne Aufgänge und Balkone."]
+			description: ["&6Was ist das?", "Macaws Stairs: Treppen, Geländer und Balkone.", "", "&6So gehts", "Für die Quest zählt jedes Teil aus @mcwstairs.", "Rezepte im Rezeptbuch mit @mcwstairs.", "", "&6Wofür ist das wichtig?", "Schöne Aufgänge und Balkone."]
 			icon: { id: "mcwstairs:oak_bulk_stairs" }
 			id: "602B320FA662AE3F"
 			title: "Macaw-Treppe"
 			rewards: [{ id: "6356E38976DB8D12", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "41DFE689CEF65BA3", type: "item", item: { id: "mcwstairs:oak_bulk_stairs", count: 1 }, count: 4L }]
+			tasks: [{ id: "41DFE689CEF65BA3", type: "item", title: "Beliebige Macaw-Treppenteile", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "mod(mcwstairs)" } }, count: 4L }]
 			x: 24.00d
 			y: -9.00d
 		}
 		{
 			dependencies: ["602B320FA662AE3F"]
-			description: ["&6Was ist das?", "Macaws Trapdoors: Falltüren in vielen Mustern.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwtrpdoors.", "", "&6Wofür ist das wichtig?", "Fensterläden und Bodenklappen."]
+			description: ["&6Was ist das?", "Macaws Trapdoors: Falltüren in vielen Mustern.", "", "&6So gehts", "Für die Quest zählt jede Falltür aus @mcwtrpdoors.", "Rezepte im Rezeptbuch mit @mcwtrpdoors.", "", "&6Wofür ist das wichtig?", "Fensterläden und Bodenklappen."]
 			icon: { id: "mcwtrpdoors:oak_barn_trapdoor" }
 			id: "5ED04CDD6E21EF46"
 			title: "Macaw-Falltür"
 			rewards: [{ id: "00D1CA0083778D1F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "4EAD5FF90874B9D1", type: "item", item: { id: "mcwtrpdoors:oak_barn_trapdoor", count: 1 }, count: 2L }]
+			tasks: [{ id: "4EAD5FF90874B9D1", type: "item", title: "Beliebige Macaw-Falltüren", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "mod(mcwtrpdoors)" } }, count: 2L }]
 			x: 25.50d
 			y: -9.00d
 		}
 		{
 			dependencies: ["5ED04CDD6E21EF46"]
-			description: ["&6Was ist das?", "Macaws Lights: Laternen, Lampen und Kronleuchter.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @mcwlights.", "", "&6Wofür ist das wichtig?", "Licht, das zum Haus passt."]
+			description: ["&6Was ist das?", "Macaws Lights: Laternen, Lampen und Kronleuchter.", "", "&6So gehts", "Für die Quest zählt jede Lampe aus @mcwlights.", "Rezepte im Rezeptbuch mit @mcwlights.", "", "&6Wofür ist das wichtig?", "Licht, das zum Haus passt."]
 			icon: { id: "mcwlights:classic_street_lamp" }
 			id: "279DB5AE1CABABDD"
 			title: "Macaw-Lampe"
 			rewards: [{ id: "5B33C6D442E91C3B", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "273CE48C0C3DFAE7", type: "item", item: { id: "mcwlights:classic_street_lamp", count: 1 }, count: 1L }]
+			tasks: [{ id: "273CE48C0C3DFAE7", type: "item", title: "Beliebige Macaw-Lampe", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "mod(mcwlights)" } }, count: 1L }]
 			x: 27.00d
 			y: -9.00d
 		}
@@ -302,11 +306,12 @@
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofür ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es ständig.", "", "&6Gut zu wissen", "Wenn du Stein abbaust, erhältst du Bruchstein. Mit einer Spitzhacke mit Seidenberührung bekommst du später den glatten Stein selbst."]
+			description: ["&6Was ist das?", "Bruchstein ist das Material der Steinzeit.", "", "&6So gehts", "Auch Tiefen- und bemooster Bruchstein zählen.", "Baue Stein mit der Holzspitzhacke ab.", "", "&6Wofür ist das wichtig?", "Steinwerkzeug, Ofen und erste Mauern. Sammle viel, du brauchst es ständig.", "", "&6Gut zu wissen", "Wenn du Stein abbaust, erhältst du Bruchstein. Mit einer Spitzhacke mit Seidenberührung bekommst du später den glatten Stein selbst."]
+			icon: { id: "minecraft:cobblestone" }
 			id: "3D7458B224785A88"
 			title: "Bruchstein"
 			rewards: [{ id: "661FB845F3358EED", type: "item", item: { id: "minecraft:flint", count: 8 } }]
-			tasks: [{ id: "583605054C42B443", type: "item", item: { id: "minecraft:cobblestone", count: 1 }, count: 64L }]
+			tasks: [{ id: "583605054C42B443", type: "item", title: "Beliebiger Bruchstein", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(c:cobblestones)" } }, count: 64L }]
 			x: 9.00d
 			y: 0.00d
 		}
@@ -475,11 +480,12 @@
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
-			description: ["&6Was ist das?", "Rohes Fleisch auf dem Lagerfeuer oder im Ofen braten.", "", "&6So gehts", "Auf dem Lagerfeuer, im Ofen oder im Räucherofen braten.", "", "&6Wofür ist das wichtig?", "Gutes Essen füllt die Sättigung, dann heilst du schneller."]
+			description: ["&6Was ist das?", "Rohes Fleisch auf dem Lagerfeuer oder im Ofen braten.", "", "&6So gehts", "Für die Quest zählt jedes gebratene Fleisch: Rind, Schwein, Schaf, Huhn oder Kaninchen.", "Auf dem Lagerfeuer, im Ofen oder im Räucherofen braten.", "", "&6Wofür ist das wichtig?", "Gutes Essen füllt die Sättigung, dann heilst du schneller."]
+			icon: { id: "minecraft:cooked_beef" }
 			id: "2AD1D915658D1D50"
 			title: "Gebratenes Fleisch"
 			rewards: [{ id: "10D3B99316208328", type: "item", item: { id: "minecraft:cooked_beef", count: 6 } }]
-			tasks: [{ id: "40CCC3AF6B0283CA", type: "item", item: { id: "minecraft:cooked_beef", count: 1 }, count: 8L }]
+			tasks: [{ id: "40CCC3AF6B0283CA", type: "item", title: "Beliebiges gebratenes Fleisch", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(minecraft:cooked_beef)item(minecraft:cooked_porkchop)item(minecraft:cooked_mutton)item(minecraft:cooked_chicken)item(minecraft:cooked_rabbit))" } }, count: 8L }]
 			x: 21.00d
 			y: -1.50d
 		}
@@ -557,12 +563,13 @@
 		}
 		{
 			dependencies: ["149718EF5100546D"]
-			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Du kannst allein schlafen: Die Nacht läuft dann schneller. Je mehr Mitspieler im Bett liegen, desto schneller wird es Morgen. Niemand muss warten, bis die Hälfte schläft.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
+			description: ["&6Was ist das?", "Ein Bett lässt dich die Nacht überspringen und setzt deinen Spawnpunkt.", "", "&6So gehts", "Für die Quest zählt jede Bettfarbe.", "Drei Wolle (gleiche Farbe) über drei Brettern ergeben ein Bett. Wolle bekommst du von Schafen.", "Rechtsklick auf das Bett in der Nacht. Du kannst allein schlafen: Die Nacht läuft dann schneller. Je mehr Mitspieler im Bett liegen, desto schneller wird es Morgen. Niemand muss warten, bis die Hälfte schläft.", "", "&6Wofür ist das wichtig?", "Nachts kommen viele Monster. Mit Bett bist du sicher und startest nach dem Tod zu Hause, nicht am Weltspawn."]
+			icon: { id: "minecraft:red_bed" }
 			id: "31E49D7CA0CDCF29"
 			hide_dependency_lines: true
 			title: "Ein Bett für die Nacht"
 			rewards: [{ id: "2CCB051DE9617BB1", type: "item", item: { id: "minecraft:leather", count: 4 } }]
-			tasks: [{ id: "08C0752D3456786D", type: "item", item: { id: "minecraft:red_bed", count: 1 }, count: 1L }]
+			tasks: [{ id: "08C0752D3456786D", type: "item", title: "Beliebiges Bett", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:beds)" } }, count: 1L }]
 			x: 9.00d
 			y: 9.00d
 		}
@@ -598,11 +605,12 @@
 		}
 		{
 			dependencies: ["0C6A9776F573027A"]
-			description: ["&6Was ist das?", "Türen halten Zombies nicht immer ab, aber die meisten Monster.", "", "&6So gehts", "Sechs Bretter in zwei Spalten. Zwei nebeneinander öffnen sich zusammen.", "", "&6Wofür ist das wichtig?", "Halte Monster draußen. Achtung: Zombies können Holztüren auf Schwierigkeit Schwer einschlagen."]
+			description: ["&6Was ist das?", "Türen halten Zombies nicht immer ab, aber die meisten Monster.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Sechs Bretter in zwei Spalten. Zwei nebeneinander öffnen sich zusammen.", "", "&6Wofür ist das wichtig?", "Halte Monster draußen. Achtung: Zombies können Holztüren auf Schwierigkeit Schwer einschlagen."]
+			icon: { id: "minecraft:oak_door" }
 			id: "730075A86BE3CD99"
 			title: "Türen"
 			rewards: [{ id: "0F3DD15C543C628E", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
-			tasks: [{ id: "049AB3B146171822", type: "item", item: { id: "minecraft:oak_door", count: 1 }, count: 2L }]
+			tasks: [{ id: "049AB3B146171822", type: "item", title: "Beliebige Holztür", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:wooden_doors)" } }, count: 2L }]
 			x: 16.50d
 			y: 9.00d
 		}
@@ -618,11 +626,12 @@
 		}
 		{
 			dependencies: ["3E7ABB28E4C6BBE5"]
-			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt für Ausflüge.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Du kannst allein schlafen. Die Nacht wird schneller, je mehr Spieler im Bett oder Schlafsack liegen.", "", "&6So gehts", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofür ist das wichtig?", "Auf langen Ausflügen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
+			description: ["&6Was ist das?", "Ein Schlafsack setzt deinen Spawnpunkt nicht neu. Er ist perfekt für Ausflüge.", "Schritt 1: Lege drei gleichfarbige Wolle in eine Reihe in die Werkbank.", "Schritt 2: Platziere den Schlafsack und lege dich hinein.", "Hinweis: Du kannst allein schlafen. Die Nacht wird schneller, je mehr Spieler im Bett oder Schlafsack liegen.", "", "&6So gehts", "Für die Quest zählt jede Farbe.", "Drei gleichfarbige Wolle in eine Reihe legen.", "Schlafsack auf den Boden stellen und hineinlegen.", "", "&6Wofür ist das wichtig?", "Auf langen Ausflügen kannst du schlafen, ohne dass du nach dem Tod weit weg von zu Hause aufwachst."]
+			icon: { id: "comforts:sleeping_bag_red" }
 			id: "1799BD20B88CE4F4"
 			title: "Schlafen mit Comforts"
 			rewards: [{ id: "3563618D029E7D7A", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "1D44FC84F2D71FDA", type: "item", item: { id: "comforts:sleeping_bag_red", count: 1 }, count: 1L }]
+			tasks: [{ id: "1D44FC84F2D71FDA", type: "item", title: "Beliebiger Schlafsack", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(comforts:sleeping_bags)" } }, count: 1L }]
 			x: 19.50d
 			y: 9.00d
 		}
@@ -648,11 +657,12 @@
 		}
 		{
 			dependencies: ["7E5061B34C079EF7"]
-			description: ["&6Was ist das?", "Mit dem Boot fährst du über Flüsse und Meere.", "", "&6So gehts", "Fünf Bretter in U-Form. Ins Wasser setzen und einsteigen.", "", "&6Wofür ist das wichtig?", "Viel schneller als schwimmen, gut zum Erkunden von Küsten."]
+			description: ["&6Was ist das?", "Mit dem Boot fährst du über Flüsse und Meere.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Fünf Bretter in U-Form. Ins Wasser setzen und einsteigen.", "", "&6Wofür ist das wichtig?", "Viel schneller als schwimmen, gut zum Erkunden von Küsten."]
+			icon: { id: "minecraft:oak_boat" }
 			id: "31BE35B07AF6F13E"
 			title: "Boot"
 			rewards: [{ id: "060D7BEF1DA1BB8C", type: "item", item: { id: "minecraft:oak_planks", count: 16 } }]
-			tasks: [{ id: "34ED2B1BBCCFCFEA", type: "item", item: { id: "minecraft:oak_boat", count: 1 }, count: 1L }]
+			tasks: [{ id: "34ED2B1BBCCFCFEA", type: "item", title: "Beliebiges Boot", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:boats)" } }, count: 1L }]
 			x: 18.00d
 			y: -6.00d
 		}
@@ -708,123 +718,16 @@
 		}
 		{
 			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Lange Klinge mit mehr Reichweite.", "Weapons Expanded gibt es in mehreren Materialien (Stein, Eisen, Diamant und mehr). Die nächste Stufe kommt in der Eisenzeit.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
+			description: ["&6Was ist das?", "Weapons Expanded bringt viele Waffenarten: Langschwert, Breitschwert, Großschwert, Katana, Hammer, Kriegshammer, Kampfaxt, Beil, Sichel und Sense.", "Für diese Quest zählt jede davon aus Stein.", "", "&6So gehts", "Rezepte im Rezeptbuch mit @weaponsexpanded: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Probiere mehrere aus und finde deinen Stil.", "Die nächste Stufe gibt es in der Eisenzeit."]
 			optional: true
+			icon: { id: "weaponsexpanded:stone_longsword" }
 			id: "7B7BD9E2CE14267D"
 			hide_dependency_lines: true
-			title: "Stein-Langschwert"
+			title: "Eine Stein-Waffe"
 			rewards: [{ id: "56EE8C09C32B780F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "45FA4774993CDE47", type: "item", item: { id: "weaponsexpanded:stone_longsword", count: 1 }, count: 1L }]
+			tasks: [{ id: "45FA4774993CDE47", type: "item", title: "Beliebige Stein-Waffe", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(weaponsexpanded:stone_longsword)item(weaponsexpanded:stone_broadsword)item(weaponsexpanded:stone_greatsword)item(weaponsexpanded:stone_katana)item(weaponsexpanded:stone_hammer)item(weaponsexpanded:stone_warhammer)item(weaponsexpanded:stone_battleaxe)item(weaponsexpanded:stone_hatchet)item(weaponsexpanded:stone_sickle)item(weaponsexpanded:stone_scythe))" } }, count: 1L }]
 			x: -1.50d
 			y: 1.50d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Breite Klinge, schwere Treffer.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "456E1FF38461CB11"
-			hide_dependency_lines: true
-			title: "Stein-Breitschwert"
-			rewards: [{ id: "0E28426F9C1ECB04", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6AB751F94D6C0558", type: "item", item: { id: "weaponsexpanded:stone_broadsword", count: 1 }, count: 1L }]
-			x: -4.50d
-			y: -4.50d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Zweihänder mit riesigem Schaden, aber langsam.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "7EC7DE08B14CA598"
-			hide_dependency_lines: true
-			title: "Stein-Großschwert"
-			rewards: [{ id: "3730335B3E18D7BC", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6FC67CD12C0F5AB8", type: "item", item: { id: "weaponsexpanded:stone_greatsword", count: 1 }, count: 1L }]
-			x: 0.00d
-			y: -3.00d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schnelle Klinge für viele Treffer hintereinander.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "735D8E3285B2AA09"
-			hide_dependency_lines: true
-			title: "Stein-Katana"
-			rewards: [{ id: "38E24995C2CF38FD", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "69446A61D26EBD78", type: "item", item: { id: "weaponsexpanded:stone_katana", count: 1 }, count: 1L }]
-			x: -3.00d
-			y: -3.00d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Schwere Axt, die auch Schilde bricht.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "138E676E5DB8B364"
-			hide_dependency_lines: true
-			title: "Stein-Kampfaxt"
-			rewards: [{ id: "5B8F5FC6A6ED5F4F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "0D4AB543EE42427D", type: "item", item: { id: "weaponsexpanded:stone_battleaxe", count: 1 }, count: 1L }]
-			x: 0.00d
-			y: -1.50d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Leichte Axt, schnell und handlich.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "3E5CB21B0C884120"
-			hide_dependency_lines: true
-			title: "Stein-Beil"
-			rewards: [{ id: "30F25BA91B2BAB88", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "7A879D4049402C52", type: "item", item: { id: "weaponsexpanded:stone_hatchet", count: 1 }, count: 1L }]
-			x: -1.50d
-			y: 3.00d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Wuchtiger Hammer, schlägt Gegner zurück.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "34EF91803174E0E8"
-			hide_dependency_lines: true
-			title: "Stein-Hammer"
-			rewards: [{ id: "37C694394BEC9288", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "0E662FD1F3DE8002", type: "item", item: { id: "weaponsexpanded:stone_hammer", count: 1 }, count: 1L }]
-			x: -1.50d
-			y: -3.00d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Riesiger Hammer mit Flächenschaden.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "3BAC6AAD952DF514"
-			hide_dependency_lines: true
-			title: "Stein-Kriegshammer"
-			rewards: [{ id: "70AD33415798697D", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "00045EFB7EF1F738", type: "item", item: { id: "weaponsexpanded:stone_warhammer", count: 1 }, count: 1L }]
-			x: -1.50d
-			y: -1.50d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Weiter Schwung, trifft mehrere Gegner.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "3174F2FF37A0A643"
-			hide_dependency_lines: true
-			title: "Stein-Sense"
-			rewards: [{ id: "75E8579D6499C8A6", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "71EF968DA6DE6720", type: "item", item: { id: "weaponsexpanded:stone_scythe", count: 1 }, count: 1L }]
-			x: 3.00d
-			y: -3.00d
-		}
-		{
-			dependencies: ["38A3C7968505D99D"]
-			description: ["&6Was ist das?", "Weapons Expanded: Kleine, schnelle Klinge, auch zum Ernten.", "", "&6So gehts", "Rezept: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Better Combat: Jede Waffenart hat eigene Kombos (Schlagfolgen). Teste sie an der Trainingspuppe und finde deinen Stil."]
-			optional: true
-			id: "3AB96FC6D59F8B69"
-			hide_dependency_lines: true
-			title: "Stein-Sichel"
-			rewards: [{ id: "15FC2F83B01B238F", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "625A9B80388D4078", type: "item", item: { id: "weaponsexpanded:stone_sickle", count: 1 }, count: 1L }]
-			x: -3.00d
-			y: 3.00d
 		}
 		{
 			dependencies: ["5A685565E72C4410"]
@@ -860,11 +763,12 @@
 		}
 		{
 			dependencies: ["5EDD66726A8CB055"]
-			description: ["&6Was ist das?", "Leder von Kühen ergibt die erste Rüstung.", "", "&6So gehts", "Leder von Kühen. Fünf, acht, sieben oder vier Leder für die Teile.", "", "&6Wofür ist das wichtig?", "Etwas Schutz für die ersten Nächte. In der Eisenzeit folgt Eisenrüstung."]
+			description: ["&6Was ist das?", "Leder von Kühen ergibt die erste Rüstung.", "", "&6So gehts", "Für die Quest zählt jedes Teil: Kappe, Jacke, Hose oder Stiefel.", "Leder von Kühen. Fünf, acht, sieben oder vier Leder für die Teile.", "", "&6Wofür ist das wichtig?", "Etwas Schutz für die ersten Nächte. In der Eisenzeit folgt Eisenrüstung."]
+			icon: { id: "minecraft:leather_chestplate" }
 			id: "4CC791F37478A527"
 			title: "Lederrüstung"
 			rewards: [{ id: "56D8C3FD39A6C1A1", type: "item", item: { id: "minecraft:leather", count: 8 } }]
-			tasks: [{ id: "745B362AB99721F7", type: "item", item: { id: "minecraft:leather_chestplate", count: 1 }, count: 1L }]
+			tasks: [{ id: "745B362AB99721F7", type: "item", title: "Beliebiges Lederrüstungsteil", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(minecraft:leather_helmet)item(minecraft:leather_chestplate)item(minecraft:leather_leggings)item(minecraft:leather_boots))" } }, count: 1L }]
 			x: 24.00d
 			y: 0.00d
 		}
@@ -1089,11 +993,12 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Ein Zaun hält Tiere und Besucher fern.", "", "&6So gehts", "Bretter und Stöcke in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Zäunen baust du Weiden für Tiere."]
+			description: ["&6Was ist das?", "Ein Zaun hält Tiere und Besucher fern.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Bretter und Stöcke in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Mit Zäunen baust du Weiden für Tiere."]
+			icon: { id: "minecraft:oak_fence" }
 			id: "52C4CA6F70F42119"
 			title: "Zaun"
 			rewards: [{ id: "6F65EF2E6DECF530", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "384B4F56C4D4E68A", type: "item", item: { id: "minecraft:oak_fence", count: 1 }, count: 4L }]
+			tasks: [{ id: "384B4F56C4D4E68A", type: "item", title: "Beliebiger Holzzaun", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:wooden_fences)" } }, count: 4L }]
 			x: 6.00d
 			y: -4.50d
 		}
@@ -1129,11 +1034,12 @@
 		}
 		{
 			dependencies: ["38E431CDA13687D6"]
-			description: ["&6Was ist das?", "Zwei einfache Nahrungspflanzen.", "", "&6So gehts", "Finde sie bei Dorfbewohnern oder Zombies und pflanze sie auf Ackerboden.", "", "&6Wofür ist das wichtig?", "Eine sichere Nahrungsquelle für den Alltag."]
+			description: ["&6Was ist das?", "Zwei einfache Nahrungspflanzen.", "", "&6So gehts", "Für die Quest zählen Karotten und Kartoffeln.", "Finde sie bei Dorfbewohnern oder Zombies und pflanze sie auf Ackerboden.", "", "&6Wofür ist das wichtig?", "Eine sichere Nahrungsquelle für den Alltag."]
+			icon: { id: "minecraft:carrot" }
 			id: "2D3682B3D4522879"
 			title: "Kartoffeln und Karotten"
 			rewards: [{ id: "25DBC1766543F266", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "6E11563AADD54FAF", type: "item", item: { id: "minecraft:carrot", count: 1 }, count: 4L }]
+			tasks: [{ id: "6E11563AADD54FAF", type: "item", title: "Karotten oder Kartoffeln", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(minecraft:carrot)item(minecraft:potato))" } }, count: 4L }]
 			x: 18.00d
 			y: 3.00d
 		}
@@ -1179,12 +1085,13 @@
 		}
 		{
 			dependencies: ["0E282EEACBC50CE7"]
-			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Hilft bei der Ordnung in großen Lagern."]
+			description: ["&6Was ist das?", "Schilder beschriften Kisten und Orte.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Bretter und einen Stock in der Werkbank. Das Rezept zeigt dir das Rezeptbuch: Maus aufs Item und R drücken.", "", "&6Wofür ist das wichtig?", "Hilft bei der Ordnung in großen Lagern."]
+			icon: { id: "minecraft:oak_sign" }
 			id: "22DEBBAF902D4BA1"
 			hide_dependency_lines: true
 			title: "Schilder"
 			rewards: [{ id: "441B7533C996B730", type: "xp_levels", xp_levels: 2 }]
-			tasks: [{ id: "2E4A3E4C07BE5FED", type: "item", item: { id: "minecraft:oak_sign", count: 1 }, count: 2L }]
+			tasks: [{ id: "2E4A3E4C07BE5FED", type: "item", title: "Beliebiges Schild", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "item_tag(minecraft:signs)" } }, count: 2L }]
 			x: 6.00d
 			y: -9.00d
 		}

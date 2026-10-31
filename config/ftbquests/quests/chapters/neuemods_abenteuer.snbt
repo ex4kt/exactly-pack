@@ -340,12 +340,12 @@
 		}
 		{
 			dependencies: ["343F4F8987505D61"]
-			description: ["&6Was ist das?", "Ein Handelsschiff.", "", "&6So gehts", "Rezept nachschlagen: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Viel Platz für Fracht."]
+			description: ["&6Was ist das?", "Ein Handelsschiff.", "", "&6So gehts", "Für die Quest zählt jede Holzart.", "Rezept nachschlagen: Maus aufs Item, Taste R.", "", "&6Wofür ist das wichtig?", "Viel Platz für Fracht."]
 			icon: { id: "smallships:oak_cog" }
 			id: "39AF0526F72845B7"
 			title: "Kogge"
 			rewards: [{ id: "5090E99CB15F4ACD", type: "xp_levels", xp_levels: 1 }]
-			tasks: [{ id: "173C4610772BF4CE", type: "item", item: { id: "smallships:oak_cog", count: 1 }, count: 1L }]
+			tasks: [{ id: "173C4610772BF4CE", type: "item", title: "Beliebige Kogge", item: { id: "ftbfiltersystem:smart_filter", count: 1, components: { "ftbfiltersystem:filter": "or(item(smallships:oak_cog)item(smallships:spruce_cog)item(smallships:birch_cog)item(smallships:jungle_cog)item(smallships:acacia_cog)item(smallships:dark_oak_cog)item(smallships:mangrove_cog)item(smallships:cherry_cog)item(smallships:bamboo_cog)item(smallships:crimson_cog)item(smallships:warped_cog))" } }, count: 1L }]
 			x: 4.50d
 			y: -7.500d
 		}
