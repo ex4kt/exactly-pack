@@ -115,11 +115,22 @@ $bUpd.Add_Click({
         # die API erlaubt nur 60 Anfragen pro Stunde und IP, danach brach die Aktualisierung mit HTTP 403 ab (0.0.375)
         $argumente = @('-jar', 'packwiz-installer-bootstrap.jar')
         if (Test-Path 'packwiz-installer.jar') { $argumente += '--bootstrap-no-update' }
+        # Das Start-Fenster ist TopMost und wuerde den Installer verdecken: solange er laeuft aus, sein Fenster einmal nach vorne holen
+        $form.TopMost = $false
         $p = Start-Process -FilePath $java -ArgumentList ($argumente + $PackUrl) -PassThru
-        while (-not $p.HasExited) { [Windows.Forms.Application]::DoEvents(); Start-Sleep -Milliseconds 100 }
+        $vorne = $false
+        while (-not $p.HasExited) {
+            [Windows.Forms.Application]::DoEvents(); Start-Sleep -Milliseconds 100
+            if (-not $vorne) {
+                $p.Refresh()
+                if ($p.MainWindowHandle -ne [IntPtr]::Zero) { $vorne = $true; [void](New-Object -ComObject WScript.Shell).AppActivate($p.Id) }
+            }
+        }
         if ($p.ExitCode -ne 0) { Zeige 'alt' ("Die Aktualisierung wurde nicht abgeschlossen (Code " + $p.ExitCode + ").`nDruecke Aktualisieren, um es nochmal zu versuchen.") $false; return }
     } catch {
         Zeige 'alt' ("Der Installer konnte nicht gestartet werden:`n" + $_.Exception.Message) $false; return
+    } finally {
+        $form.TopMost = $true; $form.Activate()
     }
     Neu-Pruefen
 })
