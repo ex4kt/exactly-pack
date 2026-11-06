@@ -115,7 +115,6 @@
 			icon: { id: "apothic_enchanting:beeshelf" }
 			id: "1965170882D330EF"
 			title: "Bienenregal"
-			rewards: [{ id: "4347E8957CFF1DF0", type: "xp_levels", xp_levels: 1 }]
 			tasks: [{ id: "33494CFB759FFBA2", type: "item", item: { id: "apothic_enchanting:beeshelf", count: 1 }, count: 1L }]
 			x: 6.00d
 			y: 6.00d
@@ -192,7 +191,6 @@
 			icon: { id: "apothic_enchanting:hellshelf" }
 			id: "6363FCC5B9BBC794"
 			title: "Höllenregal"
-			rewards: [{ id: "2285F098192198B8", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "491C60F4596E7255", type: "item", item: { id: "apothic_enchanting:hellshelf", count: 1 }, count: 1L }]
 			x: 4.50d
 			y: 0.00d
@@ -358,7 +356,6 @@
 			icon: { id: "apothic_enchanting:endshelf" }
 			id: "6351B40A60D6F16F"
 			title: "Endregal"
-			rewards: [{ id: "5EB6FCBA542F1B45", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "3C7F0EB37F643608", type: "item", item: { id: "apothic_enchanting:endshelf", count: 1 }, count: 1L }]
 			x: 9.00d
 			y: 0.00d
@@ -447,7 +444,6 @@
 			icon: { id: "apothic_enchanting:scrap_tome" }
 			id: "20FDB2C382E9FCA9"
 			title: "Schrott-Buch"
-			rewards: [{ id: "08F95417E5AC745C", type: "xp_levels", xp_levels: 2 }]
 			tasks: [{ id: "7FF1FAC4478E0807", type: "item", item: { id: "apothic_enchanting:scrap_tome", count: 1 }, count: 1L }]
 			x: 12.00d
 			y: 0.00d
@@ -689,7 +685,7 @@
 		}
 		{
 			dependencies: ["6D2FCC0F6ED488B9", "7AD3F56EE2DA5961", "1068BF974B3CF68E", "7E8A4C888E9CEA2A"]
-			description: ["&6Was ist das?", "Du hast die höchsten Regale jeder Art gebaut. Damit hast du alles in diesem Kapitel erreicht.", "", "&6So gehts", "Baue die vier erfüllten Regale (Hölle, See, Tiefe, Ende) und stelle sie rund um einen Verzauberungstisch.", "", "&6Wofür ist das wichtig?", "Dein Tisch kann jetzt die besten Verzauberungen anbieten."]
+			description: ["&6Was ist das?", "Du hast die höchsten Regale jeder Art gebaut. Damit hast du alles in diesem Kapitel erreicht.", "", "&6So gehts", "Baue die erfüllten Regale für Hölle und See und stelle sie rund um einen Verzauberungstisch.", "", "&6Wofür ist das wichtig?", "Dein Tisch kann jetzt die besten Verzauberungen anbieten."]
 			icon: { id: "minecraft:nether_star" }
 			hide_dependency_lines: true
 			id: "658F0B247E4F0A85"
@@ -792,7 +788,6 @@
 			description: ["&6Was ist das?", "Die Bibliothek speichert Verzauberungsbücher.", "", "&6So gehts", "Baue die Bibliothek. Stelle sie in die Nähe des Tisches. Bei höheren Stufen speichert sie Bücher und erlaubt höhere Verzauberungsstufen.", "", "&6Wofür ist das wichtig?", "Sie ist der nächste große Schritt nach den Regalen."]
 			id: "721982F4EBAA4D9D"
 			title: "Verzauberung: Bibliothek"
-			rewards: [{ id: "41D4AAC9B0B8C39B", type: "xp_levels", xp_levels: 3 }]
 			tasks: [{ id: "453D33319CD9E50E", type: "item", item: { id: "apothic_enchanting:library", count: 1 }, count: 1L }]
 			x: 13.50d
 			y: 7.50d
