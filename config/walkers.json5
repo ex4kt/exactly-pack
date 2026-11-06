@@ -113,7 +113,10 @@
     ]
   },
   // Blacklist entity types (e.g. minecraft:blaze) to disable morphing into those.
-  "entityBlacklist": [],
+  "entityBlacklist": [
+    "minecraft:ender_dragon",
+    "twilightforest:hydra"
+  ],
   // True - the entity blacklist will be treated as a whitelist. This can be modified via commands.
   "entityBlacklistIsWhitelist": false,
   // Blacklist Players with their UUIDs, so they can't unlock shapes. This can be modified via commands.
