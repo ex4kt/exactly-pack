@@ -13,7 +13,30 @@ if (-not $Test -and $PSCommandPath -and ((Split-Path $PSCommandPath -Leaf) -ne '
     exit $LASTEXITCODE
 }
 
+# Adresse der pack.toml im neuesten Commit: raw/main ist minutenlang gecacht, die GitHub-API auf 60 Anfragen
+# pro Stunde begrenzt. Der Commit-Feed (commits/main.atom) hat kein solches Limit und ist sofort aktuell.
+function Aktuelle-PackUrl {
+    try {
+        $r = (Invoke-WebRequest -Uri ('https://github.com/ex4kt/exactly-pack/commits/main.atom?t=' + [DateTime]::UtcNow.Ticks) -Headers @{ 'User-Agent' = 'exactly-start'; 'Cache-Control' = 'no-cache' } -UseBasicParsing -TimeoutSec 20).Content
+        if ($r -is [byte[]]) { $r = [Text.Encoding]::UTF8.GetString($r) }
+        $sha = [regex]::Match($r, 'Commit/([0-9a-f]{40})').Groups[1].Value
+        if ($sha) { return "https://raw.githubusercontent.com/ex4kt/exactly-pack/$sha/pack.toml" }
+    } catch { }
+    return $PackUrl
+}
+
 function Hole-Remote {
+    try {
+        $url = Aktuelle-PackUrl
+        if ($url -ne $PackUrl) {
+            $r = Invoke-WebRequest -Uri $url -Headers @{ 'User-Agent' = 'exactly-start' } -UseBasicParsing -TimeoutSec 20
+            if ($r.Content -is [byte[]]) { $r | Add-Member -Force NoteProperty Content ([Text.Encoding]::UTF8.GetString($r.Content)) }
+            $bytes = [Text.Encoding]::UTF8.GetBytes($r.Content)
+            $sha = [BitConverter]::ToString([Security.Cryptography.SHA256]::Create().ComputeHash($bytes)).Replace('-', '').ToLower()
+            $v = ([regex]::Match($r.Content, '(?m)^version\s*=\s*"([^"]+)"')).Groups[1].Value
+            return @{ Version = $v; Hash = $sha }
+        }
+    } catch { }
     try {
         # raw.githubusercontent.com liefert Minuten lang eine alte pack.toml aus (CDN-Cache, Query hilft nicht);
         # die API liefert immer den aktuellen Stand, raw bleibt nur als Notnagel.
@@ -117,7 +140,10 @@ $bUpd.Add_Click({
         if (Test-Path 'packwiz-installer.jar') { $argumente += '--bootstrap-no-update' }
         # Das Start-Fenster ist TopMost und wuerde den Installer verdecken: solange er laeuft aus, sein Fenster einmal nach vorne holen
         $form.TopMost = $false
-        $p = Start-Process -FilePath $java -ArgumentList ($argumente + $PackUrl) -PassThru
+        # Der Installer laedt pack.toml selbst; ueber raw/main bekam er minutenlang die alte Fassung aus dem
+        # CDN-Cache und "aktualisierte" nichts (0.0.408). Darum die Adresse des aktuellen Commits nehmen.
+        $url = Aktuelle-PackUrl
+        $p =Start-Process -FilePath $java -ArgumentList ($argumente + $url) -PassThru
         $vorne = $false
         while (-not $p.HasExited) {
             [Windows.Forms.Application]::DoEvents(); Start-Sleep -Milliseconds 100
