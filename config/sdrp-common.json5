@@ -1,13 +1,13 @@
 {
-	// Discord-App-ID. 608012526537408579 ist die Standard-App der Mod (Discord zeigt dann deren Namen).
-	// Fuer "Exactly" als Name und eigene Bilder: eigene App im Discord Developer Portal anlegen und ihre ID hier eintragen.
-	"clientId": 608012526537408579,
+	// Discord-App-ID: eigene App "Exactly" (Raphaels Konto, angelegt 10.11.2026). Standard der Mod war 608012526537408579.
+	// Bilder (imageKey, logo) muessen in der App unter Rich Presence > Art Assets hochgeladen sein, sonst zeigt Discord keins.
+	"clientId": 1569776545763954690,
 	"enabled": true,
 	"logState": false,
 	"buttons": [],
 	"enableUpdateDimensionPresence": true,
 	// Exactly: feste deutsche Texte je Welt (prefixWithIn aus, sonst steht "In Oberwelt" da).
-	// imageKey = Bildname in der Discord-App; overworld, the_nether, the_end und menu hat die Standard-App.
+	// imageKey = Bildname in der Discord-App; Namen: logo, menu, overworld, the_nether, the_end, aether, twilight_forest, otherside, pocket_dimension.
 	"dimensionsSupport": [
 		{ "matcher": "exact@minecraft:overworld", "message": "In der Oberwelt", "imageName": "Oberwelt", "imageKey": "overworld", "prefixWithIn": false },
 		{ "matcher": "exact@minecraft:the_nether", "message": "Im Nether", "imageName": "Nether", "imageKey": "the_nether", "prefixWithIn": false },
