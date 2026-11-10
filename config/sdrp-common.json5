@@ -1,0 +1,34 @@
+{
+	// Discord-App-ID. 608012526537408579 ist die Standard-App der Mod (Discord zeigt dann deren Namen).
+	// Fuer "Exactly" als Name und eigene Bilder: eigene App im Discord Developer Portal anlegen und ihre ID hier eintragen.
+	"clientId": 608012526537408579,
+	"enabled": true,
+	"logState": false,
+	"buttons": [],
+	"enableUpdateDimensionPresence": true,
+	// Exactly: feste deutsche Texte je Welt (prefixWithIn aus, sonst steht "In Oberwelt" da).
+	// imageKey = Bildname in der Discord-App; overworld, the_nether, the_end und menu hat die Standard-App.
+	"dimensionsSupport": [
+		{ "matcher": "exact@minecraft:overworld", "message": "In der Oberwelt", "imageName": "Oberwelt", "imageKey": "overworld", "prefixWithIn": false },
+		{ "matcher": "exact@minecraft:the_nether", "message": "Im Nether", "imageName": "Nether", "imageKey": "the_nether", "prefixWithIn": false },
+		{ "matcher": "exact@minecraft:the_end", "message": "Im Ende", "imageName": "Das Ende", "imageKey": "the_end", "prefixWithIn": false },
+		{ "matcher": "exact@aether:the_aether", "message": "Im Aether", "imageName": "Der Aether", "imageKey": "aether", "prefixWithIn": false },
+		{ "matcher": "exact@twilightforest:twilight_forest", "message": "Im Dämmerwald", "imageName": "Dämmerwald", "imageKey": "twilight_forest", "prefixWithIn": false },
+		{ "matcher": "exact@deeperdarker:otherside", "message": "In der Anderwelt", "imageName": "Anderwelt", "imageKey": "otherside", "prefixWithIn": false },
+		{ "matcher": "exact@irons_spellbooks:pocket_dimension", "message": "In der Taschendimension", "imageName": "Taschendimension", "imageKey": "pocket_dimension", "prefixWithIn": false },
+		{ "matcher": "regex@.*", "message": "Unterwegs in einer anderen Welt", "imageName": "Andere Welt", "imageKey": "overworld", "prefixWithIn": false }
+	],
+	"enableUpdateScreenPresence": true,
+	"screens": [
+		{
+			"screenClass": [
+				"net.minecraft.client.gui.screens.TitleScreen",
+				"net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen",
+				"net.minecraft.client.gui.screens.worldselection.SelectWorldScreen"
+			],
+			"message": "sdrp.mainmenu",
+			"imageName": "sdrp.mainmenu",
+			"imageKey": "menu"
+		}
+	]
+}
