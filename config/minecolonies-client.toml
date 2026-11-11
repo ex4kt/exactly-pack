@@ -1,0 +1,20 @@
+#Alle Konfigurationen zu Kernfunktionen des Spiels
+[gameplay]
+	#minecolonies.config.enablecitizenvoices.comment [Default: true]
+	enablecitizenvoices = false
+	#Wenn Sie einen Schaltplan in der Nähe anderer Gebäude platzieren, werden die bereits platzierten Gebäude standardmäßig so dargestellt, als ob sie sich auf Stufe 5 befänden, und mit einem blauen Umriss versehen. Sie können dies deaktivieren, indem Sie diese Option auf false setzen. [Default: true]
+	neighborbuildingrendering = true
+	#Wie nah ein Gebäude an einem anderen liegen muss, um als Nachbar zu gelten, in Blöcken. -1 = sich überschneidend, 0 = berührend [Default: 4, min: -2, max: 16]
+	# Default: 4
+	# Range: -2 ~ 16
+	neighborbuildingrange = 4
+	#Wie nah (in Blöcken) muss man sein, um Arbeitsaufträge zu sehen, wenn man die Bausichtbrille trägt? [Default: 50, min: 1, max: 250]
+	# Default: 50
+	# Range: 1 ~ 250
+	buildgogglerange = 50
+	#Wenn es wahr ist, werden die Grenzen der Kolonie in der Teamfarbe der Kolonie angezeigt, wenn das Bauwerkzeug gehalten wird. Wenn es falsch ist, wird die Kolonie, in der du dich befindest, weiß und alle anderen Kolonien werden rot sein. [Default: true]
+	colonyteamborders = true
+	#Soll spezieller Feiertagsinhalt angezeigt werden? [Default: true]
+	holidayfeatures = true
+	#Wenn dies zutrifft, wird bei gefärbten Lederartikeln ein Tooltip angezeigt, damit Sie wissen, welche Farbe Sie verwenden sollen. [Default: true]
+	showdyetooltips = true
