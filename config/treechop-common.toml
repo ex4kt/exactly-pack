@@ -57,7 +57,7 @@
 		# - You can also specify a mod: "treemod:.*_log"
 		# - To also match stripped versions: ".*_log(_stripped)?", where ? means that the text in the parenthesis is optional
 		#For more help, see https://github.com/hammertater/treechop/wiki/Configuration
-		blocks = ["#treechop:choppables", "#minecraft:logs"]
+		blocks = ["#treechop:choppables", "#minecraft:logs", "minecraft:mushroom_stem", "quark:glow_shroom_stem", "regions_unexplored:blue_bioshroom_stem", "regions_unexplored:green_bioshroom_stem", "regions_unexplored:pink_bioshroom_stem", "regions_unexplored:yellow_bioshroom_stem"]
 		#Blocks that should never be chopped, even if included in the list above
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
 		exceptions = ["minecraft:bamboo", "#dynamictrees:branches", "dynamictrees:trunk_shell"]
@@ -65,7 +65,7 @@
 	[treeDetection.leaves]
 		#Blocks that should be considered leaves
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
-		blocks = ["#treechop:leaves_like", "#minecraft:leaves", "pamhc2trees:pam[a-z]+"]
+		blocks = ["#treechop:leaves_like", "#minecraft:leaves", "pamhc2trees:pam[a-z]+", "minecraft:brown_mushroom_block", "minecraft:red_mushroom_block", "quark:glow_shroom_block", "regions_unexplored:blue_bioshroom_block", "regions_unexplored:green_bioshroom_block", "regions_unexplored:pink_bioshroom_block", "regions_unexplored:yellow_bioshroom_block", "regions_unexplored:glowing_blue_bioshroom_block", "regions_unexplored:glowing_green_bioshroom_block", "regions_unexplored:glowing_pink_bioshroom_block", "regions_unexplored:glowing_yellow_bioshroom_block", "wetland_whimsy:aria_mushroom_block", "wetland_whimsy:fellcap_mushroom_block"]
 		#Blocks that should never be considered leaves, even if included in the list above
 		#Specify using registry names (mod:block), tags (#mod:tag), and namespaces (@mod)
 		exceptions = []
