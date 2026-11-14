@@ -1,12 +1,12 @@
 ﻿# Exactly: Start-Fenster vor dem Spielstart (wird von Prism als "Vor dem Start"-Befehl aufgerufen).
 # Prueft die Pack-Version, laesst den packwiz-Installer mit seinem Fortschrittsbalken laufen und
 # erlaubt "Starten" nur, wenn alles auf dem neuesten Stand ist. "Beenden" bricht den Start ab (Exit-Code 1).
-param([switch]$Test)
+param([switch]$Test, [switch]$AufraeumenTest)
 $ErrorActionPreference = 'Stop'
 $PackUrl = 'https://raw.githubusercontent.com/ex4kt/exactly-pack/main/pack.toml'
 
 # Auf eine Kopie im Temp-Ordner umsteigen, damit der Installer diese Datei bei einem Update ersetzen darf.
-if (-not $Test -and $PSCommandPath -and ((Split-Path $PSCommandPath -Leaf) -ne 'exactly-start-run.ps1')) {
+if (-not $Test -and -not $AufraeumenTest -and $PSCommandPath -and ((Split-Path $PSCommandPath -Leaf) -ne 'exactly-start-run.ps1')) {
     $kopie = Join-Path $env:TEMP 'exactly-start-run.ps1'
     Copy-Item $PSCommandPath $kopie -Force
     & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $kopie
@@ -67,7 +67,57 @@ function Pruefen {
     return @{ Status = 'alt'; Lokal = $lokal; Neu = $remote.Version }
 }
 
+# Aufraeumen (0.0.423): entfernt Ueberfluessiges, ohne dass Spieler etwas tun muessen. Laeuft nach jedem erfolgreichen Update.
+#  1) Alle Jars in mods\, die packwiz nicht kennt (nicht in packwiz.json); nur Raphael fuegt Mods hinzu (13.11.2026).
+#  2) Alle Pfade aus config\exactly_entfernt.txt (eine Zeile pro Pfad, relativ zum Minecraft-Ordner, # = Kommentar).
+# Sicherungen: nur bei gueltiger packwiz.json mit vielen Eintraegen, hoechstens 40 Jars pro Lauf, keine absoluten Pfade, kein "..".
+function Aufraeumen([switch]$Trocken) {
+    $wurzel = (Get-Location).Path
+    $geloescht = @()
+    try {
+        $j = Get-Content (Join-Path $wurzel 'packwiz.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+        $bekannt = @{}
+        foreach ($e in $j.cachedFiles.PSObject.Properties) {
+            $d = $e.Value.cachedLocation
+            if ($d) { $bekannt[($d -replace '/', '\').ToLower()] = 1 }
+        }
+        $modsDir = Join-Path $wurzel 'mods'
+        if ($bekannt.Count -gt 100 -and (Test-Path $modsDir)) {
+            $fremd = @(Get-ChildItem $modsDir -Filter *.jar -File | Where-Object { -not $bekannt.ContainsKey(('mods\' + $_.Name).ToLower()) })
+            if ($fremd.Count -le 40) {
+                foreach ($f in $fremd) { if (-not $Trocken) { Remove-Item $f.FullName -Force -ErrorAction SilentlyContinue }; $geloescht += ('mods\' + $f.Name) }
+            }
+        }
+    } catch { }
+    try {
+        $liste = Join-Path $wurzel 'config\exactly_entfernt.txt'
+        if (Test-Path $liste) {
+            foreach ($z in (Get-Content $liste -Encoding UTF8)) {
+                $z = $z.Trim()
+                if (-not $z -or $z.StartsWith('#') -or $z -match '\.\.' -or [IO.Path]::IsPathRooted($z)) { continue }
+                $ziel = Join-Path $wurzel ($z -replace '/', '\')
+                if (Test-Path $ziel) { if (-not $Trocken) { Remove-Item $ziel -Recurse -Force -ErrorAction SilentlyContinue }; $geloescht += $z }
+            }
+        }
+    } catch { }
+    return $geloescht
+}
+
+if ($AufraeumenTest) { @(Aufraeumen -Trocken) | ConvertTo-Json; exit 0 }
 if ($Test) { Pruefen | ConvertTo-Json; exit 0 }
+
+# Ohne Fenster (fuer Tests ohne Klick, z. B. von Claude per "prismlauncher -l"): EXACTLY_AUTOSTART=1 in der Umgebung von Prism
+if ($env:EXACTLY_AUTOSTART -eq '1') {
+    $e = Pruefen
+    if ($e.Status -eq 'alt') {
+        $java = $env:INST_JAVA; if (-not $java) { $java = 'java' }
+        $argumente = @('-jar', 'packwiz-installer-bootstrap.jar'); if (Test-Path 'packwiz-installer.jar') { $argumente += '--bootstrap-no-update' }
+        $p = Start-Process -FilePath $java -ArgumentList ($argumente + (Aktuelle-PackUrl)) -PassThru -Wait
+        if ($p.ExitCode -ne 0) { exit 1 }
+        $e = Pruefen
+    }
+    if ($e.Status -eq 'aktuell') { [void](Aufraeumen); exit 0 } else { exit 1 }
+}
 
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
@@ -124,7 +174,7 @@ function Neu-Pruefen {
     [Windows.Forms.Application]::DoEvents()
     $e = Pruefen
     switch ($e.Status) {
-        'aktuell' { Zeige 'aktuell' ("Alles aktuell.`nVersion " + $e.Neu + ' - du kannst starten.') $false }
+        'aktuell' { [void](Aufraeumen); Zeige 'aktuell' ("Alles aktuell.`nVersion " + $e.Neu + ' - du kannst starten.') $false }
         'alt'     { Zeige 'alt' ("Neue Version " + $e.Neu + " verfuegbar (du hast " + $(if ($e.Lokal) { $e.Lokal } else { 'eine aeltere' }) + ").`nBitte aktualisieren, mit alter Version geht der Start nicht.") $false }
         default   { Zeige 'offline' "Keine Verbindung zu GitHub.`nOhne Internet kann ich die Version nicht pruefen. Verbinde dich und druecke Aktualisieren." $false }
     }
