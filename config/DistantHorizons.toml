@@ -18,7 +18,7 @@ _version = 5
 			#  
 			# IE disabling vanilla clouds (which render on top of DH LODs), 
 			#    and chunk fading (DH already fades MC chunks)
-			overrideVanillaGraphicsSettings = true
+			overrideVanillaGraphicsSettings = false
 
 			[client.advanced.graphics.quality]
 				#
@@ -111,7 +111,7 @@ _version = 5
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "DOUBLE_PASS"
+				vanillaFadeMode = "SINGLE_PASS"
 				#
 				# This is the same as vanilla Biome Blending settings for Lod area. 
 				#     Note: anything above '0' will slow down LOD loading time. 
@@ -119,7 +119,7 @@ _version = 5
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 3
+				lodBiomeBlending = 1
 				#
 				# How bright LOD colors are. 
 				# 
@@ -945,7 +945,7 @@ _version = 5
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 10
+	generationRequestRateLimit = 5
 	#
 	# Defines the distance allowed to generate around the player.
 	maxGenerationRequestDistance = 2048
@@ -954,7 +954,7 @@ _version = 5
 	enableRealTimeUpdates = true
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 256
+	realTimeUpdateDistanceRadiusInChunks = 128
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
@@ -978,4 +978,4 @@ _version = 5
 	# Enables adaptive transfer speed based on client performance.
 	# If true, DH will automatically adjust transfer rate to minimize connection lag.
 	# If false, transfer speed will remain fixed.
-	enableAdaptiveTransferSpeed = false
+	enableAdaptiveTransferSpeed = true
