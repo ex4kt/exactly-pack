@@ -103,6 +103,19 @@ function Aufraeumen([switch]$Trocken) {
     return $geloescht
 }
 
+# Java fuer den packwiz-Installer: Prism setzt INST_JAVA, andere Launcher (z. B. OneClient) nicht.
+# Reihenfolge: INST_JAVA, JAVA_HOME, Prism-Java, OneClient-Java, sonst "java" aus dem PATH.
+function Finde-Java {
+    if ($env:INST_JAVA -and (Test-Path $env:INST_JAVA)) { return $env:INST_JAVA }
+    if ($env:JAVA_HOME) { $j = Join-Path $env:JAVA_HOME 'bin\java.exe'; if (Test-Path $j) { return $j } }
+    foreach ($wurzel in @((Join-Path $env:APPDATA 'PrismLauncher\java'), (Join-Path $env:APPDATA 'Polyfrost\OneClient'))) {
+        if (Test-Path $wurzel) {
+            $j = Get-ChildItem $wurzel -Recurse -Filter 'java.exe' -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+            if ($j) { return $j.FullName }
+        }
+    }
+    return 'java'
+}
 if ($AufraeumenTest) { @(Aufraeumen -Trocken) | ConvertTo-Json; exit 0 }
 if ($Test) { Pruefen | ConvertTo-Json; exit 0 }
 
@@ -110,7 +123,7 @@ if ($Test) { Pruefen | ConvertTo-Json; exit 0 }
 if ($env:EXACTLY_AUTOSTART -eq '1') {
     $e = Pruefen
     if ($e.Status -eq 'alt') {
-        $java = $env:INST_JAVA; if (-not $java) { $java = 'java' }
+        $java = Finde-Java
         $argumente = @('-jar', 'packwiz-installer-bootstrap.jar'); if (Test-Path 'packwiz-installer.jar') { $argumente += '--bootstrap-no-update' }
         $p = Start-Process -FilePath $java -ArgumentList ($argumente + (Aktuelle-PackUrl)) -PassThru -Wait
         if ($p.ExitCode -ne 0) { exit 1 }
@@ -181,7 +194,7 @@ function Neu-Pruefen {
 }
 
 $bUpd.Add_Click({
-    $java = $env:INST_JAVA; if (-not $java) { $java = 'java' }
+    $java = Finde-Java
     Zeige 'alt' 'Aktualisiere ... (das Fenster des Installers zeigt den Fortschritt)' $true
     try {
         # Ist packwiz-installer.jar schon da, nicht bei der GitHub-API nach einer neueren Installer-Version fragen:
