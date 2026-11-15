@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Ores",
+        "blocks": [
+            "#c:ores",
+            "create_new_age:thorium_ore",
+            "expandeddelight:salt_ore",
+            "expandeddelight:deepslate_salt_ore",
+            "monsterspellbooks:void_matter_ore"
+        ],
+        "tools": [
+            "#minecraft:pickaxes"
+        ],
+        "override": {
+            "cooldown": null,
+            "mustSneak": null,
+            "delay": null,
+            "maxChain": null,
+            "needCorrectTool": null,
+            "searchRadius": null,
+            "permissionRestricted": null,
+            "decreaseDurability": null,
+            "hungerPerBlock": null,
+            "miningSpeedModifier": null
+        }
+    },
+    {
+        "name": "Weitere Erze",
+        "blocks": [
+            "eternalnether:withered_debris",
+            "irons_spellbooks:arcane_debris",
+            "monsterspellbooks:oceanite_ore_clay",
+            "monsterspellbooks:oceanite_ore_gravel",
+            "monsterspellbooks:oceanite_ore_sand"
+        ],
+        "tools": [
+            "#minecraft:pickaxes",
+            "#minecraft:shovels"
+        ],
+        "override": {
+            "cooldown": null,
+            "mustSneak": null,
+            "delay": null,
+            "maxChain": null,
+            "needCorrectTool": false,
+            "searchRadius": null,
+            "permissionRestricted": null,
+            "decreaseDurability": null,
+            "hungerPerBlock": null,
+            "miningSpeedModifier": null
+        }
+    }
+]
