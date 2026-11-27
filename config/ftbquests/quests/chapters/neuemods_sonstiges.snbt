@@ -185,5 +185,16 @@
 			x: 1.50d
 			y: 4.50d
 		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Replantment bringt die Verzauberung Nachpflanzen für Hacken. Sie pflanzt beim Abbauen einer reifen Pflanze gleich wieder ein.", "", "&6So gehts", "Verzaubere eine Hacke am Zaubertisch oder mit einem Buch am Amboss. Baue dann reife Pflanzen mit der Hacke ab.", "Das Saatgut kommt aus den Drops der Pflanze. Ohne Saatgut im Drop wird nichts gepflanzt.", "", "&6Wofür ist das wichtig?", "So erntest du große Felder ohne Neupflanzen von Hand."]
+			icon: { id: "minecraft:iron_hoe" }
+			id: "2FBFD5CD43CA3EF9"
+			title: "Nachpflanzen mit der Hacke"
+			rewards: [{ id: "1B3E9C9B339C11C7", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "3A3FAD6F8D58C7BD", type: "checkmark", title: "Ernte mit einer Hacke verzaubert nachpflanzen" }]
+			x: 1.50d
+			y: 6.00d
+		}
 	]
 }
