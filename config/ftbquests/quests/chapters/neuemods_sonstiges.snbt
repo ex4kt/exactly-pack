@@ -196,5 +196,60 @@
 			x: 1.50d
 			y: 6.00d
 		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Der Multi-Kolben schiebt beliebige Blöcke, nicht nur wenige wie der normale Kolben. Du stellst alles über ein Menü ein.", "", "&6So gehts", "Rezept: drei Stein oben, links und rechts je ein Redstoneblock, unten drei Kolben.", "Rechtsklick auf den Block öffnet das Menü. Dort wählst du die Richtung.", "", "&6Wofür ist das wichtig?", "Damit baust du große Türen, Aufzüge und Fahrzeuge aus Blöcken."]
+			icon: { id: "multipiston:multipistonblock" }
+			id: "12CE6AC14542E9A3"
+			title: "Multi-Kolben"
+			rewards: [{ id: "49E74DADDF9418A0", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0C19A4AAEF7FBBBA", type: "item", item: { id: "multipiston:multipistonblock", count: 1 }, count: 1L }]
+			x: 3.00d
+			y: 6.00d
+		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Im Inventar gibt es einen Mülleimer-Platz. Alles, was du dort hineinlegst, ist weg.", "", "&6So gehts", "Der Platz ist im Spielerinventar und auch in den Inventaren deiner Kolonie-Bewohner, im Gebäude-Lager und im Kolonie-Regal.", "", "&6Wofür ist das wichtig?", "So wirst du unnötige Dinge schnell los, ohne sie auf den Boden zu werfen."]
+			icon: { id: "minecraft:cauldron" }
+			id: "08794B03E5D6E4D7"
+			title: "Mülleimer-Platz"
+			rewards: [{ id: "60E13FA9B33FDC6F", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "4AF4FAE987B32AA8", type: "checkmark", title: "Mülleimer-Platz im Inventar gefunden" }]
+			x: 4.50d
+			y: 6.00d
+		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Trade Cycling gibt dem Handelsfenster einen Knopf. Er würfelt die Angebote eines Dorfbewohners neu aus.", "", "&6So gehts", "Das geht nur, solange noch niemand mit dem Dorfbewohner gehandelt hat.", "", "&6Wofür ist das wichtig?", "So suchst du dir das beste Angebot, zum Beispiel eine bestimmte Verzauberung."]
+			icon: { id: "minecraft:emerald" }
+			id: "687F1FCC69C98C18"
+			title: "Handel neu würfeln"
+			rewards: [{ id: "0EE1E59D6A83C18B", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "2B1ADE161264348A", type: "checkmark", title: "Angebote eines Dorfbewohners neu gewürfelt" }]
+			x: 6.00d
+			y: 6.00d
+		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Veinminer baut zusammenhängende Erze am Stück ab. Das gilt für alle Erze im Pack, auch Thorium, Salz und Leerenmaterie.", "", "&6So gehts", "Halte die Veinminer-Taste gedrückt und baue ein Erz ab. Die Taste steht in der Steuerung unter Veinminer.", "", "&6Wofür ist das wichtig?", "Das spart viel Zeit in der Mine, kostet aber Haltbarkeit des Werkzeugs."]
+			icon: { id: "minecraft:iron_pickaxe" }
+			id: "0E70EB7F1BDC0CAC"
+			title: "Erze am Stück abbauen"
+			rewards: [{ id: "356E3E3FD0D0AABE", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "0BC67834C1CC2F60", type: "checkmark", title: "Ein Erzvorkommen am Stück abgebaut" }]
+			x: 7.50d
+			y: 6.00d
+		}
+		{
+			dependencies: ["1F9A49EA0F75944D"]
+			description: ["&6Was ist das?", "Werkzeuge, Waffen und Rüstung zeigen ihre Haltbarkeit im Tooltip an.", "", "&6So gehts", "Halte die Maus über den Gegenstand im Inventar und lies die Zahl ab.", "", "&6Wofür ist das wichtig?", "So weißt du, wann du reparieren musst, bevor etwas kaputtgeht."]
+			icon: { id: "minecraft:anvil" }
+			id: "7D8C839A21CD7A4E"
+			title: "Haltbarkeit im Tooltip"
+			rewards: [{ id: "3479724109019835", type: "xp_levels", xp_levels: 2 }]
+			tasks: [{ id: "015DC41C3CA94E0A", type: "checkmark", title: "Haltbarkeit eines Werkzeugs im Tooltip gesehen" }]
+			x: 9.00d
+			y: 6.00d
+		}
 	]
 }
